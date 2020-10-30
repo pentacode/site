@@ -7,10 +7,9 @@ summary: Mit der Wieder- oder Neueinstellung von Mitarbeitern können Sie die Zu
 date: 2020-06-29T22:00:00+00:00
 publishDate: 2020-06-29T22:00:00+00:00
 cover: "/uploads/segelbild_kleiner.jpg"
-draft: true
 
 ---
-## Wie Sie SFN-Zuschläge nutzen können, um Lohnkosten zu senken
+### Wie Sie SFN-Zuschläge nutzen können, um Lohnkosten zu senken
 
 Mit der Wiedereröffnung der Gastronomie werden die Auswirkungen der „Neuen Normalität“ in der ersten Instanz erfahrbar. Allein die vorgeschriebenen Tischzusammensetzungen und Abstandsregeln führen in vielen Fällen zu einer Halbierung der einstmals vorhandenen Sitzplätze und damit schon rechnerisch zu einer Halbierung der bisherigen Umsätze. Hinzu kommt noch der psychosoziale Faktor durch die erhöhte Vorsicht vieler Gäste, aufgrund derer viele aus Furcht vor Ansteckung eine vermeintliche Menge meiden werden. Das entsprechende Verhalten ist über mehr als zwei Monate hinweg eingeübt worden.
 
@@ -20,7 +19,7 @@ Was jedoch bleibt, ist Umsatzverlust in einer Größenordnung, welche viele Betr
 
 Und da die größte Kostenposition in so gut wie jedem gastronomischen Betrieb die Personalkosten sind, kommen wir hier zum ersten unserer Vorschläge, wie Personalkosten gesenkt werden können – durch die Änderung bestehender Gehaltsstrukturen.
 
-## Möglichkeiten und Grenzen von Zuschlagszahlungen
+### Möglichkeiten und Grenzen von Zuschlagszahlungen
 
 Manche Ihrer Mitarbeiter werden Sie nicht halten können, weil es der Umsatzrückgang nicht erlaubt, andere – wenn wohl auch nur relativ wenige - werden gehen, weil sie eine Stelle finden, bei der der Anteil der Kurzarbeitszeit geringer ist und so einen höheren Verdienst ermöglicht. Doch der „Umbau“ der Belegschaft durch Fluktuation schafft auch die Möglichkeit, die Zusammensetzung von Gehältern neu zu regeln.
 
@@ -46,7 +45,7 @@ Diese Zuschläge können wie folgt erhoben werden:
 
 Selbst wenn die SFN-Zuschläge abgabenfrei beim Arbeitnehmer ankommen, würden sie als Hinzuzahlung jedoch die Lohnsumme für den Arbeitgeber erhöhen. Dies ist also für den Fall einer Lohnerhöhung geeignet, dient aber nicht zur Senkung der Lohnkosten.
 
-## Zuschlagszahlungen anders gedacht
+### Zuschlagszahlungen anders gedacht
 
 Ein Lohnmodell basierend auf der Zahlung von SFN-Zuschlägen lässt sich jedoch auch anders denken. Hierfür möchten wir ein Beispiel anführen, das sehr häufig der Realität in der Gastronomie entspricht. In der Gastronomie streben viele, wenn nicht sogar der überwiegende Teil der Arbeitnehmer ein möglichst hohes Nettogehalt an. Viele formulieren diese Netto-Erwartung auch entsprechend eindeutig.
 
@@ -62,7 +61,7 @@ Da Sie Ihren Betrieb kennen und somit einen Überblick über die gängigen Einsa
 
 Wenn Sie Kunde von Pentacode sind, senden wir Ihnen gerne ein digitales Formular zu, mit dem Sie die entsprechenden Berechnungen auf einfache Weise selbst durchführen können. Senden Sie uns hierzu eine kurze Email an [kontakt@pentaco.de](mailto:kontakt@pentaco.de).
 
-## Pauschale Vorauszahlungen von Zuschlägen
+### Pauschale Vorauszahlungen von Zuschlägen
 
 Der Nachteil bei der Zahlung von SFN-Zuschlägen ist, dass im Regelfall die Höhe des Auszahlungsbetrages in Abhängigkeit von den tatsächlichen Einsatzzeiten und der Anzahl an gearbeiteten Nachtstunden, Feiertagen und Sonntagen schwankt. Doch auch diese Schwankungen lassen sich durch die Vereinbarung einer „unterjährigen pauschalen Vorauszahlung“ vermeiden.
 
@@ -72,7 +71,7 @@ Sie ermitteln für einen Mitarbeiter auf Basis der zu erwartenden Einsatzzeiten 
 
 Von entscheidender Bedeutung bei diesem Modell ist deshalb - wie in jedem Fall der Bezahlung von SFN-Zuschlägen – ein gutes „Monitoring“ und eine exakte und verlässliche Arbeitszeitdokumentation. Doch die fordert der Gesetzgeber ohnehin ein. Nachdem Ihnen die Mühe der Arbeitszeitdokumentation aber bereits aufgebürdet worden ist, sollten Sie sich überlegen, ob Sie aus ihr nicht auch einen echten Nutzen für sich selbst ziehen wollen.
 
-## Geringfügig Beschäftigte
+### Geringfügig Beschäftigte
 
 Da SFN-Zuschläge sozialversicherungs- und lohnsteuerbefreit sind, können sie auch geringfügig Beschäftigten über die Lohngrenze von aktuell 450 € / Monat hinaus hinzugezahlt werden. Wie hilfreich dies sein kann, sei an einem weiteren Beispiel gezeigt:
 
