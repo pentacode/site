@@ -17,3 +17,5 @@ fields:
 - type: file
   name: cover
   label: cover
+pages:
+- content/blog/hilfe-zur-selbsthilfe.md
