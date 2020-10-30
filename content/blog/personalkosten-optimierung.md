@@ -1,11 +1,15 @@
 ---
-title: "Personalkosten-Optimierung in der Gastronomie - es gibt mehr Möglichkeiten als Sie denken"
-summary: "Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wenn es um Personalkosten geht, bietet in Europa gerade Deutschland die besten Voraussetzungen für Arbeitgeber. Warum und wie Sie die bestehenden Möglichkeiten unbedingt nutzen sollten."
+title: Personalkosten-Optimierung in der Gastronomie - es gibt mehr Möglichkeiten
+  als Sie denken
+summary: Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wenn es
+  um Personalkosten geht, bietet in Europa gerade Deutschland die besten Voraussetzungen
+  für Arbeitgeber. Warum und wie Sie die bestehenden Möglichkeiten unbedingt nutzen
+  sollten.
 date: 2020-09-24
 publishDate: 2020-09-24
 cover: https://pentaco.de/content/images/size/w2000/2020/09/Athlet.jpg
----
 
+---
 Im Verhältnis zu anderen Branchen schneidet die Gastronomie im Durchschnitt wirtschaftlich relativ schlecht ab. Dies wird häufig damit begründet, dass Lohnkosten und Abgabenlast zu hoch und damit die Profitabilität der Unternehmen zu gering seien. Dieser Eindruck entsteht leicht und ist verständlich, wenn ein Gastronom nach einer langen Reihe langer und harter Arbeitstage „sieht“, was für ihn am Ende übrigblieb. Die Annahme, dass die Kosten für Arbeit in Deutschland zu hoch sind, ist in den allermeisten Aspekten jedoch schlicht falsch.
 
 Tatsächlich bietet der Wirtschaftsstandort Deutschland Voraussetzungen, die sich Unternehmer in anderen Ländern Europas wünschen würden. Zum einen bietet der Gesetzgeber Möglichkeiten der Lohngestaltung, die in anderen Staaten nicht einmal zu träumen sind. Und darüber hinaus, auch wenn es nicht der subjektiven Wahrnehmung der deutschen Unternehmer entspricht: die Lohnkosten in Deutschland liegen zum Teil erheblich unter dem europäischen Durchschnitt. Die Möglichkeiten, die sich aus diesen beiden Faktoren ergeben, müssen nur genutzt werden.
@@ -14,7 +18,7 @@ Mit einer kleinen Reihe von Artikeln wollen wir Ihnen praktische Tipps geben, wi
 
 Denn zuerst wollen wir mit der grundsätzlichen Fehleinschätzung zu Lohnkosten in Deutschland aufräumen.
 
-## Deutschland = Teuerland?
+### Deutschland = Teuerland?
 
 Gesamtwirtschaftlich liegen die Lohnkosten in Deutschland mit 27 € pro Stunde nur 5 € über dem Durchschnitt des Euroraumes. In diesen Euroraum-Durchschnitt fließt aber mehr als die Hälfte aller Staaten ein, bei denen die Lohnkosten zwischen 20 € (Slowenien) und 4 € (Bulgarien) liegen. Im Vergleich zu den europäischen „Kernstaaten“ liegt Deutschland im unteren Drittel. Nur Schweden, Frankreich, Österreich und Italien haben einen geringeren Lohndurchschnitt (1).
 
@@ -26,7 +30,7 @@ Um 60% des Durchschnittlohns zu erreichen, müsste der Mindestlohn in Deutschlan
 
 An den Lohnkosten liegt die Misere der Gastronomie also nicht. Sehen wir uns deshalb die Gastronomielandschaft an und vergleichen Deutschland mit zum Beispiel Italien.
 
-## Das wirtschaftliche Umfeld
+### Das wirtschaftliche Umfeld
 
 Deutschland hat bei 82 Mio. Einwohnern über 135.000 Restaurants, Cafés etc. (ohne Hotels), dem gegenüber stehen in Italien knapp 152.000 Restaurants bei 53 Mio. Einwohnern, also 12 % mehr (4). Allerdings geben wir Deutschen im Durchschnitt 13,7% des Einkommens für Nahrungsmittel aus, darunter Restaurantbesuche (5). Italiener hingegen liegen bei circa 18% (6). Setzt man die Konsumausgaben zueinander ins Verhältnis, gleicht dies den Unterschied in der Bevölkerungsanzahl fast völlig aus.
 
@@ -34,7 +38,7 @@ Den maßgeblichen Unterschied macht möglicherweise der Tourismus aus. 39 Mio. T
 
 Über die gesamtdeutsche Gastronomie ließe sich verallgemeinert sagen, dass zu wenig Konsum auf zu viele Betriebe verteilt ist. Das relativ hohe Umsatzniveau in „boom towns“ wie zum Beispiel München verstellt den Blick auf den simplen Umstand, dass der durchschnittliche Umsatz / Betrieb angesichts der Kostenstruktur zu gering ist.
 
-## Druck von oben, Druck von unten
+### Druck von oben, Druck von unten
 
 Gastronomie ist an erster Stelle umsatzgetrieben. Denn zu den Kosten der Warenabgabe und den im Durchschnitt zu hohen Personalkosten kommen relativ hohe Fixkosten durch Miete, Energie- und Entsorgungskosten hinzu und an diesen Kosten lässt sich nur schwer drehen.
 
@@ -48,7 +52,7 @@ Die Preistreiberei nach unten führt unmittelbar zu einem niedrigeren Pro-Kopf-U
 
 In einer Branche mit hoher Wettbewerbsdichte wie der Gastronomie erhält die Kombination aus Druck auf den Umsatz von oben und Druck auf die Kosten von unten eine giftige Wirkung, die ein profitables oder zumindest rentables Arbeiten sehr schwierig machen. Hat ein Betrieb kein Alleinstellungsmerkmal, das ihn vom Konkurrenten absetzt, ist er diesem „Gift“ ausgesetzt.
 
-## Personalkosten = Gewinn oder Verlust
+### Personalkosten = Gewinn oder Verlust
 
 Da ein Einfluss auf das (un-)wirtschaftliche Denken von Wettbewerbern nicht möglich, das Drehen an den Fixkosten zu wenig wirksam und das Senken des Wareneinsatzes sehr aufwändig ist, blieben noch die Personalkosten als mögliches Steuerungsmittel für den Gewinn. Personalkosten sind nicht nur die mit zumeist deutlichem Abstand größte Kostenposition und damit am potenziell ergiebigsten. Sie sind auch mit weitem Abstand am einfachsten zu steuern.
 
@@ -56,7 +60,7 @@ Diese Kostenart bedeutsam zu senken erfordert weder das Wissen, das für effekti
 
 In den nächsten Artikeln werden wir Ihnen Wege aufzeigen, wie Sie mit minimalem Aufwand, ohne jede Investition und sofort spürbar Ihre Margen erhöhen. Der Wirtschaftsstandort Deutschland mit seinen vergleichbar günstigen Voraussetzungen (siehe Einleitung) gibt Ihnen Handlungsmöglichkeiten, die Sie mittelfristig unbedingt nutzen sollten.
 
-## Bleiben Sie achtsam
+### Bleiben Sie achtsam
 
 Der stark erhöhte Binnentourismus und die Erweiterung der Außenflächen bei der städtischen Gastronomie hat vielen Betrieben zu Umsätzen verholfen, die relativ nahe an den Umsätzen des Vorjahres liegen. Dazu verschaffen die verringerten Mehrwertsteuersätze den gastronomischen Unternehmen im Augenblick „Luft“. Im günstigsten Fall kann der vorhandene Umsatz in Verbindung mit 5% Mehrwertsteuer bei manchen Betrieben sogar zu Gewinnmargen führen, die über jenen vor dem Lock down im März 2020 liegen.
 
