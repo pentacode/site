@@ -4,18 +4,15 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: textarea
   name: summary
-  label: summary
-- type: datetime
-  name: date
-  label: date
+  label: Zusammenfassung
 - type: datetime
   name: publishDate
-  label: publishDate
+  label: Datum
 - type: file
   name: cover
-  label: cover
+  label: Titelbild
 pages:
 - content/blog/hilfe-zur-selbsthilfe.md
