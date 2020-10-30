@@ -1,0 +1,6 @@
+---
+baseurl: "https://padloc.app/"
+title: "Pentacode"
+languageCode: "de-de"
+metaDataFormat: "yaml"
+pluralizelisttitles: false

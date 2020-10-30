@@ -1,0 +1,41 @@
+{{ define "css" }}
+    {{ template "basecss" }}
+    <link href="/css/home.css" rel="stylesheet" type="text/css" />
+{{ end }}
+
+{{ define "js" }}
+<script src="js/home.js"></script>
+{{ end }} {{ define "main" }}
+
+<section class="white hero" id="hero">
+    <div class="animation-reveal">
+        {{ partial "header" . }}
+    </div>
+
+    <div class="inner">
+        <div class="content">
+            <h1>
+                Die <strong>All-In-One</strong><br>Backoffice-Lösung<br>für Ihr Unternehmen
+            </h1>
+
+            <h3>
+                Von der <strong>Dienstplanung</strong> und <strong>Zeiterfassung</strong> bis hin zu <strong>Lohnvorbereitung</strong>,
+                <strong>Kostenanalyse</strong> und <strong>Controlling</strong> - Pentacode erleichtert Ihnen zahllose 
+            </h3>
+
+            <div class="buttons">
+                <a href='{{ .Param "get_started_url" }}' class="btn highlight">
+                    <span>Jetzt Ausprobieren</span>
+                    <span class="icon fas fa-play-circle"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="slides">
+            <img src="/img/home/roster.png" class="one-back"/>
+            <img src="/img/home/time-tracker.png" class="one-front" />
+        </div>
+    </div>
+</section>
+
+{{ end }}

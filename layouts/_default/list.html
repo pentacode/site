@@ -1,0 +1,73 @@
+{{ define "css" }}
+    {{ template "basecss" }}
+    <link href="/css/list.css" rel="stylesheet" type="text/css" />
+{{ end }}
+
+{{ define "main" }}
+
+{{ partial "header" . }}
+
+<div class="main-layout">
+
+    <div>
+        {{ if not (eq .Parent.Kind "home") }}
+        <div class="side-menu">
+            <div class="animation-reveal">
+                {{ partial "search" . }}
+            </div>
+
+            {{ partial "section-menu" . }}
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="main">
+        {{ if (eq .Parent.Kind "home") }}
+        <div class="animation-reveal">
+            {{ partial "search" . }}
+        </div>
+        {{ else }}
+
+        <div class="content animation-reveal">
+            {{ partial "cover-image" . }}
+
+            <h1>
+                {{ .Title }}
+            </h1>
+
+            {{ .Content }}
+        </div>
+
+        {{ end }}
+
+        <ul class="articles">
+            {{ range $index, $page := .Data.Pages }}
+            <li class="animation-reveal animation-fast animation-delay-{{ add $index 1 }}">
+                <a href="{{ .RelPermalink }}">
+                    <article>
+                        {{ partial "cover-image" . }}
+
+                        <div class="title">{{ .Title }}</div>
+
+                        <div class="subtitle">
+                            {{ if eq $page.Kind "page" }}
+                                {{ with .PublishDate }}
+                                    {{ dateFormat "Monday, Jan 2, 2006" . }}
+                                {{ end }}
+                            {{ else }}
+                                {{ len $page.Pages }} Articles
+                            {{ end }}
+                        </div>
+
+                        <div class="text">
+                            {{ default ($page.Summary | truncate 200) (.Param "description") }}...
+                        </div>
+                    </article>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+{{ end }}

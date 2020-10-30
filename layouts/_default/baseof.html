@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            {{ block "title" . }}
+                {{ .Site.Title }}
+            {{ end }}
+        </title>
+
+        {{ block "meta" . }}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- <meta name="apple&#45;itunes&#45;app" content="app&#45;id=871710139"> -->
+        {{ end }}
+
+        {{ block "favicon" . }}
+        <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
+        {{ end }}
+
+        {{ define "basecss" }}
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+        <link href="/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="/css/vars.css" rel="stylesheet" type="text/css">
+        <link href="/css/base.css" rel="stylesheet" type="text/css">
+        <link href="/css/layout.css" rel="stylesheet" type="text/css">
+        <link href="/css/header.css" rel="stylesheet" type="text/css">
+        <link href="/css/animation.css" rel="stylesheet" type="text/css">
+        {{ end }}
+
+        {{ block "css" . }}
+            {{ template "basecss" }}
+        {{ end }}
+
+        {{ block "js" . }}
+        {{ end }}
+    </head>
+    <body>
+        {{ block "main" . }}
+        {{ end }}
+
+        {{ block "float" . }}
+        {{ end }}
+
+        {{ block "footer" . }}
+            {{ partial "footer" . }}
+        {{ end }}
+    </body>
+</html>
+

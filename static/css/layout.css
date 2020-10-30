@@ -1,0 +1,78 @@
+.fullbleed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.layout {
+    display: flex;
+}
+
+.horizontal.layout {
+    flex-direction: row;
+}
+
+.vertical.layout {
+    flex-direction: column;
+}
+
+.center-aligning.layout {
+    align-items: center;
+}
+
+.start-aligning.layout {
+    align-items: flex-start;
+}
+
+.end-aligning.layout {
+    align-items: flex-end;
+}
+
+.center-justifying.layout {
+    justify-content: center;
+}
+
+.start-justifying.layout {
+    justify-content: flex-start;
+}
+
+.end-justifying.layout {
+    justify-content: flex-end;
+}
+
+.center-positioning.layout {
+    align-items: center;
+    justify-content: center;
+}
+
+.layout > .stretch {
+    flex-grow: 1;
+}
+
+.layout > :not(.stretch) {
+    flex: none;
+}
+
+.horizontal.layout > .collapse {
+    width: 0;
+}
+
+.vertical.layout > .collapse {
+    height: 0;
+}
+
+.display-contents {
+    display: contents;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-column-width, 10em), 1fr));
+    grid-gap: var(--grid-gap);
+}
+
+.grid-span-all-columns {
+    grid-column: 1 / -1;
+}

@@ -1,0 +1,15 @@
+<figure class='{{ .Get "class" }}'>
+    {{ if eq (.Get "mode") "md" }}
+        {{ markdownify .Inner }}
+    {{ else }}
+        {{ .Inner }}
+    {{ end }}
+
+    {{ with .Get "src" }}
+    <img src="{{ . }}" />
+    {{ end }}
+
+    {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
+    {{ end }}
+</figure>
