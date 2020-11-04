@@ -28,17 +28,25 @@ section.hero .inner .content {
 }
 
 section.hero .slides {
-    width: 28em;
+    width: 500px;
     position: relative;
     overflow: visible;
-    perspective: 1000px;
+    perspective: 2000px;
+    transform-style: ;
 }
 
-section.hero .slides img {
+section.hero .slides .slide {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
+    transform-origin: 0 0;
+    transform: scale(0.5);
+    transform-style: preserve-3d;
+}
+
+.slides .slide img {
+    transform-origin: center center;
     box-sizing: border-box;
     padding: 1em;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -46,12 +54,12 @@ section.hero .slides img {
     background: white;
 }
 
-section.hero .slides img.one-front {
-    transform: translate3d(-80px, 168px, -200px) rotateY(-20deg) rotateX(10deg);
+section.hero .slides .slide.one-front img {
+    transform: translate3d(-80px, 168px, 0) rotateY(-20deg) rotateX(10deg);
 }
 
-section.hero .slides img.one-back {
-    transform: translate3d(50px, 50px, 200px) rotateY(-20deg) rotateX(10deg);
+section.hero .slides .slide.one-back img {
+    transform: translate3d(50px, 50px, 0) rotateY(-20deg) rotateX(10deg);
 }
 
 @media (max-width: 700px) {
