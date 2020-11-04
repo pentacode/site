@@ -1,8 +1,11 @@
 header {
     width: 100%;
     font-size: 110%;
-    position: relative;
+    position: sticky;
+    background: white;
+    top: 0;
     z-index: 10;
+    margin-top: 1em;
 }
 
 header .header-inner {

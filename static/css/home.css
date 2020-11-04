@@ -1,3 +1,43 @@
+section .inner .content {
+    flex: 1;
+}
+
+section .inner {
+    display: flex;
+}
+
+section.right .inner {
+    flex-direction: row-reverse;
+    /* text-align: right; */
+}
+
+.slides {
+    width: 600px;
+    position: relative;
+    overflow: visible;
+    perspective: 2000px;
+    transform-style: ;
+}
+
+.slides .slides-inner {
+    transform-origin: 0 0;
+    transform: translate3d(0, -40px, 0) scale(0.5);
+    transform-style: preserve-3d;
+}
+
+.slides .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    transform-origin: center center;
+    box-sizing: border-box;
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 2em;
+    background: white;
+}
+
 section.hero h1 {
     margin-bottom: 0.3em;
 }
@@ -7,7 +47,7 @@ section.hero h2 {
 }
 
 section.hero h3 {
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 40px;
 }
 
@@ -15,51 +55,16 @@ section.hero h3 strong {
     font-weight: 700;
 }
 
-section.hero .inner {
-    display: flex;
-}
-
 section.hero .inner .btn {
     font-size: 120%;
 }
 
-section.hero .inner .content {
-    flex: 1;
+section.hero .slides .slide.one-front {
+    transform: translate3d(-30px, 380px, 0) rotateY(-20deg) rotateX(10deg);
 }
 
-section.hero .slides {
-    width: 500px;
-    position: relative;
-    overflow: visible;
-    perspective: 2000px;
-    transform-style: ;
-}
-
-section.hero .slides .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    transform-origin: 0 0;
-    transform: scale(0.5);
-    transform-style: preserve-3d;
-}
-
-.slides .slide img {
-    transform-origin: center center;
-    box-sizing: border-box;
-    padding: 1em;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 1em;
-    background: white;
-}
-
-section.hero .slides .slide.one-front img {
-    transform: translate3d(-80px, 168px, 0) rotateY(-20deg) rotateX(10deg);
-}
-
-section.hero .slides .slide.one-back img {
-    transform: translate3d(50px, 50px, 0) rotateY(-20deg) rotateX(10deg);
+section.hero .slides .slide.one-back {
+    transform: translate3d(50px, 0, 0) rotateY(-20deg) rotateX(10deg);
 }
 
 @media (max-width: 700px) {
