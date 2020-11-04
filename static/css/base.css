@@ -256,7 +256,7 @@ section {
     clear: both;
     margin-bottom: 50px;
     box-sizing: border-box;
-    margin: 4em 0;
+    margin: 2em;
     position: relative;
     z-index: 1;
     color: var(--color-fg);
