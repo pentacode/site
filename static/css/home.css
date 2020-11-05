@@ -209,12 +209,36 @@ section.hero .feature i {
     color: var(--color-highlight);
 }
 
+section.independent .roster-metrics {
+    transform: translate(40px, -70px) rotateY(-10deg) rotateX(10deg);
+}
+
+section.independent .roster-metrics img {
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 2em;
+    background: white;
+}
+
 section.offer .inner {
     justify-content: center;
 }
 
 section.offer .inner .content {
     max-width: 40em;
+}
+
+section.offer button.highlight {
+    font-size: 1.1em;
+    padding: 0.8em 1.2em;
+    margin-top: 0.3em;
+    align-self: center;
+}
+
+section.offer i.fa-microscope {
+    font-size: 13em;
+    color: var(--color-red);
+    float: right;
 }
 
 @media (max-width: 700px) {
