@@ -1,18 +1,23 @@
 {{ define "css" }} {{ template "basecss" }}
 <link href="/css/home.css" rel="stylesheet" type="text/css" />
 {{ end }} {{ define "js" }}
+<script src="js/anime.min.js"></script>
 <script src="js/home.js"></script>
 {{ end }} {{ define "main" }} {{ partial "header" . }}
 
 <section class="hero" id="hero">
     <div class="inner">
         <div class="content">
-            <h1>Die <strong>All-In-One</strong><br />Backoffice-Lösung<br />für Ihr Unternehmen</h1>
+            <h1><strong>Digitales Management</strong><br />für Ihr Unternehmen</h1>
+
+            <h2>
+                Von der <strong>Dienstplanung</strong> und <strong>Zeiterfassung</strong> bis hin zu
+                <strong>Lohnvorbereitung</strong>, <strong>Kostenanalyse</strong> und <strong>Controlling</strong>.
+            </h2>
 
             <h3>
-                Von der <strong>Dienstplanung</strong> und <strong>Zeiterfassung</strong> bis hin zu
-                <strong>Lohnvorbereitung</strong>, <strong>Kostenanalyse</strong> und <strong>Controlling</strong> -
-                Pentacode erleichtert Ihnen zahllose Arbeiten so dass Sie sich auf das Wesentliche konzentrieren können.
+                Pentacode ist die vielseitige Software, die als Ihr stiller Partner die Arbeit für Sie erledigt - damit
+                Sie die Freiheit haben, sich auf das Wesentliche zu konzentrieren.
             </h3>
 
             <div class="buttons">
@@ -24,9 +29,8 @@
         </div>
 
         <div class="slides">
-            <div class="slides-inner" hidden>
-                <img src="/img/home/roster.png" class="slide one-back" />
-                <img src="/img/home/time-tracker.png" class="slide one-front" />
+            <div class="features-outer">
+                {{ partial "features" }} {{ partial "features" }}
             </div>
         </div>
     </div>
@@ -38,9 +42,8 @@
             <h1>Einfach Nur Einfach</h1>
 
             <h3>
-                Zahlen, Daten und Zeiten werden noch immer mehrfach „in die Hand“ genommen und bearbeitet? Sie warten
-                manchmal auf die Zuarbeit von Mitarbeitern? Sie nehmen aufwändige Gewohnheiten als notwendig hin, auch
-                wenn Sie sich immer wieder mal darüber ärgern?
+                Zahlen, Daten und Zeiten werden noch immer mehrfach „in die Hand“ genommen und bearbeitet? Sie nehmen
+                aufwändige Gewohnheiten als notwendig hin, auch wenn Sie sich immer wieder mal darüber ärgern?
             </h3>
 
             <p>
@@ -50,20 +53,24 @@
             </p>
 
             <p>
-                Zeiterfassung, Dokumentation, Lohnvorbereitung, Kassenbuchführung, Debitorenlisten – alles entsteht in
-                automatisierten Prozessen.
+                Zeiterfassung, Dokumentation, Lohnvorbereitung, Kassenbuchführung, Debitorenlisten –
+                <strong>alles entsteht in automatisierten Prozessen</strong>.
             </p>
 
             <p>
-                Pentacode macht Kopf und Hände frei, damit Ihre Mitarbeiter produktiv für Sie tätig sind und Sie sich um
-                das Wichtige in Ihrem Unternehmen kümmern können.
+                <strong>Pentacode macht Kopf und Hände frei</strong>, damit Ihre Mitarbeiter produktiv für Sie tätig
+                sind und Sie sich um das Wichtige in Ihrem Unternehmen kümmern können.
             </p>
         </div>
 
         <div class="slides">
             <div class="slides-inner">
-                <img src="/img/home/roster.png" class="slide one-back" />
-                <img src="/img/home/time-tracker.png" class="slide one-front" />
+                <div class="slide one-back">
+                    <img src="/img/home/roster.png" />
+                </div>
+                <div class="slide one-front">
+                    <img src="/img/home/time-tracker.png" />
+                </div>
             </div>
         </div>
     </div>
@@ -72,7 +79,7 @@
 <section class="secure left">
     <div class="inner">
         <div class="content">
-            <h1>Sicher</h1>
+            <h1>Sicher Fehlerfrei</h1>
 
             <h3>
                 Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer Dokumentation
@@ -83,13 +90,13 @@
             <p>
                 Pentacode erledigt Ihre gesamte Dokumentation nicht nur vollständig, sondern völlig
                 <strong>selbständig und prüfungssicher</strong>. Ihre Unterlagen sind aktuell und fortlaufend geführt
-                und noch dazu widerspruchs- und fehlerfrei.
+                und dabei widerspruchs- und fehlerfrei.
             </p>
 
             <p>
                 Aber Pentacode schließt nicht nur alle Dokumentationslücken - das Programm kennt stets die aktuelle
                 Rechtslage und <strong>warnt Sie rechtzeitig vor Problemen und Verstößen</strong>. So gehen Sie
-                angstfrei und selbstbewusst in die nächste Prüfung!
+                angstfrei und selbstbewusst in zukünftige Prüfungen!
             </p>
         </div>
 
@@ -108,58 +115,65 @@
     </div>
 </section>
 
-<section class="right">
+<section class="controlling right">
     <div class="inner">
         <div class="content">
-            <h1>Aktuell</h1>
+            <h1>Immer Informiert</h1>
 
             <h3>
-                Sie wissen erst am Ende des Monats, wie hoch Ihre Personalkosten sind? Erhalten Sie Ihre BWA erst sechs
-                Wochen später? Möchten Sie stattdessen bereits am Ende des Tages wissen, wie rentabel Ihr Einsatz war?
+                Sie wissen erst am Ende des Monats, wie hoch Ihre Personalkosten sind? Möchten Sie bereits am Ende des
+                Tages wissen, wie rentabel Ihr Einsatz war?
             </h3>
 
             <p>
-                In Pentacode geben Ihnen Echtzeitdaten sofortige Auskunft. Damit erhalten Sie die Möglichkeit, zu jedem
-                Zeitpunkt korrigierend einzugreifen.
+                In Pentacode geben Ihnen <strong>Echtzeitdaten</strong> sofortige Auskunft. Damit erhalten Sie die
+                Möglichkeit, zu jedem Zeitpunkt korrigierend einzugreifen.
             </p>
+
             <p>
-                Bereits bei der Dienstplanung können Sie erkennen, ob Ihr Umsatz dem Personaleinsatz entspricht. Bereits
-                am Ende des Geschäftstages wissen Sie, ob der tatsächliche Personalaufwand vom geplanten abgewichen ist.
+                In <strong>selbsterklärenden, leicht verständlichen und aussagekräftigen Grafiken</strong> werden Plan-
+                und Ist-Daten verglichen und Zeiträume einander gegenübergestellt. Sie erkennen negative Trends, bevor
+                diese eine Wirkung entfalten können und positive Entwicklungen, die Sie noch verstärken können.
             </p>
+
             <p>
-                In selbsterklärenden, leicht verständlichen und aussagekräftigen Grafiken werden Plan- und Ist-Daten
-                verglichen und Zeiträume einander gegenübergestellt. Sie erkennen negative Trends, bevor diese eine
-                Wirkung entfalten können und positive Entwicklungen, die Sie noch verstärken können.
-            </p>
-            <p>
-                Mit Pentacode behalten Sie die Kontrolle über Ihr Unternehmen. Hierzu benötigen Sie weder den Rat von
-                Experten noch das Wissen akademischer Fachleute, denn diese wirken bei der Entwicklung der Software mit.
+                <strong>Mit Pentacode behalten Sie die Kontrolle über Ihr Unternehmen.</strong> Hierzu benötigen Sie
+                weder den Rat von Experten noch das Wissen akademischer Fachleute. Diese Spezialisten wirken bei der
+                Entwicklung der Software mit.
             </p>
         </div>
 
-        <div class="slides"></div>
+        <div class="slides">
+            <div class="slides-inner">
+                <div class="reports">
+                    <img src="/img/home/reports/reports_1.png" />
+                    <img src="/img/home/reports/reports_2.png" />
+                    <img src="/img/home/reports/reports_3.png" />
+                    <img src="/img/home/reports/reports_4.png" />
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="left">
     <div class="inner">
         <div class="content">
-            <h1>Unabhängig</h1>
+            <h1>Unabhängig Handeln</h1>
 
             <h3>
-                Sie wollen wissen, wie hoch zum Beispiel der Anteil der Zuschläge an der Lohnsumme ist? Oder der Ihrer
-                Aushilfskräfte? Wie sich Ihre Personalkosten auf die Abteilungen verteilen? Wie hoch die Kosten für
-                Krank und Urlaub in einem beliebigen Monat waren?
+                Brauchen Sie oft die Zuarbeit von Mitarbeitern? Warten Sie manchmal auf Informationen von Anderen?
             </h3>
 
             <p>
-                Anstatt auf Information von außen zu warten, liefert Pentacode, was Sie als Unternehmer wissen wollen.
+                Pentacode liefert Ihnen <strong>unmittelbar</strong>, was Sie als Unternehmer wissen wollen. Sie haben
+                die <strong>Freiheit</strong>, jederzeit und unabhängig handeln zu können.
             </p>
 
             <p>
-                Mit Ihrer Unabhängigkeit senken Sie auch ganz nebenbei den Aufwand anderer. So dauert zum Beispiel eine
-                Lohnabrechnung für Ihr Unternehmen etwa 10 Sekunden. So dauert zum Beispiel eine Lohnabrechnung für Ihr
-                Unternehmen etwa 10 Sekunden - dabei ist es völlig egal ob Sie 10, 100 oder 1000 Mitarbeiter verwalten.
+                Mit Ihrer <strong>Unabhängigkeit</strong> senken Sie auch ganz nebenbei den Aufwand anderer. So dauert
+                zum Beispiel eine Lohnabrechnung für Ihr Unternehmen nur etwa 10 Sekunden - dabei ist es völlig egal ob
+                Sie 10, 100 oder 1000 Mitarbeiter verwalten.
             </p>
         </div>
 
@@ -170,18 +184,16 @@
 <section class="right">
     <div class="inner">
         <div class="content">
-            <h1>Innovativ</h1>
+            <h1>Benutzerfreundlich & Portabel</h1>
 
             <h3>
-                Pentacode ist eine Web-basierte Anwendung, für deren Entwicklung modernste Komponenten und Technologien
-                verwendet werden. Die Software ist offline-fähig und Browser-unabhängig und läuft auf jedem modernen
-                Tablet oder Smartphone. So können Sie direkt durchstarten ohne erst in teure Hardware zu investieren!
+                Pentacode ist eine Web-basierte Anwendung, die offline-fähig und Hardware-unabhängig ist. So können Sie
+                direkt durchstarten ohne in teuere Geräte zu investieren!
             </h3>
 
             <p>
                 Und selbstverständlich haben Sie Zugang zu Ihren Unternehmenszahlen, egal wo Sie sind, wann immer Sie
-                wollen. Das Einzige, was Sie brauchen, ist ein Internet-fähiges Endgerät. das kann ein Computer, Laptop,
-                Tablet oder Handy sein.
+                wollen. Das Einzige, was Sie brauchen, ist ein Internet-fähiges Endgerät.
             </p>
 
             <p>
@@ -195,14 +207,14 @@
     </div>
 </section>
 
-<section class="left">
+<section class="offer">
     <div class="inner">
         <div class="content">
             <h1>Unser Kennenlern-Angebot</h1>
 
             <p>
-                Wir wissen, dass es wichtig ist, jedes Engagement auf seine Nützlichkeit und Profitabilität hin zu
-                überprüfen. Wir machen das selbst nicht anders.
+                Wir wissen, dass es wichtig ist, jedes Engagement auf seine <strong>Nützlichkeit</strong> und
+                <strong>Profitabilität</strong> hin zu überprüfen. Wir machen das selbst nicht anders.
             </p>
 
             <p>
@@ -211,19 +223,19 @@
             </p>
 
             <p>
-                Gegen eine einmalige Schulungsgebühr von 99 € erhalten Sie Pentacode über einen Zeitraum von zwei Monate
-                gebührenfrei und ohne jede Vertragsbindung. Wir möchten, dass Sie Pentacode auf Herz und Nieren prüfen
-                können und dabei auch uns und unseren Support kennenlernen.
+                Gegen eine geringe Schulungsgebühr erhalten Sie Pentacode über einen Zeitraum von
+                <strong>zwei Monaten gebührenfrei</strong> und <strong>ohne jede Vertragsbindung</strong>. Wir möchten,
+                dass Sie Pentacode auf Herz und Nieren prüfen können und dabei auch uns und unseren Support
+                kennenlernen.
             </p>
 
             <p>
-                Die Prüfung auf Eignung findet im Fall von Pentacode nicht anhand eines Test-Accounts statt, sondern in
-                der echten Produktivumgebung. Sie erhalten die Software mit allen Funktionen, ohne Einschränkungen und
-                unserem gesamten Support. Dabei gehen Sie keinerlei Verpflichtung ein.
+                Ihr Test findet im Fall von Pentacode nicht anhand eines Fake-Accounts statt, sondern in der
+                <strong>echten Produktivumgebung</strong>. Sie erhalten die Software mit
+                <strong>allen Funktionen</strong>, ohne Einschränkungen und unserem gesamten <strong>Support</strong>.
+                Dabei gehen Sie <strong>keinerlei Verpflichtung</strong> ein.
             </p>
         </div>
-
-        <div class="slides"></div>
     </div>
 </section>
 
