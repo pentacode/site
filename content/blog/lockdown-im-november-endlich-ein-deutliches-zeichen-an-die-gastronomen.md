@@ -4,7 +4,7 @@ summary: Die Politik hat anscheinend begriffen, dass für den November Lockdown 
   echte Unterstützung der Betriebe notwendig ist. Sie als Gastronomen und Hoteliers
   erhalten bis zu 75% des Umsatzes, den Sie im November 2019 erzielt haben.
 publishDate: 2020-11-05T23:00:00+00:00
-cover: ''
+cover: "/uploads/shutterstock_410677828.jpg"
 draft: true
 
 ---
