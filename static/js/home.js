@@ -1,15 +1,112 @@
 window.addEventListener("load", function() {
+    const animations = {
+        hero: {
+            in: () => {},
+            out: () => {}
+        },
+        simple: {
+            in: () =>
+                anime({
+                    targets: "section.simple .animate",
+                    opacity: [0, 1],
+                    translateY: ["10%", "0"],
+                    delay: anime.stagger(300),
+                    duration: 3000
+                }),
+            out: () =>
+                anime({
+                    targets: "section.simple .animate",
+                    opacity: [1, 0],
+                    translateY: ["0", "-10%"],
+                    delay: anime.stagger(300),
+                    duration: 3000
+                })
+        },
+        secure: {
+            in: () =>
+                anime({
+                    targets: "section.secure .animate",
+                    opacity: [0, 1],
+                    translateY: ["30%", "0"],
+                    delay: anime.stagger(100),
+                    duration: 2000
+                }),
+            out: () =>
+                anime({
+                    targets: "section.secure .animate",
+                    opacity: [1, 0],
+                    translateY: ["0", "-30%"],
+                    delay: anime.stagger(100),
+                    duration: 2000
+                })
+        },
+        controlling: {
+            in: () =>
+                anime({
+                    targets: "section.controlling .animate",
+                    opacity: [0, 1],
+                    translateZ: [200, 0],
+                    delay: anime.stagger(300),
+                    duration: 1000,
+                    easing: "easeOutBounce"
+                }),
+            out: () =>
+                anime({
+                    targets: "section.controlling .animate",
+                    opacity: [1, 0],
+                    translateY: [0, -200],
+                    delay: anime.stagger(300),
+                    duration: 1000,
+                    easing: "easeInQuad"
+                })
+        },
+        independent: {
+            in: () =>
+                anime({
+                    targets: "section.independent .animate",
+                    opacity: [0, 1],
+                    translateY: ["10%", "0"],
+                    delay: anime.stagger(300),
+                    duration: 3000
+                }),
+            out: () =>
+                anime({
+                    targets: "section.independent .animate",
+                    opacity: [1, 0],
+                    translateY: ["0", "-10%"],
+                    delay: anime.stagger(300),
+                    duration: 3000
+                })
+        },
+        innovative: {
+            in: () => {},
+            out: () => {}
+        },
+        offer: {
+            in: () => {},
+            out: () => {}
+        }
+    };
+
+    const sections = Array.from(document.querySelectorAll("section"));
+
     const observer = new IntersectionObserver(
         entries => {
             for (const entry of entries) {
+                const section = entry.target.dataset.section;
+                const animation = animations[section];
+                if (!animation) {
+                    return;
+                }
+
                 if (entry.isIntersecting) {
-                    entry.target.classList.remove("animation-pause");
+                    animation.in(section);
+                } else {
+                    animation.out(section);
                 }
             }
         },
         { threshold: 0.5 }
     );
-
-    const sections = document.querySelectorAll("section");
     sections.forEach(section => observer.observe(section));
 });

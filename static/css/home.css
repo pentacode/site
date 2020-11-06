@@ -1,5 +1,6 @@
 section {
     margin: 4em 4em 8em 4em;
+    perspective: 2000px;
 }
 
 section .inner .content {
@@ -22,7 +23,6 @@ section.right .inner {
     height: 400px;
     position: relative;
     overflow: visible;
-    perspective: 2000px;
 }
 
 .slides .slides-inner {
@@ -62,19 +62,11 @@ section.hero .inner .btn {
     font-size: 120%;
 }
 
-section.hero .slides .slide.one-front {
-    transform: translate3d(-30px, 380px, 0) rotateY(-20deg) rotateX(10deg);
-}
-
-section.hero .slides .slide.one-back {
-    transform: translate3d(50px, 0, 0) rotateY(-20deg) rotateX(10deg);
-}
-
-section.simple .slides .slide.one-front {
+section.simple .slides .slide.front {
     transform: translate3d(200px, 150px, 40px) rotateY(20deg) rotateX(10deg);
 }
 
-section.simple .slides .slide.one-back {
+section.simple .slides .slide.back {
     transform: translate3d(-150px, -150px, 0) rotateY(20deg) rotateX(10deg);
 }
 
@@ -100,7 +92,7 @@ section.secure .issues > * {
     margin-bottom: 2em;
 }
 
-section.controlling .slides {
+section.controlling {
     perspective: 2500px;
 }
 
@@ -235,7 +227,7 @@ section.offer button.highlight {
     align-self: center;
 }
 
-section.offer i.fa-microscope {
+section.offer i.fa-search {
     font-size: 13em;
     color: var(--color-red);
     float: right;
