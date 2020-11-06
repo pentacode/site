@@ -5,7 +5,6 @@ summary: Die Politik hat anscheinend begriffen, dass für den November Lockdown 
   erhalten bis zu 75% des Umsatzes, den Sie im November 2019 erzielt haben.
 publishDate: 2020-11-05T23:00:00+00:00
 cover: "/uploads/shutterstock_410677828.jpg"
-draft: true
 
 ---
 Die Politik hat anscheinend begriffen, dass für den November Lockdown eine echte Unterstützung der Betriebe notwendig ist. Sie als Gastronomen und Hoteliers erhalten bis zu 75% des Umsatzes, den Sie im November 2019 erzielt haben.
@@ -32,9 +31,9 @@ Laut Unions-Fraktionsvize Carsten Linnemann hat Bundeswirtschaftsminister Altmai
 
 Zur Verdeutlichung hier der Originallaut des Bundesfinanzministeriums:
 
-> **_Anrechnung von erzielten Umsätzen im Monat November:_** _Wenn im November trotz der grundsätzlichen Schließung Umsätze erzielt werden, so werden diese bis zu einer Höhe von 25 Prozent des Vergleichsumsatzes nicht angerechnet. Um eine Überförderung von mehr als 100 Prozent des Vergleichs-Umsatzes zu vermeiden, erfolgt bei darüber hinausgehenden Umsätzen eine entsprechende Anrechnung.  
->    
->  Für Restaurants gilt eine Sonderregelung, wenn sie Speisen im Außerhausverkauf anbieten. Hier wird die Umsatzerstattung auf 75 Prozent der Umsätze im Vergleichszeitraum 2019 auf diejenigen Umsätze begrenzt, die dem vollen Mehrwertsteuersatz unterliegen, also die im Restaurant verzehrten Speisen. Damit werden die Umsätze des Außerhausverkaufs – für die der reduzierte Mehrwertsteuersatz gilt – herausgerechnet. Im Gegenzug werden diese Umsätze des Außerhausverkaufs während der Schließungen von der Umsatzanrechnung ausgenommen, um eine Ausweitung dieses Geschäfts zu begünstigen. Beispiel: Eine Pizzeria hatte im November 2019 8.000 Euro Umsatz durch Verzehr im Restaurant und 2.000 Euro durch Außerhausverkauf. Sie erhält daher 6.000 Euro Novemberhilfe (75 Prozent von 8.000 Euro), d. h. zunächst etwas weniger als andere Branchen (75 Prozent des Vergleichsumsatzes). Dafür kann die Pizzeria im November 2020 deutlich mehr als die allgemein zulässigen 2.500 Euro (25 Prozent von 10.000 Euro) an Umsatz mit Lieferdiensten erzielen, ohne dass eine Kürzung der Förderung erfolgt._
+> **_Anrechnung von erzielten Umsätzen im Monat November:_** Wenn im November trotz der grundsätzlichen Schließung Umsätze erzielt werden, so werden diese bis zu einer Höhe von 25 Prozent des Vergleichsumsatzes nicht angerechnet. Um eine Überförderung von mehr als 100 Prozent des Vergleichs-Umsatzes zu vermeiden, erfolgt bei darüber hinausgehenden Umsätzen eine entsprechende Anrechnung.
+>
+> Für Restaurants gilt eine Sonderregelung, wenn sie Speisen im Außerhausverkauf anbieten. Hier wird die Umsatzerstattung auf 75 Prozent der Umsätze im Vergleichszeitraum 2019 auf diejenigen Umsätze begrenzt, die dem vollen Mehrwertsteuersatz unterliegen, also die im Restaurant verzehrten Speisen. Damit werden die Umsätze des Außerhausverkaufs – für die der reduzierte Mehrwertsteuersatz gilt – herausgerechnet. Im Gegenzug werden diese Umsätze des Außerhausverkaufs während der Schließungen von der Umsatzanrechnung ausgenommen, um eine Ausweitung dieses Geschäfts zu begünstigen. Beispiel: Eine Pizzeria hatte im November 2019 8.000 Euro Umsatz durch Verzehr im Restaurant und 2.000 Euro durch Außerhausverkauf. Sie erhält daher 6.000 Euro Novemberhilfe (75 Prozent von 8.000 Euro), d. h. zunächst etwas weniger als andere Branchen (75 Prozent des Vergleichsumsatzes). Dafür kann die Pizzeria im November 2020 deutlich mehr als die allgemein zulässigen 2.500 Euro (25 Prozent von 10.000 Euro) an Umsatz mit Lieferdiensten erzielen, ohne dass eine Kürzung der Förderung erfolgt.
 
 **In knappen Worten heißt dies:** Wenn Sie im November 2019 **Außer-Haus-Umsätze** hatten, werden diese für die75%- Förderung vom Umsatz rausgerechnet. **Im Gegenzug** aber haben die Außer-Haus-Umsätze im November 2020 **keinen Einfluss auf die Förderung**. Der gesamte Take-away-Umsatz im November 2020 bleibt also bei Ihnen.
 
