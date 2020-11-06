@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
                     targets: "section.controlling .animate",
                     opacity: [0, 1],
                     translateZ: [200, 0],
-                    delay: anime.stagger(300),
+                    delay: anime.stagger(200),
                     duration: 1000,
                     easing: "easeOutBounce"
                 }),
@@ -55,7 +55,7 @@ window.addEventListener("load", function() {
                     targets: "section.controlling .animate",
                     opacity: [1, 0],
                     translateY: [0, -200],
-                    delay: anime.stagger(300),
+                    delay: anime.stagger(200),
                     duration: 1000,
                     easing: "easeInQuad"
                 })
@@ -79,8 +79,22 @@ window.addEventListener("load", function() {
                 })
         },
         innovative: {
-            in: () => {},
-            out: () => {}
+            in: () =>
+                anime({
+                    targets: "section.innovative .animate",
+                    opacity: [0, 1],
+                    translateY: ["10%", "0"],
+                    delay: anime.stagger(300),
+                    duration: 3000
+                }),
+            out: () =>
+                anime({
+                    targets: "section.innovative .animate",
+                    opacity: [1, 0],
+                    translateY: ["0", "-10%"],
+                    delay: anime.stagger(300),
+                    duration: 3000
+                })
         },
         offer: {
             in: () => {},
@@ -115,7 +129,6 @@ window.addEventListener("load", function() {
     }
 
     for (const button of document.querySelectorAll("button, .btn")) {
-        console.log("button", button);
         button.onmouseenter = e => anime({ targets: e.target, scale: 1.02 });
         button.onmouseleave = e => anime({ targets: e.target, scale: 1 });
     }

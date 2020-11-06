@@ -14,6 +14,10 @@ section .inner {
     align-items: center;
 }
 
+section .inner .content {
+    background: var(--color-bg);
+}
+
 section.right .inner {
     flex-direction: row-reverse;
 }
@@ -117,10 +121,6 @@ section.controlling .reports {
     transform-style: preserve-3d;
 }
 
-section.controlling .content {
-    background: var(--color-bg);
-}
-
 section.hero .slides {
     overflow: hidden;
     height: 400px;
@@ -202,7 +202,7 @@ section.hero .feature i {
 }
 
 section.independent .roster-metrics {
-    transform: translate(40px, -70px) rotateY(-10deg) rotateX(10deg);
+    transform: translate(60px, -40px) rotateY(-10deg) rotateX(10deg);
 }
 
 section.independent .roster-metrics img {
@@ -210,6 +210,35 @@ section.independent .roster-metrics img {
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
     border-radius: 2em;
     background: white;
+}
+
+section.innovative .slides::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: translateZ(1px);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%);
+}
+
+section.innovative .slides-inner {
+    transform: scale(0.5);
+}
+
+section.innovative .desktop {
+    transform: translate(-100px, -200px) rotateY(30deg) rotateX(10deg);
+}
+
+section.innovative .tablet {
+    transform: translate(150px, 100px) rotateY(30deg) rotateX(10deg);
+}
+
+section.innovative .phone {
+    transform: translate(-150px, 400px) rotateY(30deg) rotateX(10deg);
 }
 
 section.innovative .slide img {
