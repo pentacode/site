@@ -99,11 +99,13 @@ button.highlight,
     font-size: 1.1em;
 }
 
-.btn .icon:first-child {
+.btn .icon:first-child,
+.btn i:first-child {
     margin-right: 0.5em;
 }
 
-.btn .icon:last-child {
+.btn .icon:last-child,
+.btn i:last-child {
     margin-left: 0.5em;
 }
 

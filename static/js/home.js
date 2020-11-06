@@ -109,4 +109,14 @@ window.addEventListener("load", function() {
         { threshold: 0.5 }
     );
     sections.forEach(section => observer.observe(section));
+
+    for (const button of document.querySelectorAll(".get-started")) {
+        button.onclick = () => Beacon("open");
+    }
+
+    for (const button of document.querySelectorAll("button, .btn")) {
+        console.log("button", button);
+        button.onmouseenter = e => anime({ targets: e.target, scale: 1.02 });
+        button.onmouseleave = e => anime({ targets: e.target, scale: 1 });
+    }
 });

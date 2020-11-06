@@ -1,6 +1,8 @@
 ---
-baseurl: "https://padloc.app/"
+baseurl: "https://pentacode.app/"
 title: "Pentacode"
 languageCode: "de-de"
 metaDataFormat: "yaml"
 pluralizelisttitles: false
+params:
+    get_started_url: "/#angebot"
