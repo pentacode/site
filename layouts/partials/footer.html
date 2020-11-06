@@ -1,16 +1,28 @@
 <footer>
     <nav>
         <ul>
-            <li><a href="/business/">Business</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/help/">Help</a></li>
-            <li><a href="/downloads/">Downloads</a></li>
-            <li><a href="/privacy/">Privacy</a></li>
-            <li><a href='{{ .Param "github_url" }}' class="padlock-github">Source</a></li>
-            <li><a href="mailto:contact@padloc.app">Contact</a></li>
+            {{ $currPage := . }} {{ range .Site.Sections }}
+            <li class="section-item {{ if eq . $currPage }}active{{ end }}">
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </li>
+            {{ end }}
+
+            <li class="section-item">
+                <a href='{{ .Param "contact_url" }}'>
+                    Contact
+                </a>
+            </li>
+
+            <li class="section-item">
+                <a href='/impressum/'>
+                    Impressum
+                </a>
+            </li>
         </ul>
     </nav>
     <div class="copyright">
-        &copy; 2019 MaKleSoft UG, Meisenstr. 5, 91522 Ansbach, Germany
+        &copy; 2020 Sandstrøm Brand Management AG, Lindwurmstr. 147, 80337 München
     </div>
 </footer>

@@ -212,6 +212,13 @@ section.independent .roster-metrics img {
     background: white;
 }
 
+section.innovative .slide img {
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 2em;
+    background: white;
+}
+
 section.offer .inner {
     justify-content: center;
 }
