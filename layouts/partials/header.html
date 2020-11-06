@@ -13,12 +13,6 @@
                     </a>
                 </li>
                 {{ end }}
-
-                <li class="section-item">
-                    <a href="https://support.pentaco.de">
-                        Hilfe
-                    </a>
-                </li>
             </ul>
         </nav>
 
@@ -57,18 +51,13 @@
 
                 <nav class="menu-sections">
                     <ul>
+                        {{ $currPage := . }} {{ range .Site.Sections }}
                         <li>
-                            <a href="/business/"><i class="fas fa-suitcase"></i> Business</a>
+                            <a href="{{ .RelPermalink }}">
+                                {{ .Title }}
+                            </a>
                         </li>
-                        <li>
-                            <a href="/blog/"><i class="fas fa-scroll"></i> Blog</a>
-                        </li>
-                        <li>
-                            <a href="/help/"><i class="fas fa-life-ring"></i> Help</a>
-                        </li>
-                        <li>
-                            <a href="/downloads/"><i class="fas fa-download"></i> Downloads</a>
-                        </li>
+                        {{ end }}
                     </ul>
                 </nav>
             </div>

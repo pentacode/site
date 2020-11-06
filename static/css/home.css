@@ -1,12 +1,6 @@
 section {
-    margin: 4em 4em 8em 4em;
+    margin: 4em 2em 8em 2em;
     perspective: 2000px;
-}
-
-section .inner .content {
-    flex: 1;
-    position: relative;
-    z-index: 1;
 }
 
 section .inner {
@@ -15,7 +9,24 @@ section .inner {
 }
 
 section .inner .content {
+    flex: 1;
+    position: relative;
+    z-index: 1;
     background: var(--color-bg);
+    min-width: 500px;
+}
+
+section .inner .content::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    left: -50px;
+    z-index: 2;
+    transform: translateZ(1px);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
 }
 
 section.right .inner {
@@ -98,19 +109,6 @@ section.secure .issues > * {
 
 section.controlling {
     perspective: 2500px;
-}
-
-section.controlling .slides::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    transform: translateZ(1px);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%);
 }
 
 section.controlling .reports {
@@ -212,19 +210,6 @@ section.independent .roster-metrics img {
     background: white;
 }
 
-section.innovative .slides::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    transform: translateZ(1px);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%);
-}
-
 section.innovative .slides-inner {
     transform: scale(0.5);
 }
@@ -269,18 +254,17 @@ section.offer i.fa-search {
     float: right;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
+    section {
+        margin: 2em;
+    }
+
+    section .inner {
+        flex-direction: column !important;
+    }
+
     section .inner .content {
-        padding: 2em 1em 4em 1em !important;
-        text-align: left !important;
-        align-items: flex-start !important;
-    }
-
-    section.plans .inner .content {
-        padding: 1em !important;
-    }
-
-    section .inner .buttons {
-        justify-content: flex-start !important;
+        background: rgba(255, 255, 255, 0.5);
+        min-width: 0;
     }
 }
