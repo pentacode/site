@@ -5,9 +5,9 @@ summary: Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wen
   um Personalkosten geht, bietet in Europa gerade Deutschland die besten Voraussetzungen
   für Arbeitgeber. Warum und wie Sie die bestehenden Möglichkeiten unbedingt nutzen
   sollten.
-date: 2020-09-23T22:00:00+00:00
+date: '2020-09-23T22:00:00+00:00'
 publishDate: 2020-09-24
-cover: ''
+cover: "/uploads/athlet.jpg"
 
 ---
 Im Verhältnis zu anderen Branchen schneidet die Gastronomie im Durchschnitt wirtschaftlich relativ schlecht ab. Dies wird häufig damit begründet, dass Lohnkosten und Abgabenlast zu hoch und damit die Profitabilität der Unternehmen zu gering seien. Dieser Eindruck entsteht leicht und ist verständlich, wenn ein Gastronom nach einer langen Reihe langer und harter Arbeitstage „sieht“, was für ihn am Ende übrig blieb. Die Annahme, dass die Kosten für Arbeit in Deutschland zu hoch sind, ist in den allermeisten Aspekten jedoch schlicht falsch.
