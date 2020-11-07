@@ -15,6 +15,7 @@ fields:
   name: cover
   label: Titelbild
 pages:
+- content/blog/covid-ratgeber-gastronomen.md
 - content/blog/hilfe-zur-selbsthilfe.md
 - content/blog/lebensmittel-spenden.md
 - content/blog/personalkosten-optimierung.md
