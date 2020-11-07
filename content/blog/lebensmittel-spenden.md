@@ -1,5 +1,5 @@
 ---
-title: Lebensmittel Spenden
+title: Wo Sie Ihre Lebensmittel-Restbestände spenden können
 summary: 'Die Corona-Krise trifft die Gastronomie hart. Wenn die schwere Entscheidung
   der Schließung einmal getroffen ist stehen viele Gastronomen vor dem selben Problem:
   Wo hin mit dem Restbestand an verderblichen Lebensmitteln? Wir haben eine Liste
