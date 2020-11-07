@@ -23,6 +23,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
+          submodules: true
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
     # Step 2 - Sets up the latest version of Hugo
@@ -40,13 +41,11 @@ jobs:
     - name: Build
       run: hugo
 
-    # Step 5 - Create name file
-    - name: Create cname file
-      run: echo 'pentacode.app' > public/CNAME
-
-    # Step 6 - Push our generated site to our gh-pages branch
+    # Step 5 - Push our generated site to our gh-pages branch
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: pentacode.app
+          force_orphan: true
