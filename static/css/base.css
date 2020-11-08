@@ -145,6 +145,10 @@ th {
     width: 150px;
 }
 
+.breadcrumbs {
+    margin: -0.5em 0.5em 0.5em 0.5em;
+}
+
 .breadcrumbs nav ul {
     display: flex;
     align-items: center;

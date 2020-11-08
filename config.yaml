@@ -2,6 +2,7 @@
 baseurl: "https://pentacode.app/"
 title: "Pentacode"
 languageCode: "de-de"
+defaultContentLanguage: "de"
 metaDataFormat: "yaml"
 pluralizelisttitles: false
 params:

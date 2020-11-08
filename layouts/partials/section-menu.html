@@ -16,8 +16,16 @@
         {{ range .Pages }}
             <li class="{{ if eq . $currPage }}active{{ end }}">
                 <a href="{{ .RelPermalink }}">
-                    <i class='fas fa-{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}'></i>
-                    {{ .Title }}
+                    {{ partial "cover-image" . }}
+
+                    <div class="body">
+                        {{ with .PublishDate }}
+                            <div class="date">{{ dateFormat "Mo, Jan 2, 2006" . }}</div>
+                        {{ end }}
+                        <div class="title">
+                            {{ .Title }}
+                        </div>
+                    </div>
                 </a>
             </li>
         {{ end }}

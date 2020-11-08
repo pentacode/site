@@ -10,7 +10,7 @@
     width: 15em;
     box-sizing: border-box;
     position: sticky;
-    top: 2em;
+    top: 3em;
     margin-right: 1em;
     max-height: 100vh;
     overflow: visible;
@@ -27,7 +27,7 @@
 }
 
 .page-menu {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 h1 {

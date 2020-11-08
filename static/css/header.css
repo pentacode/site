@@ -5,14 +5,15 @@ header {
     background: white;
     top: 0;
     z-index: 10;
-    margin-top: 1em;
+    padding: 0 2em;
+    margin: 1em 0;
+    box-sizing: border-box;
 }
 
 header .header-inner {
     max-width: var(--max-inner-width);
     margin: 0 auto;
     height: 3em;
-    padding: 0 1em;
     box-sizing: border-box;
 }
 
@@ -54,6 +55,11 @@ header .logo path {
 header .menu-button {
     background: transparent;
     color: var(--color-fg);
+    padding: 0.5em;
+}
+
+header .menu-button i {
+    margin: 0 !important;
 }
 
 header .menu {
@@ -101,8 +107,8 @@ header .menu-login-signup ul > * {
 }
 
 @media (max-width: 700px) {
-    .section-item,
-    .login-signup {
+    header .section-item,
+    header .login-signup {
         display: none;
     }
 }
