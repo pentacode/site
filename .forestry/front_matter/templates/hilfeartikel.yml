@@ -21,3 +21,5 @@ fields:
   - type: text
     name: title
     label: title
+pages:
+- content/hilfe/_index.md
