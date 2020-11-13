@@ -22,6 +22,7 @@ fields:
     name: title
     label: title
 pages:
+- content/hilfe/Handbuch/Berichte/_index.md
 - content/hilfe/Handbuch/Dienstplan/_index.md
 - content/hilfe/Handbuch/Dienstplan/dienstplanvorlagen.md
 - content/hilfe/Handbuch/Mitarbeiter/_index.md
