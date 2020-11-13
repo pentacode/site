@@ -1,5 +1,5 @@
 ---
-title: _index
+title: Dienstplan
 weight: 
 icon: ''
 anchors: []
