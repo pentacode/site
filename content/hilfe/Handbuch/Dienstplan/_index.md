@@ -21,8 +21,6 @@ Die grundlegenden Funktionen des Dienstplans in Pentacode.
 
 ## Dienstplan schreiben | Vorlagen | Favoriten
 
-[Edit this Article](https://secure.helpscout.net/docs/5dd29c1304286364bc91dcdf/article/5df261522c7d3a7e9ae50b54)
-
 Sie haben **zwei Vorgehensweisen** , die Dienste Ihrer Mitarbeiter zu **planen**: **Manuelle** Uhrzeiteingabe (**1**) und/oder die Verwendung von **Vorlagen** (**2, 3, 4**) mit **"Drag&Drop"**.
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png)
