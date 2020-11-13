@@ -1,7 +1,7 @@
 ---
 title: Dienstplan
 weight: 
-icon: ''
+icon: table
 anchors: []
 
 ---
