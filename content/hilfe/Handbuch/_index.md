@@ -1,5 +1,5 @@
 ---
-title: _index
+title: Handbuch
 weight: 
 icon: ''
 anchors: []
