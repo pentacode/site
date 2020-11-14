@@ -25,23 +25,23 @@ Sie haben **zwei Vorgehensweisen** , die Dienste Ihrer Mitarbeiter zu **planen**
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png)
 
-**Manuelle Eingabe**
+### Manuelle Eingabe
 
-Klicken Sie beim Mitarbeiter in den Tag, den Sie planen wollen und geben den geplanten **Dienstbeginn** 
+Klicken Sie beim Mitarbeiter in den Tag, den Sie planen wollen und geben den geplanten **Dienstbeginn** ein.
 
 Durch Drücken der **"Tab"**-Taste  ein auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein.
 
-**Schichtvorlagen & Dienstplanvorlagen**
+### Schichtvorlagen & Dienstplanvorlagen
 
 Am **rechten Rand** Ihres Dienstplans sehen Sie **gesetzte Vorlagen** (**2**), **Schichtvorlagen** (**3**) und **Dienstplanvorlagen** (**4**)
 
 Fahren Sie mit dem Cursor auf eine gewünschte **Vorlage**, klicken Sie mit der linken Maustaste in die Vorlage, ziehen Sie die Vorlage beim Mitarbeiter in den gewählten Tag ("drag") und lassen Sie die linke Maustaste los ("drop"). Die Vorlage ist somit in den Dienstplan geschrieben.
 
-### Gesetzte Vorlagen (2)
+#### Gesetzte Vorlagen (2)
 
 Für die Vorfälle **Krank**, **Urlaub**, **Guttag** und **Wunschfrei** sind Vorlagen standardmäßig **vorgegeben**.
 
-### Schichtvorlagen (3)
+#### Schichtvorlagen (3)
 
 Eine Schichtvorlage **entsteht automatisch** mit der Eingabe einer Uhrzeit im Dienstplan.
 
@@ -51,7 +51,7 @@ Durch das Setzen des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"
 
 **Schichtvorlagen** können **nicht gelöscht** werden.
 
-### Dienstplanvorlagen (4)
+#### Dienstplanvorlagen (4)
 
 Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
 
@@ -78,3 +78,67 @@ Durch **Anklicken** des **"x"** wird die Eingabe **gelöscht**.
 Sie können den **gesamten Dienstplan** einer Woche löschen, indem Sie auf das **Löschsymbol** (**7**) klicken.
 
 **Löschungen** sind final und können **nicht rückgängig** gemacht werden.
+
+Sie können den **Dienstplan** der jeweils angezeigten Woche durch einen Klick auf das **Pfeilsymbol** (**1**) **veröffentlichen**.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3a5f42c7d3a7e9ae5170f/file-qIxVGaJNzn.png)
+
+## Dienstplan veröffentlichen 
+
+Sie können den Dienstplan in seiner **Gesamtheit** oder durch das **Abwählen** der gesetzten **Button** die entsprechende **Auswahl** von Abteilungen veröffentlichen.
+
+Für die **Veröffentlichung** haben Sie verschiedene Möglichkeiten:
+
+1\. Sie können den Dienstplan für den Aushang **ausdrucken** (**2**).
+
+Da jede Veränderung des aktuellen Dienstplans erneut ausgedruckt werden muss, ist diese herkömmliche Art der Veröffentlichung **nicht empfehlenswert**.
+
+2\. Der **Link** (**3**) verbindet den aktuellen **Dienstplan** mit dem **Tablet** der Zeiterfassung und kann dort von den Mitarbeitern in der jeweils **aktuellen Fassung** eingesehen werden.
+
+Jede **Veränderung** der aktuellen Dienstplanung wird am Tablet **automatisch wiedergespiegelt**.
+
+3\. Mit dem Klick auf **"Versenden"** (**4**) erscheint eine **Liste** der **Mitarbeiter** jener **Abteilungen**, die Sie für die Veröffentlichung **ausgewählt** haben.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3b5bd04286364bc92d5d5/file-u8xxS20yli.png)
+
+Über das **Pfeilsymbol** (**1**) können Sie wählen, ob der Mitarbeiter **seinen Dienstplan** der Woche (**= individuell**) oder die Dienstpläne **aller gezeigten Mitarbeiter** erhalten soll.
+
+Im Standard ist der Button bei "**Alle"** Mitarbeiter gesetzt. Durch **deaktivieren** können Sie **einzelne** Mitarbeiter für den Versand **auswählen**.
+
+Die gewählten Mitarbeiter erhalten den Dienstplan auf ihr jeweiliges Endgerät, im Regelfall ihr Smartphone.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3b85204286364bc92d606/file-lNnje4Jl1b.png)
+
+**Voraussetzung für die Zusendung der Dienstpläne ist die Email-Adresse des Mitarbeiters, die in dessen Stammdaten hinterlegt sein muss!**
+
+Sollten Sie **nach Veröffentlichung** des Dienstplans **Änderungen** am Dienstplan vornehmen, werden Ihnen beim Klick auf "Versenden" **jene Mitarbeiter** vorgeschlagen, die durch die **Änderungen betroffen** sind.
+
+## Kurzarbeit
+
+Wenn Sie mit Ihren Mitarbeitern **Kurzarbeitszeit** vereinbart haben, können Sie dies in Pentacode wie folgt **abbilden**:
+
+Klicken Sie auf " **Einstellungen**" (**1**), dort auf "**Arbeitsbereiche**" (**2**), erstellen Sie eine neue Abteilung "**Kurzarbeit**" (**3**) mit der Position "**Kurzarbeit**" (**4**), setzen Sie den Button bei "**Von Zeiterfassung Ausschließen**" (**5**) und "**Speichern**" Sie.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e831f9f04286364bc978d72/file-uHsdGjj7Tt.png)
+
+Klicken Sie dann auf " **Mitarbeiter**" (**1**) und wählen Sie dann unter "Alle Mitarbeiter" "**Positionen**" (**2**).
+
+Setzen Sie nun bei allen **Mitarbeitern**, die von **Kurzarbeit** betroffen sind, den **Haken** unter der Abteilung "**Kurzarbeit**" (**3**)
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e8321a804286364bc978d7d/file-VEGWHAbsiH.png)
+
+Im **Dienstplan** erscheinen die **ausgewählten Mitarbeiter** nun **neben Ihren Standardabteilungen** auch in der neuen Abteilung **Kurzarbeit**.
+
+Erfassen SIe nun die **tatsächlich gearbeiteten Zeiten** eines Mitarbeiters wie gewohnt in dessen **Standardabteilung**.
+
+Die **Kurzarbeitszeiten** erfassen Sie in der **Abteilung Kurzarbeit**. Sie schreiben somit einen **fiktiven Dienstplan**, der in etwa den normalen Arbeitszeiten des Mitarbeiters entspricht.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e832c162c7d3a7e9aea190a/file-lq5jCthqzg.png)**Tipp**: Da die Kurzarbeitszeiten vermutlich sehr regelmäßige Zeiträume umfassen, können entsprechende **Dienstplanvorlagen** große Erleichterung verschaffen.
+
+Die Zeiten werden entsprechend im **Monatsarbeitszeitkonto** des Mitarbeiters ausgewiesen ...
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e8330622c7d3a7e9aea1941/file-zRd2YmmbCB.png)... und für die **Lohnabrechnung** in der Ansicht "**Alle Mitarbeiter**" als jeweilige **Summe** erfasst.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e83315a04286364bc978e50/file-uF1yay5GZW.png)**Hinweis**: Es ist anzunehmen, dass die Dokumentation von Arbeits- und Kurzarbeitszeiten wegen der daraus resultierenden Zuschüsse durch die Bundesagentur für Arbeit bei zukünftigen Sozialversicherungsprüfungen gesondert überprüft wird!
+
+**Empfehlung**: Es ist nicht notwendig, die Dienstpläne auszudrucken. Wir empfehlen Ihnen jedoch, die Monatsarbeitszeitkonten der einzelnen Mitarbeiter auszudrucken und diese von den Mitarbeitern unterzeichnen zu lassen.
