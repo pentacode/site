@@ -5,6 +5,56 @@ icon: ''
 anchors: []
 
 ---
+In Pentacode können Sie mit einem Aufwand von 2 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
+
+Diese Hilfeartikel sind in der Reihenfolge des idealen Vorgehens bei Inbetriebnahme von Pentacode angeordnet, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
+
+## Umsatzgruppen
+
+Unter "**Umsätze**" haben Sie im Menüpunkt "**Umsatzgruppen**" die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
+
+Darüberhinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
+
+#### Anlegen von Umsatzgruppen
+
+Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661ae042863444aa0df2e/file-hgfUoAyIHX.png)
+
+In der **Standardeinstellung** ist der Button bei "**Kassenbuch**" gesetzt. Die Umsatzgruppe wird damit durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das Kassenbuch geschrieben**.
+
+Wenn Sie den Button "**Berichte**" aktivieren, wird der Umsatz auch den Berichten zugeführt. Wählen Sie den Button "Kassenbuch" ab, wird dieser Umsatz nur für die Statistik verwendet.
+
+Mit "**Speichern**" haben Sie die Gruppe erstellt.
+
+#### Wenn Sie bereits mit der Tagesabrechnung gearbeitet haben, bevor Sie Umsatzgruppen angelegt haben
+
+Bei Anklicken des Menüpunkts "**Umsatzgruppen**" finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
+
+Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661042c7d3a352e916747/file-STwpriz5ul.png)
+
+Wenn Sie dies für die Zukunft vereinheitlichen wollen, klicken Sie auf "2. **Ziehen** Sie nun die **gewünschten Einträge** in der Liste per "drag & drop" **in die Gruppe**.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466236c9e77c0016ffc908/file-jtAVriAx2h.png)
+
+Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und vereinheitlicht. Alle Texte, Steuersätze Kontonummern und Kostenstellen entsprechen nun den Angaben, die Sie für diese Gruppe definiert haben.
+
+**Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
+
+#### Reihenfolge der Umsatzgruppen
+
+Mit der **linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
+
+4\. In der von Ihnen gewählten **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tagesabrechnung**.
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466430c9e77c0016eb1cda/file-2a5UXI27s6.png)
+
+**Umsatzarten**, die Sie in der **Vergangenheit** angelegt haben und die nicht in einer Gruppe zusammengefasst sind, können Sie der Abrechnung des Geschäftstages über das **Dropdown-Menü hinzufügen**.
+
+Und Sie können natürlich weiterhin neue Umsatzarten anlegen und diese evtl. einer bestehenden Gruppe hinzufügen.
+
 ## Abrechnung des Geschäftstages
 
 ### Umsatzerfassung MIT Umsatzgruppen
@@ -17,11 +67,13 @@ Wenn Sie bereits **Umsatzgruppen** angelegt haben, finden Sie diese in der von I
 
 Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen- und/oder EC-System hervorgehen.
 
-UST, Kontonummer und eventuelle Kostenstelle sind bereits in der Umsatzgruppe definiert und werden somit automatisch gebucht.
+**UST**, **Kontonummer** und eventuelle **Kostenstelle** sind bereits in der Umsatzgruppe definiert und werden somit **automatisch gebucht**.
+
+**Empfehlung**: Bei **Umsatzarten**, die nur **unregelmäßig** vorkommen, ist es aus Gründen der Übersichtlichkeit empfehlenswert, **keine** **Umsatzgruppe** anzulegen. Erfassen Sie spradische Umsatzarten besser, indem Sie wie nun im Folgenden beschrieben vorgehen.
 
 ### Umsatzerfassung OHNE Erlösgruppen
 
-Legen Sie unter **"Umsätze"** zuerst die **Erlösarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
+Legen Sie  die **Erlösarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
 
 Indem Sie auf das **Zahlenfeld** (**2**) klicken, haben Sie die Möglichkeit, **Buchungstext**, **Steuerschlüssel**, buchhalterisches **Konto** und **Kostenstelle** zu benennen.
 
@@ -136,54 +188,6 @@ Dabei können Sie den **Zeitraum wählen**. Die Standardvorgabe umfasst immer de
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e53b0612c7d3a7e9ae82dc9/file-4yTPAumUK9.png)Eine **Festschreibung** kann **nicht mehr rückgängig** gemacht werden. Ist das Kassenbuch festgeschrieben, können **festgeschriebene Werte** nur mehr durch **Korrekturbuchungen** korrigiert werden.
 
 Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, empfehlen wir Ihnen **DRINGEND**, das **Kassenbuch** zu **speichern**.
-
-## Umsatzgruppen
-
-Unter "**Umsätze**" haben Sie im Menüpunkt "**Umsatzgruppen**" die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
-
-Darüberhinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
-
-#### Anlegen von Umsatzgruppen
-
-Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661ae042863444aa0df2e/file-hgfUoAyIHX.png)
-
-In der **Standardeinstellung** ist der Button bei "**Kassenbuch**" gesetzt. Die Umsatzgruppe wird damit durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das Kassenbuch geschrieben**.
-
-Wenn Sie den Button "**Berichte**" aktivieren, wird der Umsatz auch den Berichten zugeführt. Wählen Sie den Button "Kassenbuch" ab, wird dieser Umsatz nur für die Statistik verwendet.
-
-Mit "**Speichern**" haben Sie die Gruppe erstellt.
-
-#### Wenn Sie bereits mit der Tagesabrechnung gearbeitet haben, bevor Sie Umsatzgruppen angelegt haben
-
-Wenn Sie dies wünschen, gehen Sie bitte wie folgt vor:
-
-Bei Anklicken des Menüpunkts "**Umsatzgruppen**" finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
-
-Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**".
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661042c7d3a352e916747/file-STwpriz5ul.png)
-
-Wenn Sie dies für die Zukunft vereinheitlichen wollen, klicken Sie auf "2. **Ziehen** Sie nun die **gewünschten Einträge** in der Liste per "drag & drop" **in die Gruppe**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466236c9e77c0016ffc908/file-jtAVriAx2h.png)
-
-Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und vereinheitlicht. Alle Texte, Steuersätze Kontonummern und Kostenstellen entsprechen nun den Angaben, die Sie für diese Gruppe definiert haben.
-
-**Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
-
-#### Reihenfolge der Umsatzgruppen
-
-Mit der **linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
-
-4\. In der von Ihnen gewählten **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tagesabrechnung**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466430c9e77c0016eb1cda/file-2a5UXI27s6.png)
-
-**Umsatzarten**, die Sie in der **Vergangenheit** angelegt haben und die nicht in einer Gruppe zusammengefasst sind, können Sie der Abrechnung des Geschäftstages über das **Dropdown-Menü hinzufügen**.
-
-Und Sie können natürlich weiterhin neue Umsatzarten anlegen und diese evtl. einer bestehenden Gruppe hinzufügen.
 
 ## Erlöszuordnung
 
