@@ -7,7 +7,17 @@ anchors: []
 ---
 ## Abrechnung des Geschäftstages
 
-### Umsatzerfassung MIT Erlösgruppen
+### Umsatzerfassung MIT Umsatzgruppen
+
+Wenn Sie bereits **Umsatzgruppen** angelegt haben, finden Sie diese in der von Ihnen gewählten Reihenfolge und **dauerhaft** in der Tagesabrechnung vor. Dies gilt auf für **unbare Zahlarten** oder **Ausgabepositionen**, die Sie eventuell zu Gruppen zusammengefasst haben.
+
+**Hinweis**: Das Anlegen von feststehenden Ausgabepositionen ist nur dann sinnvoll, wenn es sich um sehr häufig wiederkehrende Ausgaben handelt.
+
+<<**Screenshot**>>
+
+Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen- und/oder EC-System hervorgehen.
+
+UST, Kontonummer und eventuelle Kostenstelle sind bereits in der Umsatzgruppe definiert und werden somit automatisch gebucht.
 
 ### Umsatzerfassung OHNE Erlösgruppen
 
@@ -21,17 +31,13 @@ Als **Buchungstext** für das **Kassenbuch** erscheint standardmäßig **"Umsatz
 
 Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtangaben**.
 
-**Empfehlung**:
-
-Sollten Sie in Zukunft das Management Informations System von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und durch das MIS z.B. nach Produktivität und weiteren Faktoren analysiert werden.
+**Empfehlung**: Sollten Sie in Zukunft das Management Informations System von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und durch das MIS z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
 #### "Unbare Zahlungen"
 
 **Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
 
-**Empfehlung**:
-
-Sollten Sie ein EC-Gerät benutzen, legen Sie idealerweise die einzelnen Kartenarten entsprechend der Erfassung durch das Gerät an und vermeiden Sie ein manuelles Aufaddieren der einzelnen Kartenarten. Damit vermeiden Sie Rechenfehler und vereinfachen das Auffinden eines evtl. Tipfehlers im Falle einer Kassendifferenz.
+**Empfehlung**: Sollten Sie ein EC-Gerät benutzen, legen Sie idealerweise die einzelnen Kartenarten entsprechend der Erfassung durch das Gerät an und vermeiden Sie ein manuelles Aufaddieren der einzelnen Kartenarten. Damit vermeiden Sie Rechenfehler und vereinfachen das Auffinden eines evtl. Tipfehlers im Falle einer Kassendifferenz.
 
 Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem angeschlossen ist, kann der Kassenbericht zu den Finanzwegen irrtumsfrei verwendet werden.
 
@@ -137,15 +143,9 @@ Unter "**Umsätze**" haben Sie im Menüpunkt "**Umsatzgruppen**" die Möglichkei
 
 Darüberhinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
 
-Wenn Sie dies wünschen, gehen Sie bitte wie folgt vor:
+#### Anlegen von Umsatzgruppen
 
-**1.** Bei Anklicken des Menüpunkts "**Umsatzgruppen**" finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
-
-Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**".
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661042c7d3a352e916747/file-STwpriz5ul.png)
-
-Wenn Sie dies für die Zukunft vereinheitlichen wollen, klicken Sie auf "**+ Neue Umsatzgruppe**" und geben den gewünschten Text, UST-Satz und evtl. die Kostenstelle an.
+Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661ae042863444aa0df2e/file-hgfUoAyIHX.png)
 
@@ -155,7 +155,17 @@ Wenn Sie den Button "**Berichte**" aktivieren, wird der Umsatz auch den Berichte
 
 Mit "**Speichern**" haben Sie die Gruppe erstellt.
 
-2\. **Ziehen** Sie nun die **gewünschten Einträge** in der Liste per "drag & drop" **in die Gruppe**.
+#### Wenn Sie bereits mit der Tagesabrechnung gearbeitet haben, bevor Sie Umsatzgruppen angelegt haben
+
+Wenn Sie dies wünschen, gehen Sie bitte wie folgt vor:
+
+Bei Anklicken des Menüpunkts "**Umsatzgruppen**" finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
+
+Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**".
+
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661042c7d3a352e916747/file-STwpriz5ul.png)
+
+Wenn Sie dies für die Zukunft vereinheitlichen wollen, klicken Sie auf "2. **Ziehen** Sie nun die **gewünschten Einträge** in der Liste per "drag & drop" **in die Gruppe**.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466236c9e77c0016ffc908/file-jtAVriAx2h.png)
 
@@ -163,7 +173,9 @@ Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und 
 
 **Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
 
-3\. Mit der **linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
+#### Reihenfolge der Umsatzgruppen
+
+Mit der **linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
 
 4\. In der von Ihnen gewählten **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tagesabrechnung**.
 
