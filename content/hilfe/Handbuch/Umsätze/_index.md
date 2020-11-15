@@ -71,9 +71,11 @@ Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen-
 
 **Empfehlung**: Bei **Umsatzarten**, die nur **unregelmäßig** vorkommen, ist es aus Gründen der Übersichtlichkeit empfehlenswert, **keine** **Umsatzgruppe** anzulegen. Erfassen Sie spradische Umsatzarten besser, indem Sie wie nun im Folgenden beschrieben vorgehen.
 
-### Umsatzerfassung OHNE Erlösgruppen
+### Umsatzerfassung OHNE Umsatzgruppen
 
-Legen Sie  die **Erlösarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
+Legen Sie  die **Umsatzarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
+
+Einmal angelegte Umsatzarten erscheinen in der Folge im Dropdown-Menü. Sollten Sie viele unterschiedliche Umsatzarten angelegt haben und damit die Liste entsprechend lang sein, geben Sie am besten die ersten Buchstaben in das Eingabefeld ein. Die Auswahl wird mit jeder  Buchstabeneingabe weiter eingeengt.
 
 Indem Sie auf das **Zahlenfeld** (**2**) klicken, haben Sie die Möglichkeit, **Buchungstext**, **Steuerschlüssel**, buchhalterisches **Konto** und **Kostenstelle** zu benennen.
 
@@ -205,10 +207,10 @@ Sie können die entstandenen **Prozentwerte** jedoch beliebig **überschreiben**
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f46730946e0fb0016ff461b/file-vpEEShFYHR.png)
 
-Wichtig zu wissen!
+**Wichtig zu wissen!**
 
 Die Prozentangabe, nach der Sie eine Abteilung "gewichten" und an der Realisierung des Umsatzes beteiligen, ist natürlich willkürlich. Es wird nicht möglich sein, wirklichkeitsgetreu festzulegen, wie hoch der Anteil zum Beispiel der Abteilung Service am Speisenumsatz ist. Das Ergebnis wird niemals exakt der Beitragsleistung einer Abteilung gerecht werden. Dies ist aus folgendem Grund auch völlig unwichtig:
 
 Mit der prozentualen Verteilung entsteht für die Dienstplanung eine Kennzahl / ein Richtwert. Dieser Richtwert ist statisch und damit von gleichbleibendem Wert. Da sich das Ergebnis Ihrer Planung am immer gleichbleibenden Richtwert orientiert, ist die Aussagekraft rein rechnerisch immer richtig und somit verlässlich. Es handelt sich hier um einen mathematischen Vorgang, der wahr ist, auch wenn er nicht wirklich ist.
 
-Was sich hier sehr theoretisch liest, wird selbsterklärend werden, sobald Sie unter dem Menüppunkt "Planung" mit der zieloreintierte Planung Ihrer Mitarbeiter gehen.
+Was sich hier sehr theoretisch liest, wird selbsterklärend werden, sobald Sie unter dem Menüppunkt "Planung" mit der zieloreintierten Planung Ihrer Mitarbeiter beginnen.
