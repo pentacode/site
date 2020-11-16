@@ -48,6 +48,10 @@ section .inner .content {
     color: var(--color-blue);
 }
 
+.content h1 {
+    text-align: center;
+}
+
 article {
     border-radius: 0.5em;
     padding: 0.5em;
@@ -65,10 +69,6 @@ article .cover-image {
     max-width: 200px;
     margin: 0 auto;
     color: var(--color-red);
-}
-
-.content {
-    text-align: center;
 }
 
 article > * {

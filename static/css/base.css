@@ -176,8 +176,9 @@ figure {
 
 figure figcaption {
     text-align: center;
-    color: var(--color-subtle);
     font-size: 0.8em;
+    opacity: 0.8;
+    padding: 0.5em;
 }
 
 figure img {
@@ -196,7 +197,6 @@ figure.border img {
 }
 
 figure img {
-    max-height: 400px;
     max-width: 100%;
 }
 

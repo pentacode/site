@@ -1,10 +1,10 @@
 ---
 title: Dienstplan
-weight: 
+weight:
 icon: table
 anchors: []
-
 ---
+
 Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode vorweg: **Pentacode erkennt** den **einzelnen Nutzer** und **dessen Gewohnheiten**.
 
 Jeder 'Dienstplaner' wird bei seinem Log-in den Dienstplan in exakt der Ansicht wiederfinden, in der er/sie den Dienstplan verlassen hat.
@@ -15,9 +15,9 @@ Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine **persönlic
 
 Die grundlegenden Funktionen des Dienstplans in Pentacode.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df10ecf04286364bc92be34/file-G8UFCdTlVQ.png)**1**: Übersicht zum Status eines Mitarbeiters **2**: Positionierung des Mitarbeiters innerhalb der Abteilung **3**: Filtern eines einzelnen Mitarbeiters **4**: Minimieren von Abteilungen **5**: Löschen eines Dienstplans **6**: Speichern von Dienstplanvorlagen **7**: Veröffentlichen des Dienstplans **8**: Gespeicherte Dienstplanvorlagen **9**: Meldung von Problemen in der Dienstplanung
-
-**10**: Schichtvorlagen **11**: Kennzeichnung von Favoriten
+{{< figure caption="**1**: Übersicht zum Status eines Mitarbeiters **2**: Positionierung des Mitarbeiters innerhalb der Abteilung **3**: Filtern eines einzelnen Mitarbeiters **4**: Minimieren von Abteilungen **5**: Löschen eines Dienstplans **6**: Speichern von Dienstplanvorlagen **7**: Veröffentlichen des Dienstplans **8**: Gespeicherte Dienstplanvorlagen **9**: Meldung von Problemen in der Dienstplanung **10**: Schichtvorlagen **11**: Kennzeichnung von Favoriten" >}}
+![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df10ecf04286364bc92be34/file-G8UFCdTlVQ.png)
+{{< /figure >}}
 
 ## Dienstplan schreiben | Vorlagen | Favoriten
 
@@ -29,7 +29,7 @@ Sie haben **zwei Vorgehensweisen** , die Dienste Ihrer Mitarbeiter zu **planen**
 
 Klicken Sie beim Mitarbeiter in den Tag, den Sie planen wollen und geben den geplanten **Dienstbeginn** ein.
 
-Durch Drücken der **"Tab"**-Taste  ein auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein.
+Durch Drücken der **"Tab"**-Taste ein auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein.
 
 ### Schichtvorlagen & Dienstplanvorlagen
 
@@ -147,7 +147,7 @@ Die Zeiten werden entsprechend im **Monatsarbeitszeitkonto** des Mitarbeiters au
 
 Pentacode gibt IHnen die Möglichkeit, Ihre Dienstpläne nach Zielen zu gestalten, die Sie vorgeben.
 
-Ihre Zielvorgabe kann die Anzahl der Stunden sein, die  für eine gewählte Abteilung vorgegeben werden oder sich am Umsatz orientieren, den Sie wochentagabhängig für die geplante Woche erwarten.
+Ihre Zielvorgabe kann die Anzahl der Stunden sein, die für eine gewählte Abteilung vorgegeben werden oder sich am Umsatz orientieren, den Sie wochentagabhängig für die geplante Woche erwarten.
 
 ### Dienstplanung mit Stundenvorgaben
 
