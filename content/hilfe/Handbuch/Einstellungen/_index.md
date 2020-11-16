@@ -7,9 +7,9 @@ anchors: []
 ---
 In diesem Menüpunkt legen Sie die Abteilungen in Ihrem Unternehmen an, Sie definieren, nach welchen Regeln die Zeiterfassung erfolgen soll, Sie gebren hier vor, wie Sollstunden und Pausen ermittelt werden und organisieren den Export in das Buchhaltungssystem.
 
-## Benutzerkonto
+## Benutzerkonto & Unternehmen
 
-## Unternehmen
+In diesen beiden Menüpunkten finden Sie die Angaben zu Zugangsberechtigten und zum Unternehmen. Diese Angaben dienen im Augenblick lediglich zur allgemeinen Information.
 
 ## Arbeitsbereiche
 
@@ -49,7 +49,7 @@ Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie dur
 
 Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
 
-#### Buchung von Mitarbeiteressen 
+#### Buchung von Mitarbeiteressen
 
 Über das Pfeilsymbol können Sie bestimmen, wieviele **Mahlzeiten** einem Mitarbeiter **automatisch hinzugebucht** werden.
 
@@ -109,7 +109,7 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein MItarbeiter meldet sich
 
 Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **manuell** erfassen wollen, so sind die Möglichkeiten für Regeleinstellungen entsprechend verkürzt.
 
-**![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead5c12042863474d1a073b/file-VEaNLlQKKU.png)**Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
+\**![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead5c12042863474d1a073b/file-VEaNLlQKKU.png)**Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
 
 Die **Länge der Pausen** wird entsprechend der Festlegungen, die Sie getroffen haben, bereits **beim Eintrag in den Dienstplan** automatisch **errechnet**.
 
