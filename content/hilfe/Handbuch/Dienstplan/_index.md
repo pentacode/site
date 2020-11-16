@@ -1,10 +1,10 @@
 ---
 title: Dienstplan
-weight:
+weight: 
 icon: table
 anchors: []
----
 
+---
 Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode vorweg: **Pentacode erkennt** den **einzelnen Nutzer** und **dessen Gewohnheiten**.
 
 Jeder 'Dienstplaner' wird bei seinem Log-in den Dienstplan in exakt der Ansicht wiederfinden, in der er/sie den Dienstplan verlassen hat.
@@ -23,7 +23,8 @@ Die grundlegenden Funktionen des Dienstplans in Pentacode.
 
 Sie haben **zwei Vorgehensweisen** , die Dienste Ihrer Mitarbeiter zu **planen**: **Manuelle** Uhrzeiteingabe (**1**) und/oder die Verwendung von **Vorlagen** (**2, 3, 4**) mit **"Drag&Drop"**.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png)
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+()![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png){{< /figure >}}
 
 ### Manuelle Eingabe
 
