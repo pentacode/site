@@ -5,13 +5,29 @@ icon: ''
 anchors: []
 
 ---
-In diesem Menüpunkt legen Sie die Abteilungen in Ihrem Unternehmen an, Sie definieren, nach welchen Regeln die Zeiterfassung erfolgen soll, Sie gebren hier vor, wie Sollstunden und Pausen ermittelt werden und organisieren den Export in das Buchhaltungssystem.
+Hier erfahren Sie, wie Sie die Abteilungen in Ihrem Unternehmen anlegen, wie Sie die Regeln definieren, nach denen die Zeiterfassung erfolgen soll, nach welchen Grundsätzen Sollstunden und Pausen ermittelt werden sollen und wie Sie den Export in das Buchhaltungssystem organisieren .
 
 ## Benutzerkonto & Unternehmen
 
 In diesen beiden Menüpunkten finden Sie die Angaben zu Zugangsberechtigten und zum Unternehmen. Diese Angaben dienen im Augenblick lediglich zur allgemeinen Information.
 
 ## Arbeitsbereiche
+
+In diesem Menüpunkt legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"Zeiterfassung"** definiert haben.
+
+Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie "an Bord gehen".
+
+#### Neuer Standort
+
+Sie können weitere Standorte anlegen, indem Sie afu "+ Neuer Standort" klicken. Es öffnet ein Dialogfenster, in dem Sie die Standortdaten eingeben.
+
+>>**Screenshot**<<
+
+Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die entsprechenden Abteilungen an.
+
+Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter Positionen. Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden. Sehen Sie hierzu den Hilfeartikel **>>Alle Mitarbeiter / Positionen**
+
+#### Neue Abteilung
 
 ## Zeiterfassung
 
