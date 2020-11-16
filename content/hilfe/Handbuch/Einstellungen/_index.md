@@ -57,6 +57,10 @@ Sollten Sie eine archivierte Abteilung wiederherstellen wollen, wenden Sie sich 
 
 #### Reihenfolge der Abteilungen
 
+Die Abteilungen sind in der **Reihenfolge** gelistet, in der Sie die Abteilungen beim Einrichten Ihrer Datenbank angelegt haben. In dieser Reihenfolge erscheinen sie auch im **Dienstplan**.
+
+Sie können diese **Reihenfolge** jederzeit **ändern**, indem sie mit einem **Mouse -over** die Abteilung über die **Pfeile** am rechten Rand nach oben oder unten **verschieben**.
+
 ## Zeiterfassung
 
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
@@ -179,13 +183,21 @@ Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig be
 
 Für die "**Sollstundenberechnung**" der Arbeitszeiten Ihrer Mitarbeiter haben Sie Möglichkeit, zwischen **"Wochenfaktor"**, **"Monatsgenau"** und "**Monatsgenau ohne Feiertage**" zu wählen.
 
-**"Wochenfaktor"** bedeutet, dass sich die Arbeitszeit, die ein Mitarbeiter laut Arbeitsvertrag arbeiten sollte, wie folgt berechnet: **wöchentliche Arbeitszeit** laut Angabe zum Mitarbeiter unter seinen "Stammdaten", dort unter "Vertrag" **x 4,35** (Beispiel: 40 Stunden/Woche * 4,35 = 174 Sollstunden/Monat).
+##### Wochenfaktor
+
+bedeutet, dass sich die Arbeitszeit, die ein Mitarbeiter laut Arbeitsvertrag arbeiten sollte, wie folgt berechnet: **wöchentliche Arbeitszeit** laut Angabe zum Mitarbeiter unter seinen "Stammdaten", dort unter "Vertrag" **x 4,35** (Beispiel: 40 Stunden/Woche * 4,35 = 174 Sollstunden/Monat).
 
 Diese Berechnungsmethode hat zur Folge, dass die **monatliche Sollarbeitszeit** eines Mitarbeiters **immer gleichbleibend** ist.
 
-**"Monatsgenau"** bedeutet, dass die **monatliche Sollarbeitszeit** eines Mitarbeiters **entsprechend** der **Länge eines Monats** in Pentacode **automatisch berechnet** wird. Die zu erbringende Arbeitszeit schwankt entsprechend von Monat zu Monat. Dies ist die exaktere Berechnungsmethode.
+##### Monatsgenau 
 
-Bei "**Monatsgenau ohne Feiertage**" werden **gesetzliche Feiertage**, die nicht auf einen Sonntag fallen, in Abzug gebracht und **verringern** die zu erbringende **Sollarbeitszeit** des Mitarbeiters entsprechend.
+bedeutet, dass die **monatliche Sollarbeitszeit** eines Mitarbeiters **entsprechend** der **Länge eines Monats** in Pentacode **automatisch berechnet** wird. Die zu erbringende Arbeitszeit schwankt entsprechend von Monat zu Monat. Dies ist die exaktere Berechnungsmethode.
+
+##### Monatsgenau ohne Feiertage 
+
+bedeutet: **gesetzliche Feiertage**, die nicht auf einen Sonntag fallen, bei der Sollstundenberechnung in Abzug gebracht und **verringern** die zu erbringende **Sollarbeitszeit** des Mitarbeiters entsprechend.
+
+##### Feste Wochentage
 
 #### "Berechnung Gesetzliche Pause"
 
