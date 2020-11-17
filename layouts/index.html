@@ -5,7 +5,7 @@
 <script src="js/home.js"></script>
 {{ end }} {{ define "main" }} {{ partial "header" . }}
 
-<section class="hero" data-section="hero">
+<section class="hero blue" data-section="hero">
     <div class="inner">
         <div class="content animation-reveal-children">
             <h1><strong>Digitales Management</strong><br />für Ihr Unternehmen</h1>
@@ -34,61 +34,17 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<style>
-    section h1 {
-        background: linear-gradient(45deg, var(--violet), var(--violet-bg));
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        font-weight: 600;
-    }
-</style>
-
-<svg width="100%" height="160" viewBox="10 -10 80 110" preserveAspectRatio="none" overflow="visible">
-    <defs>
-        <linearGradient id="gradient">
-            <stop offset="0%" stop-color="#eae7ff"/>
-            <stop offset="100%"  stop-color="#6435c9"/>
-        </linearGradient>
-    </defs>
-
-  <!-- <path d="M 0 0 Q 25 10, 50 50 Q 75 95, 100 100 Q 75 80, 50 50 T 0 0 Z" fill="url(#gradient)"/> -->
-  <mask id="wave">
-      <path d="M 0 0 Q 25 0, 50 50 T 100 100" stroke="white" stroke-width="10" style="transform-origin: center center; transform: rotate(8deg);" />
-      <path d="M 0 0 Q 25 0, 50 50 T 100 100" stroke="white" stroke-width="10" style="transform-origin: center center; transform: rotate(4deg);" opacity="0.5"/>
-      <path d="M 0 0 Q 25 0, 50 50 T 100 100" stroke="white" stroke-width="10" style="transform-origin: center center; transform: rotate(0deg);" opacity="0.25"/>
-  </mask>
-
-  <rect x="0" y="-10" width="100" height="120" mask="url(#wave)" fill="url(#gradient)" id="gradientRect"/>
-</svg>
-
-<script>
-    (() => {
-        const rect = document.querySelector("#gradientRect");
-        rect.style.transformOrigin = "center center";
-        const winHeight = window.innerHeight;
-        const bounds = rect.getBoundingClientRect();
-        console.log(bounds);
-        console.log(window.scrollY);
-        // window.addEventListener("scroll", () => {
-        //     const center = window.scrollY + winHeight / 2;
-        //     console.log("center", center);
-        //     const offset = Math.max(-1, Math.min(1, (center - bounds.top) / winHeight * 2)) * 10;
-        //     console.log(offset);
-        //     rect.style.transform = `rotate(${offset}deg)`;
-        // });
-    })();
-</script>
-
-<section class="simple right" data-section="simple">
+<section class="simple right green" data-section="simple">
     <div class="inner">
         <div class="content">
             <h1>Einfach Nur <strong>Einfach</strong></h1>
 
             <h3>
-                Zahlen, Daten und Zeiten werden noch immer mehrfach „in die Hand“ genommen und bearbeitet? Sie nehmen
-                aufwändige Gewohnheiten als notwendig hin, auch wenn Sie sich immer wieder mal darüber ärgern?
+                Zahlen, Daten und Zeiten werden noch immer mehrfach „in die Hand“ genommen und bearbeitet?
             </h3>
 
             <p>
@@ -102,10 +58,21 @@
                 <strong>alles entsteht in automatisierten Prozessen</strong>.
             </p>
 
-            <p>
-                <strong>Pentacode macht Kopf und Hände frei</strong>, damit Ihre Mitarbeiter produktiv für Sie tätig
-                sind und Sie sich um das Wichtige in Ihrem Unternehmen kümmern können.
-            </p>
+            <div class="feature-buttons">
+                <a class="btn">
+                    <div>
+                        Durch unser intutives <strong>Drag & Drop Interface</strong> entsteht der
+                        <strong class="nobreak"><i class="fad fa-table"></i> Dienstplan</strong>
+                        einfach und beinahe spielerisch.
+                    </div>
+                </a>
+                <a class="btn">
+                    <div>
+                        Die <strong class="nobreak"><i class="fad fa-stopwatch"></i> Digitale Stempeluhr</strong>
+                        läuft direkt über den Browser und ist <strong>innerhalb von Sekunden</strong> eingerichtet.
+                    </div>
+                </a>
+            </div>
         </div>
 
         <div class="slides">
@@ -119,12 +86,14 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="secure left" data-section="secure">
+<section class="secure left red" data-section="secure">
     <div class="inner">
         <div class="content">
-            <h1>Sicher Fehlerfrei</h1>
+            <h1>Sicher <strong>Fehlerfrei</strong></h1>
 
             <h3>
                 Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer Dokumentation
@@ -138,11 +107,20 @@
                 und dabei widerspruchs- und fehlerfrei.
             </p>
 
-            <p>
-                Aber Pentacode schließt nicht nur alle Dokumentationslücken - das Programm kennt stets die aktuelle
-                Rechtslage und <strong>warnt Sie rechtzeitig vor Problemen und Verstößen</strong>. So gehen Sie
-                angstfrei und selbstbewusst in zukünftige Prüfungen!
-            </p>
+            <div class="feature-buttons">
+                <a class="btn">
+                    <div>
+                        Detaillierte <strong class="nobreak"><i class="fad fa-exclamation-triangle"></i> Problemberichte</strong>
+                        warnen Sie laufend vor möglichen Verstößen und erlauben Ihnen frühzeitig einzugreifen.
+                    </div>
+                </a>
+                <a class="btn">
+                    <div>
+                        Durch automatische Führung von <strong class="nobreak"><i class="fad fa-balance-scale-right"></i> Mitarbeiterkonten</strong>
+                        haben Sie Überstunden, Urlaubsansprüche und SFN-Pauschalen stehts im Griff.
+                    </div>
+                </a>
+            </div>
         </div>
 
         <div class="slides">
@@ -158,12 +136,14 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="controlling right" data-section="controlling">
+<section class="controlling right purple" data-section="controlling">
     <div class="inner">
         <div class="content">
-            <h1>Immer Informiert</h1>
+            <h1>Immer <strong>Informiert</strong></h1>
 
             <h3>
                 Sie wissen erst am Ende des Monats, wie hoch Ihre Personalkosten sind? Möchten Sie bereits am Ende des
@@ -199,12 +179,14 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="independent left" data-section="independent">
+<section class="independent left aqua" data-section="independent">
     <div class="inner">
         <div class="content">
-            <h1>Unabhängig Handeln</h1>
+            <h1><strong>Unabhängig</strong> Handeln</h1>
 
             <h3>
                 Brauchen Sie oft die Zuarbeit von Mitarbeitern? Warten Sie manchmal auf Informationen von Anderen?
@@ -230,9 +212,11 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="right innovative" data-section="innovative">
+<section class="right innovative orange" data-section="innovative">
     <div class="inner">
         <div class="content">
             <h1>Benutzerfreundlich & Portabel</h1>
@@ -274,9 +258,11 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="offer" id="angebot">
+<section class="offer blue" id="angebot">
     <div class="inner">
         <div class="content">
             <h1>Unser Kennenlern-Angebot</h1>
@@ -310,6 +296,8 @@
             </button>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
 {{ end }}

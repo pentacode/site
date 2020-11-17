@@ -1,6 +1,4 @@
 body {
-    --color-red: #ff6666;
-    --color-blue: #2185d0;
     --color-black: #444;
     --color-white: #fff;
     --color-fg: var(--color-black);
@@ -8,4 +6,103 @@ body {
     --max-inner-width: 1200px;
     --color-highlight: var(--color-blue);
     --color-subtle: rgba(0, 0, 0, 0.3);
+
+    --red: #db2828;
+    --orange: #f2711c;
+    --yellow: #fbbd08;
+    --olive: #b5cc18;
+    --green: #21ba45;
+    --teal: #00b5ad;
+    --blue: #2185d0;
+    --violet: #6435c9;
+    --purple: #a333c8;
+    --pink: #e03997;
+    --brown: #a5673f;
+    --grey: #767676;
+    --black: #1b1c1d;
+    --aqua: #1cd0bf;
+
+    --red-bg: #ffe8e6;
+    --orange-bg: #ffedde;
+    --yellow-bg: #fff8db;
+    --olive-bg: #fbfdef;
+    --green-bg: #e5f9e7;
+    --teal-bg: #e1f7f7;
+    --blue-bg: #dff0ff;
+    --violet-bg: #eae7ff;
+    --purple-bg: #f6e7ff;
+    --pink-bg: #ffe3fb;
+    --brown-bg: #f1e2d3;
+    --aqua-bg: #c8fdf8;
+    --grey-bg: #f1f1f1;
+}
+
+.red {
+    --color-highlight: var(--red);
+    --color-highlight-bg: var(--red-bg);
+}
+
+.orange {
+    --color-highlight: var(--orange);
+    --color-highlight-bg: var(--orange-bg);
+}
+
+.yellow {
+    --color-highlight: var(--yellow);
+    --color-highlight-bg: var(--yellow-bg);
+}
+
+.olive {
+    --color-highlight: var(--olive);
+    --color-highlight-bg: var(--olive-bg);
+}
+
+.green {
+    --color-highlight: var(--green);
+    --color-highlight-bg: var(--green-bg);
+}
+
+.teal {
+    --color-highlight: var(--teal);
+    --color-highlight-bg: var(--teal-bg);
+}
+
+.blue {
+    --color-highlight: var(--blue);
+    --color-highlight-bg: var(--blue-bg);
+}
+
+.violet {
+    --color-highlight: var(--violet);
+    --color-highlight-bg: var(--violet-bg);
+}
+
+.purple {
+    --color-highlight: var(--purple);
+    --color-highlight-bg: var(--purple-bg);
+}
+
+.pink {
+    --color-highlight: var(--pink);
+    --color-highlight-bg: var(--pink-bg);
+}
+
+.brown {
+    --color-highlight: var(--brown);
+    --color-highlight-bg: var(--brown-bg);
+}
+
+.grey {
+    --color-highlight: var(--grey);
+    --color-highlight-bg: var(--grey-bg);
+}
+
+.black {
+    --color-highlight: var(--black);
+    --color-highlight-bg: var(--black-bg);
+}
+
+.aqua {
+    --color-highlight: var(--aqua);
+    --color-highlight-bg: var(--aqua-bg);
 }

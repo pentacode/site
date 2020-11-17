@@ -3,6 +3,37 @@ section {
     perspective: 2000px;
 }
 
+section h1 {
+    background: linear-gradient(45deg, var(--color-highlight), var(--color-highlight-bg) 150%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+section .btn.highlight {
+    background: linear-gradient(45deg, var(--color-highlight), var(--color-highlight-bg) 200%);
+}
+
+section {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.divider {
+    width: 100%;
+    height: 160px;
+    margin: 10px 0 30px 0;
+    position: relative;
+    z-index: 100;
+}
+
+.divider .stop1 {
+    stop-color: var(--color-highlight);
+}
+
+.divider .stop2 {
+    stop-color: var(--color-highlight-bg);
+}
+
 section .inner {
     display: flex;
     align-items: center;
@@ -14,6 +45,8 @@ section .inner .content {
     z-index: 1;
     background: var(--color-bg);
     min-width: 500px;
+    padding: 0 1em;
+    margin: 3em 0;
 }
 
 section .inner .content::before {
@@ -22,8 +55,8 @@ section .inner .content::before {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50px;
-    left: -50px;
+    width: 100px;
+    left: -100px;
     z-index: -1;
     transform: translateZ(1px);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
@@ -31,6 +64,36 @@ section .inner .content::before {
 
 section.right .inner {
     flex-direction: row-reverse;
+}
+
+section.right .divider {
+    transform: scale(-1, 1);
+}
+
+.feature-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+    gap: 1em;
+}
+
+.feature-buttons .btn {
+    color: var(--color-highlight);
+    border: dashed 1px var(--color-highlight-bg);
+    background: transparent;
+    font-weight: 300;
+    font-size: 0.8em;
+    transition: background 0.1s, color 0.1s;
+    cursor: pointer;
+}
+
+.feature-buttons .btn:hover {
+    color: var(--color-bg);
+    background: var(--color-highlight);
+    border-color: transparent;
+}
+
+.feature-buttons .btn i {
+    margin: 0;
 }
 
 .slides {
