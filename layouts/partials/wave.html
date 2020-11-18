@@ -10,9 +10,9 @@
 
   <!-- <path d="M 0 0 Q 25 10, 50 50 Q 75 95, 100 100 Q 75 80, 50 50 T 0 0 Z" fill="url(#gradient)"/> -->
   <mask id="{{ $id }}-wave">
-      <path d="M -100 -100 Q -75 -100, -50 -50 T 0 0 T 50 50 T 100 100 T 150 150" stroke="white" stroke-width="10"/>
-      <path d="M -100 -100 Q -75 -100, -50 -50 T 0 0 T 50 50 T 100 100 T 150 150" stroke="white" stroke-width="12" opacity="0.5"/>
-      <path d="M -100 -100 Q -75 -100, -50 -50 T 0 0 T 50 50 T 100 100 T 150 150" stroke="white" stroke-width="14" opacity="0.25"/>
+      <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200" stroke="white" stroke-width="10"/>
+      <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200" stroke="white" stroke-width="15" opacity="0.5"/>
+      <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200" stroke="white" stroke-width="20" opacity="0.25"/>
   </mask>
 
   <rect x="-20" y="-20" width="140" height="140" mask="url(#{{ $id }}-wave)" fill="url(#{{ $id }}-gradient)"/>
@@ -29,12 +29,12 @@
         // console.log(window.scrollY);
         window.addEventListener("scroll", () => {
             const center = window.scrollY + winHeight / 2;
-            console.log("center", center);
+            // console.log("center", center);
             // const offset = Math.abs((center - bounds.top) / winHeight * 2) * 20;
-            const offset = Math.max(-1, Math.min(1, (center - bounds.top) / winHeight * 2)) * 40;
+            const offset = Math.max(-2, Math.min(2, (center - bounds.top) / winHeight * 2)) * 40;
 
             for (const [i, line] of lines.entries()) {
-                line.style.transform = `translate(${offset * i}px, ${offset * i}px)`;
+                line.style.transform = `translate(${offset * (i + 1)}px, ${offset * (i + 1)}px)`;
             }
             // console.log(offset);
             // rect.style.transform = `rotate(${offset}deg)`;
