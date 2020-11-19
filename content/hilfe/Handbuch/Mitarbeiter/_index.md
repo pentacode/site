@@ -5,7 +5,7 @@ icon: ''
 anchors: []
 
 ---
-Hier erfahren Sie, welche Gesamtübersichten Pentacode zu allen Mitarbeitern für Sie bereithält, wie Sie Lohndaten an die Buchhaltung exportieren und wie Sie - vor allem bei Inbetriebnahme von Pentacode - auf einfache Weise Ihre Mitarbeiter Abteilungen, Positionen und Berrechtigungen zuweisen können.
+Hier erfahren Sie, welche Gesamtübersichten Pentacode zu allen Mitarbeitern für Sie bereithält, wie Sie Lohndaten an die Buchhaltung exportieren und wie Sie - vor allem bei Inbetriebnahme von Pentacode - auf einfache Weise Ihre Mitarbeiter Abteilungen und Positionen zuweisen können und Berechtigungen erteilen.
 
 ## Arbeitszeiten
 
