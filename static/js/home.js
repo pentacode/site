@@ -132,4 +132,16 @@ window.addEventListener("load", function() {
         button.onmouseenter = e => anime({ targets: e.target, scale: 1.02 });
         button.onmouseleave = e => anime({ targets: e.target, scale: 1 });
     }
+
+    for (const popover of document.querySelectorAll(".popover")) {
+        const anchor = popover.parentElement;
+        const bg = popover.querySelector(".bg");
+        anchor.addEventListener("mouseenter", () => {
+            anime({ targets: popover, scale: [0.95, 1], opacity: 1, translateY: [-20, 0] });
+        });
+        anchor.addEventListener("mouseleave", e => {
+            console.log(e.target);
+            anime({ targets: popover, opacity: 0 });
+        });
+    }
 });

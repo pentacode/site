@@ -4,7 +4,6 @@ body {
     --color-fg: var(--color-black);
     --color-bg: var(--color-white);
     --max-inner-width: 1200px;
-    --color-highlight: var(--color-blue);
     --color-subtle: rgba(0, 0, 0, 0.3);
 
     --red: #db2828;
@@ -35,16 +34,18 @@ body {
     --brown-bg: #f1e2d3;
     --aqua-bg: #c8fdf8;
     --grey-bg: #f1f1f1;
+
+    --color-highlight: var(--blue);
 }
 
 .red {
-    --color-highlight: var(--red);
-    --color-highlight-bg: var(--red-bg);
+    --color-highlight: var(--orange);
+    --color-highlight-bg: var(--red);
 }
 
 .orange {
-    --color-highlight: var(--orange);
-    --color-highlight-bg: var(--orange-bg);
+    --color-highlight: var(--green);
+    --color-highlight-bg: var(--orange);
 }
 
 .yellow {
@@ -58,8 +59,8 @@ body {
 }
 
 .green {
-    --color-highlight: var(--green);
-    --color-highlight-bg: var(--green-bg);
+    --color-highlight: var(--teal);
+    --color-highlight-bg: var(--green);
 }
 
 .teal {
@@ -69,7 +70,7 @@ body {
 
 .blue {
     --color-highlight: var(--blue);
-    --color-highlight-bg: var(--blue-bg);
+    --color-highlight-bg: var(--teal);
 }
 
 .violet {
