@@ -4,13 +4,13 @@ section {
 }
 
 section h1 {
-    background: linear-gradient(45deg, var(--color-highlight), var(--color-highlight-bg) 150%);
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 section .btn.highlight {
-    background: linear-gradient(45deg, var(--color-highlight), var(--color-highlight-bg) 200%);
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
 }
 
 section {
@@ -78,19 +78,9 @@ section.right .divider {
 }
 
 .feature-buttons .btn {
-    color: var(--color-highlight);
-    border: dashed 1px rgba(0, 0, 0, 0.1);
-    background: transparent;
     font-weight: 300;
     font-size: 0.8em;
-    transition: background 0.1s, color 0.1s;
     cursor: pointer;
-}
-
-.feature-buttons .btn:hover {
-    color: var(--color-bg);
-    background: var(--color-highlight);
-    border-color: transparent;
 }
 
 .feature-buttons .btn i {
@@ -124,6 +114,7 @@ section.hero h1 {
 }
 
 section.hero h2 {
+    color: #ff6666;
     margin-top: 0;
     font-size: 1.4em;
     margin-bottom: 0.5em;
@@ -216,7 +207,7 @@ section.hero .slides::after {
 }
 
 section.hero .features-outer {
-    transform: translate(100px, 0) rotateX(55deg) rotate(15deg);
+    transform: translate(50px, 0) rotateX(55deg) rotate(15deg);
 }
 
 @keyframes roll {
@@ -238,9 +229,18 @@ section.hero .features {
     grid-template-columns: 1fr 1fr;
     grid-gap: 4em 2em;
     padding: 2em 0;
-    width: 20em;
+    font-size: 0.9em;
+    width: 18em;
     text-align: center;
     animation: roll linear 40s -20s infinite;
+    /* background: linear-gradient( */
+    /*     var(--color-highlight), */
+    /*     var(--color-highlight-bg) 25%, */
+    /*     var(--color-highlight) 50%, */
+    /*     var(--color-highlight-bg) 75%, */
+    /*     var(--color-highlight) 100% */
+    /* ); */
+    /* -webkit-background-clip: text; */
 }
 
 section.hero .features:nth-child(2) {
@@ -249,21 +249,27 @@ section.hero .features:nth-child(2) {
 
 section.hero .feature {
     text-align: center;
-    font-size: 1.2em;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     line-height: 1em;
+    /* color: var(--color-highlight); */
+    /* --fa-primary-color: var(--color-highlight); */
+    /* --fa-secondary-color: var(--color-highlight-bg); */
+    /* --fa-secondary-opacity: 1; */
+    background: linear-gradient(-45deg, var(--color-highlight), var(--color-highlight-bg) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--color-bg);
 }
 
 section.hero .feature i {
+    color: var(--color-highlight-bg);
     display: block;
     font-size: 3em;
     margin-bottom: 0.2em;
-    --color-highlight: var(--blue) !important;
-    color: var(--color-highlight);
 }
 
 section.independent .roster-metrics {
@@ -282,15 +288,15 @@ section.innovative .slides-inner {
 }
 
 section.innovative .desktop {
-    transform: translate(-100px, -200px) rotateY(30deg) rotateX(10deg);
+    transform: translate(100px, -200px) rotateY(-30deg) rotateX(10deg);
 }
 
 section.innovative .tablet {
-    transform: translate(150px, 100px) rotateY(30deg) rotateX(10deg);
+    transform: translate(50px, 100px) rotateY(-30deg) rotateX(10deg);
 }
 
 section.innovative .phone {
-    transform: translate(-150px, 400px) rotateY(30deg) rotateX(10deg);
+    transform: translate(1000px, 300px) rotateY(-30deg) rotateX(10deg);
 }
 
 section.innovative .slide img {

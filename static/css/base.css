@@ -88,6 +88,7 @@ button,
     font: inherit;
     font-weight: bold;
     border: none;
+    will-change: transform;
 }
 
 button.highlight,
@@ -346,4 +347,23 @@ section h3 {
 
 .nobreak {
     white-space: nowrap;
+}
+
+.text-clip {
+    border-radius: 0.5em;
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: var(--color-bg);
+}
+
+.btn.text-clip {
+    border: dashed 1px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn.text-clip:hover {
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
+    border: transparent;
 }

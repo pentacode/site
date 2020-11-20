@@ -18,11 +18,12 @@ header .header-inner {
 }
 
 header .login-button,
-header .btn {
+header .btn.highlight {
     display: block;
     font-weight: bold;
     padding: 0.4em 0.8em;
     border-radius: 8px;
+    border: dashed 1px rgba(0, 0, 0, 0.1);
 }
 
 header nav.sections ul li:not(:last-child),
