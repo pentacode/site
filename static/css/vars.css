@@ -45,7 +45,7 @@ body {
 
 .orange {
     --color-highlight: var(--green);
-    --color-highlight-bg: var(--orange);
+    --color-highlight-bg: var(--yellow);
 }
 
 .yellow {
@@ -75,12 +75,12 @@ body {
 
 .violet {
     --color-highlight: var(--violet);
-    --color-highlight-bg: var(--violet-bg);
+    --color-highlight-bg: var(--purple);
 }
 
 .purple {
     --color-highlight: var(--purple);
-    --color-highlight-bg: var(--purple-bg);
+    --color-highlight-bg: var(--violet);
 }
 
 .pink {

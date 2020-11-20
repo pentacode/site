@@ -17,13 +17,8 @@ header .header-inner {
     box-sizing: border-box;
 }
 
-header .login-button,
-header .btn.highlight {
-    display: block;
-    font-weight: bold;
-    padding: 0.4em 0.8em;
-    border-radius: 8px;
-    border: dashed 1px rgba(0, 0, 0, 0.1);
+header .btn {
+    font-size: 0.9em;
 }
 
 header nav.sections ul li:not(:last-child),
