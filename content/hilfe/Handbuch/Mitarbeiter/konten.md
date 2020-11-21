@@ -9,7 +9,7 @@ Hier erfahren Sie, wie sich das Arbeitszeitkonto eines Mitarbeiters erstellt und
 
 ## Arbeitszeiten
 
-Mit **"Arbeitszeiten"** (**1**) ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die elektronische **Zeiterfassung** durch den Mitarbeiter entstanden sind.
+Mit **"Arbeitszeiten"** (**1**) ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die  **Zeiterfassung** durch den Mitarbeiter entstanden sind.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e4c1cc704286364bc9582e8/file-RBebVl0dpT.png)
 
@@ -45,6 +45,6 @@ Durch das Anklicken des **Drucksymbols** am linken unteren Rand (**5**) wählen 
 
 Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
 
-Dieser Ausdruck dient zum einen als **Nachweis** für Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient IHrem Schutz vor späteren Anfechtungen.
+Dieser Ausdruck dient zum einen als **Nachweis** für Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
 
 #### Lohnabrechnung
