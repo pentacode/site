@@ -19,7 +19,7 @@ Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 
 ### "Arbeitszeiten Nachweis"
 
-Diese Formular ist für den **Ausdruck** und Ihre **Archvierung** für den Fall einer **Prüfung** vorgesehen. Idealerweise lassen Sie dieses Formular **vom** betreffenden **Mitarbeiter unterzeichnen**. Mit der Unterzeichnung **bestätigt** der Mitarbeiter die **Richtigkeit** der Dokumentation.
+Diese Formular ist für den **Ausdruck** und Ihre **Archvierung** für den Fall einer **Prüfung** vorgesehen. Idealerweise lassen Sie dieses Formular von den **Mitarbeiter unterzeichnen**. Mit der Unterzeichnung **bestätigen** die Mitarbeiter die **Richtigkeit** der Dokumentation.
 
 ### "Lohnabrechnung Individuell"
 
