@@ -7,7 +7,7 @@ anchors: []
 ---
 In Pentacode können Sie mit einem Aufwand von 2 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
 
-Diese Hilfeartikel sind in der Reihenfolge des idealen Vorgehens bei Inbetriebnahme von Pentacode angeordnet, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
+Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie des idealen  Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
 
 ## Umsatzgruppen
 
@@ -121,19 +121,29 @@ Es können in der Abrechnung **ausschließlich Bar-Vorschüsse** erfasst werden!
 
 Im Menüpunkt **"Umsätze"** führen sie mit der **"Tagesabrechnung"** (**1**) die **Abrechnung des Geschäftstages** durch.
 
-**Kassenbuch**, **Debitoren**- und **Vorschusslisten** entstehen in der Folge und völlig **automatisch**. Für die **Überprüfung der Richtigkeit** dieser Bereiche Ihrer Finanzbuchhaltung ist lediglich die **Zählung des Bargeldbestandes** notwendig, der Ihnen am Ende des Geschäftstages verbleibt.
+#### Tagesabrechnung MIT Umsatzgruppen
 
-Die Liste der **Erlösarten** kann **beliebig** lang sein.
+Wenn Sie Umsatzgruppen und/oder unbare Zahlungen in Gruppen angelegt haben, erscheinen diese immer in der von Ihnen gewählten Reihenfolge.
 
-Aus Gründen der Übersichtlichkeit werden im **aktuellen Tag** jedoch nur jene **Erlösarten** gezeigt, für die am **Vortag Umsätze** erfasst worden sind.
+Geben Sie in diesem Fall lediglich die Bruttoumsätze und -zahlungen ein, wie Sie aus Ihrem Kassen- und EC-Gerät hervorgehen. Alle weiteren Angaben, die für die Buchhaltung eventuell notwendig sind, haben Sie bereits bei den jeweiligen Gruppen hinterlegt.
 
-Die **Erlösarten** erscheinen in der **Reihenfolge**, in der sie am **Vortag** erfasst worden sind.
+#### Tagesabrechnung OHNE Umsatzgruppen
+
+Aus Gründen der Übersichtlichkeit werden im **aktuellen Tag**  nur jene **Umsatzarten** gezeigt, für die am **Vortag Umsätze** erfasst worden sind. 
+
+Die **Umsatzarten** erscheinen in der **Reihenfolge**, in der sie am **Vortag** erfasst worden sind.
+
+Die Liste der Umsatzarten, die über die darüber hinaus über das Dropdown-Menü gewählt werden kann, ist **beliebig** lang und umfasst alle Umsatzarten, die Sie im Laufe der jeweils vergangenen 6 Wochen angelegt haben..
 
 Dieses Prinzip gilt auch für **"Unbare Zahlungen"**.
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e53ca7c2c7d3a7e9ae82ebb/file-RHl4u9CH3a.png)
 
+**Kassenbuch**, **Debitoren**- und **Vorschusslisten** entstehen durch die Abrechnung völlig **automatisch**. Für die **Überprüfung der Richtigkeit** dieser Bereiche Ihrer Finanzbuchhaltung ist lediglich die **Zählung des Bargeldbestandes** notwendig, der Ihnen am Ende des Geschäftstages verbleibt.
+
 **Während Sie** Ihre Umsätze, unbaren Zahlungen, Debitoren, Barausgaben aus dem laufenden Geschäft und evtl. Gehaltsvorschüsse **erfassen**, entsteht bei **"Tageskasse"** (**2**) eine **fortlaufende Saldierung** (**3**) Ihrer Barkasse, die **nach beendeter Durchführung** der Tagesabrechnung Ihren **rechnerischen Kassenstand** (**3**) ausweist.
+
+#### Kassendifferenz
 
 Idealerweise **zählen** Sie nun das Ihnen tatsächlich verbliebene **Bargeld** und geben den **Zählbetrag** unter **"Kassenstand Ist"** (**4**) ein.
 
@@ -141,7 +151,19 @@ Sollte eine Differenz ausgewiesen sein, so überprüfen Sie am besten die Richti
 
 Verbleibt eine **Differenz** (**5**), wird diese im Kassenbuch als **Kassendifferenz** ausgewiesen.
 
-**"Zwischenspeichern"** (**6**) und **"Abschließen & Buchen"** (**7**)
+#### Unbare Trinkgelder
+
+Nehmen wir den Fall an, dass zum Beispiel nach einer geschlossenen Veranstaltung per Karte bezahlt wird und der Gastgeber den Rechnungsbetrag für ein Treinkgeld aufrundet. Oder Sie führen zum Beispiel einen Berieb, in dem fast ausschließlich mit Karte bezahlt wird und die Gäste den Kartenbetrag für das Trinkgeld erhöhen. In beiden Fällen wäre der Kartenbetrag höher als der Umsatz. 
+
+Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, geben Sie als Zählbetrag "0" ein. Das IHnen verbliebene Bargeld beträgt ja tatsächlich Null Euro.
+
+Beim "Speichern" oder "Abschließen & Buchen" erscheint nun die Meldung "Differenz als Unbare Trinkgelder buchen?" 
+
+Wenn Sie dies bestätigen, entsteht in der Abrechnung und im Kassenbuch die Position "Unbare Trinkgelder".
+
+Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsprechende Buchung im Kassenbuch z.B. mit dem Text "Auszahlung Trinkgeld" als Ausgabe durch.
+
+#### "Zwischenspeichern" (6) 
 
 Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Abschließen & Buchen" durchführen.
 
@@ -150,6 +172,8 @@ Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Ab
 Das **"Zwischenspeichern"** ist **ZWINGEND notwendig**. **Nicht gespeicherte Daten** gehen nach Verlassen der Tagesabrechnung **verloren**.
 
 Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein **"Zwischenspeichern"** kann **beliebig häufig** vorgenommen werden.
+
+#### "Abschließen & Buchen" (7)
 
 Die Funktion **"Abschließen & Buchen"** (**7**) ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
 
@@ -165,13 +189,13 @@ Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen 
 
 **Manuell** in das Kassenbuch werden ausschließlich jene **Einnahmen** oder **Ausgaben** eingetragen, für die Sie im Wortsinn "an den Tresor" gehen, in anderen Worten: **Wenn Sie auf Gelder zugreifen, die aus zurückliegenden, bereits abgerechneten Tagen stammen.**
 
-Wenn Sie z.B. am Montag eine Bankeinzahlung durchführen, so zahlen Sie das Bargeld ein, das von den Umsätzen des Wochenendes verblieben ist. Diese Bankeinzahlung ist deshalb unmittelbar in das Kassenbuch einzutragen. Es ist nicht Teil eines laufenden Geschäftstages und wird deshalb nicht in der Abrechnung des Geschäftstages erfasst.
+Wenn Sie z.B. am Montag eine Bankeinzahlung durchführen, so zahlen Sie das Bargeld ein, das von den Umsätzen des Wochenendes verblieben ist. Diese Bankeinzahlung ist deshalb unmittelbar in das Kassenbuch einzutragen. Sie ist nicht Teil eines laufenden Geschäftstages und wird deshalb nicht in der Abrechnung des Geschäftstages erfasst.
 
 Weitere Beispiele für Ausgaben, die in das Kassenbuch einzutragen sind, wären: Geldentnahmen aus dem Tresor für Einkäufe oder für Vorschüsse, die nicht aus der "Restaurantkasse" gezahlt werden, sondern die sich Mitarbeiter "im Büro" abholen u.ä.m.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e53a8072c7d3a7e9ae82d66/file-4jJ0InVZj7.png)
 
-Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
+Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden automatisch in die "**Vorschussliste**" der Mitarbeiter übertragen.
 
 Das **Kassenbuch** überwacht selbständig den laufenden Endsaldo und lässt einen **negativen Endsaldo nicht** zu.
 
