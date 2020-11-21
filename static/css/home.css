@@ -341,6 +341,25 @@ section.offer i.fa-search {
     float: right;
 }
 
+section.offer .offer-terms {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+
+section.offer .offer-terms li {
+    font-size: 1.2em;
+    padding: 0.1em;
+}
+
+section.offer .offer-terms li i {
+    margin: 0.25em 0.4em 1em 0em;
+    float: left;
+}
+
 @media (max-width: 1024px) {
     section {
         margin: 2em;
