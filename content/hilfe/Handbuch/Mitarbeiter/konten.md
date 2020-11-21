@@ -53,6 +53,10 @@ Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die j
 
 #### Lohnabrechnung
 
-Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden aus.
+Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden, sowie die Anzahl eventueller Mahlzeiten aus.
 
 Am Fußende sehen Sie die **Zusammenfassung** nach Stunden und die daraus resultierenden jeweiligen **Euro**-Beträge. Die Lohnangaben beziehen sich dabei auf das **Arbeitgeber-Brutto**.
+
+Dieser Nachweis dient vor allem Ihrer **internen** Dokumentation und ist nicht zwingend geeignet, den Mitarbeitern ausgehändigt zu werden.
+
+**Empfehlung**: Im Falle einer Prüfung ist es empfehelnswert, dem Prüfer für eine Stichprobenkontrolle einzelne Ausdrucke der "Lohnabrechnung" zu überlassen. Die offensichtliche Transparenz, Richtigkeit und Glaubwürdigkeit Ihrer Dokumentation durch Pentacode kann den Prüfungsvorgang erheblich beschleunigen.
