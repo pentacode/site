@@ -43,8 +43,16 @@ Durch das Anklicken des **Drucksymbols** am linken unteren Rand (**5**) wählen 
 
 #### Arbeitszeiten Nachweis
 
+Der "Arbeitszeiten Nachweis" listet die täglichen Arbeitszeiten mit ihrem jeweiligen Anfang und Ende, den Ruhepausen und die Dauer des Arbeitstages. 
+
+In der  Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**"  die Anzahl der **bezahlten Stunden**. Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezahlten Stunden unter "**BEZ**" hinzu addiert. 
+
 Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
 
-Dieser Ausdruck dient zum einen als **Nachweis** für Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
+Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
 
 #### Lohnabrechnung
+
+Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden aus.
+
+Am Fußende sehen Sie die **Zusammenfassung** nach Stunden und die daraus resultierenden jeweiligen **Euro**-Beträge. Die Lohnangaben beziehen sich dabei auf das **Arbeitgeber-Brutto**.
