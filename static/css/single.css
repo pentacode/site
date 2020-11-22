@@ -64,6 +64,10 @@ p {
     margin: 0.5em 1em;
 }
 
+article img {
+    max-width: 100%;
+}
+
 .cover-image {
     color: var(--color-red);
 }

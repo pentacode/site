@@ -5,19 +5,19 @@
 <script src="js/home.js"></script>
 {{ end }} {{ define "main" }} {{ partial "header" . }}
 
-<section class="hero" data-section="hero">
+<section class="hero blue" data-section="hero">
     <div class="inner">
         <div class="content animation-reveal-children">
             <h1><strong>Digitales Management</strong><br />für Ihr Unternehmen</h1>
 
-            <h2>
-                Von der <strong>Dienstplanung</strong> und <strong>Zeiterfassung</strong> bis hin zu
-                <strong>Lohnvorbereitung</strong>, <strong>Kostenanalyse</strong> und <strong>Controlling</strong>.
+            <h2 class="red text-clip">
+                <strong>Wir sparen Ihnen Arbeit.</strong> Punkt.
             </h2>
 
             <h3>
-                Pentacode ist die vielseitige Software, die als Ihr stiller Partner die Arbeit für Sie erledigt - damit
-                Sie die Freiheit haben, sich auf das Wesentliche zu konzentrieren.
+                Von <strong>Dienstplanung</strong> und <strong>Zeiterfassung</strong> bis hin zu
+                <strong>Kostenanalyse</strong>, <strong>Controlling</strong> und <strong>Lohnvorbereitung</strong>
+                - so einfach und intuitiv wie noch nie.
             </h3>
 
             <div class="buttons">
@@ -34,33 +34,39 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="simple right" data-section="simple">
+<section class="simple right red" data-section="simple">
     <div class="inner">
         <div class="content">
-            <h1>Einfach Nur Einfach</h1>
+            <h1><strong>Leichtigkeit</strong> Statt Frust</h1>
 
             <h3>
-                Zahlen, Daten und Zeiten werden noch immer mehrfach „in die Hand“ genommen und bearbeitet? Sie nehmen
-                aufwändige Gewohnheiten als notwendig hin, auch wenn Sie sich immer wieder mal darüber ärgern?
+                Was vorher lästig und manchmal kompliziert war, erledigen Sie nun in kürzester Zeit und beinahe spielerisch.
             </h3>
 
             <p>
-                In Pentacode entfallen die manuellen Arbeiten für die Verwaltung Ihres Unternehmens fast vollständig.
-                Was vorher lästig und manchmal kompliziert war, erledigen Sie nun in kürzester Zeit und beinahe
-                spielerisch.
+                Ob bei der <strong>Dienstplanung</strong>, <strong>Buchführung</strong> oder <strong>Personalverwaltung</strong>, Pentacode bringt Sie mit seiner
+                übersichtlichen und selbsterklärenden Benutzeroberfläche <strong>einfach und unbeschwert</strong> zum Ziel. 
             </p>
 
-            <p>
-                Zeiterfassung, Dokumentation, Lohnvorbereitung, Kassenbuchführung, Debitorenlisten –
-                <strong>alles entsteht in automatisierten Prozessen</strong>.
-            </p>
-
-            <p>
-                <strong>Pentacode macht Kopf und Hände frei</strong>, damit Ihre Mitarbeiter produktiv für Sie tätig
-                sind und Sie sich um das Wichtige in Ihrem Unternehmen kümmern können.
-            </p>
+            <div class="feature-buttons">
+                <a class="btn text-clip">
+                    <div>
+                        Durch <strong>Drag & Drop</strong> und <strong>Vorlagen</strong> entsteht der
+                        <strong class="nobreak"><i class="fal fa-table"></i> Dienstplan</strong>
+                        einfach und im Handumdrehen.
+                    </div>
+                </a>
+                <a class="btn text-clip">
+                    <div>
+                        Die <strong class="nobreak"><i class="fal fa-stopwatch"></i> Digitale Stempeluhr</strong>
+                        funktioniert absolut selbsterklärend und ist <strong>innerhalb von Sekunden</strong> eingerichtet.
+                    </div>
+                </a>
+            </div>
         </div>
 
         <div class="slides">
@@ -74,142 +80,43 @@
             </div>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="secure left" data-section="secure">
+<section class="left innovative green" data-section="innovative">
     <div class="inner">
         <div class="content">
-            <h1>Sicher Fehlerfrei</h1>
+            <h1><strong>Zusehen</strong> Statt Arbeiten</h1>
 
             <h3>
-                Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer Dokumentation
-                und setzen genau an diesen ihren Hebel an. Viele gehen daher besorgt in eine Buchprüfung – und das oft
-                zurecht.
+                Was vorher mit Aufwand verbunden war, ensteht nun in vollständig automatisierten Prozessen.
             </h3>
 
             <p>
-                Pentacode erledigt Ihre gesamte Dokumentation nicht nur vollständig, sondern völlig
-                <strong>selbständig und prüfungssicher</strong>. Ihre Unterlagen sind aktuell und fortlaufend geführt
-                und dabei widerspruchs- und fehlerfrei.
+                <strong>Arbeitszeitdokumentation</strong>, <strong>Urlaubskonten</strong> und <strong>SFN-Zuschläge</strong>,
+                <strong>Lohnvorbereitung</strong>, <strong>Kassenbuch</strong> und mehr - Pentacode erledigt
+                <strong>selbstständig</strong>, was vorher wertvolle Zeit gekostet hat.
             </p>
 
-            <p>
-                Aber Pentacode schließt nicht nur alle Dokumentationslücken - das Programm kennt stets die aktuelle
-                Rechtslage und <strong>warnt Sie rechtzeitig vor Problemen und Verstößen</strong>. So gehen Sie
-                angstfrei und selbstbewusst in zukünftige Prüfungen!
-            </p>
-        </div>
-
-        <div class="slides">
-            <div class="slides-inner">
-                <div class="issues">
-                    <img src="/img/home/issues/issue_1.png" class="animate" />
-                    <img src="/img/home/issues/issue_2.png" class="animate" />
-                    <img src="/img/home/issues/issue_3.png" class="animate" />
-                    <img src="/img/home/issues/issue_4.png" class="animate" />
-                    <img src="/img/home/issues/issue_5.png" class="animate" />
-                    <img src="/img/home/issues/issue_6.png" class="animate" />
-                </div>
+            <div class="feature-buttons">
+                <a class="btn text-clip">
+                    <div>
+                        Durch automatische Führung von <strong class="nobreak"><i class="fal fa-balance-scale-right"></i> Mitarbeiterkonten</strong>
+                        haben Sie Überstunden, Urlaubsansprüche und SFN-Pauschalen stehts im Griff.
+                    </div>
+                </a>
+                <a class="btn text-clip">
+                    <div>
+                        <strong><i class="fal fa-abacus"></i> Lohndaten</strong> und <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> können innerhalb von Sekunden von Ihrer Buchhaltung importiert
+                        werden.
+                    </div>
+                </a>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="controlling right" data-section="controlling">
-    <div class="inner">
-        <div class="content">
-            <h1>Immer Informiert</h1>
-
-            <h3>
-                Sie wissen erst am Ende des Monats, wie hoch Ihre Personalkosten sind? Möchten Sie bereits am Ende des
-                Tages wissen, wie rentabel Ihr Einsatz war?
-            </h3>
-
-            <p>
-                In Pentacode geben Ihnen <strong>Echtzeitdaten</strong> sofortige Auskunft. Damit erhalten Sie die
-                Möglichkeit, zu jedem Zeitpunkt korrigierend einzugreifen.
-            </p>
-
-            <p>
-                In <strong>selbsterklärenden, leicht verständlichen und aussagekräftigen Grafiken</strong> werden Plan-
-                und Ist-Daten verglichen und Zeiträume einander gegenübergestellt. Sie erkennen negative Trends, bevor
-                diese eine Wirkung entfalten können und positive Entwicklungen, die Sie noch verstärken können.
-            </p>
-
-            <p>
-                <strong>Mit Pentacode behalten Sie die Kontrolle über Ihr Unternehmen.</strong> Hierzu benötigen Sie
-                weder den Rat von Experten noch das Wissen akademischer Fachleute. Diese Spezialisten wirken bei der
-                Entwicklung der Software mit.
-            </p>
-        </div>
 
         <div class="slides">
-            <div class="slides-inner">
-                <div class="reports">
-                    <img src="/img/home/reports/reports_1.png" class="animate" />
-                    <img src="/img/home/reports/reports_2.png" class="animate" />
-                    <img src="/img/home/reports/reports_3.png" class="animate" />
-                    <img src="/img/home/reports/reports_4.png" class="animate" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="independent left" data-section="independent">
-    <div class="inner">
-        <div class="content">
-            <h1>Unabhängig Handeln</h1>
-
-            <h3>
-                Brauchen Sie oft die Zuarbeit von Mitarbeitern? Warten Sie manchmal auf Informationen von Anderen?
-            </h3>
-
-            <p>
-                Pentacode liefert Ihnen <strong>unmittelbar</strong>, was Sie als Unternehmer wissen wollen. Sie haben
-                die <strong>Freiheit</strong>, jederzeit und unabhängig handeln zu können.
-            </p>
-
-            <p>
-                Mit Ihrer <strong>Unabhängigkeit</strong> senken Sie auch ganz nebenbei den Aufwand anderer. So dauert
-                zum Beispiel eine Lohnabrechnung für Ihr Unternehmen nur etwa 10 Sekunden - dabei ist es völlig egal ob
-                Sie 10, 100 oder 1000 Mitarbeiter verwalten.
-            </p>
-        </div>
-
-        <div class="slides">
-            <div class="slides-inner">
-                <div class="roster-metrics">
-                    <img src="/img/home/independent/roster.png" class="animate" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="right innovative" data-section="innovative">
-    <div class="inner">
-        <div class="content">
-            <h1>Benutzerfreundlich & Portabel</h1>
-
-            <h3>
-                Pentacode ist eine Web-basierte Anwendung, die offline-fähig und Hardware-unabhängig ist. So können Sie
-                direkt durchstarten, ohne in teuere Geräte zu investieren!
-            </h3>
-
-            <p>
-                Und selbstverständlich haben Sie Zugang zu Ihren Unternehmenszahlen, egal wo Sie sind, wann immer Sie
-                wollen. Das Einzige, was Sie brauchen, ist ein Internet-fähiges Endgerät.
-            </p>
-
-            <p>
-                Unser Grundsatz bei der Produktentwicklung lautet: maximale Anwenderfreundlichkeit bei maximalem Nutzen
-                für den Unternehmer. Das Resultat ist ein Produkt, dass in Sachen Leistungsfähigkeit,
-                Bedienerfreundlichkeit und Performance seinesgleichen sucht.
-            </p>
-        </div>
-
-        <div class="slides">
             <div class="slides-inner">
                 <div class="slide desktop">
                     <img src="/img/home/innovative/desktop.png" class="animate"/>
@@ -227,44 +134,194 @@
                     <img src="/img/home/innovative/phone.png" class="animate"/>
                 </div>
             </div>
+
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
-<section class="offer" id="angebot">
+<section class="secure right purple" data-section="secure">
     <div class="inner">
         <div class="content">
-            <h1>Unser Kennenlern-Angebot</h1>
+            <h1><strong>Gelassenheit</strong> Statt Sorge</h1>
 
             <h3>
-                Wir wissen, dass es wichtig ist, jedes Engagement auf seine <strong>Nützlichkeit</strong> und
-                <strong>Profitabilität</strong> hin zu überprüfen. Wir machen das selbst nicht anders.
+                Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer Dokumentation
+                und setzen genau an diesen ihren Hebel an. Viele gehen daher besorgt in eine Buchprüfung – und das oft
+                zurecht.
             </h3>
 
             <p>
-                Diesen Test auf Nützlichkeit muss auch Pentacode bestehen können. Ist dies nicht der Fall, ist die
-                Software auch nicht für Ihr Unternehmen geeignet.
+                Pentacode erledigt Ihre gesamte Dokumentation nicht nur vollständig, sondern völlig
+                <strong>selbständig und prüfungssicher</strong>. Ihre Unterlagen sind aktuell und fortlaufend geführt
+                und dabei widerspruchs- und fehlerfrei.
+            </p>
+
+            <div class="feature-buttons">
+                <a class="btn text-clip">
+                    <div>
+                        Detaillierte <strong class="nobreak"><i class="fal fa-exclamation-triangle"></i> Problemberichte</strong>
+                        warnen Sie laufend vor möglichen Verstößen und erlauben Ihnen frühzeitig einzugreifen.
+                    </div>
+                </a>
+                <a class="btn text-clip">
+                    <div>
+                        Eine lückenlose <strong class="nobreak"><i class="fal fa-users"></i> Arbeitszeitdokumentation</strong> und ein automatisiertes <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> schützen vor ungerechtfertigten Ansprüchen und Zuschätzungen.
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slides-inner">
+                <div class="issues">
+                    <img src="/img/home/issues/issue_1.png" class="animate" />
+                    <img src="/img/home/issues/issue_2.png" class="animate" />
+                    <img src="/img/home/issues/issue_3.png" class="animate" />
+                    <img src="/img/home/issues/issue_4.png" class="animate" />
+                    <img src="/img/home/issues/issue_5.png" class="animate" />
+                    <img src="/img/home/issues/issue_6.png" class="animate" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ partial "wave" }}
+</section>
+
+<section class="controlling left blue" data-section="controlling">
+    <div class="inner">
+        <div class="content">
+            <h1><strong>Information</strong> Statt Spekulation</h1>
+
+            <h3>
+                Echtzeitdaten liefern Ihnen sofortige Auskunft zu Lohnkosten, Umsätzen und deren Entwicklung.
+            </h3>
+
+            <p>
+                In <strong>selbsterklärenden, leicht verständlichen und aussagekräftigen Grafiken</strong> werden Plan-
+                und Ist-Daten verglichen und Zeiträume einander gegenübergestellt. Sie erkennen negative Trends, bevor
+                diese eine Wirkung entfalten können und positive Entwicklungen, die Sie noch verstärken können.
+            </p>
+
+            <div class="feature-buttons">
+                <a class="btn text-clip">
+                    <div>
+                        Das <strong class="nobreak"><i class="fal fa-analytics"></i> Dashboard</strong>
+                        zeigt Ihnen auf einen Blick alle wesentliche Kennzahlen, z.B. <strong>Personalkosten</strong> und
+                        <strong>Produktivit&auml;t</strong>, sowie deren Entwicklung.
+                    </div>
+                </a>
+                <a class="btn text-clip">
+                    <div>
+                        In tagesgenauen  <strong class="nobreak"><i class="fal fa-chart-pie"></i> Berichten</strong> und <strong class="nobreak"><i class="fal fa-chart-bar"></i> Monats&uuml;bersichten</strong> erhalten Sie in Echtzeit Auskunft
+                        zu <strong>Lohnkosten</strong> und <strong>Zeitaufwand</strong>.
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slides-inner">
+                <div class="reports">
+                    <img src="/img/home/reports/reports_1.png" class="animate" />
+                    <img src="/img/home/reports/reports_2.png" class="animate" />
+                    <img src="/img/home/reports/reports_3.png" class="animate" />
+                    <img src="/img/home/reports/reports_4.png" class="animate" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ partial "wave" }}
+</section>
+
+<section class="savings right red" data-section="savings">
+    <div class="inner">
+        <div class="content">
+            <h1>Unsere <strong>Geld-Zur&uuml;ck-Garantie</strong></h1>
+
+            <h3>
+                Wir garantieren Ihnen, dass die Einsparungen durch Pentacode
+                grundsätzlich über den Kosten für die Software liegen. Und
+                zwar in jedem einzelnen Monat.
+            </h3>
+
+            <p>
+                Sollte dies in einem Monat nicht der Fall sein, erstatten wir
+                den Differenzbetrag innerhalb einer Woche durch Überweisung auf
+                Ihr Konto. Ohne Wenn und Aber.
+            </p>
+
+            <div class="feature-buttons">
+                <a class="btn text-clip">
+                    <div>
+                        Erfahren Sie jetzt, wie Pentacode auch ohne Ihr Zutun <strong>Arbeitszeit einspart</strong> und dadurch Ihre <strong>Personalkosten nachweisbar senkt</strong>. <i class="fal fa-piggy-bank"></i> <i class="fal fa-piggy-bank"></i> <i class="fal fa-piggy-bank"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slides-inner">
+                <div class="savings-chart">
+                    <img src="/img/home/savings/savings.png" class="animate" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ partial "wave" }}
+</section>
+
+<section class="offer blue" id="angebot">
+    <div class="inner">
+        <div class="content">
+            <h1>Unser <strong>Kennenlern-Angebot</strong></h1>
+
+            <p>
+                Jedes neue Produkt muss <strong>nützlich</strong> und <strong>profitabel</strong> sein. Das muss auch unsere Software beweisen.
             </p>
 
             <p>
-                Gegen eine geringe Schulungsgebühr erhalten Sie Pentacode über einen Zeitraum von
-                <strong>zwei Monaten gebührenfrei</strong> und <strong>ohne jede Vertragsbindung</strong>. Wir möchten,
-                dass Sie Pentacode auf Herz und Nieren prüfen können und dabei auch uns und unseren Support
-                kennenlernen.
+                Bevor Sie sich deshalb auf irgendetwas „einlassen“, sollen Sie sich deshalb zuerst von der Nützlichkeit von Pentacode überzeugen.
+                Gegen eine geringe Schulungsgebühr erhalten Sie Pentacode…
             </p>
 
+            <ul class="offer-terms">
+                <li class="text-clip">
+                    <i class="fal fa-calendar"></i> zwei volle Monate <strong>gebührenfrei</strong>.
+                </li>
+
+                <li class="text-clip">
+                    <i class="fal fa-file-signature"></i> <strong>ohne</strong> jede <strong>Vertragsbindung</strong>
+                </li>
+
+                <li class="text-clip">
+                    <i class="fal fa-tasks"></i> mit <strong>allen Funktionen</strong>
+                </li>
+
+                <li class="text-clip">
+                    <i class="fal fa-lock-open-alt"></i> <strong>ohne</strong> Einschränkungen 
+                </li>
+
+                <li class="text-clip">
+                    <i class="fal fa-user-headset"></i> inklusive unserem <strong>vollem Support</strong>
+                </li>
+            </ul>
+
             <p>
-                Ihr Test findet im Fall von Pentacode nicht anhand eines Fake-Accounts statt, sondern in der
-                <strong>echten Produktivumgebung</strong>. Sie erhalten die Software mit
-                <strong>allen Funktionen</strong>, ohne Einschränkungen und unserem gesamten <strong>Support</strong>.
-                Dabei gehen Sie <strong>keinerlei Verpflichtung</strong> ein.
+                Sie entscheiden erst, nachdem Sie uns und unsere Software auf Herz und Nieren geprüft haben.
             </p>
 
             <button class="highlight btn get-started">
-                <i class="icon fas fa-user-headset"></i><span>Jetzt Termin Vereinbaren</span>
+                <i class="icon fas fa-user-headset"></i><span> Jetzt Termin Vereinbaren</span>
             </button>
         </div>
     </div>
+
+    {{ partial "wave" }}
 </section>
 
 {{ end }}

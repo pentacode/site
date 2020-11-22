@@ -1,15 +1,13 @@
 <figure class='{{ .Get "class" }}'>
-    {{ if eq (.Get "mode") "md" }}
+    <div class="img-grid">
         {{ markdownify .Inner }}
-    {{ else }}
-        {{ .Inner }}
-    {{ end }}
+    </div>
 
     {{ with .Get "src" }}
     <img src="{{ . }}" />
     {{ end }}
 
     {{ with .Get "caption" }}
-    <figcaption>{{ . }}</figcaption>
+    <figcaption>{{ markdownify . }}</figcaption>
     {{ end }}
 </figure>

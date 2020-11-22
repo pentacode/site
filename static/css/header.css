@@ -17,12 +17,8 @@ header .header-inner {
     box-sizing: border-box;
 }
 
-header .login-button,
 header .btn {
-    display: block;
-    font-weight: bold;
-    padding: 0.4em 0.8em;
-    border-radius: 8px;
+    font-size: 0.9em;
 }
 
 header nav.sections ul li:not(:last-child),

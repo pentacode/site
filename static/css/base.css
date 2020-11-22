@@ -77,7 +77,7 @@ button,
 .btn {
     background: var(--color-fg);
     color: var(--color-bg);
-    display: inline-flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -88,6 +88,7 @@ button,
     font: inherit;
     font-weight: bold;
     border: none;
+    will-change: transform;
 }
 
 button.highlight,
@@ -95,18 +96,8 @@ button.highlight,
     background: var(--color-highlight);
 }
 
-.btn .icon {
-    font-size: 1.1em;
-}
-
-.btn .icon:first-child,
-.btn i:first-child {
-    margin-right: 0.5em;
-}
-
-.btn .icon:last-child,
-.btn i:last-child {
-    margin-left: 0.5em;
+.btn i {
+    display: inline;
 }
 
 footer {
@@ -176,8 +167,9 @@ figure {
 
 figure figcaption {
     text-align: center;
-    color: var(--color-subtle);
     font-size: 0.8em;
+    opacity: 0.8;
+    padding: 0.5em;
 }
 
 figure img {
@@ -196,7 +188,6 @@ figure.border img {
 }
 
 figure img {
-    max-height: 400px;
     max-width: 100%;
 }
 
@@ -220,6 +211,10 @@ figure.float.left {
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.img-grid img {
+    margin: 0 auto;
 }
 
 blockquote {
@@ -338,4 +333,27 @@ section h3 {
     height: 100%;
     object-fit: contain;
     fill: currentColor;
+}
+
+.nobreak {
+    white-space: nowrap;
+}
+
+.text-clip {
+    border-radius: 0.5em;
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: var(--color-bg);
+}
+
+.btn.text-clip {
+    border: dashed 1px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn.text-clip:hover {
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
+    border: transparent;
 }

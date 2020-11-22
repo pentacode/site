@@ -2,11 +2,13 @@
     <nav>
         <ul>
             {{ $currPage := . }} {{ range .Site.Sections }}
+            {{ if not (eq .Title "Hilfe") }}
             <li class="section-item {{ if eq . $currPage }}active{{ end }}">
                 <a href="{{ .RelPermalink }}">
                     {{ .Title }}
                 </a>
             </li>
+            {{ end }}
             {{ end }}
 
             <li class="section-item">

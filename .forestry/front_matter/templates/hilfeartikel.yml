@@ -1,0 +1,34 @@
+---
+label: Hilfeartikel
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Titel
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: icon
+  label: icon
+- type: field_group_list
+  name: anchors
+  label: anchors
+  fields:
+  - type: text
+    name: hash
+    label: hash
+  - type: text
+    name: title
+    label: title
+pages:
+- content/hilfe/Handbuch/Berichte/_index.md
+- content/hilfe/Handbuch/Dienstplan/_index.md
+- content/hilfe/Handbuch/Dienstplan/dienstplanvorlagen.md
+- content/hilfe/Handbuch/Einstellungen/_index.md
+- content/hilfe/Handbuch/Mitarbeiter/_index.md
+- content/hilfe/Handbuch/Mitarbeiter/konten.md
+- content/hilfe/Handbuch/Planung/_index.md
+- content/hilfe/Handbuch/Umsätze/_index.md
+- content/hilfe/Handbuch/Zeiterfassung/_index.md
+- content/hilfe/Handbuch/_index.md
