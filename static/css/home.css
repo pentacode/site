@@ -1,6 +1,13 @@
+body {
+    overflow-x: hidden;
+}
+
 section {
     margin: 4em 2em 8em 2em;
     perspective: 2000px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transform-style: preserve-3d;
 }
 
 section h1 {
@@ -11,11 +18,6 @@ section h1 {
 
 section .btn.highlight {
     background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
-}
-
-section {
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
 .divider {
@@ -37,6 +39,7 @@ section {
 section .inner {
     display: flex;
     align-items: center;
+    transform-style: preserve-3d;
 }
 
 section .inner .content {
@@ -45,8 +48,7 @@ section .inner .content {
     z-index: 1;
     background: var(--color-bg);
     min-width: 500px;
-    padding: 0 1em;
-    margin: 3em 0;
+    padding: 3em 1em;
 }
 
 section .inner .content::before {
@@ -106,6 +108,7 @@ section.right .divider {
     height: 400px;
     position: relative;
     overflow: visible;
+    transform-style: preserve-3d;
 }
 
 .slides .slides-inner {
@@ -138,6 +141,7 @@ section.hero h3 {
     font-weight: 400;
     margin-bottom: 40px;
     font-size: 1.1em;
+    max-width: 500px;
 }
 
 section.hero h3 strong {
@@ -243,7 +247,7 @@ section.hero .features {
     grid-template-columns: 1fr 1fr;
     grid-gap: 4em 2em;
     padding: 2em 0;
-    font-size: 1em;
+    font-size: 0.9em;
     width: 20em;
     text-align: center;
     animation: roll linear 40s -20s infinite;
@@ -276,7 +280,6 @@ section.hero .feature {
 }
 
 section.hero .feature i {
-    color: var(--color-highlight-bg);
     display: block;
     font-size: 3em;
     margin-bottom: 0.2em;
@@ -345,22 +348,21 @@ section.offer .offer-terms {
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1em;
-    margin: 1em;
+    margin: 1em 0.5em;
 }
 
 section.offer .offer-terms li {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0.1em;
 }
 
 section.offer .offer-terms li i {
-    margin: 0.25em 0.4em 1em 0em;
-    float: left;
+    margin: 0.25em;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     section {
         margin: 2em;
     }
@@ -372,10 +374,21 @@ section.offer .offer-terms li i {
     section .inner .content {
         background: rgba(255, 255, 255, 0.5);
         min-width: 0;
-        max-width: 100%;
+        max-width: 500px;
+        padding: 1em 1em 2em 1em;
     }
 
-    section:not(.hero) .slides {
+    section .inner .content::before,
+    section .inner .content::after {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+        padding-right: 0.5em;
+    }
+
+    .slides {
         display: none;
     }
 }

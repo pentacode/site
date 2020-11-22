@@ -2,7 +2,7 @@
 
 <svg viewBox="10 -10 80 110" preserveAspectRatio="none" overflow="visible" class="divider">
     <defs>
-        <linearGradient id="{{ $id }}-gradient">
+        <linearGradient id="{{ $id }}-gradient" class="svg-gradient">
             <stop offset="0%" class="stop1"/>
             <stop offset="100%" class="stop2"/>
         </linearGradient>
@@ -10,9 +10,9 @@
 
   <!-- <path d="M 0 0 Q 25 10, 50 50 Q 75 95, 100 100 Q 75 80, 50 50 T 0 0 Z" fill="url(#gradient)"/> -->
   <mask id="{{ $id }}-wave">
-      <path d="M -250 -250 Q -225 -250, -200 -200, T -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200" stroke="white" stroke-width="5"/>
-      <path d="M -250 -250 Q -225 -250, -200 -200, T -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200" stroke="white" stroke-width="10" opacity="0.5"/>
-      <path d="M -250 -250 Q -225 -250, -200 -200, T -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200" stroke="white" stroke-width="15" opacity="0.25"/>
+      <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke="white" stroke-width="5"/>
+      <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke="white" stroke-width="10" opacity="0.5"/>
+      <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke="white" stroke-width="15" opacity="0.25"/>
   </mask>
 
   <rect x="-20" y="-20" width="140" height="140" mask="url(#{{ $id }}-wave)" fill="url(#{{ $id }}-gradient)"/>
@@ -35,7 +35,7 @@
             const offset = Math.max(-2, Math.min(2, (center - bounds.top) / winHeight * 2)) * 40;
 
             for (const [i, line] of lines.entries()) {
-                line.style.transform = `translate(${offset * (i + 1) + i * 50}px, ${offset * (i + 1) + i * 50}px)`;
+                line.style.transform = `translate(${offset * (i + 1) - i * 50}px, ${offset * (i + 1) - i * 50}px)`;
             }
             // console.log(offset);
             // rect.style.transform = `rotate(${offset}deg)`;
