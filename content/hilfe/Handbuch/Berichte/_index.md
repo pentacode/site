@@ -1,7 +1,6 @@
 ---
 title: Berichte
-weight: 
-icon: ''
+weight:
+icon: "chart-pie"
 anchors: []
-
 ---

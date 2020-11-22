@@ -338,18 +338,12 @@ section.offer button.highlight {
     align-self: center;
 }
 
-section.offer i.fa-search {
-    font-size: 13em;
-    color: var(--color-red);
-    float: right;
-}
-
 section.offer .offer-terms {
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1em;
+    gap: 0.5em;
     margin: 1em 0.5em;
 }
 
@@ -359,6 +353,7 @@ section.offer .offer-terms li {
 }
 
 section.offer .offer-terms li i {
+    display: inline;
     margin: 0.25em;
 }
 

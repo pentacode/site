@@ -1,13 +1,13 @@
 ---
 title: Umsätze
-weight: 
-icon: ''
+weight:
+icon: "euro-sign"
 anchors: []
-
 ---
+
 In Pentacode können Sie mit einem Aufwand von 2 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
 
-Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie des idealen  Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
+Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie des idealen Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
 
 ## Umsatzgruppen
 
@@ -73,9 +73,9 @@ Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen-
 
 ### Umsatzerfassung OHNE Umsatzgruppen
 
-Legen Sie  die **Umsatzarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
+Legen Sie die **Umsatzarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
 
-Einmal angelegte Umsatzarten erscheinen in der Folge im Dropdown-Menü. Sollten Sie viele unterschiedliche Umsatzarten angelegt haben und damit die Liste entsprechend lang sein, geben Sie am besten die ersten Buchstaben in das Eingabefeld ein. Die Auswahl wird mit jeder  Buchstabeneingabe weiter eingeengt.
+Einmal angelegte Umsatzarten erscheinen in der Folge im Dropdown-Menü. Sollten Sie viele unterschiedliche Umsatzarten angelegt haben und damit die Liste entsprechend lang sein, geben Sie am besten die ersten Buchstaben in das Eingabefeld ein. Die Auswahl wird mit jeder Buchstabeneingabe weiter eingeengt.
 
 Indem Sie auf das **Zahlenfeld** (**2**) klicken, haben Sie die Möglichkeit, **Buchungstext**, **Steuerschlüssel**, buchhalterisches **Konto** und **Kostenstelle** zu benennen.
 
@@ -129,7 +129,7 @@ Geben Sie in diesem Fall lediglich die Bruttoumsätze und -zahlungen ein, wie Si
 
 #### Tagesabrechnung OHNE Umsatzgruppen
 
-Aus Gründen der Übersichtlichkeit werden im **aktuellen Tag**  nur jene **Umsatzarten** gezeigt, für die am **Vortag Umsätze** erfasst worden sind. 
+Aus Gründen der Übersichtlichkeit werden im **aktuellen Tag** nur jene **Umsatzarten** gezeigt, für die am **Vortag Umsätze** erfasst worden sind.
 
 Die **Umsatzarten** erscheinen in der **Reihenfolge**, in der sie am **Vortag** erfasst worden sind.
 
@@ -153,17 +153,17 @@ Verbleibt eine **Differenz** (**5**), wird diese im Kassenbuch als **Kassendiffe
 
 #### Unbare Trinkgelder
 
-Nehmen wir den Fall an, dass zum Beispiel nach einer geschlossenen Veranstaltung per Karte bezahlt wird und der Gastgeber den Rechnungsbetrag für ein Treinkgeld aufrundet. Oder Sie führen zum Beispiel einen Berieb, in dem fast ausschließlich mit Karte bezahlt wird und die Gäste den Kartenbetrag für das Trinkgeld erhöhen. In beiden Fällen wäre der Kartenbetrag höher als der Umsatz. 
+Nehmen wir den Fall an, dass zum Beispiel nach einer geschlossenen Veranstaltung per Karte bezahlt wird und der Gastgeber den Rechnungsbetrag für ein Treinkgeld aufrundet. Oder Sie führen zum Beispiel einen Berieb, in dem fast ausschließlich mit Karte bezahlt wird und die Gäste den Kartenbetrag für das Trinkgeld erhöhen. In beiden Fällen wäre der Kartenbetrag höher als der Umsatz.
 
 Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, geben Sie als Zählbetrag "0" ein. Das IHnen verbliebene Bargeld beträgt ja tatsächlich Null Euro.
 
-Beim "Speichern" oder "Abschließen & Buchen" erscheint nun die Meldung "Differenz als Unbare Trinkgelder buchen?" 
+Beim "Speichern" oder "Abschließen & Buchen" erscheint nun die Meldung "Differenz als Unbare Trinkgelder buchen?"
 
 Wenn Sie dies bestätigen, entsteht in der Abrechnung und im Kassenbuch die Position "Unbare Trinkgelder".
 
 Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsprechende Buchung im Kassenbuch z.B. mit dem Text "Auszahlung Trinkgeld" als Ausgabe durch.
 
-#### "Zwischenspeichern" (6) 
+#### "Zwischenspeichern" (6)
 
 Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Abschließen & Buchen" durchführen.
 

@@ -1,7 +1,6 @@
 ---
 title: Planung
-weight: 
-icon: ''
+weight:
+icon: "calendar-alt"
 anchors: []
-
 ---

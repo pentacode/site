@@ -1,7 +1,6 @@
 ---
 title: Dienstplanvorlagen
-weight: 
-icon: ''
+weight:
+icon: "copy"
 anchors: []
-
 ---
