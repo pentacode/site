@@ -9,7 +9,7 @@ Mit **"Arbeitszeiten"** (**1**) ist das monatliche Arbeitszeitkonto des Mitarbei
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e4c1cc704286364bc9582e8/file-RBebVl0dpT.png)
 
-### Darstellung
+### Übersicht
 
 In dieser Übersicht werden dargestellt:
 
