@@ -1,5 +1,5 @@
 ---
-title: Dienstplan
+title: Dienstplan - grundsätzliche Eigenschaften
 weight: 
 icon: table
 anchors: []
