@@ -5,11 +5,29 @@ icon: table
 anchors: []
 
 ---
-Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode vorweg: **Pentacode erkennt** den **einzelnen Nutzer** und **dessen Gewohnheiten**.
+Alle Funktionen in Pentacode ergeben sich selbständig in automatisierten Prozessen. Der Dienstplan ist im Wesentlichen der einzige Bereich in Pentacode, in dem tatsächlich noch aktiv gearbeitet werden kann. doch auch dies machen wir Ihnen so einfach und spielerisch wie möglich. Deshalb ein paar grundsätzliche Hinweise vorweg.
 
-Jeder 'Dienstplaner' wird bei seinem Log-in den Dienstplan in exakt der Ansicht wiederfinden, in der er/sie den Dienstplan verlassen hat.
+Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode ist, dass die Software den **einzelnen Nutzer** und **dessen Gewohnheiten erkennt** .
 
-Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine **persönlichen Dienstplanvorlagen**, seine **persönlichen Schichtvorlagen** und seine **persönlichen Favoriten**.
+Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine , seine **persönlichen Schichtvorlagen**, seine **persönlichen Favoriten** und seine **persönlichen Dienstplanvorlagen**. Mehr hierzu finden Sie in den entsprechenden Einzelartikeln.
+
+Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben. 
+
+ >>Screenshot<< (Abt. zusammengeklappt)
+
+Über das Pfeilsymbol neben der Bezeichnung der Abteilung können sie Abteilungen auf- und zufalten.
+
+>>Screenshot<< (1 Abt. aufgeklappt)
+
+In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung unter **_Positionen_** zugeordnet haben. 
+
+Die Mitarbeiter sind in alphabetischer Reihenfolge nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem Mouse-over über den Namen eines Mitarbeiters erscheinen zwei nach oben und unten gerichtete Pfeile. Durch das Anklicken eines der Pfeile verschieben Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
+
+>> Screenshot<<
+
+Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteilungen entsprechend zugeordnet sein. In diesem Fall erscheint er beständig in allen Abteilungen, in denen er geplant werden kann.
+
+Über das Suchfeld können Sie durch Namenseingabe
 
 ## Überblick
 
