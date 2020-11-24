@@ -27,7 +27,7 @@ Klicken Sie dann auf "Speichern". Und zack - Ihre Dienstplanvorlage ist erstellt
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df39ae104286364bc92d47f/file-OIJ0WATgCB.png)
 
-Geben Sie jeder Dienstplanvorlage am besten eine eindeutige Bezeichnung, sodass Sie mühelos erkenne, was sich hinter ihr "verbirgt".
+Geben Sie jeder Dienstplanvorlage am besten eine eindeutige Bezeichnung, sodass Sie mühelos erkennen, was sich hinter ihr "verbirgt".
 
 Sie können eine Dienstplanvorlage natürlich jederzeit löschen. Machen Sie hierzu einfach einen Mouse-over über die Vorlage und klicken Sie auf das Papierkorb-Symbol.
 
