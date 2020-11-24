@@ -46,5 +46,3 @@ Sie können eine Dienstplanvorlage natürlich jederzeit löschen. Machen Sie hie
 \--> Hier fehlt noch was, oder ? <--
 
 Übrigens: Sie können eine Dienstplanvorlage in jede beliebige Abteilung ziehen. Pentacode ist schlau genug und schreibt die Vorlage automatisch in die richtige Abteilung.
-
-## Dienstplanvorlagen Löschen
