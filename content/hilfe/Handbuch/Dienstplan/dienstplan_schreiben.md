@@ -1,27 +1,11 @@
 ---
 title: Dienstplan Schreiben
-weight:
+weight: 
 icon: pencil-alt
 anchors: []
+
 ---
-
-Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode vorweg: **Pentacode erkennt** den **einzelnen Nutzer** und **dessen Gewohnheiten**.
-
-Jeder 'Dienstplaner' wird bei seinem Log-in den Dienstplan in exakt der Ansicht wiederfinden, in der er/sie den Dienstplan verlassen hat.
-
-Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine **persönlichen Dienstplanvorlagen**, seine **persönlichen Schichtvorlagen** und seine **persönlichen Favoriten**.
-
-## Überblick
-
-Die grundlegenden Funktionen des Dienstplans in Pentacode.
-
-{{< figure caption="**1**: Übersicht zum Status eines Mitarbeiters **2**: Positionierung des Mitarbeiters innerhalb der Abteilung **3**: Filtern eines einzelnen Mitarbeiters **4**: Minimieren von Abteilungen **5**: Löschen eines Dienstplans **6**: Speichern von Dienstplanvorlagen **7**: Veröffentlichen des Dienstplans **8**: Gespeicherte Dienstplanvorlagen **9**: Meldung von Problemen in der Dienstplanung **10**: Schichtvorlagen **11**: Kennzeichnung von Favoriten" >}}
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df10ecf04286364bc92be34/file-G8UFCdTlVQ.png)
-{{< /figure >}}
-
-## Dienstplan schreiben | Vorlagen | Favoriten
-
-Sie haben **zwei Vorgehensweisen** , die Dienste Ihrer Mitarbeiter zu **planen**: **Manuelle** Uhrzeiteingabe (**1**) und/oder die Verwendung von **Vorlagen** (**2, 3, 4**) mit **"Drag&Drop"**.
+Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung,  wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell**  und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}} ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png){{< /figure >}}
 
@@ -33,15 +17,19 @@ Sie haben **zwei Vorgehensweisen** , die Dienste Ihrer Mitarbeiter zu **planen**
 
 Klicken Sie beim Mitarbeiter in den Tag, den Sie planen wollen und geben den geplanten **Dienstbeginn** ein.
 
-Durch Drücken der **"Tab"**-Taste ein auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein.
+Durch Drücken der **"Tab"**-Taste auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein. Die Eingabe eines Dienstendes ist nicht verpflichtend, Sie können dies durch nochmaliges Drücken der Tab-Taste überspringen. Allerdings geht Ihnen dadurch eventuell wertvolle Information verloren.
 
-### Schichtvorlagen & Dienstplanvorlagen
+Pentacode bietet Ihnen die Möglichkeit, den Dienstplan gegen Stundenvorgaben zu erstellen. Die Zählung der geplanten Stunden erfordert jedoch die Eingabe des voraussichtlichen Dienstendes. Dasselbe gilt für die Kalkulation der Kosten eines Arbeitstages, die durch Pentacode im Hintergrund durchgeführt wird. Im Kapitel **_abcdefg_** erfahren Sie hierzu mehr.
 
-Am **rechten Rand** Ihres Dienstplans sehen Sie **gesetzte Vorlagen** (**2**), **Schichtvorlagen** (**3**) und **Dienstplanvorlagen** (**4**)
+Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zumindest näherungsweise doch recht zutreffend angenommen werden kann. Abweichung in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
+
+### Verwendung von Schichtvorlagen 
+
+Am **rechten Rand** Ihres Dienstplans sehen Sie **gesetzte Vorlagen** und **Schichtvorlagen**.
 
 Fahren Sie mit dem Cursor auf eine gewünschte **Vorlage**, klicken Sie mit der linken Maustaste in die Vorlage, ziehen Sie die Vorlage beim Mitarbeiter in den gewählten Tag ("drag") und lassen Sie die linke Maustaste los ("drop"). Die Vorlage ist somit in den Dienstplan geschrieben.
 
-#### Gesetzte Vorlagen (2)
+#### Gesetzte Vorlagen 
 
 Für die Vorfälle **Krank**, **Urlaub**, **Guttag** und **Wunschfrei** sind Vorlagen standardmäßig **vorgegeben**.
 
@@ -51,9 +39,9 @@ Eine Schichtvorlage **entsteht automatisch** mit der Eingabe einer Uhrzeit im Di
 
 Die Liste der Schichtvorlagen ist "unendlich". Je häufiger eine Uhrzeit im Dienstplan eingegeben wird, desto weiter rückt die entsprechende Vorlage nach oben zum Anfang der Liste.
 
-Durch das Setzen des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
+Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
 
-**Schichtvorlagen** können **nicht gelöscht** werden.
+**Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht ehr verwendet, verschwindet die Vorlage automatisch.
 
 #### Dienstplanvorlagen (4)
 
