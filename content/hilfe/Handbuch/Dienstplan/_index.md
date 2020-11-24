@@ -5,29 +5,31 @@ icon: table
 anchors: []
 
 ---
-Alle Funktionen in Pentacode ergeben sich selbständig in automatisierten Prozessen. Der Dienstplan ist im Wesentlichen der einzige Bereich in Pentacode, in dem tatsächlich noch aktiv gearbeitet werden kann. doch auch dies machen wir Ihnen so einfach und spielerisch wie möglich. Deshalb ein paar grundsätzliche Hinweise vorweg.
+Alle Funktionen in Pentacode ergeben sich selbständig in automatisierten Prozessen. Der Dienstplan ist im Wesentlichen der einzige Bereich in Pentacode, in dem tatsächlich noch aktiv gearbeitet werden kann. Doch auch dies wollen wir Ihnen so einfach und spielerisch wie möglich machen. Deshalb ein paar grundsätzliche Hinweise vorweg.
+
+Ob ein "Dienstplaner" Zugang zu einer, mehreren oder allen Abteilungen und in welchem Umfang er Einblick in Kennzahlen hat, bestimmt der Administrator durch Erteilung von Berechtigungen.
 
 Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode ist, dass die Software den **einzelnen Nutzer** und **dessen Gewohnheiten erkennt** .
 
-Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine , seine **persönlichen Schichtvorlagen**, seine **persönlichen Favoriten** und seine **persönlichen Dienstplanvorlagen**. Mehr hierzu finden Sie in den entsprechenden Einzelartikeln.
+Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine **persönlichen Schichtvorlagen**, seine **persönlichen Favoriten** und seine **persönlichen Dienstplanvorlagen**. Mehr hierzu finden Sie in den entsprechenden Einzelartikeln.
 
-Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben. 
+Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben.
 
- >>Screenshot<< (Abt. zusammengeklappt)
+> Screenshot<< (Abt. zusammengeklappt)
 
-Über das Pfeilsymbol neben der Bezeichnung der Abteilung können sie Abteilungen auf- und zufalten.
+Über das Pfeilsymbol neben der Bezeichnung der Abteilung können sie Abteilungen auf- und zusammenklappen.
 
->>Screenshot<< (1 Abt. aufgeklappt)
+> > Screenshot<< (1 Abt. aufgeklappt)
 
-In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung unter **_Positionen_** zugeordnet haben. 
+In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung im Menüpunkt **_Positionen_** zugeordnet haben.
 
 Die Mitarbeiter sind in alphabetischer Reihenfolge nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem Mouse-over über den Namen eines Mitarbeiters erscheinen zwei nach oben und unten gerichtete Pfeile. Durch das Anklicken eines der Pfeile verschieben Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
 
->> Screenshot<<
+> > Screenshot<<
 
 Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteilungen entsprechend zugeordnet sein. In diesem Fall erscheint er beständig in allen Abteilungen, in denen er geplant werden kann.
 
-Über das Suchfeld können Sie durch Namenseingabe
+Über das Suchfeld können Sie Mitarbeiter durch Namenseingabe filtern
 
 ## Überblick
 
