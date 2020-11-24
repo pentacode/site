@@ -2,7 +2,15 @@
 title: Dienstplan Vorlagen
 weight: 
 icon: copy
-anchors: []
+anchors:
+- hash: was-sind-dienstplanvorlagen
+  title: Was sind Dienstplanvorlagen?
+- hash: dienstplanvorlagen-erstellen
+  title: Dienstplanvorlagen erstellen
+- hash: dienstplanvorlagen-anwenden
+  title: Dienstplanvorlagen Anwenden
+- title: Dienstplanvorlagen Löschen
+  hash: dienstplanvorlagen-loeschen
 
 ---
 ## Was sind Dienstplanvorlagen?
