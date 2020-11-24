@@ -21,16 +21,14 @@ Eine Dienstplanvorlage kann sogar Abteilungs-übergreifend erstellt werden.  Hie
 
 Wenn Sie die Mitarbeiter mit ihren Zeiten geplant haben, klicken Sie einfach auf das Speichersymbol. Wählen Sie dann die Abteilung aus, deren Einträge als Vorlage gespeichert werden sollen. Wenn Sie Mitarbeiter Abteilungs-übergreifend geplant haben sollten (das kommt gerne mal z.B.  bei Aushilfen vor), wählen Sie die entsprechenden (also mehrere Abteilungen) aus.
 
-Klicken Sie dann auf "**Speichern**". Und zack - Ihre Dienstplanvorlage ist erstellt und erscheint in der Liste Ihrer Vorlagen.
+Klicken Sie dann auf "Speichern". Und zack - Ihre Dienstplanvorlage ist erstellt und erscheint in der Liste Ihrer Vorlagen.
 
 **<< Screenshot>>**
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df39ae104286364bc92d47f/file-OIJ0WATgCB.png)
 
-Geben Sie Dienstplanvorlage am besten eine eindeutige Bezeichnung, sodass Sie jederzeit wissen, .
+Geben Sie jeder Dienstplanvorlage am besten eine eindeutige Bezeichnung, sodass Sie mühelos erkenne, was sich hinter ihr "verbirgt".
 
-Mit dem Befehl **"Speichern"** erscheint die **neue Vorlage** in der Liste Ihrer Dienstplanvorlagen.
+Sie können eine Dienstplanvorlage natürlich jederzeit löschen. Machen Sie hierzu einfach einen Mouse-over über die Vorlage und klicken Sie auf das Papierkorb-Symbol.
 
-Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das **Papierkorb-Symbol** klicken.
-
-Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die Vorlage wird automatisch in die richtige Abteilung geschrieben.
+Übrigens: Sie können eine Dienstplanvorlage in jede beliebige Abteilung ziehen. Pentacode ist schlau genug und schreibt die Vorlage automatisch in die richtige Abteilung.
