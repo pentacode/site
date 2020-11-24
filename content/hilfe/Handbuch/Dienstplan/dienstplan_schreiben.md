@@ -23,13 +23,13 @@ Pentacode bietet Ihnen die Möglichkeit, den Dienstplan gegen Stundenvorgaben zu
 
 Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zumindest näherungsweise doch recht zutreffend angenommen werden kann. Abweichung in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
 
-### Verwendung von Schichtvorlagen 
+### Verwendung von Schichtvorlagen
 
 Am **rechten Rand** Ihres Dienstplans sehen Sie **gesetzte Vorlagen** und **Schichtvorlagen**.
 
 Fahren Sie mit dem Cursor auf eine gewünschte **Vorlage**, klicken Sie mit der linken Maustaste in die Vorlage, ziehen Sie die Vorlage beim Mitarbeiter in den gewählten Tag ("drag") und lassen Sie die linke Maustaste los ("drop"). Die Vorlage ist somit in den Dienstplan geschrieben.
 
-#### Gesetzte Vorlagen 
+#### Gesetzte Vorlagen
 
 Für die Vorfälle **Krank**, **Urlaub**, **Guttag** und **Wunschfrei** sind Vorlagen standardmäßig **vorgegeben**.
 
@@ -42,22 +42,6 @@ Die Liste der Schichtvorlagen ist "unendlich". Je häufiger eine Uhrzeit im Dien
 Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
 
 **Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht ehr verwendet, verschwindet die Vorlage automatisch.
-
-#### Dienstplanvorlagen (4)
-
-Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
-
-**Schreiben** Sie hierzu einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol** (**5**).
-
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df39ae104286364bc92d47f/file-OIJ0WATgCB.png)
-
-**Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen und geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung**.
-
-Mit dem Befehl **"Speichern"** erscheint die **neue Vorlage** in der Liste Ihrer Dienstplanvorlagen.
-
-Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das **Papierkorb-Symbol** klicken.
-
-Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die Vorlage wird automatisch in die richtige Abteilung geschrieben.
 
 ## Löschen von Eingaben
 
