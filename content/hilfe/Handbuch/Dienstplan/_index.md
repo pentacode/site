@@ -29,7 +29,19 @@ Die Mitarbeiter sind in alphabetischer Reihenfolge nach Vornamen gelistet. Diese
 
 Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteilungen entsprechend zugeordnet sein. In diesem Fall erscheint er beständig in allen Abteilungen, in denen er geplant werden kann.
 
-Über das Suchfeld können Sie Mitarbeiter durch Namenseingabe filtern
+Über das Suchfeld können Sie Mitarbeiter durch Namenseingabe filtern.
+
+Durch ein Mouse-over über den Namen eines Mitarbeiters erscheint ein Fenster, durch das Sie 
+
+* über den Modus der Zeiterfassung
+* das Arbeitsverhältnis
+* die im laufenden Monat bereits geleisteten Arbeitsstunden im Verhältnis zur monatlichen Sollarbeitszeit
+* Über- oder Minderstunden
+* den vorhandenen Urlaubsanspruch
+
+  informiert werden.
+
+  Die Über-/Minderstunden sowie der Urlaubsanspruch beziehen sich jeweils auf den Stand zu Beginn des aktuellen Monats.
 
 ## Überblick
 
