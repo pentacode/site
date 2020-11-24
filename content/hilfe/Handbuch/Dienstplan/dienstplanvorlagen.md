@@ -7,7 +7,7 @@ anchors: []
 ---
 Viele Dienste und Schichten kehren regelmäßig wieder. Um zu vermeiden, dass die relativ gleichen Schichten jede Woche neu im Dienstplan eingetragen werden müssen, haben Sie in Pentacode die Möglichkeit, Dienstplanvorlagen zu erstellen. 
 
-Wenn Sie ein Hotel führen, können z.B. zwei oder drei unterschiedliche Dienstplanvorlagen für die Rezeption oft die allermeisten Eventualitäten in dieser Abteilung abdecken. Dasselbe gilt bei Restaurants häufig für die Küche. Oder Sie beschäftigen z.B. geringfügig Beschäftigte, die in der Regel nur an bestimmten Tagen arbeiten. Auch für diese Aushilfen können Sie Dienstplanvorlagen erstellen. 
+Wenn Sie ein Hotel führen, können z.B. zwei oder drei unterschiedliche Dienstplanvorlagen für die Rezeption oft die allermeisten Varianten der Planung in dieser Abteilung abdecken. Dasselbe gilt bei Restaurants häufig für die Küche. Oder Sie beschäftigen z.B. geringfügig Beschäftigte, die in der Regel nur an bestimmten Tagen arbeiten. Auch für diese Aushilfen könnten Sie z.B. Dienstplanvorlagen erstellen. 
 
 Sie werden erstaunt sein, wie viel Zeit Sie sich mit diesen Vorlagen ersparen und wie flüssig Sie mir deren Hilfe Ihren Dienstplan erstellen können.
 
