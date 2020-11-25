@@ -41,7 +41,7 @@ Die Liste der Schichtvorlagen ist "unendlich". Je häufiger eine Uhrzeit im Dien
 
 Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
 
-**Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht ehr verwendet, verschwindet die Vorlage automatisch.
+**Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht mehr verwendet, verschwindet die Vorlage automatisch.
 
 ## Löschen von Eingaben
 
