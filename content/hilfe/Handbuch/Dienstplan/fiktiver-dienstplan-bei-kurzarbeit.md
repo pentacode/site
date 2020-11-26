@@ -7,7 +7,7 @@ anchors: []
 ---
 Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgelds gesondert und mit großer Aufmerksamkeit überprüft werden wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten Ihre besondere Aufmerksamkeit schenken.
 
-Die "sauberste" Weise einer Dokumentation entsteht durch das Führen eines "fiktiven" Dienstplans. Eine vereinfachte da pauschale Alternative finden Sie im Artikel **abcdef**.
+Die "sauberste" Weise einer Dokumentation entsteht durch das Führen eines "fiktiven" Dienstplans. Eine vereinfachte Möglichkeit der pauschalen Aufzeichnung von Kurzarbeitszeiten finden Sie im Artikel **abcdef**.
 
 ### Erste Schritte
 
