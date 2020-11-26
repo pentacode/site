@@ -11,7 +11,7 @@ Die "sauberste" Weise einer Dokumentation entsteht durch das Führen eines "fikt
 
 ### Erste Schritte
 
-Gehen Sie zuerst in die " **Einstellungen**" (**1**) und wählen dort "**Arbeitsbereiche**" (**2**). 
+Gehen Sie zuerst in die " **Einstellungen**" (**1**) und wählen dort "**Arbeitsbereiche**" (**2**).
 
 Erstellen Sie dann eine neue Abteilung "**Kurzarbeit**" (**3**) mit der Position "**Kurzarbeit**" (**4**)
 
@@ -42,3 +42,5 @@ Die Zeiten werden entsprechend im **Monatsarbeitszeitkonto** des Mitarbeiters au
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e83315a04286364bc978e50/file-uF1yay5GZW.png)
 
 **Empfehlung**: Es ist nicht notwendig, die Dienstpläne auszudrucken. Wir empfehlen Ihnen jedoch, die Monatsarbeitszeitkonten der einzelnen Mitarbeiter auszudrucken und diese von den Mitarbeitern unterzeichnen zu lassen.
+
+### SFN-Zuschläge und Kurzarbeit
