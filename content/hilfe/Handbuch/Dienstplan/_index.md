@@ -7,7 +7,7 @@ anchors: []
 ---
 Alle Funktionen in Pentacode ergeben sich selbständig in automatisierten Prozessen. Der Dienstplan ist im Wesentlichen der einzige Bereich in Pentacode, in dem tatsächlich noch aktiv gearbeitet werden kann. Doch auch dies wollen wir Ihnen so einfach und spielerisch wie möglich machen. Deshalb ein paar grundsätzliche Hinweise vorweg.
 
-Ob ein "Dienstplaner" Zugang zu einer, mehreren oder allen Abteilungen und in welchem Umfang er Einblick in Kennzahlen hat, bestimmt der Administrator durch Erteilung von Berechtigungen.
+Ob ein "Dienstplaner" Zugang zu einer, mehreren oder allen Abteilungen hat und in welchem Umfang er Einblick in Kennzahlen erhälte, bestimmt der Administrator durch Erteilung von Berechtigungen.
 
 Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode ist, dass die Software den **einzelnen Nutzer** und **dessen Gewohnheiten erkennt** .
 
