@@ -43,52 +43,6 @@ Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"*
 
 **Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht mehr verwendet, verschwindet die Vorlage automatisch.
 
-## Löschen von Eingaben
-
-Einzelne Eingaben können Sie löschen, indem Sie mit der Maus über die Eingabe fahren. Im rechten oberen Eck erscheint ein **"x"** (**6**).
-
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3bbf02c7d3a7e9ae518b0/file-pUnu4qAPNt.png)
-
-Durch **Anklicken** des **"x"** wird die Eingabe **gelöscht**.
-
-Sie können den **gesamten Dienstplan** einer Woche löschen, indem Sie auf das **Löschsymbol** (**7**) klicken.
-
-**Löschungen** sind final und können **nicht rückgängig** gemacht werden.
-
-Sie können den **Dienstplan** der jeweils angezeigten Woche durch einen Klick auf das **Pfeilsymbol** (**1**) **veröffentlichen**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3a5f42c7d3a7e9ae5170f/file-qIxVGaJNzn.png)
-
-## Dienstplan veröffentlichen
-
-Sie können den Dienstplan in seiner **Gesamtheit** oder durch das **Abwählen** der gesetzten **Button** die entsprechende **Auswahl** von Abteilungen veröffentlichen.
-
-Für die **Veröffentlichung** haben Sie verschiedene Möglichkeiten:
-
-1\. Sie können den Dienstplan für den Aushang **ausdrucken** (**2**).
-
-Da jede Veränderung des aktuellen Dienstplans erneut ausgedruckt werden muss, ist diese herkömmliche Art der Veröffentlichung **nicht empfehlenswert**.
-
-2\. Der **Link** (**3**) verbindet den aktuellen **Dienstplan** mit dem **Tablet** der Zeiterfassung und kann dort von den Mitarbeitern in der jeweils **aktuellen Fassung** eingesehen werden.
-
-Jede **Veränderung** der aktuellen Dienstplanung wird am Tablet **automatisch wiedergespiegelt**.
-
-3\. Mit dem Klick auf **"Versenden"** (**4**) erscheint eine **Liste** der **Mitarbeiter** jener **Abteilungen**, die Sie für die Veröffentlichung **ausgewählt** haben.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3b5bd04286364bc92d5d5/file-u8xxS20yli.png)
-
-Über das **Pfeilsymbol** (**1**) können Sie wählen, ob der Mitarbeiter **seinen Dienstplan** der Woche (**= individuell**) oder die Dienstpläne **aller gezeigten Mitarbeiter** erhalten soll.
-
-Im Standard ist der Button bei "**Alle"** Mitarbeiter gesetzt. Durch **deaktivieren** können Sie **einzelne** Mitarbeiter für den Versand **auswählen**.
-
-Die gewählten Mitarbeiter erhalten den Dienstplan auf ihr jeweiliges Endgerät, im Regelfall ihr Smartphone.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3b85204286364bc92d606/file-lNnje4Jl1b.png)
-
-**Voraussetzung für die Zusendung der Dienstpläne ist die Email-Adresse des Mitarbeiters, die in dessen Stammdaten hinterlegt sein muss!**
-
-Sollten Sie **nach Veröffentlichung** des Dienstplans **Änderungen** am Dienstplan vornehmen, werden Ihnen beim Klick auf "Versenden" **jene Mitarbeiter** vorgeschlagen, die durch die **Änderungen betroffen** sind.
-
 ## Kurzarbeit
 
 Wenn Sie mit Ihren Mitarbeitern **Kurzarbeitszeit** vereinbart haben, können Sie dies in Pentacode wie folgt **abbilden**:
