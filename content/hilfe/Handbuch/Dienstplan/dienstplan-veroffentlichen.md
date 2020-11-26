@@ -21,6 +21,8 @@ Den Dienstplan auszudrucken und auszuhängen ist für Sie und Ihre Mitarbeiter m
 
 Sie können den Dienstplan in seiner **Gesamtheit** oder durch das **Abwählen** der gesetzten **Button** die entsprechende **Auswahl** von Abteilungen ausdrucken. Dabei können Sie unter den Druckoptionen zwischen Hoch- und Querformat wählen. Der Ausdruck erfolgt ausschließlich in schwarz/weiß. Ein Farbausdruck ist nicht möglich.
 
+<<**Screenshot**>>
+
 Unabhängig von Ihrer jeweiligen Auswahl findet der Seitenumbruch so statt, dass Abteilungen nicht getrennt, sondern zusammenhängend dargestellt werden. Eine Trennung würde nur dann stattfinden, wenn eine Abteilung derart viele Mitarbeiter umfassen sollte, dass auch im Hochformat nicht alle auf einer Seite Platz finden.
 
 Beim Ausdruck werden die Abteilungen in der Reihenfolge abgebildet, in der sie auch für den Dienstplan in Pentacode von Ihnen angelegt worden sind. 
@@ -37,18 +39,20 @@ b) jenen Abteilungen, die Sie für die Veröffentlichung ausgewählt haben.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3b5bd04286364bc92d5d5/file-u8xxS20yli.png)
 
-Über das **Pfeilsymbol** (**1**) können Sie wählen, ob der Mitarbeiter **seinen Dienstplan** der Woche (**= individuell**) oder die Dienstpläne **aller gezeigten Mitarbeiter** erhalten soll.
+In der Standardeinstellung werden alle betreffenden Mitarbeiter gezeigt. Indem Sie den Button bei "Alle" abwählen, können Sie einzelne Mitarbeiter für den Versand auswählen.
 
-Im Standard ist der Button bei "**Alle"** Mitarbeiter gesetzt. Durch **deaktivieren** können Sie **einzelne** Mitarbeiter für den Versand **auswählen**.
+Über das **Pfeilsymbol** (**1**) können Sie auch wählen, ob jeder Mitarbeiter **seinen Dienstplan** der Woche (**= individuell**) oder die Dienstpläne **aller gezeigten Mitarbeiter** erhalten soll.
 
 Die gewählten Mitarbeiter erhalten den Dienstplan auf ihr jeweiliges Endgerät, im Regelfall ihr Smartphone.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df3b85204286364bc92d606/file-lNnje4Jl1b.png)
 
-**Voraussetzung für die Zusendung der Dienstpläne ist die Email-Adresse des Mitarbeiters, die in dessen Stammdaten hinterlegt sein muss!**
+Pentacode "merkt" sich, wer welchen Dienstplan versendet hat. Nimmt eine Dienstplaner nach Versand eine Änderung im Dienstplan vor und klickt wieder auf "Versenden", werden erst einmal nur jene Mitarbeiter vorgeschlagen, die durch die Veränderung betroffen sind. Weiter MItarbeiter können natürlich hinzugewählt werden.
 
-Sollten Sie **nach Veröffentlichung** des Dienstplans **Änderungen** am Dienstplan vornehmen, werden Ihnen beim Klick auf "Versenden" **jene Mitarbeiter** vorgeschlagen, die durch die **Änderungen betroffen** sind.
+### Dienstplan am Zeiterfassungs-Tablet
 
-2\. Der **Link** (**3**) verbindet den aktuellen **Dienstplan** mit dem **Tablet** der Zeiterfassung und kann dort von den Mitarbeitern in der jeweils **aktuellen Fassung** eingesehen werden.
+Die einfachste Art und Weise, den Dienstplan für Mitarbeiter zugänglich zu machen, ist über das Tablet / die Tablets, die Sie für die Zeiterfassung nutzen. Einfach schon alleine deshalb, weil der Dienstplan automatisch erscheint, alle 10 Minuten mit Pentacode synchronisiert wird und somit  immer den aktuellen Stand der Planung zeigt.
 
-Jede **Veränderung** der aktuellen Dienstplanung wird am Tablet **automatisch wiedergespiegelt**.
+Wenn Sie auf den **Link** (**3**) klicken, sehen Sie, wie der Dienstplan am Tablet angezeigt wird. Durch das Anklicken des Pfeils am rechten oberen Eck oder durch Wischen können Sie den Dienstplan wochenweise weiterblättern.
+
+<<**Screenshot**>>
