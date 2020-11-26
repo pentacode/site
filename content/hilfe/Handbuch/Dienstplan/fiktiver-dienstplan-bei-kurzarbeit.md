@@ -5,7 +5,7 @@ icon: ''
 anchors: []
 
 ---
-## Kurzarbeit
+Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgelds gesondert und mit großer Aufmerksamkeit überprüft werden wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten Ihre besondere Aufmerksamkeit schenken.
 
 Wenn Sie mit Ihren Mitarbeitern **Kurzarbeitszeit** vereinbart haben, können Sie dies in Pentacode wie folgt **abbilden**:
 
@@ -31,6 +31,6 @@ Die Zeiten werden entsprechend im **Monatsarbeitszeitkonto** des Mitarbeiters au
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e8330622c7d3a7e9aea1941/file-zRd2YmmbCB.png)... und für die **Lohnabrechnung** in der Ansicht "**Alle Mitarbeiter**" als jeweilige **Summe** erfasst.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e83315a04286364bc978e50/file-uF1yay5GZW.png)**Hinweis**: Es ist anzunehmen, dass die Dokumentation von Arbeits- und Kurzarbeitszeiten wegen der daraus resultierenden Zuschüsse durch die Bundesagentur für Arbeit bei zukünftigen Sozialversicherungsprüfungen gesondert überprüft wird!
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e83315a04286364bc978e50/file-uF1yay5GZW.png)
 
 **Empfehlung**: Es ist nicht notwendig, die Dienstpläne auszudrucken. Wir empfehlen Ihnen jedoch, die Monatsarbeitszeitkonten der einzelnen Mitarbeiter auszudrucken und diese von den Mitarbeitern unterzeichnen zu lassen.
