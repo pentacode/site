@@ -7,9 +7,15 @@ anchors: []
 ---
 Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgelds gesondert und mit großer Aufmerksamkeit überprüft werden wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten Ihre besondere Aufmerksamkeit schenken.
 
-Wenn Sie mit Ihren Mitarbeitern **Kurzarbeitszeit** vereinbart haben, können Sie dies in Pentacode wie folgt **abbilden**:
+Die "sauberste" Weise einer Dokumentation entsteht durch das Führen eines "fiktiven" Dienstplans. Eine vereinfachte da pauschale Alternative finden Sie im Artikel **abcdef**.
 
-Klicken Sie auf " **Einstellungen**" (**1**), dort auf "**Arbeitsbereiche**" (**2**), erstellen Sie eine neue Abteilung "**Kurzarbeit**" (**3**) mit der Position "**Kurzarbeit**" (**4**), setzen Sie den Button bei "**Von Zeiterfassung Ausschließen**" (**5**) und "**Speichern**" Sie.
+### Erste Schritte
+
+Gehen Sie zuerst in die " **Einstellungen**" (**1**) und wählen dort "**Arbeitsbereiche**" (**2**). 
+
+Erstellen Sie dann eine neue Abteilung "**Kurzarbeit**" (**3**) mit der Position "**Kurzarbeit**" (**4**)
+
+Setzen Sie den Button bei "**Von Zeiterfassung Ausschließen**" (**5**) und "**Speichern**" Sie.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e831f9f04286364bc978d72/file-uHsdGjj7Tt.png)
 
@@ -21,11 +27,13 @@ Setzen Sie nun bei allen **Mitarbeitern**, die von **Kurzarbeit** betroffen sind
 
 Im **Dienstplan** erscheinen die **ausgewählten Mitarbeiter** nun **neben Ihren Standardabteilungen** auch in der neuen Abteilung **Kurzarbeit**.
 
-Erfassen SIe nun die **tatsächlich gearbeiteten Zeiten** eines Mitarbeiters wie gewohnt in dessen **Standardabteilung**.
+Erfassen Sie nun die **tatsächlich gearbeiteten Zeiten** eines Mitarbeiters wie gewohnt in dessen **Standardabteilung**.
 
 Die **Kurzarbeitszeiten** erfassen Sie in der **Abteilung Kurzarbeit**. Sie schreiben somit einen **fiktiven Dienstplan**, der in etwa den normalen Arbeitszeiten des Mitarbeiters entspricht.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e832c162c7d3a7e9aea190a/file-lq5jCthqzg.png)**Tipp**: Da die Kurzarbeitszeiten vermutlich sehr regelmäßige Zeiträume umfassen, können entsprechende **Dienstplanvorlagen** große Erleichterung verschaffen.
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e832c162c7d3a7e9aea190a/file-lq5jCthqzg.png)
+
+**Tipp**: Da die Kurzarbeitszeiten vermutlich sehr regelmäßige Zeiträume umfassen, können entsprechende **Dienstplanvorlagen** große Erleichterung verschaffen.
 
 Die Zeiten werden entsprechend im **Monatsarbeitszeitkonto** des Mitarbeiters ausgewiesen ...
 
