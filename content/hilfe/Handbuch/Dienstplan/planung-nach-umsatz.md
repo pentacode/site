@@ -5,6 +5,8 @@ icon: ''
 anchors: []
 
 ---
+Die Arbeitszeit Ihrer Mitarbeiter ist das wertvollste Wirtschaftsgut in Ihrem Unternehmen. Deshalb sind Personalkosten in der Regel auch die größte Kostenposition. Zum Zeitpunkt der Planung ist die Zeit Ihrer Mitarbeiter an erster Stelle eine Investition in einen zu erreichenden Umsatz. Erst wenn die Zeit in Anspruch genommen wird, wird sie zu Kosten.
+
 ### Dienstplanung nach Umsatz
 
 Sie können Ihre **Ziele genauer definieren**, indem Sie die Zielvorgaben Ihren **Umsatzerwartungen** anpassen.
