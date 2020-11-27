@@ -7,23 +7,33 @@ anchors: []
 ---
 "_Planen ist nichts anderes als schriftliches Denken_" (Manfred Helfrecht, Unternehmer)
 
-In vielen Fällen ist die Dienstplanung nur wenig mehr als ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen. Wirklich wirkungsvolle Planung hingegen hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Pentacode gibt Ihnen die Möglichkeit, Ihre Dienstpläne nach Zielen zu gestalten, die Sie vorgeben.
+In vielen Fällen ist die Dienstplanung nur wenig mehr als ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen. Wirklich wirkungsvolle Planung hingegen hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Ein Ziel kann zum Beispiel die Vermeidung von Leerlaufzeiten sein, also Zeiten, die Mitarbeiter zwar mit Beschäftigung zubringen, jedoch keinen produktiven Beitrag leisten.
 
-Ihre Zielvorgabe kann die Anzahl der Stunden sein, die für eine gewählte Abteilung vorgegeben werden oder sich am Umsatz orientieren, den Sie wochentagabhängig für die geplante Woche erwarten.
+Es gibt eine äußerst wirkungsvollste Weise, überflüssige Stunden zu reduzieren und somit erheblich Lohnkosten einzusparen: Geben Sie für jede Abteilung Stunden vor, an denen sich die Dienstplanung orientieren soll.
+
+In Pentacode können Sie das auf sehr einache Art erreichen.
 
 ### Dienstplanung mit Stundenvorgaben
-
-Sie können den Dienstplan **gegen Ziele** gestalten, die Sie selbständig definieren. Aus Gründen der Diskretion geben Sie hierzu **keine Gehaltsangaben** preis, sondern geben die **Anzahl der Stunden** vor, an der sich die Dienstplanung orientieren soll.
 
 Wenn Sie auf das **Diagrammsymbol (1)** klicken, erscheint am **Fuß des Dienstplans** die Anzeige "**Planungsziele Definieren**" **(2)**.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fab92c7d3a10cbaaeebd/file-9vZNOfd5PQ.png)
 
-Beim **erstmaligen** Anklicken dieser Anzeige finden Sie zu den Abteilungen in Ihrem Unternehmen die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Dies soll Ihrer ersten Orientierung dienen.
+Beim Anklicken dieser Anzeige werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt. Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben.
+
+Wenn Sie dann auf das Symbol **Ø** klicken, erscheint  die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
+
+Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fb5504286306f8070c20/file-T2iVM473oh.png)
 
-Sie können die Stundenangabe jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.** Wenn der Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
+Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.** 
+
+Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "Als Standard Verwenden" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
+
+Wenn Sie einen gewählten Wert an einem Tag überschreiben, gilt dieser nur für diesen einen Tag. Wenn der neue Wert dauerhaft verwendet werden soll, speichern Sie einfach wieder unter "Als Standard Verwenden". Er wird dann dauerhaft auch in Zukunft gelten.
+
+Im Dienstplan finden Sie nun die gewählten Stundenvorgaben in der Fußzeile einer jeden Abteilung. Während der Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
 **Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
@@ -31,4 +41,6 @@ Sie können die Stundenangabe jederzeit **überschreiben**. Der **gewählte Wert
 
 Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungsziele**" **(3)** klicken.
 
-Durch das Setzen des Hakens bei "**Als Standard Verwenden**", werden die gewählten Werte solange in die **Zukunft** vorgetragen, bis Sie eine veränderte Vorgabe erneut "Als Standard Verwenden" definieren.
+Ziel dieser Art der Planung ist es, zu bezahlende Arbeitszeit zu verringern, indem Mitarbeiter zeitversetzt beginnen und zügig "aussteigen", sobald es der Geschäftsgang ermöglicht.
+
+**Tipp**: Natürlich gibt es Arbeiten, die unproduktiv, aber trotzdem wichtig sind. Dazu gehören z.B. Mise-en-place, Putzdienste, Schlußdienst, Inventur u.a.m. Seien Sie bei der Vorgabe von Stunden vor allem zu Beginn aber ruhig ein bißchen mutig. Untersuchungen haben ergeben, dass teilweise mehr als 10% der Arbeitszeit überflüssig zugebracht werden. Möglicherweise auch in Ihrem Betrieb.
