@@ -5,7 +5,11 @@ icon: ''
 anchors: []
 
 ---
-Pentacode gibt IHnen die Möglichkeit, Ihre Dienstpläne nach Zielen zu gestalten, die Sie vorgeben.
+"_Planen ist nichts anderes als schriftliches Denken_" (Manfred Helfrecht, Unternehmer)
+
+Die Arbeitszeit Ihrer Mitarbeiter ist das wertvollste Wirtschaftsgut in Ihrem Unternehmen. Deshalb sind Personalkosten in der Regel auch die größte Kostenposition. Zum Zeitpunkt der Plnanung ist die Zeit Ihrer Mitarbeiter an erster Stelle eine Investition in einen zu erreichenden Umsatz. Erst wenn die Zeit in Anspruch genommen wird, wird sie zu Kosten.
+
+In vielen Fällen ist die Dienstplanung nur wenig mehr als ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen. Wirklich wirkungsvolle Planung hingegen hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Pentacode gibt Ihnen die Möglichkeit, Ihre Dienstpläne nach Zielen zu gestalten, die Sie vorgeben.
 
 Ihre Zielvorgabe kann die Anzahl der Stunden sein, die für eine gewählte Abteilung vorgegeben werden oder sich am Umsatz orientieren, den Sie wochentagabhängig für die geplante Woche erwarten.
 
