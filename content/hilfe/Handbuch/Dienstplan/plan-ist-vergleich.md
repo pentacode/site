@@ -5,6 +5,8 @@ icon: ''
 anchors: []
 
 ---
+Oft verliert eine Planung ihren Wert, sobald sie beendet ist.
+
 Durch den Plan-Ist-Vergleich können Sie tag-genau kontrollieren, ob Ihre Vorgaben eingehalten wurden und ob die Wirklichkeit Ihrer Planung und Ihren Erwartungen entsprochen hat.
 
 Durch das Anklicken des **Diagrammsymbols (1)** erscheinen am Fuß des Dienstplans **zwei Linien**, über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
