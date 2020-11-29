@@ -1,15 +1,15 @@
 ---
 title: Tagesübersicht
-weight:
-icon: "stopwatch"
+weight: 
+icon: stopwatch
 anchors: []
----
 
+---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
 
 Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn **oder** nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
 
-## Zeiterfassung MIT Stempeluhr
+### Zeiterfassung MIT Stempeluhr
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eac36a5042863474d19fcab/file-G9RIQoNbvk.png)
 
@@ -29,7 +29,7 @@ Bei **aktuell laufenden** oder noch **nicht begonnen Schichten** können jedoch 
 
 Lediglich beim Status "**verspätet**" oder "**nicht abgemeldet**" können Daten **manuell** in die Rot gekennzeichneten Felder **eingegeben** werden.
 
-## Zeiterfassung OHNE Stempeluhr
+### Zeiterfassung OHNE Stempeluhr
 
 Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die Arbeitszeiten **manuell IM DIENSTPLAN** ein.
 
