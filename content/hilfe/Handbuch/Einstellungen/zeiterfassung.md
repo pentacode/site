@@ -1,10 +1,10 @@
 ---
 title: Zeiterfassung
-weight:
-icon: "cog"
+weight: 
+icon: cog
 anchors: []
----
 
+---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
 
 Die Regeln, die Sie hier wählen, sind **globale Einstellungen**, welche vorläufig für **alle Mitarbeiter** gelten. Einmal gewählte Regeleinstellungen können **jederzeit geändert** werden. Mit dem Befehl "**Speichern**" gilt ab sofort der neu gewählte Regelsatz.
@@ -35,7 +35,7 @@ Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Stand
 
 Über " **+ Neue Pausenregel**" können Sie zusätzliche Pausen einrichten.
 
-Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie durch das Setzen des Buttons "**Automatische Pausen Werden Bezahlt**" und/oder "**Manuelle Pausen Werden Bezahlt**" eine Unterscheidung zwischen den Pausentypen treffen. Bezahlte Pausen Pausen im Arbeitszeitkonto des Mitarbeiters als Puasen ausgewiesen, bei der Lohnabrechnung in ihrer Dauer jedoch der Arbeitszeit zugerechnet.
+Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie durch das Setzen des Buttons "**Automatische Pausen Werden Bezahlt**" und/oder "**Manuelle Pausen Werden Bezahlt**" eine Unterscheidung zwischen den Pausentypen treffen. Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewiesen, bei der Lohnabrechnung in ihrer Dauer jedoch der Arbeitszeit zugerechnet.
 
 Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
 
@@ -99,11 +99,11 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein MItarbeiter meldet sich
 
 Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **manuell** erfassen wollen, so sind die Möglichkeiten für Regeleinstellungen entsprechend verkürzt.
 
-\*\*![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead5c12042863474d1a073b/file-VEaNLlQKKU.png)**Wählen Sie in diesem Fall ausschließlich "**Automatisch\*\*" als Pausenmodus.
+\**![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead5c12042863474d1a073b/file-VEaNLlQKKU.png)**Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
 
 Die **Länge der Pausen** wird entsprechend der Festlegungen, die Sie getroffen haben, bereits **beim Eintrag in den Dienstplan** automatisch **errechnet**.
 
-Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die **Arbeitszeiten** manuell **IM DIENSTPLAN** ein.
+Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die **Arbeitszeiten** manuell **Im Dienstplan** ein.
 
 Im Menüpunkt "**Zeiterfassung**" sind die **geplanten** Arbeitszeiten sichtbar und **immer identisch** mit den Zeiten im **Dienstplan**. (Sehen Sie ergänzend hierzu den Hilfeartikel "Zeiterfassung - Tagesbericht" im Hauptmenü "Zeiterfassung"
 
