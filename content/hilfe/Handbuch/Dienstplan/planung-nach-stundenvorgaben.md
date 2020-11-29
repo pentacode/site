@@ -27,7 +27,7 @@ Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fb5504286306f8070c20/file-T2iVM473oh.png)
 
-Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.** 
+Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.**
 
 Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "Als Standard Verwenden" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
 
@@ -44,3 +44,5 @@ Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungszi
 Ziel dieser Art der Planung ist es, zu bezahlende Arbeitszeit zu verringern, indem Mitarbeiter zeitversetzt beginnen und zügig "aussteigen", sobald es der Geschäftsgang ermöglicht.
 
 **Tipp**: Natürlich gibt es Arbeiten, die unproduktiv, aber trotzdem wichtig sind. Dazu gehören z.B. Mise-en-place, Putzdienste, Schlußdienst, Inventur u.a.m. Seien Sie bei der Vorgabe von Stunden vor allem zu Beginn aber ruhig ein bißchen mutig. Untersuchungen haben ergeben, dass teilweise mehr als 10% der Arbeitszeit überflüssig zugebracht werden. Möglicherweise auch in Ihrem Betrieb.
+
+Ein Wort zur Wirksamkeit dieses Vorgehens: Nehmen wir an, in Ihrem Betrieb arbeiten durchschnittlich 6 Mitarbeiter 8 Stunden am Tag. Nehmen wir weiter an, Sie sparen  durch zeitversetztes "Einsteigen" und zügiges "Aussteigen" der Mitarbeiter nur 2 Stunden / Tag ein. Wenn Sie nur Mindestlohn bezahlen, erzielen Sie eine Einsparung von mehr als 700 € / Monat.
