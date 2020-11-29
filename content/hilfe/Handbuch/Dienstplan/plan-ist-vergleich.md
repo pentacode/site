@@ -5,9 +5,11 @@ icon: ''
 anchors: []
 
 ---
-Oft verliert eine Planung ihren Wert, sobald sie beendet ist.
+Sinn und Zweck einer guten Dienstplanung ist der durchdachte Arbeitseinsatz der Mitarbeiter. Dies heißt: Ziel der Planung ist der größtmögliche Ertrag bei geringstmöglichen Zeitaufwand.
 
-Durch den Plan-Ist-Vergleich können Sie tag-genau kontrollieren, ob Ihre Vorgaben eingehalten wurden und ob die Wirklichkeit Ihrer Planung und Ihren Erwartungen entsprochen hat.
+Oft verliert eine Planung aber ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
+
+Durch den Plan-Ist-Vergleich in Pentacode wird diese Frage Tag-genau beantwortet. 
 
 Durch das Anklicken des **Diagrammsymbols (1)** erscheinen am Fuß des Dienstplans **zwei Linien**, über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
 
@@ -20,3 +22,5 @@ In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" ge
 Durch **erneutes Anklicken** des Diagrammsymbols (1) wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
 
 Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch Stempeluhr voraus.
+
+Hinweis:
