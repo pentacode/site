@@ -5,7 +5,7 @@ icon: ''
 anchors: []
 
 ---
-"_Planen ist nichts anderes als schriftliches Denken_" (Manfred Helfrecht, Unternehmer)
+"_Planen ist nichts anderes als schriftliches Denken_" (Manfred Helfrecht)
 
 In vielen Fällen ist die Dienstplanung nur wenig mehr als ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen. Wirklich wirkungsvolle Planung hingegen hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Ein Ziel kann zum Beispiel die Vermeidung von Leerlaufzeiten sein, also Zeiten, die Mitarbeiter zwar mit Beschäftigung zubringen, jedoch keinen produktiven Beitrag leisten.
 
