@@ -1,10 +1,10 @@
 ---
 title: Arbeitsbereiche
-weight:
-icon: "cog"
+weight: 
+icon: cog
 anchors: []
----
 
+---
 In diesem Menüpunkt legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"Zeiterfassung"** definiert haben.
 
 Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie "an Bord gehen".
@@ -25,7 +25,7 @@ Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Si
 
 Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn durch das "**Standort Archivieren"** entfernen. Alle Daten zu diesem Standort, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
-Sollten Sie einen archivierten Standort wiederherstellen wollen, wenden Sie sich bitte an Ihren Supportmitarbeiter.
+Sollten Sie einen archivierten Standort wiederherstellen wollen, wenden Sie sich bitte an unseren Support.
 
 #### Neue Abteilung
 
@@ -33,11 +33,11 @@ Um eine neue Abteilung zu erstellen, klicken Sie auf "+Neue Abteilung".
 
 Jede Abteilung muss **mindestens eine Position** ausweisen. Sollten Sie innerhalb einer Abteilung nicht nach Positionen unterscheiden, empfehlen wir als **Positionsbezeichnung** den **Abteilungsnamen** zu verwenden.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eae9a68042863474d1a0b38/file-DZFrYAQq1c.png)Im weiter unten folgenden Artikel zu "**Zeiterfassung**" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eae9a68042863474d1a0b38/file-DZFrYAQq1c.png)Im HIlfeartikel "**Zeiterfassung**" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
 
 Wenn für die gewählte Abteilung **andere** Regeln gelten sollen, setzen Sie den Haken bei "**Abweichende Zeiterfassungsregeln**". Sie können damit an dieser Stelle **Regeln** definieren, die ausschließlich **für diese Abteilung** gelten werden.
 
-Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlichvon der elektronischen Zeiterfassung ausgenommen werden.
+Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen Zeiterfassung ausgenommen werden.
 
 #### Abteilung bearbeiten
 
@@ -45,7 +45,7 @@ Wenn Sie auf eine Abteilung klicken, öffnet diese und kann wie oben beschrieben
 
 Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen, dass diese weiterhin im Dienstplan gezeigt wird, können Sie diese durch das **Symbol am rechten oberen Eck archivieren**.
 
-Sollten Sie eine archivierte Abteilung wiederherstellen wollen, wenden Sie sich bitte an Ihren Supportmitarbeiter.
+Sollten Sie eine archivierte Abteilung wiederherstellen wollen, wenden Sie sich bitte an unseren Support.
 
 #### Reihenfolge der Abteilungen
 
