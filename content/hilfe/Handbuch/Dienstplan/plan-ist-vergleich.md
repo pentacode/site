@@ -5,9 +5,9 @@ icon: ''
 anchors: []
 
 ---
-Sinn und Zweck einer guten Dienstplanung ist der durchdachte Arbeitseinsatz der Mitarbeiter. Dies heißt: Ziel der Planung ist der größtmögliche Ertrag bei geringstmöglichen Zeitaufwand.
+Sinn und Zweck einer guten Dienstplanung ist der durchdachte Arbeitseinsatz der Mitarbeiter. Dies heißt: Ziel der Planung ist der größtmögliche wirtschaftliche Ertrag bei geringstmöglichen Zeitaufwand. Oder wiederum in anderen Worten: größtmögliche Produktivität.
 
-Oft verliert eine Planung aber ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
+Oft verliert eine Planung aber ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
 
 Durch den Plan-Ist-Vergleich in Pentacode wird diese Frage Tag-genau beantwortet.
 
@@ -24,3 +24,5 @@ Durch **erneutes Anklicken** des Diagrammsymbols (1) wird die Plan-Ist-Anzeige w
 Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch Stempeluhr voraus.
 
 **Hinweis**: Wenn an einem Tag Arbeiten zu leisten sind, die nicht mit dem aktuellen Tagesgeschäft in Zusammenhang stehen (z.B. vorbereitende Arbeiten in der Küche für eine Veranstaltung, die erst in zwei Tagen stattfindet, setzen Sie in **<<_Planung gegen Stundenvorgaben>>_** idealerweise das Stundenkontingent für diesen Tag entsprechend nach oben.
+
+Im Menüpunkt **<<"Berichte">>** erhalten Sie u.a. auch hierzu Informationen in Form einer monatlichen Zusammenfassung.
