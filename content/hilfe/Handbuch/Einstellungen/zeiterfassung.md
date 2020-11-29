@@ -7,7 +7,7 @@ anchors: []
 ---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
 
-Die Regeln, die Sie hier wählen, sind **globale Einstellungen**, welche vorläufig für **alle Mitarbeiter** gelten. Einmal gewählte Regeleinstellungen können **jederzeit geändert** werden. Mit dem Befehl "**Speichern**" gilt ab sofort der neu gewählte Regelsatz.
+Die Regeln, die Sie hier wählen, sind **globale Einstellungen**, welche vorläufig für **alle Mitarbeiter** und für **alle Abteilungen** gelten. Einmal gewählte Regeleinstellungen können **jederzeit geändert** werden. Mit dem Befehl "**Speichern**" gilt ab sofort der neu gewählte Regelsatz.
 
 **Sie können jedoch sowohl für Abteilungen wie auch für einzelne MItarbeiter abweichende Regeln definieren!**
 
@@ -29,7 +29,7 @@ Der Gesetzgeber schreibt weder die Lage der Pause noch die Dauer von Einzelpause
 
 " **Automatisch + Manuell**" bedeutet: Im Normalfall werden mit dieser Regel **Raucherpausen** extra erfasst. Im Genauen heißt dies, dass für alle Mitarbeiter die gesetzlichen Pausenvorschriften gelten. Die Mitarbeiter loggen sich für Ihre **reguläre Pause nicht** aus.
 
-Lediglich die Raucher - oder Mitarbeiter, die aus anderen Gründen **zusätzliche Pausen** für sich in Anspruch nehmen - loggen sich für die zusätzlichen Rauchpausen aus. Diese **zusätzlichen Pausen** werden dann zur gesetzlichen Pause **hinzu** addiert.
+Lediglich die Raucher - oder Mitarbeiter, die aus anderen Gründen **zusätzliche Pausen** für sich in Anspruch nehmen - loggen sich für diese zusätzlichen Pausen aus. Diese **zusätzlichen Pausen** werden dann zur gesetzlichen Pause **hinzu** addiert.
 
 Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Standard gesetzt, können von Ihnen jedoch geändert werden. Achten Sie dabei jedoch darauf, den gesetzlichen Mindestanspruch nicht zu unterschreiten.
 
