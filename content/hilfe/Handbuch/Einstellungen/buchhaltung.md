@@ -7,9 +7,9 @@ anchors: []
 ---
 "_Wer den Kern essen will, muss die Nuss knacken_". Leider.
 
-Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten und Zuschläge in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
+Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
 
-Um den Export durchführen zu können, ist es aber notwendig, diesen einmalig vorzubereiten. Um die Richtigkeit der Angaben zu gewährleisten, lassen Sie bei der Eingabe am besten Ihre Buchaltung mitwirken. Haben Sie die Einrichtung vorgenommen, führen Sie zur Überprüfung idealerweise einen Probe-Export durch.
+Um den Export durchführen zu können, ist es leider notwendig, diesen einmalig vorzubereiten. Um die Richtigkeit der Angaben zu gewährleisten, lassen Sie bei der Eingabe am besten Ihre Buchaltung mitwirken. Haben Sie die Einrichtung vorgenommen, führen Sie zur Überprüfung idealerweise einen Probe-Export durch.
 
 Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum spannendsten, was der Arbeitsalltag zu bieten hat. Der einmalige Aufwand wird sich durch die Zeitersparnis in Zukunft jedoch in jedem einzelnen Monat zig-fach ausbezahlen.
 
@@ -25,7 +25,7 @@ Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch gef
 
 "Bewegungsdaten" ist das Amtsdeutsch für Arbeits- Fehl-, Zuschlagszeiten u.a.m., was Ihr Lohnbuchhaltung für die Abrechnung der Löhne benötigt. Wenn Sie diese Bewegungsdaten an die Buchhaltung exportieren wollen, müssen Sie die "Lohnarten" festlegen. Als Lohnarten werden jene Konten genannt, in denen die verschiedenen Datensätze gebucht werden.
 
-Wenn Sie es sich so einfach als möglich machen wollen, empfehlen wir Ihnen im ersten Schritt folgendes Vorgehen: 
+Wenn Sie es sich so einfach wie möglich machen wollen, empfehlen wir Ihnen im ersten Schritt folgendes Vorgehen: 
 
 Klicken Sie auf "+ Neuer Lohnartensatz". Es öffnet ein leeres Eingabeformular, von dem Sie am besten einen Screenshot machen und Ihrer Buchhaltung zusenden.
 
@@ -33,7 +33,7 @@ Klicken Sie auf "+ Neuer Lohnartensatz". Es öffnet ein leeres Eingabeformular, 
 
 Schicken Sie den Screenshot an die Buchhaltung mit der Aufforderung, die für Sie benutzten Nummern in die entsprechenden Eingabefelder einzugeben und Ihnen das ausgefüllte Formular wieder zurückzusenden.
 
-Übertragen Sie die Nummern eins zu eins in Pentacode und speichern Sie.
+Übertragen Sie im zweiten Schritt die Nummern eins zu eins in Pentacode und speichern Sie.
 
 <<Screenshot>>
 
@@ -51,4 +51,4 @@ Nach getaner Arbeit und "Speichern" klappt das Eingabefeld wieder zu. Sie sehen 
 
 <<Screenshot>>
 
-Die Zuordnung der Mitarbeiter findet beim Export automatisch durch Pentacode statt. Sie müssen hierfüt nichts tun.
+Die Zuordnung der Mitarbeiter findet beim Export automatisch durch Pentacode statt. Sie müssen hierfür nichts tun. Und Sie werden sehen: Diese Arbeit hat sich gelohnt.
