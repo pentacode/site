@@ -5,13 +5,15 @@ icon: ''
 anchors: []
 
 ---
+"_Auf der einen Seite nur die Kosten sehen und auf der anderen Seite immer ein Auge zudrücken - der beste Garant für beidseitige Sehschwäche_" (Udo Keller)
+
 Die Arbeitszeit Ihrer Mitarbeiter ist das wertvollste Wirtschaftsgut in Ihrem Unternehmen. Deshalb sind Personalkosten in der Regel auch die größte Kostenposition. Zum Zeitpunkt der Planung ist die Zeit Ihrer Mitarbeiter an erster Stelle eine Investition in einen zu erreichenden Umsatz. Erst wenn die Zeit in Anspruch genommen wird, wird sie zu Kosten.
 
 ### Dienstplanung nach Umsatz
 
 Sie können Ihre **Ziele genauer definieren**, indem Sie die Zielvorgaben Ihren **Umsatzerwartungen** anpassen.
 
-Indem Sie Ihre **Umsatz**, den Sie in einer Abteilung am jeweiligen Wochentag **erwarten**, in das entsprechende **Eingabefeld** eingeben, erhalten Sie die daraus resultierende **Produktivität** dieser Abteilung. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
+Indem Sie den **Umsatz**, den Sie in einer Abteilung am jeweiligen Wochentag **erwarten**, in das entsprechende **Eingabefeld** eingeben, erhalten Sie die daraus resultierende **Produktivität** dieser Abteilung. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fdb32c7d3a10cbaaeebf/file-PIvtsiDZEV.png)
 
