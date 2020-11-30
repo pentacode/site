@@ -45,8 +45,13 @@ section .inner {
     text-align: center;
 }
 
-.content .cover-image {
-    color: var(--color-blue);
+.content .cover {
+    border-radius: 0.5em;
+}
+
+.content .cover i {
+    font-size: 8em;
+    display: inline;
 }
 
 article {
@@ -55,17 +60,27 @@ article {
     overflow: hidden;
     color: var(--color-fg);
     transition: all 0.3s;
+    --color-highlight: var(--blue);
+    --color-highlight-bg: var(--teal);
 }
 
 article:hover {
     box-shadow: 0 0px 10px rgba(154, 160, 185, 0.05), 0 0px 40px rgba(166, 173, 201, 0.2);
 }
 
-article .cover-image {
+article .cover {
     width: 90%;
     max-width: 200px;
     margin: 0 auto;
-    color: var(--color-red);
+    border-radius: 0.5em;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+article .cover i {
+    font-size: 4em;
+    display: inline;
 }
 
 article > * {

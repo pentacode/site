@@ -224,38 +224,34 @@ blockquote {
     text-align: left;
 }
 
-.cover-image {
-    position: relative;
-    background: var(--color-bg);
-    overflow: hidden;
-    border-radius: 0.5em;
-    max-width: 400px;
-    margin: 0 auto;
+.cover-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cover-image::before {
+.golden-ratio {
+    position: relative;
+    overflow: hidden;
+}
+
+.golden-ratio::before {
     content: "";
     display: block;
     padding-top: 61.8%;
 }
 
-.cover-image img {
+.thumbnail-icon {
+    text-align: center;
+}
+
+img.cover-parent {
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.cover-image .icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    width: 100%;
-    height: 80%;
 }
 
 section {

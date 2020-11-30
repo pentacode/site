@@ -390,6 +390,6 @@ section.offer .offer-terms li i {
 
 @media (max-width: 700px) {
     section {
-        margin: 0 1em;
+        margin: 0;
     }
 }

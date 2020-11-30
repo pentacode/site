@@ -41,7 +41,6 @@ header .logo {
     height: 1.5em;
     width: 10em;
     position: relative;
-    top: -2px;
 }
 
 header .logo path {

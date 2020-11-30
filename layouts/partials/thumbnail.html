@@ -1,0 +1,13 @@
+{{ with .Resources.GetMatch "thumbnail.*" }}
+<div class="golden-ratio thumbnail-img">
+    <img src='{{ .Permalink }}' class="cover-parent" />
+</div>
+{{ else }} {{ with .Params.cover}}
+<div class="golden-ratio thumbnail-img">
+    <img src='{{ . }}' class="cover-parent" />
+</div>
+{{ else }}
+<div class="thumbnail-icon">
+    <i class="fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
+</div>
+{{ end }} {{ end }}
