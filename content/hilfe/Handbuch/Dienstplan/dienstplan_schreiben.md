@@ -1,11 +1,11 @@
 ---
 title: Dienstplan Schreiben
-weight: 
+weight: 2
 icon: pencil-alt
 anchors: []
-
 ---
-Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung,  wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell**  und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
+
+Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung, wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell** und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}} ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png){{< /figure >}}
 

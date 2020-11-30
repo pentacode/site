@@ -1,10 +1,10 @@
 ---
 title: '"Fiktiver" Dienstplan bei Kurzarbeit'
-weight: 
-icon: ''
+weight:
+icon: "table"
 anchors: []
-
 ---
+
 Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgelds gesondert und mit großer Aufmerksamkeit überprüft werden wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten Ihre besondere Aufmerksamkeit schenken.
 
 Die "sauberste" Weise einer Dokumentation entsteht durch das Führen eines "fiktiven" Dienstplans. Eine vereinfachte Möglichkeit der pauschalen Aufzeichnung von Kurzarbeitszeiten finden Sie im Artikel **abcdef**.
@@ -35,7 +35,7 @@ Die **Kurzarbeitszeiten** erfassen Sie in der **Abteilung Kurzarbeit**. Sie schr
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e832c162c7d3a7e9aea190a/file-lq5jCthqzg.png)
 
-**Tipp**: Da die Kurzarbeitszeiten vermutlich sehr regelmäßige Zeiträume umfassen, können entsprechende **Dienstplanvorlagen** große Erleichterung verschaffen. 
+**Tipp**: Da die Kurzarbeitszeiten vermutlich sehr regelmäßige Zeiträume umfassen, können entsprechende **Dienstplanvorlagen** große Erleichterung verschaffen.
 
 Arbeitszeiten und Kurzarbeitszeit werden voneinander deutlich unterscheidbar im **Monatsarbeitszeitkonto** des Mitarbeiters ausgewiesen ...
 
