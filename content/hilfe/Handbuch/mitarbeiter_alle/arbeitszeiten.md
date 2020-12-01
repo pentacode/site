@@ -1,9 +1,11 @@
 ---
-title: "Arbeitszeiten"
-weight: 1
-icon: "hourglass-half"
+title: Arbeitszeiten
+weight: "1"
+icon: hourglass-half
 anchors: []
+
 ---
+## Übersicht Arbeitszeiten
 
 Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben.
 
@@ -12,6 +14,10 @@ Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eaec400042863474d1a0c20/file-w2a6ScByKU.png)Über das **Export**-Symbol am rechten oberen Eck wählen Sie das gewünschte **Format** aus.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eaec68e2c7d3a5ea54a5d23/file-bUcjk7okd2.png)
+
+## Exportformate
+
+Der Begriff "Exportieren" bezeichnet sowohl Druckbefehle wie auch Download-Dateien für die Übermittlung von Formaten, die geeignet sind, in Buchhaltungssysteme importiert zu werden.
 
 ### "Arbeitszeiten Nachweis"
 
@@ -28,3 +34,17 @@ Dieser Ausdruck ist zur Übermittlung an Ihre Buchhaltung für die **manuelle** 
 ### "Agenda" | "Lodas" | "Datev Lohn & Gehalt" | "Addison" | "Lexware"
 
 Bei diesen Formaten handelt es sich um **Exportdateien** für Ihre Lohnbuchhaltung zum **unmittelbaren Import** in die Lohnarten des jeweiligen Buchhaltungssystems.
+
+## Export in die Buchhaltung
+
+Voraussetzung für die Durchführung eines Exports in die Buchhaltung ist, dass Sie für Ihr Unternehmen die Lohnarten angelegt haben. Wie Sie dies tun, erfahren Sie _hier_.
+
+Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet und klicken Sie auf "Exportieren". Diese Datei ist nun im Ordner "Downloads" auf Ihrem Rechner abgelegt.
+
+Öffnen Sie dann Ihr Email-Programm und adressieren Sie eine EMail an die Buchhaltung.
+
+Öffnen Sie dann den Ordner "Downloads" und ziehen Sie per "Drag & Drop" den Ordner in die Email.
+
+Versenden Sie die Email. Das war's auch schon für Sie.
+
+Ihre Lohndaten können nun von der Buchhaltung mit wenigen Klicks importiert werden.
