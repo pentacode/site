@@ -1,15 +1,15 @@
 ---
 title: Arbeitszeiten
-weight:
-icon: "hourglass-half"
+weight: 
+icon: hourglass-half
 anchors: []
----
 
-Mit **"Arbeitszeiten"** (**1**) ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
+---
+Mit **"Arbeitszeiten"** ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e4c1cc704286364bc9582e8/file-RBebVl0dpT.png)
 
-### Übersicht
+## Übersicht
 
 In dieser Übersicht werden dargestellt:
 
@@ -33,13 +33,15 @@ Sollten Daten **unvollständig** oder fehlerhaft sein, erscheint am betreffenden
 
 Durch einen **Mouseover** wird das Problem benannt. Sie können einen Fehler jederzeit ergänzen oder berichtigen.
 
-### Kontoausdruck
+## Kontoausdruck
 
 Durch das Anklicken des **Drucksymbols** am linken unteren Rand (**5**) wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
 
-#### Arbeitszeiten Nachweis
+### Arbeitszeiten Nachweis
 
 Der "Arbeitszeiten Nachweis" listet die täglichen Arbeitszeiten mit ihrem jeweiligen Anfang und Ende, den Ruhepausen und die Dauer des Arbeitstages.
+
+<<Screenshot>>
 
 In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**" die Anzahl der **bezahlten Stunden**. Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezahlten Stunden unter "**BEZ**" hinzu addiert.
 
@@ -51,8 +53,10 @@ Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die j
 
 Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden, sowie die Anzahl eventueller Mahlzeiten aus.
 
+<<Screenshot>>
+
 Am Fußende sehen Sie die **Zusammenfassung** nach Stunden und die daraus resultierenden jeweiligen **Euro**-Beträge. Die Lohnangaben beziehen sich dabei auf das **Arbeitgeber-Brutto**.
 
 Dieser Nachweis dient vor allem Ihrer **internen** Dokumentation und ist nicht zwingend geeignet, den Mitarbeitern ausgehändigt zu werden.
 
-**Empfehlung**: Im Falle einer Prüfung ist es empfehelnswert, dem Prüfer für eine Stichprobenkontrolle einzelne Ausdrucke der "Lohnabrechnung" zu überlassen. Die offensichtliche Transparenz, Richtigkeit und Glaubwürdigkeit Ihrer Dokumentation durch Pentacode kann den Prüfungsvorgang erheblich beschleunigen.
+**Empfehlung**: Im Falle einer Prüfung ist es empfehlenswert, dem Prüfer für eine Stichprobenkontrolle einzelne Ausdrucke der "Lohnabrechnung" zu überlassen. Die offensichtliche Transparenz, Richtigkeit und Glaubwürdigkeit Ihrer Dokumentation durch Pentacode kann den Prüfungsvorgang erheblich beschleunigen.
