@@ -21,7 +21,7 @@ In der **Standardeinstellung** sind die Mitarbeiter **aller Abteilungen** sichtb
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eafde692c7d3a5ea54a635b/file-jUBk5QsBXy.png)
 
-Da der **hier gezeigte** Dienstplan immer dem **aktuellen** Dienstplan in **Pentacode** entspricht, ist es unsere **Empfehlung**, den Mitarbeitern hier Einsicht zu geben.
+Da der hier **gezeigte** Dienstplan immer dem **aktuellen** Dienstplan in Pentacode entspricht, ist es unsere Empfehlung, den Mitarbeitern hier Einsicht zu geben.
 
 **HINWEIS**: SIe haben die Möglichkeit, die "Stempeluhr" auf beliebig vielen Endgeräten zu installieren, darunter auch auf dem Rechner an Ihrem jeweiligen Arbeitsplatz. Hierzu müssen sie keine App installieren, es reicht die Eingabe "**time.pentaco.de**" in der Suchleiste von **Google Chrome**.
 
