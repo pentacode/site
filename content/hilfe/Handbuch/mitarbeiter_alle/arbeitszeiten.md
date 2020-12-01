@@ -37,13 +37,17 @@ Bei diesen Formaten handelt es sich um **Exportdateien** für Ihre Lohnbuchhaltu
 
 ## Export in die Buchhaltung
 
-Voraussetzung für die Durchführung eines Exports in die Buchhaltung ist, dass Sie für Ihr Unternehmen die Lohnarten angelegt haben. Wie Sie dies tun, erfahren Sie _hier_.
+**Voraussetzung** für die Durchführung eines Exports in die Buchhaltung ist, dass Sie für Ihr Unternehmen die **Lohnarten** angelegt haben. Wie Sie dies tun, erfahren Sie _hier_.
 
-Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet und klicken Sie auf "Exportieren". Diese Datei ist nun im Ordner "Downloads" auf Ihrem Rechner abgelegt.
+Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet und klicken Sie auf "**Exportieren**". Diese Datei ist nun im Ordner "**Downloads**" auf Ihrem Rechner abgelegt.
 
-Öffnen Sie dann Ihr Email-Programm und adressieren Sie eine EMail an die Buchhaltung.
+<<Screenshot>>
+
+Öffnen Sie dann Ihr Email-Programm und adressieren Sie eine Email an die Buchhaltung.
 
 Öffnen Sie dann den Ordner "Downloads" und ziehen Sie per "Drag & Drop" den Ordner in die Email.
+
+<<Screenshot>>
 
 Versenden Sie die Email. Das war's auch schon für Sie.
 
