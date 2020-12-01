@@ -35,7 +35,11 @@ Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Stand
 
 Über " **+ Neue Pausenregel**" können Sie zusätzliche Pausen einrichten.
 
+<<Screenshot>>
+
 Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie durch das Setzen des Buttons "**Automatische Pausen Werden Bezahlt**" und/oder "**Manuelle Pausen Werden Bezahlt**" eine Unterscheidung zwischen den Pausentypen treffen. Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewiesen, bei der Lohnabrechnung in ihrer Dauer jedoch der Arbeitszeit zugerechnet.
+
+<<Screenshot>>
 
 Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
 
@@ -43,11 +47,15 @@ Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die R
 
 Über das Pfeilsymbol können Sie bestimmen, wieviele **Mahlzeiten** einem Mitarbeiter **automatisch hinzugebucht** werden.
 
-Bsp.: Wenn Ihre Mitarbeiter bei Teilschicht nur eine Mahlzeit erhalten, wählen Sie "Ein Essen pro Tag", erhalten Sie mit jeder Schicht eine Mahlzeit, wählen Sie "bis zu 2 pro Tag"
+<<Screenshot>>Bsp.: Wenn Ihre Mitarbeiter bei Teilschicht nur eine Mahlzeit erhalten, wählen Sie "Ein Essen pro Tag", erhalten Sie mit jeder Schicht eine Mahlzeit, wählen Sie "bis zu 2 pro Tag"
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea2fc122c7d3a7e9aeb94e5/file-ucbpVv3Aeu.png)
 
-Sollten Sie die Zeiterfassung in Pentacode durch die Stempeluhr durchführen, so ist der Button bei " **Zeiterfassung per Stempeluhr**" als **Standard gesetzt**. Sollten Sie einzelne Abteilungen oder einzelne Mitarbeiter von der Zeiterfassung per Stempeluhr ausnehmen wollen, deaktivieren Sie den Button in der entsprechenden Abteilung / beim entpsrechenden Mitarbeiter dort unter "Zeiterfassung"
+Sollten Sie die Zeiterfassung in Pentacode durch die Stempeluhr durchführen, so ist der Button bei " **Zeiterfassung per Stempeluhr**" als **Standard gesetzt**. 
+
+<<Screenshot>>
+
+Sollten Sie einzelne Abteilungen oder einzelne Mitarbeiter von der Zeiterfassung per Stempeluhr ausnehmen wollen, deaktivieren Sie den Button in der entsprechenden Abteilung / beim entpsrechenden Mitarbeiter dort unter "Zeiterfassung"
 
 ### "Anmeldung"
 
