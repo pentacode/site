@@ -35,7 +35,7 @@ Durch einen **Mouseover** wird das Problem benannt. Sie können einen Fehler jed
 
 ## Kontoausdruck
 
-Durch das Anklicken des **Drucksymbols** am linken unteren Rand (**5**) wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
+Durch das Anklicken des **Drucksymbols** am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
 
 ### Arbeitszeiten Nachweis
 
@@ -49,7 +49,7 @@ Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unt
 
 Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
 
-#### Lohnabrechnung
+### Lohnabrechnung
 
 Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden, sowie die Anzahl eventueller Mahlzeiten aus.
 
