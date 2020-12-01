@@ -5,3 +5,14 @@ icon: ''
 anchors: []
 
 ---
+Die automatische Erfassung und Listung von Bar-Vorschüssen setzt voraus, dass Sie entweder eine Tagesabrechnung in Pentacode durchführen oder aber das Kassenbuch führen.
+
+Ist dies der Fall, entsteht selbständig eine Listung der ausgezahlten Vorschüsse.
+
+<<Screenshot>>
+
+Diese Liste kann an dieser Stelle nicht bearbeitet werden. Korrekturen können nur in der Tagesabrechnung und im Kassenbuch durchgeführt werden.
+
+Jede Veränderung wird in der Vorschussliste entsprechend wiedergespiegelt. Dies geschieht automatisch.
+
+Die Vorschussliste kann nicht exportiert werden. Um sie Ihrer Buchhaltung zukommen zu lassen, muss sie als pdf zugesandt werden.
