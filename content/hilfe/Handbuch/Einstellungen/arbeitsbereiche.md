@@ -9,7 +9,7 @@ In diesem Menüpunkt legen Sie **Standorte** und deren **Abteilungen** an und be
 
 Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie "an Bord gehen".
 
-#### Neuer Standort
+## Neuer Standort
 
 Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken. Es öffnet ein Dialogfenster, in dem Sie die Standortdaten eingeben.
 
@@ -19,15 +19,17 @@ Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die entspre
 
 Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter Positionen. Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden. Sehen Sie hierzu den Hilfeartikel **>>Alle Mitarbeiter / Positionen**
 
-#### Standort bearbeiten
+### Standort bearbeiten
 
 Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
+
+### Standort archivieren
 
 Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn durch das "**Standort Archivieren"** entfernen. Alle Daten zu diesem Standort, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
 Sollten Sie einen archivierten Standort wiederherstellen wollen, wenden Sie sich bitte an unseren Support.
 
-#### Neue Abteilung
+## Neue Abteilung
 
 Um eine neue Abteilung zu erstellen, klicken Sie auf "+Neue Abteilung".
 
@@ -39,15 +41,17 @@ Wenn für die gewählte Abteilung **andere** Regeln gelten sollen, setzen Sie de
 
 Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen Zeiterfassung ausgenommen werden.
 
-#### Abteilung bearbeiten
+### Abteilung bearbeiten
 
 Wenn Sie auf eine Abteilung klicken, öffnet diese und kann wie oben beschrieben bearbeitet werden.
+
+### Abteilung archivieren
 
 Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen, dass diese weiterhin im Dienstplan gezeigt wird, können Sie diese durch das **Symbol am rechten oberen Eck archivieren**.
 
 Sollten Sie eine archivierte Abteilung wiederherstellen wollen, wenden Sie sich bitte an unseren Support.
 
-#### Reihenfolge der Abteilungen
+### Reihenfolge der Abteilungen
 
 Die Abteilungen sind in der **Reihenfolge** gelistet, in der Sie die Abteilungen beim Einrichten Ihrer Datenbank angelegt haben. In dieser Reihenfolge erscheinen sie auch im **Dienstplan**.
 
