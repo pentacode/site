@@ -1,5 +1,5 @@
 ---
-title: Digitale Stempeluhr
+title: Einrichten der Stempeluhr
 weight: 
 icon: stopwatch
 anchors: []
