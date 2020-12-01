@@ -21,11 +21,13 @@ Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **>
 
 Am rechten Rand sehen Sie den jeweiligen **Status**, der immer **in Echtzeit**, also zum Zeitpunkt Ihres Betrachtens, angezeigt wird.
 
-Zum Status eines Mitarbeiters gibt es folgende Meldungen: **ausstehend | verspätet | aktiv | Pause | fertig | nicht abgemeldet**.
+Zum Status eines Mitarbeiters gibt es folgende Meldungen: 
+
+**ausstehend | verspätet | aktiv | Pause | fertig | nicht abgemeldet**.
 
 **Geloggte Zeiten** können Sie **jederzeit** bearbeiten / korrigieren.
 
-Bei **aktuell laufenden** oder noch **nicht begonnen Schichten** können jedoch **keine Zeiteingaben** geleistet werden. Zeiten können in diesem Fall ausschließlich durch Log-in/Log-out des Mitarbeiters über die Stempeluhr übernommen werden.
+Bei **aktuell laufenden** oder noch **nicht begonnen Schichten** können noch  **keine Zeiteingaben** manuell vorgenommen werden. Zeiten können in diesem Fall ausschließlich durch Log-in/Log-out des Mitarbeiters über die Stempeluhr übernommen werden.
 
 Lediglich beim Status "**verspätet**" oder "**nicht abgemeldet**" können Daten **manuell** in die Rot gekennzeichneten Felder **eingegeben** werden.
 
