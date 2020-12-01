@@ -25,7 +25,7 @@ Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch gef
 
 "Bewegungsdaten" ist das Amtsdeutsch für Arbeits- Fehl-, Zuschlagszeiten u.a.m., was Ihr Lohnbuchhaltung für die Abrechnung der Löhne benötigt. Wenn Sie diese Bewegungsdaten an die Buchhaltung exportieren wollen, müssen Sie die "Lohnarten" festlegen. Als Lohnarten werden jene Konten genannt, in denen die verschiedenen Datensätze gebucht werden.
 
-Wenn Sie es sich so einfach wie möglich machen wollen, empfehlen wir Ihnen im ersten Schritt folgendes Vorgehen: 
+Wenn Sie es sich so einfach wie möglich machen wollen, empfehlen wir Ihnen im ersten Schritt folgendes Vorgehen:
 
 Klicken Sie auf "+ Neuer Lohnartensatz". Es öffnet ein leeres Eingabeformular, von dem Sie am besten einen Screenshot machen und Ihrer Buchhaltung zusenden.
 
@@ -37,7 +37,7 @@ Schicken Sie den Screenshot an die Buchhaltung mit der Aufforderung, die für Si
 
 <<Screenshot>>
 
-Das war's! Ab jetzt können Sie exportieren. 
+Das war's! Ab jetzt können Sie exportieren.
 
 Hinweis: Im Regelfall haben fast alle Mitarbeiter (unabhängig davon, ob Sie einen Stunden- oder einen Monatslohn erhalten oder Azubis sind) die gleichen Lohnarten. Sie benötigen für diese deshalb nur einen Lohnartensatz.
 
@@ -45,9 +45,9 @@ Bei Aushilfen weichen die Lohnarten häufig ab. Sollte dies bei Ihnen der Fall s
 
 Wählen Sie in jedem Fall durch das Entfernen der entsprechenden Buttons jene Mitarbeiter ab, für die der Lohnartensatz, den Sie gerade anlegen, nicht zutrifft.
 
-Wie viele Lohnartensätze Sie benötigen und für welche Mitarbeiter diese gelten, muss Ihnen Ihre Buchhaltung sagen.
+Wie viele Lohnartensätze Sie benötigen und für welche Mitarbeiter diese gelten, kann Ihnen Ihre Buchhaltung sagen.
 
-Nach getaner Arbeit und "Speichern" klappt das Eingabefeld wieder zu. Sie sehen in der Unterzeile die Anstellungsverhältnisse, welche durch den Lohnartensatz erfasst werden. 
+Nach getaner Arbeit und "Speichern" klappt das Eingabefeld wieder zu. Sie sehen in der Unterzeile die Anstellungsverhältnisse, welche durch den Lohnartensatz erfasst werden.
 
 <<Screenshot>>
 
