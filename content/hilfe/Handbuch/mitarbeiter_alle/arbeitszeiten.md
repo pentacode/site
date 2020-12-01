@@ -5,6 +5,8 @@ icon: hourglass-half
 anchors: []
 
 ---
+Arbeitszeiten, der Ort, an dem sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
+
 ## Übersicht Arbeitszeiten
 
 Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben.
