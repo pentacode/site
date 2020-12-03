@@ -27,7 +27,7 @@ In diesem Konto werden die **erworbenen** Urlaubsansprüche den **genommenen** U
 
 In den **ersten sechs Monaten** des Jahres wird der **Urlaubsanspruch** nur bis zum jeweils **aktuellen Monat** dargestellt.
 
-Da einem Mitarbeiter ab dem 1. 07. eines Jahres auch im Falle einer Kündigung vor Jahresende grundsätzlich der gesamte Jahresurlaub zusteht, werden **ab Erreichen des 1.07.** die zukünftigen **Urlaubsansprüche bis zum Jahresende** dargestellt.
+Da einem Mitarbeiter ab dem 1. 07. eines Jahres auch im Falle einer Kündigung vor Jahresende grundsätzlich der gesamte Jahresurlaub zusteht (Voraussetzung: er ist seit mehr als 6 Monaten im Unternehmen beschäftigt), werden **ab Erreichen des 1.07.** die zukünftigen **Urlaubsansprüche bis zum Jahresende** dargestellt.
 
 ## SFN-Zuschläge
 
