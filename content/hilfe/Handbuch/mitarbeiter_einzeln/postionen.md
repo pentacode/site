@@ -9,7 +9,7 @@ Unter Positionen finden Sie die **Abteilungen** wieder, die Sie unter "Einstellu
 
 Hier weisen Sie den Mitarbeiter einer oder mehreren Abteilungen zu, in denen dieser tätig ist.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ddbe6d004286364bc922733/file-L7tgejNctJ.png)
+>>Screenshot<<
 
 Aktivieren Sie hierzu einfach die entsprechenden Buttons.
 
