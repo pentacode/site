@@ -65,11 +65,7 @@ Die  Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen
 
 ### Monatsgenau Ohne Feiertage
 
-Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
-
-Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
-
-<<Screenshot>>
+Eingabe und  Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Monatsgenau".
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
@@ -83,7 +79,7 @@ Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen ar
 
 <<Screenshot>>
 
-Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in Monat erscheint.
+Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in einem Monat auftritt.
 
 Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein MItarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet. 
 
