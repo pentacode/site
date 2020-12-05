@@ -107,6 +107,8 @@ Setzen Sie in diesem Fall den Button bei "Jahresarbeitszeitkonto Vereinbart".
 
 Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist. Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
+## Lohn / Gehalt
+
 Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
 
 Wenn Sie **"Auto"** wählen, ermittelt Pentacode automatisch die Anzahl der Arbeitstage / Woche, die der Mitarbeiter im Durchschnitt der jeweils letzten 13 Wochen gearbeitet hat.
