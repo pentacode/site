@@ -95,7 +95,17 @@ Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden
 
 Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
-In diesem FAll erhalten Sie in PEntacode eine Problemmeldung.
+In diesem Fall erhalten Sie in Pentacode eine Problemmeldung.
+
+Dieses  Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines Jahresarbeitszeitkontos vereinbaren.
+
+Setzen Sie in diesem Fall den Button bei "Jahresarbeitszeitkonto Vereinbart".
+
+<<Screenshot>>
+
+Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
+
+Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist. Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
 Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
 
