@@ -119,13 +119,13 @@ Wenn Sie "Feste Stundenzahl" wählen erscheint ein Eingabefeld, in das Sie die A
 
 Bei dieser Einstellung wird jeder Tag, an dem der Mitarbieter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
 
-#### 13-Wochenschnitt
+#### 13-Wochen Durchschnitt
 
 Bei dieser Einstellung errechnet Pentacode den Wert eines Urlaub- oder Kranktages an der Arbeitszeit, die der Mitarbeiter im Durchschnitt der letzten 13 Wochen gearbeitet hat.
 
 <<Screenshot>>
 
-Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
+Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden sie auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
 
 Pentacode unterscheidet bei der Berechnung zwischen Wochentagen und Sonntagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
 
@@ -135,19 +135,17 @@ Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den ersten drei Monat
 
 ## Lohn / Gehalt
 
-Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
+## Zusatzleistungen
 
-Wenn Sie **"Auto"** wählen, ermittelt Pentacode automatisch die Anzahl der Arbeitstage / Woche, die der Mitarbeiter im Durchschnitt der jeweils letzten 13 Wochen gearbeitet hat.
+Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
 
-Geben Sie bei ( **4**) **"Stunden / Woche"** die Anzahl der Arbeitsstunden ein, zu denen der Mitarbeiter laut Arbeitsvertrag verpflichtet ist.
+Wenn Sie auf das **+** klicken, öffnet ein Eingabefeld, in das Sie Art und Höhe der einzelnen Zusatzleistungen eingeben.
 
-\---
+<<Screenshot>>
 
-Sollte mit dem Mitarbeiter die Führung eines ( **5**) **Jahresarbeitszeitkontos** vereinbart sein, sollte der Button gesetzt werden. In diesem Fall werden Warnhinweise (i.B. Hinweise bei Unterschreitung des gesetzlichen Mindestlohns durch Überstunden) außer Kraft gesetzt.
+Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht** berücksichtigt. Sie sind als feste Werte ohnehin im jeweiligen Buchhaltungssystem hinterlegt.
 
-Das Jahresarbeitszeitkonto wird in Pentacode grundsätzlich für alle Mitarbeiter geführt. Für dessen Rechtswirksamkeit ist es jedoch wesentlich, dass die Führung des Jahresarbeitszeitkontos und damit die fortlaufende Saldierung von Über- und Minderstunden schriftlich vereinbart ist.
-
-\---
+Pentacode ermittelt jedoch die Lohnkosten , um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben.  Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
 
 **Gehalt & Urlaub**
 
