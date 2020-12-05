@@ -33,7 +33,7 @@ Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export
 
 ## Arbeitszeit
 
-Für die Berechnung der Sollarbeitszeit eines MItarbeiters stehen Ihnen 5 unterschiedliche Modi zur Wahl.
+Für die Berechnung der Sollarbeitszeit eines Mitarbeiters stehen Ihnen 5 unterschiedliche Modi zur Wahl.
 
 <<Screenshot>>
 
@@ -106,6 +106,10 @@ Setzen Sie in diesem Fall den Button bei "Jahresarbeitszeitkonto Vereinbart".
 Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 
 Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist. Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
+
+### Fehlstundenberechnung
+
+Für dei Berechnung von Fehlzeiten bei Krank und Urlaub stehen IHnen zwei Möglichkeiten zur Verfügung
 
 ## Lohn / Gehalt
 
