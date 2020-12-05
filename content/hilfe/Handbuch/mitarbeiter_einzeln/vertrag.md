@@ -111,6 +111,28 @@ Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung 
 
 Für dei Berechnung von Fehlzeiten bei Krank und Urlaub stehen IHnen zwei Möglichkeiten zur Verfügung
 
+#### Feste Stundenzahl
+
+Wenn Sie "Feste Stundenzahl" wählen erscheint ein Eingabefeld, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter durchschnittlich leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
+
+<<Screenshot>>
+
+Bei dieser Einstellung wird jeder Tag, an dem der Mitarbieter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
+
+#### 13-Wochenschnitt
+
+Bei dieser Einstellung errechnet Pentacode den Wert eines Urlaub- oder Kranktages an der Arbeitszeit, die der Mitarbeiter im Durchschnitt der letzten 13 Wochen gearbeitet hat.
+
+<<Screenshot>>
+
+Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
+
+Pentacode unterscheidet bei der Berechnung zwischen Wochentagen und Sonntagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
+
+#### Hinweis bei Einführung von Pentacode
+
+Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den ersten drei Monaten mit der Einstellung "Feste Stundenzahl" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
+
 ## Lohn / Gehalt
 
 Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
