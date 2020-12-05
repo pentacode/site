@@ -61,7 +61,7 @@ Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeit
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
-Die  Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bie 171,... STunden, in einem Monat mit 31 Tagen bei 177,.. Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
+Die  Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bie 171,... Stunden, in einem Monat mit 31 Tagen bei 177,.. Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
 
 ### Monatsgenau Ohne Feiertage
 
@@ -69,9 +69,25 @@ Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
+<<Screenshot>>
+
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
-Pentacode kennt die gesetzlichen Feiertage des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende FIliale Ihres Unternehmens befindet liegt. Fällt in einem Monat ein gesetzlicher Feiertag auf einen Wochentag, so werden bei der Auswahl
+Pentacode kennt die gesetzlichen Feiertage des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende FIliale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher Feiertag auf einen Wochentag, so wird die monatliche Soll-Arbetiszeit um den Feiertag gekürzt.
+
+### Feste Wochentage
+
+Bei der Wahl "Feste Wochentage" erscheint ein Eingabefeld der seiben Wochentage.
+
+Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen arbeiten soll. Diese Auswahl ist im Besonderen zu empfehlen, wenn ein Mitarbeiter feste Arbeitstage hat und diese in ihrer Länge auch noch voneinander abweichen. Dies trifft häufig für Mitarbeiter in der Verwaltung zu, bei denen z.B. der Freitag ein verkürzter Arbeitstag ist.
+
+<<Screenshot>>
+
+Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in Monat erscheint.
+
+Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein MItarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet. 
+
+### Feste Wochentage abzgl. Feiertage
 
 Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
 
