@@ -77,7 +77,7 @@ Pentacode kennt die gesetzlichen Feiertage des Bundeslands, in dem sich Ihr Unte
 
 ### Feste Wochentage
 
-Bei der Wahl "Feste Wochentage" erscheint ein Eingabefeld der seiben Wochentage.
+Bei der Wahl "Feste Wochentage" erscheint ein Eingabefeld der sieben Wochentage.
 
 Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen arbeiten soll. Diese Auswahl ist im Besonderen zu empfehlen, wenn ein Mitarbeiter feste Arbeitstage hat und diese in ihrer Länge auch noch voneinander abweichen. Dies trifft häufig für Mitarbeiter in der Verwaltung zu, bei denen z.B. der Freitag ein verkürzter Arbeitstag ist.
 
@@ -88,6 +88,12 @@ Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in d
 Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein MItarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet. 
 
 ### Feste Wochentage abzgl. Feiertage
+
+Eingabe und  Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Feste Wochentage".
+
+Bei diesem Modus wird jedoch ein Feiertag, der auf einen Arbeitstag des Mitarbeiters fällt, von seiner Soll-Arbeitszeit in Abzug gebracht. Hierbei wird Tag-genau unterschieden.
+
+Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden arbeitet, so werden auch nur 4 Stunden berechnet.
 
 Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
 
