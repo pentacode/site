@@ -91,6 +91,12 @@ Bei diesem Modus wird jedoch ein Feiertag, der auf einen Arbeitstag des Mitarbei
 
 Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden arbeitet, so werden auch nur 4 Stunden berechnet.
 
+### Jahresarbeitszeitkonto Vereinbart
+
+Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
+
+In diesem FAll erhalten Sie in PEntacode eine Problemmeldung.
+
 Wählen Sie bei ( **3**) **"Tage / Woche"** die Anzahl der Tage, die ein Mitarbeiter in der Regel arbeitet.
 
 Wenn Sie **"Auto"** wählen, ermittelt Pentacode automatisch die Anzahl der Arbeitstage / Woche, die der Mitarbeiter im Durchschnitt der jeweils letzten 13 Wochen gearbeitet hat.
