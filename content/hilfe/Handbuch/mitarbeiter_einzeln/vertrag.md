@@ -135,10 +135,6 @@ Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den ersten drei Monat
 
 ## Lohn / Gehalt
 
-**Gehalt & Urlaub**
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de91a4404286364bc9287eb/file-6MuuxTgDjj.png)
-
 Geben Sie unter ( **1**) **"Alle Arbeitsbereiche"** das Standardgehalt des Mitarbeiters ein.
 
 Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **Stunden**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monat**.
