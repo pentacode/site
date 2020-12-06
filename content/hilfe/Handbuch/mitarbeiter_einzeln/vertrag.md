@@ -9,13 +9,13 @@ Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten 
 
 Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt den Vereinbarungen entsprechen, die Sie mit dem Mitarbeiter laut Arbeitsvertrag getroffen haben.
 
-## Vertragslaufzeit 
+## Vertragslaufzeit
 
 <<Screenshot>>
 
 Geben Sie bei **Vertragsbeginn** das Datum ein, zu dem das Beschäftigungsverhältnis des Mitarbeiters in Ihrem Unternehmen begonnen hat.
 
-Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverhältnis endet. 
+Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverhältnis endet.
 
 Im Falle eines befristeten Arbeitsverhältnisses ist es empfehlenswert, das Fristende bereits bei der Anlage des Mitarbeiters im System festzuhalten.
 
@@ -81,7 +81,7 @@ Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen ar
 
 Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in einem Monat auftritt.
 
-Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein MItarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet. 
+Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein MItarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
 
 ### Feste Wochentage abzgl. Feiertage
 
@@ -135,18 +135,6 @@ Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den ersten drei Monat
 
 ## Lohn / Gehalt
 
-## Zusatzleistungen
-
-Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
-
-Wenn Sie auf das **+** klicken, öffnet ein Eingabefeld, in das Sie Art und Höhe der einzelnen Zusatzleistungen eingeben.
-
-<<Screenshot>>
-
-Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht** berücksichtigt. Sie sind als feste Werte ohnehin im jeweiligen Buchhaltungssystem hinterlegt.
-
-Pentacode ermittelt jedoch die Lohnkosten , um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben.  Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
-
 **Gehalt & Urlaub**
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de91a4404286364bc9287eb/file-6MuuxTgDjj.png)
@@ -161,47 +149,49 @@ Arbeitet ein Mitarbeiter in verschiedenen Abteilungen bei unterschiedlichen, abt
 
 **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
-Unter ( **3**) **"Sonderleistungen"** geben Sie die **Summe der Arbeitgeberzuschüsse** ein. Bitte beachten Sie, dass Sie für sozialversicherungspflichtige Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
+## Zusatzleistungen
 
-\---
+Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
 
-**Urlaub & Fehltage**
+Wenn Sie auf das **+** klicken, öffnet ein Eingabefeld, in das Sie Art und Höhe der einzelnen Zusatzleistungen eingeben.
 
-Geben Sie unter![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de792b92c7d3a7e9ae4b57b/file-fnAjFhcz0i.png)die vereinbarte Anzahl der Urlaubstage / Jahr ein.
+<<Screenshot>>
 
-Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben berechnet werden:
+Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht** berücksichtigt. Sie sind als feste Werte ohnehin im jeweiligen Buchhaltungssystem hinterlegt.
 
-a) Wählen Sie
+Pentacode ermittelt jedoch die Lohnkosten , um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben.  Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de793662c7d3a7e9ae4b583/file-gKv2TRtk3v.png) wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
+Bitte beachten Sie, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
 
-b) Wählen Sie
+## Urlaub & Fehltage
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de7940104286364bc927856/file-UyNJdTXg5T.png)wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
+Geben Sie bei "Urlaubsanspruch (pro Jahr)" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter vereinbart sind.
+
+<<Screenshot>>
+
+Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben berechnet werden.
+
+Wenn Sie bei Urlaubszuwachs "Nach Arbeitsstunden" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
+
+b) Wählen Sie "Monatlich", wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
 
 Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
 
-\---
+## Zuschläge
 
-Wenn Sie bei
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de7993c04286364bc927889/file-WYDYpJX1BW.png)**keinen Wert** einfügen, werden die Arbeitsstunden für die Berechnung von Krank- und Urlaubstagen über den **Durchschnitt der letzten 13 Arbeitswochen** berechnet. Dies ist die Standardeinstellung in Pentacode.
-
-Wenn Sie mit der Arbeit mit Pentacode beginnen, liegen keine Werte für die Vergangengheit vor. Um in diesem Fall einen verlässlichen Wert zu erhalten, empfehlen wir Ihnen, zumindest während der ersten 13 Wochen einen festen Wert einzugeben, z.B.:
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de79b182c7d3a7e9ae4b5ca/file-r5lOPU4R9n.png)Diesen errechnen Sie, indem Sie die Anzahl der vereinbarten Stunden/Woche durch Arbeitstage/Woche teilen (z.B. 40 Stunden / 5 Arbeitstage = 8 Stunden).
-
-Sie können diesen festen Wert zu jedem Zeitpunkt wieder löschen. Ab dem Zeitpunkt der Löschung wird mit dem 13-Wochen-Durchschnitt weitergerechnet.
-
-\---
-
-**Zuschläge**
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de91dd22c7d3a7e9ae4c5be/file-WrMNRwuwsQ.png)
-
-Wenn Sie Ihren Mitarbeitern Zuschläge zahlen, legen Sie die Höhe der Zuschläge für den Mitarbeiter fest. In der Standardeinstellung von Pentacode sind die Zuschläge mit ihren gesetzlich erlaubten Höchstwerten ausgewiesen.
+Wenn Sie einem Mitarbeiter Zuschläge zahlen, legen Sie die Höhe der Zuschläge für den Mitarbeiter fest. In der Standardeinstellung von Pentacode sind die Zuschläge mit ihren gesetzlich erlaubten Höchstwerten ausgewiesen.
 
 Sie können die Zuschläge individuell nach unten anpassen.
+
+<<Screeenshot>>
+
+### Zuschläge kumulieren
+
+In der Standardeinstellung von Pentacode werden Sonn- und Feiertagszuschläge mit den Nachtzuschlägen kumuliert. Dies heißt, dass der Mitarbeiter an Sonn- und Feiertagen auch Nachtzuschläge erhält.
+
+Sollte dies **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In diesem Fall werden dem Mitarbeiter an einem Sonn- oder Feiertag die **Sonn- und Feiertagszuschläge** hinzugerechnet, **nicht** jedoch die **Nachtzuschläge**.
+
+### Monatliche SFN-Pauschale
 
 Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so geben Sie unter (**1**)
 
@@ -210,9 +200,3 @@ Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so geben Sie unter (**1*
 Im Konto "SFN-Zuschläge" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
 Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Lohnabrechner in Verbindung.
-
-\---
-
-In der Standardeinstellung von Pentacode werden ( **2**) Sonn- und Feiertagszuschläge mit den Nachtzuschlägen kumuliert. Dies heißt, dass der Mitarbeiter an Sonn- und Feiertagen auch Nachtzuschläge erhält.
-
-Sollte dies **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In diesem Fall werden dem Mitarbeiter an einem Sonn- oder Feiertag die **Sonn- und Feiertagszuschläge** hinzugerechnet, **nicht** jedoch die **Nachtzuschläge**.
