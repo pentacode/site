@@ -193,9 +193,9 @@ Sollte dies **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In di
 
 ### Monatliche SFN-Pauschale
 
-Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so geben Sie unter (**1**)
+Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im Eingabefeld, dass dann erscheint die Höhe der monatlichen Pauschalvorauszahlung ein.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5de7a2b92c7d3a7e9ae4b5ed/file-zgLpXtCtan.png)die Höhe der monatlichen Pauschalvorauszahlung ein.
+<<Screenshot>>
 
 Im Konto "SFN-Zuschläge" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
