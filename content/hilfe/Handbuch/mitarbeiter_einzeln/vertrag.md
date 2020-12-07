@@ -135,13 +135,25 @@ Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den ersten drei Monat
 
 ## Lohn / Gehalt
 
-Geben Sie unter ( **1**) **"Alle Arbeitsbereiche"** das Standardgehalt des Mitarbeiters ein.
+### Lohn/Gehalt (brutto)
+
+Geben Sie unter **"Alle Arbeitsbereiche"** das Standardgehalt des Mitarbeiters ein.
 
 Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **Stunden**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monat**.
 
-Arbeitet ein Mitarbeiter in verschiedenen Abteilungen bei unterschiedlichen, abteilungsabhängigen Löhnen, können Sie unter ( **2**) **"+ Gehalt hinzufügen"** die entsprechenden Abteilungen wählen und diesen den jeweiligen Lohn zuweisen.
+### Provision
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ddfb33f04286364bc924aec/file-Jg5wj5KSRs.png)
+Wenn ein Mitarbeiter Umsatzprovision erhält, geben Sie unter Provision den Prozentsatz ein. Voraussetzung für die Berechnung der Provision ist die Erfassung des individuellen Umsatzes im Hauptmenüpunkt "Zeiterfassung".
+
+Wenn sich die Provision auf den Netto-Umsatz bezieht, ist dort der Netto-Umsatz des Mitarbeiters einzugeben. Bezieht sie sich auf den Brutto-Umsatz, entsprechend der Brutto-Umsatz.
+
+### Lohnartensatz
+
+Über den Lohnartensatz wird der Export der Daten in die Lohnbuchhaltung organisiert.
+
+### Ein Mitarbeiter - mehrere Löhne
+
+Arbeitet ein Mitarbeiter in verschiedenen Abteilungen bei unterschiedlichen, abteilungsabhängigen Löhnen, können Sie unter **"+ Gehalt hinzufügen"** die entsprechenden Abteilungen wählen und diesen den jeweiligen Lohn zuweisen.
 
 **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
