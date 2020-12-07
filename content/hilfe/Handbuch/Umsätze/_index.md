@@ -9,52 +9,6 @@ In Pentacode können Sie mit einem Aufwand von 2 Minuten Ihren Geschäftstag abr
 
 Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie des idealen Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
 
-## Umsatzgruppen
-
-Unter "**Umsätze**" haben Sie im Menüpunkt "**Umsatzgruppen**" die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
-
-Darüberhinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
-
-#### Anlegen von Umsatzgruppen
-
-Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661ae042863444aa0df2e/file-hgfUoAyIHX.png)
-
-In der **Standardeinstellung** ist der Button bei "**Kassenbuch**" gesetzt. Die Umsatzgruppe wird damit durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das Kassenbuch geschrieben**.
-
-Wenn Sie den Button "**Berichte**" aktivieren, wird der Umsatz auch den Berichten zugeführt. Wählen Sie den Button "Kassenbuch" ab, wird dieser Umsatz nur für die Statistik verwendet.
-
-Mit "**Speichern**" haben Sie die Gruppe erstellt.
-
-#### Wenn Sie bereits mit der Tagesabrechnung gearbeitet haben, bevor Sie Umsatzgruppen angelegt haben
-
-Bei Anklicken des Menüpunkts "**Umsatzgruppen**" finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
-
-Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f4661042c7d3a352e916747/file-STwpriz5ul.png)
-
-Wenn Sie dies für die Zukunft vereinheitlichen wollen, klicken Sie auf "2. **Ziehen** Sie nun die **gewünschten Einträge** in der Liste per "drag & drop" **in die Gruppe**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466236c9e77c0016ffc908/file-jtAVriAx2h.png)
-
-Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und vereinheitlicht. Alle Texte, Steuersätze Kontonummern und Kostenstellen entsprechen nun den Angaben, die Sie für diese Gruppe definiert haben.
-
-**Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
-
-#### Reihenfolge der Umsatzgruppen
-
-Mit der **linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
-
-4\. In der von Ihnen gewählten **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tagesabrechnung**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f466430c9e77c0016eb1cda/file-2a5UXI27s6.png)
-
-**Umsatzarten**, die Sie in der **Vergangenheit** angelegt haben und die nicht in einer Gruppe zusammengefasst sind, können Sie der Abrechnung des Geschäftstages über das **Dropdown-Menü hinzufügen**.
-
-Und Sie können natürlich weiterhin neue Umsatzarten anlegen und diese evtl. einer bestehenden Gruppe hinzufügen.
-
 ## Abrechnung des Geschäftstages
 
 ### Umsatzerfassung MIT Umsatzgruppen
@@ -180,27 +134,3 @@ Die Funktion **"Abschließen & Buchen"** (**7**) ist nur für jene Administrator
 Mit der Durchführung von **"Abschließen & Buchen"** ist die Tagesabrechnung für Administratoren, die nur die Tagesabrechnung durchführen können, **nicht mehr veränderbar**.
 
 Mit **"Abschließen & Buchen"** werden die Positionen der Tagesabrechnung in das **Kassenbuch** übernommen.
-
-## Erlöszuordnung
-
-In Pentacode können Sie Ihren **Dienstplan** nach **Zielen** führen, die von Ihnen gesetzt werden. Voraussetzung hierfür ist, dass Sie im Vorfeld "**Umsatzgruppen**" erstellt haben.
-
-Unter "**Umsätze**" können Sie im Menüpunkt "**Erlöszuordnung**" den Umsatzgruppen jene **Abteilungen** zuweisen, die an der Realisierung des jeweiligen Umsatzes **beteiligt** sind.
-
-**Ziehen** Sie hierzu die entsprechenden **Abteilungen** per "drag & drop" in die gewählte **Umsatzgruppe**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f46729a46e0fb0016ff4618/file-4j1hJUXtOb.png)
-
-Der **Anteil**, den eine Abteilung am Umsatz hat, wird dabei zunächst **gleichmäßig** auf die Abteilungen verteilt.
-
-Sie können die entstandenen **Prozentwerte** jedoch beliebig **überschreiben** und so zu einer Verteilung gelangen, die nach Ihrem Gefühl angemessen ist.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f46730946e0fb0016ff461b/file-vpEEShFYHR.png)
-
-**Wichtig zu wissen!**
-
-Die Prozentangabe, nach der Sie eine Abteilung "gewichten" und an der Realisierung des Umsatzes beteiligen, ist natürlich willkürlich. Es wird nicht möglich sein, wirklichkeitsgetreu festzulegen, wie hoch der Anteil zum Beispiel der Abteilung Service am Speisenumsatz ist. Das Ergebnis wird niemals exakt der Beitragsleistung einer Abteilung gerecht werden. Dies ist aus folgendem Grund auch völlig unwichtig:
-
-Mit der prozentualen Verteilung entsteht für die Dienstplanung eine Kennzahl / ein Richtwert. Dieser Richtwert ist statisch und damit von gleichbleibendem Wert. Da sich das Ergebnis Ihrer Planung am immer gleichbleibenden Richtwert orientiert, ist die Aussagekraft rein rechnerisch immer richtig und somit verlässlich. Es handelt sich hier um einen mathematischen Vorgang, der wahr ist, auch wenn er nicht wirklich ist.
-
-Was sich hier sehr theoretisch liest, wird selbsterklärend werden, sobald Sie unter dem Menüppunkt "Planung" mit der zieloreintierten Planung Ihrer Mitarbeiter beginnen.
