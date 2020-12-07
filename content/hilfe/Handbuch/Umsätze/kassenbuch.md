@@ -3,7 +3,6 @@ title: Kassenbuch
 weight: 
 icon: ''
 anchors: []
-draft: true
 
 ---
 Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der Tagesabrechnung.
