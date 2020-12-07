@@ -41,7 +41,7 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 
 **Empfehlung**: Sollten Sie in Zukunft das Management Informations System von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und durch das MIS z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
-#### "Unbare Zahlungen"
+### "Unbare Zahlungen"
 
 **Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
 
@@ -49,7 +49,7 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 
 Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem angeschlossen ist, kann der Kassenbericht zu den Finanzwegen irrtumsfrei verwendet werden.
 
-#### "Auf Rechnung"
+### "Auf Rechnung"
 
 **Debitoren**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
@@ -61,55 +61,41 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 **Alle anderen Ausgaben** sind im **Kassenbuch** zu erfassen. Sehen Sie hierzu bitte den Artikel **"Kassenbuchführung"**.
 
-#### "Gehaltsvorschüsse"
+### "Gehaltsvorschüsse"
 
 Wenn Sie in das Eingabefeld **"Gehaltsvorschüsse"** klicken, erscheint eine Dropdown-Liste der **aktuell beschäftigten Mitarbeiter** in alphabetischer Reihenfolge nach Vornamen.
 
-Sie können einen Mitarbeiter **per Mauspfeil** auswählen oder durch **Buchstabeneingabe** auswählen.
+>>Screenshot<<
 
-Mit der **"Tab-"** oder **"Return-"** Taste springt der Cursor in das Ausgabefeld.
+Sie können einen Mitarbeiter **per Mauspfeil** oder durch **Buchstabeneingabe** auswählen.
+
+Mit der **"Tab-"** oder **"Return-"** Taste springt der Cursor in das Ausgabefeld. Hier tragen Sie den Vorschuss-Betrag ein.
 
 Es können in der Abrechnung **ausschließlich Bar-Vorschüsse** erfasst werden!
 
-### Durchführen der Tagesabrechnung
+### Geldzählung
 
-Im Menüpunkt **"Umsätze"** führen sie mit der **"Tagesabrechnung"** (**1**) die **Abrechnung des Geschäftstages** durch.
+Bereits während Sie Ihre Umsätze, unbaren Zahlungen, Debitoren, Barausgaben aus dem laufenden Geschäft und evtl. Gehaltsvorschüsse erfassen, entsteht bei **"Tageskasse"** (eine **fortlaufende Saldierung** (**3**) Ihrer Barkasse.
 
-#### Tagesabrechnung MIT Umsatzgruppen
+>>Screenshot<<
 
-Wenn Sie Umsatzgruppen und/oder unbare Zahlungen in Gruppen angelegt haben, erscheinen diese immer in der von Ihnen gewählten Reihenfolge.
+Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhalten Sie denn **rechnerischen Kassenstand**.
 
-Geben Sie in diesem Fall lediglich die Bruttoumsätze und -zahlungen ein, wie Sie aus Ihrem Kassen- und EC-Gerät hervorgehen. Alle weiteren Angaben, die für die Buchhaltung eventuell notwendig sind, haben Sie bereits bei den jeweiligen Gruppen hinterlegt.
+### Kassendifferenz
 
-#### Tagesabrechnung OHNE Umsatzgruppen
+Idealerweise **zählen** Sie nun das Ihnen tatsächlich verbliebene **Bargeld** und geben den **Zählbetrag** unter **"Kassenstand Ist"** ein.
 
-Aus Gründen der Übersichtlichkeit werden im **aktuellen Tag** nur jene **Umsatzarten** gezeigt, für die am **Vortag Umsätze** erfasst worden sind.
-
-Die **Umsatzarten** erscheinen in der **Reihenfolge**, in der sie am **Vortag** erfasst worden sind.
-
-Die Liste der Umsatzarten, die über die darüber hinaus über das Dropdown-Menü gewählt werden kann, ist **beliebig** lang und umfasst alle Umsatzarten, die Sie im Laufe der jeweils vergangenen 6 Wochen angelegt haben..
-
-Dieses Prinzip gilt auch für **"Unbare Zahlungen"**.
-
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e53ca7c2c7d3a7e9ae82ebb/file-RHl4u9CH3a.png)
-
-**Kassenbuch**, **Debitoren**- und **Vorschusslisten** entstehen durch die Abrechnung völlig **automatisch**. Für die **Überprüfung der Richtigkeit** dieser Bereiche Ihrer Finanzbuchhaltung ist lediglich die **Zählung des Bargeldbestandes** notwendig, der Ihnen am Ende des Geschäftstages verbleibt.
-
-**Während Sie** Ihre Umsätze, unbaren Zahlungen, Debitoren, Barausgaben aus dem laufenden Geschäft und evtl. Gehaltsvorschüsse **erfassen**, entsteht bei **"Tageskasse"** (**2**) eine **fortlaufende Saldierung** (**3**) Ihrer Barkasse, die **nach beendeter Durchführung** der Tagesabrechnung Ihren **rechnerischen Kassenstand** (**3**) ausweist.
-
-#### Kassendifferenz
-
-Idealerweise **zählen** Sie nun das Ihnen tatsächlich verbliebene **Bargeld** und geben den **Zählbetrag** unter **"Kassenstand Ist"** (**4**) ein.
+>>Screenshot<<
 
 Sollte eine Differenz ausgewiesen sein, so überprüfen Sie am besten die Richtigkeit Ihrer Eingaben. Wenn diese richtig sind, zählen Sie evtl. die Kasse nach.
 
 Verbleibt eine **Differenz** (**5**), wird diese im Kassenbuch als **Kassendifferenz** ausgewiesen.
 
-#### Unbare Trinkgelder
+### Unbare Trinkgelder
 
 Nehmen wir den Fall an, dass zum Beispiel nach einer geschlossenen Veranstaltung per Karte bezahlt wird und der Gastgeber den Rechnungsbetrag für ein Treinkgeld aufrundet. Oder Sie führen zum Beispiel einen Berieb, in dem fast ausschließlich mit Karte bezahlt wird und die Gäste den Kartenbetrag für das Trinkgeld erhöhen. In beiden Fällen wäre der Kartenbetrag höher als der Umsatz.
 
-Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, geben Sie als Zählbetrag "0" ein. Das IHnen verbliebene Bargeld beträgt ja tatsächlich Null Euro.
+Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, geben Sie als Zählbetrag "0" ein. Das Ihnen verbliebene Bargeld beträgt ja tatsächlich Null Euro.
 
 Beim "Speichern" oder "Abschließen & Buchen" erscheint nun die Meldung "Differenz als Unbare Trinkgelder buchen?"
 
@@ -117,17 +103,19 @@ Wenn Sie dies bestätigen, entsteht in der Abrechnung und im Kassenbuch die Posi
 
 Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsprechende Buchung im Kassenbuch z.B. mit dem Text "Auszahlung Trinkgeld" als Ausgabe durch.
 
-#### "Zwischenspeichern" (6)
+### "Zwischenspeichern"
 
 Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Abschließen & Buchen" durchführen.
 
-**"Zwischenspeichern"** (**6**) ist allen Administratoren möglich, die zur Durchführung einer **Tagesabrechnung berechtigt** sind.
+>>Screenshot<<
+
+**"Zwischenspeichern"** ist allen Administratoren möglich, die zur Durchführung einer **Tagesabrechnung berechtigt** sind.
 
 Das **"Zwischenspeichern"** ist **ZWINGEND notwendig**. **Nicht gespeicherte Daten** gehen nach Verlassen der Tagesabrechnung **verloren**.
 
 Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein **"Zwischenspeichern"** kann **beliebig häufig** vorgenommen werden.
 
-#### "Abschließen & Buchen" (7)
+### "Abschließen & Buchen"
 
 Die Funktion **"Abschließen & Buchen"** (**7**) ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
 
