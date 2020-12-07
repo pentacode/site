@@ -21,7 +21,9 @@ Wenn Sie den Button "**Berichte**" aktivieren, wird der Umsatz auch den Berichte
 
 Mit "**Speichern**" haben Sie die Gruppe erstellt.
 
-### Wenn Sie bereits mit der Tagesabrechnung gearbeitet haben, bevor Sie Umsatzgruppen angelegt haben
+### Bestehende Einträge in Umsatzgruppen zusammenfassen
+
+Sie haben bereits mit der Tagesabrechnung gearbeitet, bevor Sie Umsatzgruppen angelegt haben?
 
 In diesem Fall finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
 
