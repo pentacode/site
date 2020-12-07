@@ -23,7 +23,7 @@ Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen-
 
 **UST**, **Kontonummer** und eventuelle **Kostenstelle** sind bereits in der Umsatzgruppe definiert und werden somit **automatisch gebucht**.
 
-**Empfehlung**: Bei **Umsatzarten**, die nur **unregelmäßig** vorkommen, ist es aus Gründen der Übersichtlichkeit empfehlenswert, **keine** **Umsatzgruppe** anzulegen. Erfassen Sie spradische Umsatzarten besser, indem Sie wie nun im Folgenden beschrieben vorgehen.
+**Empfehlung**: Bei **Umsatzarten**, die nur **unregelmäßig** vorkommen, ist es aus Gründen der Übersichtlichkeit empfehlenswert, **keine** **Umsatzgruppe** anzulegen. Erfassen Sie sporadische Umsatzarten besser, indem Sie wie nun im Folgenden beschrieben vorgehen.
 
 ### Umsatzerfassung OHNE Umsatzgruppen
 
