@@ -3,7 +3,6 @@ title: Umsatzgruppen
 weight: 
 icon: ''
 anchors: []
-draft: true
 
 ---
 Unter "**Umsätze**" haben Sie im Menüpunkt "**Umsatzgruppen**" die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
