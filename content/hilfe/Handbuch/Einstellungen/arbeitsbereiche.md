@@ -27,7 +27,7 @@ Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mi
 
 Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="So können Sie einen bestehenden Standort bearbeiten" >}}
 
 ![](/uploads/standort-bearbeiten.png)
 
@@ -37,7 +37,7 @@ Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Si
 
 Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn durch das "**Standort Archivieren"** entfernen. Alle Daten zu diesem Standort, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="So können Sie einen bestehnden Standort archivieren" >}}
 
 ![](/uploads/standort-archivieren.png)
 
@@ -51,7 +51,7 @@ Um eine neue Abteilung zu erstellen, klicken Sie auf "**+Neue Abteilung**".
 
 Jede Abteilung muss **mindestens eine Position** ausweisen. Sollten Sie innerhalb einer Abteilung nicht nach Positionen unterscheiden, empfehlen wir als **Positionsbezeichnung** den **Abteilungsnamen** zu verwenden.
 
-{{< figure caption="So legenSie eine neue Abteilung an" >}}
+{{< figure caption="So legen Sie eine neue Abteilung an" >}}
 
 ![](/uploads/neue-abteilung.png)
 
@@ -79,7 +79,7 @@ Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen,
 
 Öffnen Sie die Abteilung und klicken Sie auf das **Archiv-Symbo**l
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="So können Sie eine Abteilung archivieren" >}}
 
 ![](/uploads/abteilung-archivieren.png)
 
