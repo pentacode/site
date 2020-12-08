@@ -23,7 +23,7 @@ Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die entspre
 
 Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter Positionen. Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden. Sehen Sie hierzu den Hilfeartikel **>>Alle Mitarbeiter / Positionen**
 
-### Standort bearbeiten
+## Standort bearbeiten
 
 Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
 
@@ -33,7 +33,7 @@ Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Si
 
 {{< /figure >}}
 
-### Standort archivieren
+## Standort archivieren
 
 Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn durch das "**Standort Archivieren"** entfernen. Alle Daten zu diesem Standort, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
@@ -69,11 +69,11 @@ Im HIlfeartikel "**Zeiterfassung**" erfahren Sie, wie Sie die **Regeln** definie
 
 Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen **Zeiterfassung ausgenommen** werden.
 
-### Abteilung bearbeiten
+## Abteilung bearbeiten
 
 Wenn Sie auf eine Abteilung klicken, öffnet diese und kann wie oben beschrieben bearbeitet werden.
 
-### Abteilung archivieren
+## Abteilung archivieren
 
 Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen, dass diese weiterhin im Dienstplan gezeigt wird, können Sie diese **archivieren**.
 
@@ -87,7 +87,7 @@ Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen,
 
 Sollten Sie eine archivierte Abteilung wiederherstellen wollen, wenden Sie sich bitte an unseren Support.
 
-### Reihenfolge der Abteilungen ändern
+## Reihenfolge der Abteilungen ändern
 
 Die Abteilungen sind in der **Reihenfolge** gelistet, in der Sie die Abteilungen beim Einrichten Ihrer Datenbank angelegt haben. In dieser Reihenfolge erscheinen sie auch im **Dienstplan**.
 
