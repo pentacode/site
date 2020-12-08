@@ -17,13 +17,21 @@ Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum spannendsten
 
 Geben Sie hier die Beraternummer (optional) Ihrer Buchhaltung und die Mandantennummer (empfehlenswert) ein, unter der Sie bei der Buchhaltung geführt werden.
 
+{{< figure caption="Optionale Angaben" >}}
+
 ![](/uploads/allgemein.png)
+
+{{< /figure >}}
 
 ### Kassenbuch
 
 Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch geführt wird.
 
+{{< figure caption="Angabe der Kontonummer für "Kasse"" >}}
+
 ![](/uploads/kassenbuch.png)
+
+{{< /figure >}}
 
 ### Lohnarten
 
