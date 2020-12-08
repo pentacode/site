@@ -33,15 +33,27 @@ Der Gesetzgeber schreibt weder die Lage der Pause noch die Dauer von Einzelpause
 
 Lediglich die Raucher - oder Mitarbeiter, die aus anderen Gründen **zusätzliche Pausen** für sich in Anspruch nehmen - loggen sich für diese zusätzlichen Pausen aus. Diese **zusätzlichen Pausen** werden dann zur gesetzlichen Pause **hinzu** addiert.
 
-Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Standard gesetzt, können von Ihnen jedoch geändert werden. Achten Sie dabei jedoch darauf, den gesetzlichen Mindestanspruch nicht zu unterschreiten.
+### Zusätzliche Pausen
 
 Über " **+ Neue Pausenregel**" können Sie zusätzliche Pausen einrichten.
 
-<<Screenshot>>
+Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Standard gesetzt, können von Ihnen jedoch geändert werden. Achten Sie dabei jedoch darauf, den gesetzlichen Mindestanspruch nicht zu unterschreiten.
+
+{{< figure caption="So können Sie zusätzliche Pausen anlegen" >}}
+
+![](/uploads/neue-pausenregel.png)
+
+{{< /figure >}}
+
+### Bezahlte Pausen
 
 Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie durch das Setzen des Buttons "**Automatische Pausen Werden Bezahlt**" und/oder "**Manuelle Pausen Werden Bezahlt**" eine Unterscheidung zwischen den Pausentypen treffen. Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewiesen, bei der Lohnabrechnung in ihrer Dauer jedoch der Arbeitszeit zugerechnet.
 
-<<Screenshot>>
+{{< figure caption="So legen Sie fest, wenn Pausenzeiten bezahlt werden sollen" >}}
+
+![](/uploads/bez-pausen.png)
+
+{{< /figure >}}
 
 Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
 
@@ -49,13 +61,21 @@ Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die R
 
 Über das Pfeilsymbol können Sie bestimmen, wieviele **Mahlzeiten** einem Mitarbeiter **automatisch hinzugebucht** werden.
 
-<<Screenshot>>Bsp.: Wenn Ihre Mitarbeiter bei Teilschicht nur eine Mahlzeit erhalten, wählen Sie "Ein Essen pro Tag", erhalten Sie mit jeder Schicht eine Mahlzeit, wählen Sie "bis zu 2 pro Tag"
+{{< figure caption="So wählen Sie die Anzahl automatisch gebuchter Mahlzeiten" >}}
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea2fc122c7d3a7e9aeb94e5/file-ucbpVv3Aeu.png)
+![](/uploads/essen-buchen.png)
+
+{{< /figure >}}
+
+Bsp.: Wenn Ihre Mitarbeiter bei Teilschicht nur eine Mahlzeit erhalten, wählen Sie "Ein Essen pro Tag", erhalten Sie mit jeder Schicht eine Mahlzeit, wählen Sie "bis zu 2 pro Tag"
+
+### Stempeluhr aktivieren
 
 Sollten Sie die Zeiterfassung in Pentacode durch die Stempeluhr durchführen, so ist der Button bei " **Zeiterfassung per Stempeluhr**" als **Standard gesetzt**.
 
-<<Screenshot>>
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+{{< /figure >}}
 
 Sollten Sie einzelne Abteilungen oder einzelne Mitarbeiter von der Zeiterfassung per Stempeluhr ausnehmen wollen, deaktivieren Sie den Button in der entsprechenden Abteilung / beim entpsrechenden Mitarbeiter dort unter "Zeiterfassung"
 
