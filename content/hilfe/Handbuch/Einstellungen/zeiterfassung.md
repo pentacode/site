@@ -7,19 +7,21 @@ anchors: []
 ---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
 
+## Einstellungen bei Zeiterfassung MIT Stempeluhr
+
 Die Regeln, die Sie hier wählen, sind **globale Einstellungen**, welche vorläufig für **alle Mitarbeiter** und für **alle Abteilungen** gelten. Einmal gewählte Regeleinstellungen können **jederzeit geändert** werden. Mit dem Befehl "**Speichern**" gilt ab sofort der neu gewählte Regelsatz.
 
 **Sie können jedoch sowohl für Abteilungen wie auch für einzelne MItarbeiter abweichende Regeln definieren!**
-
-## Einstellungen bei Zeiterfassung MIT Stempeluhr
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea2eaca2c7d3a7e9aeb9329/file-edF3uGja3i.png)
 
 ### Definition der Pausen
 
 Über das **Dropdown-Menü** bestimmen Sie, nach welchen **Regeln** die **Pausenzeiten** Ihrer Mitarbeiter berechnet werden sollen.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea2f7d304286364bc98f488/file-8yozvTindY.png)
+{{< figure caption="So können Sie die Art der Pausenerfassung bestimmen" >}}
+
+![](/uploads/pausen.png)
+
+{{< /figure >}}
 
 Der Gesetzgeber schreibt weder die Lage der Pause noch die Dauer von Einzelpausen vor. Deshalb erfasst Pentacode die **Pausen nur in Summe**.
 
@@ -51,7 +53,7 @@ Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die R
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea2fc122c7d3a7e9aeb94e5/file-ucbpVv3Aeu.png)
 
-Sollten Sie die Zeiterfassung in Pentacode durch die Stempeluhr durchführen, so ist der Button bei " **Zeiterfassung per Stempeluhr**" als **Standard gesetzt**. 
+Sollten Sie die Zeiterfassung in Pentacode durch die Stempeluhr durchführen, so ist der Button bei " **Zeiterfassung per Stempeluhr**" als **Standard gesetzt**.
 
 <<Screenshot>>
 
