@@ -17,9 +17,13 @@ Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum spannendsten
 
 Geben Sie hier die Beraternummer (optional) Ihrer Buchhaltung und die Mandantennummer (empfehlenswert) ein, unter der Sie bei der Buchhaltung geführt werden.
 
+![](/uploads/allgemein.png)
+
 ### Kassenbuch
 
 Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch geführt wird.
+
+![](/uploads/kassenbuch.png)
 
 ### Lohnarten
 
@@ -27,30 +31,38 @@ Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch gef
 
 Wenn Sie es sich so einfach wie möglich machen wollen, empfehlen wir Ihnen im ersten Schritt folgendes Vorgehen:
 
-Klicken Sie auf "+ Neuer Lohnartensatz". Es öffnet ein leeres Eingabeformular, von dem Sie am besten einen Screenshot machen und Ihrer Buchhaltung zusenden.
+Klicken Sie auf "**+ Neuer Lohnartensatz**". Es öffnet ein leeres Eingabeformular, von dem Sie am besten einen Screenshot machen und Ihrer Buchhaltung zusenden.
 
-<<Screenshot>>
+{{< figure caption="Dies ist die Liste, die Sie Ihrer Lohnbuchhaltung als Screenshot zusenden könnten" >}}
 
-Schicken Sie den Screenshot an die Buchhaltung mit der Aufforderung, die für Sie benutzten Nummern in die entsprechenden Eingabefelder einzugeben und Ihnen das ausgefüllte Formular wieder zurückzusenden.
+![](/uploads/lohnarten-stb.png)
 
-Übertragen Sie im zweiten Schritt die Nummern eins zu eins in Pentacode und speichern Sie.
+{{< /figure >}}
 
-<<Screenshot>>
+Schicken Sie den **Screenshot an die Buchhaltung** mit der Aufforderung, die für Sie benutzten Nummern in die entsprechenden Eingabefelder einzugeben und Ihnen das ausgefüllte Formular wieder zurückzusenden.
+
+**Übertragen** Sie im zweiten Schritt die Nummern eins zu eins **in Pentacode** und speichern Sie. Geben Sie dem Lohnartensatz einen eindeutigen Namen, z.B. "Festangestellte" und wählen Sie die Beschäftigungsverhältnisse ab, die für diesen Lohnartensatz nicht zutreffen. Lassen Sie sich auch hierbei von Ihrer Lohnbuchhaltung anleiten.
+
+{{< figure caption="Übertragen Sie die Lohnarten entsprechend den Angaben durch Ihre Lohnbuchhaltung und wählen Sie nicht zutreffende Beschäftigungsverhältnisse eventuell ab" >}}
+
+![](/uploads/lohnarten.png)
+
+{{< /figure >}}
 
 Das war's! Ab jetzt können Sie exportieren.
 
-Hinweis: Im Regelfall haben fast alle Mitarbeiter (unabhängig davon, ob Sie einen Stunden- oder einen Monatslohn erhalten oder Azubis sind) die gleichen Lohnarten. Sie benötigen für diese deshalb nur einen Lohnartensatz.
+**Hinweis**: Im Regelfall haben fast alle Mitarbeiter (unabhängig davon, ob Sie einen Stunden- oder einen Monatslohn erhalten oder Azubis sind) die gleichen Lohnarten. Sie benötigen für diese deshalb nur einen Lohnartensatz.
 
 Bei Aushilfen weichen die Lohnarten häufig ab. Sollte dies bei Ihnen der Fall sein, legen Sie einen weiteren Lohnartensatz an, indem Sie wieder auf "+ Neuer Lohnartensatz" klicken und die Felder entsprechend befüllen.
-
-Wählen Sie in jedem Fall durch das Entfernen der entsprechenden Buttons jene Mitarbeiter ab, für die der Lohnartensatz, den Sie gerade anlegen, nicht zutrifft.
-
-<<Screenshot>>
 
 Wie viele Lohnartensätze Sie benötigen und für welche Mitarbeiter diese gelten, kann Ihnen Ihre Buchhaltung sagen.
 
 Nach getaner Arbeit und "Speichern" klappt das Eingabefeld wieder zu. Sie sehen in der Unterzeile die Anstellungsverhältnisse, welche durch den Lohnartensatz erfasst werden.
 
-<<Screenshot>>
+{{< figure caption="So könnte das z.B. aussehen" >}}
 
-Die Zuordnung der Mitarbeiter findet beim Export automatisch durch Pentacode statt. Sie müssen hierfür nichts tun. Und Sie werden sehen: Diese Arbeit hat sich gelohnt.
+![](/uploads/lohnarten2.png)
+
+{{< /figure >}}
+
+Die Zuordnung der Mitarbeiter findet beim Export **automatisch** durch Pentacode statt. Sie müssen hierfür nichts tun. Und Sie werden sehen: Diese Arbeit hat sich gelohnt.
