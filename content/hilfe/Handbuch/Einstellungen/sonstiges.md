@@ -45,17 +45,19 @@ Die Festlegung dieser Berechnungsmethode kann nicht allgemein gültig erfolgen. 
 
 Für die Berechnung der gesetzlichen Pause sind zwei Möglichkeiten zur Verfügung gestellt:
 
-### Standard
+{{< figure caption="So legen Sie die Pausenberechnung fest" >}}
 
-<<Screenshot>>
+![](/uploads/pausenberechnung.png)
+
+{{< /figure >}}
+
+"**Standard**"
 
 In diesem Modus werden die **Pausen nach** der **Anwesenheitszeit** berechnet. Dem Mitarbeiter werden nach **mehr als 6 Stunden** Anwesenheitszeit **30 Minuten Pause** abgezogen, nach insgesamt **mehr als 9 Stunden** weitere **15 Minuten**.
 
 In diesem Fall werden einem Mitarbeiter nach 9:01 Stunden Anwesenheitszeit in Summe 45 Minuten Pause berechnet, die zu bezahlende Arbeitszeit beträgt somit 8:16 Stunden.
 
-### Iterativ
-
-<<Screenshot>>
+"**Iterativ**"
 
 In diesem Modus werden die **Pausen nach** der **Arbeitszeit** berechnet. Dem Mitarbeiter werden nach mehr als 6 Stunden 30 Minuten Pause abgezogen. Er hat somit 5,5 Stunden gearbeitet. Erst wenn er weitere mehr als 3,5 Stunden gearbeitet hat (insgesamt also mehr als 9 Stunden), werden weitere 15 Minuten Pause abgezogen.
 
@@ -63,8 +65,16 @@ In diesem Fall werden einem Mitarbeiter nach 9:31 Stunden Anwesenheitszeit in Su
 
 ## "Nachtzuschläge"
 
-<<Screenshot>>
+Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
 
-Sie können die **Zeiträume**, in denen Sie Ihren Mitarbeitern **Nachtzuschläge** zahlen, einengen. **Pentacode überprüft hierbei nicht die Zulässigkeit Ihrer Angaben!**
+Sie können die **Zeiträume**, in denen Sie Ihre Mitarbeiter **Nachtzuschläge** erhalten sollen, einengen.
 
-Beachten Sie deshalb unbedingt die **gesetzlichen Richtlinien**. Diese ermöglichen die Zahlung von bis zu 25% Zuschlag auf den Bruttolohn in der Zeit von 20:00 Uhr bis 06:00 Uhr, sowie Nachtzuschläge für die Zeit von 00:00 Uhr bis 04:00 Uhr (sofern die Arbeit vor 0:00 Uhr aufgenommen wurde).
+{{< figure caption="Hier können Sie den Zeitraum für die Berechnung von Nachtzuschlägen begrenzen" >}}
+
+![](/uploads/nachtzuschlage.png)
+
+{{< /figure >}}
+
+ Pentacode **überprüft** hierbei die Zulässigkeit Ihrer Angaben entsprechend der **gesetzlichen Richtlinien**. 
+
+Diese ermöglichen die Zahlung von bis zu 25% Zuschlag auf den Bruttolohn in der Zeit von 20:00 Uhr bis 06:00 Uhr, sowie Nachtzuschläge für die Zeit von 00:00 Uhr bis 04:00 Uhr (sofern die Arbeit vor 0:00 Uhr aufgenommen wurde).
