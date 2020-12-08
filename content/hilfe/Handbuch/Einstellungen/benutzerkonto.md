@@ -1,5 +1,5 @@
 ---
-title: Benutzerkonto & Unternehmen
+title: Benutzerkonto
 weight: 
 icon: cog
 anchors: []
