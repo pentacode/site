@@ -163,7 +163,9 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein MItarbeiter meldet sich
 
 Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **manuell** erfassen wollen, so sind die Möglichkeiten für Regeleinstellungen entsprechend verkürzt.
 
-\**![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead5c12042863474d1a073b/file-VEaNLlQKKU.png)Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
+Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
+
+![](/uploads/ohne-stempeluhr2.png)
 
 Die **Länge der Pausen** wird entsprechend der Festlegungen, die Sie getroffen haben, bereits **beim Eintrag in den Dienstplan** automatisch **errechnet**.
 
