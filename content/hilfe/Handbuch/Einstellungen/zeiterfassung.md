@@ -73,9 +73,7 @@ Bsp.: Wenn Ihre Mitarbeiter bei Teilschicht nur eine Mahlzeit erhalten, wählen 
 
 Sollten Sie die Zeiterfassung in Pentacode durch die Stempeluhr durchführen, so ist der Button bei " **Zeiterfassung per Stempeluhr**" als **Standard gesetzt**.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
-
-{{< /figure >}}
+<<>>
 
 Sollten Sie einzelne Abteilungen oder einzelne Mitarbeiter von der Zeiterfassung per Stempeluhr ausnehmen wollen, deaktivieren Sie den Button in der entsprechenden Abteilung / beim entpsrechenden Mitarbeiter dort unter "Zeiterfassung"
 
@@ -83,7 +81,11 @@ Sollten Sie einzelne Abteilungen oder einzelne Mitarbeiter von der Zeiterfassung
 
 Über das Pfeilsymbol bei " **Verfrühter Anmeldung**" wählen Sie zwischen "**Übernehme Zeit Laut Dienstplan**" und "**Übernehme Aktuelle Uhrzeit**", ob bei der Anmeldung eines Mitarbeiters am Tablet die **aktuelle Uhrzeit** geloggt oder die aktuelle Uhrzeit am **geplanten Dienstbeginn** überprüft wird.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea2ff7a04286364bc98f502/file-NT5x8AS1lE.png)
+{{< figure caption="So bestimmen Sie, ab wann Arbeitszeit beginnt" >}}
+
+![](/uploads/anmeldendp.png)
+
+{{< /figure >}}
 
 **"Übernehme Zeit laut Dienstplan"** bedeutet, dass ein Mitarbeiter sich zwar **vor dem geplanten Beginn** seiner Schicht anmelden kann, die Arbeitszeit jedoch erst **ab dem geplanten Schichtbeginn gezählt** wird. Diese Regel folgt dem Grundsatz, dass geplante Arbeitszeit eine Dienstanweisung, keine Empfehlung darstellt.
 
@@ -91,11 +93,27 @@ Wenn sich ein Mitarbeiter **verspätet** anmeldet, gilt der **Zeitpunkt des Log-
 
 **"Übernehme Aktuelle Uhrzeit"** bedeutet, dass unabhängig vom geplanten Beginn eines Arbeitstages die **Arbeitszeit ab** dem **Zeitpunkt des Log-ins** durch den Mitarbeiter gezählt wird.
 
+### Anmeldung Erlauben
+
 Über das Pfeilsymbol bei **"Anmeldung Erlauben"** bestimmen Sie, wie lange **vor** einem **geplanten Dienstbeginn** sich ein Mitarbeiter **anmelden** kann.
+
+{{< figure caption="Hier legen Sie den Zeitraum fest, der bei zu früher Anmeldung für die Berechnung der ARbeitszeit ignoriert werden soll" >}}
+
+![](/uploads/anmelden-erlauben.png)
+
+{{< /figure >}}
 
 **WICHTIG**! Wenn sich ein Mitarbeiter vor der gesetzten Frist über die Stempeluhr anmeldet (im hier gezeigten Beispiel z.B. 45 Minuten vor geplantem Dienstantritt), hat er die Möglichkeit, eine "Spontane Schicht" anzutreten. Eine spontane Schicht wird dann bei der Übersicht der Zeiterfassung mit "**??**" gekennzeichnet und kann dort bearbeitet werden.
 
+### Anmeldung Ohne Dienstplan
+
 Ist der Button bei **"Anmeldung Ohne Dienstplan"** (**3**) aktiviert, können sich auch Mitarbeiter **zur Arbeit anmelden**, die **nicht im Dienstplan** zur Arbeit eingeteilt sind. Dies ist die **empfohlene Einstellung**.
+
+{{< figure caption="So erlauben Sie den Log-in ohne Dienstplan" >}}
+
+![](/uploads/anmmelden-ohne-dp.png)
+
+{{< /figure >}}
 
 Ist der Button **nicht** aktiviert, ist ein Log-in **nur** für **Mitarbeiter** möglich, die am betreffenden Tag **im Dienstplan** eingeteilt sind.
 
@@ -103,9 +121,21 @@ Ist der Button **nicht** aktiviert, ist ein Log-in **nur** für **Mitarbeiter** 
 
 Über das Pfeilsymbols " **Bei verspäteter Abmeldung**" können Sie wählen, ob bei der **Abmeldung** eines Mitarbeiters am Tablet die **aktuelle Uhrzeit** geloggt **oder** grundsätzlich das **geplante Dienstende** auch als das **Ende des Arbeitstages** erfasst wird.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea302902c7d3a7e9aeb956f/file-vGAr85S038.png)
+{{< figure caption="So bestimmen Sie die Erfassung des Arbeitsendes" >}}
 
-Bei **"Automatische Abmeldung"** bestimmen Sie über das Pfeilsymbol den Zeitraum **ab Anmeldung** eines Mitarbeiters, zu dem der Mitarbeiter automatisch in der Zeiterfassung **abgemeldet** wird.
+![](/uploads/abmelden.png)
+
+{{< /figure >}}
+
+### Automatische Abmeldung
+
+Bei **"Automatische Abmeldung"** bestimmen Sie über den Zeitraum **ab Anmeldung** eines Mitarbeiters, zu dem der Mitarbeiter automatisch in der Zeiterfassung **abgemeldet** wird.
+
+{{< figure caption="Hier legen Sie fest, wann ein Mitarbeiter automatisch abgemeldet wird" >}}
+
+![](/uploads/automat-abmeldung.png)
+
+{{< /figure >}}
 
 Sollte ein Mitarbeiter vergessen sich auszuloggen, wird er nach Ablauf des gewählten Zeitraums **automatisch ausgeloggt**. Dadurch wird vermieden, dass die Arbeitszeit des Mitarbeiters 'unendlich' weiterläuft.
 
@@ -117,7 +147,11 @@ Das **tatsächliche Ende** des Arbeitstages muss im Hauptmenü **"Zeiterfassung"
 
 Über das Pfeilsymbol ( **6**) wählen Sie, ob die **Log-Daten** Ihrer Mitarbeiter für die An- und/oder Abmeldung **gerundet** werden sollen. Die **Rundungen** erfolgen dabei immer auf die gewählten **vollen Minuten**.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ea303542c7d3a7e9aeb957f/file-wRWUqVbVx6.png)
+{{< figure caption="Hier können Sie die Rundung der Logzeiten festlegen." >}}
+
+![](/uploads/rundung.png)
+
+{{< /figure >}}
 
 Beispiel für Anmeldung **"auf 5 Minuten Aufrunden"**: Ein Mitarbeiter meldet sich um **17:08** Uhr an, im System ist **17:10** Uhr registriert.
 
@@ -133,7 +167,7 @@ Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **man
 
 Die **Länge der Pausen** wird entsprechend der Festlegungen, die Sie getroffen haben, bereits **beim Eintrag in den Dienstplan** automatisch **errechnet**.
 
-Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die **Arbeitszeiten** manuell **Im Dienstplan** ein.
+Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die **Arbeitszeiten** manuell **im Dienstplan** ein.
 
 Im Menüpunkt "**Zeiterfassung**" sind die **geplanten** Arbeitszeiten sichtbar und **immer identisch** mit den Zeiten im **Dienstplan**. (Sehen Sie ergänzend hierzu den Hilfeartikel "Zeiterfassung - Tagesbericht" im Hauptmenü "Zeiterfassung"
 
