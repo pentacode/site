@@ -27,9 +27,11 @@ Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mi
 
 Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
 
-{{< figure caption="So können Sie einen bestehenden Standort bearbeiten" >}}
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 ![](/uploads/standort-bearbeiten.png)
+
+{{< /figure >}}
 
 ### Standort archivieren
 
