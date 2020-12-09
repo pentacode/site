@@ -11,9 +11,13 @@ Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt 
 
 ## Vertragslaufzeit
 
-<<Screenshot>>
-
 Geben Sie bei **Vertragsbeginn** das Datum ein, zu dem das Beschäftigungsverhältnis des Mitarbeiters in Ihrem Unternehmen begonnen hat.
+
+{{< figure caption="Geben SIe den Vertragsbeginn und ein evtl. bekanntes Ende ein" >}}
+
+![](/uploads/vertragsbeginn.png)
+
+{{< /figure >}}
 
 Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverhältnis endet.
 
@@ -21,13 +25,17 @@ Im Falle eines befristeten Arbeitsverhältnisses ist es empfehlenswert, das Fris
 
 **Bemerkungen** bezeichnet einen Textbereich, in den Sie **Notizen** zum Mitarbeiter hinzufügen können.
 
-Wenn Sie den Button bei "Inaktiv" setzen, bleibt der Mitarbeiter im Dienstplan sichtbar, kann jedoch nicht geplant werden. "Inaktiv" unterbricht jedoch nicht die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
+Wenn Sie den Button bei "**Inaktiv**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. "Inaktiv" unterbricht jedoch nicht die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
 
 ## Beschäftigungsverhältnis
 
 Wählen Sie die Art des Beschäftigungsverhältnisses durch Anklicken des betreffenden Feldes.
 
-<<Screenshot>>
+{{< figure caption="Das gewählte Feld wird bei Anklicken blau" >}}
+
+![](/uploads/beschaftigungsverhaltnis.png)
+
+{{< /figure >}}
 
 Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export der Daten in die Lohnbuchhaltung beziehen sich auf das gewählte Beschäftigungsverhältnis.
 
@@ -35,7 +43,11 @@ Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export
 
 Für die Berechnung der Sollarbeitszeit eines Mitarbeiters stehen Ihnen 5 unterschiedliche Modi zur Wahl.
 
-<<Screenshot>>
+{{< figure caption="So können Sie die Weise wählen, in der die Sollstunden des Mitarbeiters berechnet werden" >}}
+
+![](/uploads/sollstunden.png)
+
+{{< /figure >}}
 
 Welcher Modus für SIe im Einzelfall der möglicherweise geeignete ist, erfahren Sie unter **_Rezepte und Tipps_** im Artikel **_Sollstundenberechnung_**.
 
@@ -45,7 +57,11 @@ Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
-<<Screenshot>>
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/wofaktor2.png)
+
+{{< /figure >}}
 
 Die Soll-Arbeitszeit des Mitarbeiters errechnet sich, indem die Anzahl der Wochenstunden mit dem Faktor 4,35 multipliziert wird.
 
@@ -57,7 +73,11 @@ Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
-<<Screenshot>>
+{{< figure caption="Berechnung der Sollstunden entsprechend der Länge eines Monats" >}}
+
+![](/uploads/monatsgenau.png)
+
+{{< /figure >}}
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
