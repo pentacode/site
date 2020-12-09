@@ -9,23 +9,45 @@ Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gew�
 
 Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn **oder** nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eac36a5042863474d19fcab/file-G9RIQoNbvk.png)
-
 ## Zeiterfassung MIT Stempeluhr
 
 Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die **geplanten Arbeitszeiten** , darunter die **aktuellen Log-Zeiten**.
+
+{{< figure caption="Hier sehen Sie geplante  und tatsächlich geloggte Arbeitszeiten in einer Gegenüberstellung" >}}
+
+![](/uploads/log-in.png)
+
+{{< /figure >}}
 
 Sollte sich ein Mitarbeiter außerhalb der ovn Ihnen festgelegten "Karenz-Zeit" eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein "?".
 
 Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, die so **nicht geplant** war.
 
+{{< figure caption="Diese Arbeitsziet war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine "Spontane Schicht" angetreten" >}}
+
+![](/uploads/spontane-schicht.png)
+
+{{< /figure >}}
+
 ### Pausen & Mahlzeiten
 
-Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, sowie die **Anzahl** der **automatisch gebuchten Mahlzeiten** (sehen Sie hierzu den Hilfeartikel "Regeleinstellungen der Zeiterfassung").
+Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten** (sehen Sie hierzu den Hilfeartikel "Regeleinstellungen der Zeiterfassung").
+
+{{< figure caption="Pausen werden am Ende des Arbeitstages errechnet, Mahlzeiten mit Schichtbeginn gebucht" >}}
+
+![](/uploads/pausen-mahlzeiten.png)
+
+{{< /figure >}}
 
 ### Provision
 
-Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **> 0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld** für dessen **Umsatz**.
+Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **> 0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
+
+{{< figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat" >}}
+
+![](/uploads/provision.png)
+
+{{< /figure >}}
 
 ### Status
 
@@ -48,8 +70,6 @@ Lediglich beim Status "**verspätet**" oder "**nicht abgemeldet**" können Daten
 Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die Arbeitszeiten **manuell IM DIENSTPLAN** ein.
 
 Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächliche Arbeitszeit immer **identisch**. Es gibt deshalb auch nur den Status "**fertig**".
-
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eac3ca3042863474d19fd1b/file-PRqAvxFJ7z.png)
 
 ### Änderung von Arbeitszeiten
 
