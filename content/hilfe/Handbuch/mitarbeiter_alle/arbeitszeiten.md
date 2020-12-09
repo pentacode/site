@@ -5,7 +5,7 @@ icon: hourglass-half
 anchors: []
 
 ---
-Arbeitszeiten, der Ort, an dem sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
+Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
 
 ## Übersicht Arbeitszeiten
 
