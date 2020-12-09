@@ -13,9 +13,19 @@ Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeit
 
 Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eaec400042863474d1a0c20/file-w2a6ScByKU.png)Über das **Export**-Symbol am rechten oberen Eck wählen Sie das gewünschte **Format** aus.
+{{< figure caption="Dies ist die Gesamtansicht zu Arbeitszeiten, Zuschlägen und Lohnfortzahlung" >}}
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eaec68e2c7d3a5ea54a5d23/file-bUcjk7okd2.png)
+![](/uploads/arbeitszeiten-monat.png)
+
+{{< /figure >}}
+
+Über das **Export**-Symbol am rechten oberen Eck und den Dropdown-Pfeil wählen Sie das gewünschte **Format** aus.
+
+{{< figure caption="So wählen Sie das Druck- und Exportformat aus" >}}
+
+![](/uploads/export.png)
+
+{{< /figure >}}
 
 ## Exportformate
 
