@@ -93,4 +93,8 @@ In der Ansicht "Jahr" wird die Entwicklung der individuellen Konten aller Mitarb
 
 Die Kontenart wählen Sie, indem Sie am Kopfende auf die gewünschte Auswahl klicken.
 
-<< **Screenshot**>>
+{{< figure caption="Hier können Sie die Entwicklung der Konten aller Mitarbeiter über das gesamte Jahrn hinweg einsehen" >}}
+
+![](/uploads/jahresansicht.png)
+
+{{< /figure >}}
