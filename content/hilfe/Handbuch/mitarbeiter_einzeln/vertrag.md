@@ -137,13 +137,17 @@ Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung 
 
 ### Fehlstundenberechnung
 
-Wenn Sie "Feste Wochentage" als Berechnungsmethode gewählte haben, werden die Fehlststunden über die jeweiligen Tage ermittelt. Für die Einstellungen "WOchenfaktor" und "Monatsgenau" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub zwei Möglichkeiten zur Verfügung
+Wenn Sie "Feste Wochentage" als Berechnungsmethode gewählte haben, werden die Fehlststunden über die jeweiligen Tage ermittelt. Für die Einstellungen "**Wochenfaktor**" und "**Monatsgenau**" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub **zwei Möglichkeiten** zur Verfügung
 
 #### Feste Stundenzahl
 
 Wenn Sie "Feste Stundenzahl" wählen erscheint ein Eingabefeld, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter durchschnittlich leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
 
-<<Screenshot>>
+{{< figure caption="Berechnung der Lohnfortzahlung mit festem STundensatz" >}}
+
+![](/uploads/feste-stundenzahl.png)
+
+{{< /figure >}}
 
 Bei dieser Einstellung wird jeder Tag, an dem der Mitarbieter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
 
