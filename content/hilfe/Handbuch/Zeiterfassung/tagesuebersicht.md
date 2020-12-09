@@ -73,6 +73,8 @@ Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächlich
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
+**KANN NICHT EINFÜGEN ?!**
+
 {{< /figure >}}
 
 ### Änderung von Arbeitszeiten
@@ -81,7 +83,7 @@ Sie können die Arbeitszeiten zu **jedem Zeitpunkt ändern**. Eine **Änderung**
 
 ### Pausen
 
-Die **Pausen** werden **automatisch** nach den von Ihnen gewählten Pausenregelungen gesetzt.
+Die **Pausen** werden **automatisch** gesetzt. Als Regel für die Erfassung der Pausen muss unter "Einstellungen", dort "Zeiterfassung" "**Automatische Pause**" gesetzt sein!
 
 Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit dem ersten Eintrag gesetzte Pausenzeit jedoch **nicht** geändert. Sollte sich die Dauer des Arbeitstages soweit ändern, dass die Pausenzeit verlängert oder verkürzt wird oder ganz entfällt, ist eine entsprechende **Korrektur der Pausenzeit manuell** vorzunehmen!
 
