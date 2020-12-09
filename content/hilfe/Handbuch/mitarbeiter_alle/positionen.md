@@ -13,4 +13,8 @@ Durch das **Setzen** oder **Entfernen** von Haken über einen **linken** Maus-Kl
 
 Die Einteilung unter "**Positionen**" in den **Stammdaten** des Mitarbeiters werden entsprechend **überschrieben**.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eaeb4b82c7d3a5ea54a5cb1/file-rcOrFKwQ11.png)
+{{< figure caption="Durch Setzen und Entfernen von Haken können Sie Mitarbeiter in dieser Gesamtübersicht den Abteilungen zuweisen" >}}
+
+![](/uploads/positionen.png)
+
+{{< /figure >}}
