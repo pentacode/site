@@ -1,27 +1,23 @@
 ---
 title: Dienstplan Schreiben
-weight: 2
+weight: "2"
 icon: pencil-alt
 anchors: []
----
 
+---
 Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung, wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell** und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}} ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df2691404286364bc92cab9/file-DqfEOgIGGB.png){{< /figure >}}
-
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
-![](https://via.placeholder.com/600x400)
-{{< /figure >}}
-
-### Manuelle Eingabe
+## Manuelle Eingabe
 
 Klicken Sie beim Mitarbeiter in den Tag, den Sie planen wollen und geben den geplanten **Dienstbeginn** ein.
 
 Durch Drücken der **"Tab"**-Taste auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein. Die Eingabe eines Dienstendes ist nicht verpflichtend, Sie können dies durch nochmaliges Drücken der Tab-Taste überspringen. Allerdings geht Ihnen dadurch eventuell wertvolle Information verloren.
 
+<<Screenshot>>
+
 Pentacode bietet Ihnen die Möglichkeit, den Dienstplan gegen Stundenvorgaben zu erstellen. Die Zählung der geplanten Stunden erfordert jedoch die Eingabe des voraussichtlichen Dienstendes. Dasselbe gilt für die Kalkulation der Kosten eines Arbeitstages, die durch Pentacode im Hintergrund durchgeführt wird. Im Kapitel **_abcdefg_** erfahren Sie hierzu mehr.
 
-Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zumindest näherungsweise doch recht zutreffend angenommen werden kann. Abweichung in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
+Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zumindest näherungsweise und recht zutreffend angenommen werden kann. Abweichung in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
 
 ### Verwendung von Schichtvorlagen
 
@@ -42,6 +38,8 @@ Die Liste der Schichtvorlagen ist "unendlich". Je häufiger eine Uhrzeit im Dien
 Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
 
 **Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht mehr verwendet, verschwindet die Vorlage automatisch.
+
+### Dienstplanvorlagen
 
 ## Dienstplanung nach Zielvorgaben
 
