@@ -71,6 +71,12 @@ Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die Arbeitszeiten
 
 Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächliche Arbeitszeit immer **identisch**. Es gibt deshalb auch nur den Status "**fertig**".
 
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+**KANN NICHT EINFÜGEN**
+
+{{< /figure >}}
+
 ### Änderung von Arbeitszeiten
 
 Sie können die Arbeitszeiten zu **jedem Zeitpunkt ändern**. Eine **Änderung** in "**Zeiterfassung**" führt automatisch zur **entsprechenden Änderung** der Zeiten im "**Dienstplan**", jede Änderung im "Dienstplan" zur entsprechenden Änderung in "Zeiterfassung".
@@ -80,3 +86,9 @@ Sie können die Arbeitszeiten zu **jedem Zeitpunkt ändern**. Eine **Änderung**
 Die **Pausen** werden **automatisch** nach den von Ihnen gewählten Pausenregelungen gesetzt.
 
 Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit dem ersten Eintrag gesetzte Pausenzeit jedoch **nicht** geändert. Sollte sich die Dauer des Arbeitstages soweit ändern, dass die Pausenzeit verlängert oder verkürzt wird oder ganz entfällt, ist eine entsprechende **Korrektur der Pausenzeit manuell** vorzunehmen!
+
+{{< figure caption="Unterschreitungen der gesetzlichen Pausen werden ausgewiesen und müssen manuell korrigiert werden" >}}
+
+![](/uploads/pausenkorrektur-manuell.png)
+
+{{< /figure >}}
