@@ -73,8 +73,6 @@ Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächlich
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
-**KANN NICHT EINFÜGEN**
-
 {{< /figure >}}
 
 ### Änderung von Arbeitszeiten
