@@ -77,7 +77,15 @@ Der Gesetzgeber erlaubt, Zuschläge unabhängig von den monatlich tatsächlich g
 
 Es ist sehr unwahrscheinlich, dass die im laufenden Monat vorausgezahlten Zuschläge deckungsgleich sind mit den im Monat tatsächlich erworbenen Zuschlägen. Die monatliche Differenz zwischen Vorauszahlung und Erworben wird unter "**Diff**" gezeigt.
 
+{{< figure caption="Hier sehen Sie die Differenz zwischen monatlicher Pauschalvorauszahlung und durch tatsächliche Arbeitszeit erworbene Zuschläge" >}}
+
+![](/uploads/pausch-diff.png)
+
+{{< /figure >}}
+
 Unter Saldo werden die bis zum gezeigten Monate **aufgelaufenen Über**- oder **Unterzahlungen** ausgewiesen.
+
+Wenn Sie keine Pauschalvorauszahlungen leisten (wie im gezeigten Beispiel), entsteht das Kürzel N/A für "nicht anwendbar"
 
 ## Jahresansicht
 
