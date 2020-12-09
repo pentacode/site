@@ -92,3 +92,15 @@ Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit
 ![](/uploads/pausenkorrektur-manuell.png)
 
 {{< /figure >}}
+
+## Abteilungen filtern
+
+Wenn in IHrem Unternehmen serh viele Mitarbeiter beschäftigt sind, kann die Ansicht übersichtlicher dargestellt werden, indem Sie einzelne Abteilungen durch das Entfernen eines Button abwählen.
+
+Die gewählten Abteilungen sind dann nicht mehr sichtbar.
+
+{{< figure caption="Sie können Abteilungen durch Entfernen des Buttons ausblenden" >}}
+
+![](/uploads/abteilungen-abwahlen.png)
+
+{{< /figure >}}
