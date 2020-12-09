@@ -9,9 +9,13 @@ Die automatische Erfassung und Listung von Bar-Vorschüssen setzt voraus, dass S
 
 Ist dies der Fall, entsteht selbständig eine Listung der ausgezahlten Vorschüsse.
 
-<<Screenshot>>
+{{< figure caption="Die Vorschussliste muss zur Übermittlung an die Lohnbuchhaltung ausgedruckt werden" >}}
 
-Diese Liste kann an dieser Stelle nicht bearbeitet werden. Korrekturen können nur in der Tagesabrechnung und im Kassenbuch durchgeführt werden.
+![](/uploads/vorschusse.png)
+
+{{< /figure >}}
+
+Diese Lite kann an dieser Stelle nicht bearbeitet werden. Korrekturen können nur in der Tagesabrechnung und im Kassenbuch durchgeführt werden.
 
 Jede Veränderung wird in der Vorschussliste entsprechend wiedergespiegelt. Dies geschieht automatisch.
 
