@@ -29,7 +29,9 @@ Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 
 ## Exportformate
 
-Der Begriff "Exportieren" bezeichnet sowohl Druckbefehle wie auch Download-Dateien für die Übermittlung von Formaten, die geeignet sind, in Buchhaltungssysteme importiert zu werden.
+Der Begriff "Exportieren" bezeichnet sowohl **Druckbefehle** wie auch **Download-Dateien** für die Übermittlung von Formaten, die geeignet sind, in Buchhaltungssysteme importiert zu werden.
+
+Ausdrucke, die Sie an dieser Stelle vornehmen, sind **Reihenausdrucke**. Es werden somit **alle Mitarbeiter** "in einem Schwung" ausgedruckt.
 
 ### "Arbeitszeiten Nachweis"
 
@@ -37,7 +39,9 @@ Diese Formular ist für den **Ausdruck** und Ihre **Archvierung** für den Fall 
 
 ### "Lohnabrechnung Individuell"
 
-Wenn Sie "**Lohnabrechnung Individuell**" wählen, können Sie die **einzelnen** Monatsarbeitszeitkonten **aller** Mitarbeiter **ausdrucken**.
+Die "**Lohnabrechnung Individuell**" entspricht dem "Arbreitszeiten Nachweis", ist jedoch deutlich detaillierter und weist neben den Arbeitszeiten auch die Zuschlagszeiten und alle entsprechenden Lohnsummen aus.
+
+Wenn Sie einem Prüfer die Prüfung leicht machen wollen (wofür im Übrigen sehr vieles spricht), sollten Sie ihm zumindest zur Stichproben-Kontrolle einzelne "Lohnabrechnungen individuell" aushändigen.
 
 ### "Lohnabrechnung Übersicht"
 
@@ -53,13 +57,21 @@ Bei diesen Formaten handelt es sich um **Exportdateien** für Ihre Lohnbuchhaltu
 
 Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet und klicken Sie auf "**Exportieren**". Diese Datei ist nun im Ordner "**Downloads**" auf Ihrem Rechner abgelegt.
 
-<<Screenshot>>
+{{< figure caption="Öffnen Sie nach dem Export den Download-Ordner Ihres PCs" >}}
+
+![](/uploads/download.png)
+
+{{< /figure >}}
 
 Öffnen Sie dann Ihr Email-Programm und adressieren Sie eine Email an die Buchhaltung.
 
 Öffnen Sie dann den Ordner "Downloads" und ziehen Sie per "Drag & Drop" den Ordner in die Email.
 
-<<Screenshot>>
+{{< figure caption="Ziehen Sie per Drag & Drop die Exportdatei in Ihre Email" >}}
+
+![](/uploads/export-versand.png)
+
+{{< /figure >}}
 
 Versenden Sie die Email. Das war's auch schon für Sie.
 
