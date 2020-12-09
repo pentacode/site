@@ -7,7 +7,7 @@ anchors: []
 ---
 Um Ihnen einen schnellen Überblick über die Konten aller Mitarbeiter zu ermöglichen, werden diese in einer Gesamtübersicht dargestellt.
 
-Die Gesamtansichten ist nicht "editierbar", können an dieser Stelle also nicht bearbeitet werden. Wenn Sie die Daten eines Mitarbeiters korrigieren wollen, klicken Sie bitte auf den Namen des Mitarbeiters und landen automatisch in dessen Konto. Dort können Sie die Korrekturen vornehmen.
+Die Gesamtansichten ist nicht "editierbar", können an dieser Stelle also nicht bearbeitet werden. Wenn Sie die Daten eines Mitarbeiters korrigieren wollen, klicken Sie bitte auf den Namen des Mitarbeiters. Sie landen automatisch in dessen Konto. Dort können Sie die Korrekturen vornehmen.
 
 ## Monatsansicht
 
