@@ -29,7 +29,7 @@ Sollten Sie **mehrere Tablets** in Ihrem Betrieb verwenden, so können Sie durch
 
 ### Anzeige des Dienstplans
 
-In den "**Regeleinstellungen der Zeiterfassung**" bestimmen Sei weiterhin, ob Mitarbeiter den **Dienstplan** der laufenden Woche am Tablet **einsehen** können.
+In den "**Regeleinstellungen der Zeiterfassung**" bestimmen Sie weiterhin, ob Mitarbeiter den **Dienstplan** der laufenden Woche am Tablet **einsehen** können.
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eafde692c7d3a5ea54a635b/file-jUBk5QsBXy.png)
 
