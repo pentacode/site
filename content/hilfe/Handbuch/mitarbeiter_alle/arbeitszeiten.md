@@ -59,7 +59,7 @@ Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltun
 
 {{< figure caption="Öffnen Sie nach dem Export den Download-Ordner Ihres PCs" >}}
 
-![](/uploads/download.png)
+![](/uploads/downl.png)
 
 {{< /figure >}}
 
