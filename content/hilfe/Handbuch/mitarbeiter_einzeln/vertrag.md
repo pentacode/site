@@ -57,25 +57,25 @@ Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Berechnung der Sollstunden mit Faktor 4,35" >}}
 
 ![](/uploads/wofaktor2.png)
 
 {{< /figure >}}
 
-Die Soll-Arbeitszeit des Mitarbeiters errechnet sich, indem die Anzahl der Wochenstunden mit dem Faktor 4,35 multipliziert wird.
+Die Soll-Arbeitszeit des Mitarbeiters errechnet Pentacode automatisch. Die Anzahl der Wochenstunden wird mit dem Faktor 4,35 multipliziert .
 
-Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden Woche beträgt somit 40 x 4,35 = 174 Stunden pro Monat.
+Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden Woche beträgt somit 40 x 4,35 = 174 Stunden pro Monat. Diese Stundenanzahl gilt gleichbleibend für jeden Monat.
 
 ### Monatsgenau
 
-Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
+Bei der Wahl "Monatsgenau" erscheint das Eingabefeld Wochenstunden.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
 {{< figure caption="Berechnung der Sollstunden entsprechend der Länge eines Monats" >}}
 
-![](/uploads/monatsgenau.png)
+![](/uploads/monatsgenau2.png)
 
 {{< /figure >}}
 
@@ -89,15 +89,19 @@ Eingabe und  Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Monatsgena
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
-Pentacode kennt die gesetzlichen Feiertage des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende FIliale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher Feiertag auf einen Wochentag, so wird die monatliche Soll-Arbetiszeit um den Feiertag gekürzt.
+Pentacode kennt die gesetzlichen Feiertage des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende FIliale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher Feiertag auf einen Wochentag, so wird die monatliche Soll-Arbeitszeit um den Feiertag gekürzt.
 
 ### Feste Wochentage
 
-Bei der Wahl "Feste Wochentage" erscheint ein Eingabefeld der sieben Wochentage.
+Bei der Wahl "**Feste Wochentage**" erscheint ein Eingabefeld der sieben Wochentage.
 
-Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen arbeiten soll. Diese Auswahl ist im Besonderen zu empfehlen, wenn ein Mitarbeiter feste Arbeitstage hat und diese in ihrer Länge auch noch voneinander abweichen. Dies trifft häufig für Mitarbeiter in der Verwaltung zu, bei denen z.B. der Freitag ein verkürzter Arbeitstag ist.
+Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen arbeiten soll. Diese Auswahl ist im Besonderen zu empfehlen, wenn ein Mitarbeiter **feste Arbeitstage** hat und diese in ihrer Länge auch noch voneinander abweichen. Dies trifft häufig für Mitarbeiter in der Verwaltung zu, bei denen z.B. der Freitag ein verkürzter Arbeitstag ist.
 
-<<Screenshot>>
+{{< figure caption="Sollstundenberechnung nach Arbeitstagen" >}}
+
+![](/uploads/feste-wotage.png)
+
+{{< /figure >}}
 
 Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in einem Monat auftritt.
 
@@ -121,7 +125,11 @@ Dieses  Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führun
 
 Setzen Sie in diesem Fall den Button bei "Jahresarbeitszeitkonto Vereinbart".
 
-<<Screenshot>>
+{{< figure caption="Hier bestätitgen SIe die Vereinbarung eines Jahresarbeitszeitkontos" >}}
+
+![](/uploads/jaz-vereinbart.png)
+
+{{< /figure >}}
 
 Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 
@@ -129,7 +137,7 @@ Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung 
 
 ### Fehlstundenberechnung
 
-Für dei Berechnung von Fehlzeiten bei Krank und Urlaub stehen IHnen zwei Möglichkeiten zur Verfügung
+Wenn Sie "Feste Wochentage" als Berechnungsmethode gewählte haben, werden die Fehlststunden über die jeweiligen Tage ermittelt. Für die Einstellungen "WOchenfaktor" und "Monatsgenau" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub zwei Möglichkeiten zur Verfügung
 
 #### Feste Stundenzahl
 
