@@ -9,9 +9,13 @@ Unter Positionen finden Sie die **Abteilungen** wieder, die Sie unter "Einstellu
 
 Hier weisen Sie den Mitarbeiter einer oder mehreren Abteilungen zu, in denen dieser tätig ist.
 
->>Screenshot<<
-
 Aktivieren Sie hierzu einfach die entsprechenden Buttons.
+
+{{< figure caption="Hier wählen Sie aus, in welchen Abteilungen der Mitarbeiter im Dienstplan erscheint" >}}
+
+![](/uploads/positionen2.png)
+
+{{< /figure >}}
 
 Der Mitarbieter erscheint im **Dienstplan** nun in den von Ihnen ausgewählten Abteilungen und kann in diesen Abteilungen **geplant** werden.
 
