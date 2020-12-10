@@ -119,11 +119,11 @@ Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden
 
 Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
-In diesem Fall erhalten Sie in Pentacode eine Problemmeldung.
+In diesem Fall erhalten Sie in Pentacode eine _Problemmeldung_.
 
-Dieses  Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines Jahresarbeitszeitkontos vereinbaren.
+Dieses  Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos** vereinbaren.
 
-Setzen Sie in diesem Fall den Button bei "Jahresarbeitszeitkonto Vereinbart".
+Setzen Sie in diesem Fall den Button bei "**Jahresarbeitszeitkonto Vereinbart**".
 
 {{< figure caption="Hier bestätitgen SIe die Vereinbarung eines Jahresarbeitszeitkontos" >}}
 
@@ -141,9 +141,9 @@ Wenn Sie "Feste Wochentage" als Berechnungsmethode gewählte haben, werden die F
 
 #### Feste Stundenzahl
 
-Wenn Sie "Feste Stundenzahl" wählen erscheint ein Eingabefeld, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter durchschnittlich leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
+Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein Eingabefeld, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
 
-{{< figure caption="Berechnung der Lohnfortzahlung mit festem STundensatz" >}}
+{{< figure caption="Berechnung der Lohnfortzahlung mit festem Stundensatz" >}}
 
 ![](/uploads/feste-stundenzahl.png)
 
@@ -155,7 +155,11 @@ Bei dieser Einstellung wird jeder Tag, an dem der Mitarbieter als Krank oder in 
 
 Bei dieser Einstellung errechnet Pentacode den Wert eines Urlaub- oder Kranktages an der Arbeitszeit, die der Mitarbeiter im Durchschnitt der letzten 13 Wochen gearbeitet hat.
 
-<<Screenshot>>
+{{< figure caption="Berechnung der Sollstunden im 13-Wochenschnitt" >}}
+
+![](/uploads/13-wochen.png)
+
+{{< /figure >}}
 
 Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden sie auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
 
