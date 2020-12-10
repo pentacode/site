@@ -5,12 +5,12 @@ icon: ''
 anchors: []
 
 ---
-Zwingende Angaben in den Stammdaten eines Mitarbeiters sind Vorname und Nachname. Für den Fall, dass Sie mit der elektronischen Zeiterfassung von Pentacode arbeiten, ist die Eingabe einer vier-stelligen PIN-Nummer erforderlich.
+In den Stammdaten werden die persönlichen Angaben zum MItarbeiter erfasst.
 
->>Screenshot<<
+Zwingende Angaben eines Mitarbeiters sind Vorname und Nachname. 
 
-Für die Vergabe einer PIN-Nummer können Sie eine beliebige vier-stellige Zahl wählen.
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
-Oder Sie klicken so oft auf den rechtsgedrehten Pfeil, bis Sie eine Zahlenfolge erhalten, die leicht zu merken ist.
+![](/uploads/stammdaten.png)
 
-Händigen Sie den PIN ausschließlich an den jeweiligen Mitarbeiter aus.
+{{< /figure >}}
