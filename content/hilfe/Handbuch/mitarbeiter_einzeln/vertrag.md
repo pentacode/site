@@ -177,19 +177,37 @@ Geben Sie unter **"Alle Arbeitsbereiche"** das Standardgehalt des Mitarbeiters e
 
 Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **Stunden**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monat**.
 
+{{< figure caption="Hier geben Sie den Lohn ein und legen fest, ob es sich um einen Stunden- oder Monatslohn handelt" >}}
+
+![](/uploads/gehalt.png)
+
+{{< /figure >}}
+
 ### Provision
 
-Wenn ein Mitarbeiter Umsatzprovision erhält, geben Sie unter Provision den Prozentsatz ein. Voraussetzung für die Berechnung der Provision ist die Erfassung des individuellen Umsatzes im Hauptmenüpunkt "Zeiterfassung".
+Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "Zeiterfassung".
+
+{{< figure caption="Wenn Sie hier einen Wert >0 einsetzen, erscheint in der Tagesübersicht "Zeiterfassung" bei diesem Mitarbeiter ein Eingabefeld für die Erfassung des Umsatzes" >}}
+
+![](/uploads/provision2.png)
+
+{{< /figure >}}
 
 Wenn sich die Provision auf den Netto-Umsatz bezieht, ist dort der Netto-Umsatz des Mitarbeiters einzugeben. Bezieht sie sich auf den Brutto-Umsatz, entsprechend der Brutto-Umsatz.
 
 ### Lohnartensatz
 
-Über den Lohnartensatz wird der Export der Daten in die Lohnbuchhaltung organisiert.
+Über den Lohnartensatz wird der **Export** der Daten in die Lohnbuchhaltung organisiert.
 
 Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "Buchhaltung angelegt haben.
 
-In der Standardeinstellung von Pentacode finden Sie den Lohnartensatz "\[Nichts Gewählt\]". Wir empfehlen Ihnen, diesen beizubehalten. Der Lohnartensatz, den Pentacode für den Export wählt, orientiert sich damit immer am Beschäftigungsverhältnis des Mitarbeiters.
+{{< figure caption="Selbst wenn ein Mitarbeiter in mehreren Abteilungen arbeitet, jedoch überall denselben Lohn erhält, wählen Sie am besten \[Nichts Gewählt\]" >}}
+
+![](/uploads/lohnarten-1.png)
+
+{{< /figure >}}
+
+In der Standardeinstellung von Pentacode finden Sie den Lohnartensatz "\[Nichts Gewählt\]". Wir empfehlen Ihnen, diesen beizubehalten. Der **Lohnartensatz**, den Pentacode für den Export wählt, orientiert sich damit immer am **Beschäftigungsverhältnis** des Mitarbeiters.
 
 Dies bededutet: Wechselt ein Mitarbeiter z.B. von "Aushilfe/Mini-Jobber" auf "Vollzeit/Teilzeit", wechselt Pentacode auch automatisch den Lohnartensatz. Wenn sie einen bestimmten Lohnartensatz gewählt, muss für den Export der Lohnartensatz manuell entsprechend korrigiert werden.
 
@@ -198,6 +216,12 @@ Dies bededutet: Wechselt ein Mitarbeiter z.B. von "Aushilfe/Mini-Jobber" auf "Vo
 Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen arbeiten bei unterschiedlichen Löhnen arbeiten, kann dies in Pentacode automatisch berücksichtigt werden.
 
 Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zuweisen. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
+
+{{< figure caption="So können bei einem MItarbeiter unterschiedliche Löhne erfasst werden" >}}
+
+![](/uploads/gehalt-hinzufugen.png)
+
+{{< /figure >}}
 
 **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
