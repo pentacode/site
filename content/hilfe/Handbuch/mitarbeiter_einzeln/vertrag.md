@@ -229,13 +229,17 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 
 Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
 
-Wenn Sie auf das **+** klicken, öffnet ein Eingabefeld, in das Sie Art und Höhe der einzelnen Zusatzleistungen eingeben.
+Wenn Sie auf das "**+ Zusatzleistung hinzufügen**" klicken, öffnet ein Eingabefeld, in das Sie Art und Höhe der einzelnen Zusatzleistungen eingeben.
 
-<<Screenshot>>
+{{< figure caption="Zusatzleistungen, die Sie hier eingeben, werden bei der Vorausberechnung Ihrer Lohnkosten berücksichtigt" >}}
+
+![](/uploads/zusatzleistungen.png)
+
+{{< /figure >}}
 
 Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht** berücksichtigt. Sie sind als feste Werte ohnehin im jeweiligen Buchhaltungssystem hinterlegt.
 
-Pentacode ermittelt jedoch die Lohnkosten , um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben.  Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
+Pentacode ermittelt jedoch die Lohnkosten, um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben.  Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
 
 Bitte beachten Sie, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
 
@@ -243,9 +247,13 @@ Bitte beachten Sie, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch 
 
 Geben Sie bei "Urlaubsanspruch (pro Jahr)" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter vereinbart sind.
 
-<<Screenshot>>
-
 Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben berechnet werden.
+
+{{< figure caption="So wählen Sie, wie der Urlaub des Mitarbeiters berechnet werden soll" >}}
+
+![](/uploads/urlaub2.png)
+
+{{< /figure >}}
 
 Wenn Sie bei Urlaubszuwachs "Nach Arbeitsstunden" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
 
@@ -259,11 +267,21 @@ Wenn Sie einem Mitarbeiter Zuschläge zahlen, legen Sie die Höhe der Zuschläge
 
 Sie können die Zuschläge individuell nach unten anpassen.
 
-<<Screeenshot>>
+{{< figure caption="Sie können SFN-Zuschläge bei jedem Mitarbieter individuell festlegen" >}}
+
+![](/uploads/zuschlage2.png)
+
+{{< /figure >}}
 
 ### Zuschläge kumulieren
 
-In der Standardeinstellung von Pentacode werden Sonn- und Feiertagszuschläge mit den Nachtzuschlägen kumuliert. Dies heißt, dass der Mitarbeiter an Sonn- und Feiertagen auch Nachtzuschläge erhält.
+In der **Standardeinstellung** von Pentacode werden Sonn- und Feiertagszuschläge mit den Nachtzuschlägen **kumuliert**. Dies heißt, dass der Mitarbeiter an Sonn- und Feiertagen auch Nachtzuschläge erhält.
+
+{{< figure caption="Wenn Zuschläge **nicht** kumuliert werden sollen, muss der Button **abgewählt** werden" >}}
+
+![](/uploads/kumulieren2.png)
+
+{{< /figure >}}
 
 Sollte dies **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In diesem Fall werden dem Mitarbeiter an einem Sonn- oder Feiertag die **Sonn- und Feiertagszuschläge** hinzugerechnet, **nicht** jedoch die **Nachtzuschläge**.
 
@@ -271,7 +289,11 @@ Sollte dies **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In di
 
 Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im Eingabefeld, dass dann erscheint die Höhe der monatlichen Pauschalvorauszahlung ein.
 
-<<Screenshot>>
+{{< figure caption="So können pauschale Vorauszahlungen von SFN-Zuschlägen in Pentacode erfasst und zur Kontrolle saldiert werden" >}}
+
+![](/uploads/sfn-pauschale.png)
+
+{{< /figure >}}
 
 Im Konto "SFN-Zuschläge" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
