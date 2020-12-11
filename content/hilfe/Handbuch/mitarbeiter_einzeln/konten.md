@@ -9,13 +9,15 @@ Im Menüpunkt "**Konten**" finden Sie das **Jahresarbeitszeit**- **Urlaubs**- un
 
 Zum **Jahreswechsel** findet automatisch ein _Übertrag_ der saldierten Werte statt. Die Weiterrechnung erfolgt auf Grundlage des Übertrags.
 
-Bei einem **Mouse-over** über die Zeile "Übertrag" erscheint am linken Rand ein **Stift**-Symbol. Durch Anklicken dieses Symbols können sie einen automatisch übertragenen Wert bearbeiten.
-
-<< Screenshot>>
-
 ## Stunden
 
-In diesem Konto werden die **Soll-Zeiten**, die ein Mitarbeiter Ihren Einstellungen entsprechend arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden** ausgewiesen.
+In diesem Konto werden die **Soll-Zeiten**, die ein Mitarbeiter  arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden** ausgewiesen.
+
+{{< figure caption="Hier sehen Sie die Entwicklung des Jahresarbeitszeitkontos eines Mitarbeiters" >}}
+
+![](/uploads/konto-az.png)
+
+{{< /figure >}}
 
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die jeweils **aufgelaufenen und geloggten** Arbeitszeiten ausweist. Lediglich **geplante** Arbeitszeiten werden in dieser Übersicht **nicht** berücksichtigt.
 
@@ -25,6 +27,12 @@ Da das Arbeitskonto weder geplante noch in der Zukunft zu leistende Arbeitszeite
 
 In diesem Konto werden die **erworbenen** Urlaubsansprüche den **genommenen** Urlaubstagen **gegenübergestellt** und Über- oder Unterschreitungen ausgewiesen.
 
+{{< figure caption="Hier sehen Sie die Entwicklung des Urlaubskontos eines Mitarbeiters" >}}
+
+![](/uploads/konto-urlaub.png)
+
+{{< /figure >}}
+
 In den **ersten sechs Monaten** des Jahres wird der **Urlaubsanspruch** nur bis zum jeweils **aktuellen Monat** dargestellt.
 
 Da einem Mitarbeiter ab dem 1. 07. eines Jahres auch im Falle einer Kündigung vor Jahresende grundsätzlich der gesamte Jahresurlaub zusteht (Voraussetzung: er ist seit mehr als 6 Monaten im Unternehmen beschäftigt), werden **ab Erreichen des 1.07.** die zukünftigen **Urlaubsansprüche bis zum Jahresende** dargestellt.
@@ -33,7 +41,13 @@ Da einem Mitarbeiter ab dem 1. 07. eines Jahres auch im Falle einer Kündigung v
 
 Konto **"SFN-Zuschläge"** weist die Summe der monatlichen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit des Mitarbeiters aus.
 
-In der Spalte "B.Frei" werden die beitragsfreien Zuschläge erfasst, in der Spalte "(B.pfl.) jene Zuschläge, die durch Krank oder Urlaub beitragspflichtig abgerechnet werden müssen.
+In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "(**B.pfl.)** jene Zuschläge, die durch Krank oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
+
+{{< figure caption="Hier sehen Sie die Zuschläge, die ein Mitarbeiter erhalten hat, getrennt dargestellt als beitragsfreie und beitragspflichtige Zuschläge" >}}
+
+![](/uploads/konto-zuschlage.png)
+
+{{< /figure >}}
 
 Sollte der Mitarbeiter **Zuschläge** unterjährig als **pauschale Vorauszahlung** erhalten, werden diese unter **"Pausch."** gelistet.
 
