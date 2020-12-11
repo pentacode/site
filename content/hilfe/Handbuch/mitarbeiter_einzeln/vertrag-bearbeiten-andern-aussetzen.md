@@ -107,4 +107,12 @@ Gehen Sie nun durch die einzelnen Menüpunkte und passen Sie diese eventuell an.
 
 Wenn Sie schließlich auf Vertrag klicken, öffnet der Vertrag, der zuletzt Gültigkeit hatte.
 
-Gehen Sie einfach auf "Neuer Vertrag" und legen Sie diesen an. Das war's.
+Gehen Sie einfach auf "Neuer Vertrag" und legen Sie diesen an. 
+
+{{< figure caption="Legen Sie einen neuen Vertrag an" >}}
+
+![](/uploads/erneut-einstellen3.png)
+
+{{< /figure >}}
+
+Das war's. Der Mitarbeiter istnun wieder ein Angestellter Ihres Unternehmens.
