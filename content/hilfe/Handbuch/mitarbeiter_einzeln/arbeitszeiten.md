@@ -137,15 +137,27 @@ Wenn Sie Urlaub hinzubuchen, erscheint dieser Button nicht.
 
 Durch das Anklicken des **Drucksymbols** am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
 
-<<Screenshot>>
+{{< figure caption="Sie können das Arbeitszeitkonto eines Mitarbeiters in zwei unterschiedlichen Formaten ausdrucken" >}}
+
+![](/uploads/az-konto-ausdrucken.png)
+
+{{< /figure >}}
 
 ### Arbeitszeiten Nachweis
 
 Der "Arbeitszeiten Nachweis" listet die täglichen Arbeitszeiten mit ihrem jeweiligen Anfang und Ende, den Ruhepausen und die Dauer des Arbeitstages.
 
-<<Screenshot>>
+Am rechten oberen Rand finden Sie die **Soll- und Ist-Arbeitszeiten** des Monats einander gegnübergestellt und die **Differenz** ausgewiesen
 
-In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**" die Anzahl der **bezahlten Stunden**. Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezahlten Stunden unter "**BEZ**" hinzu addiert.
+In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**" die Anzahl der **bezahlten Stunden**.
+
+{{< figure caption="Arbeitszeiten "AZ" und bezahlte Zeiten "Bez" sind in diesem Beispiel identisch, da Pausen **nicht** bezahlt werden" >}}
+
+![](/uploads/arbeitszeiten-nachweis.png)
+
+{{< /figure >}}
+
+Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezahlten Stunden unter "**BEZ**" hinzu addiert.
 
 Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
 
@@ -155,7 +167,11 @@ Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die j
 
 Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden, sowie die Anzahl eventueller Mahlzeiten aus.
 
-<<Screenshot>>
+{{< figure caption="Die Lohnabrechnung entspricht dem "Arbeitszeiten Nachweis", ist jedoch wesentlich detaillierter" >}}
+
+![](/uploads/lohnabrechnung.png)
+
+{{< /figure >}}
 
 Am Fußende sehen Sie die **Zusammenfassung** nach Stunden und die daraus resultierenden jeweiligen **Euro**-Beträge. Die Lohnangaben beziehen sich dabei auf das **Arbeitgeber-Brutto**.
 
