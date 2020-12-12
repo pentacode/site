@@ -152,11 +152,3 @@ Während er den Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortsc
 {{< /figure >}}
 
 **Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
-
-**Kurzer Exkurs**
-
-Der "Charme" dieser Art der Planung liegt darin, dass ein Dienstplaner Anhaltspunkte hat, an denen er sich orientieren kann und damit die Wirkung seiner Planung sieht.
-
-Die Zählung der geplanten Stunden erfordert jedoch die Eingabe des voraussichtlichen Dienstendes. Dasselbe gilt für die Kalkulation der Kosten eines Arbeitstages, die durch Pentacode im Hintergrund durchgeführt wird. Im Kapitel **_abcdefg_** erfahren Sie hierzu mehr.
-
-Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zwar nur näherungsweise, dabei aber überraschend zutreffend angenommen werden kann. Abweichung in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
