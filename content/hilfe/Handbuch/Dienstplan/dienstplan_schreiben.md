@@ -95,21 +95,33 @@ Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"*
 
 ### Dienstplanvorlagen
 
-Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
+Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** und auch **Abteilungs-übergreifend** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
 
 **Schreiben** Sie hierzu einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol**.
 
-<<Screenshot>>
-
 **Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen und geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung**.
+
+{{< figure caption="Vorlagen können auch Abteilungs-übergreifend erstellt werden" >}}
+
+![](/uploads/dienstplanvorlagen.png)
+
+{{< /figure >}}
 
 Mit dem Befehl **"Speichern"** erscheint die **neue Vorlage** in der Liste Ihrer Dienstplanvorlagen.
 
-<<Screenshot>>
+{{< figure caption="Hier finden Sie Ihre Dienstplanvorlagen" >}}
+
+![](/uploads/vorlage.png)
+
+{{< /figure >}}
 
 Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das **Papierkorb-Symbol** klicken.
 
-<<Screenshot>>
+{{< figure caption="Dienstplanvorlagen können jederzeit geläscht werden" >}}
+
+![](/uploads/vorlage-loschen.png)
+
+{{< /figure >}}
 
 Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die Vorlage wird automatisch in die richtige Abteilung geschrieben.
 
