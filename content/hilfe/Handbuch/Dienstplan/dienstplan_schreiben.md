@@ -127,6 +127,18 @@ Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die V
 
 ### Eingaben löschen
 
+{{< figure caption="Sie können ein Eingabe löschen, indem Sie das "x" anklicken." >}}
+
+![](/uploads/eingabe-loschen.png)
+
+{{< /figure >}}
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/dp-vorlage-loschen.png)
+
+{{< /figure >}}
+
 ## Dienstplanung mit Stundenvorgaben
 
 In Pentacode können Sie einem Dienstplaner für jede Abteilung und wochtagsabhängig ein Stundenkontingent vorgeben, an dem er sich zu orientieren hat.
