@@ -145,7 +145,11 @@ In Pentacode können Sie einem Dienstplaner für jede Abteilung und wochtagsabh�
 
 Während er den Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
-<<Screenshot>>
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/stundenvorgaben.png)
+
+{{< /figure >}}
 
 **Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
