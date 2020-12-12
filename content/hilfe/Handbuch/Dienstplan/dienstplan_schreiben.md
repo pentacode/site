@@ -55,38 +55,22 @@ Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auc
 
 Mit dem Befehl **"Speichern"** erscheint die **neue Vorlage** in der Liste Ihrer Dienstplanvorlagen.
 
+<<Screenshot>>
+
 Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das **Papierkorb-Symbol** klicken.
-
-Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die Vorlage wird automatisch in die richtige Abteilung geschrieben.
-
-## Dienstplanung nach Zielvorgaben
-
-Pentacode gibt IHnen die Möglichkeit, Ihre Dienstpläne nach Zielen zu gestalten, die Sie vorgeben.
-
-Ihre Zielvorgabe kann die Anzahl der Stunden sein, die für eine gewählte Abteilung vorgegeben werden oder sich am Umsatz orientieren, den Sie wochentagabhängig für die geplante Woche erwarten.
-
-### Dienstplanung mit Stundenvorgaben
-
-Sie können den Dienstplan **gegen Ziele** gestalten, die Sie selbständig definieren. Aus Gründen der Diskretion geben Sie hierzu **keine Gehaltsangaben** preis, sondern geben die **Anzahl der Stunden** vor, an der sich die Dienstplanung orientieren soll.
-
- Wenn der Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
-
-**Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
 <<Screenshot>>
 
-## Plan-Ist-Vergleich
+Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die Vorlage wird automatisch in die richtige Abteilung geschrieben.
 
-Durch den Plan-Ist-Vergleich können Sie tag-genau kontrollieren, ob Ihre Vorgaben eingehalten wurden und ob die Wirklichkeit Ihrer Planung und Ihren Erwartungen entsprochen hat.
+## Dienstplanung mit Stundenvorgaben
 
-Durch das Anklicken des **Diagrammsymbols (1)** erscheinen am Fuß des Dienstplans **zwei Linien**, über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
+In Pentacode können Sie einem Dienstplaner für jede Abteilung und wochtagsabhängig ein Stundenkontingent vorgeben, an dem er sich zu orientieren hat.
 
-Sollten sich die **Felder** mit Angabe der €-Beträge **überlappen**, werden die jeweiligen Beträge durch "**Mouse-over**" sichtbar.
+Während er den Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12dd8804286306f8070bca/file-KBpRJL0adY.png)
+<<Screenshot>>
 
-In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" gezeigt. Über das **Dropdown-Menü** **(2)** können Sie **einzelne Abteilungen** auswählen.
+**Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
-Durch **erneutes Anklicken** des Diagrammsymbols (1) wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
-
-Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch Stempeluhr voraus.
+Der "Charme" dieser Art der Planung liegt darin, dass ein Dienstplaner Anhaltspunkte hat, an denen er sich orientieren kann und damit die Wirkung seiner Planung sieht.
