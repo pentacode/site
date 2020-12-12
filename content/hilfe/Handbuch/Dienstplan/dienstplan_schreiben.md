@@ -133,7 +133,7 @@ Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die V
 
 {{< /figure >}}
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="So können Sie den gesamten Dienstplan löschen" >}}
 
 ![](/uploads/dp-vorlage-loschen.png)
 
