@@ -29,6 +29,8 @@ Fahren Sie mit dem Cursor auf eine gewünschte **Vorlage**, klicken Sie mit der 
 
 Für die Vorfälle **Krank**, **Urlaub**, **Guttag** und **Wunschfrei** sind Vorlagen standardmäßig **vorgegeben**.
 
+<<Screenshot>>
+
 #### Schichtvorlagen (3)
 
 Eine Schichtvorlage **entsteht automatisch** mit der Eingabe einer Uhrzeit im Dienstplan.
@@ -37,9 +39,25 @@ Die Liste der Schichtvorlagen ist "unendlich". Je häufiger eine Uhrzeit im Dien
 
 Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
 
+<<Screenshot>>
+
 **Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht mehr verwendet, verschwindet die Vorlage automatisch.
 
 ### Dienstplanvorlagen
+
+Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
+
+**Schreiben** Sie hierzu einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol**.
+
+<<Screenshot>>
+
+**Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen und geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung**.
+
+Mit dem Befehl **"Speichern"** erscheint die **neue Vorlage** in der Liste Ihrer Dienstplanvorlagen.
+
+Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das **Papierkorb-Symbol** klicken.
+
+Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die Vorlage wird automatisch in die richtige Abteilung geschrieben.
 
 ## Dienstplanung nach Zielvorgaben
 
@@ -51,39 +69,11 @@ Ihre Zielvorgabe kann die Anzahl der Stunden sein, die für eine gewählte Abtei
 
 Sie können den Dienstplan **gegen Ziele** gestalten, die Sie selbständig definieren. Aus Gründen der Diskretion geben Sie hierzu **keine Gehaltsangaben** preis, sondern geben die **Anzahl der Stunden** vor, an der sich die Dienstplanung orientieren soll.
 
-Wenn Sie auf das **Diagrammsymbol (1)** klicken, erscheint am **Fuß des Dienstplans** die Anzeige "**Planungsziele Definieren**" **(2)**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fab92c7d3a10cbaaeebd/file-9vZNOfd5PQ.png)
-
-Beim **erstmaligen** Anklicken dieser Anzeige finden Sie zu den Abteilungen in Ihrem Unternehmen die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Dies soll Ihrer ersten Orientierung dienen.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fb5504286306f8070c20/file-T2iVM473oh.png)
-
-Sie können die Stundenangabe jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.** Wenn der Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
+ Wenn der Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
 **Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fca804286306f8070c23/file-xLcyFq1HO4.png)
-
-Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungsziele**" **(3)** klicken.
-
-Durch das Setzen des Hakens bei "**Als Standard Verwenden**", werden die gewählten Werte solange in die **Zukunft** vorgetragen, bis Sie eine veränderte Vorgabe erneut "Als Standard Verwenden" definieren.
-
-### Dienstplanung nach Umsatz
-
-Sie können Ihre **Ziele genauer definieren**, indem Sie die Zielvorgaben Ihren **Umsatzerwartungen** anpassen.
-
-Indem Sie Ihre **Umsatz**, den Sie in einer Abteilung am jeweiligen Wochentag **erwarten**, in das entsprechende **Eingabefeld** eingeben, erhalten Sie die daraus resultierende **Produktivität** dieser Abteilung. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
-
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5f12fdb32c7d3a10cbaaeebf/file-PIvtsiDZEV.png)
-
-Haben Sie den erwarteten Umsatz eingegeben und **ändern** Sie dann die gezeigte **Produktivität** nach oben oder unten, **verringert** oder **erhöht** sich die **Anzahl der Stunden**, die im Dienstplan gezeigt werden, entsprechend.
-
-Ändern Sie die Anzahl der Stunden, **steigt oder sinkt** wiederum analog die **Produktivität**.
-
-Zur Vereinfachung der zukünftigen Planung können Sie auch diese Werte "Als Standard Definieren". In den Folgewochen **ändern** Sie nur mehr jene Werte, bei denen Sie eine **Abweichung** zu Ihren **bisherigen Zielen** erwarten.
-
-Jeder neu gesetzte Standard gilt immer nur für die **Zukunft**. Vergangene Wochen werden durch einen neuen Standard nicht beeinflusst.
+<<Screenshot>>
 
 ## Plan-Ist-Vergleich
 
