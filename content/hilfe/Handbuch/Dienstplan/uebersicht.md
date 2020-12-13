@@ -1,18 +1,10 @@
 ---
 title: Funktionsübersicht
-weight: 1
+weight: "1"
 icon: table
 anchors: []
+
 ---
-
-Alle Funktionen in Pentacode ergeben sich selbständig in automatisierten Prozessen. Der Dienstplan ist im Wesentlichen der einzige Bereich in Pentacode, in dem tatsächlich noch aktiv gearbeitet werden kann. Doch auch dies wollen wir Ihnen so einfach und spielerisch wie möglich machen. Deshalb ein paar grundsätzliche Hinweise vorweg.
-
-Ob ein "Dienstplaner" Zugang zu einer, mehreren oder allen Abteilungen hat und in welchem Umfang er Einblick in Kennzahlen erhälte, bestimmt der Administrator durch Erteilung von Berechtigungen.
-
-Eine grundsätzliche Eigenschaft des Dienstplans in Pentacode ist, dass die Software den **einzelnen Nutzer** und **dessen Gewohnheiten erkennt** .
-
-Jeder 'Dienstplaner' erhält aufgrund seiner eigenen Eingaben seine **persönlichen Schichtvorlagen**, seine **persönlichen Favoriten** und seine **persönlichen Dienstplanvorlagen**. Mehr hierzu finden Sie in den entsprechenden Einzelartikeln.
-
 Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben.
 
 > Screenshot<< (Abt. zusammengeklappt)
@@ -33,15 +25,15 @@ Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteil
 
 Durch ein Mouse-over über den Namen eines Mitarbeiters erscheint ein Fenster, durch das Sie
 
--   über den Modus der Zeiterfassung
--   das Arbeitsverhältnis
--   die im laufenden Monat bereits geleisteten Arbeitsstunden im Verhältnis zur monatlichen Sollarbeitszeit
--   Über- oder Minderstunden
--   den vorhandenen Urlaubsanspruch
+* über den Modus der Zeiterfassung
+* das Arbeitsverhältnis
+* die im laufenden Monat bereits geleisteten Arbeitsstunden im Verhältnis zur monatlichen Sollarbeitszeit
+* Über- oder Minderstunden
+* den vorhandenen Urlaubsanspruch
 
-    informiert werden.
+  informiert werden.
 
-    Die Über-/Minderstunden sowie der Urlaubsanspruch beziehen sich jeweils auf den Stand zu Beginn des aktuellen Monats.
+  Die Über-/Minderstunden sowie der Urlaubsanspruch beziehen sich jeweils auf den Stand zu Beginn des aktuellen Monats.
 
 ## Überblick
 
