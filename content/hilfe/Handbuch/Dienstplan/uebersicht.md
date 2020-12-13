@@ -5,11 +5,17 @@ icon: table
 anchors: []
 
 ---
+## Überblick
+
+Die grundlegenden Funktionen des Dienstplans in Pentacode.
+
+{{< figure caption="**1**: Übersicht zum Status eines Mitarbeiters **2**: Positionierung des Mitarbeiters innerhalb der Abteilung **3**: Filtern eines einzelnen Mitarbeiters **4**: Minimieren von Abteilungen **5**: Löschen eines Dienstplans **6**: Speichern von Dienstplanvorlagen **7**: Veröffentlichen des Dienstplans **8**: Gespeicherte Dienstplanvorlagen **9**: Meldung von Problemen in der Dienstplanung **10**: Schichtvorlagen **11**: Kennzeichnung von Favoriten" >}} ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df10ecf04286364bc92be34/file-G8UFCdTlVQ.png) {{< /figure >}}
+
+## Grundlegende Funktionen
+
 Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben.
 
-{{< figure caption=Ihre Abteilungen im Dienstplan in 'eingeklappter" Ansicht' >}}
-
-![](/uploads/abt-eingeklappt.png)
+{{< figure caption=Ihre Abteilungen im Dienstplan in 'eingeklappter" Ansicht' >}}![](/uploads/abt-eingeklappt.png)
 
 {{< /figure >}}
 
@@ -23,9 +29,9 @@ Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen
 
 In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung im Menüpunkt **_Positionen_** zugeordnet haben.
 
-Die Mitarbeiter sind in alphabetischer Reihenfolge nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem Mouse-over über den Namen eines Mitarbeiters erscheinen zwei nach oben und unten gerichtete Pfeile. Durch das Anklicken eines der Pfeile verschieben Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
+Die Mitarbeiter sind in **alphabetischer Reihenfolge** nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem Mouse-over über den Namen eines Mitarbeiters erscheinen zwei nach oben und unten gerichtete Pfeile. Durch das Anklicken eines der Pfeile verschieben Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption=Durch Mouse-over und Anklicken der Pfeile können Sie die Reihenfolge der Anordnung ändern >}}
 
 ![](/uploads/ma-verschieben.png)
 
@@ -33,7 +39,7 @@ Die Mitarbeiter sind in alphabetischer Reihenfolge nach Vornamen gelistet. Diese
 
 Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteilungen entsprechend zugeordnet sein. In diesem Fall erscheint er beständig in allen Abteilungen, in denen er geplant werden kann.
 
-Über das Suchfeld können Sie Mitarbeiter durch Namenseingabe filtern.
+Über das **Suchfeld** können Sie Mitarbeiter durch **Namenseingabe** filtern.
 
 {{< figure caption=Sie können Mitarbeiter durch Namenseingabe filtern>}}
 
@@ -57,14 +63,4 @@ Der Dienstplaner erhält Angaben zum Mitarbeiter
 * Über- oder Minderstunden
 * den vorhandenen Urlaubsanspruch
 
-  informiert werden.
-
-  Die Über-/Minderstunden sowie der Urlaubsanspruch beziehen sich jeweils auf den Stand zu Beginn des aktuellen Monats.
-
-## Überblick
-
-Die grundlegenden Funktionen des Dienstplans in Pentacode.
-
-{{< figure caption="**1**: Übersicht zum Status eines Mitarbeiters **2**: Positionierung des Mitarbeiters innerhalb der Abteilung **3**: Filtern eines einzelnen Mitarbeiters **4**: Minimieren von Abteilungen **5**: Löschen eines Dienstplans **6**: Speichern von Dienstplanvorlagen **7**: Veröffentlichen des Dienstplans **8**: Gespeicherte Dienstplanvorlagen **9**: Meldung von Problemen in der Dienstplanung **10**: Schichtvorlagen **11**: Kennzeichnung von Favoriten" >}}
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df10ecf04286364bc92be34/file-G8UFCdTlVQ.png)
-{{< /figure >}}
+  Die **Über-/Minderstunden** sowie der **Urlaubsanspruch** beziehen sich jeweils auf den **Stand zu Beginn des aktuellen Monats**.
