@@ -1,10 +1,10 @@
 ---
 title: Vertrag
-weight: 
-icon: ''
+weight:
+icon: ""
 anchors: []
-
 ---
+
 Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
 
 Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt den Vereinbarungen entsprechen, die Sie mit dem Mitarbeiter laut Arbeitsvertrag getroffen haben.
@@ -81,11 +81,11 @@ Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeit
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
-Die  Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bie 171,... Stunden, in einem Monat mit 31 Tagen bei 177,.. Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
+Die Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bie 171,... Stunden, in einem Monat mit 31 Tagen bei 177,.. Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
 
 ### Monatsgenau Ohne Feiertage
 
-Eingabe und  Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Monatsgenau".
+Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Monatsgenau".
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
@@ -109,7 +109,7 @@ Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung 
 
 ### Feste Wochentage abzgl. Feiertage
 
-Eingabe und  Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Feste Wochentage".
+Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Feste Wochentage".
 
 Bei diesem Modus wird jedoch ein Feiertag, der auf einen Arbeitstag des Mitarbeiters fällt, von seiner Soll-Arbeitszeit in Abzug gebracht. Hierbei wird Tag-genau unterschieden.
 
@@ -121,7 +121,7 @@ Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehen
 
 In diesem Fall erhalten Sie in Pentacode eine _Problemmeldung_.
 
-Dieses  Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos** vereinbaren.
+Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos** vereinbaren.
 
 Setzen Sie in diesem Fall den Button bei "**Jahresarbeitszeitkonto Vereinbart**".
 
@@ -187,7 +187,7 @@ Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **S
 
 Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "Zeiterfassung".
 
-{{< figure caption="Wenn Sie hier einen Wert >0 einsetzen, erscheint in der Tagesübersicht "Zeiterfassung" bei diesem Mitarbeiter ein Eingabefeld für die Erfassung des Umsatzes" >}}
+{{< figure caption="Wenn Sie hier einen Wert >0 einsetzen, erscheint in der Tagesübersicht 'Zeiterfassung' bei diesem Mitarbeiter ein Eingabefeld für die Erfassung des Umsatzes" >}}
 
 ![](/uploads/provision2.png)
 
@@ -239,7 +239,7 @@ Wenn Sie auf das "**+ Zusatzleistung hinzufügen**" klicken, öffnet ein Eingabe
 
 Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht** berücksichtigt. Sie sind als feste Werte ohnehin im jeweiligen Buchhaltungssystem hinterlegt.
 
-Pentacode ermittelt jedoch die Lohnkosten, um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben.  Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
+Pentacode ermittelt jedoch die Lohnkosten, um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben. Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
 
 Bitte beachten Sie, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
 

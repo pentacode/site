@@ -3,8 +3,8 @@ title: Dienstplan Schreiben
 weight: "2"
 icon: pencil-alt
 anchors: []
-
 ---
+
 Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung, wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell** und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
 
 ## Manuelle Eingabe
@@ -15,7 +15,7 @@ Durch Drücken der **"Tab"**-Taste auf Ihrer Tastatur springt der Cursor in das 
 
 Wenn ein Mitarbieter in mehreren Abteilungen arbeitet, werden seine Arbeitszeiten in allen Abteilungen gezeigt. Dabei ist die Anzeige in der Abteilung, in der er zur Arbeit eingeteilt ist, deutlich hervorgehoben, in den anderen Abteilungen hingegen nur aufgehellt.
 
-{{< figure caption="Schcihten werden in allen Abteilungen angezeigt, in den nicht aktiven Abteilung jedoch nur aufgehellt" >}}
+{{< figure caption="Schichten werden in allen Abteilungen angezeigt, in den nicht aktiven Abteilung jedoch nur aufgehellt" >}}
 
 ![](/uploads/doppelte-anzeige.png)
 
@@ -27,7 +27,7 @@ Sie können einem Mitarbeiter innerhalb eines Tages beliebig viele Schichten zuw
 
 Bei einem Mouse-over erscheint unterhalb einer bereits geplanten Schicht ein "**+**". Klicken Sie darauf und geben Sie einfach eine weitere Schicht ein.
 
-{{< figure caption="Sie können Teilschichten anlegen, indem Sie auf das "+"Zeichen klicken" >}}
+{{< figure caption="Sie können Teilschichten anlegen, indem Sie auf das '+'-Zeichen klicken" >}}
 
 ![](/uploads/teilschichten.png)
 
@@ -49,7 +49,7 @@ Verfahren Sie wie bei "Geplante Schichten verschieben", doch drücken Sie dabei 
 
 ### Problemmeldungen
 
-Pentacode meldet bereis bei der Planung, wenn gesetzliche Fristen verletzt werden oder ein   Konflikt vorliegt. ein Konflikt entsteht, wenn ein Mitarbeiter z.B. doppelt geplant wird oder sich zwei geplante Schichten überlappen.
+Pentacode meldet bereis bei der Planung, wenn gesetzliche Fristen verletzt werden oder ein Konflikt vorliegt. ein Konflikt entsteht, wenn ein Mitarbeiter z.B. doppelt geplant wird oder sich zwei geplante Schichten überlappen.
 
 In diesem Fall erscheint am rechten Rand die Meldung "Problem".
 
@@ -127,7 +127,7 @@ Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die V
 
 ### Eingaben löschen
 
-{{< figure caption="Sie können ein Eingabe löschen, indem Sie das "x" anklicken." >}}
+{{< figure caption="Sie können ein Eingabe löschen, indem Sie das 'x' anklicken." >}}
 
 ![](/uploads/eingabe-loschen.png)
 

@@ -1,10 +1,10 @@
 ---
 title: Buchhaltung
-weight: 
-icon: ''
+weight:
+icon: ""
 anchors: []
-
 ---
+
 "_Wer den Kern essen will, muss die Nuss knacken_". Leider.
 
 Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
@@ -27,7 +27,7 @@ Geben Sie hier die Beraternummer (optional) Ihrer Buchhaltung und die Mandantenn
 
 Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch geführt wird.
 
-{{< figure caption="Angabe der Kontonummer für "Kasse"" >}}
+{{< figure caption="Angabe der Kontonummer für 'Kasse'" >}}
 
 ![](/uploads/kassenbuch.png)
 

@@ -1,10 +1,10 @@
 ---
 title: Tagesübersicht
-weight: 
+weight:
 icon: stopwatch
 anchors: []
-
 ---
+
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
 
 Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn **oder** nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
@@ -23,7 +23,7 @@ Sollte sich ein Mitarbeiter außerhalb der ovn Ihnen festgelegten "Karenz-Zeit" 
 
 Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, die so **nicht geplant** war.
 
-{{< figure caption="Diese Arbeitsziet war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine "Spontane Schicht" angetreten" >}}
+{{< figure caption="Diese Arbeitsziet war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine 'Spontane Schicht' angetreten" >}}
 
 ![](/uploads/spontane-schicht.png)
 
@@ -61,7 +61,7 @@ Zum Status eines Mitarbeiters gibt es folgende Meldungen:
 
 **Geloggte Zeiten** können Sie **jederzeit** bearbeiten / korrigieren.
 
-Bei **aktuell laufenden** oder noch **nicht begonnen Schichten** können noch  **keine Zeiteingaben** manuell vorgenommen werden. Zeiten können in diesem Fall ausschließlich durch Log-in/Log-out des Mitarbeiters über die Stempeluhr übernommen werden.
+Bei **aktuell laufenden** oder noch **nicht begonnen Schichten** können noch **keine Zeiteingaben** manuell vorgenommen werden. Zeiten können in diesem Fall ausschließlich durch Log-in/Log-out des Mitarbeiters über die Stempeluhr übernommen werden.
 
 Lediglich beim Status "**verspätet**" oder "**nicht abgemeldet**" können Daten **manuell** in die Rot gekennzeichneten Felder **eingegeben** werden.
 

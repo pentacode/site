@@ -1,10 +1,10 @@
 ---
 title: Arbeitszeiten
-weight: 
+weight:
 icon: hourglass-half
 anchors: []
-
 ---
+
 Mit **"Arbeitszeiten"** ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
 
 ## Übersicht
@@ -41,9 +41,7 @@ Am rechten unteren Rand (**2**) finden Sie eine **Zeichenerklärung** für die u
 
 {{< /figure >}}
 
-Am rechten oberen Rand (**3**) werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**.
-
-{{< figure caption="Hier sehen Sie die Arbeits- und Zuschlagszeiten in STunden und Summe dargestellt" >}}Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen **Soll-Arbeitszeit** und der **tatsächlich geleisteten Arbeitszeit**.
+Am rechten oberen Rand (**3**) werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**. Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen **Soll-Arbeitszeit** und der **tatsächlich geleisteten Arbeitszeit**.
 
 {{< figure caption="Hier sehen Sie die Summen der Arbeits- und Zuschlagszeiten in Stunden dargestellt" >}}
 
@@ -121,7 +119,7 @@ Wählen Sie dafür "Zeitbuchung" und die Art der Buchung über den Dropdownpfeil
 
 Wählen Sie hierzu die gewünschte Buchungsart und geben Sie die Anzahl der Tage ein, die entsprechend gebucht werden soll.
 
-{{< figure caption="So können Sie einem Mitarbeiter Urlaubstage hinzubuchen oder abziehen>}}
+{{< figure caption="So können Sie einem Mitarbeiter Urlaubstage hinzubuchen oder abziehen">}}
 
 ![](/uploads/urlaubsbuchung.png)
 
@@ -135,7 +133,7 @@ Wenn Sie Urlaub hinzubuchen, erscheint dieser Button nicht.
 
 ## Kontoausdruck
 
-Durch das Anklicken des **Drucksymbols** am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
+Durch das Anklicken des {{< icon "print" >}}-Symbols am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
 
 {{< figure caption="Sie können das Arbeitszeitkonto eines Mitarbeiters in zwei unterschiedlichen Formaten ausdrucken" >}}
 
@@ -151,7 +149,7 @@ Am rechten oberen Rand finden Sie die **Soll- und Ist-Arbeitszeiten** des Monats
 
 In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**" die Anzahl der **bezahlten Stunden**.
 
-{{< figure caption="Arbeitszeiten "AZ" und bezahlte Zeiten "Bez" sind in diesem Beispiel identisch, da Pausen **nicht** bezahlt werden" >}}
+{{< figure caption="Arbeitszeiten 'AZ' und bezahlte Zeiten 'Bez' sind in diesem Beispiel identisch, da Pausen **nicht** bezahlt werden" >}}
 
 ![](/uploads/arbeitszeiten-nachweis.png)
 
@@ -167,7 +165,7 @@ Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die j
 
 Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden, sowie die Anzahl eventueller Mahlzeiten aus.
 
-{{< figure caption="Die Lohnabrechnung entspricht dem "Arbeitszeiten Nachweis", ist jedoch wesentlich detaillierter" >}}
+{{< figure caption="Die Lohnabrechnung entspricht dem 'Arbeitszeiten Nachweis', ist jedoch wesentlich detaillierter" >}}
 
 ![](/uploads/lohnabrechnung.png)
 
