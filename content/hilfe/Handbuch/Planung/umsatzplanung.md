@@ -57,4 +57,14 @@ Sie können für die Planung Ihrer Umsatzerwartung den Durchschnitt verwenden un
 
 {{< /figure >}}
 
-In diesem Fall
+Bei dieser Vorgehensweise werden mit dem Gesamtumsatz sowohl die einzelnen Umsatzarten, wie auch die Umsätze der einzelnen Abteilungen im gleichbleibenden Verhältnis zueinander und linear erhöht oder herabgesetzt.
+
+Durch unmittelbares Überschreiben können Sie eine Umsatzart gezielt ändern. 
+
+{{< figure caption="Durch Überschreiben können Sie eine Umsatzart gezielt planen" >}}
+
+![](/uploads/umsatzpl-8.png)
+
+{{< /figure >}}
+
+Auch dieser Umsatz wird entsprechend der durchschnittlichen Verteilung auf die einzelnen ABteilungen umgelegt.
