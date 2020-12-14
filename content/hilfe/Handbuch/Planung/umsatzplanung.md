@@ -5,15 +5,13 @@ icon: ''
 anchors: []
 
 ---
-Umm Ihre Dienstplanung wirtschaftlich möglichst effektiv zu gestalten, sollte sich der geplante Zeitaufwand der Mitarbeiter am Umsatz orientieren, der für einen bestimmten Geschäftstag erwartet wird.
+Um Ihre Dienstplanung wirtschaftlich möglichst effektiv zu gestalten, sollte sich der geplante Zeitaufwand der Mitarbeiter am Umsatz orientieren, der für einen bestimmten Geschäftstag erwartet wird.
 
-Für diese Art der Planung ist es notwenidg, dass Sie Umsatzgruppen anlegen und Ihre täglichen Umsätze zumindest statistisch erfassen. 
-
-Erfahren Sie hierzu mehr in den Hilfeartikeln des Ordners "Umsätze".
+Für diese Art der Planung ist es notwendig, dass Sie Umsatzgruppen anlegen und Ihre täglichen Umsätze zumindest statistisch erfassen. (Erfahren Sie hierzu mehr in den Hilfeartikeln des Ordners "Umsätze".)
 
 ## Umsätze planen
 
-Wenn den den Haupt-Menüpunkt anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die Umsätze, die Ihr Unternehmen an den verschiedenen Wochentagen durchschnittlich erzielt hat.
+Wenn Sie den Haupt-Menüpunkt "Planung" anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die Umsätze, die Ihr Unternehmen an den verschiedenen Wochentagen durchschnittlich erzielt hat.
 
 In der Standardeinstellung wird Ihnen der Durchschnitt der letzten 4 Wochen gezeigt.
 
@@ -59,7 +57,7 @@ Sie können für die Planung Ihrer Umsatzerwartung den Durchschnitt verwenden un
 
 Bei dieser Vorgehensweise werden mit dem Gesamtumsatz sowohl die einzelnen Umsatzarten, wie auch die Umsätze der einzelnen Abteilungen im gleichbleibenden Verhältnis zueinander und linear erhöht oder herabgesetzt.
 
-Durch unmittelbares Überschreiben können Sie eine Umsatzart gezielt ändern. 
+Durch unmittelbares Überschreiben können Sie eine Umsatzart gezielt ändern.
 
 {{< figure caption="Durch Überschreiben können Sie eine Umsatzart gezielt planen" >}}
 
@@ -67,4 +65,4 @@ Durch unmittelbares Überschreiben können Sie eine Umsatzart gezielt ändern.
 
 {{< /figure >}}
 
-Auch dieser Umsatz wird entsprechend der durchschnittlichen Verteilung auf die einzelnen ABteilungen umgelegt.
+Auch dieser Umsatz wird entsprechend der durchschnittlichen Verteilung auf die einzelnen Abteilungen umgelegt.
