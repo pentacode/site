@@ -15,13 +15,17 @@ In Pentacode können Sie das auf sehr einache Art erreichen.
 
 ### Dienstplanung mit Stundenvorgaben
 
-Wenn Sie auf das **Diagrammsymbol (1)** klicken, erscheint am **Fuß des Dienstplans** die Anzeige "**Planungsziele Definieren**" **(2)**.
+Wenn Sie auf das **Diagrammsymbol** klicken, erscheint am **Fuß jeder Abteilung** die Anzeige "**Planungsziele Definieren**" .
 
-<<Screenshot>>
+Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt. Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben.
 
-Beim Anklicken dieser Anzeige werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt. Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben.
+{{< figure caption="Durch Anklicken des Feldes 'Stundenvorgabe' gelangen Sie in den Bereich 'Planung'" >}}
 
-Wenn Sie dann auf das Symbol **Ø** klicken, erscheint  die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
+![](/uploads/stunden-zeigen.png)
+
+{{< /figure >}}
+
+Wenn Sie dann auf das **Ø-**Symbol klicken, erscheint  die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
 
 Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
@@ -33,7 +37,7 @@ Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
 Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.**
 
-Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "Als Standard Verwenden" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
+Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "**Als Standard Verwenden**" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
 
 {{< figure caption="So können Sie Stundenvorgaben als Standard für die folgenden Wochen setzen" >}}
 
@@ -45,11 +49,15 @@ Wenn Sie einen gewählten Wert an einem Tag überschreiben, gilt dieser nur für
 
 Im Dienstplan finden Sie nun die gewählten Stundenvorgaben in der Fußzeile einer jeden Abteilung. Während der Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
-**Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
+**Überschreitet** im Dienstplan die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
-<<Screenshot>>
+{{< figure caption="Eine Überschreitung der Stundenvorgabe bei der Dienstplanung wird in Rot angezeigt" >}}
 
-Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungsziele**" **(3)** klicken.
+![](/uploads/stundenanzeige-dp.png)
+
+{{< /figure >}}
+
+Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungsziele**" klicken.
 
 Ziel dieser Art der Planung ist es, zu bezahlende Arbeitszeit zu verringern, indem Mitarbeiter zeitversetzt beginnen und zügig "aussteigen", sobald es der Geschäftsgang ermöglicht.
 
@@ -63,6 +71,6 @@ Der "Charme" dieser Art der Planung liegt darin, dass ein Dienstplaner Anhaltspu
 
 Die Zählung der geplanten Stunden erfordert jedoch die Eingabe des voraussichtlichen Dienstendes. Dasselbe gilt für die Kalkulation der Kosten eines Arbeitstages, die durch Pentacode im Hintergrund durchgeführt wird. Im Kapitel **_abcdefg_** erfahren Sie hierzu mehr.
 
-Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zwar nur näherungsweise, dabei aber überraschend zutreffend angenommen werden kann. 
+Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zwar nur näherungsweise, dabei aber überraschend zutreffend angenommen werden kann.
 
 Abweichungen in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
