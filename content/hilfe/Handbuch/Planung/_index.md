@@ -5,7 +5,9 @@ icon: calendar-alt
 anchors: []
 
 ---
-Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben
+Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.
+
+Im ersten Augenblick mag sich dieser zusätzliche Schritt bei der  Planung aufwändig "anfühlen". Tatsächlich wird er nicht mehr als 15 Minuten Zeit in Anspruch nehmen. DIe WIrkung auf die Personalkosten hingegen beschert diesem Mehraufwand einen fulminanten Unternehmerlohn.
 
 ## Dienstplanung mit Stundenvorgabe
 
@@ -57,7 +59,35 @@ Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungszi
 
 Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvorgaben Ihren **Umsatzerwartungen** anpassen.
 
-Indem Sie den **Umsatz**, den Sie in einer Abteilung am jeweiligen Wochentag **erwarten**, in das entsprechende **Eingabefeld** eingeben, erhalten Sie die daraus resultierende **Produktivität** dieser Abteilung. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
+Durch das Anklicken des €-Symbols in der Fußleiste werden Ihren Stundenvorgaben die Planumsätze hinzugefügt und die daraus resultierende **Produktivität** gezeigt. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
+
+{{< figure caption="So können Sie Ihre Stundenvorgaben mit Ihren Umsatz-Zielen verknüpfen" >}}
+
+![](/uploads/umsatzpl-9.png)
+
+{{< /figure >}}
+
+Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung der Produktivität führt.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/umsatzpl-10.png)
+
+{{< /figure >}}
+
+Im oben gezeigten Screenshot erzielt die Abteilung Service am Montag einen Umsatz von 1.200 € bei einem Stundenaufwand von 20 Arbeitsstunden. Dies führt zu einer Produktivität von 63,50 €.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/umsatzpl-11.png)
+
+{{< /figure >}}
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/umsatzpl-12.png)
+
+{{< /figure >}}
 
 Haben Sie den erwarteten Umsatz eingegeben und **ändern** Sie dann die gezeigte **Produktivität** nach oben oder unten, **verringert** oder **erhöht** sich die **Anzahl der Stunden**, die im Dienstplan gezeigt werden, entsprechend.
 
