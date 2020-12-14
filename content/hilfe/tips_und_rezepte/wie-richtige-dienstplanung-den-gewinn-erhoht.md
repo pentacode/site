@@ -3,7 +3,6 @@ title: Wie richtige Dienstplanung den Gewinn erhöht
 weight: 
 icon: ''
 anchors: []
-draft: true
 
 ---
 "_Planen ist nichts anderes als schriftliches Denken_" (Manfred Helfrecht)
