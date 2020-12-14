@@ -9,7 +9,7 @@ anchors: []
 
 Die grundlegenden Funktionen des Dienstplans in Pentacode.
 
-{{< figure caption="**1**: Übersicht zum Status eines Mitarbeiters **2**: Positionierung des Mitarbeiters innerhalb der Abteilung **3**: Filtern eines einzelnen Mitarbeiters **4**: Minimieren von Abteilungen **5**: Löschen eines Dienstplans **6**: Speichern von Dienstplanvorlagen **7**: Veröffentlichen des Dienstplans **8**: Gespeicherte Dienstplanvorlagen **9**: Meldung von Problemen in der Dienstplanung **10**: Schichtvorlagen **11**: Kennzeichnung von Favoriten" >}}  
+{{< figure caption="**1**: Positionierung des Mitarbeiters innerhalb der Abteilung**2**: Übersicht zum Status eines Mitarbeiters **3**: Planung gegen Stundenvorgaben **4**: Filtern eines einzelnen Mitarbeiters **5**: Minimieren von Abteilungen **6**: ELemente für die Dienstplanfunktionen Löschen | Speichern von Dienstplanvorlagen | Veröffentlichen des Dienstplans | Anzeigen der Lohkosten (=11) | Anzeigen der Stundenvorgaben (=3) **7**: Gespeicherte Dienstplanvorlagen **8**: Meldung von Problemen in der Dienstplanung **9**: Schichtvorlagen **10**: Plan-Ist-Vergleich der Lohnkosten" >}}  
 
 ![](/uploads/ubersicht.png)
 
