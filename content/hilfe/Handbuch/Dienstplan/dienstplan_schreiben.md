@@ -3,8 +3,8 @@ title: Dienstplan Schreiben
 weight: "2"
 icon: pencil-alt
 anchors: []
----
 
+---
 Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung, wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell** und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
 
 ## Manuelle Eingabe
@@ -95,9 +95,11 @@ Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"*
 
 ### Dienstplanvorlagen
 
+Viele Dienste und Schichten kehren regelmäßig wieder. Um zu vermeiden, dass die relativ gleichen Schichten jede Woche neu im Dienstplan eingetragen werden müssen, haben Sie in Pentacode die Möglichkeit, Dienstplanvorlagen zu erstellen.
+
 Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** und auch **Abteilungs-übergreifend** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
 
-**Schreiben** Sie hierzu einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol**.
+**Schreiben** Sie hierzu **in einer leeren Woche** einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol**.
 
 **Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen und geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung**.
 
