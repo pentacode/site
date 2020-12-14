@@ -5,9 +5,9 @@ icon: calendar-alt
 anchors: []
 
 ---
-In Pentacode können Sie das auf sehr einache Art erreichen.
+Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben
 
-### Dienstplanung mit Stundenvorgaben
+## Dienstplanung mit Stundenvorgabe
 
 Wenn Sie auf das **Diagrammsymbol** klicken, erscheint am **Fuß jeder Abteilung** die Anzeige "**Planungsziele Definieren**" .
 
@@ -52,3 +52,17 @@ Im Dienstplan finden Sie nun die gewählten Stundenvorgaben in der Fußzeile ein
 {{< /figure >}}
 
 Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungsziele**" klicken.
+
+## Stundenvorgabe nach Umsatz-Zielen
+
+Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvorgaben Ihren **Umsatzerwartungen** anpassen.
+
+Indem Sie den **Umsatz**, den Sie in einer Abteilung am jeweiligen Wochentag **erwarten**, in das entsprechende **Eingabefeld** eingeben, erhalten Sie die daraus resultierende **Produktivität** dieser Abteilung. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
+
+Haben Sie den erwarteten Umsatz eingegeben und **ändern** Sie dann die gezeigte **Produktivität** nach oben oder unten, **verringert** oder **erhöht** sich die **Anzahl der Stunden**, die im Dienstplan gezeigt werden, entsprechend.
+
+Ändern Sie die Anzahl der Stunden, **steigt oder sinkt** wiederum analog die **Produktivität**.
+
+Zur Vereinfachung der zukünftigen Planung können Sie auch diese Werte "**Als Standard Definieren**". In den Folgewochen **ändern** Sie nur mehr jene Werte, bei denen Sie eine **Abweichung** zu Ihren **bisherigen Zielen** erwarten.
+
+Jeder neu gesetzte Standard gilt immer nur für die **Zukunft**. Vergangene Wochen werden durch einen neuen Standard nicht beeinflusst.
