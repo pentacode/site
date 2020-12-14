@@ -101,7 +101,7 @@ Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auc
 
 **Schreiben** Sie hierzu **in einer leeren Woche** einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol**.
 
-**Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen und geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung**.
+**Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen, geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung und speichern Sie**.
 
 {{< figure caption="Vorlagen können auch Abteilungs-übergreifend erstellt werden" >}}
 
@@ -109,7 +109,7 @@ Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auc
 
 {{< /figure >}}
 
-Mit dem Befehl **"Speichern"** erscheint die **neue Vorlage** in der Liste Ihrer Dienstplanvorlagen.
+Während sich Schichtvorlagen durch Eintragungen im Dienstplan automatisch erstellen, werden Dienstplanvorlagen vom jeweiligen  Dienstplaner individuell und entsprechend eigener Vorgaben erstellt.
 
 {{< figure caption="Hier finden Sie Ihre Dienstplanvorlagen" >}}
 
