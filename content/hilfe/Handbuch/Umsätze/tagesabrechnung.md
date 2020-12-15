@@ -5,7 +5,7 @@ icon: ''
 anchors: []
 
 ---
-In Pentacode können Sie mit einem Aufwand von 2 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
+In Pentacode können Sie mit einem Aufwand von etwa 3 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
 
 Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
 
@@ -17,9 +17,13 @@ Wenn Sie bereits **Umsatzgruppen** angelegt haben, finden Sie diese in der von I
 
 **Hinweis**: Das Anlegen von feststehenden Ausgabepositionen ist nur dann sinnvoll, wenn es sich um sehr häufig wiederkehrende Ausgaben handelt.
 
-<<**Screenshot**>>
-
 Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen- und/oder EC-System hervorgehen.
+
+{{< figure caption="Erfassen Sie hier Ihre Brutto-Umsätze" >}}
+
+![](/uploads/ta1.png)
+
+{{< /figure >}}
 
 **UST**, **Kontonummer** und eventuelle **Kostenstelle** sind bereits in der Umsatzgruppe definiert und werden somit **automatisch gebucht**.
 
@@ -44,6 +48,10 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 ### "Unbare Zahlungen"
 
 **Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+{{< /figure >}}
 
 **Empfehlung**: Sollten Sie ein EC-Gerät benutzen, legen Sie idealerweise die einzelnen Kartenarten entsprechend der Erfassung durch das Gerät an und vermeiden Sie ein manuelles Aufaddieren der einzelnen Kartenarten. Damit vermeiden Sie Rechenfehler und vereinfachen das Auffinden eines evtl. Tipfehlers im Falle einer Kassendifferenz.
 
