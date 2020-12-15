@@ -49,7 +49,9 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 
 **Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Erfassen Sie hier die unbaren Zahlarten" >}}
+
+![](/uploads/ta2.png)
 
 {{< /figure >}}
 
@@ -61,9 +63,21 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 **Debitoren**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
-#### "Ausgaben"
+{{< figure caption="Einmal erfasste Debitoren werden automatisch vorgeschlagen" >}}
+
+![](/uploads/ta3.png)
+
+{{< /figure >}}
+
+### "Ausgaben"
 
 **Ausgaben**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
+
+{{< figure caption="Einmal erfasste Ausgaben werden automatisch vorgeschlagen" >}}
+
+![](/uploads/ta4.png)
+
+{{< /figure >}}
 
 **Bitte beachten Sie unbedingt!**: In der **Tagesabrechnung** werden ausschließlich **jene Ausgaben** erfasst, die **Teil des Geschäftstages** waren (und somit aus der "Restaurantkasse" (oder vom Kellner) bezahlt wurden).
 
@@ -73,27 +87,43 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 Wenn Sie in das Eingabefeld **"Gehaltsvorschüsse"** klicken, erscheint eine Dropdown-Liste der **aktuell beschäftigten Mitarbeiter** in alphabetischer Reihenfolge nach Vornamen.
 
-> > Screenshot<<
+{{< figure caption="Mitarbeiter können über das Dropdown oder Buchstabeneingabe gewählt werden" >}}
 
-Sie können einen Mitarbeiter **per Mauspfeil** oder durch **Buchstabeneingabe** auswählen.
+![](/uploads/ta5.png)
 
-Mit der **"Tab-"** oder **"Return-"** Taste springt der Cursor in das Ausgabefeld. Hier tragen Sie den Vorschuss-Betrag ein.
+{{< /figure >}}
+
+Sie können einen Mitarbeiter **mit Cursor** oder durch **Buchstabeneingabe** auswählen.
 
 Es können in der Abrechnung **ausschließlich Bar-Vorschüsse** erfasst werden!
 
-### Geldzählung
-
-Bereits während Sie Ihre Umsätze, unbaren Zahlungen, Debitoren, Barausgaben aus dem laufenden Geschäft und evtl. Gehaltsvorschüsse erfassen, entsteht bei **"Tageskasse"** (eine **fortlaufende Saldierung** (**3**) Ihrer Barkasse.
-
-> > Screenshot<<
+### Bargeld Saldo
 
 Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhalten Sie denn **rechnerischen Kassenstand**.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/ta6.png)
+
+{{< /figure >}}
+
+### Zählprotokoll
+
+{{< figure caption="Bei Abrechnung mit Zählprotokoll ergibt sich der Zählbetrag durch Stückzählung" >}}
+
+![](/uploads/ta9.png)
+
+{{< /figure >}}
 
 ### Kassendifferenz
 
 Idealerweise **zählen** Sie nun das Ihnen tatsächlich verbliebene **Bargeld** und geben den **Zählbetrag** unter **"Kassenstand Ist"** ein.
 
-> > Screenshot<<
+{{< figure caption="Nach Eingabe des gezaählten Bargelds wird eine evtl. Kassendifferenz ausgewiesen" >}}
+
+![](/uploads/ta7.png)
+
+{{< /figure >}}
 
 Sollte eine Differenz ausgewiesen sein, so überprüfen Sie am besten die Richtigkeit Ihrer Eingaben. Wenn diese richtig sind, zählen Sie evtl. die Kasse nach.
 
@@ -103,9 +133,15 @@ Verbleibt eine **Differenz** (**5**), wird diese im Kassenbuch als **Kassendiffe
 
 Nehmen wir den Fall an, dass zum Beispiel nach einer geschlossenen Veranstaltung per Karte bezahlt wird und der Gastgeber den Rechnungsbetrag für ein Treinkgeld aufrundet. Oder Sie führen zum Beispiel einen Berieb, in dem fast ausschließlich mit Karte bezahlt wird und die Gäste den Kartenbetrag für das Trinkgeld erhöhen. In beiden Fällen wäre der Kartenbetrag höher als der Umsatz.
 
-Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, geben Sie als Zählbetrag "0" ein. Das Ihnen verbliebene Bargeld beträgt ja tatsächlich Null Euro.
+Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, **geben Sie als Zählbetrag "0" ein**. Das Ihnen verbliebene Bargeld beträgt ja tatsächlich Null Euro.
 
-Beim "Speichern" oder "Abschließen & Buchen" erscheint nun die Meldung "Differenz als Unbare Trinkgelder buchen?"
+Beim "**Abschließen & Buchen**" erscheint nun die Meldung "**Differenz als Unbare Trinkgelder buchen?**"
+
+{{< figure caption="Bei Eingabe von "0" als Zählbetrag entsteht der Buchungstext 'Unbare Trinkgelder'" >}}
+
+![](/uploads/ta8.png)
+
+{{< /figure >}}
 
 Wenn Sie dies bestätigen, entsteht in der Abrechnung und im Kassenbuch die Position "Unbare Trinkgelder".
 
@@ -114,8 +150,6 @@ Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsp
 ### "Zwischenspeichern"
 
 Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Abschließen & Buchen" durchführen.
-
-> > Screenshot<<
 
 **"Zwischenspeichern"** ist allen Administratoren möglich, die zur Durchführung einer **Tagesabrechnung berechtigt** sind.
 
