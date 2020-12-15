@@ -1,5 +1,5 @@
 ---
-title: Erlösgruppen
+title: Erlöszuordnung
 weight: 
 icon: ''
 anchors: []
