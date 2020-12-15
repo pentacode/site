@@ -7,9 +7,7 @@ anchors: []
 ---
 Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der Tagesabrechnung.
 
-**WICHTIG!**
-
-**Manuell** in das Kassenbuch werden ausschließlich jene **Einnahmen** oder **Ausgaben** eingetragen, für die Sie im Wortsinn "an den Tresor" gehen, in anderen Worten: **Wenn Sie auf Gelder zugreifen, die aus zurückliegenden, bereits abgerechneten Tagen stammen.**
+> **Manuell in das Kassenbuch werden ausschließlich jene Einnahmen oder Ausgaben eingetragen, für die Sie im Wortsinn "an den Tresor" gehen, in anderen Worten: Wenn Sie auf Gelder zugreifen, die aus zurückliegenden, bereits abgerechneten Tagen stammen.**
 
 Wenn Sie z.B. am Montag eine Bankeinzahlung durchführen, so zahlen Sie das Bargeld ein, das von den Umsätzen des Wochenendes verblieben ist. Diese Bankeinzahlung ist deshalb unmittelbar in das Kassenbuch einzutragen. Es ist nicht Teil eines laufenden Geschäftstages und wird deshalb nicht in der Abrechnung des Geschäftstages erfasst.
 
@@ -17,13 +15,13 @@ Weitere Beispiele für Ausgaben, die in das Kassenbuch einzutragen sind, wären:
 
 ## Erfassen von Einnahmen & Ausgaben im Kassenbuch
 
-Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
+Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden darüberhinaus automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e53a8072c7d3a7e9ae82d66/file-4jJ0InVZj7.png)
 
 Jede Eingabe oder Veränderung im Kassenbuch wird zuerst farbig hervorgehoben. Nach der Eingabe findet weder eine Nummerierung, noch eine Saldierung des Kassenstandes statt.
 
->>screenshot<<
+> > screenshot<<
 
 Erst wenn Sie die manuelle Eingabe im Kassenbuch speicher, erhält die Position eine Nummerierung und der Kassenstand wird saldiert.
 
