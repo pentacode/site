@@ -69,30 +69,26 @@ Durch das Anklicken des €-Symbols in der Fußleiste werden Ihren Stundenvorgab
 
 Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung der Produktivität führt.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Ein Mouse-over zeigt den Rechenweg" >}}
 
 ![](/uploads/umsatzpl-10.png)
 
 {{< /figure >}}
 
-Im oben gezeigten Screenshot erzielt die Abteilung Service am Montag einen Umsatz von 1.200 € bei einem Stundenaufwand von 20 Arbeitsstunden. Dies führt zu einer Produktivität von 63,50 €.
+Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz von 1.200 € geplant.. Der Stundenaufwand im Standard sihte für diesen Tag 20 Arbeitsstunden. Dies würde zu einer Produktivität von 63,50 € führen.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Eine Veränderung der STundenanzahl führt zu einer Veränderung der Produktivität" >}}
 
 ![](/uploads/umsatzpl-11.png)
 
 {{< /figure >}}
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+Soll z.B eine Produktivität von ca. 80 € / Stunde erreicht werden, muss die Stundenanzahl von 20 auf 16 gekürzt werden. 
+
+{{< figure caption="Die Stundenvorgabe ändert sich im Dienstplan entsprechend" >}}
 
 ![](/uploads/umsatzpl-12.png)
 
 {{< /figure >}}
-
-Haben Sie den erwarteten Umsatz eingegeben und **ändern** Sie dann die gezeigte **Produktivität** nach oben oder unten, **verringert** oder **erhöht** sich die **Anzahl der Stunden**, die im Dienstplan gezeigt werden, entsprechend.
-
-Ändern Sie die Anzahl der Stunden, **steigt oder sinkt** wiederum analog die **Produktivität**.
-
-Zur Vereinfachung der zukünftigen Planung können Sie auch diese Werte "**Als Standard Definieren**". In den Folgewochen **ändern** Sie nur mehr jene Werte, bei denen Sie eine **Abweichung** zu Ihren **bisherigen Zielen** erwarten.
 
 Jeder neu gesetzte Standard gilt immer nur für die **Zukunft**. Vergangene Wochen werden durch einen neuen Standard nicht beeinflusst.
