@@ -5,7 +5,7 @@ icon: ''
 anchors: []
 
 ---
-Um Ihre Dienstplanung wirtschaftlich möglichst effektiv zu gestalten, sollte sich der geplante Zeitaufwand der Mitarbeiter am Umsatz orientieren, der für einen bestimmten Geschäftstag erwartet wird.
+Um Ihre Dienstplanung wirtschaftlich möglichst effektiv zu gestalten, können Sie den geplanten Zeitaufwand der Mitarbeiter am Umsatz orientieren, der für einen bestimmten Geschäftstag erwartet wird.
 
 Für diese Art der Planung ist es notwendig, dass Sie Umsatzgruppen anlegen und Ihre täglichen Umsätze zumindest statistisch erfassen. (Erfahren Sie hierzu mehr in den Hilfeartikeln des Ordners "Umsätze".)
 
