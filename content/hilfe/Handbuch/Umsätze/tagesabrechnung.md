@@ -153,6 +153,12 @@ Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Ab
 
 **"Zwischenspeichern"** ist allen Administratoren möglich, die zur Durchführung einer **Tagesabrechnung berechtigt** sind.
 
+{{< figure caption="Jeder, der eine Tagesabrechnung durchführt, kann diese speichern" >}}
+
+![](/uploads/ta10.png)
+
+{{< /figure >}}
+
 Das **"Zwischenspeichern"** ist **ZWINGEND notwendig**. **Nicht gespeicherte Daten** gehen nach Verlassen der Tagesabrechnung **verloren**.
 
 Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein **"Zwischenspeichern"** kann **beliebig häufig** vorgenommen werden.
@@ -160,6 +166,12 @@ Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein *
 ### "Abschließen & Buchen"
 
 Die Funktion **"Abschließen & Buchen"** (**7**) ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
+
+{{< figure caption="ABschließen und Buchen erfordert die Berechtigung zum Zugang zum Kassenbuch" >}}
+
+![](/uploads/ta11.png)
+
+{{< /figure >}}
 
 Mit der Durchführung von **"Abschließen & Buchen"** ist die Tagesabrechnung für Administratoren, die nur die Tagesabrechnung durchführen können, **nicht mehr veränderbar**.
 
