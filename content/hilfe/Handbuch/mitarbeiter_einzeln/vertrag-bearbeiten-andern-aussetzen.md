@@ -2,7 +2,17 @@
 title: Verträge
 weight: 0
 icon: file-signature
-anchors: []
+anchors:
+- hash: vertrag-bearbeiten
+  title: Vertrag Bearbeiten
+- hash: neuer-vertrag
+  title: Neuer Vertrag
+- hash: vertragsunterbrechung
+  title: Vertragsunterbrechung
+- hash: vertragshistorie
+  title: Vertragshistorie
+- hash: ausgeschiedene-mitarbeiter-erneut-einstellen
+  title: Ausgesch. MA erneut einstellen
 
 ---
 Um bei einem Mitarbeiter einen bestehenden Vertrag zu ändern, auszusetzen oder einen neuen Vertrag anzulegen, wählen Sie den entsprechenden **Mitarbeiter** und gehen dort auf **Vertrag**.
