@@ -1,10 +1,10 @@
 ---
 title: Tagesübersicht
-weight:
+weight: 
 icon: stopwatch
 anchors: []
----
 
+---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
 
 Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn **oder** nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
@@ -19,11 +19,11 @@ Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die **geplanten Arbe
 
 {{< /figure >}}
 
-Sollte sich ein Mitarbeiter außerhalb der ovn Ihnen festgelegten "Karenz-Zeit" eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein "?".
+Sollte sich ein Mitarbeiter außerhalb der ovn Ihnen festgelegten "Karenz-Zeit" eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein "**?**".
 
 Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, die so **nicht geplant** war.
 
-{{< figure caption="Diese Arbeitsziet war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine 'Spontane Schicht' angetreten" >}}
+{{< figure caption="Diese Arbeitszeit war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine '**Spontane Schicht**' angetreten" >}}
 
 ![](/uploads/spontane-schicht.png)
 
@@ -41,7 +41,7 @@ Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen 
 
 ### Provision
 
-Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **> 0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
+Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **>0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
 
 {{< figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat" >}}
 
@@ -95,7 +95,7 @@ Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit
 
 ## Abteilungen filtern
 
-Wenn in IHrem Unternehmen serh viele Mitarbeiter beschäftigt sind, kann die Ansicht übersichtlicher dargestellt werden, indem Sie einzelne Abteilungen durch das Entfernen eines Button abwählen.
+Wenn in Ihrem Unternehmen sehr viele Mitarbeiter beschäftigt sind, kann die Ansicht übersichtlicher dargestellt werden, indem Sie einzelne Abteilungen durch das Entfernen eines Button abwählen.
 
 Die gewählten Abteilungen sind dann nicht mehr sichtbar.
 
