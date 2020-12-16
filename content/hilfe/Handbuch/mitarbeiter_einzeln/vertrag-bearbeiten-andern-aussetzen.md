@@ -1,7 +1,7 @@
 ---
-title: Vertrag bearbeiten, ändern, aussetzen; Vertragshistorie
-weight: 
-icon: ''
+title: Verträge
+weight: 0
+icon: file-signature
 anchors: []
 
 ---
