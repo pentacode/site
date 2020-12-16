@@ -1,10 +1,10 @@
 ---
 title: Tagesabrechnung
-weight: 
-icon: ''
+weight:
+icon: ""
 anchors: []
-
 ---
+
 In Pentacode können Sie mit einem Aufwand von etwa 3 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
 
 Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
@@ -137,7 +137,7 @@ Da das Trinkgeld in diesen Fällen in den Kartenzahlungen "versteckt" ist, **geb
 
 Beim "**Abschließen & Buchen**" erscheint nun die Meldung "**Differenz als Unbare Trinkgelder buchen?**"
 
-{{< figure caption="Bei Eingabe von "0" als Zählbetrag entsteht der Buchungstext 'Unbare Trinkgelder'" >}}
+{{< figure caption="Bei Eingabe von '0' als Zählbetrag entsteht der Buchungstext 'Unbare Trinkgelder'" >}}
 
 ![](/uploads/ta8.png)
 
