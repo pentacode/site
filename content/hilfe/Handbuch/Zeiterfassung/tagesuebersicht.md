@@ -2,8 +2,7 @@
 title: Tagesübersicht
 weight: 
 icon: clock
-anchors:
-- zeiterfassung-mit-stempeluhr
+anchors: []
 
 ---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
