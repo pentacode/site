@@ -3,6 +3,7 @@
         <ul>
             {{ $currPage := . }} {{ range .Site.Sections }}
             {{ if not (eq .Title "Hilfe") }}
+            {{ if not (eq .Title "Alt") }}
             <li class="section-item {{ if eq . $currPage }}active{{ end }}">
                 <a href="{{ .RelPermalink }}">
                     {{ .Title }}
@@ -10,10 +11,11 @@
             </li>
             {{ end }}
             {{ end }}
+            {{ end }}
 
             <li class="section-item">
                 <a href='{{ .Param "contact_url" }}'>
-                    Contact
+                    Kontakt
                 </a>
             </li>
 

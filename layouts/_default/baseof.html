@@ -11,16 +11,15 @@
           gtag('config', 'G-MVP5NJ56FM');
         </script>
 
-        <title>
-            {{ block "title" . }}
-                {{ .Site.Title }}
-            {{ end }}
-        </title>
+        <title>{{ .Title }}</title>
 
         {{ block "meta" . }}
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <!-- <meta name="apple&#45;itunes&#45;app" content="app&#45;id=871710139"> -->
+        <meta name="description" content="{{ .Summary }}"></meta>
+        <meta name="og:title" content="{{ .Site.Title }}"></meta>
+        <meta name="og:description" content="{{ .Summary }}"></meta>
         {{ end }}
 
         {{ block "favicon" . }}
