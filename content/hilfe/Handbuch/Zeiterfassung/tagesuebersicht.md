@@ -1,7 +1,7 @@
 ---
 title: Tagesübersicht
 weight: 
-icon: stopwatch
+icon: clock
 anchors: []
 
 ---
