@@ -23,6 +23,7 @@ fields:
     label: title
 pages:
 - content/hilfe/Handbuch/Berichte/_index.md
+- content/hilfe/Handbuch/Berichte/ersparnis.md
 - content/hilfe/Handbuch/Dienstplan/_index.md
 - content/hilfe/Handbuch/Dienstplan/dienstplan-veroffentlichen.md
 - content/hilfe/Handbuch/Dienstplan/plan-ist-vergleich.md
