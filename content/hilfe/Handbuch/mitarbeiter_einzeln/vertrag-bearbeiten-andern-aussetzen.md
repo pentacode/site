@@ -7,7 +7,7 @@ anchors: []
 ---
 Um bei einem Mitarbeiter einen bestehenden Vertrag zu ändern, auszusetzen oder einen neuen Vertrag anzulegen, wählen Sie den entsprechenden **Mitarbeiter** und gehen dort auf **Vertrag**.
 
-Über das Stift-Symbol am rechten oberen Eck wählen Sie aus, was Sie nun tun wollen.
+Über das {{< icon "pencil-alt" >}}-Symbol am rechten oberen Eck wählen Sie aus, was Sie nun tun wollen.
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
@@ -107,7 +107,7 @@ Gehen Sie nun durch die einzelnen Menüpunkte und passen Sie diese eventuell an.
 
 Wenn Sie schließlich auf Vertrag klicken, öffnet der Vertrag, der zuletzt Gültigkeit hatte.
 
-Gehen Sie einfach auf "Neuer Vertrag" und legen Sie diesen an. 
+Gehen Sie einfach auf "Neuer Vertrag" und legen Sie diesen an.
 
 {{< figure caption="Legen Sie einen neuen Vertrag an" >}}
 
