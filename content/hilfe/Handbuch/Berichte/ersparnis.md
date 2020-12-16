@@ -3,7 +3,6 @@ title: Ersparnis
 weight: 
 icon: ''
 anchors: []
-draft: true
 
 ---
 Wenn Sie die elektronische Zeiterfassung von Pentacode nutzen, werden die Arbeitszeiten eines jeden MItarbeiters minutengenau ermittelt. Ebenso genau ermittelt werden die Abweichungen zwischen geplanter und tatsächlicher Arbeitszeit.
