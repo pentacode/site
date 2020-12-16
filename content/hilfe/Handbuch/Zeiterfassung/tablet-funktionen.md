@@ -1,7 +1,7 @@
 ---
 title: Tablet-Funktionen
 weight: 
-icon: sign-in-alt
+icon: tablet-alt
 anchors: []
 
 ---
