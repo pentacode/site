@@ -21,6 +21,18 @@ Bei der Berechnung der Einsaprungen werden ausschließlich abgeschlossene Arbeit
 
 Die tägliche Entwicklung wird durch eine Kurve dargestellt.
 
-Im oben gezeigten Beispiel hat ein Betrieb zur Monatsmitte in Summe 519 € eingespart. ins Verhältnis zu den Gebühren für die Nutzung von Pentacode führte dies im laufenden Monat bereits zu einer Verzinsung über 500%.
+Im oben gezeigten Beispiel hat ein Betrieb zur Monatsmitte in Summe 519 € eingespart. Ins Verhältnis zu den Gebühren für die Nutzung von Pentacode gesetzt, führte dies im laufenden Monat bereits zu einer Verzinsung über 500%.
 
 Dies bedeutet, dass die Einsparungen bereits nach zwei Wochen fünf-fach höher waren als die Kosten für die Software.
+
+In dieser Grafik wird die aufgelaufene Gesamtersparnis gezeigt. Seit Inbetriebnahme von Pentacode im Mai bis Mitte Dezember hat unsere Anwendungzu Einsaprungen in Höhe von 10.655 € geführt. Dies entspricht fast einem Prozent des Umsatzes.
+
+{{< figure caption="Hier sehen Sie die Gesamtersparnis" >}}
+
+![](/uploads/ersparnis2.png)
+
+{{< /figure >}}
+
+Die hier gezeigten Grafiken entstammen einem anonymisierten Echt-Betrieb, mit dem wir eine Test-Vereinbarung getroffen haben. Zum Zeitpunkt der Aufnahme dieser Screenshots waren 61 Mitarbeiter beschäftigt.
+
+Gemäß den Regeleinstellungen für die Zeiterfassung werden Minuten nicht gerundet und Raucherpausen nicht erfasst. Die Logzeiten werden lediglich am geplanten Dienstbeginn überprüft.
