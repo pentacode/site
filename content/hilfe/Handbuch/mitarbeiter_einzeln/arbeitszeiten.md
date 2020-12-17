@@ -1,10 +1,10 @@
 ---
 title: Arbeitszeiten
-weight:
-icon: hourglass-half
+weight: 
+icon: user-clock
 anchors: []
----
 
+---
 Mit **"Arbeitszeiten"** ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
 
 ## Übersicht
