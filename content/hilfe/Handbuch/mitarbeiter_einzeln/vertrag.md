@@ -1,10 +1,36 @@
 ---
 title: Vertrag
-weight:
-icon: ""
-anchors: []
----
+weight: 
+icon: file-contract
+anchors:
+- hash: lohn-/-gehalt-(-brutto-)
+  title: Lohn/Gehalt (brutto)
+- hash: 13-wochen-durchschnitt
+  title: 13-Wochen Durchschnitt
+- hash: feste-stundenzahl
+  title: Feste Stundenzahl
+- hash: fehlstundenberechnung
+  title: Fehlstundenberechnung
+- hash: jahresarbeitszeitkonto-vereinbart
+  title: Jahresarbeitszeitkonto Vereinbart
+- hash: feste-wochentage-abzgl.-feiertage
+  title: Feste Wochentage abzgl. Feiertage
+- hash: feste-wochentage
+  title: Feste Wochentage
+- hash: monatsgenau-ohne-feiertage
+  title: Monatsgenau Ohne Feiertage
+- hash: monatsgenau
+  title: Monatsgenau
+- hash: wochenfaktor
+  title: Wochenfaktor
+- hash: arbeitszeit
+  title: Arbeitszeit
+- hash: beschäftigungsverhältnis
+  title: Beschäftigungsverhältnis
+- hash: vertragslaufzeit
+  title: Vertragslaufzeit
 
+---
 Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
 
 Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt den Vereinbarungen entsprechen, die Sie mit dem Mitarbeiter laut Arbeitsvertrag getroffen haben.
