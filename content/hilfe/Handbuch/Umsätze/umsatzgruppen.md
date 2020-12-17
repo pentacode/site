@@ -1,19 +1,29 @@
 ---
 title: Umsatzgruppen
-weight: 
-icon: ''
-anchors: []
+weight: 1
+icon: layer-group
+anchors:
+- hash: anlegen-von-umsatzgruppen
+  title: Anlegen von Umsatzgruppen
+- hash: bestehende-einträge-in-gruppen-zusammenfassen
+  title: Bestehende Einträge zusammenfassen
+- hash: reihenfolge-der-umsatzgruppen
+  title: Reihenfolge der Umsatzgruppen
+- hash: neue-umsätze-anlegen
+  title: Neue Umsätze anlegen
+- hash: zahlungswege
+  title: Zahlungswege
 
 ---
-Im Menüpunkt "**Umsatzgruppen**" die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
+Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
 
-Darüberhinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
+Darüber hinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
 
-### Anlegen von Umsatzgruppen
+## Anlegen von Umsatzgruppen
 
 Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" >}}
 
 ![](/uploads/umsatzgruppe1.png)
 
@@ -21,17 +31,17 @@ Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungs
 
 Die Umsatzgruppe wird durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das Kassenbuch geschrieben**.
 
-Wenn Sie ds Kassenbuch nicht in Pentacodee führen wollen, wählen Sie den Button ab. Der Umsatz fließt dann nur in das Berichtswesen und Ihre Planung ein.
+Wenn Sie das **Kassenbuch nicht** in Pentacode führen wollen, wählen Sie den Button ab. Der **Umsatz** fließt dann nur in das **Berichtswesen** und Ihre **Planung** ein.
 
-### Bestehende Einträge in Umsatzgruppen zusammenfassen
+## Bestehende Einträge in Umsatzgruppen zusammenfassen
 
 Sie haben bereits mit der Tagesabrechnung gearbeitet, bevor Sie Umsatzgruppen angelegt haben?
 
 In diesem Fall finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die aus bereits erfolgten **Tagesabrechnungen** stammt. Diese Liste entsteht ausschließlich aus Einträgen in der Tagesabrechnung und kann hier **nicht bearbeitet oder ergänzt** werden.
 
-Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**
+Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**".
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Ziehen Sie bestehende Umsätze aus der Liste per drag & drop in die zutreffende Umsatzgruppe" >}}
 
 ![](/uploads/umsatzgruppe2.png)
 
@@ -39,7 +49,7 @@ Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, d
 
 Wenn Sie dies für die Zukunft vereinheitlichen wollen, **ziehen** Sie nun die **gewünschten Einträge** in der Liste einfach per "drag & drop" **in die Gruppe**.
 
-{{< figure caption="Ziehen Sie bestehende Umsätze aus der Liste per drag & drop in die Umsatzgruppe" >}}
+{{< figure caption="Unterschiedliche Angaben werden damit automatisch vereinheitlicht" >}}
 
 ![](/uploads/umsatzgruppe3.png)
 
@@ -49,9 +59,9 @@ Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und 
 
 **Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
 
-### Reihenfolge der Umsatzgruppen
+## Reihenfolge der Umsatzgruppen
 
-Mit der **linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
+Mit der **gedrückten linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
 
 {{< figure caption="Bringen Sie die Gruppen in die von Ihnen gewünschte Reihenfolge" >}}
 
@@ -67,11 +77,11 @@ In dieser **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tage
 
 {{< /figure >}}
 
-### Neue Umsätze anlegen
+## Neue Umsätze anlegen
 
 **Umsatzarten**, die Sie in der **Vergangenheit** angelegt haben und die nicht in einer Gruppe zusammengefasst sind, können Sie der Abrechnung des Geschäftstages über das **Dropdown-Menü hinzufügen**.
 
-Und Sie können natürlich weiterhin neue Umsatzarten anlegen und diese evtl. einer bestehenden Gruppe hinzufügen.
+Und in der "**Tagesabrechnung**" können natürlich weiterhin **neue Umsatzarten anlegen** und diese evtl. einer bestehenden Gruppe hinzufügen.
 
 {{< figure caption="Sie können bestehenden Umsatzarten jederzeit weitere Umsätze hinzufügen" >}}
 
@@ -83,9 +93,9 @@ Und Sie können natürlich weiterhin neue Umsatzarten anlegen und diese evtl. ei
 
 **Umsätze, die keiner Gruppe angehören, werden bei der Dienstplanung gegen Umsatz-Ziele nicht berücksichtigt!**
 
-### Zahlungswege
+## Zahlungswege
 
-In derselben Weise können Sie die unbaren Zahlungsarten und sehr häufig wiederkehrende Barzahlungsgeschäfte organisieren.
+In derselben Weise, in der Sie Umsatzgruppen angelegt haben, können Sie die unbaren Zahlungsarten, aber auch sehr häufig wiederkehrende Barausgaben organisieren.
 
 {{< figure caption="Ihre Kartenzahlungen können Sie auf dieselbe Weise organisieren" >}}
 
