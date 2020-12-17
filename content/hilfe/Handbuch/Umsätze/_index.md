@@ -5,9 +5,9 @@ icon: euro-sign
 anchors: []
 
 ---
-Ein der kaufmännischer Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Im Anschluss an diese Erfassung spielt sich der Rest Ihrer Finanzbuchhaltung ab. Sofern in Ihrem Unternehmen Bargeldverkehr stattfindet, führen Sie ein Kassenbuch, Sie erfassen Ihre Debitoren, wenn Sie Gehaltsvorschüsse gewähren, führen Sie eine entsprechende Liste und Sie managen die Kreditoren.
+In Pentacode können Sie mit einem Aufwand von etwa 3 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Tagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
 
-Mit Ausnahme Ihrer Kreditorenbuchhaltung geschieht all dies in Pentacode vollständig automatisch.
+Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
 
 Das Einzige, was Sie hierfür tun müssen, ist: Sie rechnen Ihren Geschäftstag ab.
 
