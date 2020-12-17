@@ -1,8 +1,10 @@
 ---
 title: Tablet-Funktionen
-weight: 
+weight: 2
 icon: tablet-alt
-anchors: []
+anchors:
+- hash: log-in-durch-mitarbeiter
+  title: Log-in durch Mitarbeiter
 
 ---
 ## Log-in durch Mitarbeiter
