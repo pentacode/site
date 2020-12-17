@@ -2,12 +2,14 @@
 title: Planung nach Stundenvorgaben
 weight: 
 icon: hourglass-half
-anchors: []
+anchors:
+- hash: stundenvorgabe-nach-umsatz-zielen
+  title: Stundenvorgabe nach Umsatz-Zielen
+- hash: dienstplanung-mit-stundenvorgabe
+  title: Dienstplanung mit Stundenvorgabe
 
 ---
 Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.
-
-Im ersten Augenblick mag sich dieser zusätzliche Schritt bei der Planung aufwändig "anfühlen". Tatsächlich wird er pro Woche nicht mehr als 15 Minuten Zeit in Anspruch nehmen. Die Wirkung auf die Personalkosten hingegen beschert diesem Mehraufwand einen fulminanten Unternehmerlohn.
 
 ## Dienstplanung mit Stundenvorgabe
 
@@ -59,7 +61,7 @@ Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungszi
 
 Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvorgaben Ihren **Umsatzerwartungen** anpassen.
 
-Durch das Anklicken des €-Symbols in der Fußleiste werden Ihren Stundenvorgaben die Planumsätze hinzugefügt und die daraus resultierende **Produktivität** gezeigt. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
+Durch das Anklicken des **€**-Symbols in der Fußleiste werden Ihren Stundenvorgaben die Planumsätze hinzugefügt und die daraus resultierende **Produktivität** gezeigt. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
 
 {{< figure caption="So können Sie Ihre Stundenvorgaben mit Ihren Umsatz-Zielen verknüpfen" >}}
 
@@ -75,9 +77,9 @@ Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung de
 
 {{< /figure >}}
 
-Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz von 1.200 € geplant.. Der Stundenaufwand im Standard sihte für diesen Tag 20 Arbeitsstunden. Dies würde zu einer Produktivität von 63,50 € führen.
+Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz von 1.200 € geplant.. Der Stundenaufwand im Standard sieht für diesen Tag 20 Arbeitsstunden. Dies würde zu einer Produktivität von 63,50 € führen.
 
-{{< figure caption="Eine Veränderung der STundenanzahl führt zu einer Veränderung der Produktivität" >}}
+{{< figure caption="Eine Veränderung der Stundenanzahl führt zu einer Veränderung der Produktivität" >}}
 
 ![](/uploads/umsatzpl-11.png)
 
