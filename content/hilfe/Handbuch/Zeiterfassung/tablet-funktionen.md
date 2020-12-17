@@ -3,6 +3,8 @@ title: Tablet-Funktionen
 weight: 2
 icon: tablet-alt
 anchors:
+- hash: anzeige-am--tablet
+  title: Anzeige am Tablet
 - hash: log-in-durch-mitarbeiter
   title: Log-in durch Mitarbeiter
 
