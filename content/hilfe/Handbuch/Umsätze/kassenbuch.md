@@ -1,8 +1,20 @@
 ---
 title: Kassenbuch
 weight: 
-icon: ''
-anchors: []
+icon: balance-scale
+anchors:
+- hash: festschreibung-des-Kassenbuchs
+  title: Festschreibung des Kassenbuchs
+- hash: kassenbuch-exportieren
+  title: Kassenbuch exportieren
+- hash: suchfunktion
+  title: Suchfunktion
+- hash: splittbuchung
+  title: Splittbuchung
+- hash: überwachung-des-kassensaldos
+  title: Überwachung des Kassensaldos
+- hash: erfassen-von-einnahmen-&-ausgaben
+  title: Erfassen von Einnahmen & Ausgaben
 
 ---
 Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der Tagesabrechnung.
@@ -13,9 +25,9 @@ Wenn Sie z.B. am Montag eine Bankeinzahlung durchführen, so zahlen Sie das Barg
 
 Weitere Beispiele für Ausgaben, die in das Kassenbuch einzutragen sind, wären: Geldentnahmen aus dem Tresor für Einkäufe oder für Vorschüsse, die nicht aus der "Restaurantkasse" gezahlt werden, sondern die sich Mitarbeiter "im Büro" abholen u.ä.m.
 
-## Erfassen von Einnahmen & Ausgaben im Kassenbuch
+## Erfassen von Einnahmen & Ausgaben
 
-Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden darüberhinaus automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
+Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden darüber hinaus automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
 
 {{< figure caption="Über das + Zeichen können Einnahmen und Ausgaben im Kassenbuch erfasst werden" >}}
 
