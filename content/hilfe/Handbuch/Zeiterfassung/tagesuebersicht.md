@@ -1,10 +1,26 @@
 ---
 title: Tagesübersicht
-weight: 
+weight: 3
 icon: clock
 anchors:
-- hash: ''
-  title: ''
+- hash: zeiterfassung-mit-stempeluhr
+  title: Zeiterfassung MIT Stempeluhr
+- hash: pausen-&-mahlzeiten
+  title: Pausen & Mahlzeiten
+- hash: provision
+  title: Provision
+- hash: änderung-von-geloggten-zeiten
+  title: Änderung von geloggten Zeiten
+- hash: status
+  title: Status
+- hash: zeiterfassung-ohne-stempeluhr
+  title: Zeiterfassung OHNE Stempeluhr
+- hash: änderung-von-arbeitszeiten
+  title: Änderung von Arbeitszeiten
+- hash: pausen
+  title: Pausen
+- hash: abteilungen-filtern
+  title: Abteilungen filtern
 
 ---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
