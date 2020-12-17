@@ -1,8 +1,10 @@
 ---
 title: Einrichten der Stempeluhr
-weight: 
+weight: 1
 icon: stopwatch
 anchors:
+- hash: einrichten-eines-ios-tablets
+  title: iOS-Tablet
 - hash: einrichten-eines-android-tablets
   title: Android Tablet
 
