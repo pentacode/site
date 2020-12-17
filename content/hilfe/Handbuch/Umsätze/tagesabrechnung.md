@@ -1,13 +1,35 @@
 ---
 title: Tagesabrechnung
-weight:
-icon: ""
-anchors: []
+weight: 
+icon: hand-holding-usd
+anchors:
+- hash: umsatzerfassung-mit-umsatzgruppen
+  title: Umsatzerfassung MIT Umsatzgruppen
+- hash: umsatzerfassung-ohne-umsatzgruppen
+  title: Umsatzerfassung OHNE Umsatzgruppen
+- hash: unbare-zahlungen
+  title: Unbare Zahlungen
+- hash: auf-rechnung
+  title: Auf Rechnung
+- hash: ausgaben
+  title: Ausgaben
+- hash: gehaltsvorschüsse
+  title: Gehaltsvorschüsse
+- hash: bargeld-saldo
+  title: Bargeld Saldo
+- hash: zählprotokoll
+  title: Zählprotokoll
+- hash: kassendifferenz
+  title: Kassendifferenz
+- hash: unbare-trinkgelder
+  title: Unbare Trinkgelder
+- hash: zwischenspeichern
+  title: Zwischenspeichern
+- hash: abschließen-&-buchen
+  title: Abschließen & Buchen
+
 ---
-
-In Pentacode können Sie mit einem Aufwand von etwa 3 Minuten Ihren Geschäftstag abrechnen und damit Ihre gesamte Fibu mit Ausnahme der Kreditoren erledigen. Hier erfahren Sie, wie Sie eine Teagesabrechnung durchführen und was Sie dazu einmalig vorbereiten sollten.
-
-Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
+Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Die erledigen Sie in der "Tagesabrechnung" von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.
 
 ## Abrechnung des Geschäftstages
 
@@ -45,7 +67,7 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 
 **Empfehlung**: Sollten Sie in Zukunft das Management Informations System von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und durch das MIS z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
-### "Unbare Zahlungen"
+### Unbare Zahlungen
 
 **Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
 
@@ -59,7 +81,7 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 
 Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem angeschlossen ist, kann der Kassenbericht zu den Finanzwegen irrtumsfrei verwendet werden.
 
-### "Auf Rechnung"
+### Auf Rechnung
 
 **Debitoren**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
@@ -69,7 +91,7 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 {{< /figure >}}
 
-### "Ausgaben"
+### Ausgaben
 
 **Ausgaben**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
@@ -83,7 +105,7 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 **Alle anderen Ausgaben** sind im **Kassenbuch** zu erfassen. Sehen Sie hierzu bitte den Artikel **"Kassenbuchführung"**.
 
-### "Gehaltsvorschüsse"
+### Gehaltsvorschüsse
 
 Wenn Sie in das Eingabefeld **"Gehaltsvorschüsse"** klicken, erscheint eine Dropdown-Liste der **aktuell beschäftigten Mitarbeiter** in alphabetischer Reihenfolge nach Vornamen.
 
@@ -147,7 +169,7 @@ Wenn Sie dies bestätigen, entsteht in der Abrechnung und im Kassenbuch die Posi
 
 Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsprechende Buchung im Kassenbuch z.B. mit dem Text "Auszahlung Trinkgeld" als Ausgabe durch.
 
-### "Zwischenspeichern"
+### Zwischenspeichern
 
 Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Abschließen & Buchen" durchführen.
 
@@ -163,7 +185,7 @@ Das **"Zwischenspeichern"** ist **ZWINGEND notwendig**. **Nicht gespeicherte Dat
 
 Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein **"Zwischenspeichern"** kann **beliebig häufig** vorgenommen werden.
 
-### "Abschließen & Buchen"
+### Abschließen & Buchen
 
 Die Funktion **"Abschließen & Buchen"** (**7**) ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
 
