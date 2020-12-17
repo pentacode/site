@@ -2,12 +2,14 @@
 title: Tagesübersicht
 weight: 
 icon: clock
-anchors: []
+anchors:
+- hash: ''
+  title: ''
 
 ---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
 
-Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn **oder** nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
+Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn, bzw. nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
 
 ## Zeiterfassung MIT Stempeluhr
 
@@ -19,9 +21,9 @@ Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die **geplanten Arbe
 
 {{< /figure >}}
 
-Sollte sich ein Mitarbeiter außerhalb der ovn Ihnen festgelegten "Karenz-Zeit" eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein "**?**".
+Sollte sich ein Mitarbeiter außerhalb der von Ihnen festgelegten "Karenz-Zeit" eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein "**?**".
 
-Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, die so **nicht geplant** war.
+Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, die **so nicht geplant** war.
 
 {{< figure caption="Diese Arbeitszeit war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine '**Spontane Schicht**' angetreten" >}}
 
@@ -45,7 +47,7 @@ Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **>
 
 {{< figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat" >}}
 
-![](/uploads/provision.png)
+![](/uploads/provision1.png)
 
 {{< /figure >}}
 
@@ -63,7 +65,7 @@ Zum Status eines Mitarbeiters gibt es folgende Meldungen:
 
 Bei **aktuell laufenden** oder noch **nicht begonnen Schichten** können noch **keine Zeiteingaben** manuell vorgenommen werden. Zeiten können in diesem Fall ausschließlich durch Log-in/Log-out des Mitarbeiters über die Stempeluhr übernommen werden.
 
-Lediglich beim Status "**verspätet**" oder "**nicht abgemeldet**" können Daten **manuell** in die Rot gekennzeichneten Felder **eingegeben** werden.
+Lediglich beim Status "**verspätet**" oder "**nicht abgemeldet**" können Daten **manuell** in die Rot gekennzeichneten Felder **eingegeben** werden. **Abgeschlossene Arbeitstage** können jederzeit korrigiert werden.
 
 ## Zeiterfassung OHNE Stempeluhr
 
@@ -71,9 +73,9 @@ Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die Arbeitszeiten
 
 Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächliche Arbeitszeit immer **identisch**. Es gibt deshalb auch nur den Status "**fertig**".
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Wenn Sie ohne Stempeluhr arbeiten, entspricht die geplante Arbeitzeit und tatsächlich Arbeitszeit immer identisch" >}}
 
-**KANN NICHT EINFÜGEN ?!**
+**![](/uploads/ohne-stempeluhr1.png)**
 
 {{< /figure >}}
 
@@ -97,7 +99,7 @@ Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit
 
 Wenn in Ihrem Unternehmen sehr viele Mitarbeiter beschäftigt sind, kann die Ansicht übersichtlicher dargestellt werden, indem Sie einzelne Abteilungen durch das Entfernen eines Button abwählen.
 
-Die gewählten Abteilungen sind dann nicht mehr sichtbar.
+Die abgewählten Abteilungen sind dann nicht mehr sichtbar.
 
 {{< figure caption="Sie können Abteilungen durch Entfernen des Buttons ausblenden" >}}
 
