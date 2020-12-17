@@ -1,7 +1,7 @@
 ---
 title: Kassenbuch
 weight: 
-icon: balance-scale
+icon: book-open
 anchors:
 - hash: festschreibung-des-Kassenbuchs
   title: Festschreibung des Kassenbuchs
