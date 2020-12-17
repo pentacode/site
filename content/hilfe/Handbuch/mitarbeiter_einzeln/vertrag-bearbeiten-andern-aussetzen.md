@@ -1,6 +1,6 @@
 ---
 title: Verträge
-weight: 0
+weight: 
 icon: file-signature
 anchors:
 - hash: vertrag-bearbeiten
@@ -31,7 +31,7 @@ Um bei einem Mitarbeiter einen bestehenden Vertrag zu ändern, auszusetzen oder 
 
 Um Angaben zu ändern oder zu ergänzen, überschreiben Sie diese einfach und speichern dann.
 
-**WICHTIG!** Wenn Sie Angaben ergänzen oder verändern, reichen diese **Änderungen** in die **Vergangenheit** zurück. Insbesonders alle **arbeitszeit- und lohnrelevanten Werte** zu einem Mitarbeiter werden somit **neu berechnet**.
+**WICHTIG!** Wenn Sie Angaben ergänzen oder verändern, reichen diese **Änderungen** in die **Vergangenheit** zurück. Insbesondere alle **arbeitszeit- und lohnrelevanten Werte** zu einem Mitarbeiter werden somit **neu berechnet**.
 
 Diese Vergangenheit reicht bis zum Beginn des aktuell gültigen Vertrags zurück.
 
