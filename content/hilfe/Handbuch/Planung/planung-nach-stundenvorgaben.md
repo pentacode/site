@@ -1,13 +1,13 @@
 ---
 title: Planung nach Stundenvorgaben
-weight:
-icon: calendar-alt
+weight: 
+icon: hourglass-half
 anchors: []
----
 
+---
 Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.
 
-Im ersten Augenblick mag sich dieser zusätzliche Schritt bei der Planung aufwändig "anfühlen". Tatsächlich wird er pro Woche nicht mehr als 15 Minuten Zeit in Anspruch nehmen. DIe WIrkung auf die Personalkosten hingegen beschert diesem Mehraufwand einen fulminanten Unternehmerlohn.
+Im ersten Augenblick mag sich dieser zusätzliche Schritt bei der Planung aufwändig "anfühlen". Tatsächlich wird er pro Woche nicht mehr als 15 Minuten Zeit in Anspruch nehmen. Die Wirkung auf die Personalkosten hingegen beschert diesem Mehraufwand einen fulminanten Unternehmerlohn.
 
 ## Dienstplanung mit Stundenvorgabe
 
