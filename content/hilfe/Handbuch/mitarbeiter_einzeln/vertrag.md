@@ -3,6 +3,12 @@ title: Vertrag
 weight: 
 icon: file-contract
 anchors:
+- hash: ein-mitarbeiter---mehrere-löhne
+  title: Ein Mitarbeiter - mehrere Löhne
+- hash: lohnartensatz
+  title: Lohnartensatz
+- hash: provision
+  title: Provision
 - hash: lohn-/-gehalt-(-brutto-)
   title: Lohn/Gehalt (brutto)
 - hash: 13-wochen-durchschnitt
