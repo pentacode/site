@@ -3,38 +3,48 @@ title: Vertrag
 weight: 
 icon: file-contract
 anchors:
-- hash: ein-mitarbeiter---mehrere-löhne
-  title: Ein Mitarbeiter - mehrere Löhne
-- hash: lohnartensatz
-  title: Lohnartensatz
-- hash: provision
-  title: Provision
-- hash: lohn-/-gehalt-(-brutto-)
-  title: Lohn/Gehalt (brutto)
-- hash: 13-wochen-durchschnitt
-  title: 13-Wochen Durchschnitt
-- hash: feste-stundenzahl
-  title: Feste Stundenzahl
-- hash: fehlstundenberechnung
-  title: Fehlstundenberechnung
-- hash: jahresarbeitszeitkonto-vereinbart
-  title: Jahresarbeitszeitkonto Vereinbart
-- hash: feste-wochentage-abzgl.-feiertage
-  title: Feste Wochentage abzgl. Feiertage
-- hash: feste-wochentage
-  title: Feste Wochentage
-- hash: monatsgenau-ohne-feiertage
-  title: Monatsgenau Ohne Feiertage
-- hash: monatsgenau
-  title: Monatsgenau
-- hash: wochenfaktor
-  title: Wochenfaktor
-- hash: arbeitszeit
-  title: Arbeitszeit
-- hash: beschäftigungsverhältnis
-  title: Beschäftigungsverhältnis
 - hash: vertragslaufzeit
   title: Vertragslaufzeit
+- hash: beschäftigungsverhältnis
+  title: Beschäftigungsverhältnis
+- hash: arbeitszeit
+  title: Arbeitszeit
+- hash: wochenfaktor
+  title: Wochenfaktor
+- hash: monatsgenau
+  title: Monatsgenau
+- hash: monatsgenau-ohne-feiertage
+  title: Monatsgenau Ohne Feiertage
+- hash: feste-wochentage
+  title: Feste Wochentage
+- hash: feste-wochentage-abzgl.-feiertage
+  title: Feste Wochentage abzgl. Feiertage
+- hash: jahresarbeitszeitkonto-vereinbart
+  title: Jahresarbeitszeitkonto Vereinbart
+- hash: fehlstundenberechnung
+  title: Fehlstundenberechnung
+- hash: feste-stundenzahl
+  title: Feste Stundenzahl
+- hash: 13-wochen-durchschnitt
+  title: 13-Wochen Durchschnitt
+- hash: lohn-/-gehalt-(-brutto-)
+  title: Lohn/Gehalt (brutto)
+- hash: provision
+  title: Provision
+- hash: lohnartensatz
+  title: Lohnartensatz
+- hash: ein-mitarbeiter---mehrere-löhne
+  title: Ein Mitarbeiter - mehrere Löhne
+- hash: zusatzleistungen
+  title: Zusatzleistungen
+- hash: urlaub-&-fehltage
+  title: Urlaub & Fehltage
+- hash: zuschläge
+  title: Zuschläge
+- hash: zuschläge-kumulieren
+  title: Zuschläge kumulieren
+- hash: monatliche-sfn---pauschale
+  title: Monatliche SFN-Pauschale
 
 ---
 Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
@@ -137,7 +147,7 @@ Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen ar
 
 Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in einem Monat auftritt.
 
-Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein MItarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
+Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein Mitarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
 
 ### Feste Wochentage abzgl. Feiertage
 
@@ -151,7 +161,7 @@ Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden
 
 Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
-In diesem Fall erhalten Sie in Pentacode eine _Problemmeldung_.
+In diesem Fall erhalten Sie in Pentacode eine _Problem Meldung_.
 
 Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos** vereinbaren.
 
