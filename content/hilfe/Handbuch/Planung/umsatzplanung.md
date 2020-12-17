@@ -1,19 +1,15 @@
 ---
 title: Umsatzplanung
 weight: 
-icon: ''
+icon: paper-plane
 anchors: []
 
 ---
-Um Ihre Dienstplanung wirtschaftlich möglichst effektiv zu gestalten, können Sie den geplanten Zeitaufwand der Mitarbeiter am Umsatz orientieren, der für einen bestimmten Geschäftstag erwartet wird.
-
-Für diese Art der Planung ist es notwendig, dass Sie Umsatzgruppen anlegen und Ihre täglichen Umsätze zumindest statistisch erfassen. (Erfahren Sie hierzu mehr in den Hilfeartikeln des Ordners "Umsätze".)
-
 ## Umsätze planen
 
-Wenn Sie den Haupt-Menüpunkt "Planung" anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die Umsätze, die Ihr Unternehmen an den verschiedenen Wochentagen durchschnittlich erzielt hat.
+Wenn Sie den Haupt-Menüpunkt "**Planung**" anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die **Umsätze**, die Ihr Unternehmen **an den verschiedenen Wochentagen durchschnittlic**h erzielt hat.
 
-In der Standardeinstellung wird Ihnen der Durchschnitt der letzten 4 Wochen gezeigt.
+In der **Standardeinstellung** wird Ihnen der **Durchschnitt** der letzten **4 Wochen** gezeigt.
 
 {{< figure caption="Hier sehen Sie die unterschiedlichen Umsatzarten in ihrem täglichen Durchschnitt" >}}
 
@@ -29,9 +25,9 @@ Wenn Sie in einen Umsatz klicken, erscheint ein Menü, das Ihnen zeigt, in welch
 
 {{< /figure >}}
 
-Unter den Umsätzen finden Sie die Abteilungen, denen Sie die Umsätze zugeordnet haben.
+Unter den Umsätzen finden Sie die **Abteilungen**, denen Sie die Umsätze zugeordnet haben.
 
-Mit Mouse-over erscheint ein Menü, das Ihnen zeigt wie sich der Umsatz der Abteilung am jeweiligen Wochentag zusammensetzt.
+Mit **Mouse-ove**r erscheint ein Menü, das Ihnen zeigt wie sich der Umsatz der Abteilung am jeweiligen Wochentag zusammensetzt.
 
 {{< figure caption="Mit Mouse-over sehen Sie die Zusammensetzung des Umsatzes der Abteilung am entsprechenden Wochentag" >}}
 
@@ -39,7 +35,7 @@ Mit Mouse-over erscheint ein Menü, das Ihnen zeigt wie sich der Umsatz der Abte
 
 {{< /figure >}}
 
-Wenn Sie auf das ...-Symbol klicken, erscheint in der Kopfzeile ein Dopdown-Pfeil, über den Sie den Durchschnitts-Zeitraum ändern können.
+Wenn Sie auf das **Ø**-Symbol klicken, erscheint in der Kopfzeile ein **Dropdown-Pfeil,** über den Sie den **Durchschnitts-Zeitraum ändern** können.
 
 {{< figure caption="So können Sie den Durchschnitt ändern" >}}
 
@@ -47,7 +43,7 @@ Wenn Sie auf das ...-Symbol klicken, erscheint in der Kopfzeile ein Dopdown-Pfei
 
 {{< /figure >}}
 
-Sie können für die Planung Ihrer Umsatzerwartung den Durchschnitt verwenden und ihn nach oben oder unten korrigieren, indem Sie den Punkt auf der Skala nach links oder rechts verschieben.
+Sie können für die **Planung** Ihrer Umsatzerwartung den **Durchschnitt verwenden** und ihn **nach oben oder unten korrigieren**, indem Sie den Punkt auf der Skala **nach links oder rechts** verschieben.
 
 {{< figure caption="Durch das Verschieben des 'Reglers' können Sie den Umsatz pauschal planen" >}}
 
@@ -57,7 +53,7 @@ Sie können für die Planung Ihrer Umsatzerwartung den Durchschnitt verwenden un
 
 Bei dieser Vorgehensweise werden mit dem Gesamtumsatz sowohl die einzelnen Umsatzarten, wie auch die Umsätze der einzelnen Abteilungen im gleichbleibenden Verhältnis zueinander und linear erhöht oder herabgesetzt.
 
-Durch unmittelbares Überschreiben können Sie eine Umsatzart gezielt ändern.
+Durch **unmittelbares Überschreiben** können Sie eine Umsatzart **gezielt** ändern.
 
 {{< figure caption="Durch Überschreiben können Sie eine Umsatzart gezielt planen" >}}
 
