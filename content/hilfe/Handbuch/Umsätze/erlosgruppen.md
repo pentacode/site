@@ -1,7 +1,7 @@
 ---
 title: Erlöszuordnung
 weight: 
-icon: ''
+icon: thumbtack
 anchors: []
 
 ---
