@@ -1,10 +1,16 @@
 ---
 title: Buchhaltung
-weight:
-icon: ""
-anchors: []
----
+weight: 
+icon: abacus
+anchors:
+- hash: allgemein
+  title: Allgemein
+- hash: kassenbuch
+  title: Kassenbuch
+- hash: lohnarten
+  title: Lohnarten
 
+---
 "_Wer den Kern essen will, muss die Nuss knacken_". Leider.
 
 Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
@@ -13,7 +19,7 @@ Um den Export durchführen zu können, ist es leider notwendig, diesen einmalig 
 
 Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum spannendsten, was der Arbeitsalltag zu bieten hat. Der einmalige Aufwand wird sich durch die Zeitersparnis in Zukunft jedoch in jedem einzelnen Monat zig-fach ausbezahlen.
 
-### Allgemein
+## Allgemein
 
 Geben Sie hier die Beraternummer (optional) Ihrer Buchhaltung und die Mandantennummer (empfehlenswert) ein, unter der Sie bei der Buchhaltung geführt werden.
 
@@ -23,7 +29,7 @@ Geben Sie hier die Beraternummer (optional) Ihrer Buchhaltung und die Mandantenn
 
 {{< /figure >}}
 
-### Kassenbuch
+## Kassenbuch
 
 Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch geführt wird.
 
@@ -33,7 +39,7 @@ Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch gef
 
 {{< /figure >}}
 
-### Lohnarten
+## Lohnarten
 
 "Bewegungsdaten" ist das Amtsdeutsch für Arbeits- Fehl-, Zuschlagszeiten u.a.m., was Ihre Lohnbuchhaltung für die Abrechnung der Löhne benötigt. Wenn Sie diese Bewegungsdaten an die Buchhaltung exportieren wollen, müssen Sie die "Lohnarten" festlegen. Als Lohnarten werden jene Konten genannt, in denen die verschiedenen Datensätze gebucht werden.
 
