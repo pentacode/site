@@ -93,11 +93,11 @@ Indem Sie das Pfeilsymbol am rechten oberen Rand anklicken, erhalten Sie eine Li
 
 ## Ausgeschiedene Mitarbeiter erneut einstellen
 
-Wenn ein Mitarbeiter bereits einma in Ihrem Unternehmen gearbeitet hat und Sie ihn erneut einstellen, können Sie dies auf sehr einfache und mühelose Weise bewerkstelligen.
+Wenn ein Mitarbeiter bereits einmal in Ihrem Unternehmen gearbeitet hat und Sie ihn erneut einstellen, können Sie dies auf sehr einfache und mühelose Weise bewerkstelligen.
 
 Gehen Sie zuerst auf "Mitarbeiter", filtern Sie dort über das Trichtersymbol die Mitarbeiter nach "Ausgeschieden" und suchen Sie nach dem Namen.
 
-{{< figure caption="So filtern Sie über das Trichter-Symbol nach ausgeschiedenen Mitarbeitern" >}}
+{{< figure caption="So filtern Sie über das {{< icon "filter" >}}-Symbol nach ausgeschiedenen Mitarbeitern" >}}
 
 ![](/uploads/erneut-einstellen1.png)
 
@@ -125,4 +125,4 @@ Gehen Sie einfach auf "Neuer Vertrag" und legen Sie diesen an.
 
 {{< /figure >}}
 
-Das war's. Der Mitarbeiter istnun wieder ein Angestellter Ihres Unternehmens.
+Das war's. Der Mitarbeiter ist nun wieder ein Angestellter Ihres Unternehmens.
