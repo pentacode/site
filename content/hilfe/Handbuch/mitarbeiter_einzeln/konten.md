@@ -7,7 +7,7 @@ anchors: []
 ---
 Im Menüpunkt "**Konten**" finden Sie das **Jahresarbeitszeit**- **Urlaubs**- und **Zuschlagskonto** des gewählten Mitarbeiters. Diese Konten werden in ihrer Entwicklung während des jeweiligen Monats dargestellt, der zum Monatsende jeweils aufgelaufene Saldo findet sich in der Spalte "**Saldo**". Der aktuelle **Gesamtsaldo** wird in der **Kopfzeile** des jeweiligen Kontos ausgewiesen.
 
-Zum **Jahreswechsel** findet automatisch ein _Übertrag_ der saldierten Werte statt. Die Weiterrechnung erfolgt auf Grundlage des Übertrags.
+Zum **Jahreswechsel** findet automatisch ein Übertrag der saldierten Werte statt. Die Weiterrechnung erfolgt auf Grundlage des Übertrags.
 
 ## Stunden
 
