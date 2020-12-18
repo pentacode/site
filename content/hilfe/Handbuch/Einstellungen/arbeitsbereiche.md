@@ -1,8 +1,22 @@
 ---
 title: Arbeitsbereiche
 weight: 
-icon: cog
-anchors: []
+icon: cubes
+anchors:
+- hash: neuer-standort
+  title: Neuer Standort
+- hash: standort-bearbeiten
+  title: Standort bearbeiten
+- hash: standort-archivieren
+  title: Standort archivieren
+- hash: neue-abteilung
+  title: Neue Abteilung
+- hash: abteilung-bearbeiten
+  title: Abteilung bearbeiten
+- hash: abteilung-archivieren
+  title: Abteilung archivieren
+- hash: reihenfolge-der-abteilungen-ändern
+  title: Reihenfolge der Abteilungen ändern
 
 ---
 In diesem Menüpunkt legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"Zeiterfassung"** definiert haben.
@@ -25,7 +39,7 @@ Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mi
 
 ## Standort bearbeiten
 
-Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
+Durch Anklicken des {{< icon "ellipsis-h" >}}-Symbols am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
 
 {{< figure caption="So können Sie einen bestehenden Standort bearbeiten" >}}
 
@@ -35,7 +49,7 @@ Durch Anklicken der **drei waagrechten Punkte** am rechten oberen Eck können Si
 
 ## Standort archivieren
 
-Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn durch das "**Standort Archivieren"** entfernen. Alle Daten zu diesem Standort, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
+Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn über das {{< icon "archive" >}}-Symbol **archivieren**. Der Standort ist dann nicht mehr sichtbar, alle Daten, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
 {{< figure caption="So können Sie einen bestehnden Standort archivieren" >}}
 
@@ -77,7 +91,7 @@ Wenn Sie auf eine Abteilung klicken, öffnet diese und kann wie oben beschrieben
 
 Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen, dass diese weiterhin im Dienstplan gezeigt wird, können Sie diese **archivieren**.
 
-Öffnen Sie die Abteilung und klicken Sie auf das **Archiv-Symbo**l
+Öffnen Sie hierzu die Abteilung und klicken Sie auf das {{< icon "archive" >}}**-**Symbol
 
 {{< figure caption="So können Sie eine Abteilung archivieren" >}}
 
