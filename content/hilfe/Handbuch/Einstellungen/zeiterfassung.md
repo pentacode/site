@@ -2,12 +2,38 @@
 title: Zeiterfassung
 weight: 
 icon: cog
-anchors: []
+anchors:
+- hash: einstellungen-mit-stempeluhr
+  title: Einstellungen MIT Stempeluhr
+- hash: definition-der-pausen
+  title: Definition der Pausen
+- hash: zusätzliche-pausen
+  title: Zusätzliche Pausen
+- hash: bezahlte-pausen
+  title: Bezahlte Pausen
+- hash: buchung-von-mitarbeiteressen
+  title: Buchung von Mitarbeiteressen
+- hash: stempeluhr-aktivieren
+  title: Stempeluhr aktivieren
+- hash: anmeldung
+  title: Anmeldung
+- hash: anmeldung-erlauben
+  title: Anmeldung Erlauben
+- hash: anmeldung-ohne-dienstplan
+  title: Anmeldung Ohne Dienstplan
+- hash: abmeldung
+  title: Abmeldung
+- hash: automatische-abmeldung
+  title: Automatische Abmeldung
+- hash: rundung-von-stempelzeiten
+  title: Rundung von Stempelzeiten
+- hash: einstellungen-ohne-stempeluhr
+  title: Einstellungen OHNE Stempeluhr
 
 ---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
 
-## Einstellungen bei Zeiterfassung MIT Stempeluhr
+## Einstellungen MIT Stempeluhr
 
 Die Regeln, die Sie hier wählen, sind **globale Einstellungen**, welche vorläufig für **alle Mitarbeiter** und für **alle Abteilungen** gelten. Einmal gewählte Regeleinstellungen können **jederzeit geändert** werden. Mit dem Befehl "**Speichern**" gilt ab sofort der neu gewählte Regelsatz.
 
@@ -159,7 +185,7 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein MItarbeiter meldet sich
 
 **Übrigens**: die Rundungen bei Anmeldung und Abmeldung auf nur volle 5 Minuten entsprechen bei einem durchschnittlichen 8-Stunden-Tag etwas mehr als 1% der Arbeitszeit in Ihrem Unternehmen.
 
-## Einstellungen bei Zeiterfassung OHNE Stempeluhr
+## Einstellungen OHNE Stempeluhr
 
 Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **manuell** erfassen wollen, so sind die Möglichkeiten für Regeleinstellungen entsprechend verkürzt.
 
