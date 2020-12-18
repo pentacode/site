@@ -1,13 +1,13 @@
 ---
 title: Rechnungsstellung
 weight: 
-icon: cog
+icon: file-invoice-dollar
 anchors: []
 
 ---
 ## Rechnungstellung
 
-Hier sind Ihre Rechnungsanschrift, das hinterlegte Zahlungsmittel und die Rechnungen an Sie hinterlegt.
+Hier sind Ihre Rechnungsanschrift, das hinterlegte Zahlungsmittel und die Rechnungen an Sie erfasst.
 
 ### Rechnungsanschrift
 
