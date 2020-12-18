@@ -55,7 +55,7 @@ Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt 
 
 Geben Sie bei **Vertragsbeginn** das Datum ein, zu dem das Beschäftigungsverhältnis des Mitarbeiters in Ihrem Unternehmen begonnen hat.
 
-{{< figure caption="Geben SIe den Vertragsbeginn und ein evtl. bekanntes Ende ein" >}}
+{{< figure caption="Geben Sie den Vertragsbeginn und ein evtl. bekanntes Ende ein" >}}
 
 ![](/uploads/vertragsbeginn.png)
 
@@ -83,7 +83,7 @@ Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export
 
 ## Arbeitszeit
 
-Für die Berechnung der Sollarbeitszeit eines Mitarbeiters stehen Ihnen 5 unterschiedliche Modi zur Wahl.
+Für die Berechnung der **Sollarbeitszeit** eines Mitarbeiters stehen Ihnen 5 unterschiedliche Modi zur Wahl.
 
 {{< figure caption="So können Sie die Weise wählen, in der die Sollstunden des Mitarbeiters berechnet werden" >}}
 
@@ -91,11 +91,11 @@ Für die Berechnung der Sollarbeitszeit eines Mitarbeiters stehen Ihnen 5 unters
 
 {{< /figure >}}
 
-Welcher Modus für SIe im Einzelfall der möglicherweise geeignete ist, erfahren Sie unter **_Rezepte und Tipps_** im Artikel **_Sollstundenberechnung_**.
+Welcher Modus für Sie im Einzelfall der möglicherweise geeignete ist, erfahren Sie unter **_Rezepte und Tipps_** im Artikel **_Sollstundenberechnung_**.
 
 ### Wochenfaktor
 
-Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld Wochenstunden.
+Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld **Wochenstunden**.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
@@ -107,11 +107,11 @@ Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeit
 
 Die Soll-Arbeitszeit des Mitarbeiters errechnet Pentacode automatisch. Die Anzahl der Wochenstunden wird mit dem Faktor 4,35 multipliziert .
 
-Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden Woche beträgt somit 40 x 4,35 = 174 Stunden pro Monat. Diese Stundenanzahl gilt gleichbleibend für jeden Monat.
+Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden Woche beträgt somit 40 x 4,35 = 174 Stunden pro Monat. **Diese Stundenanzahl gilt gleichbleibend für jeden Monat**.
 
 ### Monatsgenau
 
-Bei der Wahl "Monatsgenau" erscheint das Eingabefeld Wochenstunden.
+Bei der Wahl "Monatsgenau" erscheint das Eingabefeld **Wochenstunden**.
 
 Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
 
@@ -121,7 +121,7 @@ Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeit
 
 {{< /figure >}}
 
-Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
+Bei dieser Auswahl errechnet sich die **Soll-Arbeitszeit** des Mitarbeiters anhand der **Länge eines Monats**. Sie schwankt somit von Monat zu Monat.
 
 Die Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bie 171,... Stunden, in einem Monat mit 31 Tagen bei 177,.. Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
 
@@ -131,11 +131,11 @@ Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Monatsgenau
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
-Pentacode kennt die gesetzlichen Feiertage des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende FIliale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher Feiertag auf einen Wochentag, so wird die monatliche Soll-Arbeitszeit um den Feiertag gekürzt.
+Pentacode kennt die **gesetzlichen Feiertage** des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende Filiale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher **Feiertag** auf einen **Wochentag**, so wird die monatliche **Soll-Arbeitszeit** um den Feiertag **gekürzt**.
 
 ### Feste Wochentage
 
-Bei der Wahl "**Feste Wochentage**" erscheint ein Eingabefeld der sieben Wochentage.
+Bei der Wahl "Feste Wochentage" erscheint ein Eingabefeld der **sieben Wochentage**.
 
 Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen arbeiten soll. Diese Auswahl ist im Besonderen zu empfehlen, wenn ein Mitarbeiter **feste Arbeitstage** hat und diese in ihrer Länge auch noch voneinander abweichen. Dies trifft häufig für Mitarbeiter in der Verwaltung zu, bei denen z.B. der Freitag ein verkürzter Arbeitstag ist.
 
@@ -145,7 +145,7 @@ Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen ar
 
 {{< /figure >}}
 
-Die Soll-Arbeitszeit des Mitarbeiters errechnet sich über die Häufigkeit, in der ein bestimmter Wochentag in einem Monat auftritt.
+Die **Soll-Arbeitszeit** des Mitarbeiters errechnet sich über die **Häufigkeit**, in der ein bestimmter Wochentag in einem Monat auftritt.
 
 Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein Mitarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
 
@@ -153,7 +153,7 @@ Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung 
 
 Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Feste Wochentage".
 
-Bei diesem Modus wird jedoch ein Feiertag, der auf einen Arbeitstag des Mitarbeiters fällt, von seiner Soll-Arbeitszeit in Abzug gebracht. Hierbei wird Tag-genau unterschieden.
+Bei diesem Modus wird jedoch ein **Feiertag**, der auf einen Arbeitstag des Mitarbeiters fällt, von seiner **Soll-Arbeitszeit** in **Abzug** gebracht. Hierbei wird **Tag-genau unterschieden**.
 
 Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden arbeitet, so werden auch nur 4 Stunden berechnet.
 
@@ -179,11 +179,13 @@ Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung 
 
 ### Fehlstundenberechnung
 
-Wenn Sie "Feste Wochentage" als Berechnungsmethode gewählte haben, werden die Fehlststunden über die jeweiligen Tage ermittelt. Für die Einstellungen "**Wochenfaktor**" und "**Monatsgenau**" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub **zwei Möglichkeiten** zur Verfügung
+Wenn Sie "**Feste Wochentage**" als Berechnungsmethode gewählte haben, werden die **Fehlstunden** für den **jeweiligen Tage** ermittelt. 
+
+Für die Einstellungen "**Wochenfaktor**" und "**Monatsgenau**" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub **zwei Möglichkeiten** zur Verfügung
 
 #### Feste Stundenzahl
 
-Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein Eingabefeld, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
+Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
 
 {{< figure caption="Berechnung der Lohnfortzahlung mit festem Stundensatz" >}}
 
@@ -191,11 +193,11 @@ Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein Eingabefeld, in das Sie d
 
 {{< /figure >}}
 
-Bei dieser Einstellung wird jeder Tag, an dem der Mitarbieter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
+Bei dieser Einstellung wird jeder Tag, an dem der Mitarbeiter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
 
 #### 13-Wochen Durchschnitt
 
-Bei dieser Einstellung errechnet Pentacode den Wert eines Urlaub- oder Kranktages an der Arbeitszeit, die der Mitarbeiter im Durchschnitt der letzten 13 Wochen gearbeitet hat.
+Bei dieser Einstellung errechnet Pentacode den **Wert eines Urlaub- oder Kranktages** an der Arbeitszeit, die der Mitarbeiter im **Durchschnitt der letzten 13 Wochen** gearbeitet hat.
 
 {{< figure caption="Berechnung der Sollstunden im 13-Wochenschnitt" >}}
 
@@ -257,9 +259,9 @@ Dies bededutet: Wechselt ein Mitarbeiter z.B. von "Aushilfe/Mini-Jobber" auf "Vo
 
 Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen arbeiten bei unterschiedlichen Löhnen arbeiten, kann dies in Pentacode automatisch berücksichtigt werden.
 
-Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zuweisen. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
+Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zu. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
 
-{{< figure caption="So können bei einem MItarbeiter unterschiedliche Löhne erfasst werden" >}}
+{{< figure caption="So können bei einem Mitarbeiter unterschiedliche Löhne erfasst werden" >}}
 
 ![](/uploads/gehalt-hinzufugen.png)
 
@@ -297,9 +299,9 @@ Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben ber
 
 {{< /figure >}}
 
-Wenn Sie bei Urlaubszuwachs "Nach Arbeitsstunden" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
+Wenn Sie bei Urlaubszuwachs "**Nach Arbeitsstunden**" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
 
-b) Wählen Sie "Monatlich", wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
+b) Wählen Sie "**Monatlich**", wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
 
 Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
 
@@ -309,7 +311,7 @@ Wenn Sie einem Mitarbeiter Zuschläge zahlen, legen Sie die Höhe der Zuschläge
 
 Sie können die Zuschläge individuell nach unten anpassen.
 
-{{< figure caption="Sie können SFN-Zuschläge bei jedem Mitarbieter individuell festlegen" >}}
+{{< figure caption="Sie können SFN-Zuschläge bei jedem Mitarbeiter individuell festlegen" >}}
 
 ![](/uploads/zuschlage2.png)
 
@@ -339,4 +341,4 @@ Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Bu
 
 Im Konto "SFN-Zuschläge" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
-Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Lohnabrechner in Verbindung.
+Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
