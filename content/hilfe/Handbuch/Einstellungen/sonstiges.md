@@ -1,8 +1,16 @@
 ---
 title: Sonstiges
 weight: 
-icon: cog
-anchors: []
+icon: ball-pile
+anchors:
+- hash: kontoführung-ab
+  title: Kontoführung Ab
+- hash: sollstundenberechnung
+  title: Sollstundenberechnung
+- hash: berechnung-gesetzliche-pause
+  title: Berechnung Gesetzliche Pause
+- hash: nachtzuschläge
+  title: Nachtzuschläge
 
 ---
 Im Menüpunkt **"Einstellungen"** und dort unter **"Sonstiges"** bestimmen generelle Grundsätze, nach denen Pentacode operiert
