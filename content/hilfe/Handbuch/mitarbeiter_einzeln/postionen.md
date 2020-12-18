@@ -17,6 +17,6 @@ Aktivieren Sie hierzu einfach die entsprechenden Buttons.
 
 {{< /figure >}}
 
-Der Mitarbieter erscheint im **Dienstplan** nun in den von Ihnen ausgewählten Abteilungen und kann in diesen Abteilungen **geplant** werden.
+Der Mitarbeiter erscheint im **Dienstplan** nun in den von Ihnen ausgewählten Abteilungen und kann in diesen Abteilungen **geplant** werden.
 
 Durch Aktivieren / Deaktivieren kann der Tätigkeitsbereich später jederzeit erweitert oder eingeschränkt werden.
