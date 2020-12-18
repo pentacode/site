@@ -1,7 +1,7 @@
 ---
 title: Arbeitszeiten
 weight: "1"
-icon: hourglass-half
+icon: user-clock
 anchors: []
 
 ---
