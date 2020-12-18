@@ -1,15 +1,27 @@
 ---
 title: Arbeitszeiten
-weight: "1"
+weight: 1
 icon: user-clock
-anchors: []
+anchors:
+- hash: übersicht-arbeitszeiten
+  title: Übersicht Arbeitszeiten
+- hash: exportformate
+  title: Exportformate
+- hash: arbeitszeiten-nachweis
+  title: Arbeitszeiten Nachweis
+- hash: lohnabrechnung-individuell
+  title: Lohnabrechnung Individuell
+- hash: lohnabrechnung-übersicht
+  title: Lohnabrechnung Übersicht
+- hash: export-in-die-buchhaltung
+  title: Export in die Buchhaltung
 
 ---
 Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
 
 ## Übersicht Arbeitszeiten
 
-Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben.
+Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen Abteilungen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben.
 
 Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 
@@ -19,7 +31,7 @@ Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 
 {{< /figure >}}
 
-Über das **Export**-Symbol am rechten oberen Eck und den Dropdown-Pfeil wählen Sie das gewünschte **Format** aus.
+Über das {{< icon "file-export" >}}-Symbol am rechten oberen Eck und den Dropdown-Pfeil wählen Sie das gewünschte **Format** aus.
 
 {{< figure caption="So wählen Sie das Druck- und Exportformat aus" >}}
 
@@ -53,7 +65,7 @@ Bei diesen Formaten handelt es sich um **Exportdateien** für Ihre Lohnbuchhaltu
 
 ## Export in die Buchhaltung
 
-**Voraussetzung** für die Durchführung eines Exports in die Buchhaltung ist, dass Sie für Ihr Unternehmen die **Lohnarten** angelegt haben. Wie Sie dies tun, erfahren Sie _hier_.
+Die Durchführung eines Exports in die Buchhaltung **setzt voraus**, dass Sie für Ihr Unternehmen die **Lohnarten** angelegt haben. Wie Sie dies tun, erfahren Sie _hier_.
 
 Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet und klicken Sie auf "**Exportieren**". Diese Datei ist nun im Ordner "**Downloads**" auf Ihrem Rechner abgelegt.
 
@@ -63,9 +75,9 @@ Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltun
 
 {{< /figure >}}
 
-Öffnen Sie dann Ihr Email-Programm und adressieren Sie eine Email an die Buchhaltung.
+**Öffnen Sie dann Ihr Email-Programm** und adressieren Sie eine Email an die Buchhaltung.
 
-Öffnen Sie dann den Ordner "Downloads" und ziehen Sie per "Drag & Drop" den Ordner in die Email.
+Ziehen Sie per "Drag & Drop" die Datei aus dem Download-Ordner in die Email.
 
 {{< figure caption="Ziehen Sie per Drag & Drop die Exportdatei in Ihre Email" >}}
 
