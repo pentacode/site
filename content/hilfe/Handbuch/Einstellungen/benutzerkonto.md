@@ -1,7 +1,7 @@
 ---
 title: Benutzerkonto
 weight: 
-icon: cog
+icon: unlock-alt
 anchors: []
 
 ---
