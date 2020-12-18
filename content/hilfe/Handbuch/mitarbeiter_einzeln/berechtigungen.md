@@ -39,7 +39,7 @@ Er erhält somit ausschließlich zu jenen Bereichen Zugang, zu denen ihm Zugang 
 
 Wenn der Mitarbeiter z.B. berechtigt ist, **Dienstpläne** nur für **ausgewählte Abteilungen** zu schreiben, schränken Sie den Zugang durch **Deaktivieren** der Button auf jene Abteilungen/Positionen ein, für die er Dienstpläne verfassen kann.
 
-Der Mitarbeiter kann **ausschließlich** für jene Abteilungen, die in seine **Zuständigkeit** fallen, Dienstpläne schreiben oder geplante Dienstzeiten in diesen Abteilungen verändern.
+Der Mitarbeiter kann somit **ausschließlich** für jene Abteilungen, die in seine **Zuständigkeit** fallen, Dienstpläne schreiben oder geplante Dienstzeiten in diesen Abteilungen verändern.
 
 Auf dieselbe Weise bestimmen Sie auch, ob der Mitarbeiter auch zu weitergehenden Informationen Zugang erhält. Ob er also z.B. die Lohnkosten bei der Planung einsehen darf.
 
