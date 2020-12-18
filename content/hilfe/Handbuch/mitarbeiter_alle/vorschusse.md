@@ -15,7 +15,7 @@ Ist dies der Fall, entsteht selbständig eine **Liste der ausgezahlten Vorschüs
 
 {{< /figure >}}
 
-Diese Lite kann an dieser Stelle **nicht** bearbeitet werden. **Korrekturen** können nur in der **Tagesabrechnung** und im **Kassenbuch** durchgeführt werden.
+Diese Liste kann an dieser Stelle **nicht** bearbeitet werden. **Korrekturen** können nur in der **Tagesabrechnung** und im **Kassenbuch** durchgeführt werden.
 
 Jede Veränderung an diesen beiden Stellen wird in der Vorschussliste entsprechend gespiegelt. Dies geschieht automatisch.
 
