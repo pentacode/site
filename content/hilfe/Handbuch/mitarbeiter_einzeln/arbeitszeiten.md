@@ -2,14 +2,32 @@
 title: Arbeitszeiten
 weight: 
 icon: user-clock
-anchors: []
+anchors:
+- title: Übersicht
+  hash: übersicht
+- hash: ergänzungen-im-arbeitszeitkonto
+  title: Ergänzungen im Arbeitszeitkonto
+- hash: arbeitszeiten-hinzufügen
+  title: Arbeitszeiten hinzufügen
+- hash: fehltag-hinzufügen
+  title: Fehltag hinzufügen
+- hash: zeitbuchung
+  title: Zeitbuchung
+- hash: urlaubsbuchung
+  title: Urlaubsbuchung
+- hash: kontoausdruck
+  title: Kontoausdruck
+- hash: arbeitszeiten-nachweis
+  title: Arbeitszeiten Nachweis
+- hash: lohnabrechnung
+  title: Lohnabrechnung
 
 ---
-Mit **"Arbeitszeiten"** ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
+Mit **"Arbeitszeiten"** ist das **monatliche Arbeitszeitkonto** des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
 
 ## Übersicht
 
-n dieser Übersicht werden dargestellt:
+In dieser Übersicht werden dargestellt:
 
 die **Abteilung**, in der der Mitarbeiter am jeweiligen Tag gearbeitet hat,
 
@@ -23,17 +41,17 @@ die Anzahl eventueller **Mahlzeiten**
 
 {{< /figure >}}
 
-Am rechten Rand sehen Sie dieerrechnete **Dauer** des **Arbeitstages** unter Abzug der Pausen und
+Am rechten Rand sehen Sie die errechnete **Dauer** des **Arbeitstages** unter Abzug der Pausen und
 
 die **Anzahl** der **Zuschlagsstunden** in den einzelnen Zuschlagszonen entsprechend der Einstellungen in den Vertragsdaten des Mitarbeiters.
 
-{{< figure caption="Hier ist die Dauer des Arbeitstages und die Zuschläge in Summe dargestellt" >}}
+{{< figure caption="Hier sind die Dauer des Arbeitstages und die Zuschläge in Summe dargestellt" >}}
 
 ![](/uploads/az-konto-dauer.png)
 
 {{< /figure >}}
 
-Am rechten unteren Rand (**2**) finden Sie eine **Zeichenerklärung** für die unterschiedlichen **Zuschlagsarten**.
+Am rechten unteren Rand finden Sie eine **Zeichenerklärung** für die unterschiedlichen **Zuschlagsarten**.
 
 {{< figure caption="Legende zu den Zuschlagsarten" >}}
 
@@ -41,7 +59,7 @@ Am rechten unteren Rand (**2**) finden Sie eine **Zeichenerklärung** für die u
 
 {{< /figure >}}
 
-Am rechten oberen Rand (**3**) werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**. Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen **Soll-Arbeitszeit** und der **tatsächlich geleisteten Arbeitszeit**.
+Am rechten oberen Rand werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**. Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen **Soll-Arbeitszeit** und der **tatsächlich geleisteten Arbeitszeit**.
 
 {{< figure caption="Hier sehen Sie die Summen der Arbeits- und Zuschlagszeiten in Stunden dargestellt" >}}
 
@@ -61,9 +79,9 @@ Durch einen **Mouseover** wird das Problem benannt. Sie können einen Fehler jed
 
 ## Ergänzungen im Arbeitszeitkonto
 
-Neben Korrekturen können Sie im Arbeitszeitkonto auch Ergänzungen durchführen.
+Neben Korrekturen können Sie im Arbeitszeitkonto auch **Ergänzungen** durchführen.
 
-Wenn Sie auf das + am Fußende klicken, erscheint ein Menü mit den Ergänzungsmöglichkeiten
+Wenn Sie auf das **+** am Fußende klicken, erscheint ein Menü mit den Ergänzungsmöglichkeiten
 
 {{< figure caption="So können Sie die Art der Ergänzung auswählen" >}}
 
@@ -73,7 +91,7 @@ Wenn Sie auf das + am Fußende klicken, erscheint ein Menü mit den Ergänzungsm
 
 ### Arbeitszeiten hinzufügen
 
-WEnn Sie "Arbeitszeiten hinzufügen" wählen, bezieht sich der automatische Datumsangabe auf den **aktuellen** Kalendertag. **Stellen Sie sicher, dass Sie das Datum wählen, zu dem der Arbeitstag hinzugefügt wird!**
+Wenn Sie "Arbeitszeiten hinzufügen" wählen, bezieht sich der automatische Datumsangabe auf den **aktuellen** Kalendertag. **Stellen Sie sicher, dass Sie das Datum wählen, zu dem der Arbeitstag hinzugefügt wird!**
 
 {{< figure caption="Stellen Sie sicher, dass Sie das richtige Datum wählen!" >}}
 
@@ -85,13 +103,13 @@ Wenn ein Mitarbeiter in **verschiedenen Abteilungen** arbeitet, können Sie die 
 
 Geben Sie dann den **Anfang** und das **Ende** des Arbeitstages ein.
 
-**Pausen werden nicht automatisch gesetzt!** Sie müssen von Ihnen manuell eingegeben werden. Dies gilt auch für eine eventuelles Essen.
+**Pausen werden nicht automatisch gesetzt!** Sie müssen von Ihnen manuell eingegeben werden. Dies gilt auch für eine eventuelles **Essen**.
 
-Wenn der Mitarbeiter eine **Umsatzprovision** erhält, können Sie hier auch seinen **Umsatz** eingeben und einen beliebigen Kommentar, wenn Sie dies wollen.
+Wenn der Mitarbeiter eine **Umsatzprovision** erhält, können Sie hier auch seinen **Umsatz** eingeben und optional einen beliebigen Kommentar hinzufügen.
 
 ### Fehltag hinzufügen
 
-Wenn nachträglich ein Fehltag gebucht werden soll, wählen Sie "Fehltag hinzufügen".
+Wenn **nachträglich** ein Fehltag gebucht werden soll, wählen Sie "**Fehltag hinzufügen**".
 
 Über den Dropdown-Pfeil wählen Sie die Art des Fehltags. Dieser wird unter dem von Ihnen gewählten Datum dem Arbeitszeitkonto hinzugefügt.
 
@@ -103,7 +121,7 @@ Wenn nachträglich ein Fehltag gebucht werden soll, wählen Sie "Fehltag hinzuf�
 
 ### Zeitbuchung
 
-Sie können dem Arbeitszeitkonto eines Mitarbeiter auch Stunden summarisch hinzubuchen oder in Abzug bringen.
+Sie können dem Arbeitszeitkonto eines Mitarbeiter auch **Stunden** summarisch **hinzubuchen** oder in **Abzug** bringen.
 
 Wählen Sie dafür "Zeitbuchung" und die Art der Buchung über den Dropdownpfeil.
 
@@ -115,7 +133,7 @@ Wählen Sie dafür "Zeitbuchung" und die Art der Buchung über den Dropdownpfeil
 
 ### Urlaubsbuchung
 
-Über "Urlaubsbuchung" können Sie einem Mitarbeiter über den Dropdown-Pfeil Urlaubstage hinzugeben oder abbuchen.
+Über "**Urlaubsbuchung**" können Sie einem Mitarbeiter über den Dropdown-Pfeil **Urlaubstage hinzugeben** oder **abbuchen**.
 
 Wählen Sie hierzu die gewünschte Buchungsart und geben Sie die Anzahl der Tage ein, die entsprechend gebucht werden soll.
 
@@ -125,7 +143,7 @@ Wählen Sie hierzu die gewünschte Buchungsart und geben Sie die Anzahl der Tage
 
 {{< /figure >}}
 
-Wenn Sie Urlaubstage abziehen, geht Pentacode davon aus, dass diese **Urlaubstage ausbezahlt** werden. Es erscheint deshalb das Feld "**€ Bezahlt**" mit dem **aktivierten** Button. Die gebuchten Urlaubstage werden dem Urlaubskonto des Mitarbeiters in Abzug gebracht und für die Lohnabrechnung auszuzahlender Urlaub zugeführt.
+Wenn Sie Urlaubstage abziehen, geht Pentacode davon aus, dass diese **Urlaubstage ausbezahlt** werden. Es erscheint deshalb das Feld "**€ Bezahlt**" mit dem **aktivierten** Button. Die gebuchten Urlaubstage werden dem Urlaubskonto des Mitarbeiters in Abzug gebracht und für die Lohnabrechnung als auszuzahlender Urlaub zugeführt.
 
 Wenn Sie dies nicht wollen, müssen Sie den Button **manuell deaktivieren**.
 
