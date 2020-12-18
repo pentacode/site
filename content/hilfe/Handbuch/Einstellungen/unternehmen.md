@@ -1,7 +1,7 @@
 ---
 title: Unternehmen
 weight: 
-icon: ''
+icon: building
 anchors: []
 
 ---
