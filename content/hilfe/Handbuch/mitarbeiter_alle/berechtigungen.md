@@ -1,7 +1,7 @@
 ---
 title: Berechtigungen
 weight: 
-icon: ''
+icon: user-edit
 anchors: []
 
 ---
