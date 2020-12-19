@@ -89,7 +89,7 @@ Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die Arbeitszeiten
 
 Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächliche Arbeitszeit immer **identisch**. Es gibt deshalb auch nur den Status "**fertig**".
 
-{{< figure caption="Wenn Sie ohne Stempeluhr arbeiten, entspricht die geplante Arbeitzeit und tatsächlich Arbeitszeit immer identisch" >}}
+{{< figure caption="Wenn Sie ohne Stempeluhr arbeiten, sind 'geplante Arbeitszeit' und 'tatsächliche Arbeitszeit' immer identisch" >}}
 
 **![](/uploads/ohne-stempeluhr1.png)**
 
