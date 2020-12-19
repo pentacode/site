@@ -1,10 +1,22 @@
 ---
 title: Funktionsübersicht
-weight: "1"
-icon: table
-anchors: []
----
+weight: 1
+icon: telescope
+anchors:
+- hash: information-zum-mitarbeiter
+  title: Information zum Mitarbeiter
+- hash: mitarbeiter-filtern
+  title: Mitarbeiter filtern
+- hash: mitarbeiter-positionieren
+  title: Mitarbeiter positionieren
+- hash: abteilungen-minimieren
+  title: Abteilungen minimieren
+- hash: grundlegende-funktionen
+  title: Grundlegende Funktionen
+- hash: überblick
+  title: Überblick
 
+---
 ## Überblick
 
 Die grundlegenden Funktionen des Dienstplans in Pentacode.
@@ -23,6 +35,8 @@ Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen
 
 {{< /figure >}}
 
+### Abteilungen minimieren
+
 Über das Pfeilsymbol neben der Bezeichnung der Abteilung können sie Abteilungen auf- und einklappen.
 
 {{< figure caption="Über die Pfeile können Sie Abteilungen ein- und ausklappen" >}}
@@ -31,9 +45,11 @@ Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen
 
 {{< /figure >}}
 
+### Mitarbeiter positionieren
+
 In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung im Menüpunkt **_Positionen_** zugeordnet haben.
 
-Die Mitarbeiter sind in **alphabetischer Reihenfolge** nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem Mouse-over über den Namen eines Mitarbeiters erscheinen zwei nach oben und unten gerichtete Pfeile. Durch das Anklicken eines der Pfeile verschieben Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
+Die Mitarbeiter sind in **alphabetischer Reihenfolge** nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem **Mouse-over** über den Namen eines Mitarbeiters erscheinen **zwei nach oben und unten gerichtete Pfeile**. Durch das **Anklicken** eines der Pfeile **verschieben** Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
 
 {{< figure caption="Durch Mouse-over und Anklicken der Pfeile können Sie die Reihenfolge der Anordnung ändern" >}}
 
@@ -43,6 +59,8 @@ Die Mitarbeiter sind in **alphabetischer Reihenfolge** nach Vornamen gelistet. D
 
 Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteilungen entsprechend zugeordnet sein. In diesem Fall erscheint er beständig in allen Abteilungen, in denen er geplant werden kann.
 
+### Mitarbeiter filtern
+
 Über das **Suchfeld** können Sie Mitarbeiter durch **Namenseingabe** filtern.
 
 {{< figure caption="Sie können Mitarbeiter durch Namenseingabe filtern">}}
@@ -51,7 +69,9 @@ Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteil
 
 {{< /figure >}}
 
-Durch ein **Mouse-over** über den Namen eines Mitarbeiters erscheint ein Fenster mit Angaben zum MItarbeiter, die für einen Dienstplaner von Bedeutung sein können:
+### Information zum Mitarbeiter
+
+Durch ein **Mouse-over** über den Namen eines Mitarbeiters erscheint ein Fenster mit Angaben zum Mitarbeiter, die für einen Dienstplaner von Bedeutung sein können:
 
 {{< figure caption="Durch ein Mouse-over über den Namen erhält der Dienstplaner Information zum Mitarbeiter">}}
 
@@ -61,10 +81,10 @@ Durch ein **Mouse-over** über den Namen eines Mitarbeiters erscheint ein Fenste
 
 Der Dienstplaner erhält Angaben zum Mitarbeiter
 
--   über den Modus der Zeiterfassung
--   das Arbeitsverhältnis
--   die im laufenden Monat bereits geleisteten Arbeitsstunden im Verhältnis zur monatlichen Sollarbeitszeit
--   Über- oder Minderstunden
--   den vorhandenen Urlaubsanspruch
+* über den Modus der Zeiterfassung
+* das Arbeitsverhältnis
+* die im laufenden Monat bereits geleisteten Arbeitsstunden im Verhältnis zur monatlichen Sollarbeitszeit
+* Über- oder Minderstunden
+* den vorhandenen Urlaubsanspruch
 
-    Die **Über-/Minderstunden** sowie der **Urlaubsanspruch** beziehen sich jeweils auf den **Stand zu Beginn des aktuellen Monats**.
+  Die **Über-/Minderstunden** sowie der **Urlaubsanspruch** beziehen sich jeweils auf den **Stand zu Beginn des aktuellen Monats**.
