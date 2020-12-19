@@ -5,7 +5,7 @@ icon: chart-line
 anchors: []
 
 ---
-Oft verliert eine Planung aber ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
+Oft verliert eine Planung ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
 
 Durch das Anklicken des {{< icon "chart-line" >}}-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
 
