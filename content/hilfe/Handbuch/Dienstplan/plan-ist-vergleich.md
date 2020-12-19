@@ -7,7 +7,13 @@ anchors: []
 ---
 Oft verliert eine Planung aber ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
 
-Durch das Anklicken des {{< icon "chart-line" >}}-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien**, über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
+Durch das Anklicken des {{< icon "chart-line" >}}-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
+
+{{< figure caption="Über das Diagramm-Symbol werden Plan- und Ist-Kosten sichtbar gemacht" >}}
+
+![](/uploads/vergleich.png)
+
+{{< /figure >}}
 
 Sollten sich die **Felder** mit Angabe der €-Beträge **überlappen**, werden die jeweiligen Beträge durch "**Mouse-over**" sichtbar.
 
