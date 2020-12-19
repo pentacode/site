@@ -1,7 +1,7 @@
 ---
 title: Zeiterfassung
 weight: 
-icon: cog
+icon: stopwatch
 anchors:
 - hash: einstellungen-mit-stempeluhr
   title: Einstellungen MIT Stempeluhr
