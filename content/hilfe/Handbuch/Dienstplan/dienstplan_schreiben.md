@@ -13,7 +13,7 @@ Klicken Sie beim Mitarbeiter in den Tag, den Sie planen wollen und geben den gep
 
 Durch Drücken der **"Tab"**-Taste auf Ihrer Tastatur springt der Cursor in das Eingabefeld für das **Dienstende**. Geben Sie dort das vorläufig geplante Ende der Schicht ein. Die Eingabe eines Dienstendes ist nicht verpflichtend, Sie können dies durch nochmaliges Drücken der Tab-Taste überspringen. Allerdings geht Ihnen dadurch eventuell wertvolle Information verloren.
 
-Wenn ein Mitarbieter in mehreren Abteilungen arbeitet, werden seine Arbeitszeiten in allen Abteilungen gezeigt. Dabei ist die Anzeige in der Abteilung, in der er zur Arbeit eingeteilt ist, deutlich hervorgehoben, in den anderen Abteilungen hingegen nur aufgehellt.
+Wenn ein Mitarbieter in mehreren Abteilungen arbeitet, werden seine Arbeitszeiten in allen Abteilungen gezeigt. Dabei ist die **Anzeige** in der Abteilung, in der er zur **Arbeit** eingeteilt ist, deutlich **hervorgehoben**, in den anderen Abteilungen hingegen nur aufgehellt.
 
 {{< figure caption="Schichten werden in allen Abteilungen angezeigt, in den nicht aktiven Abteilung jedoch nur aufgehellt" >}}
 
@@ -23,7 +23,7 @@ Wenn ein Mitarbieter in mehreren Abteilungen arbeitet, werden seine Arbeitszeite
 
 ### Teilschichten
 
-Sie können einem Mitarbeiter innerhalb eines Tages beliebig viele Schichten zuweisen.
+Sie können einem Mitarbeiter innerhalb eines Tages **beliebig viele Schichten** zuweisen.
 
 Bei einem Mouse-over erscheint unterhalb einer bereits geplanten Schicht ein "**+**". Klicken Sie darauf und geben Sie einfach eine weitere Schicht ein.
 
@@ -45,27 +45,27 @@ Halten Sie die linke Maustaste gedrückt und ziehen Sie die Schicht an die gewü
 
 Sie können eine geplante Schicht auch beliebig häufig wieder verwenden, ohne den vielleicht längeren Weg über die Schichtvorlagen zu gehen.
 
-Verfahren Sie wie bei "Geplante Schichten verschieben", doch drücken Sie dabei gleichzeitig die "Alt"-Taste.
+Verfahren Sie wie bei "Geplante Schichten verschieben", doch drücken Sie dabei gleichzeitig die "**Alt**"-Taste.
 
 ### Problemmeldungen
 
-Pentacode meldet bereis bei der Planung, wenn gesetzliche Fristen verletzt werden oder ein Konflikt vorliegt. ein Konflikt entsteht, wenn ein Mitarbeiter z.B. doppelt geplant wird oder sich zwei geplante Schichten überlappen.
+Pentacode meldet bereits bei der Planung, wenn gesetzliche Fristen verletzt werden oder ein Konflikt vorliegt. ein Konflikt entsteht, wenn ein Mitarbeiter z.B. doppelt geplant wird oder sich zwei geplante Schichten überlappen.
 
-In diesem Fall erscheint am rechten Rand die Meldung "Problem".
+In diesem Fall erscheint am rechten Rand die Meldung "Problem". 
 
-{{< figure caption="Durch Mouse-over und Anklicken springt der Cursor zum Problem im Dienstplan" >}}
+Mit einem **Mouse-over** werden die Probleme gezeigt. Wenn Sie dann auf ein Problem klicken, springt der Cursor in den Dienstplan und an die Stelle, an der dieses Problem entstanden ist.
+
+{{< figure caption="Durch Mouse-over und Anklicken eines Problems springt der Cursor zum Problem im Dienstplan" >}}
 
 ![](/uploads/problem.png)
 
 {{< /figure >}}
 
-Mit einem Mouse-over werden die Probleme gezeigt. Wenn Sie dann auf ein Problem klicken, springt der Cursor in den Dienstplan und an die Stelle, an der dieses Problem entstanden ist.
-
 ### Verwendung von Schichtvorlagen
 
 Am **rechten Rand** Ihres Dienstplans sehen Sie **gesetzte Vorlagen** und **Schichtvorlagen**.
 
-Fahren Sie mit dem Cursor auf eine gewünschte **Vorlage**, klicken Sie mit der linken Maustaste in die Vorlage, ziehen Sie die Vorlage beim Mitarbeiter in den gewählten Tag ("drag") und lassen Sie die linke Maustaste los ("drop"). Die Vorlage ist somit in den Dienstplan geschrieben.
+Fahren Sie mit dem Cursor auf eine gewünschte **Vorlage**, klicken Sie mit der **linken** Maustaste in die Vorlage, **ziehen** Sie die Vorlage beim Mitarbeiter in den gewählten Tag ("drag") und **lassen** Sie die linke Maustaste **los** ("drop"). Die Vorlage ist somit in den Dienstplan geschrieben.
 
 #### Gesetzte Vorlagen
 
@@ -89,7 +89,7 @@ Eine Schichtvorlage **entsteht automatisch** mit der Eingabe einer Uhrzeit im Di
 
 Die Liste der Schichtvorlagen ist "unendlich". Je häufiger eine Uhrzeit im Dienstplan eingegeben wird, desto weiter rückt die entsprechende Vorlage nach oben zum Anfang der Liste.
 
-Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
+Durch Anklicken des {{< icon "star" >}}-Symbols neben der Uhrzeit machen Sie eine Schichtvorlage zum **"Favoriten"**. Ihre Favoriten befinden sich immer am Anfang der Liste.
 
 **Schichtvorlagen** können **nicht gelöscht** werden. Wird der Zeitraum, den eine Schichtvorlage umfasst, mehr als drei Wochen nicht mehr verwendet, verschwindet die Vorlage automatisch.
 
@@ -97,9 +97,9 @@ Durch Anklicken des **Sterns** machen Sie eine Schichtvorlage zum **"Favoriten"*
 
 Viele Dienste und Schichten kehren regelmäßig wieder. Um zu vermeiden, dass die relativ gleichen Schichten jede Woche neu im Dienstplan eingetragen werden müssen, haben Sie in Pentacode die Möglichkeit, Dienstplanvorlagen zu erstellen.
 
-Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern** oder auch **ganze Abteilungen** und auch **Abteilungs-übergreifend** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
+Sie können für **einzelne Mitarbeiter**, **Gruppen von Mitarbeitern**, **ganze Abteilungen** und auch **Abteilungs-übergreifend** eine beliebige Anzahl von **Dienstplanvorlagen** gestalten.
 
-**Schreiben** Sie hierzu **in einer leeren Woche** einen **Dienstplan** vor und klicken sie dann auf das **Speichersymbol**.
+**Schreiben** Sie hierzu **in einer leeren Woche** einen **Dienstplan** vor und klicken sie dann auf das {{< icon "save" >}}-Symbol..
 
 **Wählen** Sie die **Abteilung** oder die Abteilungen, die unter dieser Dienstplanvorlage gespeichert werden sollen, geben Sie der **Vorlage** eine für Sie **eindeutige Bezeichnung und speichern Sie**.
 
@@ -117,9 +117,9 @@ Während sich Schichtvorlagen durch Eintragungen im Dienstplan automatisch erste
 
 {{< /figure >}}
 
-Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das **Papierkorb-Symbol** klicken.
+Sie können eine **Dienstplanvorlage** jederzeit **löschen**, indem Sie nach einem **Mouse-over** über die Vorlage auf das {{< icon "trash" >}}**-Symbol** klicken.
 
-{{< figure caption="Dienstplanvorlagen können jederzeit geläscht werden" >}}
+{{< figure caption="Dienstplanvorlagen können jederzeit gelöscht werden" >}}
 
 ![](/uploads/vorlage-loschen.png)
 
@@ -129,7 +129,7 @@ Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die V
 
 ### Eingaben löschen
 
-{{< figure caption="Sie können ein Eingabe löschen, indem Sie das 'x' anklicken." >}}
+{{< figure caption="Sie können ein Eingabe löschen, indem Sie das '**x**' anklicken." >}}
 
 ![](/uploads/eingabe-loschen.png)
 
@@ -143,7 +143,7 @@ Sie können eine **Dienstplanvorlage in jede beliebige Abteilung ziehen**. Die V
 
 ## Dienstplanung mit Stundenvorgaben
 
-In Pentacode können Sie einem Dienstplaner für jede Abteilung und wochtagsabhängig ein Stundenkontingent vorgeben, an dem er sich zu orientieren hat.
+In Pentacode können Sie einem Dienstplaner für jede Abteilung und wochentags-abhängig ein **Stundenkontingent** vorgeben, an dem er sich zu **orientieren** hat.
 
 Während er den Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
