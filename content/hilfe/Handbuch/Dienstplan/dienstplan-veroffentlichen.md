@@ -1,10 +1,20 @@
 ---
 title: Dienstplan Veröffentlichen
-weight:
-icon: ""
-anchors: []
----
+weight: 
+icon: share-square
+anchors:
+- hash: auswahl-der-abteilung
+  title: Auswahl der Abteilung
+- hash: drucken
+  title: Drucken
+- hash: versand-an-mitarbeiter
+  title: Versand an Mitarbeiter
+- hash: veröffentlichung-nach-bearbeitung
+  title: Veröffentlichung nach Bearbeitung
+- hash: dienstplan-am-zeiterfassungs---tablet
+  title: Dienstplan am Zeiterfassungs-Tablet
 
+---
 Um einen Dinstplan zu veröffentlichen haben Sie die Möglichkeit ihn auszudrucken oder ihn direkt an die Mitarbeiter zu versenden.
 
 Wenn Sie mit der elektronischen Zeiterfassung von Pentacode arbeiten, kann er auch am Tablet, an dem sich die Mitarbeiter einloggen, eingesehen werden.
@@ -17,7 +27,7 @@ Klicken Sie einfach auf das Pfeilsymbol und wählen Sie das gewünschte Format
 
 {{< /figure >}}
 
-## Auswahl der Abteilung(en)
+## Auswahl der Abteilung
 
 Unabhängig von der Art, in der Sie den Dienstplan veröffentlichen wollen, erscheint zuerst ein Dialogfeld. In diesem werden jene Abteilungen gezeigt, für deren Planung der jeweilige Anwender eine Berechtigung erhalten hat.
 
