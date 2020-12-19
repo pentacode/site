@@ -3,18 +3,18 @@ title: Funktionsübersicht
 weight: 1
 icon: telescope
 anchors:
-- hash: information-zum-mitarbeiter
-  title: Information zum Mitarbeiter
-- hash: mitarbeiter-filtern
-  title: Mitarbeiter filtern
-- hash: mitarbeiter-positionieren
-  title: Mitarbeiter positionieren
-- hash: abteilungen-minimieren
-  title: Abteilungen minimieren
-- hash: grundlegende-funktionen
-  title: Grundlegende Funktionen
 - hash: überblick
   title: Überblick
+- hash: grundlegende-funktionen
+  title: Grundlegende Funktionen
+- hash: abteilungen-minimieren
+  title: Abteilungen minimieren
+- hash: mitarbeiter-positionieren
+  title: Mitarbeiter positionieren
+- hash: mitarbeiter-filtern
+  title: Mitarbeiter filtern
+- hash: information-zum-mitarbeiter
+  title: Information zum Mitarbeiter
 
 ---
 ## Überblick
