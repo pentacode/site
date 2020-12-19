@@ -1,7 +1,7 @@
 ---
 title: Ersparnis
 weight: 
-icon: ''
+icon: piggy-bank
 anchors: []
 
 ---
