@@ -9,10 +9,4 @@ In Pentacode können Sie mit einem Aufwand von etwa 3 Minuten Ihren Geschäftsta
 
 Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.
 
-Das Einzige, was Sie hierfür tun müssen, ist: Sie rechnen Ihren Geschäftstag ab.
-
-Das Einzige, was Sie hierfür 'mitbringen' müssen: 3 Minuten Ihrer Zeit. Denn länger dauert es nicht.
-
-> Doch selbst wenn Sie für diese Möglichkeit in Pentacode keine Verwendung haben, sollten Sie zumindest Ihre Umsatzarten in der Tagesabrechnung erfassen. Dann eben nur für statistische Zwecke. Durch die 30 Sekunden, die dies in Anspruch nimmt, werden Ihre Umsatzdaten mit Ihren Lohndaten verknüpft. Sie können damit Ihre Dienstpläne noch zielgenauer verfassen und erhalten in Echtzeit Auskunft zur Produktivität der Abteilungen in Ihrem Unternehmen.
-
-Sehr einfach, sehr schnell und sehr wirksam.
+Doch selbst wenn Sie für diese Möglichkeit in Pentacode keine Verwendung haben, sollten Sie zumindest Ihre Umsatzarten in der Tagesabrechnung erfassen. Dann eben nur für statistische Zwecke. Durch die 30 Sekunden, die dies in Anspruch nimmt, werden Ihre Umsatzdaten mit Ihren Lohndaten verknüpft. Sie können damit Ihre Dienstpläne noch zielgenauer verfassen und erhalten in Echtzeit Auskunft zur Produktivität der Abteilungen in Ihrem Unternehmen.
