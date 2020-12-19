@@ -1,8 +1,26 @@
 ---
 title: Dienstplan Schreiben
-weight: "2"
+weight: 2
 icon: pencil-alt
-anchors: []
+anchors:
+- hash: manuelle-eingabe
+  title: Manuelle Eingabe
+- hash: teilschichten
+  title: Teilschichten
+- hash: geplante-schichten-verschieben
+  title: Geplante Schichten verschieben
+- hash: geplante-schichten-duplizieren
+  title: Geplante Schichten duplizieren
+- hash: problemmeldungen
+  title: Problemmeldungen
+- hash: verwendung-von-Schichtvorlagen
+  title: Verwendung von Schichtvorlagen
+- hash: dienstplanvorlagen
+  title: Dienstplanvorlagen
+- hash: eingaben-löschen
+  title: Eingaben löschen
+- hash: dienstplanung-mit-stundenvorgaben
+  title: Dienstplanung mit Stundenvorgaben
 
 ---
 Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung, wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell** und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
@@ -51,7 +69,7 @@ Verfahren Sie wie bei "Geplante Schichten verschieben", doch drücken Sie dabei 
 
 Pentacode meldet bereits bei der Planung, wenn gesetzliche Fristen verletzt werden oder ein Konflikt vorliegt. ein Konflikt entsteht, wenn ein Mitarbeiter z.B. doppelt geplant wird oder sich zwei geplante Schichten überlappen.
 
-In diesem Fall erscheint am rechten Rand die Meldung "Problem". 
+In diesem Fall erscheint am rechten Rand die Meldung "Problem".
 
 Mit einem **Mouse-over** werden die Probleme gezeigt. Wenn Sie dann auf ein Problem klicken, springt der Cursor in den Dienstplan und an die Stelle, an der dieses Problem entstanden ist.
 
@@ -77,7 +95,7 @@ Für die Vorfälle **Krank**, **Urlaub**, **Guttag** und **Wunschfrei** sind Vor
 
 {{< /figure >}}
 
-#### Schichtvorlagen (3)
+#### Schichtvorlagen
 
 Eine Schichtvorlage **entsteht automatisch** mit der Eingabe einer Uhrzeit im Dienstplan.
 
@@ -147,7 +165,7 @@ In Pentacode können Sie einem Dienstplaner für jede Abteilung und wochentags-a
 
 Während er den Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortschrittsbalken**, der jeweils die Farbe der Abteilung zeigt, in welcher der Dienstplaner arbeitet.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Die Überschreitung einer Stundenvorgabe wird in Rot angezeigt" >}}
 
 ![](/uploads/stundenvorgaben.png)
 
