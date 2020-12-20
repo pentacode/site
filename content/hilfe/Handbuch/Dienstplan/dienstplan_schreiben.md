@@ -1,6 +1,6 @@
 ---
 title: Dienstplan Schreiben
-weight: 2
+weight: 1
 icon: pencil-alt
 anchors:
 - hash: manuelle-eingabe

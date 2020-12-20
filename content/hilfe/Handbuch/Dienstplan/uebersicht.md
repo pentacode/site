@@ -1,6 +1,6 @@
 ---
 title: Funktionsübersicht
-weight: 1
+weight: 0
 icon: telescope
 anchors:
 - hash: überblick
