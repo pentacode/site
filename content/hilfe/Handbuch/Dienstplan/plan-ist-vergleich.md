@@ -1,6 +1,6 @@
 ---
 title: Plan-Ist-Vergleich
-weight: 4
+weight: 3
 icon: chart-line
 anchors: []
 
