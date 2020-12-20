@@ -5,6 +5,8 @@ icon: book
 anchors: []
 
 ---
+Ein paar Wörter vorweg
+
 Die Hilfeartikel im Handbuch sind in Kapitel gegliedert, welche den Hauptmenü-Punkten von Pentacode entsprechen und stellen die vollständige Beschreibung aller Funktionen der Software dar. Die Artikel sind leicht verständlich geschrieben und mit einer Vielzahl von bildhaften Anleitungen versehen. Selbst wenn Sie bei Inbetriebnahme von Pentacode völlig auf die Unterstützung durch unseren Support verzichten würden, werden Sie die Software innerhalb einer Stunde wirksam in Gang setzen können, innerhalb von etwa drei Stunden haben Sie eine umfassende Kenntnis aller Funktionen und Möglichkeiten von Pentacode erworben.
 
 Der Umgang mit Pentacode ist derart intuitiv und die Prozesse sind in einem so hohen Maße automatisiert, dass Sie quasi "aus dem Stand" arbeiten können, selbst wenn Sie keinen einzigen Hilfeartikel gelesen haben. Trotzdem empfehlen wir Ihnen, einen Blick in den einen oder anderen Artikel zu werfen. Sie erhalten auf diese Weise viele nützliche Tipps und Anregungen.
