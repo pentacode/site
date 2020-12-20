@@ -1,6 +1,6 @@
 ---
 title: Dienstplan Veröffentlichen
-weight: 
+weight: 3
 icon: share-square
 anchors:
 - hash: auswahl-der-abteilung
