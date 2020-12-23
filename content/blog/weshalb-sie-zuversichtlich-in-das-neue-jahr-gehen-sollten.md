@@ -31,7 +31,7 @@ Dann brechen mit den „Goldenen Zwanzigern“ dieses Jahrhunderts vielleicht ni
 
 Nutzen Sie die nächsten Monate, um sich neu und besser „aufzustellen“, seien Sie zuversichtlich und vor allem: Bleiben Sie in der Zwischenzeit gesund!
 
-Wir wünschen Ihnen schöne Festtage mit Ihren Familien, einen guten Rutsch in ein Neues und sicherlich besseres Jahr.
+Wir wünschen Ihnen schöne Festtage mit Ihren Familien und einen guten Rutsch in ein Neues und sicherlich besseres Jahr.
 
 Mit herzlichen Grüßen
 
