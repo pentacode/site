@@ -5,7 +5,6 @@ summary: |-
   Denn Geschichte wiederholt sich.
 publishDate: 2020-12-23T11:00:00.000+00:00
 cover: "/uploads/shutterstock_1148076167.png"
-draft: true
 
 ---
 Im Anschluss an den ersten Weltkrieg wütete in Europa eine Pandemie ungeahnten Ausmaßes. In den Jahren 1918 bis 1920 kam die „Spanische Grippe“ in drei Wellen über die Menschheit. Je nach Schätzung forderte sie zwischen 20 und 100 Millionen Menschenleben. Sie brachte damit weit mehr Tote hervor als die vorangegangene Schlächterei in den Gräben. Aber anders als der Krieg waren nicht vor allem Soldaten die Opfer, es starb die Zivilbevölkerung.
