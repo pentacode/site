@@ -1,8 +1,16 @@
 ---
 title: Benutzerkonto
-weight:
-icon: "cog"
+weight: 
+icon: unlock-alt
 anchors: []
----
 
-In diesen beiden Menüpunkten finden Sie die Angaben zu Zugangsberechtigten und zum Unternehmen. Diese Angaben dienen im Augenblick lediglich zur allgemeinen Information.
+---
+Sofern ein Administrator Zugang zum "Benutzerkonto" hat, kann er in diesem Menüpunkt seine Email-Adresse wie auch sein Passwort ändern. 
+
+{{< figure caption="Benutzerdaten & Passwort ändern" >}}
+
+![](/uploads/benutzerkonto.png)
+
+{{< /figure >}}
+
+Hat ein Administrator sein Passwort vergessen, kann er lediglich auf der Startseite von Pentacode über "Passwort Vergessen" ein neues Passwort anfordern.

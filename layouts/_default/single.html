@@ -26,9 +26,13 @@
                 {{ partial "breadcrumbs" . }}
             </div>
 
-            {{ partial "cover-image" . }}
+            <div class="text-clip">
+                <div class="cover">
+                    {{ partial "thumbnail" . }}
+                </div>
 
-            <h1>{{ .Title }}</h1>
+                <h1><span>{{ .Title }}</span></h1>
+            </div>
 
             {{ with .PublishDate }}
             <p class="subtle">{{ dateFormat "Monday, Jan 2, 2006" . }}</p>

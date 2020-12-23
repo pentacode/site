@@ -29,11 +29,15 @@
         {{ else }}
 
         <div class="content animation-reveal">
-            {{ partial "cover-image" . }}
+            <div class="text-clip">
+                <div class="cover">
+                    {{ partial "thumbnail" . }}
+                </div>
 
-            <h1>
-                {{ .Title }}
-            </h1>
+                <h1>
+                    <span>{{ .Title }}</span>
+                </h1>
+            </div>
 
             {{ .Content }}
         </div>
@@ -45,9 +49,13 @@
             <li class="animation-reveal animation-fast animation-delay-{{ add $index 1 }}">
                 <a href="{{ .RelPermalink }}">
                     <article>
-                        {{ partial "cover-image" . }}
+                        <div class="text-clip">
+                            <div class="cover">
+                                {{ partial "thumbnail" . }}
+                            </div>
 
-                        <div class="title">{{ .Title }}</div>
+                            <div class="title"><span>{{ .Title }}</span></div>
+                        </div>
 
                         <div class="subtitle">
                             {{ if eq $page.Kind "page" }}
@@ -55,7 +63,7 @@
                                     {{ dateFormat "Monday, Jan 2, 2006" . }}
                                 {{ end }}
                             {{ else }}
-                                {{ len $page.Pages }} Articles
+                                {{ len $page.Pages }} Artikel
                             {{ end }}
                         </div>
 

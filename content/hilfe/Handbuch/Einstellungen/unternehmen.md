@@ -1,8 +1,16 @@
 ---
 title: Unternehmen
-weight:
-icon: "cog"
+weight: 
+icon: building
 anchors: []
----
 
-In diesen beiden Menüpunkten finden Sie die Angaben zu Zugangsberechtigten und zum Unternehmen. Diese Angaben dienen im Augenblick lediglich zur allgemeinen Information.
+---
+Die hier hinterlegten Unternehmensdaten dienen lediglich zur allgemeinen Information.
+
+Eine Änderung der Adressdaten hat keinerlei sonstige Auswirkung. 
+
+{{< figure caption="Angaben zum Unternehmen und allgemeine Kontaktdaten" >}}
+
+![](/uploads/unternehmen.png)
+
+{{< /figure >}}

@@ -16,7 +16,9 @@
         {{ range .Pages }}
             <li class="{{ if eq . $currPage }}active{{ end }}">
                 <a href="{{ .RelPermalink }}">
-                    {{ partial "cover-image" . }}
+                    <div class="thumb">
+                        {{ partial "thumbnail" . }}
+                    </div>
 
                     <div class="body">
                         {{ with .PublishDate }}

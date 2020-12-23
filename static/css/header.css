@@ -38,10 +38,9 @@ header nav ul li.active a {
 
 header .logo {
     display: block;
-    height: 1.5em;
+    height: 2em;
     width: 10em;
     position: relative;
-    top: -2px;
 }
 
 header .logo path {

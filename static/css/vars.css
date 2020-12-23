@@ -36,6 +36,7 @@ body {
     --grey-bg: #f1f1f1;
 
     --color-highlight: var(--blue);
+    --color-highlight-bg: var(--teal);
 }
 
 .red {
