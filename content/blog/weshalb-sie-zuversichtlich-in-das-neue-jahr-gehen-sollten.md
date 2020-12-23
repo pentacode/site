@@ -11,7 +11,7 @@ Im Anschluss an den ersten Weltkrieg wütete in Europa eine Pandemie ungeahnten 
 
 Die spanische Grippe brachte das gesellschaftliche Leben in Europa und den USA zum fast vollständigen Erliegen. Auch damals trugen die Menschen Mundschutz, hielten sich voneinander fern, vermieden das Zusammensein mit anderen, Restaurants und Trinkhallen blieben geschlossen. Selbst wenn die Verhältnisse damals um ein Vielfaches erbärmlicher und armseliger waren, die Parallelen zu heute sind sehr offensichtlich.
 
-Und als die Pandemie endlich vorüber war, begannen die „Roaring Twenties".
+Aber als die Pandemie endlich vorüber war, begannen die „Roaring Twenties".
 
 Geschichte wiederholt sich. Leider muss man häufig sagen, hoffentlich aber in diesem einen Fall. Wenn Corona vorüber gegangen ist, wird es sicher nicht zu den Exzessen kommen, die vor exakt 100 Jahren über ein Jahrzehnt hinweg Teil der gesellschaftlichen Normalität waren.
 
@@ -29,6 +29,6 @@ Nutzen Sie die nächsten Monate, um sich neu und besser „aufzustellen“, seie
 
 Wir wünschen Ihnen schöne Festtage mit Ihren Familien, einen guten Rutsch in ein Neues und sicherlich besseres Jahr.
 
-Mit herzlichen Grüßen 
+Mit herzlichen Grüßen
 
 Das gesamte Team von Pentacode
