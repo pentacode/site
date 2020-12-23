@@ -5,6 +5,7 @@ summary: |-
   Denn Geschichte wiederholt sich.
 publishDate: 2020-12-23T11:00:00.000+00:00
 cover: "/uploads/shutterstock_1148076167.png"
+draft: true
 
 ---
 Im Anschluss an den ersten Weltkrieg wütete in Europa eine Pandemie ungeahnten Ausmaßes. In den Jahren 1918 bis 1920 kam die „Spanische Grippe“ in drei Wellen über die Menschheit. Je nach Schätzung forderte sie zwischen 20 und 100 Millionen Menschenleben. Sie brachte damit weit mehr Tote hervor als die vorangegangene Schlächterei in den Gräben. Aber anders als der Krieg waren nicht vor allem Soldaten die Opfer, es starb die Zivilbevölkerung.
@@ -23,7 +24,7 @@ In unserem Unternehmen sind so ziemlich „alle“ vertreten. Alleinstehende, in
 
 Jeder von uns freut sich darauf, sein Geld in die Gastronomie zu tragen. Nicht nur, weil wir die Gastronomie lieben, sondern weil sie Teil der Lebensführung ist. Wir schätzen die Gastronomie heute sogar noch mehr, weil wir erfahren haben, wie das Leben ohne sie aussieht. Und der Freundeskreis eines jeden von uns denkt exakt genauso. Jeder verspürt die gleiche Gier in sich.
 
-## Die nächsten Monate werden sicher nicht leicht werden
+## Die nächsten Monate werden nicht leicht werden
 
 Durch Überbrückungs-, November- und Dezemberhilfen haben Sie aber hoffentlich für die Liquidität gesorgt, die Sie ins Frühjahr tragen wird. Mit der wärmeren Jahreszeit werden Sie wieder Ihre Terrassen und Schanigärten eröffnen, im Sommer werden die Impfungen größere Schichten der Bevölkerung erreicht haben und wenn kein Blödsinn passiert, werden nächstes Jahr um diese Zeit Abstandsregeln und Einschränkungen der Geschichte angehören.
 
