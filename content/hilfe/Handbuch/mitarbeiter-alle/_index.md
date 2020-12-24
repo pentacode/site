@@ -1,6 +1,6 @@
 ---
 title: Mitarbeiter (Alle)
-weight: "1"
+weight: "2"
 icon: users
 anchors: []
 
