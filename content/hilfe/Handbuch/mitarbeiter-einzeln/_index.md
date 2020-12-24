@@ -1,6 +1,6 @@
 ---
 title: Mitarbeiter (Einzeln)
-weight: "1"
+weight: "3"
 icon: user
 anchors: []
 
