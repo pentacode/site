@@ -1,6 +1,6 @@
 ---
 title: Vorwort
-weight: 
+weight: 1
 icon: book-open
 anchors: []
 
