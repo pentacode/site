@@ -1,10 +1,10 @@
 ---
 title: Planung
-weight: 
+weight: 6
 icon: calendar-alt
 anchors: []
 
 ---
 Um Ihre Dienstplanung wirtschaftlich möglichst effektiv zu gestalten, können Sie für jede Abteilung Stunden vorgeben oder den geplanten Zeitaufwand der Mitarbeiter am Umsatz orientieren, der für einen bestimmten Geschäftstag erwartet wird.
 
-Für die Planung nach Umsatz ist es notwendig, dass Sie Umsatzgruppen anlegen und Ihre täglichen Umsätze zumindest statistisch erfassen. 
+Für die Planung nach Umsatz ist es notwendig, dass Sie Umsatzgruppen anlegen und Ihre täglichen Umsätze zumindest statistisch erfassen.
