@@ -9,7 +9,7 @@ anchors:
   title: Stunden
 - hash: urlaub
   title: Urlaub
-- hash: sfn-Zuschläge
+- hash: sfn-zuschläge
   title: SFN-Zuschläge
 - hash: jahresansicht
   title: Jahresansicht
