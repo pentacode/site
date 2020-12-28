@@ -17,7 +17,7 @@ Ziel dieser Art der Planung ist es, zu bezahlende Arbeitszeit zu verringern, ind
 
 **Tipp**: Natürlich gibt es Arbeiten, die unproduktiv, aber trotzdem wichtig sind. Dazu gehören z.B. Mise-en-place, Putzdienste, Schlußdienst, Inventur u.a.m. Seien Sie bei der Vorgabe von Stunden vor allem zu Beginn aber ruhig ein bißchen mutig. Untersuchungen haben ergeben, dass teilweise mehr als 10% der Arbeitszeit überflüssig zugebracht werden. Möglicherweise auch in Ihrem Betrieb.
 
-Ein Wort zur **Wirksamkeit** dieses Vorgehens: Nehmen wir an, in Ihrem Betrieb arbeiten durchschnittlich 6 Mitarbeiter 8 Stunden am Tag. Nehmen wir weiter an, Sie sparen  durch zeitversetztes "Einsteigen" und zügiges "Aussteigen" der Mitarbeiter nur 2 Stunden / Tag ein . Selbst wenn Sie nur Mindestlohn bezahlen, erzielen Sie eine Einsparung von mehr als 700 € / Monat.
+Ein Wort zur **Wirksamkeit** dieses Vorgehens: Nehmen wir an, in Ihrem Betrieb arbeiten durchschnittlich 6 Mitarbeiter 8 Stunden am Tag. Nehmen wir weiter an, Sie sparen  durch zeitversetztes "Einsteigen" und zügiges "Aussteigen" der Mitarbeiter nur 2 Stunden / Tag ein. Selbst wenn Sie nur Mindestlohn bezahlen, erzielen Sie eine Einsparung von mehr als 700 € / Monat.
 
 **Kurzer Exkurs**
 
