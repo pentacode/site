@@ -3,8 +3,6 @@ title: Konten
 weight: "1"
 icon: balance-scale-right
 anchors:
-- hash: mitarbeiter-filtern
-  title: Mitarbeiter filtern
 - hash: monatsübersicht
   title: Monatsübersicht
 - hash: stunden
@@ -15,6 +13,8 @@ anchors:
   title: SFN-Zuschläge
 - hash: jahresansicht
   title: Jahresansicht
+- hash: mitarbeiter-filtern
+  title: Mitarbeiter filtern
 - hash: konten-zurücksetzen
   title: Konten zurücksetzen
 - hash: konten-einrichten-bei-inbetriebnahme
