@@ -25,7 +25,7 @@ In der Übersicht "**Konten**" sind die **Salden** zu den Arbeitszeitkonten, dem
 
 Über die **Pfeilfunktionen** 
 
-{{< icon "chevron-right" >}}-Symbol
+{{< icon "chevron-right" >}}-**Symbol**
 
 neben dem gewählten Monat können Sie monatsweise **vor**- und **zurückblättern**.
 
