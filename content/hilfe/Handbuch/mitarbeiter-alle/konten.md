@@ -65,7 +65,7 @@ In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgela
 
 {{< figure caption="Hier sehen Sie die Entwicklung der Urlaubsansprüche aller Mitarbeiter und die bis zum abgelaufenen Monat bestehenden Restansprüche" >}}
 
-???
+![](/uploads/urlaub3.png)
 
 {{< /figure >}}
 
@@ -83,7 +83,7 @@ In der Rubrik "**(B.pfl.)**" sehen Sie die Zuschläge, die wegen "Krank" oder "U
 
 {{< /figure >}}
 
-Der Gesetzgeber erlaubt, Zuschläge unabhängig von den monatlich tatsächlich geleisteten Arbeitszeiten auch pauschal voraus zu bezahlen. Wenn Sie dies mit einem Mitarbeiter vereinbart haben und bei diesem in "Vertrag" eine Vorauszahlungssumme eingegeben haben, erscheint diese in der Rubrik "**Pausch.**"
+Der Gesetzgeber erlaubt, **Zuschläge** unabhängig von den monatlich tatsächlich geleisteten Arbeitszeiten auch **pauschal voraus** zu bezahlen. Wenn Sie dies mit einem Mitarbeiter vereinbart haben und bei diesem in "Vertrag" eine Vorauszahlungssumme eingegeben haben, erscheint diese in der Rubrik "**Pausch.**"
 
 Es ist sehr unwahrscheinlich, dass die im laufenden Monat vorausgezahlten Zuschläge deckungsgleich sind mit den im Monat tatsächlich erworbenen Zuschlägen. Die monatliche Differenz zwischen Vorauszahlung und Erworben wird unter "**Diff**" gezeigt.
 
