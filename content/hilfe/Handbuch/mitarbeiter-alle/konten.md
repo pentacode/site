@@ -23,11 +23,7 @@ Die Gesamtansichten ist nicht "editierbar", können an dieser Stelle also nicht 
 
 In der Übersicht "**Konten**" sind die **Salden** zu den Arbeitszeitkonten, dem Urlaubskonto und zu den individuellen SFN-Zuschlägen des jeweils in der Kopfzeile gewählten **Monats** ausgewiesen.
 
-Über die **Pfeilfunktionen** 
-
-{{< icon "chevron-right" >}}-**Symbol**
-
-neben dem gewählten Monat können Sie monatsweise **vor**- und **zurückblättern**.
+Über das {{< icon "chevron-right" >}}-**Symbol** neben dem gewählten Monat können Sie monatsweise **vor**- und **zurückblättern**.
 
 {{< figure caption="Die Darstellung der Konten aller Mitarbeiter können Sie monatsweise vor- und zurückblättern" >}}
 
@@ -61,15 +57,15 @@ In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgela
 
 ## "Urlaub"
 
-In der Rubrik " **Urlaub**" sehen Sie den im gezeigten **Monat** erworbenen Urlaubsanspruch, sowie den **genommenen** Urlaub.
+In der Rubrik " **Urlaub**" sehen Sie den im gezeigten **Monat** **erworbenen** Urlaubsanspruch, sowie den **genommenen** Urlaub.
 
-Unter " **Diff**" sehen Sie den **verbleibenden Urlaubsanspruch** eines Mitarbeiters. Zuviel genommener Urlaub wird mit einem vorangestellten Minus-Zeichen ausgewiesen.
+Unter " **Diff**" sehen Sie den **verbleibenden Urlaubsanspruch** eines Mitarbeiters. Zuviel genommener Urlaub wird mit einem vorangestellten **Minus**-Zeichen ausgewiesen.
 
 In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgelaufenen **Gesamtsaldo**.
 
 {{< figure caption="Hier sehen Sie die Entwicklung der Urlaubsansprüche aller Mitarbeiter und die bis zum abgelaufenen Monat bestehenden Restansprüche" >}}
 
-![](/uploads/urlaub.png)
+???
 
 {{< /figure >}}
 
