@@ -2,14 +2,24 @@
 title: Konten
 weight: "1"
 icon: balance-scale-right
-anchors: []
+anchors:
+- hash: monatsübersicht
+  title: Monatsübersicht
+- hash: stunden
+  title: Stunden
+- hash: urlaub
+  title: Urlaub
+- hash: sfn-Zuschläge
+  title: SFN-Zuschläge
+- hash: jahresansicht
+  title: Jahresansicht
 
 ---
 Um Ihnen einen schnellen Überblick über die Konten aller Mitarbeiter zu ermöglichen, werden diese in einer Gesamtübersicht dargestellt.
 
 Die Gesamtansichten ist nicht "editierbar", können an dieser Stelle also nicht bearbeitet werden. Wenn Sie die Daten eines Mitarbeiters korrigieren wollen, klicken Sie bitte auf den Namen des Mitarbeiters. Sie landen automatisch in dessen Konto. Dort können Sie die Korrekturen vornehmen.
 
-## Monatsansicht
+## Monatsübersicht
 
 In der Übersicht "**Konten**" sind die **Salden** zu den Arbeitszeitkonten, dem Urlaubskonto und zu den individuellen SFN-Zuschlägen des jeweils in der Kopfzeile gewählten **Monats** ausgewiesen.
 
@@ -21,7 +31,7 @@ In der Übersicht "**Konten**" sind die **Salden** zu den Arbeitszeitkonten, dem
 
 {{< /figure >}}
 
-### "Stunden"
+## "Stunden"
 
 In der Rubrik " **Stunden**" werden die **Soll-Zeiten**, die ein Mitarbeiter im betreffenden Monat arbeiten soll, den **tatsächlich** geleisteten **Arbeitszeiten** **gegenübergestellt** und Über- oder Minderstunden ausgewiesen.
 
@@ -33,7 +43,7 @@ In der Rubrik " **Stunden**" werden die **Soll-Zeiten**, die ein Mitarbeiter im 
 
 In der Kolonne " **Ist**" werden ausschließlich **abgeschlossene Arbeitstage** ausgewiesen. **Geplante Arbeitszeiten** werden **nicht** berücksichtigt.
 
-Unter Differenz sind die Über- oder Minderstunden eines Mitarbieters im laufenden Monat qusgewiesen. Wenn die **Differenz** zwischen "**Soll**" und "**Ist**" größer oder kleiner **20%** ist, wird die **Differenz** unter "Diff" in **Orange** gekennzeichnet.
+Unter Differenz sind die Über- oder Minderstunden eines Mitarbeiters im laufenden Monat ausgewiesen. Wenn die **Differenz** zwischen "**Soll**" und "**Ist**" größer oder kleiner **20%** ist, wird die **Differenz** unter "Diff" in **Orange** gekennzeichnet.
 
 In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgelaufenen **Gesamtsaldo** eines jeden Mitarbeiters.
 
@@ -43,9 +53,9 @@ In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgela
 
 {{< /figure >}}
 
-**Kritische** Probleme, i.B. **Mindestlohnunterschreitungen** oder Überschreitung der Bemessungsgrenze bei **Geringfügig Beschäftigten**, werden in **Rot** hervorgehoben.
+**Kritische** Probleme, i.B. **Mindestlohnunterschreitungen** oder **Überschreitung** der Bemessungsgrenze bei **Geringfügig Beschäftigten**, werden in **Rot** hervorgehoben.
 
-### "Urlaub"
+## "Urlaub"
 
 In der Rubrik " **Urlaub**" sehen Sie den im gezeigten **Monat** erworbenen Urlaubsanspruch, sowie den **genommenen** Urlaub.
 
@@ -59,7 +69,7 @@ In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgela
 
 {{< /figure >}}
 
-### "SFN-Zuschläge"
+## "SFN-Zuschläge"
 
 Pentacode unterscheidet zwischen beitragsfreien und durch Lohnfortzahlung beitragspflichtigen SFN-Zuschlägen.
 
@@ -89,9 +99,9 @@ Wenn Sie keine Pauschalvorauszahlungen leisten (wie im gezeigten Beispiel), ents
 
 ## Jahresansicht
 
-In der Ansicht "Jahr" wird die Entwicklung der individuellen Konten aller Mitarbeiter über das Jahr hinweg gezeigt.
+In der Ansicht "**Jahr**" wird die Entwicklung der individuellen Konten aller Mitarbeiter über das Jahr hinweg gezeigt.
 
-Die Kontenart wählen Sie, indem Sie am Kopfende auf die gewünschte Auswahl klicken.
+Die **Kontenart** wählen Sie, indem Sie am Kopfende auf die gewünschte Auswahl klicken.
 
 {{< figure caption="Hier können Sie die Entwicklung der Konten aller Mitarbeiter über das gesamte Jahrn hinweg einsehen" >}}
 
