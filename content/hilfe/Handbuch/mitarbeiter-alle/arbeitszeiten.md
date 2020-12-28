@@ -3,8 +3,12 @@ title: Arbeitszeiten
 weight: "1"
 icon: user-clock
 anchors:
+- hash: mitarbeiter-filtern
+  title: Mitarbeiter filtern
 - hash: spaltenbezeichnung
   title: Spaltenbezeichnung
+- hash: zeitraum-wechseln
+  title: Zeitraum wechseln
 - hash: exportformate
   title: Exportformate
 - hash: export-in-die-buchhaltung
@@ -15,21 +19,39 @@ Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten
 
 ## Spaltenbezeichnung
 
-Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen Abteilungen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben.
+Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen Abteilungen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben. Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 
-Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
+In den einzelnen Spalten sind die im Laufe des Monats gearbeiteten jeweils oder manuell nachgebuchten Stunden in **Summe zusammengefasst**.
 
-{{< figure caption="Dies ist die Gesamtansicht zu Arbeitszeiten, Zuschlägen und Lohnfortzahlung" >}}
+In der Spalte **Position** wird gezeigt, in welcher Abteilung/welchen Abteilungen wie viele Stunden gearbeitet wurden und zwischen Arbeitszeit und Lohnfortzahlung unterschieden.
 
-![](/uploads/arbeitszeiten-monat.png)
+{{< figure caption="Arbeits- und Zuschlagsstunden, Urlaub, Krank und eventuelle manuelle Nachbuchungen sind hier in Summen zusammengefasst" >}}
+
+![](/uploads/spaltenbezeichnung.png)
 
 {{< /figure >}}
 
-Über das {{< icon "file-export" >}}-Symbol am rechten oberen Eck und den Dropdown-Pfeil wählen Sie das gewünschte **Format** aus.
+## Mitarbeiter filtern
 
-{{< figure caption="So wählen Sie das Druck- und Exportformat aus" >}}
+Sie können einzelne Mitarbeiter **filtern**, indem Sie in das Suchfeld dessen **Namen eingeben**.
 
-![](/uploads/export.png)
+Es ist dabei unerheblich, ob Sie Vor- oder Nachnamen wählen, da mit jeder Buchstabeneingabe der Kreis weiter eingeengt wird.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/mitarbeiter-filtern-alle.png)
+
+{{< /figure >}}
+
+## Zeitraum wechseln
+
+Wenn Sie das Konto "Arbeitszeiten" öffnen, wird Ihnen in der Standardansicht immer der aktuell laufende Monat gezeigt.
+
+Über das {{< icon "chevron-right" >}}-Symbol können Sie den Monat wechseln.
+
+{{< figure caption="Über das Pfeil-Symbol können Sie den Monat wechseln." >}}
+
+![](/uploads/arbeitszeiten-monat.png)
 
 {{< /figure >}}
 
@@ -38,6 +60,14 @@ Diese Übersicht ist **Grundlage** für die **Lohnabrechnung**.
 Der Begriff "Exportieren" bezeichnet sowohl **Druckbefehle** wie auch **Download-Dateien** für die Übermittlung von Formaten, die geeignet sind, in Buchhaltungssysteme importiert zu werden.
 
 Ausdrucke, die Sie an dieser Stelle vornehmen, sind **Reihenausdrucke**. Es werden somit **alle Mitarbeiter** "in einem Schwung" ausgedruckt.
+
+Über das {{< icon "file-export" >}}-Symbol am rechten oberen Eck und den Dropdown-Pfeil wählen Sie das gewünschte **Format** aus.
+
+{{< figure caption="So wählen Sie das Druck- und Exportformat aus" >}}
+
+![](/uploads/export.png)
+
+{{< /figure >}}
 
 ### "Arbeitszeiten Nachweis"
 
