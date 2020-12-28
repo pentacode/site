@@ -13,6 +13,12 @@ anchors:
   title: SFN-Zuschläge
 - hash: jahresansicht
   title: Jahresansicht
+- hash: konten-zurücksetzen
+  title: Konten zurücksetzen
+- hash: konten-einrichten-bei-inbetriebnahme
+  title: Konten einrichten bei Inbetriebnahme
+- hash: konten-drucken
+  title: Konten drucken
 
 ---
 Um Ihnen einen schnellen Überblick über die Konten aller Mitarbeiter zu ermöglichen, werden diese in einer Gesamtübersicht dargestellt.
@@ -106,5 +112,41 @@ Die **Kontenart** wählen Sie, indem Sie am Kopfende auf die gewünschte Auswahl
 {{< figure caption="Hier können Sie die Entwicklung der Konten aller Mitarbeiter über das gesamte Jahrn hinweg einsehen" >}}
 
 ![](/uploads/jahresansicht.png)
+
+{{< /figure >}}
+
+## Konten zurücksetzen
+
+Sie können die Arbeitszeit-, Urlaubs- und SFN-**Konten** der Mitarbeiter auf sehr einfache Weise **korrigieren**, indem Sie auf das {{< icon "ellipsis-h" >}}-**Symbol** klicken und "**Konten zurücksetzen**" durch Anklicken bestätigen.
+
+Es erscheint daraufhin eine Liste der Mitarbeiter, in der Sie für die Spalten "Arbeit", "Urlaub" und "SFN" die jeweils aufgelaufenen Werte sehen. Wählen Sie dann  über das **Dropdown-Menü** den **Monat**, in dem die Korrektur erfolgen soll.
+
+Wenn Sie einen Wert korrigieren wollen, schreiben Sie den zu verwendenden Wert in das entsprechende **Eingabefeld** und klicken Sie auf "**Übernehmen**".
+
+{{< figure caption="So können Sie auf einfache Weise die Kontenstände von **allen** Mitarbeitern korrigieren" >}}
+
+![](/uploads/konten-zuruck.png)
+
+{{< /figure >}}
+
+## Konten einrichten bei Inbetriebnahme 
+
+> Wenn sie mit Pentacode zu arbeiten beginnen, wird der **Saldo aller Konten bei allen Mitarbeitern keinen Wert** ausweisen. Trotzdem werden Ihre Mitarbeiter Über- oder Minderstunden und Resturlaubsansprüche haben, die Sie berücksichtigen wollen.
+>
+> Wählen Sie in diesem Fall zuerst den **Monat**, ab dem die Berechnung durch Pentacode beginnen soll.
+>
+> **Geben Sie dann in die jeweiligen Eingabefelder den jeweiligen Saldo ein, der für den einzelnen Mitarbeiter zum Beginn des gewählten Monats aufgelaufen ist.**
+>
+> Diese Saldi werden bei der Weiterrechnung durch Pentacode somit entsprechend berücksichtigt.
+
+## Konten drucken
+
+Über das {{< icon "print" >}}-Symbol können Sie die Konten aller Mitarbeiter als Reihenausdruck ausdrucken.
+
+Wegen der "Breite" des Ausdrucks empfehlen wir Ihnen, in Ihren Druckeinstellungen hierfür "Querformat" zu wählen.
+
+{{< figure caption="Wählen Sie für den Ausdruck am besten **Querformat**" >}}
+
+![](/uploads/konten-drucken.png)
 
 {{< /figure >}}
