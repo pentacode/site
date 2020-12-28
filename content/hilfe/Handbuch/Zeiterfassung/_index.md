@@ -1,6 +1,6 @@
 ---
 title: Zeiterfassung
-weight: 
+weight: 1
 icon: stopwatch
 anchors: []
 
