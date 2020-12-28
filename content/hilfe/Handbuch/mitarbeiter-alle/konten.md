@@ -23,9 +23,13 @@ Die Gesamtansichten ist nicht "editierbar", können an dieser Stelle also nicht 
 
 In der Übersicht "**Konten**" sind die **Salden** zu den Arbeitszeitkonten, dem Urlaubskonto und zu den individuellen SFN-Zuschlägen des jeweils in der Kopfzeile gewählten **Monats** ausgewiesen.
 
-Über die **Pfeilfunktionen** neben dem gewählten Monat können Sie monatsweise **vor**- und **zurückblättern**.
+Über die **Pfeilfunktionen** 
 
-{{< figure caption="Die Darstellung der Konten aller Mitarbieter können Sie monatsweise vor- und zurückblättern" >}}
+{{< icon "chevron-right" >}}-Symbol
+
+neben dem gewählten Monat können Sie monatsweise **vor**- und **zurückblättern**.
+
+{{< figure caption="Die Darstellung der Konten aller Mitarbeiter können Sie monatsweise vor- und zurückblättern" >}}
 
 ![](/uploads/monatsansicht.png)
 
