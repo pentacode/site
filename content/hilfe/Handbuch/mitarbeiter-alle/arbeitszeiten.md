@@ -3,8 +3,6 @@ title: Arbeitszeiten
 weight: "1"
 icon: user-clock
 anchors:
-- hash: mitarbeiter-filtern
-  title: Mitarbeiter filtern
 - hash: spaltenbezeichnung
   title: Spaltenbezeichnung
 - hash: zeitraum-wechseln
@@ -28,18 +26,6 @@ In der Spalte **Position** wird gezeigt, in welcher Abteilung/welchen Abteilunge
 {{< figure caption="Arbeits- und Zuschlagsstunden, Urlaub, Krank und eventuelle manuelle Nachbuchungen sind hier in Summen zusammengefasst" >}}
 
 ![](/uploads/spaltenbezeichnung.png)
-
-{{< /figure >}}
-
-## Mitarbeiter filtern
-
-Sie können einzelne Mitarbeiter **filtern**, indem Sie in das Suchfeld dessen **Namen eingeben**.
-
-Es ist dabei unerheblich, ob Sie Vor- oder Nachnamen wählen, da mit jeder Buchstabeneingabe der Kreis weiter eingeengt wird.
-
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
-
-![](/uploads/mitarbeiter-filtern-alle.png)
 
 {{< /figure >}}
 
