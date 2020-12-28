@@ -1,6 +1,6 @@
 ---
 title: Umsätze
-weight: 
+weight: 5
 icon: euro-sign
 anchors: []
 
