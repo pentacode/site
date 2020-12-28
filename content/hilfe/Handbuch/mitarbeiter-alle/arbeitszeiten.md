@@ -1,25 +1,19 @@
 ---
 title: Arbeitszeiten
-weight: 1
+weight: "1"
 icon: user-clock
 anchors:
-- hash: übersicht-arbeitszeiten
-  title: Übersicht Arbeitszeiten
+- hash: spaltenbezeichnung
+  title: Spaltenbezeichnung
 - hash: exportformate
   title: Exportformate
-- hash: arbeitszeiten-nachweis
-  title: Arbeitszeiten Nachweis
-- hash: lohnabrechnung-individuell
-  title: Lohnabrechnung Individuell
-- hash: lohnabrechnung-übersicht
-  title: Lohnabrechnung Übersicht
 - hash: export-in-die-buchhaltung
   title: Export in die Buchhaltung
 
 ---
 Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
 
-## Übersicht Arbeitszeiten
+## Spaltenbezeichnung
 
 Unter "**Alle Mitarbeiter**" finden Sie im jeweils gewählten Monat die **Arbeitsstunden**, die ein Mitarbeiter in den verschiedenen Abteilungen geleistet hat, sowie die eventuellen **Zuschläge**, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben.
 
