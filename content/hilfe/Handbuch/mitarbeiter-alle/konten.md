@@ -123,7 +123,7 @@ Sie können einzelne Mitarbeiter **filtern**, indem Sie in das Suchfeld dessen *
 
 Es ist dabei unerheblich, ob Sie Vor- oder Nachnamen wählen, da mit jeder Buchstabeneingabe der Kreis weiter eingeengt wird.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Durch Namenseingabe können Sie Mitarbeiter filtern." >}}
 
 ![](/uploads/mitarbeiter-filtern-alle.png)
 
