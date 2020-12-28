@@ -3,6 +3,8 @@ title: Konten
 weight: "1"
 icon: balance-scale-right
 anchors:
+- hash: mitarbeiter-filtern
+  title: Mitarbeiter filtern
 - hash: monatsübersicht
   title: Monatsübersicht
 - hash: stunden
@@ -115,6 +117,18 @@ Die **Kontenart** wählen Sie, indem Sie am Kopfende auf die gewünschte Auswahl
 
 {{< /figure >}}
 
+## Mitarbeiter filtern
+
+Sie können einzelne Mitarbeiter **filtern**, indem Sie in das Suchfeld dessen **Namen eingeben**.
+
+Es ist dabei unerheblich, ob Sie Vor- oder Nachnamen wählen, da mit jeder Buchstabeneingabe der Kreis weiter eingeengt wird.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/mitarbeiter-filtern-alle.png)
+
+{{< /figure >}}
+
 ## Konten zurücksetzen
 
 Sie können die Arbeitszeit-, Urlaubs- und SFN-**Konten** der Mitarbeiter auf sehr einfache Weise **korrigieren**, indem Sie auf das {{< icon "ellipsis-h" >}}-**Symbol** klicken und "**Konten zurücksetzen**" durch Anklicken bestätigen.
@@ -129,7 +143,7 @@ Wenn Sie einen Wert korrigieren wollen, schreiben Sie den zu verwendenden Wert i
 
 {{< /figure >}}
 
-## Konten einrichten bei Inbetriebnahme 
+## Konten einrichten bei Inbetriebnahme
 
 > Wenn sie mit Pentacode zu arbeiten beginnen, wird der **Saldo aller Konten bei allen Mitarbeitern keinen Wert** ausweisen. Trotzdem werden Ihre Mitarbeiter Über- oder Minderstunden und Resturlaubsansprüche haben, die Sie berücksichtigen wollen.
 >
