@@ -5,7 +5,7 @@ icon: user-edit
 anchors:
 - hash: mitarbeiter-account-erstellen
   title: Mitarbeiter-Account erstellen
-- hash: berechtigungen-hinzufügen/entfernen
+- hash: berechtigungen-hinzufügen-und-entfernen
   title: Berechtigungen hinzufügen/entfernen
 - hash: mitarbeiter-account-entfernen
   title: Mitarbeiter-Account entfernen
@@ -61,7 +61,7 @@ Nach **Bestätigen** wird automatisch der Haken bei "Administrationszugang" gese
 
 Im hier gezeigten **Beispiel** wurde die Berechtigung für den Bereich "**Dienstplan**" erteilt, durch das **Entfernen einzelner Haken die Berechtigung** jedoch **eingeschränkt**.
 
-## Berechtigungen hinzufügen/entfernen
+## Berechtigungen hinzufügen und entfernen
 
 Durch das **Setzen** oder die **Wegnahme** von Haken in dieser Übersicht können Sie die **Zugriffsrechte** eines Mitarbeiters auch an dieser Stelle ändern.
 
