@@ -21,4 +21,4 @@ Die Einteilung unter "**Positionen**" in den **Stammdaten** des Mitarbeiters wer
 
 In dieser Übersicht können Standorte, Abteilungen und Positionen **nicht** angelegt werden.
 
-Gehen Sie hierzu auf **Einstellungen** und dort auf den Menüpunkt "[**Arbeitsbereiche**](https://app.forestry.io/sites/jztko10gfepjfg/#/pages/content-hilfe-handbuch-einstellungen-arbeitsbereiche-md/)"
+Gehen Sie hierzu auf **Einstellungen** und dort auf den Menüpunkt "[**Arbeitsbereiche**](https://settings/venues?)"
