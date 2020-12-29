@@ -2,7 +2,13 @@
 title: Berechtigungen
 weight: 
 icon: user-edit
-anchors: []
+anchors:
+- hash: mitarbeiter-account-erstellen
+  title: Mitarbeiter-Account erstellen
+- hash: berechtigungen-hinzufügen-/-entfernen
+  title: Berechtigungen hinzufügen/entfernen
+- hash: mitarbeiter-account-entfernen
+  title: Mitarbeiter-Account entfernen
 
 ---
 In dieser Übersicht werden **alle aktuell beschäftigten** Mitarbeiter gezeigt. In der Kopfzeile finden Sie alle Bereiche in Pentacode, zu denen Sie einem Mitarbeiter Zugang geben können.
