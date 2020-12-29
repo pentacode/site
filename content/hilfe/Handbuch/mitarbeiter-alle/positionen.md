@@ -5,7 +5,7 @@ icon: user-tag
 anchors: []
 
 ---
-In diesem Menüpunkt finden Sie eine Übersicht aller Mitarbeiter, sowie aller Standort, deren Abteilungen und wiederum deren Positionen, die Sie angelegt haben.
+In diesem Menüpunkt finden Sie eine Übersicht aller Mitarbeiter, sowie aller Standorte, deren Abteilungen und wiederum deren Positionen, die Sie angelegt haben.
 
 Diese Übersicht ist insbesondere dienlich, wenn Sie einen neuen Standort oder eine neue Abteilung anlegen.
 
@@ -15,6 +15,10 @@ Die Einteilung unter "**Positionen**" in den **Stammdaten** des Mitarbeiters wer
 
 {{< figure caption="Durch Setzen und Entfernen von Haken können Sie Mitarbeiter in dieser Gesamtübersicht den Abteilungen zuweisen" >}}
 
-![](/uploads/positionen.png)
+![](/uploads/positionen3.png)
 
 {{< /figure >}}
+
+In dieser Übersicht können Standorte, Abteilungen und Positionen **nicht** angelegt werden.
+
+Gehen Sie hierzu auf **Einstellungen** und dort auf den Menüpunkt "[**Arbeitsbereiche**](https://app.forestry.io/sites/jztko10gfepjfg/#/pages/content-hilfe-handbuch-einstellungen-arbeitsbereiche-md/)"
