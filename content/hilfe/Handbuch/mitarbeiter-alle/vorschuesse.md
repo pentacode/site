@@ -37,6 +37,14 @@ Die Vorschussliste kann **nicht** exportiert werden. Um sie Ihrer Buchhaltung zu
 
 ## Filtern
 
+Über das Suchfeld können Sie Mitarbeiter durch Buchstabeneingabe filtern.
+
+{{< figure caption="So können Sie Mitarbeiter filtern" >}}
+
+![](/uploads/vorschusse-filtern.png)
+
+{{< /figure >}}
+
 ## Drucken
 
 Über das {{< icon "print" >}}-Symbol können Sie die Vorschussliste ausdrucken.
