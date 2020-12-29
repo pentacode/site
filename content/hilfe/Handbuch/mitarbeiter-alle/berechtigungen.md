@@ -5,7 +5,7 @@ icon: user-edit
 anchors:
 - hash: mitarbeiter-account-erstellen
   title: Mitarbeiter-Account erstellen
-- hash: berechtigungen-hinzufügen-/-entfernen
+- hash: berechtigungen-hinzufügen/entfernen
   title: Berechtigungen hinzufügen/entfernen
 - hash: mitarbeiter-account-entfernen
   title: Mitarbeiter-Account entfernen
