@@ -2,7 +2,15 @@
 title: Vorschüsse
 weight: 
 icon: coins
-anchors: []
+anchors:
+- hash: drucken
+  title: Drucken
+- hash: filtern
+  title: Filtern
+- hash: zeitraum-wechseln
+  title: Zeitraum wechseln
+- title: Vorschussliste
+  hash: vorschussliste
 
 ---
 > Die automatische Erfassung und Listung von Bar-Vorschüssen setzt voraus, dass Sie entweder eine **Tagesabrechnung** in Pentacode durchführen oder aber das **Kassenbuch** führen. Ist dies der Fall, entsteht selbständig eine **Liste der ausgezahlten Vorschüsse**.
