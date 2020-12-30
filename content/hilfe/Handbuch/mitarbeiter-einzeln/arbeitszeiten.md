@@ -3,37 +3,19 @@ title: Arbeitszeiten
 weight: 
 icon: user-clock
 anchors:
-- title: Übersicht
-  hash: übersicht
-- hash: ergänzungen-im-arbeitszeitkonto
-  title: Ergänzungen im Arbeitszeitkonto
-- hash: arbeitszeiten-hinzufügen
-  title: Arbeitszeiten hinzufügen
-- hash: fehltag-hinzufügen
-  title: Fehltag hinzufügen
-- hash: zeitbuchung
-  title: Zeitbuchung
-- hash: urlaubsbuchung
-  title: Urlaubsbuchung
+- hash: aufbau-und-struktur
+  title: Aufbau und Struktur
 - hash: kontoausdruck
   title: Kontoausdruck
-- hash: arbeitszeiten-nachweis
-  title: Arbeitszeiten Nachweis
-- hash: lohnabrechnung
-  title: Lohnabrechnung
+- hash: nachträgliche-ergänzungen
+  title: Nachträgliche Ergänzungen
 
 ---
 Mit **"Arbeitszeiten"** ist das **monatliche Arbeitszeitkonto** des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
 
-## Übersicht
+## Aufbau und Struktur
 
-In dieser Übersicht werden dargestellt:
-
-die **Abteilung**, in der der Mitarbeiter am jeweiligen Tag gearbeitet hat,
-
-**Anfang** und **Ende** des Arbeitstages, sowie der **Arbeitspausen** entsprechend Ihrer Regeleinstellung für die Zeiterfassung und
-
-die Anzahl eventueller **Mahlzeiten**
+Im Monatsarbeitszeitkonto eines Mitarbeiters werden dargestellt: die **Abteilung**, in der der Mitarbeiter am jeweiligen Tag gearbeitet hat, **Anfang** und **Ende** des Arbeitstages, sowie der **Arbeitspausen** entsprechend Ihrer Regeleinstellung für die Zeiterfassung und die Anzahl eventueller **Mahlzeiten**
 
 {{< figure caption="Hier sehen Sie den Verlauf der einzelnen Arbeitstage" >}}
 
@@ -41,15 +23,15 @@ die Anzahl eventueller **Mahlzeiten**
 
 {{< /figure >}}
 
-Am rechten Rand sehen Sie die errechnete **Dauer** des **Arbeitstages** unter Abzug der Pausen und
-
-die **Anzahl** der **Zuschlagsstunden** in den einzelnen Zuschlagszonen entsprechend der Einstellungen in den Vertragsdaten des Mitarbeiters.
+Am rechten Rand sehen Sie die errechnete **Dauer** des **Arbeitstages** unter Abzug der Pausen und die **Anzahl** der **Zuschlagsstunden** in den einzelnen Zuschlagszonen entsprechend der Einstellungen in den Vertragsdaten des Mitarbeiters.
 
 {{< figure caption="Hier sind die Dauer des Arbeitstages und die Zuschläge in Summe dargestellt" >}}
 
 ![](/uploads/az-konto-dauer.png)
 
 {{< /figure >}}
+
+### Zeichenerklärung
 
 Am rechten unteren Rand finden Sie eine **Zeichenerklärung** für die unterschiedlichen **Zuschlagsarten**.
 
@@ -59,6 +41,8 @@ Am rechten unteren Rand finden Sie eine **Zeichenerklärung** für die unterschi
 
 {{< /figure >}}
 
+### Summen-Übersicht
+
 Am rechten oberen Rand werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**. Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen **Soll-Arbeitszeit** und der **tatsächlich geleisteten Arbeitszeit**.
 
 {{< figure caption="Hier sehen Sie die Summen der Arbeits- und Zuschlagszeiten in Stunden dargestellt" >}}
@@ -66,6 +50,8 @@ Am rechten oberen Rand werden die **geplanten** Arbeitszeiten, die **monatlichen
 ![](/uploads/az-konto-soll-ist.png)
 
 {{< /figure >}}
+
+### Korrektur von Arbeitszeiten
 
 Sollten Daten **unvollständig** oder fehlerhaft sein, erscheint am betreffenden Tag ein **Ausrufezeichen**.
 
@@ -77,7 +63,7 @@ Sollten Daten **unvollständig** oder fehlerhaft sein, erscheint am betreffenden
 
 Durch einen **Mouseover** wird das Problem benannt. Sie können einen Fehler jederzeit ergänzen oder berichtigen.
 
-## Ergänzungen im Arbeitszeitkonto
+## Nachträgliche Ergänzungen
 
 Neben Korrekturen können Sie im Arbeitszeitkonto auch **Ergänzungen** durchführen.
 
@@ -175,7 +161,7 @@ In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Paus
 
 Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezahlten Stunden unter "**BEZ**" hinzu addiert.
 
-Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
+> Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
 
 Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
 
@@ -193,4 +179,4 @@ Am Fußende sehen Sie die **Zusammenfassung** nach Stunden und die daraus result
 
 Dieser Nachweis dient vor allem Ihrer **internen** Dokumentation und ist nicht zwingend geeignet, den Mitarbeitern ausgehändigt zu werden.
 
-**Empfehlung**: Im Falle einer Prüfung ist es empfehlenswert, dem Prüfer für eine Stichprobenkontrolle einzelne Ausdrucke der "Lohnabrechnung" zu überlassen. Die offensichtliche Transparenz, Richtigkeit und Glaubwürdigkeit Ihrer Dokumentation durch Pentacode kann den Prüfungsvorgang erheblich beschleunigen.
+> Im Falle einer Prüfung ist es empfehlenswert, dem Prüfer für eine Stichprobenkontrolle einzelne Ausdrucke der "Lohnabrechnung" zu überlassen. Die offensichtliche Transparenz, Richtigkeit und Glaubwürdigkeit Ihrer Dokumentation durch Pentacode kann den Prüfungsvorgang u.U. erheblich beschleunigen.
