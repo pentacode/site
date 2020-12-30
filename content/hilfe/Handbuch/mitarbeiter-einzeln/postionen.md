@@ -5,11 +5,11 @@ icon: user-tag
 anchors: []
 
 ---
-Unter Positionen finden Sie die **Abteilungen** wieder, die Sie unter "Einstellungen" für Ihren Betrieb angelegt haben.
+Unter dem Hauptmenü-Punkt "**Einstellungen**" und dort unter "**Arbeitsbereiche**" haben Sie für Ihr Unternehmen Abteilungen angelegt und diesen Abteilungen eventuell Positionen zugewiesen.
 
-Hier weisen Sie den Mitarbeiter einer oder mehreren Abteilungen zu, in denen dieser tätig ist.
+Diese Abteilungen und deren eventuelle Positionen finden Sie bei jedem Mitarbeiter unter dem Menüpunkt "**Positionen**" wieder.
 
-Aktivieren Sie hierzu einfach die entsprechenden Buttons.
+Indem Sie die entsprechenden Buttons wählen, weisen Sie den Mitarbeiter einer oder mehreren Abteilungen zu, in denen dieser tätig sein soll.
 
 {{< figure caption="Hier wählen Sie aus, in welchen Abteilungen der Mitarbeiter im Dienstplan erscheint" >}}
 
@@ -19,4 +19,4 @@ Aktivieren Sie hierzu einfach die entsprechenden Buttons.
 
 Der Mitarbeiter erscheint im **Dienstplan** nun in den von Ihnen ausgewählten Abteilungen und kann in diesen Abteilungen **geplant** werden.
 
-Durch Aktivieren / Deaktivieren kann der Tätigkeitsbereich später jederzeit erweitert oder eingeschränkt werden.
+Durch Wählen / Abwählen der entsprechenden Buttons kann der Tätigkeitsbereich später jederzeit erweitert oder eingeschränkt werden.
