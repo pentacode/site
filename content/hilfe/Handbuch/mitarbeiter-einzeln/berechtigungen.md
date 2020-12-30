@@ -1,6 +1,6 @@
 ---
 title: Berechtigungen
-weight: 
+weight: 5
 icon: user-edit
 anchors:
 - hash: erteilen-einer-berechtigung
