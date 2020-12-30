@@ -2,14 +2,20 @@
 title: Berechtigungen
 weight: 
 icon: user-edit
-anchors: []
+anchors:
+- hash: erteilen-einer-berechtigung
+  title: Erteilen einer Berechtigung
+- hash: einschränken-einer-berechtigung
+  title: Einschränken einer Berechtigung
+- hash: berechtigung-entziehen
+  title: Berechtigung entziehen
 
 ---
 Unter  **"Berechtigungen"** können Sie einem Mitarbeiter Zugang zu von Ihnen **ausgewählten Bereichen** in Pentacode geben.
 
 Es können beliebig viele Mitarbeiter Ihres Hauses in Ihrer Datenbank arbeiten. Welcher dieser Mitarbeiter zu welchen **Bereichen** in Pentacode **Zugang** hat, bestimmen alleine Sie als **Administrator**.
 
-**Voraussetzung** hierfür ist, dass Sie in den "Stammdaten" des Mitarbeiters dessen **Email-Adresse** hinterlegt haben.
+> **Voraussetzung für die Erteilung einer Berechtigung ist, dass Sie in den "Stammdaten" des Mitarbeiters dessen Email-Adresse hinterlegt haben**.
 
 ## Erteilen einer Berechtigung
 
@@ -37,10 +43,16 @@ Er erhält somit ausschließlich zu jenen Bereichen Zugang, zu denen ihm Zugang 
 
 {{< /figure >}}
 
-Wenn der Mitarbeiter z.B. berechtigt ist, **Dienstpläne** nur für **ausgewählte Abteilungen** zu schreiben, schränken Sie den Zugang durch **Deaktivieren** der Button auf jene Abteilungen/Positionen ein, für die er Dienstpläne verfassen kann.
+Wenn der Mitarbeiter z.B. berechtigt ist, **Dienstpläne** nur für **ausgewählte Abteilungen** zu schreiben, schränken Sie den Zugang durch **Abwählen** der Button auf jene Abteilungen/Positionen ein, für die er Dienstpläne verfassen kann.
 
 Der Mitarbeiter kann somit **ausschließlich** für jene Abteilungen, die in seine **Zuständigkeit** fallen, Dienstpläne schreiben oder geplante Dienstzeiten in diesen Abteilungen verändern.
 
 Auf dieselbe Weise bestimmen Sie auch, ob der Mitarbeiter auch zu weitergehenden Informationen Zugang erhält. Ob er also z.B. die Lohnkosten bei der Planung einsehen darf.
 
 ![](/uploads/einschrankung3.png)
+
+## Berechtigung entziehen
+
+Wenn ein Mitarbeiter, dem Sie die Berechtigung zum Zugang zur Datenbank erteilt haben, das Haus verlässt oder aus anderen Gründen nicht weiterhin in der App arbeiten soll, ist ihm die Berechtigung zu entziehen.
+
+Wählen Sie in diesem Fall einfach den Button bei "Administrationszugang" ab. Der Mitarbeiter hat damit ab sofort keinen Zugang mehr zu Ihrer Datenbank.
