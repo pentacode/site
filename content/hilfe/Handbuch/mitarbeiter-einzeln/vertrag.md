@@ -275,7 +275,7 @@ Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben ber
 
 {{< figure caption="So wählen Sie, wie der Urlaub des Mitarbeiters berechnet werden soll" >}}
 
-![](/uploads/urlaub2.png)
+![](/uploads/urlaub3-1.png)
 
 {{< /figure >}}
 
