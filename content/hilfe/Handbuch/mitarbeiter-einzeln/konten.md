@@ -2,7 +2,15 @@
 title: Konten
 weight: 
 icon: balance-scale-right
-anchors: []
+anchors:
+- hash: stunden
+  title: Stunden
+- hash: urlaub
+  title: Urlaub
+- hash: sfn-zuschläge
+  title: SFN-Zuschläge
+- hash: drucken
+  title: Drucken
 
 ---
 Im Menüpunkt "**Konten**" finden Sie das **Jahresarbeitszeit**- **Urlaubs**- und **Zuschlagskonto** des gewählten Mitarbeiters. Diese Konten werden in ihrer Entwicklung während des jeweiligen Monats dargestellt, der zum Monatsende jeweils aufgelaufene Saldo findet sich in der Spalte "**Saldo**". Der aktuelle **Gesamtsaldo** wird in der **Kopfzeile** des jeweiligen Kontos ausgewiesen.
@@ -58,3 +66,15 @@ Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat**
 Zur lohnsteuer- und sozialversicherungsrechtlich **korrekten Behandlung von Über- oder Unterzahlung** bei Pauschalvorauszahlungen von SFN-Zuschlägen wenden Sie sich bitte an Ihre **Lohnbuchhaltung**.
 
 ## Drucken
+
+Wenn Sie bei einem Mitarbeiter sein Jahreskonto ausdrucken wollen, fahren Sie mit der Maus auf das entsprechende Jahr. Mit diesem "**Mouse over**" erscheint in der Kopfzeile des betreffenden Jahres das {{< icon "print" >}}-Symbol.
+
+{{< figure caption="Das Drucker-Symbol erscheint bei einem 'Mouse over' über das Jahr, das Sie ausdrucken wollen" >}}
+
+![](/uploads/jaz-drucken.png)
+
+{{< /figure >}}
+
+Der Ausdruck erfolgt, wenn Sie das {{< icon "print" >}}-Symbol anklicken.
+
+Wählen Sie für den Ausdruck am besten **Querformat**.
