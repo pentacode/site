@@ -9,42 +9,20 @@ anchors:
   title: Beschäftigungsverhältnis
 - hash: arbeitszeit
   title: Arbeitszeit
-- hash: wochenfaktor
-  title: Wochenfaktor
-- hash: monatsgenau
-  title: Monatsgenau
-- hash: monatsgenau-ohne-feiertage
-  title: Monatsgenau Ohne Feiertage
-- hash: feste-wochentage
-  title: Feste Wochentage
-- hash: feste-wochentage-abzgl.-feiertage
-  title: Feste Wochentage abzgl. Feiertage
 - hash: jahresarbeitszeitkonto-vereinbart
   title: Jahresarbeitszeitkonto Vereinbart
 - hash: fehlstundenberechnung
   title: Fehlstundenberechnung
-- hash: feste-stundenzahl
-  title: Feste Stundenzahl
-- hash: 13-wochen-durchschnitt
-  title: 13-Wochen Durchschnitt
-- hash: lohn-/-gehalt-(-brutto-)
-  title: Lohn/Gehalt (brutto)
-- hash: provision
-  title: Provision
-- hash: lohnartensatz
-  title: Lohnartensatz
-- hash: ein-mitarbeiter---mehrere-löhne
-  title: Ein Mitarbeiter - mehrere Löhne
+- hash: lohn-/-gehalt
+  title: Lohn / Gehalt
 - hash: zusatzleistungen
   title: Zusatzleistungen
 - hash: urlaub-&-fehltage
   title: Urlaub & Fehltage
 - hash: zuschläge
   title: Zuschläge
-- hash: zuschläge-kumulieren
-  title: Zuschläge kumulieren
-- hash: monatliche-sfn---pauschale
-  title: Monatliche SFN-Pauschale
+- hash: vertrag-beenden
+  title: Vertrag beenden
 
 ---
 Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
@@ -157,7 +135,7 @@ Bei diesem Modus wird jedoch ein **Feiertag**, der auf einen Arbeitstag des Mita
 
 Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden arbeitet, so werden auch nur 4 Stunden berechnet.
 
-### Jahresarbeitszeitkonto Vereinbart
+## Jahresarbeitszeitkonto Vereinbart
 
 Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
@@ -177,9 +155,9 @@ Setzen Sie in diesem Fall den Button bei "**Jahresarbeitszeitkonto Vereinbart**"
 
 Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist. Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
-### Fehlstundenberechnung
+## Fehlstundenberechnung
 
-Wenn Sie "**Feste Wochentage**" als Berechnungsmethode gewählte haben, werden die **Fehlstunden** für den **jeweiligen Tage** ermittelt. 
+Wenn Sie "**Feste Wochentage**" als Berechnungsmethode gewählte haben, werden die **Fehlstunden** für den **jeweiligen Tage** ermittelt.
 
 Für die Einstellungen "**Wochenfaktor**" und "**Monatsgenau**" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub **zwei Möglichkeiten** zur Verfügung
 
@@ -209,9 +187,11 @@ Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch
 
 Pentacode unterscheidet bei der Berechnung zwischen Wochentagen und Sonntagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
 
-#### Hinweis bei Einführung von Pentacode
-
-Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den ersten drei Monaten mit der Einstellung "Feste Stundenzahl" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
+> #### Hinweis bei Einführung von Pentacode
+>
+> Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monate**n mit der Einstellung "**Feste Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
+>
+> **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf erste drei Monate verändern wollen**.
 
 ## Lohn / Gehalt
 
@@ -342,3 +322,25 @@ Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Bu
 Im Konto "SFN-Zuschläge" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
 Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
+
+## Vertrag beenden
+
+Wenn das Beschäftigungsverhältnis eines Mitarbeiters endet, muss auch der Vertrag in Pentacode beendet werden.
+
+Öffnen Sie in diesem Fall den Vertrag des Mitarbeiters, klicken Sie auf das {{< icon "pencil-alt" >}}-Symbol und wählen Sie "**Vertrag bearbeiten**".
+
+{{< figure caption="WählwnSie über das **Stift-Symbol** zuerst '**Vertrag Bearbeiten**'" >}}
+
+![](/uploads/vertragsende1.png)
+
+{{< /figure >}}
+
+Geben Sie dann unter "**Vertragsende**" das Datum ein, zu dem der Vertrag mit dem Mitarbeiter endet.
+
+{{< figure caption="Geben Sie hier das Datum des Vertragsendes ein" >}}
+
+![](/uploads/vertragsende2.png)
+
+{{< /figure >}}
+
+Ab dem Folgetag ist der Mitarbeiter **archiviert**. Sie finden ihn wieder, indem Sie auf Mitarbeiter klicken, über das {{< icon "filter" >}}-Symbol den Haken bei "**Ausgeschieden**" setzen und den Namen eingeben.
