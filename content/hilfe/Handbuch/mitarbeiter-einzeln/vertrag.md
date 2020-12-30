@@ -13,8 +13,8 @@ anchors:
   title: Jahresarbeitszeitkonto Vereinbart
 - hash: fehlstundenberechnung
   title: Fehlstundenberechnung
-- hash: lohn-/-gehalt
-  title: Lohn / Gehalt
+- hash: lohn-und-gehalt
+  title: Lohn und Gehalt
 - hash: zusatzleistungen
   title: Zusatzleistungen
 - hash: urlaub-&-fehltage
@@ -193,7 +193,7 @@ Pentacode unterscheidet bei der Berechnung zwischen Wochentagen und Sonntagen. D
 >
 > **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf erste drei Monate verändern wollen**.
 
-## Lohn / Gehalt
+## Lohn und Gehalt
 
 ### Lohn/Gehalt (brutto)
 
