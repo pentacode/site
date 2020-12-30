@@ -1,6 +1,6 @@
 ---
 title: Stammdaten
-weight: 
+weight: 3
 icon: user-alt
 anchors:
 - hash: zwingende-angaben
