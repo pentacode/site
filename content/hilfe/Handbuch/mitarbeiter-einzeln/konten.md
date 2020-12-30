@@ -56,3 +56,5 @@ In diesem Fall werden die monatlichen **Über- oder Unterzahlungen** unter **"Di
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die Zuschläge ausweist, die auf Grund der **geloggten Arbeitszeiten** errechnet werden. **Geplante Arbeitszeiten** und die aus diesen eventuell resultierenden Zuschläge werden **nicht** berücksichtigt.
 
 Zur lohnsteuer- und sozialversicherungsrechtlich **korrekten Behandlung von Über- oder Unterzahlung** bei Pauschalvorauszahlungen von SFN-Zuschlägen wenden Sie sich bitte an Ihre **Lohnbuchhaltung**.
+
+## Drucken
