@@ -1,6 +1,6 @@
 ---
 title: Vertrag bearbeiten; Vertragshistorie
-weight: 
+weight: 8
 icon: file-signature
 anchors:
 - hash: vertrag-bearbeiten
