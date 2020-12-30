@@ -17,8 +17,8 @@ anchors:
   title: Lohn und Gehalt
 - hash: zusatzleistungen
   title: Zusatzleistungen
-- hash: urlaub-&-fehltage
-  title: Urlaub & Fehltage
+- hash: urlaub-und-fehltage
+  title: Urlaub und Fehltage
 - hash: zuschläge
   title: Zuschläge
 - hash: vertrag-beenden
@@ -267,7 +267,7 @@ Pentacode ermittelt jedoch die Lohnkosten, um Ihnen in Echtzeit und lange vor Fe
 
 Bitte beachten Sie, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
 
-## Urlaub & Fehltage
+## Urlaub und Fehltage
 
 Geben Sie bei "Urlaubsanspruch (pro Jahr)" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter vereinbart sind.
 
