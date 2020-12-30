@@ -49,10 +49,20 @@ Der Mitarbeiter kann somit **ausschließlich** für jene Abteilungen, die in sei
 
 Auf dieselbe Weise bestimmen Sie auch, ob der Mitarbeiter auch zu weitergehenden Informationen Zugang erhält. Ob er also z.B. die Lohnkosten bei der Planung einsehen darf.
 
+{{< figure caption="Durch das Abwählen einzelner Button können Sie den Zugang zu einem Bereich von Pentacode einschränken" >}}
+
 ![](/uploads/einschrankung3.png)
+
+{{< /figure >}}
 
 ## Berechtigung entziehen
 
 Wenn ein Mitarbeiter, dem Sie die Berechtigung zum Zugang zur Datenbank erteilt haben, das Haus verlässt oder aus anderen Gründen nicht weiterhin in der App arbeiten soll, ist ihm die Berechtigung zu entziehen.
 
 Wählen Sie in diesem Fall einfach den Button bei "Administrationszugang" ab. Der Mitarbeiter hat damit ab sofort keinen Zugang mehr zu Ihrer Datenbank.
+
+{{< figure caption="Indem Sie den Button '**Administrationszugang**' abwählen, verliert ein Mitarbeiter **ab sofort alle** Berechtigungen und kommt nicht mehr ins System" >}}
+
+![](/uploads/berechtigung-entziehen.png)
+
+{{< /figure >}}
