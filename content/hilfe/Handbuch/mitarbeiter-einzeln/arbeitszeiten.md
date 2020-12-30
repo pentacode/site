@@ -1,6 +1,6 @@
 ---
 title: Arbeitszeiten
-weight: 
+weight: 2
 icon: user-clock
 anchors:
 - hash: aufbau-und-struktur
