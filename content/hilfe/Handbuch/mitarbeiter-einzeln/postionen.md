@@ -1,6 +1,6 @@
 ---
 title: Positionen
-weight: 
+weight: 4
 icon: user-tag
 anchors: []
 
