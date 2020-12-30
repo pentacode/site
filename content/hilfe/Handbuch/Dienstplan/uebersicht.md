@@ -1,12 +1,12 @@
 ---
 title: Funktionsübersicht
-weight: 0
+weight: 
 icon: telescope
 anchors:
 - hash: überblick
   title: Überblick
-- hash: grundlegende-funktionen
-  title: Grundlegende Funktionen
+- hash: abteilungen
+  title: Abteilungen
 - hash: abteilungen-minimieren
   title: Abteilungen minimieren
 - hash: mitarbeiter-positionieren
@@ -27,7 +27,7 @@ Die grundlegenden Funktionen des Dienstplans in Pentacode.
 
 {{< /figure >}}
 
-## Grundlegende Funktionen
+## Abteilungen
 
 Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben.
 
@@ -35,7 +35,7 @@ Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen
 
 {{< /figure >}}
 
-### Abteilungen minimieren
+## Abteilungen minimieren
 
 Über das Pfeilsymbol neben der Bezeichnung der Abteilung können sie Abteilungen auf- und einklappen.
 
@@ -45,7 +45,7 @@ Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen
 
 {{< /figure >}}
 
-### Mitarbeiter positionieren
+## Mitarbeiter positionieren
 
 In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung im Menüpunkt **_Positionen_** zugeordnet haben.
 
@@ -59,7 +59,7 @@ Die Mitarbeiter sind in **alphabetischer Reihenfolge** nach Vornamen gelistet. D
 
 Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteilungen entsprechend zugeordnet sein. In diesem Fall erscheint er beständig in allen Abteilungen, in denen er geplant werden kann.
 
-### Mitarbeiter filtern
+## Mitarbeiter filtern
 
 Über das **Suchfeld** können Sie Mitarbeiter durch **Namenseingabe** filtern.
 
@@ -69,7 +69,7 @@ Wenn ein Mitarbeiter in mehreren Abteilungen eingesetzt wird, muss er den Abteil
 
 {{< /figure >}}
 
-### Information zum Mitarbeiter
+## Information zum Mitarbeiter
 
 Durch ein **Mouse-over** über den Namen eines Mitarbeiters erscheint ein Fenster mit Angaben zum Mitarbeiter, die für einen Dienstplaner von Bedeutung sein können:
 
