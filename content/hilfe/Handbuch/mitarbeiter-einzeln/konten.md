@@ -1,6 +1,6 @@
 ---
 title: Konten
-weight: 
+weight: 1
 icon: balance-scale-right
 anchors:
 - hash: stunden
