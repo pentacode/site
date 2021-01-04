@@ -5,7 +5,7 @@ icon: user-plus
 anchors: []
 
 ---
-Sowohl in der Ansicht "Mitarbeiter" wie auch bei jedem einzelnen Mitarbeiter finden Sie 
+Sowohl in der Ansicht "Mitarbeiter" wie auch bei jedem einzelnen Mitarbeiter finden Sie
 
 "+ **Neuer Mitarbeiter**".
 
@@ -26,5 +26,7 @@ Es öffnet daraufhin ein Eingabeformular zu den Stammdaten des Mitarbeiters.
 {{< /figure >}}
 
 Sie werden beim Anlegen von Pentacode Punkt für Punkt durch den gesamten Prozess geführt. Dabei werden Sie von Pentacode auf zwingende Angaben hingewiesen, ehe Sie jeweils fortfahren können.
+
+Detaillierte Angaben beim Anlegen eines neuen Mitarbeiters erhalten Sie in den Hilfeartikeln Stammdaten, Positionen, Berechtigungen, Zeiterfassung und Vertrag.
 
 > Sollte ein Mitarbeiter keine Berechtigung zur Arbeit in der Software erhalten (was für die meisten Mitarbeiter zutreffen wird), können Sie den Punkt "Berechtigungen" durch "Weiter" überspringen.
