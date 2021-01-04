@@ -3,7 +3,6 @@ title: Neuer Mitarbeiter
 weight: 9
 icon: user-plus
 anchors: []
-draft: true
 
 ---
 Sowohl in der Ansicht "Mitarbeiter" wie auch bei jedem einzelnen Mitarbeiter finden Sie 
