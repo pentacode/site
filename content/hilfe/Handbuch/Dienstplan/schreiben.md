@@ -191,4 +191,4 @@ Während er den Dienstplan mit Dienstzeiten gefüllt wird, entsteht ein **Fortsc
 
 **Überschreitet** die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
-Wie Sie Stundenvorgaben festlegen können, erfahren Sie im Hilfeartikel 
+Wie Sie Stundenvorgaben festlegen können, erfahren Sie im Hilfeartikel **_Dienstplanung mit Stundenvorgabe_**
