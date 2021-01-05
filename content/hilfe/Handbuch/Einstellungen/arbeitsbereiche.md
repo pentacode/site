@@ -19,7 +19,9 @@ anchors:
   title: Reihenfolge der Abteilungen ändern
 
 ---
-In diesem Menüpunkt legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"Zeiterfassung"** definiert haben.
+Mit "**Arbeitsbereiche**" umschreiben wir, was in vielen Unternehmen auch als **Abteilungen** bezeichnet wird.
+
+Im Menüpunkt "**Arbeitsbereiche**" legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"_Zeiterfassung_"** definiert haben.
 
 Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie "an Bord gehen".
 
@@ -79,7 +81,7 @@ Wenn für die gewählte Abteilung **andere** Regeln gelten sollen, setzen Sie de
 
 {{< /figure >}}
 
-Im HIlfeartikel "**Zeiterfassung**" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
+Im HIlfeartikel "**_Zeiterfassung_**" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
 
 Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen **Zeiterfassung ausgenommen** werden.
 
@@ -109,6 +111,6 @@ Sie können diese **Reihenfolge** jederzeit **ändern**, indem sie mit einem **M
 
 {{< figure caption="So ändern Sie die Reihenfolge der Abteilungen für den Dienstplan" >}}
 
-![](/uploads/reihenfolge-abteilungen.png)
+![](/uploads/reihenfolge-abt.png)
 
 {{< /figure >}}
