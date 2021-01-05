@@ -203,7 +203,11 @@ Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **man
 
 Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
 
+{{< figure caption="Wenn Sie **ohne Stempeluhr** arbeiten, wählen Sie für **Pausenmodus immer 'Automatisch'**" >}}
+
 ![](/uploads/ohne-stempeluhr2.png)
+
+{{< /figure >}}
 
 Die **Länge der Pausen** wird entsprechend der Festlegungen, die Sie getroffen haben, bereits **beim Eintrag in den Dienstplan** automatisch **errechnet**.
 
