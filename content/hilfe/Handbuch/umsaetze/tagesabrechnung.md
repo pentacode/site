@@ -1,6 +1,6 @@
 ---
 title: Tagesabrechnung
-weight: 
+weight: 1
 icon: hand-holding-usd
 anchors:
 - hash: umsatzerfassung-mit-umsatzgruppen
@@ -29,15 +29,13 @@ anchors:
   title: Abschließen & Buchen
 
 ---
-Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Die erledigen Sie in der "Tagesabrechnung" von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.
+Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Diese Erfassung erledigen Sie in der "Tagesabrechnung" von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.
 
-## Abrechnung des Geschäftstages
+## Umsatzerfassung MIT Umsatzgruppen
 
-### Umsatzerfassung MIT Umsatzgruppen
+Wenn Sie bereits **Umsatzgruppen** angelegt haben, finden Sie diese in der von Ihnen gewählten Reihenfolge und **dauerhaft** in der Tagesabrechnung vor. Dies gilt auf für **unbare Zahlarten** oder **Ausgabepositionen**, die Sie eventuell zu Gruppen zusammengefasst haben. Sehen Sie hierzu mehr unter **_Umsatzgruppen_**.
 
-Wenn Sie bereits **Umsatzgruppen** angelegt haben, finden Sie diese in der von Ihnen gewählten Reihenfolge und **dauerhaft** in der Tagesabrechnung vor. Dies gilt auf für **unbare Zahlarten** oder **Ausgabepositionen**, die Sie eventuell zu Gruppen zusammengefasst haben.
-
-**Hinweis**: Das Anlegen von feststehenden Ausgabepositionen ist nur dann sinnvoll, wenn es sich um sehr häufig wiederkehrende Ausgaben handelt.
+> Das Anlegen von feststehenden Ausgabepositionen ist nur dann sinnvoll, wenn es sich um **sehr häufig wiederkehrende Ausgaben** handelt.
 
 Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen- und/oder EC-System hervorgehen.
 
@@ -51,23 +49,35 @@ Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen-
 
 **Empfehlung**: Bei **Umsatzarten**, die nur **unregelmäßig** vorkommen, ist es aus Gründen der Übersichtlichkeit empfehlenswert, **keine** **Umsatzgruppe** anzulegen. Erfassen Sie sporadische Umsatzarten besser, indem Sie wie nun im Folgenden beschrieben vorgehen.
 
-### Umsatzerfassung OHNE Umsatzgruppen
+## Umsatzerfassung OHNE Umsatzgruppen
 
-Legen Sie die **Umsatzarten** (**1**) an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
+Legen Sie die **Umsatzarten** an, indem Sie unter **"Neuer Eintrag"** den gewünschten Text eingeben.
 
-Einmal angelegte Umsatzarten erscheinen in der Folge im Dropdown-Menü. Sollten Sie viele unterschiedliche Umsatzarten angelegt haben und damit die Liste entsprechend lang sein, geben Sie am besten die ersten Buchstaben in das Eingabefeld ein. Die Auswahl wird mit jeder Buchstabeneingabe weiter eingeengt.
+Einmal angelegte Umsatzarten erscheinen automatisch im Dropdown-Menü. Sollten Sie viele unterschiedliche Umsatzarten angelegt haben und damit die Liste entsprechend lang sein, geben Sie am besten die ersten Buchstaben in das Eingabefeld ein. Die Auswahl wird mit jeder Buchstabeneingabe weiter eingeengt.
 
-Indem Sie auf das **Zahlenfeld** (**2**) klicken, haben Sie die Möglichkeit, **Buchungstext**, **Steuerschlüssel**, buchhalterisches **Konto** und **Kostenstelle** zu benennen.
+{{< figure caption="Durch Anklicken des Eingabefeldes ersehen Sie die Einträge der Vergangenheit" >}}
 
-![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e4eb7712c7d3a7e9ae80eda/file-hXWOFndk0I.png)
+![](/uploads/ta12.png)
+
+{{< /figure >}}
+
+Indem Sie durch die TAB-Taste oder durch Anklicken auf das **Zahlenfeld** gelangen, geben Sie den Betrag ein und haben dabei die Möglichkeit, **Buchungstext**, **Steuerschlüssel**, buchhalterisches **Konto** und **Kostenstelle** zu benennen.
+
+{{< figure caption="Die buchhalterischen Angaben sind keine Pflichtangaben" >}}
+
+![](/uploads/ta13.png)
+
+{{< /figure >}}
 
 Als **Buchungstext** für das **Kassenbuch** erscheint standardmäßig **"Umsatz + gewünschter Text"**. Diese Standardvorgabe können Sie beliebig **überschreiben**.
 
 Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtangaben**.
 
-**Empfehlung**: Sollten Sie in Zukunft das Management Informations System von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und durch das MIS z.B. nach Produktivität und weiteren Faktoren analysiert werden.
+> **Empfehlung:** Sollten Sie in Zukunft das Berichtswesen von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und durch das MIS z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
-### Unbare Zahlungen
+Analog zum hier gezeigten Vorgehen können Sie auch mit "Unbaren Zahlungsarten", "Debitoren" und "Ausgaben" verfahren oder jeweils entsprechende Gruppen bilden.
+
+## Unbare Zahlungen
 
 **Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
 
@@ -77,11 +87,11 @@ Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtan
 
 {{< /figure >}}
 
-**Empfehlung**: Sollten Sie ein EC-Gerät benutzen, legen Sie idealerweise die einzelnen Kartenarten entsprechend der Erfassung durch das Gerät an und vermeiden Sie ein manuelles Aufaddieren der einzelnen Kartenarten. Damit vermeiden Sie Rechenfehler und vereinfachen das Auffinden eines evtl. Tipfehlers im Falle einer Kassendifferenz.
+**Empfehlung**: Sollten Sie ein EC-Gerät benutzen, legen Sie idealerweise die einzelnen Kartenarten entsprechend der Erfassung durch das Gerät an und vermeiden Sie ein manuelles Aufaddieren der einzelnen Kartenarten. Damit vermeiden Sie Rechenfehler und vereinfachen das Auffinden eines evtl. Tippfehlers im Falle einer Kassendifferenz.
 
 Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem angeschlossen ist, kann der Kassenbericht zu den Finanzwegen irrtumsfrei verwendet werden.
 
-### Auf Rechnung
+## Auf Rechnung
 
 **Debitoren**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
@@ -91,7 +101,7 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 {{< /figure >}}
 
-### Ausgaben
+## Ausgaben
 
 **Ausgaben**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
@@ -105,7 +115,7 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 **Alle anderen Ausgaben** sind im **Kassenbuch** zu erfassen. Sehen Sie hierzu bitte den Artikel **"Kassenbuchführung"**.
 
-### Gehaltsvorschüsse
+## Gehaltsvorschüsse
 
 Wenn Sie in das Eingabefeld **"Gehaltsvorschüsse"** klicken, erscheint eine Dropdown-Liste der **aktuell beschäftigten Mitarbeiter** in alphabetischer Reihenfolge nach Vornamen.
 
@@ -119,7 +129,7 @@ Sie können einen Mitarbeiter **mit Cursor** oder durch **Buchstabeneingabe** au
 
 Es können in der Abrechnung **ausschließlich Bar-Vorschüsse** erfasst werden!
 
-### Bargeld Saldo
+## Bargeld Saldo
 
 Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhalten Sie denn **rechnerischen Kassenstand**.
 
@@ -129,7 +139,11 @@ Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhal
 
 {{< /figure >}}
 
-### Zählprotokoll
+## Zählprotokoll
+
+Ein Zähprotokoll ist der schriftliches Nachweis der "Sturzfähigkeit" der Kasse, so das Amtsdeutsch. In Klarsprache übersetzt bedeutet dies, dass Sie schriftlich nachweisen, dass der gezählte Geldbetrag tatsächlich vorhanden ist. 
+
+Es gibt (noch) keine gesetzliche Verpflichtung zur Durchführung eines Zählprotokolls. Ein stichhaltiges Zählprotokoll hat Formvorschriften zu erfüllen. Es muss die sogenannte "Stückelung" ausweisen und wird idealerweise unterschrieben.
 
 {{< figure caption="Bei Abrechnung mit Zählprotokoll ergibt sich der Zählbetrag durch Stückzählung" >}}
 
@@ -137,7 +151,13 @@ Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhal
 
 {{< /figure >}}
 
-### Kassendifferenz
+Wenn Sie in Pentacode die Bargeldzählung mithilfe des Zählprotokolls durchführen, ergibt sich der gezählte Betrag durch die Eingabe der jeweiligen Stückelungen.
+
+**Drucken** Sie in diesem Fall idealerweise die Tagesabrechnung über das {{< icon "print" >}}-Symbol aus und **unterzeichnen** Sie den Ausdruck.
+
+Der Ausdruck weist das Zählprotokoll aus.
+
+## Kassendifferenz
 
 Idealerweise **zählen** Sie nun das Ihnen tatsächlich verbliebene **Bargeld** und geben den **Zählbetrag** unter **"Kassenstand Ist"** ein.
 
@@ -151,7 +171,7 @@ Sollte eine Differenz ausgewiesen sein, so überprüfen Sie am besten die Richti
 
 Verbleibt eine **Differenz** (**5**), wird diese im Kassenbuch als **Kassendifferenz** ausgewiesen.
 
-### Unbare Trinkgelder
+## Unbare Trinkgelder
 
 Nehmen wir den Fall an, dass zum Beispiel nach einer geschlossenen Veranstaltung per Karte bezahlt wird und der Gastgeber den Rechnungsbetrag für ein Treinkgeld aufrundet. Oder Sie führen zum Beispiel einen Berieb, in dem fast ausschließlich mit Karte bezahlt wird und die Gäste den Kartenbetrag für das Trinkgeld erhöhen. In beiden Fällen wäre der Kartenbetrag höher als der Umsatz.
 
@@ -169,7 +189,7 @@ Wenn Sie dies bestätigen, entsteht in der Abrechnung und im Kassenbuch die Posi
 
 Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsprechende Buchung im Kassenbuch z.B. mit dem Text "Auszahlung Trinkgeld" als Ausgabe durch.
 
-### Zwischenspeichern
+## Zwischenspeichern
 
 Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Abschließen & Buchen" durchführen.
 
@@ -185,7 +205,7 @@ Das **"Zwischenspeichern"** ist **ZWINGEND notwendig**. **Nicht gespeicherte Dat
 
 Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein **"Zwischenspeichern"** kann **beliebig häufig** vorgenommen werden.
 
-### Abschließen & Buchen
+## Abschließen & Buchen
 
 Die Funktion **"Abschließen & Buchen"** (**7**) ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
 
