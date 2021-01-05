@@ -15,8 +15,10 @@ anchors:
   title: Abmeldung
 - hash: rundung-von-stempelzeiten
   title: Rundung von Stempelzeiten
-- hash: einstellungen-ohne-stempeluhr
-  title: Einstellungen OHNE Stempeluhr
+- hash: abweichende-Zeiterfassungs-regeln
+  title: Abweichende Zeiterfassungs-Regeln
+- hash: zeiterfassung-ohne-stempeluhr
+  title: Zeiterfassung OHNE Stempeluhr
 
 ---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
@@ -193,7 +195,9 @@ Analog können Sie mit **einzelnen Mitarbeitern** verfahren.
 
 {{< /figure >}}
 
-## Einstellungen OHNE Stempeluhr
+Im hier gezeigten Beispiel wird dieser Mitarbeiter - und nur dieser Mitarbeiter - von der Zeiterfassung über Stempeluhr ausgenommen.
+
+## Zeiterfassung OHNE Stempeluhr
 
 Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **manuell** erfassen wollen, so sind die Möglichkeiten für Regeleinstellungen entsprechend verkürzt.
 
