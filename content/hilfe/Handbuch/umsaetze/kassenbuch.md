@@ -3,18 +3,18 @@ title: Kassenbuch
 weight: 
 icon: book-open
 anchors:
-- hash: festschreibung-des-Kassenbuchs
-  title: Festschreibung des Kassenbuchs
-- hash: kassenbuch-exportieren
-  title: Kassenbuch exportieren
-- hash: suchfunktion
-  title: Suchfunktion
-- hash: splittbuchung
-  title: Splittbuchung
-- hash: überwachung-des-kassensaldos
-  title: Überwachung des Kassensaldos
 - hash: erfassen-von-einnahmen-&-ausgaben
   title: Erfassen von Einnahmen & Ausgaben
+- hash: überwachung-des-kassensaldos
+  title: Überwachung des Kassensaldos
+- hash: splittbuchung
+  title: Splittbuchung
+- hash: suchfunktion
+  title: Suchfunktion
+- hash: kassenbuch-exportieren
+  title: Kassenbuch exportieren
+- hash: festschreibung-des-Kassenbuchs
+  title: Festschreibung des Kassenbuchs
 
 ---
 Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der Tagesabrechnung.
@@ -47,6 +47,24 @@ Erst wenn Sie die manuelle Eingabe im Kassenbuch **speichern**, erhält die Posi
 
 Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, ist das **Kassenbuch** zu **speichern**. Ohne Speichern gehen die eingegebenen Daten verloren.
 
+## Gehaltsvorschuss
+
+Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen wollen, da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**".
+
+Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Namen im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
+
+{{< figure caption="So erfassen Sie Gehaltsvorschüsse im Kassenbuch, wenn diese nicht Bestandteil der Tagesabrechnung sind" >}}
+
+![](/uploads/kb12.png)
+
+{{< /figure >}}
+
+Wählen Sie den Mitarbeiter mit dem Cursor oder über Buchstabeneingabe, geben Sie den Auszahlungsbetrag ein und "Speichern" Sie.
+
+> **Als Auszahlungsdatum wird immer der aktuelle Tagesdatum vorgeschlagen. Stellen Sie sicher, dass Sie das Datum im Bedarfsfall entsprechend korrigieren!**
+
+## Zählprotokoll
+
 ## Überwachung des Kassensaldos
 
 Das **Kassenbuch** überwacht selbständig den laufenden Endsaldo und lässt einen **negativen Endsaldo nicht** zu.
@@ -63,11 +81,11 @@ In diesem Fall müssen Sie den **Eintrag durch "Abbrechen" löschen**. Sie könn
 
 ## Splittbuchung
 
-Durch Anklicken des ...-Symbols können Sie Rechnungen wie auch Einnahmen splitten.
+Mit einem Mouse-over über die Position erscheint am rechten Seitenrand ein {{< icon "page-break" >}}-Symbol. Durch Anklicken dieses {{< icon "page-break" >}}-Symbols können Sie Ausgaben wie auch Einnahmen **splitten**.
 
-Die Eingabe eines **Buchungstextes** ist **zwingend**,UST und Kontonummer optional. Buchungstexte aus der Vergangenheit werden Ihnen bei der Eingabe vorgeschlagen. Sollten Sie diese bereits kontiert haben, werden alle Angaben automatisch übernommen.
+Die Eingabe eines **Buchungstextes** ist dabei **zwingend,** die Angabe von UST und Kontonummer ist optional. Buchungstexte aus der Vergangenheit werden Ihnen bei der Eingabe vorgeschlagen. Sollten Sie diese bereits kontiert haben, werden alle Angaben automatisch übernommen.
 
-{{< figure caption="So können Sie auf einfache Weise einenn Beleg nach Kostenstelle / UST trennen" >}}
+{{< figure caption="So können Sie auf einfache Weise einen Beleg nach Kostenstelle / UST trennen" >}}
 
 ![](/uploads/kb4.png)
 
@@ -75,7 +93,7 @@ Die Eingabe eines **Buchungstextes** ist **zwingend**,UST und Kontonummer option
 
 Eine Splittbuchung wird nur angenommen, wenn die **Summe der gesplitteten Beträge dem Gesamtrechnungsbetrag** entspricht.
 
-Mit "Speichern" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu übernommen, muss nochmals gespeichert werden.
+Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu übernommen, muss nochmals gespeichert werden.
 
 {{< figure caption="Nach Übernahme ins Kassenbuch muss hier erneut gespeichert werden" >}}
 
