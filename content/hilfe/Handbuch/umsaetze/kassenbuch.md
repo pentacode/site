@@ -49,7 +49,7 @@ Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, ist das **K
 
 ## Gehaltsvorschuss
 
-Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen wollen, da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**".
+Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**".
 
 Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Namen im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
 
@@ -64,6 +64,58 @@ Wählen Sie den Mitarbeiter mit dem Cursor oder über Buchstabeneingabe, geben S
 > **Als Auszahlungsdatum wird immer der aktuelle Tagesdatum vorgeschlagen. Stellen Sie sicher, dass Sie das Datum im Bedarfsfall entsprechend korrigieren!**
 
 ## Zählprotokoll
+
+Ein Zählprotokoll ist der schriftliche Nachweis der "Sturzfähigkeit" der Kasse, so das Amtsdeutsch. In Klarsprache übersetzt bedeutet dies, dass Sie schriftlich nachweisen, dass der gezählte Geldbetrag tatsächlich vorhanden ist.
+
+> **Es gibt (noch) keine gesetzliche Verpflichtung zur Durchführung eines Zählprotokolls. Mit Blick auf die Betriebsprüfung ist es jedoch dringend ratsam, dieses _mindestens_ nach _jeder_ Bankeinzahlung durchzuführen, wenn der Zählbetrag relativ gering ist. Der Nachweis der Sturzfähigkeit Ihrer Kasse verringert das Risiko einer Umsatz-Zuschätzung erheblich!**
+
+Ein stichhaltiges Zählprotokoll hat Formvorschriften zu erfüllen. Es muss die sogenannte "Stückelung" ausweisen und wird idealerweise nach dem Prinzip Ansager/Schreiber von zwei Personen unterschrieben.
+
+Es erhöht die Glaubwürdigkeit, wenn mindestens eine dieser Personen **nicht** Inhaber des Unternehmens ist.
+
+Wenn Sie über das "**+**"Zeichen "**Zählprotokoll**" wählen, öffnet ein Zählprotokoll, welches das aktuelle Tagesdatum und den rechnerischen Bargeldbestand des Tages ausweist. 
+
+> Aus rechtlichen Gründen kann ein Zählprotokoll **nur tagesaktuell** durchgeführt werden, **nicht für einen  Zeitpunkt, der in der Vergangenheit liegt**. Das Zählprotokoll bezieht sich deshalb **grundsätzlich auf den tagesaktuellen Kassenbestand**.
+
+Unter "Zählung durchgeführt von" steht standardmäßig der Name der Person, die in Pentacode angemeldet ist. Dieser Name kann jederzeit überschrieben und durch eine weitere Person ergänzt werden.
+
+Geben Sie nun die Stückelung ein. Der Zählbetrag wird automatisch aufaddiert.
+
+{{< figure caption="Der Zählbetrag wird bei Eingabe der Stückelung automatisch aufaddiert" >}}
+
+![](/uploads/zahlprotokoll1.png)
+
+{{< /figure >}}
+
+Sollte die Zählung eine negative oder auch positive Differenz zum rechnerischen Bargeldbestand ausweisen, werden Sie bei "Speichern" gefragt, ob die Differenz gebucht oder durch "Überspringen" ignoriert werden soll.
+
+{{< figure caption="Ein Differenzbetrag zwischen rechnerischem und tatsächlichem Bargeldbestand kann gebucht oder ignoriert werden" >}}
+
+![](/uploads/zahlprotokoll2.png)
+
+{{< /figure >}}
+
+In jedem Fall entsteht im Kassenbuch der Saldo-neutrale Eintrag "Kassenzählung", der die Durchführung des sogenannten "Kassensturzes" nachweist.
+
+{{< figure caption="Im hier gezeigten Beispiel wird der Differenzbetrag der Kassenzählung ausgewiesen" >}}
+
+![](/uploads/zahlprotokoll3.png)
+
+{{< /figure >}}
+
+Durch "Speichern" wird die Kassenzählung im Kassenbuch festgeschrieben.
+
+> Gastronomie zählt im Jargon der Finanzbehörden zum "bargeldintensiven" Gewerbe. Kassendifferenzen können hier durchaus vorkommen und sollten als solche auch verbucht werden.
+
+Bei einem "Mouse-over" erscheint am rechten Rand das {{< icon "print" >}}-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll ausdrucken.
+
+{{< figure caption="Drucken Sie das Zählprotokoll aus unterzeichnen Sie es mit Datumsangabe" >}}
+
+![](/uploads/zahlprotokoll5.png)
+
+{{< /figure >}}
+
+> Zählprotokolle sollten ausgedruckt und unterzeichnet und für den Fall eine Betriebsprüfung in einem eigenen Ordner abgelegt werden werden.
 
 ## Überwachung des Kassensaldos
 
