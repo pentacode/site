@@ -23,7 +23,7 @@ Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" 
 
 {{< /figure >}}
 
-Wenn Sie dann auf das **Ø-**Symbol klicken, erscheint die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
+Wenn Sie dann auf das **Ø**-Symbol klicken, erscheint die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
 
 Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
@@ -35,7 +35,7 @@ Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
 Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.**
 
-Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "**Als Standard Verwenden**" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
+> Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "**Als Standard Verwenden**" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
 
 {{< figure caption="So können Sie Stundenvorgaben als Standard für die folgenden Wochen setzen" >}}
 
