@@ -7,8 +7,6 @@ anchors:
   title: Android Tablet
 - hash: einrichten-eines-ios-tablets
   title: iOS-Tablet
-- hash: einrichten-eines-windows-tablets
-  title: Windows-Tablet
 
 ---
 Die Zeiterfassung mithilfe einer "**Stempeluhr**" erfolgt über **Tablet**. Dabei werden die Betriebssysteme **Android**, **iOS** und **Windows** unterstützt.
@@ -50,5 +48,3 @@ Ihre elektronische Zeiterfassung Pentatime ist nun eingerichtet und freut sich a
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df0f21c2c7d3a7e9ae4fd19/file-jUzztaJXzx.png)
 
 Ihre elektronische Zeiterfassung Pentatime ist nun eingerichtet und freut sich auf Ihre Mitarbeiter!
-
-## Einrichten eines Windows-Tablets
