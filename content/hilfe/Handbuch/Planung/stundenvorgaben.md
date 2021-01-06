@@ -61,6 +61,8 @@ Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungszi
 
 Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvorgaben Ihren **Umsatzerwartungen** anpassen.
 
+> Voraussetzung für diese Form der Planung ist, dass Sie Umsatzgruppen angelegt und diese den Abteilungen zugeordnet haben. Erfahren Sie hierzu mehr unter **_Umsatzgruppen_** und **_Erlöszuordnung_**.
+
 Durch das Anklicken des **€**-Symbols in der Fußleiste werden Ihren Stundenvorgaben die Planumsätze hinzugefügt und die daraus resultierende **Produktivität** gezeigt. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
 
 {{< figure caption="So können Sie Ihre Stundenvorgaben mit Ihren Umsatz-Zielen verknüpfen" >}}
@@ -85,7 +87,7 @@ Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz
 
 {{< /figure >}}
 
-Soll z.B eine Produktivität von ca. 80 € / Stunde erreicht werden, muss die Stundenanzahl von 20 auf 16 gekürzt werden.
+Soll z.B eine Produktivität von ca. 80 € / Stunde erreicht werden, muss die Stundenanzahl von 20 auf 16 gekürzt werden. Die von Ihnen auf diese Weise vorgegebene Stundenanzahl erscheint entsprechend im Dienstplan.
 
 {{< figure caption="Die Stundenvorgabe ändert sich im Dienstplan entsprechend" >}}
 
