@@ -5,6 +5,10 @@ icon: book-open
 anchors:
 - hash: erfassen-von-einnahmen-&-ausgaben
   title: Erfassen von Einnahmen & Ausgaben
+- hash: gehaltsvorschuss
+  title: Gehaltsvorschuss
+- hash: zählprotokoll
+  title: Zählprotokoll
 - hash: überwachung-des-kassensaldos
   title: Überwachung des Kassensaldos
 - hash: splittbuchung
