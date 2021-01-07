@@ -13,9 +13,9 @@ Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten
 
 ## Dienstplanung mit Stundenvorgabe
 
-Wenn Sie auf das **Diagrammsymbol** klicken, erscheint am **Fuß jeder Abteilung** die Anzeige "**Planungsziele Definieren**" .
+Wenn Sie auf das {{< icon "tasks-alt" >}}-Symbol klicken, erscheint am **Fuß jeder Abteilung** die Anzeige "**Planungsziele Definieren**" .
 
-Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt. Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben.
+Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt. 
 
 {{< figure caption="Durch Anklicken des Feldes 'Stundenvorgabe' gelangen Sie in den Bereich 'Planung'" >}}
 
@@ -23,15 +23,17 @@ Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" 
 
 {{< /figure >}}
 
-Wenn Sie dann auf das **Ø**-Symbol klicken, erscheint die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
+Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben. 
 
-Diese Angaben sollen Ihrer ersten Orientierung dienen.
+Wenn Sie dann auf das **Ø**-Symbol klicken, erscheint die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Sie Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
 
 {{< figure caption="In der Standardeinstellung sehen Sie den durchschnittlichen Stundenaufwand der letzten 4 Wochen" >}}
 
 ![/uploads/stundenvorgaben1.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/stundenvorgaben1.png)
 
 {{< /figure >}}
+
+Diese Angaben sollen Ihrer ersten Orientierung dienen. 
 
 Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte Wert** erscheint am betreffenden Wochentag in der **Fußleiste des Dienstplans.**
 
