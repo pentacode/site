@@ -13,6 +13,8 @@ Die Artikel  sind leicht verständlich geschrieben und mit einer Vielzahl von bi
 
 Der Umgang mit Pentacode ist derart intuitiv und die Prozesse sind in einem so hohen Maße automatisiert, dass Sie quasi "aus dem Stand" arbeiten können, selbst wenn Sie keinen einzigen Hilfeartikel gelesen haben. Trotzdem empfehlen wir Ihnen, einen Blick in den einen oder anderen Artikel zu werfen. Sie erhalten auf diese Weise viele nützliche Tipps und Anregungen.
 
+[Konten](/hilfe/handbuch/mitarbeiter-einzeln/konten/#urlaub)
+
 Ehe Sie nun vielleicht mit dem Lesen beginnen, möchten wir auf ein paar Grundsätzlichkeiten von Pentacode hinweisen.
 
 * Sie haben von jedem beliebigen Ort und jedem beliebigen Internet-fähigen Endgerät aus Zugang zu Ihrer Datenbank. Öffnen Sie einfach den Browser und geben Sie in die Suchleiste **manage.pentacode.app** ein. Es öffnet eine Anmeldefenster, über das Sie sich mit Ihrer **Email-Adresse** und Ihrem **Passwort** anmelden. Zwei Sekunden später befinden Sie sich mitten in Ihrem Unternehmen.
