@@ -51,9 +51,9 @@ Sollten Sie **mehrere Tablets** in Ihrem Betrieb verwenden, so können Sie durch
 
 Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel "**Regeleinstellung der Zeiterfassung**")
 
-{{< figure caption="Anzeige am Tablet bei Log-in und Log-out" >}}
+{{< figure caption="Nach Eingabe seines PINs beginnt der Mitarbeiter seinen Arbeitstag durch 'Schicht Beginnen'" >}}
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead8942042863474d1a0800/file-LTCXcUjk4F.png)
+![](/uploads/log-in2.png)
 
 {{< /figure >}}
 
@@ -111,7 +111,7 @@ In den "**Regeleinstellungen der Zeiterfassung**" bestimmen Sie weiterhin, ob Mi
 
 {{< figure caption="Durch 'Wischen' können Mitarbeiter die Folgewochen einsehen" >}}
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5eafde692c7d3a5ea54a635b/file-jUBk5QsBXy.png)
+![](/uploads/dienstplan-tablet.png)
 
 {{< /figure >}}
 
@@ -131,7 +131,7 @@ Ihre Stempeluhr und Pentacode stehen miteinander in Verbindung. Die **Synchronis
 
 Sie können die **Synchronisation** jedoch auch **manuell** anstoßen, indem Sie auf die **Datumsanzeige tippen**, die Sie am unteren Bildrand der Stempeluhr sehen.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Durch Antippen der Datumsleiste synchronisieren Sie die Stempeluhr manuell>}}
 
 ![](/uploads/synchro.png)
 
