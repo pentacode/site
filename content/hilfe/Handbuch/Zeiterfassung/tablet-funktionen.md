@@ -11,7 +11,7 @@ anchors:
   title: Log-in durch Mitarbeiter
 - hash: pausen-stempeln
   title: Pausen stempeln
-- hash: online--/-Offline-status
+- hash: online-offline-status
   title: Online-/Offline-Status
 - hash: log-out
   title: Log-out
@@ -137,7 +137,7 @@ Sie können die **Synchronisation** jedoch auch **manuell** anstoßen, indem Sie
 
 {{< /figure >}}
 
-## Online-/Offline-Status
+## Online-Offline-Status
 
 Wie Pentacode selbst funktioniert auch die Stempeluhr, wenn Ihre Internetverbindung unterbrochen werden sollte.
 
