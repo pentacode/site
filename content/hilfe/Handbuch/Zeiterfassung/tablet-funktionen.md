@@ -9,8 +9,18 @@ anchors:
   title: Abteilungen auswählen
 - hash: log-in-durch-mitarbeiter
   title: Log-in durch Mitarbeiter
+- hash: pausen-stempeln
+  title: Pausen stempeln
+- hash: online--/-Offline-status
+  title: Online-/Offline-Status
+- hash: log-out
+  title: Log-out
+- hash: spontane-schicht
+  title: Spontane Schicht
 - hash: anzeige-des-dienstplans
   title: Anzeige des Dienstplans
+- hash: stempeluhr-aktiv-synchronisieren
+  title: Stempeluhr aktiv synchronisieren
 - hash: verwendung-mehrerer-tablets
   title: Verwendung mehrerer Tablets
 
