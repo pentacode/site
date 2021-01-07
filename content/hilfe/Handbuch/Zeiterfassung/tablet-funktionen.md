@@ -17,12 +17,12 @@ anchors:
   title: Log-out
 - hash: spontane-schicht
   title: Spontane Schicht
+- hash: verwendung-mehrerer-tablets
+  title: Verwendung mehrerer Tablets
 - hash: anzeige-des-dienstplans
   title: Anzeige des Dienstplans
 - hash: stempeluhr-aktiv-synchronisieren
   title: Stempeluhr aktiv synchronisieren
-- hash: verwendung-mehrerer-tablets
-  title: Verwendung mehrerer Tablets
 
 ---
 ## Anzeige am Tablet
