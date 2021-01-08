@@ -49,7 +49,7 @@ Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, d
 
 ### Pausen & Mahlzeiten
 
-Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten**. Sehen Sie hierzu evtl. den Hilfeartikel "[Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen)".
+Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten**. Sehen Sie hierzu evtl. den Hilfeartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen)".
 
 {{< figure caption="Pausen werden am Ende des Arbeitstages errechnet, Mahlzeiten mit Schichtbeginn gebucht" >}}
 
@@ -101,7 +101,7 @@ Sie können die Arbeitszeiten zu **jedem Zeitpunkt ändern**. Eine **Änderung**
 
 ### Pausen
 
-Die **Pausen** werden **automatisch** gesetzt. Als Regel für die Erfassung der Pausen muss unter "Einstellungen", dort "Zeiterfassung" "**Automatische Pause**" gesetzt sein!
+Die [**Pausen** ](/hilfe/handbuch/einstellungen/zeiterfassung/#definition-der-pausen)werden **automatisch** gesetzt. Als Regel für die Erfassung der Pausen muss unter "Einstellungen", dort "Zeiterfassung" "**Automatische Pause**" gesetzt sein!
 
 Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit dem ersten Eintrag gesetzte Pausenzeit jedoch **nicht** geändert. Sollte sich die Dauer des Arbeitstages soweit ändern, dass die Pausenzeit verlängert oder verkürzt wird oder ganz entfällt, ist eine entsprechende **Korrektur der Pausenzeit manuell** vorzunehmen!
 
