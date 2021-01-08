@@ -11,7 +11,7 @@ Diese Übersicht ist insbesondere dienlich, wenn Sie einen neuen Standort oder e
 
 Durch das **Setzen** oder **Entfernen** von Haken über einen **linken** Maus-Klick verändern Sie die Zuständigkeit des Mitarbeiters.
 
-Die Einteilung unter "**Positionen**" in den **Stammdaten** des Mitarbeiters werden entsprechend **überschrieben**.
+Die Einteilung unter "[**Positionen**](/hilfe/handbuch/mitarbeiter-einzeln/postionen/)" in den **Stammdaten** des Mitarbeiters werden entsprechend **überschrieben**.
 
 {{< figure caption="Durch Setzen und Entfernen von Haken können Sie Mitarbeiter in dieser Gesamtübersicht den Abteilungen zuweisen" >}}
 
@@ -21,4 +21,4 @@ Die Einteilung unter "**Positionen**" in den **Stammdaten** des Mitarbeiters wer
 
 In dieser Übersicht können Standorte, Abteilungen und Positionen **nicht** angelegt werden.
 
-Gehen Sie hierzu auf **Einstellungen** und dort auf den Menüpunkt "**Arbeitsbereiche**".
+Gehen Sie hierzu auf **Einstellungen** und dort auf den Menüpunkt "[**Arbeitsbereiche**](/hilfe/handbuch/einstellungen/arbeitsbereiche/#neue-abteilung)".
