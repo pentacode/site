@@ -1,6 +1,6 @@
 ---
 title: Dienstplan Veröffentlichen
-weight: 2
+weight: "2"
 icon: share-square
 anchors:
 - hash: auswahl-der-abteilung
@@ -55,7 +55,7 @@ Eine Trennung würde nur dann stattfinden, wenn eine Abteilung derart viele Mita
 
 ## Versand an Mitarbeiter
 
-Die einfachste Weise, Ihre Mitarbeiter über zukünftige Arbeitseinsätze zu informieren, ist der unmittelbare **Versand** des Dienstplans. **Voraussetzung** hierfür ist, dass Sie die persönliche **Email-Adresse der Mitarbeiter** in deren Stammdaten erfasst haben.
+Die einfachste Weise, Ihre Mitarbeiter über zukünftige Arbeitseinsätze zu informieren, ist der unmittelbare **Versand** des Dienstplans. **Voraussetzung** hierfür ist, dass Sie die persönliche **Email-Adresse der Mitarbeiter** in deren [**Stammdaten**](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) erfasst haben.
 
 Wenn Sie sich **Versenden** wählen, erscheint zuerst eine Liste von
 
