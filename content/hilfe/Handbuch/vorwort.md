@@ -7,7 +7,7 @@ anchors: []
 ---
 Ein paar kurze Sätze vorweg!
 
-Um eines schon mal gleich zu sagen: Die Hilfeartikel sollen Sie dabei unterstützen, möglichst schnell eine möglichst umfassende Kenntnis der vielen Möglichkeiten zu erhalten, die Pentacode bietet. Sie sollen Sie jedoch nicht davon abhalten, unseren Support in Anspruch zu nehmen. Wir unterstützen Sie nämlich gerne persönlich!
+Um eines gleich zu sagen: Die Hilfeartikel sollen Sie dabei unterstützen, möglichst schnell eine möglichst umfassende Kenntnis der vielen Möglichkeiten zu erhalten, die Pentacode bietet. Sie sollen Sie jedoch nicht davon abhalten, unseren Support in Anspruch zu nehmen. Wir unterstützen Sie nämlich gerne persönlich!
 
 Die Artikel  sind leicht verständlich geschrieben und mit einer Vielzahl von bildhaften Anleitungen versehen. Selbst wenn Sie bei Inbetriebnahme von Pentacode völlig auf die Unterstützung durch unseren Support verzichten würden, werden Sie die Software innerhalb einer Stunde wirksam in Gang setzen können, innerhalb von etwa drei Stunden haben Sie eine umfassende Kenntnis aller Funktionen und Möglichkeiten von Pentacode erworben.
 
