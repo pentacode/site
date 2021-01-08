@@ -49,7 +49,7 @@ Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, d
 
 ### Pausen & Mahlzeiten
 
-Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten**. Sehen Sie hierzu den Hilfeartikel "").
+Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten**. Sehen Sie hierzu den Hilfeartikel "[Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen)").
 
 {{< figure caption="Pausen werden am Ende des Arbeitstages errechnet, Mahlzeiten mit Schichtbeginn gebucht" >}}
 
