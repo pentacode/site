@@ -59,7 +59,7 @@ Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen 
 
 ### Provision
 
-Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "**Provision**" einen Wert **>0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
+Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "[**Provision**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#lohn-und-gehalt)" einen Wert **>0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
 
 {{< figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat" >}}
 
