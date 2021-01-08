@@ -17,9 +17,9 @@ anchors:
 
 ## Vorschussliste
 
-Mitarbeiter, die Barvorschüsse erhalten haben, sind alphabetisch nach Nachnamen gelistet.
+Mitarbeiter, die **Barvorschüsse** erhalten haben, sind alphabetisch nach Nachnamen gelistet.
 
-Bei Mitarbeitern, die mehrere Vorschüsse erhalten haben, sind sowohl die Einzelzahlungen mit Datumsangabe ausgewiesen und als Summe ausgewiesen.
+Bei Mitarbeitern, die mehrere Vorschüsse erhalten haben, sind sowohl die Einzelzahlungen mit Datumsangabe wie auch als Summe ausgewiesen.
 
 {{< figure caption="Die Vorschussliste muss zur Übermittlung an die Lohnbuchhaltung ausgedruckt werden" >}}
 
@@ -31,7 +31,7 @@ Diese Liste kann an dieser Stelle **nicht** bearbeitet werden. **Korrekturen** k
 
 Jede Veränderung an diesen beiden Stellen wird in der Vorschussliste entsprechend gespiegelt. Dies geschieht automatisch.
 
-Die Vorschussliste kann **nicht** exportiert werden. Um sie Ihrer Buchhaltung zukommen zu lassen, muss sie als pdf zugesandt werden.
+Die Vorschussliste kann **nicht** exportiert werden. Um sie Ihrer Buchhaltung zukommen zu lassen, muss sie als **pdf-Datei** zugesandt werden.
 
 ## Zeitraum wechseln
 
