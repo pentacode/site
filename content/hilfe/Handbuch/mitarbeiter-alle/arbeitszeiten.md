@@ -45,7 +45,7 @@ Es ist dabei unerheblich, ob Sie Vor- oder Nachnamen wählen, da mit jeder Buchs
 
 ## Zeitraum wechseln
 
-Wenn Sie das Konto "Arbeitszeiten" öffnen, wird Ihnen in der Standardansicht immer der aktuell laufende Monat gezeigt.
+Wenn Sie das Konto "**Arbeitszeiten**" öffnen, wird Ihnen in der Standardansicht immer der **aktuell laufende Monat** gezeigt.
 
 Über das {{< icon "chevron-right" >}}-Symbol können Sie den Monat wechseln.
 
@@ -71,11 +71,11 @@ Ausdrucke, die Sie an dieser Stelle vornehmen, sind **Reihenausdrucke**. Es werd
 
 ### "Arbeitszeiten Nachweis"
 
-Diese Formular ist für den **Ausdruck** und Ihre **Archvierung** für den Fall einer **Prüfung** vorgesehen. Idealerweise lassen Sie dieses Formular von den **Mitarbeiter unterzeichnen**. Mit der Unterzeichnung **bestätigen** die Mitarbeiter die **Richtigkeit** der Dokumentation.
+Diese Formular ist für den **Ausdruck** und Ihre **Archivierung** für den Fall einer **Prüfung** vorgesehen. Idealerweise lassen Sie dieses Formular von den **Mitarbeiter unterzeichnen**. Mit der Unterzeichnung **bestätigen** die Mitarbeiter die **Richtigkeit** der Dokumentation.
 
 ### "Lohnabrechnung Individuell"
 
-Die "**Lohnabrechnung Individuell**" entspricht dem "Arbreitszeiten Nachweis", ist jedoch deutlich detaillierter und weist neben den Arbeitszeiten auch die Zuschlagszeiten und alle entsprechenden Lohnsummen aus.
+Die "**Lohnabrechnung Individuell**" entspricht dem "Arbeitszeiten Nachweis", ist jedoch deutlich detaillierter und weist neben den Arbeitszeiten auch die Zuschlagszeiten und alle entsprechenden Lohnsummen aus.
 
 Wenn Sie einem Prüfer die Prüfung leicht machen wollen (wofür im Übrigen sehr vieles spricht), sollten Sie ihm zumindest zur Stichproben-Kontrolle einzelne "Lohnabrechnungen individuell" aushändigen.
 
@@ -89,7 +89,7 @@ Bei diesen Formaten handelt es sich um **Exportdateien** für Ihre Lohnbuchhaltu
 
 ## Export in die Buchhaltung
 
-Die Durchführung eines Exports in die Buchhaltung **setzt voraus**, dass Sie für Ihr Unternehmen die **Lohnarten** angelegt haben. Wie Sie dies tun, erfahren Sie _hier_.
+Die **Durchführung** eines Exports in die Buchhaltung **setzt voraus**, dass Sie für Ihr Unternehmen die **Lohnarten** angelegt haben. Wie Sie dies tun, erfahren Sie [**hier**](/hilfe/handbuch/einstellungen/buchhaltung/#lohnarten).
 
 Wählen Sie das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet und klicken Sie auf "**Exportieren**". Diese Datei ist nun im Ordner "**Downloads**" auf Ihrem Rechner abgelegt.
 
