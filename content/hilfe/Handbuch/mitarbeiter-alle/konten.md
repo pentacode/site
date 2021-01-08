@@ -41,7 +41,7 @@ In der Übersicht "**Konten**" sind die **Salden** zu den Arbeitszeitkonten, dem
 
 ## "Stunden"
 
-In der Rubrik " **Stunden**" werden die **Soll-Zeiten**, die ein Mitarbeiter im betreffenden Monat arbeiten soll, den **tatsächlich** geleisteten **Arbeitszeiten** **gegenübergestellt** und Über- oder Minderstunden ausgewiesen.
+In der Rubrik " **Stunden**" werden die [**Soll-Zeiten**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#arbeitszeit), die ein Mitarbeiter im betreffenden Monat arbeiten soll, den **tatsächlich** geleisteten **Arbeitszeiten** **gegenübergestellt** und Über- oder Minderstunden ausgewiesen.
 
 {{< figure caption="Hier sehen Sie die Arbeitszeitkonten aller Mitarbeiter mit Ausweis der monatlichen Über- oder Minderstunden und dem aufgelaufenen Saldo des Jahres" >}}
 
@@ -53,7 +53,7 @@ In der Kolonne " **Ist**" werden ausschließlich **abgeschlossene Arbeitstage** 
 
 Unter Differenz sind die Über- oder Minderstunden eines Mitarbeiters im laufenden Monat ausgewiesen. Wenn die **Differenz** zwischen "**Soll**" und "**Ist**" größer oder kleiner **20%** ist, wird die **Differenz** unter "Diff" in **Orange** gekennzeichnet.
 
-In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgelaufenen **Gesamtsaldo** eines jeden Mitarbeiters.
+In der Rubrik "**Saldo**" sehen sie den bis zum Ende des gezeigten Monats aufgelaufenen **Gesamtsaldo** eines jeden Mitarbeiters.
 
 {{< figure caption="So wird Ihnen der Saldo des laufenden Monats und der Gesamtsaldo des Jahres gezeigt" >}}
 
@@ -65,7 +65,7 @@ In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgela
 
 ## "Urlaub"
 
-In der Rubrik " **Urlaub**" sehen Sie den im gezeigten **Monat** **erworbenen** Urlaubsanspruch, sowie den **genommenen** Urlaub.
+In der Rubrik " [**Urlaub**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#urlaub-und-fehltage)" sehen Sie den im gezeigten **Monat** **erworbenen** Urlaubsanspruch, sowie den **genommenen** Urlaub.
 
 Unter " **Diff**" sehen Sie den **verbleibenden Urlaubsanspruch** eines Mitarbeiters. Zuviel genommener Urlaub wird mit einem vorangestellten **Minus**-Zeichen ausgewiesen.
 
@@ -79,7 +79,7 @@ In der Rubrik "**Saldo**"sehen sie den bis zum Ende des gezeigten Monats aufgela
 
 ## "SFN-Zuschläge"
 
-Pentacode unterscheidet zwischen beitragsfreien und durch Lohnfortzahlung beitragspflichtigen SFN-Zuschlägen.
+Pentacode unterscheidet zwischen beitragsfreien und durch Lohnfortzahlung beitragspflichtigen [**SFN-Zuschlägen**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#zuschläge).
 
 In der Rubrik " **B.frei**" sehen Sie die im gezeigten **Monat** erworbenen **Zuschlagssummen**. Bei diesen handelt es sich um voraussichtliche **Auszahlungsbeträge**.
 
