@@ -131,7 +131,7 @@ Ihre Stempeluhr und Pentacode stehen miteinander in Verbindung. Die **Synchronis
 
 Sie können die **Synchronisation** jedoch auch **manuell** anstoßen, indem Sie auf die **Datumsanzeige tippen**, die Sie am unteren Bildrand der Stempeluhr sehen.
 
-{{< figure caption="Durch Antippen der Datumsleiste synchronisieren Sie die Stempeluhr manuell>}}
+{{< figure caption="Durch Antippen der Datumsleiste synchronisieren Sie die Stempeluhr manuell" >}}
 
 ![](/uploads/synchro.png)
 
