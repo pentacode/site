@@ -29,7 +29,7 @@ Die grundlegenden Funktionen des Dienstplans in Pentacode.
 
 ## Abteilungen
 
-Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen_** angelegt haben.
+Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter [**Einstellungen** ](/hilfe/handbuch/einstellungen/arbeitsbereiche/#)angelegt haben.
 
 {{< figure caption="Ihre Abteilungen im Dienstplan in 'eingeklappter' Ansicht" >}}![](/uploads/abt-eingeklappt.png)
 
@@ -47,7 +47,7 @@ Der Dienstplan ist unterteilt in die Abteilungen, die Sie unter **_Einstellungen
 
 ## Mitarbeiter positionieren
 
-In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung im Menüpunkt **_Positionen_** zugeordnet haben.
+In den einzelnen Abteilungen finden sie die Mitarbeiter wieder, die Sie der jeweiligen Abteilung im Menüpunkt [**Positionen** ](/hilfe/handbuch/mitarbeiter-alle/positionen/)zugeordnet haben.
 
 Die Mitarbeiter sind in **alphabetischer Reihenfolge** nach Vornamen gelistet. Diese erste Anordnung können Sie jederzeit ändern. Bei einem **Mouse-over** über den Namen eines Mitarbeiters erscheinen **zwei nach oben und unten gerichtete Pfeile**. Durch das **Anklicken** eines der Pfeile **verschieben** Sie den Mitarbeiter entsprechend nach oben oder unten, bis er die gewünschte Position innerhalb der Abteilung - z.B. nach Rangordnung - erreicht hat.
 
