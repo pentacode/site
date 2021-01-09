@@ -19,7 +19,7 @@ Um bei einem Mitarbeiter einen bestehenden Vertrag zu **ändern**, **auszusetzen
 
 Über das {{< icon "pencil-alt" >}}-Symbol am rechten oberen Eck wählen Sie aus, was Sie nun tun wollen.
 
-{{< figure caption="Über das Stif-Symbol wählen Sie aus, was Sie tun wollen" >}}
+{{< figure caption="Über das Stift-Symbol wählen Sie aus, was Sie tun wollen" >}}
 
 ![](/uploads/vertrag-bearbeiten-allg.png)
 
@@ -31,7 +31,7 @@ Um bei einem Mitarbeiter einen bestehenden Vertrag zu **ändern**, **auszusetzen
 
 Um Angaben zu ändern oder zu ergänzen, überschreiben Sie diese einfach und speichern dann.
 
-**WICHTIG!** Wenn Sie Angaben ergänzen oder verändern, reichen diese **Änderungen** in die **Vergangenheit** zurück. Insbesondere alle **arbeitszeit- und lohnrelevanten Werte** zu einem Mitarbeiter werden somit **neu berechnet**.
+> **WICHTIG!** Wenn Sie Angaben ergänzen oder verändern, reichen diese **Änderungen** in die **Vergangenheit** zurück. Insbesondere alle **arbeitszeit- und lohnrelevanten Werte** zu einem Mitarbeiter werden somit **neu berechnet**.
 
 Diese Vergangenheit reicht bis zum Beginn des aktuell gültigen Vertrags zurück.
 
@@ -51,7 +51,7 @@ Sollten Sie vergessen haben, einen Vertrag rechtzeitig zu ändern, ist das kein 
 
 Sie müssen im "alten" Vertrag nur jene Positionen überschreiben, die im neuen Vertrag abweichen und speichern.
 
-**WICHTIG!** Für die Richtigkeit der Berechnungen in Pentacode ist es wichtig, dass die Angaben zum Mitarbeiter identisch mit den aktuell gültigen arbeitsvertraglichen Vereinbarungen sind.
+> **WICHTIG!** Für die Richtigkeit der Berechnungen in Pentacode ist es wichtig, dass die Angaben zum Mitarbeiter identisch mit den aktuell gültigen arbeitsvertraglichen Vereinbarungen sind.
 
 **Wenn Sie einen neuen Vertrag anlegen, sorgt Pentacode dafür, dass der alte Vertrag automatisch mit Beginn des neuen Vertrags endet.**
 
@@ -71,7 +71,7 @@ Geben Sie in diesem Fall einfach Beginn und Ende der Unterbrechung ein.
 
 Während des Zeitraums der Aussetzung sind die Arbeitskonten des Mitarbeiters "eingefroren" und die **Berechnung der "Sollarbeitszeit" wird ausgesetzt**.
 
-Soll der **Urlaubsanspruch** während der Vertragsaussetzung **weiter berechnet** werden, so setzen Sie hierfür den Button bei "**Urlaubsanspruch Läuft Weiter**". Dies gilt zwingend für den Fall einer längeren Erkrankung.
+Soll der **Urlaubsanspruch** während der Vertragsaussetzung **weiter berechnet** werden, so setzen Sie hierfür den Button bei "**Urlaubsanspruch Läuft Weiter**". Dies trifft zum Beispiel im Fall einer längeren Erkrankung zu.
 
 Sofern Sie SFN-Zuschläge pauschal vorauszahlen, können Sie durch das Aktivieren des Buttons die Vorauszahlung bei einer Unterbrechung anteilig kürzen.
 
@@ -85,7 +85,7 @@ Indem Sie das Pfeilsymbol am rechten oberen Rand anklicken, erhalten Sie eine Li
 
 {{< /figure >}}
 
-{{< figure caption="Die Liste der bisher mit einem Mitarbeiter geschlossenen/geänderten Verträge " >}}
+{{< figure caption="In der Vertragshistorie sehen Sie die bisher mit einem Mitarbeiter geschlossenen/geänderten Verträge " >}}
 
 ![](/uploads/vertragshistorie2.png)
 
@@ -95,7 +95,7 @@ Indem Sie das Pfeilsymbol am rechten oberen Rand anklicken, erhalten Sie eine Li
 
 Wenn ein Mitarbeiter bereits einmal in Ihrem Unternehmen gearbeitet hat und Sie ihn erneut einstellen, können Sie dies auf sehr einfache und mühelose Weise bewerkstelligen.
 
-Gehen Sie zuerst auf "Mitarbeiter", filtern Sie dort über das Trichtersymbol die Mitarbeiter nach "Ausgeschieden" und suchen Sie nach dem Namen.
+Gehen Sie zuerst auf "**Mitarbeiter**", filtern Sie dort über das {{< icon "filter" >}}-Symbol die Mitarbeiter nach "**Ausgeschieden**" und suchen Sie nach dem Namen.
 
 {{< figure caption="So filtern Sie über das Filter-Symbol nach ausgeschiedenen Mitarbeitern" >}}
 
@@ -105,7 +105,7 @@ Gehen Sie zuerst auf "Mitarbeiter", filtern Sie dort über das Trichtersymbol di
 
 Wenn Sie den Mitarbeiter durch Anklicken wählen, finden Sie alle Angaben der Vergangenheit vor. Sie müssen nur die Angaben ändern, die sich in der Zwischenzeit verändert haben.
 
-**Wichtig**: Sie werden in jedem Fall die Personalnummer ändern müssen, da diese neu vergeben werden wird.
+> **Wichtig**: Sie werden in jedem Fall die Personalnummer ändern müssen, da diese neu vergeben werden wird.
 
 {{< figure caption="Selbst wenn alle Angaben zur Person dieselben geblieben sind, muss die **Personalnummer** neu vergeben werden!" >}}
 
