@@ -19,7 +19,7 @@ Zum **Jahreswechsel** findet automatisch ein Übertrag der saldierten Werte stat
 
 ## Stunden
 
-In diesem Konto werden die **Soll-Zeiten**, die ein Mitarbeiter  arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden** ausgewiesen.
+In diesem Konto werden die [**Soll-Zeiten**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#arbeitszeit), die ein Mitarbeiter  arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden** ausgewiesen.
 
 {{< figure caption="Hier sehen Sie die Entwicklung des Jahresarbeitszeitkontos eines Mitarbeiters" >}}
 
@@ -33,7 +33,7 @@ Da das Arbeitskonto weder geplante noch in der Zukunft zu leistende Arbeitszeite
 
 ## Urlaub
 
-In diesem Konto werden die **erworbenen** Urlaubsansprüche den **genommenen** Urlaubstagen **gegenübergestellt** und Über- oder Unterschreitungen ausgewiesen.
+In diesem Konto werden die **erworbenen** [Urlaubsansprüche ](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#fehlstundenberechnung)den **genommenen** Urlaubstagen **gegenübergestellt** und Über- oder Unterschreitungen ausgewiesen.
 
 {{< figure caption="Hier sehen Sie die Entwicklung des Urlaubskontos eines Mitarbeiters" >}}
 
@@ -47,9 +47,9 @@ Da einem Mitarbeiter ab dem 1. 07. eines Jahres auch im Falle einer Kündigung v
 
 ## SFN-Zuschläge
 
-Konto **"SFN-Zuschläge"** weist die Summe der monatlichen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit des Mitarbeiters aus.
+Konto **"**[**SFN-Zuschläge**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#zuschläge)**"** weist die Summe der monatlichen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit des Mitarbeiters aus.
 
-In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "(**B.pfl.)** jene Zuschläge, die durch Krank oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
+In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "**(B.pfl.)**" jene Zuschläge, die durch Krank oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
 
 {{< figure caption="Hier sehen Sie die Zuschläge, die ein Mitarbeiter erhalten hat, getrennt dargestellt als beitragsfreie und beitragspflichtige Zuschläge" >}}
 
