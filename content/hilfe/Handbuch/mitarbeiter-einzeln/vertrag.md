@@ -287,7 +287,7 @@ Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, de
 
 ## Zuschläge
 
-Wenn Sie einem Mitarbeiter Zuschläge zahlen, legen Sie die Höhe der Zuschläge für den Mitarbeiter fest. In der Standardeinstellung von Pentacode sind die Zuschläge mit ihren gesetzlich erlaubten Höchstwerten ausgewiesen.
+Wenn Sie einem Mitarbeiter Zuschläge zahlen, können Sie die Höhe der Zuschläge für jeden Mitarbeiter individuell festlegen. In der Standardeinstellung von Pentacode sind die Zuschläge mit ihren gesetzlich erlaubten Höchstwerten ausgewiesen.
 
 Sie können die Zuschläge individuell nach unten anpassen.
 
@@ -307,11 +307,11 @@ In der **Standardeinstellung** von Pentacode werden Sonn- und Feiertagszuschläg
 
 {{< /figure >}}
 
-Sollte dies **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In diesem Fall werden dem Mitarbeiter an einem Sonn- oder Feiertag die **Sonn- und Feiertagszuschläge** hinzugerechnet, **nicht** jedoch die **Nachtzuschläge**.
+Sollte die Kumulierung **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In diesem Fall werden dem Mitarbeiter an einem Sonn- oder Feiertag die **Sonn- und Feiertagszuschläge** hinzugerechnet, **nicht** jedoch die **Nachtzuschläge**.
 
 ### Monatliche SFN-Pauschale
 
-Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im Eingabefeld, dass dann erscheint die Höhe der monatlichen Pauschalvorauszahlung ein.
+Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im Eingabefeld, das in der Folge erscheint, die Höhe der monatlichen Pauschalvorauszahlung ein.
 
 {{< figure caption="So können pauschale Vorauszahlungen von SFN-Zuschlägen in Pentacode erfasst und zur Kontrolle saldiert werden" >}}
 
@@ -319,9 +319,9 @@ Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Bu
 
 {{< /figure >}}
 
-Im Konto "SFN-Zuschläge" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
+Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter-einzeln/konten/#sfn-zuschläge)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
-Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
+> Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
 
 ## Vertrag beenden
 
