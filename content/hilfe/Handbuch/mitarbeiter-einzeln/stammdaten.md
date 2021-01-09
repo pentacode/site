@@ -17,11 +17,11 @@ In den Stammdaten werden die persönlichen Angaben zum Mitarbeiter erfasst.
 
 Zwingende Angaben eines Mitarbeiters sind dessen Vorname und Nachname.
 
-Die Personalnummer wird **nicht automatisch** vergeben. Diese erhalten Sie durch Ihre Lohnbuchhaltung. 
+Die Personalnummer wird **nicht automatisch** vergeben. Diese erhalten Sie durch Ihre Lohnbuchhaltung.
 
 > Im Besonderen für den Fall, dass Sie die Bewegungsdaten an Ihre Lohnbuchhaltung exportieren wollen, ist es **zwingend notwendig**, dass die Personalnummer in Pentacode **identisch** mit der Personalnummer im Buchhaltungsprogramm ist.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Vor- und Nachname des Mitarbeiters sind zwingende Angaben" >}}
 
 ![](/uploads/stammdaten.png)
 
@@ -37,9 +37,9 @@ Sie können Angaben in den Stammdaten eines Mitarbeiters jederzeit ändern, inde
 
 ## Mitarbeiter löschen
 
-Sie können einmal angelegte Mitarbeiter jederzeit löschen. 
+Sie können einmal angelegte Mitarbeiter jederzeit löschen.
 
-> **Wenn Sie einen Mitarbeiter löschen, müssen sich dabei jedoch im Klaren sein, dass mit dem Mitarbeiter nicht nur dessen persönliche Daten, sondern auch dessen gesamte Dokumentation inklusive aller eventuell geleisteten Arbeitszeiten gelöscht wird!**
+> **Wenn Sie einen Mitarbeiter löschen, müssen sich jedoch darüber im Klaren sein, dass mit dem Mitarbeiter nicht nur dessen persönliche Daten, sondern auch dessen gesamte Dokumentation inklusive aller eventuell geleisteten Arbeitszeiten gelöscht wird!**
 
 {{< figure caption="Das Löschen eines Mitarbeiters ist **unwiderruflich** und kann nicht rückgängig gemacht werden" >}}
 
