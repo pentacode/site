@@ -225,19 +225,19 @@ Wenn sich die Provision auf den Netto-Umsatz bezieht, ist dort der Netto-Umsatz 
 
 Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "[**Buchhaltung**](/settings/accounting)" angelegt haben.
 
-{{< figure caption="Selbst wenn ein Mitarbeiter in mehreren Abteilungen arbeitet, jedoch überall denselben Lohn erhält, wählen Sie am besten \[Nichts Gewählt\]" >}}
+{{< figure caption="Selbst wenn ein Mitarbeiter in mehreren Abteilungen arbeitet, in allen jedoch denselben Lohn erhält, wählen Sie am besten \[Nichts Gewählt\]" >}}
 
 ![](/uploads/lohnarten-1.png)
 
 {{< /figure >}}
 
-In der Standardeinstellung von Pentacode finden Sie den Lohnartensatz "\[Nichts Gewählt\]". Wir empfehlen Ihnen, diesen beizubehalten. Der **Lohnartensatz**, den Pentacode für den Export wählt, orientiert sich damit immer am **Beschäftigungsverhältnis** des Mitarbeiters.
+> In der Standardeinstellung von Pentacode finden Sie den Lohnartensatz "\[Nichts Gewählt\]". Wir empfehlen Ihnen, diesen beizubehalten. Der **Lohnartensatz**, den Pentacode für den Export wählt, orientiert sich damit immer am **Beschäftigungsverhältnis** des Mitarbeiters.
 
-Dies bededutet: Wechselt ein Mitarbeiter z.B. von "Aushilfe/Mini-Jobber" auf "Vollzeit/Teilzeit", wechselt Pentacode auch automatisch den Lohnartensatz. Wenn sie einen bestimmten Lohnartensatz gewählt, muss für den Export der Lohnartensatz manuell entsprechend korrigiert werden.
+Dies bedeutet: Wechselt ein Mitarbeiter z.B. von "Aushilfe/Mini-Jobber" auf "Vollzeit/Teilzeit", wechselt Pentacode auch automatisch den Lohnartensatz. Wenn sie einen bestimmten Lohnartensatz gewählt haben, muss für den Export der Lohnartensatz manuell entsprechend korrigiert werden.
 
 ### Ein Mitarbeiter - mehrere Löhne
 
-Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen arbeiten bei unterschiedlichen Löhnen arbeiten, kann dies in Pentacode automatisch berücksichtigt werden.
+Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen bei unterschiedlichen Löhnen arbeiten, kann dies in Pentacode automatisch berücksichtigt werden.
 
 Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zu. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
 
@@ -247,7 +247,7 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 
 {{< /figure >}}
 
-**ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
+> **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
 ## Zusatzleistungen
 
@@ -265,11 +265,11 @@ Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht
 
 Pentacode ermittelt jedoch die Lohnkosten, um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben. Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
 
-Bitte beachten Sie, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
+Bitte beachten Sie bei der Eingabe, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
 
 ## Urlaub und Fehltage
 
-Geben Sie bei "Urlaubsanspruch (pro Jahr)" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter vereinbart sind.
+Geben Sie bei "**Urlaubsanspruch (pro Jahr)**" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter vereinbart sind.
 
 Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben berechnet werden.
 
@@ -279,7 +279,7 @@ Der Urlaubsanspruch eines Mitarbeiters kann nach unterschiedlichen Maßgaben ber
 
 {{< /figure >}}
 
-Wenn Sie bei Urlaubszuwachs "**Nach Arbeitsstunden**" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
+a) Wenn Sie bei Urlaubszuwachs "**Nach Arbeitsstunden**" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
 
 b) Wählen Sie "**Monatlich**", wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
 
