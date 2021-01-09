@@ -17,7 +17,7 @@ Wie bereits bei den Abteilungen können Sie auch für einzelne Mitarbeiter abwei
 
 Wenn für einen **einzelnen Mitarbeiter andere Regeln** gelten sollen, setzen Sie den Haken bei "**Abweichende Zeiterfassungsregeln**". Sie können damit an dieser Stelle Regeln definieren, die ausschließlich **für diesen Mitarbeiter** gelten werden.
 
-{{< figure caption="So können Sie für einen Mitarbeiter individuelle Regeln der Zeiterfassung festlegen" >}}{{< figure caption="Indem Sie den Button bei 'Abweichende Zeiterfassungsregel' aktivieren, können Sie Regeln definieren, die ausschließlich für diesen Mitarbeiter gelten" >}}
+{{< figure caption="Indem Sie den Button bei 'Abweichende Zeiterfassungsregel' aktivieren, können Sie Regeln definieren, die ausschließlich für diesen Mitarbeiter gelten" >}}
 
 ![](/uploads/zei.png)
 
