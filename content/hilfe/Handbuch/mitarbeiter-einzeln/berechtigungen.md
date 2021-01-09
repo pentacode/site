@@ -31,13 +31,13 @@ Der **Mitarbeiter erhält** automatisch aus dem System eine Email mit **Passwort
 
 ## Einschränken einer Berechtigung
 
-Wenn Sie für einen Mitarbeiter einen Bereich zum Zugang freigeben, so sind in diesem Bereich in der Standardeinstellung **alle** **untergeordneten Teilbereiche** zur Bearbeitung **freigegeben**!
+> Wenn Sie für einen Mitarbeiter einen Bereich zum Zugang freigeben, so sind in diesem Bereich in der Standardeinstellung **alle** **untergeordneten Teilbereiche** zur Bearbeitung **freigegeben**!
 
 Durch **Deaktivieren** der gesetzten Haken schränken Sie die Zugangsberechtigungen des Mitarbeiters ein.
 
 Er erhält somit ausschließlich zu jenen Bereichen Zugang, zu denen ihm Zugang gewährt haben.
 
-{{< figure caption="Hier sehen Sie als Beispiel für das Einschränken von Berechtigungen die Freigabe von von Rechten für die Dienstplanung" >}}
+{{< figure caption="Hier sehen Sie am Beispiel des Dienstplans das Einschränken von Berechtigungen" >}}
 
 ![](/uploads/einschrankung2.png)
 
@@ -47,7 +47,7 @@ Wenn der Mitarbeiter z.B. berechtigt ist, **Dienstpläne** nur für **ausgewähl
 
 Der Mitarbeiter kann somit **ausschließlich** für jene Abteilungen, die in seine **Zuständigkeit** fallen, Dienstpläne schreiben oder geplante Dienstzeiten in diesen Abteilungen verändern.
 
-Auf dieselbe Weise bestimmen Sie auch, ob der Mitarbeiter auch zu weitergehenden Informationen Zugang erhält. Ob er also z.B. die Lohnkosten bei der Planung einsehen darf.
+Auf dieselbe Weise bestimmen Sie auch, ob der Mitarbeiter evtl. zu weitergehenden Informationen Zugang erhält. Ob er also z.B. die Lohnkosten bei der Planung einsehen darf.
 
 {{< figure caption="Durch das Abwählen einzelner Button können Sie den Zugang zu einem Bereich von Pentacode einschränken" >}}
 
@@ -59,7 +59,7 @@ Auf dieselbe Weise bestimmen Sie auch, ob der Mitarbeiter auch zu weitergehenden
 
 Wenn ein Mitarbeiter, dem Sie die Berechtigung zum Zugang zur Datenbank erteilt haben, das Haus verlässt oder aus anderen Gründen nicht weiterhin in der App arbeiten soll, ist ihm die Berechtigung zu entziehen.
 
-Wählen Sie in diesem Fall einfach den Button bei "Administrationszugang" ab. Der Mitarbeiter hat damit ab sofort keinen Zugang mehr zu Ihrer Datenbank.
+Wählen Sie in diesem Fall einfach den Button bei "**Administrationszugang**" ab. Der Mitarbeiter hat damit ab sofort keinen Zugang mehr zu Ihrer Datenbank.
 
 {{< figure caption="Indem Sie den Button '**Administrationszugang**' abwählen, verliert ein Mitarbeiter **ab sofort alle** Berechtigungen und kommt nicht mehr ins System" >}}
 
