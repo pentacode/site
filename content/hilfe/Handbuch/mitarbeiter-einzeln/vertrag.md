@@ -45,7 +45,7 @@ Im Falle eines befristeten Arbeitsverhältnisses ist es empfehlenswert, das Fris
 
 **Bemerkungen** bezeichnet einen Textbereich, in den Sie **Notizen** zum Mitarbeiter hinzufügen können.
 
-Wenn Sie den Button bei "**Inaktiv**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. "Inaktiv" unterbricht jedoch nicht die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
+Wenn Sie den Button bei "**Inaktiv**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. "Inaktiv" **unterbricht** jedoch **nicht** die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
 
 ## Beschäftigungsverhältnis
 
@@ -69,13 +69,13 @@ Für die Berechnung der **Sollarbeitszeit** eines Mitarbeiters stehen Ihnen 5 un
 
 {{< /figure >}}
 
-Welcher Modus für Sie im Einzelfall der möglicherweise geeignete ist, erfahren Sie unter **_Rezepte und Tipps_** im Artikel **_Sollstundenberechnung_**.
+Welcher Modus für Sie im Einzelfall der möglicherweise geeignete ist, erfahren Sie unter [**Tipps und Rezepte**]() im Artikel **Sollstundenberechnung**.
 
 ### Wochenfaktor
 
-Bei der Wahl "Wochenfaktor" erscheint das Eingabefeld **Wochenstunden**.
+Bei der Wahl "**Wochenfaktor**" erscheint das Eingabefeld **Wochenstunden**.
 
-Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
+Geben Sie hier die Anzahl der **Wochenstunden** ein, die ein Mitarbeiter laut Arbeitsvertrag zu leisten hat.
 
 {{< figure caption="Berechnung der Sollstunden mit Faktor 4,35" >}}
 
@@ -91,7 +91,7 @@ Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden 
 
 Bei der Wahl "Monatsgenau" erscheint das Eingabefeld **Wochenstunden**.
 
-Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeitsvertrag.
+Geben Sie hier die Anzahl der **Wochenstunden** ein, die ein Mitarbeiter laut Arbeitsvertrag zu leisten hat.
 
 {{< figure caption="Berechnung der Sollstunden entsprechend der Länge eines Monats" >}}
 
@@ -101,11 +101,11 @@ Geben Sie hier die Anzahl der Wochenstunden ein, die ein Mitarbeiter laut Arbeit
 
 Bei dieser Auswahl errechnet sich die **Soll-Arbeitszeit** des Mitarbeiters anhand der **Länge eines Monats**. Sie schwankt somit von Monat zu Monat.
 
-Die Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bie 171,... Stunden, in einem Monat mit 31 Tagen bei 177,.. Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
+Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bei 171,43 Stunden, in einem Monat mit 31 Tagen bei 177,14 Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
 
 ### Monatsgenau Ohne Feiertage
 
-Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Monatsgenau".
+Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "**Monatsgenau**".
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
@@ -113,7 +113,7 @@ Pentacode kennt die **gesetzlichen Feiertage** des Bundeslands, in dem sich Ihr 
 
 ### Feste Wochentage
 
-Bei der Wahl "Feste Wochentage" erscheint ein Eingabefeld der **sieben Wochentage**.
+Bei der Wahl "Feste Wochentage" erscheinen Eingabefelder zu den **sieben Wochentagen**.
 
 Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen arbeiten soll. Diese Auswahl ist im Besonderen zu empfehlen, wenn ein Mitarbeiter **feste Arbeitstage** hat und diese in ihrer Länge auch noch voneinander abweichen. Dies trifft häufig für Mitarbeiter in der Verwaltung zu, bei denen z.B. der Freitag ein verkürzter Arbeitstag ist.
 
@@ -153,7 +153,7 @@ Setzen Sie in diesem Fall den Button bei "**Jahresarbeitszeitkonto Vereinbart**"
 
 Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 
-Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist. Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
+> **Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
 ## Fehlstundenberechnung
 
@@ -161,9 +161,9 @@ Wenn Sie "**Feste Wochentage**" als Berechnungsmethode gewählte haben, werden d
 
 Für die Einstellungen "**Wochenfaktor**" und "**Monatsgenau**" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub **zwei Möglichkeiten** zur Verfügung
 
-#### Feste Stundenzahl
+### Feste Stundenzahl
 
-Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das Sie die Anzahl der Stunden eingeben, die der Mitarbeiter leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
+Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das Sie die Anzahl der **Arbeitsstunden** eingeben, die der Mitarbeiter **täglich** leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
 
 {{< figure caption="Berechnung der Lohnfortzahlung mit festem Stundensatz" >}}
 
@@ -173,7 +173,7 @@ Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das S
 
 Bei dieser Einstellung wird jeder Tag, an dem der Mitarbeiter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
 
-#### 13-Wochen Durchschnitt
+### 13-Wochen Durchschnitt
 
 Bei dieser Einstellung errechnet Pentacode den **Wert eines Urlaub- oder Kranktages** an der Arbeitszeit, die der Mitarbeiter im **Durchschnitt der letzten 13 Wochen** gearbeitet hat.
 
@@ -185,13 +185,13 @@ Bei dieser Einstellung errechnet Pentacode den **Wert eines Urlaub- oder Krankta
 
 Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden sie auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
 
-Pentacode unterscheidet bei der Berechnung zwischen Wochentagen und Sonntagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
+Pentacode unterscheidet bei der Berechnung zwischen Wochen-, Sonn und Feiertagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
 
 > #### Hinweis bei Einführung von Pentacode
 >
 > Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monate**n mit der Einstellung "**Feste Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
 >
-> **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf erste drei Monate verändern wollen**.
+> **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf** "**13-Wochenschnitt**" **verändern wollen**.
 
 ## Lohn und Gehalt
 
@@ -209,7 +209,7 @@ Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **S
 
 ### Provision
 
-Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "Zeiterfassung".
+Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#provision)".
 
 {{< figure caption="Wenn Sie hier einen Wert >0 einsetzen, erscheint in der Tagesübersicht 'Zeiterfassung' bei diesem Mitarbeiter ein Eingabefeld für die Erfassung des Umsatzes" >}}
 
@@ -223,7 +223,7 @@ Wenn sich die Provision auf den Netto-Umsatz bezieht, ist dort der Netto-Umsatz 
 
 Über den Lohnartensatz wird der **Export** der Daten in die Lohnbuchhaltung organisiert.
 
-Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "Buchhaltung angelegt haben.
+Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "[**Buchhaltung**](/settings/accounting)" angelegt haben.
 
 {{< figure caption="Selbst wenn ein Mitarbeiter in mehreren Abteilungen arbeitet, jedoch überall denselben Lohn erhält, wählen Sie am besten \[Nichts Gewählt\]" >}}
 
