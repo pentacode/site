@@ -43,7 +43,7 @@ Am rechten unteren Rand finden Sie eine **Zeichenerklärung** für die unterschi
 
 ### Summen-Übersicht
 
-Am rechten oberen Rand werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**. Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen **Soll-Arbeitszeit** und der **tatsächlich geleisteten Arbeitszeit**.
+Am rechten oberen Rand werden die **geplanten** Arbeitszeiten, die **monatlichen** Arbeitszeiten, die der Mitarbeiter laut Arbeitsvertrag leisten sollte und die **tatsächlich geleisteten** **Arbeitsstunden** einander **gegenübergestellt**. Die **Differenz** ergibt sich aus dem Unterschied zwischen monatlichen [**Soll-Arbeitszeit**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#arbeitszeit) und der **tatsächlich geleisteten Arbeitszeit**.
 
 {{< figure caption="Hier sehen Sie die Summen der Arbeits- und Zuschlagszeiten in Stunden dargestellt" >}}
 
@@ -77,7 +77,7 @@ Wenn Sie auf das **+** am Fußende klicken, erscheint ein Menü mit den Ergänzu
 
 ### Arbeitszeiten hinzufügen
 
-Wenn Sie "Arbeitszeiten hinzufügen" wählen, bezieht sich der automatische Datumsangabe auf den **aktuellen** Kalendertag. **Stellen Sie sicher, dass Sie das Datum wählen, zu dem der Arbeitstag hinzugefügt wird!**
+Wenn Sie "**Arbeitszeiten hinzufügen**" wählen, bezieht sich die automatische Datumsangabe auf den **aktuellen** Kalendertag. **Stellen Sie sicher, dass Sie das Datum wählen, zu dem der Arbeitstag hinzugefügt wird!**
 
 {{< figure caption="Stellen Sie sicher, dass Sie das richtige Datum wählen!" >}}
 
@@ -91,7 +91,7 @@ Geben Sie dann den **Anfang** und das **Ende** des Arbeitstages ein.
 
 **Pausen werden nicht automatisch gesetzt!** Sie müssen von Ihnen manuell eingegeben werden. Dies gilt auch für eine eventuelles **Essen**.
 
-Wenn der Mitarbeiter eine **Umsatzprovision** erhält, können Sie hier auch seinen **Umsatz** eingeben und optional einen beliebigen Kommentar hinzufügen.
+Wenn der Mitarbeiter eine [**Umsatzprovision** ](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#lohn-und-gehalt)erhält, können Sie hier auch seinen **Umsatz** eingeben und optional einen beliebigen Kommentar hinzufügen.
 
 ### Fehltag hinzufügen
 
@@ -109,7 +109,7 @@ Wenn **nachträglich** ein Fehltag gebucht werden soll, wählen Sie "**Fehltag h
 
 Sie können dem Arbeitszeitkonto eines Mitarbeiter auch **Stunden** summarisch **hinzubuchen** oder in **Abzug** bringen.
 
-Wählen Sie dafür "Zeitbuchung" und die Art der Buchung über den Dropdownpfeil.
+Wählen Sie dafür "**Zeitbuchung**" und die Art der Buchung über den Dropdownpfeil.
 
 {{< figure caption="So können Sie einem Mitarbeiter Stunden in Summe gutschreiben oder abziehen" >}}
 
@@ -137,7 +137,7 @@ Wenn Sie Urlaub hinzubuchen, erscheint dieser Button nicht.
 
 ## Kontoausdruck
 
-Durch das Anklicken des {{< icon "print" >}}-Symbols am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **ausdrucken**.
+Durch das Anklicken des {{< icon "print" >}}-Symbols am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **auszudrucken**.
 
 {{< figure caption="Sie können das Arbeitszeitkonto eines Mitarbeiters in zwei unterschiedlichen Formaten ausdrucken" >}}
 
@@ -147,9 +147,9 @@ Durch das Anklicken des {{< icon "print" >}}-Symbols am linken unteren Rand wäh
 
 ### Arbeitszeiten Nachweis
 
-Der "Arbeitszeiten Nachweis" listet die täglichen Arbeitszeiten mit ihrem jeweiligen Anfang und Ende, den Ruhepausen und die Dauer des Arbeitstages.
+Der "**Arbeitszeiten Nachweis**" listet die täglichen Arbeitszeiten mit ihrem jeweiligen Anfang und Ende, den Ruhepausen und die Dauer des Arbeitstages.
 
-Am rechten oberen Rand finden Sie die **Soll- und Ist-Arbeitszeiten** des Monats einander gegnübergestellt und die **Differenz** ausgewiesen
+Am rechten oberen Rand finden Sie die **Soll- und Ist-Arbeitszeiten** des Monats einander gegenübergestellt und die **Differenz** ausgewiesen
 
 In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**" die Anzahl der **bezahlten Stunden**.
 
@@ -163,7 +163,7 @@ Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **P
 
 > Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
 
-Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
+> Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
 
 ### Lohnabrechnung
 
