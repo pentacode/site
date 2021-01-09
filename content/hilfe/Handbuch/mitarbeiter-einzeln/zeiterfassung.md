@@ -23,7 +23,7 @@ Wenn für einen **einzelnen Mitarbeiter andere Regeln** gelten sollen, setzen Si
 
 {{< /figure >}}
 
-> Im Hilfeartikel **_Zeiterfassung_** erfahren Sie, nach welchen Gesichtspunkten die Regeln der Zeiterfassung in Pentacode funktionieren.
+> Im Hilfeartikel [**Zeiterfassung** ](/hilfe/handbuch/einstellungen/zeiterfassung/)erfahren Sie, nach welchen Gesichtspunkten die Regeln der Zeiterfassung in Pentacode funktionieren.
 
 ## PIN-Vergabe
 
