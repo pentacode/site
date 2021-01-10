@@ -21,7 +21,7 @@ anchors:
 ---
 Mit "**Arbeitsbereiche**" umschreiben wir, was in vielen Unternehmen auch als **Abteilungen** bezeichnet wird.
 
-Im Menüpunkt "**Arbeitsbereiche**" legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"_Zeiterfassung_"** definiert haben.
+Im Menüpunkt "**Arbeitsbereiche**" legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"**[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/)**"** definiert haben.
 
 Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie "an Bord gehen".
 
@@ -37,7 +37,7 @@ Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken.
 
 Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die entsprechenden Abteilungen an.
 
-Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter Positionen. Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden. Sehen Sie hierzu den Hilfeartikel **>>Alle Mitarbeiter / Positionen**
+Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter "[**Positionen**](/hilfe/handbuch/mitarbeiter-alle/positionen/)". Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden.
 
 ## Standort bearbeiten
 
@@ -53,7 +53,7 @@ Durch Anklicken des {{< icon "ellipsis-h" >}}-Symbols am rechten oberen Eck kön
 
 Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn über das {{< icon "archive" >}}-Symbol **archivieren**. Der Standort ist dann nicht mehr sichtbar, alle Daten, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
-{{< figure caption="So können Sie einen bestehnden Standort archivieren" >}}
+{{< figure caption="So können Sie einen bestehenden Standort archivieren" >}}
 
 ![](/uploads/standort-archivieren.png)
 
@@ -81,9 +81,9 @@ Wenn für die gewählte Abteilung **andere** Regeln gelten sollen, setzen Sie de
 
 {{< /figure >}}
 
-Im HIlfeartikel "**_Zeiterfassung_**" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
+Im HIlfeartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/)" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
 
-Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen **Zeiterfassung ausgenommen** werden.
+> Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen **Zeiterfassung ausgenommen** werden.
 
 ## Abteilung bearbeiten
 
