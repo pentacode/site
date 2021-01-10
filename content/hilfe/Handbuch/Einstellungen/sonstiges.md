@@ -45,9 +45,9 @@ Diese Berechnungsmethode hat zur Folge, dass die **monatliche Sollarbeitszeit** 
 
 "**Monatsgenau ohne Feiertage**" bedeutet: **gesetzliche Feiertage**, die nicht auf einen Sonntag fallen, werden bei der Sollstundenberechnung in Abzug gebracht und **verringern** die zu erbringende **Sollarbeitszeit** des Mitarbeiters entsprechend.
 
-"**Feste Wochentage & Feste Wochentage abzgl. Feiertage**"
-
-Die Festlegung dieser Berechnungsmethode kann nicht allgemein gültig erfolgen. Sie ist  nur beim einzelnen Mitarbeiter sinnvoll anzulegen.
+> "**Feste Wochentage & Feste Wochentage abzgl. Feiertage**"
+>
+> Die Festlegung dieser Berechnungsmethode kann nicht allgemein gültig erfolgen. Sie ist  nur beim einzelnen Mitarbeiter sinnvoll anzulegen.
 
 ## "Berechnung Gesetzliche Pause"
 
@@ -83,6 +83,6 @@ Sie können die **Zeiträume**, in denen Sie Ihre Mitarbeiter **Nachtzuschläge*
 
 {{< /figure >}}
 
- Pentacode **überprüft** hierbei die Zulässigkeit Ihrer Angaben entsprechend der **gesetzlichen Richtlinien**. 
+Pentacode **überprüft** hierbei die Zulässigkeit Ihrer Angaben entsprechend der **gesetzlichen Richtlinien**.
 
 Diese ermöglichen die Zahlung von bis zu 25% Zuschlag auf den Bruttolohn in der Zeit von 20:00 Uhr bis 06:00 Uhr, sowie Nachtzuschläge für die Zeit von 00:00 Uhr bis 04:00 Uhr (sofern die Arbeit vor 0:00 Uhr aufgenommen wurde).
