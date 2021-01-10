@@ -100,3 +100,5 @@ In derselben Weise, in der Sie Umsatzgruppen angelegt haben, können Sie die unb
 ![](/uploads/umsatzgruppe7.png)
 
 {{< /figure >}}
+
+> Das Anlegen von feststehenden Ausgabepositionen ist jedoch nur dann sinnvoll, wenn es sich um **sehr häufig wiederkehrende Ausgaben** handelt.
