@@ -53,7 +53,7 @@ Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, ist das **K
 
 ## Gehaltsvorschuss
 
-Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**".
+Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/#vorschussliste)zugeführt. 
 
 Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Namen im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
 
@@ -63,7 +63,7 @@ Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es ers
 
 {{< /figure >}}
 
-Wählen Sie den Mitarbeiter mit dem Cursor oder über Buchstabeneingabe, geben Sie den Auszahlungsbetrag ein und "Speichern" Sie.
+Wählen Sie den Mitarbeiter mit dem Cursor oder über Buchstabeneingabe, geben Sie den Auszahlungsbetrag ein und "**Speichern**" Sie.
 
 > **Als Auszahlungsdatum wird immer der aktuelle Tagesdatum vorgeschlagen. Stellen Sie sicher, dass Sie das Datum im Bedarfsfall entsprechend korrigieren!**
 
@@ -73,15 +73,15 @@ Ein Zählprotokoll ist der schriftliche Nachweis der "Sturzfähigkeit" der Kasse
 
 > **Es gibt (noch) keine gesetzliche Verpflichtung zur Durchführung eines Zählprotokolls. Mit Blick auf die Betriebsprüfung ist es jedoch dringend ratsam, dieses _mindestens_ nach _jeder_ Bankeinzahlung durchzuführen, wenn der Zählbetrag relativ gering ist. Der Nachweis der Sturzfähigkeit Ihrer Kasse verringert das Risiko einer Umsatz-Zuschätzung erheblich!**
 
-Ein stichhaltiges Zählprotokoll hat Formvorschriften zu erfüllen. Es muss die sogenannte "Stückelung" ausweisen und wird idealerweise nach dem Prinzip Ansager/Schreiber von zwei Personen unterschrieben.
+Ein stichhaltiges Zählprotokoll hat Formvorschriften zu erfüllen. Es muss die sogenannte "**Stückelung**" ausweisen und wird idealerweise nach dem Prinzip Ansager/Schreiber von zwei Personen unterschrieben.
 
 Es erhöht die Glaubwürdigkeit, wenn mindestens eine dieser Personen **nicht** Inhaber des Unternehmens ist.
 
-Wenn Sie über das "**+**"Zeichen "**Zählprotokoll**" wählen, öffnet ein Zählprotokoll, welches das aktuelle Tagesdatum und den rechnerischen Bargeldbestand des Tages ausweist. 
+Wenn Sie über das "**+**"Zeichen "**Zählprotokoll**" wählen, öffnet ein Zählprotokoll, welches das aktuelle Tagesdatum und den rechnerischen Bargeldbestand des Tages ausweist.
 
 > Aus rechtlichen Gründen kann ein Zählprotokoll **nur tagesaktuell** durchgeführt werden, **nicht für einen  Zeitpunkt, der in der Vergangenheit liegt**. Das Zählprotokoll bezieht sich deshalb **grundsätzlich auf den tagesaktuellen Kassenbestand**.
 
-Unter "Zählung durchgeführt von" steht standardmäßig der Name der Person, die in Pentacode angemeldet ist. Dieser Name kann jederzeit überschrieben und durch eine weitere Person ergänzt werden.
+Unter "**Zählung durchgeführt von**" steht standardmäßig der Name der Person, die in Pentacode angemeldet ist. Dieser Name kann jederzeit überschrieben werden.
 
 Geben Sie nun die Stückelung ein. Der Zählbetrag wird automatisch aufaddiert.
 
@@ -91,7 +91,7 @@ Geben Sie nun die Stückelung ein. Der Zählbetrag wird automatisch aufaddiert.
 
 {{< /figure >}}
 
-Sollte die Zählung eine negative oder auch positive Differenz zum rechnerischen Bargeldbestand ausweisen, werden Sie bei "Speichern" gefragt, ob die Differenz gebucht oder durch "Überspringen" ignoriert werden soll.
+Sollte die Zählung eine negative oder auch positive **Differenz** zum rechnerischen Bargeldbestand ausweisen, werden Sie bei "Speichern" gefragt, ob die **Differenz gebucht** **oder** durch "Überspringen" **ignoriert** werden soll.
 
 {{< figure caption="Ein Differenzbetrag zwischen rechnerischem und tatsächlichem Bargeldbestand kann gebucht oder ignoriert werden" >}}
 
@@ -99,7 +99,7 @@ Sollte die Zählung eine negative oder auch positive Differenz zum rechnerischen
 
 {{< /figure >}}
 
-In jedem Fall entsteht im Kassenbuch der Saldo-neutrale Eintrag "Kassenzählung", der die Durchführung des sogenannten "Kassensturzes" nachweist.
+In jedem Fall entsteht im Kassenbuch der Saldo-neutrale Eintrag "**Kassenzählung**", der die Durchführung des sogenannten "Kassensturzes" nachweist.
 
 {{< figure caption="Im hier gezeigten Beispiel wird der Differenzbetrag der Kassenzählung ausgewiesen" >}}
 
@@ -111,7 +111,7 @@ Durch "Speichern" wird die Kassenzählung im Kassenbuch festgeschrieben.
 
 > Gastronomie zählt im Jargon der Finanzbehörden zum "bargeldintensiven" Gewerbe. Kassendifferenzen können hier durchaus vorkommen und sollten als solche auch verbucht werden.
 
-Bei einem "Mouse-over" erscheint am rechten Rand das {{< icon "print" >}}-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll ausdrucken.
+Bei einem "Mouse-over" erscheint am rechten Rand das {{< icon "print" >}}-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll **ausdrucken**.
 
 {{< figure caption="Drucken Sie das Zählprotokoll aus unterzeichnen Sie es mit Datumsangabe" >}}
 
@@ -119,7 +119,7 @@ Bei einem "Mouse-over" erscheint am rechten Rand das {{< icon "print" >}}-Symbol
 
 {{< /figure >}}
 
-> Zählprotokolle sollten ausgedruckt und unterzeichnet und für den Fall eine Betriebsprüfung in einem eigenen Ordner abgelegt werden werden.
+> **Zählprotokolle sollten ausgedruckt und unterzeichnet und für den Fall eine Betriebsprüfung in einem eigenen Ordner abgelegt werden werden.**
 
 ## Überwachung des Kassensaldos
 
@@ -131,7 +131,7 @@ Das **Kassenbuch** überwacht selbständig den laufenden Endsaldo und lässt ein
 
 {{< /figure >}}
 
-Wenn durch eine Ausgabe ein **negativer Saldo** entsehen sollte, wird die **Zeile farbig** markiert und der **Endsaldo** mit **"0,00"** ausgewiesen (da diese Zelle keinen Wert < 0 zulässt).
+Wenn durch eine Ausgabe ein **negativer Saldo** entstehen sollte, wird die **Zeile farbig** markiert und der **Endsaldo** mit **"0,00"** ausgewiesen (da diese Zelle keinen Wert < 0 zulässt).
 
 In diesem Fall müssen Sie den **Eintrag durch "Abbrechen" löschen**. Sie können den Eintrag **nicht** speichern.
 
@@ -149,7 +149,7 @@ Die Eingabe eines **Buchungstextes** ist dabei **zwingend,** die Angabe von UST 
 
 Eine Splittbuchung wird nur angenommen, wenn die **Summe der gesplitteten Beträge dem Gesamtrechnungsbetrag** entspricht.
 
-Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu übernommen, muss nochmals gespeichert werden.
+Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu übernehmen, muss nochmals gespeichert werden.
 
 {{< figure caption="Nach Übernahme ins Kassenbuch muss hier erneut gespeichert werden" >}}
 
@@ -191,7 +191,7 @@ Indem Sie in das Feld "Format" klicken, können Sie die Buchhaltungsformate wäh
 
 Über das **Archiv**-Symbol wird das Kassenbuch **festgeschrieben**.
 
-{{< figure caption="Über das Archiv-Symbol können Sie die GEstscchreibung des Kassenbuchs veranlassen" >}}
+{{< figure caption="Über das Archiv-Symbol können Sie die Festschreibung des Kassenbuchs veranlassen" >}}
 
 ![](/uploads/kb9.png)
 
