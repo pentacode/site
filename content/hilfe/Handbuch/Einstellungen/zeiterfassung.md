@@ -23,16 +23,16 @@ anchors:
 ---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
 
-## Allgemeingültige Einstellungen 
+## Allgemeingültige Einstellungen
 
 Die Regeln, die Sie hier wählen, sind **globale Einstellungen**, welche vorläufig für **alle Mitarbeiter** und für **alle Abteilungen** gelten. Einmal gewählte Regeleinstellungen können **jederzeit geändert** werden. Mit dem Befehl "**Speichern**" gilt ab sofort der neu gewählte Regelsatz.
 
 > **Sie können jedoch sowohl für Abteilungen wie auch für einzelne Mitarbeiter abweichende Regeln definieren!**
 
-Die Zeiterfassung in Pentacode wird von Ihnen idealerweise "pyramidal" organisiert. Bei der Festlegung der Regeln für die Zeiterfassung empfehlen wir Ihnen 
+Die Zeiterfassung in Pentacode wird von Ihnen idealerweise "pyramidal" organisiert. Bei der Festlegung der Regeln für die Zeiterfassung empfehlen wir Ihnen
 
 * **zuerst** die **allgemeingültigen Regeln** festzulegen, die **für die Mehrzahl der Mitarbeiter** gelten
-* **dann** die **Abteilung** auszunehmen, für die eventuell abweichende Regeln gelten sollen oder
+* **dann** die **Abteilung** auszunehmen, für die eventuell abweichende Regeln gelten sollen und/oder
 * den **Mitarbeiter** auszunehmen, für den eventuell andere Regeln gelten sollen.
 
 ## Definition der Pausen
@@ -59,7 +59,7 @@ Lediglich die Raucher - oder Mitarbeiter, die aus anderen Gründen **zusätzlich
 
 Über " **+ Neue Pausenregel**" können Sie zusätzliche Pausen einrichten.
 
-Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Standard gesetzt, können von Ihnen jedoch geändert werden. Achten Sie dabei jedoch darauf, den gesetzlichen Mindestanspruch nicht zu unterschreiten.
+> Die "Automatischen Pausen" sind der gesetzlichen Regelung entsprechend als Standard gesetzt, können von Ihnen jedoch geändert werden. Achten Sie dabei jedoch darauf, den gesetzlichen Mindestanspruch nicht zu unterschreiten.
 
 {{< figure caption="So können Sie zusätzliche Pausen anlegen" >}}
 
@@ -81,7 +81,7 @@ Bsp.: Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die R
 
 ## Buchung von Mitarbeiteressen
 
-Über das Pfeilsymbol können Sie bestimmen, wieviele **Mahlzeiten** einem Mitarbeiter **automatisch hinzugebucht** werden.
+Über das Pfeilsymbol können Sie bestimmen, wie viele **Mahlzeiten** einem Mitarbeiter **automatisch hinzugebucht** werden.
 
 {{< figure caption="So wählen Sie die Anzahl automatisch gebuchter Mahlzeiten" >}}
 
@@ -111,13 +111,13 @@ Wenn sich ein Mitarbeiter **verspätet** anmeldet, gilt der **Zeitpunkt des Log-
 
 Über das Pfeilsymbol bei **"Anmeldung Erlauben"** bestimmen Sie, wie lange **vor** einem **geplanten Dienstbeginn** sich ein Mitarbeiter **anmelden** kann.
 
-{{< figure caption="Hier legen Sie den Zeitraum fest, der bei zu früher Anmeldung für die Berechnung der ARbeitszeit ignoriert werden soll" >}}
+{{< figure caption="Hier legen Sie den Zeitraum fest, der bei zu früher Anmeldung für die Berechnung der Arbeitszeit ignoriert werden soll" >}}
 
 ![](/uploads/anmelden-erlauben.png)
 
 {{< /figure >}}
 
-**WICHTIG**! Wenn sich ein Mitarbeiter vor der gesetzten Frist über die Stempeluhr anmeldet (im hier gezeigten Beispiel z.B. 15 Minuten vor geplantem Dienstantritt), hat er die Möglichkeit, eine "Spontane Schicht" anzutreten. Eine spontane Schicht wird dann bei der Übersicht der Zeiterfassung mit "**??**" gekennzeichnet und kann dort bearbeitet werden.
+> **WICHTIG**! Wenn sich ein Mitarbeiter vor der gesetzten Frist über die Stempeluhr anmeldet (im hier gezeigten Beispiel z.B. 15 Minuten vor geplantem Dienstantritt), hat er die Möglichkeit, eine "Spontane Schicht" anzutreten. Eine spontane Schicht wird dann bei der Übersicht der Zeiterfassung mit "**??**" gekennzeichnet und kann dort bearbeitet werden.
 
 ### Anmeldung Ohne Dienstplan
 
@@ -151,15 +151,13 @@ Bei **"Automatische Abmeldung"** bestimmen Sie über den Zeitraum **ab Anmeldung
 
 {{< /figure >}}
 
-Sollte ein Mitarbeiter vergessen sich auszuloggen, wird er nach Ablauf des gewählten Zeitraums **automatisch ausgeloggt**. Dadurch wird vermieden, dass die Arbeitszeit des Mitarbeiters 'unendlich' weiterläuft.
+Sollte ein Mitarbeiter vergessen sich auszuloggen, wird er nach Ablauf des gewählten Zeitraums **automatisch aus geloggt**. Dadurch wird vermieden, dass die Arbeitszeit des Mitarbeiters 'unendlich' weiterläuft.
 
-Die **automatische Abmeldung führt nicht zu Log-Zeiten**.
-
-Das **tatsächliche Ende** des Arbeitstages muss im Hauptmenü **"Zeiterfassung"** oder im Arbeitszeitkonto des Mitarbeiters manuell **nachgetragen** werden.
+> Die **automatische Abmeldung führt nicht zu Log-Zeiten**. Das **tatsächliche Ende** des Arbeitstages muss im Hauptmenü **"Zeiterfassung"** oder im Arbeitszeitkonto des Mitarbeiters manuell **nachgetragen** werden.
 
 ## Rundung von Stempelzeiten
 
-Über das Pfeilsymbol ( **6**) wählen Sie, ob die **Log-Daten** Ihrer Mitarbeiter für die An- und/oder Abmeldung **gerundet** werden sollen. Die **Rundungen** erfolgen dabei immer auf die gewählten **vollen Minuten**.
+Über das Pfeilsymbol wählen Sie, ob die **Log-Daten** Ihrer Mitarbeiter für die An- und/oder Abmeldung **gerundet** werden sollen. Die **Rundungen** erfolgen dabei immer auf die gewählten **vollen Minuten**.
 
 {{< figure caption="Hier können Sie die Rundung der Logzeiten festlegen." >}}
 
@@ -169,7 +167,7 @@ Das **tatsächliche Ende** des Arbeitstages muss im Hauptmenü **"Zeiterfassung"
 
 Beispiel für Anmeldung **"auf 5 Minuten Aufrunden"**: Ein Mitarbeiter meldet sich um **17:08** Uhr an, im System ist **17:10** Uhr registriert.
 
-Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein MItarbeiter meldet sich um **22:22** Uhr ab, im System ist **22:20** Uhr registriert.
+Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sich um **22:22** Uhr ab, im System ist **22:20** Uhr registriert.
 
 **Übrigens**: die Rundungen bei Anmeldung und Abmeldung auf nur volle 5 Minuten entsprechen bei einem durchschnittlichen 8-Stunden-Tag etwas mehr als 1% der Arbeitszeit in Ihrem Unternehmen.
 
@@ -177,7 +175,7 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein MItarbeiter meldet sich
 
 Wenn Sie für eine **Abteilung** eine oder mehrere Regeln aufstellen wollen, die von den allgemeingültigen Regeln abweichen, öffnen Sie die entsprechende Abteilung durch Anklicken.
 
-Wählen Sie dann den Button "**Abweichende Zeiterfassungregeln**" und legen dann fest, welche Regeln für diese Abteilung gelten sollen.
+Wählen Sie dann den Button "**Abweichende Zeiterfassungsregeln**" und legen dann fest, welche Regeln für diese Abteilung gelten sollen.
 
 {{< figure caption="Durch Wählen des Button bei Abweichende Zeiterfassungsregeln bestimmen Sie Regeln, die ausschließlich für die gewählte Abteilung gelten" >}}
 
@@ -187,7 +185,7 @@ Wählen Sie dann den Button "**Abweichende Zeiterfassungregeln**" und legen dann
 
 Im gezeigten Beispiel werden für Mitarbeiter, die in der Küchen arbeiten - und zwar ausschließlich bei diesen Mitarbeitern - die gesetzlichen Pausen bezahlt.
 
-Analog können Sie mit **einzelnen Mitarbeitern** verfahren. 
+**Analog können Sie mit einzelnen Mitarbeitern verfahren.**
 
 {{< figure caption="Sie können abweichende Zeiterfassungsregeln auch für einzelne Mitarbeiter festlegen" >}}
 
@@ -201,7 +199,7 @@ Im hier gezeigten Beispiel wird dieser Mitarbeiter - und nur dieser Mitarbeiter 
 
 Wenn Sie die Arbeitszeiten Ihrer Mitarbeiter nicht mit Stempeluhr, sondern **manuell** erfassen wollen, so sind die Möglichkeiten für Regeleinstellungen entsprechend verkürzt.
 
-Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
+> Wählen Sie in diesem Fall ausschließlich "**Automatisch**" als Pausenmodus.
 
 {{< figure caption="Wenn Sie **ohne Stempeluhr** arbeiten, wählen Sie für **Pausenmodus immer 'Automatisch'**" >}}
 
@@ -213,6 +211,6 @@ Die **Länge der Pausen** wird entsprechend der Festlegungen, die Sie getroffen 
 
 Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die **Arbeitszeiten** manuell **im Dienstplan** ein.
 
-Im Menüpunkt "**Zeiterfassung**" sind die **geplanten** Arbeitszeiten sichtbar und **immer identisch** mit den Zeiten im **Dienstplan**. (Sehen Sie ergänzend hierzu den Hilfeartikel "Zeiterfassung - Tagesbericht" im Hauptmenü "Zeiterfassung"
+Im Menüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#zeiterfassung-ohne-stempeluhr)" sind die **geplanten** Arbeitszeiten sichtbar und **immer identisch** mit den Zeiten im **Dienstplan**.
 
 Sie können weiterhin wählen, ob Pausenzeiten bezahlt werden und ob Mitarbeiteressen automatisch gebucht werden soll.
