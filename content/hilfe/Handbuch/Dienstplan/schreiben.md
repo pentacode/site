@@ -13,7 +13,7 @@ anchors:
   title: Geplante Schichten duplizieren
 - hash: problemmeldungen
   title: Problemmeldungen
-- hash: verwendung-von-Schichtvorlagen
+- hash: verwendung-von-schichtvorlagen
   title: Verwendung von Schichtvorlagen
 - hash: dienstplanvorlagen
   title: Dienstplanvorlagen
