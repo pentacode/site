@@ -103,7 +103,9 @@ Gehen Sie zuerst auf "**Mitarbeiter**", filtern Sie dort über das {{< icon "fil
 
 {{< /figure >}}
 
-Wenn Sie den Mitarbeiter durch Anklicken wählen, finden Sie alle Angaben der Vergangenheit vor. Sie müssen nur die Angaben ändern, die sich in der Zwischenzeit verändert haben.
+Wenn Sie den Mitarbeiter durch Anklicken wählen, finden Sie alle Angaben der Vergangenheit vor.
+
+Gehen Sie nun durch die einzelnen Menüpunkte und passen Sie diese eventuell an. Sie müssen dabei nur die Angaben ändern, die sich in der Zwischenzeit verändert haben.
 
 > **Wichtig**: Sie werden in jedem Fall die Personalnummer ändern müssen, da diese neu vergeben werden wird.
 
@@ -113,11 +115,9 @@ Wenn Sie den Mitarbeiter durch Anklicken wählen, finden Sie alle Angaben der Ve
 
 {{< /figure >}}
 
-Gehen Sie nun durch die einzelnen Menüpunkte und passen Sie diese eventuell an.
-
 Wenn Sie schließlich auf Vertrag klicken, öffnet der Vertrag, der zuletzt Gültigkeit hatte.
 
-Gehen Sie einfach auf "Neuer Vertrag" und legen Sie diesen an.
+Gehen Sie nun auf "Neuer Vertrag" und legen Sie diesen an. Für detaillierte Hinweise klicken Sie bitte [hier](/hilfe/handbuch/mitarbeiter-einzeln/vertraege/#neuer-vertrag).
 
 {{< figure caption="Legen Sie einen neuen Vertrag an" >}}
 
