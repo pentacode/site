@@ -5,7 +5,7 @@ icon: clock
 anchors:
 - hash: zeiterfassung-mit-stempeluhr
   title: Zeiterfassung MIT Stempeluhr
-- hash: pausen-&-mahlzeiten
+- hash: pausen-und-mahlzeiten
   title: Pausen & Mahlzeiten
 - hash: provision
   title: Provision
@@ -47,7 +47,7 @@ Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, d
 
 {{< /figure >}}
 
-### Pausen & Mahlzeiten
+### Pausen und Mahlzeiten
 
 Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten**. Sehen Sie hierzu evtl. den Hilfeartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen)".
 
