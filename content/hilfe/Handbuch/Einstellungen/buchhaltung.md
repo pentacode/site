@@ -15,7 +15,7 @@ anchors:
 
 Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
 
-Um den Export durchführen zu können, ist es leider notwendig, diesen einmalig vorzubereiten. Um die Richtigkeit der Angaben zu gewährleisten, lassen Sie bei der Eingabe am besten Ihre Buchaltung mitwirken. Haben Sie die Einrichtung vorgenommen, führen Sie zur Überprüfung idealerweise einen Probe-Export durch.
+Um den Export durchführen zu können, ist es leider notwendig, diesen einmalig vorzubereiten. Um die Richtigkeit der Angaben zu gewährleisten, lassen Sie bei der Eingabe am besten Ihre Buchhaltung mitwirken. Haben Sie die Einrichtung vorgenommen, führen Sie zur Überprüfung idealerweise einen Probe-Export durch.
 
 Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum spannendsten, was der Arbeitsalltag zu bieten hat. Der einmalige Aufwand wird sich durch die Zeitersparnis in Zukunft jedoch in jedem einzelnen Monat zig-fach ausbezahlen.
 
@@ -53,7 +53,7 @@ Klicken Sie auf "**+ Neuer Lohnartensatz**". Es öffnet ein leeres Eingabeformul
 
 {{< /figure >}}
 
-Schicken Sie den **Screenshot an die Buchhaltung** mit der Aufforderung, die für Sie benutzten Nummern in die entsprechenden Eingabefelder einzugeben und Ihnen das ausgefüllte Formular wieder zurückzusenden.
+> Schicken Sie den **Screenshot an die Buchhaltung** mit der Aufforderung, die für Sie benutzten Nummern in die entsprechenden Eingabefelder einzugeben und Ihnen das ausgefüllte Formular wieder zurückzusenden.
 
 **Übertragen** Sie im zweiten Schritt die Nummern eins zu eins **in Pentacode** und speichern Sie. Geben Sie dem Lohnartensatz einen eindeutigen Namen, z.B. "Festangestellte" und wählen Sie die Beschäftigungsverhältnisse ab, die für diesen Lohnartensatz nicht zutreffen. Lassen Sie sich auch hierbei von Ihrer Lohnbuchhaltung anleiten.
 
