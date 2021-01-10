@@ -1,6 +1,6 @@
 ---
 title: Umsatzgruppen
-weight: 1
+weight: "1"
 icon: layer-group
 anchors:
 - hash: anlegen-von-umsatzgruppen
@@ -17,7 +17,7 @@ anchors:
 ---
 Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
 
-Darüber hinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "**Tagesabrechnung**".
+Darüber hinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "[**Tagesabrechnung**](/hilfe/handbuch/umsaetze/tagesabrechnung/)".
 
 ## Anlegen von Umsatzgruppen
 
@@ -29,7 +29,7 @@ Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungs
 
 {{< /figure >}}
 
-Die Umsatzgruppe wird durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das Kassenbuch geschrieben**.
+Die Umsatzgruppe wird durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das** [**Kassenbuch**](/hilfe/handbuch/umsaetze/kassenbuch/) **geschrieben**.
 
 Wenn Sie das **Kassenbuch nicht** in Pentacode führen wollen, wählen Sie den Button ab. Der **Umsatz** fließt dann nur in das **Berichtswesen** und Ihre **Planung** ein.
 
@@ -57,7 +57,7 @@ Wenn Sie dies für die Zukunft vereinheitlichen wollen, **ziehen** Sie nun die *
 
 Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und vereinheitlicht. Alle Texte, Steuersätze Kontonummern und Kostenstellen entsprechen nun den Angaben, die Sie für diese Gruppe definiert haben.
 
-**Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
+> **Ausnahme** hiervon sind Einträge im Kassenbuch, die von Ihnen **festgeschrieben** worden sind. Diese werden der Gruppe zwar hinzugefügt, die **festgeschriebene Buchung im Kassenbuch** bleibt jedoch unverändert.
 
 ## Reihenfolge der Umsatzgruppen
 
@@ -89,15 +89,13 @@ Und in der "**Tagesabrechnung**" können natürlich weiterhin **neue Umsatzarten
 
 {{< /figure >}}
 
-**Wichtig!**
-
-**Umsätze, die keiner Gruppe angehören, werden bei der Dienstplanung gegen Umsatz-Ziele nicht berücksichtigt!**
+> **Wichtig! Umsätze, die keiner Gruppe angehören, werden bei der Dienstplanung gegen Umsatz-Ziele nicht berücksichtigt!**
 
 ## Zahlungswege
 
 In derselben Weise, in der Sie Umsatzgruppen angelegt haben, können Sie die unbaren Zahlungsarten, aber auch sehr häufig wiederkehrende Barausgaben organisieren.
 
-{{< figure caption="Ihre Kartenzahlungen können Sie auf dieselbe Weise organisieren" >}}
+{{< figure caption="Wie die Umsätze können Sie auch Ihre Kartenzahlungen in Gruppen zusammenfassen" >}}
 
 ![](/uploads/umsatzgruppe7.png)
 
