@@ -1,6 +1,6 @@
 ---
 title: Unternehmen
-weight: 
+weight: 2
 icon: building
 anchors: []
 

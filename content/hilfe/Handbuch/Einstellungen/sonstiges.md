@@ -1,6 +1,6 @@
 ---
 title: Sonstiges
-weight: 
+weight: 5
 icon: ball-pile
 anchors:
 - hash: kontoführung-ab

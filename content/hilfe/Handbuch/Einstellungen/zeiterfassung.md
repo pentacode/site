@@ -1,6 +1,6 @@
 ---
 title: Zeiterfassung
-weight: 
+weight: 4
 icon: stopwatch
 anchors:
 - hash: 'allgemeingültige-einstellungen '

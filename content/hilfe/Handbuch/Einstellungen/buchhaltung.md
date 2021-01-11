@@ -1,6 +1,6 @@
 ---
 title: Buchhaltung
-weight: 
+weight: 6
 icon: abacus
 anchors:
 - hash: allgemein

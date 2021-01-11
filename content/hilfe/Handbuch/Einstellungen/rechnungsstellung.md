@@ -1,6 +1,6 @@
 ---
 title: Rechnungsstellung
-weight: 
+weight: 7
 icon: file-invoice-dollar
 anchors: []
 

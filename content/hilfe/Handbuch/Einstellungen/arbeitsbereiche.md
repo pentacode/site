@@ -1,6 +1,6 @@
 ---
 title: Arbeitsbereiche
-weight: 
+weight: 3
 icon: cubes
 anchors:
 - hash: neuer-standort
