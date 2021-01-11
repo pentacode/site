@@ -17,7 +17,7 @@ anchors:
   title: Suchfunktion
 - hash: kassenbuch-exportieren
   title: Kassenbuch exportieren
-- hash: festschreibung-des-Kassenbuchs
+- hash: festschreibung-des-kassenbuchs
   title: Festschreibung des Kassenbuchs
 
 ---
