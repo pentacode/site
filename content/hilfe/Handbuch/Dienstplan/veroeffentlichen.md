@@ -11,7 +11,7 @@ anchors:
   title: Versand an Mitarbeiter
 - hash: veröffentlichung-nach-bearbeitung
   title: Veröffentlichung nach Bearbeitung
-- hash: dienstplan-am-zeiterfassungs---tablet
+- hash: dienstplan-am-zeiterfassungs-tablet
   title: Dienstplan am Zeiterfassungs-Tablet
 
 ---
