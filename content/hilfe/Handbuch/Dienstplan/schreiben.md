@@ -1,6 +1,6 @@
 ---
 title: Dienstplan Schreiben
-weight: "1"
+weight: "2"
 icon: pencil-alt
 anchors:
 - hash: eingabe-geplanter-arbeitszeit
