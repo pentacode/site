@@ -3,8 +3,8 @@ title: Kassenbuch
 weight: 3
 icon: book-open
 anchors:
-- hash: erfassen-von-einnahmen-&-ausgaben
-  title: Erfassen von Einnahmen & Ausgaben
+- hash: erfassen-von-einnahmen-und-ausgaben
+  title: Erfassen von Einnahmen und Ausgaben
 - hash: gehaltsvorschuss
   title: Gehaltsvorschuss
 - hash: zählprotokoll
@@ -29,7 +29,7 @@ Wenn Sie z.B. am Montag eine Bankeinzahlung durchführen, so zahlen Sie das Barg
 
 Weitere Beispiele für Ausgaben, die in das Kassenbuch einzutragen sind, wären: Geldentnahmen aus dem Tresor für Einkäufe oder für Vorschüsse, die nicht aus der "Restaurantkasse" gezahlt werden, sondern die sich Mitarbeiter "im Büro" abholen u.ä.m.
 
-## Erfassen von Einnahmen & Ausgaben
+## Erfassen von Einnahmen und Ausgaben
 
 Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden darüber hinaus automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
 
@@ -53,7 +53,7 @@ Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, ist das **K
 
 ## Gehaltsvorschuss
 
-Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/#vorschussliste)zugeführt. 
+Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/#vorschussliste)zugeführt.
 
 Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Namen im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
 

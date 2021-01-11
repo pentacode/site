@@ -6,7 +6,7 @@ anchors:
 - hash: anlegen-von-umsatzgruppen
   title: Anlegen von Umsatzgruppen
 - hash: bestehende-einträge-in-gruppen-zusammenfassen
-  title: Bestehende Einträge zusammenfassen
+  title: Bestehende Einträge in Gruppen zusammenfassen
 - hash: reihenfolge-der-umsatzgruppen
   title: Reihenfolge der Umsatzgruppen
 - hash: neue-umsätze-anlegen
@@ -33,7 +33,7 @@ Die Umsatzgruppe wird durch "**Abschließen und Buchen**" in der Tagesabrechnung
 
 Wenn Sie das **Kassenbuch nicht** in Pentacode führen wollen, wählen Sie den Button ab. Der **Umsatz** fließt dann nur in das **Berichtswesen** und Ihre **Planung** ein.
 
-## Bestehende Einträge in Umsatzgruppen zusammenfassen
+## Bestehende Einträge in Gruppen zusammenfassen
 
 Sie haben bereits mit der Tagesabrechnung gearbeitet, bevor Sie Umsatzgruppen angelegt haben?
 
