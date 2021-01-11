@@ -1,6 +1,6 @@
 ---
 title: Kassenbuch
-weight: 
+weight: 3
 icon: book-open
 anchors:
 - hash: erfassen-von-einnahmen-&-ausgaben

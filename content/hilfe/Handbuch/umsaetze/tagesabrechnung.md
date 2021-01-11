@@ -1,6 +1,6 @@
 ---
 title: Tagesabrechnung
-weight: 1
+weight: 2
 icon: hand-holding-usd
 anchors:
 - hash: umsatzerfassung-mit-umsatzgruppen
