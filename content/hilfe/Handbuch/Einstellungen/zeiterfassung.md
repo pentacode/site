@@ -15,7 +15,7 @@ anchors:
   title: Abmeldung
 - hash: rundung-von-stempelzeiten
   title: Rundung von Stempelzeiten
-- hash: abweichende-Zeiterfassungs-regeln
+- hash: abweichende-zeiterfassungs-regeln
   title: Abweichende Zeiterfassungs-Regeln
 - hash: zeiterfassung-ohne-stempeluhr
   title: Zeiterfassung OHNE Stempeluhr
