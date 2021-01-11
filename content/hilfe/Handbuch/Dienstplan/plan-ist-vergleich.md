@@ -37,4 +37,4 @@ Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt
 
 **Hinweis**: Wenn an einem Tag Arbeiten zu leisten sind, die nicht mit dem aktuellen Tagesgeschäft in Zusammenhang stehen (z.B. vorbereitende Arbeiten in der Küche für eine Veranstaltung, die erst in zwei Tagen stattfindet, setzen Sie in [**Planung nach Stundenvorgaben**](/hilfe/handbuch/planung/stundenvorgaben/) idealerweise das Stundenkontingent für diesen Tag entsprechend nach oben.
 
-Im Menüpunkt "**Berichte**" erhalten Sie u.a. auch hierzu Informationen in Form einer monatlichen Zusammenfassung.
+Im Menüpunkt "[**Berichte**](/hilfe/handbuch/berichte/)" erhalten Sie u.a. auch hierzu Informationen in Form einer monatlichen Zusammenfassung.
