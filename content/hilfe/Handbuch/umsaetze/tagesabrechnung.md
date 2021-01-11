@@ -25,8 +25,8 @@ anchors:
   title: Abrechnung mit Zählprotokoll
 - hash: zwischenspeichern
   title: Zwischenspeichern
-- hash: abschließen-&-buchen
-  title: Abschließen & Buchen
+- hash: abschließen-und-buchen
+  title: Abschließen und Buchen
 
 ---
 Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Diese Erfassung erledigen Sie in der "Tagesabrechnung" von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.
@@ -205,7 +205,7 @@ Abhängig von Ihrer Zugangsberechtigung können Sie "Zwischenspeichern" oder "Ab
 
 Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein **"Zwischenspeichern"** kann **beliebig häufig** vorgenommen werden.
 
-## Abschließen & Buchen
+## Abschließen und Buchen
 
 Die Funktion **"Abschließen & Buchen"** ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
 
