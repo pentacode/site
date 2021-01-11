@@ -9,10 +9,10 @@ anchors:
   title: Pausen & Mahlzeiten
 - hash: provision
   title: Provision
-- hash: änderung-von-geloggten-zeiten
-  title: Änderung von geloggten Zeiten
 - hash: status
   title: Status
+- hash: änderung-von-geloggten-zeiten
+  title: Änderung von geloggten Zeiten
 - hash: zeiterfassung-ohne-stempeluhr
   title: Zeiterfassung OHNE Stempeluhr
 - hash: änderung-von-arbeitszeiten
