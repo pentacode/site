@@ -3,10 +3,10 @@ title: Zeiterfassung
 weight: 6
 icon: stopwatch
 anchors:
-- hash: pin-vergabe
-  title: PIN-Vergabe
 - hash: individuelle-zeiterfassungsregeln
   title: Individuelle Zeiterfassungsregeln
+- hash: pin-vergabe
+  title: PIN-Vergabe
 
 ---
 Im Haupt-Menüpunkt "**Einstellungen**" und dort unter "**Zeiterfassung**" haben Sie die Regeln festgelegt, dir vorerst für alle Abteilungen und alle Mitarbeiter gelten.
