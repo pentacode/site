@@ -169,7 +169,7 @@ Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu
 
 ## Kassenbuch exportieren
 
-Über das **Export**-Symbol wählen Sie mit **"Format"**, ob Sie das Kassenbuch **ausdrucken** wollen **oder** das Format, mit dem das Kassenbuch an Ihre Buchhaltung **exportiert** wird.
+Über das {{< icon "file-export" >}}-Symbol wählen Sie mit **"Format"**, ob Sie das Kassenbuch **ausdrucken** wollen **oder** das Format, mit dem das Kassenbuch an Ihre Buchhaltung **exportiert** wird.
 
 Dabei können Sie den **Zeitraum wählen**. Die Standardvorgabe umfasst immer den gesamten Kalendermonat.
 
@@ -189,7 +189,7 @@ Indem Sie in das Feld "Format" klicken, können Sie die Buchhaltungsformate wäh
 
 ## Festschreibung des Kassenbuchs
 
-Über das **Archiv**-Symbol wird das Kassenbuch **festgeschrieben**.
+Über das {{< icon "archive" >}}-Symbol wird das Kassenbuch **festgeschrieben**.
 
 {{< figure caption="Über das Archiv-Symbol können Sie die Festschreibung des Kassenbuchs veranlassen" >}}
 
