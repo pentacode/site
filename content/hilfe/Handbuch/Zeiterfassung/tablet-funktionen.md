@@ -3,28 +3,31 @@ title: Funktionen der Stempeluhr
 weight: 2
 icon: tablet-alt
 anchors:
-    - hash: anzeige-am-tablet
-      title: Anzeige am Tablet
-    - hash: abteilungen-auswählen
-      title: Abteilungen auswählen
-    - hash: log-in-durch-mitarbeiter
-      title: Log-in durch Mitarbeiter
-    - hash: pausen-stempeln
-      title: Pausen stempeln
-    - hash: online-offline-status
-      title: Online-/Offline-Status
-    - hash: log-out
-      title: Log-out
-    - hash: spontane-schicht
-      title: Spontane Schicht
-    - hash: verwendung-mehrerer-tablets
-      title: Verwendung mehrerer Tablets
-    - hash: anzeige-des-dienstplans
-      title: Anzeige des Dienstplans
-    - hash: stempeluhr-aktiv-synchronisieren
-      title: Stempeluhr aktiv synchronisieren
----
+- hash: anzeige-am-tablet
+  title: Anzeige am Tablet
+- hash: abteilungen-auswählen
+  title: Abteilungen auswählen
+- hash: log-in-durch-mitarbeiter
+  title: Log-in durch Mitarbeiter
+- hash: pausen-stempeln
+  title: Pausen stempeln
+- hash: online-offline-status
+  title: Online-/Offline-Status
+- hash: log-out
+  title: Log-out
+- hash: spontane-schicht
+  title: Spontane Schicht
+- hash: verwendung-mehrerer-tablets
+  title: Verwendung mehrerer Tablets
+- hash: anzeige-des-dienstplans
+  title: Anzeige des Dienstplans
+- hash: stempeluhr-aktiv-synchronisieren
+  title: Stempeluhr aktiv synchronisieren
+keywords:
+- Stempeluhr
+- Zeiterfassung
 
+---
 ## Anzeige am Tablet
 
 In der Rubrik "**Geplant**" sehen Sie die Mitarbeiter, die zum Dienst erwartet werden oder in Rot gekennzeichnet eventuelle Verspätungen, unter "**Aktiv**" werden bereits eingeloggte Mitarbeiter gezeigt.
