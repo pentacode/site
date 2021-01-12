@@ -3,12 +3,12 @@ title: Einrichten der Stempeluhr
 weight: 1
 icon: stopwatch
 anchors:
-- hash: einrichten-eines-android-tablets
-  title: Android Tablet
-- hash: einrichten-eines-ios-tablets
-  title: iOS-Tablet
-
+    - hash: einrichten-eines-android-tablets
+      title: Android Tablet
+    - hash: einrichten-eines-ios-tablets
+      title: iOS-Tablet
 ---
+
 Die Zeiterfassung mithilfe einer "**Stempeluhr**" erfolgt über **Tablet**. Dabei werden die Betriebssysteme **Android**, **iOS** und **Windows** unterstützt.
 
 ## Einrichten eines Android-Tablets

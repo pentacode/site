@@ -3,28 +3,28 @@ title: Funktionen der Stempeluhr
 weight: 2
 icon: tablet-alt
 anchors:
-- hash: anzeige-am--tablet
-  title: Anzeige am Tablet
-- hash: abteilungen-auswählen
-  title: Abteilungen auswählen
-- hash: log-in-durch-mitarbeiter
-  title: Log-in durch Mitarbeiter
-- hash: pausen-stempeln
-  title: Pausen stempeln
-- hash: online-offline-status
-  title: Online-/Offline-Status
-- hash: log-out
-  title: Log-out
-- hash: spontane-schicht
-  title: Spontane Schicht
-- hash: verwendung-mehrerer-tablets
-  title: Verwendung mehrerer Tablets
-- hash: anzeige-des-dienstplans
-  title: Anzeige des Dienstplans
-- hash: stempeluhr-aktiv-synchronisieren
-  title: Stempeluhr aktiv synchronisieren
-
+    - hash: anzeige-am-tablet
+      title: Anzeige am Tablet
+    - hash: abteilungen-auswählen
+      title: Abteilungen auswählen
+    - hash: log-in-durch-mitarbeiter
+      title: Log-in durch Mitarbeiter
+    - hash: pausen-stempeln
+      title: Pausen stempeln
+    - hash: online-offline-status
+      title: Online-/Offline-Status
+    - hash: log-out
+      title: Log-out
+    - hash: spontane-schicht
+      title: Spontane Schicht
+    - hash: verwendung-mehrerer-tablets
+      title: Verwendung mehrerer Tablets
+    - hash: anzeige-des-dienstplans
+      title: Anzeige des Dienstplans
+    - hash: stempeluhr-aktiv-synchronisieren
+      title: Stempeluhr aktiv synchronisieren
 ---
+
 ## Anzeige am Tablet
 
 In der Rubrik "**Geplant**" sehen Sie die Mitarbeiter, die zum Dienst erwartet werden oder in Rot gekennzeichnet eventuelle Verspätungen, unter "**Aktiv**" werden bereits eingeloggte Mitarbeiter gezeigt.
@@ -91,7 +91,7 @@ Um seinen **Arbeitstag zu beenden**, wählt der Mitarbeiter nach Eingabe seines 
 
 ## Spontane Schicht
 
-In den **_Einstellungen_** der Zeiterfassung haben Sie festgelegt, ob Mitarbeiter einloggen dürfen, wenn sie **im Dienstplan nicht**  zur Arbeit eingeteilt sind. Des weiteren haben Sie bestimmt, innerhalb welchen Zeitraums **vor einem geplanten Dienstbeginn** die Anmeldung möglich ist.
+In den **_Einstellungen_** der Zeiterfassung haben Sie festgelegt, ob Mitarbeiter einloggen dürfen, wenn sie **im Dienstplan nicht** zur Arbeit eingeteilt sind. Des weiteren haben Sie bestimmt, innerhalb welchen Zeitraums **vor einem geplanten Dienstbeginn** die Anmeldung möglich ist.
 
 Meldet sich ein Mitarbeiter **außerhalb** dieses Zeitraums oder **ohne** geplante Arbeitszeit an, kann er eine **spontane Schicht** antreten.
 
