@@ -8,7 +8,7 @@
 
                 {{ $currPage := . }} {{ range .Site.Sections }}
                 {{ if not (eq .Title "Alt") }}
-                <li class="section-item {{ if eq . $currPage }}active{{ end }}">
+                <li class="section-item {{ if eq .Section $currPage.Section }}active{{ end }}">
                     <a href="{{ .RelPermalink }}">
                         {{ .Title }}
                     </a>

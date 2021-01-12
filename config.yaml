@@ -8,3 +8,7 @@ pluralizelisttitles: false
 params:
     get_started_url: "/#angebot"
     contact_url: "mailto://contact@pentacode.app"
+outputs:
+    section:
+        - html
+        - json
