@@ -14,6 +14,10 @@ fields:
 - type: file
   name: cover
   label: Titelbild
+- name: keywords
+  type: tag_list
+  default: []
+  label: Schlagwörter
 pages:
 - content/blog/corona-krise-infos.md
 - content/blog/covid-ratgeber-gastronomen.md
