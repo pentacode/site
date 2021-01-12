@@ -219,9 +219,12 @@ figure.float.left {
 
 blockquote {
     margin: 1em;
-    padding-left: 1em;
-    border-left: solid 2px rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    border-left: solid 3px var(--blue);
+    background: var(--blue-bg);
     text-align: left;
+    border-radius: 0.5em;
+    color: var(--blue);
 }
 
 .cover-icon {
