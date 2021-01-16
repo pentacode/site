@@ -15,6 +15,8 @@ anchors:
   title: Mitarbeiter filtern
 - hash: information-zum-mitarbeiter
   title: Information zum Mitarbeiter
+keywords:
+- dienstplan
 
 ---
 ## Überblick
