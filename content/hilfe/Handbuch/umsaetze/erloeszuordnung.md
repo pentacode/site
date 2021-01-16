@@ -3,6 +3,9 @@ title: Erlöszuordnung
 weight: 4
 icon: thumbtack
 anchors: []
+keywords:
+- erlöszuordnung
+- umsatzgruppen
 
 ---
 In Pentacode können Sie Ihren **Dienstplan** nach **Zielen** führen, die von Ihnen gesetzt werden. **Voraussetzung** hierfür ist, dass Sie im Vorfeld "[**Umsatzgruppen**](/hilfe/handbuch/umsaetze/umsatzgruppen/#anlegen-von-umsatzgruppen)" erstellt haben.
