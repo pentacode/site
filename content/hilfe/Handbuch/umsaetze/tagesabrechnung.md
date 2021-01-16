@@ -52,6 +52,8 @@ keywords:
 - zwischenspeichern
 - abschließen und buchen
 - buchen
+- vorschüsse
+- gehaltsvorschüsse
 
 ---
 Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Diese Erfassung erledigen Sie in der "Tagesabrechnung" von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.
