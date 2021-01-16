@@ -13,6 +13,15 @@ anchors:
   title: Vertragshistorie
 - hash: ausgeschiedene-mitarbeiter-erneut-einstellen
   title: Ausgesch. MA erneut einstellen
+keywords:
+- vertrag
+- vertrag bearbeiten
+- neuer vertrag
+- vertragsunterbrechung
+- vertragshistorie
+- alte verträge
+- ausgeschiedene mitarbeiter
+- sollarbeitszeit
 
 ---
 Um bei einem Mitarbeiter einen bestehenden Vertrag zu **ändern**, **auszusetzen** oder einen **neuen Vertrag** anzulegen, wählen Sie den entsprechenden **Mitarbeiter** und gehen dort auf **Vertrag**.
