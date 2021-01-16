@@ -19,6 +19,24 @@ anchors:
   title: Kassenbuch exportieren
 - hash: festschreibung-des-kassenbuchs
   title: Festschreibung des Kassenbuchs
+keywords:
+- kassenbuch
+- einnahmen
+- ausgaben
+- vorschuss
+- gehaltsvorschuss
+- zählprotokoll
+- stückelung
+- differenz
+- kassendifferenz
+- kassenzählung
+- kassensaldo
+- splittbuchung
+- buchungstext
+- suchfunktion
+- exportieren
+- export
+- festschreibung
 
 ---
 Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der Tagesabrechnung.
