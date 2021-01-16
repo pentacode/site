@@ -30,6 +30,9 @@ keywords:
 - zeiteingaben
 - änderung von arbeitszeiten
 - abteilungen filtern
+- stempeluhr
+- tablet
+- zeiterfassung
 
 ---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
