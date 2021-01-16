@@ -3,6 +3,10 @@ title: Rechnungsstellung
 weight: 7
 icon: file-invoice-dollar
 anchors: []
+keywords:
+- rechnungsanschrift
+- zahlungsmittel
+- zahlungsverlauf
 
 ---
 Im Menüpunkt "Rechnungstellung" sind Ihre Rechnungsanschrift und das hinterlegte Zahlungsmittel erfasst und unsere Rechnungen an Sie hinterlegt.
