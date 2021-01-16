@@ -11,6 +11,17 @@ anchors:
   title: SFN-Zuschläge
 - hash: drucken
   title: Drucken
+keywords:
+- konten
+- stunden
+- sollzeiten
+- überstunden
+- minderstunden
+- arbeitszeiten
+- urlaub
+- urlaubskonto
+- urlaubsanspruch
+- sfn-zuschläge
 
 ---
 Im Menüpunkt "**Konten**" finden Sie das **Jahresarbeitszeit**- **Urlaubs**- und **Zuschlagskonto** des gewählten Mitarbeiters. Diese Konten werden in ihrer Entwicklung während des jeweiligen Monats dargestellt, der zum Monatsende jeweils aufgelaufene Saldo findet sich in der Spalte "**Saldo**". Der aktuelle **Gesamtsaldo** wird in der **Kopfzeile** des jeweiligen Kontos ausgewiesen.
@@ -25,7 +36,7 @@ In diesem Konto werden die [**Soll-Zeiten**](/hilfe/handbuch/mitarbeiter-einzeln
 
 ![](/uploads/konto-az.png)
 
-{{< /figure >}}
+{{< /figure >}}arbeist
 
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die jeweils **aufgelaufenen und geloggten** Arbeitszeiten ausweist. Lediglich **geplante** Arbeitszeiten werden in dieser Übersicht **nicht** berücksichtigt.
 
@@ -47,7 +58,7 @@ Da einem Mitarbeiter ab dem 1. 07. eines Jahres auch im Falle einer Kündigung v
 
 ## SFN-Zuschläge
 
-Konto **"**[**SFN-Zuschläge**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#zuschläge)**"** weist die Summe der monatlichen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit des Mitarbeiters aus.
+Das Konto **"**[**SFN-Zuschläge**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#zuschläge)**"** weist die Summe der monatlichen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit des Mitarbeiters aus.
 
 In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "**(B.pfl.)**" jene Zuschläge, die durch Krank oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
 
