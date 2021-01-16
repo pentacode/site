@@ -9,6 +9,12 @@ anchors:
   title: Einschränken einer Berechtigung
 - hash: berechtigung-entziehen
   title: Berechtigung entziehen
+keywords:
+- Berechtigung
+- Administrationszugang
+- passwort
+- berechtigung löschen
+- berechtigung entziehen
 
 ---
 Unter  **"Berechtigungen"** können Sie einem Mitarbeiter Zugang zu von Ihnen **ausgewählten Bereichen** in Pentacode geben.
