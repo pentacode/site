@@ -3,6 +3,10 @@ title: Benutzerkonto
 weight: 1
 icon: unlock-alt
 anchors: []
+keywords:
+- passwort ändern
+- passwort vergessen
+- passwort
 
 ---
 Sofern ein Administrator Zugang zum "Benutzerkonto" hat, kann er in diesem Menüpunkt seine Email-Adresse wie auch sein Passwort ändern.
