@@ -6,6 +6,7 @@ anchors: []
 keywords:
 - planung
 - personalkosten
+- dienstplan
 
 ---
 Oft verliert eine Planung ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
