@@ -17,6 +17,14 @@ anchors:
   title: Abteilung archivieren
 - hash: reihenfolge-der-abteilungen-ändern
   title: Reihenfolge der Abteilungen ändern
+keywords:
+- arbeitsbereiche
+- Abteilung
+- standoert
+- standort bearbeiten
+- standort archivieren
+- neue Abteilung
+- abteilung archivieren
 
 ---
 Mit "**Arbeitsbereiche**" umschreiben wir, was in vielen Unternehmen auch als **Abteilungen** bezeichnet wird.
