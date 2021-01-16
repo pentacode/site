@@ -9,6 +9,11 @@ anchors:
   title: Änderung von Stammdaten
 - hash: mitarbeiter-löschen
   title: Mitarbeiter löschen
+keywords:
+- stammdaten
+- änderung
+- mitarbeiter löschen
+- mitarbeiter
 
 ---
 In den Stammdaten werden die persönlichen Angaben zum Mitarbeiter erfasst.
