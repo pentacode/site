@@ -9,6 +9,19 @@ anchors:
   title: Kontoausdruck
 - hash: nachträgliche-ergänzungen
   title: Nachträgliche Ergänzungen
+keywords:
+- arbeitszeiten
+- arbeitszeitkonto
+- korrektur
+- korrigieren
+- ergänzen
+- ergänzung
+- arbeitszeit hinzufügen
+- fehltag fehltag hinzufügen
+- zeitbuchung
+- urlaubsbuchung
+- arbeitszeiten nachweis
+- lohnabrechnung
 
 ---
 Mit **"Arbeitszeiten"** ist das **monatliche Arbeitszeitkonto** des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten **Arbeitszeiteinträge** gelistet, die durch die **Zeiterfassung** durch den Mitarbeiter entstanden sind.
