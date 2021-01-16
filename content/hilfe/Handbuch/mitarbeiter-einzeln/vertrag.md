@@ -23,6 +23,37 @@ anchors:
   title: Zuschläge
 - hash: vertrag-beenden
   title: Vertrag beenden
+keywords:
+- vertrag
+- vertragslaufzeit
+- vertragsende
+- inaktiv
+- beschäftigungsverhätlnis
+- arbeitszeit
+- sollarbeitszeit
+- wochenfaktor
+- monatsgenau
+- monatsgenau ohne feiertage
+- feste wochentage
+- feste wochentage abzgl. feiertage
+- jahresarbeitszeitkonto
+- fehlstundenberechnung
+- feste stundenanzahl
+- 13-wochen durchschnitt
+- lohn
+- gehalt
+- provision
+- lohnartensatz
+- export
+- zusatzleistungen
+- urlaub
+- fehltage
+- zuschläge
+- kumulieren
+- zuschläge kumulieren
+- sfn-pauschale
+- vertragsende
+- vertrag beenden
 
 ---
 Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
