@@ -26,6 +26,13 @@ anchors:
 keywords:
 - Stempeluhr
 - Zeiterfassung
+- log-in
+- pausen stempeln
+- log-out
+- spontane schicht
+- tablet
+- online
+- offline
 
 ---
 ## Anzeige am Tablet
