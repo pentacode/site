@@ -11,6 +11,18 @@ anchors:
   title: Berechnung Gesetzliche Pause
 - hash: nachtzuschläge
   title: Nachtzuschläge
+keywords:
+- kontoführung
+- sollstundenberechnung
+- wochenfaktor
+- monatsgenau
+- monatsgenau
+- feste wochentage
+- berechnung gesetzliche pause
+- gesetzliche pause
+- standard
+- iterativ
+- nachtzuschläge
 
 ---
 Im Menüpunkt **"Einstellungen"** und dort unter **"Sonstiges"** bestimmen generelle Grundsätze, nach denen Pentacode operiert
