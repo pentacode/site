@@ -19,6 +19,22 @@ anchors:
   title: Abweichende Zeiterfassungs-Regeln
 - hash: zeiterfassung-ohne-stempeluhr
   title: Zeiterfassung OHNE Stempeluhr
+keywords:
+- zeiterfassung
+- einstellungen
+- Pausen
+- pausenmodus
+- neue pausenregel
+- zusätzliche pausen
+- pausen bezahlt
+- mitarbeiteressen
+- anmeldung
+- anmeldung erlauben
+- anmeldung ohne dienstplan
+- abmeldung
+- automatische abmeldung
+- rundung
+- ohne stempeluhr
 
 ---
 Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die "kritiklos" nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters "stempelt". Die **Regeln**, nach welchen die **Zeiterfassung mit Stempeluhr** in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.
