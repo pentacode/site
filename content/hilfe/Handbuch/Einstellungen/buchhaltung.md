@@ -9,6 +9,12 @@ anchors:
   title: Kassenbuch
 - hash: lohnarten
   title: Lohnarten
+keywords:
+- buchhaltung
+- kontonummer
+- kassenbuch
+- lohnarten
+- lohnartensatz
 
 ---
 "_Wer den Kern essen will, muss die Nuss knacken_". Leider.
