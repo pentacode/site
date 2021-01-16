@@ -21,6 +21,15 @@ anchors:
   title: Pausen
 - hash: abteilungen-filtern
   title: Abteilungen filtern
+keywords:
+- spontane schicht
+- " provision"
+- status
+- log-zeiten
+- log-in
+- zeiteingaben
+- änderung von arbeitszeiten
+- abteilungen filtern
 
 ---
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
