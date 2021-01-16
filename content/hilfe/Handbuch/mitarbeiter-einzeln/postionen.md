@@ -3,6 +3,11 @@ title: Positionen
 weight: 4
 icon: user-tag
 anchors: []
+keywords:
+- position
+- positionen
+- abteilung
+- arbeitsbereiche
 
 ---
 Unter dem Hauptmenü-Punkt "**Einstellungen**" und dort unter "**Arbeitsbereiche**" haben Sie für Ihr Unternehmen Abteilungen angelegt und diesen Abteilungen eventuell Positionen zugewiesen.
