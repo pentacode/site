@@ -27,6 +27,31 @@ anchors:
   title: Zwischenspeichern
 - hash: abschließen-und-buchen
   title: Abschließen und Buchen
+keywords:
+- Tagesabrechnung
+- umsatzerfassung
+- umsatzgruppen
+- umsatz
+- unbare zahlarten
+- ausgaben
+- buchungstext
+- steuerschlüssel
+- konto
+- kostenstelle
+- buchungstext
+- rechnung
+- debitoren
+- vorschuss
+- gehaltsvorschuss
+- bargeld
+- bargeld saldo
+- kassendifferenz
+- unbare trinkgelder
+- trinkgeld
+- zählprotokoll
+- zwischenspeichern
+- abschließen und buchen
+- buchen
 
 ---
 Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Diese Erfassung erledigen Sie in der "Tagesabrechnung" von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.
