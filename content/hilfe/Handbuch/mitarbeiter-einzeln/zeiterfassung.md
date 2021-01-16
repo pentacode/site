@@ -7,6 +7,13 @@ anchors:
   title: Individuelle Zeiterfassungsregeln
 - hash: pin-vergabe
   title: PIN-Vergabe
+keywords:
+- zeiterfassung
+- zeiterfassungsregeln
+- abweichende zeiterfassungsregeln
+- pin
+- pin-vergabe
+- individuelle zeiterfassungsregeln
 
 ---
 Im Haupt-Menüpunkt "**Einstellungen**" und dort unter "**Zeiterfassung**" haben Sie die Regeln festgelegt, dir vorerst für alle Abteilungen und alle Mitarbeiter gelten.
