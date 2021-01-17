@@ -3,6 +3,8 @@ title: Positionen
 weight: 
 icon: user-tag
 anchors: []
+keywords:
+- positionen
 
 ---
 In diesem Menüpunkt finden Sie eine Übersicht aller Mitarbeiter, sowie aller Standorte, deren Abteilungen und wiederum deren Positionen, die Sie angelegt haben.
