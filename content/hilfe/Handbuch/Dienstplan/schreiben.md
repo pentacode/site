@@ -1,6 +1,6 @@
 ---
 title: Dienstplan Schreiben
-weight: "2"
+weight: 2
 icon: pencil-alt
 anchors:
 - hash: eingabe-geplanter-arbeitszeit
@@ -23,6 +23,23 @@ anchors:
   title: Dienstplan löschen
 - hash: dienstplanung-mit-stundenvorgaben
   title: Dienstplanung mit Stundenvorgaben
+keywords:
+- dienstplan schreiben
+- teilschichten
+- schichten
+- schichten verschieben
+- schichten duplizieren
+- problemmeldung
+- schichtvorlagen
+- fehltage eintragen
+- urlaub
+- krank
+- guttag
+- favoriten
+- dienstplanvorlagen
+- eingaben löschen
+- dienstplan löschen
+- stundenvorgaben
 
 ---
 Bei der Dienstplanung stehen Ihnen **zwei Vorgehensweisen** zur Verfügung, wie Sie die Dienste Ihrer Mitarbeiter **planen** können: Sie können geplante Dienstzeiten **manuell** und/oder **Vorlagen** verwenden, die Sie mit der linken Maustaste per **"Drag&Drop"** in den gewünschten Tag beim Mitarbeiter ziehen.
