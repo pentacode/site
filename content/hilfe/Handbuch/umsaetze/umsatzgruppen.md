@@ -1,6 +1,6 @@
 ---
 title: Umsatzgruppen
-weight: "1"
+weight: 1
 icon: layer-group
 anchors:
 - hash: anlegen-von-umsatzgruppen
@@ -13,6 +13,12 @@ anchors:
   title: Neue Umsätze anlegen
 - hash: zahlungswege
   title: Zahlungswege
+keywords:
+- umsatzgruppen
+- anlegen
+- umsätze
+- zahlungswege
+- kassenbucheinträge
 
 ---
 Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
