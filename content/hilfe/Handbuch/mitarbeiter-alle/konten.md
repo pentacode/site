@@ -1,6 +1,6 @@
 ---
 title: Konten
-weight: "1"
+weight: 1
 icon: balance-scale-right
 anchors:
 - hash: monatsübersicht
@@ -21,6 +21,16 @@ anchors:
   title: Konten einrichten bei Inbetriebnahme
 - hash: konten-drucken
   title: Konten drucken
+keywords:
+- stunden
+- stundenkonto
+- urlaub
+- urlaubskonto
+- sfn-zuschläge
+- sfn
+- jahresansicht
+- zurücksetzen
+- einrichten
 
 ---
 Um Ihnen einen schnellen Überblick über die Konten aller Mitarbeiter zu ermöglichen, werden diese in einer Gesamtübersicht dargestellt.
