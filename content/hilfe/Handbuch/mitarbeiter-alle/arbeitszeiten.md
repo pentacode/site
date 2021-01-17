@@ -1,6 +1,6 @@
 ---
 title: Arbeitszeiten
-weight: "1"
+weight: 1
 icon: user-clock
 anchors:
 - hash: spaltenbezeichnung
@@ -13,6 +13,9 @@ anchors:
   title: Exportformate
 - hash: export-in-die-buchhaltung
   title: Export in die Buchhaltung
+keywords:
+- arbeitszeiten
+- export
 
 ---
 Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
