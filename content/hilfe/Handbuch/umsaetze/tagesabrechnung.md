@@ -116,7 +116,7 @@ Wenn Sie im Menüpunkt Umsatzgruppen auf "**+ Neue Umsatzgruppe**" klicken, öff
 
 {{< /figure >}}
 
-In der Standardeinstellung ist der Button bei "Kassenbuch" und "Berichte" gesetzt. Wenn Sie nur die Berichtsfunktion nutzen wollen, **wählen Sie den Button bei "Kassenbuch" ab**. Ihre Angaben laufen damit lediglich in das Berichtswesen ein.
+In der Standardeinstellung ist der Button bei "Kassenbuch" und "Berichte" gesetzt. Wenn Sie nur die Berichtsfunktion nutzen wollen, **wählen Sie den Button bei** "**Kassenbuch**" **ab**. Ihre Angaben laufen damit lediglich in das Berichtswesen ein.
 
 {{< figure caption="Durch Abwählen des Buttons 'Kassenbuch' werden Ihre Angaben nur für das Berichtswesen verwendet" >}}
 
