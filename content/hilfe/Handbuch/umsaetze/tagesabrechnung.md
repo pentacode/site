@@ -7,6 +7,8 @@ anchors:
   title: Umsatzerfassung MIT Umsatzgruppen
 - hash: umsatzerfassung-ohne-umsatzgruppen
   title: Umsatzerfassung OHNE Umsatzgruppen
+- hash: statistische.erfassung
+  title: Statistische Erfassung
 - hash: unbare-zahlungen
   title: Unbare Zahlungen
 - hash: auf-rechnung
