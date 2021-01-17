@@ -98,9 +98,31 @@ Als **Buchungstext** für das **Kassenbuch** erscheint standardmäßig **"Umsatz
 
 Steuerschlüssel, buchhalterisches Konto und Kostenstelle sind **keine Pflichtangaben**.
 
-> **Empfehlung:** Sollten Sie in Zukunft das Berichtswesen von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen zugeordnet und in den [Berichten ](/hilfe/handbuch/berichte/)z.B. nach Produktivität und weiteren Faktoren analysiert werden.
-
 Analog zum hier gezeigten Vorgehen können Sie auch mit "Unbaren Zahlungsarten", "Debitoren" und "Ausgaben" verfahren oder jeweils entsprechende Gruppen bilden.
+
+## Statistische Erfassung
+
+Selbst wenn Sie die Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir, die **Erlöse** in Ihrem Unternehmen zumindest zu **statistischen Zwecken** zu erfassen. Neben einer Darstellung Ihrer Umsätze nach deren Herkunft ermittelt Pentacode automatisch die Arbeits-Produktivität in Ihrem Unternehmen.
+
+Verwenden Sie für die Umsatzeingabe am besten [**Umsatzgruppen**](/hilfe/handbuch/umsaetze/umsatzgruppen/).
+
+Wenn Sie im Menüpunkt Umsatzgruppen auf "**+ Neue Umsatzgruppe**" klicken, öffnet ein  Eingabefeld, in dem Sie u.a. buchhalterische Angaben leisten können. Wenn Sie Ihre Umsatzarten nur aus statistischen Gründen erfassen, können Sie diese Eingaben ignorieren. **Sie sollten jedoch unbedingt den zutreffenden UST-Satz wählen**.
+
+{{< figure caption="Ignorieren Sie für die statistische Erfassung die buchhalterischen Angaben, wählen Sie jedoch den zutreffenden UST-Satz" >}}
+
+![](/uploads/umsatzgruppe8.png)
+
+{{< /figure >}}
+
+In der Standardeinstellung ist der Button bei "Kassenbuch" und "Berichte" gesetzt. Wenn Sie nur die Berichtsfunktion nutzen wollen, **wählen Sie den Button bei "Kassenbuch" ab**. Ihre Angaben laufen damit lediglich in das Berichtswesen ein.
+
+{{< figure caption="Durch Abwählen des Buttons 'Kassenbuch' werden Ihre Angaben nur für das Berichtswesen verwendet" >}}
+
+![](/uploads/umsatzgruppe9.png)
+
+{{< /figure >}}
+
+**Empfehlung:** Sollten Sie in Zukunft das Berichtswesen von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen [zugeordnet](/hilfe/handbuch/umsaetze/erloeszuordnung/) und in den [Berichten ](/hilfe/handbuch/berichte/)z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
 ## Unbare Zahlungen
 
