@@ -9,6 +9,8 @@ anchors:
   title: Berechtigungen hinzufügen/entfernen
 - hash: mitarbeiter-account-entfernen
   title: Mitarbeiter-Account entfernen
+keywords:
+- berechtigungen
 
 ---
 In dieser Übersicht werden **alle aktuell beschäftigten** Mitarbeiter gezeigt. In der Kopfzeile finden Sie alle Bereiche in Pentacode, zu denen Sie einem Mitarbeiter Zugang geben können.
