@@ -53,7 +53,7 @@ Im vorliegenden Beispiel wird der 5. Dezember mit dem 6. September verglichen. D
 
 bezeichnet **alle Umsatzarten**, die Sie in Pentacode erfasst haben. Für die Vollständigkeit und damit Richtigkeit dieser Anzeige ist es von Bedeutung, dass idealerweise alle Umsätze, also **auch kleinteilige Erlöse** Ihres Unternehmens erfasst sind.
 
-> Mindestens die Umsätze, die Sie in der Erlöszuordnung Abteilungen zugewiesen haben, sind hierfür bereits in [Umsatzgruppen](/hilfe/handbuch/umsaetze/umsatzgruppen/) angelegt. Wenn es für Sie bei der Eingabe einfacher sein sollte, kleinteilige Erlöse als Summe einzugeben und nicht als Einzelpositionen, so legen Sie hierfür am besten eine eigene Umsatzgruppe an und bezeichnen diese z.B. mit "Divers" oder "Sonstiges".
+Mindestens die Umsätze, die Sie in der Erlöszuordnung Abteilungen zugewiesen haben, sind hierfür bereits in [Umsatzgruppen](/hilfe/handbuch/umsaetze/umsatzgruppen/) angelegt. Wenn es für Sie bei der Eingabe einfacher sein sollte, kleinteilige Erlöse als Summe einzugeben und nicht als Einzelpositionen, so legen Sie hierfür am besten eine eigene Umsatzgruppe an und bezeichnen diese z.B. mit "Divers" oder "Sonstiges".
 
 ### Personalkosten 
 
