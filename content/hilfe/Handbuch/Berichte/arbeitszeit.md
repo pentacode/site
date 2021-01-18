@@ -2,9 +2,18 @@
 title: Arbeitszeit
 weight: 
 icon: chart-bar
-anchors: []
-keywords: []
-draft: true
+anchors:
+- hash: stundenangabe
+  title: Stundenangabe
+- hash: euro-anzeige
+  title: Euro-Anzeige
+- hash: einzelne-mitarbeiter
+  title: Einzelne Mitarbeiter
+- hash: zeitraum-wählen
+  title: Zeitraum wählen
+keywords:
+- stundenaufwand
+- personalkosten
 
 ---
 Im **Dienstplan** von Pentacode haben Sie die Möglichkeit, die **geplanten** Arbeitszeiten mit den tatsächlich **geleisteten** Arbeitszeiten **täglich** zu vergleichen. Unter "**Berichte**" werden die Arbeitszeiten **monatlich** zum Vergleich zusammengefasst.
@@ -13,7 +22,7 @@ in die Zusammenfassung fließen ausschließlich **abgeschlossene** Arbeitstage e
 
 ## Stundenangabe
 
-Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitszeiten in **Stundenangabe**. In einem Balkendiagramm werden die geplanten Arbeitszeiten in blau den tatsächlich geleisteten Arbeitszeiten gegenübergestellt. 
+Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitszeiten in **Stundenangabe**. In einem Balkendiagramm werden die geplanten Arbeitszeiten in blau den tatsächlich geleisteten Arbeitszeiten in orange gegenübergestellt. 
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
@@ -37,7 +46,7 @@ Neben dem Balkendiagramm sind in zwei Kolonnen geplante und geleistete Arbeitsze
 
 {{< /figure >}}
 
-Durch Anklicken einer Abteilung wird die Grafik neu berechnet und stellt die Arbeitszeiten der gewählten Abteilung zur Ansicht
+Durch Anklicken einer **Abteilung** wird die Grafik neu berechnet und stellt die Arbeitszeiten der gewählten Abteilung zur Ansicht
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
@@ -47,17 +56,33 @@ Durch Anklicken einer Abteilung wird die Grafik neu berechnet und stellt die Arb
 
 > Tipp: Vor allem, wenn in einer Abteilung größere Differenzen zwischen geplanter und geleisteter Arbeitszeit auftreten, kann die differenzierte, wenn auch nächgängige Betrachtung für die Zukunft hilfreich sein. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**_Plan-Ist-Vergleich_**](/hilfe/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen
 
+## Euro-Anzeige
+
+Indem Sie auf das **€-Symbol** in der Kopfzeile klicken, werden die Arbeitsstunden Mitarbeiter-genau in **Geldwert** umgerechnet. Wie in allen anderen Bereichen handelt es sich auch bei diesen Angaben um Gesamtlohn-Angaben, welche die Arbeitgeberanteile beinhalten.
+
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 ![](/uploads/arbeitszeit4.png)
 
 {{< /figure >}}
 
+Wie bei den Stundenangaben erhalten Sie durch Anklicken eine Darstellung einzelner Abteilungen.
+
+## Einzelne Mitarbeiter
+
+Nach demselben Prinzip können Sie **einzelne Mitarbeiter** auswählen. Wenn Sie eine größere Anzahl von Mitarbeitern beschäftigen, geben Sie hierzu einfach den Namen in das **Suchfeld** ein. Durch die Verschlagwortung reichen meist wenige Anfangsbuchstaben, um den gewünschten Mitarbeiter zu filtern.
+
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 ![](/uploads/arbeitszeit5.png)
 
 {{< /figure >}}
+
+## Zeitraum wählen
+
+Der in diesen Grafiken angezeigte Zeitraum ist immer das **Kalenderjahr**. Beim Öffnen dieses Berichts sehen Sie in der Standardeinstellung das **laufende Jahr**. 
+
+Zurückliegende Zeiträume können Sie sehen über das Dropdown-Symbol wählen. 
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
