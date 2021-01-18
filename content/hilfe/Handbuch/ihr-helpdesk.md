@@ -102,4 +102,4 @@ Wir melden uns normalerweise innerhalb des Tages bei Ihnen.
 
 Und natürlich steht Ihnen immer das gute alte {{< icon "phone-rotary" >}} zur Verfügung.
 
-Wir sprechen nämlich gerne mit Menschen. :-) 
+Wir sprechen nämlich gerne mit Menschen. :-)
