@@ -13,7 +13,6 @@ anchors:
   title: Einzelne Mitarbeiter
 keywords:
 - personalkosten
-draft: true
 
 ---
 Der Menüpunkt "**Personalkosten**" zeigt Ihnen grafisch Ihrer Aufwendungen für Lohn und Gehalt in **Summe** und in der **Zusammensetzung**. Die Lohnkosten beinhalten die **Arbeitgeberbeiträge** zur Sozialversicherung, nicht jedoch die Umlagen U1 und U2 und die Beiträge zur Berufsgenossenschaft.
