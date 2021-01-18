@@ -1,31 +1,29 @@
 ---
 keywords:
-- helpdesk
-- hilfeartikel
-- hilfe
-- suchen
-- support
+    - helpdesk
+    - hilfeartikel
+    - hilfe
+    - suchen
+    - support
 title: Ihr Helpdesk
 weight: 1
 icon: digging
 anchors:
-- hash: schlagwort-eingabe
-  title: Schlagwort-Eingabe
-- hash: kapitel
-  title: Kapitel
-- hash: weiterführende-links
-  title: Weiterführende Links
-- hash: support-kontaktieren
-  title: Support kontaktieren
-
+    - hash: schlagwort-eingabe
+      title: Schlagwort-Eingabe
+    - hash: kapitel
+      title: Kapitel
+    - hash: weiterführende-links
+      title: Weiterführende Links
+    - hash: support-kontaktieren
+      title: Support kontaktieren
 ---
+
 Wir erlauben uns, Ihnen kurz zu erklären, wie Ihr Helpdesk funktioniert und wie Sie am einfachsten und schnellsten die Antwort auf eine Frage finden.
 
 ## "**?** Hilfe"
 
 In jedem Menüpunkt von Pentacode sehen Sie am linken unteren Eck "**?** Hilfe".
-
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 {{< figure caption="'**?** Hilfe' bringt Sie zu unserem Helpdesk" >}}
 
@@ -85,7 +83,7 @@ An manchen Stellen im Text finden Sie Wörter, die in BLAU hervorgehoben sind (h
 
 {{< /figure >}}
 
-Indem Sie auf die gekennzeichnete Textstelle klicken, werden Sie zum vorangehenden Artikel geführt, bei diesem Beispiel zu den Erläuterungen der Zuschläge im Artikel zum  Arbeitsvertrag.
+Indem Sie auf die gekennzeichnete Textstelle klicken, werden Sie zum vorangehenden Artikel geführt, bei diesem Beispiel zu den Erläuterungen der Zuschläge im Artikel zum Arbeitsvertrag.
 
 {{< figure caption="Durch Links sind themenverwandte Artikel miteinander verknüpft" >}}
 
