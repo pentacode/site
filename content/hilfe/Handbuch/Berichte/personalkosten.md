@@ -25,4 +25,12 @@ Die "Tortengrafik" zeigt die während des Jahres fortlaufend auflaufende Jahresl
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
+![](/uploads/personalkosten3.png)
+
+{{< /figure >}}
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/personalkosten6.png)
+
 {{< /figure >}}
