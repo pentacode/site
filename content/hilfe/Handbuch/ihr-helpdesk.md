@@ -63,10 +63,18 @@ An manchen Stellen im Text finden Sie Wörter, die in BLAU hervorgehoben sind (h
 
 {{< /figure >}}
 
-Indem Sie auf die gekennzeichnete Textstelle klicken, werden Sie zum vorangehenden Artikel geführt, bei diesem Beispiel
+Indem Sie auf die gekennzeichnete Textstelle klicken, werden Sie zum vorangehenden Artikel geführt, bei diesem Beispiel zu den Erläuterungen der Zuschläge im Artikel zum  Arbeitsvertrag.
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 ![](/uploads/hilfe8.png)
+
+{{< /figure >}}
+
+Wenn Sie statt einen Hilfeartikel den Kontakt mit uns suchen, klicken Sie einfach auf "Support kontaktieren" und schreiben uns eine kurze Email.
+
+Wir melden uns normalerweise innerhalb des Tages bei Ihnen.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 {{< /figure >}}
