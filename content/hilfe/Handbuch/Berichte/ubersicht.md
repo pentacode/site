@@ -37,7 +37,7 @@ Die **gestrichelte Linie** zeigt den **historischen Zeitraum** an, die durchgehe
 
 Im vorliegenden Beispiel wurde als Zeitraum 13 Wochen gewählt. Dies entspricht **zwei Quartals-Zeiträumen**.
 
-Durch ein "Mouse over" über eine der Grafiken können Sie **einzelne Tage** einander **gegenüberstellen**.  **Tag und Datum** erscheinen dabei in der **Fußzeile** der Grafik. Der gewählte Vergleich erscheint dabei **parallel** auch auf allen weiteren Grafiken 
+Durch ein "Mouse over" über eine der Grafiken können Sie **einzelne Tage** einander **gegenüberstellen**.  **Tag und Datum** erscheinen dabei in der **Fußzeile** der Grafik. Der gewählte Vergleich erscheint dabei **parallel** auch auf allen weiteren Grafiken
 
 {{< figure caption="Durch einen 'Mouse over' können Sie einzelne Tage einander gegenüberstellen" >}}
 
@@ -49,20 +49,22 @@ Im vorliegenden Beispiel wird der 5. Dezember mit dem 6. September verglichen. D
 
 ## Begriffsbestimmungen
 
-### Einnahmen 
+### Einnahmen
 
 bezeichnet **alle Umsatzarten**, die Sie in Pentacode erfasst haben. Für die Vollständigkeit und damit Richtigkeit dieser Anzeige ist es von Bedeutung, dass idealerweise alle Umsätze, also **auch kleinteilige Erlöse** Ihres Unternehmens erfasst sind.
 
 Mindestens die Umsätze, die Sie in der Erlöszuordnung Abteilungen zugewiesen haben, sind hierfür bereits in [Umsatzgruppen](/hilfe/handbuch/umsaetze/umsatzgruppen/) angelegt. Wenn es für Sie bei der Eingabe einfacher sein sollte, kleinteilige Erlöse als Summe einzugeben und nicht als Einzelpositionen, so legen Sie hierfür am besten eine eigene Umsatzgruppe an und bezeichnen diese z.B. mit "Divers" oder "Sonstiges".
 
-### Personalkosten 
+Daneben macht die **Zusammenfassung** kleinteiliger Erlöse die Darstellung Ihrer Umsätze nach Herkunft **übersichtlicher** und aussagekräftiger.
+
+### Personalkosten
 
 geben die **Gesamtkosten** von Löhnen und Gehältern wieder und beinhalten die Arbeitgeberanteile zur Sozialversicherung. Nicht eingeschlossen sind die Umlagen U1 und U2, sowie Beiträge zur Berufsgenossenschaft.
 
-### Arbeitszeit 
+### Arbeitszeit
 
 umfasst **alle** in Pentacode **erfassten Arbeitszeiten**. Aus Gründen der Genauigkeit werden die Arbeitszeiten in Industrieminuten (also im Hundertstel) berechnet.
 
-### Produktivität 
+### Produktivität
 
-gehört für die Beurteilung der **Leistungsfähigkeit** eines Unternehmens wohl bedeutendste Kennzahl. Produktivität bezeichnet hier den **Umsatz**, der **pro Arbeitsstunde** erzielt wird. Diese Kennzahl ist weit bedeutender als die in den meisten Fällen verwendeten Personalkosten in % vom Umsatz. Produktivität ist eine Lohn-unabhängige Kennzahl und bezieht sich bei der hier gezeigten Betrachtung nicht auf Einzelleistungen, sondern deren wirtschaftliche Wirkung in Summe und in €. Sie zeigt als Ergebnis somit den Umfang des **Outputs** an, ohne dass die Art dieses Outputs genauer definiert werden müsste. 
+gehört für die Beurteilung der **Leistungsfähigkeit** eines Unternehmens wohl bedeutendste Kennzahl. Produktivität bezeichnet hier den **Umsatz**, der **pro Arbeitsstunde** erzielt wird. Diese Kennzahl ist weit bedeutender als die in den meisten Fällen verwendeten Personalkosten in % vom Umsatz. Produktivität ist eine Lohn-unabhängige Kennzahl und bezieht sich bei der hier gezeigten Betrachtung nicht auf Einzelleistungen, sondern deren wirtschaftliche Wirkung in Summe und in €. Sie zeigt als Ergebnis somit den Umfang des **Outputs** an, ohne dass die Art dieses Outputs genauer definiert werden müsste.
