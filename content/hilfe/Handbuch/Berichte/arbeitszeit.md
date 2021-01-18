@@ -45,7 +45,7 @@ Durch Anklicken einer Abteilung wird die Grafik neu berechnet und stellt die Arb
 
 {{< /figure >}}
 
-> Tipp: Vor allem, wenn in einer Abteilung größere Differenzen zwischen geplanter und geleisteter Arbeitszeit auftreten, kann die differenzierte, wenn auch nächgängige Betrachtung für die Zukunft hilfreich sein. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**Plan-Ist-Vergleich**](/hilfe/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen
+> Tipp: Vor allem, wenn in einer Abteilung größere Differenzen zwischen geplanter und geleisteter Arbeitszeit auftreten, kann die differenzierte, wenn auch nächgängige Betrachtung für die Zukunft hilfreich sein. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**_Plan-Ist-Vergleich_**](/hilfe/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
