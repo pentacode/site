@@ -24,7 +24,7 @@ in die Zusammenfassung fließen ausschließlich **abgeschlossene** Arbeitstage e
 
 Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitszeiten in **Stundenangabe**. In einem Balkendiagramm werden die geplanten Arbeitszeiten in blau den tatsächlich geleisteten Arbeitszeiten in orange gegenübergestellt. 
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Beim Öffnen des Berichts sehen die Gesamtstunden" >}}
 
 ![](/uploads/arbeitszeit2.png)
 
@@ -32,7 +32,7 @@ Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitsze
 
 Mit einem "Mouse over" werden im gewählten Monat die Stundenangaben für geplante und geleistete Arbeitszeit sichtbar.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Durch einen 'Mouse over' können Sie in die einzelnen Monate 'hinein blicken'" >}}
 
 ![](/uploads/arbeitszeit6.png)
 
@@ -40,7 +40,7 @@ Mit einem "Mouse over" werden im gewählten Monat die Stundenangaben für geplan
 
 Neben dem Balkendiagramm sind in zwei Kolonnen geplante und geleistete Arbeitszeiten getrennt nach Abteilung und in Zahl dargestellt.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Die Stundenangaben werden nach Abteilungen getrennt als Zahlenwerte ausgewiesen" >}}
 
 ![](/uploads/arbeitszeit3.png)
 
@@ -48,7 +48,7 @@ Neben dem Balkendiagramm sind in zwei Kolonnen geplante und geleistete Arbeitsze
 
 Durch Anklicken einer **Abteilung** wird die Grafik neu berechnet und stellt die Arbeitszeiten der gewählten Abteilung zur Ansicht
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Durch Anklicken einer Abteilung erhalten Sie Auskunft zur gewählten Abteilung" >}}
 
 ![](/uploads/arbeitszeit7.png)
 
@@ -60,7 +60,7 @@ Durch Anklicken einer **Abteilung** wird die Grafik neu berechnet und stellt die
 
 Indem Sie auf das **€-Symbol** in der Kopfzeile klicken, werden die Arbeitsstunden Mitarbeiter-genau in **Geldwert** umgerechnet. Wie in allen anderen Bereichen handelt es sich auch bei diesen Angaben um Gesamtlohn-Angaben, welche die Arbeitgeberanteile beinhalten.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Indem Sie auf das €-Symbol klicken, werden die Arbeitszeiten in deren Geldwert umgerechnet " >}}
 
 ![](/uploads/arbeitszeit4.png)
 
@@ -72,7 +72,7 @@ Wie bei den Stundenangaben erhalten Sie durch Anklicken eine Darstellung einzeln
 
 Nach demselben Prinzip können Sie **einzelne Mitarbeiter** auswählen. Wenn Sie eine größere Anzahl von Mitarbeitern beschäftigen, geben Sie hierzu einfach den Namen in das **Suchfeld** ein. Durch die Verschlagwortung reichen meist wenige Anfangsbuchstaben, um den gewünschten Mitarbeiter zu filtern.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Durch Anklicken eines Mitarbeiters wird dieser isoliert dargestellt" >}}
 
 ![](/uploads/arbeitszeit5.png)
 
@@ -84,7 +84,7 @@ Der in diesen Grafiken angezeigte Zeitraum ist immer das **Kalenderjahr**. Beim 
 
 Zurückliegende Zeiträume können Sie sehen über das Dropdown-Symbol wählen. 
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Über das Dropdown-Symbol können Sie zurückliegende Kalenderjahre aufrufen" >}}
 
 ![](/uploads/arbeitszeit1.png)
 
