@@ -77,4 +77,10 @@ Wir melden uns normalerweise innerhalb des Tages bei Ihnen.
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
+![](/uploads/hilfe9.png)
+
 {{< /figure >}}
+
+Und natürlich steht Ihnen immer das gute alte {{< icon "phone-rotary" >}} zur Verfügung.
+
+Wir sprechen nämlich gerne mit Menschen. :-) 
