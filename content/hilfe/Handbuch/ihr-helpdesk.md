@@ -1,7 +1,7 @@
 ---
 keywords: []
 title: Ihr Helpdesk
-weight: 
+weight: 1
 icon: digging
 anchors:
 - hash: schlagwort-eingabe
@@ -12,7 +12,6 @@ anchors:
   title: Weiterführende Links
 - hash: support-kontaktieren
   title: Support kontaktieren
-draft: true
 
 ---
 Wir erlauben uns, Ihnen kurz zu erklären, wie Ihr Helpdesk funktioniert und wie Sie am einfachsten und schnellsten die Antwort auf eine Frage finden.
