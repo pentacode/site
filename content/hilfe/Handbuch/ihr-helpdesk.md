@@ -1,5 +1,10 @@
 ---
-keywords: []
+keywords:
+- helpdesk
+- hilfeartikel
+- hilfe
+- suchen
+- support
 title: Ihr Helpdesk
 weight: 1
 icon: digging
