@@ -8,8 +8,14 @@ fields:
 - type: textarea
   name: description
   label: description
-- type: text
-  name: hero_title
+- name: hero_title
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: hero_title
 - type: text
   name: hero_subtitle
