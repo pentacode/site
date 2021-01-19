@@ -23,3 +23,5 @@ fields:
 - type: textarea
   name: hero_text
   label: hero_text
+pages:
+- content/_index.md
