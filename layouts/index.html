@@ -8,16 +8,14 @@
 <section class="hero blue" data-section="hero">
     <div class="inner">
         <div class="content animation-reveal-children">
-            <h1><strong>Digitales Management</strong><br />für Ihr Unternehmen</h1>
+            <h1>{{ .Params.hero_title | markdownify }}</h1>
 
             <h2 class="red text-clip">
-                <strong>Wir sparen Ihnen Arbeit.</strong> Punkt.
+                {{ .Params.hero_subtitle | markdownify }}
             </h2>
 
             <h3>
-                Von <strong>Dienstplanung</strong> und <strong>Zeiterfassung</strong> bis hin zu
-                <strong>Kostenanalyse</strong>, <strong>Controlling</strong> und <strong>Lohnvorbereitung</strong>
-                - so einfach und intuitiv wie noch nie.
+                {{ .Params.hero_text | markdownify }}
             </h3>
 
             <div class="buttons">

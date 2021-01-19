@@ -245,6 +245,7 @@ blockquote {
 }
 
 .thumbnail-icon {
+    min-width: 1.2em;
     text-align: center;
 }
 
