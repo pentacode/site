@@ -75,7 +75,7 @@ Wenn Sie in den **Einstellungen** der Zeiterfassung als **Pausenmodus** "**Autom
 
 Wenn Sie als Einstellung "**Automatisch + Manuell**" oder "**Manuell**" gewählt haben und der Mitarbeiter **nach erfolgtem Log-in** seinen PIN eingibt, hat er die Möglichkeit, seine **Schicht zu beenden** oder sich zur (zusätzlichen) **Pause** auszustempeln
 
-{{< figure caption="Der Mitarbeiter hat bei erneutem Log in die Wahl, sich zur Pause auszustempeln oder die Schicht zu beenden" >}}
+{{< figure caption="Der Mitarbeiter hat bei erneutem Log-in die Wahl, sich zur Pause auszustempeln oder die Schicht zu beenden" >}}
 
 ![](/uploads/pause-ein.png)
 
@@ -111,9 +111,9 @@ Meldet sich ein Mitarbeiter **außerhalb** dieses Zeitraums oder **ohne** geplan
 
 {{< /figure >}}
 
-In diesem Fall erscheinen in der Tagesübersicht der Zeiterfassung beim Mitarbeiter zwei **"??"** anstelle der geplanten Arbeitszeit. Die "??" zeigen Ihnen an, dass Arbeitszeiten geloggt wurden, die so nicht geplant waren.
+In diesem Fall erscheinen in der Tagesübersicht der Zeiterfassung beim Mitarbeiter ein **"?"** anstelle der geplanten Arbeitszeit. Das "?" zeigen Ihnen an, dass Arbeitszeiten geloggt wurden, die so nicht geplant waren.
 
-Erfahren Sie hierzu mehr unter **_Tagesübersicht_**.
+Erfahren Sie hierzu mehr unter [**Tagesübersicht**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/).
 
 ## Anzeige des Dienstplans
 
