@@ -159,4 +159,4 @@ Eine **funktionierende Internetverbindung** wird durch den **grünen** Punkt neb
 
 {{< /figure >}}
 
-> Im Falle einer unterbrochenen Internetverbindung können sich die Mitarbeiter weiterhin ein- und aus loggen oder Pausen stempeln. Während der Unterbrechung findet lediglich keine Synchronisation mit Pentacode statt.
+> Im Falle einer unterbrochenen Internetverbindung können sich die Mitarbeiter weiterhin ein- und ausloggen oder Pausen stempeln. Während der Unterbrechung findet lediglich keine Synchronisation mit Pentacode statt.
