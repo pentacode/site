@@ -11,8 +11,6 @@ anchors:
   title: Log-in durch Mitarbeiter
 - hash: pausen-stempeln
   title: Pausen stempeln
-- hash: online-offline-status
-  title: Online-/Offline-Status
 - hash: log-out
   title: Log-out
 - hash: spontane-schicht
@@ -23,6 +21,8 @@ anchors:
   title: Anzeige des Dienstplans
 - hash: stempeluhr-aktiv-synchronisieren
   title: Stempeluhr aktiv synchronisieren
+- hash: online-offline-status
+  title: Online-Offline-Status
 keywords:
 - Stempeluhr
 - Zeiterfassung
