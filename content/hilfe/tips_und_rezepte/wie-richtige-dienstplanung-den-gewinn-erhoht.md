@@ -3,13 +3,14 @@ title: Wie richtige Dienstplanung den Gewinn erhöht
 weight: 
 icon: ''
 anchors: []
+keywords: []
 
 ---
 "_Auf der einen Seite nur die Kosten sehen und auf der anderen Seite immer ein Auge zudrücken - der beste Garant für beidseitige Sehschwäche_" (Udo Keller)
 
 In vielen Fällen ist die Dienstplanung nur wenig mehr als ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen. Wirklich wirkungsvolle Planung hingegen hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Ein Ziel kann zum Beispiel die Vermeidung von Leerlaufzeiten sein, also Zeiten, die Mitarbeiter zwar mit Beschäftigung zubringen, jedoch keinen produktiven Beitrag leisten.
 
-Es gibt eine äußerst wirkungsvollste Weise, überflüssige Stunden zu reduzieren und somit erheblich Lohnkosten einzusparen: Geben Sie für jede Abteilung die Anzahl an Stunden vor, an denen sich die Dienstplanung orientieren soll.
+Es gibt eine äußerst wirkungsvolle Weise, überflüssige Stunden zu reduzieren und somit erheblich Lohnkosten einzusparen: Geben Sie für jede Abteilung die Anzahl an Stunden vor, an denen sich die Dienstplanung orientieren soll.
 
 Ziel dieser Art der Planung ist es, zu bezahlende Arbeitszeit zu verringern, indem Mitarbeiter zeitversetzt beginnen und zügig "aussteigen", sobald es der Geschäftsgang ermöglicht.
 
