@@ -5,7 +5,7 @@ header {
     background: white;
     top: 0;
     z-index: 10;
-    padding: 0 2em;
+    padding: 0 1em;
     margin: 1em 0;
     box-sizing: border-box;
 }

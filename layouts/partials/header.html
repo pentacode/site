@@ -26,7 +26,7 @@
                     <a href='{{ .Param "login_url" }}' class="">Login</a>
                 </li>
                 <li>
-                    <a href='{{ .Param "get_started_url" }}' class="btn get-started text-clip">
+                    <a href="https://calendly.com/pentacode/demo" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pentacode/demo'});return false;" class="btn get-started text-clip">
                         <i class="fas fa-user-headset"></i>
                         <span>Termin Vereinbaren</span>
                     </a>
@@ -54,11 +54,13 @@
                 <nav class="menu-sections">
                     <ul>
                         {{ $currPage := . }} {{ range .Site.Sections }}
+                        {{ if not (eq .Title "Alt") }}
                         <li>
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
                             </a>
                         </li>
+                        {{ end }}
                         {{ end }}
                     </ul>
                 </nav>

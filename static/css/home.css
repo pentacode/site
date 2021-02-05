@@ -331,7 +331,7 @@ section.offer .inner .content {
     max-width: 40em;
 }
 
-section.offer button.highlight {
+section.offer .btn.highlight {
     font-size: 1.1em;
     padding: 0.8em 1.2em;
     margin-top: 0.3em;
@@ -376,11 +376,6 @@ section.offer .offer-terms li i {
     section .inner .content::before,
     section .inner .content::after {
         display: none;
-    }
-
-    header {
-        padding: 0;
-        padding-right: 0.5em;
     }
 
     .slides {
