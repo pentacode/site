@@ -20,7 +20,7 @@ Die Zeiterfassung mithilfe einer "**Stempeluhr**" erfolgt über **Tablet**. Dabe
 
 **WICHTIG**: Die Verwendung der Pentacode Zeiterfassung erfordert **Android 4.4** oder neuer! Ältere Android-Versionen werden **nicht** unterstützt.
 
-**1. Schritt**: Öffnen Sie **Google Chrome** und geben Sie **time.pentaco.app** ein.
+**1. Schritt**: Öffnen Sie **Google Chrome** und geben Sie **time.pentacode.app** ein.
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5df0ef1b2c7d3a7e9ae4fcf3/file-MqnKFJh7KK.png)**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen**
 
