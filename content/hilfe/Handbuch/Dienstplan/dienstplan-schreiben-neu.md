@@ -81,7 +81,7 @@ Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen
 
 ## Einträge Duplizieren
 
-Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" >}}**-Taste** gedrückt halten wird der Eintrag nicht verschoben sonder dupliziert, das heißt es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
+Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" >}}-**Taste** gedrückt halten wird der Eintrag nicht verschoben sonder dupliziert, das heißt es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
 
 ## Einträge Löschen
 
