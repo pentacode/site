@@ -49,7 +49,7 @@ Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmen�
 
 ### Schichtvorschläge
 
-Pentacodes **Schichtvorschläge** sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:
+Pentacode's **Schichtvorschläge** sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:
 
 ### Globale Schichtvorschläge
 
@@ -59,7 +59,7 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 
-> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können! In Kombination mit den Tasten 
+> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" >}} {{< key "a" >}} {{< key "d" >}} (siehe [Tagesmenü](tagesmenu)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Schichten Erstellen
 
