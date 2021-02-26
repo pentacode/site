@@ -39,15 +39,15 @@ Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis S
 
 {{< /figure >}}
 
-### Mitarbeiter Sortieren
+## Mitarbeiter Sortieren
 
 Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und klicken Sie den {{< icon "caret-down" >}} oder {{< icon "caret-up" >}} Pfeil.
 
-### Zeitraum Wechseln
+## Zeitraum Wechseln
 
 Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen {{< key "⇧" >}} + {{< key "a" "mono" >}} und {{< key "⇧" >}}  + {{< key "d" "mono" >}} in die vorherige bzw. nächste Woche wechseln.
 
-### Tagesansicht
+## Tagesansicht
 
 Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die **Tagesansicht** für den entsprechenden Mitarbeiter und Tag. Hier finden Sie Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den folgenden Kapiteln).
 
@@ -57,11 +57,25 @@ Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Ta
 
 > **Tip**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
-### Dienstplan-Tabs
+## Dienstplan-Tabs
 
-Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und Filtern wechseln. Mehr hierzu unter [Tabs & Filter](#tabs-filter).
+Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und [Filtern](filtern--suchen) wechseln.
 
 > Beachten Sie dass die Tableiste verschwindet automatisch, sobald ein Stück nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach wieder ganz nach oben.
+
+### Tab Bearbeiten
+
+Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den {{< icon "pencil-alt >}}-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
+
+### Neuen Tab Erstellen
+
+Einen Neuen Tab erstellen Sie, indem Sie auf den {{< icon "plus" >}} button am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.
+
+### Tab Löschen
+
+Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf den {{< icon "trash" >}}-**Button** in der rechten oberen Ecke.
+
+> Da immer mindestens ein Tab existieren muss, ist der Löschen-Button deaktiviert falls Sie nur ein Tab haben.
 
 ## Dienstzeiten Eintragen
 
@@ -109,7 +123,7 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 > **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
-## Tabs & Filter
+## Filtern & Suchen
 
 ## Planungshilfen
 
