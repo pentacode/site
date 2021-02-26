@@ -85,6 +85,10 @@ Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. 
 
 ## Einträge Löschen
 
+Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} in der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der Tabellenansicht als auch in der [Tagesansicht](tagesansicht).
+
+> **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
+
 ## Schichten Erstellen
 
 ## Schichten Bearbeiten
