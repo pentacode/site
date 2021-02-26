@@ -29,9 +29,9 @@ Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten obere
 
 Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die **Tagesansicht** für den entsprechenden Mitarbeiter und Tag. Hier finden Sie Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den folgenden Kapiteln).
 
-Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht. Alternativ können Sie mithilfe der Tasten {{< key "w" >}} (auf), {{< key "s" >}} (ab), {{< key "a" >}}  (links) und {{< key "d" >}} (rechts) schnell zwischen Mitarbeitern, Einträgen und Tagen springen.
+Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.
 
-> **Tip**: Die Navigationstasten {{< key "w" >}}, {{< key "s" >}}, {{< key "a" >}} und {{< key "d" >}} sind auf Ihrem Keyboard ähnlich angeordnet wie Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Probieren Sie es aus!
+> **Tip**: Mit den Tasten {{< key "w" >}} **(auf)**, {{< key "s" >}} **(ab)**, {{< key "a" >}} **(links)** und {{< key "d" >}} **(rechts)** springen Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrem Keyboard ähnlich angeordnet wie Ihre Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Probieren Sie es aus!
 
 ### Dienstplan-Tabs
 
@@ -47,11 +47,25 @@ Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmen�
 
 ### Schichtvorschläge
 
+Pentacodes **Schichtvorschläge** sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:
+
+### Globale Schichtvorschläge
+
+Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten. Um einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese einfach per **Drag & Drop** in das entsprechende Feld.
+
+### Tages- und MA-spezifische Vorschläge
+
+Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. 
+
 ## Schichten Erstellen
 
 ## Schichten Bearbeiten
 
 ## Schichten Löschen
+
+Verschieben
+
+Duplizieren
 
 ## Tabs und Filter
 
