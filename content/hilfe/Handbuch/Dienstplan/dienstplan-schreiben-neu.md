@@ -19,9 +19,11 @@ Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis S
 
 ### Mitarbeiter Sortieren
 
-Standartmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und klicken Sie den {{< icon "caret-down" >}} oder {{< icon "caret-up" >}} Pfeil.
+Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und klicken Sie den {{< icon "caret-down" >}} oder {{< icon "caret-up" >}} Pfeil.
 
 ### Zeitraum Wechseln
+
+Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen {{< key "⇧" >}} + {{< key "a" >}} und {{< key "⇧" >}}  + {{< key "d" >}} in die vorherige bzw. nächste Woche wechseln.
 
 ## Mitarbeiter Sortieren
 
