@@ -13,14 +13,14 @@ anchors:
 - hash: dienstzeiten-eintragen
   title: Dienstzeiten Eintragen
 - title: Schichtvorschläge
-  hash: schichtvorschlage
+  hash: schichtvorschläge
 - hash: fehltage-eintragen
   title: Fehltage Eintragen
-- hash: eintrage-verschieben
+- hash: einträge-verschieben
   title: Einträge Verschieben
-- hash: eintrage-duplizieren
+- hash: einträge-duplizieren
   title: Einträge Duplizieren
-- hash: eintrage-loschen
+- hash: einträge-löschen
   title: Einträge Löschen
 - title: Tabs & Filter
   hash: tabs--filter
