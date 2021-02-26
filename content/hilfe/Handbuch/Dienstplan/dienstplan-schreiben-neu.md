@@ -75,6 +75,16 @@ Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffn
 
 > **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" >}} **(Urlaub)**, {{< key "k" >}} **(Krank)**, {{< key "g" >}} **(Guttag)** und {{< key "f" >}} **(Frei)** gewählt werden!
 
+## Einträge Verschieben
+
+Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen Tag verschieben? Dies funktioniert ganz einfach über **Drag & Drop**. Packen Sie einfach den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort (linke Maustaste loslassen um den Vorgang abzuschließen). Pentacode hebt automatische nur die Mitarbeiter hervor, denen die entsprechende Position zugewiesen ist.
+
+## Einträge Duplizieren
+
+Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" >}}**-Taste** gedrückt halten wird der Eintrag nicht verschoben sonder dupliziert, das heißt es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
+
+## Einträge Löschen
+
 ## Schichten Erstellen
 
 ## Schichten Bearbeiten
