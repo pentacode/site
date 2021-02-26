@@ -61,6 +61,20 @@ Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansi
 
 > **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" >}} {{< key "a" >}} {{< key "d" >}} (siehe [Tagesmenü](tagesmenu)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
+## Fehltage Eintragen
+
+Fehltage wie **Urlaub** und **Krank** können auf zwei verschiedenen Wegen eingetragen werden.
+
+### Drag & Drop
+
+Im Menü auf der rechten Seite finden Sie eine Liste im Dienstplan verfügbaren Fehltage **Urlaub**, **Krank**, **Guttag** und **Frei**. Diese können Sie einfach per **Drag & Drop** in die gewünschten Felder ziehen.
+
+### Über die Tagesansicht
+
+Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
+
+> **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" >}} **(Urlaub)**, {{< key "k" >}} **(Krank)**, {{< "g" >}} **(Guttag)** und {{< key "f" >}} **(Frei)** gewählt werden!
+
 ## Schichten Erstellen
 
 ## Schichten Bearbeiten
