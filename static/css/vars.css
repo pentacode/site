@@ -37,6 +37,12 @@ body {
 
     --color-highlight: var(--blue);
     --color-highlight-bg: var(--teal);
+
+    --shade-1: rgba(0, 0, 0, 0.05);
+    --shade-2: rgba(0, 0, 0, 0.1);
+    --shade-3: rgba(0, 0, 0, 0.15);
+    --shade-4: rgba(0, 0, 0, 0.2);
+    --shade-5: rgba(0, 0, 0, 0.25);
 }
 
 .red {
