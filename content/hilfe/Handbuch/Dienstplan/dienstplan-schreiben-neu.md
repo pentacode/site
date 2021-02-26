@@ -31,7 +31,9 @@ Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die
 
 Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.
 
-> **Tip**: Mit den Tasten {{< key "w" >}} **(auf)**, {{< key "s" >}} **(ab)**, {{< key "a" >}} **(links)** und {{< key "d" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Probieren Sie es aus!
+Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Tagesmenü.
+
+> **Tip**: Mit den Tasten {{< key "w" >}} **(auf)**, {{< key "s" >}} **(ab)**, {{< key "a" >}} **(links)** und {{< key "d" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" >}}**-Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
 ### Dienstplan-Tabs
 
@@ -43,7 +45,7 @@ Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell 
 
 ### Manuell
 
-Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" >}}-Taste auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie den Eintrag [bearbeiten](#eintrage-bearbeiten) können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
+Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" >}}**-Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie den Eintrag [bearbeiten](#eintrage-bearbeiten) können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
 
 ### Schichtvorschläge
 
@@ -55,7 +57,9 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 ### Tages- und MA-spezifische Vorschläge
 
-Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. 
+Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
+
+> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können! In Kombination mit den Tasten 
 
 ## Schichten Erstellen
 
