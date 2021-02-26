@@ -9,7 +9,7 @@ draft: true
 ---
 ## Navigation
 
-Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in Tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
+Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in Tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
 {{< figure caption="" >}}
 
@@ -30,6 +30,8 @@ Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten obere
 Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die **Tagesansicht** für den entsprechenden Mitarbeiter und Tag. Hier finden Sie Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den folgenden Kapiteln).
 
 Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht. Alternativ können Sie mithilfe der Tasten {{< key "w" >}} (auf), {{< key "s" >}} (ab), {{< key "a" >}}  (links) und {{< key "d" >}} (rechts) schnell zwischen Mitarbeitern, Einträgen und Tagen springen.
+
+> **Tip**: Die Navigationstasten {{< key "w" >}}, {{< key "s" >}}, {{< key "a" >}} und {{< key "d" >}} sind auf Ihrem Keyboard ähnlich angeordnet wie Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Probieren Sie es aus!
 
 ## Mitarbeiter Sortieren
 
