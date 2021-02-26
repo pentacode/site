@@ -31,7 +31,7 @@ Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die
 
 Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.
 
-> **Tip**: Mit den Tasten {{< key "w" >}} **(auf)**, {{< key "s" >}} **(ab)**, {{< key "a" >}} **(links)** und {{< key "d" >}} **(rechts)** springen Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrem Keyboard ähnlich angeordnet wie Ihre Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Probieren Sie es aus!
+> **Tip**: Mit den Tasten {{< key "w" >}} **(auf)**, {{< key "s" >}} **(ab)**, {{< key "a" >}} **(links)** und {{< key "d" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Probieren Sie es aus!
 
 ### Dienstplan-Tabs
 
