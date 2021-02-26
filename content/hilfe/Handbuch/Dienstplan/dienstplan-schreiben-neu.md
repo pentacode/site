@@ -77,7 +77,7 @@ Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffn
 
 ## Einträge Verschieben
 
-Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen Tag verschieben? Dies funktioniert ganz einfach über **Drag & Drop**. Packen Sie einfach den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort (linke Maustaste loslassen um den Vorgang abzuschließen). Pentacode hebt automatische nur die Mitarbeiter hervor, denen die entsprechende Position zugewiesen ist.
+Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen Tag verschieben? Dies funktioniert ganz einfach über **Drag & Drop**. Packen Sie einfach den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort (linke Maustaste loslassen um den Vorgang abzuschließen). Pentacode hebt automatisch nur die Mitarbeiter hervor, denen die entsprechende Position zugewiesen ist.
 
 ## Einträge Duplizieren
 
