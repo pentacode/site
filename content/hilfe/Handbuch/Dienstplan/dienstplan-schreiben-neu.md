@@ -73,7 +73,7 @@ Im Menü auf der rechten Seite finden Sie eine Liste im Dienstplan verfügbaren 
 
 Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
 
-> **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" >}} **(Urlaub)**, {{< key "k" >}} **(Krank)**, {{< "g" >}} **(Guttag)** und {{< key "f" >}} **(Frei)** gewählt werden!
+> **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" >}} **(Urlaub)**, {{< key "k" >}} **(Krank)**, {{< key "g" >}} **(Guttag)** und {{< key "f" >}} **(Frei)** gewählt werden!
 
 ## Schichten Erstellen
 
