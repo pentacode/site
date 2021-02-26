@@ -23,7 +23,7 @@ Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentaco
 
 ### Zeitraum Wechseln
 
-Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen {{< key "⇧" >}} + {{< key "a" >}} und {{< key "⇧" >}}  + {{< key "d" >}} in die vorherige bzw. nächste Woche wechseln.
+Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen {{< key "⇧" >}} + {{< key "a" "mono" >}} und {{< key "⇧" >}}  + {{< key "d" "mono" >}} in die vorherige bzw. nächste Woche wechseln.
 
 ### Tagesansicht
 
@@ -33,7 +33,7 @@ Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das
 
 Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Tagesmenü.
 
-> **Tip**: Mit den Tasten {{< key "w" >}} **(auf)**, {{< key "s" >}} **(ab)**, {{< key "a" >}} **(links)** und {{< key "d" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
+> **Tip**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
 ### Dienstplan-Tabs
 
@@ -45,7 +45,7 @@ Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell 
 
 ### Manuell
 
-Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
+Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
 
 ### Schichtvorschläge
 
@@ -59,7 +59,7 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 
-> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" >}} {{< key "a" >}} {{< key "d" >}} (siehe [Tagesmenü](tagesmenu)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
+> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesmenü](tagesmenu)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Fehltage Eintragen
 
@@ -73,7 +73,7 @@ Im Menü auf der rechten Seite finden Sie eine Liste im Dienstplan verfügbaren 
 
 Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
 
-> **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" >}} **(Urlaub)**, {{< key "k" >}} **(Krank)**, {{< key "g" >}} **(Guttag)** und {{< key "f" >}} **(Frei)** gewählt werden!
+> **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" "mono" >}} **(Urlaub)**, {{< key "k" "mono" >}} **(Krank)**, {{< key "g" "mono" >}} **(Guttag)** und {{< key "f" "mono" >}} **(Frei)** gewählt werden!
 
 ## Einträge Verschieben
 
@@ -81,7 +81,7 @@ Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen
 
 ## Einträge Duplizieren
 
-Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" >}}-**Taste** gedrückt halten wird der Eintrag nicht verschoben sonder dupliziert, das heißt es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
+Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" "mono" >}}-**Taste** gedrückt halten wird der Eintrag nicht verschoben sonder dupliziert, das heißt es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
 
 ## Einträge Löschen
 
