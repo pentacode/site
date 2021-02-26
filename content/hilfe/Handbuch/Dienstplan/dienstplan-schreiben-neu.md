@@ -3,7 +3,29 @@ keywords: []
 title: Dienstplan Schreiben (Neu)
 weight: 1
 icon: pencil-alt
-anchors: []
+anchors:
+- hash: mitarbeiter-sortieren
+  title: Mitarbeiter Sortieren
+- hash: zeitraum-wechseln
+  title: Zeitraum Wechseln
+- hash: tagesansicht
+  title: Tagesansicht
+- hash: dienstzeiten-eintragen
+  title: Dienstzeiten Eintragen
+- title: Schichtvorschläge
+  hash: schichtvorschlage
+- hash: fehltage-eintragen
+  title: Fehltage Eintragen
+- hash: eintrage-verschieben
+  title: Einträge Verschieben
+- hash: eintrage-duplizieren
+  title: Einträge Duplizieren
+- hash: eintrage-loschen
+  title: Einträge Löschen
+- title: Tabs & Filter
+  hash: tabs--filter
+- title: Planungshilfen
+  hash: planungshilfen
 draft: true
 
 ---
@@ -41,13 +63,11 @@ Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell 
 
 > Beachten Sie dass die Tableiste verschwindet automatisch, sobald ein Stück nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach wieder ganz nach oben.
 
-## Dienstzeiten Planen
-
-### Manuell
+## Dienstzeiten Eintragen
 
 Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
 
-### Schichtvorschläge
+## Schichtvorschläge
 
 Pentacode's **Schichtvorschläge** sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:
 
@@ -89,17 +109,7 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 > **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
-## Schichten Erstellen
-
-## Schichten Bearbeiten
-
-## Schichten Löschen
-
-Verschieben
-
-Duplizieren
-
-## Tabs und Filter
+## Tabs & Filter
 
 ## Planungshilfen
 
