@@ -119,6 +119,12 @@ Pentacode's **Schichtvorschläge** sind ein mächtiges Hilfsmittel, das Ihnen di
 
 Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten. Um einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese einfach per **Drag & Drop** in das entsprechende Feld.
 
+{{< figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eigetragen." >}}
+
+![](/uploads/screenshot-2021-02-27-at-14-11-46.png)
+
+{{< /figure >}}
+
 ### Tages- und MA-spezifische Vorschläge
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](#tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
