@@ -223,7 +223,7 @@ Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Ico
 
 ## Planungshilfen
 
-Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit. Nicht nur müssen Sie die Verfügbarkeit, Sollstunden und Urlaubstage Ihrer Mitarbeiter im Auge zu behalten, auch die gesetzlichen Vorlagen in Ihrer fürchterlichen Vielfalt dürfen nicht verletzt werden. Zum Glück steht Pentacode Ihnen mit einer Vielzahl von intelligenten Planungshilfen zur Seite!
+Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit. Nicht nur müssen Sie die Verfügbarkeit, Sollstunden und Urlaubstage Ihrer Mitarbeiter im Auge behalten, auch die gesetzlichen Vorlagen in Ihrer fürchterlichen Vielfalt dürfen nicht verletzt werden. Zum Glück steht Pentacode Ihnen mit einer Vielzahl von intelligenten Planungshilfen zur Seite!
 
 ### Problemberichte
 
