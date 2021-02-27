@@ -63,6 +63,12 @@ Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Ta
 
 > **Tip**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
+{{< figure caption="Im Tagesmenü können Sie Einträge bearbeiten und Informationen zum selektierten Mitarbeiter einsehen." >}}
+
+![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-3.png)
+
+{{< /figure >}}
+
 ## Dienstplan-Tabs
 
 Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und [Filtern](#filtern--suchen) wechseln.
