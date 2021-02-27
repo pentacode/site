@@ -183,7 +183,7 @@ Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu W
 
 ### Vorlage Erstellen
 
-Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
+Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
 
 {{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 
@@ -201,9 +201,15 @@ Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Si
 
 ## Planungshilfen
 
+Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit. Nicht nur müssen Sie die Verfügbarkeit, Sollstunden und Urlaubstage Ihrer Mitarbeiter im Auge zu behalten, auch die gesetzlichen Vorlagen in Ihrer fürchterlichen Vielfalt dürfen nicht verletzt werden. Zum Glück steht Pentacode Ihnen mit einer Vielzahl von intelligenten Planungshilfen zur Seite!
+
 ### Problemberichte
 
+Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich {{< icon "exclamation-triangle" >}} **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag wo Sie eventuelle Fehler korrigieren können.
+
 ### Schichten Spiegeln
+
+Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {{< icon "copy" >}} **Button** im Dienstplanmenü aktiviert und deaktiviert werden.
 
 ### Wochensoll
 
