@@ -6,6 +6,7 @@ body {
     font-size: 18px;
     color: #333;
     -webkit-tap-highlight-color: transparent;
+    height: initial !important;
 }
 
 body,
@@ -211,6 +212,10 @@ figure.float.left {
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.img-grid p {
+    margin: 0;
 }
 
 .img-grid img {
