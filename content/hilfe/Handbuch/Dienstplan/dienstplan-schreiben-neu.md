@@ -65,13 +65,13 @@ Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Ta
 
 ## Dienstplan-Tabs
 
-Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und [Filtern](filtern--suchen) wechseln.
+Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und [Filtern](#filtern--suchen) wechseln.
 
 > **Beachten Sie:** Die Tableiste verschwindet automatisch, sobald Sie ein Stück nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach wieder ganz nach oben.
 
 ### Tab Bearbeiten
 
-Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den {{< icon "pencil-alt" >}}-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
+Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den {{< icon "pencil-alt" >}}-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](#filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
 
 ### Neuen Tab Erstellen
 
@@ -87,7 +87,7 @@ Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf de
 
 Beim Arbeiten mit mehreren Abteilungen und dutzenden von Mitarbeitern kann das Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden. Pentacode's Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie den Überblick und können fokusierter Arbeiten.
 
-Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den {{< icon "pencil-alt" >}}-**Icon** (Siehe auch [Tab Bearbeiten](tab-bearbeiten)).
+Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den {{< icon "pencil-alt" >}}-**Icon** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 
 > **Tip:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
 
@@ -103,7 +103,7 @@ Wollen Sie schnell einen bestimmten Mitarbeiter finden? Dann geben Sie einfach d
 
 ## Dienstzeiten Eintragen
 
-Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
+Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
 
 ## Schichtvorschläge
 
@@ -115,9 +115,9 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 ### Tages- und MA-spezifische Vorschläge
 
-Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
+Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](#tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 
-> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesmenü](tagesmenu)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
+> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesansicht](#tagesansicht)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Fehltage Eintragen
 
@@ -129,7 +129,7 @@ Im Menü auf der rechten Seite finden Sie eine Liste im Dienstplan verfügbaren 
 
 ### Über die Tagesansicht
 
-Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
+Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
 
 > **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" "mono" >}} **(Urlaub)**, {{< key "k" "mono" >}} **(Krank)**, {{< key "g" "mono" >}} **(Guttag)** und {{< key "f" "mono" >}} **(Frei)** gewählt werden!
 
@@ -143,7 +143,7 @@ Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. 
 
 ## Einträge Löschen
 
-Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} in der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der Tabellenansicht als auch in der [Tagesansicht](tagesansicht).
+Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} in der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der Tabellenansicht als auch in der [Tagesansicht](#tagesansicht).
 
 > **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
@@ -179,7 +179,7 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 
 ### Teil-Dienstpläne Veröffentlichen
 
-Aktive [Dienstplan-Filter]() werden beim Veröffentlichungsvorgang automatisch berücksichtigt, das heißt es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
+Aktive [Dienstplan-Filter](#filtern--suchen) werden beim Veröffentlichungsvorgang automatisch berücksichtigt, das heißt es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
 
 ## Dienstplan-Vorlagen
 
@@ -233,7 +233,7 @@ Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfrei
 
 ### Monatsstunden
 
-Analog zu der [Wochenstunden-Anzeige](wochenstunden) gibt es außerdem eine "Fortschrittsanzeige" für die Ist- und Sollstunden eines Mitarbeiters im aktuellen Monat. Diese finden Sie in der [Tagesansicht]() für den aktuell selektierten Mitarbeiter.
+Analog zu der [Wochenstunden-Anzeige](#wochenstunden) gibt es außerdem eine "Fortschrittsanzeige" für die Ist- und Sollstunden eines Mitarbeiters im aktuellen Monat. Diese finden Sie in der [Tagesansicht](#tagesansicht) für den aktuell selektierten Mitarbeiter.
 
 ### Stundenvorgaben
 
