@@ -37,7 +37,7 @@ anchors:
 draft: true
 
 ---
-Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in Tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
+Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
 {{< figure caption="" >}}
 
@@ -67,7 +67,7 @@ Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Ta
 
 Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und [Filtern](filtern--suchen) wechseln.
 
-> Beachten Sie dass die Tableiste verschwindet automatisch, sobald ein Stück nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach wieder ganz nach oben.
+> **Beachten Sie:** Die Tableiste verschwindet automatisch, sobald Sie ein Stück nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach wieder ganz nach oben.
 
 ### Tab Bearbeiten
 
