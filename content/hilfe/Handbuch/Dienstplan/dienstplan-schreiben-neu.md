@@ -28,10 +28,10 @@ anchors:
   title: Einträge Löschen
 - hash: veröffentlichen--teilen
   title: Veröffentlichen & Teilen
+- hash: vorlagen
+  title: Vorlagen
 - title: Planungshilfen
   hash: planungshilfen
-- hash: problemberichte
-  title: Problemberichte
 draft: true
 
 ---
@@ -82,6 +82,12 @@ Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf de
 > Da immer mindestens ein Tab existieren muss, ist der Löschen-Button deaktiviert falls Sie nur ein Tab haben.
 
 ## Filtern & Suchen
+
+Beim Arbeiten mit mehreren Abteilungen und dutzenden von Mitarbeitern kann das Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden. Pentacode's Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie den Überblick und können fokusierter Arbeiten.
+
+Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den {{< icon "pencil-alt" >}}-**Icon** (Siehe auch [Tab Bearbeiten](tab-bearbeiten)).
+
+> **Tip:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
 
 ## Dienstzeiten Eintragen
 
@@ -161,9 +167,11 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 
 Aktive [Dienstplan-Filter]() werden beim Veröffentlichungsvorgang automatisch berücksichtigt, das heißt es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
 
-## Problemberichte
+## Vorlagen
 
 ## Planungshilfen
+
+### Problemberichte
 
 ### Schichten Spiegeln
 
