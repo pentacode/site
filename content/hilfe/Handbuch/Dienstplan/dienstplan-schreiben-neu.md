@@ -237,7 +237,7 @@ Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schicht�
 
 ### Schichten Spiegeln
 
-Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {{< icon "clone" >}} **Button** im Dienstplanmenü aktiviert und deaktiviert werden.
+Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {{< icon "clone" >}}-**Button** im Dienstplanmenü aktiviert und deaktiviert werden.
 
 ### Wochenstunden
 
@@ -249,7 +249,7 @@ Analog zu der [Wochenstunden-Anzeige](#wochenstunden) gibt es außerdem eine "Fo
 
 ### Stundenvorgaben
 
-Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden dürfen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {{< icon "tasks-alt" >}}} ein- und ausblenden.
+Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden dürfen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {{< icon "tasks-alt" >}}-**Button** ein- und ausblenden.
 
 Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hilfe/handbuch/planung/stundenvorgaben/).
 
