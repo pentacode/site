@@ -10,6 +10,10 @@ anchors:
   title: Zeitraum Wechseln
 - hash: tagesansicht
   title: Tagesansicht
+- title: Dienstplan-Tabs
+  hash: dienstplan-tabs
+- hash: filtern--suchen
+  title: Filtern & Suchen
 - hash: dienstzeiten-eintragen
   title: Dienstzeiten Eintragen
 - title: Schichtvorschläge
@@ -22,10 +26,12 @@ anchors:
   title: Einträge Duplizieren
 - hash: einträge-löschen
   title: Einträge Löschen
-- title: Tabs & Filter
-  hash: tabs--filter
+- hash: veröffentlichen--teilen
+  title: Veröffentlichen & Teilen
 - title: Planungshilfen
   hash: planungshilfen
+- hash: problemberichte
+  title: Problemberichte
 draft: true
 
 ---
@@ -75,7 +81,7 @@ Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf de
 
 > Da immer mindestens ein Tab existieren muss, ist der Löschen-Button deaktiviert falls Sie nur ein Tab haben.
 
-## Filter & Suchen
+## Filtern & Suchen
 
 ## Dienstzeiten Eintragen
 
@@ -143,7 +149,7 @@ Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, w
 
 Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatisch einen öffentlichen Link für Sie, den Sie mit beliebigen Personen (auch außerhalb Ihres Unternehmens) teilen können.
 
-{{< figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leute teilen." >}}
+{{< figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leuten teilen." >}}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-25-tab-0.png)
 
