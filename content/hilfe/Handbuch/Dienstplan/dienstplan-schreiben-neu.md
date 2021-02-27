@@ -255,4 +255,4 @@ Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hi
 
 ### Personalkostenanalyse
 
-Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line" >}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tasächlich entstandenen Vergleichen!
+Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line" >}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tasächlich entstandenen vergleichen!
