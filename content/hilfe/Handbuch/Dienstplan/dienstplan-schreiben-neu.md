@@ -179,6 +179,18 @@ Aktive [Dienstplan-Filter]() werden beim Veröffentlichungsvorgang automatisch b
 
 ## Vorlagen
 
+Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder garnicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks auf anderen Wochen anwenden können.
+
+### Vorlage Erstellen
+
+Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun das Vorlagen-Menü und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
+
+{{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
+
+![](/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0-2.png)
+
+{{< /figure >}}
+
 ## Planungshilfen
 
 ### Problemberichte
