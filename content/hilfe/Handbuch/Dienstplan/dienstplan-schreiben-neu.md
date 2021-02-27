@@ -65,7 +65,7 @@ Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell 
 
 ### Tab Bearbeiten
 
-Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den {{< icon "pencil-alt >}}-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
+Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den {{< icon "pencil-alt" >}}-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
 
 ### Neuen Tab Erstellen
 
