@@ -28,8 +28,8 @@ anchors:
   title: Einträge Löschen
 - hash: veröffentlichen--teilen
   title: Veröffentlichen & Teilen
-- hash: vorlagen
-  title: Vorlagen
+- hash: dienstplan-vorlagen
+  title: Dienstplan-Vorlagen
 - title: Planungshilfen
   hash: planungshilfen
 draft: true
@@ -177,19 +177,27 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 
 Aktive [Dienstplan-Filter]() werden beim Veröffentlichungsvorgang automatisch berücksichtigt, das heißt es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
 
-## Vorlagen
+## Dienstplan-Vorlagen
 
-Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder garnicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks auf anderen Wochen anwenden können.
+Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder garnicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks in anderen Wochen anwenden können.
 
 ### Vorlage Erstellen
 
-Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun das Vorlagen-Menü und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
+Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
 
 {{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 
 ![](/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0-2.png)
 
 {{< /figure >}}
+
+### Vorlage Anwenden
+
+Um eine Vorlage in der aktuellen Woche anzuwenden, ziehen Sie diese einfach aus Ihrer Vorlagen-Liste per **Drag & Drop** an einen beliebigen Ort im Dienstplan. Falls die Vorlage mehrere Abteilungen umfasst, können Sie nun wählen, ob Sie die Einträge von allen Abteilungen einfügen möchten oder nur von bestimmten. Klicken Sie auf **Vorlage Einfügen** um den Vorgang abzuschließen.
+
+### Vorlage Löschen
+
+Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Sie dann mit der Maus über die gewünschte Vorlage und klicken Sie den {{< icon "trash" >}}-**Icon**. Klicken Sie **Entfernen** im darauffolgenden Bestätigungsdialog um den Vorgang abzuschließen.
 
 ## Planungshilfen
 
