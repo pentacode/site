@@ -151,6 +151,8 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen,  kontinuierlich und automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihre Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 
+> **Achtung:** Für das Veröffentlichen von Dienstplänen wird eine explizite [Berechtigung](/hilfe/handbuch/mitarbeiter-einzeln/berechtigungen/) benötigt.
+
 ### Änderungen Veröffentlichen
 
 Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter von den Änderungen benachrichtigt werden. Klicken Sie hier auf **Veröffentlichen** um den Vorgang abzuschließen. Die Änderungen sind nun in der Mitarbeiter-App und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt** und erhalten einen Link zu ihrem persönlichen Dienstplan.
@@ -186,6 +188,8 @@ Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu W
 ### Vorlage Erstellen
 
 Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
+
+> **Achtung:** Es werden nur Einträge mit vorhandenen Planzeiten gespeichert.
 
 {{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 
@@ -232,3 +236,11 @@ Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfrei
 Analog zu der [Wochenstunden-Anzeige](wochenstunden) gibt es außerdem eine "Fortschrittsanzeige" für die Ist- und Sollstunden eines Mitarbeiters im aktuellen Monat. Diese finden Sie in der [Tagesansicht]() für den aktuell selektierten Mitarbeiter.
 
 ### Stundenvorgaben
+
+Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden dürfen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {{< icon "tasks-alt" >}}} ein- und ausblenden.
+
+Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hilfe/handbuch/planung/stundenvorgaben/).
+
+### Personalkostenanalyse
+
+Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line" >}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tasächlich entstandenen Vergleichen!
