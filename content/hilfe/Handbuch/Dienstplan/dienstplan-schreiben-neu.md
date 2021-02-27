@@ -123,7 +123,7 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 ## Veröffentlichen & Teilen
 
-Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen,  kontinuierlich und automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihre Mitarbeiter öffentlich machen, bleibt bei Ihnen. 
+Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen,  kontinuierlich und automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihre Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 
 ### Änderungen Veröffentlichen
 
@@ -133,13 +133,19 @@ Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, w
 
 {{< figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." >}}
 
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0-1.png)
-
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0.png)
+![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0-1.png)![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0.png)
 
 {{< /figure >}}
 
 ### Dienstplan Teilen
+
+{{< figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leute teilen." >}}
+
+![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-25-tab-0.png)
+
+![](/uploads/demo-pentaco-de_dp__id-f4ccd654f5e014bd.png)
+
+{{< /figure >}}
 
 ### Teil-Dienstpläne Veröffentlichen
 
