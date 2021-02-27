@@ -30,6 +30,8 @@ anchors:
   title: Veröffentlichen & Teilen
 - hash: dienstplan-vorlagen
   title: Dienstplan-Vorlagen
+- hash: dienstplan-leeren
+  title: Dienstplan Leeren
 - title: Planungshilfen
   hash: planungshilfen
 draft: true
@@ -198,6 +200,10 @@ Um eine Vorlage in der aktuellen Woche anzuwenden, ziehen Sie diese einfach aus 
 ### Vorlage Löschen
 
 Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Sie dann mit der Maus über die gewünschte Vorlage und klicken Sie den {{< icon "trash" >}}-**Icon**. Klicken Sie **Entfernen** im darauffolgenden Bestätigungsdialog um den Vorgang abzuschließen.
+
+## Dienstplan Leeren
+
+Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
 
 ## Planungshilfen
 
