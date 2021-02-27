@@ -123,6 +123,8 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 > **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
+## Änderungen Veröffentlichen
+
 ## Filtern & Suchen
 
 ## Planungshilfen
@@ -134,3 +136,5 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 ### Monatssoll
 
 ### Stundenvorgaben
+
+## 
