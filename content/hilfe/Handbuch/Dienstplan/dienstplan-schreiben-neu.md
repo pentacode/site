@@ -207,14 +207,22 @@ Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit.
 
 Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich {{< icon "exclamation-triangle" >}} **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag wo Sie eventuelle Fehler korrigieren können.
 
+{{< figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben." >}}
+
+![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-2.png)
+
+{{< /figure >}}
+
 ### Schichten Spiegeln
 
-Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {{< icon "copy" >}} **Button** im Dienstplanmenü aktiviert und deaktiviert werden.
+Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {{< icon "clone" >}} **Button** im Dienstplanmenü aktiviert und deaktiviert werden.
 
-### Wochensoll
+### Wochenstunden
 
-### Monatssoll
+Über die "Fortschrittsanzeige" auf der linken des Dienstplans sehen auf einen Blick wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
+
+### Monatsstunden
+
+Analog zu der [Wochenstunden-Anzeige](wochenstunden) gibt es außerdem eine "Fortschrittsanzeige" für die Ist- und Sollstunden eines Mitarbeiters im aktuellen Monat. Diese finden Sie in der [Tagesansicht]() für den aktuell selektierten Mitarbeiter.
 
 ### Stundenvorgaben
-
-## 
