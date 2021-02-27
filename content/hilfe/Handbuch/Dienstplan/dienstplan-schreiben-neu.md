@@ -151,9 +151,9 @@ Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen,  kontinuierlich u
 
 ### Änderungen Veröffentlichen
 
-Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter von den Änderungen benachrichtigt werden. Klicken Sie hier auf **Veröffentlichen** um den Vorgang abzuschließen. Die Änderungen sind nun in der Mitarbeiter-App und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt** und erhalten einen Link zu Ihrem persönlichen Dienstplan.
+Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter von den Änderungen benachrichtigt werden. Klicken Sie hier auf **Veröffentlichen** um den Vorgang abzuschließen. Die Änderungen sind nun in der Mitarbeiter-App und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt** und erhalten einen Link zu ihrem persönlichen Dienstplan.
 
-> **Tip:** Um Mitarbeiter von Änderungen an Ihrem persönlichen Dienstplan benachrichtigen zu können, benötigen wir eine Emailadresse. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
+> **Tip:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, benötigen wir eine Emailadresse. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
 
 {{< figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." >}}
 
