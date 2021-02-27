@@ -75,6 +75,8 @@ Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf de
 
 > Da immer mindestens ein Tab existieren muss, ist der Löschen-Button deaktiviert falls Sie nur ein Tab haben.
 
+## Filter & Suchen
+
 ## Dienstzeiten Eintragen
 
 Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesmenü](#tagesmenu) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können. Falls ein Mitarbeiter in dieser Abteilung mehrere Positionen einnehmen kann, können Sie aus einer Liste wählen.
@@ -139,6 +141,8 @@ Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, w
 
 ### Dienstplan Teilen
 
+Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatisch einen öffentlichen Link für Sie, den Sie mit beliebigen Personen (auch außerhalb Ihres Unternehmens) teilen können.
+
 {{< figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leute teilen." >}}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-25-tab-0.png)
@@ -149,7 +153,7 @@ Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, w
 
 ### Teil-Dienstpläne Veröffentlichen
 
-## Filtern & Suchen
+Aktive [Dienstplan-Filter]() werden beim Veröffentlichungsvorgang automatisch berücksichtigt, das heißt es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
 
 ## Problemberichte
 
