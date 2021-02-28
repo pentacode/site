@@ -4,39 +4,38 @@ title: Dienstplan Schreiben
 weight: 1
 icon: pencil-alt
 anchors:
-    - hash: mitarbeiter-sortieren
-      title: Mitarbeiter Sortieren
-    - hash: zeitraum-wechseln
-      title: Zeitraum Wechseln
-    - hash: tagesansicht
-      title: Tagesansicht
-    - title: Dienstplan-Tabs
-      hash: dienstplan-tabs
-    - hash: filtern--suchen
-      title: Filtern & Suchen
-    - hash: dienstzeiten-eintragen
-      title: Dienstzeiten Eintragen
-    - title: Schichtvorschläge
-      hash: schichtvorschläge
-    - hash: fehltage-eintragen
-      title: Fehltage Eintragen
-    - hash: einträge-verschieben
-      title: Einträge Verschieben
-    - hash: einträge-duplizieren
-      title: Einträge Duplizieren
-    - hash: einträge-löschen
-      title: Einträge Löschen
-    - hash: veröffentlichen--teilen
-      title: Veröffentlichen & Teilen
-    - hash: dienstplan-vorlagen
-      title: Dienstplan-Vorlagen
-    - hash: dienstplan-leeren
-      title: Dienstplan Leeren
-    - title: Planungshilfen
-      hash: planungshilfen
-draft: true
----
+- hash: mitarbeiter-sortieren
+  title: Mitarbeiter Sortieren
+- hash: zeitraum-wechseln
+  title: Zeitraum Wechseln
+- hash: tagesansicht
+  title: Tagesansicht
+- title: Dienstplan-Tabs
+  hash: dienstplan-tabs
+- hash: filtern--suchen
+  title: Filtern & Suchen
+- hash: dienstzeiten-eintragen
+  title: Dienstzeiten Eintragen
+- title: Schichtvorschläge
+  hash: schichtvorschläge
+- hash: fehltage-eintragen
+  title: Fehltage Eintragen
+- hash: einträge-verschieben
+  title: Einträge Verschieben
+- hash: einträge-duplizieren
+  title: Einträge Duplizieren
+- hash: einträge-löschen
+  title: Einträge Löschen
+- hash: veröffentlichen--teilen
+  title: Veröffentlichen & Teilen
+- hash: dienstplan-vorlagen
+  title: Dienstplan-Vorlagen
+- hash: dienstplan-leeren
+  title: Dienstplan Leeren
+- title: Planungshilfen
+  hash: planungshilfen
 
+---
 In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!
 
 Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
