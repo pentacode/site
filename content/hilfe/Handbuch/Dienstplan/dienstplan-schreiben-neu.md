@@ -223,11 +223,11 @@ Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Ico
 
 ## Planungshilfen
 
-Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit. Nicht nur müssen Sie die Verfügbarkeit, Sollstunden und Urlaubstage Ihrer Mitarbeiter im Auge behalten, auch die gesetzlichen Vorlagen in Ihrer fürchterlichen Vielfalt dürfen nicht verletzt werden. Zum Glück steht Pentacode Ihnen mit einer Vielzahl von intelligenten Planungshilfen zur Seite!
+Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit. Nicht nur müssen Sie die Verfügbarkeit, Sollstunden und Urlaubstage Ihrer Mitarbeiter im Auge behalten, auch die gesetzlichen Vorlagen in Ihrer fürchterlichen Vielfalt dürfen nicht verletzt werden. Pentacode steht Ihnen deshalb mit einer Vielzahl von intelligenten Planungshilfen zur Seite!
 
 ### Problemberichte
 
-Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich {{< icon "exclamation-triangle" >}} **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag wo Sie eventuelle Fehler korrigieren können.
+Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich {{< icon "exclamation-triangle" >}} **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag, wo Sie eventuelle Fehler korrigieren können.
 
 {{< figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben." >}}
 
@@ -241,7 +241,7 @@ Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfrei
 
 ### Wochenstunden
 
-Über die "Fortschrittsanzeige" auf der linken des Dienstplans sehen auf einen Blick wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
+Über die "Fortschrittsanzeige" auf der linken des Dienstplans sehen auf einen Blick, wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
 
 ### Monatsstunden
 
@@ -249,10 +249,10 @@ Analog zu der [Wochenstunden-Anzeige](#wochenstunden) gibt es außerdem eine "Fo
 
 ### Stundenvorgaben
 
-Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden dürfen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {{< icon "tasks-alt" >}}-**Button** ein- und ausblenden.
+Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden sollen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {{< icon "tasks-alt" >}}-**Button** ein- und ausblenden.
 
 Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hilfe/handbuch/planung/stundenvorgaben/).
 
 ### Personalkostenanalyse
 
-Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line" >}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tasächlich entstandenen vergleichen!
+Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line" >}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich entstandenen vergleichen!
