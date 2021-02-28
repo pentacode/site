@@ -7,6 +7,7 @@ anchors:
   title: Dienstplanung mit Stundenvorgabe
 - hash: stundenvorgabe-nach-umsatz-zielen
   title: Stundenvorgabe nach Umsatz-Zielen
+keywords: []
 
 ---
 Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.
