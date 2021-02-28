@@ -37,6 +37,8 @@ anchors:
 draft: true
 
 ---
+In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird.  Lesen Sie  bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!
+
 Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
 {{< figure caption="" >}}
