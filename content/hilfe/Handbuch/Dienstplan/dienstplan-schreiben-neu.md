@@ -61,9 +61,9 @@ Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das
 
 Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Tagesmenü.
 
-> **Tip**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
+> **Tipp**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
-{{< figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum selektierten Mitarbeiter einsehen." >}}
+{{< figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen." >}}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-3.png)
 
@@ -91,11 +91,11 @@ Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf de
 
 ## Filtern & Suchen
 
-Beim Arbeiten mit mehreren Abteilungen und dutzenden von Mitarbeitern kann das Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden. Pentacode's Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie den Überblick und können fokusierter Arbeiten.
+Beim Arbeiten mit mehreren Abteilungen und Dutzenden von Mitarbeitern kann das Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden. Pentacodes Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie den Überblick und können ohne Ablenkung arbeiten.
 
 Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den {{< icon "pencil-alt" >}}-**Icon** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 
-> **Tip:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
+> **Tipp:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
 
 {{< figure caption="Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten." >}}
 
@@ -109,11 +109,11 @@ Wollen Sie schnell einen bestimmten Mitarbeiter finden? Dann geben Sie einfach d
 
 ## Dienstzeiten Eintragen
 
-Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.
+Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch Klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.
 
 ## Schichtvorschläge
 
-Pentacode's **Schichtvorschläge** sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:
+Die **Schichtvorschläge** in Pentacode sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:
 
 ### Globale Schichtvorschläge
 
@@ -129,21 +129,21 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](#tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 
-> **Tip:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesansicht](#tagesansicht)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
+> **Tipp:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesansicht](#tagesansicht)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Fehltage Eintragen
 
 Fehltage wie **Urlaub** und **Krank** können auf zwei verschiedenen Wegen eingetragen werden.
 
-### Drag & Drop
+### Mit Drag & Drop
 
-Im Menü auf der rechten Seite finden Sie eine Liste im Dienstplan verfügbaren Fehltage **Urlaub**, **Krank**, **Guttag** und **Frei**. Diese können Sie einfach per **Drag & Drop** in die gewünschten Felder ziehen.
+Im Menü auf der rechten Seite finden Sie eine Liste der im Dienstplan verfügbaren Fehltage **Urlaub**, **Krank**, **Guttag** und **Frei**. Diese können Sie einfach per **Drag & Drop** in die gewünschten Felder ziehen.
 
 ### Über die Tagesansicht
 
 Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
 
-> **Tip:** Fehltage können auch über die Tastaturkürzel {{< key "u" "mono" >}} **(Urlaub)**, {{< key "k" "mono" >}} **(Krank)**, {{< key "g" "mono" >}} **(Guttag)** und {{< key "f" "mono" >}} **(Frei)** gewählt werden!
+> **Tipp:** Fehltage können auch über die Tastaturkürzel {{< key "u" "mono" >}} **(Urlaub)**, {{< key "k" "mono" >}} **(Krank)**, {{< key "g" "mono" >}} **(Guttag)** und {{< key "f" "mono" >}} **(Frei)** gewählt werden!
 
 ## Einträge Verschieben
 
@@ -151,7 +151,7 @@ Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen
 
 ## Einträge Duplizieren
 
-Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" "mono" >}}-**Taste** gedrückt halten wird der Eintrag nicht verschoben sondern dupliziert, das heißt es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
+Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {{< key "alt" "mono" >}}-**Taste** gedrückt halten wird der Eintrag nicht verschoben sondern dupliziert, dies heißt, es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
 
 ## Einträge Löschen
 
@@ -169,7 +169,7 @@ Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen,  kontinuierlich u
 
 Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter von den Änderungen benachrichtigt werden. Klicken Sie hier auf **Veröffentlichen** um den Vorgang abzuschließen. Die Änderungen sind nun in der Mitarbeiter-App und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt** und erhalten einen Link zu ihrem persönlichen Dienstplan.
 
-> **Tip:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, benötigen wir eine Emailadresse. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
+> **Tipp:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, wird dessen eine Emailadresse benötigt. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
 
 {{< figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." >}}
 
@@ -191,17 +191,17 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 
 ### Teil-Dienstpläne Veröffentlichen
 
-Aktive [Dienstplan-Filter](#filtern--suchen) werden beim Veröffentlichungsvorgang automatisch berücksichtigt, das heißt es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
+Aktive [Dienstplan-Filter](#filtern--suchen) werden beim Veröffentlichungsvorgang automatisch berücksichtigt, dies heißt, es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf **Veröffentlichen** klicken.
 
 ## Dienstplan-Vorlagen
 
-Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder garnicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks in anderen Wochen anwenden können.
+Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder gar nicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks in anderen Wochen anwenden können.
 
 ### Vorlage Erstellen
 
-Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage sollte nun in der Liste Ihrer Vorlagen erscheinen!
+Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
 
-> **Achtung:** Es werden nur Einträge mit vorhandenen Planzeiten gespeichert.
+> **Achtung:** Wählen Sie für die Erstellung einer Dienstplanvorlage immer eine **zukünftige Woche**! Es werden nur Einträge mit vorhandenen **Planzeiten** gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage ignoriert.
 
 {{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 
