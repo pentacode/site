@@ -160,7 +160,7 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 > **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
-## Veröffentlichen & Teilen
+## Veröffentlichen, Teilen & Drucken
 
 Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen, kontinuierlich und automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihre Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 
@@ -189,6 +189,10 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 ![](/uploads/demo-pentaco-de_dp__id-f4ccd654f5e014bd.png)
 
 {{< /figure >}}
+
+### Dienstplan Drucken
+
+Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckfunktion. Um auf diese zuzugreifen, müssen Sie zunächst alle Änderungen veröffentlichen. Sobald dies geschehen ist finden sie den {{< icon "print" >}} **Drucken** Button im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken).
 
 ### Teil-Dienstpläne Veröffentlichen
 
