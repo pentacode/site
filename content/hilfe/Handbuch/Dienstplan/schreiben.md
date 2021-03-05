@@ -27,7 +27,7 @@ anchors:
 - hash: einträge-löschen
   title: Einträge Löschen
 - hash: veröffentlichen-teilen--drucken
-  title: Veröffentlichen & Teilen
+  title: Veröffentlichen, Teilen & Drucken
 - hash: dienstplan-vorlagen
   title: Dienstplan-Vorlagen
 - hash: dienstplan-leeren
