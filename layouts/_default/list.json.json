@@ -1,4 +1,4 @@
-{
+{{ $currPage := . }}{
   "section": "{{ .Section }}",
   "pages": [
     {{- range $i, $p := where (where .Site.AllPages "Section" .Section) ".IsPage" true -}}{{- if $i -}}, {{ end }}
@@ -9,7 +9,8 @@
       "section": {{ $p.Parent.Title | jsonify }},
       "keywords": {{ $p.Keywords | jsonify }},
       "anchors": {{ $p.Params.anchors | jsonify }},
-      "icon": "{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}"
+      "icon": "{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}",
+      "isDescendant": {{.IsDescendant $currPage | jsonify}}
     }{{ end }}
   ]
 }
