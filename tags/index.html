@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVP5NJ56FM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MVP5NJ56FM', { 'anonymize_ip': true });
+        </script>
+
+        <title>Tags</title>
+        <link rel="shortcut icon" href="/img/icon.png">
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="description" content=""></meta>
+        <meta name="og:title" content="Pentacode"></meta>
+        <meta name="og:description" content=""></meta>
+        
+
+        
+        <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
+        
+
+        
+
+        
+    
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+        <link href="/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="/css/vars.css" rel="stylesheet" type="text/css">
+        <link href="/css/base.css" rel="stylesheet" type="text/css">
+        <link href="/css/layout.css" rel="stylesheet" type="text/css">
+        <link href="/css/header.css" rel="stylesheet" type="text/css">
+        <link href="/css/animation.css" rel="stylesheet" type="text/css">
+        
+    <link href="/css/list.css" rel="stylesheet" type="text/css" />
+
+
+        
+        
+
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    </head>
+    <body>
+        
+
+<header class="blue">
+    <div class="header-inner horizonal center-aligning layout">
+        <nav class="sections">
+            <ul class="horizontal center-aligning layout">
+                <li>
+                    <a href="/"><img class="logo" src="/img/logo.svg" /></a>
+                </li>
+
+                 
+                
+                <li class="section-item ">
+                    <a href="/blog/">
+                        Blog
+                    </a>
+                </li>
+                
+                
+                
+                
+                
+                <li class="section-item ">
+                    <a href="/hilfe/">
+                        Hilfe
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+
+        <div class="stretch"></div>
+
+        <nav class="login-signup">
+            <ul class="horizontal center-aligning layout">
+                <li hidden>
+                    <a href='' class="">Login</a>
+                </li>
+                <li>
+                    <a href="https://calendly.com/pentacode/demo" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pentacode/demo'});return false;" class="btn get-started text-clip">
+                        <i class="fas fa-user-headset"></i>
+                        <span>Termin Vereinbaren</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="menu">
+            <button class="btn menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="menu-inner" hidden>
+                <nav class="menu-login-signup">
+                    <ul>
+                        <li>
+                            <a href='/#angebot' class="btn text-clip">
+                                <i class="fas fa-user-headset"></i>
+                                <span>Termin Vereinbaren</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="menu-sections">
+                    <ul>
+                         
+                        
+                        <li>
+                            <a href="/blog/">
+                                Blog
+                            </a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/hilfe/">
+                                Hilfe
+                            </a>
+                        </li>
+                        
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    (() => {
+        const menuButton = document.querySelector(".menu-button");
+        const menu = document.querySelector(".menu-inner");
+
+        menuButton.addEventListener("click", e => {
+            e.stopPropagation();
+            menu.removeAttribute("hidden");
+        });
+
+        document.addEventListener("click", () => {
+            menu.setAttribute("hidden", "");
+        });
+    })();
+</script>
+
+
+<div class="main-layout">
+
+    <div>
+        
+    </div>
+
+    <div class="main">
+        
+        <div class="animation-reveal">
+            <div class="search-wrapper">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
+    <link href="/css/search.css" rel="stylesheet" type="text/css" />
+
+    <input type="search" placeholder="Artikel Durchsuchen..."></input>
+
+    <div class="search-results" hidden>
+        <ul>
+            
+        </ul>
+    </div>
+
+    <script>
+        (() => {
+            const searchWrapper = document.currentScript.parentElement;
+            const input = searchWrapper.querySelector("input");
+            const resultsContainer = searchWrapper.querySelector(".search-results");
+            const resultsList = searchWrapper.querySelector(".search-results ul");
+            const resultsElements = [...searchWrapper.querySelectorAll("li")];
+
+            const index = [
+                
+            ];
+
+            const fuse = new Fuse(index, {
+                keys: ["title", "summary", "url", "section"],
+                includeScore: true
+            });
+
+            input.addEventListener("input", () => {
+                const results = fuse.search(input.value);
+
+                for (const el of resultsElements) {
+                    const match = results.find(r => r.item.url === el.dataset.url);
+                    if (match) {
+                        el.removeAttribute("hidden");
+                        el.score = match.score;
+                    } else {
+                        el.setAttribute("hidden", "");
+                        el.score = 2;
+                    }
+                }
+
+                resultsElements
+                    .sort((a, b) => a.score - b.score)
+                    .forEach(el => resultsList.appendChild(el));
+
+                if (input.value) {
+                    resultsContainer.removeAttribute("hidden");
+                } else {
+                    resultsContainer.setAttribute("hidden", "");
+                }
+            });
+        })()
+    </script>
+</div>
+
+        </div>
+        
+
+        <ul class="articles">
+            
+        </ul>
+    </div>
+</div>
+
+
+
+        
+        
+
+        
+            <footer>
+    <nav>
+        <ul>
+             
+            
+            <li class="section-item ">
+                <a href="/blog/">
+                    Blog
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="section-item ">
+                <a href="/hilfe/">
+                    Hilfe
+                </a>
+            </li>
+            
+            
+
+            <li class="section-item">
+                <a href='mailto:mail@pentacode.app'>
+                    Kontakt
+                </a>
+            </li>
+
+            <li class="section-item">
+                <a href='/impressum/'>
+                    Impressum
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="copyright">
+        &copy; 2020 Sandstrøm Brand Management AG, Lindwurmstr. 147, 80337 München
+    </div>
+</footer>
+
+        
+
+        <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', '634a30dc-2e09-4b93-b79e-f530d0b3b877')</script>
+
+    </body>
+</html>
+

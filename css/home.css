@@ -1,0 +1,390 @@
+body {
+    overflow-x: hidden;
+}
+
+section {
+    margin: 4em 2em 8em 2em;
+    perspective: 2000px;
+    margin-bottom: 0;
+    margin-top: 0;
+    transform-style: preserve-3d;
+}
+
+section h1 {
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+section .btn.highlight {
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+}
+
+.divider {
+    width: 100%;
+    height: 160px;
+    margin: 10px 0 30px 0;
+    position: relative;
+    z-index: 100;
+}
+
+.divider .stop1 {
+    stop-color: var(--color-highlight);
+}
+
+.divider .stop2 {
+    stop-color: var(--color-highlight-bg);
+}
+
+section .inner {
+    display: flex;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+section .inner .content {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    background: var(--color-bg);
+    min-width: 500px;
+    padding: 3em 1em;
+}
+
+section .inner .content::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    left: -100px;
+    z-index: -1;
+    transform: translateZ(1px);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+}
+
+section .inner .content::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    right: -100px;
+    z-index: -1;
+    transform: translateZ(1px);
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+}
+
+section.right .inner {
+    flex-direction: row-reverse;
+}
+
+section.right .divider {
+    transform: scale(-1, 1);
+}
+
+.feature-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+    gap: 1em;
+    margin-top: 0.5em;
+}
+
+.feature-buttons .btn {
+    font-weight: 300;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin: auto;
+}
+
+.feature-buttons .btn i {
+    margin: 0;
+}
+
+.slides {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: visible;
+    transform-style: preserve-3d;
+}
+
+.slides .slides-inner {
+    width: 200%;
+    transform-origin: 0 0;
+    transform: scale(0.5);
+    transform-style: preserve-3d;
+}
+
+.slides .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    transform-origin: center center;
+}
+
+section.hero h1 {
+    margin-bottom: 0.3em;
+}
+
+section.hero h2 {
+    color: #ff6666;
+    margin-top: 0;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+section.hero h3 {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    max-width: 500px;
+}
+
+section.hero h3 strong {
+    font-weight: 700;
+}
+
+section.hero .inner .btn {
+    font-size: 120%;
+}
+
+section.simple .slides .slide.front {
+    transform: translate3d(200px, 150px, 40px) rotateY(20deg) rotateX(10deg);
+}
+
+section.simple .slides .slide.back {
+    transform: translate3d(-150px, -150px, 0) rotateY(20deg) rotateX(10deg);
+}
+
+section.simple .slide img {
+    box-sizing: border-box;
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 2em;
+    background: white;
+}
+
+section.secure .issues {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translate(0, -120px) rotateY(15deg) rotateX(10deg);
+}
+
+section.secure .issues > * {
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 1em;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+}
+
+section.controlling {
+    perspective: 2500px;
+}
+
+section.controlling .reports {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2em 0.5em;
+    transform: translate3d(-100px, -300px, -250px) rotateX(45deg) rotate(25deg);
+    transform-style: preserve-3d;
+}
+
+section.hero .slides {
+    overflow: hidden;
+    height: 400px;
+}
+
+section.hero .slides::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: translateZ(1px);
+    background: linear-gradient(
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0) 20%,
+            rgba(255, 255, 255, 0) 80%,
+            rgba(255, 255, 255, 1) 100%
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0) 10%,
+            rgba(255, 255, 255, 0) 90%,
+            rgba(255, 255, 255, 1) 100%
+        );
+}
+
+section.hero .features-outer {
+    transform: translate(80px, 0) rotateX(55deg) rotate(15deg);
+}
+
+@keyframes roll {
+    from {
+        transform: translate(0, 100%);
+    }
+
+    to {
+        transform: translate(0, -100%);
+    }
+}
+
+section.hero .features {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em 2em;
+    padding: 2em 0;
+    font-size: 0.9em;
+    width: 20em;
+    text-align: center;
+    animation: roll linear 40s -20s infinite;
+    /* background: linear-gradient( */
+    /*     var(--color-highlight), */
+    /*     var(--color-highlight-bg) 25%, */
+    /*     var(--color-highlight) 50%, */
+    /*     var(--color-highlight-bg) 75%, */
+    /*     var(--color-highlight) 100% */
+    /* ); */
+    /* -webkit-background-clip: text; */
+}
+
+section.hero .features:nth-child(2) {
+    animation-delay: 0s;
+}
+
+section.hero .feature {
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    /* color: var(--color-highlight); */
+    /* --fa-primary-color: var(--color-highlight); */
+    /* --fa-secondary-color: var(--color-highlight-bg); */
+    /* --fa-secondary-opacity: 1; */
+    background: linear-gradient(-45deg, var(--color-highlight), var(--color-highlight-bg) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--color-bg);
+}
+
+section.hero .feature i {
+    display: block;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+section.hero .feature div {
+    display: inline;
+}
+
+section.savings .savings-chart {
+    transform: translate(-100px, -80px) rotateY(15deg) rotateX(10deg);
+}
+
+section.savings .savings-chart img {
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 2em;
+    background: white;
+}
+
+section.innovative .slides-inner {
+    transform: scale(0.5);
+}
+
+section.innovative .desktop {
+    transform: translate3d(100px, -200px, -200px) rotateY(-30deg) rotateX(10deg);
+}
+
+section.innovative .tablet {
+    transform: translate3d(50px, 100px, -100px) rotateY(-30deg) rotateX(10deg);
+}
+
+section.innovative .phone {
+    transform: translate3d(800px, 300px, 200px) rotateY(-30deg) rotateX(10deg);
+}
+
+section.innovative .slide img {
+    padding: 1em;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+    border-radius: 2em;
+    background: white;
+}
+
+section.offer .inner {
+    justify-content: center;
+}
+
+section.offer .inner .content {
+    max-width: 40em;
+}
+
+section.offer .btn.highlight {
+    font-size: 1.1em;
+    padding: 0.8em 1.2em;
+    margin-top: 0.3em;
+    align-self: center;
+}
+
+section.offer .offer-terms {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0.5em;
+    margin: 1em 0.5em;
+}
+
+section.offer .offer-terms li {
+    font-size: 1.1em;
+    padding: 0.1em;
+}
+
+section.offer .offer-terms li i {
+    display: inline;
+    margin: 0.25em;
+}
+
+@media (max-width: 1023px) {
+    section {
+        margin: 2em;
+    }
+
+    section .inner {
+        flex-direction: column !important;
+    }
+
+    section .inner .content {
+        background: rgba(255, 255, 255, 0.5);
+        min-width: 0;
+        max-width: 500px;
+        padding: 1em 1em 2em 1em;
+    }
+
+    section .inner .content::before,
+    section .inner .content::after {
+        display: none;
+    }
+
+    .slides {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    section {
+        margin: 0;
+    }
+}

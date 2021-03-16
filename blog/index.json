@@ -1,0 +1,85 @@
+{
+  "section": "blog",
+  "pages": [
+    {
+      "title": "Weshalb Sie zuversichtlich in das Neue Jahr gehen sollten",
+      "summary": "Das Jahr 2020 hat die Gastronomie, unsere geliebte Branche, gebeutelt wie noch nie in den letzten 75 Jahren. Auch die ersten Monate des Neuen Jahres werden nicht einfach werden, und doch ist Zuversicht erlaubt. Nicht, weil man sich gerne ein gutes Ende einredet. Auch nicht, weil irgendjemand eine magische Kristallkugel hätte. Sondern durchaus begründet, wenn man einen Blick zurück in die Geschichte wirft.\nDenn Geschichte wiederholt sich.",
+      "url": "https://pentacode.app/blog/weshalb-sie-zuversichtlich-in-das-neue-jahr-gehen-sollten/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Lockdown im November – endlich ein deutliches Zeichen an die Gastronomen",
+      "summary": "Die Politik hat anscheinend begriffen, dass für den November Lockdown eine echte Unterstützung der Betriebe notwendig ist. Sie als Gastronomen und Hoteliers erhalten bis zu 75% des Umsatzes, den Sie im November 2019 erzielt haben.",
+      "url": "https://pentacode.app/blog/lockdown-im-november/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Personalkosten-Optimierung in der Gastronomie - es gibt mehr Möglichkeiten als Sie denken",
+      "summary": "Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wenn es um Personalkosten geht, bietet in Europa gerade Deutschland die besten Voraussetzungen für Arbeitgeber. Warum und wie Sie die bestehenden Möglichkeiten unbedingt nutzen sollten.",
+      "url": "https://pentacode.app/blog/personalkosten-optimierung/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Hilfe zur Selbsthilfe",
+      "summary": "Mit der Wieder- oder Neueinstellung von Mitarbeitern können Sie die Zusammensetzung der Gehälter neu gestalten. Damit haben Sie die Gelegenheit, bei gleichem Auszahlungsgehalt die Lohnnebenkosten erheblich zu senken. Wie Sie sofort spürbare Einsparungen erreichen können, erfahren Sie hier.",
+      "url": "https://pentacode.app/blog/hilfe-zur-selbsthilfe/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Warum Sie sich heute für die Zukunft vorbereiten sollten",
+      "summary": "Bis Sie Ihren Betrieb schließen mussten, hatten Sie einen klaren Blick nach vorne. Wenn Sie ihn wiedereröffnen, können Sie nicht mit Bestimmtheit sagen, wohin die „Reise“ wirtschaftlich geht. Warum Sie deshalb jetzt die unfreiwillig „freie“ Zeit nutzen sollten, sich für die Zukunft neu aufzustellen.",
+      "url": "https://pentacode.app/blog/warum-sie-sich-heute-fur-die-zukunft-vorbereiten-sollten/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Wo Sie Ihre Lebensmittel-Restbestände spenden können",
+      "summary": "Die Corona-Krise trifft die Gastronomie hart. Wenn die schwere Entscheidung der Schließung einmal getroffen ist stehen viele Gastronomen vor dem selben Problem: Wo hin mit dem Restbestand an verderblichen Lebensmitteln? Wir haben eine Liste von Spendenempfängern für Sie zusammengestellt.",
+      "url": "https://pentacode.app/blog/lebensmittel-spenden/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Corona-Krisenratgeber für Gastronomen: So beantragen Sie Hilfsmittel",
+      "summary": "Die Regierungen von Bund und Ländern haben angesichts der Corona-Krise ein außergewöhnliches Paket an Hilfsmaßnahmen zusammengestellt und eine unbürokratische Umsetzung zugesichert. Wir haben die wichtigsten Punkte für Sie zusammengefasst.",
+      "url": "https://pentacode.app/blog/covid-ratgeber-gastronomen/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Wichtige Infos im Rahmen der Corona-Krise",
+      "summary": "Die Epidemie des Covid-19 Virus versetzt gerade die Gesamte Welt in einen Ausnahmezustand. Wie es bei uns weiter geht und welche Maßnahmen wir ergreifen, um unsere Kunden und Gastronomen im allgemeinen zu unterstützen erfahren Sie hier.",
+      "url": "https://pentacode.app/blog/corona-krise-infos/",
+      "section": "Blog",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }
+  ]
+}

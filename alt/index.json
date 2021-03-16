@@ -1,0 +1,115 @@
+{
+  "section": "alt",
+  "pages": [
+    {
+      "title": "Die Pentacode Zeiterfassung Pentatime: einfach, schnell, kostensparend.",
+      "summary": "Die Pentatime Zeiterfassung ist ein Bestandteil der Pentacode Verwaltungslösung für die Gastronomie und Hotellerie. Einfach, schnell, kostensparend.",
+      "url": "https://pentacode.app/funktionen/zeiterfassung/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Einfach, sicher: Pentacode Kassenbuch für Gastronomie und Hotellerie",
+      "summary": "Leichte Verwaltung mit dem Pentacode Kassenbuch für die Gastronomie und Hotellerie. 5 Minuten für die Dokumentation des Tagesumsatzes, fertig!",
+      "url": "https://pentacode.app/funktionen/kassenbuch/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Kontakt zu Pentacode: Software für die Gastronomie und Hotellerie",
+      "summary": "Kontaktieren Sie das Pentacode Software-Team per email oder telefonisch. Wir sprechen gerne mit Ihnen und freuen uns auf Ihren Anruf!",
+      "url": "https://pentacode.app/kontakt/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Kunden der Pentacode Gastronomie-Verwaltungssoftware",
+      "summary": "Kunden der Pentacode Verwaltungssoftware für die Gastronomie und Hotellerie berichten von ihren Erfahrungen: Zeiteinsparungen, Einsparungen bei den Personalkosten, Einfache Bedienbarkeit, mehr Sicherheit bei Betriebsprüfungen.",
+      "url": "https://pentacode.app/kundenempfehlungen/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Online Demo: Pentacode Software für die Gastronomie und Hotellerie",
+      "summary": "Online Demo: Pentacode Verwaltungs-Software für die Gastronomie und Hotellerie. Umfassend, sicher, einfach, empfohlen. Ohne Buchhaltungskenntnisse.",
+      "url": "https://pentacode.app/pentacode-online-demo/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Pentacode Dienstplanung: Einfach, schnell, umfassend",
+      "summary": "Pentacode Dienstplanung für die Gastronomie und Hotellerie. Schichtvorlagen, Dienstplanvorlagen Arbeitszeitüberwachung Fristüberwachung",
+      "url": "https://pentacode.app/funktionen/dienstplanung/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Pentacode Funktionen: Verwaltungs-Software für Gastronomie/Hotellerie",
+      "summary": "Pentacode Funktionen: Kassenbuch, Zeiterfassung, Dokumentation, Controlling, Dienstplanung - umfassende Verwaltungssoftware für Gastronomie und Hotellerie",
+      "url": "https://pentacode.app/funktionen/#controlling/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Pentacode Funktionen: Verwaltungs-Software für Gastronomie/Hotellerie",
+      "summary": "Pentacode Funktionen: Kassenbuch, Zeiterfassung, Dokumentation, Controlling, Dienstplanung - umfassende Verwaltungssoftware für Gastronomie und Hotellerie",
+      "url": "https://pentacode.app/funktionen/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Pentacode Software: Profis für die Gastronomie und Hotellerie Verwaltung",
+      "summary": "All in On-Office-Software Pentacode von Profis entwickelt: Steuerberater, Wirtschaftsprüfer, Rechtsanwälte, Buchhalter und Hoteliers und Gastronomen selbst.",
+      "url": "https://pentacode.app/pentacode-home/pentacode-ueber-uns/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Pentacode Verwaltung: Dokumentation in der Gastronomie und Hotellerie",
+      "summary": "Einfache und umfassende, prüfungssichere Dokumentation in der Gastronomie und Hotellerie mit der Verwaltungssoftware Pentacode.",
+      "url": "https://pentacode.app/funktionen/dokumentation/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }, 
+    {
+      "title": "Übersicht Pentacode: Verwaltungssoftware für Gastronomie und Hotellerie",
+      "summary": "Übersicht über die Pentacode Verwaltungssoftware. Umfassende Lösung für alle anfallenden Verwaltungsarbeiten in der Gastronomie und Hotellerie",
+      "url": "https://pentacode.app/funktionen/uebersicht/",
+      "section": "Alt",
+      "keywords": null,
+      "anchors": null,
+      "icon": "scroll",
+      "isDescendant": true
+    }
+  ]
+}

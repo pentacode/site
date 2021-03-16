@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVP5NJ56FM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MVP5NJ56FM', { 'anonymize_ip': true });
+        </script>
+
+        <title>Dienstplan Schreiben</title>
+        <link rel="shortcut icon" href="/img/icon.png">
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="description" content="In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!
+Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter Einstellungen / Arbeitsbereiche definiert haben."></meta>
+        <meta name="og:title" content="Pentacode"></meta>
+        <meta name="og:description" content="In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!
+Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter Einstellungen / Arbeitsbereiche definiert haben."></meta>
+        
+
+        
+        <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
+        
+
+        
+
+        
+    
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+        <link href="/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="/css/vars.css" rel="stylesheet" type="text/css">
+        <link href="/css/base.css" rel="stylesheet" type="text/css">
+        <link href="/css/layout.css" rel="stylesheet" type="text/css">
+        <link href="/css/header.css" rel="stylesheet" type="text/css">
+        <link href="/css/animation.css" rel="stylesheet" type="text/css">
+        
+    <link href="/css/single.css" rel="stylesheet" type="text/css" />
+
+
+        
+        
+
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    </head>
+    <body>
+        
+
+<header class="blue">
+    <div class="header-inner horizonal center-aligning layout">
+        <nav class="sections">
+            <ul class="horizontal center-aligning layout">
+                <li>
+                    <a href="/"><img class="logo" src="/img/logo.svg" /></a>
+                </li>
+
+                 
+                
+                <li class="section-item ">
+                    <a href="/blog/">
+                        Blog
+                    </a>
+                </li>
+                
+                
+                
+                
+                
+                <li class="section-item active">
+                    <a href="/hilfe/">
+                        Hilfe
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+
+        <div class="stretch"></div>
+
+        <nav class="login-signup">
+            <ul class="horizontal center-aligning layout">
+                <li hidden>
+                    <a href='' class="">Login</a>
+                </li>
+                <li>
+                    <a href="https://calendly.com/pentacode/demo" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pentacode/demo'});return false;" class="btn get-started text-clip">
+                        <i class="fas fa-user-headset"></i>
+                        <span>Termin Vereinbaren</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="menu">
+            <button class="btn menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="menu-inner" hidden>
+                <nav class="menu-login-signup">
+                    <ul>
+                        <li>
+                            <a href='/#angebot' class="btn text-clip">
+                                <i class="fas fa-user-headset"></i>
+                                <span>Termin Vereinbaren</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="menu-sections">
+                    <ul>
+                         
+                        
+                        <li>
+                            <a href="/blog/">
+                                Blog
+                            </a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/hilfe/">
+                                Hilfe
+                            </a>
+                        </li>
+                        
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    (() => {
+        const menuButton = document.querySelector(".menu-button");
+        const menu = document.querySelector(".menu-inner");
+
+        menuButton.addEventListener("click", e => {
+            e.stopPropagation();
+            menu.removeAttribute("hidden");
+        });
+
+        document.addEventListener("click", () => {
+            menu.setAttribute("hidden", "");
+        });
+    })();
+</script>
+
+
+<div class="main-layout">
+    <div>
+        <div class="side-menu">
+        
+            <div class="animation-reveal">
+                <div class="search-wrapper">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
+    <link href="/css/search.css" rel="stylesheet" type="text/css" />
+
+    <input type="search" placeholder="Artikel Durchsuchen..."></input>
+
+    <div class="search-results" hidden>
+        <ul>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-alle/arbeitszeiten/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-alle/arbeitszeiten/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-clock'></i>
+                            Mitarbeiter (Alle)
+                        </div>
+                        <div class="search-result-title">
+                            Arbeitszeiten
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/benutzerkonto/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/benutzerkonto/">
+                        <div class="search-result-section">
+                            <i class='fas fa-unlock-alt'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Benutzerkonto
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/dienstplan/schreiben/" hidden>
+                    <a href="/hilfe/handbuch/dienstplan/schreiben/">
+                        <div class="search-result-section">
+                            <i class='fas fa-pencil-alt'></i>
+                            Dienstplan
+                        </div>
+                        <div class="search-result-title">
+                            Dienstplan Schreiben
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/zeiterfassung/stempeluhr/" hidden>
+                    <a href="/hilfe/handbuch/zeiterfassung/stempeluhr/">
+                        <div class="search-result-section">
+                            <i class='fas fa-stopwatch'></i>
+                            Zeiterfassung
+                        </div>
+                        <div class="search-result-title">
+                            Einrichten der Stempeluhr
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/ihr-helpdesk/" hidden>
+                    <a href="/hilfe/handbuch/ihr-helpdesk/">
+                        <div class="search-result-section">
+                            <i class='fas fa-digging'></i>
+                            Handbuch
+                        </div>
+                        <div class="search-result-title">
+                            Ihr Helpdesk
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-alle/konten/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-alle/konten/">
+                        <div class="search-result-section">
+                            <i class='fas fa-balance-scale-right'></i>
+                            Mitarbeiter (Alle)
+                        </div>
+                        <div class="search-result-title">
+                            Konten
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/konten/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/konten/">
+                        <div class="search-result-section">
+                            <i class='fas fa-balance-scale-right'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Konten
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/umsaetze/umsatzgruppen/" hidden>
+                    <a href="/hilfe/handbuch/umsaetze/umsatzgruppen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-layer-group'></i>
+                            Umsätze
+                        </div>
+                        <div class="search-result-title">
+                            Umsatzgruppen
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/vorwort/" hidden>
+                    <a href="/hilfe/handbuch/vorwort/">
+                        <div class="search-result-section">
+                            <i class='fas fa-book-open'></i>
+                            Handbuch
+                        </div>
+                        <div class="search-result-title">
+                            Vorwort
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/arbeitszeiten/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/arbeitszeiten/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-clock'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Arbeitszeiten
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/zeiterfassung/tablet-funktionen/" hidden>
+                    <a href="/hilfe/handbuch/zeiterfassung/tablet-funktionen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-tablet-alt'></i>
+                            Zeiterfassung
+                        </div>
+                        <div class="search-result-title">
+                            Funktionen der Stempeluhr
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/umsaetze/tagesabrechnung/" hidden>
+                    <a href="/hilfe/handbuch/umsaetze/tagesabrechnung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-hand-holding-usd'></i>
+                            Umsätze
+                        </div>
+                        <div class="search-result-title">
+                            Tagesabrechnung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/unternehmen/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/unternehmen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-building'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Unternehmen
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/arbeitsbereiche/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/arbeitsbereiche/">
+                        <div class="search-result-section">
+                            <i class='fas fa-cubes'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Arbeitsbereiche
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/umsaetze/kassenbuch/" hidden>
+                    <a href="/hilfe/handbuch/umsaetze/kassenbuch/">
+                        <div class="search-result-section">
+                            <i class='fas fa-book-open'></i>
+                            Umsätze
+                        </div>
+                        <div class="search-result-title">
+                            Kassenbuch
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-alt'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Stammdaten
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/zeiterfassung/tagesuebersicht/" hidden>
+                    <a href="/hilfe/handbuch/zeiterfassung/tagesuebersicht/">
+                        <div class="search-result-section">
+                            <i class='fas fa-clock'></i>
+                            Zeiterfassung
+                        </div>
+                        <div class="search-result-title">
+                            Tagesübersicht
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/umsaetze/erloeszuordnung/" hidden>
+                    <a href="/hilfe/handbuch/umsaetze/erloeszuordnung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-thumbtack'></i>
+                            Umsätze
+                        </div>
+                        <div class="search-result-title">
+                            Erlöszuordnung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/dienstplan/plan-ist-vergleich/" hidden>
+                    <a href="/hilfe/handbuch/dienstplan/plan-ist-vergleich/">
+                        <div class="search-result-section">
+                            <i class='fas fa-chart-line'></i>
+                            Dienstplan
+                        </div>
+                        <div class="search-result-title">
+                            Plan-Ist-Vergleich
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/postionen/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/postionen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-tag'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Positionen
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/zeiterfassung/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/zeiterfassung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-stopwatch'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Zeiterfassung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/berechtigungen/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/berechtigungen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-edit'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Berechtigungen
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/sonstiges/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/sonstiges/">
+                        <div class="search-result-section">
+                            <i class='fas fa-ball-pile'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Sonstiges
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/buchhaltung/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/buchhaltung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-abacus'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Buchhaltung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/zeiterfassung/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/zeiterfassung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-stopwatch'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Zeiterfassung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/einstellungen/rechnungsstellung/" hidden>
+                    <a href="/hilfe/handbuch/einstellungen/rechnungsstellung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-file-invoice-dollar'></i>
+                            Einstellungen
+                        </div>
+                        <div class="search-result-title">
+                            Rechnungsstellung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/vertrag/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/vertrag/">
+                        <div class="search-result-section">
+                            <i class='fas fa-file-contract'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Vertrag
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/vertraege/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/vertraege/">
+                        <div class="search-result-section">
+                            <i class='fas fa-file-signature'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Vertrag bearbeiten; Vertragshistorie
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-einzeln/neuer-mitarbeiter/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-einzeln/neuer-mitarbeiter/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-plus'></i>
+                            Mitarbeiter (Einzeln)
+                        </div>
+                        <div class="search-result-title">
+                            Neuer Mitarbeiter
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/tips_und_rezepte/fiktiver-dienstplan-bei-kurzarbeit/" hidden>
+                    <a href="/hilfe/tips_und_rezepte/fiktiver-dienstplan-bei-kurzarbeit/">
+                        <div class="search-result-section">
+                            <i class='fas fa-table'></i>
+                            Tipps &amp; Rezepte
+                        </div>
+                        <div class="search-result-title">
+                            &#34;Fiktiver&#34; Dienstplan bei Kurzarbeit
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/berichte/arbeitszeit/" hidden>
+                    <a href="/hilfe/handbuch/berichte/arbeitszeit/">
+                        <div class="search-result-section">
+                            <i class='fas fa-chart-bar'></i>
+                            Berichte
+                        </div>
+                        <div class="search-result-title">
+                            Arbeitszeit
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-alle/berechtigungen/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-alle/berechtigungen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-edit'></i>
+                            Mitarbeiter (Alle)
+                        </div>
+                        <div class="search-result-title">
+                            Berechtigungen
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/berichte/ersparnis/" hidden>
+                    <a href="/hilfe/handbuch/berichte/ersparnis/">
+                        <div class="search-result-section">
+                            <i class='fas fa-piggy-bank'></i>
+                            Berichte
+                        </div>
+                        <div class="search-result-title">
+                            Ersparnis
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/berichte/personalkosten/" hidden>
+                    <a href="/hilfe/handbuch/berichte/personalkosten/">
+                        <div class="search-result-section">
+                            <i class='fas fa-chart-area'></i>
+                            Berichte
+                        </div>
+                        <div class="search-result-title">
+                            Personalkosten
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/planung/stundenvorgaben/" hidden>
+                    <a href="/hilfe/handbuch/planung/stundenvorgaben/">
+                        <div class="search-result-section">
+                            <i class='fas fa-hourglass-half'></i>
+                            Planung
+                        </div>
+                        <div class="search-result-title">
+                            Planung nach Stundenvorgaben
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-alle/positionen/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-alle/positionen/">
+                        <div class="search-result-section">
+                            <i class='fas fa-user-tag'></i>
+                            Mitarbeiter (Alle)
+                        </div>
+                        <div class="search-result-title">
+                            Positionen
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/planung/umsatzplanung/" hidden>
+                    <a href="/hilfe/handbuch/planung/umsatzplanung/">
+                        <div class="search-result-section">
+                            <i class='fas fa-paper-plane'></i>
+                            Planung
+                        </div>
+                        <div class="search-result-title">
+                            Umsatzplanung
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/berichte/umsaetze/" hidden>
+                    <a href="/hilfe/handbuch/berichte/umsaetze/">
+                        <div class="search-result-section">
+                            <i class='fas fa-search-dollar'></i>
+                            Berichte
+                        </div>
+                        <div class="search-result-title">
+                            Umsätze
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/mitarbeiter-alle/vorschuesse/" hidden>
+                    <a href="/hilfe/handbuch/mitarbeiter-alle/vorschuesse/">
+                        <div class="search-result-section">
+                            <i class='fas fa-coins'></i>
+                            Mitarbeiter (Alle)
+                        </div>
+                        <div class="search-result-title">
+                            Vorschüsse
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/tips_und_rezepte/wie-richtige-dienstplanung-den-gewinn-erhoht/" hidden>
+                    <a href="/hilfe/tips_und_rezepte/wie-richtige-dienstplanung-den-gewinn-erhoht/">
+                        <div class="search-result-section">
+                            <i class='fas fa-cauldron'></i>
+                            Tipps &amp; Rezepte
+                        </div>
+                        <div class="search-result-title">
+                            Wie richtige Dienstplanung den Gewinn erhöht
+                        </div>
+                    </a>
+                </li>
+            
+                <li data-url="/hilfe/handbuch/berichte/ubersicht/" hidden>
+                    <a href="/hilfe/handbuch/berichte/ubersicht/">
+                        <div class="search-result-section">
+                            <i class='fas fa-highlighter'></i>
+                            Berichte
+                        </div>
+                        <div class="search-result-title">
+                            Übersicht
+                        </div>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <script>
+        (() => {
+            const searchWrapper = document.currentScript.parentElement;
+            const input = searchWrapper.querySelector("input");
+            const resultsContainer = searchWrapper.querySelector(".search-results");
+            const resultsList = searchWrapper.querySelector(".search-results ul");
+            const resultsElements = [...searchWrapper.querySelectorAll("li")];
+
+            const index = [
+                
+                {
+                    title: "Arbeitszeiten",
+                    summary: "Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.\nSpaltenbezeichnung Unter \u0026ldquo;Alle Mitarbeiter\u0026rdquo; finden Sie im jeweils gewählten Monat die Arbeitsstunden, die ein Mitarbeiter in den verschiedenen Abteilungen geleistet hat, sowie die eventuellen Zuschläge, die sich aus den jeweiligen gearbeiteten Zeiträumen ergeben haben. Diese Übersicht ist Grundlage für die Lohnabrechnung.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-alle\/arbeitszeiten\/",
+                    section: "Mitarbeiter (Alle)",
+                },
+                
+                {
+                    title: "Benutzerkonto",
+                    summary: "Sofern ein Administrator Zugang zum \u0026ldquo;Benutzerkonto\u0026rdquo; hat, kann er in diesem Menüpunkt seine Email-Adresse wie auch sein Passwort ändern.\n Benutzerdaten \u0026amp; Passwort ändern  Hat ein Administrator sein Passwort vergessen, kann er lediglich auf der Startseite von Pentacode über \u0026ldquo;Passwort Vergessen\u0026rdquo; ein neues Passwort anfordern.",
+                    url: "\/hilfe\/handbuch\/einstellungen\/benutzerkonto\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Dienstplan Schreiben",
+                    summary: "In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!\nDie Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter Einstellungen \/ Arbeitsbereiche definiert haben.",
+                    url: "\/hilfe\/handbuch\/dienstplan\/schreiben\/",
+                    section: "Dienstplan",
+                },
+                
+                {
+                    title: "Einrichten der Stempeluhr",
+                    summary: "Die Zeiterfassung mithilfe einer \u0026ldquo;Stempeluhr\u0026rdquo; erfolgt über Tablet. Dabei werden die Betriebssysteme Android, iOS und Windows unterstützt.\nEinrichten eines Android-Tablets WICHTIG: Die Verwendung der Pentacode Zeiterfassung erfordert Android 4.4 oder neuer! Ältere Android-Versionen werden nicht unterstützt.\n1. Schritt: Öffnen Sie Google Chrome und geben Sie time.pentacode.app ein.\n2. Schritt: Wählen Sie über das Dropdown Menü unter Google Chrome Einstellungen (die 3 vertikalen Punkte am rechten oberen Eck) Add to Home screen",
+                    url: "\/hilfe\/handbuch\/zeiterfassung\/stempeluhr\/",
+                    section: "Zeiterfassung",
+                },
+                
+                {
+                    title: "Ihr Helpdesk",
+                    summary: "Wir erlauben uns, Ihnen kurz zu erklären, wie Ihr Helpdesk funktioniert und wie Sie am einfachsten und schnellsten die Antwort auf eine Frage finden.\n\u0026ldquo;? Hilfe\u0026rdquo; In jedem Menüpunkt von Pentacode sehen Sie am linken unteren Eck \u0026ldquo;? Hilfe\u0026rdquo;.\n \u0026lsquo;? Hilfe\u0026rsquo; bringt Sie zu unserem Helpdesk  Indem Sie auf \u0026ldquo;? Hilfe\u0026rdquo; klicken öffnet eine Liste von Hilfeartikeln, die in einem engen oder auch nur losen Zusammenhang mit dem Menüpunkt stehen, in dem Sie sich im Moment befinden.",
+                    url: "\/hilfe\/handbuch\/ihr-helpdesk\/",
+                    section: "Handbuch",
+                },
+                
+                {
+                    title: "Konten",
+                    summary: "Um Ihnen einen schnellen Überblick über die Konten aller Mitarbeiter zu ermöglichen, werden diese in einer Gesamtübersicht dargestellt.\nDie Gesamtansichten ist nicht \u0026ldquo;editierbar\u0026rdquo;, können an dieser Stelle also nicht bearbeitet werden. Wenn Sie die Daten eines Mitarbeiters korrigieren wollen, klicken Sie bitte auf den Namen des Mitarbeiters. Sie landen automatisch in dessen Konto. Dort können Sie die Korrekturen vornehmen.\nMonatsübersicht In der Übersicht \u0026ldquo;Konten\u0026rdquo; sind die Salden zu den Arbeitszeitkonten, dem Urlaubskonto und zu den individuellen SFN-Zuschlägen des jeweils in der Kopfzeile gewählten Monats ausgewiesen.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-alle\/konten\/",
+                    section: "Mitarbeiter (Alle)",
+                },
+                
+                {
+                    title: "Konten",
+                    summary: "Im Menüpunkt \u0026ldquo;Konten\u0026rdquo; finden Sie das Jahresarbeitszeit- Urlaubs- und Zuschlagskonto des gewählten Mitarbeiters. Diese Konten werden in ihrer Entwicklung während des jeweiligen Monats dargestellt, der zum Monatsende jeweils aufgelaufene Saldo findet sich in der Spalte \u0026ldquo;Saldo\u0026rdquo;. Der aktuelle Gesamtsaldo wird in der Kopfzeile des jeweiligen Kontos ausgewiesen.\nZum Jahreswechsel findet automatisch ein Übertrag der saldierten Werte statt. Die Weiterrechnung erfolgt auf Grundlage des Übertrags.\nStunden In diesem Konto werden die Soll-Zeiten, die ein Mitarbeiter arbeiten soll, den tatsächlich geleisteten Arbeitszeiten gegenübergestellt und Über- oder Minderstunden ausgewiesen.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/konten\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Umsatzgruppen",
+                    summary: "Im Menüpunkt \u0026ldquo;Umsatzgruppen\u0026rdquo; haben Sie die Möglichkeit, Umsatz-, Zahlungs- und Kostenarten in Gruppen zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.\nDarüber hinaus erscheinen diese Gruppen als dauerhafte Einträge in der \u0026ldquo;Tagesabrechnung\u0026rdquo;.\nAnlegen von Umsatzgruppen Klicken Sie auf \u002b Neue Umsatzgruppe\u0026quot; und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.\n Durch Entfernen des Buttons \u0026lsquo;Kassenbuch\u0026rsquo; wird die Umsatzart lediglich statistisch erfasst  Die Umsatzgruppe wird durch \u0026ldquo;Abschließen und Buchen\u0026rdquo; in der Tagesabrechnung automatisch in das Kassenbuch geschrieben.",
+                    url: "\/hilfe\/handbuch\/umsaetze\/umsatzgruppen\/",
+                    section: "Umsätze",
+                },
+                
+                {
+                    title: "Vorwort",
+                    summary: "Ein paar kurze Sätze vorweg!\nUm eines gleich zu sagen: Die Hilfeartikel sollen Sie dabei unterstützen, möglichst schnell eine möglichst umfassende Kenntnis der vielen Möglichkeiten zu erhalten, die Pentacode bietet. Sie sollen Sie jedoch nicht davon abhalten, unseren Support in Anspruch zu nehmen. Wir unterstützen Sie nämlich gerne persönlich!\nDie Artikel sind leicht verständlich geschrieben und mit einer Vielzahl von bildhaften Anleitungen versehen. Selbst wenn Sie bei Inbetriebnahme von Pentacode völlig auf die Unterstützung durch unseren Support verzichten würden, werden Sie die Software innerhalb einer Stunde wirksam in Gang setzen können, innerhalb von etwa drei Stunden haben Sie eine umfassende Kenntnis aller Funktionen und Möglichkeiten von Pentacode erworben.",
+                    url: "\/hilfe\/handbuch\/vorwort\/",
+                    section: "Handbuch",
+                },
+                
+                {
+                    title: "Arbeitszeiten",
+                    summary: "Mit \u0026ldquo;Arbeitszeiten\u0026rdquo; ist das monatliche Arbeitszeitkonto des Mitarbeiters bezeichnet. In diesem Konto werden die detaillierten Arbeitszeiteinträge gelistet, die durch die Zeiterfassung durch den Mitarbeiter entstanden sind.\nAufbau und Struktur Im Monatsarbeitszeitkonto eines Mitarbeiters werden dargestellt: die Abteilung, in der der Mitarbeiter am jeweiligen Tag gearbeitet hat, Anfang und Ende des Arbeitstages, sowie der Arbeitspausen entsprechend Ihrer Regeleinstellung für die Zeiterfassung und die Anzahl eventueller Mahlzeiten\n Hier sehen Sie den Verlauf der einzelnen Arbeitstage  Am rechten Rand sehen Sie die errechnete Dauer des Arbeitstages unter Abzug der Pausen und die Anzahl der Zuschlagsstunden in den einzelnen Zuschlagszonen entsprechend der Einstellungen in den Vertragsdaten des Mitarbeiters.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/arbeitszeiten\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Funktionen der Stempeluhr",
+                    summary: "Anzeige am Tablet In der Rubrik \u0026ldquo;Geplant\u0026rdquo; sehen Sie die Mitarbeiter, die zum Dienst erwartet werden oder in Rot gekennzeichnet eventuelle Verspätungen, unter \u0026ldquo;Aktiv\u0026rdquo; werden bereits eingeloggte Mitarbeiter gezeigt.\nIn der Standardeinstellung sind die Mitarbeiter aller Abteilungen sichtbar.\n Ansicht der Zeiterfassung am Tablet  Abteilungen auswählen Sollten Sie mehrere Tablets in Ihrem Betrieb verwenden, so können Sie durch das Antippen von \u0026ldquo;Alle Abteilungen\u0026rdquo; unter der Datumsangabe auf dem Tablet jene Abteilungen auswählen, deren Mitarbeiter an einem bestimmten Tablet gezeigt werden sollen.",
+                    url: "\/hilfe\/handbuch\/zeiterfassung\/tablet-funktionen\/",
+                    section: "Zeiterfassung",
+                },
+                
+                {
+                    title: "Tagesabrechnung",
+                    summary: "Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Umsätzen und Ausgaben. Diese Erfassung erledigen Sie in der \u0026ldquo;Tagesabrechnung\u0026rdquo; von Pentacode. Kassenbuch, Debitorenverwaltung und Vorschusserfassung geschieht im Anschluss vollständig automatisch.\nUmsatzerfassung MIT Umsatzgruppen Wenn Sie bereits Umsatzgruppen angelegt haben, finden Sie diese in der von Ihnen gewählten Reihenfolge und dauerhaft in der Tagesabrechnung vor. Dies gilt auf für unbare Zahlarten oder Ausgabepositionen, die Sie eventuell zu Gruppen zusammengefasst haben.",
+                    url: "\/hilfe\/handbuch\/umsaetze\/tagesabrechnung\/",
+                    section: "Umsätze",
+                },
+                
+                {
+                    title: "Unternehmen",
+                    summary: "Die hier hinterlegten Unternehmensdaten dienen lediglich zur allgemeinen Information.\nEine Änderung der Adressdaten hat keinerlei sonstige Auswirkung.\n Angaben zum Unternehmen und allgemeine Kontaktdaten  ",
+                    url: "\/hilfe\/handbuch\/einstellungen\/unternehmen\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Arbeitsbereiche",
+                    summary: "Mit \u0026ldquo;Arbeitsbereiche\u0026rdquo; umschreiben wir, was in vielen Unternehmen auch als Abteilungen bezeichnet wird.\nIm Menüpunkt \u0026ldquo;Arbeitsbereiche\u0026rdquo; legen Sie Standorte und deren Abteilungen an und bestimmen eventuell Regeln für die Zeiterfassung, die von den allgemeingültigen Regeln abweichen, die Sie im Menüpunkt \u0026quot;Zeiterfassung\u0026quot; definiert haben.\nWenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie \u0026ldquo;an Bord gehen\u0026rdquo;.\nNeuer Standort Sie können weitere Standorte anlegen, indem Sie auf \u0026ldquo;\u002b Neuer Standort\u0026rdquo; klicken.",
+                    url: "\/hilfe\/handbuch\/einstellungen\/arbeitsbereiche\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Kassenbuch",
+                    summary: "Das Kassenbuch in Pentacode entsteht selbständig durch \u0026ldquo;Abschließen \u0026amp; Buchen\u0026rdquo; in der Tagesabrechnung.\n Manuell in das Kassenbuch werden ausschließlich jene Einnahmen oder Ausgaben eingetragen, für die Sie im Wortsinn \u0026ldquo;an den Tresor\u0026rdquo; gehen, in anderen Worten: Wenn Sie auf Gelder zugreifen, die aus zurückliegenden, bereits abgerechneten Tagen stammen.\n Wenn Sie z.B. am Montag eine Bankeinzahlung durchführen, so zahlen Sie das Bargeld ein, das von den Umsätzen des Wochenendes verblieben ist.",
+                    url: "\/hilfe\/handbuch\/umsaetze\/kassenbuch\/",
+                    section: "Umsätze",
+                },
+                
+                {
+                    title: "Stammdaten",
+                    summary: "In den Stammdaten werden die persönlichen Angaben zum Mitarbeiter erfasst.\nZwingende Angaben Zwingende Angaben eines Mitarbeiters sind dessen Vorname und Nachname.\nDie Personalnummer wird nicht automatisch vergeben. Diese erhalten Sie durch Ihre Lohnbuchhaltung.\n Im Besonderen für den Fall, dass Sie die Bewegungsdaten an Ihre Lohnbuchhaltung exportieren wollen, ist es zwingend notwendig, dass die Personalnummer in Pentacode identisch mit der Personalnummer im Buchhaltungsprogramm ist.\n  Vor- und Nachname des Mitarbeiters sind zwingende Angaben   Wenn ein Mitarbeiter Zugang zu Pentacode erhalten soll, oder Sie den Mitarbeitern deren Dienstpläne zusenden wollen, ist die Angabe einer persönlichen Email-Adresse notwendig.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/stammdaten\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Tagesübersicht",
+                    summary: "Im Hauptmenü \u0026ldquo;Zeiterfassung\u0026rdquo; sehen Sie die Mitarbeiter, die am jeweils gewählten Tag laut Dienstplan zur Arbeit eingeteilt sind.\nDie Mitarbeiter erscheinen chronologisch nach geplantem Dienstbeginn, bzw. nach Zeitpunkt des Log-ins für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.\nZeiterfassung MIT Stempeluhr Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die geplanten Arbeitszeiten , darunter die aktuellen Log-Zeiten.\n Hier sehen Sie geplante und tatsächlich geloggte Arbeitszeiten in einer Gegenüberstellung  Sollte sich ein Mitarbeiter außerhalb der von Ihnen festgelegten \u0026ldquo;Karenz-Zeit\u0026rdquo; eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein \u0026ldquo;?",
+                    url: "\/hilfe\/handbuch\/zeiterfassung\/tagesuebersicht\/",
+                    section: "Zeiterfassung",
+                },
+                
+                {
+                    title: "Erlöszuordnung",
+                    summary: "In Pentacode können Sie Ihren Dienstplan nach Zielen führen, die von Ihnen gesetzt werden. Voraussetzung hierfür ist, dass Sie im Vorfeld \u0026ldquo;Umsatzgruppen\u0026rdquo; erstellt haben.\nUnter \u0026ldquo;Umsätze\u0026rdquo; können Sie im Menüpunkt \u0026ldquo;Erlöszuordnung\u0026rdquo; den Umsatzgruppen jene Abteilungen zuweisen, die an der Realisierung des jeweiligen Umsatzes beteiligt sind.\nWenn Sie erstmals \u0026ldquo;Erlöszuordnung\u0026rdquo; anklicken, finden Sie die Umsatzgruppen und die Abteilungen, die Sie für den Betrieb angelegt haben.\n Hier sehen Sie die Umsatzgruppen und Abteilungen, die Sie angelegt haben  Ziehen Sie hierzu die entsprechenden Abteilungen per \u0026ldquo;drag \u0026amp; drop\u0026rdquo; in die gewählte Umsatzgruppe.",
+                    url: "\/hilfe\/handbuch\/umsaetze\/erloeszuordnung\/",
+                    section: "Umsätze",
+                },
+                
+                {
+                    title: "Plan-Ist-Vergleich",
+                    summary: "Oft verliert eine Planung ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?\nDurch das Anklicken des  -Symbols erscheinen am Fuß des Dienstplans zwei Linien über welche die Personalkosten aus der Planung den Kosten durch die tatsächlich aufgewendeten Arbeitszeiten gegenübergestellt sind.",
+                    url: "\/hilfe\/handbuch\/dienstplan\/plan-ist-vergleich\/",
+                    section: "Dienstplan",
+                },
+                
+                {
+                    title: "Positionen",
+                    summary: "Unter dem Hauptmenü-Punkt \u0026ldquo;Einstellungen\u0026rdquo; und dort unter \u0026ldquo;Arbeitsbereiche\u0026rdquo; haben Sie für Ihr Unternehmen Abteilungen angelegt und diesen Abteilungen eventuell Positionen zugewiesen.\nDiese Abteilungen und deren eventuelle Positionen finden Sie bei jedem Mitarbeiter unter dem Menüpunkt \u0026ldquo;Positionen\u0026rdquo; wieder.\nIndem Sie die entsprechenden Buttons wählen, weisen Sie den Mitarbeiter einer oder mehreren Abteilungen zu, in denen dieser tätig sein soll.\n Hier wählen Sie aus, in welchen Abteilungen der Mitarbeiter im Dienstplan erscheint  Der Mitarbeiter erscheint im Dienstplan nun in den von Ihnen ausgewählten Abteilungen und kann in diesen Abteilungen geplant werden.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/postionen\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Zeiterfassung",
+                    summary: "Die elektronische Zeiterfassung in Pentacode ist keine einfache Stechuhr, die \u0026ldquo;kritiklos\u0026rdquo; nur den den Anfang und das Ende des Arbeitstages eines Mitarbeiters \u0026ldquo;stempelt\u0026rdquo;. Die Regeln, nach welchen die Zeiterfassung mit Stempeluhr in Ihrem Unternehmen funktionieren soll, werden durch Sie definiert.\nAllgemeingültige Einstellungen Die Regeln, die Sie hier wählen, sind globale Einstellungen, welche vorläufig für alle Mitarbeiter und für alle Abteilungen gelten. Einmal gewählte Regeleinstellungen können jederzeit geändert werden. Mit dem Befehl \u0026ldquo;Speichern\u0026rdquo; gilt ab sofort der neu gewählte Regelsatz.",
+                    url: "\/hilfe\/handbuch\/einstellungen\/zeiterfassung\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Berechtigungen",
+                    summary: "Unter \u0026ldquo;Berechtigungen\u0026rdquo; können Sie einem Mitarbeiter Zugang zu von Ihnen ausgewählten Bereichen in Pentacode geben.\nEs können beliebig viele Mitarbeiter Ihres Hauses in Ihrer Datenbank arbeiten. Welcher dieser Mitarbeiter zu welchen Bereichen in Pentacode Zugang hat, bestimmen alleine Sie als Administrator.\n Voraussetzung für die Erteilung einer Berechtigung ist, dass Sie in den \u0026ldquo;Stammdaten\u0026rdquo; des Mitarbeiters dessen Email-Adresse hinterlegt haben.\n Erteilen einer Berechtigung Um einem Mitarbeiter Zugang zu Ihrer Datenbank zu geben, aktivieren Sie zuerst den Button bei \u0026ldquo;Administrationszugang\u0026rdquo;.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/berechtigungen\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Sonstiges",
+                    summary: "Im Menüpunkt \u0026ldquo;Einstellungen\u0026rdquo; und dort unter \u0026ldquo;Sonstiges\u0026rdquo; bestimmen generelle Grundsätze, nach denen Pentacode operiert\n\u0026ldquo;Kontoführung Ab\u0026rdquo; Unter \u0026ldquo;Kontoführung ab\u0026rdquo; legen Sie fest, ab welchem Zeitpunkt die Arbeitszeitkonten Ihrer Mitarbeiter in Pentacode geführt werden.\n Hier legen Sie fest, ab wann Pentacode Ihre Dokumentation erledigen wird  Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch bruchteilig berechnet. Für die Einheitlichkeit der Buchhaltung und eine später bessere Nachvollziehbarkeit ist es jedoch empfehlenswert, den ersten eines Monats zu wählen.",
+                    url: "\/hilfe\/handbuch\/einstellungen\/sonstiges\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Buchhaltung",
+                    summary: "\u0026ldquo;Wer den Kern essen will, muss die Nuss knacken\u0026rdquo;. Leider.\nPentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.\nUm den Export durchführen zu können, ist es leider notwendig, diesen einmalig vorzubereiten. Um die Richtigkeit der Angaben zu gewährleisten, lassen Sie bei der Eingabe am besten Ihre Buchhaltung mitwirken. Haben Sie die Einrichtung vorgenommen, führen Sie zur Überprüfung idealerweise einen Probe-Export durch.",
+                    url: "\/hilfe\/handbuch\/einstellungen\/buchhaltung\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Zeiterfassung",
+                    summary: "Im Haupt-Menüpunkt \u0026ldquo;Einstellungen\u0026rdquo; und dort unter \u0026ldquo;Zeiterfassung\u0026rdquo; haben Sie die Regeln festgelegt, dir vorerst für alle Abteilungen und alle Mitarbeiter gelten.\nWie bereits bei den Abteilungen können Sie auch für einzelne Mitarbeiter abweichende Regeln definieren oder von der elektronischen Zeiterfassung auch ausnehmen.\nIndividuelle Zeiterfassungsregeln Wenn für einen einzelnen Mitarbeiter andere Regeln gelten sollen, setzen Sie den Haken bei \u0026ldquo;Abweichende Zeiterfassungsregeln\u0026rdquo;. Sie können damit an dieser Stelle Regeln definieren, die ausschließlich für diesen Mitarbeiter gelten werden.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/zeiterfassung\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Rechnungsstellung",
+                    summary: "Im Menüpunkt \u0026ldquo;Rechnungstellung\u0026rdquo; sind Ihre Rechnungsanschrift und das hinterlegte Zahlungsmittel erfasst und unsere Rechnungen an Sie hinterlegt.\nRechnungsanschrift Wenn Sie Kunde von Pentacode werden, wird die Rechnungsanschrift Ihren Angaben entsprechend von uns hinterlegt. Diese Angaben erscheinen als Adressat auf den Rechnungen, die Sie von uns erhalten. Eine Änderung dieser Angaben können Sie jederzeit vornehmen.\nDer Avis für den bevorstehenden Bankeinzug wird an die hier hinterlegte Email-Adresse versandt.\nZahlungsmittel Unsere Rechnungen werden über das Lastschriftmandat, das Sie uns erteilt haben, von Ihrem Konto eingezogen.",
+                    url: "\/hilfe\/handbuch\/einstellungen\/rechnungsstellung\/",
+                    section: "Einstellungen",
+                },
+                
+                {
+                    title: "Vertrag",
+                    summary: "Im Menüpunkt \u0026ldquo;Vertrag\u0026rdquo; geben Sie die arbeitszeit- und lohnrelevanten Angaben zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.\nBitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt den Vereinbarungen entsprechen, die Sie mit dem Mitarbeiter laut Arbeitsvertrag getroffen haben.\nVertragslaufzeit Geben Sie bei Vertragsbeginn das Datum ein, zu dem das Beschäftigungsverhältnis des Mitarbeiters in Ihrem Unternehmen begonnen hat.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/vertrag\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Vertrag bearbeiten; Vertragshistorie",
+                    summary: "Um bei einem Mitarbeiter einen bestehenden Vertrag zu ändern, auszusetzen oder einen neuen Vertrag anzulegen, wählen Sie den entsprechenden Mitarbeiter und gehen dort auf Vertrag.\nÜber das  -Symbol am rechten oberen Eck wählen Sie aus, was Sie nun tun wollen.\n Über das Stift-Symbol wählen Sie aus, was Sie tun wollen  Vertrag Bearbeiten \u0026ldquo;Vertrag Bearbeiten\u0026rdquo; heißt in Pentacode, dass Angaben in einem bestehenden Vertrag ergänzt oder verändert werden.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/vertraege\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "Neuer Mitarbeiter",
+                    summary: "Sowohl in der Ansicht \u0026ldquo;Mitarbeiter\u0026rdquo; wie auch bei jedem einzelnen Mitarbeiter finden Sie\n\u0026ldquo;\u002b Neuer Mitarbeiter\u0026rdquo;.\nUm einen neuen Mitarbeiter anzulegen, klicken Sie einfach auf \u0026ldquo;\u002b Neuer Mitarbeiter\u0026rdquo;.\n Um einen neuen Mitarbeiter anzulegen, klicken Sie auf \u0026lsquo;\u002b Neuer Mitarbeiter  Es öffnet daraufhin ein Eingabeformular zu den Stammdaten des Mitarbeiters.\n Sie werden beim Anlegen eines neuen Mitarbeiters systematisch angeleitet  Sie werden beim Anlegen von Pentacode Punkt für Punkt durch den gesamten Prozess geführt.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-einzeln\/neuer-mitarbeiter\/",
+                    section: "Mitarbeiter (Einzeln)",
+                },
+                
+                {
+                    title: "\u0022Fiktiver\u0022 Dienstplan bei Kurzarbeit",
+                    summary: "Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgelds gesondert und mit großer Aufmerksamkeit überprüft werden wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten Ihre besondere Aufmerksamkeit schenken.\nDie \u0026ldquo;sauberste\u0026rdquo; Weise einer Dokumentation entsteht durch das Führen eines \u0026ldquo;fiktiven\u0026rdquo; Dienstplans. Eine vereinfachte Möglichkeit der pauschalen Aufzeichnung von Kurzarbeitszeiten finden Sie im Artikel abcdef.\nErste Schritte Gehen Sie zuerst in die \u0026quot; Einstellungen\u0026quot; (1) und wählen dort \u0026ldquo;Arbeitsbereiche\u0026rdquo; (2).",
+                    url: "\/hilfe\/tips_und_rezepte\/fiktiver-dienstplan-bei-kurzarbeit\/",
+                    section: "Tipps \u0026 Rezepte",
+                },
+                
+                {
+                    title: "Arbeitszeit",
+                    summary: "Im Dienstplan von Pentacode haben Sie die Möglichkeit, die geplanten Arbeitszeiten mit den tatsächlich geleisteten Arbeitszeiten täglich zu vergleichen. Unter \u0026ldquo;Berichte\u0026rdquo; werden die Arbeitszeiten monatlich zum Vergleich zusammengefasst.\nin die Zusammenfassung fließen ausschließlich abgeschlossene Arbeitstage ein. Geplante Arbeitszeiten werden hierbei nicht berücksichtigt.\nStundenangabe Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitszeiten in Stundenangabe. In einem Balkendiagramm werden die geplanten Arbeitszeiten in blau den tatsächlich geleisteten Arbeitszeiten in orange gegenübergestellt.",
+                    url: "\/hilfe\/handbuch\/berichte\/arbeitszeit\/",
+                    section: "Berichte",
+                },
+                
+                {
+                    title: "Berechtigungen",
+                    summary: "In dieser Übersicht werden alle aktuell beschäftigten Mitarbeiter gezeigt. In der Kopfzeile finden Sie alle Bereiche in Pentacode, zu denen Sie einem Mitarbeiter Zugang geben können.\nAlternativ zu \u0026ldquo;Berechtigung\u0026rdquo; beim einzelnen Mitarbeiter können Sie auch in dieser Gesamtübersicht Berechtigungen erteilen, erteilte Berechtigungen erweitern oder einschränken oder auch völlig entfernen\n Sie können sowohl beim einzelnen Mitarbeiter wie auch hier in der Gesamtübersicht Berechtigungen erteilen, verwalten und entfernen   Die Erteilung einer Zugangsberechtigung setzt voraus, dass in den \u0026ldquo;Stammdaten\u0026rdquo; des Mitarbeiters dessen persönliche Email-Adresse hinterlegt ist.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-alle\/berechtigungen\/",
+                    section: "Mitarbeiter (Alle)",
+                },
+                
+                {
+                    title: "Ersparnis",
+                    summary: "Wenn Sie die elektronische Zeiterfassung von Pentacode nutzen, werden die Arbeitszeiten eines jeden Mitarbeiters minutengenau ermittelt. Ebenso genau ermittelt werden die Abweichungen zwischen geplanter und tatsächlicher Arbeitszeit.\nAuch nur geringfügige Verspätungen oder kleinteilige Minutenrundungen addieren sich im Laufe eines Monats zu Arbeitsstunden. Bei Mitarbeitern, die auf Stundenlohnbasis arbeiten, bezahlen Sie diese, bei Angestellten mit Monatslohn laufen diese Zeiten als Überstunden auf, die irgendwann einmal abgefeiert werden müssen.\nDa in Pentacode die Lohnangaben zu jedem Mitarbeiter hinterlegt sind, werden die Minuten Mitarbeiter-genau in Lohnsumme umgerechnet.",
+                    url: "\/hilfe\/handbuch\/berichte\/ersparnis\/",
+                    section: "Berichte",
+                },
+                
+                {
+                    title: "Personalkosten",
+                    summary: "Der Menüpunkt \u0026ldquo;Personalkosten\u0026rdquo; zeigt Ihnen grafisch Ihrer Aufwendungen für Lohn und Gehalt in Summe und in der Zusammensetzung. Die Lohnkosten beinhalten die Arbeitgeberbeiträge zur Sozialversicherung, nicht jedoch die Umlagen U1 und U2 und die Beiträge zur Berufsgenossenschaft.\nAnsicht Sie können als Ansicht zwischen \u0026ldquo;Status\u0026rdquo;, \u0026ldquo;Anstellung\u0026rdquo; und \u0026ldquo;Abteilung\u0026rdquo; wählen.\n\u0026ldquo;Status\u0026rdquo; zeigt die Lohnkosten in ihrer Zusammensetzung, \u0026ldquo;Anstellung\u0026rdquo; die Verteilung der Lohnkosten nach Beschäftigungsverhältnis und \u0026ldquo;Abteilung\u0026rdquo; die Verteilung der Lohnkosten auf die Abteilungen in Ihrem Unternehmen.",
+                    url: "\/hilfe\/handbuch\/berichte\/personalkosten\/",
+                    section: "Berichte",
+                },
+                
+                {
+                    title: "Planung nach Stundenvorgaben",
+                    summary: "Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.\nDienstplanung mit Stundenvorgabe Wenn Sie auf das  -Symbol klicken, erscheint am Fuß jeder Abteilung die Anzeige \u0026ldquo;Planungsziele Definieren\u0026rdquo; .\nBeim Anklicken des Feldes \u0026ldquo;Stundenvorgaben\u0026rdquo; werden Sie in den Bereich \u0026ldquo;Planung\u0026rdquo; und dort in den Menüpunkt \u0026ldquo;Stundenvorgabe\u0026rdquo; geführt.\n Durch Anklicken des Feldes \u0026lsquo;Stundenvorgabe\u0026rsquo; gelangen Sie in den Bereich \u0026lsquo;Planung\u0026rsquo;  Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben.",
+                    url: "\/hilfe\/handbuch\/planung\/stundenvorgaben\/",
+                    section: "Planung",
+                },
+                
+                {
+                    title: "Positionen",
+                    summary: "In diesem Menüpunkt finden Sie eine Übersicht aller Mitarbeiter, sowie aller Standorte, deren Abteilungen und wiederum deren Positionen, die Sie angelegt haben.\nDiese Übersicht ist insbesondere dienlich, wenn Sie einen neuen Standort oder eine neue Abteilung anlegen.\nDurch das Setzen oder Entfernen von Haken über einen linken Maus-Klick verändern Sie die Zuständigkeit des Mitarbeiters.\nDie Einteilung unter \u0026ldquo;Positionen\u0026rdquo; in den Stammdaten des Mitarbeiters werden entsprechend überschrieben.\n Durch Setzen und Entfernen von Haken können Sie Mitarbeiter in dieser Gesamtübersicht den Abteilungen zuweisen  In dieser Übersicht können Standorte, Abteilungen und Positionen nicht angelegt werden.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-alle\/positionen\/",
+                    section: "Mitarbeiter (Alle)",
+                },
+                
+                {
+                    title: "Umsatzplanung",
+                    summary: "Umsätze planen Wenn Sie den Haupt-Menüpunkt \u0026ldquo;Planung\u0026rdquo; anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die Umsätze, die Ihr Unternehmen an den verschiedenen Wochentagen durchschnittlich erzielt hat.\nIn der Standardeinstellung wird Ihnen der Durchschnitt der letzten 4 Wochen gezeigt.\n Hier sehen Sie die unterschiedlichen Umsatzarten in ihrem täglichen Durchschnitt  Wenn Sie in einen Umsatz klicken, erscheint ein Menü, das Ihnen zeigt, in welchem Verhältnis Sie diese Umsatzart auf die Abteilungen verteilt haben.",
+                    url: "\/hilfe\/handbuch\/planung\/umsatzplanung\/",
+                    section: "Planung",
+                },
+                
+                {
+                    title: "Umsätze",
+                    summary: "Wenn Sie unter \u0026ldquo;Berichte\u0026rdquo; auf \u0026ldquo;Umsätze\u0026rdquo; klicken, sehen Sie in der Standardeinstellung die Umsätze in ihrer Herkunft nach Erlösart.\nDie Umsätze und deren Zusammensetzung werden in kaufmännischer Rundung auf ganze €-Beträge detailliert als Zahlen ausgewiesen.\nAus Gründen der Übersichtlichkeit werden bei der grafischen Darstellung alle kleinteiligen Umsätze, die mit weniger als 5% zum Gesamtumsatz beitragen, automatisch zu \u0026ldquo;Sonstiges\u0026rdquo; zusammengefasst.\n Wenn Sie den Bericht öffnen, sehen Sie zuerst die Umsätze nach Zusammensetzung  Indem Sie auf \u0026ldquo;Abteilung\u0026rdquo; klicken, sehen Sie, in welchem Umfang die einzelnen Abteilungen zum Gesamtumsatz beigetragen haben.",
+                    url: "\/hilfe\/handbuch\/berichte\/umsaetze\/",
+                    section: "Berichte",
+                },
+                
+                {
+                    title: "Vorschüsse",
+                    summary: "Die automatische Erfassung und Listung von Bar-Vorschüssen setzt voraus, dass Sie entweder eine Tagesabrechnung in Pentacode durchführen oder aber das Kassenbuch führen. Ist dies der Fall, entsteht selbständig eine Liste der ausgezahlten Vorschüsse.\n Vorschussliste Mitarbeiter, die Barvorschüsse erhalten haben, sind alphabetisch nach Nachnamen gelistet.\nBei Mitarbeitern, die mehrere Vorschüsse erhalten haben, sind sowohl die Einzelzahlungen mit Datumsangabe wie auch als Summe ausgewiesen.\n Die Vorschussliste muss zur Übermittlung an die Lohnbuchhaltung ausgedruckt werden  Diese Liste kann an dieser Stelle nicht bearbeitet werden.",
+                    url: "\/hilfe\/handbuch\/mitarbeiter-alle\/vorschuesse\/",
+                    section: "Mitarbeiter (Alle)",
+                },
+                
+                {
+                    title: "Wie richtige Dienstplanung den Gewinn erhöht",
+                    summary: "\u0026ldquo;Auf der einen Seite nur die Kosten sehen und auf der anderen Seite immer ein Auge zudrücken - der beste Garant für beidseitige Sehschwäche\u0026rdquo; (Udo Keller)\nIn vielen Fällen ist die Dienstplanung nur wenig mehr als ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen. Wirklich wirkungsvolle Planung hingegen hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Ein Ziel kann zum Beispiel die Vermeidung von Leerlaufzeiten sein, also Zeiten, die Mitarbeiter zwar mit Beschäftigung zubringen, jedoch keinen produktiven Beitrag leisten.",
+                    url: "\/hilfe\/tips_und_rezepte\/wie-richtige-dienstplanung-den-gewinn-erhoht\/",
+                    section: "Tipps \u0026 Rezepte",
+                },
+                
+                {
+                    title: "Übersicht",
+                    summary: "Im Menüpunkt \u0026ldquo;Übersicht\u0026rdquo; werden wesentliche Kennzahlen in ihrer Entwicklung einander gegenüber gestellt.\nVergleichszeitraum wählen In der Kopfzeile können Sie den Zeitraum wählen, über welchen die Kennzahlen verglichen werden.\nDie gestrichelte Linie zeigt den historischen Zeitraum an, die durchgehende blaue Linie den Zeitraum, der mit dem jeweils gestrigen Tag geendet hat. Die €-Angabe in blau zeigt entsprechend den aktuellen Zeitraum, in schwarz den historischen Vergleichszeitraum.\n So können Sie die Vergleichszeiträume wählen  Im vorliegenden Beispiel wurde als Zeitraum 13 Wochen gewählt.",
+                    url: "\/hilfe\/handbuch\/berichte\/ubersicht\/",
+                    section: "Berichte",
+                },
+                
+            ];
+
+            const fuse = new Fuse(index, {
+                keys: ["title", "summary", "url", "section"],
+                includeScore: true
+            });
+
+            input.addEventListener("input", () => {
+                const results = fuse.search(input.value);
+
+                for (const el of resultsElements) {
+                    const match = results.find(r => r.item.url === el.dataset.url);
+                    if (match) {
+                        el.removeAttribute("hidden");
+                        el.score = match.score;
+                    } else {
+                        el.setAttribute("hidden", "");
+                        el.score = 2;
+                    }
+                }
+
+                resultsElements
+                    .sort((a, b) => a.score - b.score)
+                    .forEach(el => resultsList.appendChild(el));
+
+                if (input.value) {
+                    resultsContainer.removeAttribute("hidden");
+                } else {
+                    resultsContainer.setAttribute("hidden", "");
+                }
+            });
+        })()
+    </script>
+</div>
+
+            </div>
+
+            <link href="/css/section-menu.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+<nav class="section-menu">
+    <ul class="animation-reveal-children animation-fast">
+        <li class="back ">
+            <a href="/hilfe/handbuch/dienstplan/">
+                <i class="fas fa-arrow-left"></i>
+                Dienstplan
+            </a>
+        </li>
+
+        
+            <li class="active">
+                <a href="/hilfe/handbuch/dienstplan/schreiben/">
+                    <div class="thumb">
+                         
+<div class="thumbnail-icon">
+    <i class="fal fa-pencil-alt"></i>
+</div>
+ 
+
+                    </div>
+
+                    <div class="body">
+                        
+                        <div class="title">
+                            Dienstplan Schreiben
+                        </div>
+                    </div>
+                </a>
+            </li>
+        
+            <li class="">
+                <a href="/hilfe/handbuch/dienstplan/plan-ist-vergleich/">
+                    <div class="thumb">
+                         
+<div class="thumbnail-icon">
+    <i class="fal fa-chart-line"></i>
+</div>
+ 
+
+                    </div>
+
+                    <div class="body">
+                        
+                        <div class="title">
+                            Plan-Ist-Vergleich
+                        </div>
+                    </div>
+                </a>
+            </li>
+        
+    </ul>
+</nav>
+
+
+
+        
+        </div>
+    </div>
+
+    <div>
+        <article class="animation-reveal-children animation-fast">
+            <div class="narrow">
+                <div class="breadcrumbs">
+    <nav>
+        <ul>
+          
+    
+        
+            
+    
+        
+            
+    
+        
+    
+
+    <li>
+        <a href="https://pentacode.app/hilfe/">Hilfe</a><span class="subtle">&nbsp;/&nbsp;</span>
+    </li>
+
+        
+    
+
+    <li>
+        <a href="https://pentacode.app/hilfe/handbuch/">Handbuch</a><span class="subtle">&nbsp;/&nbsp;</span>
+    </li>
+
+        
+    
+
+    <li>
+        <a href="https://pentacode.app/hilfe/handbuch/dienstplan/">Dienstplan</a><span class="subtle">&nbsp;/&nbsp;</span>
+    </li>
+
+        </ul>
+    </nav>
+</div>
+
+
+
+            </div>
+
+            <div class="text-clip">
+                <div class="cover">
+                     
+<div class="thumbnail-icon">
+    <i class="fal fa-pencil-alt"></i>
+</div>
+ 
+
+                </div>
+
+                <h1><span>Dienstplan Schreiben</span></h1>
+            </div>
+
+            
+
+            <div>
+                <p>In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!</p>
+<p>Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter <a href="/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-%C3%A4ndern">Einstellungen / Arbeitsbereiche</a> definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.</p>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/demo-pentaco-de_roster_venue-135-date-2021-04-05-tab-0-4.png" alt="">
+    </div>
+
+    
+
+    
+</figure>
+
+<h2 id="mitarbeiter-sortieren">Mitarbeiter Sortieren</h2>
+<p>Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und klicken Sie den <i class='fas fa-caret-down'></i>
+ oder <i class='fas fa-caret-up'></i>
+ Pfeil.</p>
+<h2 id="zeitraum-wechseln">Zeitraum Wechseln</h2>
+<p>Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen <span class='key '>⇧</span>
+ + <span class='key mono'>a</span>
+ und <span class='key '>⇧</span>
+ + <span class='key mono'>d</span>
+ in die vorherige bzw. nächste Woche wechseln.</p>
+<h2 id="tagesansicht">Tagesansicht</h2>
+<p>Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die <strong>Tagesansicht</strong> für den entsprechenden Mitarbeiter und Tag. Hier finden Sie Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den folgenden Kapiteln).</p>
+<p>Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.</p>
+<p>Der <i class='fas fa-arrow-left'></i>
+ <strong>Zurück</strong> Button am oberen Rand schließt das Tagesmenü.</p>
+<blockquote>
+<p><strong>Tipp</strong>: Mit den Tasten <span class='key mono'>w</span>
+ <strong>(auf)</strong>, <span class='key mono'>s</span>
+ <strong>(ab)</strong>, <span class='key mono'>a</span>
+ <strong>(links)</strong> und <span class='key mono'>d</span>
+ <strong>(rechts)</strong> wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und &ldquo;blind&rdquo; zwischen Einträgen, Mitarbeitern und Tagen springen. Über die <span class='key mono'>Esc</span>
+-<strong>Taste</strong> schließen sie die Tagesansicht. Probieren Sie es aus!</p>
+</blockquote>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-3.png" alt="">
+    </div>
+
+    
+
+    
+    <figcaption>In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen.</figcaption>
+    
+</figure>
+
+<h2 id="dienstplan-tabs">Dienstplan-Tabs</h2>
+<p>Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell zwischen verschiedenen Standorten und <a href="#filtern--suchen">Filtern</a> wechseln.</p>
+<blockquote>
+<p><strong>Beachten Sie:</strong> Die Tableiste verschwindet automatisch, sobald Sie ein Stück nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach wieder ganz nach oben.</p>
+</blockquote>
+<h3 id="tab-bearbeiten">Tab Bearbeiten</h3>
+<p>Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den <i class='fas fa-pencil-alt'></i>
+-<strong>Button</strong> klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter <a href="#filtern--suchen">Filtern &amp; Suchen</a>). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.</p>
+<h3 id="neuen-tab-erstellen">Neuen Tab Erstellen</h3>
+<p>Einen Neuen Tab erstellen Sie, indem Sie auf den <i class='fas fa-plus'></i>
+ button am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.</p>
+<h3 id="tab-löschen">Tab Löschen</h3>
+<p>Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf den <i class='fas fa-trash'></i>
+-<strong>Button</strong> in der rechten oberen Ecke.</p>
+<blockquote>
+<p>Da immer mindestens ein Tab existieren muss, ist der Löschen-Button deaktiviert falls Sie nur ein Tab haben.</p>
+</blockquote>
+<h2 id="filtern--suchen">Filtern &amp; Suchen</h2>
+<p>Beim Arbeiten mit mehreren Abteilungen und Dutzenden von Mitarbeitern kann das Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden. Pentacodes Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie den Überblick und können ohne Ablenkung arbeiten.</p>
+<p>Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den <i class='fas fa-pencil-alt'></i>
+-<strong>Icon</strong> (Siehe auch <a href="#tab-bearbeiten">Tab Bearbeiten</a>).</p>
+<blockquote>
+<p><strong>Tipp:</strong> Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!</p>
+</blockquote>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0.png" alt="">
+    </div>
+
+    
+
+    
+    <figcaption>Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten.</figcaption>
+    
+</figure>
+
+<h3 id="mitarbeiter-suchen">Mitarbeiter Suchen</h3>
+<p>Wollen Sie schnell einen bestimmten Mitarbeiter finden? Dann geben Sie einfach den Namen oder die Personalnummer in das Suchfeld in der linken oberen Ecke des Dienstplans ein!</p>
+<h2 id="dienstzeiten-eintragen">Dienstzeiten Eintragen</h2>
+<p>Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das <a href="#tagesansicht">Tagesansicht</a> für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch Klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button <strong>Neuer Eintrag</strong> klicken oder die <span class='key mono'>n</span>
+-<strong>Taste</strong> auf Ihrer Tastatur drücken. Wählen Sie hier <strong>Neue Schicht</strong> (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.</p>
+<h2 id="schichtvorschläge">Schichtvorschläge</h2>
+<p>Die <strong>Schichtvorschläge</strong> in Pentacode sind ein mächtiges Hilfsmittel, das Ihnen die Erstellung neuer Dienstpläne deutlich erleichtern kann. Das Programm analysiert automatisch Ihre bereits geschriebenen Dienstpläne auf sich wiederholende Planungsmuster und kann so häufig sehr genau vorhersagen, wann und in welcher Position ein Mitarbeiter in einer bestimmten Abteilung und an einem bestimmten Wochentag eingeteilt werden soll. Es gibt zwei Arten von Schichtvorschlägen:</p>
+<h3 id="globale-schichtvorschläge">Globale Schichtvorschläge</h3>
+<p>Auf der rechten Seite des Dienstplans finden Sie die <strong>globalen Schichtvorschläge</strong>, eine einfache Liste von häufig verwendeten Planzeiten. Um einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese einfach per <strong>Drag &amp; Drop</strong> in das entsprechende Feld.</p>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/screenshot-2021-02-27-at-14-11-46.png" alt="">
+    </div>
+
+    
+
+    
+    <figcaption>Globale Schichtvorschläge sind per Drag&amp;Drop im Handumdrehen eigetragen.</figcaption>
+    
+</figure>
+
+<h3 id="tages--und-ma-spezifische-vorschläge">Tages- und MA-spezifische Vorschläge</h3>
+<p>Die intelligentere Variante von Schichtvorschlägen finden Sie in der <a href="#tagesansicht">Tagesansicht</a> im Menü <i class='fas fa-plus'></i>
+ <strong>Neuer Eintrag</strong>. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.</p>
+<blockquote>
+<p><strong>Tipp:</strong> Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: <span class='key mono'>1</span>
+). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten <span class='key '>w</span>
+ <span class='key mono'>s</span>
+ <span class='key mono'>a</span>
+ <span class='key mono'>d</span>
+ (siehe <a href="#tagesansicht">Tagesansicht</a>) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!</p>
+</blockquote>
+<h2 id="fehltage-eintragen">Fehltage Eintragen</h2>
+<p>Fehltage wie <strong>Urlaub</strong> und <strong>Krank</strong> können auf zwei verschiedenen Wegen eingetragen werden.</p>
+<h3 id="mit-drag--drop">Mit Drag &amp; Drop</h3>
+<p>Im Menü auf der rechten Seite finden Sie eine Liste der im Dienstplan verfügbaren Fehltage <strong>Urlaub</strong>, <strong>Krank</strong>, <strong>Guttag</strong> und <strong>Frei</strong>. Diese können Sie einfach per <strong>Drag &amp; Drop</strong> in die gewünschten Felder ziehen.</p>
+<h3 id="über-die-tagesansicht">Über die Tagesansicht</h3>
+<p>Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die <a href="#tagesansicht">Tagesansicht</a> für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.</p>
+<blockquote>
+<p><strong>Tipp:</strong> Fehltage können auch über die Tastaturkürzel <span class='key mono'>u</span>
+ <strong>(Urlaub)</strong>, <span class='key mono'>k</span>
+ <strong>(Krank)</strong>, <span class='key mono'>g</span>
+ <strong>(Guttag)</strong> und <span class='key mono'>f</span>
+ <strong>(Frei)</strong> gewählt werden!</p>
+</blockquote>
+<h2 id="einträge-verschieben">Einträge Verschieben</h2>
+<p>Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen Tag verschieben? Dies funktioniert ganz einfach über <strong>Drag &amp; Drop</strong>. Packen Sie einfach den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort (linke Maustaste loslassen um den Vorgang abzuschließen). Pentacode hebt automatisch nur die Mitarbeiter hervor, denen die entsprechende Position zugewiesen ist.</p>
+<h2 id="einträge-duplizieren">Einträge Duplizieren</h2>
+<p>Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die <span class='key mono'>alt</span>
+-<strong>Taste</strong> gedrückt halten wird der Eintrag nicht verschoben sondern dupliziert, dies heißt, es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).</p>
+<h2 id="einträge-löschen">Einträge Löschen</h2>
+<p>Um einen Eintrag zu löschen, klicken sie einfach auf das <i class='fas fa-times'></i>
+ in der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der Tabellenansicht als auch in der <a href="#tagesansicht">Tagesansicht</a>.</p>
+<blockquote>
+<p><strong>Tip:</strong> Selektierte Einträge können außerdem über das Tastenkürzel <span class='key '>⇧</span>
+ + <span class='key '>⌫</span>
+ gelöscht werden!</p>
+</blockquote>
+<h2 id="veröffentlichen-teilen--drucken">Veröffentlichen, Teilen &amp; Drucken</h2>
+<p>Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen, kontinuierlich und automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihre Mitarbeiter öffentlich machen, bleibt bei Ihnen.</p>
+<blockquote>
+<p><strong>Achtung:</strong> Für das Veröffentlichen von Dienstplänen wird eine explizite <a href="/hilfe/handbuch/mitarbeiter-einzeln/berechtigungen/">Berechtigung</a> benötigt.</p>
+</blockquote>
+<h3 id="änderungen-veröffentlichen">Änderungen Veröffentlichen</h3>
+<p>Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter von den Änderungen benachrichtigt werden. Klicken Sie hier auf <strong>Veröffentlichen</strong> um den Vorgang abzuschließen. Die Änderungen sind nun in der Mitarbeiter-App und auf der öffentlichen <a href="#dienstplan-teilen">Dienstplan-Seite</a> einsehbar. <strong>Von Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt</strong> und erhalten einen Link zu ihrem persönlichen Dienstplan.</p>
+<blockquote>
+<p><strong>Tipp:</strong> Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, wird dessen eine Emailadresse benötigt. Diese können Sie in den <a href="/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/">Stammdaten</a> der einzelnen Mitarbeiter hinterlegen.</p>
+</blockquote>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0-1.png" alt=""><img src="/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0.png" alt="">
+    </div>
+
+    
+
+    
+    <figcaption>Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden.</figcaption>
+    
+</figure>
+
+<h3 id="dienstplan-teilen">Dienstplan Teilen</h3>
+<p>Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatisch einen öffentlichen Link für Sie, den Sie mit beliebigen Personen (auch außerhalb Ihres Unternehmens) teilen können.</p>
+<figure class=''>
+    <div class="img-grid">
+        <p><img src="/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-25-tab-0.png" alt=""></p>
+<p><img src="/uploads/demo-pentaco-de_dp__id-f4ccd654f5e014bd.png" alt=""></p>
+
+    </div>
+
+    
+
+    
+    <figcaption>Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leuten teilen.</figcaption>
+    
+</figure>
+
+<h3 id="dienstplan-drucken">Dienstplan Drucken</h3>
+<p>Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckfunktion. Um auf diese zuzugreifen, müssen Sie zunächst alle Änderungen veröffentlichen. Sobald dies geschehen ist finden sie den <i class='fas fa-print'></i>
+ <strong>Drucken</strong> Button im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den <i class='fas fa-paper-plane'></i>
+ <strong>Veröffentlicht</strong> Button Klicken).</p>
+<h3 id="teil-dienstpläne-veröffentlichen">Teil-Dienstpläne Veröffentlichen</h3>
+<p>Aktive <a href="#filtern--suchen">Dienstplan-Filter</a> werden beim Veröffentlichungsvorgang automatisch berücksichtigt, dies heißt, es werden nur Einträge veröffentlicht, die den Filterkriterien im aktiven Tab entsprechen. Wenn Sie nur den Dienstplan für eine bestimmte Abteilung oder einen bestimmten Zeitraum veröffentlichen wollen, müssen Sie also nur die entsprechenden Filter setzen, bevor Sie auf <strong>Veröffentlichen</strong> klicken.</p>
+<h2 id="dienstplan-vorlagen">Dienstplan-Vorlagen</h2>
+<p>Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder gar nicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks in anderen Wochen anwenden können.</p>
+<h3 id="vorlage-erstellen">Vorlage Erstellen</h3>
+<p>Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine &ldquo;leere&rdquo; Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button <i class='fas fa-save'></i>
+ <strong>Vorlagen)</strong> und klicken auf den Button <i class='fas fa-plus'></i>
+ <strong>Neue Vorlage</strong>. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken Sie <strong>Speichern</strong> um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!</p>
+<blockquote>
+<p><strong>Achtung:</strong> Wählen Sie für die Erstellung einer Dienstplanvorlage immer eine <strong>zukünftige Woche</strong>! Es werden nur Einträge mit vorhandenen <strong>Planzeiten</strong> gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage ignoriert.</p>
+</blockquote>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0-2.png" alt="">
+    </div>
+
+    
+
+    
+    <figcaption>Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!</figcaption>
+    
+</figure>
+
+<h3 id="vorlage-anwenden">Vorlage Anwenden</h3>
+<p>Um eine Vorlage in der aktuellen Woche anzuwenden, ziehen Sie diese einfach aus Ihrer Vorlagen-Liste per <strong>Drag &amp; Drop</strong> an einen beliebigen Ort im Dienstplan. Falls die Vorlage mehrere Abteilungen umfasst, können Sie nun wählen, ob Sie die Einträge von allen Abteilungen einfügen möchten oder nur von bestimmten. Klicken Sie auf <strong>Vorlage Einfügen</strong> um den Vorgang abzuschließen.</p>
+<h3 id="vorlage-löschen">Vorlage Löschen</h3>
+<p>Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Sie dann mit der Maus über die gewünschte Vorlage und klicken Sie den <i class='fas fa-trash'></i>
+-<strong>Icon</strong>. Klicken Sie <strong>Entfernen</strong> im darauffolgenden Bestätigungsdialog um den Vorgang abzuschließen.</p>
+<h2 id="dienstplan-leeren">Dienstplan Leeren</h2>
+<p>Um den gesamten Dienstplan zu leeren, klicken Sie den <i class='fas fa-trash'></i>
+-<strong>Icon</strong> im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf <strong>Dienstplan Leeren</strong> um den Vorgang abzuschließen.</p>
+<h2 id="planungshilfen">Planungshilfen</h2>
+<p>Das Schreiben eines &ldquo;fehlerfreien&rdquo; Dienstplans ist keine einfache Angelegenheit. Nicht nur müssen Sie die Verfügbarkeit, Sollstunden und Urlaubstage Ihrer Mitarbeiter im Auge behalten, auch die gesetzlichen Vorlagen in Ihrer fürchterlichen Vielfalt dürfen nicht verletzt werden. Pentacode steht Ihnen deshalb mit einer Vielzahl von intelligenten Planungshilfen zur Seite!</p>
+<h3 id="problemberichte">Problemberichte</h3>
+<p>Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich <i class='fas fa-exclamation-triangle'></i>
+ <strong>Probleme</strong> dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag, wo Sie eventuelle Fehler korrigieren können.</p>
+<figure class=''>
+    <div class="img-grid">
+        <img src="/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-2.png" alt="">
+    </div>
+
+    
+
+    
+    <figcaption>Über den Bereich &lsquo;Probleme&rsquo; im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben.</figcaption>
+    
+</figure>
+
+<h3 id="schichten-spiegeln">Schichten Spiegeln</h3>
+<p>Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu &ldquo;spiegeln&rdquo;. So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die &ldquo;Dienstplan Spiegeln&rdquo;-Funktion kann über den <i class='fas fa-clone'></i>
+-<strong>Button</strong> im Dienstplanmenü aktiviert und deaktiviert werden.</p>
+<h3 id="wochenstunden">Wochenstunden</h3>
+<p>Über die &ldquo;Fortschrittsanzeige&rdquo; auf der linken des Dienstplans sehen auf einen Blick, wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.</p>
+<h3 id="monatsstunden">Monatsstunden</h3>
+<p>Analog zu der <a href="#wochenstunden">Wochenstunden-Anzeige</a> gibt es außerdem eine &ldquo;Fortschrittsanzeige&rdquo; für die Ist- und Sollstunden eines Mitarbeiters im aktuellen Monat. Diese finden Sie in der <a href="#tagesansicht">Tagesansicht</a> für den aktuell selektierten Mitarbeiter.</p>
+<h3 id="stundenvorgaben">Stundenvorgaben</h3>
+<p>Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden sollen. Diese <a href="/hilfe/handbuch/planung/stundenvorgaben/">Stundenvorgaben</a> werden Ihnen dann direkt im Dienstplan in Form von &ldquo;Fortschrittsbalken&rdquo; angezeigt. Diese Stundenvorgaben-Leisten können Sie über den <i class='fas fa-tasks-alt'></i>
+-<strong>Button</strong> ein- und ausblenden.</p>
+<p>Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie <a href="/hilfe/handbuch/planung/stundenvorgaben/">hier</a>.</p>
+<h3 id="personalkostenanalyse">Personalkostenanalyse</h3>
+<p>Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den <i class='fas fa-chart-line'></i>
+-<strong>Button</strong> im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich entstandenen vergleichen!</p>
+
+            </div>
+        </article>
+    </div>
+
+    <div>
+        <div class="side-menu right">
+            <link href="/css/page-menu.css" rel="stylesheet" type="text/css" />
+
+<nav class="page-menu animation-reveal-children animation-fast">
+    <ul id="backToTop" style="visibility: hidden">
+        <li>
+            <a href="/hilfe/handbuch/dienstplan/schreiben/#">
+                Zum Seitenanfang
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="on-this-page">In diesem Artikel...</div>
+    <ul class="animation-reveal-children animation-fast">
+        
+            <li data-anchor="mitarbeiter-sortieren">
+                <a href="#mitarbeiter-sortieren">
+                    Mitarbeiter Sortieren
+                </a>
+            </li>
+        
+            <li data-anchor="zeitraum-wechseln">
+                <a href="#zeitraum-wechseln">
+                    Zeitraum Wechseln
+                </a>
+            </li>
+        
+            <li data-anchor="tagesansicht">
+                <a href="#tagesansicht">
+                    Tagesansicht
+                </a>
+            </li>
+        
+            <li data-anchor="dienstplan-tabs">
+                <a href="#dienstplan-tabs">
+                    Dienstplan-Tabs
+                </a>
+            </li>
+        
+            <li data-anchor="filtern--suchen">
+                <a href="#filtern--suchen">
+                    Filtern &amp; Suchen
+                </a>
+            </li>
+        
+            <li data-anchor="dienstzeiten-eintragen">
+                <a href="#dienstzeiten-eintragen">
+                    Dienstzeiten Eintragen
+                </a>
+            </li>
+        
+            <li data-anchor="schichtvorschläge">
+                <a href="#schichtvorschl%c3%a4ge">
+                    Schichtvorschläge
+                </a>
+            </li>
+        
+            <li data-anchor="fehltage-eintragen">
+                <a href="#fehltage-eintragen">
+                    Fehltage Eintragen
+                </a>
+            </li>
+        
+            <li data-anchor="einträge-verschieben">
+                <a href="#eintr%c3%a4ge-verschieben">
+                    Einträge Verschieben
+                </a>
+            </li>
+        
+            <li data-anchor="einträge-duplizieren">
+                <a href="#eintr%c3%a4ge-duplizieren">
+                    Einträge Duplizieren
+                </a>
+            </li>
+        
+            <li data-anchor="einträge-löschen">
+                <a href="#eintr%c3%a4ge-l%c3%b6schen">
+                    Einträge Löschen
+                </a>
+            </li>
+        
+            <li data-anchor="veröffentlichen-teilen--drucken">
+                <a href="#ver%c3%b6ffentlichen-teilen--drucken">
+                    Veröffentlichen, Teilen &amp; Drucken
+                </a>
+            </li>
+        
+            <li data-anchor="dienstplan-vorlagen">
+                <a href="#dienstplan-vorlagen">
+                    Dienstplan-Vorlagen
+                </a>
+            </li>
+        
+            <li data-anchor="dienstplan-leeren">
+                <a href="#dienstplan-leeren">
+                    Dienstplan Leeren
+                </a>
+            </li>
+        
+            <li data-anchor="planungshilfen">
+                <a href="#planungshilfen">
+                    Planungshilfen
+                </a>
+            </li>
+        
+    </ul>
+
+</nav>
+
+<script>
+    window.addEventListener('load', () => {
+        const anchorItems = document.querySelectorAll(".page-menu li");
+
+        const observer = new IntersectionObserver((entries) => {
+            console.log(entries);
+            const firstVisible = entries.find(e => e.isIntersecting);
+            if (firstVisible) {
+                const id = firstVisible.target.id;
+                anchorItems.forEach(item => item.classList.toggle("active", item.dataset.anchor === id))
+            }
+        });
+
+        for (const item of anchorItems) {
+            const anchor = document.querySelector("#" + item.dataset.anchor);
+            if (anchor) {
+                observer.observe(anchor);
+            }
+        }
+
+        const backToTop = document.querySelector("#backToTop");
+        const scroll = () => {
+            backToTop.style.visibility = window.scrollY < window.innerHeight ? "hidden" : "";
+        }
+        window.addEventListener("scroll", scroll);
+        scroll();
+    });
+</script>
+
+        </div>
+    </div>
+</div>
+
+
+
+        
+        
+
+        
+            <footer>
+    <nav>
+        <ul>
+             
+            
+            <li class="section-item ">
+                <a href="/blog/">
+                    Blog
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="section-item ">
+                <a href="/hilfe/">
+                    Hilfe
+                </a>
+            </li>
+            
+            
+
+            <li class="section-item">
+                <a href='mailto:mail@pentacode.app'>
+                    Kontakt
+                </a>
+            </li>
+
+            <li class="section-item">
+                <a href='/impressum/'>
+                    Impressum
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="copyright">
+        &copy; 2020 Sandstrøm Brand Management AG, Lindwurmstr. 147, 80337 München
+    </div>
+</footer>
+
+        
+
+        <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', '634a30dc-2e09-4b93-b79e-f530d0b3b877')</script>
+
+    </body>
+</html>
+
