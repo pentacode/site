@@ -1,6 +1,6 @@
 ---
 keywords: []
-title: _index
+title: Mitarbeiter-App
 weight: 3
 icon: mobile
 anchors: []
