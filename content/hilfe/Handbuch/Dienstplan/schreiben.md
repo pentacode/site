@@ -192,7 +192,23 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 
 ### Dienstplan Drucken
 
-Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckfunktion. Um auf diese zuzugreifen, müssen Sie zunächst alle Änderungen veröffentlichen. Sobald dies geschehen ist finden sie den {{< icon "print" >}} **Drucken** Button im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken).
+Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckfunktion. Es wird hier zwischen zwei Varianten unterschieden.
+
+#### Aktueller Bearbeitungsstatus
+
+Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen** können Sie über das Tastenkürzel {{ key "strg" "mono" }} {{ key "P" "mono" }} (bzw. {{ key "cmd" "mono" }} {{ key "P" "mono" }} auf MacOS) oder über das Browser-Menü Drucken.
+
+#### Veröffentlicher Dienstplan
+
+Die Druckoption für den "fertigen" bzw. veröffentlichen Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken). 
+
+> **Achtung:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
+
+{{< figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite." >}}
+
+![](/uploads/demo-pentacode-app_roster_venue-261-date-2021-03-01-tab-0-ipad-1.png)
+
+{{< /figure >}}
 
 ### Teil-Dienstpläne Veröffentlichen
 
@@ -225,6 +241,8 @@ Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Si
 ## Dienstplan Leeren
 
 Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
+
+> **Achtung:** Es werden nur Schichten gelöscht, die den [Filterkriterien](#filtern--suchen) des aktuellen Tabs entsprechen.
 
 ## Planungshilfen
 
