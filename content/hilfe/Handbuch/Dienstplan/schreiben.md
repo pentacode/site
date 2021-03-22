@@ -204,7 +204,7 @@ Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen**
 
 Die Druckoption für den "fertigen" bzw. veröffentlichen Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken). 
 
-> **Achtung:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
+> **Beachten Sie:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
 
 {{< figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite." >}}
 
@@ -244,7 +244,7 @@ Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Si
 
 Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
 
-> **Achtung:** Es werden nur Schichten gelöscht, die den [Filterkriterien](#filtern--suchen) des aktuellen Tabs entsprechen.
+> **Beachten Sie:** Es werden nur Schichten gelöscht, die den [Filterkriterien](#filtern--suchen) des aktuellen Tabs entsprechen.
 
 ## Planungshilfen
 
