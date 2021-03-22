@@ -204,13 +204,13 @@ Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu W
 
 ### Vorlage Erstellen
 
-Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog können Sie nun auswählen, welche Abteilungen in der Vorlage enthalten sein sollen. Treffen Sie Ihre Auswahl und klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
+Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Falls Sie nur eine bestimmte Abteilung oder eine bestimmten Zeitraum in Ihrer Vorlage speichern möchten, können Sie die zu speichernden Schichten einschränken, indem sie die [Filterkriterien](#filtern--suchen) des aktiven Tabs bearbeiten. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen)** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog müssen Sie der Vorlage nur noch einen Namen geben. Klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
 
 > **Achtung:** Wählen Sie für die Erstellung einer Dienstplanvorlage immer eine **zukünftige Woche**! Es werden nur Einträge mit vorhandenen **Planzeiten** gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage ignoriert.
 
 {{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 
-![](/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0-2.png)
+![](/uploads/demo-pentacode-app_roster_venue-261-date-2021-03-01-tab-0-ipad.png)
 
 {{< /figure >}}
 
