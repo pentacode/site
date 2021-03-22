@@ -26,8 +26,10 @@ anchors:
   title: Einträge Duplizieren
 - hash: einträge-löschen
   title: Einträge Löschen
-- hash: veröffentlichen-teilen--drucken
-  title: Veröffentlichen, Teilen & Drucken
+- hash: veröffentlichen--teilen
+  title: Veröffentlichen & Teilen
+- hash: dienstplan-drucken
+  title: Dienstplan Drucken
 - hash: dienstplan-vorlagen
   title: Dienstplan-Vorlagen
 - hash: dienstplan-leeren
@@ -160,7 +162,7 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 
 > **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
-## Veröffentlichen, Teilen & Drucken
+## Veröffentlichen & Teilen
 
 Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen, kontinuierlich und automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihre Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 
@@ -190,15 +192,15 @@ Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatis
 
 {{< /figure >}}
 
-### Dienstplan Drucken
+## Dienstplan Drucken
 
 Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckfunktion. Es wird hier zwischen zwei Varianten unterschieden.
 
-#### Aktueller Bearbeitungsstatus
+### Aktueller Bearbeitungsstatus
 
 Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen** können Sie über das Tastenkürzel {{ key "strg" "mono" }} {{ key "P" "mono" }} (bzw. {{ key "cmd" "mono" }} {{ key "P" "mono" }} auf MacOS) oder über das Browser-Menü Drucken.
 
-#### Veröffentlicher Dienstplan
+### Veröffentlicher Dienstplan
 
 Die Druckoption für den "fertigen" bzw. veröffentlichen Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken). 
 
