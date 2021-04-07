@@ -1,9 +1,11 @@
 ---
 keywords: []
-title: App Installieren
+title: Testartikel
 weight: 
 icon: download
 anchors:
+- hash: iOS
+  title: iOS
 - title: Android
   hash: android
 draft: true
