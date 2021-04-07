@@ -18,15 +18,13 @@ Kleine Einführung....
 
 > Dies ist eine Notiz
 
-{{< icon "poo" >}}
+{{< icon "android" >}}
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Startbildschirm" >}}
 
 ![](https://via.placeholder.com/600x400)
 
 {{< /figure >}}
-
-### Bla
 
 ## iOS
 
