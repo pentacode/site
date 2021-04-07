@@ -7,4 +7,4 @@ anchors: []
 draft: true
 
 ---
-Mit der Pentacode Mitarbeiter-App kannst du nicht nur Arbeitszeiten, Überstunden und Resturlaub einsehen, sonder hast deinen individuellen Dienstplan jederzeit zur Hand...
+Die Pentacode Mitarbeiter-App ist die einfachste und bequemste Möglichkeit Arbeitszeiten, deinen individuellen Dienstplan, Überstunden und Resturlaub einzusehen. Dank Push-Funktion ermöglicht die App alle Mitarbeiter an den Standorten zu erreichen.
