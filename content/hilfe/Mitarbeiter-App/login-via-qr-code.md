@@ -5,8 +5,8 @@ keywords:
 - " App"
 - Mitarbeiter
 title: Login via QR-Code
-weight: 
-icon: ''
+weight: 2
+icon: qrcode
 anchors: []
 draft: true
 
