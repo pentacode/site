@@ -1,6 +1,6 @@
 ---
 keywords: []
-title: Log-in in die Mitarbeiter-App
+title: Log-in
 weight: 1
 icon: ''
 anchors: []
