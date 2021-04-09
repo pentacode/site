@@ -2,7 +2,7 @@
 keywords: []
 title: Dienstplan
 weight: 2
-icon: ''
+icon: calendar-alt
 anchors: []
 draft: true
 
