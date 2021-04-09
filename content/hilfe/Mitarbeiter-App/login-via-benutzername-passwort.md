@@ -4,6 +4,8 @@ title: Log-in
 weight: 1
 icon: sign-in-alt
 anchors:
+- hash: Benutzername/Passwort
+  title: Log-in via Benutzername/Passwort
 - hash: QR-Code
   title: Log-in via QR-Code
 draft: true
