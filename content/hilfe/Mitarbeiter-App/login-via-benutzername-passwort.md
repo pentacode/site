@@ -11,11 +11,8 @@ anchors:
 draft: true
 
 ---
-## 
 
-{{< icon "qrcode" >}}
-
-## Log-in via QR-Code
+## Log-in via QR-Code {{< icon "qrcode" >}}
 
 Mit dem QR-Code Login kannst du dich schnell und sicher mit Pentacode verbinden, ohne deine vollen Zugangsdaten tippen zu müssen, lediglich mit deinem Zeiterfassungs-PIN loggst Du dich in die Mitarbeiter-App ein.
 
