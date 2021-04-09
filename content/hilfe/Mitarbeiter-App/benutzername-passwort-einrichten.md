@@ -1,7 +1,7 @@
 ---
 keywords: []
-title: Benutzername/Passwort einrichten
-weight: 
+title: Account verwalten
+weight: 3
 icon: ''
 anchors: []
 draft: true
