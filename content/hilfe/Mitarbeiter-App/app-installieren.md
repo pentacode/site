@@ -1,7 +1,7 @@
 ---
 keywords: []
 title: App installieren
-weight: 
+weight: 5
 icon: download
 anchors:
 - hash: iOS
@@ -11,26 +11,6 @@ anchors:
 draft: true
 
 ---
-Kleine Einführung....
-
-## Android
-
-* Eins
-* Zwei
-
-> Dies ist eine Notiz
-
-{{< icon "android" >}}
-
-{{< figure caption="Startbildschirm" >}}
-
-![](https://via.placeholder.com/600x400)
-
-{{< /figure >}}
-
-## iOS
-
-...
 
 Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android**, **iOS** und **Windows** unterstützt.
 
