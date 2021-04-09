@@ -2,7 +2,7 @@
 keywords: []
 title: Account einrichten/verwalten
 weight: 3
-icon: ''
+icon: user
 anchors:
 - hash: Profilbild verwalten
   title: Profilbild verwalten
