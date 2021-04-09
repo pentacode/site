@@ -1,6 +1,6 @@
 ---
 keywords: []
-title: Account verwalten
+title: Account einrichten/verwalten
 weight: 3
 icon: ''
 anchors: []
