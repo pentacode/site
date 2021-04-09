@@ -1,6 +1,6 @@
 ---
 keywords: []
-title: Dienstplan / Zeiten erfassen
+title: Dienstplan
 weight: 2
 icon: ''
 anchors: []
