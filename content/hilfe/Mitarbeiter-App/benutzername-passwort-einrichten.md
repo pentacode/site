@@ -4,6 +4,12 @@ title: Account einrichten/verwalten
 weight: 3
 icon: ''
 anchors:
+- hash: Profilbild verwalten
+  title: Profilbild verwalten
+- hash: Passwort vergessen
+  title: Passwort vergessen
+- hash: Benutzerdaten ändern
+  title: Benutzerdaten ändern
 - hash: Benutzername/Passwort einrichten
   title: Benutzername/Passwort einrichten
 draft: true
