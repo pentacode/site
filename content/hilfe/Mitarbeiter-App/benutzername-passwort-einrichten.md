@@ -1,5 +1,14 @@
 ---
-keywords: []
+keywords:
+- profil
+- profilbild
+- passwort
+- password
+- user
+- " benutzer"
+- vergessen
+- ändern
+- verwalten
 title: Account einrichten/verwalten
 weight: 3
 icon: user
@@ -17,9 +26,9 @@ draft: true
 ---
 ## Benutzername/Passwort einrichten
 
-Mit dem QR-Code kannst du dich schnell und sicher mit Pentacode verbinden, sobald du den QR-Code gescannt hast, wirst du kurz darum gebeten den Login mit deiner Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+Mit dem QR-Code oder über die Adresse in deinem Browser auf deinem gerät kannst du dich schnell und sicher mit Pentacode verbinden, sobald du den QR-Code gescannt hast, wirst du kurz darum gebeten den Login mit deiner Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-![](/uploads/screenshot_20210409-133152_samsung-internet.jpg)
+Bild: 
 
 Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android**, **iOS** und **Windows** unterstützt.
 
