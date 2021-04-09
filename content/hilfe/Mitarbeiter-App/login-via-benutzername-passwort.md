@@ -2,8 +2,10 @@
 keywords: []
 title: Log-in
 weight: 1
-icon: ''
-anchors: []
+icon: sign-in-alt
+anchors:
+- hash: QR-Code
+  title: Log-in via QR-Code
 draft: true
 
 ---
