@@ -1,5 +1,8 @@
 ---
-keywords: []
+keywords:
+- Mitarbeiter
+- App
+- pentacode
 title: Mitarbeiter-App
 weight: 4
 icon: mobile
