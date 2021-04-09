@@ -17,7 +17,9 @@ draft: true
 ---
 ## Benutzername/Passwort einrichten
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+Mit dem QR-Code kannst du dich schnell und sicher mit Pentacode verbinden, lediglich mit deinem Zeiterfassungs-PIN loggst Du dich in die Mitarbeiter-App ein.
+
+Nachdem dem Log-in wird in der Mitarbeiter-App
 
 ## Benutzerdaten ändern
 
