@@ -2,7 +2,7 @@
 keywords: []
 title: Benachrichtigungen verwalten
 weight: 2
-icon: ''
+icon: bell
 anchors: []
 draft: true
 
