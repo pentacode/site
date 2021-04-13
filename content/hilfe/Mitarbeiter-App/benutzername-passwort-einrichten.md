@@ -81,9 +81,7 @@ bild: Einstellungen Profilbild
 
 bild: Einstellungen mit vorhandenem Profilbild (löschen Button)
 
-1. 
-
-   {{< icon "bell" >}}
+{{< icon "bell" >}}
 
 ## Benachrichtigungen verwalten
 
