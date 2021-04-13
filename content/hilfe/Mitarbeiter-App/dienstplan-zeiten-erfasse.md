@@ -9,8 +9,16 @@ draft: true
 ---
 ## Dienstplan / Zeiten erfassen
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+Die Mitarbeiter können über eigene App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
+
+Bild Dienstplan in MA App
+
+Bild Dienstplanübersicht angezeigt in MA App
 
 ## Geplante/Spontane Schichten
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+Den Mitarbeitern ist es über die App nun möglich ihr geplanten bzw. auch falls Freigeschaltet ihre spontanen Schichten in Pentagone zu stempeln.
+
+Bild geplante Schicht in MA App
+
+Bild spontane Schicht in MA App
