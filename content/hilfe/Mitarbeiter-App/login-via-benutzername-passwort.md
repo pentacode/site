@@ -26,7 +26,7 @@ Mit dem QR-Code Login kannst du dich schnell und sicher mit Pentacode verbinden,
 
 Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher Weg, um dich auf einem neuen mobilen Gerät in die Mitarbeiter-App einzuloggen, egal wo du gerade bist.
 
-**Bild: Stempeloberfläche -> QR Code perso.pentacode.app** 
+**Bild: Stempeloberfläche -> QR Code perso.pentacode.app**
 
 Sobald du den QR-Code gescannt hast, wirst du kurz darum gebeten den Login mit deiner Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
