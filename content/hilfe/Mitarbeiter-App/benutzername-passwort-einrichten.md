@@ -26,51 +26,64 @@ draft: true
 ---
 ## Benutzername/Passwort einrichten
 
-Mit dem QR-Code oder über die Adresse in deinem Browser auf deinem gerät kannst du dich schnell und sicher mit Pentacode verbinden, sobald du den QR-Code gescannt hast, wirst du kurz darum gebeten den Login mit deiner Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+Mit dem QR-Code oder über die Adresse in deinem Browser auf deinem Gerät kannst du dich schnell und sicher mit Pentacode verbinden, sobald du den QR-Code gescannt hast, wirst du kurz darum gebeten den Login mit deiner Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-Bild: 
-
-Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android**, **iOS** und **Windows** unterstützt.
-
-## Einrichten eines Android-Gerätes
-
-**WICHTIG**: Die Verwendung der Pentacode Mitarbeiter-App erfordert **Android 4.4** oder neuer! Ältere Android-Versionen werden **nicht** unterstützt.
-
-**1. Schritt**: Öffnen Sie **Google Chrome** und geben Sie **perso.pentacode.app** ein.
-
-**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen**
-
-**3. Schritt**: **Bestätigen** Sie, indem sie auf **Add** klicken
-
-Pentatime ist nun unter Ihren Apps zu finden. Öffnen Sie durch Anklicken
-
-Ihre elektronische Zeiterfassung Pentatime ist nun eingerichtet und freut sich auf Ihre Mitarbeiter!
-
-## Einrichten eines iOS-Gerätes
-
-**WICHTIG**: Die Verwendung der Pentacode Zeiterfassung erfordert **iOS 10** oder neuer! Ältere iOS-Versionen werden **nicht** unterstützt.
-
-**1. Schritt**: geben Sie **perso.pentacode.app** ein und wählen Sie unter **Optionen** "Zum Home-Bildschirm"
-
-**2. Schritt**: Wählen Sie "**Hinzufügen**"
-
-3\. Schritt: Öffnen Sie die nun installierte App
-
-Ihre elektronische Zeiterfassung Pentatime ist nun eingerichtet und freut sich auf Ihre Mitarbeiter!
+Bild: login mit PIN MA-App
 
 ## Benutzerdaten ändern
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+**Du bist in der App eingeloggt und möchtest dein Passwort ändern?**
+
+1. Navigiere zu den Einstellungen unten ![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
+2. Klicke auf "Passwort ändern" oder ändere deine Email-Adresse falls gewünscht. (Beachte: Diese nach Änderung zu bestätigen)
+3. Gib dein gewünschtes neues Passwort ein und klicke anschließend auf "**Speichern**".
+
+Bild: Einstellungen (ext. Übersicht dazu)
+
+Bild: Einstellungen Passwort ändern
 
 ## Passwort vergessen
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+**Du kannst Dich nicht in die App einloggen und hast dein Passwort vergessen?**
+
+1. Öffne die Mitarbeiter-App auf deinem Gerät.
+2. Navigiere zu "Mit Email & Passwort Einloggen".
+3. Klicke auf "Passwort vergessen".
+4. Gib deine Emailadresse  ein und klicke anschließend auf "**Bestätigen**".
+5. Im deinem Emailpostfach (Spamfach checken) befindet sich eine Email mit den Anweisungen dein neues Passwort einzugeben.
+
+bild: Übersicht Login mit Zeitpin und option Email&Passwort
+
+bild: login mit Email und Passwort
+
+bild: Passwort vergessen
+
+bild: email mit Passwort ändern
+
+Bild: browser Passwort ändern?
 
 ## Profilbild verwalten
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+**Du willst in die App ein Profilbild hinzufügen oder ändern?**
 
-{{< icon "bell" >}}
+1. Öffne die Mitarbeiter-App auf deinem Gerät.
+2. Navigiere zu den Einstellungen unten![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
+3. Klicke auf "bild wählen".
+4. Nimm ein aktuelles Foto mit deiner Kamera-App auf oder wähle eines deiner Fotos auf deinem Gerät.
+5. Das Bild sollte nun in deinem Profil verfügbar sein.
+6. Falls Du dein Profilbild löschen willst, klicke auf "Löschen"
+
+   Tipp: Es geht schneller wenn man auf das Kamerasymbol in der Mitarbeiter-App Übersicht klickt.
+
+bild: Mitarbeiter-app Übersicht  (Markierung auf Kamerasymbol)
+
+bild: Einstellungen Profilbild
+
+bild: Einstellungen mit vorhandenem Profilbild (löschen Button)
+
+1. 
+
+   {{< icon "bell" >}}
 
 ## Benachrichtigungen verwalten
 
