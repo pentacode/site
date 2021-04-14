@@ -75,14 +75,19 @@ Bild: browser Passwort ändern?
 
    Tipp: Es geht schneller wenn man auf das Kamerasymbol in der Mitarbeiter-App Übersicht klickt.
 
-bild: Mitarbeiter-app Übersicht  (Markierung auf Kamerasymbol)
+_bild: Mitarbeiter-app Übersicht  (Markierung auf Kamerasymbol)_
 
-bild: Einstellungen Profilbild
+_bild: Einstellungen Profilbild_
 
-bild: Einstellungen mit vorhandenem Profilbild (löschen Button)
+_bild: Einstellungen mit vorhandenem Profilbild (löschen Button)_
 
 {{< icon "bell" >}}
 
 ## Benachrichtigungen verwalten
 
-Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel “**Regeleinstellung der Zeiterfassung**")
+In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigung für den Dienstplan je nach Wunsch ein-/ausschalten.
+
+1. Öffne die Mitarbeiter-App auf deinem Gerät.
+2. Navigiere zu den Einstellungen unten![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
+3. Klicke auf "Benachrichtigungen".
+4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
