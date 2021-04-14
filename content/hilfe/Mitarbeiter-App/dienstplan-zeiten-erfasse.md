@@ -31,9 +31,7 @@ Bild geplante Schicht in MA App
 
 Bild spontane Schicht in MA App
 
-{{< icon "bell" >}}
-
-## Benachrichtigungen verwalten
+## Benachrichtigungen verwalten {{< icon "bell" >}}
 
 In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigung für den Dienstplan je nach Wunsch ein-/ausschalten.
 
