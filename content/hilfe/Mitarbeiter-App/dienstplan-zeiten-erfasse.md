@@ -31,12 +31,12 @@ Bild geplante Schicht in MA App
 
 Bild spontane Schicht in MA App
 
-## Benachrichtigungen verwalten {{< icon "bell" >}}
+## Benachrichtigungen verwalten 
 
 In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigung für den Dienstplan je nach Wunsch ein-/ausschalten.
 
 1. Öffne die Mitarbeiter-App auf deinem Gerät.
-2. Navigiere zu den Einstellungen unten![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
+2. Navigiere zu den Einstellungen unten.
 3. Klicke auf "Benachrichtigungen".
 4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
 
