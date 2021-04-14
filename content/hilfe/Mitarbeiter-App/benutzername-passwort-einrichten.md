@@ -34,7 +34,7 @@ Bild: login mit PIN MA-App
 
 **Du bist in der App eingeloggt und möchtest dein Passwort ändern?**
 
-1. Navigiere zu den Einstellungen unten ![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
+1. Navigiere zu den Einstellungen unten.
 2. Klicke auf "Passwort ändern" oder ändere deine Email-Adresse falls gewünscht. (Beachte: Diese nach Änderung zu bestätigen)
 3. Gib dein gewünschtes neues Passwort ein und klicke anschließend auf "**Speichern**".
 
@@ -67,7 +67,7 @@ Bild: browser Passwort ändern?
 **Du willst in die App ein Profilbild hinzufügen oder ändern?**
 
 1. Öffne die Mitarbeiter-App auf deinem Gerät.
-2. Navigiere zu den Einstellungen unten![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
+2. Navigiere zu den Einstellungen unten.
 3. Klicke auf "bild wählen".
 4. Nimm ein aktuelles Foto mit deiner Kamera-App auf oder wähle eines deiner Fotos auf deinem Gerät.
 5. Das Bild sollte nun in deinem Profil verfügbar sein.
