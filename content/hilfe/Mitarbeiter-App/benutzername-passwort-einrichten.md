@@ -10,7 +10,7 @@ keywords:
 - ändern
 - verwalten
 title: Account einrichten/verwalten
-weight: 3
+weight: 2
 icon: user
 anchors:
 - hash: Profilbild verwalten

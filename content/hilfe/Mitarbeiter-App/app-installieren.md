@@ -1,7 +1,7 @@
 ---
 keywords: []
 title: App installieren
-weight: 5
+weight: 1
 icon: download
 anchors:
 - hash: iOS
