@@ -91,3 +91,7 @@ In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigu
 2. Navigiere zu den Einstellungen unten![settings.png](https://help.yazio.com/hc/article_attachments/115011027825/settings.png =20x20).
 3. Klicke auf "Benachrichtigungen".
 4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
+
+bild: MA-App Einstellungen
+
+bild: Einstellungen Benachrichtigungen
