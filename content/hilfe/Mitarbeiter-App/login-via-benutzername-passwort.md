@@ -22,19 +22,19 @@ draft: true
 ---
 ## Log-in via QR-Code {{< icon "qrcode" >}}
 
-Mit dem QR-Code Login kannst du dich schnell und sicher mit Pentacode verbinden, ohne deine vollen Zugangsdaten tippen zu müssen, lediglich mit deinem Zeiterfassungs-PIN loggst Du dich in die Mitarbeiter-App ein.
+Mit dem QR-Code Login können Sie sich schnell und sicher mit Pentacode verbinden, ohne die vollen Zugangsdaten tippen zu müssen, lediglich mit ihrem Zeiterfassungs-PIN loggen Sie sich in die Mitarbeiter-App ein.
 
-Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher Weg, um dich auf einem neuen mobilen Gerät in die Mitarbeiter-App einzuloggen, egal wo du gerade bist.
+Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher Weg, um Sie auf einem neuen mobilen Gerät in die Mitarbeiter-App einzuloggen, egal wo Sie sich gerade befinden.
 
 **Bild: Stempeloberfläche -> QR Code perso.pentacode.app**
 
-Sobald du den QR-Code gescannt hast, wirst du kurz darum gebeten den Login mit deiner Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
 **Bild: Zugang einrichten MA App**
 
 ## Log-in via Benutzername/Passwort
 
-Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeiter-App bequem von überall mit einer Internetverbindung über Ihr Mobilgerät in Pentacode ein.
+Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeiter-App, bequem von überall mit einer Internetverbindung über Ihr Mobilgerät in Pentacode ein.
 
 **Bild: Login MA App mit Benutzerdaten**
 
