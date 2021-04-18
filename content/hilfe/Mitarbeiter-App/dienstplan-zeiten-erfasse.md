@@ -11,9 +11,7 @@ draft: true
 
 Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
-Bild Dienstplan in MA App
-
-Bild Dienstplanübersicht angezeigt in MA App
+ ![Dienstplan Übersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
 
 ## Pausen stempeln
 
@@ -21,15 +19,15 @@ Wenn Sie in den **Einstellungen** der Zeiterfassung als **Pausenmodus** “**Aut
 
 Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” gewählt haben und der Mitarbeiter **nach erfolgtem Log-in** seinen PIN eingibt, hat er die Möglichkeit, seine **Schicht zu beenden** oder sich zur (zusätzlichen) **Pause** auszustempeln.
 
-Bild Pausen stempeln MA-App
+      ![](/uploads/pause_ma-app.png)
 
 ## Geplante/Spontane Schichten
 
 Den Mitarbeitern ist es über die App nun möglich ihre geplanten bzw. auch falls freigeschaltet ihre spontanen Schichten in Pentagone einzustempeln.
 
-Bild geplante Schicht in MA App
+![geplante Schicht Mitarbeiter-App](/uploads/geplante_schicht_ma-app.png "geplante Schicht stempeln")
 
-Bild spontane Schicht in MA App
+![](/uploads/spontane_schicht_ma-app.png)
 
 ## Benachrichtigungen verwalten
 
@@ -40,6 +38,4 @@ In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigu
 3. Klicke auf "Benachrichtigungen".
 4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
 
-bild: MA-App Einstellungen
-
-bild: Einstellungen Benachrichtigungen
+![](/uploads/benachrichtigungen_ma-app.png)
