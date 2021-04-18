@@ -30,12 +30,12 @@ Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher W
 
 Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-                                  ![](/uploads/ma-app_zugang_einrichten.png)
+                        **![](/uploads/login_zeitpin.png)   **               
 
 ## Log-in via Benutzername/Passwort
 
 Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeiter-App, bequem von überall mit einer Internetverbindung über Ihr Mobilgerät in Pentacode ein.
 
-                                    **![](/uploads/ma-app_zugangsdaten_eingeben.png)**
+                         **![](/uploads/ma-app_login_benutzer.png)                                   **
 
 Hat ein Mitarbeiter sein Passwort vergessen, kann er bequem auf der Startseite von von der Mitarbeiter-App über “[**Passwort Vergessen**]( "Passwort vergessen")” ein neues Passwort anfordern.
