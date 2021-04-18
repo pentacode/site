@@ -23,7 +23,7 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 **Bild: chrome Stempeluhr Scannen des QR Codes**
 
-**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen**
+**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen oder App installieren** 
 
 **3. Schritt**: **Bestätigen** Sie, indem sie auf **Add** klicken
 
