@@ -13,7 +13,7 @@ draft: true
 ---
 <p><center>
 
-Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android**, **iOS** unterstützt.
+Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android** **und** **iOS** unterstützt.
 
 </p></center>
 
