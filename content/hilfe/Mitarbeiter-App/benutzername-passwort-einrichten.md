@@ -28,7 +28,9 @@ draft: true
 
 Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-Bild: login mit PIN MA-App
+![](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png)
+
+![](/uploads/ma-app-zugang_einrichten.png)
 
 ## Benutzerdaten ändern
 
@@ -38,9 +40,7 @@ Bild: login mit PIN MA-App
 2. Klicken Sie auf "Passwort ändern" oder ändern Sie Ihre Email-Adresse falls gewünscht. (Bitte Beachten: Diese nach Änderung zu bestätigen)
 3. Geben Sie Ihr gewünschtes neues Passwort ein und klicke anschließend auf "**Speichern**".
 
-Bild: Einstellungen (ext. Übersicht dazu)
-
-Bild: Einstellungen Passwort ändern
+![Ändern des Passwortes](/uploads/passwort_aendern_ma-app.png "Passwort ändern")
 
 ## Passwort vergessen
 
@@ -52,31 +52,18 @@ Bild: Einstellungen Passwort ändern
 4. Geben Sie Ihre Emailadresse  ein und klicken anschließend auf "**Bestätigen**".
 5. In Ihrem Emailpostfach (Spamfach Bitte überprüfen) befindet sich eine Email mit den Anweisungen Ihr neues Passwort einzugeben.
 
-bild: Übersicht Login mit Zeitpin und option Email&Passwort
-
-bild: login mit Email und Passwort
-
-bild: Passwort vergessen
-
-bild: email mit Passwort ändern
-
-Bild: browser Passwort ändern?
+![Passwort vergessen](/uploads/drei_handys_passwort_zuruecksetzen-1.png "Passwort vergessen")
 
 ## Profilbild verwalten
 
 **Sie wollen in die App ein Profilbild hinzufügen/ändern oder löschen?**
 
 1. Öffnen Sie die Mitarbeiter-App auf Ihrem Gerät.
-2. Navigieren Sie zu den Einstellungen unten.
-3. Klicken Sie Bitte auf "bild wählen".
-4. Nehmen Sie ein aktuelles Foto mit deiner Kamera-App auf oder wählen Sie eines Ihrer gespeicherten Fotos auf deinem Gerät aus.
+2. Navigieren Sie auf das Kamerasymbol am Profilbild in der Mitarbeiter-App Übersicht.
+3. Klicken Sie Bitte auf das Kamerasymbol.
+4. Nehmen Sie ein aktuelles Foto mit Ihrer Kamera-App (Symbol unten rechts) auf oder wählen Sie eines Ihrer gespeicherten Fotos (Galerie-Symbol unten links auf Ihrem Gerät aus.
 5. Das Bild sollte nun in Ihrem Profil verfügbar sein.
-6. Falls Sie Ihr Profilbild löschen wollen, klicken Sie auf "Löschen"
+6. In ihren Einstellungen können Sie ebenfalls ein Bild wählen.
+7. Falls Sie Ihr Profilbild löschen wollen, klicken Sie in ihren Einstellungen auf "Löschen"
 
-   Tipp: Es geht schneller wenn man auf das Kamerasymbol am Profilbild in der Mitarbeiter-App Übersicht klickt.
-
-_bild: Mitarbeiter-app Übersicht  (Markierung auf Kamerasymbol)_
-
-_bild: Einstellungen Profilbild_
-
-_bild: Einstellungen mit vorhandenem Profilbild (löschen Button)_
+_![Profilbild ändern](/uploads/profilbild_verwalten.png "Profilbild verwalten") _
