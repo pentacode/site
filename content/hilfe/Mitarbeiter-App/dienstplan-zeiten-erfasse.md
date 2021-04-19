@@ -19,9 +19,9 @@ Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten e
 
 ## Pausen stempeln
 
-Wenn Sie in den **Einstellungen** der Zeiterfassung als **Pausenmodus** “**Automatisch**” gewählt haben, hat der Mitarbeiter **nicht** die Möglichkeit, sich zur Pause auszustempeln. Die **Pausenzeiten** werden **automatisch in Abzug** gebracht.
+Wenn Sie in den Einstellungen der Zeiterfassung als Pausenmodus “Automatisch” gewählt haben, hat der Mitarbeiter nicht die Möglichkeit, sich zur Pause auszustempeln. Die Pausenzeiten werden automatisch in Abzug gebracht.
 
-Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” gewählt haben und der Mitarbeiter **nach erfolgtem Log-in** seinen PIN eingibt, hat er die Möglichkeit, seine **Schicht zu beenden** oder sich zur (zusätzlichen) **Pause** auszustempeln.
+Wenn Sie als Einstellung “Automatisch + Manuell” oder “Manuell” gewählt haben und der Mitarbeiter nach erfolgtem Log-in seinen PIN eingibt, hat er die Möglichkeit, seine Schicht zu beenden oder sich zur (zusätzlichen) Pause auszustempeln.
 
 {{< figure caption="Dienstplan Pause stempeln" >}}
 
