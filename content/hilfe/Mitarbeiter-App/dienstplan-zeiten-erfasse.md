@@ -13,7 +13,7 @@ Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten e
 
 {{< figure caption="Dienstplanübersicht Mitarbeiter-App" >}}
 
-![Dienstplan Übersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
+![Dienstplanübersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
 
 {{< /figure >}}
 
