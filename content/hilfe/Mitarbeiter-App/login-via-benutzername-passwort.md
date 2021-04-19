@@ -40,6 +40,6 @@ Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login m
 
 Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeiter-App, bequem von überall mit einer Internetverbindung über Ihr Mobilgerät in Pentacode ein.
 
-                         **![](/uploads/ma-app_login_benutzer.png)                                   **
+![](/uploads/ma-app_login_benutzer.png)
 
 Hat ein Mitarbeiter sein Passwort vergessen, kann er bequem auf der Startseite von von der Mitarbeiter-App über “[**Passwort Vergessen**]( "Passwort vergessen")” ein neues Passwort anfordern.
