@@ -11,7 +11,7 @@ draft: true
 
 Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
 
 ![Dienstplan Übersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
 
@@ -23,7 +23,9 @@ Wenn Sie in den **Einstellungen** der Zeiterfassung als **Pausenmodus** “**Aut
 
 Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” gewählt haben und der Mitarbeiter **nach erfolgtem Log-in** seinen PIN eingibt, hat er die Möglichkeit, seine **Schicht zu beenden** oder sich zur (zusätzlichen) **Pause** auszustempeln.
 
-      ![](/uploads/pause_ma-app.png)
+{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+
+    (/uploads/pause_ma-app.png)
 
 ## Geplante/Spontane Schichten
 
