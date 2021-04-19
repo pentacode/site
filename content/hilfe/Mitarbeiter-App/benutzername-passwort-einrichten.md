@@ -34,7 +34,7 @@ Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät könne
 
 {{< /figure >}}
 
-{{< figure caption="anlegen des Mitarbeiter-App Accounts" >}}
+{{< figure caption="anlegen eines Mitarbeiter-App Accounts" >}}
 
 ![Account Mitarbeiter-App](/uploads/ma-app-zugang_einrichten.png "Account anlegen")
 
