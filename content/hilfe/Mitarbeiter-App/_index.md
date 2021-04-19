@@ -16,4 +16,4 @@ Die Pentacode Mitarbeiter-App ist die einfachste und bequemste Möglichkeit Arbe
 
 In den folgenden Hilfeartikeln werden die einzelnen Funktionen der Mitarbeiter-App vollständig beschrieben.
 
-</center></p>
+</center></p> 
