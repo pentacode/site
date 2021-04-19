@@ -25,7 +25,7 @@ Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” 
 
 {{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
 
-    (/uploads/pause_ma-app.png)
+  ![](/uploads/pause_ma-app.png)
 
 ## Geplante/Spontane Schichten
 
