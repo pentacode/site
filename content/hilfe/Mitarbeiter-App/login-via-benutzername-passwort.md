@@ -30,7 +30,11 @@ Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher W
 
 Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-                        **![](/uploads/login_zeitpin.png)   **               
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+![](/uploads/login_zeitpin.png)
+
+{{< /figure >}}
 
 ## Log-in via Benutzername/Passwort
 
