@@ -36,7 +36,7 @@ Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät k�
 
 {{< figure caption="anlegen eines Mitarbeiter-App Accounts" >}}
 
-![Account Mitarbeiter-App](/uploads/ma-app-zugang_einrichten.png "Account anlegen")
+![Benutzerdaten anlegen](/uploads/drei_handy_nebeneinander_bsp_zugang_einrichten2.png "Daten anlegen Mitarbeite-App")
 
 {{< /figure >}}
 
