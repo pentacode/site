@@ -36,7 +36,7 @@ Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login m
 
 {{< figure caption="Mitarbeiter-App Login mit Zeit-PIN" >}}
 
-![Login Zeit-PIN](/uploads/login_zeitpin.png "Login PIN")
+![Login mit Zeiterfassung-PIN](/uploads/ma-app_zeitpin_login.png "Login mit Zeit-PIN")
 
 {{< /figure >}}
 
@@ -46,7 +46,7 @@ Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeit
 
 {{< figure caption="Mitarbeiter-App Login mit Benutzername und Passwort" >}}
 
-![Login Benutzername und Passwort](/uploads/ma-app_login_benutzer.png "Login Nutzer")
+![Login Benutzername/Passwort](/uploads/ma-app_login_benutzer-1.png "Login Benutzer")
 
 {{< /figure >}}
 
