@@ -28,9 +28,17 @@ draft: true
 
 Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-![](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png)
+{{< figure caption="mit dem QR-Code zur Mitarbeiter-App" >}}
 
-![](/uploads/ma-app-zugang_einrichten.png)
+![QR-Code scannen](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png "Mit QR-Code in die Mitarbeiter-App")
+
+{{< /figure >}}
+
+{{< figure caption="anlegen des Mitarbeiter-App Accounts" >}}
+
+![Account Mitarbeiter-App](/uploads/ma-app-zugang_einrichten.png "Account anlegen")
+
+{{< /figure >}}
 
 ## Benutzerdaten ändern
 
@@ -40,7 +48,11 @@ Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät könne
 2. Klicken Sie auf "Passwort ändern" oder ändern Sie Ihre Email-Adresse falls gewünscht. (Bitte Beachten: Diese nach Änderung zu bestätigen)
 3. Geben Sie Ihr gewünschtes neues Passwort ein und klicke anschließend auf "**Speichern**".
 
-![Ändern des Passwortes](/uploads/passwort_aendern_ma-app.png "Passwort ändern")
+   {{< figure caption="Passwort ändern" >}}
+
+   ![Ändern des Passwortes](/uploads/passwort_aendern_ma-app.png "Passwort ändern")
+
+   {{< /figure >}}
 
 ## Passwort vergessen
 
@@ -52,7 +64,11 @@ Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät könne
 4. Geben Sie Ihre Emailadresse  ein und klicken anschließend auf "**Bestätigen**".
 5. In Ihrem Emailpostfach (Spamfach Bitte überprüfen) befindet sich eine Email mit den Anweisungen Ihr neues Passwort einzugeben.
 
-![Passwort vergessen](/uploads/drei_handys_passwort_zuruecksetzen-1.png "Passwort vergessen")
+   {{< figure caption="Passwort zurücksetzen" >}}
+
+   ![Passwort vergessen](/uploads/drei_handys_passwort_zuruecksetzen-1.png "Passwort vergessen")
+
+   {{< /figure >}}
 
 ## Profilbild verwalten
 
@@ -66,4 +82,10 @@ Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät könne
 6. In ihren Einstellungen können Sie ebenfalls ein Bild wählen.
 7. Falls Sie Ihr Profilbild löschen wollen, klicken Sie in ihren Einstellungen auf "Löschen"
 
-_![Profilbild ändern](/uploads/profilbild_verwalten.png "Profilbild verwalten") _
+{{< figure caption="Profilbild verwalten" >}}
+
+![Profilbild ändern](/uploads/profilbild_verwalten.png "Profilbild verwalten")
+
+{{< /figure >}}
+
+_ _
