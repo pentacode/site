@@ -11,7 +11,7 @@ draft: true
 
 Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
-{{ icon "arrow-right" }}
+{{< icon "arrow-right" >}}
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
