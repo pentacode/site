@@ -28,7 +28,7 @@ draft: true
 
 Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-{{< figure caption="mit dem QR-Code zur Mitarbeiter-App" >}}
+{{< figure caption="mit QR-Code zur Mitarbeiter-App" >}}
 
 ![QR-Code scannen](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png "Mit QR-Code in die Mitarbeiter-App")
 
