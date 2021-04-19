@@ -33,7 +33,7 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 {{< figure caption="App installieren und auf Starbildschirm hinzufügen" >}}
 
-![Mitarbeiter-App installieren](/uploads/app_installieren_ma-app.png "App hinzufügen")
+![App auf Startbildschirm hinzufügen](/uploads/app_installieren_ma-app-1.png "Mitarbeiter-App auf Startbildschirm")
 
 {{< /figure >}}
 
