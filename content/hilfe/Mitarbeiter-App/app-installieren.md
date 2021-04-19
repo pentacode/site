@@ -47,7 +47,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 **WICHTIG**: Die Verwendung der Pentacode Zeiterfassung erfordert **iOS 10** oder neuer! Ältere iOS-Versionen werden **nicht** unterstützt.
 
-**1. Schritt**: geben Sie **perso.pentacode.app** ein und wählen Sie unter **Optionen** "Zum Home-Bildschirm" oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp da wird automatisch ein Browserfenster mit der richtigen Adresse geöffnet.
+**1. Schritt**: geben Sie **perso.pentacode.app** ein und wählen Sie unter Optionen "**Zum Home-Bildschirm**" oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp da wird automatisch ein Browserfenster mit der richtigen Adresse geöffnet.
 
 {{< figure caption="Adresseingabe im Browser" >}}
 
@@ -69,7 +69,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< /figure >}}
 
-3\. Schritt: Öffnen Sie die nun installierte App
+**3. Schritt:** Öffnen Sie die nun installierte App
 
 {{< figure caption="Ihre Mitarbeiter-App auf ihrem Startbildschirm" >}}
 
