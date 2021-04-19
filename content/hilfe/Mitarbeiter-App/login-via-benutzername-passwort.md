@@ -28,7 +28,7 @@ Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher W
 
 {{< figure caption="Zeitstempel Übersicht - QR Code scannen" >}}
 
-![Stempeloberfläche QR-Code scannen](/uploads/stempeloberlaeche_ohne_browser_mit_qrcode_pfeil.png "Zeiterfassung Stempeloberfläche")
+![Übersicht QR Code](/uploads/stempel_mit_pfeil_qrcode.png "Zeiterfassung QR Code scannen")
 
 {{< /figure >}}
 
