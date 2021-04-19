@@ -23,7 +23,7 @@ Wenn Sie in den **Einstellungen** der Zeiterfassung als **Pausenmodus** “**Aut
 
 Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” gewählt haben und der Mitarbeiter **nach erfolgtem Log-in** seinen PIN eingibt, hat er die Möglichkeit, seine **Schicht zu beenden** oder sich zur (zusätzlichen) **Pause** auszustempeln.
 
-{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+{{< figure caption="Dienstplan Pause stempeln" >}}
 
 ![](/uploads/pause_ma-app.png)
 
@@ -33,13 +33,13 @@ Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” 
 
 Den Mitarbeitern ist es über die App nun möglich ihre geplanten bzw. auch falls freigeschaltet ihre spontanen Schichten in Pentagone einzustempeln.
 
-{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+{{< figure caption="Dienstplan geplante Schicht beginnen" >}}
 
 ![geplante Schicht Mitarbeiter-App](/uploads/geplante_schicht_ma-app.png "geplante Schicht stempeln")
 
 {{< /figure >}}
 
-{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+{{< figure caption="Dienstplan spontane Schicht" >}}
 
 ![](/uploads/spontane_schicht_ma-app.png)
 
@@ -54,7 +54,7 @@ In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigu
 3. Klicke auf "Benachrichtigungen".
 4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
 
-   {{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+   {{< figure caption="Dienstplan Benachrichtigungen verwalten" >}}
 
 ![](/uploads/benachrichtigungen_ma-app.png)
 
