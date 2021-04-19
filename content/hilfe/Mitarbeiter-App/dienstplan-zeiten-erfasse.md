@@ -11,6 +11,8 @@ draft: true
 
 Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
+{{ icon "arrow-right" }}
+
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 ![Dienstplan Übersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
