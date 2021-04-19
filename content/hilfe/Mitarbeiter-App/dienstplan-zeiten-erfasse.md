@@ -25,15 +25,25 @@ Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” 
 
 {{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
 
-  ![](/uploads/pause_ma-app.png)
+![](/uploads/pause_ma-app.png)
+
+{{< /figure >}}
 
 ## Geplante/Spontane Schichten
 
 Den Mitarbeitern ist es über die App nun möglich ihre geplanten bzw. auch falls freigeschaltet ihre spontanen Schichten in Pentagone einzustempeln.
 
+{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+
 ![geplante Schicht Mitarbeiter-App](/uploads/geplante_schicht_ma-app.png "geplante Schicht stempeln")
 
+{{< /figure >}}
+
+{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+
 ![](/uploads/spontane_schicht_ma-app.png)
+
+{{< /figure >}}
 
 ## Benachrichtigungen verwalten
 
@@ -44,4 +54,8 @@ In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigu
 3. Klicke auf "Benachrichtigungen".
 4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
 
+   {{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+
 ![](/uploads/benachrichtigungen_ma-app.png)
+
+{{< /figure >}}
