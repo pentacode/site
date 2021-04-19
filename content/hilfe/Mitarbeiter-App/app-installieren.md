@@ -19,13 +19,13 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 **1. Schritt**: Öffnen Sie **Google Chrome** und geben Sie **perso.pentacode.app** ein oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp.
 
-**Bild: chrome MA APP**
+**![Mitarbeiter-App Installieren](/uploads/handy_tablet_nebeneinander_bsp_app_installieren.png "Adresse eingeben")**
 
-**Bild: chrome Stempeluhr Scannen des QR Codes**
+**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen oder App installieren**
 
-**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen oder App installieren** 
+![Mitarbeiter-App installieren](/uploads/app_installieren_ma-app.png "App hinzufügen")
 
-**3. Schritt**: **Bestätigen** Sie, indem sie auf **Add** klicken
+**3. Schritt**: **Bestätigen** Sie, indem sie auf **Add bzw. App installieren** klicken
 
 Die Mitarbeiter-App ist nun unter Ihren Apps zu finden. Öffnen Sie durch Anklicken
 
@@ -37,12 +37,16 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 **1. Schritt**: geben Sie **perso.pentacode.app** ein und wählen Sie unter **Optionen** "Zum Home-Bildschirm" oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp da wird automatisch ein Browserfenster mit der richtigen Adresse geöffnet.
 
-**Bild Safari: Browser mit Adresseingabe**
+**![](/uploads/safari_adresseingabe_ma-app.png)**
 
-**Bild Safari: Scannen des QR Codes.**
+**![](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png)**
 
 **2. Schritt**: Wählen Sie "**Hinzufügen**"
 
+![](/uploads/homebildschirm_safari_hinzufugen.png)
+
 3\. Schritt: Öffnen Sie die nun installierte App
+
+![](/uploads/foto-19-04-21-02-16-01.png)
 
 Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
