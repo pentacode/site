@@ -11,7 +11,7 @@ draft: true
 
 Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
-{{< figure caption="Dienstplan Übersicht Mitarbeiter-App" >}}
+{{< figure caption="Dienstplanübersicht Mitarbeiter-App" >}}
 
 ![Dienstplan Übersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
 
@@ -33,13 +33,13 @@ Wenn Sie als Einstellung “**Automatisch + Manuell**” oder “**Manuell**” 
 
 Den Mitarbeitern ist es über die App nun möglich ihre geplanten bzw. auch falls freigeschaltet ihre spontanen Schichten in Pentagone einzustempeln.
 
-{{< figure caption="Dienstplan geplante Schicht beginnen" >}}
+{{< figure caption="Dienstplan geplante Schicht stempeln" >}}
 
 ![geplante Schicht Mitarbeiter-App](/uploads/geplante_schicht_ma-app.png "geplante Schicht stempeln")
 
 {{< /figure >}}
 
-{{< figure caption="Dienstplan spontane Schicht" >}}
+{{< figure caption="Dienstplan spontane Schicht stempeln" >}}
 
 ![](/uploads/spontane_schicht_ma-app.png)
 
