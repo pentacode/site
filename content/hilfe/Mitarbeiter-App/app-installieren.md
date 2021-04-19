@@ -11,7 +11,11 @@ anchors:
 draft: true
 
 ---
+<p><center>
+
 Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android**, **iOS** unterstützt.
+
+</p></center>
 
 ## Einrichten eines Android-Gerätes
 
@@ -27,7 +31,7 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 **2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen oder App installieren**
 
-{{< figure caption="App installieren und aus Starbildschirm hinzufügen" >}}
+{{< figure caption="App installieren und auf Starbildschirm hinzufügen" >}}
 
 ![Mitarbeiter-App installieren](/uploads/app_installieren_ma-app.png "App hinzufügen")
 
