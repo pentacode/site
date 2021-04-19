@@ -54,7 +54,7 @@ In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigu
 3. Klicke auf "Benachrichtigungen".
 4. Unter Dienstplanänderungen kann man diese ein-oder auschalten.
 
-   {{< figure caption="Dienstplan Benachrichtigungen verwalten" >}}
+   {{< figure caption="Dienstplan Benachrichtigung verwalten" >}}
 
 ![](/uploads/benachrichtigungen_ma-app.png)
 
