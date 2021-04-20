@@ -51,7 +51,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< figure caption="Adresseingabe im Browser" >}}
 
-**![](/uploads/safari_adresseingabe_ma-app.png)**
+![](/uploads/simulator-screen-shot-ipod-touch.png)
 
 {{< /figure >}}
 
