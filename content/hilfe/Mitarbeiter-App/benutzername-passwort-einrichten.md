@@ -30,7 +30,7 @@ Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät k�
 
 {{< figure caption="mit QR-Code zur Mitarbeiter-App" >}}
 
-![QR-Code scannen](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png "Mit QR-Code in die Mitarbeiter-App")
+![](/uploads/stempel_pfeil_qrcode_ipad.png)
 
 {{< /figure >}}
 
