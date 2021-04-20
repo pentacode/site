@@ -57,7 +57,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< figure caption="QR-Code scannen für Adressverknüpfung" >}}
 
-**![](/uploads/stempeloberlaeche_mit_browser_safari_mit_qrcode_pfeil.png)**
+![](/uploads/stempel_pfeil_qrcode_ipad.png "QR-Code scannen")
 
 {{< /figure >}}
 
