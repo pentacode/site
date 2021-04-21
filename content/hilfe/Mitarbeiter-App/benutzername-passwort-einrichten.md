@@ -82,9 +82,9 @@ Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät k�
 6. In ihren Einstellungen können Sie ebenfalls ein Bild wählen.
 7. Falls Sie Ihr Profilbild löschen wollen, klicken Sie in ihren Einstellungen auf "**Löschen**"
 
-{{< figure caption="Profilbild verwalten" >}}
+{{< figure caption="Profilbild verwalten auf ihrem Smartphone" >}}
 
-![Profilbild ändern](/uploads/profilbild_verwalten.png "Profilbild verwalten")
+![](/uploads/drei_handy_nebeneinander_bsp_profilbild_verwalten.png)
 
 {{< /figure >}}
 
