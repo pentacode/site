@@ -56,6 +56,6 @@ In der Mitarbeiter-App können Sie in den Einstellungen die Email Benachrichtigu
 
    {{< figure caption="Dienstplan Benachrichtigung verwalten" >}}
 
-![](/uploads/benachrichtigungen_ma-app.png)
+![](/uploads/zwei_handy_nebeneinander_lang_bsp_benachrichtigungen.png)
 
 {{< /figure >}}
