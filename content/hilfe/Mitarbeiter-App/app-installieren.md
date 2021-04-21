@@ -31,7 +31,7 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 **2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen oder App installieren**
 
-{{< figure caption="App installieren und auf Starbildschirm hinzufügen" >}}
+{{< figure caption="App auf ihrem Smartphone installieren und  App auf Startbildschirm hinzufügen" >}}
 
 ![App auf Startbildschirm hinzufügen](/uploads/app_installieren_ma-app-1.png "Mitarbeiter-App auf Startbildschirm")
 
