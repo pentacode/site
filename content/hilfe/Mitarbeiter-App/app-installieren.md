@@ -4,16 +4,16 @@ title: App installieren
 weight: 1
 icon: download
 anchors:
-- hash: iOS
-  title: iOS
 - title: Android
   hash: android
+- hash: iOS
+  title: iOS
 draft: true
 
 ---
 <p><center>
 
-Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet oder bevorzugt ein Smartphone**. Dabei werden die Betriebssysteme **Android** **und** **iOS** unterstützt.
+Die Installation der Mitarbeiter-App erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung
 
 </p></center>
 
@@ -21,15 +21,15 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 **WICHTIG**: Die Verwendung der Pentacode Mitarbeiter-App erfordert **Android 4.4** oder neuer! Ältere Android-Versionen werden **nicht** unterstützt.
 
-**1. Schritt**: Öffnen Sie **Google Chrome** und geben Sie **perso.pentacode.app** ein oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp.
+**1. Schritt**: Öffnen Sie **Google Chrome** und geben Sie **perso.pentacode.app** ein.
 
-{{< figure caption="Adresseingabe manuell auf dem Smartphone oder mit QR-Code scan per Smartphone Kamera über Stempeluhr auf ihrem Tablet im Betrieb " >}}
+{{< figure caption="Adresseingabe im Browser auf ihrem Smartphone">}}
 
 **![Mitarbeiter-App Installieren](/uploads/handy_tablet_nebeneinander_bsp_app_installieren.png "Adresse eingeben")**
 
 {{< /figure >}}
 
-**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **Add to Home screen oder App installieren**
+**2. Schritt**: Wählen Sie über das Dropdown Menü unter Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **"Add to Home screen"** oder **"App installieren"**
 
 {{< figure caption="App auf ihrem Smartphone installieren und  App auf Startbildschirm hinzufügen" >}}
 
@@ -37,39 +37,11 @@ Die Zeiterfassung mithilfe einer "**Mitarbeiter-App**" erfolgt über **Tablet od
 
 {{< /figure >}}
 
-**3. Schritt**: **Bestätigen** Sie, indem sie auf **Add bzw. App installieren** klicken
+**3. Schritt**: **Bestätigen** Sie die Installation, indem sie auf "**Add to Homescreen"** bzw. **"App installieren"** klicken.
 
-Die Mitarbeiter-App ist nun unter Ihren Apps zu finden. Öffnen Sie durch Anklicken
+**Bild**
 
-Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
-
-## Einrichten eines iOS-Gerätes
-
-**WICHTIG**: Die Verwendung der Pentacode Zeiterfassung erfordert **iOS 10** oder neuer! Ältere iOS-Versionen werden **nicht** unterstützt.
-
-**1. Schritt**: geben Sie **perso.pentacode.app** ein und wählen Sie unter Optionen "**Zum Home-Bildschirm**" oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp da wird automatisch ein Browserfenster mit der richtigen Adresse geöffnet.
-
-{{< figure caption="Adresseingabe im Browser auf ihrem Smartphone" >}}
-
-![](/uploads/simulator-screen-shot-ipod-touch.png)
-
-{{< /figure >}}
-
-{{< figure caption="QR-Code scannen auf dem Tablet mithilfe der Kamera auf ihrem Smartphone für Adressverknüpfung" >}}
-
-![](/uploads/stempel_pfeil_qrcode_ipad.png "QR-Code scannen")
-
-{{< /figure >}}
-
-**2. Schritt**: Wählen Sie "**Hinzufügen**"
-
-{{< figure caption="App auf Homebildschirm verknüpfen ihres Gerätes verknüpfen" >}}
-
-![](/uploads/handy_einzeln_iphone-bsp_app_installieren-1.png)
-
-{{< /figure >}}
-
-**3. Schritt:** Öffnen Sie die nun installierte App
+Die Mitarbeiter-App ist nun unter Ihren Apps zu finden. Öffnen Sie durch Anklicken.
 
 {{< figure caption="Ihre Mitarbeiter-App auf ihrem Startbildschirm" >}}
 
@@ -77,4 +49,36 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< /figure >}}
 
-Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
+Ihre Mitarbeiter-App ist eingerichtet und freut sich auf Ihre Benutzung!
+
+## Einrichten eines iOS-Gerätes
+
+**WICHTIG**: Die Verwendung der Pentacode Zeiterfassung erfordert **iOS 10** oder neuer! Ältere iOS-Versionen werden **nicht** unterstützt.
+
+**1. Schritt**: Öffnen Sie **Safari** und geben Sie **perso.pentacode.app** ein.
+
+{{< figure caption="Adresseingabe im Browser auf ihrem Smartphone" >}}
+
+![](/uploads/simulator-screen-shot-ipod-touch.png)
+
+**2. Schritt**: Wählen Sie über das Dropdown Menü **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **"Add to Home screen"** oder **"App installieren"**
+
+{{< figure caption="App auf Homebildschirm verknüpfen ihres Gerätes verknüpfen" >}}
+
+![](/uploads/handy_einzeln_iphone-bsp_app_installieren-1.png)
+
+{{< /figure >}}
+
+**3. Schritt**: **Bestätigen** Sie die Installation, indem sie auf "**Add to Homescreen"** bzw. **"App installieren"** klicken.
+
+**Bild**
+
+Die Mitarbeiter-App ist nun unter Ihren Apps zu finden. Öffnen Sie durch Anklicken.
+
+{{< figure caption="Ihre Mitarbeiter-App auf ihrem Startbildschirm" >}}
+
+![](/uploads/handy_einzeln_iphone-bsp_app_auf_startbildschirm.png)
+
+{{< /figure >}}
+
+Ihre Mitarbeiter-App ist eingerichtet und freut sich auf Ihre Benutzung!
