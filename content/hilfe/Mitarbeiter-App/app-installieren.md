@@ -49,13 +49,13 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 **1. Schritt**: geben Sie **perso.pentacode.app** ein und wählen Sie unter Optionen "**Zum Home-Bildschirm**" oder scannen Sie den QR-Code in der Stempeluhr in der Zeiterfassungsapp da wird automatisch ein Browserfenster mit der richtigen Adresse geöffnet.
 
-{{< figure caption="Adresseingabe im Browser" >}}
+{{< figure caption="Adresseingabe im Browser auf ihrem Smartphone" >}}
 
 ![](/uploads/simulator-screen-shot-ipod-touch.png)
 
 {{< /figure >}}
 
-{{< figure caption="QR-Code scannen für Adressverknüpfung" >}}
+{{< figure caption="QR-Code scannen auf dem Tablet mithilfe der Kamera auf ihrem Smartphone für Adressverknüpfung" >}}
 
 ![](/uploads/stempel_pfeil_qrcode_ipad.png "QR-Code scannen")
 
@@ -63,7 +63,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 **2. Schritt**: Wählen Sie "**Hinzufügen**"
 
-{{< figure caption="App auf Homebildschirm verknüpfen" >}}
+{{< figure caption="App auf Homebildschirm verknüpfen ihres Gerätes verknüpfen" >}}
 
 ![](/uploads/homebildschirm_safari_hinzufugen.png)
 
