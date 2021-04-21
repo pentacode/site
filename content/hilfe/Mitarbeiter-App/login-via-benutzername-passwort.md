@@ -26,15 +26,15 @@ Mit dem **QR-Code Login** können Sie sich schnell und sicher mit Pentacode verb
 
 Den QR-Code zu scannen auf der Stempeluhr Oberfläche, ist ein super einfacher Weg, um Sie auf einem neuen mobilen Gerät in die Mitarbeiter-App einzuloggen, egal wo Sie sich gerade befinden.
 
-{{< figure caption="Zeitstempelübersicht - QR-Code scannen" >}}
+{{< figure caption="Stempeluhr auf dem Tablet - QR-Code scannen mit ihrem Smartphone" >}}
 
-![Übersicht QR Code](/uploads/stempel_mit_pfeil_qrcode.png "Zeiterfassung QR Code scannen")
+![](/uploads/stempel_mit_pfeil_qrcode.png)
 
 {{< /figure >}}
 
 Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit ihrer Zeiterfassung-PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-{{< figure caption="Mitarbeiter-App Login mit Zeit-PIN" >}}
+{{< figure caption="Mitarbeiter-App Login mit Zeit-PIN auf Ihrem Smartphone" >}}
 
 ![Login mit Zeiterfassung-PIN](/uploads/ma-app_zeitpin_login.png "Login mit Zeit-PIN")
 
@@ -44,7 +44,7 @@ Sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login m
 
 Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeiter-App, bequem von überall mit einer Internetverbindung über Ihr Mobilgerät in Pentacode ein.
 
-{{< figure caption="Mitarbeiter-App Login mit Benutzername und Passwort" >}}
+{{< figure caption="Mitarbeiter-App Login mit Benutzername und Passwort auf Ihrem Smartphone" >}}
 
 ![Login Benutzername/Passwort](/uploads/ma-app_login_benutzer-1.png "Login Benutzer")
 
