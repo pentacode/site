@@ -28,13 +28,13 @@ draft: true
 
 Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-{{< figure caption="mit QR-Code zur Mitarbeiter-App" >}}
+{{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
 
 ![](/uploads/stempel_pfeil_qrcode_ipad.png)
 
 {{< /figure >}}
 
-{{< figure caption="anlegen eines Mitarbeiter-App Accounts" >}}
+{{< figure caption="anlegen eines Mitarbeiter-App Accounts auf Ihrem Smartphone" >}}
 
 ![Benutzerdaten anlegen](/uploads/drei_handy_nebeneinander_bsp_zugang_einrichten2.png "Daten anlegen Mitarbeite-App")
 
@@ -48,9 +48,9 @@ Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät k�
 2. Klicken Sie auf "**Passwort ändern**" oder ändern Sie Ihre Email-Adresse falls gewünscht. (Bitte Beachten: Diese nach Änderung zu bestätigen)
 3. Geben Sie Ihr gewünschtes neues Passwort ein und klicke anschließend auf "**Speichern**".
 
-   {{< figure caption="Passwort ändern" >}}
+   {{< figure caption="Passwort ändern auf Ihrem Smartphone in der Mitarbeiter-App" >}}
 
-   ![Ändern des Passwortes](/uploads/passwort_aendern_ma-app.png "Passwort ändern")
+   ![](/uploads/zwei_handy_nebeneinander_lang_bsp_daten_aendern.png)
 
    {{< /figure >}}
 
