@@ -13,11 +13,11 @@ draft: true
 ---
 <p><center>
 
-Die Installation der Mitarbeiter-App erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung
+Die Installation der Mitarbeiter-App erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung.
 
 </p></center>
 
-## Einrichten eines Android-Gerätes
+## App installieren auf Ihrem Smartphone
 
 **WICHTIG**: Die Verwendung der Pentacode Mitarbeiter-App erfordert **Android 4.4** oder neuer! Ältere Android-Versionen werden **nicht** unterstützt.
 
