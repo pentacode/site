@@ -65,7 +65,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< figure caption="App auf Homebildschirm verknüpfen ihres Gerätes verknüpfen" >}}
 
-![](/uploads/homebildschirm_safari_hinzufugen.png)
+![](/uploads/handy_einzeln_iphone-bsp_app_installieren-1.png)
 
 {{< /figure >}}
 
@@ -73,7 +73,7 @@ Ihre Mitarbeiter-App ist nun eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< figure caption="Ihre Mitarbeiter-App auf ihrem Startbildschirm" >}}
 
-![](/uploads/foto-19-04-21-02-16-01.png)
+![](/uploads/handy_einzeln_iphone-bsp_app_auf_startbildschirm.png)
 
 {{< /figure >}}
 
