@@ -8,3 +8,9 @@ draft: true
 
 ---
 Urlaub und Abwesenheit beantragen
+
+Wie beantrage ich den Urlaub?
+
+Wie kann ich mich krank melden?
+
+Wie erstelle ich eine Abwesentheitsnachricht?
