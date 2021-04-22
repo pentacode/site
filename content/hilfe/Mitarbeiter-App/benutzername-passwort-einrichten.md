@@ -28,13 +28,17 @@ draft: true
 
 Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betrieb können Sie sich schnell und sicher mit Pentacode verbinden.
 
-sobald Sie den QR-Code mit der Kamera Ihres Smartphones gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+1. **Schritt:** Scannen Sie den QR-Code mit der Kamera Ihres Smartphones 
 
 {{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
 
 ![QR-Code mit Kamera scannen](/uploads/stempel_pfeil_qrcode_ipad.png "scannen des QR-Codes auf der Stempeluhr")
 
 {{< /figure >}}
+
+2. **Schritt:** Es wird eine Verknüpfung zum Login der Mitarbeiter-App mit Zeit-PIN angezeigt, die Sie bestätigen.
+3. **Schritt**: Sie sind in der Übersicht der Mitarbeiter-App gelandet. Nun richten Sie Ihren Zugang ein, indem sie mit dem tippen auf "**Zugang Einrichten**" in ihr Profil landen wo Sie Ihre Emailadresse und Ihr Passwort eingeben können, um sich später einloggen zu können. Speichern Sie Bitte alles am Ende am mit "**Speichern**"
+4. Das sieht auf dem Bildschirm dann so aus:
 
 {{< figure caption="anlegen eines Mitarbeiter-App Accounts auf Ihrem Smartphone" >}}
 
