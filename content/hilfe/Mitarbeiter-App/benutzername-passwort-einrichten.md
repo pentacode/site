@@ -24,7 +24,23 @@ anchors:
 draft: true
 
 ---
-## Benutzername/Passwort einrichten
+## Benutzername/Passwort einrichten mit QR Code
+
+Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betrieb können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code mit der Kamera Ihres Smartphones gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+
+{{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
+
+![QR-Code mit Kamera scannen](/uploads/stempel_pfeil_qrcode_ipad.png "scannen des QR-Codes auf der Stempeluhr")
+
+{{< /figure >}}
+
+{{< figure caption="anlegen eines Mitarbeiter-App Accounts auf Ihrem Smartphone" >}}
+
+![Benutzerdaten anlegen](/uploads/drei_handy_nebeneinander_bsp_zugang_einrichten2.png "Daten anlegen Mitarbeite-App")
+
+{{< /figure >}}
+
+## Benutzername/Passwort einrichten Einladung per Mail
 
 Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
