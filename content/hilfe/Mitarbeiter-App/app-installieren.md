@@ -55,10 +55,4 @@ Ihre Mitarbeiter-App ist eingerichtet und freut sich auf Ihre Benutzung!
 
 {{< /figure >}}
 
-{{< figure caption="Ihre Mitarbeiter-App auf ihrem Startbildschirm" >}}
-
-![](/uploads/handy_einzeln_iphone-bsp_app_auf_startbildschirm.png)
-
-{{< /figure >}}
-
 Ihre Mitarbeiter-App ist eingerichtet und freut sich auf Ihre Benutzung!
