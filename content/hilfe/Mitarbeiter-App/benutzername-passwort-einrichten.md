@@ -48,7 +48,7 @@ Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betri
 
 ## Benutzername/Passwort einrichten Einladung per Mail
 
-Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+Mit der Email die sie von der Unternehmungsleitung bekommen, können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den Link in der Email angeklickt haben, werden Sie direkt zu dem Login mit Ihrer Zeiterfassung PIN weitergeleitet um sich zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
 {{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
 
