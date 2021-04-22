@@ -26,7 +26,7 @@ draft: true
 ---
 ## Benutzername/Passwort einrichten
 
-Mit dem QR-Code oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+Mit dem **QR-Code** oder über die Adresse in deinem Browser auf Ihrem Gerät können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den QR-Code gescannt haben, werden Sie kurz darum gebeten den Login mit Ihrer Zeiterfassung PIN zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
 {{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
 
