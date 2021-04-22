@@ -36,8 +36,8 @@ Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betri
 
 {{< /figure >}}
 
-1. **Schritt:** Es wird eine Verknüpfung zum Login der Mitarbeiter-App mit Zeit-PIN angezeigt, die Sie bestätigen.
-2. **Schritt**: Sie sind in der Übersicht der Mitarbeiter-App gelandet. Nun richten Sie Ihren Zugang ein, indem sie mit dem tippen auf "**Zugang Einrichten**" in ihr Profil landen wo Sie Ihre Emailadresse und Ihr Passwort eingeben können, um sich später einloggen zu können. Speichern Sie Bitte alles am Ende am mit "**Speichern**"
+1. Es wird eine Verknüpfung zum Login der Mitarbeiter-App mit Zeit-PIN angezeigt, die Sie bestätigen.
+2. Sie sind in der Übersicht der Mitarbeiter-App gelandet. Nun richten Sie Ihren Zugang ein, indem sie mit dem tippen auf "**Zugang Einrichten**" in ihr Profil landen wo Sie Ihre Emailadresse und Ihr Passwort eingeben können, um sich später einloggen zu können. Speichern Sie Bitte alles am Ende am mit "**Speichern**"
 3. Das sieht auf dem Bildschirm dann so aus:
 
 {{< figure caption="anlegen eines Mitarbeiter-App Accounts auf Ihrem Smartphone" >}}
