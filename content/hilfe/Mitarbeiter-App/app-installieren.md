@@ -1,7 +1,7 @@
 ---
 keywords: []
 title: App installieren
-weight: 1
+weight: 6
 icon: download
 anchors:
 - title: Android
