@@ -1,6 +1,6 @@
 ---
 keywords: []
-title: Dienstplan
+title: Zeiterfassung per App
 weight: 4
 icon: calendar-alt
 anchors: []
