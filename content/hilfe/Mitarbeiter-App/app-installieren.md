@@ -19,9 +19,11 @@ Die Installation der **Mitarbeiter-App** erfordert eine entsprechende Einladung 
 
 ## App installieren auf Ihrem Smartphone
 
-**WICHTIG**: Die Verwendung der Pentacode Mitarbeiter-App erfordert **Android 4.4** oder **iOS 10** oder neuer! Ältere Versionen werden auf Android und iOS **nicht** unterstützt.
+**WICHTIG**: 
 
-**1. Schritt**: 
+Die Verwendung der Pentacode Mitarbeiter-App erfordert **Android 4.4** oder **iOS 10** oder neuer! Ältere Versionen werden auf Android und iOS **nicht** unterstützt.
+
+**1. Schritt**:
 
 Öffnen Sie **Google Chrome** auf Ihrem Android Gerät oder **Safari** auf Ihrem Apple Gerät und geben Sie **perso.pentacode.app** ein.
 
@@ -31,7 +33,7 @@ Die Installation der **Mitarbeiter-App** erfordert eine entsprechende Einladung 
 
 {{< /figure >}}
 
-**2. Schritt**: 
+**2. Schritt**:
 
 Wählen Sie über das Dropdown Menü unter:
 
