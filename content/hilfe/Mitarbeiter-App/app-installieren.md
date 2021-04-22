@@ -13,7 +13,7 @@ draft: true
 ---
 <p><center>
 
-Die Installation der Mitarbeiter-App erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung.
+Die Installation der **Mitarbeiter-App** erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung.
 
 </p></center>
 
