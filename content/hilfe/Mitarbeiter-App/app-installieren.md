@@ -13,7 +13,7 @@ draft: true
 ---
 <p><center>
 
-Die Installation der **Mitarbeiter-App** erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung.
+Die **Installation** der **Mitarbeiter-App** erfordert eine entsprechende Einladung per Email durch die Unternehmensleitung.
 
 </p></center>
 
@@ -37,9 +37,9 @@ Die Verwendung der Pentacode Mitarbeiter-App erfordert **Android 4.4** oder **iO
 
 Wählen Sie über das Dropdown Menü unter:
 
-Android: Google Chrome **Einstellungen** (die 3 vertikalen Punkte am rechten oberen Eck) **"Add to Home screen"** oder **"App installieren"**
+**Android**: in Google Chrome über "Einstellungen" (die 3 vertikalen Punkte am rechten oberen Eck) **"Add to Home screen"** oder **"App installieren"**
 
-iOS: Safari Einstellungen (das Rechteck mit dem Pfeil nach oben) "**Zum Homebilschirm**"
+**iOS**: in Safari über "Einstellungen" (das Rechteck mit dem Pfeil nach oben) "**Zum Homebildschirm**"
 
 {{< figure caption="App auf ihrem Smartphone installieren und  App auf Startbildschirm hinzufügen" >}}
 
@@ -57,4 +57,4 @@ Die Mitarbeiter-App ist nun unter Ihren Apps zu finden. Öffnen Sie durch Anklic
 
 {{< /figure >}}
 
-Ihre **Mitarbeiter-App** ist eingerichtet und freut sich auf Ihre Benutzung!
+Ihre Mitarbeiter-App ist eingerichtet und freut sich auf Ihre Benutzung!
