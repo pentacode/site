@@ -7,7 +7,9 @@ anchors: []
 draft: true
 
 ---
-Urlaub und Abwesenheit beantragen
+Urlaub beantragen
+
+Abwesenheit beantragen/melden
 
 Wie beantrage ich den Urlaub?
 
