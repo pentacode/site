@@ -84,9 +84,7 @@ Falls von der Unternehmungsleitung freigeschaltet, haben Sie die Möglichkeit ei
 
 ## Übersicht Dienstplan
 
-In der Mitarbeiter-App sehen Sie auf einem Blick ihre nächste bevorstehende Schicht in der App-Ansicht. Wenn Sie auf die Zeiterfassung tippen gelangen Sie in die Stempelübersicht. Ihnen wird angezeigt ab wann sie ihre bevorstehende Schicht in der App dann stempeln können.
-
-Falls von der Unternehmungsleitung freigeschaltet, haben Sie die Möglichkeit eine spontane Schicht zu stempeln. Dies kann aber nur nach vorheriger Absprache mit der Unternehmungsleitung durchgeführt werden.
+In der Mitarbeiter-App sehen Sie auf einem Blick ihre nächste bevorstehende Schicht in der App-Ansicht. Wenn Sie auf Dienstplan tippen gelangen Sie in die Diensplanübersicht. Ihnen werden die aktuell geplanten Schichten angezeigt, wann sie ihre nächste Schicht in der aktuellen Arbeitswoche haben.
 
 {{< figure caption="Mitarbeiter-App aktueller Dienstplan" >}}
 
