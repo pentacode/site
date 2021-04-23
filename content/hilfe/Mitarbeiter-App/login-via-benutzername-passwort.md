@@ -22,7 +22,7 @@ draft: true
 ---
 ## Funktionen der Mitarbeiter-App
 
-Die **Mitarbeiter-App** ermöglicht jedem Mitarbeiter eine Übersicht zu seinen **Über-/Minderstunden** und **Urlaubsansprüchen**, **Urlaubsanträge** zu stellen, **Krankzeiten** zu melden, seinen **individuellen Dienstplan** einzusehen, sich auf **Schichten zu bewerben** und seine **Arbeitszeiten** zu erfassen. Sie können bequem Ihre Profildaten verwalten und ändern
+Die **Mitarbeiter-App** ermöglicht jedem Mitarbeiter eine Übersicht zu seinen **Über-/Minderstunden** und **Urlaubsansprüchen**, **Urlaubsanträge** zu stellen, **Krankzeiten** zu melden, seinen **individuellen Dienstplan** einzusehen und seine **Arbeitszeiten** zu erfassen. Sie können bequem Ihre Profildaten verwalten und ändern
 
 Der Umfang, in dem die verschiedenen Funktionen zur Verfügung gestellt werden, wird durch die Unternehmensleitung bestimmt.
 
@@ -60,7 +60,7 @@ Hat ein Mitarbeiter sein Passwort vergessen, kann er bequem auf der Startseite v
 
 ## Übersicht Stunden/Urlaub
 
-In der Mitarbeiter-App sehen Sie auf einem Blick ihre aktuelle Stundenübersicht gleich oben in der App-Ansicht. Somit haben Sie immer den Überblick über Ihre aktuelle Stundensituation. In der nächsten Zeile wird ihr aktueller Resturlaub angezeigt. 
+In der Mitarbeiter-App sehen Sie auf einem Blick ihre aktuelle Stundenübersicht gleich oben in der App-Ansicht. Somit haben Sie immer den Überblick über Ihre aktuelle Stundensituation. In der nächsten Zeile wird ihr aktueller Resturlaub angezeigt.
 
 Damit haben sie im oberen Bereich der Mitarbeiter-App die wichtigsten Informationen aktuell im Überblick.
 
@@ -70,7 +70,7 @@ Damit haben sie im oberen Bereich der Mitarbeiter-App die wichtigsten Informatio
 
 {{< /figure >}}
 
-## Übersicht Zeiterfassung 
+## Übersicht Zeiterfassung
 
 In der Mitarbeiter-App sehen Sie auf einem Blick ihre nächste bevorstehende Schicht in der App-Ansicht. Wenn Sie auf die Zeiterfassung tippen gelangen Sie in die Stempelübersicht. Ihnen wird angezeigt ab wann sie ihre bevorstehende Schicht in der App dann stempeln können.
 
@@ -89,5 +89,19 @@ In der Mitarbeiter-App sehen Sie auf einem Blick ihre nächste bevorstehende Sch
 {{< figure caption="Mitarbeiter-App aktueller Dienstplan" >}}
 
 ![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_dienstplan.png)
+
+{{< /figure >}}
+
+## Übersicht Urlaubsantrag/Krankmeldung
+
+In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt und Sie sehen unmittelbar die Antwort in der App und zusätzlich per Mail.
+
+Sie haben auch die Möglichkeit sich Krank zu melden. Dies wird dann auch von der Unternehmungsleitung genehmigt bzw. abgelehnt und Sie bekommen unmittelbar eine Bestätigung in der App und zusätzlich per Mail.
+
+Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihre Krankmeldung anzukündigen bzw. abzusprechen. 
+
+{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
+
+![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_urlaub-krank.png)
 
 {{< /figure >}}
