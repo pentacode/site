@@ -9,7 +9,7 @@ draft: true
 ---
 Sie können sich mit der Mitarbeiter-App folgendermaßen für eine Schicht bewerben...
 
-Wie kann ich mich um eine Schicht bewerben?
+Wie kann ich mich um eine **Schicht** bewerben?
 
 Wo kann ich mich um eine Schicht bewerben?
 
