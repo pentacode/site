@@ -20,6 +20,12 @@ anchors:
 draft: true
 
 ---
+## Funktionen der Mitarbeiter-App
+
+Die **Mitarbeiter-App** ermöglicht jedem Mitarbeiter eine Übersicht zu seinen **Über-/Minderstunden** und **Urlaubsansprüchen**, **Urlaubsanträge** zu stellen, **Krankzeiten** zu melden, seinen **individuellen Dienstplan** einzusehen, sich auf **Schichten zu bewerben** und seine **Arbeitszeiten** zu erfassen. Sie können bequem Ihre Profildaten verwalten und ändern
+
+Der Umfang, in dem die verschiedenen Funktionen zur Verfügung gestellt werden, wird durch die Unternehmensleitung bestimmt.
+
 ## Log-in via QR-Code {{< icon "qrcode" >}}
 
 Mit dem **QR-Code** Login können Sie sich schnell und sicher mit Pentacode verbinden, ohne die vollen Zugangsdaten tippen zu müssen, lediglich mit ihrem **Zeiterfassungs-PIN** loggen Sie sich in die **Mitarbeiter-App** ein.
@@ -51,3 +57,39 @@ Mitarbeiter loggen sich aber auch bequem mit Ihren Zugangsdaten in der Mitarbeit
 {{< /figure >}}
 
 Hat ein Mitarbeiter sein Passwort vergessen, kann er bequem auf der Startseite von von der Mitarbeiter-App über “[**Passwort Vergessen**]( "Passwort vergessen")” ein neues Passwort anfordern.
+
+## Übersicht Stunden/Urlaub
+
+In der Mitarbeiter-App sehen Sie auf einem Blick ihre aktuelle Stundenübersicht gleich oben in der App-Ansicht. Somit haben Sie immer den Überblick über Ihre aktuelle Stundensituation. In der nächsten Zeile wird ihr aktueller Resturlaub angezeigt. 
+
+Damit haben sie im oberen Bereich der Mitarbeiter-App die wichtigsten Informationen aktuell im Überblick.
+
+{{< figure caption="Mitarbeiter-App aktuelle Stundenübersicht " >}}
+
+![](/uploads/handy_einzeln_lang_maapp_ubersicht_stunden_urlaub.png)
+
+{{< /figure >}}
+
+## Übersicht Zeiterfassung 
+
+In der Mitarbeiter-App sehen Sie auf einem Blick ihre nächste bevorstehende Schicht in der App-Ansicht. Wenn Sie auf die Zeiterfassung tippen gelangen Sie in die Stempelübersicht. Ihnen wird angezeigt ab wann sie ihre bevorstehende Schicht in der App dann stempeln können.
+
+Falls von der Unternehmungsleitung freigeschaltet, haben Sie die Möglichkeit eine spontane Schicht zu stempeln. Dies kann aber nur nach vorheriger Absprache mit der Unternehmungsleitung durchgeführt werden.
+
+{{< figure caption="Mitarbeiter-App Zeiterfassung" >}}
+
+![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_zeit_erfassen.png)
+
+{{< /figure >}}
+
+## Übersicht Dienstplan
+
+In der Mitarbeiter-App sehen Sie auf einem Blick ihre nächste bevorstehende Schicht in der App-Ansicht. Wenn Sie auf die Zeiterfassung tippen gelangen Sie in die Stempelübersicht. Ihnen wird angezeigt ab wann sie ihre bevorstehende Schicht in der App dann stempeln können.
+
+Falls von der Unternehmungsleitung freigeschaltet, haben Sie die Möglichkeit eine spontane Schicht zu stempeln. Dies kann aber nur nach vorheriger Absprache mit der Unternehmungsleitung durchgeführt werden.
+
+{{< figure caption="Mitarbeiter-App aktueller Dienstplan" >}}
+
+![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_dienstplan.png)
+
+{{< /figure >}}
