@@ -7,7 +7,7 @@ anchors: []
 draft: true
 
 ---
-## Dienstplan / Zeiten erfassen
+## Dienstplan / Zeiten erfassen in der Mitarbeiter-App
 
 Die Mitarbeiter können über unsere **Mitarbeiter-App** nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
