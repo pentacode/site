@@ -73,7 +73,7 @@ Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegeb
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
-![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_urlaub-krank.png)
+**Screenshot: Urlaub in Pentacode (Übersicht, Urlaub anlegen, Urlaub bewilligen, Urlaub ablehnen)**
 
 {{< /figure >}}
 
@@ -85,6 +85,6 @@ Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegeb
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
-![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_urlaub-krank.png)
+**Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung anlegen, Krankmeldung bewilligen, Krankmeldung ablehnen)**
 
 {{< /figure >}}
