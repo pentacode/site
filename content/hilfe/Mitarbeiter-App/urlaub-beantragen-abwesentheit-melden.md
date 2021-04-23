@@ -49,9 +49,9 @@ Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegeb
 
 Sie sehen unmittelbar die Antwort ihrer Krankmeldung in der App unter "Urlaub & Krankmeldungen und bekommen zusätzlich eine Mail.
 
-## Übersicht Abwesenheit in Pentacode
+## Übersicht Urlaub/Abwesenheit in Pentacode
 
-In diesem Hilfeartikel hab
+In diesem Hilfeartikel erfahren Sie 
 
 In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. Sie sehen unmittelbar die Antwort in der App unter "Urlaub&Krankmeldungen und zusätzlich per Mail.
 
