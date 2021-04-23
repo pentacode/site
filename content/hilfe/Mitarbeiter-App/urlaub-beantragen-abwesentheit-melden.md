@@ -9,7 +9,7 @@ draft: true
 ---
 ## Urlaub beantragen
 
-In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. 
+In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt.
 
 Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihren Urlaubsantrag abzusprechen.
 
@@ -51,15 +51,15 @@ Sie sehen unmittelbar die Antwort ihrer Krankmeldung in der App unter "Urlaub & 
 
 ## Übersicht Urlaub/Abwesenheit in Pentacode
 
-In diesem Hilfeartikel erfahren Sie 
+In diesem Hilfeartikel erfahren Sie
 
-In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. Sie sehen unmittelbar die Antwort in der App unter "Urlaub&Krankmeldungen und zusätzlich per Mail.
+Über die Mitarbeiter-App haben die Mitarbeiter die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. Sie sehen unmittelbar die Antwort in der App unter "Urlaub & Krankmeldungen und zusätzlich per Mail.
 
 Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihren Urlaubsantrag anzukündigen bzw. abzusprechen.
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
-![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_urlaub-krank.png)
+**Screenshot: Übersicht Alle Mitarbeiter - Abwesenheiten**
 
 {{< /figure >}}
 
@@ -79,7 +79,7 @@ Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegeb
 
 ## Krankmeldungen verwalten in Pentacode
 
-In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. Sie sehen unmittelbar die Antwort in der App unter "Urlaub&Krankmeldungen und zusätzlich per Mail.
+In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. Sie sehen unmittelbar die Antwort in der App unter "Urlaub & Krankmeldungen und zusätzlich per Mail.
 
 Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihren Urlaubsantrag anzukündigen bzw. abzusprechen.
 
