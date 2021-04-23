@@ -98,10 +98,20 @@ In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abz
 
 Sie haben auch die Möglichkeit sich Krank zu melden. Dies wird dann auch von der Unternehmungsleitung genehmigt bzw. abgelehnt und Sie bekommen unmittelbar eine Bestätigung in der App und zusätzlich per Mail.
 
-Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihre Krankmeldung anzukündigen bzw. abzusprechen. 
+Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihre Krankmeldung anzukündigen bzw. abzusprechen.
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
 ![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_urlaub-krank.png)
+
+{{< /figure >}}
+
+## Hilfefunktion
+
+In der Mitarbeiter-App ganz unten haben Sie die Möglichkeit falls Fragen bestehen die Hilfeartikel aufzurufen. Sie können diese mit der Suchfunktion dann alle durchstöbern und die Funktionen nachschlagen falls Fragen bestehen.
+
+{{< figure caption="Mitarbeiter-App Hilfefunktion" >}}
+
+![](/uploads/handy_einzeln_lang_maapp_ubersicht_hilfe.png)
 
 {{< /figure >}}
