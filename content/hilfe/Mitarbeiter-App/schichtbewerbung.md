@@ -7,12 +7,16 @@ anchors: []
 draft: true
 
 ---
-Sie können sich mit der Mitarbeiter-App folgendermaßen für eine Schicht bewerben...
+## Für eine Schicht bewerben
 
-Wie kann ich mich um eine **Schicht** bewerben?
+In der Mitarbeiter-App haben Sie die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt und Sie sehen unmittelbar die Antwort in der App und zusätzlich per Mail.
 
-Wo kann ich mich um eine Schicht bewerben?
+Sie haben auch die Möglichkeit sich Krank zu melden. Dies wird dann auch von der Unternehmungsleitung genehmigt bzw. abgelehnt und Sie bekommen unmittelbar eine Bestätigung in der App und zusätzlich per Mail.
 
-Mitarbeiter-App? Funktionen?
+Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihre Krankmeldung anzukündigen bzw. abzusprechen.
 
-Was muss die Unternehmungsleitung freischalten?
+{{< figure caption="Mitarbeiter-App Schichtbewerbung " >}}
+
+**Screenshots Schichtbewerben in Einzelschritten**
+
+{{< /figure >}}
