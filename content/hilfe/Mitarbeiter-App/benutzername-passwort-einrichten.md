@@ -28,7 +28,7 @@ draft: true
 
 Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betrieb können Sie sich schnell und sicher mit Pentacode verbinden.
 
-1. **Schritt:** Scannen Sie den QR-Code mit der Kamera Ihres Smartphones
+1. Scannen Sie den QR-Code mit der Kamera Ihres Smartphones
 
 {{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
 
@@ -36,9 +36,11 @@ Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betri
 
 {{< /figure >}}
 
-1. Es wird eine Verknüpfung zum Login der Mitarbeiter-App mit Zeit-PIN angezeigt, die Sie bestätigen.
-2. Sie sind in der Übersicht der Mitarbeiter-App gelandet. Nun richten Sie Ihren Zugang ein, indem sie mit dem tippen auf "**Zugang Einrichten**" in ihr Profil landen wo Sie Ihre Emailadresse und Ihr Passwort eingeben können, um sich später einloggen zu können. Speichern Sie Bitte alles am Ende am mit "**Speichern**"
-3. Das sieht auf dem Bildschirm dann so aus:
+2. Es wird eine Verknüpfung zum Login der Mitarbeiter-App mit Zeit-PIN angezeigt, die Sie bestätigen.
+3. Sie sind in der Übersicht der Mitarbeiter-App gelandet. Nun richten Sie Ihren Zugang ein, indem sie mit dem tippen auf "**Zugang Einrichten**" um in ihr Profil landen, wo Sie Ihre Emailadresse und Ihr Passwort eingeben können, um sich später einloggen zu können. 
+4. Speichern Sie Bitte alles am Ende am mit "**Speichern**"
+
+   Das sieht auf dem Bildschirm dann so aus:
 
 {{< figure caption="anlegen eines Mitarbeiter-App Accounts auf Ihrem Smartphone" >}}
 
@@ -48,15 +50,24 @@ Mit dem scannen des **QR-Code** auf der Stempeluhr auf dem Tablet in Ihrem Betri
 
 ## Benutzername/Passwort einrichten mit Einladung per Mail
 
-Mit der Email die sie von der Unternehmungsleitung bekommen, können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den Link in der Email angeklickt haben, werden Sie direkt zu dem Login mit Ihrer Zeiterfassung PIN weitergeleitet um sich zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+Nach Absprache der Unternehmungsleitung bekommen sie um die Mitarbeiter-App zu nutzen, falls freigegeben, eine Email zum anlegen der Benutzerdaten an Ihre eingetragene Emailadresse zugesendet. 
 
-{{< figure caption="mit QR-Code scannen mit Kamera auf ihrem Smartphone über Stempeluhr auf Tablet zur Mitarbeiter-App" >}}
+Nun können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den Link in der Email angeklickt haben, werden Sie direkt zu dem Login weitergeleitet, um sich zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
+
+{{< figure caption="Email der Unternehmensleitung für eine Registrierung der Benutzerdaten in der Mitarbeiter-App >}}
+
+**Screenshot: Email mit Einladungslink um Benutzerdaten zu registrieren für Mitarbeiter-App**
 
 {{< /figure >}}
 
+1. Sie sind in der Eingabeansicht der Mitarbeiter-App gelandet. Nun richten Sie Ihren Zugang ein, indem sie mit dem tippen auf "**Zugang Einrichten**" um in ihr Profil landen, wo Sie Ihre Emailadresse und Ihr Passwort eingeben können, um sich später einloggen zu können. 
+
+
+2. Speichern Sie Bitte alles am Ende am mit "**Speichern**"
+
 {{< figure caption="anlegen eines Mitarbeiter-App Accounts auf Ihrem Smartphone" >}}
 
-![Benutzerdaten anlegen](/uploads/drei_handy_nebeneinander_bsp_zugang_einrichten2.png "Daten anlegen Mitarbeite-App")
+**Screenshot: Mitarbeiter-App Eingabe der Zugangsdaten**
 
 {{< /figure >}}
 
