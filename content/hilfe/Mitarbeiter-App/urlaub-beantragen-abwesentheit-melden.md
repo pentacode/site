@@ -51,7 +51,7 @@ Sie sehen unmittelbar die Antwort ihrer Krankmeldung in der App unter "Urlaub & 
 
 ## Übersicht Urlaub/Abwesenheit in Pentacode
 
-In diesem Hilfeartikel erfahren Sie
+In diesem Hilfeartikel erfahren Sie die Verwaltung von Urlaubsanfragen und Krankmeldungen.
 
 Über die Mitarbeiter-App haben die Mitarbeiter die Möglichkeit bequem einen Urlaubsantrag abzusenden und zu beantragen. Dieser wird dann von der Unternehmungsleitung genehmigt bzw. abgelehnt. Sie sehen unmittelbar die Antwort in der App unter "Urlaub & Krankmeldungen und zusätzlich per Mail.
 
@@ -67,9 +67,13 @@ Sie sehen unmittelbar die Antwort ihres Antrages in der App unter "Urlaub&Krankm
 
 ## Urlaub beantragen
 
-{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
+Den Mitarbeitern ihres Betriebes ist es über die Mitarbeiter-App möglich einen Urlaub zu beantragen. Dieser kann dann von der Unternehmungsleitung genehmigt bzw. abgelehnt werden. Die Mitarbeiter können unmittelbar die Antwort in der App unter "Urlaub & Krankmeldungen und zusätzlich per Mail einsehen.
 
-**Screenshot: Urlaub in Pentacode (Übersicht, Urlaub anlegen, Urlaub bewilligen, Urlaub ablehnen)**
+Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich gegebenenfalls im Betrieb vorher telefonisch um Ihren Urlaubsantrag anzukündigen bzw. abzusprechen.
+
+{{< figure caption="Mitarbeiter-App Urlaub beantragen" >}}
+
+**Screenshot: Urlaub beantragen in der Mitarbeiter-App**
 
 {{< /figure >}}
 
