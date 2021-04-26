@@ -9,7 +9,7 @@ draft: true
 ---
 ## Dienstplan / Zeiten erfassen in der Mitarbeiter-App
 
-Die Mitarbeiter können über unsere Mitarbeiter-App nun ihre geplanten Zeiten einsehen und aktuell stempeln.
+Die Mitarbeiter können über unsere **Mitarbeiter-App** nun ihre geplanten Zeiten einsehen und aktuell stempeln.
 
 {{< figure caption="Dienstplanübersicht Mitarbeiter-App" >}}
 
