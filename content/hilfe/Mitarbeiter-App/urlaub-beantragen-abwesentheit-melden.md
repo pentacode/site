@@ -53,7 +53,7 @@ Sie sehen unmittelbar die Antwort ihrer Krankmeldung in der App unter "Urlaub & 
 
 In diesem Hilfeartikel erfahren Sie die Verwaltung von Urlaubsanfragen und Krankmeldungen in Pentacode.
 
-Sie können alle Urlaubsanträge und Krankmeldungen in Pentacode unter "Mitarbeiter - Alle Mitarbeiter/Mitarbeiter - Abwesenheiten" einsehen.
+Sie können alle Urlaubsanträge und Krankmeldungen in Pentacode unter "Mitarbeiter - Alle Mitarbeiter - Mitarbeiter - Abwesenheiten" einsehen bzw. verwalten.
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
@@ -75,7 +75,13 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 {{< /figure >}}
 
-## Urlaub bearbeiten
+**Oder link auf Artikel Urlaub beantragen in der Mitarbeiter-App anstatt Grafik?**
+
+## Urlaub genehmigen/ablehnen
+
+#### Urlaubsanfrage genehmigen
+
+#### Urlaubsanfrage ablehnen
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
@@ -83,7 +89,11 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 {{< /figure >}}
 
-## Urlaub genehmigen/ablehnen
+## Urlaub bearbeiten
+
+#### Urlaub bearbeiten
+
+#### Buchungstage buchen in Urlaubsantrag
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
@@ -93,6 +103,10 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 ## Krankmeldung in Pentacode
 
+#### Krankmeldung genehmigen bei Anfrage: Bedeutung
+
+#### Krankmeldung Buchung: Fehltage 
+
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
 **Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung anlegen, Krankmeldung bewilligen, Krankmeldung ablehnen)**
@@ -101,8 +115,12 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 ## Krankmeldung bearbeiten in Pentacode
 
+#### Krankmeldung bearbeiten
+
+#### Krankmeldung löschen
+
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
-**Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung anlegen, Krankmeldung bewilligen, Krankmeldung ablehnen)**
+**Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung bearbeiten, Krankmeldung löschen)**
 
 {{< /figure >}}
