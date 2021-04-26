@@ -57,7 +57,7 @@ Sie können alle Urlaubsanträge und Krankmeldungen in Pentacode unter "Mitarbei
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
-**Screenshot: Übersicht Alle Mitarbeiter - Abwesenheiten**
+**Screenshot: Übersicht Urlaub/Krankmeldung in Pentacode**
 
 {{< /figure >}}
 
@@ -71,7 +71,7 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen" >}}
 
-**Screenshot: Urlaub beantragen in der Mitarbeiter-App**
+**![](/uploads/drei_handy_nebeneinander_lang_maapp_urlaub_beantragen.png)**
 
 {{< /figure >}}
 
