@@ -1,13 +1,9 @@
 ---
 keywords: []
 title: App installieren
-weight: 6
+weight: 2
 icon: download
-anchors:
-- title: Android
-  hash: android
-- hash: iOS
-  title: iOS
+anchors: []
 draft: true
 
 ---

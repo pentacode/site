@@ -4,7 +4,7 @@ keywords:
 - App
 - pentacode
 title: Mitarbeiter-App
-weight: 7
+weight: 1
 icon: mobile
 anchors: []
 draft: true
