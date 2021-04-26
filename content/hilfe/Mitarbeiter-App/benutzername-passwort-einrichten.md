@@ -30,7 +30,7 @@ Unter der Voraussetzung, dass die Unternehmensleitung den QR-Code freigeschaltet
 
 Indem Sie den **QR-Code** mit der Kamera Ihres Smartphones scannen, der Stempeluhr auf dem Tablet in Ihrem Betrieb können Sie sich schnell und sicher mit Pentacode verbinden.
 
-1. Scannen Sie den QR-Code mit der Kamera Ihres Smartphones
+1. Scannen Sie den **QR-Code** mit der Kamera Ihres Smartphones
 
 {{< figure caption="Scannen Sie den QR-Code mit der Kamera Ihres Smartphone" >}}
 
