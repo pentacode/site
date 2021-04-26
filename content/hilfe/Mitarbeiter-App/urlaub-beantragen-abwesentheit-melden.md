@@ -65,7 +65,7 @@ Bitte beachten Sie Ihre abgesprochenen Arbeitsabläufe und melden Sie sich gegeb
 
 Sie sehen unmittelbar die Antwort ihres Antrages in der App unter "Urlaub&Krankmeldungen und zusätzlich per Mail.
 
-## Urlaubsanträge verwalten in Pentacode
+## Urlaub beantragen
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
@@ -73,7 +73,31 @@ Sie sehen unmittelbar die Antwort ihres Antrages in der App unter "Urlaub&Krankm
 
 {{< /figure >}}
 
-## Krankmeldungen verwalten in Pentacode
+## Urlaub bearbeiten
+
+{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
+
+**Screenshot: Urlaub in Pentacode (Übersicht, Urlaub anlegen, Urlaub bewilligen, Urlaub ablehnen)**
+
+{{< /figure >}}
+
+## Urlaub genehmigen/ablehnen
+
+{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
+
+**Screenshot: Urlaub in Pentacode (Übersicht, Urlaub anlegen, Urlaub bewilligen, Urlaub ablehnen)**
+
+{{< /figure >}}
+
+## Krankmeldung in Pentacode
+
+{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
+
+**Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung anlegen, Krankmeldung bewilligen, Krankmeldung ablehnen)**
+
+{{< /figure >}}
+
+## Krankmeldung bearbeiten in Pentacode
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
