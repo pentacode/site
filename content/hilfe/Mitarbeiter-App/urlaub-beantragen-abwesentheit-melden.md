@@ -183,6 +183,8 @@ Sie können diese anklicken und bearbeiten.
 
    {{< figure caption="Urlaubsanfrage Übersicht löschen markiert" >}}
 
+   ![](/uploads/urlaubsantrag_loschen.png)
+
    {{< /figure >}}
 
 ## Krankmeldung in Pentacode
