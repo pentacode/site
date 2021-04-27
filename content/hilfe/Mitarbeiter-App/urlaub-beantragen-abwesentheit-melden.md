@@ -2,7 +2,7 @@
 keywords: []
 title: Urlaub beantragen/Abwesentheit melden
 weight: 3
-icon: calender-times
+icon: umbrella-beach
 anchors: []
 draft: true
 
@@ -113,12 +113,14 @@ Sie können diese anklicken und öffnen.
 
    {{< figure caption="Urlaubsanfrage genehmigen" >}}
 
+   ![](/uploads/urlaubsantrag_genehmigen.png)
+
    {{< /figure >}}
-4. In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Tage angezeigt. Pentacode gibt bei der Anfrage eine Hilfestellung welche Tage gebucht werden können je nach Arbeitswoche. Sie können dann die zu buchenden Tage anklicken. Die gefüllten Felder sind gebucht und die offenen sind umgebuchte Tage in dem Zeitraum.
+4. In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Tage angezeigt. Pentacode gibt bei der Anfrage eine Hilfestellung welche Tage gebucht werden können je nach Arbeitswoche. Sie können dann die zu buchenden Tage anklicken. Die gefüllten Felder sind gebucht und die offenen sind umgebuchte Tage in dem Zeitraum. Außerdem werden ihnen in der nächsten Zeile die gebuchten und verfügbaren Urlaubstage auf dem Konto angezeigt.
 
    {{< figure caption="Urlaubstage buchen" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/urlaubsantrag_genehmigen_buchungstage.png)
 
    {{< /figure >}}
 5. Nun sind die Urlaubstage in ihrer Übersicht einzusehen.
