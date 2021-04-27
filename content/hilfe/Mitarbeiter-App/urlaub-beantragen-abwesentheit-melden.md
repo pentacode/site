@@ -89,7 +89,7 @@ In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub
 
 {{< figure caption="Übersicht Abwesenheiten Urlaubstage markiert" >}}
 
-![](https://via.placeholder.com/600x400)
+![](/uploads/abwesenheiten_ubersicht_mit_beiden_daten.png)
 
 {{< /figure >}}
 
