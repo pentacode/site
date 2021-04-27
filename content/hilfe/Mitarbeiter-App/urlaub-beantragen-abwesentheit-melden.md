@@ -79,9 +79,34 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 ## Urlaub genehmigen/ablehnen
 
+In diesem Hilfeartikel zeigen wir Ihnen wie sie die Urlaubsanträge in Pentacode verwalten können. Die Urlaubsanträge können von Ihren Mitarbeitern über die Mitarbeiter-App gestellt werden. Diese Anfragen können Sie bequem und übersichtlich in Pentacode bearbeiten.
+
 #### Urlaubsanfrage genehmigen
 
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten einsehen und bearbeiten. 
+
+In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
+
+Sie können diese anklicken und öffnen.
+
+1. Klicken Sie die blau markierten Urlaubsanfragen in der Übersicht bei dem entsprechenden Mitarbeiter an.
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in die Antwort an den Mitarbeiter.
+4. In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Tage angezeigt. Pentacode gibt bei der Anfrage eine Hilfestellung welche Tage gebucht werden können je nach Arbeitswoche. Sie können dann die zu buchenden Tage anklicken. Die gefüllten Felder sind gebucht und die offenen sind umgebuchte Tage in dem Zeitraum.
+5. Nun sind die Urlaubstage in ihrer Übersicht einzusehen.
+
 #### Urlaubsanfrage ablehnen
+
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten einsehen und bearbeiten. 
+
+In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
+
+Sie können diese anklicken und öffnen.
+
+1. Klicken Sie die blau markierten ungefüllten Urlaubsanfragen in der Übersicht bei dem entsprechenden Mitarbeiter an.
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+3. Sie können nun die Anfrage ablehnen und einen Grund bzw. eine Beschreibung eingeben in die Antwort an den Mitarbeiter. 
+4. Der Antrag wird aus der Abwesenheitsübersicht nach Ablehnung gelöscht.
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
@@ -105,7 +130,7 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 #### Krankmeldung genehmigen bei Anfrage: Bedeutung
 
-#### Krankmeldung Buchung: Fehltage 
+#### Krankmeldung Buchung: Fehltage
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
 
