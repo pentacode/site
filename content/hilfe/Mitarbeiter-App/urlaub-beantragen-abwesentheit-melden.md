@@ -127,7 +127,7 @@ Sie können diese anklicken und öffnen.
 
    {{< figure caption="Übersicht mit genehmigten Urlaubstagen" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/abwesenheiten_ubersicht_mit_urlaub_gebucht.png)
 
    {{< /figure >}}
 
@@ -143,21 +143,21 @@ Sie können diese anklicken und öffnen.
 
    {{< figure caption="Abwesenheiten Übersicht" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/abwesenheiten_ubersicht_mit_urlaubsanfrage_markiert.png)
 
    {{< /figure >}}
-2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung des Urlaubsantrages **(2)**, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden **(4)** und eine Zeitleiste mit den zu buchenden Tagen **(3)**.
 
    {{< figure caption="Urlaubsanfrage Übersicht" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/urlaubsantrag_nummeriert_felder_ablehnen.png)
 
    {{< /figure >}}
 3. Sie können nun die Anfrage ablehnen und einen Grund bzw. eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
 
    {{< figure caption="Urlaubsanfrage ablehnen" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/urlaubsantrag_ablehnen.png)
 
    {{< /figure >}}
 4. Der Antrag wird aus der Abwesenheitsübersicht nach Ablehnung gelöscht.
@@ -176,18 +176,16 @@ Sie können diese anklicken und bearbeiten.
 
 {{< /figure >}}
 
-2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung des Urlaubsantrages **(2)**, wann der Urlaub genehmigt wurde **(3)**, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden **(5)** und eine Zeitleiste mit den zu buchenden bzw. gebuchten Tagen **(4)**.
 
    {{< figure caption="Urlaubsanfrage Übersicht" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/urlaubsantrag_nummeriert_felder_bearbeiten.png)
 
    {{< /figure >}}
    3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
 
    {{< figure caption="Urlaubsanfrage Übersicht löschen markiert" >}}
-
-   ![](https://via.placeholder.com/600x400)
 
    {{< /figure >}}
 
@@ -266,6 +264,6 @@ Sie haben oben rechts in der Abwesenheitsübersicht die Möglichkeit auch einfac
 
 {{< figure caption="Abwesenheitsmeldungen Übersicht löschen markiert" >}}
 
-![](https://via.placeholder.com/600x400)
+![](/uploads/krankmeldung_loschen.png)
 
 {{< /figure >}}
