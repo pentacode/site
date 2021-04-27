@@ -53,15 +53,9 @@ Sie sehen unmittelbar die Antwort ihrer Krankmeldung in der App unter "Urlaub & 
 
 In diesem Hilfeartikel erfahren Sie die Verwaltung von Urlaubsanfragen und Krankmeldungen in Pentacode.
 
-Sie können alle Urlaubsanträge und Krankmeldungen in Pentacode unter "Mitarbeiter - Alle Mitarbeiter - Mitarbeiter - Abwesenheiten" einsehen bzw. verwalten.
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten bei allen oder auch bei einzelnen Mitarbeitern einsehen und bearbeiten.
 
-{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
-
-**Screenshot: Übersicht Urlaub/Krankmeldung in Pentacode**
-
-{{< /figure >}}
-
-Sie sehen unmittelbar die Antwort ihres Antrages in der App unter "Urlaub&Krankmeldungen und zusätzlich per Mail.
+Sie sehen unmittelbar die Antwort ihres Antrages in der Mitarbeiter-App unter "Urlaub&Krankmeldungen und zusätzlich werden die Mitarbeiter per Mail über den Status informiert.
 
 ## Urlaub beantragen
 
@@ -176,14 +170,14 @@ Sie können diese anklicken und bearbeiten.
 
 {{< /figure >}}
 
-2. Nun sehen sie den Zeitraum des gewünschten Urlaubs **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung des Urlaubsantrages **(2)**, wann der Urlaub genehmigt wurde **(3)**, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden **(5)** und eine Zeitleiste mit den zu buchenden bzw. gebuchten Tagen **(4)**.
+1. Nun sehen sie den Zeitraum des gewünschten Urlaubs **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung des Urlaubsantrages **(2)**, wann der Urlaub genehmigt wurde **(3)**, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden **(5)** und eine Zeitleiste mit den zu buchenden bzw. gebuchten Tagen **(4)**.
 
    {{< figure caption="Urlaubsanfrage Übersicht" >}}
 
    ![](/uploads/urlaubsantrag_nummeriert_felder_bearbeiten.png)
 
    {{< /figure >}}
-   3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
+   3\. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
 
    {{< figure caption="Urlaubsanfrage Übersicht löschen markiert" >}}
 
@@ -256,7 +250,7 @@ Sie können diese anklicken und bearbeiten.
    ![](/uploads/krankmeldung_bearbeiten_buchungstage.png)
 
    {{< /figure >}}
-   3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. 
+   3\. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen.
 
 #### Krankmeldung löschen
 
