@@ -168,6 +168,8 @@ Sie können diese anklicken und bearbeiten.
 
 {{< figure caption="Abwesenheiten Urlaub Übersicht" >}}
 
+![](/uploads/abwesenheiten_ubersicht_mit_urlaub_gebucht.png)
+
 {{< /figure >}}
 
 1. Nun sehen sie den Zeitraum des gewünschten Urlaubs **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung des Urlaubsantrages **(2)**, wann der Urlaub genehmigt wurde **(3)**, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden **(5)** und eine Zeitleiste mit den zu buchenden bzw. gebuchten Tagen **(4)**.
