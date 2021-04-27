@@ -170,7 +170,7 @@ In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub
 
 Sie können diese anklicken und bearbeiten.
 
-1. Klicken eines der entsprechenden Felder im Urlaubszeitraum an um diesen zu bearbeiten
+1. Klicken Sie eines der entsprechenden Felder im Urlaubszeitraum an um diesen zu bearbeiten
 
 {{< figure caption="Abwesenheiten Urlaub Übersicht" >}}
 
@@ -215,9 +215,16 @@ Sie können diese anklicken und bearbeiten.
    ![](https://via.placeholder.com/600x400)
 
    {{< /figure >}}
-3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
+3. Sie können nun die Krankmeldung genehmigen d.h. die Meldung ist richtig gemeldet entsprechend Ihren internen Arbeitsabläufen in Ihrem eigenen Betrieb und eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
 
    {{< figure caption="Abwesenheitsmeldung genehmigen" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
+4. Falls Sie die Meldung ablehnen entspricht die Anfrage nicht den Bedingungen in Ihrem Betrieb und die Fehltage werden nicht gespeichert.
+
+   {{< figure caption="Krankmeldung ablehnen" >}}
 
    ![](https://via.placeholder.com/600x400)
 
@@ -231,4 +238,34 @@ In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Fehltage ange
 
 #### Krankmeldung bearbeiten
 
+Die Krankmeldungen können Sie in der Mitarbeiter Übersicht unter Abwesenheiten bei allen oder auch bei einzelnen Mitarbeitern einsehen und bearbeiten.
+
+In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Abwesenheitsmeldungen werden in der Übersicht orange gefüllt angezeigt. Die offenen Anfragen sind orange umrandet und nicht gefüllt.
+
+Sie können diese anklicken und bearbeiten.
+
+1. Klicken Sie eines der entsprechenden Felder im Urlaubszeitraum an um diesen zu bearbeiten
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+
+   {{< figure caption="Abwesenheitsmeldungen Übersicht" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
+   3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
+
+   {{< figure caption="Abwesenheitsmeldungen Übersicht löschen markiert" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
+
 #### Krankmeldung löschen
+
+Sie haben oben rechts in der Abwesenheitsübersicht die Möglichkeit auch einfach und bequem die Meldung zu löschen.
+
+{{< figure caption="Abwesenheitsmeldungen Übersicht löschen markiert" >}}
+
+![](https://via.placeholder.com/600x400)
+
+{{< /figure >}}
