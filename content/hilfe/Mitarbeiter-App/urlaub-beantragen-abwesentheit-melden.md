@@ -99,21 +99,19 @@ Sie können diese anklicken und öffnen.
 
    {{< figure caption="Urlaubsanfragen anklicken" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/abwesenheiten_ubersicht_mit_urlaubsanfrage_markiert.png)
 
    {{< /figure >}}
-2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung des Urlaubsantrages **(2)**, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden **(4)** und eine Zeitleiste mit den zu buchenden Tagen **(3)**.
 
    {{< figure caption="Urlaubsanfrage Übersicht" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/urlaubsantrag_nummeriert_felder.png)
 
    {{< /figure >}}
 3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
 
    {{< figure caption="Urlaubsanfrage genehmigen" >}}
-
-   ![](https://via.placeholder.com/600x400)
 
    {{< /figure >}}
 4. In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Tage angezeigt. Pentacode gibt bei der Anfrage eine Hilfestellung welche Tage gebucht werden können je nach Arbeitswoche. Sie können dann die zu buchenden Tage anklicken. Die gefüllten Felder sind gebucht und die offenen sind umgebuchte Tage in dem Zeitraum.
