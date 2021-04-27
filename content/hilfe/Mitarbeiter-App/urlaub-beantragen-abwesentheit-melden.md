@@ -203,28 +203,28 @@ Sie können diese anklicken und bearbeiten.
 
    {{< figure caption="Abwesenheitsmeldung anklicken" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/krankmeldung_ubersicht_markiert.png)
 
    {{< /figure >}}
-2. Nun sehen sie den Zeitraum der gemeldeten Abwesenheit, das Datum wann der Antrag abgesendet wurde, eine Beschreibung der Krankheit/Fehlgrund und eine Zeitleiste mit den zu buchenden Fehltagen.
+2. Nun sehen sie den Zeitraum der gemeldeten Abwesenheit **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung der Krankheit/Fehlgrund **(2)** und eine Zeitleiste mit den zu buchenden Fehltagen **(3)**.
 
    {{< figure caption="Krankmeldung Übersicht" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/krankmeldung_genehmigen_buchungstage.png)
 
    {{< /figure >}}
-3. Sie können nun die Krankmeldung genehmigen d.h. die Meldung ist richtig gemeldet entsprechend Ihren internen Arbeitsabläufen in Ihrem eigenen Betrieb und eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
+3. Sie können nun die Krankmeldung genehmigen d.h. die Meldung ist richtig gemeldet entsprechend Ihren internen Arbeitsabläufen in Ihrem eigenen Betrieb und eine Beschreibung eingeben in der Antwort an den Mitarbeiter. Am Ende klicken Sie absenden um dem Mitarbeiter die mitzuteilen das alles richtig verbucht ist.
 
    {{< figure caption="Abwesenheitsmeldung genehmigen" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/krankmeldung_genehmigen.png)
 
    {{< /figure >}}
-4. Falls Sie die Meldung ablehnen entspricht die Anfrage nicht den Bedingungen in Ihrem Betrieb und die Fehltage werden nicht gespeichert.
+4. Falls Sie die Meldung ablehnen entspricht die Anfrage nicht den Bedingungen in Ihrem Betrieb und die Fehltage werden nicht gespeichert. Am Ende klicken Sie absenden und die Meldung wird in der Übersicht gelöscht.
 
    {{< figure caption="Krankmeldung ablehnen" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/krankmeldung_ablehnen.png)
 
    {{< /figure >}}
 
@@ -242,21 +242,21 @@ In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub
 
 Sie können diese anklicken und bearbeiten.
 
-1. Klicken Sie eines der entsprechenden Felder im Urlaubszeitraum an um diesen zu bearbeiten
-2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+1. Klicken Sie eines der entsprechenden Felder im Abwesenheitszeitraum an um diesen zu bearbeiten
+
+   {{< figure caption="Krankmeldung anklicken in der Übersicht" >}}
+
+   ![](/uploads/krankmeldung_ubersicht_markiert.png)
+
+   {{< /figure >}}
+2. Nun sehen sie den Zeitraum der gemeldeten Abwesenheit **(1)**, das Datum wann der Antrag abgesendet wurde **(2)**, eine Beschreibung der Krankheit/Fehlgrund **(2),** wann der Antrag genehmigt wurde **(3)** und eine Zeitleiste mit den zu buchenden Fehltagen **(4)**.
 
    {{< figure caption="Abwesenheitsmeldungen Übersicht" >}}
 
-   ![](https://via.placeholder.com/600x400)
+   ![](/uploads/krankmeldung_bearbeiten_buchungstage.png)
 
    {{< /figure >}}
-   3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
-
-   {{< figure caption="Abwesenheitsmeldungen Übersicht löschen markiert" >}}
-
-   ![](https://via.placeholder.com/600x400)
-
-   {{< /figure >}}
+   3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. 
 
 #### Krankmeldung löschen
 
