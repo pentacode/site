@@ -26,7 +26,7 @@ draft: true
 ---
 ## Benutzername/Passwort einrichten mit QR Code
 
-Unter der Voraussetzung, dass die Unternehmensleitung den QR-Code freigeschaltet hat, erscheint dieser auf dem Bildschirm der Stempeluhr.
+Unter der Voraussetzung, dass die Unternehmensleitung den QR-Code **freigeschaltet** hat, erscheint dieser auf dem Bildschirm der Stempeluhr.
 
 Indem Sie  mit der Kamera Ihres Smartphones den QR-Code scannen, werden Sie mit Pentacode verbunden.
 
