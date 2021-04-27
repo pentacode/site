@@ -13,7 +13,7 @@ Die Mitarbeiter können über unsere **Mitarbeiter-App** nun ihre geplanten **Ze
 
 {{< figure caption="Dienstplanübersicht Mitarbeiter-App" >}}
 
-![Dienstplanübersicht](/uploads/dienstplan-ma-app.png "Dienstplan Mitarbeiter-App")
+![](/uploads/zwei_handy_nebeneinander_lang_maapp_ubersicht_dienstplan.png)
 
 {{< /figure >}}
 
@@ -35,7 +35,7 @@ Den Mitarbeitern ist es über die App nun möglich ihre geplanten bzw. auch fall
 
 {{< figure caption="Dienstplan geplante Schicht stempeln" >}}
 
-![geplante Schicht Mitarbeiter-App](/uploads/geplante_schicht_ma-app.png "geplante Schicht stempeln")
+![](/uploads/geplante_schicht_ma-app.png)
 
 {{< /figure >}}
 
