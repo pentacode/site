@@ -162,12 +162,6 @@ Sie können diese anklicken und öffnen.
    {{< /figure >}}
 4. Der Antrag wird aus der Abwesenheitsübersicht nach Ablehnung gelöscht.
 
-{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
-
-**Screenshot: Urlaub in Pentacode (Übersicht, Urlaub anlegen, Urlaub bewilligen, Urlaub ablehnen)**
-
-{{< /figure >}}
-
 ## Urlaub bearbeiten
 
 #### Urlaub bearbeiten
@@ -178,13 +172,26 @@ In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub
 
 Sie können diese anklicken und bearbeiten.
 
-#### Buchungstage buchen in Urlaubsantrag
+1. Klicken eines der entsprechenden Felder im Urlaubszeitraum an um diesen zu bearbeiten
 
-{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
-
-**Screenshot: Urlaub in Pentacode (Übersicht, Urlaub anlegen, Urlaub bewilligen, Urlaub ablehnen)**
+{{< figure caption="Abwesenheiten Urlaub Übersicht" >}}
 
 {{< /figure >}}
+
+2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+
+   {{< figure caption="Urlaubsanfrage Übersicht" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
+3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
+
+   {{< figure caption="Urlaubsanfrage Übersicht löschen markiert" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 
 ## Krankmeldung in Pentacode
 
