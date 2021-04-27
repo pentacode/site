@@ -79,11 +79,11 @@ Bitte beachten Sie Ihre Betriebsinternen Arbeitsabläufe und melden Sie sich geg
 
 ## Urlaub genehmigen/ablehnen
 
-In diesem Hilfeartikel zeigen wir Ihnen wie sie die Urlaubsanträge in Pentacode verwalten können. Die Urlaubsanträge können von Ihren Mitarbeitern über die Mitarbeiter-App gestellt werden. Diese Anfragen können Sie bequem und übersichtlich in Pentacode bearbeiten.
+In diesem Hilfeartikel zeigen wir Ihnen wie sie die Urlaubsanträge in Pentacode verwalten können. Die Urlaubsanträge können von Ihren Mitarbeitern über die Mitarbeiter-App angefragt werden. Diese Anfragen können Sie bequem und übersichtlich in Pentacode bearbeiten.
 
 #### Urlaubsanfrage genehmigen
 
-Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten einsehen und bearbeiten. 
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten bei allen oder auch bei einzelnen Mitarbeitern einsehen und bearbeiten.
 
 In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
 
@@ -109,7 +109,7 @@ Sie können diese anklicken und öffnen.
    ![](https://via.placeholder.com/600x400)
 
    {{< /figure >}}
-3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in die Antwort an den Mitarbeiter.
+3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
 
    {{< figure caption="Urlaubsanfrage genehmigen" >}}
 
@@ -133,7 +133,7 @@ Sie können diese anklicken und öffnen.
 
 #### Urlaubsanfrage ablehnen
 
-Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten einsehen und bearbeiten. 
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten bei allen oder auch bei einzelnen Mitarbeitern einsehen und bearbeiten.
 
 In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
 
@@ -153,7 +153,7 @@ Sie können diese anklicken und öffnen.
    ![](https://via.placeholder.com/600x400)
 
    {{< /figure >}}
-3. Sie können nun die Anfrage ablehnen und einen Grund bzw. eine Beschreibung eingeben in die Antwort an den Mitarbeiter. 
+3. Sie können nun die Anfrage ablehnen und einen Grund bzw. eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
 
    {{< figure caption="Urlaubsanfrage ablehnen" >}}
 
@@ -164,9 +164,7 @@ Sie können diese anklicken und öffnen.
 
 ## Urlaub bearbeiten
 
-#### Urlaub bearbeiten
-
-Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten einsehen und bearbeiten. 
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten bei allen oder auch bei einzelnen Mitarbeitern einsehen und bearbeiten.
 
 In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
 
@@ -185,7 +183,7 @@ Sie können diese anklicken und bearbeiten.
    ![](https://via.placeholder.com/600x400)
 
    {{< /figure >}}
-3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
+   3. Bearbeiten Sie die entsprechenden Daten und speichern Sie am Ende um die Änderungen sichtbar zu machen. Sie haben oben rechts die Möglichkeit auch einfach und bequem den Urlaub zu löschen.
 
    {{< figure caption="Urlaubsanfrage Übersicht löschen markiert" >}}
 
@@ -195,24 +193,42 @@ Sie können diese anklicken und bearbeiten.
 
 ## Krankmeldung in Pentacode
 
+Die Krankmeldungen können Sie in der Mitarbeiter Übersicht unter Abwesenheiten bei allen oder auch bei einzelnen Mitarbeitern einsehen und bearbeiten.
+
+In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Abwesenheitsmeldungen werden in der Übersicht orange gefüllt angezeigt. Die offenen Anfragen sind orange umrandet und nicht gefüllt.
+
+Sie können diese anklicken und bearbeiten.
+
 #### Krankmeldung genehmigen bei Anfrage: Bedeutung
+
+1. Klicken Sie die offenen orange markierten Felder in der Übersicht bei dem entsprechenden Mitarbeiter an.
+
+   {{< figure caption="Abwesenheitsmeldung anklicken" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
+2. Nun sehen sie den Zeitraum der gemeldeten Abwesenheit, das Datum wann der Antrag abgesendet wurde, eine Beschreibung der Krankheit/Fehlgrund und eine Zeitleiste mit den zu buchenden Fehltagen.
+
+   {{< figure caption="Krankmeldung Übersicht" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
+3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in der Antwort an den Mitarbeiter.
+
+   {{< figure caption="Abwesenheitsmeldung genehmigen" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 
 #### Krankmeldung Buchung: Fehltage
 
-{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
-
-**Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung anlegen, Krankmeldung bewilligen, Krankmeldung ablehnen)**
-
-{{< /figure >}}
+In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Fehltage angezeigt. Pentacode gibt bei der Anfrage eine Hilfestellung welche Tage gebucht werden können je nach Arbeitswoche. Sie können dann die zu buchenden Fehltage anklicken. Die gefüllten Felder sind gebucht und die offenen sind umgebuchte Tage in dem Zeitraum.
 
 ## Krankmeldung bearbeiten in Pentacode
 
 #### Krankmeldung bearbeiten
 
 #### Krankmeldung löschen
-
-{{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
-
-**Screenshot: Krankmeldung in Pentacode (Übersicht, Krankmeldung bearbeiten, Krankmeldung löschen)**
-
-{{< /figure >}}
