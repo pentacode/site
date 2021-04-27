@@ -22,7 +22,7 @@ draft: true
 ---
 ## Funktionen der Mitarbeiter-App
 
-Die **Mitarbeiter-App** ermöglicht jedem Mitarbeiter eine Übersicht zu seinen **Über-/Minderstunden** und **Urlaubsansprüchen**, **Urlaubsanträge** zu stellen, **Krankzeiten** zu melden, seinen **individuellen Dienstplan** einzusehen und seine **Arbeitszeiten** zu erfassen. Sie können bequem Ihre Profildaten verwalten und ändern
+Die **Mitarbeiter-App** ermöglicht jedem Mitarbeiter eine Übersicht zu seinen **Über-/Minderstunden** und **Urlaubsansprüchen**, **Urlaubsanträge** zu stellen, **Krankzeiten** zu melden, seinen **individuellen Dienstplan** einzusehen und seine **Arbeitszeiten** zu erfassen. Sie können bequem Ihre **Profildaten** verwalten und ändern
 
 Der Umfang, in dem die verschiedenen Funktionen zur Verfügung gestellt werden, wird durch die Unternehmensleitung bestimmt.
 
