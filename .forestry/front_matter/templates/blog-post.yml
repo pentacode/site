@@ -19,6 +19,7 @@ fields:
   default: []
   label: Schlagwörter
 pages:
+- content/blog/arbeitszeiterfassung-nach-dem-aktuellen-eugh-urteil.md
 - content/blog/corona-krise-infos.md
 - content/blog/covid-ratgeber-gastronomen.md
 - content/blog/hilfe-zur-selbsthilfe.md
