@@ -87,13 +87,49 @@ Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheite
 
 In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
 
+{{< figure caption="Übersicht Abwesenheiten Urlaubstage markiert" >}}
+
+![](https://via.placeholder.com/600x400)
+
+{{< /figure >}}
+
 Sie können diese anklicken und öffnen.
 
-1. Klicken Sie die blau markierten Urlaubsanfragen in der Übersicht bei dem entsprechenden Mitarbeiter an.
+1. Klicken Sie die offenen blau markierten Felder in der Übersicht bei dem entsprechenden Mitarbeiter an.
+
+   {{< figure caption="Urlaubsanfragen anklicken" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+
+   {{< figure caption="Urlaubsanfrage Übersicht" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 3. Sie können nun die Anfrage genehmigen  und einen Grund bzw. eine Beschreibung eingeben in die Antwort an den Mitarbeiter.
+
+   {{< figure caption="Urlaubsanfrage genehmigen" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 4. In der unteren Zeitleiste wird Ihnen der Zeitraum der zu buchenden Tage angezeigt. Pentacode gibt bei der Anfrage eine Hilfestellung welche Tage gebucht werden können je nach Arbeitswoche. Sie können dann die zu buchenden Tage anklicken. Die gefüllten Felder sind gebucht und die offenen sind umgebuchte Tage in dem Zeitraum.
+
+   {{< figure caption="Urlaubstage buchen" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 5. Nun sind die Urlaubstage in ihrer Übersicht einzusehen.
+
+   {{< figure caption="Übersicht mit genehmigten Urlaubstagen" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 
 #### Urlaubsanfrage ablehnen
 
@@ -104,8 +140,26 @@ In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub
 Sie können diese anklicken und öffnen.
 
 1. Klicken Sie die blau markierten ungefüllten Urlaubsanfragen in der Übersicht bei dem entsprechenden Mitarbeiter an.
+
+   {{< figure caption="Abwesenheiten Übersicht" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 2. Nun sehen sie den Zeitraum des gewünschten Urlaubs, das Datum wann der Antrag abgesendet wurde, eine Beschreibung des Urlaubsantrages, aktuelle wieviel Urlaub zur Verfügung steht bzw. bereits genommen wurden und eine Zeitleiste mit den zu buchenden Tagen.
+
+   {{< figure caption="Urlaubsanfrage Übersicht" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 3. Sie können nun die Anfrage ablehnen und einen Grund bzw. eine Beschreibung eingeben in die Antwort an den Mitarbeiter. 
+
+   {{< figure caption="Urlaubsanfrage ablehnen" >}}
+
+   ![](https://via.placeholder.com/600x400)
+
+   {{< /figure >}}
 4. Der Antrag wird aus der Abwesenheitsübersicht nach Ablehnung gelöscht.
 
 {{< figure caption="Mitarbeiter-App Urlaub beantragen bzw. Krankmeldung " >}}
@@ -117,6 +171,12 @@ Sie können diese anklicken und öffnen.
 ## Urlaub bearbeiten
 
 #### Urlaub bearbeiten
+
+Die Urlaubsanträge können Sie in der Mitarbeiter Übersicht unter Abwesenheiten einsehen und bearbeiten. 
+
+In der Übersicht werden im Kalender alle Anfragen bzw. bereits gebuchter Urlaub angezeigt. Die genehmigten Urlaubsanfragen werden in der Übersicht blau gefüllt angezeigt. Die offenen Anfragen sind blau umrandet und nicht gefüllt.
+
+Sie können diese anklicken und bearbeiten.
 
 #### Buchungstage buchen in Urlaubsantrag
 
