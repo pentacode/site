@@ -5,17 +5,80 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Titel
 - name: subtitle
   type: text
   config:
-    required: false
+    required: true
   label: Untertitel
 - name: images
   type: image_gallery
   config: {}
   label: Bilder
-- name: right_aligned
-  type: boolean
-  label: Rechts Ausrichten
+- name: color_1
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - red
+    - orange
+    - yellow
+    - olive
+    - green
+    - teal
+    - blue
+    - violet
+    - purple
+    - pink
+    - brown
+    - grey
+    - black
+    - aqua
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Farbe 1
+- name: color_2
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - red
+    - orange
+    - yellow
+    - olive
+    - green
+    - teal
+    - blue
+    - violet
+    - purple
+    - pink
+    - brown
+    - grey
+    - black
+    - aqua
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Farbe 2
+- name: alignment
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - left
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Ausrichtung
