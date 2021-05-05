@@ -1,0 +1,26 @@
+---
+label: Funktionen
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: icon
+  label: icon
+- type: field_group_list
+  name: anchors
+  label: anchors
+  fields:
+  - type: text
+    name: hash
+    label: hash
+  - type: text
+    name: title
+    label: title
+- type: list
+  name: keywords
+  label: keywords
