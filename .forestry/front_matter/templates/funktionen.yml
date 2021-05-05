@@ -24,3 +24,10 @@ fields:
 - type: list
   name: keywords
   label: keywords
+- name: sections
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: Abschnitte
