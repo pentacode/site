@@ -15,9 +15,10 @@ sections:
   - "/uploads/time-tracker.png"
   color_1: blue
   alignment: right
-  text: "**Automatisierte Schichtvorlagen**, **selbstgewählte Favoriten**, **individuelle
+  text: '**Automatisierte Schichtvorlagen**, **selbstgewählte Favoriten**, **individuelle
     Dienstplanvorlagen** – per drag & drop oder einfachster Navigation über die Tastatur
-    erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war. \\[mehr erfahren\\](#)"
+    erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war. [mehr erfahren
+    {{< icon "arrow-right" >}}](#)'
 draft: true
 
 ---
