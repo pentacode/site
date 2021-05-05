@@ -48,6 +48,7 @@ section .inner {
 }
 
 section .inner .content {
+    display: block;
     position: relative;
     z-index: 1;
     background: var(--color-bg);
