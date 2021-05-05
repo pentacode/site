@@ -11,8 +11,8 @@ sections:
   title: "**Dienstplan** Online Erstellen "
   subtitle: So schreibt sich der Dienstplan fast von alleine.
   images:
-  - "/uploads/time-tracker.png"
   - "/uploads/roster.png"
+  - "/uploads/time-tracker.png"
   color_1: blue
   alignment: right
   text: "**Automatisierte Schichtvorlagen**, **selbstgewählte Favoriten**, **individuelle
