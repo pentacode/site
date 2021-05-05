@@ -11,9 +11,10 @@ sections:
   - "/uploads/versenden1.png"
   color_1: blue
   alignment: left
-  text: Automatisierte Schichtvorlagen, selbstgewählte Favoriten, individuelle Dienstplanvorlagen
+  text: 'Automatisierte Schichtvorlagen, selbstgewählte Favoriten, individuelle Dienstplanvorlagen
     – per drag & drop oder einfachster Navigation über die Tastatur erstellen Sie
-    in kürzester Zeit, was vorher oft viel Arbeit war.
+    in kürzester Zeit, was vorher oft viel Arbeit war. '
+  template_path: ''
 weight: 
 icon: ''
 anchors: []

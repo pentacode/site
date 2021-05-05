@@ -91,3 +91,10 @@ fields:
     schema:
       format: markdown
   label: Text
+- name: template_path
+  type: text
+  config:
+    required: false
+  label: Template Path
+  hidden: true
+  default: screenshots-side
