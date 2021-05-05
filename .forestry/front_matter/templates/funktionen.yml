@@ -32,3 +32,5 @@ fields:
     min: 
     max: 
   label: Abschnitte
+pages:
+- content/funktionen/dienstplan.md
