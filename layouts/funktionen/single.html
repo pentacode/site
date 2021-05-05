@@ -1,0 +1,14 @@
+{{ define "css" }}
+    {{ template "basecss" }}
+    <link href="/css/features.css" rel="stylesheet" type="text/css" />
+{{ end }}
+
+{{ define "main" }}
+    {{ partial "header" . }}
+
+    <div>
+        {{ range .Params.sections }}
+            {{ partial .template_path . }}
+        {{ end }}
+    </div>
+{{ end }}

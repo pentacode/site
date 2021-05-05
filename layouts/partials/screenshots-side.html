@@ -1,0 +1,27 @@
+<section class="feature screenshots-side {{ .alignment }}">
+    <div class="inner">
+        <div class="content">
+            <h2>{{ .title | markdownify }}</h2>
+
+            {{ with .subtitle }}
+                <h3>
+                    {{ . | markdownify }}
+                </h3>
+            {{ end }}
+
+            {{ .text | markdownify }}
+        </div>
+
+        <div class="images">
+            <div class="images-inner">
+                {{ range first 2 .images }}
+                    <div>
+                        <img src="{{ . }}" class="animate" />
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    {{ partial "wave" }}
+</section>

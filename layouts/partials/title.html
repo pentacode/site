@@ -1,0 +1,2 @@
+{{- template "titlepart" . -}}
+{{- define "titlepart" -}}{{ .Title }}{{- with .Parent -}}{{ if .IsHome }} - Pentacode {{ else }} - {{ template "titlepart" . }}{{ end }}{{ end }}{{ end }}
