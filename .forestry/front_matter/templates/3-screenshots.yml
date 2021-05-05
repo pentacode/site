@@ -1,4 +1,21 @@
 ---
 label: 3 Screenshots
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Untertitel
+- name: images
+  type: image_gallery
+  config: {}
+  label: Bilder
+- name: right_aligned
+  type: boolean
+  label: Rechts Ausrichten
