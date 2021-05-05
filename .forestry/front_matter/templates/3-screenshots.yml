@@ -10,7 +10,7 @@ fields:
 - name: subtitle
   type: text
   config:
-    required: true
+    required: false
   label: Untertitel
 - name: images
   type: image_gallery
