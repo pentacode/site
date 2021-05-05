@@ -9,8 +9,6 @@ sections:
   label: Funktionen
   create: documents
   match: "**/*"
-  templates:
-  - funktionen
 - type: directory
   path: content/hilfe
   label: Hilfe
