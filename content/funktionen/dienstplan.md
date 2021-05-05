@@ -17,7 +17,7 @@ sections:
   alignment: right
   text: "**Automatisierte Schichtvorlagen**, **selbstgewählte Favoriten**, **individuelle
     Dienstplanvorlagen** – per drag & drop oder einfachster Navigation über die Tastatur
-    erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war.[ mehr erfahren
+    erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit xxx war.[ mehr erfahren
     ➔]()"
 draft: true
 
