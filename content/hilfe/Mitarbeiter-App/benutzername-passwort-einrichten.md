@@ -56,7 +56,7 @@ Nach Absprache der Unternehmungsleitung bekommen sie um die Mitarbeiter-App zu n
 
 Nun können Sie sich schnell und sicher mit Pentacode verbinden, sobald Sie den Link in der Email angeklickt haben, werden Sie direkt zu dem Login weitergeleitet, um sich zu verifizieren und zu bestätigen. Das sieht auf dem Bildschirm dann so aus:
 
-{{< figure caption="Email der Unternehmensleitung für eine Registrierung der Benutzerdaten in der Mitarbeiter-App >}}
+{{< figure caption="Email der Unternehmensleitung für eine Registrierung der Benutzerdaten in der Mitarbeiter-App" >}}
 
 **Screenshot: Email mit Einladungslink um Benutzerdaten zu registrieren für Mitarbeiter-App**
 
