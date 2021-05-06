@@ -84,3 +84,25 @@ fields:
   label: Template Path
   hidden: true
   default: screenshots-side
+- name: boxes
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kacheln
