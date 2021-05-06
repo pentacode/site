@@ -20,6 +20,14 @@ sections:
     erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war.[ mehr erfahren
     ➔]()"
   boxes:
+  - title: Die Personalkosten immer im Blick
+    text: Mit einem Klick zeigt Ihnen die Software bereits bei der Planung, wie hoch
+      die täglichen Personalkosten in jeder Abteilung und für das gesamte Unternehmen
+      sind.
+  - title: Soll-Ist-Vergleich
+    text: Vergleichen Sie den Dienstplan mit der Realität. Mit einem einfachen Klick
+      sehen Sie die **geplanten Kosten den tatsächlichen Kosten gegenübergestellt**.
+      Täglich, verlässlich und genau.
   - title: Planen gegen Ziele
     text: Ein Schichtplan kann mehr sein als nur Info für die Mitarbeiter. In Pentacode
       können Sie den **Dienstplan gegen Ziele** erstellen - nach vorgegebener Stundenanzahl
