@@ -1,4 +1,4 @@
-<section class="feature screenshots-side {{ .alignment }}">
+<section class="feature screenshots-side left">
     <div class="inner">
         <div class="content">
             <h2>{{ .title | markdownify }}</h2>
@@ -9,14 +9,41 @@
                 </h3>
             {{ end }}
 
-            {{ .text | markdownify }}
+            <div>
+                {{ .text | markdownify }}
+            </div>
+
+            <div class="feature-buttons">
+                {{ range .boxes }}
+                    <div class="feature-button-outer">
+                        <a class="feature-button">
+                            <div class="feature-button-inner">
+                                <div class="title">{{ with .icon }}<i class="fal fa-{{ . }}"></i>{{ end }} {{ .title }}</div>
+                                <div>
+                                    {{ .text | markdownify }}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
         </div>
 
         <div class="images">
             <div class="images-inner">
-                {{ range first 2 .images }}
-                    <div>
+                {{ with .image_1 }}
+                    <div class="image-back">
                         <img src="{{ . }}" class="animate" />
+                    </div>
+                {{ end }}
+                {{ with .image_2 }}
+                    <div class="image-middle">
+                        <img src="{{ . }}" class="animate" />
+                    </div>
+                {{ end }}
+                {{ with .image_3 }}
+                    <div class="image-front">
+                        <img src="{{ . }}" class="animate" style="padding: 0" />
                     </div>
                 {{ end }}
             </div>

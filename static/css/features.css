@@ -13,7 +13,7 @@ section.feature {
 section.feature h2 {
     font-size: 2.3em;
     line-height: 1.2em;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.2em 0;
     font-weight: 100;
     background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
     -webkit-text-fill-color: transparent;
@@ -21,7 +21,11 @@ section.feature h2 {
     background-clip: text;
 }
 
-section .btn.highlight {
+section.feature h3 {
+    margin-bottom: 0.5em;
+}
+
+section .feature-button.highlight {
     background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
 }
 
@@ -90,24 +94,6 @@ section.right .divider {
     transform: scale(-1, 1);
 }
 
-.feature-buttons {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
-    gap: 1em;
-    margin-top: 0.5em;
-}
-
-.feature-buttons .btn {
-    font-weight: 300;
-    font-size: 0.8em;
-    cursor: pointer;
-    margin: auto;
-}
-
-.feature-buttons .btn i {
-    margin: 0;
-}
-
 .images {
     width: 600px;
     height: 400px;
@@ -131,16 +117,43 @@ section.right .divider {
     transform-origin: center center;
 }
 
-.images-inner > :nth-child(1) {
+.images-inner > .image-back {
     width: 1200px;
     height: 900px;
-    transform: translate3d(0, 0, 0) rotateY(20deg) rotateX(10deg);
 }
 
-.images-inner > :nth-child(2) {
+section.right .image-back {
+    transform: translate3d(-100px, -100px, 0) rotateY(20deg) rotateX(10deg);
+}
+
+section.left .image-back {
+    transform: translate3d(100px, -100px, 0) rotateY(-20deg) rotateX(10deg);
+}
+
+.images-inner > .image-middle {
     width: 900px;
     height: 675px;
-    transform: translate3d(350px, 250px, 40px) rotateY(20deg) rotateX(10deg);
+}
+
+section.right .image-middle {
+    transform: translate3d(250px, 150px, 40px) rotateY(20deg) rotateX(10deg);
+}
+
+section.left .image-middle {
+    transform: translate3d(50px, 180px, 50px) rotateY(-20deg) rotateX(10deg);
+}
+
+.images-inner > .image-front {
+    width: 375px;
+    height: 667px;
+}
+
+section.right .image-front {
+    transform: translate3d(50px, 220px, 250px) scale(0.9) rotateY(20deg) rotateX(10deg);
+}
+
+section.left .image-front {
+    transform: translate3d(800px, 220px, 250px) scale(0.9) rotateY(-20deg) rotateX(10deg);
 }
 
 .images img {
@@ -152,4 +165,65 @@ section.right .divider {
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
     border-radius: 2em;
     background: white;
+}
+
+.feature-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+    gap: 1em;
+    margin: 1em -0.5em;
+    font-size: 0.8em;
+}
+
+.feature-button-outer {
+    position: relative;
+    height: 100px;
+}
+
+.feature-button .title {
+    font-size: 1.1em;
+    margin: 0.2em 0.1em 0.1em 0.1em;
+    font-weight: bold;
+}
+
+.feature-buttons .feature-button {
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: var(--color-bg);
+    border: dashed 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    overflow: hidden;
+    will-change: transform, height;
+}
+
+.feature-button .feature-button-inner {
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: var(--color-bg);
+    padding: 0.3em 0.6em;
+}
+
+.feature-button:hover {
+    border: none;
+    z-index: 110;
+    opacity: 1 !important;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 0 10px -5px;
+    /* height: auto; */
+}
+
+.feature-button:hover .feature-button-inner {
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    border: transparent;
+}
+
+.feature-buttons .feature-button i {
+    margin: 0;
 }
