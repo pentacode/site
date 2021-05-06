@@ -12,10 +12,20 @@ fields:
   config:
     required: false
   label: Untertitel
-- name: images
-  type: image_gallery
-  config: {}
-  label: Bilder
+- name: alignment
+  type: select
+  default: left
+  config:
+    required: true
+    options:
+    - left
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Ausrichtung
 - name: color_1
   type: select
   default: []
@@ -106,3 +116,18 @@ fields:
     max: 
     labelField: 
   label: Kacheln
+- name: image_1
+  type: file
+  config:
+    maxSize: 64
+  label: Bild Hinten (1200x900)
+- name: image_2
+  type: file
+  config:
+    maxSize: 64
+  label: Bild Mitte (900x675)
+- name: image_3
+  type: file
+  config:
+    maxSize: 64
+  label: Bild Vorne (375 x 667)
