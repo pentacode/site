@@ -1,5 +1,5 @@
 ---
-label: Screenshots seitlich mit Schatten
+label: Zwei Screenshots Links
 hide_body: true
 fields:
 - name: title
@@ -68,20 +68,6 @@ fields:
       file: 
       path: 
   label: Farbe 2
-- name: alignment
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - left
-    - right
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Ausrichtung
 - name: text
   type: textarea
   default: ''
