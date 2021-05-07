@@ -36,7 +36,7 @@
                         <div style="width: 100%"></div>
                             {{ range $i, $slide := .slides }}
                                 <div class="slides-slide" data-slide="{{ $i }}">
-                                    <img src="{{ $slide.image }}"/>
+                                    <img src="{{ $slide.image }}" style="padding: {{ $slide.padding }}px"/>
                                 </div>
                             {{ end }}
                         <div style="width: 100%"></div>
