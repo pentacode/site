@@ -1,0 +1,77 @@
+<section class="feature {{ .alignment }}" style="--color-highlight: var(--{{ .color_1 }}); --color-highlight-bg: var(--{{ .color_2 }});">
+    <div class="inner">
+        <div class="content">
+            <h2>{{ .title | markdownify }}</h2>
+
+            {{ with .subtitle }}
+                <h3>
+                    {{ . | markdownify }}
+                </h3>
+            {{ end }}
+
+            <div>
+                {{ .text | markdownify }}
+            </div>
+
+            <div class="feature-buttons">
+                {{ range .slides }}
+                    <div class="feature-button-outer">
+                        <a class="feature-button">
+                            <div class="feature-button-inner">
+                                <div class="title">{{ with .icon }}<i class="fal fa-{{ . }}"></i>{{ end }} {{ .title }}</div>
+                                <div>
+                                    {{ .text | markdownify }}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="images">
+            <div class="images-inner">
+                <div class="slides">
+                    <div class="slides-inner">
+                        <div style="width: 100%"></div>
+                            {{ range .slides }}
+                                <div class="slides-slide">
+                                    <img src="{{ .image }}"/>
+                                </div>
+                            {{ end }}
+                        <div style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ partial "wave" }}
+</section>
+
+<script>
+    (() => {
+        const section = document.currentScript.previousElementSibling;
+        const slides = section.querySelector(".slides");
+        const images = section.querySelectorAll(".slides img");
+        const { width: containerWidth } = slides.getBoundingClientRect();
+
+        const scroll = () => {
+            for (const img of images) {
+                const width = img.offsetWidth;
+                const left = img.offsetLeft;
+                const offset = slides.scrollLeft - left + (containerWidth - width) / 2;
+                const scale = 1.2 - Math.abs(offset) / 1500;
+                console.log(left, slides.scrollLeft, offset);
+
+                img.style.transform = `scale(${scale})`;
+                const active = Math.abs(offset) < 100;
+                img.style["z-index"] = active ? "1" : "0";
+            }
+        }
+
+        slides.addEventListener("scroll", scroll);
+        scroll();
+    })();
+</script>
+

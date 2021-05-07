@@ -55,35 +55,8 @@ section .inner .content {
     display: block;
     position: relative;
     z-index: 1;
-    background: var(--color-bg);
     min-width: 500px;
     padding: 3em 1em;
-}
-
-section .inner .content::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100px;
-    left: -100px;
-    z-index: -1;
-    transform: translateZ(1px);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
-}
-
-section .inner .content::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100px;
-    right: -100px;
-    z-index: -1;
-    transform: translateZ(1px);
-    background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
 }
 
 section.right .inner {
@@ -100,9 +73,79 @@ section.right .divider {
     position: relative;
     overflow: visible;
     transform-style: preserve-3d;
+    z-index: -1;
 }
 
-.images .images-inner {
+.images-inner {
+    position: absolute;
+    width: 140%;
+    left: -10%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.images-inner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+}
+
+.images-inner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+}
+
+.images .slides {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    position: relative;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+}
+
+.images .slides .slides-inner {
+    height: 100%;
+    padding: 2em 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.images .slides .slides-inner > * {
+    flex: none;
+    height: 100%;
+    margin: 0 -2em;
+}
+
+.images .slides .slides-inner .slides-slide {
+    scroll-snap-align: center;
+}
+
+.images .slides .slides-inner img {
+    height: 100%;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px -5px;
+    position: relative;
+    background: var(--color-bg);
+    box-sizing: border-box;
+}
+
+/* .images .images-inner {
     width: 200%;
     transform-origin: 0 0;
     transform: scale(0.5);
@@ -165,7 +208,7 @@ section.left .image-front {
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
     border-radius: 2em;
     background: white;
-}
+} */
 
 .feature-buttons {
     display: grid;
