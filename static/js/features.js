@@ -1,7 +1,7 @@
 window.addEventListener("load", function () {
     function buttonMouseEnter(button) {
         const inner = button.querySelector(".feature-button-inner");
-        anime({ targets: button, scale: 1.02 })
+        anime({ targets: button, scale: 1.05 })
         anime({ targets: button, height: inner.offsetHeight, easing: "easeInOutQuart", duration: 200 })
     }
 

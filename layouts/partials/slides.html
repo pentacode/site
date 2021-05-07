@@ -14,13 +14,13 @@
             </div>
 
             <div class="feature-buttons">
-                {{ range .slides }}
+                {{ range $i, $slide := .slides }}
                     <div class="feature-button-outer">
-                        <a class="feature-button">
+                        <a class="feature-button" data-slide="{{ $i }}">
                             <div class="feature-button-inner">
-                                <div class="title">{{ with .icon }}<i class="fal fa-{{ . }}"></i>{{ end }} {{ .title }}</div>
+                                <div class="title">{{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }} {{ $slide.title }}</div>
                                 <div>
-                                    {{ .text | markdownify }}
+                                    {{ $slide.text | markdownify }}
                                 </div>
                             </div>
                         </a>
@@ -34,9 +34,9 @@
                 <div class="slides">
                     <div class="slides-inner">
                         <div style="width: 100%"></div>
-                            {{ range .slides }}
-                                <div class="slides-slide">
-                                    <img src="{{ .image }}"/>
+                            {{ range $i, $slide := .slides }}
+                                <div class="slides-slide" data-slide="{{ $i }}">
+                                    <img src="{{ $slide.image }}"/>
                                 </div>
                             {{ end }}
                         <div style="width: 100%"></div>
@@ -52,26 +52,42 @@
 <script>
     (() => {
         const section = document.currentScript.previousElementSibling;
-        const slides = section.querySelector(".slides");
+        const buttons = section.querySelectorAll(".feature-button");
+        const slidesContainer = section.querySelector(".slides");
+        const slides = [...section.querySelectorAll(".slides-slide")];
         const images = section.querySelectorAll(".slides img");
-        const { width: containerWidth } = slides.getBoundingClientRect();
+        const { width: containerWidth } = slidesContainer.getBoundingClientRect();
 
         const scroll = () => {
-            for (const img of images) {
+            for (const [i, img] of images.entries()) {
+                const button = buttons[i];
                 const width = img.offsetWidth;
                 const left = img.offsetLeft;
-                const offset = slides.scrollLeft - left + (containerWidth - width) / 2;
+                const offset = slidesContainer.scrollLeft - left + (containerWidth - width) / 2;
                 const scale = 1.2 - Math.abs(offset) / 1500;
-                console.log(left, slides.scrollLeft, offset);
+                console.log(left, slidesContainer.scrollLeft, offset);
 
                 img.style.transform = `scale(${scale})`;
                 const active = Math.abs(offset) < 100;
                 img.style["z-index"] = active ? "1" : "0";
+                button.classList.toggle("active", active);
             }
         }
 
-        slides.addEventListener("scroll", scroll);
+        function selectSlide(i) {
+            const slide = slides[i];
+            console.log("select slide", i, slide);
+            slidesContainer.scrollLeft = slide.offsetLeft - (containerWidth - slide.offsetWidth) / 2
+            // buttons.forEach((button, j) => button.classList.toggle("active", i === j))
+        }
+
+        slidesContainer.addEventListener("scroll", scroll);
         scroll();
+
+        for (const [i, button] of buttons.entries()) {
+            button.addEventListener("click", () => selectSlide(i));
+        }
+        selectSlide(0);
     })();
 </script>
 

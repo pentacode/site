@@ -82,6 +82,7 @@ section.right .divider {
     left: -10%;
     height: 100%;
     overflow: hidden;
+    transform: rotateY(-30deg) rotateX(10deg);
 }
 
 .images-inner::before {
@@ -116,6 +117,7 @@ section.right .divider {
     scroll-snap-type: x mandatory;
     padding-bottom: 100px;
     margin-bottom: -100px;
+    scroll-behavior: smooth;
 }
 
 .images .slides .slides-inner {
@@ -143,6 +145,7 @@ section.right .divider {
     position: relative;
     background: var(--color-bg);
     box-sizing: border-box;
+    will-change: transform;
 }
 
 /* .images .images-inner {
@@ -260,7 +263,7 @@ section.left .image-front {
     /* height: auto; */
 }
 
-.feature-button:hover .feature-button-inner {
+.feature-button.active .feature-button-inner {
     -webkit-text-fill-color: unset;
     -webkit-background-clip: unset;
     background-clip: unset;
