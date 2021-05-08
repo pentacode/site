@@ -11,9 +11,62 @@
 {{ define "main" }}
     {{ partial "header" . }}
 
-    <div>
-        {{ range .Params.sections }}
-            {{ partial .template_path . }}
-        {{ end }}
-    </div>
+    <section class="hero blue" data-section="hero">
+        <div class="inner">
+            <div class="content animation-reveal-children">
+                <h1 class="blue text-clip">{{ .Params.title | markdownify }}</h1>
+
+                <h3 class="red text-clip">
+                    {{ .Params.subtitle | markdownify }}
+                </h3>
+
+                <h2>Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.</h2>
+
+                <div>
+                    Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksam sind, Ihre Mitarbeiter
+                    glücklich machen und Ihnen jederzeit einen vollständigen Überblick bieten.
+                </div>
+
+                <div class="buttons">
+                    <a href="{{ .Param "get_started_url" }}" class="btn highlight get-started">
+                        <span>Jetzt Kennenlernen</span>
+                        <span class="icon fas fa-play-circle"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="images">
+                <div class="image">
+                    <img src="{{ .Params.cover }}" class="animation-reveal" />
+                </div>
+            </div>
+        </div>
+
+        {{ partial "wave" }}
+    </section>
+
+    {{ range .Params.sections }}
+        {{ partial .template_path . }}
+    {{ end }}
+
+    <section class="intro red">
+        <div class="inner">
+            <div class="content">
+                <h2>Die Führende Software zur Online-Dienstplanung</h2>
+
+                <p>
+                    Der Dienstplan ist eines der mächtigsten Werkzeuge, um ein Unternehmen zu wirtschaftlichem Erfolg zu
+                    führen. Die Schichtplanung in Pentacode ist praxisnah gedacht, vielfach im Alltag erprobt und hat
+                    ihre Wirksamkeit unter Beweis gestellt. Ausgangspunkt bei der Dienstplanung in Pentacode war die
+                    Gastronomie. Warum? Weil Gastronomie alles hat, was Dienstplanung schwierig machen kann:
+                    Teilschicht- und Mehrschichtbetrieb, Fristenprobleme, Zuschlagszeiträume, unterschiedliche
+                    Beschäftigungsverhältnisse, eine Vielzahl von arbeits- und sozialversicherungsrechtlichen
+                    Regelungen, die berücksichtigt werden müssen u.v.m. Der Dienstplan von Pentacode „kann“ Gastronomie
+                    und Hotellerie. Und deshalb kann er auch alle anderen Branchen.
+                </p>
+            </div>
+        </div>
+
+        {{ partial "wave" }}
+    </section>
 {{ end }}
