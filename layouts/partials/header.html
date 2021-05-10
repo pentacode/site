@@ -3,17 +3,18 @@
         <nav class="sections">
             <ul class="horizontal center-aligning layout">
                 <li>
-                    <a href="/"><img class="logo" src="/img/logo.svg" /></a>
+                    <a href="/"><img class="logo" src="/img/logo.svg" alt="Pentacode Logo" /></a>
                 </li>
 
-                {{ $currPage := . }} {{ range .Site.Sections }}
-                {{ if not (eq .Title "Alt") }}
-                <li class="section-item {{ if eq .Section $currPage.Section }}active{{ end }}">
-                    <a href="{{ .RelPermalink }}">
-                        {{ .Title }}
-                    </a>
-                </li>
-                {{ end }}
+                {{ $currPage := . }}
+                {{ range .Site.Sections }}
+                    {{ if not (eq .Title "Alt") }}
+                        <li class="section-item {{ if eq .Section $currPage.Section }}active{{ end }}">
+                            <a href="{{ .RelPermalink }}">
+                                {{ .Title }}
+                            </a>
+                        </li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </nav>
@@ -23,10 +24,14 @@
         <nav class="login-signup">
             <ul class="horizontal center-aligning layout">
                 <li hidden>
-                    <a href='{{ .Param "login_url" }}' class="">Login</a>
+                    <a href="{{ .Param "login_url" }}" class="">Login</a>
                 </li>
                 <li>
-                    <a href="https://calendly.com/pentacode/demo" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pentacode/demo'});return false;" class="btn get-started text-clip">
+                    <a
+                        href="https://calendly.com/pentacode/demo"
+                        onclick="openScheduler(); return false;"
+                        class="btn get-started text-clip"
+                    >
                         <i class="fas fa-user-headset"></i>
                         <span>Termin Vereinbaren</span>
                     </a>
@@ -43,7 +48,7 @@
                 <nav class="menu-login-signup">
                     <ul>
                         <li>
-                            <a href='{{ .Param "get_started_url" }}' class="btn text-clip">
+                            <a href="{{ .Param "get_started_url" }}" class="btn text-clip">
                                 <i class="fas fa-user-headset"></i>
                                 <span>Termin Vereinbaren</span>
                             </a>
@@ -53,14 +58,15 @@
 
                 <nav class="menu-sections">
                     <ul>
-                        {{ $currPage := . }} {{ range .Site.Sections }}
-                        {{ if not (eq .Title "Alt") }}
-                        <li>
-                            <a href="{{ .RelPermalink }}">
-                                {{ .Title }}
-                            </a>
-                        </li>
-                        {{ end }}
+                        {{ $currPage := . }}
+                        {{ range .Site.Sections }}
+                            {{ if not (eq .Title "Alt") }}
+                                <li>
+                                    <a href="{{ .RelPermalink }}">
+                                        {{ .Title }}
+                                    </a>
+                                </li>
+                            {{ end }}
                         {{ end }}
                     </ul>
                 </nav>
@@ -74,7 +80,7 @@
         const menuButton = document.querySelector(".menu-button");
         const menu = document.querySelector(".menu-inner");
 
-        menuButton.addEventListener("click", e => {
+        menuButton.addEventListener("click", (e) => {
             e.stopPropagation();
             menu.removeAttribute("hidden");
         });

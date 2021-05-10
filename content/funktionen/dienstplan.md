@@ -47,7 +47,7 @@ sections:
             padding: 0
     - template: section-slides
       template_path: slides
-      title: "**Dienstplan** Online Erstellen "
+      title: "**Dienstplan** Online Erstellen"
       subtitle: So schreibt sich der Dienstplan fast von alleine.
       color_1: green
       color_2: yellow

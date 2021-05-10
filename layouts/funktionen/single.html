@@ -1,10 +1,12 @@
 {{ define "css" }}
     {{ template "basecss" }}
     <link href="/css/features.css" rel="stylesheet" type="text/css" />
+    <link href="/css/divider.css" rel="stylesheet" type="text/css" />
 {{ end }}
 
 {{ define "js" }}
     <script src="/js/anime.min.js"></script>
+    <script src="/js/divider.js"></script>
     <script src="/js/features.js"></script>
 {{ end }}
 
@@ -16,11 +18,11 @@
             <div class="content animation-reveal-children">
                 <h1 class="blue text-clip">{{ .Params.title | markdownify }}</h1>
 
+                <h2>Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.</h2>
+
                 <h3 class="red text-clip">
                     {{ .Params.subtitle | markdownify }}
                 </h3>
-
-                <h2>Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.</h2>
 
                 <div>
                     Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksam sind, Ihre Mitarbeiter
@@ -36,13 +38,15 @@
             </div>
 
             <div class="images">
-                <div class="image">
-                    <img src="{{ .Params.cover }}" class="animation-reveal" />
+                <div class="scaler">
+                    <div class="image">
+                        <img src="{{ .Params.cover }}" class="animation-reveal" />
+                    </div>
                 </div>
             </div>
         </div>
 
-        {{ partial "wave" }}
+        {{ partial "divider" }}
     </section>
 
     {{ range .Params.sections }}
@@ -67,6 +71,6 @@
             </div>
         </div>
 
-        {{ partial "wave" }}
+        {{ partial "divider" }}
     </section>
 {{ end }}

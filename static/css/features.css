@@ -1,11 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
-section.hero {
-    perspective: 2000px;
-}
-
 section.hero h1 {
     margin-bottom: 0.2em;
 }
@@ -24,17 +16,22 @@ section.hero .buttons {
 
 section.hero .images {
     height: 450px;
+    perspective: 3000px;
+    perspective-origin: 0 center;
+    width: 600px;
 }
 
 section.hero .images .image {
+    position: absolute;
+    top: 0;
     height: 100%;
     text-align: center;
     transform: translate3d(0, 20px, 200px) rotateY(-20deg) rotateX(10deg);
 }
 
 section.hero .images .image img {
-    border-radius: 1em;
     padding: 0.5em;
+    border-radius: 2em;
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
     height: 100%;
     box-sizing: border-box;
@@ -55,7 +52,6 @@ section.intro .inner .content {
 
 section.feature {
     margin: 4em 2em 8em 2em;
-    perspective: 2000px;
     margin-bottom: 0;
     margin-top: 0;
     transform-style: preserve-3d;
@@ -76,22 +72,6 @@ section.feature h3 {
     margin-bottom: 0.5em;
 }
 
-.divider {
-    width: 100%;
-    height: 160px;
-    margin: 10px 0 30px 0;
-    position: relative;
-    z-index: 100;
-}
-
-.divider .stop1 {
-    stop-color: var(--color-highlight);
-}
-
-.divider .stop2 {
-    stop-color: var(--color-highlight-bg);
-}
-
 section .inner {
     display: flex;
     align-items: center;
@@ -103,7 +83,8 @@ section .inner .content {
     position: relative;
     z-index: 1;
     min-width: 500px;
-    padding: 3em 1em;
+    padding: 0;
+    margin: 3em 1em;
 }
 
 section.right .inner {
@@ -116,28 +97,39 @@ section.right .divider {
 
 .images {
     width: 600px;
-    height: 400px;
     position: relative;
     overflow: visible;
     transform-style: preserve-3d;
     z-index: -1;
+    perspective: 2000px;
+}
+
+.images::before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+    pointer-events: none;
+}
+
+.images * {
+    transform-style: preserve-3d;
 }
 
 section.section-slides .images-inner {
     position: absolute;
-    width: 140%;
+    width: 180%;
     height: 100%;
     overflow: hidden;
 }
 
 section.left .images-inner {
-    left: -10%;
-    transform: rotateY(-30deg) rotateX(10deg);
+    left: -40%;
+    transform: translateX(0) rotateY(-20deg) rotateX(10deg);
 }
 
 section.right .images-inner {
-    right: -10%;
-    transform: rotateY(30deg) rotateX(10deg);
+    right: -40%;
+    transform: translateX(0) rotateY(20deg) rotateX(10deg);
 }
 
 section.section-slides .images-inner::before {
@@ -146,10 +138,11 @@ section.section-slides .images-inner::before {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 150px;
+    width: 20%;
     left: 0;
     z-index: 2;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none;
 }
 
 section.section-slides .images-inner::after {
@@ -158,10 +151,29 @@ section.section-slides .images-inner::after {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 150px;
+    width: 20%;
     right: 0;
     z-index: 2;
     background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none;
+}
+
+section.section-slides.left .images-inner::before {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+section.section-slides.right .images-inner::after {
+    background: linear-gradient(
+        -90deg,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
 
 section.section-slides .images .slides {
@@ -177,7 +189,7 @@ section.section-slides .images .slides {
 
 section.section-slides .images .slides .slides-inner {
     height: 100%;
-    padding: 2em 0;
+    padding: 1em 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -186,87 +198,24 @@ section.section-slides .images .slides .slides-inner {
 section.section-slides .images .slides .slides-inner > * {
     flex: none;
     height: 100%;
-    margin: 0 -2em;
+    margin: 0 -8em;
 }
 
 section.section-slides .images .slides .slides-inner .slides-slide {
     scroll-snap-align: center;
+    perspective: 500px;
+    cursor: pointer;
 }
 
 section.section-slides .images .slides .slides-inner img {
     height: 100%;
-    border-radius: 0.5em;
-    box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px -5px;
+    border-radius: 2em;
+    box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -10px;
     position: relative;
     background: var(--color-bg);
     box-sizing: border-box;
     will-change: transform;
 }
-
-/* .images .images-inner {
-    width: 200%;
-    transform-origin: 0 0;
-    transform: scale(0.5);
-    transform-style: preserve-3d;
-}
-
-.images-inner > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    transform-origin: center center;
-}
-
-.images-inner > .image-back {
-    width: 1200px;
-    height: 900px;
-}
-
-section.right .image-back {
-    transform: translate3d(-100px, -100px, 0) rotateY(20deg) rotateX(10deg);
-}
-
-section.left .image-back {
-    transform: translate3d(100px, -100px, 0) rotateY(-20deg) rotateX(10deg);
-}
-
-.images-inner > .image-middle {
-    width: 900px;
-    height: 675px;
-}
-
-section.right .image-middle {
-    transform: translate3d(250px, 150px, 40px) rotateY(20deg) rotateX(10deg);
-}
-
-section.left .image-middle {
-    transform: translate3d(50px, 180px, 50px) rotateY(-20deg) rotateX(10deg);
-}
-
-.images-inner > .image-front {
-    width: 375px;
-    height: 667px;
-}
-
-section.right .image-front {
-    transform: translate3d(50px, 220px, 250px) scale(0.9) rotateY(20deg) rotateX(10deg);
-}
-
-section.left .image-front {
-    transform: translate3d(800px, 220px, 250px) scale(0.9) rotateY(-20deg) rotateX(10deg);
-}
-
-.images img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-sizing: border-box;
-    padding: 1em;
-    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
-    border-radius: 2em;
-    background: white;
-} */
 
 .feature-buttons {
     display: grid;
@@ -274,6 +223,8 @@ section.left .image-front {
     gap: 1em;
     margin: 1em -0.5em;
     font-size: 0.8em;
+    list-style: none;
+    padding: 0;
 }
 
 .feature-button-outer {
@@ -281,7 +232,7 @@ section.left .image-front {
     height: 100px;
 }
 
-.feature-button .title {
+.feature-button h4 {
     font-size: 1.1em;
     margin: 0.2em 0.1em 0.1em 0.1em;
     font-weight: bold;
@@ -331,4 +282,40 @@ section.left .image-front {
 
 .feature-buttons .feature-button i {
     margin: 0;
+}
+
+.scaler {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    transform: scale(0.5);
+}
+
+@media (max-width: 1000px) {
+    section.feature .inner {
+        flex-direction: column;
+    }
+
+    section.feature .images {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    section.feature .images-inner {
+        left: -40%;
+        right: auto;
+        transform: translateX(0) rotateY(0) rotateX(10deg);
+    }
+}
+
+@media (max-width: 700px) {
+    section.feature {
+        margin: 1em;
+    }
+
+    section.feature .content {
+        min-width: 100%;
+    }
 }

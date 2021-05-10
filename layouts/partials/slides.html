@@ -12,47 +12,49 @@
                 </h3>
             {{ end }}
 
-            <div>
+            <p>
                 {{ .text | markdownify }}
-            </div>
+            </p>
 
-            <div class="feature-buttons">
+            <ul class="feature-buttons">
                 {{ range $i, $slide := .slides }}
-                    <div class="feature-button-outer">
-                        <a class="feature-button" data-slide="{{ $i }}">
-                            <div class="feature-button-inner">
-                                <div class="title">
+                    <li class="feature-button-outer">
+                        <div class="feature-button" data-slide="{{ $i }}" aria-role="presentation">
+                            <div class="feature-button-inner" aria-role="presentation">
+                                <h4>
                                     {{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
                                     {{ $slide.title | markdownify }}
-                                </div>
-                                <div>
+                                </h4>
+                                <p>
                                     {{ $slide.text | markdownify }}
-                                </div>
+                                </p>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </li>
                 {{ end }}
-            </div>
+            </ul>
         </div>
 
         <div class="images">
-            <div class="images-inner">
-                <div class="slides">
-                    <div class="slides-inner">
-                        <div style="width: 100%"></div>
-                        {{ range $i, $slide := .slides }}
-                            <div class="slides-slide" data-slide="{{ $i }}">
-                                <img src="{{ $slide.image }}" style="padding: {{ $slide.padding }}px" />
-                            </div>
-                        {{ end }}
-                        <div style="width: 100%"></div>
+            <div class="scaler">
+                <div class="images-inner">
+                    <div class="slides">
+                        <div class="slides-inner">
+                            <div style="width: 100%; pointer-events: none;"></div>
+                            {{ range $i, $slide := .slides }}
+                                <div class="slides-slide" data-slide="{{ $i }}">
+                                    <img src="{{ $slide.image }}" style="padding: {{ $slide.padding }}px" />
+                                </div>
+                            {{ end }}
+                            <div style="width: 100%; pointer-events: none;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    {{ partial "wave" }}
+    {{ partial "divider" }}
 </section>
 
 <script>
@@ -62,20 +64,23 @@
         const slidesContainer = section.querySelector(".slides");
         const slides = [...section.querySelectorAll(".slides-slide")];
         const images = section.querySelectorAll(".slides img");
-        const { width: containerWidth } = slidesContainer.getBoundingClientRect();
+        const containerWidth = slidesContainer.offsetWidth;
 
         const scroll = () => {
-            for (const [i, img] of images.entries()) {
+            for (const [i, slide] of slides.entries()) {
                 const button = buttons[i];
-                const width = img.offsetWidth;
-                const left = img.offsetLeft;
-                const offset = slidesContainer.scrollLeft - left + (containerWidth - width) / 2;
-                const scale = 1.2 - Math.abs(offset) / 1500;
-                console.log(left, slidesContainer.scrollLeft, offset);
+                const width = slide.offsetWidth;
+                const left = slide.offsetLeft;
+                const img = images[i];
 
-                img.style.transform = `scale(${scale})`;
-                const active = Math.abs(offset) < 100;
-                img.style["z-index"] = active ? "1" : "0";
+                const offset =
+                    Math.abs(slidesContainer.scrollLeft - left + (containerWidth - width) / 2) / containerWidth;
+
+                img.style.transform = `translateZ(${-offset * 300}px)`;
+
+                const active = Math.abs(offset) < 0.1;
+                // img.style["z-index"] = active ? "1" : "0";
+                slide.style["pointer-events"] = active ? "none" : "";
                 button.classList.toggle("active", active);
             }
         };
@@ -84,7 +89,6 @@
             const slide = slides[i];
             console.log("select slide", i, slide);
             slidesContainer.scrollLeft = slide.offsetLeft - (containerWidth - slide.offsetWidth) / 2;
-            // buttons.forEach((button, j) => button.classList.toggle("active", i === j))
         }
 
         slidesContainer.addEventListener("scroll", scroll);
@@ -93,6 +97,11 @@
         for (const [i, button] of buttons.entries()) {
             button.addEventListener("click", () => selectSlide(i));
         }
+
+        for (const [i, slide] of slides.entries()) {
+            slide.addEventListener("click", () => selectSlide(i));
+        }
+
         selectSlide(0);
     })();
 </script>
