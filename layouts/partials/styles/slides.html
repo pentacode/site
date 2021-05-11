@@ -1,0 +1,262 @@
+<style>
+    section.section-slides {
+        margin: 4em 2em 8em 2em;
+        margin-bottom: 0;
+        margin-top: 0;
+        transform-style: preserve-3d;
+    }
+
+    section.section-slides h2 {
+        font-size: 2.3em;
+        line-height: 1.2em;
+        margin: 0 0 0.2em 0;
+        font-weight: 100;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    section.section-slides h3 {
+        margin-bottom: 0.5em;
+    }
+
+    section.section-slides .inner {
+        display: flex;
+        align-items: center;
+        transform-style: preserve-3d;
+    }
+
+    section.section-slides .inner .content {
+        display: block;
+        position: relative;
+        z-index: 1;
+        min-width: 500px;
+        padding: 0;
+        margin: 3em 1em;
+    }
+
+    section.section-slides.right .inner {
+        flex-direction: row-reverse;
+    }
+
+    section.section-slides.right .divider {
+        transform: scale(-1, 1);
+    }
+
+    section.section-slides .images {
+        width: 600px;
+        position: relative;
+        overflow: visible;
+        transform-style: preserve-3d;
+        z-index: -1;
+        perspective: 2000px;
+    }
+
+    section.section-slides .images * {
+        transform-style: preserve-3d;
+    }
+
+    section.section-slides .images::before {
+        content: "";
+        display: block;
+        padding-top: 75%;
+        pointer-events: none;
+    }
+
+    section.section-slides .images-inner {
+        position: absolute;
+        width: 180%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    section.left .images-inner {
+        left: -40%;
+        transform: translateX(0) rotateY(-20deg) rotateX(10deg);
+    }
+
+    section.right .images-inner {
+        right: -40%;
+        transform: translateX(0) rotateY(20deg) rotateX(10deg);
+    }
+
+    section.section-slides .images-inner::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 20%;
+        left: 0;
+        z-index: 2;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+        pointer-events: none;
+    }
+
+    section.section-slides .images-inner::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 20%;
+        right: 0;
+        z-index: 2;
+        background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+        pointer-events: none;
+    }
+
+    section.section-slides.left .images-inner::before {
+        background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 1) 0,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 0) 100%
+        );
+    }
+
+    section.section-slides.right .images-inner::after {
+        background: linear-gradient(
+            -90deg,
+            rgba(255, 255, 255, 1) 0,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 0) 100%
+        );
+    }
+
+    section.section-slides .images .slides {
+        width: 100%;
+        height: 100%;
+        overflow-x: auto;
+        position: relative;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 100px;
+        margin-bottom: -100px;
+        scroll-behavior: smooth;
+    }
+
+    section.section-slides .images .slides .slides-inner {
+        height: 100%;
+        padding: 1em 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.section-slides .images .slides .slides-inner > * {
+        flex: none;
+        height: 100%;
+        margin: 0 -8em;
+    }
+
+    section.section-slides .images .slides .slides-inner .slides-slide {
+        scroll-snap-align: center;
+        perspective: 500px;
+        cursor: pointer;
+    }
+
+    section.section-slides .images .slides .slides-inner img {
+        height: 100%;
+        border-radius: 2em;
+        box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -10px;
+        position: relative;
+        background: var(--color-bg);
+        box-sizing: border-box;
+        will-change: transform;
+    }
+
+    section.section-slides .tabs {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        gap: 1em;
+        margin: 1em -0.5em;
+        font-size: 0.8em;
+        list-style: none;
+        padding: 0;
+    }
+
+    section.section-slides .tab-outer {
+        position: relative;
+        height: 100px;
+    }
+
+    section.section-slides .tab {
+        cursor: pointer;
+        margin: auto;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background: var(--color-bg);
+        border: dashed 1px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5em;
+        overflow: hidden;
+        will-change: transform, height;
+    }
+
+    section.section-slides .tab h4 {
+        font-size: 1.1em;
+        margin: 0.2em 0.1em 0.1em 0.1em;
+        font-weight: bold;
+    }
+
+    section.section-slides .tab-inner {
+        transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: var(--color-bg);
+        padding: 0.3em 0.6em;
+    }
+
+    section.section-slides .tab:hover {
+        border: none;
+        z-index: 110;
+        opacity: 1 !important;
+        box-shadow: rgba(0, 0, 0, 0.9) 0 0 10px -5px;
+        /* height: auto; */
+    }
+
+    section.section-slides .tab.active {
+        border: none;
+    }
+
+    section.section-slides .tab.active .tab-inner {
+        -webkit-text-fill-color: unset;
+        -webkit-background-clip: unset;
+        background-clip: unset;
+        border: transparent;
+    }
+
+    section.section-slides .tab i {
+        margin: 0;
+    }
+
+    @media (max-width: 1000px) {
+        section.section-slides .inner {
+            flex-direction: column;
+        }
+
+        section.section-slides .images {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        section.section-slides .images-inner {
+            left: -40%;
+            right: auto;
+            transform: translateX(0) rotateY(0) rotateX(10deg);
+        }
+    }
+
+    @media (max-width: 700px) {
+        section.section-slides {
+            margin: 1em;
+        }
+
+        section.section-slides .content {
+            min-width: 100%;
+        }
+    }
+</style>

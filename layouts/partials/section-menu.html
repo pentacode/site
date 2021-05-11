@@ -1,37 +1,33 @@
-<link href="/css/section-menu.css" rel="stylesheet" type="text/css" />
-
 {{ $currPage := . }}
 
 {{ with .Parent }}
-
-<nav class="section-menu">
-    <ul class="animation-reveal-children animation-fast">
-        <li class="back {{ if eq . $currPage }}active{{ end }}">
-            <a href="{{ .RelPermalink }}">
-                <i class="fas fa-arrow-left"></i>
-                {{ .Title }}
-            </a>
-        </li>
-
-        {{ range .Pages }}
-            <li class="{{ if eq . $currPage }}active{{ end }}">
+    <nav class="section-menu">
+        <ul class="animation-reveal-children animation-fast">
+            <li class="back {{ if eq . $currPage }}active{{ end }}">
                 <a href="{{ .RelPermalink }}">
-                    <div class="thumb">
-                        {{ partial "thumbnail" . }}
-                    </div>
-
-                    <div class="body">
-                        {{ with .PublishDate }}
-                            <div class="date">{{ dateFormat "Mo, Jan 2, 2006" . }}</div>
-                        {{ end }}
-                        <div class="title">
-                            {{ .Title }}
-                        </div>
-                    </div>
+                    <i class="fas fa-arrow-left"></i>
+                    {{ .Title }}
                 </a>
             </li>
-        {{ end }}
-    </ul>
-</nav>
 
+            {{ range .Pages }}
+                <li class="{{ if eq . $currPage }}active{{ end }}">
+                    <a href="{{ .RelPermalink }}">
+                        <div class="thumb">
+                            {{ partial "thumbnail" . }}
+                        </div>
+
+                        <div class="body">
+                            {{ with .PublishDate }}
+                                <div class="date">{{ dateFormat "Mo, Jan 2, 2006" . }}</div>
+                            {{ end }}
+                            <div class="title">
+                                {{ .Title }}
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </nav>
 {{ end }}

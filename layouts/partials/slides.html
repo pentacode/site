@@ -1,5 +1,5 @@
 <section
-    class="feature section-slides {{ .alignment }}"
+    class="section-slides {{ .alignment }}"
     style="--color-highlight: var(--{{ .color_1 }}); --color-highlight-bg: var(--{{ .color_2 }});"
 >
     <div class="inner">
@@ -16,11 +16,11 @@
                 {{ .text | markdownify }}
             </p>
 
-            <ul class="feature-buttons">
+            <ul class="tabs">
                 {{ range $i, $slide := .slides }}
-                    <li class="feature-button-outer">
-                        <div class="feature-button" data-slide="{{ $i }}" aria-role="presentation">
-                            <div class="feature-button-inner" aria-role="presentation">
+                    <li class="tab-outer">
+                        <div class="tab" data-slide="{{ $i }}" aria-role="presentation">
+                            <div class="tab-inner" aria-role="presentation">
                                 <h4>
                                     {{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
                                     {{ $slide.title | markdownify }}
@@ -43,7 +43,11 @@
                             <div style="width: 100%; pointer-events: none;"></div>
                             {{ range $i, $slide := .slides }}
                                 <div class="slides-slide" data-slide="{{ $i }}">
-                                    <img src="{{ $slide.image }}" style="padding: {{ $slide.padding }}px" />
+                                    <img
+                                        src="{{ $slide.image }}"
+                                        style="padding: {{ $slide.padding }}px"
+                                        loading="lazy"
+                                    />
                                 </div>
                             {{ end }}
                             <div style="width: 100%; pointer-events: none;"></div>
@@ -56,52 +60,3 @@
 
     {{ partial "divider" }}
 </section>
-
-<script>
-    (() => {
-        const section = document.currentScript.previousElementSibling;
-        const buttons = section.querySelectorAll(".feature-button");
-        const slidesContainer = section.querySelector(".slides");
-        const slides = [...section.querySelectorAll(".slides-slide")];
-        const images = section.querySelectorAll(".slides img");
-        const containerWidth = slidesContainer.offsetWidth;
-
-        const scroll = () => {
-            for (const [i, slide] of slides.entries()) {
-                const button = buttons[i];
-                const width = slide.offsetWidth;
-                const left = slide.offsetLeft;
-                const img = images[i];
-
-                const offset =
-                    Math.abs(slidesContainer.scrollLeft - left + (containerWidth - width) / 2) / containerWidth;
-
-                img.style.transform = `translateZ(${-offset * 300}px)`;
-
-                const active = Math.abs(offset) < 0.1;
-                // img.style["z-index"] = active ? "1" : "0";
-                slide.style["pointer-events"] = active ? "none" : "";
-                button.classList.toggle("active", active);
-            }
-        };
-
-        function selectSlide(i) {
-            const slide = slides[i];
-            console.log("select slide", i, slide);
-            slidesContainer.scrollLeft = slide.offsetLeft - (containerWidth - slide.offsetWidth) / 2;
-        }
-
-        slidesContainer.addEventListener("scroll", scroll);
-        scroll();
-
-        for (const [i, button] of buttons.entries()) {
-            button.addEventListener("click", () => selectSlide(i));
-        }
-
-        for (const [i, slide] of slides.entries()) {
-            slide.addEventListener("click", () => selectSlide(i));
-        }
-
-        selectSlide(0);
-    })();
-</script>

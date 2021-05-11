@@ -1,12 +1,12 @@
 {{ define "css" }}
     {{ template "basecss" }}
-    <link href="/css/home.css" rel="stylesheet" type="text/css" />
-    <link href="/css/divider.css" rel="stylesheet" type="text/css" />
+    {{ partial "styles/home.html" }}
+    {{ partial "styles/divider.html" }}
 {{ end }}
 {{ define "js" }}
-    <script src="js/anime.min.js"></script>
-    <script src="js/home.js"></script>
-    <script src="js/divider.js"></script>
+    <script src="/js/anime.min.js" async></script>
+    <script src="/js/home.js" async></script>
+    <script src="/js/divider.js" async></script>
 {{ end }}
 
 {{ define "main" }}
@@ -15,7 +15,7 @@
     <section class="hero blue" data-section="hero">
         <div class="inner">
             <div class="content animation-reveal-children">
-                <h1>{{ .Params.hero_title | markdownify }}</h1>
+                <h1 class="blue text-clip">{{ .Params.hero_title | markdownify }}</h1>
 
                 <h2 class="red text-clip">
                     {{ .Params.hero_subtitle | markdownify }}
@@ -44,7 +44,7 @@
     <section class="simple right red" data-section="simple">
         <div class="inner">
             <div class="content">
-                <h1><strong>Leichtigkeit</strong> statt Frust</h1>
+                <h2><strong>Leichtigkeit</strong> statt Frust</h2>
 
                 <h3>
                     Was vorher lästig und manchmal kompliziert war, erledigen Sie nun in kürzester Zeit und beinahe
@@ -94,7 +94,7 @@
     <section class="left innovative green" data-section="innovative">
         <div class="inner">
             <div class="content">
-                <h1><strong>Zusehen</strong> statt Arbeiten</h1>
+                <h2><strong>Zusehen</strong> statt Arbeiten</h2>
 
                 <h3>Was vorher mit Aufwand verbunden war, ensteht nun in vollständig automatisierten Prozessen.</h3>
 
@@ -151,7 +151,7 @@
     <section class="secure right purple" data-section="secure">
         <div class="inner">
             <div class="content">
-                <h1><strong>Gelassenheit</strong> statt Sorge</h1>
+                <h2><strong>Gelassenheit</strong> statt Sorge</h2>
 
                 <h3>
                     Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer
@@ -205,7 +205,7 @@
     <section class="controlling left blue" data-section="controlling">
         <div class="inner">
             <div class="content">
-                <h1><strong>Information</strong> statt Spekulation</h1>
+                <h2><strong>Information</strong> statt Spekulation</h2>
 
                 <h3>Echtzeitdaten liefern Ihnen sofortige Auskunft zu Lohnkosten, Umsätzen und deren Entwicklung.</h3>
 
@@ -254,7 +254,7 @@
     <section class="savings right red" data-section="savings">
         <div class="inner">
             <div class="content">
-                <h1>Unsere <strong>Geld-Zur&uuml;ck-Garantie</strong></h1>
+                <h2>Unsere <strong>Geld-Zur&uuml;ck-Garantie</strong></h2>
 
                 <h3>
                     Wir garantieren Ihnen, dass die Einsparungen durch Pentacode grundsätzlich über den Kosten für die
@@ -293,7 +293,7 @@
     <section class="offer blue" id="angebot">
         <div class="inner">
             <div class="content">
-                <h1>Unser <strong>Kennenlern-Angebot</strong></h1>
+                <h2>Unser <strong>Kennenlern-Angebot</strong></h2>
 
                 <p>
                     Jedes neue Produkt muss <strong>nützlich</strong> und <strong>profitabel</strong> sein. Das muss

@@ -1,81 +1,79 @@
 {{ define "css" }}
     {{ template "basecss" }}
-    <link href="/css/list.css" rel="stylesheet" type="text/css" />
+    {{ partial "styles/list.html" }}
+    {{ partial "styles/section-menu" }}
+    {{ partial "styles/search" }}
 {{ end }}
 
 {{ define "main" }}
+    {{ partial "header" . }}
 
-{{ partial "header" . }}
+    <div class="main-layout">
+        <div>
+            {{ if not (eq .Parent.Kind "home") }}
+                <div class="side-menu">
+                    <div class="animation-reveal">
+                        {{ partial "search" . }}
+                    </div>
 
-<div class="main-layout">
-
-    <div>
-        {{ if not (eq .Parent.Kind "home") }}
-        <div class="side-menu">
-            <div class="animation-reveal">
-                {{ partial "search" . }}
-            </div>
-
-            {{ partial "section-menu" . }}
-        </div>
-        {{ end }}
-    </div>
-
-    <div class="main">
-        {{ if (eq .Parent.Kind "home") }}
-        <div class="animation-reveal">
-            {{ partial "search" . }}
-        </div>
-        {{ else }}
-
-        <div class="content animation-reveal">
-            <div class="text-clip">
-                <div class="cover">
-                    {{ partial "thumbnail" . }}
+                    {{ partial "section-menu" . }}
                 </div>
-
-                <h1>
-                    <span>{{ .Title }}</span>
-                </h1>
-            </div>
-
-            {{ .Content }}
+            {{ end }}
         </div>
 
-        {{ end }}
+        <div class="main">
+            {{ if (eq .Parent.Kind "home") }}
+                <div class="animation-reveal">
+                    {{ partial "search" . }}
+                </div>
+                {{ else }}
 
-        <ul class="articles">
-            {{ range $index, $page := .Data.Pages }}
-            <li class="animation-reveal animation-fast animation-delay-{{ add $index 1 }}">
-                <a href="{{ .RelPermalink }}">
-                    <article>
-                        <div class="text-clip">
-                            <div class="cover">
-                                {{ partial "thumbnail" . }}
-                            </div>
-
-                            <div class="title"><span>{{ .Title }}</span></div>
+                <div class="content animation-reveal">
+                    <div class="text-clip">
+                        <div class="cover">
+                            {{ partial "thumbnail" . }}
                         </div>
 
-                        <div class="subtitle">
-                            {{ if eq $page.Kind "page" }}
-                                {{ with .PublishDate }}
-                                    {{ dateFormat "Monday, Jan 2, 2006" . }}
-                                {{ end }}
-                            {{ else }}
-                                {{ len $page.Pages }} Artikel
-                            {{ end }}
-                        </div>
+                        <h1>
+                            <span>{{ .Title }}</span>
+                        </h1>
+                    </div>
 
-                        <div class="text">
-                            {{ default ($page.Summary | truncate 200) (.Param "description") }}...
-                        </div>
-                    </article>
-                </a>
-            </li>
+                    {{ .Content }}
+                </div>
             {{ end }}
-        </ul>
-    </div>
-</div>
 
+            <ul class="articles">
+                {{ range $index, $page := .Data.Pages }}
+                    <li class="animation-reveal animation-fast animation-delay-{{ add $index 1 }}">
+                        <a href="{{ .RelPermalink }}">
+                            <article>
+                                <div class="text-clip">
+                                    <div class="cover">
+                                        {{ partial "thumbnail" . }}
+                                    </div>
+
+                                    <div class="title"><span>{{ .Title }}</span></div>
+                                </div>
+
+                                <div class="subtitle">
+                                    {{ if eq $page.Kind "page" }}
+                                        {{ with .PublishDate }}
+                                            {{ dateFormat "Monday, Jan 2, 2006" . }}
+                                        {{ end }}
+                                        {{ else }}
+                                        {{ len $page.Pages }} Artikel
+                                    {{ end }}
+                                </div>
+
+                                <div class="text">
+                                    {{ default ($page.Summary | truncate 200) (.Param "description") }}...
+                                </div>
+                            </article>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
 {{ end }}

@@ -1,13 +1,14 @@
 {{ define "css" }}
     {{ template "basecss" }}
-    <link href="/css/features.css" rel="stylesheet" type="text/css" />
-    <link href="/css/divider.css" rel="stylesheet" type="text/css" />
+    {{ partial "styles/features.html" }}
+    {{ partial "styles/divider.html" }}
+    {{ partial "styles/slides.html" }}
 {{ end }}
 
 {{ define "js" }}
-    <script src="/js/anime.min.js"></script>
-    <script src="/js/divider.js"></script>
-    <script src="/js/features.js"></script>
+    <script src="/js/anime.min.js" async></script>
+    <script src="/js/divider.js" async></script>
+    <script src="/js/slides.js" async></script>
 {{ end }}
 
 {{ define "main" }}
