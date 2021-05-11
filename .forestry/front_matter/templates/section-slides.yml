@@ -2,135 +2,134 @@
 label: Slides
 hide_body: true
 fields:
-    - name: title
-      type: text
-      config:
-          required: true
-      label: Titel
-    - name: subtitle
-      type: text
-      config:
-          required: false
-      label: Untertitel
-    - name: alignment
-      type: select
-      default: left
-      config:
-          required: true
-          options:
-              - left
-              - right
-          source:
-              type: simple
-              section:
-              file:
-              path:
-      label: Ausrichtung
-    - name: color_1
-      type: select
-      default: []
-      config:
-          required: false
-          options:
-              - red
-              - orange
-              - yellow
-              - olive
-              - green
-              - teal
-              - blue
-              - violet
-              - purple
-              - pink
-              - brown
-              - grey
-              - black
-              - aqua
-          source:
-              type: simple
-              section:
-              file:
-              path:
-      label: Farbe 1
-    - name: color_2
-      type: select
-      default: ""
-      config:
-          required: true
-          options:
-              - red
-              - orange
-              - yellow
-              - olive
-              - green
-              - teal
-              - blue
-              - violet
-              - purple
-              - pink
-              - brown
-              - grey
-              - black
-              - aqua
-          source:
-              type: simple
-              section:
-              file:
-              path:
-      label: Farbe 2
-    - name: text
-      type: textarea
-      default: ""
-      config:
-          required: true
-          wysiwyg: true
-          schema:
-              format: markdown
-      label: Text
-    - name: template_path
-      type: text
-      config:
-          required: false
-      label: Template Path
-      hidden: true
-      default: screenshots-side
-    - name: slides
-      type: field_group_list
-      fields:
-          - name: title
-            type: text
-            config:
-                required: false
-            label: Titel
-            config:
-                maxSize: 1
-          - name: text
-            type: textarea
-            default: ""
-            config:
-                required: false
-                wysiwyg: true
-                schema:
-                    format: markdown
-            label: Text
-          - name: icon
-            type: text
-            label: Icon
-            config:
-                required: false
-          - name: image
-            type: file
-            label: Bild
-            config:
-                required: true
-          - name: padding
-            type: number
-            label: Rand
-            config:
-                required: true
-                default: 0
-      config:
-          min:
-          max:
-          labelField:
-      label: Slides
+- name: title
+  type: text
+  config:
+    required: true
+  label: Titel
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Untertitel
+- name: alignment
+  type: select
+  default: left
+  config:
+    required: true
+    options:
+    - left
+    - right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Ausrichtung
+- name: color_1
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - red
+    - orange
+    - yellow
+    - olive
+    - green
+    - teal
+    - blue
+    - violet
+    - purple
+    - pink
+    - brown
+    - grey
+    - black
+    - aqua
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Farbe 1
+- name: color_2
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - red
+    - orange
+    - yellow
+    - olive
+    - green
+    - teal
+    - blue
+    - violet
+    - purple
+    - pink
+    - brown
+    - grey
+    - black
+    - aqua
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Farbe 2
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: template_path
+  type: text
+  config:
+    required: false
+  label: Template Path
+  hidden: true
+  default: screenshots-side
+- name: slides
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      maxSize: 1
+    label: Titel
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: icon
+    type: text
+    label: Icon
+    config:
+      required: false
+  - name: image
+    type: file
+    label: Bild
+    config:
+      required: true
+  - name: padding
+    type: number
+    label: Rand
+    config:
+      required: true
+      default: 0
+    default: 0
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Slides
