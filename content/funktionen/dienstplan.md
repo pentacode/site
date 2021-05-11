@@ -22,7 +22,7 @@ sections:
     Dienstplanvorlagen** – per drag & drop und einfachster Navigation über die Tastatur
     erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war."
   slides:
-  - title: Individuelle Vorlange
+  - title: Individuelle Vorlagen
     icon: copy
     text: |-
       Selbst komplexe Dienstpläne weisen fast immer regelmäßig wiederkehrende Einsatzzeiten auf. Jeder Dienstplaner kann sich beliebig viele individuelle Vorlagen erstellen. Vorlagen für einzelne Personen, für Gruppen von Personen, Abteilungs-übergreifend oder für Abteilungen in ihrer Gesamtheit.
