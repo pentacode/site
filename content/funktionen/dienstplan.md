@@ -19,17 +19,17 @@ sections:
   color_2: red
   alignment: right
   text: "**Automatisierte Schichtvorlagen**, **selbstgewählte Favoriten**, **individuelle
-    Dienstplanvorlagen** – per drag & drop oder einfachster Navigation über die Tastatur
+    Dienstplanvorlagen** – per drag & drop und einfachster Navigation über die Tastatur
     erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war."
   slides:
-  - title: Planen gegen Ziele
-    icon: bullseye-arrow
-    text: Ein Schichtplan kann mehr sein als nur Info für die Mitarbeiter. In Pentacode
-      können Sie den **Dienstplan gegen Ziele** erstellen - nach vorgegebener Stundenanzahl
-      oder entsprechend Ihrer Umsatzerwartungen. So senken Sie bereits bei der Planung
-      Ihre Personalkosten. <i class="fal fa-piggy-bank"></i>
+  - title: Individuelle Vorlange
+    icon: copy
+    text: |-
+      Selbst komplexe Dienstpläne weisen fast immer regelmäßig wiederkehrende Einsatzzeiten auf. Jeder Dienstplaner kann sich beliebig viele individuelle Vorlagen erstellen. Vorlagen für einzelne Personen, für Gruppen von Personen, Abteilungs-übergreifend oder für Abteilungen in ihrer Gesamtheit.
+
+      Mit einem einfachen „drag & drop“ ist der Dienstplan in Sekundenschnelle vorgeschrieben und erfordert dann nicht mehr als eventuell einzelne Korrekturen.
     padding: 10
-    image: "/uploads/roster.png"
+    image: "/uploads/funktionen_dienstplan_vorlagen.png"
   - title: Soll-Ist-Vergleich
     icon: balance-scale-right
     text: Vergleichen Sie den Dienstplan mit der Realität. Mit einem einfachen Klick
