@@ -7,7 +7,6 @@
 
 {{ define "js" }}
     <script src="/js/anime.min.js" async></script>
-    <script src="/js/divider.js" async></script>
     <script src="/js/slides.js" async></script>
 {{ end }}
 
@@ -19,15 +18,16 @@
             <div class="content animation-reveal-children">
                 <h1 class="blue text-clip">{{ .Params.title | markdownify }}</h1>
 
-                <h2>Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.</h2>
+                <h2>
+                    {{ .Params.subtitle | markdownify }}
+                </h2>
 
                 <h3 class="red text-clip">
-                    {{ .Params.subtitle | markdownify }}
+                    {{ .Params.subsubtitle | markdownify }}
                 </h3>
 
                 <div>
-                    Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksam sind, Ihre Mitarbeiter
-                    glücklich machen und Ihnen jederzeit einen vollständigen Überblick bieten.
+                    {{ .Params.text | markdownify }}
                 </div>
 
                 <div class="buttons">

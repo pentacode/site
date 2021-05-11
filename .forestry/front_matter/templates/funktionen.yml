@@ -2,22 +2,33 @@
 label: Funktionen
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: Titel
-- type: number
-  name: weight
-  label: weight
-- type: text
-  name: icon
-  label: icon
-- name: sections
-  type: blocks
-  template_types:
-  - 3-screenshots
-  config:
-    min: 
-    max: 
-  label: Abschnitte
+    - type: text
+      name: title
+      label: Titel
+    - type: text
+      name: subtitle
+      label: Untertitel
+    - type: text
+      name: subsubtitle
+      label: Unteruntertitel
+    - type: number
+      name: weight
+      label: weight
+    - type: text
+      name: icon
+      label: icon
+    - name: cover
+      type: file
+      label: Titelbild
+      config:
+          required: true
+    - name: sections
+      type: blocks
+      template_types:
+          - section-slides
+      config:
+          min:
+          max:
+      label: Abschnitte
 pages:
-- content/funktionen/dienstplan.md
+    - content/funktionen/dienstplan.md

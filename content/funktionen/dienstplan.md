@@ -1,8 +1,8 @@
 ---
 title: Ihr digitaler **Dienstplan**
-subtitle: "**Schnell**, **einfach**, **spielerisch** und **intelligent**"
-text: Pentacode bietet die fortschrittlichste Online-Schichtplanung für
-    Gastronomie, Hotellerie, Handel und Handwerk. Erstellen Sie Dienstpläne, die für
+subtitle: Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.
+subsubtitle: "**Schnell**, **einfach**, **spielerisch** und **intelligent**"
+text: Erstellen Sie Dienstpläne, die für
     Ihr Unternehmen wirtschaftlich wirksam sind, Ihre Mitarbeiter glücklich machen
     und Ihnen jederzeit einen vollständigen Überblick bieten.
 cover: "/uploads/funktionen_dienstplan_titel.png"
@@ -13,7 +13,7 @@ keywords: []
 sections:
     - template: section-slides
       template_path: slides
-      title: "**Dienstplan** Online Erstellen "
+      title: "**Dienstplan** Online Erstellen"
       subtitle: So schreibt sich der Dienstplan fast von alleine.
       color_1: orange
       color_2: red
