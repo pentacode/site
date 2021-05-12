@@ -19,7 +19,7 @@
             }
         };
 
-        window.addEventListener("scroll", scroll);
+        // window.addEventListener("scroll", scroll);
         scroll();
     }
 

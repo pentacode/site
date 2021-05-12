@@ -5,14 +5,13 @@
 {{ end }}
 {{ define "js" }}
     <script src="/js/anime.min.js" async></script>
-    <script src="/js/home.js" async></script>
-    <script src="/js/divider.js" async></script>
+    <script src="/js/animation.js" async></script>
 {{ end }}
 
 {{ define "main" }}
     {{ partial "header" . }}
 
-    <section class="hero blue" data-section="hero">
+    <section class="hero blue">
         <div class="inner">
             <div class="content animation-reveal-children">
                 <h1 class="blue text-clip">{{ .Params.hero_title | markdownify }}</h1>
@@ -41,7 +40,7 @@
         {{ partial "divider" }}
     </section>
 
-    <section class="simple right red" data-section="simple">
+    <section class="simple right red" data-animation="slide_1">
         <div class="inner">
             <div class="content">
                 <h2><strong>Leichtigkeit</strong> statt Frust</h2>
@@ -91,7 +90,7 @@
         {{ partial "divider" }}
     </section>
 
-    <section class="left innovative green" data-section="innovative">
+    <section class="left innovative green" data-animation="slide_1">
         <div class="inner">
             <div class="content">
                 <h2><strong>Zusehen</strong> statt Arbeiten</h2>
@@ -148,7 +147,7 @@
         {{ partial "divider" }}
     </section>
 
-    <section class="secure right purple" data-section="secure">
+    <section class="secure right purple" data-animation="slide_2">
         <div class="inner">
             <div class="content">
                 <h2><strong>Gelassenheit</strong> statt Sorge</h2>
@@ -202,7 +201,7 @@
         {{ partial "divider" }}
     </section>
 
-    <section class="controlling left blue" data-section="controlling">
+    <section class="controlling left blue" data-animation="drop">
         <div class="inner">
             <div class="content">
                 <h2><strong>Information</strong> statt Spekulation</h2>
@@ -251,7 +250,7 @@
         {{ partial "divider" }}
     </section>
 
-    <section class="savings right red" data-section="savings">
+    <section class="savings right red" data-animation="slide_1">
         <div class="inner">
             <div class="content">
                 <h2>Unsere <strong>Geld-Zur&uuml;ck-Garantie</strong></h2>

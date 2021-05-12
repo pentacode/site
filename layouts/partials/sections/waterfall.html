@@ -1,0 +1,31 @@
+<section
+    class="section-waterfall {{ .alignment }}"
+    style="--color-highlight: var(--{{ .color_1 }}); --color-highlight-bg: var(--{{ .color_2 }});"
+    data-animation="slide_1"
+>
+    <div class="inner">
+        <div class="content">
+            <h2>{{ .title | markdownify }}</h2>
+
+            {{ with .subtitle }}
+                <h3>
+                    {{ . | markdownify }}
+                </h3>
+            {{ end }}
+
+            {{ .text | markdownify }}
+        </div>
+
+        <div class="images">
+            <div class="scaler">
+                <div class="images-inner">
+                    {{ range .images }}
+                        <img src="{{ .src }}" class="animate" style="padding: {{ .padding }}px" />
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ partial "divider" }}
+</section>

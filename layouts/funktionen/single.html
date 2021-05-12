@@ -3,10 +3,13 @@
     {{ partial "styles/features.html" }}
     {{ partial "styles/divider.html" }}
     {{ partial "styles/slides.html" }}
+    {{ partial "styles/waterfall.html" }}
+    {{ partial "styles/offer.html" }}
 {{ end }}
 
 {{ define "js" }}
     <script src="/js/anime.min.js" async></script>
+    <script src="/js/animation.js" async></script>
     <script src="/js/slides.js" async></script>
 {{ end }}
 
@@ -54,24 +57,5 @@
         {{ partial .template_path . }}
     {{ end }}
 
-    <section class="intro red">
-        <div class="inner">
-            <div class="content">
-                <h2>Die Führende Software zur Online-Dienstplanung</h2>
-
-                <p>
-                    Der Dienstplan ist eines der mächtigsten Werkzeuge, um ein Unternehmen zu wirtschaftlichem Erfolg zu
-                    führen. Die Schichtplanung in Pentacode ist praxisnah gedacht, vielfach im Alltag erprobt und hat
-                    ihre Wirksamkeit unter Beweis gestellt. Ausgangspunkt bei der Dienstplanung in Pentacode war die
-                    Gastronomie. Warum? Weil Gastronomie alles hat, was Dienstplanung schwierig machen kann:
-                    Teilschicht- und Mehrschichtbetrieb, Fristenprobleme, Zuschlagszeiträume, unterschiedliche
-                    Beschäftigungsverhältnisse, eine Vielzahl von arbeits- und sozialversicherungsrechtlichen
-                    Regelungen, die berücksichtigt werden müssen u.v.m. Der Dienstplan von Pentacode „kann“ Gastronomie
-                    und Hotellerie. Und deshalb kann er auch alle anderen Branchen.
-                </p>
-            </div>
-        </div>
-
-        {{ partial "divider" }}
-    </section>
+    {{ partial "sections/offer" }}
 {{ end }}

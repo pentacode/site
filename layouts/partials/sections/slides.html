@@ -1,6 +1,14 @@
+{{ $slides := .slides }}
+
+{{ if eq .alignment "right" }}
+    {{ $slides = partial "reverse-slice.html" $slides }}
+{{ end }}
+
 <section
     class="section-slides {{ .alignment }}"
     style="--color-highlight: var(--{{ .color_1 }}); --color-highlight-bg: var(--{{ .color_2 }});"
+    data-animation="slide_1"
+    data-animation_direction="{{ if eq .alignment "right" }}reverse{{ else }}normal{{ end }}"
 >
     <div class="inner">
         <div class="content">
@@ -12,9 +20,7 @@
                 </h3>
             {{ end }}
 
-            <p>
-                {{ .text | markdownify }}
-            </p>
+            {{ .text | markdownify }}
 
             <ul class="tabs">
                 {{ range $i, $slide := .slides }}
@@ -25,9 +31,8 @@
                                     {{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
                                     {{ $slide.title | markdownify }}
                                 </h4>
-                                <p>
-                                    {{ $slide.text | markdownify }}
-                                </p>
+
+                                {{ $slide.text | markdownify }}
                             </div>
                         </div>
                     </li>
@@ -41,12 +46,13 @@
                     <div class="slides">
                         <div class="slides-inner">
                             <div style="width: 100%; pointer-events: none;"></div>
-                            {{ range $i, $slide := .slides }}
+                            {{ range $i, $slide := $slides }}
                                 <div class="slides-slide" data-slide="{{ $i }}">
                                     <img
                                         src="{{ $slide.image }}"
                                         style="padding: {{ $slide.padding }}px"
                                         loading="lazy"
+                                        class="animate"
                                     />
                                 </div>
                             {{ end }}

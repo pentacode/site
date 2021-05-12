@@ -3,7 +3,9 @@
         const buttons = section.querySelectorAll(".tab");
         const slidesContainer = section.querySelector(".slides");
         const slides = [...section.querySelectorAll(".slides-slide")];
-        const images = section.querySelectorAll(".slides img");
+        if (section.classList.contains("right")) {
+            slides.reverse();
+        }
         const containerWidth = slidesContainer.offsetWidth;
 
         const scroll = () => {
@@ -11,7 +13,7 @@
                 const button = buttons[i];
                 const width = slide.offsetWidth;
                 const left = slide.offsetLeft;
-                const img = images[i];
+                const img = slide.querySelector("img");
 
                 const offset =
                     Math.abs(slidesContainer.scrollLeft - left + (containerWidth - width) / 2) / containerWidth;
@@ -26,8 +28,10 @@
         };
 
         function selectSlide(i) {
+            if (typeof anime !== "undefined") {
+                anime.remove(section.querySelectorAll("img"));
+            }
             const slide = slides[i];
-            console.log("select slide", i, slide);
             slidesContainer.scrollLeft = slide.offsetLeft - (containerWidth - slide.offsetWidth) / 2;
         }
 

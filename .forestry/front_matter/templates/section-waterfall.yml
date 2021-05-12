@@ -1,5 +1,5 @@
 ---
-label: Slides
+label: Wasserfall
 hide_body: true
 fields:
     - name: title
@@ -93,30 +93,18 @@ fields:
           required: false
       label: Template Path
       hidden: true
-      default: sections/slides
-    - name: slides
+      default: sections/waterfall
+    - name: images
       type: field_group_list
       fields:
           - name: title
             type: text
-            config:
-                maxSize: 1
             label: Titel
-          - name: text
-            type: textarea
-            default: ""
-            config:
-                required: false
-                wysiwyg: true
-                schema:
-                    format: markdown
-            label: Text
-          - name: icon
+          - name: alt
+            label: Alt-Text
             type: text
-            label: Icon
-            config:
-                required: false
-          - name: image
+            label: Text
+          - name: src
             type: file
             label: Bild
             config:
@@ -124,12 +112,9 @@ fields:
           - name: padding
             type: number
             label: Rand
-            config:
-                required: true
-                default: 0
             default: 0
       config:
           min:
           max:
           labelField:
-      label: Slides
+      label: Bilder

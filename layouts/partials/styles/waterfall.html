@@ -1,0 +1,109 @@
+<style>
+    section.section-waterfall {
+        margin: 4em 2em 8em 2em;
+        margin-bottom: 0;
+        margin-top: 0;
+        transform-style: preserve-3d;
+    }
+
+    section.section-waterfall h2 {
+        font-size: 2.3em;
+        line-height: 1.2em;
+        margin: 0 0 0.2em 0;
+        font-weight: 100;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    section.section-waterfall h3 {
+        margin-bottom: 0.5em;
+    }
+
+    section.section-waterfall .inner {
+        display: flex;
+        transform-style: preserve-3d;
+    }
+
+    section.section-waterfall .inner .content {
+        display: block;
+        position: relative;
+        z-index: 1;
+        min-width: 500px;
+        padding: 0;
+        margin: 3em 1em;
+    }
+
+    section.section-waterfall.right .inner {
+        flex-direction: row-reverse;
+    }
+
+    section.section-waterfall.right .divider {
+        transform: scale(-1, 1);
+    }
+
+    section.section-waterfall .images {
+        width: 500px;
+        position: relative;
+        overflow: visible;
+        transform-style: preserve-3d;
+        z-index: -1;
+        perspective: 2000px;
+    }
+
+    section.section-waterfall .images * {
+        transform-style: preserve-3d;
+    }
+
+    section.section-waterfall .images-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 0 2em;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    section.section-waterfall .images-inner > * {
+        box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+        border-radius: 1em;
+        flex: none;
+    }
+
+    section.section-waterfall.left .images-inner {
+        transform: translateX(0) rotateY(-10deg) rotateX(5deg);
+    }
+
+    section.section-waterfall.right .images-inner {
+        transform: translateX(0) rotateY(10deg) rotateX(5deg);
+    }
+
+    @media (max-width: 1000px) {
+        section.section-waterfall .inner {
+            flex-direction: column !important;
+        }
+
+        section.section-waterfall .images {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        section.section-waterfall .images-inner {
+            right: auto;
+            transform: translateX(0) rotateY(0) rotateX(5deg);
+        }
+    }
+
+    @media (max-width: 700px) {
+        section.section-waterfall {
+            margin: 1em;
+        }
+
+        section.section-waterfall .content {
+            min-width: 100%;
+        }
+    }
+</style>
