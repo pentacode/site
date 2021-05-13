@@ -2,6 +2,7 @@
     {{ template "basecss" }}
     {{ partial "styles/home.html" }}
     {{ partial "styles/divider.html" }}
+    {{ partial "styles/features.html" }}
 {{ end }}
 {{ define "js" }}
     <script src="/js/anime.min.js" async></script>
@@ -33,12 +34,16 @@
             </div>
 
             <div class="slides">
-                <div class="features-outer">{{ partial "features" }} {{ partial "features" }}</div>
+                <div class="hero-illustration-outer">
+                    {{ partial "hero-illustration" }} {{ partial "hero-illustration" }}
+                </div>
             </div>
         </div>
 
         {{ partial "divider" }}
     </section>
+
+    {{ partial "sections/features" . }}
 
     <section class="simple right red" data-animation="slide_1">
         <div class="inner">
@@ -57,14 +62,14 @@
                 </p>
 
                 <div class="feature-buttons">
-                    <a class="btn text-clip">
+                    <a class="btn text-clip" href="/funktionen/dienstplan">
                         <div>
                             Durch <strong>Drag & Drop</strong> und <strong>Vorlagen</strong> entsteht der
                             <strong class="nobreak"><i class="fal fa-table"></i> Dienstplan</strong>
                             einfach und im Handumdrehen.
                         </div>
                     </a>
-                    <a class="btn text-clip">
+                    <a class="btn text-clip" href="/funktionen/zeiterfassung">
                         <div>
                             Die
                             <strong class="nobreak"><i class="fal fa-stopwatch"></i> Digitale Stempeluhr</strong>
@@ -113,7 +118,7 @@
                             haben Sie Überstunden, Urlaubsansprüche und SFN-Pauschalen stehts im Griff.
                         </div>
                     </a>
-                    <a class="btn text-clip">
+                    <a class="btn text-clip" href="/funktionen/zeiterfassung">
                         <div>
                             <strong><i class="fal fa-abacus"></i> Lohndaten</strong> und
                             <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> können

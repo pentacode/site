@@ -25,8 +25,8 @@
             <ul class="tabs">
                 {{ range $i, $slide := .slides }}
                     <li class="tab-outer">
-                        <div class="tab" data-slide="{{ $i }}" aria-role="presentation">
-                            <div class="tab-inner" aria-role="presentation">
+                        <div class="tab" data-slide="{{ $i }}" role="presentation">
+                            <div class="tab-inner" role="presentation">
                                 <h4>
                                     {{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
                                     {{ $slide.title | markdownify }}

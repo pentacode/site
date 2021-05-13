@@ -56,7 +56,7 @@
             slide.addEventListener("click", () => selectSlide(i));
         }
 
-        selectSlide(0);
+        setTimeout(() => selectSlide(0), 100);
     }
 
     function init() {

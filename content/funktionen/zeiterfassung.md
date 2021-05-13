@@ -9,13 +9,13 @@ text: Überlassen Sie die Zeiterfassung Ihren Mitarbeiter und die Kontrolle der
 cover: "/uploads/funktionen_zeiterfassung_stempeluhr-1.png"
 cover_2: "/uploads/funktionen_zeiterfassung_ma-app.png"
 weight: 1
-icon: ""
+icon: "stopwatch"
 anchors: []
 keywords: []
 sections:
     - template: section-slides
       template_path: sections/slides
-      title: "**Digitale Zeiterfassung**<br>für Ihre Mitarbeiter"
+      title: "**Elektronische Zeiterfassung**<br>für Ihre Mitarbeiter"
       subtitle: Über Tablet, per Mitarbeiter-App, im Homeoffice
       color_1: orange
       color_2: red

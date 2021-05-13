@@ -75,7 +75,6 @@
 
         const observer = new IntersectionObserver(
             (entries) => {
-                console.log("intersect!!!", entries);
                 for (const entry of entries) {
                     const section = entry.target;
                     const animation = animations[section.dataset.animation];
@@ -95,8 +94,8 @@
 
         sections.forEach((section) => observer.observe(section));
 
-        for (const button of document.querySelectorAll("button, .btn")) {
-            button.onmouseenter = (e) => anime({ targets: e.target, scale: 1.02 });
+        for (const button of document.querySelectorAll("button, .btn, .bouncy")) {
+            button.onmouseenter = (e) => anime({ targets: e.target, scale: 1.05 });
             button.onmouseleave = (e) => anime({ targets: e.target, scale: 1 });
         }
     }

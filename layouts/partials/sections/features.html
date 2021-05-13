@@ -1,0 +1,23 @@
+<section class="section-features left green" id="funktionen">
+    <div class="inner">
+        <div class="content">
+            <h2>Eine App, <strong>viele Anwendungsgebiete</strong></h2>
+
+            <ul class="section-features-grid">
+                {{ range where .Site.RegularPages "Section" "funktionen" }}
+                    <li>
+                        <a href="{{ .RelPermalink }}" class="section-features-tile bouncy">
+                            <i class="sections-features-icon text-clip fal fa-{{ .Params.icon }}"></i>
+                            <h4 class="text-clip">
+                                {{ .Title | markdownify }}
+                            </h4>
+                            <p>{{ .Params.text | markdownify | safeHTML | truncate 150 }}</p>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+
+    {{ partial "divider" }}
+</section>

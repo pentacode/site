@@ -6,16 +6,15 @@
                     <a href="/"><img class="logo" src="/img/logo.svg" alt="Pentacode Logo" /></a>
                 </li>
 
-                {{ $currPage := . }}
-                {{ range .Site.Sections }}
-                    {{ if not (eq .Title "Alt") }}
-                        <li class="section-item {{ if eq .Section $currPage.Section }}active{{ end }}">
-                            <a href="{{ .RelPermalink }}">
-                                {{ .Title }}
-                            </a>
-                        </li>
-                    {{ end }}
-                {{ end }}
+                <li class="section-item">
+                    <a href="#funktionen"> Funktionen </a>
+                </li>
+                <li class="section-item {{ if eq .Section "hilfe" }}active{{ end }}">
+                    <a href="/hilfe"> Hilfe </a>
+                </li>
+                <li class="section-item {{ if eq .Section "blog" }}active{{ end }}">
+                    <a href="/blog"> Blog </a>
+                </li>
             </ul>
         </nav>
 

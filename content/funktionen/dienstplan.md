@@ -7,7 +7,7 @@ text: Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksa
     bieten.
 cover: "/uploads/funktionen_dienstplan_titelbild.png"
 weight: 1
-icon: ""
+icon: "table"
 anchors: []
 keywords: []
 sections:
