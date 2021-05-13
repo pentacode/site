@@ -48,12 +48,14 @@
                             <div style="width: 100%; pointer-events: none;"></div>
                             {{ range $i, $slide := $slides }}
                                 <div class="slides-slide" data-slide="{{ $i }}">
-                                    <img
-                                        src="{{ $slide.image }}"
-                                        style="padding: {{ $slide.padding }}px"
-                                        loading="lazy"
-                                        class="animate"
-                                    />
+                                    <div class="slides-slide-inner">
+                                        <img
+                                            src="{{ $slide.image }}"
+                                            style="padding: {{ $slide.padding }}px"
+                                            loading="lazy"
+                                            class="animate"
+                                        />
+                                    </div>
                                 </div>
                             {{ end }}
                             <div style="width: 100%; pointer-events: none;"></div>

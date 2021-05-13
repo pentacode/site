@@ -36,11 +36,23 @@
     }
 
     section.hero .images .image img {
+        position: absolute;
+        top: 0;
+        left: 0;
         padding: 0.5em;
         border-radius: 2em;
         box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
         height: 100%;
         box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    section.hero .images .image img:nth-child(1) {
+        transform: translate(100px, 0);
+    }
+
+    section.hero .images .image img:nth-child(2) {
+        transform: scale(0.8) translate(-100px, 200px);
     }
 
     section.hero .inner {

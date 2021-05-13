@@ -43,8 +43,11 @@
 
             <div class="images">
                 <div class="scaler">
-                    <div class="image">
-                        <img src="{{ .Params.cover }}" class="animation-reveal" />
+                    <div class="image animation-reveal-children">
+                        <img src="{{ .Params.cover }}" />
+                        {{ with .Params.cover_2 }}
+                            <img src="{{ . }}" />
+                        {{ end }}
                     </div>
                 </div>
             </div>
