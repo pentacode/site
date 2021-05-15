@@ -239,6 +239,10 @@
             flex-direction: column !important;
         }
 
+        section.section-slides .content {
+            margin: 1em;
+        }
+
         section.section-slides .images {
             width: 100%;
             max-width: 600px;
@@ -247,7 +251,7 @@
         section.section-slides .images-inner {
             left: -40%;
             right: auto;
-            transform: translateX(0) rotateY(0) rotateX(10deg);
+            transform: translateX(0) rotateY(0) rotateX(10deg) !important;
         }
     }
 
@@ -256,8 +260,18 @@
             margin: 1em;
         }
 
+        section.section-slides h2 {
+            font-size: 2em;
+        }
+
         section.section-slides .content {
             min-width: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        section.section-slides .images {
+            display: none !important;
         }
     }
 </style>

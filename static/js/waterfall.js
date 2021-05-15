@@ -16,7 +16,6 @@
         }
 
         for (const [i, button] of buttons.entries()) {
-            button.addEventListener("click", () => selectSlide(i));
             button.onmouseenter = (e) => buttonMouseEnter(e.target);
             button.onmouseleave = (e) => buttonMouseLeave(e.target);
         }

@@ -83,7 +83,7 @@
 
     section.section-waterfall .tabs {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
         gap: 1em;
         margin: 1em -0.5em;
         font-size: 0.8em;
@@ -148,14 +148,42 @@
             flex-direction: column !important;
         }
 
+        section.section-waterfall .inner .content {
+            margin: 1em;
+        }
+
+        section.section-waterfall .scaler {
+            position: static;
+            width: auto;
+            height: auto;
+            transform: none;
+        }
+
         section.section-waterfall .images {
             width: 100%;
-            max-width: 600px;
+            height: auto;
         }
 
         section.section-waterfall .images-inner {
             right: auto;
-            transform: translateX(0) rotateY(0) rotateX(5deg);
+            transform: none !important;
+            display: grid;
+            grid-gap: 1em;
+            grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+            padding: 0;
+            align-items: center;
+        }
+
+        section.section-waterfall .images-inner > * {
+            flex: 1;
+        }
+
+        section.section-waterfall .images-inner img {
+            width: 100%;
+            box-sizing: border-box;
+            height: auto;
+            border-radius: 0.5em;
+            box-shadow: rgba(149, 157, 165, 0.4) 0px 4px 20px;
         }
     }
 
@@ -164,8 +192,14 @@
             margin: 1em;
         }
 
-        section.section-waterfall .content {
+        section.section-waterfall h2 {
+            font-size: 2em;
+        }
+
+        section.section-waterfall .inner .content {
             min-width: 100%;
+            padding: 0 !important;
+            margin: 0;
         }
     }
 </style>
