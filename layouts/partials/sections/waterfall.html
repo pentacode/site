@@ -14,6 +14,23 @@
             {{ end }}
 
             {{ .text | markdownify }}
+
+            <ul class="tabs">
+                {{ range .tiles }}
+                    <li class="tab-outer">
+                        <div class="tab" role="presentation">
+                            <div class="tab-inner" role="presentation">
+                                <h4>
+                                    {{ with .icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
+                                    {{ .title | markdownify }}
+                                </h4>
+
+                                {{ .text | markdownify }}
+                            </div>
+                        </div>
+                    </li>
+                {{ end }}
+            </ul>
         </div>
 
         <div class="images">

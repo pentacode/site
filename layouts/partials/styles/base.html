@@ -8,8 +8,11 @@
         color: #333;
         -webkit-tap-highlight-color: transparent;
         height: initial !important;
-        overflow-x: hidden !important;
         scroll-behavior: smooth;
+    }
+
+    html {
+        overflow-x: hidden !important;
     }
 
     body,
@@ -47,7 +50,6 @@
     h1 {
         font-size: 250%;
         font-weight: 300;
-        margin: 20px 0;
         line-height: 1.2em;
     }
 
@@ -365,7 +367,7 @@
     .btn.text-clip:hover {
         -webkit-text-fill-color: unset;
         -webkit-background-clip: unset;
-        background-clip: text;
+        background-clip: unset;
         border: transparent;
     }
 

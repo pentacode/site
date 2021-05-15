@@ -6,6 +6,7 @@ text: Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksa
     Ihre Mitarbeiter glücklich machen und Ihnen jederzeit einen vollständigen Überblick
     bieten.
 cover: "/uploads/funktionen_dienstplan_titelbild.png"
+cover_2: "/uploads/funktionen_dienstplan_ma-app-2.png"
 weight: 1
 icon: "table"
 anchors: []

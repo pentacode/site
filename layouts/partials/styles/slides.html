@@ -24,7 +24,7 @@
     section.section-slides .inner {
         display: flex;
         align-items: center;
-        transform-style: preserve-3d;
+        z-index: 1;
     }
 
     section.section-slides .inner .content {
@@ -232,10 +232,6 @@
         -webkit-background-clip: unset;
         background-clip: unset;
         border: transparent;
-    }
-
-    section.section-slides .tab i {
-        margin: 0;
     }
 
     @media (max-width: 1000px) {

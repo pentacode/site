@@ -5,12 +5,14 @@
     {{ partial "styles/slides.html" }}
     {{ partial "styles/waterfall.html" }}
     {{ partial "styles/offer.html" }}
+    {{ partial "styles/features.html" }}
 {{ end }}
 
 {{ define "js" }}
     <script src="/js/anime.min.js" async></script>
     <script src="/js/animation.js" async></script>
     <script src="/js/slides.js" async></script>
+    <script src="/js/waterfall.js" async></script>
 {{ end }}
 
 {{ define "main" }}
@@ -60,5 +62,7 @@
         {{ partial .template_path . }}
     {{ end }}
 
-    {{ partial "sections/offer" }}
+    {{ partial "sections/offer" . }}
+
+    {{ partial "sections/features" . }}
 {{ end }}

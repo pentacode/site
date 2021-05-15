@@ -1,3 +1,4 @@
+<div id="header_anchor"></div>
 <header class="blue">
     <div class="header-inner horizonal center-aligning layout">
         <nav class="sections">
@@ -7,7 +8,7 @@
                 </li>
 
                 <li class="section-item">
-                    <a href="#funktionen"> Funktionen </a>
+                    <a href="/#funktionen"> Funktionen </a>
                 </li>
                 <li class="section-item {{ if eq .Section "hilfe" }}active{{ end }}">
                     <a href="/hilfe"> Hilfe </a>
@@ -57,16 +58,15 @@
 
                 <nav class="menu-sections">
                     <ul>
-                        {{ $currPage := . }}
-                        {{ range .Site.Sections }}
-                            {{ if not (eq .Title "Alt") }}
-                                <li>
-                                    <a href="{{ .RelPermalink }}">
-                                        {{ .Title }}
-                                    </a>
-                                </li>
-                            {{ end }}
-                        {{ end }}
+                        <li>
+                            <a href="/#funktionen"> Funktionen </a>
+                        </li>
+                        <li class="{{ if eq .Section "hilfe" }}active{{ end }}">
+                            <a href="/hilfe"> Hilfe </a>
+                        </li>
+                        <li class="{{ if eq .Section "blog" }}active{{ end }}">
+                            <a href="/blog"> Blog </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -76,8 +76,14 @@
 
 <script>
     (() => {
+        const header = document.querySelector("header");
+        const headerAnchor = document.querySelector("#header_anchor");
         const menuButton = document.querySelector(".menu-button");
         const menu = document.querySelector(".menu-inner");
+
+        new IntersectionObserver(([entry]) => header.classList.toggle("floating", !entry.isIntersecting), {
+            threshold: 0.5,
+        }).observe(headerAnchor);
 
         menuButton.addEventListener("click", (e) => {
             e.stopPropagation();

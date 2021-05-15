@@ -81,6 +81,68 @@
         transform: translateX(0) rotateY(10deg) rotateX(5deg);
     }
 
+    section.section-waterfall .tabs {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        gap: 1em;
+        margin: 1em -0.5em;
+        font-size: 0.8em;
+        list-style: none;
+        padding: 0;
+    }
+
+    section.section-waterfall .tab-outer {
+        position: relative;
+        height: 100px;
+    }
+
+    section.section-waterfall .tab {
+        margin: auto;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background: var(--color-bg);
+        border: dashed 1px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5em;
+        overflow: hidden;
+        will-change: transform, height;
+    }
+
+    section.section-waterfall .tab h4 {
+        font-size: 1.1em;
+        margin: 0.2em 0.1em 0.1em 0.1em;
+        font-weight: bold;
+    }
+
+    section.section-waterfall .tab-inner {
+        transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: var(--color-bg);
+        padding: 0.3em 0.6em;
+    }
+
+    section.section-waterfall .tab:hover {
+        border: none;
+        z-index: 110;
+        opacity: 1 !important;
+        box-shadow: rgba(0, 0, 0, 0.9) 0 0 10px -5px;
+        /* height: auto; */
+    }
+
+    section.section-waterfall .tab.active {
+        border: none;
+    }
+
+    section.section-waterfall .tab.active .tab-inner {
+        -webkit-text-fill-color: unset;
+        -webkit-background-clip: unset;
+        background-clip: unset;
+        border: transparent;
+    }
+
     @media (max-width: 1000px) {
         section.section-waterfall .inner {
             flex-direction: column !important;

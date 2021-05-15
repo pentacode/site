@@ -95,14 +95,6 @@ sections:
                 Ihrer Mitarbeiter, egal ob 10 oder 100 Löhne abzurechnen sind.
             image: "/uploads/funktionen_zeiterfassung_export.png"
             padding: 10
-          - title: EuGH-konform
-            icon: gavel
-            text: Mit dem EuGH-Urteil vom 14. Mai 2019 werden alle Unternehmen der
-                europäischen Union zur Einführung einer objektiven Erfassung der
-                Arbeitszeiten von Arbeitnehmern verpflichtet. Pentacode entspricht
-                bereits jetzt den Vorgaben des Europäischen Gerichtshofs.
-            image: "/uploads/funktionen_zeiterfassung_konten_jahr.png"
-            padding: 10
     - template: section-waterfall
       template_path: sections/waterfall
       title: "**Modernste Technik**<br>für alle Branchen"
@@ -117,6 +109,20 @@ sections:
         Die digitale Zeiterfassung von Pentacode „kann“ auch die sehr komplizierte
         Gastronomie und Hotellerie. Und deshalb ist sie in allen Branchen und
         universal einsetzbar. Ob im Betrieb, außer Haus oder im Homeoffice."
+      tiles:
+          - title: Sicherheit - für Unternehmen und Arbeitnehmer
+            icon: lock
+            text: Die persönlichen Daten Ihrer Mitarbeiter verdienen besonderen
+                Schutz. Die Datenübertragung erfolgt verschlüsselt, tägliche Backups
+                garantieren die ununterbrochene Verfügbarkeit. Und da Deutschland den
+                weltweit höchsten Datenschutz garantiert, befinden sich unsere
+                Server in einem deutschen Rechenzentrum.
+          - title: EuGH-konform - was fordert der Europäische Gerichtshof bei der digitalen Zeiterfassung?
+            icon: gavel
+            text: Mit dem EuGH-Urteil vom 14. Mai 2019 werden alle Unternehmen der
+                europäischen Union zur Einführung einer objektiven Erfassung der
+                Arbeitszeiten von Arbeitnehmern verpflichtet. Pentacode entspricht
+                bereits jetzt den Vorgaben des Europäischen Gerichtshofs.
       images:
           - title:
             alt:

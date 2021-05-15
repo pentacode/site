@@ -56,7 +56,16 @@
             slide.addEventListener("click", () => selectSlide(i));
         }
 
-        setTimeout(() => selectSlide(0), 100);
+        new IntersectionObserver(
+            ([entry]) => {
+                if (entry && entry.isIntersecting) {
+                    selectSlide(0);
+                }
+            },
+            { threshold: 0.25 }
+        ).observe(section);
+
+        // setTimeout(() => selectSlide(0), 100);
     }
 
     function init() {
