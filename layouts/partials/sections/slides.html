@@ -27,6 +27,8 @@
                     <li class="tab-outer">
                         <div class="tab" data-slide="{{ $i }}" role="presentation">
                             <div class="tab-inner" role="presentation">
+                                <i class="tab-expand-icon fal fa-arrow-right"></i>
+
                                 <h4>
                                     {{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
                                     {{ $slide.title | markdownify }}

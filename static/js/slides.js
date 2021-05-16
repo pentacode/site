@@ -1,6 +1,6 @@
 (() => {
     function initSection(section) {
-        const buttons = section.querySelectorAll(".tab");
+        const buttons = [...section.querySelectorAll(".tab")];
         const slidesContainer = section.querySelector(".slides");
         const slides = [...section.querySelectorAll(".slides-slide")];
         if (section.classList.contains("right")) {
@@ -33,21 +33,35 @@
         }
 
         function buttonMouseEnter(button) {
+            button.classList.add("expanded");
             const inner = button.querySelector(".tab-inner");
             anime({ targets: button, scale: 1.05 });
             anime({ targets: button, height: inner.offsetHeight, easing: "easeInOutQuart", duration: 200 });
+            if (window.innerWidth <= 700) {
+                button.classList.add("active");
+            }
         }
 
         function buttonMouseLeave(button) {
+            button.classList.remove("expanded");
             anime({ targets: button, scale: 1.0 });
             anime({ targets: button, height: 100, easing: "easeInOutQuart", duration: 200 });
+            if (window.innerWidth <= 700) {
+                button.classList.remove("active");
+            }
+        }
+
+        function buttonClick(button) {
+            if (window.innerWidth > 700) {
+                selectSlide(buttons.indexOf(button));
+            }
         }
 
         slidesContainer.addEventListener("scroll", scroll);
         scroll();
 
-        for (const [i, button] of buttons.entries()) {
-            button.addEventListener("click", () => selectSlide(i));
+        for (const button of buttons) {
+            button.addEventListener("click", () => buttonClick(button));
             button.onmouseenter = (e) => buttonMouseEnter(e.target);
             button.onmouseleave = (e) => buttonMouseLeave(e.target);
         }

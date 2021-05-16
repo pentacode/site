@@ -25,10 +25,13 @@ sections:
       slides:
           - title: Individuelle Vorlagen
             icon: copy
-            text: |-
-                Selbst komplexe Dienstpläne weisen fast immer regelmäßig wiederkehrende Einsatzzeiten auf. Jeder Dienstplaner kann sich beliebig viele individuelle Vorlagen erstellen. Vorlagen für einzelne Personen, für Gruppen von Personen, Abteilungs-übergreifend oder für Abteilungen in ihrer Gesamtheit.
-
-                Mit einem einfachen „drag & drop“ ist der Dienstplan in Sekundenschnelle vorgeschrieben und erfordert dann nicht mehr als eventuell einzelne Korrekturen.
+            text: Selbst komplexe Dienstpläne weisen fast immer regelmäßig
+                wiederkehrende Einsatzzeiten auf. Jeder Dienstplaner kann sich
+                beliebig viele **individuelle Vorlagen** erstellen. Vorlagen für
+                einzelne Personen, für Gruppen von Personen, Abteilungs-übergreifend
+                oder für Abteilungen in ihrer Gesamtheit. Mit einem einfachen **Drag
+                & Drop** ist der Dienstplan in Sekundenschnelle vorgeschrieben und
+                erfordert dann nicht mehr als eventuell einzelne Korrekturen.
             padding: 10
             image: "/uploads/funktionen_dienstplan_vorlagen.png"
           - title: Planen gegen Ziele
@@ -41,7 +44,14 @@ sections:
             image: "/uploads/funktionen_dienstplan_stundenvorgaben.png"
           - title: Kontrolle der Arbeitszeiten
             icon: tasks-alt
-            text: Bereits bei der Planung werden geplante Arbeitseinsätze der Soll-Arbeitszeit gegenübergestellt. Auf diese Weise können Sie bereits bei der Schichtplanung das Auflaufen von Über- oder Minderstunden verhindern. Die gesetzlichen Pausenregelungen bei Arbeitszeiten von mehr als sechs Stunden und neun Stunden werden bei der Zählung bereits beachtet. Auch die saldierten Über- oder Minderstunden eines Mitarbeiters werden gezeigt und können so bei der Planung von Schichten berücksichtigt werden.
+            text: Bereits bei der Planung werden **geplante Arbeitseinsätze der
+                Soll-Arbeitszeit gegenübergestellt**. Auf diese Weise können Sie
+                bereits bei der Schichtplanung das Auflaufen von Über- oder
+                Minderstunden verhindern. Die **gesetzlichen Pausenregelungen** bei
+                Arbeitszeiten von mehr als sechs Stunden und neun Stunden werden bei
+                der Zählung bereits beachtet. Auch die saldierten **Über- oder
+                Minderstunden** eines Mitarbeiters werden gezeigt und können so bei
+                der Planung von Schichten berücksichtigt werden.
             image: "/uploads/funktionen_dienstplan_konten.png"
             padding: 10
     - template: section-slides

@@ -110,18 +110,14 @@
 
     section.section-waterfall .tab h4 {
         font-size: 1.1em;
-        margin: 0.2em 0.1em 0.1em 0.1em;
+        margin: 0.2em 1.5em 0.1em 0.1em;
         font-weight: bold;
     }
 
     section.section-waterfall .tab-inner {
         transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: var(--color-bg);
         padding: 0.3em 0.6em;
+        color: var(--color-highlight);
     }
 
     section.section-waterfall .tab:hover {
@@ -132,8 +128,10 @@
         /* height: auto; */
     }
 
-    section.section-waterfall .tab.active {
+    section.section-waterfall .tab.active .tab-inner {
         border: none;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        color: var(--color-bg);
     }
 
     section.section-waterfall .tab.active .tab-inner {
@@ -141,6 +139,17 @@
         -webkit-background-clip: unset;
         background-clip: unset;
         border: transparent;
+    }
+
+    section.section-waterfall .tab .tab-expand-icon {
+        position: absolute;
+        top: 0.8em;
+        right: 0.8em;
+        transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    section.section-waterfall .tab.expanded .tab-expand-icon {
+        transform: rotate(90deg);
     }
 
     @media (max-width: 1000px) {
@@ -199,7 +208,7 @@
         section.section-waterfall .inner .content {
             min-width: 100%;
             padding: 0 !important;
-            margin: 0;
+            margin: 0 0 1em 0 !important;
         }
     }
 </style>

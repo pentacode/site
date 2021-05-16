@@ -60,23 +60,22 @@
         box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
     }
 
-    section.section-features .section-features-tile:hover h4,
-    section.section-features .section-features-tile:hover i {
-        background: transparent;
-        -webkit-text-fill-color: unset !important;
-        -webkit-background-clip: unset !important;
-        background-clip: unset !important;
-    }
-
     section.section-features .section-features-tile i {
         font-size: 3em;
         border-radius: 0;
+        color: var(--color-highlight);
     }
 
-    section.section-features .section-features-tile h4 {
+    section.section-features .section-features-tile h3 {
         text-align: center;
         font-size: 1.2em;
         margin: 0.5em 0;
+        color: var(--color-highlight);
+    }
+
+    section.section-features .section-features-tile:hover i,
+    section.section-features .section-features-tile:hover h3 {
+        color: var(--color-bg);
     }
 
     section.section-features .section-features-tile p {

@@ -3,6 +3,7 @@
         const buttons = section.querySelectorAll(".tab");
 
         function buttonMouseEnter(button) {
+            button.classList.add("expanded");
             button.classList.add("active");
             const inner = button.querySelector(".tab-inner");
             anime({ targets: button, scale: 1.05 });
@@ -10,6 +11,7 @@
         }
 
         function buttonMouseLeave(button) {
+            button.classList.remove("expanded");
             button.classList.remove("active");
             anime({ targets: button, scale: 1.0 });
             anime({ targets: button, height: 100, easing: "easeInOutQuart", duration: 200 });
