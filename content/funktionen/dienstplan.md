@@ -24,7 +24,7 @@ sections:
           erstellen Sie in kürzester Zeit, was vorher oft viel Arbeit war."
       slides:
           - title: Individuelle Vorlagen
-            icon: copy
+            icon: stars
             text: Selbst komplexe Dienstpläne weisen fast immer regelmäßig
                 wiederkehrende Einsatzzeiten auf. Jeder Dienstplaner kann sich
                 beliebig viele **individuelle Vorlagen** erstellen. Vorlagen für
@@ -127,7 +127,7 @@ sections:
                 Überstunden und Urlaubsansprüche, stellt Anträge und erhält
                 Dienstanweisungen. Ganz einfach, schnell und sicher.
             image: "/uploads/funktionen_dienstplan_ma-app.png"
-            padding: 0
+            padding: 10
           - title: Schichtbewerbung & Schichttausch
             icon: random
             text: Stellen Sie Schichten online zur Verfügung, auf die sich

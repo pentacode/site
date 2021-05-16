@@ -51,12 +51,7 @@
                             {{ range $i, $slide := $slides }}
                                 <div class="slides-slide" data-slide="{{ $i }}">
                                     <div class="slides-slide-inner">
-                                        <img
-                                            src="{{ $slide.image }}"
-                                            style="padding: {{ $slide.padding }}px"
-                                            loading="lazy"
-                                            class="animate"
-                                        />
+                                        <img src="{{ $slide.image }}" loading="lazy" class="animate" />
                                     </div>
                                 </div>
                             {{ end }}
