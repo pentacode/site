@@ -1,0 +1,22 @@
+{{ define "css" }}
+    {{ template "basecss" }}
+    {{ partial "styles/funktionen.html" }}
+    {{ partial "styles/divider.html" }}
+    {{ partial "styles/offer.html" }}
+    {{ partial "styles/features.html" }}
+{{ end }}
+
+{{ define "js" }}
+    <script src="/js/anime.min.js" async></script>
+    <script src="/js/animation.js" async></script>
+{{ end }}
+
+{{ define "main" }}
+    {{ partial "header" . }}
+
+    <div style="height: 5em"></div>
+
+    {{ partial "sections/features" . }}
+
+    {{ partial "sections/offer" . }}
+{{ end }}

@@ -1,20 +1,21 @@
+<div id="header_anchor"></div>
 <header class="blue">
     <div class="header-inner horizonal center-aligning layout">
-        <nav class="sections">
+        <nav class="sections" role="navigation">
             <ul class="horizontal center-aligning layout">
                 <li>
-                    <a href="/"><img class="logo" src="/img/logo.svg" /></a>
+                    <a href="/"><img class="logo" src="/img/logo.svg" alt="Pentacode Logo" /></a>
                 </li>
 
-                {{ $currPage := . }} {{ range .Site.Sections }}
-                {{ if not (eq .Title "Alt") }}
-                <li class="section-item {{ if eq .Section $currPage.Section }}active{{ end }}">
-                    <a href="{{ .RelPermalink }}">
-                        {{ .Title }}
-                    </a>
+                <li class="section-item">
+                    <a href="/#funktionen"> Funktionen </a>
                 </li>
-                {{ end }}
-                {{ end }}
+                <li class="section-item {{ if eq .Section "hilfe" }}active{{ end }}">
+                    <a href="/hilfe"> Hilfe </a>
+                </li>
+                <li class="section-item {{ if eq .Section "blog" }}active{{ end }}">
+                    <a href="/blog"> Blog </a>
+                </li>
             </ul>
         </nav>
 
@@ -22,12 +23,13 @@
 
         <nav class="login-signup">
             <ul class="horizontal center-aligning layout">
-                <li hidden>
-                    <a href='{{ .Param "login_url" }}' class="">Login</a>
-                </li>
                 <li>
-                    <a href="https://calendly.com/pentacode/demo" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pentacode/demo'});return false;" class="btn get-started text-clip">
-                        <i class="fas fa-user-headset"></i>
+                    <a
+                        href="https://calendly.com/pentacode/demo"
+                        onclick="openScheduler(); return false;"
+                        class="btn get-started text-clip"
+                    >
+                        <i class="fal fa-user-headset"></i>
                         <span>Termin Vereinbaren</span>
                     </a>
                 </li>
@@ -35,16 +37,16 @@
         </nav>
 
         <div class="menu">
-            <button class="btn menu-button">
+            <button class="btn menu-button" aria-label="Menü">
                 <i class="fas fa-bars"></i>
             </button>
 
             <div class="menu-inner" hidden>
-                <nav class="menu-login-signup">
+                <nav class="menu-login-signup" role="navigation">
                     <ul>
                         <li>
-                            <a href='{{ .Param "get_started_url" }}' class="btn text-clip">
-                                <i class="fas fa-user-headset"></i>
+                            <a href="{{ .Param "get_started_url" }}" class="btn text-clip">
+                                <i class="fal fa-user-headset"></i>
                                 <span>Termin Vereinbaren</span>
                             </a>
                         </li>
@@ -53,15 +55,15 @@
 
                 <nav class="menu-sections">
                     <ul>
-                        {{ $currPage := . }} {{ range .Site.Sections }}
-                        {{ if not (eq .Title "Alt") }}
                         <li>
-                            <a href="{{ .RelPermalink }}">
-                                {{ .Title }}
-                            </a>
+                            <a href="/#funktionen"> Funktionen </a>
                         </li>
-                        {{ end }}
-                        {{ end }}
+                        <li class="{{ if eq .Section "hilfe" }}active{{ end }}">
+                            <a href="/hilfe"> Hilfe </a>
+                        </li>
+                        <li class="{{ if eq .Section "blog" }}active{{ end }}">
+                            <a href="/blog"> Blog </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -71,10 +73,16 @@
 
 <script>
     (() => {
+        const header = document.querySelector("header");
+        const headerAnchor = document.querySelector("#header_anchor");
         const menuButton = document.querySelector(".menu-button");
         const menu = document.querySelector(".menu-inner");
 
-        menuButton.addEventListener("click", e => {
+        new IntersectionObserver(([entry]) => header.classList.toggle("floating", !entry.isIntersecting), {
+            threshold: 0.5,
+        }).observe(headerAnchor);
+
+        menuButton.addEventListener("click", (e) => {
             e.stopPropagation();
             menu.removeAttribute("hidden");
         });

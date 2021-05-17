@@ -4,30 +4,52 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
+- type: text
+  name: subtitle
+  label: Untertitel
+- type: text
+  name: subsubtitle
+  label: Unteruntertitel
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Beschreibung
+- name: meta_title
+  type: text
+  label: Titel (Meta Tag)
+- name: meta_description
+  type: text
+  label: Beschreibung (Meta Tag)
 - type: number
   name: weight
   label: weight
 - type: text
   name: icon
   label: icon
-- type: field_group_list
-  name: anchors
-  label: anchors
-  fields:
-  - type: text
-    name: hash
-    label: hash
-  - type: text
-    name: title
-    label: title
-- type: list
-  name: keywords
-  label: keywords
+- name: cover
+  type: file
+  label: Titelbild
+  config:
+    required: true
+- type: text
+  name: cover_alt
+  label: Titelbild Alt-Text (SEO)
+- name: cover_2
+  type: file
+  label: Titelbild 2
+- type: text
+  name: cover_alt_2
+  label: Titelbild 2 Alt-Text (SEO)
 - name: sections
   type: blocks
   template_types:
-  - 3-screenshots
+  - section-slides
   config:
     min: 
     max: 

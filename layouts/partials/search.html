@@ -1,6 +1,5 @@
 <div class="search-wrapper">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
-    <link href="/css/search.css" rel="stylesheet" type="text/css" />
 
     <input type="search" placeholder="Artikel Durchsuchen..."></input>
 
@@ -10,7 +9,7 @@
                 <li data-url="{{ .RelPermalink }}" hidden>
                     <a href="{{ .RelPermalink }}">
                         <div class="search-result-section">
-                            <i class='fas fa-{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}'></i>
+                            <i class='fal fa-{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}'></i>
                             {{ .Parent.Title }}
                         </div>
                         <div class="search-result-title">

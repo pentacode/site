@@ -1,0 +1,11 @@
+{{- with .Params.meta_description -}}
+    .
+    {{- else -}}
+    {{- if .Params.description -}}
+        {{- with .Params.subtitle | markdownify | plainify -}}{{ . }} - {{ end }}
+        {{- with .Params.subsubtitle | markdownify | plainify -}}{{ . }} - {{ end }}
+        {{- .Description | markdownify | plainify -}}
+        {{- else -}}
+        .Summary
+    {{ end }}
+{{ end }}

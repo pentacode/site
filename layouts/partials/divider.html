@@ -1,0 +1,36 @@
+{{ $id := seq 1000 | shuffle | first 1 }}
+
+<svg viewBox="10 -10 80 110" preserveAspectRatio="none" overflow="visible" class="divider">
+    <defs>
+        <linearGradient id="{{ $id }}-gradient" class="svg-gradient">
+            <stop offset="0%" class="stop1" />
+            <stop offset="100%" class="stop2" />
+        </linearGradient>
+    </defs>
+
+    <!-- <path d="M 0 0 Q 25 10, 50 50 Q 75 95, 100 100 Q 75 80, 50 50 T 0 0 Z" fill="url(#gradient)"/> -->
+    <mask id="{{ $id }}-wave">
+        <path
+            d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250"
+            stroke="white"
+            stroke-width="3"
+            style="transform: translate(80px, 80px);"
+        />
+        <path
+            d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250"
+            stroke="white"
+            stroke-width="6"
+            opacity="0.5"
+            style="transform: translate(110px, 110px);"
+        />
+        <path
+            d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250"
+            stroke="white"
+            stroke-width="9"
+            opacity="0.25"
+            style="transform: translate(140px, 140px);"
+        />
+    </mask>
+
+    <rect x="-20" y="-20" width="140" height="140" mask="url(#{{ $id }}-wave)" fill="url(#{{ $id }}-gradient)" />
+</svg>

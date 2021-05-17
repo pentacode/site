@@ -1,0 +1,108 @@
+<style>
+    .section-features-anchor {
+        position: relative;
+        top: -6em;
+    }
+
+    section.section-features {
+        margin-top: -1em;
+    }
+
+    section.section-features .inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.section-features .inner .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.section-features h2 {
+        font-size: 2.3em;
+        line-height: 1.2em;
+        margin: 0 0 0.2em 0;
+        font-weight: 100;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        background: linear-gradient(125deg, var(--green) 0%, var(--blue) 25%, var(--purple) 75%, var(--orange) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        display: inline-block;
+    }
+
+    section.section-features .content {
+        margin: -2em 0;
+        background: transparent;
+    }
+
+    section.section-features .content::before,
+    section.section-features .content::after {
+        display: none;
+    }
+
+    section.section-features .section-features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        gap: 1em;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+    }
+
+    section.section-features .section-features-tile {
+        display: block;
+        color: var(--color-fg);
+        border: dashed 1px var(--shade-2);
+        border-radius: 1em;
+        padding: 1em;
+        text-align: center;
+        will-change: transform;
+    }
+
+    section.section-features .section-features-tile:hover {
+        opacity: 1 !important;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        color: var(--color-bg);
+        border: none;
+        box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
+    }
+
+    section.section-features .section-features-tile .sections-features-icon {
+        font-size: 3em;
+        border-radius: 0;
+        color: var(--color-highlight);
+    }
+
+    section.section-features .section-features-tile h3 {
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0.5em 0;
+        color: var(--color-highlight);
+    }
+
+    section.section-features .section-features-tile:hover .sections-features-icon,
+    section.section-features .section-features-tile:hover h3 {
+        color: var(--color-bg);
+    }
+
+    section.section-features .section-features-tile p {
+        text-align: left;
+        font-size: 0.9em;
+        margin: 0;
+    }
+
+    @media (max-width: 700px) {
+        section.section-features {
+            font-size: 0.8em;
+            margin-top: 0;
+        }
+
+        section.section-features h2 {
+            width: 6.7em;
+        }
+    }
+</style>

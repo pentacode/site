@@ -1,325 +1,367 @@
-{{ define "css" }} {{ template "basecss" }}
-<link href="/css/home.css" rel="stylesheet" type="text/css" />
-{{ end }} {{ define "js" }}
-<script src="js/anime.min.js"></script>
-<script src="js/home.js"></script>
-{{ end }} {{ define "main" }} {{ partial "header" . }}
+{{ define "css" }}
+    {{ template "basecss" }}
+    {{ partial "styles/home.html" }}
+    {{ partial "styles/divider.html" }}
+    {{ partial "styles/features.html" }}
+    {{ partial "styles/offer.html" }}
+{{ end }}
+{{ define "js" }}
+    <script src="/js/anime.min.js" async></script>
+    <script src="/js/animation.js" async></script>
+{{ end }}
 
-<section class="hero blue" data-section="hero">
-    <div class="inner">
-        <div class="content animation-reveal-children">
-            <h1>{{ .Params.hero_title | markdownify }}</h1>
+{{ define "main" }}
+    {{ partial "header" . }}
 
-            <h2 class="red text-clip">
-                {{ .Params.hero_subtitle | markdownify }}
-            </h2>
+    <section class="hero blue">
+        <div class="inner">
+            <div class="content animation-reveal-children">
+                <h1 class="blue text-clip">{{ .Params.hero_title | markdownify }}</h1>
 
-            <h3>
-                {{ .Params.hero_text | markdownify }}
-            </h3>
+                <h2 class="red">
+                    {{ .Params.hero_subtitle | markdownify }}
+                </h2>
 
-            <div class="buttons">
-                <a href='{{ .Param "get_started_url" }}' class="btn highlight get-started">
-                    <span>Jetzt Kennenlernen</span>
-                    <span class="icon fas fa-play-circle"></span>
-                </a>
-            </div>
-        </div>
+                <h3>
+                    {{ .Params.hero_text | markdownify }}
+                </h3>
 
-        <div class="slides">
-            <div class="features-outer">
-                {{ partial "features" }} {{ partial "features" }}
-            </div>
-        </div>
-    </div>
-
-    {{ partial "wave" }}
-</section>
-
-<section class="simple right red" data-section="simple">
-    <div class="inner">
-        <div class="content">
-            <h1><strong>Leichtigkeit</strong> statt Frust</h1>
-
-            <h3>
-                Was vorher lästig und manchmal kompliziert war, erledigen Sie nun in kürzester Zeit und beinahe spielerisch.
-            </h3>
-
-            <p>
-                Ob bei der <strong>Dienstplanung</strong>, <strong>Buchführung</strong> oder <strong>Personalverwaltung</strong>, Pentacode bringt Sie mit seiner
-                übersichtlichen und selbsterklärenden Benutzeroberfläche <strong>einfach und unbeschwert</strong> zum Ziel. 
-            </p>
-
-            <div class="feature-buttons">
-                <a class="btn text-clip">
-                    <div>
-                        Durch <strong>Drag & Drop</strong> und <strong>Vorlagen</strong> entsteht der
-                        <strong class="nobreak"><i class="fal fa-table"></i> Dienstplan</strong>
-                        einfach und im Handumdrehen.
-                    </div>
-                </a>
-                <a class="btn text-clip">
-                    <div>
-                        Die <strong class="nobreak"><i class="fal fa-stopwatch"></i> Digitale Stempeluhr</strong>
-                        funktioniert absolut selbsterklärend und ist <strong>innerhalb von Sekunden</strong> eingerichtet.
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="slides">
-            <div class="slides-inner">
-                <div class="slide back">
-                    <img src="/img/home/roster.png" class="animate"/>
-                </div>
-                <div class="slide front">
-                    <img src="/img/home/time-tracker.png" class="animate" />
-                </div>
-            </div>
-        </div>
-    </div>
-
-    {{ partial "wave" }}
-</section>
-
-<section class="left innovative green" data-section="innovative">
-    <div class="inner">
-        <div class="content">
-            <h1><strong>Zusehen</strong> statt Arbeiten</h1>
-
-            <h3>
-                Was vorher mit Aufwand verbunden war, ensteht nun in vollständig automatisierten Prozessen.
-            </h3>
-
-            <p>
-                <strong>Arbeitszeitdokumentation</strong>, <strong>Urlaubskonten</strong> und <strong>SFN-Zuschläge</strong>,
-                <strong>Lohnvorbereitung</strong>, <strong>Kassenbuch</strong> und mehr - Pentacode erledigt
-                <strong>selbstständig</strong>, was vorher wertvolle Zeit gekostet hat.
-            </p>
-
-            <div class="feature-buttons">
-                <a class="btn text-clip">
-                    <div>
-                        Durch automatische Führung von <strong class="nobreak"><i class="fal fa-balance-scale-right"></i> Mitarbeiterkonten</strong>
-                        haben Sie Überstunden, Urlaubsansprüche und SFN-Pauschalen stehts im Griff.
-                    </div>
-                </a>
-                <a class="btn text-clip">
-                    <div>
-                        <strong><i class="fal fa-abacus"></i> Lohndaten</strong> und <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> können innerhalb von Sekunden von Ihrer Buchhaltung importiert
-                        werden.
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="slides">
-
-            <div class="slides-inner">
-                <div class="slide desktop">
-                    <img src="/img/home/innovative/desktop.png" class="animate"/>
+                <div class="buttons">
+                    <a href="{{ .Param "get_started_url" }}" class="btn highlight get-started">
+                        <span>Jetzt Kennenlernen</span>
+                        <i class="icon fad fa-play-circle"></i>
+                    </a>
                 </div>
             </div>
 
-            <div class="slides-inner">
-                <div class="slide tablet">
-                    <img src="/img/home/innovative/tablet.png" class="animate"/>
-                </div>
-            </div>
-
-            <div class="slides-inner">
-                <div class="slide phone">
-                    <img src="/img/home/innovative/phone.png" class="animate"/>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    {{ partial "wave" }}
-</section>
-
-<section class="secure right purple" data-section="secure">
-    <div class="inner">
-        <div class="content">
-            <h1><strong>Gelassenheit</strong> statt Sorge</h1>
-
-            <h3>
-                Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer Dokumentation
-                und setzen genau an diesen ihren Hebel an. Viele gehen daher besorgt in eine Buchprüfung – und das oft
-                zurecht.
-            </h3>
-
-            <p>
-                Pentacode erledigt Ihre gesamte Dokumentation nicht nur vollständig, sondern völlig
-                <strong>selbständig und prüfungssicher</strong>. Ihre Unterlagen sind aktuell und fortlaufend geführt
-                und dabei widerspruchs- und fehlerfrei.
-            </p>
-
-            <div class="feature-buttons">
-                <a class="btn text-clip">
-                    <div>
-                        Detaillierte <strong class="nobreak"><i class="fal fa-exclamation-triangle"></i> Problemberichte</strong>
-                        warnen Sie laufend vor möglichen Verstößen und erlauben Ihnen frühzeitig einzugreifen.
-                    </div>
-                </a>
-                <a class="btn text-clip">
-                    <div>
-                        Eine lückenlose <strong class="nobreak"><i class="fal fa-users"></i> Arbeitszeitdokumentation</strong> und ein automatisiertes <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> schützen vor ungerechtfertigten Ansprüchen und Zuschätzungen.
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="slides">
-            <div class="slides-inner">
-                <div class="issues">
-                    <img src="/img/home/issues/issue_1.png" class="animate" />
-                    <img src="/img/home/issues/issue_2.png" class="animate" />
-                    <img src="/img/home/issues/issue_3.png" class="animate" />
-                    <img src="/img/home/issues/issue_4.png" class="animate" />
-                    <img src="/img/home/issues/issue_5.png" class="animate" />
-                    <img src="/img/home/issues/issue_6.png" class="animate" />
+            <div class="slides">
+                <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="position: absolute; opacity: 0; pointer-events: none;"
+                >
+                    <defs>
+                        <linearGradient
+                            class="hero-illustration-gradient"
+                            id="hero_illustration_gradient"
+                            gradientTransform="rotate(30)"
+                        >
+                            <stop class="stop1" offset="0%"></stop>
+                            <stop class="stop2" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <div class="hero-illustration-outer">
+                    {{ partial "hero-illustration" }} {{ partial "hero-illustration" }}
                 </div>
             </div>
         </div>
-    </div>
 
-    {{ partial "wave" }}
-</section>
+        {{ partial "divider" }}
+    </section>
 
-<section class="controlling left blue" data-section="controlling">
-    <div class="inner">
-        <div class="content">
-            <h1><strong>Information</strong> statt Spekulation</h1>
+    {{ partial "sections/features" . }}
 
-            <h3>
-                Echtzeitdaten liefern Ihnen sofortige Auskunft zu Lohnkosten, Umsätzen und deren Entwicklung.
-            </h3>
+    <section class="simple right red" data-animation="slide_1">
+        <div class="inner">
+            <div class="content">
+                <h2><strong>Leichtigkeit</strong> statt Frust</h2>
 
-            <p>
-                In <strong>selbsterklärenden, leicht verständlichen und aussagekräftigen Grafiken</strong> werden Plan-
-                und Ist-Daten verglichen und Zeiträume einander gegenübergestellt. Sie erkennen negative Trends, bevor
-                diese eine Wirkung entfalten können und positive Entwicklungen, die Sie noch verstärken können.
-            </p>
+                <h3>
+                    Was vorher lästig und manchmal kompliziert war, erledigen Sie nun in kürzester Zeit und beinahe
+                    spielerisch.
+                </h3>
 
-            <div class="feature-buttons">
-                <a class="btn text-clip">
-                    <div>
-                        Das <strong class="nobreak"><i class="fal fa-analytics"></i> Dashboard</strong>
-                        zeigt Ihnen auf einen Blick alle wesentliche Kennzahlen, z.B. <strong>Personalkosten</strong> und
-                        <strong>Produktivit&auml;t</strong>, sowie deren Entwicklung.
-                    </div>
-                </a>
-                <a class="btn text-clip">
-                    <div>
-                        In tagesgenauen  <strong class="nobreak"><i class="fal fa-chart-pie"></i> Berichten</strong> und <strong class="nobreak"><i class="fal fa-chart-bar"></i> Monats&uuml;bersichten</strong> erhalten Sie in Echtzeit Auskunft
-                        zu <strong>Lohnkosten</strong> und <strong>Zeitaufwand</strong>.
-                    </div>
-                </a>
+                <p>
+                    Ob bei der <strong>Dienstplanung</strong>, <strong>Buchführung</strong> oder
+                    <strong>Personalverwaltung</strong>, Pentacode bringt Sie mit seiner übersichtlichen und
+                    selbsterklärenden Benutzeroberfläche <strong>einfach und unbeschwert</strong> zum Ziel.
+                </p>
+
+                <div class="feature-buttons">
+                    <a class="btn text-clip" href="/funktionen/dienstplan">
+                        <div>
+                            Durch <strong>Drag & Drop</strong> und <strong>Vorlagen</strong> entsteht der
+                            <strong class="nobreak"><i class="fal fa-table"></i> Dienstplan</strong>
+                            einfach und im Handumdrehen.
+                        </div>
+                    </a>
+                    <a class="btn text-clip" href="/funktionen/zeiterfassung">
+                        <div>
+                            Die
+                            <strong class="nobreak"><i class="fal fa-stopwatch"></i> Digitale Stempeluhr</strong>
+                            funktioniert absolut selbsterklärend und ist
+                            <strong>innerhalb von Sekunden</strong> eingerichtet.
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="slides">
-            <div class="slides-inner">
-                <div class="reports">
-                    <img src="/img/home/reports/reports_1.png" class="animate" />
-                    <img src="/img/home/reports/reports_2.png" class="animate" />
-                    <img src="/img/home/reports/reports_3.png" class="animate" />
-                    <img src="/img/home/reports/reports_4.png" class="animate" />
+            <div class="slides">
+                <div class="slides-inner">
+                    <div class="slide back">
+                        <img src="/img/home/roster.png" class="animate" alt="Dienstplan online Schreiben" alt="todo" />
+                    </div>
+                    <div class="slide front">
+                        <img src="/img/home/time-tracker.png" class="animate" alt="Zeiterfassung Tablet" alt="todo" />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    {{ partial "wave" }}
-</section>
+        {{ partial "divider" }}
+    </section>
 
-<section class="savings right red" data-section="savings">
-    <div class="inner">
-        <div class="content">
-            <h1>Unsere <strong>Geld-Zur&uuml;ck-Garantie</strong></h1>
+    <section class="left innovative green" data-animation="slide_1">
+        <div class="inner">
+            <div class="content">
+                <h2><strong>Zusehen</strong> statt Arbeiten</h2>
 
-            <h3>
-                Wir garantieren Ihnen, dass die Einsparungen durch Pentacode
-                grundsätzlich über den Kosten für die Software liegen. Und
-                zwar in jedem einzelnen Monat.
-            </h3>
+                <h3>Was vorher mit Aufwand verbunden war, ensteht nun in vollständig automatisierten Prozessen.</h3>
 
-            <p>
-                Sollte dies in einem Monat nicht der Fall sein, erstatten wir
-                den Differenzbetrag innerhalb einer Woche durch Überweisung auf
-                Ihr Konto. Ohne Wenn und Aber.
-            </p>
+                <p>
+                    <strong>Arbeitszeitdokumentation</strong>, <strong>Urlaubskonten</strong> und
+                    <strong>SFN-Zuschläge</strong>, <strong>Lohnvorbereitung</strong>, <strong>Kassenbuch</strong> und
+                    mehr - Pentacode erledigt <strong>selbstständig</strong>, was vorher wertvolle Zeit gekostet hat.
+                </p>
 
-            <div class="feature-buttons">
-                <a class="btn text-clip">
-                    <div>
-                        Erfahren Sie jetzt, wie Pentacode auch ohne Ihr Zutun <strong>Arbeitszeit einspart</strong> und dadurch Ihre <strong>Personalkosten nachweisbar senkt</strong>. <i class="fal fa-piggy-bank"></i> <i class="fal fa-piggy-bank"></i> <i class="fal fa-piggy-bank"></i>
-                    </div>
-                </a>
+                <div class="feature-buttons">
+                    <a class="btn text-clip" href="/funktionen/personalverwaltung">
+                        <div>
+                            Durch automatische Führung von
+                            <strong class="nobreak"
+                                ><i class="fal fa-balance-scale-right"></i> Mitarbeiterkonten</strong
+                            >
+                            haben Sie Überstunden, Urlaubsansprüche und SFN-Pauschalen stehts im Griff.
+                        </div>
+                    </a>
+                    <a class="btn text-clip" href="/funktionen/zeiterfassung">
+                        <div>
+                            <strong><i class="fal fa-abacus"></i> Lohndaten</strong> und
+                            <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> können
+                            innerhalb von Sekunden von Ihrer Buchhaltung importiert werden.
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="slides">
-            <div class="slides-inner">
-                <div class="savings-chart">
-                    <img src="/img/home/savings/savings.png" class="animate" />
+            <div class="slides">
+                <div class="slides-inner">
+                    <div class="slide desktop">
+                        <img
+                            src="/img/home/innovative/desktop.png"
+                            class="animate"
+                            alt="Controlling: Bericht Personalkosten"
+                        />
+                    </div>
+                </div>
+
+                <div class="slides-inner">
+                    <div class="slide tablet">
+                        <img src="/img/home/innovative/tablet.png" class="animate" alt="Mitarbeiter Arbeitszeitkonto" />
+                    </div>
+                </div>
+
+                <div class="slides-inner">
+                    <div class="slide phone">
+                        <img
+                            src="/img/home/innovative/phone.png"
+                            class="animate"
+                            alt="Personalverwaltung Mitarbeiter-App"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    {{ partial "wave" }}
-</section>
+        {{ partial "divider" }}
+    </section>
 
-<section class="offer blue" id="angebot">
-    <div class="inner">
-        <div class="content">
-            <h1>Unser <strong>Kennenlern-Angebot</strong></h1>
+    <section class="secure right purple" data-animation="slide_2">
+        <div class="inner">
+            <div class="content">
+                <h2><strong>Gelassenheit</strong> statt Sorge</h2>
 
-            <p>
-                Jedes neue Produkt muss <strong>nützlich</strong> und <strong>profitabel</strong> sein. Das muss auch unsere Software beweisen.
-            </p>
+                <h3>
+                    Prüfer kennen im Normalfall die Gesetzeslage besser als Sie, erkennen die Lücken in einer
+                    Dokumentation und setzen genau an diesen ihren Hebel an. Viele gehen daher besorgt in eine
+                    Buchprüfung – und das oft zurecht.
+                </h3>
 
-            <p>
-                Bevor Sie sich deshalb auf irgendetwas „einlassen“, sollen Sie sich deshalb zuerst von der Nützlichkeit von Pentacode überzeugen.
-                Gegen eine geringe Schulungsgebühr erhalten Sie Pentacode…
-            </p>
+                <p>
+                    Pentacode erledigt Ihre gesamte Dokumentation nicht nur vollständig, sondern völlig
+                    <strong>selbständig und prüfungssicher</strong>. Ihre Unterlagen sind aktuell und fortlaufend
+                    geführt und dabei widerspruchs- und fehlerfrei.
+                </p>
 
-            <ul class="offer-terms">
-                <li class="text-clip">
-                    <i class="fal fa-calendar"></i> zwei volle Monate <strong>gebührenfrei</strong>.
-                </li>
+                <div class="feature-buttons">
+                    <a class="btn text-clip" href="/funktionen/controlling">
+                        <div>
+                            Detaillierte
+                            <strong class="nobreak"><i class="fal fa-exclamation-triangle"></i> Problemberichte</strong>
+                            warnen Sie laufend vor möglichen Verstößen und erlauben Ihnen frühzeitig einzugreifen.
+                        </div>
+                    </a>
+                    <a class="btn text-clip" href="/funktionen/zeiterfassung">
+                        <div>
+                            Eine lückenlose
+                            <strong class="nobreak"><i class="fal fa-users"></i> Arbeitszeitdokumentation</strong> und
+                            ein automatisiertes
+                            <strong class="nobreak"><i class="fal fa-cash-register"></i> Kassenbuch</strong> schützen
+                            vor ungerechtfertigten Ansprüchen und Zuschätzungen.
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-                <li class="text-clip">
-                    <i class="fal fa-file-signature"></i> <strong>ohne</strong> jede <strong>Vertragsbindung</strong>
-                </li>
-
-                <li class="text-clip">
-                    <i class="fal fa-tasks"></i> mit <strong>allen Funktionen</strong>
-                </li>
-
-                <li class="text-clip">
-                    <i class="fal fa-lock-open-alt"></i> <strong>ohne</strong> Einschränkungen 
-                </li>
-
-                <li class="text-clip">
-                    <i class="fal fa-user-headset"></i> inklusive unserem <strong>vollem Support</strong>
-                </li>
-            </ul>
-
-            <p>
-                Sie entscheiden erst, nachdem Sie uns und unsere Software auf Herz und Nieren geprüft haben.
-            </p>
-
-            <a  class="highlight btn" href="https://calendly.com/pentacode/demo" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pentacode/demo'});return false;">
-                <i class="icon fas fa-user-headset"></i><span> Jetzt Termin Vereinbaren</span>
-            </a>
+            <div class="slides">
+                <div class="slides-inner">
+                    <div class="issues">
+                        <img
+                            src="/img/home/issues/issue_1.png"
+                            class="animate"
+                            alt="Problemmeldung Unterschreitung gesetzliche Pause"
+                        />
+                        <img
+                            src="/img/home/issues/issue_2.png"
+                            class="animate"
+                            alt="Problemmeldung Überschreitung Lohngrenze"
+                        />
+                        <img
+                            src="/img/home/issues/issue_3.png"
+                            class="animate"
+                            alt="Problemmeldung Ruhezeit nicht eingehalten"
+                        />
+                        <img
+                            src="/img/home/issues/issue_4.png"
+                            class="animate"
+                            alt="Problemmeldung Arbeit länger als 10 Stunden"
+                        />
+                        <img
+                            src="/img/home/issues/issue_5.png"
+                            class="animate"
+                            alt="Problemmeldung fehlerhafte Tagesabrechnung"
+                        />
+                        <img
+                            src="/img/home/issues/issue_6.png"
+                            class="animate"
+                            alt="Problemmeldung Schicht nicht beendet"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    {{ partial "wave" }}
-</section>
+        {{ partial "divider" }}
+    </section>
 
+    <section class="controlling left blue" data-animation="drop">
+        <div class="inner">
+            <div class="content">
+                <h2><strong>Information</strong> statt Spekulation</h2>
+
+                <h3>Echtzeitdaten liefern Ihnen sofortige Auskunft zu Lohnkosten, Umsätzen und deren Entwicklung.</h3>
+
+                <p>
+                    In <strong>selbsterklärenden, leicht verständlichen und aussagekräftigen Grafiken</strong> werden
+                    Plan- und Ist-Daten verglichen und Zeiträume einander gegenübergestellt. Sie erkennen negative
+                    Trends, bevor diese eine Wirkung entfalten können und positive Entwicklungen, die Sie noch
+                    verstärken können.
+                </p>
+
+                <div class="feature-buttons">
+                    <a class="btn text-clip" href="/funktionen/controlling">
+                        <div>
+                            Das <strong class="nobreak"><i class="fal fa-analytics"></i> Dashboard</strong> zeigt Ihnen
+                            auf einen Blick alle wesentliche Kennzahlen, z.B. <strong>Personalkosten</strong> und
+                            <strong>Produktivit&auml;t</strong>, sowie deren Entwicklung.
+                        </div>
+                    </a>
+                    <a class="btn text-clip" href="/funktionen/controlling">
+                        <div>
+                            In tagesgenauen
+                            <strong class="nobreak"><i class="fal fa-chart-pie"></i> Berichten</strong> und
+                            <strong class="nobreak"><i class="fal fa-chart-bar"></i> Monats&uuml;bersichten</strong>
+                            erhalten Sie in Echtzeit Auskunft zu <strong>Lohnkosten</strong> und
+                            <strong>Zeitaufwand</strong>.
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <div class="slides-inner">
+                    <div class="reports">
+                        <img
+                            src="/img/home/reports/reports_1.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Einnahmen"
+                        />
+                        <img
+                            src="/img/home/reports/reports_2.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Personalkosten"
+                        />
+                        <img
+                            src="/img/home/reports/reports_3.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Arbeitszeit"
+                        />
+                        <img
+                            src="/img/home/reports/reports_4.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Produktivität"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ partial "divider" }}
+    </section>
+
+    <section class="savings right red" data-animation="slide_1">
+        <div class="inner">
+            <div class="content">
+                <h2>Unsere <strong>Geld-Zur&uuml;ck-Garantie</strong></h2>
+
+                <h3>
+                    Wir garantieren Ihnen, dass die Einsparungen durch Pentacode grundsätzlich über den Kosten für die
+                    Software liegen. Und zwar in jedem einzelnen Monat.
+                </h3>
+
+                <p>
+                    Sollte dies in einem Monat nicht der Fall sein, erstatten wir den Differenzbetrag innerhalb einer
+                    Woche durch Überweisung auf Ihr Konto. Ohne Wenn und Aber.
+                </p>
+
+                <div class="feature-buttons">
+                    <a class="btn text-clip" href="#angebot">
+                        <div>
+                            Erfahren Sie jetzt, wie Pentacode auch ohne Ihr Zutun
+                            <strong>Arbeitszeit einspart</strong> und dadurch Ihre
+                            <strong>Personalkosten nachweisbar senkt</strong>. <i class="fal fa-piggy-bank"></i>
+                            <i class="fal fa-piggy-bank"></i> <i class="fal fa-piggy-bank"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <div class="slides-inner">
+                    <div class="savings-chart">
+                        <img
+                            src="/img/home/savings/savings.png"
+                            class="animate"
+                            alt="Diagramm Ersparnis durch digitale Zeiterfassung"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ partial "divider" }}
+    </section>
+
+    {{ partial "sections/offer" . }}
 {{ end }}
