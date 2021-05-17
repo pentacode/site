@@ -174,5 +174,5 @@ sections:
           alle Beteiligten bietet."'
         src: "/uploads/funktionen_dienstplan_bewertungen_3.png"
         padding: 10
-draft: true
+draft: false
 ---

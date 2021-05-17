@@ -1,15 +1,15 @@
 ---
-title: Controlling
-subtitle: Personalverwaltung für Gastronomie, Hotellerie, Handel und Handwerk.
-subsubtitle: "**Schnell**, **einfach**, **spielerisch** und **intelligent**"
-description: Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksam sind,
-  Ihre Mitarbeiter glücklich machen und Ihnen jederzeit einen vollständigen Überblick
-  bieten.
-cover: "/uploads/funktionen_personalverwaltung_abwesenheiten-einzeln.png"
-cover_2: "/uploads/funktionen_personalverwaltung_ma-app-home.png"
+title: "**Controlling**"
+subtitle: Ihr sofortiger Überblick über die wichtigsten Kennzahlen
+subsubtitle: Vollständige Kontrolle. Jederzeit. In Echtzeit.
+description: "Erwerben sie die vollständige Kontrolle über **Personalkosten** und
+  **Produktivität**, von der **Planung** bis zur **Lohnabrechnung**. Täglich, auflaufend und
+  prognostisch. Gestützt auf eine Software, die Ihnen dies leicht macht."
+cover: "/uploads/funktionen_controlling_berichte-arbeitszeit.png"
+cover_2: "/uploads/funktionen_controlling_berichte-dashboard.png"
 weight: 1
 icon: "table"
 anchors: []
 keywords: []
-draft: true
+draft: false
 ---
