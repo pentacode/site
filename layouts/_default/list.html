@@ -29,7 +29,7 @@
                 {{ else }}
 
                 <div class="content animation-reveal">
-                    <div class="text-clip">
+                    <div>
                         <div class="cover">
                             {{ partial "thumbnail" . }}
                         </div>
@@ -48,12 +48,12 @@
                     <li class="animation-reveal animation-fast animation-delay-{{ add $index 1 }}">
                         <a href="{{ .RelPermalink }}">
                             <article>
-                                <div class="text-clip">
+                                <div>
                                     <div class="cover">
                                         {{ partial "thumbnail" . }}
                                     </div>
 
-                                    <div class="title"><span>{{ .Title }}</span></div>
+                                    <h2 class="title"><span>{{ .Title }}</span></h2>
                                 </div>
 
                                 <div class="subtitle">

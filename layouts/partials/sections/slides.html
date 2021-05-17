@@ -51,7 +51,7 @@
                             {{ range $i, $slide := $slides }}
                                 <div class="slides-slide" data-slide="{{ $i }}">
                                     <div class="slides-slide-inner">
-                                        <img src="{{ $slide.image }}" loading="lazy" class="animate" />
+                                        <img src="{{ $slide.image }}" loading="lazy" class="animate" alt="{{ default $slide.alt ($slide.title | markdownify | plainify) }}" />
                                     </div>
                                 </div>
                             {{ end }}

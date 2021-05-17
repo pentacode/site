@@ -2,7 +2,7 @@
 title: Digitale **Zeiterfassung**
 subtitle: "Elektronische Arbeitszeiterfassung für **Gastronomie**, **Hotellerie**, **Handel** und **Handwerk**"
 subsubtitle: Die Software, die Zeit und Geld spart
-text: Überlassen Sie die Zeiterfassung Ihren Mitarbeiter und die Kontrolle der
+description: Überlassen Sie die Zeiterfassung Ihren Mitarbeiter und die Kontrolle der
     Software. Keine „Zettelwirtschaft“, keine handschriftlichen Notizen, keine
     späteren Diskussionen.  Eine umfassende Dokumentation und die vollständige
     Lohnvorbereitung entstehen automatisch.
@@ -124,17 +124,21 @@ sections:
                 Arbeitszeiten von Arbeitnehmern verpflichtet. Pentacode entspricht
                 bereits jetzt den Vorgaben des Europäischen Gerichtshofs.
       images:
-          - title:
-            alt:
-            src: "/uploads/funktionen_dienstplan_bewertungen_1.png"
-            padding: 10
-          - title:
-            alt:
-            src: "/uploads/funktionen_dienstplan_bewertungen_2.png"
-            padding: 10
-          - title:
-            alt:
-            src: "/uploads/funktionen_dienstplan_bewertungen_3.png"
-            padding: 10
+      - title:
+        alt: 'Bewertung von Roland T.: "Sehr guter Service, schnelle Lösung und sehr kompetente Ansprechpartner!"'
+        src: "/uploads/funktionen_dienstplan_bewertungen_1.png"
+        padding: 10
+      - title:
+        alt: 'Bewertung von Georgios T.: "Sehr guter Service, ein super Team und
+          immer engagiert! Ich bin begeistert, weiter so. Viele Grüße aus dem
+          Schwabenland."'
+        src: "/uploads/funktionen_dienstplan_bewertungen_2.png"
+        padding: 10
+      - title:
+        alt: 'Bewertung von Bürk J.: "Ich bin begeistert. Endlich habe ich etwas
+          gefunden, dass die Papierflut im Büro eindämmt und klare Strukturen für
+          alle Beteiligten bietet."'
+        src: "/uploads/funktionen_dienstplan_bewertungen_3.png"
+        padding: 10
 draft: true
 ---

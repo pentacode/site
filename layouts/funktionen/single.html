@@ -32,7 +32,7 @@
                 </h3>
 
                 <div>
-                    {{ .Params.text | markdownify }}
+                    {{ .Params.description | markdownify }}
                 </div>
 
                 <div class="buttons">
@@ -46,9 +46,9 @@
             <div class="images">
                 <div class="scaler">
                     <div class="image animation-reveal-children">
-                        <img src="{{ .Params.cover }}" />
-                        {{ with .Params.cover_2 }}
-                            <img src="{{ . }}" />
+                        <img src="{{ .Params.cover }}" alt="{{ default .Params.cover_alt .Params.subtitle }}"/>
+                        {{ if .Params.cover_2 }}
+                            <img src="{{ .Params.cover_2 }}" alt="{{ default .Params.cover_alt_2 .Params.subtitle }}" />
                         {{ end }}
                     </div>
                 </div>

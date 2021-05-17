@@ -1,7 +1,7 @@
 <div id="header_anchor"></div>
 <header class="blue">
     <div class="header-inner horizonal center-aligning layout">
-        <nav class="sections">
+        <nav class="sections" role="navigation">
             <ul class="horizontal center-aligning layout">
                 <li>
                     <a href="/"><img class="logo" src="/img/logo.svg" alt="Pentacode Logo" /></a>
@@ -23,16 +23,13 @@
 
         <nav class="login-signup">
             <ul class="horizontal center-aligning layout">
-                <li hidden>
-                    <a href="{{ .Param "login_url" }}" class="">Login</a>
-                </li>
                 <li>
                     <a
                         href="https://calendly.com/pentacode/demo"
                         onclick="openScheduler(); return false;"
                         class="btn get-started text-clip"
                     >
-                        <i class="fas fa-user-headset"></i>
+                        <i class="fal fa-user-headset"></i>
                         <span>Termin Vereinbaren</span>
                     </a>
                 </li>
@@ -40,16 +37,16 @@
         </nav>
 
         <div class="menu">
-            <button class="btn menu-button">
+            <button class="btn menu-button" aria-label="Menü">
                 <i class="fas fa-bars"></i>
             </button>
 
             <div class="menu-inner" hidden>
-                <nav class="menu-login-signup">
+                <nav class="menu-login-signup" role="navigation">
                     <ul>
                         <li>
                             <a href="{{ .Param "get_started_url" }}" class="btn text-clip">
-                                <i class="fas fa-user-headset"></i>
+                                <i class="fal fa-user-headset"></i>
                                 <span>Termin Vereinbaren</span>
                             </a>
                         </li>

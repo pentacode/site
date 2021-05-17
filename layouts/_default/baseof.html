@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!--
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVP5NJ56FM"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -10,18 +8,18 @@
           gtag('js', new Date());
           gtag('config', 'G-MVP5NJ56FM', { 'anonymize_ip': true });
         </script>
-        -->
+       
 
-        <title>{{ .Title }}</title>
         <link rel="shortcut icon" href="/img/icon.png">
 
+        <title>{{- partial "title" . | chomp -}}</title>
+
         {{ block "meta" . }}
+        <meta name="og:title" content='{{- partial "title" . | chomp -}}'></meta>
+        <meta name="description" content='{{- partial "description" . | chomp -}}'></meta>
+        <meta name="og:description" content='{{- partial "description" . | chomp }}'></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- <meta name="apple&#45;itunes&#45;app" content="app&#45;id=871710139"> -->
-        <meta name="description" content="{{ default .Params.description .Summary }}"></meta>
-        <meta name="og:title" content="{{ .Site.Title }}"></meta>
-        <meta name="og:description" content="{{ .Summary }}"></meta>
         {{ end }}
 
         {{ block "favicon" . }}

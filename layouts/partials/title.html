@@ -1,2 +1,5 @@
 {{- template "titlepart" . -}}
-{{- define "titlepart" -}}{{ .Title }}{{- with .Parent -}}{{ if .IsHome }} - Pentacode {{ else }} - {{ template "titlepart" . }}{{ end }}{{ end }}{{ end }}
+{{- define "titlepart" -}}
+    {{- with .Params.meta_title -}}{{ . }}{{- else -}}{{- .Title | markdownify | plainify -}}{{ end }}
+    {{- with .Parent -}} {{ if .IsHome }} | Pentacode {{ else }} | {{ template "titlepart" . }}{{ end }}{{ end }}
+{{ end }}
