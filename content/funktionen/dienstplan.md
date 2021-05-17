@@ -11,6 +11,7 @@ weight: 1
 icon: "table"
 anchors: []
 keywords: []
+aliases: [/funktionen/dienstplanung]
 sections:
   - template: section-slides
     template_path: sections/slides
