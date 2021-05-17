@@ -18,7 +18,7 @@
             <div class="content animation-reveal-children">
                 <h1 class="blue text-clip">{{ .Params.hero_title | markdownify }}</h1>
 
-                <h2 class="red text-clip">
+                <h2 class="red">
                     {{ .Params.hero_subtitle | markdownify }}
                 </h2>
 
@@ -29,12 +29,28 @@
                 <div class="buttons">
                     <a href="{{ .Param "get_started_url" }}" class="btn highlight get-started">
                         <span>Jetzt Kennenlernen</span>
-                        <span class="icon fas fa-play-circle"></span>
+                        <i class="icon fad fa-play-circle"></i>
                     </a>
                 </div>
             </div>
 
             <div class="slides">
+                <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="position: absolute; opacity: 0; pointer-events: none;"
+                >
+                    <defs>
+                        <linearGradient
+                            class="hero-illustration-gradient"
+                            id="hero_illustration_gradient"
+                            gradientTransform="rotate(30)"
+                        >
+                            <stop class="stop1" offset="0%"></stop>
+                            <stop class="stop2" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
                 <div class="hero-illustration-outer">
                     {{ partial "hero-illustration" }} {{ partial "hero-illustration" }}
                 </div>
@@ -132,7 +148,11 @@
             <div class="slides">
                 <div class="slides-inner">
                     <div class="slide desktop">
-                        <img src="/img/home/innovative/desktop.png" class="animate" alt="Controlling: Bericht Personalkosten" />
+                        <img
+                            src="/img/home/innovative/desktop.png"
+                            class="animate"
+                            alt="Controlling: Bericht Personalkosten"
+                        />
                     </div>
                 </div>
 
@@ -144,7 +164,11 @@
 
                 <div class="slides-inner">
                     <div class="slide phone">
-                        <img src="/img/home/innovative/phone.png" class="animate" alt="Personalverwaltung Mitarbeiter-App" />
+                        <img
+                            src="/img/home/innovative/phone.png"
+                            class="animate"
+                            alt="Personalverwaltung Mitarbeiter-App"
+                        />
                     </div>
                 </div>
             </div>
@@ -193,12 +217,36 @@
             <div class="slides">
                 <div class="slides-inner">
                     <div class="issues">
-                        <img src="/img/home/issues/issue_1.png" class="animate" alt="Problemmeldung Unterschreitung gesetzliche Pause" />
-                        <img src="/img/home/issues/issue_2.png" class="animate" alt="Problemmeldung Überschreitung Lohngrenze" />
-                        <img src="/img/home/issues/issue_3.png" class="animate" alt="Problemmeldung Ruhezeit nicht eingehalten" />
-                        <img src="/img/home/issues/issue_4.png" class="animate" alt="Problemmeldung Arbeit länger als 10 Stunden" />
-                        <img src="/img/home/issues/issue_5.png" class="animate" alt="Problemmeldung fehlerhafte Tagesabrechnung" />
-                        <img src="/img/home/issues/issue_6.png" class="animate" alt="Problemmeldung Schicht nicht beendet" />
+                        <img
+                            src="/img/home/issues/issue_1.png"
+                            class="animate"
+                            alt="Problemmeldung Unterschreitung gesetzliche Pause"
+                        />
+                        <img
+                            src="/img/home/issues/issue_2.png"
+                            class="animate"
+                            alt="Problemmeldung Überschreitung Lohngrenze"
+                        />
+                        <img
+                            src="/img/home/issues/issue_3.png"
+                            class="animate"
+                            alt="Problemmeldung Ruhezeit nicht eingehalten"
+                        />
+                        <img
+                            src="/img/home/issues/issue_4.png"
+                            class="animate"
+                            alt="Problemmeldung Arbeit länger als 10 Stunden"
+                        />
+                        <img
+                            src="/img/home/issues/issue_5.png"
+                            class="animate"
+                            alt="Problemmeldung fehlerhafte Tagesabrechnung"
+                        />
+                        <img
+                            src="/img/home/issues/issue_6.png"
+                            class="animate"
+                            alt="Problemmeldung Schicht nicht beendet"
+                        />
                     </div>
                 </div>
             </div>
@@ -244,10 +292,26 @@
             <div class="slides">
                 <div class="slides-inner">
                     <div class="reports">
-                        <img src="/img/home/reports/reports_1.png" class="animate" alt="Controlling Dashboard: Bericht Einnahmen" />
-                        <img src="/img/home/reports/reports_2.png" class="animate" alt="Controlling Dashboard: Bericht Personalkosten" />
-                        <img src="/img/home/reports/reports_3.png" class="animate" alt="Controlling Dashboard: Bericht Arbeitszeit" />
-                        <img src="/img/home/reports/reports_4.png" class="animate" alt="Controlling Dashboard: Bericht Produktivität" />
+                        <img
+                            src="/img/home/reports/reports_1.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Einnahmen"
+                        />
+                        <img
+                            src="/img/home/reports/reports_2.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Personalkosten"
+                        />
+                        <img
+                            src="/img/home/reports/reports_3.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Arbeitszeit"
+                        />
+                        <img
+                            src="/img/home/reports/reports_4.png"
+                            class="animate"
+                            alt="Controlling Dashboard: Bericht Produktivität"
+                        />
                     </div>
                 </div>
             </div>
@@ -286,7 +350,11 @@
             <div class="slides">
                 <div class="slides-inner">
                     <div class="savings-chart">
-                        <img src="/img/home/savings/savings.png" class="animate" alt="Diagramm Ersparnis durch digitale Zeiterfassung" />
+                        <img
+                            src="/img/home/savings/savings.png"
+                            class="animate"
+                            alt="Diagramm Ersparnis durch digitale Zeiterfassung"
+                        />
                     </div>
                 </div>
             </div>

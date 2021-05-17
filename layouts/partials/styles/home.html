@@ -106,10 +106,14 @@
     }
 
     section.hero h2 {
-        color: #ff6666;
+        color: var(--orange);
         margin-top: 0;
         font-size: 1.4em;
         margin-bottom: 0.5em;
+    }
+
+    section.hero h2 svg {
+        font-size: 0.9em;
     }
 
     section.hero h3 {
@@ -124,7 +128,11 @@
     }
 
     section.hero .inner .btn {
-        font-size: 120%;
+        font-size: 110%;
+    }
+
+    section.hero .inner .btn .icon {
+        font-size: 1.1em;
     }
 
     section:not(.hero) h2 {
@@ -212,7 +220,7 @@
     }
 
     section.hero .hero-illustration-outer {
-        transform: translate(80px, 0) rotatex(55deg) rotate(15deg);
+        transform: translate3d(80px, 0, 100px) rotatex(55deg) rotate(15deg);
     }
 
     @keyframes roll {
@@ -263,10 +271,22 @@
         color: var(--color-highlight);
     }
 
+    section.hero .hero-illustration-gradient .stop1 {
+        stop-color: var(--color-highlight);
+    }
+
+    section.hero .hero-illustration-gradient .stop2 {
+        stop-color: var(--color-highlight-bg);
+    }
+
     section.hero .hero-illustration-tile .hero-illustration-icon {
         display: block;
         margin: 0 auto 0.5em auto;
         font-size: 3em;
+    }
+
+    section.hero .hero-illustration-tile .hero-illustration-icon path {
+        fill: url(#hero_illustration_gradient);
     }
 
     section.hero .hero-illustration-tile div {
@@ -339,8 +359,17 @@
             margin: 0;
         }
 
-        section.hero h1 {
-            font-size: 2em;
+        section.hero h1,
+        section:not(.hero) h2 {
+            font-size: 1.8em;
+        }
+
+        section.hero h2 {
+            font-size: 1.3em;
+        }
+
+        section:not(.hero) h3 {
+            margin-bottom: 0.5em;
         }
 
         section.hero .content {

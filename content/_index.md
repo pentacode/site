@@ -2,9 +2,8 @@
 title: Pentacode - Digitales Management für Ihr Unternehmen
 description: Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling
   und Lohnvorbereitung - so einfach und intuitiv wie noch nie.
-hero_title: "**Digitales Management**  \nfür Ihr Unternehmen"
-hero_subtitle: "**Wir sparen Ihnen Arbeit.** Ganz einfach."
-hero_text: Von **Dienstplanung** und **Zeiterfassung** bis hin zu **Kostenanalyse**,
-  **Controlling** und **Lohnvorbereitung** - so einfach und intuitiv wie noch nie.
-
+hero_title: "**Personalmanagement**<br>war noch nie so einfach."
+hero_subtitle: <i class="fal fa-lightbulb-on"></i> intuitiv <i class="fal fa-robot"></i> automatisiert <i class="fal fa-shield-check"></i> sicher
+hero_text: "Von **Dienstplanung** und **Zeiterfassung** bis hin zu **Kostenanalyse**,
+  **Controlling** und **Lohnvorbereitung** - so einfach und intuitiv wie noch nie."
 ---
