@@ -1,0 +1,54 @@
+<!-- ProvenExpert ProSeal Widget -->
+<noscript>
+    <a
+        href="https://www.provenexpert.com/de-de/pentacode?utm_source=seals&utm_campaign=proseal&utm_medium=profile&utm_content=pentacode"
+        target="_blank"
+        title="Kundenbewertungen & Erfahrungen zu Pentacode. "
+        class="pe-pro-seal-more-infos"
+    >
+        Mehr Infos
+    </a>
+</noscript>
+<style>
+    .pe-pro-seal {
+        transition: transform 0.3s;
+        transform: translateX(110%);
+    }
+</style>
+<script src="https://s.provenexpert.net/seals/proseal.js"></script>
+<script id="proSeal">
+    window.addEventListener("load", () => setTimeout(() => {
+    // window.addEventListener("load", () => {
+        function setupSeal() {
+            window.provenExpert.proSeal({
+                widgetId: "e477a61a-c43a-46b1-9b13-e81d97f18905",
+                language: "de-DE",
+                bannerColor: "#0DB1CD",
+                textColor: "#FFFFFF",
+                showReviews: true,
+                hideDate: false,
+                hideName: false,
+                bottom: "200px",
+                googleStars: Boolean(JSON.parse("{{ . }}")),
+                zIndex: "9999",
+            });
+
+            const seal = document.querySelector(".pe-pro-seal")
+            new IntersectionObserver(
+                ([entry]) => {
+                    seal.style.transform = `translateX(${ entry && entry.isIntersecting ? "-10%" : "110%"})`
+                }
+            ).observe(document.querySelector("#angebot"));
+        }
+
+    /*
+        setupSeal();
+    });
+    */
+        const script = document.createElement("script")
+        script.async = true;
+        script.onload = () => setupSeal();
+        script.src = "https://s.provenexpert.net/seals/proseal.js";
+        document.head.appendChild(script);
+    }, 2000));
+</script>
