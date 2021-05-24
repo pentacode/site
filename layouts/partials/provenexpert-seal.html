@@ -12,7 +12,24 @@
 <style>
     .pe-pro-seal {
         transition: transform 0.3s;
+    }
+
+    .pe-pro-seal:not(.showing) {
         transform: translateX(110%);
+    }
+
+    .pe-pro-seal.showing {
+        transform: translateX(-10%);
+    }
+
+    @media (max-width: 600px) {
+        .pe-pro-seal:not(.showing) {
+            transform: translateX(-110%);
+        }
+
+        .pe-pro-seal.showing {
+            transform: translateX(0);
+        }
     }
 </style>
 <script src="https://s.provenexpert.net/seals/proseal.js"></script>
@@ -28,16 +45,14 @@
                 showReviews: true,
                 hideDate: false,
                 hideName: false,
-                bottom: "200px",
+                bottom: "140px",
                 googleStars: Boolean(JSON.parse("{{ . }}")),
-                zIndex: "9999",
+                zIndex: "1000",
             });
 
             const seal = document.querySelector(".pe-pro-seal")
             new IntersectionObserver(
-                ([entry]) => {
-                    seal.style.transform = `translateX(${ entry && entry.isIntersecting ? "-10%" : "110%"})`
-                }
+                ([entry]) => seal.classList.toggle("showing", entry && entry.isIntersecting)
             ).observe(document.querySelector("#angebot"));
         }
 
