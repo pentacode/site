@@ -117,3 +117,5 @@ fields:
     max: 
     labelField: 
   label: Bilder
+pages:
+- content/blog/wichtige-informationen-zum-update-1.17.0-vom-26.05.2021.md
