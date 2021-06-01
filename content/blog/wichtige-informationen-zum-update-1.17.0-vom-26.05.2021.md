@@ -20,11 +20,19 @@ text: |-
 
   {{< /figure >}}
 
-  {{< figure caption="Hier hin kommt ein Bildtitel." >}}
+  Sie gelangen zuerst immer in die Rechteverwaltung eines **Mitarbeiters** und dessen **Mitarbeiterzugang**.
+
+  Durch das Abwählen der entsprechenden Buttons schränken Sie die Informationen ein, die für den Mitarbeiter in der App ersichtlich sind.
+
+  {{< figure caption="Durch Abwählen der eines Buttons wird die" >}}
 
   ![](/uploads/blog_update_1-17-0_mitarbeiter-app_rechte_1.png)
 
   {{< /figure >}}
+
+  Wenn Sie über das Dropdown-Menü Manager wählen, können Sie in der eben beschriebenen Weise die Informationen in dessen App einschränken.
+
+  Über Verwaltungszugang bestimmen Sie durch das Setzen der entsprechenden Buttons, in welche Bereiche und dort in welchem Umfang der Mitarbeiter mit Management-Aufgaben Zugang zur Datenbank erhält (und z.B. Dienstpläne schreiben kann).
 
   {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
