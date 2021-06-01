@@ -16,9 +16,23 @@ text: |-
 
   Nachdem Sie in den Stammdaten des Mitarbeiters dessen Email-Adresse hinterlegt haben, haben Sie unter "Zugänge & Rechte" die Möglichkeit, Mitarbeiter zur Nutzung der App einzuladen.
 
-  {{< figure caption="Indem Sie auf Berechtigungen klicken gelangen Sie zur Rechteverwaltung" >}}![](/uploads/blog_update_1-17-0_mitarbeiter-app_ma-app-einrichten_2.png)
+  {{< figure caption="Indem Sie auf Berechtigungen klicken, gelangen Sie zur Rechteverwaltung" >}}![](/uploads/blog_update_1-17-0_mitarbeiter-app_ma-app-einrichten_2.png)
 
   {{< /figure >}}
+
+  {{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+  ![](/uploads/blog_update_1-17-0_mitarbeiter-app_rechte_1.png)
+
+  {{< /figure >}}
+
+  {{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+  ![](/uploads/blog_update_1-17-0_mitarbeiter-app_rechte_2.png)
+
+  {{< /figure >}}
+
+  Indem Sie auf "**Mitarbeiter Erstellen**" klicken, ist der Mitarbeiter im System angelegt und erhält gleichzeitig eine Email, in der er aufgefordert wird, sich in der App anzumelden
 
   ## Die App in der Übersicht
 
