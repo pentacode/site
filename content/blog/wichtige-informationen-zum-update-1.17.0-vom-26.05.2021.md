@@ -34,13 +34,13 @@ text: |-
 
   Über Verwaltungszugang bestimmen Sie durch das Setzen der entsprechenden Buttons, in welche Bereiche und dort in welchem Umfang der Mitarbeiter mit Management-Aufgaben Zugang zur Datenbank erhält (und z.B. Dienstpläne schreiben kann).
 
-  {{< figure caption="Hier hin kommt ein Bildtitel." >}}
+  {{< figure caption="Bestimmen Sie Art und Umfang der Berechtigung eines Management-Mitarbeiters und speichern Sie" >}}
 
   ![](/uploads/blog_update_1-17-0_mitarbeiter-app_rechte_2.png)
 
   {{< /figure >}}
 
-  Indem Sie auf "**Mitarbeiter Erstellen**" klicken, ist der Mitarbeiter im System angelegt und erhält gleichzeitig eine Email, in der er aufgefordert wird, sich in der App anzumelden
+  Indem Sie schließlich auf "**Mitarbeiter Erstellen**" klicken, ist der Mitarbeiter im System angelegt und erhält gleichzeitig eine Email, in der er aufgefordert wird, sich in der App anzumelden
 
   ## Die App in der Übersicht
 
