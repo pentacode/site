@@ -1,5 +1,11 @@
 ---
-keywords: []
+keywords:
+- abwesenheiten
+- krank
+- Urlaub
+- Urlaub beantragen
+- Urlaubsantrag
+- urlaubsplanung
 title: Abwesenheiten
 weight: 3
 icon: ''
