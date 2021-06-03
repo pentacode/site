@@ -2,9 +2,8 @@
 keywords: []
 title: Stammdaten
 weight: 5
-icon: ''
+icon: user-alt
 anchors: []
-draft: true
 
 ---
 Unter dem Menüpunkt Stammdaten finden Sie die Liste Ihrer Mitarbeiter mit deren personenbezogenen Daten.

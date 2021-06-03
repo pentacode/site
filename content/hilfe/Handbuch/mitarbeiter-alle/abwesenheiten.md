@@ -10,7 +10,6 @@ title: Abwesenheiten
 weight: 3
 icon: umbrella-beach
 anchors: []
-draft: true
 
 ---
 Unter dem Menüpunkt "**Abwesenheiten**" erhalten Sie eine Gesamtübersicht zu den beantragten und genehmigten Urlauben Ihrer Mitarbeiter, sowie den Fehltagen durch Krankheit
