@@ -2,9 +2,8 @@
 keywords: []
 title: Zugänge & Rechte
 weight: 7
-icon: ''
+icon: user-edit
 anchors: []
-draft: true
 
 ---
 Unter "Zugänge & Rechte" bei Alle Mitarbeiter finden Sie eine vollständige Liste Ihrer aktiven Mitarbeiter und deren jeweiligen Berechtigungen. Diese umfassen die Rechte zur Einsicht in bestimmte Informationen über die Mitarbeiter-App (für Mitarbeiter), sowie die jeweiligen Zugänge zu Pentacode (für Besitzer und Manager).

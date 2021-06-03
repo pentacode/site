@@ -11,6 +11,7 @@ anchors:
   title: Mitarbeiter-Account entfernen
 keywords:
 - berechtigungen
+draft: true
 
 ---
 In dieser Übersicht werden **alle aktuell beschäftigten** Mitarbeiter gezeigt. In der Kopfzeile finden Sie alle Bereiche in Pentacode, zu denen Sie einem Mitarbeiter Zugang geben können.
