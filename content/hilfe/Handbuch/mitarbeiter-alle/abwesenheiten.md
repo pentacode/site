@@ -8,7 +8,7 @@ keywords:
 - urlaubsplanung
 title: Abwesenheiten
 weight: 3
-icon: ''
+icon: umbrella-beach
 anchors: []
 draft: true
 
