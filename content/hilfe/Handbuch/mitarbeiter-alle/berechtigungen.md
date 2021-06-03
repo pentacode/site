@@ -1,6 +1,6 @@
 ---
-title: Berechtigungen
-weight: 
+title: Zugänge & Rechte
+weight: 7
 icon: user-edit
 anchors:
 - hash: mitarbeiter-account-erstellen
