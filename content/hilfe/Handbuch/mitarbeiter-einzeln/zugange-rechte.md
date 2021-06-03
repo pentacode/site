@@ -21,7 +21,7 @@ Beim Anlegen eines neuen Mitarbeiters gelangen Sie zuerst immer in die Rechtever
 
 Durch das Abwählen der entsprechenden Buttons schränken Sie die Informationen ein, die für den Mitarbeiter in der App ersichtlich sind.
 
-{{< figure caption="Durch Abwählen der eines Buttons wird die" >}}
+{{< figure caption="Durch Abwählen der eines Buttons schränken Sie die Berchtigung des Mitarbeiters entsprechend ein" >}}
 
 ![](/uploads/blog_update_1-17-0_mitarbeiter-app_rechte_1.png)
 
@@ -33,7 +33,7 @@ Durch das Abwählen der entsprechenden Buttons schränken Sie die Informationen 
 
 Sie können Mitarbeitern, die übergeordnete Funktionen in Ihrem Unternehmen ausüben (z.B. Dienstplanung), Zugang zu Pentacode gewähren.
 
-Legen Sie wie oben beschrieben zuerst fest, welche Funktionsbereiche in der Mitarbeiter-App freigeschaltet werden.
+Legen Sie wie oben beschrieben zuerst fest, welche Funktionsbereiche in der Mitarbeiter-App für den Manger freigeschaltet werden.
 
 Wählen Sie danach über das Dropdown-Menü den Status "Manager". Dadurch wird automatisch der Bereich "Verwaltungszugang" aktiviert.
 
@@ -43,9 +43,9 @@ Wählen Sie danach über das Dropdown-Menü den Status "Manager". Dadurch wird a
 
 {{< /figure >}}
 
-Wenn Sie den Button für einen Bereich der Verwaltung (z.B. Dienstplan) setzen, werden alle Funktionen und Rechte in diesem Bereich sichtbar. Grundsätzlich sind alle Rechte vollumfänglich gegeben.
+Wenn Sie den Button für einen Bereich der Verwaltung (z.B. Dienstplan) setzen, werden alle Funktionen und Rechte in diesem Bereich sichtbar. Grundsätzlich sind erste einmal alle Rechte vollumfänglich gegeben.
 
-Schränken Sie die Rechte eventuell ein, indem Sie die jeweiligen Buttons entsprechend entfernen.
+Schränken Sie die Rechte eventuell ein, indem Sie die jeweiligen Buttons entsprechend abwählen.
 
 (Im folgenden Beispiel wurde der Manager berechtigt, Dienstpläne zu schreiben. Seine Berechtigung wurde jedoch insoweit eingeschränkt, als er keine Lohnkosten einsehen kann, die aus der Planung entstehen. Des weiteren ist er nicht in der Lage, Kurzarbeitszeiten zu erfassen.)
 
