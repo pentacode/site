@@ -1,5 +1,5 @@
 ---
-title: Zugänge & Rechte
+title: Berechtigungen
 weight: 7
 icon: user-edit
 anchors:
