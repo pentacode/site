@@ -1,6 +1,6 @@
 ---
 title: Arbeitszeiten
-weight: 1
+weight: 2
 icon: user-clock
 anchors:
 - hash: spaltenbezeichnung
