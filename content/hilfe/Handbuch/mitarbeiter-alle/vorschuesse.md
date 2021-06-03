@@ -1,6 +1,6 @@
 ---
 title: Vorschüsse
-weight: 
+weight: 4
 icon: coins
 anchors:
 - title: Vorschussliste
