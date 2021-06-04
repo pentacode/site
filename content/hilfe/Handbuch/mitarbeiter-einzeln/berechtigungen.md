@@ -15,6 +15,7 @@ keywords:
 - passwort
 - berechtigung löschen
 - berechtigung entziehen
+draft: true
 
 ---
 Unter  **"Berechtigungen"** können Sie einem Mitarbeiter Zugang zu von Ihnen **ausgewählten Bereichen** in Pentacode geben.
