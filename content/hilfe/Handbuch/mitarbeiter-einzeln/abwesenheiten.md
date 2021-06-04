@@ -36,3 +36,29 @@ Indem Sie auf  "Vergangene Abwesenheiten Zeigen" am Kopfende der Übersicht klic
 ![](/uploads/hilfeartikel_mitarbeiter-alle_abwesenheiten_1a.png)
 
 {{< /figure >}}
+
+## Bearbeitung bestehender Einträge
+
+Sie können einen **bestehenden Fehlzeitraum** sowohl im Dienstplan, wie auch im Menüpunkt "Abwesenheiten" eines Mitarbeiters **ändern**.
+
+Klicken Sie hierzu in den entsprechenden Eintrag und und verlängern oder verkürzen Sie über die Datumseingabe den Fehlzeitraum.
+
+{{< figure caption="Sie können einen bestehenden Zeitraum durch Datumsänderung verlängern oder verkürzen" >}}
+
+![](/uploads/hilfeartikel_mitarbeiter-einzeln_abwesenheiten_2.png)
+
+{{< /figure >}}
+
+## Wichtig!
+
+Über die Datumseingabe bestimmen Sie die Dauer der Abwesenheit, nicht jedoch die Anzahl der Urlaubs- und Kranktage! **Diese sind von Ihnen gezielt auszuwählen!**
+
+**Pentacode ermittelt** anhand der Vertragsdaten eines Mitarbeiters und seiner vergangenen Arbeitseinsätze nicht nur die **Anzahl der Tage** innerhalb der Woche, für die Krank oder Urlaub eingetragen werden soll. Pentacode ermittelt auch die Tage, an denen der Mitarbeiter **üblicherweise oder schwerpunktmäßig** gearbeitet hat. Diese Tage werden durch einen **orangen Punkt** ausgewiesen.
+
+{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+
+{{< /figure >}}
+
+> Tage, an denen Sie einen Mitarbeiter als Krank oder in Urlaub eintragen, müssen von Ihnen durch Anklicken gezielt ausgewählt. 
+
+Die durch Orange gekennzeichneten Tage sind lediglich **Vorschläge**. Sie können natürlich jederzeit einen **anderen Tag wählen**. Für die **Richtigkeit der Urlaubsverwaltung** ist es jedoch von entscheidender **Bedeutung**, dass die **zutreffende Anzahl der Tage** (=Anzahl der vorgeschlagenen Tage) ausgewählt werden!
