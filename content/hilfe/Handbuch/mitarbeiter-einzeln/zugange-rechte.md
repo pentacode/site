@@ -1,7 +1,7 @@
 ---
 keywords: []
 title: Zugänge & Rechte
-weight: 
+weight: 6
 icon: user-edit
 anchors: []
 
