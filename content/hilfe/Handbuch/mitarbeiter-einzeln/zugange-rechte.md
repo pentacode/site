@@ -4,7 +4,6 @@ title: Zugänge & Rechte
 weight: 
 icon: user-edit
 anchors: []
-draft: true
 
 ---
 Unter dem Menüpunkt "Zugänge & Rechte" bestimmen Sie, in welchem Umfang Mitarbeiter Zugang zu Informationen zu Ihren persönlichen Konten haben, ob Sie Urlaubsanträge digital stellen und über die App ihre Arbeitszeiten stempeln können.
@@ -43,13 +42,13 @@ Wählen Sie danach über das Dropdown-Menü den Status "Manager". Dadurch wird a
 
 {{< /figure >}}
 
-Wenn Sie den Button für einen Bereich der Verwaltung (z.B. Dienstplan) setzen, werden alle Funktionen und Rechte in diesem Bereich sichtbar. Grundsätzlich sind erste einmal alle Rechte vollumfänglich gegeben.
+> Wenn Sie den Button für einen Bereich der Verwaltung (z.B. Dienstplan) setzen, werden **alle** Funktionen und Rechte in diesem Bereich sichtbar. Grundsätzlich sind erste einmal alle Rechte vollumfänglich gegeben.
 
-Schränken Sie die Rechte eventuell ein, indem Sie die jeweiligen Buttons entsprechend abwählen.
+> Schränken Sie die Rechte eventuell ein, indem Sie die jeweiligen Buttons entsprechend **abwählen**.
 
 (Im folgenden Beispiel wurde der Manager berechtigt, Dienstpläne zu schreiben. Seine Berechtigung wurde jedoch insoweit eingeschränkt, als er keine Lohnkosten einsehen kann, die aus der Planung entstehen. Des weiteren ist er nicht in der Lage, Kurzarbeitszeiten zu erfassen.)
 
- {{< figure caption="Schränken Sie die Rechte eventuell ein, indem Sie die entsprechenden Buttons abwählen" >}}
+{{< figure caption="Schränken Sie die Rechte eventuell ein, indem Sie die entsprechenden Buttons abwählen" >}}
 
 ![](/uploads/hilfeartikel_update_1-17-0_mitarbeiter-app_rechte_2.png)
 
