@@ -1,6 +1,6 @@
 ---
 title: Vertrag
-weight: 7
+weight: 8
 icon: file-contract
 anchors:
 - hash: vertragslaufzeit
