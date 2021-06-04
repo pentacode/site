@@ -34,7 +34,13 @@ Die Personalnummer wird **nicht automatisch** vergeben. Diese erhalten Sie durch
 
 > Wenn ein Mitarbeiter Zugang zu Pentacode erhalten soll, oder Sie den Mitarbeitern deren Dienstpläne zusenden wollen, ist die Angabe einer **persönlichen Email-Adresse notwendig**.
 
-## Zeiterfassung
+## PIN-Vergabe
+
+Um dem Mitarbeiter zu ermöglichen, sich über die Stempeluhr einzuloggen, muss er einen **vierstelligen PIN** erhalten.
+
+Sie können diesen PIN über das {{< icon "redo-alt" >}}-Symbol mithilfe eines **Zufallsgenerators** erstellen lassen oder eine beliebige **vierstellige Ziffernkombination manuell** eingeben.
+
+Das {{< icon "redo-alt" >}}-Symbol können Sie dabei beliebig oft anklicken, bis Sie schließlich eine leicht zu merkende Zahlenkombination erhalten haben.
 
 ## Änderung von Stammdaten
 
