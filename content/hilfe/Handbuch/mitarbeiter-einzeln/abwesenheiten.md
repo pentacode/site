@@ -1,7 +1,7 @@
 ---
 keywords: []
 title: Abwesenheiten
-weight: 
+weight: 3
 icon: umbrella-beach
 anchors: []
 draft: true
