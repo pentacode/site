@@ -55,10 +55,14 @@ Klicken Sie hierzu in den entsprechenden Eintrag und und verlängern oder verkü
 
 **Pentacode ermittelt** anhand der Vertragsdaten eines Mitarbeiters und seiner vergangenen Arbeitseinsätze nicht nur die **Anzahl der Tage** innerhalb der Woche, für die Krank oder Urlaub eingetragen werden soll. Pentacode ermittelt auch die Tage, an denen der Mitarbeiter **üblicherweise oder schwerpunktmäßig** gearbeitet hat. Diese Tage werden durch einen **orangen Punkt** ausgewiesen.
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+{{< figure caption="Wählen Sie die Tage für Urlaub und Krank gezielt durch Anklicken aus" >}}
+
+![](/uploads/hilfeartikel_mitarbeiter-einzeln_abwesenheiten_3.png)
 
 {{< /figure >}}
 
 > Tage, an denen Sie einen Mitarbeiter als Krank oder in Urlaub eintragen, müssen von Ihnen durch Anklicken gezielt ausgewählt. 
 
 Die durch Orange gekennzeichneten Tage sind lediglich **Vorschläge**. Sie können natürlich jederzeit einen **anderen Tag wählen**. Für die **Richtigkeit der Urlaubsverwaltung** ist es jedoch von entscheidender **Bedeutung**, dass die **zutreffende Anzahl der Tage** (=Anzahl der vorgeschlagenen Tage) ausgewählt werden!
+
+Sollte sich ein Fehltag mit einem geplanten Arbeitstag überschneiden, erhalten Sie einen entsprechenden Hinweis. Durch "**Bestätigen**" wird der geplante Arbeitstag durch den Fehltag ersetzt.
