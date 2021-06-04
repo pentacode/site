@@ -28,11 +28,13 @@ Die Personalnummer wird **nicht automatisch** vergeben. Diese erhalten Sie durch
 
 {{< figure caption="Vor- und Nachname des Mitarbeiters sind zwingende Angaben" >}}
 
-![](/uploads/stammdaten.png)
+![](/uploads/hilfeartikel_mitarbeiter-einzeln_stammdaten.png)
 
 {{< /figure >}}
 
 > Wenn ein Mitarbeiter Zugang zu Pentacode erhalten soll, oder Sie den Mitarbeitern deren Dienstpläne zusenden wollen, ist die Angabe einer **persönlichen Email-Adresse notwendig**.
+
+## Zeiterfassung
 
 ## Änderung von Stammdaten
 
