@@ -1,6 +1,6 @@
 ---
 title: Zeiterfassung
-weight: 6
+weight: 7
 icon: stopwatch
 anchors:
 - hash: individuelle-zeiterfassungsregeln
