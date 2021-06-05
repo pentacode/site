@@ -8,7 +8,7 @@ anchors: []
 ---
 Unter dem Menüpunkt "Zugänge & Rechte" bestimmen Sie, in welchem Umfang Mitarbeiter Zugang zu Informationen zu Ihren persönlichen Konten haben, ob Sie Urlaubsanträge digital stellen und über die App ihre Arbeitszeiten stempeln können.
 
-## "Onboarding" des Mitarbeiters
+## Mitarbeiter-Zugang Einrichten
 
 Nachdem Sie in den Stammdaten des Mitarbeiters dessen Email-Adresse hinterlegt haben, haben Sie unter "Zugänge & Rechte" die Möglichkeit, Mitarbeiter zur Nutzung der App einzuladen.
 
