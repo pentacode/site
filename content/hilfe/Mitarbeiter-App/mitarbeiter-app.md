@@ -13,21 +13,41 @@ Der Umfang der Informationen, die Sie als Mitarbeiter über die App erhalten, wi
 
 ## Kontenübersicht
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+Zu Ihren Arbeitskonten finden Sie
 
-![](/uploads/hilfeartikel_mitarbeiter-app_1.png)
+* die im aktuellen Monat tatsächlich geleisteten Arbeitsstunden in Gegenüberstellung zur Sollarbeitszeit
+* die saldierten Über- oder Minderstunden (immer mit Stand zum Ende des Vormonats)
+* Ihr noch verbleibender Resturlaub in Gegenüberstellung zu Ihrem Jahresurlaubsanspruch
+
+Darüber hinaus sehen Sie auf einen Blick Ihre laufende Schicht, sowie die nächstfolgenden Schichten.
+
+Wenn Sie die laufende Schicht beendet haben, wird Ihnen angezeigt, in wie vielen Stunden Ihre nächste Schicht laut Dienstplan beginnen wird.
+
+{{< figure caption="Übersicht über Ihre Konten mit einem Blick" >}}
+
+![](/uploads/hilfeartikel_mitarbeiter-app_1.png)  
 
 {{< /figure >}}
 
 ## Zeiterfassung per App
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+Sie können über die Mitarbeiter-App entweder über das Einlesen des QR-Codes auf dem Tablet Ihres Betriebs über die Kamera Ihres Smartphones stempeln oder auch "remote" (z.B. vom Homeoffice aus)
 
-![](/uploads/hilfeartikel_mitarbeiter-app_3.png)
+Die Berechtigung zum Stempeln über die App muss vom Administrator jedoch ausdrücklich zugelassen werden.
+
+{{< figure caption="Ein- und Ausstempeln über die App muss vom Administrator erlaubt werden." >}}
+
+![](/uploads/hilfeartikel_mitarbeiter-app_3.png)  
 
 {{< /figure >}}
 
 ## Persönlicher Dienstplan
+
+Unter der Angabe zur aktiven Schicht sehen Sie die beiden Folgeschichten. 
+
+Wenn Sie auf "**Dienstplan**" tippen, sehen Sie alle Schichten, die in der Zukunft für Sie geplant sind.
+
+Änderungen einer bestehenden und Ihnen bereits übermittelten Planung (z.B. die Streichung oder Änderung einer Schicht) sind entsprechend gekennzeichnet. Derartige Änderungen eines Dienstplans werden nur einmalig hervorgehoben. Wenn Sie wieder auf die Hauptseite der App zurückkehren, ist die Kennzeichnung aufgehoben. 
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
@@ -37,7 +57,9 @@ Der Umfang der Informationen, die Sie als Mitarbeiter über die App erhalten, wi
 
 ## Urlaub & Krankmeldungen
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+Unter "Urlabu & Krankmeldungen" sehen Sie auf einem Zeitstrahl die in der Zukunft genehmigten, sowie die beantragten, aber noch nicht genehmigten Urlaube.
+
+{{< figure caption="Der Zeitstrahl zeigt Ihnen, wie lange es noch bis zum nächsten Urlaub dauert" >}}
 
 ![](/uploads/hilfeartikel_mitarbeiter-app_4.png)
 
