@@ -67,6 +67,12 @@ Unter "Urlabu & Krankmeldungen" sehen Sie auf einem Zeitstrahl die in der Zukunf
 
 ## Urlaub beantragen & Krankheit melden
 
+Sie können über die App Urlaub beantragen und Krankmeldungen übermitteln. Tippen sie hierzu auf "Urlaub & Krankmeldungen" und wählen Sie dann das zutreffende Ereignis.
+
+> **Wichtig!** In beiden Fällen geben Sie einfach den gesamten **Zeitraum** ein, in dem Sie in Urlaub gehen wollen oder krank sind. Pentacode ermittelt die Anzahl der Urlaubs- und Kranktage selbständig.
+
+Wenn Sie Urlaub beantragen, zeigt Ihnen die App, auf wie viele Tage sich Ihr verbleibender Urlaubsanspruch verringern wird.
+
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 
 ![](/uploads/hilfeartikel_mitarbeiter-app_5-1.png)
