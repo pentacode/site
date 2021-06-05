@@ -100,7 +100,7 @@ Ihr **persönlicher** Dienstplan wie auch Änderungen eines bereits veröffentli
 
 Sie können die **Email-Benachrichtigung abschalten**, indem Sie den Button bei "Email" abwählen. Damit erhalten Sie keine Benachrichtigungen mehr in Ihrem persönlichen Email-Account. Sie werden werden jedoch weiterhin Push-Nachrichten von Ihrem Arbeitgeber erhalten.
 
-{{< figure caption="Sie können eine Benachrichtigung per Email durch das Abwählen des Buttons 'Email' unterbrinden" >}}
+{{< figure caption="Sie können eine Benachrichtigung per Email durch das Abwählen des Buttons 'Email' unterbinden" >}}
 
 ![](/uploads/hilfeartikel_mitarbeiter-app_7.png)
 
