@@ -4,7 +4,6 @@ title: Mitarbeiter-App
 weight: 
 icon: mobile-alt
 anchors: []
-draft: true
 
 ---
 Der Umfang der Informationen, die Sie als Mitarbeiter über die App erhalten, wird durch den Arbeitgeber bestimmt.
@@ -31,7 +30,7 @@ Wenn Sie die laufende Schicht beendet haben, wird Ihnen angezeigt, in wie vielen
 
 ## Zeiterfassung per App
 
-Sie können Ihre Arbeitszeiten über die Mitarbeiter-App stempeln. Dies geht entweder über das Einlesen des QR-Codes auf dem Tablet Ihres Betriebs über die Kamera Ihres Smartphones stempeln oder auch "remote" (z.B. vom Homeoffice aus).
+Sie können Ihre Arbeitszeiten über die Mitarbeiter-App stempeln. Dies geht entweder über das Einlesen des QR-Codes auf dem Tablet Ihres Betriebs mithilfe der Kamera Ihres Smartphones oder auch "remote" (z.B. vom Homeoffice aus).
 
 Die Berechtigung zum Stempeln über die App muss vom Administrator jedoch ausdrücklich zugelassen werden.
 
