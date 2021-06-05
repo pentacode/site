@@ -23,7 +23,7 @@ Genehmigter oder aktuell laufender Urlaub ist in Blau gekennzeichnet, beantragte
 
 > Die Dauer des Zeitraums, zu dem ein Mitarbeiter fehlt, entspricht nicht zwingend der Anzahl der Fehltage. Die genau Anzahl der Fehltage innerhalb des Zeitraums wird am rechten Rand dargestellt.
 
-Zur Erläuterung: Wenn ein Mitarbeiter mit einer 5-Tage-Woche eine Woche Urlaub nimmt, fehlt er eine Woche, hat jedoch nur 5 Tage Urlaub genommen. Im Dienstplan sind die Urlaubstage mit einem Sonnenschirm dargestellt, die darüber hinausgehenden Tage, zu denen der Mitarbeiter nicht geplant werden kann, sind ohne Symbol in Blau hinterlegt.
+**Zur Erläuterung**: Wenn ein Mitarbeiter mit einer 5-Tage-Woche eine Woche Urlaub nimmt, fehlt er eine Woche, hat jedoch nur 5 Tage Urlaub genommen. Im Dienstplan sind die Urlaubstage mit einem Sonnenschirm dargestellt, die darüber hinausgehenden Tage, zu denen der Mitarbeiter nicht geplant werden kann, sind ohne Symbol in Blau hinterlegt.
 
 Krankzeiten werden analog dargestellt, die jeweiligen Kranktage werden durch ein Emoji symbolisiert
 
@@ -61,7 +61,7 @@ Klicken Sie hierzu in den entsprechenden Eintrag und und verlängern oder verkü
 
 {{< /figure >}}
 
-> Tage, an denen Sie einen Mitarbeiter als Krank oder in Urlaub eintragen, müssen von Ihnen durch Anklicken gezielt ausgewählt. 
+> Tage, an denen Sie einen Mitarbeiter als Krank oder in Urlaub eintragen, müssen von Ihnen durch Anklicken gezielt ausgewählt.
 
 Die durch Orange gekennzeichneten Tage sind lediglich **Vorschläge**. Sie können natürlich jederzeit einen **anderen Tag wählen**. Für die **Richtigkeit der Urlaubsverwaltung** ist es jedoch von entscheidender **Bedeutung**, dass die **zutreffende Anzahl der Tage** (=Anzahl der vorgeschlagenen Tage) ausgewählt werden!
 
