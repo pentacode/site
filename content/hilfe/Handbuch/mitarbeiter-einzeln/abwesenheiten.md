@@ -4,7 +4,6 @@ title: Abwesenheiten
 weight: 3
 icon: umbrella-beach
 anchors: []
-draft: true
 
 ---
 Im Menüpunkt "Abwesenheiten" werden die Urlaubs- und Kranktage eines Mitarbeiters gezeigt.
