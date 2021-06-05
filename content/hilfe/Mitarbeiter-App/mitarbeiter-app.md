@@ -31,7 +31,7 @@ Wenn Sie die laufende Schicht beendet haben, wird Ihnen angezeigt, in wie vielen
 
 ## Zeiterfassung per App
 
-Sie können über die Mitarbeiter-App entweder über das Einlesen des QR-Codes auf dem Tablet Ihres Betriebs über die Kamera Ihres Smartphones stempeln oder auch "remote" (z.B. vom Homeoffice aus)
+Sie können Ihre Arbeitszeiten über die Mitarbeiter-App stempeln. Dies geht entweder über das Einlesen des QR-Codes auf dem Tablet Ihres Betriebs über die Kamera Ihres Smartphones stempeln oder auch "remote" (z.B. vom Homeoffice aus).
 
 Die Berechtigung zum Stempeln über die App muss vom Administrator jedoch ausdrücklich zugelassen werden.
 
@@ -57,7 +57,7 @@ Wenn Sie auf "**Dienstplan**" tippen, sehen Sie alle Schichten, die in der Zukun
 
 ## Urlaub & Krankmeldungen
 
-Unter "Urlabu & Krankmeldungen" sehen Sie auf einem Zeitstrahl die in der Zukunft genehmigten, sowie die beantragten, aber noch nicht genehmigten Urlaube.
+Unter "**Urlaub & Krankmeldungen**" sehen Sie auf einem Zeitstrahl die in der **Zukunft** genehmigten, sowie die beantragten, aber noch nicht genehmigten Urlaube.
 
 {{< figure caption="Der Zeitstrahl zeigt Ihnen, wie lange es noch bis zum nächsten Urlaub dauert" >}}
 
@@ -67,7 +67,7 @@ Unter "Urlabu & Krankmeldungen" sehen Sie auf einem Zeitstrahl die in der Zukunf
 
 ## Urlaub beantragen & Krankheit melden
 
-Sie können über die App Urlaub beantragen und Krankmeldungen übermitteln. Tippen sie hierzu auf "Urlaub & Krankmeldungen" und wählen Sie dann das zutreffende Ereignis.
+Sie können über die App Urlaub beantragen und Krankmeldungen übermitteln. Tippen sie hierzu auf "**Urlaub & Krankmeldungen**" und wählen Sie dann das zutreffende Ereignis.
 
 > **Wichtig!** In beiden Fällen geben Sie einfach den gesamten **Zeitraum** ein, in dem Sie in Urlaub gehen wollen oder krank sind. Pentacode ermittelt die Anzahl der Urlaubs- und Kranktage selbständig.
 
@@ -95,11 +95,11 @@ Wenn Sie vergangene Abwesenheitszeiten sehen wollen, tippen Sie einfach auf das 
 
 ## Einstellungen
 
-Indem Sie auf "Account" klicken, können Sie Ihr Profilbild aufnehmen und Ihre Email-Adresse und Ihr Passwort ändern.
+Indem Sie auf "**Account**" klicken, können Sie Ihr **Profilbild** aufnehmen und Ihre **Email-Adresse** und Ihr **Passwort** ändern.
 
-Ihr persönlicher Dienstplan wie auch Änderungen eines bereits veröffentlichten Dienstplans wird Ihnen sowohl als Email, wie auch als Push-Nachricht mitgeteilt.
+Ihr **persönlicher** Dienstplan wie auch Änderungen eines bereits veröffentlichten Dienstplans wird Ihnen sowohl als Email, wie auch als Push-Nachricht mitgeteilt.
 
-Sie können die Email-Benachrichtigung abschalten, indem Sie den Button bei "Email" abwählen. Damit erhalten Sie keine Benachrichtigungen mehr in Ihrem persönlichen Email-Account. Sie werden werden jedoch weiterhin Push-Nachrichten von Ihrem Arbeitgeber erhalten.
+Sie können die **Email-Benachrichtigung abschalten**, indem Sie den Button bei "Email" abwählen. Damit erhalten Sie keine Benachrichtigungen mehr in Ihrem persönlichen Email-Account. Sie werden werden jedoch weiterhin Push-Nachrichten von Ihrem Arbeitgeber erhalten.
 
 {{< figure caption="Sie können eine Benachrichtigung per Email durch das Abwählen des Buttons 'Email' unterbrinden" >}}
 
