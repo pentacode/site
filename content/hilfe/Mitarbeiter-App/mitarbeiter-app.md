@@ -81,7 +81,13 @@ Wenn Sie Urlaub beantragen, zeigt Ihnen die App, auf wie viele Tage sich Ihr ver
 
 ## Abwesenheiten
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+Wenn Sie Urlaub beantragen oder Krankzeiten melden, sehen Sie die Ereignisse, die in der Zukunft liegen.
+
+Krank wird dabei in Orange, genehmigter Urlaub in Blau und beantragter, aber noch nicht genehmigter Urlaub mit blauem Rand gezeigt.
+
+Wenn Sie vergangene Abwesenheitszeiten sehen wollen, tippen Sie einfach auf das Feld "**Vergangene Abwesenheiten Anzeigen**".
+
+{{< figure caption="Krank ist in Orange, Urlaub in Bau, beantragter Urlaub mit blauem Rand gekennzeichnet" >}}
 
 ![](/uploads/hilfeartikel_mitarbeiter-app_6.png)
 
@@ -89,7 +95,13 @@ Wenn Sie Urlaub beantragen, zeigt Ihnen die App, auf wie viele Tage sich Ihr ver
 
 ## Einstellungen
 
-{{< figure caption="Hier hin kommt ein Bildtitel." >}}
+Indem Sie auf "Account" klicken, können Sie Ihr Profilbild aufnehmen und Ihre Email-Adresse und Ihr Passwort ändern.
+
+Ihr persönlicher Dienstplan wie auch Änderungen eines bereits veröffentlichten Dienstplans wird Ihnen sowohl als Email, wie auch als Push-Nachricht mitgeteilt.
+
+Sie können die Email-Benachrichtigung abschalten, indem Sie den Button bei "Email" abwählen. Damit erhalten Sie keine Benachrichtigungen mehr in Ihrem persönlichen Email-Account. Sie werden werden jedoch weiterhin Push-Nachrichten von Ihrem Arbeitgeber erhalten.
+
+{{< figure caption="Sie können eine Benachrichtigung per Email durch das Abwählen des Buttons 'Email' unterbrinden" >}}
 
 ![](/uploads/hilfeartikel_mitarbeiter-app_7.png)
 
