@@ -34,7 +34,7 @@ Sie können Mitarbeitern, die übergeordnete Funktionen in Ihrem Unternehmen aus
 
 Legen Sie wie oben beschrieben zuerst fest, welche Funktionsbereiche in der Mitarbeiter-App für den Manger freigeschaltet werden.
 
-Wählen Sie danach über das Dropdown-Menü den Status "Manager". Dadurch wird automatisch der Bereich "Verwaltungszugang" aktiviert.
+Wählen Sie danach über das Dropdown-Menü den Status "**Manager**". Dadurch wird automatisch der Bereich "**Verwaltungszugang**" aktiviert.
 
 {{< figure caption="Indem Sie den Status 'Manager' wählen, wird der Bereich 'Verwaltungszugang' aktiviert" >}}
 
@@ -42,7 +42,7 @@ Wählen Sie danach über das Dropdown-Menü den Status "Manager". Dadurch wird a
 
 {{< /figure >}}
 
-> Wenn Sie den Button für einen Bereich der Verwaltung (z.B. Dienstplan) setzen, werden **alle** Funktionen und Rechte in diesem Bereich sichtbar. Grundsätzlich sind erste einmal alle Rechte vollumfänglich gegeben.
+> Wenn Sie den Button für einen Bereich der Verwaltung (z.B. Dienstplan) setzen, werden **alle** Funktionen und Rechte in diesem Bereich sichtbar. Grundsätzlich sind erst einmal alle Rechte vollumfänglich gegeben.
 
 > Schränken Sie die Rechte eventuell ein, indem Sie die jeweiligen Buttons entsprechend **abwählen**.
 
