@@ -9,18 +9,6 @@
     {{ partial "header" . }}
 
     <div class="main-layout">
-        <div>
-            {{ if not (eq .Parent.Kind "home") }}
-                <div class="side-menu">
-                    <div class="animation-reveal">
-                        {{ partial "search" . }}
-                    </div>
-
-                    {{ partial "section-menu" . }}
-                </div>
-            {{ end }}
-        </div>
-
         <div class="main">
             {{ if (eq .Parent.Kind "home") }}
                 <div class="animation-reveal">
@@ -30,9 +18,7 @@
 
                 <div class="content animation-reveal">
                     <div>
-                        <div class="cover">
-                            {{ partial "thumbnail" . }}
-                        </div>
+                        <i class="icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
 
                         <h1>
                             <span>{{ .Title }}</span>

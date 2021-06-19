@@ -1,74 +1,127 @@
 <div class="search-wrapper">
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
 
-    <input type="search" placeholder="Artikel Durchsuchen..."></input>
+    <input type="search" placeholder="Artikel Durchsuchen..." />
 
-    <div class="search-results" hidden>
-        <ul>
-            {{ range where (where .Site.AllPages "Section" .Section) ".IsPage" true }}
-                <li data-url="{{ .RelPermalink }}" hidden>
-                    <a href="{{ .RelPermalink }}">
-                        <div class="search-result-section">
-                            <i class='fal fa-{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}'></i>
-                            {{ .Parent.Title }}
-                        </div>
-                        <div class="search-result-title">
-                            {{ .Title }}
-                        </div>
-                    </a>
-                </li>
-            {{ end }}
-        </ul>
-    </div>
+    <div class="search-results" hidden></div>
 
     <script>
         (() => {
             const searchWrapper = document.currentScript.parentElement;
             const input = searchWrapper.querySelector("input");
             const resultsContainer = searchWrapper.querySelector(".search-results");
-            const resultsList = searchWrapper.querySelector(".search-results ul");
-            const resultsElements = [...searchWrapper.querySelectorAll("li")];
+            // const resultsList = searchWrapper.querySelector(".search-results ul");
+            // const resultsElements = [...searchWrapper.querySelectorAll("li")];
 
-            const index = [
-                {{ range where (where .Site.AllPages "Section" .Section) ".IsPage" true }}
-                {
-                    title: "{{ .Title }}",
-                    summary: "{{ .Summary }}",
-                    url: "{{ .RelPermalink }}",
-                    section: "{{ .Parent.Title }}",
-                },
-                {{ end }}
-            ];
+            function loadIndex() {
+                let req = new XMLHttpRequest();
 
-            const fuse = new Fuse(index, {
-                keys: ["title", "summary", "url", "section"],
-                includeScore: true
-            });
+                return new Promise((resolve, reject) => {
+                    req.onreadystatechange = () => {
+                        if (req.readyState === 4) {
+                            if (!req.status) {
+                                reject();
+                            } else {
+                                resolve(JSON.parse(req.responseText));
+                            }
+                        }
+                    };
 
-            input.addEventListener("input", () => {
-                const results = fuse.search(input.value);
+                    try {
+                        req.open("get", "/hilfe/index.json", true);
+                        req.send();
+                    } catch (e) {
+                        reject();
+                    }
+                });
+            }
 
-                for (const el of resultsElements) {
-                    const match = results.find(r => r.item.url === el.dataset.url);
-                    if (match) {
-                        el.removeAttribute("hidden");
-                        el.score = match.score;
-                    } else {
-                        el.setAttribute("hidden", "");
-                        el.score = 2;
+            function renderResultItem({ matches, item: { icon, title, subtitle, url } }) {
+                const snippets = [];
+                for (let { key, value, indices } of matches) {
+                    console.log(key, value, indices);
+                    if (key !== "match.content") {
+                        continue;
+                    }
+                    for (const [start, end] of indices) {
+                        value = `${value.slice(0, start)}<mark>${value.slice(start, end)}</mark>${value.slice(end)}`;
+                        snippets.push(value);
+                    }
+                }
+                return `
+                    <li>
+                        <a href="${url}">
+                            <div class="search-result-section">
+                                <i class="fal fa-${icon}"></i>
+                                ${title}
+                            </div>
+                            <div class="search-result-title">
+                                ${subtitle}
+                            </div>
+                            <div>
+                                ... ${snippets.join("...")} ...
+                            </div>
+                        </a>
+                    </li>
+                `;
+            }
+
+            function displaySearchResults(results) {
+                results = results.sort((a, b) => a.score - b.score);
+
+                resultsContainer.innerHTML = `
+                    <ul>
+                        ${results.map(renderResultItem).join("\n")}
+                    </ul>
+                `;
+            }
+
+            function setupSearch(index) {
+                const items = [];
+
+                for ({ title, content, icon, relUrl: url } of index.pages) {
+                    items.push({ icon, title, content: content.replace(/(<([^>]+)>)/gi, "") });
+                    const matches = [
+                        ...content.matchAll(/<h2(?:[^>]*)?id="([^"]+)">([\w\W]*?)<\/h2>([\w\W]*?)(?=(<h2)|\z)/g),
+                    ];
+                    for (const [, id, subtitle, subcontent] of matches) {
+                        items.push({
+                            icon,
+                            title,
+                            subtitle,
+                            content: subcontent,
+                            url: `${url}#${id}`,
+                            parentTitle: title,
+                            match: {
+                                title: subtitle,
+                                content: subcontent,
+                            },
+                        });
                     }
                 }
 
-                resultsElements
-                    .sort((a, b) => a.score - b.score)
-                    .forEach(el => resultsList.appendChild(el));
+                const fuse = new Fuse(items, {
+                    keys: ["match.title", "match.content"],
+                    includeScore: true,
+                    includeMatches: true,
+                    threshold: 0.2,
+                    minMatchCharLength: 4,
+                });
 
-                if (input.value) {
-                    resultsContainer.removeAttribute("hidden");
-                } else {
-                    resultsContainer.setAttribute("hidden", "");
-                }
-            });
-        })()
+                input.addEventListener("input", () => {
+                    const val = input.value;
+                    if (val) {
+                        const results = fuse.search(val);
+                        console.log(results);
+                        displaySearchResults(results);
+                        resultsContainer.removeAttribute("hidden");
+                    } else {
+                        resultsContainer.setAttribute("hidden", "");
+                    }
+                });
+            }
+
+            loadIndex().then((index) => setupSearch(index));
+        })();
     </script>
 </div>

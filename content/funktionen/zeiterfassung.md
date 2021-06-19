@@ -12,6 +12,7 @@ weight: 1
 icon: "stopwatch"
 anchors: []
 keywords: []
+aliases: [/funktionen/dokumentation]
 sections:
     - template: section-slides
       template_path: sections/slides

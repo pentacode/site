@@ -1,33 +1,84 @@
-{{ $currPage := . }}
+<nav class="section-menu">
+    <div class="centering layout">
+        <input type="search" placeholder="Suchen..." class="search-input" />
+    </div>
+    <ul class="section-menu-list">
+    {{ template "menu" (dict "page" .FirstSection "currentPage" .) }}
+    </ul>
+</nav>
 
-{{ with .Parent }}
-    <nav class="section-menu">
-        <ul class="animation-reveal-children animation-fast">
-            <li class="back {{ if eq . $currPage }}active{{ end }}">
+{{ define "menu" }}
+    {{ $currPage := .currentPage }}
+        {{ range .page.Pages }}
+            <li class="{{ if eq . $currPage }}active{{ end }}">
                 <a href="{{ .RelPermalink }}">
-                    <i class="fas fa-arrow-left"></i>
-                    {{ .Title }}
+                    <i class="icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
+                    <span class="title">
+                        {{ .Title }}
+                    </span>
                 </a>
+
+                {{ if .IsNode }}
+                    <ul {{ if not (.IsAncestor $currPage) }}hidden{{end}}>
+                        {{ template "menu" (dict "page" . "currentPage" $currPage) }}
+                    </ul>
+                    {{ else }}
+                    <ul class="table-of-contents" {{ if not (.IsAncestor $currPage) }}hidden{{end}}>
+                        {{ .TableOfContents | replaceRE "<nav[^<]*>(\\s*<ul>\\s*([\\w\\W]*)</ul>\\s*)?</nav>" "$2" | replaceRE "href=\"(.*)\"" (printf "href=\"%s$1\"" .RelPermalink ) | safeHTML }}
+                    </ul>
+                {{ end }}
             </li>
-
-            {{ range .Pages }}
-                <li class="{{ if eq . $currPage }}active{{ end }}">
-                    <a href="{{ .RelPermalink }}">
-                        <div class="thumb">
-                            {{ partial "thumbnail" . }}
-                        </div>
-
-                        <div class="body">
-                            {{ with .PublishDate }}
-                                <div class="date">{{ dateFormat "Mo, Jan 2, 2006" . }}</div>
-                            {{ end }}
-                            <div class="title">
-                                {{ .Title }}
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            {{ end }}
-        </ul>
-    </nav>
+        {{ end }}
 {{ end }}
+
+<script>
+    window.addEventListener("load", () => {
+        const currentItems = [...document.querySelectorAll(".table-of-contents:not([hidden]) li")];
+        const headings = document.querySelectorAll("h2[id]");
+
+        const observer = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                const id = entry.target.id;
+                const item = currentItems.find((item) => !!item.querySelector(`a[href$="${id}"]`))
+                item.dataset.headerVisible = entry.isIntersecting;
+            }
+
+            currentItems.forEach(item => item.classList.remove("active"));
+            const firstVisible = currentItems.find(item => item.dataset.headerVisible === "true");
+            console.log(firstVisible);
+            if (firstVisible) {
+                firstVisible.classList.add("active");
+            }
+        }, { threshold: 0.5 });
+
+        headings.forEach(heading => observer.observe(heading));
+
+        const container = document.querySelector(".section-menu");
+        const allItems = [...document.querySelectorAll(".section-menu li")];
+        const input = document.querySelector(".section-menu input");
+
+        input.addEventListener("input", () => {
+            const val = input.value;
+            container.classList.toggle("searching", !!val);
+            if (val) {
+            allItems.forEach(item => {
+                const titleEl = item.querySelector("a .title") || item.querySelector("a");
+                titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, "");
+                const innerMatch = item.textContent.toLowerCase().includes(val.toLowerCase())
+                if (innerMatch) {
+                    titleEl.innerHTML = titleEl.innerHTML.replaceAll(new RegExp(val, "gi"), "<mark>$&</mark>");
+                    item.removeAttribute("hidden");
+                } else {
+                    item.setAttribute("hidden", "");
+                }
+            })
+        } else {
+            allItems.forEach(item => {
+                const titleEl = item.querySelector("a .body") || item.querySelector("a");
+                titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, "");
+                item.removeAttribute("hidden");
+            })
+        }
+        })
+    });
+</script>

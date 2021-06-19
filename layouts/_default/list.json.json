@@ -6,11 +6,14 @@
       "title": {{ $p.Title | jsonify }},
       "summary": {{ $p.Summary | jsonify }},
       "url": {{ $p.Permalink | jsonify }},
+      "relUrl": {{ $p.RelPermalink | jsonify }},
       "section": {{ $p.Parent.Title | jsonify }},
       "keywords": {{ $p.Keywords | jsonify }},
       "anchors": {{ $p.Params.anchors | jsonify }},
+      "toc": {{ .TableOfContents | replaceRE "<nav[^<]*>(\\s*<ul>\\s*([\\w\\W]*)</ul>\\s*)?</nav>" "[$2]" | replaceRE "<li>(<a href=\"(.*)\">([\\w\\W]*?)</a>)?</li>\\s*" "{ \"href\": \"$2\", \"title\": \"$3\" }," | replaceRE "},\\s*\\]" "}]" }},
       "icon": "{{ (default (default "scroll" .Parent.Params.icon) .Params.icon) }}",
-      "isDescendant": {{.IsDescendant $currPage | jsonify}}
+      "isDescendant": {{.IsDescendant $currPage | jsonify}},
+      "content": {{ .Content | jsonify }}
     }{{ end }}
   ]
 }
