@@ -14,7 +14,7 @@ outputs:
         - json
 markup:
     tableOfContents:
-        endLevel: 2
+        endLevel: 3
         ordered: false
         startLevel: 2
     goldmark:

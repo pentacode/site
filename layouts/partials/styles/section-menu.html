@@ -63,19 +63,14 @@
         border-radius: 2px;
     }
 
-    .section-menu .section-menu-sub {
-        font-size: 0.8em;
-        margin-left: 2em;
-    }
-
-    .section-menu .search-wrapper {
-        margin-bottom: 1em;
-    }
-
     .section-menu li > ul {
         font-size: 0.9em;
         margin-left: 1.3em;
         padding-left: 0.2em;
         border-left: dashed 1px var(--shade-2);
+    }
+
+    .section-menu:not(.searching) .table-of-contents li:not(.active) > ul {
+        display: none;
     }
 </style>
