@@ -5,15 +5,18 @@ summary: |-
   Denn Geschichte wiederholt sich.
 publishDate: 2020-12-23T11:00:00.000+00:00
 cover: "/uploads/shutterstock_1148076167.png"
-
+author: lstrasser
+categories:
+  - Sonstiges
 ---
+
 Im Anschluss an den ersten Weltkrieg wütete in Europa eine Pandemie ungeahnten Ausmaßes. In den Jahren 1918 bis 1920 kam die „Spanische Grippe“ in drei Wellen über die Menschheit. Je nach Schätzung forderte sie zwischen 20 und 100 Millionen Menschenleben. Sie brachte damit weit mehr Tote hervor als die vorangegangene Schlächterei in den Gräben. Aber anders als der Krieg waren nicht vor allem Soldaten die Opfer, es starb die Zivilbevölkerung.
 
 Die spanische Grippe brachte das gesellschaftliche Leben in Europa und den USA zum fast vollständigen Erliegen. Auch damals trugen die Menschen Mundschutz, hielten sich voneinander fern, vermieden das Zusammensein mit anderen, Restaurants und Trinkhallen blieben geschlossen. Selbst wenn die Verhältnisse damals um ein Vielfaches erbärmlicher und armseliger waren, die Parallelen zu heute sind sehr offensichtlich.
 
 Aber als die Pandemie endlich vorüber war, begannen die „Roaring Twenties".
 
-## Geschichte wiederholt sich 
+## Geschichte wiederholt sich
 
 Leider muss man häufig sagen, hoffentlich aber in diesem einen Fall. Wenn Corona vorüber gegangen ist, wird es sicher nicht zu den Exzessen kommen, die vor exakt 100 Jahren über ein Jahrzehnt hinweg Teil der gesellschaftlichen Normalität waren.
 

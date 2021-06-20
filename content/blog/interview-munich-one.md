@@ -5,8 +5,11 @@ summary: Interview mit Lorenz Strasser auf ONEmuenchen zur Situation der Gastron
 publishDate: 2020-03-29T22:00:00.000+00:00
 cover: "/uploads/www-youtube-com_watch_v-iognwp6xw98-ipad-1.png"
 keywords: []
-
+author: lstrasser
+categories:
+  - Sonstiges
 ---
-Unmittelbar nach Beginn des ersten Lockdowns im März 2020 wurde der Geschäftsführer von Pentacode zu seiner Einschätzung der Situation der Gastronomie interviewt. Die meisten Prognosen haben sich als richtig erwiesen. Aber sehen Sie vielleicht selbst. 
+
+Unmittelbar nach Beginn des ersten Lockdowns im März 2020 wurde der Geschäftsführer von Pentacode zu seiner Einschätzung der Situation der Gastronomie interviewt. Die meisten Prognosen haben sich als richtig erwiesen. Aber sehen Sie vielleicht selbst.
 
 {{< youtube "IOGNwP6xw98" >}}

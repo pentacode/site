@@ -1,5 +1,5 @@
 ---
-title: Wissenportal
+title: Wissensportal
 weight:
 icon: "map-marker-question"
 anchors: []

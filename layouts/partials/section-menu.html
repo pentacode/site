@@ -73,13 +73,19 @@
 
         input.addEventListener("input", () => {
             const val = input.value;
+            container.classList.toggle("searching", !!val);
+
             if (val) {
                 allItems.forEach((item) => {
                     const titleEl = item.querySelector("a .title") || item.querySelector("a");
-                    titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, "");
+                    titleEl && (titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, ""));
                     const innerMatch = item.textContent.toLowerCase().includes(val.toLowerCase());
                     if (innerMatch) {
-                        titleEl.innerHTML = titleEl.innerHTML.replaceAll(new RegExp(val, "gi"), "<mark>$&</mark>");
+                        titleEl &&
+                            (titleEl.innerHTML = titleEl.innerHTML.replaceAll(
+                                new RegExp(val, "gi"),
+                                "<mark>$&</mark>"
+                            ));
                         item.removeAttribute("hidden");
                     } else {
                         item.setAttribute("hidden", "");
@@ -88,7 +94,7 @@
             } else {
                 allItems.forEach((item) => {
                     const titleEl = item.querySelector("a .body") || item.querySelector("a");
-                    titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, "");
+                    titleEl && (titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, ""));
                     item.removeAttribute("hidden");
                 });
             }

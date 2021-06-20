@@ -1,12 +1,15 @@
 ---
-title: 'Corona-Krisenratgeber für Gastronomen: So beantragen Sie Hilfsmittel'
+title: "Corona-Krisenratgeber für Gastronomen: So beantragen Sie Hilfsmittel"
 summary: Die Regierungen von Bund und Ländern haben angesichts der Corona-Krise ein
   außergewöhnliches Paket an Hilfsmaßnahmen zusammengestellt und eine unbürokratische
   Umsetzung zugesichert. Wir haben die wichtigsten Punkte für Sie zusammengefasst.
 publishDate: 2020-03-19T23:00:00+00:00
 cover: "/uploads/bundesregierung-1.jpg"
-
+author: lstrasser
+categories:
+  - Ratgeber
 ---
+
 Die Regierungen von Bund und Ländern haben angesichts der Corona-Krise ein außergewöhnliches Paket an Hilfsmaßnahmen zusammengestellt und eine unbürokratische Umsetzung zugesichert.
 
 Das Maßnahmenpaket ist tatsächlich beeindruckend. Um in dessen „Genuss“ zu kommen, ist es jedoch notwendig, die entsprechenden Anträge bei den jeweils zuständigen Behörden zu stellen.
@@ -27,12 +30,12 @@ Beim Antrag auf Soforthilfe wird unter Punkt 4 nach der Anzahl der Mitarbeiter g
 
 Bei der Anrechnung von teilzeitbeschäftigten Arbeitnehmern kommt es auf die regelmäßige wöchentliche Arbeitszeit an:
 
-| ARBEITSZEIT | ANRECHNUNG MIT FAKTOR |
-| --- | --- |
-| bis zu 10 Stunden | 0,25 |
-| bis zu 20 Stunden | 0,50 |
-| bis zu 30 Stunden | 0,75 |
-| mehr als 30 Stunden | 1,00 |
+| ARBEITSZEIT         | ANRECHNUNG MIT FAKTOR |
+| ------------------- | --------------------- |
+| bis zu 10 Stunden   | 0,25                  |
+| bis zu 20 Stunden   | 0,50                  |
+| bis zu 30 Stunden   | 0,75                  |
+| mehr als 30 Stunden | 1,00                  |
 
 Es ist stets von der regelmäßigen wöchentlichen Arbeitszeit auszugehen. Schwankt die Arbeitszeit von Woche zu Woche, dann ist die regelmäßige wöchentliche Arbeitszeit für die einzelnen Kalendermonate im Wege einer Durchschnittsberechnung zu ermitteln.
 

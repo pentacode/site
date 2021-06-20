@@ -1,13 +1,16 @@
 ---
 title: Wo Sie Ihre Lebensmittel-Restbestände spenden können
-summary: 'Die Corona-Krise trifft die Gastronomie hart. Wenn die schwere Entscheidung
+summary: "Die Corona-Krise trifft die Gastronomie hart. Wenn die schwere Entscheidung
   der Schließung einmal getroffen ist stehen viele Gastronomen vor dem selben Problem:
   Wo hin mit dem Restbestand an verderblichen Lebensmitteln? Wir haben eine Liste
-  von Spendenempfängern für Sie zusammengestellt.'
+  von Spendenempfängern für Sie zusammengestellt."
 publishDate: 2020-03-29T22:00:00+00:00
 cover: "/uploads/spenden_lebensmittel_header-1.jpg"
-
+author: "mklein"
+categories:
+  - Sonstiges
 ---
+
 Heute, am 20.03. hat die bayerische Staatsregierung die Ausgangssperre ab 0:00 Uhr beschlossen. Es steht zu erwarten, dass weitere Länder folgen werden. Mit heute sind auch die bisher nur eingeschränkten Öffnungszeiten von Restaurants aufgehoben, es schließen nun alle Betriebe.
 
 Damit stellt sich für viele Restaurants vermutlich die Frage: **Wo hin mit dem Restbestand an verderblichen Lebensmitteln?** Die Anzahl der Bedürftigen ist jetzt größer als jemals zuvor - es wäre eine Schande wenn die Lebensmittel im Container landen würden! Die Lebensmittel zu spenden wäre die logische Option, die richtige Anlaufstelle zu finden ist allerdings nicht immer so einfach.

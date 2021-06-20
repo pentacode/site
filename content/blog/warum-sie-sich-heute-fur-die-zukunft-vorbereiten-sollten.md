@@ -6,8 +6,11 @@ summary: Bis Sie Ihren Betrieb schließen mussten, hatten Sie einen klaren Blick
   Zeit nutzen sollten, sich für die Zukunft neu aufzustellen.
 publishDate: 2020-04-07T22:00:00+00:00
 cover: "/uploads/startbild.jpg"
-
+author: lstrasser
+categories:
+  - Ratgeber
 ---
+
 _„Never let a good crisis go to waste. And what I mean by that it's an opportunity to do things you think you could not do before.”_
 
 (Rahm Emanuel, ehemals “chief of staff” von Präsident Barack Obama)
@@ -44,15 +47,15 @@ Bei den Möglichkeiten, die wir Ihnen vorstellen werden, handelt es sich nicht u
 
 Die Artikel erscheinen in der Reihenfolge:
 
-1) Lohn- & Gehalts-Strukturen
+1. Lohn- & Gehalts-Strukturen
 
 Welche Möglichkeiten der Gesetzgeber bietet – Abgaben-optimierte Gehaltsvereinbarungen – was zu beachten ist – wichtiges Knowhow
 
-2) Soll-Ist-Vergleich
+2. Soll-Ist-Vergleich
 
 Abweichungen zwischen Plan und Wirklichkeit – Schnell-Analyse der Ursachen – Fortlaufende Echtzeitinformationen – Möglichkeiten des frühzeitigen Handelns
 
-3) Dienstplanung mithilfe von Kennzahlen
+3. Dienstplanung mithilfe von Kennzahlen
 
 wie sich Dienstpläne nach Richtwerten gestalten lassen - Planung als erster Schritt des Wirtschaftens - Einsatzzeiten wirtschaftlich wirksam festlegen – Beispielrechnungen
 

@@ -7,8 +7,11 @@ summary: Mit der Wieder- oder Neueinstellung von Mitarbeitern können Sie die Zu
 date: 2020-06-29T22:00:00+00:00
 publishDate: 2020-06-29T22:00:00+00:00
 cover: "/uploads/segelbild_kleiner.jpg"
-
+author: lstrasser
+categories:
+  - Ratgeber
 ---
+
 ### Wie Sie SFN-Zuschläge nutzen können, um Lohnkosten zu senken
 
 Mit der Wiedereröffnung der Gastronomie werden die Auswirkungen der „Neuen Normalität“ in der ersten Instanz erfahrbar. Allein die vorgeschriebenen Tischzusammensetzungen und Abstandsregeln führen in vielen Fällen zu einer Halbierung der einstmals vorhandenen Sitzplätze und damit schon rechnerisch zu einer Halbierung der bisherigen Umsätze. Hinzu kommt noch der psychosoziale Faktor durch die erhöhte Vorsicht vieler Gäste, aufgrund derer viele aus Furcht vor Ansteckung eine vermeintliche Menge meiden werden. Das entsprechende Verhalten ist über mehr als zwei Monate hinweg eingeübt worden.
@@ -29,19 +32,19 @@ Viele, doch lange nicht alle Gastronomen wissen von der Möglichkeit, Sonn-, Fei
 
 Diese Zuschläge können wie folgt erhoben werden:
 
-| ZUSCHLAGSZEITRÄUME | ZUSCHLAG AUF GRUNDLOHN |
-| --- | --- |
-| Nacht (20:00 – 06:00) | bis 25% |
-| Nacht (00:00 – 04:00)* | bis 40% |
-| Sonntag (Ganztägig**) | bis 50% |
-| Feiertag (Ganztägig**) | bis 50% |
-| 01.05 (Ganztägig**) | bis 150% |
-| 24.12. (ab 14:00**) | bis 150% |
-| 25.12. (Ganztägig**) | bis 150% |
-| 26.12. (Ganztägig**) | bis 150% |
-| 31.12. (ab 14:00**) | bis 125% |
-| *sofern die Tätigkeit vor 00:00h aufgenommen wurde |  |
-| **inklusive 00:00 - 04:00 am Folgetag, falls Arbeit vor 00:00 begonnen hat |  |
+| ZUSCHLAGSZEITRÄUME                                                           | ZUSCHLAG AUF GRUNDLOHN |
+| ---------------------------------------------------------------------------- | ---------------------- |
+| Nacht (20:00 – 06:00)                                                        | bis 25%                |
+| Nacht (00:00 – 04:00)\*                                                      | bis 40%                |
+| Sonntag (Ganztägig\*\*)                                                      | bis 50%                |
+| Feiertag (Ganztägig\*\*)                                                     | bis 50%                |
+| 01.05 (Ganztägig\*\*)                                                        | bis 150%               |
+| 24.12. (ab 14:00\*\*)                                                        | bis 150%               |
+| 25.12. (Ganztägig\*\*)                                                       | bis 150%               |
+| 26.12. (Ganztägig\*\*)                                                       | bis 150%               |
+| 31.12. (ab 14:00\*\*)                                                        | bis 125%               |
+| \*sofern die Tätigkeit vor 00:00h aufgenommen wurde                          |                        |
+| \*\*inklusive 00:00 - 04:00 am Folgetag, falls Arbeit vor 00:00 begonnen hat |                        |
 
 Selbst wenn die SFN-Zuschläge abgabenfrei beim Arbeitnehmer ankommen, würden sie als Hinzuzahlung jedoch die Lohnsumme für den Arbeitgeber erhöhen. Dies ist also für den Fall einer Lohnerhöhung geeignet, dient aber nicht zur Senkung der Lohnkosten.
 

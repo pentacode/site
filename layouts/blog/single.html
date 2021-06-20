@@ -1,0 +1,53 @@
+{{ define "css" }}
+    {{ template "basecss" }}
+    {{ partial "styles/blog.html" }}
+    {{ partial "styles/section-menu" }}
+    {{ partial "styles/page-menu" }}
+    {{ partial "styles/search" }}
+{{ end }}
+
+{{ define "main" }}
+    {{ $author := index .Site.Data.staff (default "lstrasser" .Params.author) }}
+
+    {{ partial "header" . }}
+
+    <div class="main single">
+        <article class="animation-reveal-children">
+            <div class="horizontal layout">
+                <div class="stretch article-categories">
+                    {{ with .Params.categories }}
+                        {{ range . }}
+                            <div>{{ . }}</div>
+                        {{ end }}
+                        {{ else }}
+                        <div>Sonstiges</div>
+                    {{ end }}
+                </div>
+                <div class="article-date">
+                    {{ with .PublishDate }}
+                        {{ dateFormat "Monday, Jan 2, 2006" . }}
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="horizontal layout">
+                <h1 class="stretch">{{ .Title }}</h1>
+                <div class="article-author center-aligning horizontal layout">
+                    <img class="article-author-image" src="{{ $author.image }}" />
+                    <div class="stretch">
+                        <div class="article-author-name">{{ $author.name }}</div>
+                        <div class="article-author-title">{{ $author.title }}</div>
+                    </div>
+                </div>
+            </div>
+
+            {{ with .Params.cover }}
+                <img class="article-cover" src="{{ . }}" />
+            {{ end }}
+
+            <div>
+                {{ .Content }}
+            </div>
+        </article>
+    </div>
+{{ end }}
