@@ -3,7 +3,7 @@
     {{ partial "styles/single.html" }}
     {{ partial "styles/side-menu" }}
     {{ partial "styles/section-menu" }}
-    {{ partial "styles/search" }}
+    {{ partial "styles/hilfe" }}
 {{ end }}
 
 {{ define "main" }}
@@ -24,17 +24,9 @@
                     {{ partial "breadcrumbs" . }}
                 </div>
 
-                <div>
-                    <div class="cover">
-                        {{ partial "thumbnail" . }}
-                    </div>
+                <i class="cover-icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
 
-                    <h1><span>{{ .Title }}</span></h1>
-                </div>
-
-                {{ with .PublishDate }}
-                    <p class="subtle">{{ dateFormat "Monday, Jan 2, 2006" . }}</p>
-                {{ end }}
+                <h1>{{ .Title }}</h1>
 
                 <div>
                     {{ .Content }}

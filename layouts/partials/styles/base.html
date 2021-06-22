@@ -389,7 +389,8 @@
         color: var(--color-highlight);
     }
 
-    .key {
+    .key,
+    kbd {
         display: inline-block;
         height: 1.5em;
         line-height: 1.5em;
@@ -401,6 +402,26 @@
         border-bottom-width: 3px;
         font-weight: 600;
         font-size: 0.9em;
+        font-family: inherit;
+    }
+
+    .fake-button {
+        height: 1.5em;
+        line-height: 1.5em;
+        display: inline-block;
+        background: var(--shade-2);
+        padding: 0 0.5em;
+        white-space: nowrap;
+        border-radius: 0.4em;
+        background: var(--shade-2);
+        border: solid 1px var(--shade-3);
+        border-bottom-width: 3px;
+        font-weight: 600;
+        font-size: 0.9em;
+    }
+
+    .fake-button .icon {
+        font-size: 0.8em;
     }
 
     .mono {
