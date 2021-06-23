@@ -19,11 +19,9 @@
         </aside>
 
         <div>
-            <article class="animation-reveal-children animation-fast">
-                <div class="narrow">
-                    {{ partial "breadcrumbs" . }}
-                </div>
+            {{ partial "breadcrumbs" . }}
 
+            <article class="animation-reveal-children">
                 <i class="cover-icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
 
                 <h1>{{ .Title }}</h1>

@@ -18,6 +18,10 @@
         </aside>
 
         <div class="main animation-reveal-children">
+            {{ if not (eq .Parent.Kind "home") }}
+                {{ partial "breadcrumbs" . }}
+            {{ end }}
+
             <div class="content">
                 <div>
                     <i class="icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
@@ -35,7 +39,7 @@
             {{ end }}
 
             <ul class="articles animation-reveal-children">
-                {{ range .Data.Pages }}
+                {{ range .Pages }}
                     <li>
                         <a href="{{ .RelPermalink }}">
                             <article>

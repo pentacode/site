@@ -1,6 +1,17 @@
 <script type="text/javascript">
     window.addEventListener("load", () => {
         setTimeout(() => {
+            function inIframe() {
+                try {
+                    return window.self !== window.top;
+                } catch (e) {
+                    return true;
+                }
+            }
+
+            if (inIframe()) {
+                return;
+            }
             !(function (e, t, n) {
                 function a() {
                     var e = t.getElementsByTagName("script")[0],

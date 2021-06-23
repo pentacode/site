@@ -1,6 +1,6 @@
 <nav class="section-menu">
     <div class="centering layout">
-        <input type="search" placeholder="Suchen..." class="search-input" />
+        <input type="search" placeholder="Suchen..." class="search-input" id="search-input" />
     </div>
     <ul class="section-menu-list">
         {{ template "menu" (dict "page" .FirstSection "currentPage" .) }}
@@ -44,6 +44,7 @@
         const container = document.querySelector(".section-menu");
         const allItems = [...document.querySelectorAll(".section-menu li")];
         const input = document.querySelector(".section-menu input");
+        input.focus();
 
         const observer = new IntersectionObserver(
             (entries) => {
@@ -72,18 +73,18 @@
         headings.forEach((heading) => observer.observe(heading));
 
         input.addEventListener("input", () => {
-            const val = input.value;
-            container.classList.toggle("searching", !!val);
+            const vals = input.value.split(" ").filter((val) => !!val);
+            container.classList.toggle("searching", !!vals.length);
 
-            if (val) {
+            if (vals.length) {
                 allItems.forEach((item) => {
                     const titleEl = item.querySelector("a .title") || item.querySelector("a");
                     titleEl && (titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, ""));
-                    const innerMatch = item.textContent.toLowerCase().includes(val.toLowerCase());
+                    const innerMatch = vals.some((val) => item.textContent.toLowerCase().includes(val.toLowerCase()));
                     if (innerMatch) {
                         titleEl &&
                             (titleEl.innerHTML = titleEl.innerHTML.replaceAll(
-                                new RegExp(val, "gi"),
+                                new RegExp(vals.join("|"), "gi"),
                                 "<mark>$&</mark>"
                             ));
                         item.removeAttribute("hidden");

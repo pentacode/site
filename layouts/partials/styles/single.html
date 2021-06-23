@@ -52,8 +52,8 @@
         margin: 0.5em 1em;
     }
 
-    article img {
-        max-width: 100%;
+    .breadcrumbs {
+        margin: 0 1.5em;
     }
 
     .cover {
@@ -76,21 +76,58 @@
         text-align: center;
     }
 
-    @media (max-width: 70em) {
-        .side-menu.right {
-            display: none;
-        }
-    }
-
     @media (max-width: 55em) {
         .side-menu {
             display: none;
+        }
+
+        .main-layout {
+            padding: 0;
+        }
+
+        figure {
+            float: none;
+            width: 100% !important;
+            padding: 0 1em;
+            box-sizing: border-box;
         }
     }
 
     @media (min-width: 55em) {
         .breadcrumbs {
             display: none;
+        }
+    }
+
+    @media (max-width: 319px), (max-height: 500px) {
+        header,
+        footer {
+            display: none;
+        }
+
+        * {
+            animation: none !important;
+        }
+
+        html,
+        body {
+            scroll-behavior: auto;
+        }
+
+        .main-layout {
+            font-size: 0.6em;
+        }
+
+        .breadcrumbs {
+            margin-top: 1em;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            padding-top: 1em;
+            margin-top: 0;
         }
     }
 

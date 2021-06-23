@@ -58,6 +58,10 @@ label="Speichern" >}} button den Regelsatz hinzufügen.
 
 ## Zuordnung von Regelsätzen
 
+{{< figure caption="Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mitarbeitern zugeordnet werden." class="centered">}}
+<img src="regelsatz_zuordnen.gif">
+{{< /figure >}}
+
 Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mitarbeitern zugeordnet werden. Dies
 funktioniert wie folgt:
 
@@ -207,7 +211,7 @@ frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
 Ist Die Option bei {{< button label="Anmeldung Ohne Dienstplan" >}} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
-## Abmeldung
+## Abmeldung / Ausstempeln
 
 ### Verspätete Abmeldung
 

@@ -1,7 +1,7 @@
 <div class="breadcrumbs">
     <nav>
-        <ul>
-          {{ template "breadcrumbpath" .Parent }}
+        <ul class="center-aligning horizontal wrapping layout">
+            {{ template "breadcrumbpath" .Parent }}
         </ul>
     </nav>
 </div>
@@ -14,6 +14,8 @@
     {{ end }}
 
     <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a><span class="subtle">&nbsp;/&nbsp;</span>
+        <a href="{{ .Permalink }}"
+            >{{ with .Params.icon }}<i class="fal fa-{{ . }}"></i> {{ end }}{{ .Title }}</a
+        ><span class="subtle">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
     </li>
 {{ end }}

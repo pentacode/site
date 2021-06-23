@@ -1,6 +1,6 @@
 ---
 title: Digitale Stempeluhr
-weight: 1
+weight: 2
 icon: stopwatch
 ---
 
