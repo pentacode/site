@@ -21,7 +21,7 @@
         <div>
             {{ partial "breadcrumbs" . }}
 
-            <article class="animation-reveal-children">
+            <article>
                 <i class="cover-icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
 
                 <h1>{{ .Title }}</h1>

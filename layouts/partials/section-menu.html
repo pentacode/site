@@ -45,14 +45,28 @@
         const allItems = [...document.querySelectorAll(".section-menu li")];
         const input = document.querySelector(".section-menu input");
         input.focus();
+        document.documentElement.style.scrollBehavior = "smooth";
+
+        let timeout;
+        function scrollTo(el) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                try {
+                    el.scrollIntoViewIfNeeded();
+                } catch (e) {
+                    el.scrollIntoView();
+                }
+            }, 500);
+        }
 
         const observer = new IntersectionObserver(
             (entries) => {
                 for (const entry of entries) {
                     const id = entry.target.id;
-                    const items = currentItems.filter(
-                        (item) => !!item.querySelector("a").getAttribute("href").endsWith(`#${id}`)
-                    );
+                    const items = currentItems.filter((item) => {
+                        const link = item.querySelector("a");
+                        return link && link.getAttribute("href").endsWith(`#${id}`);
+                    });
                     items.forEach((item) => (item.dataset.headerVisible = entry.isIntersecting));
                 }
 
@@ -65,6 +79,7 @@
                     currentItems
                         .filter((item) => !!item.querySelector("li.active"))
                         .forEach((item) => item.classList.add("active"));
+                    scrollTo(firstVisible);
                 }
             },
             { root: document, rootMargin: "-100px 0px 200px 0px", threshold: 1 }

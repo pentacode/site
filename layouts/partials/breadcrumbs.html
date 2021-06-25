@@ -14,7 +14,7 @@
     {{ end }}
 
     <li>
-        <a href="{{ .Permalink }}"
+        <a href="{{ .RelPermalink }}"
             >{{ with .Params.icon }}<i class="fal fa-{{ . }}"></i> {{ end }}{{ .Title }}</a
         ><span class="subtle">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
     </li>
