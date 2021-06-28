@@ -18,9 +18,9 @@ Mitarbeiter.
 
 ### Zeitraum Wählen
 
-Um in einen bestimmten Monat zu gelangen, klicken Sie auf den aktuell angezeigten Monat und wählen dort den gewünschten
-Zeitraum aus den Dropdown, oder verwenden Sie die {{< button icon="chevron-left" >}} und
-{{< button icon="chevron-right" >}} buttons um in den nächsten oder vorherigen Monat zu springen.
+Um in einen bestimmten Monat zu gelangen, klicken Sie auf den aktuell angezeigten Monat (linke obere Ecke) und wählen
+dort den gewünschten Zeitraum aus dem Dropdown, oder verwenden Sie die {{< button icon="chevron-left" >}} und {{< button
+icon="chevron-right" >}} Buttons um in den nächsten oder vorherigen Monat zu springen.
 
 > {{< icon "lightbulb" >}} **Tipp:** Verwenden Sie Ihre Tastatur, um noch schneller zwischen Monaten zu wechseln! Mit
 > der {{< key "a" >}} Taste springen Sie in den vorherigen Monat, die {{< key "d" >}} Taste bringt Sie in den nächsten
@@ -36,18 +36,18 @@ Zeile klicken. Ist an dem entsprechenden Tag bereits ein Eintrag vorhanden, wird
 > wechseln! Mit der {{< key "s" >}} Taste springen Sie in die nächste Zeile, mit der {{< key "w" >}} Taste selectieren Sie
 > die vorherige Zeile.
 
-## Arbeitszeit Erfassen
+## Neue Arbeitszeit Erfassen
 
 So erstellen Sie einen neuen Eintrag über das Arbeitszeitblatt:
 
-1. [Selectieren](#tag-oder-arbeitszeiteintrag-wählen) Sie zunächst den Tag, in dem Sie eine Arbeitszeit erfassen möchten.
+1. [Selektieren](#tag-oder-arbeitszeiteintrag-wählen) Sie zunächst den Tag, in dem Sie eine Arbeitszeit erfassen möchten.
 2. Falls bereits ein Eintrag and diesem Tag vorliegt, wird dieser automatisch zu Bearbeitung geöffnet. In diesem Fall
    müssen Sie zunächst {{< button label="Neuer Eintrag" icon="plus" >}} wählen. Ist der Tag noch leer, können Sie diesen Schritt überspringen.
 3. Es öffnet sich ein Menü auf der rechten Seite. Wählen Sie hier die Option {{< button label="Neue Schicht" >}}. Falls
    der Mitarbeiter mehreren Arbeiteisbereichen zugewiesen ist, wird Ihnen für jeden mögliche Position ein separater Button
    angezeigt. Wählen Sie die Position, für die Sie eine Arbeitszeit erfassen möchten.
 4. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie verschiedene andere Felder ausfüllen
-   können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [Das Schichtformular](#das-schichtformular);
+   können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [{{< icon "pen-square" >}} Schichtformular](/hilfe/handbuch/schichtformular).
 5. Ihren Eingaben werden automatisch gespeichert. Wenn Sie möchten können Sie den Eintrag nun schließen, indem sie den
    {{< button label="Zurück" icon="chevron-left" >}} button klicken oder {{< key "Esc" "mono" >}} auf Ihrer Tastatur
    drücken.
@@ -61,34 +61,54 @@ So erstellen Sie einen neuen Eintrag über das Arbeitszeitblatt:
 
 So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
 
-1. [Selectieren](#tag-oder-arbeitszeiteintrag-wählen) Sie den Eintrag, den Sie bearbeiten möchten.
+1. [Selektieren](#tag-oder-arbeitszeiteintrag-wählen) Sie den Eintrag, den Sie bearbeiten möchten.
 2. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie verschiedene andere Felder bearbeiten
-   können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [Das Schichtformular](#das-schichtformular);
+   können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [{{< icon "pen-square" >}} Schichtformular](/hilfe/handbuch/schichtformular).
 3. Ihren Eingaben werden automatisch gespeichert. Wenn Sie möchten können Sie den Eintrag nun schließen, indem sie den
    {{< button label="Zurück" icon="chevron-left" >}} button klicken oder {{< key "Esc" "mono" >}} auf Ihrer Tastatur
    drücken.
 
-## Das Schichtformular
+> {{< icon "lightbulb" >}} **Tipp:** Um beim Selektieren eines Eintrags direkt in ein bestimmtes Feld zu springen,
+> klicken Sie einfach auf den entsprechenden Wert in der Listenansicht. Also wenn Sie z.B. die Pausenzeit bearbeiten
+> wollen, klicken Sie einfach auf den Pausenwert und Sie landen direkt im entsprechenden Eingabefeld wo Sie Ihre Änderung
+> vornehmen können.
 
-Das Schichtformular ist eine einheitliche Bearbeitungsansicht, in der sie Plan- und Istzeiten einer Schicht sowie
-Pausen, Mitarbeiteressen und einiges mehr bearbeiten können.
+## Arbeitszeit Löschen
 
-### Position
+Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 
-Unter dem Punkt {{< icon "user" >}} **Position** können Sie über ein Dropdown-Menü den Arbeitsbereich festlegen, in dem die Schicht stattfinden soll. Die verfügbaren Optionen beschränken sich selbstverständlich auf die dem Mitarbeiter zugewiesenen [Arbeitsbereiche](/hilfe/handbuch/arbeitsbereiche).
+1. [Selektieren](#tag-oder-arbeitszeiteintrag-wählen) Sie den Eintrag, den Sie bearbeiten möchten. Es öffnet sich die
+   Tagesansicht auf der rechten Seite.
+2. Bewegen Sie die Maus über die farbige Box direkt über dem Bearbeitungsformular und klicken Sie das {{< button
+   icon="times" >}} Symbol im rechten oberen Eck.
+3. Der Eintrag ist nun gelöscht. Wenn Sie möchten können Sie die Tagesansicht nun schließen, indem sie den
+   {{< button label="Zurück" icon="chevron-left" >}} button klicken oder {{< key "Esc" "mono" >}} auf Ihrer Tastatur
+   drücken.
 
-### Geplante Zeiten
+## Freien Tag oder Guttag Eintragen
 
-Über die ersten beiden Felder dem Punkt {{< icon "calendar" >}} **Geplant** können Sie den geplanten Schichbeginn sowie
-das geplante Schichtende eintragen. Diese Felder sind nur bearbeitbar, falls der Eintrag in der Zukunft liegt und für
-den zugewiesenen Mitarbeiter und Arbeitsbereich die Zeiterfassung per Stempeluhr oder Mitarbeiter-App aktiviert ist.
+1. [Selektieren](#tag-oder-arbeitszeiteintrag-wählen) Sie zunächst einen leeren Tag, den Sie als freien Tag erfassen möchten.
+2. Es öffnet sich ein Menü auf der rechten Seite. Klicken Sie hier auf den {{< button label="Frei" >}} oder {{< button
+   label="Guttag" >}} button oder klicken Sie die {{< key "f" "mono" >}} Taste auf Ihrer Tastatur für "Frei" oder die {{<
+   key "g" "mono" >}} Taste für "Guttag".
+3. Der Eintrag wird automatisch gespeichert. Wenn Sie möchten können Sie die Tagesansicht nun schließen, indem sie den
+   {{< button label="Zurück" icon="chevron-left" >}} button klicken oder {{< key "Esc" "mono" >}} auf Ihrer Tastatur
+   drücken.
 
-> {{< icon "info-circle" >}} **Hinweis:** Die geplante Start- und Endzeit dient lediglich der Dienstplanung in
-> Verbindung mit der Zeiterfassung via Digitaler Stempeluhr oder Mitarbeiter-App und **führt
-> nicht automatisch zu Erfassung von geleisteten Arbeitszeiten**..
+> {{< icon "info-circle" >}} **Hinweis:** Freie Tage dienen nur als Platzhalter/Planhilfe und haben keinen Einfluss auf
+> das Arbeitszeitkonto oder die Zeiterfassung.
 
-### Geplante Pausen
+## Urlaub oder Krankeit Eintragen
 
-Über das rechte Eingabefeld unter der Überschrift {{< icon "calendar" >}} **Geplant** können Sie die geplante Pause für eine Schicht eintragen. Dieses Feld ist nur bearbeitbar, falls der Pausenmodus **Geplant** oder **Geplant + Manuell** für diese Schicht gewählt ist. Mehr über diese Pausenmodi und wie geplante Pausen zur Anwendungen finden, erfahren Sie in dem Hilfeartikel [{{< icon "cog" >}} Einstellungen / {{< icon "stopwatch" >}} Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung).
+1. [Selektieren](#tag-oder-arbeitszeiteintrag-wählen) Sie zunächst einen Tag aus dem Zeitraum, für den Sie einen Urlaub
+   oder eine Krankheit eintragen wollen.
+2. Es öffnet sich ein Menü auf der rechten Seite. Klicken Sie hier auf den {{< button label="Urlaub" >}} oder {{< button
+   label="Krank" >}} button oder klicken Sie die {{< key "u" "mono" >}} Taste auf Ihrer Tastatur für "Urlaub" oder die {{<
+   key "k" "mono" >}} Taste für "Krank".
+3. Es öffnet sich ein Dialog, in dem Sie den Abweisenheits-Zeitraum und die zu buchenden Fehltage eintragen können.
+   Details zu diesem Dialog und generelle Informationen zur Erfassung von Abwesenheiten finden Sie im [{{< icon
+   "umbrella-beach" >}} Abwesenheiten](/hilfe/handbuch/abwesenheiten) Hilfeartikel.
 
-### Geleistete Zeiten und Pause
+> {{< icon "info-circle" >}} **Hinweis:** aus Gründen der Übersichtlichkeit haben wir die Abwesenheitsarten **Kind
+> Krank** und **Krank in KuG** and dieser Stelle weggelassen. Sie können diese im Bereich [Mitarbeiter /
+> Abwesenheiten](https://manage.pentacode.app/employees/all/absences/) erfassen.

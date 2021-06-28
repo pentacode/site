@@ -4,8 +4,13 @@ weight: 2
 icon: pen-square
 ---
 
-Das Schichtformular ist eine einheitliche Bearbeitungsansicht, in der sie Plan- und Ist-Zeiten einer Schicht sowie
-Pausen, Mitarbeiteressen und einiges mehr bearbeiten können.
+Das Schichtformular ist ein einheitliches Bearbeitungsformular, in der sie Plan- und Ist-Zeiten einer Schicht sowie
+Pausen, Mitarbeiteressen und einiges mehr bearbeiten können. Das Schichtformular findet in mehreren Bereichen der App
+Anwendung und hat deshalb seinen eigenen Hilfeartikel verdient.
+
+{{< figure caption="Das Schichtformular dient als einheitliches Bearbeitsformular für Plan- und Arbeitszeiten und ist in mehreren Bereichen der App zu finden." >}}
+<img src="schichtformular.png">
+{{< /figure >}}
 
 ## Position
 
@@ -67,3 +72,33 @@ jederzeit bearbeitet werden.
 > -ende im Nachhinein bearbeiten wird das Pausenfeld **nicht** automatisch mit der neuen Pausenzeit überschrieben. Sie
 > können eine Neuberechnung der automatischen Pause aber veranlassen, indem Sie den aktuellen Wert aus dem
 > Pausenfeld löschen und das Feld anschließend per Mausklick oder Tabulator-Taste verlassen.
+
+## Mitarbeiteressen
+
+Im Feld {{< icon "utensils" >}} **Essen** können Sie eingeben, wie viele Mitarbeiteressen für die aktuelle
+Schicht gebucht werden sollen. Falls in den geltenden Zeiterfassungsregeln das [automatische Buchen von
+Mitarbeiteressen](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen) eingestellt ist, wird
+dieses Feld automatisch befüllt, kann aber nachträglich jederzeit bearbeitet werden.
+
+## Umsatz
+
+Über das Feld {{< icon "euro-sign" >}} **Umsatz** können Sie erfassen, wie viel Umsatz der Mitarbeiter während
+der Schicht eingenommen hat. Dieser Wert wird für die Berechnung der Provision herangezogen.
+
+> {{< icon "info-circle" >}} **Hinweis:** Diese Feld ist nur dann bearbeitbar, wenn im Vertrag des Mitarbeiters
+> eine Provision hinterlegt ist.
+
+## Kommentar
+
+Über das {{< icon "comment" >}} **Kommentar**-Feld können Sie einen Kommentar für die Schicht hinterlegen.
+
+## Zeiterfassungs-Regeln
+
+Unter dem Punkt {{< icon "sliders-h" >}} **Regeln** sehen Sie den für diese Schicht geltenden
+[Zeiterfassungs-Regelsatz](/hilfe/handbuch/einstellungen/zeiterfassung) mit einer Zusammenfassung der enthaltenen
+Einstellungen in Form von Symbolen. Durch einen einen Klick auf den Regelsatz-Namen (auf der Rechten Seite) gelangen Sie
+direkt zur Bearbeitungsansicht des Regelsatzes, wo Sie die genauen Einstellungen einsehen und Änderungen vornehmen
+können (sofern Sie die nötigen Berechtigungen haben).
+
+> {{< icon "lightbulb" >}} **Tipp:** Sie wissen nicht, was die angezeigten Symbole bedeuten? Indem Sie mit der Maus über
+> ein Symbol fahren, erscheint nach kurzer Zeit ein Hinweis zu diesem Symbohl.
