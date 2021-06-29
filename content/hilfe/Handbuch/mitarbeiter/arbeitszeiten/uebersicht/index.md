@@ -1,23 +1,9 @@
 ---
-title: Arbeitszeiten
+title: Arbeitszeiten Übersicht
 weight: 2
-icon: user-clock
-anchors:
-- hash: spaltenbezeichnung
-  title: Spaltenbezeichnung
-- hash: mitarbeiter-filtern
-  title: Mitarbeiter filtern
-- hash: zeitraum-wechseln
-  title: Zeitraum wechseln
-- hash: exportformate
-  title: Exportformate
-- hash: export-in-die-buchhaltung
-  title: Export in die Buchhaltung
-keywords:
-- arbeitszeiten
-- export
-
+icon: poll-people
 ---
+
 Arbeitszeiten, die Abteilung, in der sie angefallen sind, Urlaub und Krankzeiten werden hier in einer Gesamtansicht dargestellt. Der Ausweis dieser Zeiten erfolgt aufgrund der größeren Genauigkeit in Industrieminuten, also in Hundertstel, nicht in Sechzigstel.
 
 ## Spaltenbezeichnung

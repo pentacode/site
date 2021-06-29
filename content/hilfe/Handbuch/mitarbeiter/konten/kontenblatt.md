@@ -1,36 +1,16 @@
 ---
-title: Konten
+title: Kontenblatt
 weight: 1
-icon: balance-scale-right
-anchors:
-- hash: stunden
-  title: Stunden
-- hash: urlaub
-  title: Urlaub
-- hash: sfn-zuschläge
-  title: SFN-Zuschläge
-- hash: drucken
-  title: Drucken
-keywords:
-- konten
-- stunden
-- sollzeiten
-- überstunden
-- minderstunden
-- arbeitszeiten
-- urlaub
-- urlaubskonto
-- urlaubsanspruch
-- sfn-zuschläge
-
+icon: user-chart
 ---
+
 Im Menüpunkt "**Konten**" finden Sie das **Jahresarbeitszeit**- **Urlaubs**- und **Zuschlagskonto** des gewählten Mitarbeiters. Diese Konten werden in ihrer Entwicklung während des jeweiligen Monats dargestellt, der zum Monatsende jeweils aufgelaufene Saldo findet sich in der Spalte "**Saldo**". Der aktuelle **Gesamtsaldo** wird in der **Kopfzeile** des jeweiligen Kontos ausgewiesen.
 
 Zum **Jahreswechsel** findet automatisch ein Übertrag der saldierten Werte statt. Die Weiterrechnung erfolgt auf Grundlage des Übertrags.
 
 ## Stunden
 
-In diesem Konto werden die [**Soll-Zeiten**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#arbeitszeit), die ein Mitarbeiter  arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden** ausgewiesen.
+In diesem Konto werden die [**Soll-Zeiten**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#arbeitszeit), die ein Mitarbeiter arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden** ausgewiesen.
 
 {{< figure caption="Hier sehen Sie die Entwicklung des Jahresarbeitszeitkontos eines Mitarbeiters" >}}
 

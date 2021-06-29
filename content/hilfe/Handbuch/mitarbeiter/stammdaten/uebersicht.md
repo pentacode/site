@@ -1,11 +1,11 @@
 ---
 keywords: []
-title: Stammdaten
+title: Stammdaten Übersicht
 weight: 5
 icon: user-alt
 anchors: []
-
 ---
+
 Unter dem Menüpunkt Stammdaten finden Sie die Liste Ihrer Mitarbeiter mit deren personenbezogenen Daten.
 
 ## Filtern und Drucken

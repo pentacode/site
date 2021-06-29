@@ -1,5 +1,5 @@
 ---
-title: Schichtformular
+title: Arbeitszeit Bearbeiten
 weight: 2
 icon: pen-square
 ---

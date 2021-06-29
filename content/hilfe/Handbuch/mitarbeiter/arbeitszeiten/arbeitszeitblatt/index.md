@@ -112,3 +112,79 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 > {{< icon "info-circle" >}} **Hinweis:** aus Gründen der Übersichtlichkeit haben wir die Abwesenheitsarten **Kind
 > Krank** und **Krank in KuG** and dieser Stelle weggelassen. Sie können diese im Bereich [Mitarbeiter /
 > Abwesenheiten](https://manage.pentacode.app/employees/all/absences/) erfassen.
+
+### Zeitbuchung
+
+Sie können dem Arbeitszeitkonto eines Mitarbeiter auch **Stunden** summarisch **hinzubuchen** oder in **Abzug** bringen.
+
+Wählen Sie dafür "**Zeitbuchung**" und die Art der Buchung über den Dropdownpfeil.
+
+{{< figure caption="So können Sie einem Mitarbeiter Stunden in Summe gutschreiben oder abziehen" >}}
+
+![](/uploads/zeitbuchung.png)
+
+{{< /figure >}}
+
+### Urlaubsbuchung
+
+Über "**Urlaubsbuchung**" können Sie einem Mitarbeiter über den Dropdown-Pfeil **Urlaubstage hinzugeben** oder **abbuchen**.
+
+Wählen Sie hierzu die gewünschte Buchungsart und geben Sie die Anzahl der Tage ein, die entsprechend gebucht werden soll.
+
+{{< figure caption="So können Sie einem Mitarbeiter Urlaubstage hinzubuchen oder abziehen">}}
+
+![](/uploads/urlaubsbuchung.png)
+
+{{< /figure >}}
+
+Wenn Sie Urlaubstage abziehen, geht Pentacode davon aus, dass diese **Urlaubstage ausbezahlt** werden. Es erscheint deshalb das Feld "**€ Bezahlt**" mit dem **aktivierten** Button. Die gebuchten Urlaubstage werden dem Urlaubskonto des Mitarbeiters in Abzug gebracht und für die Lohnabrechnung als auszuzahlender Urlaub zugeführt.
+
+Wenn Sie dies nicht wollen, müssen Sie den Button **manuell deaktivieren**.
+
+Wenn Sie Urlaub hinzubuchen, erscheint dieser Button nicht.
+
+## Arbeitszeiten Drucken
+
+Durch das Anklicken des {{< icon "print" >}}-Symbols am linken unteren Rand wählen Sie zwischen zwei Möglichkeiten, das Arbeitszeitkonto des Mitarbeiters **auszudrucken**.
+
+{{< figure caption="Sie können das Arbeitszeitkonto eines Mitarbeiters in zwei unterschiedlichen Formaten ausdrucken" >}}
+
+![](/uploads/az-konto-ausdrucken.png)
+
+{{< /figure >}}
+
+### Arbeitszeiten Nachweis
+
+Der "**Arbeitszeiten Nachweis**" listet die täglichen Arbeitszeiten mit ihrem jeweiligen Anfang und Ende, den Ruhepausen und die Dauer des Arbeitstages.
+
+Am rechten oberen Rand finden Sie die **Soll- und Ist-Arbeitszeiten** des Monats einander gegenübergestellt und die **Differenz** ausgewiesen
+
+In der Spalte "**AZ**" ist die **tatsächliche Arbeitszeit** nach Abzug der Pausen zu sehen, in der danebenliegenden Spalte "**BEZ**" die Anzahl der **bezahlten Stunden**.
+
+{{< figure caption="Arbeitszeiten 'AZ' und bezahlte Zeiten 'Bez' sind in diesem Beispiel identisch, da Pausen **nicht** bezahlt werden" >}}
+
+![](/uploads/arbeitszeiten-nachweis.png)
+
+{{< /figure >}}
+
+Im Regelfall sind die Angaben in beiden Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezahlten Stunden unter "**BEZ**" hinzu addiert.
+
+> Wir empfehlen Ihnen, das Arbeitszeitkonto auszudrucken und vom **Mitarbeiter unterzeichnen** zu lassen.
+
+> Dieser Ausdruck dient zum einen als **Nachweis** bei Überprüfungen durch die jeweiligen Prüfungsbehörden. Zum anderen bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren Anfechtungen.
+
+### Lohnabrechnung
+
+Der Ausdruck "**Lohnabrechnung**" weist neben den Angaben des "Arbeitszeiten Nachweis" auch die eventuellen Sonn-, Feiertags- und Nachtarbeitsstunden, sowie die Anzahl eventueller Mahlzeiten aus.
+
+{{< figure caption="Die Lohnabrechnung entspricht dem 'Arbeitszeiten Nachweis', ist jedoch wesentlich detaillierter" >}}
+
+![](/uploads/lohnabrechnung.png)
+
+{{< /figure >}}
+
+Am Fußende sehen Sie die **Zusammenfassung** nach Stunden und die daraus resultierenden jeweiligen **Euro**-Beträge. Die Lohnangaben beziehen sich dabei auf das **Arbeitgeber-Brutto**.
+
+Dieser Nachweis dient vor allem Ihrer **internen** Dokumentation und ist nicht zwingend geeignet, den Mitarbeitern ausgehändigt zu werden.
+
+> Im Falle einer Prüfung ist es empfehlenswert, dem Prüfer für eine Stichprobenkontrolle einzelne Ausdrucke der "Lohnabrechnung" zu überlassen. Die offensichtliche Transparenz, Richtigkeit und Glaubwürdigkeit Ihrer Dokumentation durch Pentacode kann den Prüfungsvorgang u.U. erheblich beschleunigen.

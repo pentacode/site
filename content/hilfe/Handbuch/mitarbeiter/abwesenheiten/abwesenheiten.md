@@ -1,11 +1,11 @@
 ---
 keywords: []
-title: Abwesenheiten
+title: Abwesenheitsblatt
 weight: 3
 icon: umbrella-beach
 anchors: []
-
 ---
+
 Im Menüpunkt "Abwesenheiten" werden die Urlaubs- und Kranktage eines Mitarbeiters gezeigt.
 
 ## Aktuelle Abwesenheitszeiten
@@ -28,7 +28,7 @@ Krankzeiten werden analog dargestellt, die jeweiligen Kranktage werden durch ein
 
 ## Vergangene Abwesenheitszeiten
 
-Indem Sie auf  "Vergangene Abwesenheiten Zeigen" am Kopfende der Übersicht klicken, werden alle Urlaubs- und Kranktage seit Beginn des Arbeitsverhältnisses mit dem gewählten gezeigt.
+Indem Sie auf "Vergangene Abwesenheiten Zeigen" am Kopfende der Übersicht klicken, werden alle Urlaubs- und Kranktage seit Beginn des Arbeitsverhältnisses mit dem gewählten gezeigt.
 
 {{< figure caption="Hier hin kommt ein Bildtitel." >}}
 

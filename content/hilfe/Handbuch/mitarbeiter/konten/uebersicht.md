@@ -1,38 +1,9 @@
 ---
-title: Konten
+title: Konten Übersicht
 weight: 1
-icon: balance-scale-right
-anchors:
-- hash: monatsübersicht
-  title: Monatsübersicht
-- hash: stunden
-  title: Stunden
-- hash: urlaub
-  title: Urlaub
-- hash: sfn-zuschläge
-  title: SFN-Zuschläge
-- hash: jahresansicht
-  title: Jahresansicht
-- hash: mitarbeiter-filtern
-  title: Mitarbeiter filtern
-- hash: konten-zurücksetzen
-  title: Konten zurücksetzen
-- hash: konten-einrichten-bei-inbetriebnahme
-  title: Konten einrichten bei Inbetriebnahme
-- hash: konten-drucken
-  title: Konten drucken
-keywords:
-- stunden
-- stundenkonto
-- urlaub
-- urlaubskonto
-- sfn-zuschläge
-- sfn
-- jahresansicht
-- zurücksetzen
-- einrichten
-
+icon: list
 ---
+
 Um Ihnen einen schnellen Überblick über die Konten aller Mitarbeiter zu ermöglichen, werden diese in einer Gesamtübersicht dargestellt.
 
 Die Gesamtansichten ist nicht "editierbar", können an dieser Stelle also nicht bearbeitet werden. Wenn Sie die Daten eines Mitarbeiters korrigieren wollen, klicken Sie bitte auf den Namen des Mitarbeiters. Sie landen automatisch in dessen Konto. Dort können Sie die Korrekturen vornehmen.
@@ -143,7 +114,7 @@ Es ist dabei unerheblich, ob Sie Vor- oder Nachnamen wählen, da mit jeder Buchs
 
 Sie können die Arbeitszeit-, Urlaubs- und SFN-**Konten** der Mitarbeiter auf sehr einfache Weise **korrigieren**, indem Sie auf das {{< icon "ellipsis-h" >}}-**Symbol** klicken und "**Konten zurücksetzen**" durch Anklicken bestätigen.
 
-Es erscheint daraufhin eine Liste der Mitarbeiter, in der Sie für die Spalten "Arbeit", "Urlaub" und "SFN" die jeweils aufgelaufenen Werte sehen. Wählen Sie dann  über das **Dropdown-Menü** den **Monat**, in dem die Korrektur erfolgen soll.
+Es erscheint daraufhin eine Liste der Mitarbeiter, in der Sie für die Spalten "Arbeit", "Urlaub" und "SFN" die jeweils aufgelaufenen Werte sehen. Wählen Sie dann über das **Dropdown-Menü** den **Monat**, in dem die Korrektur erfolgen soll.
 
 Wenn Sie einen Wert korrigieren wollen, schreiben Sie den zu verwendenden Wert in das entsprechende **Eingabefeld** und klicken Sie auf "**Übernehmen**".
 

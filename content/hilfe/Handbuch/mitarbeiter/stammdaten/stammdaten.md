@@ -1,21 +1,9 @@
 ---
-title: Stammdaten
+title: Stammdaten Bearbeiten
 weight: 4
-icon: user-alt
-anchors:
-- hash: zwingende-angaben
-  title: Zwingende Angaben
-- hash: änderung-von-stammdaten
-  title: Änderung von Stammdaten
-- hash: mitarbeiter-löschen
-  title: Mitarbeiter löschen
-keywords:
-- stammdaten
-- änderung
-- mitarbeiter löschen
-- mitarbeiter
-
+icon: user-pencil
 ---
+
 In den Stammdaten werden die persönlichen Angaben zum Mitarbeiter erfasst.
 
 ## Zwingende Angaben

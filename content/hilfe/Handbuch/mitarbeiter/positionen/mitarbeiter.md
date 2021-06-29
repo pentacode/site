@@ -1,15 +1,10 @@
 ---
-title: Positionen
+title: Positionen Mitarbeiter
 weight: 5
 icon: user-tag
 anchors: []
-keywords:
-- position
-- positionen
-- abteilung
-- arbeitsbereiche
-
 ---
+
 Unter dem Hauptmenü-Punkt "**Einstellungen**" und dort unter "**Arbeitsbereiche**" haben Sie für Ihr Unternehmen Abteilungen angelegt und diesen Abteilungen eventuell Positionen zugewiesen.
 
 Diese Abteilungen und deren eventuelle Positionen finden Sie bei jedem Mitarbeiter unter dem Menüpunkt "**Positionen**" wieder.

@@ -1,17 +1,10 @@
 ---
-keywords:
-- abwesenheiten
-- krank
-- Urlaub
-- Urlaub beantragen
-- Urlaubsantrag
-- urlaubsplanung
-title: Abwesenheiten
+title: Abwesenheiten Übersicht
 weight: 3
-icon: umbrella-beach
+icon: stream
 anchors: []
-
 ---
+
 Unter dem Menüpunkt "**Abwesenheiten**" erhalten Sie eine Gesamtübersicht zu den beantragten und genehmigten Urlauben Ihrer Mitarbeiter, sowie den Fehltagen durch Krankheit
 
 ## Übersicht
