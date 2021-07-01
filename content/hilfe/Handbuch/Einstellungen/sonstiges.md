@@ -2,98 +2,61 @@
 title: Sonstiges
 weight: 5
 icon: ball-pile
-anchors:
-- hash: kontoführung-ab
-  title: Kontoführung Ab
-- hash: sollstundenberechnung
-  title: Sollstundenberechnung
-- hash: berechnung-gesetzliche-pause
-  title: Berechnung Gesetzliche Pause
-- hash: nachtzuschläge
-  title: Nachtzuschläge
-keywords:
-- kontoführung
-- sollstundenberechnung
-- wochenfaktor
-- monatsgenau
-- monatsgenau
-- feste wochentage
-- berechnung gesetzliche pause
-- gesetzliche pause
-- standard
-- iterativ
-- nachtzuschläge
-
 ---
+
 Im Menüpunkt **"Einstellungen"** und dort unter **"Sonstiges"** bestimmen generelle Grundsätze, nach denen Pentacode operiert
 
-## "Kontoführung Ab"
+## Beginn der Kontoführung
 
 Unter "**Kontoführung ab**" legen Sie fest, ab welchem **Zeitpunkt** die **Arbeitszeitkonten** Ihrer Mitarbeiter in Pentacode geführt werden.
 
-{{< figure caption="Hier legen Sie fest, ab wann Pentacode Ihre Dokumentation erledigen wird" >}}
-
-![](/uploads/konto-ab.png)
-
-{{< /figure >}}
-
 Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig berechnet**. Für die Einheitlichkeit der Buchhaltung und eine später bessere Nachvollziehbarkeit ist es jedoch **empfehlenswert**, den **ersten eines Monats** zu wählen.
 
-## "Sollstundenberechnung"
+## Berechnung Gesetzliche Pause
 
-Für die "**Sollstundenberechnung**" der Arbeitszeiten Ihrer Mitarbeiter haben Sie Möglichkeit, zwischen **"Wochenfaktor"**, **"Monatsgenau"** und "**Monatsgenau ohne Feiertage**" zu wählen.
+Als Teil der Arbeitszeitdokumentation überwacht Pentacode automatisch alle erfassten Arbeitszeiten auf bestimmte
+Regelvorstöße. Einer dieser Regeln ist die gesetzlich vorgeschriebene Mindest-Pausenlänge, die von der Dauer der Schicht
+bzw Arbeitszeit abhängt. Für die Berechnung der gesetzlichen Pause sind zwei Möglichkeiten zur Verfügung gestellt:
 
-{{< figure caption="Hier legen Sie den Berechnungsmodus fest, der grundsätzlich erst einmal für alle Mitarbeiter des Unternehmens gilt" >}}
+### Standard
 
-![](/uploads/sollstundenberechnung.png)
+In diesem Modus werden die Pausen nach der **Anwesenheitszeit** berechnet. Nach **mehr als 6 Stunden** Anwesenheitszeit
+wird eine minimale Pauselänge von **30 Minuten Pause** erwartet, nach insgesamt **mehr als 9 Stunden** kommen weitere
+**15 Minuten** hinzu, also insgesamt 45 Minuten. Konkret sieht die Staffelung wie folgt aus:
 
-{{< /figure >}}
+| Dauer       | Mindestpause |
+| ----------- | ------------ |
+| <= 6:00     | 0 min        |
+| 6:01 - 9:00 | 30 min       |
+| > 9:00      | 45 min       |
 
-"**Wochenfaktor**" bedeutet, dass sich die Arbeitszeit, die ein Mitarbeiter laut Arbeitsvertrag arbeiten sollte, wie folgt berechnet: **wöchentliche Arbeitszeit** laut Angabe zum Mitarbeiter unter seinen "Stammdaten", dort unter "Vertrag" **x 4,35** (Beispiel: 40 Stunden/Woche * 4,35 = 174 Sollstunden/Monat).
+### Iterativ
 
-Diese Berechnungsmethode hat zur Folge, dass die **monatliche Sollarbeitszeit** eines Mitarbeiters **immer gleichbleibend** ist.
+In diesem Modus werden die **Pausen nach** der **Arbeitszeit** berechnet. Dem Mitarbeiter werden nach mehr als 6 Stunden 30 Minuten Pause abgezogen. Er hat somit 5,5 Stunden gearbeitet. Erst wenn er weitere mehr als 3,5 Stunden gearbeitet hat (insgesamt also mehr als 9 Stunden), fallen weitere 15 Minuten Pause an. Die konkrete Staffelung sieht wie folgt aus:
 
-"**Monatsgenau**" bedeutet, dass die **monatliche Sollarbeitszeit** eines Mitarbeiters **entsprechend** der **Länge eines Monats** in Pentacode **automatisch berechnet** wird. Die zu erbringende Arbeitszeit schwankt entsprechend von Monat zu Monat. Dies ist die exaktere Berechnungsmethode.
+| Dauer       | Mindestpause |
+| ----------- | ------------ |
+| <= 6:00     | 0 min        |
+| 6:01 - 9:30 | 30 min       |
+| > 9:30      | 45 min       |
 
-"**Monatsgenau ohne Feiertage**" bedeutet: **gesetzliche Feiertage**, die nicht auf einen Sonntag fallen, werden bei der Sollstundenberechnung in Abzug gebracht und **verringern** die zu erbringende **Sollarbeitszeit** des Mitarbeiters entsprechend.
+## Saldierung SFN-Konten
 
-> "**Feste Wochentage & Feste Wochentage abzgl. Feiertage**"
->
-> Die Festlegung dieser Berechnungsmethode kann nicht allgemein gültig erfolgen. Sie ist  nur beim einzelnen Mitarbeiter sinnvoll anzulegen.
+Für die Saldierung von [SFN-Konten](/hilfe/handbuch/mitarbeiter/konten#sfn-konto) bietet Ihnen Pentacode zwei Optionen:
 
-## "Berechnung Gesetzliche Pause"
+### Exklusive Beitragspflichtige Zuschläge
 
-Für die Berechnung der gesetzlichen Pause sind zwei Möglichkeiten zur Verfügung gestellt:
+Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur beitragsfreie Zuschläge berücksichtigt. Dies ist die Standardvariante.
 
-{{< figure caption="So legen Sie die Pausenberechnung fest" >}}
+### Inklusive Beitragspflichtige Zuschläge
 
-![](/uploads/pausenberechnung.png)
+Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige Zuschläge berücksichtigt.
 
-{{< /figure >}}
-
-"**Standard**"
-
-In diesem Modus werden die **Pausen nach** der **Anwesenheitszeit** berechnet. Dem Mitarbeiter werden nach **mehr als 6 Stunden** Anwesenheitszeit **30 Minuten Pause** abgezogen, nach insgesamt **mehr als 9 Stunden** weitere **15 Minuten**.
-
-In diesem Fall werden einem Mitarbeiter nach 9:01 Stunden Anwesenheitszeit in Summe 45 Minuten Pause berechnet, die zu bezahlende Arbeitszeit beträgt somit 8:16 Stunden.
-
-"**Iterativ**"
-
-In diesem Modus werden die **Pausen nach** der **Arbeitszeit** berechnet. Dem Mitarbeiter werden nach mehr als 6 Stunden 30 Minuten Pause abgezogen. Er hat somit 5,5 Stunden gearbeitet. Erst wenn er weitere mehr als 3,5 Stunden gearbeitet hat (insgesamt also mehr als 9 Stunden), werden weitere 15 Minuten Pause abgezogen.
-
-In diesem Fall werden einem Mitarbeiter nach 9:31 Stunden Anwesenheitszeit in Summe 45 Minuten Pause berechnet, die zu bezahlende Arbeitszeit beträgt somit 8:46 Stunden.
-
-## "Nachtzuschläge"
+## Nachtzuschläge
 
 Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
 
 Sie können die **Zeiträume**, in denen Sie Ihre Mitarbeiter **Nachtzuschläge** erhalten sollen, einengen.
-
-{{< figure caption="Hier können Sie den Zeitraum für die Berechnung von Nachtzuschlägen begrenzen" >}}
-
-![](/uploads/nachtzuschlage.png)
-
-{{< /figure >}}
 
 Pentacode **überprüft** hierbei die Zulässigkeit Ihrer Angaben entsprechend der **gesetzlichen Richtlinien**.
 
