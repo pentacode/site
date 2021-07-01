@@ -1,30 +1,25 @@
 <footer>
     <nav>
         <ul>
-            {{ $currPage := . }} {{ range .Site.Sections }}
-            {{ if not (eq .Title "Alt") }}
-            <li class="section-item {{ if eq . $currPage }}active{{ end }}">
-                <a href="{{ .RelPermalink }}">
-                    {{ .Title }}
-                </a>
-            </li>
-            {{ end }}
+            {{ $currPage := . }}
+            {{ range .Site.Sections }}
+                {{ if not (eq .Title "Alt") }}
+                    <li class="section-item {{ if eq . $currPage }}active{{ end }}">
+                        <a href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                    </li>
+                {{ end }}
             {{ end }}
 
             <li class="section-item">
-                <a href='{{ .Param "contact_url" }}'>
-                    Kontakt
-                </a>
+                <a href="#" data-open-helpscout> Kontakt </a>
             </li>
 
             <li class="section-item">
-                <a href='/impressum/'>
-                    Impressum
-                </a>
+                <a href="/impressum/"> Impressum </a>
             </li>
         </ul>
     </nav>
-    <div class="copyright">
-        &copy; 2020 Sandstrøm Brand Management AG, Lindwurmstr. 147, 80337 München
-    </div>
+    <div class="copyright">&copy; 2021 Sandstrøm Brand Management AG, Lindwurmstr. 147, 80337 München</div>
 </footer>
