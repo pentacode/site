@@ -1,6 +1,6 @@
 ---
-title: Positionen
+title: Stammdaten
 weight: "4"
-icon: user-tag
+icon: address-card
 anchors: []
 ---
