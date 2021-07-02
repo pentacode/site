@@ -50,7 +50,8 @@ Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur beitrags
 
 ### Inklusive Beitragspflichtige Zuschläge
 
-Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige Zuschläge berücksichtigt.
+Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige
+Zuschläge berücksichtigt.
 
 ## Nachtzuschläge
 
