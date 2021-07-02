@@ -3,16 +3,23 @@ title: Datenschutz
 hide_menu: true
 ---
 
-Zum Schutz Ihrer Privatsphäre verfahren wir bei allen Vorgängen der Datenverarbeitung (z.B. Erhebung, Verarbeitung und Übermittlung) nach den gesetzlichen Regelungen des europäischen und deutschen Datenschutzrechts.
-Im Folgenden wollen wir Sie wissen lassen, welche Ihrer Daten auf unseren Webseiten und über die Web-Applikationen Pentacode.app und manage@pentacode.app (nachfolgend „Software“) erhoben, von uns genutzt und weitergegeben werden.
+Zum Schutz Ihrer Privatsphäre verfahren wir bei allen Vorgängen der Datenverarbeitung (z.B. Erhebung, Verarbeitung und
+Übermittlung) nach den gesetzlichen Regelungen des europäischen und deutschen Datenschutzrechts.
+Im Folgenden wollen wir Sie wissen lassen, welche Ihrer Daten auf unsere Webseite (https://pentacode.app) und über die
+Web-Applikationen (unter anderem https://manage.pentacode.app, https://perso.pentacode.app, https://time.pentacode.app)
+(nachfolgend „Software“) erhoben, von uns genutzt und weitergegeben werden.
 
 ## Ihr Ansprechpartner für Ihr Datenschutzanliegen
 
-Verantwortlicher im Sinne der datenschutzrechtlichen Vorschriften für sämtliche über unsere Webseiten erfolgende Datenverarbeitungsprozesse ist:
+Verantwortlicher im Sinne der datenschutzrechtlichen Vorschriften für sämtliche über unsere Webseiten erfolgende
+Datenverarbeitungsprozesse ist:
+
+```
 Sandstroem Brand Mangement AG
 Lindwurmstr. 147, 80337 München
 +49 89 2154 820 0
 E-Mail: mail@pentacode.app
+```
 
 ## Benötigte, erhobene und gespeicherte Daten für die Nutzung unserer Webseiten
 
@@ -31,12 +38,13 @@ Bei der Nutzung unserer Webseiten werden die folgenden Daten protokolliert, wobe
 6. Webseiten, die vom System des Nutzers über unsere Webseite aufgerufen werden
 7. Verwendete Suchmaschinen
 8. Namen heruntergeladener Dateien
-   Die Daten werden lediglich in Echtzeit erfasst und nicht dauerhaft gespeichert. Allenfalls bei Kontaktaufnahme über das Calendly- oder Help Scout-Kontaktfenster oder den Help Scout-Chat können Nutzungsdaten gespeichert werden. Mehr hierzu erfahren Sie nachfolgend im Text.
-   Rechtsgrundlage für die vorübergehende Speicherung der Daten ist Art. 6 Abs. 1 lit. f DS-GVO.
-   Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Webseite an den Rechner des Nutzers zu ermöglichen.
-   In diesen Zwecken liegt auch unser berechtigtes Interesse an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DS-GVO.
-   Sobald diese Daten für die Erreichung des Zwecks nicht mehr erforderlich sind, werden sie gelöscht. Dies ist spätestens der Fall, wenn die jeweilige Sitzung beendet ist.
-   Für den Betrieb der Webseite ist die Datenerfassung zwingend erforderlich und bietet deshalb dem Besucher der Webseite keine Widerspruchsmöglichkeit.
+
+Die Daten werden lediglich in Echtzeit erfasst und nicht dauerhaft gespeichert. Allenfalls bei Kontaktaufnahme über das Calendly- oder Help Scout-Kontaktfenster oder den Help Scout-Chat können Nutzungsdaten gespeichert werden. Mehr hierzu erfahren Sie nachfolgend im Text.
+Rechtsgrundlage für die vorübergehende Speicherung der Daten ist Art. 6 Abs. 1 lit. f DS-GVO.
+Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Webseite an den Rechner des Nutzers zu ermöglichen.
+In diesen Zwecken liegt auch unser berechtigtes Interesse an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DS-GVO.
+Sobald diese Daten für die Erreichung des Zwecks nicht mehr erforderlich sind, werden sie gelöscht. Dies ist spätestens der Fall, wenn die jeweilige Sitzung beendet ist.
+Für den Betrieb der Webseite ist die Datenerfassung zwingend erforderlich und bietet deshalb dem Besucher der Webseite keine Widerspruchsmöglichkeit.
 
 ## Registrierung
 
@@ -47,17 +55,33 @@ Die Nutzung der Software erfordert eine Registrierung auf unserer Webseite durch
 3. Die Anschrift des Unternehmens
 4. Die Telefonnummer des Unternehmens
 5. Die E-Mail-Adresse
-   Bei der erstmaligen Registrierung wird auch der Zeitpunkt der Registrierung gespeichert.
-   Interessenten haben die Möglichkeit, unsere Software für eine Testphase kostenlos zu nutzen. Während der Testphase werden die Daten eines Interessenten vorübergehend gespeichert, um die Nutzung der Software ermöglichen. Beendet der Interessent die Testphase, ohne dass es zu einer entgeltlichen Nutzung der Software führt, werden die Daten gelöscht. Entscheidet sich ein Interessent, unsere Software nach Ablauf der Testphase gebührenpflichtig zu nutzen, bleiben die von vom Interessenten eingegebenen Daten gespeichert. Diese Daten werden benötigt, und um Nutzungsentgelte abzurechnen.
-   Der Zugang zur Software erfordert ein vom Kunden selbstgewähltes Passwort.
-   Dem Kunden steht jederzeit das Recht zu, seine Anmeldedaten zu korrigieren und zu löschen. Im Rahmen der vertraglichen Nutzungsvereinbarung hat der Kunde jederzeit die Möglichkeit, die Registrierung durch einfache Mitteilung an uns auflösen zu lassen.
-   Art. 6 Abs. 1 lit. b DS-GVO stellt die Rechtsgrundlage dar, auf der ein Vertrag zur Nutzung der Software abgeschlossen und erfüllt wird und regelt die Durchführung der Maßnahmen, die für die Verarbeitung der Daten notwendig sind.
-   Die Daten werden gelöscht, sobald eventuelle vorvertragliche Maßnahmen, i.B. die Testphase durchgeführt sind oder für eine weitere Durchführung eines Vertrages nicht mehr benötigt werden. Dies unter dem Vorbehalt, dass nicht-vertragliche oder gesetzliche Verpflichtungen einer Löschung nicht entgegenstehen.
+
+Bei der erstmaligen Registrierung wird auch der Zeitpunkt der Registrierung gespeichert.
+Interessenten haben die Möglichkeit, unsere Software für eine Testphase kostenlos zu nutzen. Während der Testphase werden die Daten eines Interessenten vorübergehend gespeichert, um die Nutzung der Software ermöglichen. Beendet der Interessent die Testphase, ohne dass es zu einer entgeltlichen Nutzung der Software führt, werden die Daten gelöscht. Entscheidet sich ein Interessent, unsere Software nach Ablauf der Testphase gebührenpflichtig zu nutzen, bleiben die von vom Interessenten eingegebenen Daten gespeichert. Diese Daten werden benötigt, und um Nutzungsentgelte abzurechnen.
+Der Zugang zur Software erfordert ein vom Kunden selbstgewähltes Passwort.
+Dem Kunden steht jederzeit das Recht zu, seine Anmeldedaten zu korrigieren und zu löschen. Im Rahmen der vertraglichen Nutzungsvereinbarung hat der Kunde jederzeit die Möglichkeit, die Registrierung durch einfache Mitteilung an uns auflösen zu lassen.
+Art. 6 Abs. 1 lit. b DS-GVO stellt die Rechtsgrundlage dar, auf der ein Vertrag zur Nutzung der Software abgeschlossen und erfüllt wird und regelt die Durchführung der Maßnahmen, die für die Verarbeitung der Daten notwendig sind.
+Die Daten werden gelöscht, sobald eventuelle vorvertragliche Maßnahmen, i.B. die Testphase durchgeführt sind oder für eine weitere Durchführung eines Vertrages nicht mehr benötigt werden. Dies unter dem Vorbehalt, dass nicht-vertragliche oder gesetzliche Verpflichtungen einer Löschung nicht entgegenstehen.
 
 ## Helpdesk-Ticketsystem, Helpdesk-Chat, Helpdesk-Kontaktformular und Calendly Kontaktformular
 
 Auf unseren Webseiten setzen wir das Ticketsystem, die Chatfunktion und das Kontaktformular von Help Scout, sowie das Kontaktformular von Calendly ein.
-Hierbei handelt es sich um Dienste von Help Scout, 100 City Hall Plaza, Boston, MA 02108, USA, sowie Calendly LLC, 271 17th St NW Ste 1000, Atlanta, GA 30363, USA.
+Hierbei handelt es sich um Dienste von
+
+```
+Help Scout
+100 City Hall Plaza
+Boston, MA 02108, USA
+```
+
+sowie
+
+```
+Calendly LLC
+271 17th St NW Ste 1000
+Atlanta, GA 30363, USA.
+```
+
 Beide Gesellschaften sind bei der Verarbeitung von Daten zur Einhaltung des Datenschutzes verpflichtet und Privacy-Shield-zertifizierte Unternehmen. Sie unterliegen somit den Datenschutzkontrollen der EU-Kommission zur Sicherung Ihres Rechts auf Datenschutz bei der Datenverarbeitung.
 Zum Zeitpunkt der Nutzung von deren Diensten werden folgende Daten gespeichert:
 
@@ -69,14 +93,18 @@ Zum Zeitpunkt der Nutzung von deren Diensten werden folgende Daten gespeichert:
 6. Webseiten, die vom System des Nutzers über unsere Webseite aufgerufen werden
 7. Verwendete Suchmaschinen
 8. Namen heruntergeladener Dateien
-   Weitere Informationen über den Zweck, den Umfang, der Verarbeitung und der Nutzung von Kundendaten können im Internet abgerufen werden unter
-   https://www.helpscout.com/company/legal/privacy/
-   https://calendly.com/privacy
-   Für den Fall, dass der Kontakt mit uns über von uns bereitgestellte E-Mail-Adressen hergestellt wird, werden die mit der E-Mail übermittelten personenbezogenen Daten des Absenders gespeichert.
-   In keinem der genannten Fälle werden Daten zu Werbezwecken verwendet oder an Dritte weitergegeben. Die Daten werden nur verwendet, um ein Anliegen zu bearbeiten und/oder uns in dessen Zusammenhang mit dem Absender in Verbindung zu setzen.
-   Art. 6 Abs. 1 lit. f DS-GVO bildet die Rechtsgrundlage für die Verarbeitung von Daten, die über eines der Kontaktformulare oder den Chat oder im Zuge der Übersendung einer E-Mail übermittelt werden. Dient die Kontaktaufnahme dem Abschluss eines Vertrages, so bildet für die Datenverarbeitung Art. 6 Abs. 1 lit. b DS-GVO die zusätzliche Rechtsgrundlage.
-   Die Verarbeitung der personenbezogenen Daten aus der Eingabemaske dient allein zur Bearbeitung der Kontaktaufnahme. Im Falle einer Kontaktaufnahme per E-Mail liegt hierin auch das erforderliche berechtigte Interesse an der Verarbeitung der Daten.
-   Die Daten werden gelöscht, sobald der Zweck erreicht ist, für den sie erhoben wurden. Personenbezogene Daten aus einem der Kontaktformular und Daten, die per E-Mail zugegangen sind, werden gelöscht, wenn die jeweilige Konversation mit dem Nutzer beendet ist. Dies ist der Fall, wenn der betroffene Sachverhalt abschließend geklärt ist.
+
+Weitere Informationen über den Zweck, den Umfang, der Verarbeitung und der Nutzung von Kundendaten können im Internet abgerufen werden unter
+
+https://www.helpscout.com/company/legal/privacy/
+
+https://calendly.com/privacy
+
+Für den Fall, dass der Kontakt mit uns über von uns bereitgestellte E-Mail-Adressen hergestellt wird, werden die mit der E-Mail übermittelten personenbezogenen Daten des Absenders gespeichert.
+In keinem der genannten Fälle werden Daten zu Werbezwecken verwendet oder an Dritte weitergegeben. Die Daten werden nur verwendet, um ein Anliegen zu bearbeiten und/oder uns in dessen Zusammenhang mit dem Absender in Verbindung zu setzen.
+Art. 6 Abs. 1 lit. f DS-GVO bildet die Rechtsgrundlage für die Verarbeitung von Daten, die über eines der Kontaktformulare oder den Chat oder im Zuge der Übersendung einer E-Mail übermittelt werden. Dient die Kontaktaufnahme dem Abschluss eines Vertrages, so bildet für die Datenverarbeitung Art. 6 Abs. 1 lit. b DS-GVO die zusätzliche Rechtsgrundlage.
+Die Verarbeitung der personenbezogenen Daten aus der Eingabemaske dient allein zur Bearbeitung der Kontaktaufnahme. Im Falle einer Kontaktaufnahme per E-Mail liegt hierin auch das erforderliche berechtigte Interesse an der Verarbeitung der Daten.
+Die Daten werden gelöscht, sobald der Zweck erreicht ist, für den sie erhoben wurden. Personenbezogene Daten aus einem der Kontaktformular und Daten, die per E-Mail zugegangen sind, werden gelöscht, wenn die jeweilige Konversation mit dem Nutzer beendet ist. Dies ist der Fall, wenn der betroffene Sachverhalt abschließend geklärt ist.
 
 ## Widerspruchsrecht
 
@@ -100,8 +128,9 @@ In den Cookies werden dabei folgende Daten gespeichert und übermittelt:
 
 1. Access-Token für Aufruf der Anwendung ohne Login
 2. Session ID für die Identifizierung der Session
-   Daten, die beim Besuch der Webseiten erhoben werden, werden durch technische Vorkehrungen pseudonymisiert und nicht gemeinsam mit sonstigen personenbezogenen Daten gespeichert. Eine Zuordnung der Daten zum Besucher der Webseiten und die Erstellung von Nutzerprofilen sind deshalb nicht möglich.
-   Die Verarbeitung personenbezogener Daten unter Verwendung von Cookies ist in Art. 6 Abs. 1 lit. f DS-GVO geregelt.
+
+Daten, die beim Besuch der Webseiten erhoben werden, werden durch technische Vorkehrungen pseudonymisiert und nicht gemeinsam mit sonstigen personenbezogenen Daten gespeichert. Eine Zuordnung der Daten zum Besucher der Webseiten und die Erstellung von Nutzerprofilen sind deshalb nicht möglich.
+Die Verarbeitung personenbezogener Daten unter Verwendung von Cookies ist in Art. 6 Abs. 1 lit. f DS-GVO geregelt.
 
 ## Betroffenenrechte
 
