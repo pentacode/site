@@ -210,7 +210,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    key "k" "mono" >}} Taste für "Krank".
 3. Es öffnet sich ein Dialog, in dem Sie den Abweisenheits-Zeitraum und die zu buchenden Fehltage eintragen können.
    Details zu diesem Dialog und generelle Informationen zur Erfassung von Abwesenheiten finden Sie im [{{< icon
-   "umbrella-beach" >}} Abwesenheiten](/hilfe/handbuch/mitarbeiter/abwesenheiten) Hilfeartikel.
+   "umbrella-beach" >}} Abwesenheiten](/hilfe/handbuch/mitarbeiter/abwesenheiten#neue-abwesenheit-erfassen) Hilfeartikel.
 
 > {{< icon "info-circle" >}} **Hinweis:** aus Gründen der Übersichtlichkeit haben wir die Abwesenheitsarten **Kind
 > Krank** und **Krank in KuG** and dieser Stelle weggelassen. Sie können diese im Bereich [Mitarbeiter /
