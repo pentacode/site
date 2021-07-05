@@ -2,60 +2,8 @@
 title: Vertrag
 weight: 8
 icon: file-contract
-anchors:
-- hash: vertragslaufzeit
-  title: Vertragslaufzeit
-- hash: beschäftigungsverhältnis
-  title: Beschäftigungsverhältnis
-- hash: arbeitszeit
-  title: Arbeitszeit
-- hash: jahresarbeitszeitkonto-vereinbart
-  title: Jahresarbeitszeitkonto Vereinbart
-- hash: fehlstundenberechnung
-  title: Fehlstundenberechnung
-- hash: lohn-und-gehalt
-  title: Lohn und Gehalt
-- hash: zusatzleistungen
-  title: Zusatzleistungen
-- hash: urlaub-und-fehltage
-  title: Urlaub und Fehltage
-- hash: zuschläge
-  title: Zuschläge
-- hash: vertrag-beenden
-  title: Vertrag beenden
-keywords:
-- vertrag
-- vertragslaufzeit
-- vertragsende
-- inaktiv
-- beschäftigungsverhätlnis
-- arbeitszeit
-- sollarbeitszeit
-- wochenfaktor
-- monatsgenau
-- monatsgenau ohne feiertage
-- feste wochentage
-- feste wochentage abzgl. feiertage
-- jahresarbeitszeitkonto
-- fehlstundenberechnung
-- feste stundenanzahl
-- 13-wochen durchschnitt
-- lohn
-- gehalt
-- provision
-- lohnartensatz
-- export
-- zusatzleistungen
-- urlaub
-- fehltage
-- zuschläge
-- kumulieren
-- zuschläge kumulieren
-- sfn-pauschale
-- vertragsende
-- vertrag beenden
-
 ---
+
 Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
 
 Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt den Vereinbarungen entsprechen, die Sie mit dem Mitarbeiter laut Arbeitsvertrag getroffen haben.
