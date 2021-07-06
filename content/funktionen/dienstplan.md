@@ -1,5 +1,6 @@
 ---
 title: Ihr digitaler **Dienstplan**
+meta_title: Ihr digitaler Dienstplan
 subtitle: Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.
 subsubtitle: "**Schnell**, **einfach**, **spielerisch** und **intelligent**"
 description: Erstellen Sie Dienstpläne, die für Ihr Unternehmen wirtschaftlich wirksam sind,

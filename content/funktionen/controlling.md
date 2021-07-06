@@ -1,5 +1,6 @@
 ---
 title: "**Controlling**"
+meta_title: Controlling
 subtitle: Ihr sofortiger Überblick über die wichtigsten Kennzahlen
 subsubtitle: Vollständige Kontrolle. Jederzeit. In Echtzeit.
 description: "Erwerben sie die vollständige Kontrolle über **Personalkosten** und

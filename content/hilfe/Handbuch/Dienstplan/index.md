@@ -1,43 +1,10 @@
 ---
 keywords: []
-title: Dienstplan Schreiben
+title: Dienstplan
 weight: 1
-icon: pencil-alt
-anchors:
-- hash: mitarbeiter-sortieren
-  title: Mitarbeiter Sortieren
-- hash: zeitraum-wechseln
-  title: Zeitraum Wechseln
-- hash: tagesansicht
-  title: Tagesansicht
-- title: Dienstplan-Tabs
-  hash: dienstplan-tabs
-- hash: filtern--suchen
-  title: Filtern & Suchen
-- hash: dienstzeiten-eintragen
-  title: Dienstzeiten Eintragen
-- title: Schichtvorschläge
-  hash: schichtvorschläge
-- hash: fehltage-eintragen
-  title: Fehltage Eintragen
-- hash: einträge-verschieben
-  title: Einträge Verschieben
-- hash: einträge-duplizieren
-  title: Einträge Duplizieren
-- hash: einträge-löschen
-  title: Einträge Löschen
-- hash: veröffentlichen--teilen
-  title: Veröffentlichen & Teilen
-- hash: dienstplan-drucken
-  title: Dienstplan Drucken
-- hash: dienstplan-vorlagen
-  title: Dienstplan-Vorlagen
-- hash: dienstplan-leeren
-  title: Dienstplan Leeren
-- title: Planungshilfen
-  hash: planungshilfen
-
+icon: table
 ---
+
 In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!
 
 Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
@@ -202,7 +169,7 @@ Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen**
 
 ### Veröffentlicher Dienstplan
 
-Die Druckoption für den "fertigen" bzw. veröffentlichen Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite.  (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken). 
+Die Druckoption für den "fertigen" bzw. veröffentlichen Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite. (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken).
 
 > **Beachten Sie:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
 
@@ -281,3 +248,39 @@ Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hi
 ### Personalkostenanalyse
 
 Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line" >}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich entstandenen vergleichen!
+
+## Plan-Ist-Vergleich
+
+Oft verliert eine Planung ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
+
+Durch das Anklicken des {{< icon "chart-line" >}}-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
+
+{{< figure caption="Über das Diagramm-Symbol werden Plan- und Ist-Kosten sichtbar gemacht" >}}
+
+![](/uploads/vergleich.png)
+
+{{< /figure >}}
+
+Sollten sich die **Felder** mit Angabe der €-Beträge **überlappen**, werden die jeweiligen Beträge durch "**Mouse-over**" sichtbar.
+
+{{< figure caption="Durch einen Mouse-over werden einander überlappende Kennzahlen dargestellt" >}}
+
+![](/uploads/plan-ist1.png)
+
+{{< /figure >}}
+
+In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" gezeigt. Über das **Dropdown-Menü** können Sie **einzelne Abteilungen** auswählen.
+
+{{< figure caption="Über den Drop-down-Pfeil können Sie einzelne Abteilungen auswählen" >}}
+
+![](/uploads/plan-ist2.png)
+
+{{< /figure >}}
+
+Durch **erneutes Anklicken** des {{< icon "chart-line" >}}-**Symbols** wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
+
+Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch Stempeluhr voraus.
+
+**Hinweis**: Wenn an einem Tag Arbeiten zu leisten sind, die nicht mit dem aktuellen Tagesgeschäft in Zusammenhang stehen (z.B. vorbereitende Arbeiten in der Küche für eine Veranstaltung, die erst in zwei Tagen stattfindet, setzen Sie in [**Planung nach Stundenvorgaben**](/hilfe/handbuch/planung/stundenvorgaben/) idealerweise das Stundenkontingent für diesen Tag entsprechend nach oben.
+
+Im Menüpunkt "[**Berichte**](/hilfe/handbuch/berichte/)" erhalten Sie u.a. auch hierzu Informationen in Form einer monatlichen Zusammenfassung.

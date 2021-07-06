@@ -1,5 +1,6 @@
 ---
 title: Automatisierte **Personalverwaltung**
+meta_title: Automatisierte Personalverwaltung
 subtitle: Personalverwaltung für Gastronomie, Hotellerie, Handel und Handwerk.
 subsubtitle: Automatisiert. Zeitsparend. Transparent.
 description: Entlasten Sie das Personalbüro und Ihre Führungsmitarbeiter.

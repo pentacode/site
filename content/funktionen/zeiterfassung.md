@@ -1,5 +1,6 @@
 ---
 title: Digitale **Zeiterfassung**
+meta_title: Digitale Zeiterfassung
 subtitle: "Elektronische Arbeitszeiterfassung für **Gastronomie**, **Hotellerie**, **Handel** und **Handwerk**"
 subsubtitle: Die Software, die Zeit und Geld spart
 description: Überlassen Sie die Zeiterfassung Ihren Mitarbeiter und die Kontrolle der
