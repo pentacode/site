@@ -1,6 +1,6 @@
 ---
 title: Abwesenheiten
-weight: 2
+weight: 6
 icon: portal-exit
 ---
 

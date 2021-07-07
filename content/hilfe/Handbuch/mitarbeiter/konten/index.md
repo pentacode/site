@@ -1,6 +1,6 @@
 ---
 title: Konten
-weight: "4"
+weight: 6
 icon: balance-scale-right
 anchors: []
 ---

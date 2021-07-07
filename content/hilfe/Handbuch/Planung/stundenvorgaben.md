@@ -1,15 +1,15 @@
 ---
 title: Planung nach Stundenvorgaben
-weight: 
+weight:
 icon: hourglass-half
 anchors:
-- hash: dienstplanung-mit-stundenvorgabe
-  title: Dienstplanung mit Stundenvorgabe
-- hash: stundenvorgabe-nach-umsatz-zielen
-  title: Stundenvorgabe nach Umsatz-Zielen
+  - hash: dienstplanung-mit-stundenvorgabe
+    title: Dienstplanung mit Stundenvorgabe
+  - hash: stundenvorgabe-nach-umsatz-zielen
+    title: Stundenvorgabe nach Umsatz-Zielen
 keywords: []
-
 ---
+
 Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.
 
 ## Dienstplanung mit Stundenvorgabe
@@ -20,7 +20,7 @@ Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" 
 
 {{< figure caption="Durch Anklicken des Feldes 'Stundenvorgabe' gelangen Sie in den Bereich 'Planung'" >}}
 
-![/uploads/stunden-zeigen.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/stunden-zeigen.png)
+![/uploads/stunden-zeigen.png](/uploads/stunden-zeigen.png)
 
 {{< /figure >}}
 
@@ -30,7 +30,7 @@ Wenn Sie dann auf das **Ø**-Symbol klicken, erscheint die **Anzahl der Stunden*
 
 {{< figure caption="In der Standardeinstellung sehen Sie den durchschnittlichen Stundenaufwand der letzten 4 Wochen" >}}
 
-![/uploads/stundenvorgaben1.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/stundenvorgaben1.png)
+![/uploads/stundenvorgaben1.png](/uploads/stundenvorgaben1.png)
 
 {{< /figure >}}
 
@@ -42,7 +42,7 @@ Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte W
 
 {{< figure caption="So können Sie Stundenvorgaben als Standard für die folgenden Wochen setzen" >}}
 
-![/uploads/stunden-standard.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/stunden-standard.png)
+![/uploads/stunden-standard.png](/uploads/stunden-standard.png)
 
 {{< /figure >}}
 
@@ -54,7 +54,7 @@ Im Dienstplan finden Sie nun die gewählten Stundenvorgaben in der Fußzeile ein
 
 {{< figure caption="Eine Überschreitung der Stundenvorgabe bei der Dienstplanung wird in Rot angezeigt" >}}
 
-![/uploads/stundenanzeige-dp.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/stundenanzeige-dp.png)
+![/uploads/stundenanzeige-dp.png](/uploads/stundenanzeige-dp.png)
 
 {{< /figure >}}
 
@@ -70,7 +70,7 @@ Durch das Anklicken des **€**-Symbols in der Fußleiste werden Ihren Stundenvo
 
 {{< figure caption="So können Sie Ihre Stundenvorgaben mit Ihren Umsatz-Zielen verknüpfen" >}}
 
-![/uploads/umsatzpl-9.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/umsatzpl-9.png)
+![/uploads/umsatzpl-9.png](/uploads/umsatzpl-9.png)
 
 {{< /figure >}}
 
@@ -78,7 +78,7 @@ Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung de
 
 {{< figure caption="Ein Mouse-over zeigt den Rechenweg" >}}
 
-![/uploads/umsatzpl-10.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/umsatzpl-10.png)
+![/uploads/umsatzpl-10.png](/uploads/umsatzpl-10.png)
 
 {{< /figure >}}
 
@@ -86,7 +86,7 @@ Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz
 
 {{< figure caption="Eine Veränderung der Stundenanzahl führt zu einer Veränderung der Produktivität" >}}
 
-![/uploads/umsatzpl-11.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/umsatzpl-11.png)
+![/uploads/umsatzpl-11.png](/uploads/umsatzpl-11.png)
 
 {{< /figure >}}
 
@@ -94,7 +94,7 @@ Soll z.B eine Produktivität von ca. 80 € / Stunde erreicht werden, muss die S
 
 {{< figure caption="Die Stundenvorgabe ändert sich im Dienstplan entsprechend" >}}
 
-![/uploads/umsatzpl-12.png](https://app.forestry.io/sites/jztko10gfepjfg/body-media//uploads/umsatzpl-12.png)
+![/uploads/umsatzpl-12.png](/uploads/umsatzpl-12.png)
 
 {{< /figure >}}
 

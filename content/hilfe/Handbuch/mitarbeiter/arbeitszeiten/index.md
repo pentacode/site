@@ -1,6 +1,6 @@
 ---
 title: Arbeitszeiten
-weight: 2
+weight: 4
 icon: hourglass-half
 ---
 
