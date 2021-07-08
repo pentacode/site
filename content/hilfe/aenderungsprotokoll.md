@@ -5,7 +5,7 @@ icon: "clipboard-list"
 anchors: []
 ---
 
-Diese Seite enthält eine detaillierte Aufstellung aller Pentacode Produkt-Updates inklusieve der jeweils
+Diese Seite enthält eine detaillierte Aufstellung aller Pentacode Produkt-Updates inklusive der jeweils
 enthaltenen Änderungen.
 
 ## 1.17.2
