@@ -3,20 +3,20 @@ title: Buchhaltung
 weight: 6
 icon: abacus
 anchors:
-- hash: allgemein
-  title: Allgemein
-- hash: kassenbuch
-  title: Kassenbuch
-- hash: lohnarten
-  title: Lohnarten
+  - hash: allgemein
+    title: Allgemein
+  - hash: kassenbuch
+    title: Kassenbuch
+  - hash: lohnarten
+    title: Lohnarten
 keywords:
-- buchhaltung
-- kontonummer
-- kassenbuch
-- lohnarten
-- lohnartensatz
-
+  - buchhaltung
+  - kontonummer
+  - kassenbuch
+  - lohnarten
+  - lohnartensatz
 ---
+
 "_Wer den Kern essen will, muss die Nuss knacken_". Leider.
 
 Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
@@ -27,23 +27,20 @@ Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum spannendsten
 
 ## Allgemein
 
-Geben Sie hier die Beraternummer (optional) Ihrer Buchhaltung und die Mandantennummer (empfehlenswert) ein, unter der Sie bei der Buchhaltung geführt werden.
+### Berater- und Mandantennummer
 
-{{< figure caption="Optionale Angaben" >}}
-
-![](/uploads/allgemein.png)
-
-{{< /figure >}}
+Die Beraternummer und Mandantennummer sind Angaben, die für den Datentransfer in verschiedene Lohnbuchhaltungsprogramme
+benötigt werden. Diese Informationen erhalten sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen.
 
 ## Kassenbuch
 
-Geben Sie hier die Nummer ein, unter der in Ihrer Buchhaltung das Kassenbuch geführt wird.
+### Buchungskonto
 
-{{< figure caption="Angabe der Kontonummer für 'Kasse'" >}}
+Geben Sie hier die Kontennummer ein, unter der in Ihrer Buchhaltung das Kassenbuch geführt wird. Diese Information erhalten Sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen. Die Standardeinstellung ist "1600".
 
-![](/uploads/kassenbuch.png)
+### Sachkontenlänge
 
-{{< /figure >}}
+Geben Sie hier die in Ihrer Buchhaltung verwendete Sachkontenlänge ein. Diese Information erhalten Sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen. Die Standarteinstellung ist "4".
 
 ## Lohnarten
 

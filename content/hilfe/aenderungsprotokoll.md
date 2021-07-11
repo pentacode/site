@@ -8,6 +8,44 @@ anchors: []
 Diese Seite enthält eine detaillierte Aufstellung aller Pentacode Produkt-Updates inklusive der jeweils
 enthaltenen Änderungen.
 
+## 1.18.0
+
+### Änderungen & Neuigkeiten
+
+- Neue Pausenmodi [Geplant](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#geplant) und [Geplant + Manuell](https://pentacode.app//hilfe/handbuch/einstellungen/zeiterfassung/#geplant--manuell).
+- Verbesserte Verwaltung von Zeiterfassungseinstellungen über [Zeiterfassungs-Regelsätze](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#über-zeiterfassungs-regelsätze).
+- Überarbeitetes [Arbeitszeitblatt](https://pentacode.app/hilfe/handbuch/mitarbeiter/arbeitszeiten/#das-arbeitszeitblatt)
+- In der [Arbeitszeiten-Übersicht](https://pentacode.app/hilfe/handbuch/mitarbeiter/arbeitszeiten/#arbeitszeiten-übersicht) werden zusätzlich zu Stunden auch Arbeits-, Urlaubs- und Kranktage angezeigt.
+- Der Lohndaten-Export unterstützt nun auch den Export von Arbeits- und Fehltagen.
+- Mitarbeiterzugängen können nun auch wieder [entzogen](https://pentacode.app/hilfe/handbuch/mitarbeiter/zugaenge-rechte/#zugang-entziehen) werden.
+- In den Ausdrucken "Arbeitszeitnachweis" und "Lohnabrechnung Individuell" werden nun Feiertage hervorgehoben.
+- Für den Export des Kassenbuchs in das Format "Datev Buchungsstapel" kann nun eine benutzerdefinierte [Sachkontenlänge](https://pentacode.app/hilfe/handbuch/einstellungen/buchhaltung/#sachkontenlänge) angegeben werden.
+
+### Behobene Fehler
+
+- Beim Drucken von veröffentlichen Dienstplänen kam es bei Abteilungen mit sehr vielen Mitarbeitern manchmal zu Darstellungsproblemen.
+- In den Pausenmodi "Automatisch" und "Automatisch + Manuell" war es nicht möglich eine abweichende Pause von 0 einzugeben.
+- Bei der Eingabe von
+  [Nachtzuschlags-Zeiträumen](https://pentacode.app/hilfe/handbuch/einstellungen/sonstiges/#nachtzuschläge) wurden
+  bestimmte valide Nacht1-Zeiträume nicht akzeptiert (z.B. 20:00 - 22:00).
+- Bei manchen Mitarbeitern wurde in der Kontenansicht ein Wert für die SFN-Pausche angezeigt obwohl diese im Vertrag deaktiviert war.
+- Im Ausdruck "Lohnabrechnung Individuell" kam es in manchen Fällen zu einer überlappenden Darstellung der Umsatz- und Provisionswerte.
+- Der Ausdruck "Lohnanbrechnung Individuell" zeigte bei Monaten ohne erfasste Arbeitszeiten eine leere Seite an.
+
+## 1.17.3
+
+### Änderungen & Neuigkeiten
+
+- Unter **Alle Mitarbeiter / Abwesenheiten** wird jetzt bei jedem Mitarbeiter der Rest-Jahresurlaub angezeigt.
+
+### Behobene Fehler
+
+- Beim Ändern von Emailadressen von Mitarbeitern mit eingerichtetem Mitarbeiterzugang kam es in manchen Fällen zu einer Fehlermeldung.
+- Verworfene Problemmeldungen wurden weiterhin im Dienstplan und AZ-Konto des Mitarbeiters angezeigt.
+- Bei Unternehmen mit mehreren Standorten wurden in manchen Fällen beim Leeren des Dienstplans in einem Standort auch Einträge aus anderen Standorten gelöscht.
+- Beim Bearbeiten von Zugängen kam es manchmal zu fehlerhaften Rollenzuweisungen.
+- Das Einrichten von Verwaltungszugängen war aufgrund eines Fehlers nur mit freigeschalteter Mitarbeiterapp möglich.
+
 ## 1.17.2
 
 ### Änderungen & Neuigkeiten
