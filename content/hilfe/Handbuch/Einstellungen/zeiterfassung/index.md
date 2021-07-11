@@ -52,7 +52,7 @@ Listeneintrags klicken und im Angezeigten Menü die Option {{< icon "trash-alt" 
 
 Beim Erstellen eines neuen Regelsatzes kann es oft nützlich sein, die Einstellungen eines anderen Regelsatzes zu
 kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option {{< icon "clone" >}}
-**Duplizieren** im {{ icon "ellipsis-h" }}-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
+**Duplizieren** im {{< icon "ellipsis-h" >}}-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
 Bearbeitungsdialog, in den duplizierten Eintrag noch bearbeiten können bevor Sie durch einen Klick auf den {{< button
 label="Speichern" >}} button den Regelsatz hinzufügen.
 

@@ -1,6 +1,6 @@
 ---
 title: "Pentacode v1.18: Pausen Planen, Zeiterfassungs-Regelsätze und mehr"
-publishDate: 2021-06-20T23:00:00+00:00
+publishDate: 2021-07-11
 cover: "az-konto.gif"
 author: mklein
 categories:
@@ -78,7 +78,7 @@ und intelligenten **Schichtvorschlägen** auf den nächsten Level gehoben. Wir f
 im Bereich "Arbeitszeiten" der einzelnen Mitarbeiter bieten zu können! Die überarbeitete Bedienoberfläche ist nun
 einheitlich mit der Schichtbearbeitung im Dienstplan gestaltet und bietet Ihnen viele der gleichen Funktionen! Falls Sie
 bereits mit dem Dienstplan gearbeitet haben werden Sie sich vermutlich sofort zurecht finden. Falls Sie mehr über die
-neue Bedienweise erfahren möchten, finden Sie detaillierte Informationen in unserem [Hilfeartikel](/hilfe/handbuch/arbeitszeitblatt)
+neue Bedienweise erfahren möchten, finden Sie detaillierte Informationen in unserem [Hilfeartikel](/hilfe/handbuch/mitarbeiter/arbeitszeiten/#das-arbeitszeitblatt).
 
 ## ... Und Mehr!
 
