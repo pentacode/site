@@ -8,6 +8,20 @@ anchors: []
 Diese Seite enthält eine detaillierte Aufstellung aller Pentacode Produkt-Updates inklusive der jeweils
 enthaltenen Änderungen.
 
+## 1.18.2
+
+### Behobene Fehler
+
+- Bei Eingabe eines längeren Zeitraumes im Abwesenheiten-Bearbeitungsdialog wurde nicht der gesamte Zeitraum dargestellt bzw. war nicht scrollbar.
+- Durch einen Performance-Engpass kam es bei manchen Anfragen zu sehr langen Ladezeiten.
+- Im Safari Browser war das Öffnen des Zählprotokolls in der Tagesabrechnung nicht möglich.
+
+## 1.18.1
+
+### Behobene Fehler
+
+- Beim Bearbeiten von Mitarbeiterverträgen kam es zu einer Fehlermeldung, falls unter "Urlaubszuwachs" die Option "Nach Arbeitsstunden" gewählt war.
+
 ## 1.18.0
 
 ### Änderungen & Neuigkeiten
