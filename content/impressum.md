@@ -1,18 +1,18 @@
 ---
 title: Impressum
 hide_menu: true
----
 
+---
 ## Herausgeber
 
-**Sandstrøm Brand Management AG**\
-Lindwurmstraße 147\
-80337 München\
+**Sandstrøm Brand Management AG**  
+Lindwurmstraße 147  
+80337 München  
 Germany
 
-**Tel**: +49 89 21 54 820 0\
-**Fax**: +49 89 21 54 820 99\
-**EMail**: contact@pentacode.app\
+**Tel**: +49 89 21 54 820 0  
+**Fax**: +49 89 21 54 820 99  
+**EMail**: contact@pentacode.app  
 **Internet**: https://pentacode.app
 
 ### Vorstand
@@ -21,13 +21,13 @@ Lorenz Strasser
 
 ### Aufsichtsrat
 
-Klaus Wigand (Vorsitzender)\
-Jürgen Strasser\
-Marco Zaretti\
+Klaus Wigand (Vorsitzender)  
+Jürgen Strasser  
+Marco Zaretti
 
 ### Ust. Id. Nr. / HRB
 
-DE252006209 / 197981
+DE252006209 / 196631
 
 ### Verantwortlich
 
