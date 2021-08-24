@@ -1,12 +1,12 @@
 ---
-title: "Pentacode v1.19: Dienstplannotizen, Schichtwahl, Schichttausch"
+title: 'Pentacode v1.19: Dienstplannotizen, Schichtwahl, Schichttausch'
 publishDate: 2021-07-24
-cover: "dienstplannotiz-erstellen.gif"
+cover: dienstplannotiz-erstellen.gif
 author: mklein
 categories:
-  - Produktupdates
----
+- Produktupdates
 
+---
 Pentacode Version 1.19.0 ist hier! Dies Update bringt einige langerwartete Features und Verbesserungen.
 
 ## Dienstplannotizen
@@ -31,10 +31,7 @@ unkomplizierte Möglichkeit, bestimmte Ereignisse und Anforderungen an Ihre Mita
 <img src="schichtwahl.gif">
 {{< /figure >}}
 
-Einer der wohl zeitraubensten und oft auch frustierenden Aspekte bei der Dienstplanung ist herauszufinden, wer wann
-verfügbar ist welche Schichten übernehmen kann und will. Dies ist vor allem dann eine schwierige Aufgabe, wenn
-Arbeitszeitanforderungen und Verfügbarkeit von Mitarbeitern sich wöchentlich ändern oder ein großer Teil der
-Arbeitskräfte Aushilfen sind.
+Einer der wohl zeitraubendsten und oft auch frustierenden Aspekte bei der Dienstplanung ist herauszufinden, wer wann verfügbar ist oder wer welche Schichten übernehmen kann und will. Dies ist vor allem dann eine schwierige Aufgabe, wenn Arbeitszeitanforderungen und Verfügbarkeit von Mitarbeitern sich häufig ändern oder ein großer Teil der Arbeitskräfte Aushilfen sind.
 
 Wäre es nicht toll, wenn Sie einfach Ihre Personalanforderungen definieren und Ihre Mitarbeiter sich dann selbständig
 die gewünschten Schichten auswählen könnten? Genau das ist mit Pentacode v1.19.0 nun möglich! Anstatt Schichten Ihren
@@ -43,15 +40,11 @@ dann automatisch den geeigneten Mitarbeitern auf Basis von Verfügbarkeit und Qu
 müssen nun nur noch die gewünschten Arbeitseinsätze per Mitarbeiter-App übernehmen. Pentacode stellt automatisch sicher,
 dass Schichten nicht doppelt vergeben werden oder es zu Schichtüberlappungen oder Konflikten mit Abwesenheiten kommt.
 
-Aber es kommt noch besser! Falls ein Mitarbeiter eine ihm bereits zugewiesene Schicht nicht antreten kann, kann er diese
-nun ganz einfach über die Mitarbeiterapp zum Tausch freigeben. Die Schicht wir dann wiederum anderen verfügbaren
-Mitarbeitern zur Auswahl angeboten. So können Ihre Mitarbeiter selbständig und unkompliziert Schichten tauschen ohne
-dass Sie selbst koordinierend eingreifen müssen!
+Aber es kommt noch besser! Falls ein Mitarbeiter eine ihm bereits zugewiesene Schicht nicht antreten kann, kann er diese nun ganz einfach über die Mitarbeiterapp zum Tausch freigeben. Die Schicht wird dann wiederum anderen verfügbaren Mitarbeitern zur Auswahl angeboten. So können Ihre Mitarbeiter selbständig und unkompliziert Schichten tauschen, ohne dass Sie selbst koordinierend eingreifen müssen!
 
-Und keine Sorge, sowohl die selbstständige Schichtwahl als auch das Angebot zum Schichttausch sind nur mit expliziter Berechtigung erlaubt, welche sie ganz flexibel für alle oder einzelne Ihrer Mitarbeiter vergeben können.
+Und keine Sorge, sowohl die selbstständige Schichtwahl als auch das Angebot zum Schichttausch sind nur mit ausdrücklicher Berechtigung erlaubt. Diese Berchtigung können Sie ganz flexibel für alle oder einzelne Ihrer Mitarbeiter vergeben.
 
-> Die selbstständige Schichtwahl und Schichtausch sind nur verfügbar, wenn sie die Pentacode Mitarbeiter-App nutzen.
-> Sollte diese noch nicht für Ihr Unternehmen freigeschaltet sein, wenden Sie sich bitte an unseren Support!
+> Die selbstständige Schichtwahl und Schichttausch sind nur verfügbar, wenn sie die Pentacode Mitarbeiter-App nutzen. Sollte diese noch nicht für Ihr Unternehmen freigeschaltet sein, wenden Sie sich bitte an unseren Support!
 
 ## ... Und Mehr!
 
