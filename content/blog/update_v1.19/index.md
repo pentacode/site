@@ -11,9 +11,7 @@ Pentacode Version 1.19.0 ist hier! Dies Update bringt einige langerwartete Featu
 
 ## Dienstplannotizen
 
-Das Erstellen von Dienstplänen ist meist eine routinemäßige Angelegenheit. Aber selbst im "langweiligsten" Betrieb gibt es
-immer wieder besondere Ereignisse oder Aktionen, die in der Dienstplanung berücksichtigt werden müssen. Hier für gibt es
-in Pentacode nun die **Dienstplannotizen**! Dienstplannotizen sind ganz einfach und schnell über die Dienstplanansicht
+Das Erstellen von Dienstplänen ist meist eine routinemäßige Angelegenheit. Aber selbst im "langweiligsten" Betrieb gibt es immer wieder besondere Ereignisse oder Aktionen, die in der Dienstplanung berücksichtigt werden müssen. Hierfür gibt es in Pentacode nun die **Dienstplannotizen**! Dienstplannotizen sind ganz einfach und schnell über die Dienstplanansicht
 erstellt und können eine beliebigen Zeitraum, sowie beliebige Abteilungen umfassen!
 
 {{< figure caption="Dienstplannotizen werden unter Anderem beim Anmelden in der Stempeluhr angezeigt." class="centered">}}
@@ -33,12 +31,7 @@ unkomplizierte Möglichkeit, bestimmte Ereignisse und Anforderungen an Ihre Mita
 
 Einer der wohl zeitraubendsten und oft auch frustierenden Aspekte bei der Dienstplanung ist herauszufinden, wer wann verfügbar ist oder wer welche Schichten übernehmen kann und will. Dies ist vor allem dann eine schwierige Aufgabe, wenn Arbeitszeitanforderungen und Verfügbarkeit von Mitarbeitern sich häufig ändern oder ein großer Teil der Arbeitskräfte Aushilfen sind.
 
-Wäre es nicht toll, wenn Sie einfach Ihre Personalanforderungen definieren und Ihre Mitarbeiter sich dann selbständig
-die gewünschten Schichten auswählen könnten? Genau das ist mit Pentacode v1.19.0 nun möglich! Anstatt Schichten Ihren
-Mitarbeitern direkt zuzuweisen, können Sie diese nun einfach als "Nicht Zugewiesen" markieren. Diese Schichten werden
-dann automatisch den geeigneten Mitarbeitern auf Basis von Verfügbarkeit und Qualifikation angeboten und die Mitarbeiter
-müssen nun nur noch die gewünschten Arbeitseinsätze per Mitarbeiter-App übernehmen. Pentacode stellt automatisch sicher,
-dass Schichten nicht doppelt vergeben werden oder es zu Schichtüberlappungen oder Konflikten mit Abwesenheiten kommt.
+Wäre es nicht toll, wenn Sie einfach Ihre Personalanforderungen definieren und Ihre Mitarbeiter sich dann selbständig die gewünschten Schichten auswählen könnten? Genau das ist mit Pentacode v1.19.0 nun möglich! Anstatt Schichten Ihren Mitarbeitern direkt zuzuweisen, können Sie diese Schichten nun einfach im Dienstplan unter "Nicht Zugewiesen" ablegen. Diese Schichten werden dann automatisch den geeigneten Mitarbeitern auf Basis von Verfügbarkeit und Qualifikation angeboten und die Mitarbeiter müssen nun nur noch die gewünschten Arbeitseinsätze per Mitarbeiter-App übernehmen. Pentacode stellt automatisch sicher, dass Schichten nicht doppelt vergeben werden oder es zu Schichtüberlappungen oder Konflikten mit Abwesenheiten kommt.
 
 Aber es kommt noch besser! Falls ein Mitarbeiter eine ihm bereits zugewiesene Schicht nicht antreten kann, kann er diese nun ganz einfach über die Mitarbeiterapp zum Tausch freigeben. Die Schicht wird dann wiederum anderen verfügbaren Mitarbeitern zur Auswahl angeboten. So können Ihre Mitarbeiter selbständig und unkompliziert Schichten tauschen, ohne dass Sie selbst koordinierend eingreifen müssen!
 
