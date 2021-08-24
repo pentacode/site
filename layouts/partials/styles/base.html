@@ -248,6 +248,10 @@
         color: var(--blue);
     }
 
+    blockquote p {
+        margin: 0;
+    }
+
     blockquote a {
         text-decoration: underline;
     }
@@ -423,5 +427,14 @@
 
     .mono {
         font-family: monospace;
+    }
+
+    @media (max-width: 55em) {
+        figure.float-right,
+        figure.float-left {
+            float: none;
+            width: 100%;
+            margin: 1em 0;
+        }
     }
 </style>

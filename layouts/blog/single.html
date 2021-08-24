@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="horizontal layout">
+            <div class="horizontal layout heading">
                 <h1 class="stretch">{{ .Title }}</h1>
                 <div class="article-author center-aligning horizontal layout">
                     <img class="article-author-image" src="{{ $author.image }}" />
@@ -42,10 +42,12 @@
             </div>
 
             {{ with .Params.cover }}
-                <img class="article-cover" src="{{ . }}" />
+                <div class="article-cover-wrapper">
+                    <img class="article-cover" src="{{ . }}" />
+                </div>
             {{ end }}
 
-            <div>
+            <div class="article-content">
                 {{ .Content }}
             </div>
         </article>

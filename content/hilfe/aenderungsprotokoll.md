@@ -8,6 +8,45 @@ anchors: []
 Diese Seite enthält eine detaillierte Aufstellung aller Pentacode Produkt-Updates inklusive der jeweils
 enthaltenen Änderungen.
 
+## 1.19.0
+
+### Änderungen & Neuigkeiten
+
+- Neues Feature: Dienstplannotizen!
+- Neues Feature: Schichtbewerbungen und Schichttausch!
+- Verbesserter, einheitlicher Mitarbeiter-Filter mit Memoryfunktion.
+- Frei- und Guttage werden nun in der Abwesenheits-Übersicht angezeigt.
+- Bemerkungen/Kommentare auf geplante Schichten werden nun sowohl in der Stempeluhr, als auch im Dienstplan in der Mitarbeiter-App angezeigt.
+- Durch tippen auf den QR-Code in der Stempeluhr kann nun eine vergrößerte Ansicht geöffnet werden.
+
+## 1.18.5
+
+### Behobene Fehler
+
+- Bei Arbeitszeiten, die nach 0 Uhr begannen wurden in manchen Fällen Nacht1-Zuschläge nicht korrekt berechnet.
+- Bei in der Tagesabrechnung vorausgewählten Umsatzgruppen wurde der Buchungschlüssel nicht übernommen.
+- Lange Positionsnamen wurden im Arbeitszeitblatt fehlerhaft dargestellt.
+- Manager mit Berechtigung "Mitarbeiter / Abwesenheiten" wurden nicht über Abwesenheitsanträge benachrichtigt (sondern nur der Besitzer).
+
+## 1.18.4
+
+### Änderungen & Neuigkeiten
+
+- Im Arbeitszeitblatt werden zusätzlich zu geplanten und erfassten Zeiten nun wieder auch gestempelte Zeiten angezeigt (falls vorhanden).
+
+### Behobene Fehler
+
+- Bei der Zuordnung von Mitarbeitern zu Zeiterfassungs-Regelsätzen wurden auch inaktive Mitarbeiter zur Auswahl angeboten.
+- Bei Betrieben mit einer großen Anzahl von Abteilungen kam es zu Anzeigeproblem bei der Abteilungsauswahl in der Stempeluhr.
+- Beim Verwenden der Suchfunktion im Arbeitszeitblatt eines Mitarbeiters führten verschiedene Funktionstasten (z.B. "w", "s", "a", "d" etc.) zu unerwartetem Verhalten.
+- Das Bearbeiten von Standorten, Abteilungen oder Mitarbeitern führe in manchen Fällen zu Aufhebung von Zeiterfassungs-Regelsatz-Zuweisungen.
+
+## 1.18.3
+
+### Behobene Fehler
+
+- Beim Speichern im Bereich Einstellungen / Buchhaltung kam es in manchen Fällen zu einer Fehlermeldung.
+
 ## 1.18.2
 
 ### Behobene Fehler
