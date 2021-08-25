@@ -7,7 +7,7 @@ categories:
 - Produktupdates
 
 ---
-Pentacode Version 1.19.0 ist hier! Dies Update bringt einige langerwartete Features und Verbesserungen.
+Pentacode Version 1.19.0 ist hier! Dieses Update bringt einige langerwartete Features und Verbesserungen.
 
 ## Dienstplannotizen
 
@@ -35,7 +35,7 @@ Wäre es nicht toll, wenn Sie einfach Ihre Personalanforderungen definieren und 
 
 Aber es kommt noch besser! Falls ein Mitarbeiter eine ihm bereits zugewiesene Schicht nicht antreten kann, kann er diese nun ganz einfach über die Mitarbeiterapp zum Tausch freigeben. Die Schicht wird dann wiederum anderen verfügbaren Mitarbeitern zur Auswahl angeboten. So können Ihre Mitarbeiter selbständig und unkompliziert Schichten tauschen, ohne dass Sie selbst koordinierend eingreifen müssen!
 
-Und keine Sorge, sowohl die selbstständige Schichtwahl als auch das Angebot zum Schichttausch sind nur mit ausdrücklicher Berechtigung erlaubt. Diese Berchtigung können Sie ganz flexibel für alle oder einzelne Ihrer Mitarbeiter vergeben.
+Und keine Sorge, sowohl die selbstständige Schichtwahl als auch das Angebot zum Schichttausch sind nur mit ausdrücklicher Berechtigung erlaubt. Diese Berechtigung können Sie ganz flexibel für alle oder einzelne Ihrer Mitarbeiter vergeben.
 
 > Die selbstständige Schichtwahl und Schichttausch sind nur verfügbar, wenn sie die Pentacode Mitarbeiter-App nutzen. Sollte diese noch nicht für Ihr Unternehmen freigeschaltet sein, wenden Sie sich bitte an unseren Support!
 
