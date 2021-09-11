@@ -5,14 +5,15 @@ summary: Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wen
   um Personalkosten geht, bietet in Europa gerade Deutschland die besten Voraussetzungen
   für Arbeitgeber. Warum und wie Sie die bestehenden Möglichkeiten unbedingt nutzen
   sollten.
-date: "2020-09-23T22:00:00+00:00"
+date: '2020-09-23T22:00:00+00:00'
 publishDate: 2020-09-24
 cover: "/uploads/athlet.jpg"
 author: lstrasser
 categories:
-  - Ratgeber
----
+- Ratgeber
+keywords: []
 
+---
 Im Verhältnis zu anderen Branchen schneidet die Gastronomie im Durchschnitt wirtschaftlich relativ schlecht ab. Dies wird häufig damit begründet, dass Lohnkosten und Abgabenlast zu hoch und damit die Profitabilität der Unternehmen zu gering seien. Dieser Eindruck entsteht leicht und ist verständlich, wenn ein Gastronom nach einer langen Reihe langer und harter Arbeitstage „sieht“, was für ihn am Ende übrig blieb. Die Annahme, dass die Kosten für Arbeit in Deutschland zu hoch sind, ist in den allermeisten Aspekten jedoch schlicht falsch.
 
 Tatsächlich bietet der Wirtschaftsstandort Deutschland Voraussetzungen, die sich Unternehmer in anderen Ländern Europas wünschen würden. Zum einen bietet der Gesetzgeber Möglichkeiten der Lohngestaltung, die in anderen Staaten nicht einmal zu träumen sind. Und darüber hinaus, auch wenn es nicht der subjektiven Wahrnehmung der deutschen Unternehmer entspricht: die Lohnkosten in Deutschland liegen zum Teil erheblich unter dem europäischen Durchschnitt. Die Möglichkeiten, die sich aus diesen beiden Faktoren ergeben, müssen nur genutzt werden.
@@ -45,7 +46,7 @@ Den maßgeblichen Unterschied macht möglicherweise der Tourismus aus. 39 Mio. T
 
 Gastronomie ist an erster Stelle umsatzgetrieben. Denn zu den Kosten der Warenabgabe und den im Durchschnitt zu hohen Personalkosten kommen relativ hohe Fixkosten durch Miete, Energie- und Entsorgungskosten hinzu und an diesen Kosten lässt sich nur schwer drehen.
 
-Die Fixkosten lassen sich zwar optimieren, doch ist die Wirkung in Summe meist zu vernachlässigen. Die nachhaltige Senkung des Wareneinsatzes erfordert einen erheblichen Aufwand an Energie und Zeit, den Einsatz geeigneter Medien und Programme und nicht zuletzt tiefergehendeKenntnis vom F&B-Management. Darüber hinaus ist der nachhaltige Erfolg abhängig von der Mitarbeit des gesamten Teams, der fortwährenden Disziplin bei der Rezeptur-getreuen Zubereitung der Speisen und Getränke und der präzisen Arbeit eines jeden Einzelnen. Mit jedem Schnitt des Tranchiermessers wird der Wareneinsatz schließlich im Kleinteiligen neu definiert.
+Die Fixkosten lassen sich zwar optimieren, doch ist die Wirkung in Summe meist zu vernachlässigen. Die nachhaltige Senkung des Wareneinsatzes erfordert einen erheblichen Aufwand an Energie und Zeit, den Einsatz geeigneter Medien und Programme und nicht zuletzt tiefergehende Kenntnis vom F&B-Management. Darüber hinaus ist der nachhaltige Erfolg abhängig von der Mitarbeit des gesamten Teams, der fortwährenden Disziplin bei der Rezeptur-getreuen Zubereitung der Speisen und Getränke und der präzisen Arbeit eines jeden Einzelnen. Mit jedem Schnitt des Tranchiermessers wird der Wareneinsatz schließlich im Kleinteiligen neu definiert.
 
 Doch selbst wenn der Einzelne in diesem Bereich alles richtig machen sollte, sieht er sich häufig Kollegen gegenüber, die eben nicht rechnen können oder wollen. Das sind jene, die meinen, dass die Anwendung der Grundrechenarten in der Gastronomie überflüssig sei. Die genannten Kollegen treten gegen den örtlichen Wettbewerber deshalb mit einem Schnitzel an, das noch größer als das des Konkurrenten und nochmal einen Euro günstiger ist.
 
