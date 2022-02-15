@@ -53,12 +53,26 @@ Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur beitrags
 Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige
 Zuschläge berücksichtigt.
 
-## Nachtzuschläge
+## Arbeitszeiten & Konten festgeschreiben
 
-Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
+Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der Umstand, dass Sie jederzeit "in die
+Vergangenheit reisen" und Korrekturen an bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei
+automatisch alle betroffenen Lohnabrechnungen und Konten neu und liefert damit jederzeit eine **in sich stimmige,
+wiederspruchsfreie Dokumentation**.
 
-Sie können die **Zeiträume**, in denen Sie Ihre Mitarbeiter **Nachtzuschläge** erhalten sollen, einengen.
+Diese Flexibilität bringt allerdings auch Gefahren mit sich. So kann zum Beispiel die Änderung an einer Arbeitszeit in
+an einem bereits abgeschlossenen Monat schnell zu Unstimmigkeiten mit bereits durchgeführten Lohnabrechnungen führen.
+Desweiteren können Änderungen an bestimmten Vertragsdaten oder Zeiterfassungs-Einstellungen ebenfalls zu einer
+ungewünschten, rückwirkenden Neuberechnung von Konten und Lohnabrechungen führen.
 
-Pentacode **überprüft** hierbei die Zulässigkeit Ihrer Angaben entsprechend der **gesetzlichen Richtlinien**.
+Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in regelmäßigen Abständen festzuschreiben.
+Dies tun sie wie folgt:
 
-Diese ermöglichen die Zahlung von bis zu 25% Zuschlag auf den Bruttolohn in der Zeit von 20:00 Uhr bis 06:00 Uhr, sowie Nachtzuschläge für die Zeit von 00:00 Uhr bis 04:00 Uhr (sofern die Arbeit vor 0:00 Uhr aufgenommen wurde).
+1. Navigieren Sie zum Punkt **Einstellungen > Sonstiges**.
+2. Unter dem Punk **Arbeitszeiten & Konten festschreiben**, klicken sie auf den Button {{< icon "pencil-alt" >}} **Bearbeiten**.
+3. Klicken Sie auf **Zeitraum wählen...** und wählen Sie den Monat, bis zu welchem Arbeitszeiten und Konten festgeschrieben werden sollen.
+4. Klicken sie auf **Bestätigen**.
+
+{{< figure caption="Unter dem Punkt Einstellungen > Sonstiges können Sie ein Festschreibungsdatum für Arbeitszeiten und Konten festlegen." >}}
+<img src="zeiten-festschreiben.png" />
+{{< /figure >}}

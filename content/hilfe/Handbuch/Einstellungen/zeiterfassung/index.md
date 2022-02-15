@@ -103,15 +103,17 @@ welcher Regelsatz bei einer bestimmten Schicht zur Anwendung kommt. Pentacode sc
 der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Selectieren Sie hierfür
 einfach die gewüschte Schicht - der Regelsatz erscheint dann unter dem Punkt {{< icon "sliders-h" >}} **Regeln**.
 
-## Pausenberechnung
+## Pausen
 
-Unter dem Punkt "Pausen" können Sie defnieren, wie Pausenzeiten in Pentacode erfasst werden sollen. Es stehen Ihnen
+### Pausenmodus
+
+Unter dem Punkt "Pausenmodus" können Sie definieren, wie Pausenzeiten in Pentacode erfasst werden sollen. Es stehen Ihnen
 hierbei folgende Modi zu Verfügung.
 
 > **Keine Sorge**, egal welchen Pausenmodus Sie wählen, Sie haben immer das letzte Wort. D.h. Pausen können nach
 > Abschluss einer Schicht jederzeit nachbarbeitet und korrigiert werden.
 
-### Automatisch
+#### Automatisch
 
 In diesem Modus ermittelt Pentacode ermittelt Pentacode automatisch die Dauer der Pause basierend auf der **entgültigen
 Arbeitsdauer** (nicht anhand der geplanten Dauer). Dabei können genau definieren ab welcher Dauer wie viel Pause
@@ -121,33 +123,37 @@ von **9 Stunden**. Diese Werte können Sie natürlich jederzeit abändern bezieh
 entfernen. Zum hinzufügen einer Stufe, klicken Sie den {{< button label="Stufe Hinzufügen" icon="plus" >}} button. Um
 eine Stufe zu entfernen, bewegen Sie die Maus darüber und klicken Sie den {{< button icon="trash" >}} button.
 
-### Manuell
+#### Manuell
 
 In diesem Modus werden Zeiten ausschließlich manuell über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr)
 oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst. Der Mitarbeiter erfasst dann immer Beginn und Ende jeder Pause -
 Pentacode berechnet dann automatisch die Länge der Pause und zählt am Ende alle Teilpausen zusammen um zur entgültigen
 gesamten Pausenlänge zu gelangen.
 
-### Automatisch + Manuell
+#### Automatisch + Manuell
 
 Dieser Pausenmodus kombiniert die Funktionalität der beiden vorgenannten Pausenmodi: Pentacode berechnet zunächst die
 automatische Pause anhand der von Ihnen definierten Stufen. Mitarbeiter können dann zusätzlich manuell Pausen
 erfassen, welche dann zu der automatischen Pause **hinzugerechnet** werden.
 
-### Geplant
+#### Geplant
 
 Dieser Pausenmodus funktioniert ähnlich wie der Modus [Automatisch](#automatisch), mit dem Unterschied dass die Länge
 der Pause nicht anhand Arbeitszeitdauer und vordefinierten Stufen berechnet, sondern bei jeder Schicht explizit bei der
 Planung angegeben wird. Die geplante Pause wird dann beim Abschluss der Schicht automatisch als entdgültige Pause
 übernommen.
 
-### Geplant + Manuell
+#### Geplant + Manuell
 
 Ähnlich wie der Pausenmodus "Automatisch + Manuell" vereint dieser Pausenmodus die Funktionalität der geplanten und
 manuell erfassten Pausen. Manuell erfasste Pausen werden dann beim Abschluss der Schicht zur geplante Pause
 **hinzuaddiert**.
 
-## Bezahlte Pausen
+### Bezahlte Pausen
+
+> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
+> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
 Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie dies durch das Setzen der Buttons
 {{< button label="Automatische/Geplante Pausen Werden Bezahlt" >}} und {{< button label="Manuelle Pausen Werden Bezahlt" >}} einstellen.
@@ -156,6 +162,16 @@ Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewies
 Dauer jedoch der Arbeitszeit zugerechnet.
 
 > **Beispiel:** Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
+
+### Pausenabzug
+
+> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
+> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
+
+Unter dem Punkt **Pausen abziehen von** können Sie definieren, ob genommene Pausen am Anfang oder am Ende der Schicht zum Abzug kommen sollen. Dies hat vor allem Einfluss auf die Berechnung von SFN-Zuschlägen.
+
+> **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitinterval **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Interval **18:00 - 01:30** und es fallen nur **5,5 Stunden** and Nachtzuschlägen an. 
 
 ## Buchung von Mitarbeiteressen
 
@@ -170,7 +186,7 @@ Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über d
 
 > Alle weiteren Optionen betreffen ausschließlich die Zeiterfassung per Stempeluhr und werden ausgeblendet, falls diese Option deaktiviert ist.
 
-## Mitarbeiter-App
+### Stempeln via MA-App erlauben
 
 Hier können Sie einstellen, ob Mitarbeiter zusätzlich zur digitalen Stempeluhr auch über die Mitarbeiter-App Zeiten erfassen dürfen. Hierfür aktivieren oder deaktivieren Sie einfach den Button {{< button label="Stempeln Via MA-App Erlauben" >}}.
 
@@ -186,8 +202,6 @@ soll, an denen kein Tablet mit Stempeluhr vorhanden ist (z.B. im Homeoffice).
 > nach jedem Scannen des QR-Codes muss der Mitarbeiter nach spätestens einer Stunden den Code erneut scannen, bevor er/sie
 > erneut ein- oder ausstempeln kann. Auch das erfassen von Pausen erfordert eine verifizierung per QR-Code (falls diese
 > Option aktiviert ist).
-
-## Anmeldung / Einstempeln
 
 ### Verfrühte Anmeldung
 
@@ -211,8 +225,6 @@ frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
 Ist Die Option bei {{< button label="Anmeldung Ohne Dienstplan" >}} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
-## Abmeldung / Ausstempeln
-
 ### Verspätete Abmeldung
 
 Unter dem Punkt **Bei Verspäteter Anmeldung** können Sie bestimmen, wie Pentacode verfahren soll, wenn ein Mitarbeiter
@@ -231,7 +243,7 @@ Unter dem Punkt **Automatische Abmeldung** legen Sie fest, wie lange der Mitarbe
 
 > **WICHTIG:** "Automatische Abmeldung" bedeutet **nicht**, dass automatisch ein Schichtende erfasst wird. Stattdessen vermerkt Pentacode die Schicht als "nicht abgeschlossen" und wird Sie daran erinnern, die Endzeit manuell nachzutragen.
 
-## Rundung von Stempelzeiten
+### Rundung von Stempelzeiten
 
 Unter dem Punkt **"Rundung"** können Sie Regeln zur Auf- oder Abrundung von Stempelzeiten bestimmen.
 
@@ -240,10 +252,6 @@ Beispiel für Anmeldung **"auf 5 Minuten Aufrunden"**: Ein Mitarbeiter meldet si
 Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sich um **22:22** Uhr ab, im System ist **22:20** Uhr registriert.
 
 > **Übrigens**: die Rundungen bei Anmeldung und Abmeldung auf nur volle 5 Minuten entsprechen bei einem durchschnittlichen 8-Stunden-Tag etwas mehr als 1% der Arbeitszeit in Ihrem Unternehmen.
-
-## Anzeige
-
-Über den Punkt "Anzeige" können Sie Darstellung der digitalen Stempeluhr anpassen.
 
 ### Mitarbeiter Kurzinfo Anzeigen
 
@@ -254,3 +262,48 @@ seine aktuellen Überstunden und Resturlaub angezeigt.
 
 Ist diese Option aktiviert können Mitarbeiter über einen Button an der Stempeluhr jederzeit den aktuellen Dienstplan
 einsehen.
+
+## Zuschläge
+
+> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
+> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
+
+Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch
+nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
+
+Unter dem Punkt **Zuschläge** können Sie die Zeiträume, in denen Sie Ihre Mitarbeiter SFN-Zuschläge erhalten sollen,
+einengen oder ausweiten.
+
+> **ACHTUNG:** Zwar erlaubt Pentacode Ihnen, die Zuschlagszeiträume über die vom Gesetzgeber vorgesehenen Zeiträume
+> hinaus auszuweiten, allerdings gilt es dabei zu beachten, **dass hierdurch zusätzlich entstandene Zuschläge
+> beitragspflichtig sind**! Pentacode kann die Unterscheidung zwischen beitragspflichtigen und beitragsfreien Zuschlägen in
+> diesem Fall **nicht** vornehmen und behandelt die Zuschläge in ihrer Gesamtheit als beitragsfrei. **Bitte sprechen
+> Sie mit Ihrem Lohnbüro oder Steuerberater bevor Sie Änderungen an diesen Zeiträufem vornehmem!**
+
+Folgende Zuschlagszeiträume sind vom Gesetzgeber vorgesehen:
+
+|Zuschlagsart|Zeitraum|Maximaler Zuschlag|
+|-|-|-|
+|Nacht 1|20:00 - 06:00|25%|
+|Nacht 2|00:00 - 04:00|40%|
+|Sonntage|Gesamter Tag + bis 4 Uhr des Folgetages|50%|
+|Feiertage|Gesamter Tag + bis 4 Uhr des Folgetages|125%|
+|Heilig Abend|Ab 14:00|150%|
+|Silvester|Ab 14:00|150%|
+
+## Neuberechnung von Konten & Lohnabrechnungen
+
+Bei der Bearbeitung von Zeiterfassungs-Regelsätzen gilt es zu beachten, **dass einige Einstellungen direkte oder
+indirekte Auswirkungen auf die Berechnung von Konten, Zuschlägen und Lohnabrechnungen im allgemeinen haben können**. Da
+Zeiterfassungs-Regelsätze anders als z.B. Mitarbeiterverträge nicht auf einen bestimmten Zeitraum begrenzt sind, **lösen
+Änderungen an diesen Einstellungen in der Regel eine Neuberechnung (auch rückwirkend!) aller betroffenen Konten &
+Lohnabrechnungen aus**. Um dies zu vermeiden, empfehlen wir Ihnen, vor der Änderung einer solchen Einstellung
+[Arbeitszeiten und Konten
+festzuschreiben](/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festgeschreiben).
+
+Folgende Zeiterfassungs-Einstellungen wirken sich auf die Berechnung von Zuschlägen, Konten & Lohnabrechnungen aus:
+
+- [Bezahlte Pausen](#bezahlte-pausen)
+- [Pausenabzug](#pausenabzug)
+- [Zuschlagszeiträume](#zuschläge)
