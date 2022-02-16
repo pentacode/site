@@ -11,11 +11,11 @@ Präferenzen Ihrer Mitarbeiter zu kennen.
 
 Mit Pentacode können Sie schnell und bequem erfassen, welche Tage und Uhrzeiten von Ihren Mitarbeitern bevorzugt werden,
 welche Mitarbeiter an bestimmten Tagen nicht arbeiten können, wer eventuell an manchen Tagen früher gehen muss und vieles
-mehr! Die gespeicherten Informationen werden dann automatisch im Dienstplan angezeigt und dienen Ihnen dort als inuitive
+mehr! Die gespeicherten Informationen werden dann automatisch im Dienstplan angezeigt und dienen Ihnen dort als intuitive
 und leicht zugängliche Planungshilfe.
 
 > {{< icon "lightbulb" >}} **Tipp:** Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app)
-> Mitarbeiter Ihre Verfügbarkeiten selbst erfassen!
+> können Mitarbeiter Ihre Verfügbarkeiten selbst erfassen!
 
 Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügung:
 
@@ -24,7 +24,7 @@ Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügu
 - {{< icon "heart" >}} Bevorzugt
 - {{< icon "couch" >}} Wunschfrei
 
-Verfügbarkeiten dienen lediglich als Hinweis für die Dienstplanung und können jederzeit ausgeblendet oder ingoriert
+Verfügbarkeiten dienen lediglich als Hinweis für die Dienstplanung und können jederzeit ausgeblendet oder ignoriert
 werden. Ob sie Verfügbarkeiten selbst erfassen oder Ihre Mitarbeiter diese über die Pentacode
 [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) eingeben, sie behalten immer das letzte Wort.
 
@@ -35,7 +35,7 @@ In der Verfügbarkeiten-Übersicht sehen Sie die Verfügbarkeiten aller Ihrer Mi
 Sie gelangen in die Verfügbarkeiten-Übersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt
 **Verfügbarkeiten** wählen.
 
-> {{< icon "lightbulb" >}} **Tipp:** Möchten Sie die nur die Verfügbarkeiten einer bestimmten Abteilung sehen? Über das
+> {{< icon "lightbulb" >}} **Tipp:** Möchten Sie nur die Verfügbarkeiten einer bestimmten Abteilung sehen? Über das
 > {{< icon "filter" >}}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
 > bestimmter Abteilungen beschränken.
 
@@ -55,7 +55,7 @@ Um in die Verfügbarkeiten-Einzelansicht eines Mitarbeiters zu gelangen, navigie
 
 ## Verfügbarkeit Erfassen
 
-So funktioniert das **erfassen einer neuen Verfügbarkeit**:
+So funktioniert das **Erfassen einer neuen Verfügbarkeit**:
 
 1. **In der [Übersicht](#übersicht):** Klicken Sie auf das Kästchen, dass dem gewünschten
    Mitarbeiter und Tag der Verfügbarkeit entspricht.
