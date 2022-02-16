@@ -300,7 +300,7 @@ Zeiterfassungs-Regelsätze anders als z.B. Mitarbeiterverträge nicht auf einen 
 Änderungen an diesen Einstellungen in der Regel eine Neuberechnung (auch rückwirkend!) aller betroffenen Konten &
 Lohnabrechnungen aus**. Um dies zu vermeiden, empfehlen wir Ihnen, vor der Änderung einer solchen Einstellung
 [Arbeitszeiten und Konten
-festzuschreiben](/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festgeschreiben).
+festzuschreiben](/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben).
 
 Folgende Zeiterfassungs-Einstellungen wirken sich auf die Berechnung von Zuschlägen, Konten & Lohnabrechnungen aus:
 

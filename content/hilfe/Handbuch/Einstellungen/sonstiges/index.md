@@ -53,7 +53,7 @@ Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur beitrags
 Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige
 Zuschläge berücksichtigt.
 
-## Arbeitszeiten & Konten festgeschreiben
+## Arbeitszeiten & Konten Festschreiben
 
 Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der Umstand, dass Sie jederzeit "in die
 Vergangenheit reisen" und Korrekturen an bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei
