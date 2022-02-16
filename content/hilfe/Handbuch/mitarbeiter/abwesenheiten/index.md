@@ -13,7 +13,7 @@ Alles was Sie tun müssen, ist einen Mitarbeiter, Abwesenheitstyp und Zeitraum z
 
 ## Übersicht
 
-In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrere Mitarbeiter
+In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrer Mitarbeiter
 auf einen Blick.
 
 Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Abwesenheiten** wählen.
@@ -22,7 +22,7 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 > {{< icon "filter" >}}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
 > bestimmter Abteilungen beschränken.
 
-{{< figure caption="In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrere Mitarbeiter auf einen Blick." >}}
+{{< figure caption="In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrer Mitarbeiter auf einen Blick." >}}
 <img src="uebersicht.png" />
 {{< /figure >}}
 
@@ -30,7 +30,7 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 
 Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten.
 
-Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Abwesenheiten-Übersicht](abwesenheiten-übersicht) und wählen dort den gewünschten Mitarbeiter.
+Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Abwesenheiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
 
 {{< figure caption="Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten." >}}
 <img src="einzeln.png" />
@@ -76,7 +76,7 @@ So **löschen** Sie eine Abwesenheit:
 
 1. **Selektieren** Sie zunächst in der [Übersicht](#übersicht) oder [Einzelansicht](#einzelansicht) die gewünschte
    Abwesenheit durch einen Mausklick.
-2. Im Bearbeitungsdialog, klicken Sie den {{> button icon="trash" >}} Button in der rechten oberen Ecke.
+2. Im Bearbeitungsdialog, klicken Sie den {{< button icon="trash" >}} Button in der rechten oberen Ecke.
 3. **Bestätigen** Sie, dass Sie die Abwesenheit löschen möchten.
 
 ## Urlaubsanträge & Krankmeldungen
