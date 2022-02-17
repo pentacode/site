@@ -8,6 +8,118 @@ anchors: []
 Diese Seite enthält eine detaillierte Aufstellung aller Pentacode Produkt-Updates inklusive der jeweils
 enthaltenen Änderungen.
 
+## 1.21.0
+
+### Änderungen & Neugikeiten
+
+-   Neues Feauture: [Verfügbarkeiten](https://pentacode.app/hilfe/handbuch/mitarbeiter/verfügbarkeiten/)
+-   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben)
+-   Zusätzlich zu Nacht 1 und Nacht 2 können nun auch die Zuschlagszeiträume für Folgetage nach Sonn- und Feiertagen,
+    sowie die "besonderen Feiertage" Heilig Abend und Silvester bearbeitet werden.
+-   In der Abwesenheits-Übersicht werden nun auch Vertragsunterbrechnungen und generelle Zeiträume ohne aktiven Vertrag
+    angezeigt.
+-   Abgeschlossene Tagesabrechnungen können nun nur noch mit der Berechtigung Umsätze/Kassenbuch eingesehen werden.
+
+### Behobene Fehler
+
+-   Zuschlagszeiträume in Zeiterfassungs-Regelsätzen konnten nicht bearbeitet werden.
+-   In Firefox war das Eintragen von Abwesenheiten über Drag & Drop in der Abwesenheits-Übersicht nicht möglich.
+-   Beim Anlegen neuer Mitarbeiter konnte keine Emailadresse angegeben werden.
+-   Einige Nutzer konnten ihre eigenen Informationen unter Mitarbeiter/Stammdaten nicht bearbeiten.
+
+## 1.20.2
+
+### Änderungen & Neugikeiten
+
+-   Beim Löschen von erfassten Arbeitszeiten, die in der Vergangenheit liegen, fragt die App nun immer nach einer Bestätigung.
+-   Pentacode verwendet nun eine genauere Methode zu Berechnung des 13-Wochen Durchschnitts für die Bestimmung von Fehlstunden bei Abwesenheit. Zuvor wurde der Durchschnitt der letzen drei Monate betrachtet, unabhängig davon, ob in dieser Zeit Arbeitszeiten vorlagen oder nicht. In der neuen Berechnungsmethode wird nun stattdessen vom Zeitpunkt des letzen Arbeitstages vor dem entsprechenden Monat 13 Wochen zurückgerechnet. Dies hat den Vorteil, dass Fehlstunden nun auch nach langer Inaktivät weiterhin akkurat berechnet werden können. Standardmäßig greift diese Änderung ab dem 01.01.2022. Wenn Sie möchten, dass die Umstellung in Ihrem Unternehmen rückwirkend bereits früher greift, ist dies ebenfalls möglich. In diesem Fall wenden Sie bitte an unseren Support.
+
+### Behobene Fehler
+
+-   Beim veröffentlichen des Dienstplans wurden in manchen Fällen unter "Betroffene Mitarbeiter" auch inaktive Mitarbeiter aufgeführt.
+-   In den Sollstunden-Modi "Monatsgenau ohne Feiertage" und "Feste Wochentage abz. Feiertage" wurden der 24. und 31. Dezember fälschlicherweise als gesetzliche Feiertage behandelt.
+-   Beim Kassenbuch-Export in das Format "DATEV Buchungstapel" wurde das Wirtschaftsjahr nicht basierend auf dem exporierten Zeitraum, sondern nach dem Zeitpunkt des Exports gesetzt.
+
+## 1.20.1
+
+### Behobene Fehler
+
+-   Beim Drucken der Lohnabrechnung eines einzelnen Mitarbeiters wurden die Lohnabrechnungen aller Mitarbeiter ausgegeben.
+
+## 1.20.0
+
+### Änderungen & Neuigkeiten
+
+-   Die Berechtigung "Mitarbeiter" und alle Unterberechtigungen können nun auf bestimmte Standorte und Abteilungen eingeschränkt werden.
+-   Dienspläne können nun geteilt werden auch wenn nicht veröffentliche Änderungen vorliegen.
+-   Der veröffentlichte Dienstplan kann nun auch direkt per Mail an einen oder mehrere Mitarbeiter gesendet werden.
+-   Es ist nun der Versand beliebiger Nachrichten per Email an eine beliebige Gruppe von Mitarbeitern möglich. (Über den Briefumschlag-Icon in der linken oberen Ecke des Menüpunktes "Mitarbeiter".
+-   Automatische Pausen werden beim Bearbeiten von Schichten nun automatisch neu berechnet, solange zuvor keine manuellen Änderungen an der Pausenzeit vorgenommen wurden.
+-   Es kann nun eine minimale Dauer innerhalb von Zuschlagszeiträumen definiert werden, ab der Mitarbeiter Zuschläge erhalten sollen. Also z.b. erst ab mindestens einer Stunde in Nacht1.
+-   Die Einstellung der Nacht1 und Nacht2 Zeiträume ist nun nicht mehr unter Einstellungen/Sonstiges zu finden, sondern kann in Zeiterfassungs-Regelsätzen individuell eingestellt werden (d.h. es sind nun auch individuell Zuschlagszeiträume für unterschiedliche Arbeitsbereiche möglich).
+-   Arbeitszeit-Nachweise können nun über einen beliebigen Zeitraum ausgedruckt werden.
+-   Über Zeiterfassungs-Regelsätze kann nun eingestellt werden, ob Pausen am Ende oder am Anfang einer Schicht abgezogen werden sollen.
+
+### Behobene Fehler
+
+-   Unter Mitarbeiter/Arbeitszeiten waren an wenigen Stellen noch Löhne sichtbar, auch wenn der Nutzer nicht die entsprechende Berechtigung hatte.
+
+## 1.19.5
+
+### Änderungen & Neuigkeiten
+
+-   Maßgebliche Performance-Optimierungen für Unternehmen mit einer großen Anzahl von Mitarbeitern (deutlich kürzere Ladezeiten und responsivere Benutzeroberfläche).
+
+### Behobene Fehler
+
+-   Beim Anlegen von Mitarbeitern wurde ein ausgewähltes Profilbild in manchen Fällen nicht gespeichert.
+
+## 1.19.4
+
+### Behobene Fehler
+
+-   Der Rechnungsverlauf wurde nicht korrekt dargestellt.
+-   In manchen Fällen kam es in den Bereichen Berichte/Personalkosten und Berichte/Umsätze zu Darstellungsfehlern.
+
+## 1.19.3
+
+### Behobene Fehler
+
+-   Bei Verwaltungszugängen, die mit mehreren Unternehmen verknüft sind, kam es in manchen Fällen zu Loginproblemen.
+
+## 1.19.2
+
+### Änderungen & Neuigkeiten
+
+-   Die Mitarbeiter-Filterfunktion lässt nun auch die Auswahl von Mitarbeitern ohne zugewiesene Arbeitsbereiche zu.
+-   Deutlich reduzierte Ladezeit beim Öffnen der App bei Unternehmen mit einer großen Anzahl an Mitarbeitern.
+
+### Behobene Fehler
+
+-   Beim Lohnexport über einenen benutzerdefinierten Zeitraum über ein oder mehrere Monatsanfänge hinweg wurden Mitarbeiter, deren Vertrag erst im zweiten Monat begann, nicht berücksichtigt.
+-   Im Arbeitszeitblatt waren Teilschichten in manchen Fällen nicht korrekt chronologisch geordnet.
+-   Bei Mitarbeitern mit fest definierten Wochen-Arbeitstagen wurden "übliche Arbeitstagen" im Abwesenheitsdialog nicht korrekt dargestellt.
+-   Das Hinzufügen oder Löschen von Fehltagen über den Abwesenheitsdialog war in manchen Fällen nicht möglich.
+-   Standortspezifische Zeiterfassungs-Regelsätze wurden bein der Anwendung der Einstellung "Mitarbeiter Kurzinfo" nicht korrekt berücksichtigt.
+-   Ein Fehler im Datums-Eingabefeld führe in manchen Fällen zur Übermittlung von falschen Datumsverwerten.
+-   Durch eine fehlhafte Validierungslogik war das Anlegen von überlappenden Abwesenheiten möglich.
+
+## 1.19.1
+
+### Änderungen & Neuigkeiten
+
+-   Filterkriterien von Dienstplan-Tabs werden nun auch auf die angezeigten Problemmeldungen angewandt.
+
+### Behobene Fehler
+
+-   In manchen Bereichen war bei der Mitarbeiter-Filterfunktion die Auswahl von inaktiven Mitarbeitern nicht möglich.
+-   Im Bereich **Alle Mitarbeiter / Arbeitszeiten** wurden manche Mitarbeiter mit Vertragsunterbrechungen in einem Teilmonat trotz vorhandener Arbeitszeiten nicht angezeigt.
+-   Bei Hinzufügen von neuen Einträgen in der Tagesabrechnung kam es in manchen Fällen zu einer ungewollten Neuanordnung.
+-   Bei Mitarbeitern mit mehreren in einem Monat gültigen Veträgen wurde ich manchen Fällen keine anteilige SFN-Pauschale im Bereich Konten angezeigt.
+-   Arbeitszeiten in Positionen aus archivierten Abteilungen/Standorten wurden fälschlicherweise nicht mehr in Arbeitszeitkonten berücksichtigt.
+-   Im Safari Browser waren in manchen Bereichen keine Drag & Drop Interaktionen möglich.
+-   Weitere kleine Bugfixes und Verbesserungen
+
 ## 1.19.0
 
 ### Änderungen & Neuigkeiten

@@ -19,10 +19,10 @@ und leicht zugängliche Planungshilfe.
 
 Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügung:
 
-- {{< icon "thumbs-up" >}} Verfügbar
-- {{< icon "ban" >}} Nicht Verfügbar
-- {{< icon "heart" >}} Bevorzugt
-- {{< icon "couch" >}} Wunschfrei
+- {{< icon "thumbs-up" >}} **Verfügbar**
+- {{< icon "ban" >}} **Nicht Verfügbar**
+- {{< icon "heart" >}} **Bevorzugt**
+- {{< icon "couch" >}} **Wunschfrei**
 
 Verfügbarkeiten dienen lediglich als Hinweis für die Dienstplanung und können jederzeit ausgeblendet oder ignoriert
 werden. Ob sie Verfügbarkeiten selbst erfassen oder Ihre Mitarbeiter diese über die Pentacode
