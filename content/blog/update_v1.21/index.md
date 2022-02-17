@@ -58,7 +58,7 @@ ungewünschten, rückwirkenden Neuberechnung von Konten und Lohnabrechungen füh
 **Deshalb bietet Ihnen Pentacode nun die Möglichkeit, [Arbeitszeiten, Konten und Lohnabrechnungen festzuschreiben](/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben)**. Dazu
 wählen Sie einfach aus, bis zu welchem Monat die Festschreibung gelten soll. Arbeitszeiten bis zu diesem Zeitpunkt sind
 dann durch niemanden mehr bearbeitbar und Konten und Lohnabrechnungen bleiben unverändert, selbst wenn Sie Änderungen an
-Mitarbeiterverträgen oder Zeitefassungs-Regelsätzen vornehmen.
+Mitarbeiterverträgen oder Zeiterfassungs-Regelsätzen vornehmen.
 
 {{< figure caption="Unter dem Punkt Einstellungen/Sonstiges können Sie nun ein Festschreibungs-Datum für Arbeitszeiten und Konten wählen.">}}
 <img src="zeiten-festschreiben.png">
