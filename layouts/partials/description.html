@@ -6,6 +6,6 @@
         {{- with .Params.subsubtitle | markdownify | plainify -}}{{ . }} - {{ end }}
         {{- .Description | markdownify | plainify -}}
         {{- else -}}
-        .Summary
+        {{ .Summary }}
     {{ end }}
 {{ end }}
