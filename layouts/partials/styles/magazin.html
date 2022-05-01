@@ -64,6 +64,10 @@
 
     .article-categories {
         margin: 0.5em 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5em;
     }
 
     .article-categories > * {
@@ -192,11 +196,15 @@
 
     @media (max-width: 55em) {
         ul.articles {
-            padding: 0;
+            padding: 1em;
         }
 
-        article {
+        .single article {
             padding: 1em;
+        }
+
+        .single .meta-data {
+            flex-direction: column;
         }
 
         .article-content {
@@ -218,6 +226,10 @@
 
         ul.articles li:first-child {
             padding: 0;
+        }
+
+        figure.float {
+            float: none !important;
         }
     }
 </style>
