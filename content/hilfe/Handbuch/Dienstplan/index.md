@@ -51,7 +51,7 @@ Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus 
 
 ### Neuen Tab Erstellen
 
-Einen Neuen Tab erstellen Sie, indem Sie auf den {{< icon "plus" >}} button am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.
+Einen neuen Tab erstellen Sie, indem Sie auf den {{< icon "plus" >}} **-Button** am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.
 
 ### Tab Löschen
 
@@ -139,7 +139,7 @@ Zwar werden alle Änderungen, die Sie im Dienstplan vornehmen, kontinuierlich un
 
 Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter von den Änderungen benachrichtigt werden. Klicken Sie hier auf **Veröffentlichen** um den Vorgang abzuschließen. Die Änderungen sind nun in der Mitarbeiter-App und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt** und erhalten einen Link zu ihrem persönlichen Dienstplan.
 
-> **Tipp:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, wird dessen eine Emailadresse benötigt. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
+> **Tipp:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, wird eine Emailadresse benötigt. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
 
 {{< figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." >}}
 
@@ -165,11 +165,11 @@ Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckf
 
 ### Aktueller Bearbeitungsstatus
 
-Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen** können Sie über das Tastenkürzel {{ key "strg" "mono" }} {{ key "P" "mono" }} (bzw. {{ key "cmd" "mono" }} {{ key "P" "mono" }} auf MacOS) oder über das Browser-Menü Drucken.
+Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen** können Sie über das Tastenkürzel {{<key "strg" "mono" >}}  {{< key "P" "mono" >}} (bzw. {{< key "cmd" "mono" >}} {{< key "P" "mono" >}} auf MacOS) oder über das Browser-Menü Drucken.
 
-### Veröffentlicher Dienstplan
+### Veröffentlichter Dienstplan
 
-Die Druckoption für den "fertigen" bzw. veröffentlichen Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite. (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken).
+Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite. (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken).
 
 > **Beachten Sie:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
 
@@ -185,11 +185,11 @@ Aktive [Dienstplan-Filter](#filtern--suchen) werden beim Veröffentlichungsvorga
 
 ## Dienstplan-Vorlagen
 
-Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder gar nicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen also Vorlage ab, die Sie dann mit wenigen Klicks in anderen Wochen anwenden können.
+Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu Woche kaum oder gar nicht ändern. In diesen Fällen können Dienstplan-Vorlagen Ihnen eine Menge Arbeit sparen! Das Prinzip ist einfach: Sie schreiben den Dienstplan für eine Woche und speichern diesen als Vorlage ab, die Sie dann mit wenigen Klicks in anderen Wochen anwenden können.
 
 ### Vorlage Erstellen
 
-Um ein Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Falls Sie nur eine bestimmte Abteilung oder eine bestimmten Zeitraum in Ihrer Vorlage speichern möchten, können Sie die zu speichernden Schichten einschränken, indem sie die [Filterkriterien](#filtern--suchen) des aktiven Tabs bearbeiten. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog müssen Sie der Vorlage nur noch einen Namen geben. Klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
+Um eine Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Falls Sie nur eine bestimmte Abteilung oder einen bestimmten Zeitraum in Ihrer Vorlage speichern möchten, können Sie die zu speichernden Schichten einschränken, indem sie die [Filterkriterien](#filtern--suchen) des aktiven Tabs bearbeiten. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {{< icon "save" >}} **Vorlagen** und klicken auf den Button {{< icon "plus" >}} **Neue Vorlage**. In dem darauffolgenden Dialog müssen Sie der Vorlage nur noch einen Namen geben. Klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
 
 > **Achtung:** Wählen Sie für die Erstellung einer Dienstplanvorlage immer eine **zukünftige Woche**! Es werden nur Einträge mit vorhandenen **Planzeiten** gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage ignoriert.
 
@@ -209,7 +209,7 @@ Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Si
 
 ## Dienstplan Leeren
 
-Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
+Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash" >}}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in dem Sie die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
 
 > **Beachten Sie:** Es werden nur Schichten gelöscht, die den [Filterkriterien](#filtern--suchen) des aktuellen Tabs entsprechen.
 
@@ -233,7 +233,7 @@ Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfrei
 
 ### Wochenstunden
 
-Über die "Fortschrittsanzeige" auf der linken des Dienstplans sehen auf einen Blick, wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
+Über die "Fortschrittsanzeige" auf der linken des Dienstplans sehen Sie auf einen Blick, wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
 
 ### Monatsstunden
 
@@ -279,7 +279,7 @@ In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" ge
 
 Durch **erneutes Anklicken** des {{< icon "chart-line" >}}-**Symbols** wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
 
-Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch Stempeluhr voraus.
+Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch die Stempeluhr voraus.
 
 **Hinweis**: Wenn an einem Tag Arbeiten zu leisten sind, die nicht mit dem aktuellen Tagesgeschäft in Zusammenhang stehen (z.B. vorbereitende Arbeiten in der Küche für eine Veranstaltung, die erst in zwei Tagen stattfindet, setzen Sie in [**Planung nach Stundenvorgaben**](/hilfe/handbuch/planung/stundenvorgaben/) idealerweise das Stundenkontingent für diesen Tag entsprechend nach oben.
 

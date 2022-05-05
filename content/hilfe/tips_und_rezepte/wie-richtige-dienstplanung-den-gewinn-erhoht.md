@@ -26,4 +26,4 @@ Die Zählung der geplanten Stunden erfordert jedoch die Eingabe des voraussichtl
 
 Während der Dienstbeginn verbindlich geplant werden kann, hängt das voraussichtliche Ende eines Arbeitstages von Faktoren ab, die nur schwer vorherzusehen sind. Die Erfahrung vieler Nutzer von Pentacode zeigt jedoch, dass ein Dienstende zwar nur näherungsweise, dabei aber überraschend zutreffend angenommen werden kann.
 
-Abweichungen in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel **_abcdef_** erfahren Sie hierzu mehr.
+Abweichungen in Minuten und deren Wirkung in Euro werden in Pentacode aufgezeichnet. Im Kapitel [**Ersparnis**](/hilfe/handbuch/berichte/ersparnis/) erfahren Sie hierzu mehr.

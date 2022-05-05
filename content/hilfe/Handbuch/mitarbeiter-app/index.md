@@ -4,14 +4,14 @@ weight: 1
 icon: mobile
 ---
 
-Vom persönlichen Dienstplan bis hin zur Urlaubsanträgen, Arbeitszeiterfassung und mehr - mit der **Pentacode Mitarbeiter-App** haben Sie immer und überall Zugriff auf die wichtigsten Informationen und Funktionen.
+Vom persönlichen Dienstplan bis hin zu Urlaubsanträgen, Arbeitszeiterfassung und mehr - mit der **Pentacode Mitarbeiter-App** haben Sie immer und überall Zugriff auf die wichtigsten Informationen und Funktionen.
 
 Die Pentacode Mitarbeiter App ist über die URL https://perso.pentacode.app verfügbar.
 
 ## App Installieren
 
 Die Pentacode Mitarbeiter app ist eine Webapplikation und erfordert keine Installation im herkömmlichen Sinne. Sowohl
-iOS als Android bieten allerdings die Möglichkeit, Webapplikationen von dieser Art "zum Homebildschirm hinzuzufügen".
+iOS als auch Android bieten allerdings die Möglichkeit, Webapplikationen von dieser Art "zum Homebildschirm hinzuzufügen".
 Dies fügt die App nicht nur zur Bibliothek auf Ihrem Handy hinzu, wo sie sie wie eine normale App öffnen können - die
 App wird dann auch in Ihren eigenen Fenster angezeigt und ist somit in Erscheinung und Funktion identisch mit einer
 "normalen" App.
@@ -45,7 +45,7 @@ So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
 2. Geben Sie folgenden Adresse in die URL-Leiste ein: https://perso.pentacode.app
 3. Tippen Sie auf das {{< button icon="share-square" >}} Symbol am unteren Rand des Bildschirms.
 4. Wählen Sie die Option **"Zum Homebildschirm {{< icon "plus-square" >}}"**
-5. Wenn Sie möchten können Sie nun noch einen benutzerdefinierten Anzeigenahmen wählen. Tippen Sie auf **"Hinzufügen"** um den Vorgang abzuschließen.
+5. Wenn Sie möchten können Sie nun noch einen benutzerdefinierten Anzeigenamen wählen. Tippen Sie auf **"Hinzufügen"** um den Vorgang abzuschließen.
 
 {{< figure class="centered" >}}
 <img src="installieren-ios-1.jpeg" />

@@ -37,14 +37,14 @@ hinzuzufügen, klicken Sie auf {{< button label="Speichern" >}}. Vergessen Sie n
 ### Regelsatz Bearbeiten
 
 Einen existierenden Regelsatz bearbeiten Sie, indem Sie einfach den gewünschten Eintrag mit einem Klick aus der Liste
-wählen. Es öffnet sich ein Dialog, in dem Sie die gewünschen Änderungen vornehmen können. Klicken Sie auf {{< button
+wählen. Es öffnet sich ein Dialog, in dem Sie die gewünschten Änderungen vornehmen können. Klicken Sie auf {{< button
 label="Speichern" >}} um die Änderungen zu übernehmen oder {{< button label ="Abbrechen" >}} um die Änderungen zu
 verwerfen.
 
 ### Regelsatz Entfernen
 
 Sie können einen Regelsatz entfernen, indem Sie auf den {{< icon "ellipsis-h" >}} icon in der rechten oberen Ecke des
-Listeneintrags klicken und im Angezeigten Menü die Option {{< icon "trash-alt" >}} **Löschen** wählen.
+Listeneintrags klicken und im angezeigten Menü die Option {{< icon "trash-alt" >}} **Löschen** wählen.
 
 > **Hinweis:** Der "globale" Regelsatz kann nicht gelöscht werden.
 
@@ -53,7 +53,7 @@ Listeneintrags klicken und im Angezeigten Menü die Option {{< icon "trash-alt" 
 Beim Erstellen eines neuen Regelsatzes kann es oft nützlich sein, die Einstellungen eines anderen Regelsatzes zu
 kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option {{< icon "clone" >}}
 **Duplizieren** im {{< icon "ellipsis-h" >}}-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
-Bearbeitungsdialog, in den duplizierten Eintrag noch bearbeiten können bevor Sie durch einen Klick auf den {{< button
+Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können bevor Sie durch einen Klick auf den {{< button
 label="Speichern" >}} button den Regelsatz hinzufügen.
 
 ## Zuordnung von Regelsätzen
@@ -65,7 +65,7 @@ label="Speichern" >}} button den Regelsatz hinzufügen.
 Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mitarbeitern zugeordnet werden. Dies
 funktioniert wie folgt:
 
-1. Erstellen Sie einen Neuen Regelsatz oder wählen Sie einen existierenden Regelsatz.
+1. Erstellen Sie einen neuen Regelsatz oder wählen Sie einen existierenden Regelsatz.
 2. Klicken Sie auf das {{< button label="hinzufügen" icon="plus" >}} Feld direkt unter dem Namensfeld.
 3. Es öffnet sich ein Dropdown mit einer Liste aller Standorte, Abteilungen und Mitarbeiter, denen der Regelsatz noch
    nicht zugeordnet wurde. Klicken Sie einfach auf einen der Einträge um den Regelsatz der/dem entsprechenden Standort,
@@ -83,10 +83,10 @@ funktioniert wie folgt:
 
 ## Anwendung von Regelsätzen
 
-Welcher Regelsatz für eine bestimmte Schicht angewandt wird hängt von dem Arbeitsbereich und zugewiesenem Mitarbeiter
-sowie der jeweiligen Zuordnung von Regelsätzen ab. Hierbei werden grundsätzlich spezifischer Zuordnungen (z.B. direkte
+Welcher Regelsatz für eine bestimmte Schicht angewandt wird hängt von dem Arbeitsbereich und zugewiesenen Mitarbeiter
+sowie der jeweiligen Zuordnung von Regelsätzen ab. Hierbei werden grundsätzlich spezifische Zuordnungen (z.B. direkte
 Zuordnung zu einem Mitarbeiter) höher priorisisert als weniger spezifische (z.B. Zuordnung zu einem Standort). Die
-Anwendungslogig ist wie folgt:
+Anwendungslogik ist wie folgt:
 
 1. Ist dem **Mitarbeiter** ein Regelsatz zugeordnet? {{< icon "arrow-right" >}} **Ja**: Regelsatz anwenden; **Nein**:
    {{< icon "arrow-down" >}}
@@ -100,7 +100,7 @@ Anwendungslogig ist wie folgt:
 
 Bei großen Betrieben mit mehreren Regelsätzen und komplexen Zuordnungen kann es oft schwierig sein nachzuvollziehen,
 welcher Regelsatz bei einer bestimmten Schicht zur Anwendung kommt. Pentacode schafft Ihnen hier Abhilfe indem es bei
-der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Selectieren Sie hierfür
+der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Selektieren Sie hierfür
 einfach die gewüschte Schicht - der Regelsatz erscheint dann unter dem Punkt {{< icon "sliders-h" >}} **Regeln**.
 
 ## Pausen
@@ -115,12 +115,12 @@ hierbei folgende Modi zu Verfügung.
 
 #### Automatisch
 
-In diesem Modus ermittelt Pentacode ermittelt Pentacode automatisch die Dauer der Pause basierend auf der **entgültigen
-Arbeitsdauer** (nicht anhand der geplanten Dauer). Dabei können genau definieren ab welcher Dauer wie viel Pause
+In diesem Modus ermittelt Pentacode automatisch die Dauer der Pause basierend auf der **entgültigen
+Arbeitsdauer** (nicht anhand der geplanten Dauer). Dabei können Sie genau definieren ab welcher Dauer wie viel Pause
 berechnet werden soll. Die Standardeinstellungen für die automatische Pause entsprechen den gesetzlichen
 Pausenvorschriften - d.h. **30 Minuten** ab einer Arbeitszeit von **6 Stunden** und **45 Minuten** ab einer Arbeitszeit
 von **9 Stunden**. Diese Werte können Sie natürlich jederzeit abändern beziehungsweise Stufen hinzufügen oder
-entfernen. Zum hinzufügen einer Stufe, klicken Sie den {{< button label="Stufe Hinzufügen" icon="plus" >}} button. Um
+entfernen. Zum Hinzufügen einer Stufe, klicken Sie den {{< button label="Stufe Hinzufügen" icon="plus" >}} button. Um
 eine Stufe zu entfernen, bewegen Sie die Maus darüber und klicken Sie den {{< button icon="trash" >}} button.
 
 #### Manuell
@@ -171,7 +171,7 @@ Dauer jedoch der Arbeitszeit zugerechnet.
 
 Unter dem Punkt **Pausen abziehen von** können Sie definieren, ob genommene Pausen am Anfang oder am Ende der Schicht zum Abzug kommen sollen. Dies hat vor allem Einfluss auf die Berechnung von SFN-Zuschlägen.
 
-> **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitinterval **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Interval **18:00 - 01:30** und es fallen nur **5,5 Stunden** and Nachtzuschlägen an. 
+> **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitinterval **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Interval **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
 
 ## Buchung von Mitarbeiteressen
 
@@ -223,12 +223,12 @@ frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
 ### Anmeldung Ohne Dienstplan / Spontane Schicht
 
-Ist Die Option bei {{< button label="Anmeldung Ohne Dienstplan" >}} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
+Ist die Option bei {{< button label="Anmeldung Ohne Dienstplan" >}} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
 ### Verspätete Abmeldung
 
 Unter dem Punkt **Bei Verspäteter Anmeldung** können Sie bestimmen, wie Pentacode verfahren soll, wenn ein Mitarbeiter
-sich über die Stempeluhr oder Mitarbeiter-App **nach dem geplanten Schichtend** einstempelt.
+sich über die Stempeluhr oder Mitarbeiter-App **nach dem geplanten Schichtend** ausstempelt.
 
 Bei der Option **Übernehme Zeit laut Dienstplan** wird immer das **geplante Schichtende** als Ende der Arbeitszeit
 übernommen, auch wenn sich der Mitarbeiter erst später ausstempelt. Die Zeit nach dem geplanten Schichtende wird
@@ -272,14 +272,14 @@ einsehen.
 Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch
 nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
 
-Unter dem Punkt **Zuschläge** können Sie die Zeiträume, in denen Sie Ihre Mitarbeiter SFN-Zuschläge erhalten sollen,
+Unter dem Punkt **Zuschläge** können Sie die Zeiträume, in denen Ihre Mitarbeiter SFN-Zuschläge erhalten sollen,
 einengen oder ausweiten.
 
 > **ACHTUNG:** Zwar erlaubt Pentacode Ihnen, die Zuschlagszeiträume über die vom Gesetzgeber vorgesehenen Zeiträume
 > hinaus auszuweiten, allerdings gilt es dabei zu beachten, **dass hierdurch zusätzlich entstandene Zuschläge
 > beitragspflichtig sind**! Pentacode kann die Unterscheidung zwischen beitragspflichtigen und beitragsfreien Zuschlägen in
 > diesem Fall **nicht** vornehmen und behandelt die Zuschläge in ihrer Gesamtheit als beitragsfrei. **Bitte sprechen
-> Sie mit Ihrem Lohnbüro oder Steuerberater bevor Sie Änderungen an diesen Zeiträufem vornehmem!**
+> Sie mit Ihrem Lohnbüro oder Steuerberater bevor Sie Änderungen an diesen Zeiträumen vornehmem!**
 
 Folgende Zuschlagszeiträume sind vom Gesetzgeber vorgesehen:
 
@@ -295,7 +295,7 @@ Folgende Zuschlagszeiträume sind vom Gesetzgeber vorgesehen:
 ## Neuberechnung von Konten & Lohnabrechnungen
 
 Bei der Bearbeitung von Zeiterfassungs-Regelsätzen gilt es zu beachten, **dass einige Einstellungen direkte oder
-indirekte Auswirkungen auf die Berechnung von Konten, Zuschlägen und Lohnabrechnungen im allgemeinen haben können**. Da
+indirekte Auswirkungen auf die Berechnung von Konten, Zuschlägen und Lohnabrechnungen im Allgemeinen haben können**. Da
 Zeiterfassungs-Regelsätze anders als z.B. Mitarbeiterverträge nicht auf einen bestimmten Zeitraum begrenzt sind, **lösen
 Änderungen an diesen Einstellungen in der Regel eine Neuberechnung (auch rückwirkend!) aller betroffenen Konten &
 Lohnabrechnungen aus**. Um dies zu vermeiden, empfehlen wir Ihnen, vor der Änderung einer solchen Einstellung

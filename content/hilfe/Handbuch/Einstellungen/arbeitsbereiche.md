@@ -89,7 +89,7 @@ Wenn für die gewählte Abteilung **andere** Regeln gelten sollen, setzen Sie de
 
 {{< /figure >}}
 
-Im HIlfeartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/)" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
+Im Hilfsartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/)" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
 
 > Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen **Zeiterfassung ausgenommen** werden.
 
@@ -101,7 +101,7 @@ Wenn Sie auf eine Abteilung klicken, öffnet diese und kann wie oben beschrieben
 
 Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen, dass diese weiterhin im Dienstplan gezeigt wird, können Sie diese **archivieren**.
 
-Öffnen Sie hierzu die Abteilung und klicken Sie auf das {{< icon "archive" >}}**-**Symbol
+Öffnen Sie hierzu die Abteilung und klicken Sie auf das {{< icon "archive" >}}Symbol
 
 {{< figure caption="So können Sie eine Abteilung archivieren" >}}
 

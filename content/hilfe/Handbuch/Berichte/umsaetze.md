@@ -51,4 +51,4 @@ Hierzu analog zeigt ein "Mouse-over" die in einem Monat jeweils geleisteten Beit
 
 {{< /figure >}}
 
-> Grafiken dienen der Veranschaulichung. Im hier gezeigten Beispiel mach die Darstellung auf einen Blick erkennbar, dass die Abteilungen ihren Beitrag relativ gleichmäßig und in einem linearen Verhältnis zueinander leisten. Dies lässt auch ohne tief in ein Zahlenwerk einzusteigen den Schluss zu, dass der Betrieb stabil organisiert ist.
+> Grafiken dienen der Veranschaulichung. Im hier gezeigten Beispiel macht die Darstellung auf einen Blick erkennbar, dass die Abteilungen ihren Beitrag relativ gleichmäßig und in einem linearen Verhältnis zueinander leisten. Dies lässt auch ohne tief in ein Zahlenwerk einzusteigen den Schluss zu, dass der Betrieb stabil organisiert ist.

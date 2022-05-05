@@ -21,7 +21,7 @@ keywords:
 - kassenbucheinträge
 
 ---
-Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlich.
+Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlicht.
 
 Darüber hinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "[**Tagesabrechnung**](/hilfe/handbuch/umsaetze/tagesabrechnung/)".
 

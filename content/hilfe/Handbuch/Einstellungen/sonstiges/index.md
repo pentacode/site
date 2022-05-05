@@ -4,7 +4,7 @@ weight: 5
 icon: ball-pile
 ---
 
-Im Menüpunkt **"Einstellungen"** und dort unter **"Sonstiges"** bestimmen generelle Grundsätze, nach denen Pentacode operiert
+Im Menüpunkt **"Einstellungen"** und dort unter **"Sonstiges"** bestimmen Sie generelle Grundsätze, nach denen Pentacode operiert
 
 ## Beginn der Kontoführung
 
@@ -16,7 +16,7 @@ Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig be
 
 Als Teil der Arbeitszeitdokumentation überwacht Pentacode automatisch alle erfassten Arbeitszeiten auf bestimmte
 Regelvorstöße. Einer dieser Regeln ist die gesetzlich vorgeschriebene Mindest-Pausenlänge, die von der Dauer der Schicht
-bzw Arbeitszeit abhängt. Für die Berechnung der gesetzlichen Pause sind zwei Möglichkeiten zur Verfügung gestellt:
+bzw. Arbeitszeit abhängt. Für die Berechnung der gesetzlichen Pause sind zwei Möglichkeiten zur Verfügung gestellt:
 
 ### Standard
 

@@ -11,7 +11,7 @@ keywords:
 ---
 ## Umsätze planen
 
-Wenn Sie den Haupt-Menüpunkt "**Planung**" anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die **Umsätze**, die Ihr Unternehmen **an den verschiedenen Wochentagen durchschnittlic**h erzielt hat.
+Wenn Sie den Haupt-Menüpunkt "**Planung**" anklicken, landen Sie in einer Übersicht. Diese zeigt Ihnen die **Umsätze**, die Ihr Unternehmen **an den verschiedenen Wochentagen durchschnittlich** erzielt hat.
 
 In der **Standardeinstellung** wird Ihnen der **Durchschnitt** der letzten **4 Wochen** gezeigt.
 
@@ -55,7 +55,7 @@ Sie können für die **Planung** Ihrer Umsatzerwartung den **Durchschnitt verwen
 
 {{< /figure >}}
 
-Bei dieser Vorgehensweise werden mit dem Gesamtumsatz sowohl die einzelnen Umsatzarten, wie auch die Umsätze der einzelnen Abteilungen im gleichbleibenden Verhältnis zueinander und linear erhöht oder herabgesetzt.
+Bei dieser Vorgehensweise werden mit dem Gesamtumsatz sowohl die einzelnen Umsatzarten, wie auch die Umsätze der einzelnen Abteilungen im gleichbleibenden Verhältnis zueinander linear erhöht oder herabgesetzt.
 
 Durch **unmittelbares Überschreiben** können Sie eine Umsatzart **gezielt** ändern.
 
