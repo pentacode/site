@@ -37,7 +37,7 @@ keywords:
 ---
 ## Anzeige am Tablet
 
-In der Rubrik "**Geplant**" sehen Sie die Mitarbeiter, die zum Dienst erwartet werden oder in Rot gekennzeichnet eventuelle Verspätungen, unter "**Aktiv**" werden bereits eingeloggte Mitarbeiter gezeigt.
+In der Rubrik "**Geplant**" sehen Sie die Mitarbeiter, die zum Dienst erwartet werden oder in rot gekennzeichnet eventuelle Verspätungen, unter "**Aktiv**" werden bereits eingeloggte Mitarbeiter gezeigt.
 
 In der **Standardeinstellung** sind die Mitarbeiter **aller Abteilungen** sichtbar.
 

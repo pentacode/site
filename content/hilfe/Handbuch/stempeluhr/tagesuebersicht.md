@@ -41,7 +41,7 @@ Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn, bzw. n
 
 ## Zeiterfassung MIT Stempeluhr
 
-Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die **geplanten Arbeitszeiten** , darunter die **aktuellen Log-Zeiten**.
+Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die **geplanten Arbeitszeiten**, darunter die **aktuellen Log-Zeiten**.
 
 {{< figure caption="Hier sehen Sie geplante  und tatsächlich geloggte Arbeitszeiten in einer Gegenüberstellung" >}}
 

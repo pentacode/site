@@ -173,7 +173,7 @@ vereinbart sind.
 
 ### Urlaubszuwachs
 
-Der Urlaubsanspruch definiert den Gesamtanspruch eines eines Mitarbeiters auf ein komplettes Jahr. Für die forlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
+Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die forlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
 
 #### Nach Arbeitsstunden
 
@@ -181,7 +181,7 @@ Wenn Sie bei Urlaubszuwachs "**Nach Arbeitsstunden**" wählen, wird der Urlaubsa
 
 #### Monatlich
 
-Wählen Sie "**Monatlich**", wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
+Wählen Sie "**Monatlich**", steht dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
 
 Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
 

@@ -5,12 +5,12 @@ icon: hourglass-half
 ---
 
 Das Planen, Erfassen und Dokumentieren von Arbeitszeiten gehört zu den Kernaufgaben von Pentacode. In diesem Artikel
-erfahren Sie unter anderem, wie Sie die Arbeitzeiten Ihrere Mitarbeiter einsehen, manuell erfassen und bearbeiten und
+erfahren Sie unter anderem, wie Sie die Arbeitzeiten Ihrer Mitarbeiter einsehen, manuell erfassen, bearbeiten und
 exportieren können.
 
 ## Arbeitszeiten Übersicht
 
-Die Arbeitszeitenübersicht zeigt Ihnen in tabellarischer Form alle geleisteten Arbeitszeiten und -tage eines Monats, sowie verschiedene andere Informationen wie gebuchte Mitarbeiteressen, angefallene Fehltage inklusive berechneter Fehlstunden und eventuelle Zuschläge. Außerdem können Sie von dieser Ansicht aus Arbeitszeiten, Fehlzeiten und andere Lohnabrechnungsrelevante Daten exportieren. Mehr dazu unter [Arbeitszeiten Exportieren](#arbeitszeiten-exportieren).
+Die Arbeitszeitenübersicht zeigt Ihnen in tabellarischer Form alle geleisteten Arbeitszeiten und -tage eines Monats, sowie verschiedene andere Informationen wie gebuchte Mitarbeiteressen, angefallene Fehltage inklusive berechneter Fehlstunden und eventuelle Zuschläge. Außerdem können Sie von dieser Ansicht aus Arbeitszeiten, Fehlzeiten und andere lohnabrechnungsrelevante Daten exportieren. Mehr dazu unter [Arbeitszeiten Exportieren](#arbeitszeiten-exportieren).
 
 Um zur Arbeitszeiten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** aus dem Hauptmenü und dort den Unterpunkt **Arbeitszeiten**.
 
@@ -20,18 +20,19 @@ Um zur Arbeitszeiten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter
 
 ## Das Arbeitszeitblatt
 
-Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten eines Mitarbeiters eines Monats in einer
-übersichtlichen Listenansicht. Hier können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Iststunden
+Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten 
+monatlichen Arbeitszeiten eines Mitarbeiters in einer
+übersichtlichen Listenansicht. Hier können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden
 vergleichen und vieles mehr. Um zum Arbeitszeitblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht) und wählen dort den gewünschten Mitarbeiter.
 
-{{< figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Iststunden vergleichen und vieles mehr" >}}
+{{< figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" >}}
 <img src="arbeitszeitblatt.png" />
 {{< /figure >}}
 
 > {{< icon "lightbulb" >}} **Tipp:** Verwenden Sie Ihre Tastatur, um noch schneller zwischen Monaten, Tagen und
 > Einträgen zu wechseln! Mit der {{< key "a" >}} Taste springen Sie in den vorherigen Monat, die {{< key "d" >}} Taste
 > bringt Sie in den nächsten Monat. Mit der {{< key "s" >}} Taste springen Sie in die nächste Zeile, mit der
-> {{< key "w" >}} Taste selectieren Sie die vorherige Zeile.
+> {{< key "w" >}} Taste selektieren Sie die vorherige Zeile.
 
 ## Neue Arbeitszeit Erfassen
 
@@ -39,10 +40,10 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
 
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten Mitarbeiters und klicken Sie dort auf den
    Tag, in dem Sie eine Arbeitszeit erfassen möchten.
-2. Falls bereits ein Eintrag and diesem Tag vorliegt, wird dieser automatisch zu Bearbeitung geöffnet. In diesem Fall
+2. Falls bereits ein Eintrag an diesem Tag vorliegt, wird dieser automatisch zur Bearbeitung geöffnet. In diesem Fall
    müssen Sie zunächst {{< button label="Neuer Eintrag" icon="plus" >}} wählen. Ist der Tag noch leer, können Sie diesen Schritt überspringen.
 3. Es öffnet sich ein Menü auf der rechten Seite. Wählen Sie hier die Option {{< button label="Neue Schicht" >}}. Falls
-   der Mitarbeiter mehreren Arbeiteisbereichen zugewiesen ist, wird Ihnen für jeden mögliche Position ein separater Button
+   der Mitarbeiter mehreren Arbeitsbereichen zugewiesen ist, wird Ihnen für jeden mögliche Position ein separater Button
    angezeigt. Wählen Sie die Position, für die Sie eine Arbeitszeit erfassen möchten.
 4. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie verschiedene andere Felder ausfüllen
    können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [Felder &
@@ -99,9 +100,9 @@ Unter dem Punkt {{< icon "calendar" >}} **Geplant** können Sie den geplanten Sc
 
 Über die ersten beiden Felder können Sie den geplanten Schichbeginn sowie das geplante Schichtende eintragen. Diese
 Zeiten, zusammen mit den [Zeiterfassungs-Regeln](/hilfe/handbuch/einstellungen/zeiterfassung) für diese Schicht,
-bestimmen, wann sich der Mitarbeiter per Stempeluhr oder Mitarbeiter-App, ein- bzw. ausstempeln darf und können später als vergleich zu den tatsächlich gearbeiteten Zeiten herangezogen werden (siehe [Berichte / Arbeitszeit](/hilfe/handbuch/berichte/arbeitszeit) und [Dienstplan / Soll-Ist-Vergleich](/hilfe/handbuch/dienstplan#soll-ist-vergleich)).
+bestimmen, wann sich der Mitarbeiter per Stempeluhr oder Mitarbeiter-App, ein- bzw. ausstempeln darf und können später als Vergleich zu den tatsächlich gearbeiteten Zeiten herangezogen werden (siehe [Berichte / Arbeitszeit](/hilfe/handbuch/berichte/arbeitszeit) und [Dienstplan / Soll-Ist-Vergleich](/hilfe/handbuch/dienstplan#soll-ist-vergleich)).
 
-> {{< icon "lightbulb" >}} **Tipp:** Lassen Sie eines oder beide dieser Felder leer, um ein Schicht mit offenem Beginn
+> {{< icon "lightbulb" >}} **Tipp:** Lassen Sie eines oder beide dieser Felder leer, um eine Schicht mit offenem Beginn
 > bzw Ende zu planen. Dies ist zum Beispiel dann nützlich, wenn ein Mitarbeiter zu einer bestimmten Zeit zur Schicht
 > erscheinen soll, das Schichtende aber vom Tagesgeschäft abhängt und spontan entschieden wird.
 
@@ -124,7 +125,7 @@ Unter dem Punkt {{< icon "clock" >}} **Geleistet** können Sie den tatsächliche
 #### Schichtbeginn und -ende
 
 Über die ersten beiden Felder können Sie den tatsächlichen Schichbeginn sowie das tatsächliche Schichtende eintragen.
-Anhand dieser Zeiten errechnet Pentacode automatisch die geleistete Arbeitszeit und eventuell anfallenden Zuschläge.
+Anhand dieser Zeiten errechnet Pentacode automatisch die geleistete Arbeitszeit und eventuell anfallende Zuschläge.
 
 Bei der **Zeiterfassung per Digitaler Stempeluhr oder Mitarbeiter-App** werden diese Zeiten automatisch befüllt, sobald der
 Mitarbeiter sich in die entsprechende Schicht ein- oder ausstempelt, können aber im nachhinein jederzeit bearbeitet werden.
@@ -168,7 +169,7 @@ der Schicht eingenommen hat. Dieser Wert wird für die Berechnung der Provision 
 
 Unter dem Punkt {{< icon "sliders-h" >}} **Regeln** sehen Sie den für diese Schicht geltenden
 [Zeiterfassungs-Regelsatz](/hilfe/handbuch/einstellungen/zeiterfassung) mit einer Zusammenfassung der enthaltenen
-Einstellungen in Form von Symbolen. Durch einen einen Klick auf den Regelsatz-Namen (auf der Rechten Seite) gelangen Sie
+Einstellungen in Form von Symbolen. Durch einen Klick auf den Regelsatz-Namen (auf der rechten Seite) gelangen Sie
 direkt zur Bearbeitungsansicht des Regelsatzes, wo Sie die genauen Einstellungen einsehen und Änderungen vornehmen
 können (sofern Sie die nötigen Berechtigungen haben).
 
@@ -204,7 +205,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 ## Urlaub oder Krankeit Erfassen
 
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten Mitarbeiters und klicken Sie dort auf
-   den Tag des Urlaubs- oder eine Krankheitsbegins.
+   den Tag des Urlaubs- oder eine Krankheitsbeginns.
 2. Es öffnet sich ein Menü auf der rechten Seite. Klicken Sie hier auf den {{< button label="Urlaub" >}} oder {{< button
    label="Krank" >}} button oder drücken Sie die {{< key "u" "mono" >}} Taste auf Ihrer Tastatur für "Urlaub" oder die {{<
    key "k" "mono" >}} Taste für "Krank".
@@ -213,14 +214,14 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    "umbrella-beach" >}} Abwesenheiten](/hilfe/handbuch/mitarbeiter/abwesenheiten#neue-abwesenheit-erfassen) Hilfeartikel.
 
 > {{< icon "info-circle" >}} **Hinweis:** aus Gründen der Übersichtlichkeit haben wir die Abwesenheitsarten **Kind
-> Krank** und **Krank in KuG** and dieser Stelle weggelassen. Sie können diese im Bereich [Mitarbeiter /
+> Krank** und **Krank in KuG** an dieser Stelle weggelassen. Sie können diese im Bereich [Mitarbeiter /
 > Abwesenheiten](https://manage.pentacode.app/employees/all/absences/) erfassen.
 
 ## Zeitbuchungen
 
 Abgesehen vom Erfassen von Arbeitszeiten können Sie die Arbeitsstunden für einen Mitarbeiter auch direkt hinzubuchen
 oder abziehen. Dies erfolgt über eine sogannte **Zeitbuchung**. Um eine Zeitbuchnung vorzunehmen, klicken Sie auf den
-{{< button icon="plus" >}}-Button in der Rechten unteren Ecke des [Arbeitszeitblatts](#das-arbeitszeitblatt) des
+{{< button icon="plus" >}}-Button in der rechten unteren Ecke des [Arbeitszeitblatts](#das-arbeitszeitblatt) des
 Mitarbeiters und wählen die Option "Zeitbuchung".
 
 Zeitbuchungen dienen vornehmlich dazu, Korrekturen am [Arbeitskonto](/hilfe/handbuch/mitarbeiter/konten) eines
@@ -275,7 +276,7 @@ eine bessere Nachvollziehbarkeit in der Dokumentation hilfreich sein.
 Hier können Sie den Betrag der Buchung in Tagen festlegen und ob der Betrag abgezogen oder hinzugebucht werden soll. Um
 den Betrag zum Abzug zu bringen wählen Sie **Abbuchung** aus dem Dropdown. Um Stunden hinzuzubuchen, wählen Sie
 **Gutschrift**. Abbuchungen **veringern** der Urlaubsanspruch des Mitarbeiters, während eine Gutschrift den
-\*Urlaubsanspruch des Mitarbeiters **erhöht**.
+Urlaubsanspruch des Mitarbeiters **erhöht**.
 
 > {{< icon "lightbulb" >}} **Tipp:** Sie können neben ganzen Urlaubstagen auch beliebige Brüche mit bis zu zwei
 > Nachkommastellen eingeben.
@@ -285,7 +286,7 @@ den Betrag zum Abzug zu bringen wählen Sie **Abbuchung** aus dem Dropdown. Um S
 Optional können Sie einen Kommentar für die Buchung hinterlegen. Dieser kann der besseren Dokumentation und
 Nachvollziehbarkeit dienen und erscheint neben dem Arbeitzeitblatt auch in der
 [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht) und in der [Lohnabrechnung](#lohnabrechnung-individuell) und
-[Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht) (sofern die Option [bezahlt](#urlaub-ausbezahlen)). Wenn
+[Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht) (sofern die Option [bezahlt](#urlaub-ausbezahlen) ausgewählt wurde). Wenn
 kein Kommentar hinterlegt ist, erscheint der Eintrag lediglich als "Urlaubsbuchung".
 
 ### Urlaub Ausbezahlen
@@ -293,7 +294,7 @@ kein Kommentar hinterlegt ist, erscheint der Eintrag lediglich als "Urlaubsbuchu
 Ist unter **Betrag** die Option **"Abbuchung"** gewählt, kann unter dem Punkt **Bezahlt** festgelegt werden, ob die
 abgebuchten Urlaubstage bezahlt werden sollen. Ist diese Option gewählt, erscheint die Buchung in der
 [Lohnabrechnung](#lohnabrechnung-individuell) und [Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht) mit dem equivalenten
-**Fehlstundenbetrag**. Der berechnete Fehlstundenbetrag ist der Betrag der durchschnittlichen Tages-Arbeitsstuden der
+**Fehlstundenbetrag**. Der berechnete Fehlstundenbetrag ist der Betrag der durchschnittlichen Tages-Arbeitsstunden der
 letzten 13 Wochen, multipliziert mit dem Betrag der abgebuchten Tage.
 
 > {{< icon "info-circle" >}} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub der aus Zeitgründen

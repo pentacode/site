@@ -34,7 +34,7 @@ Um die Stammdaten eines Mitarbeiters zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Navigieren Sie zur [Stammdaten-Übersicht](#stammdaten-übersicht) und wählen dort den gewünschten Mitarbeiter durch
    einen Klick auf die entsprechende Zeile.
-2. Nehmen Sie die gewünschten Änderungen durch vor.
+2. Nehmen Sie die gewünschten Änderungen vor.
 3. Klicken Sie {{< button label="Speichern" >}} am Ihre Änderungen zu übernehmen.
 
 ## Mitarbeiter Löschen
