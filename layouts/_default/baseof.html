@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        {{ $cover := default .Params.cover "https://pentacode.app/img/logo.svg" }}
+        {{ $cover := default "https://pentacode.app/img/logo.svg" .Params.cover }}
         {{ $coverRes := .Resources.GetMatch $cover }}
         {{ with $coverRes }}
             <meta property="og:image" content="{{ $coverRes.Permalink }}" />
