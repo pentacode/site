@@ -1,6 +1,6 @@
 ---
 title: Und täglich grüßt die Stechuhr – Alles, was Unternehmen rund um das EuGH Urteil zur Zeiterfassung wissen müssen
-publishDate: 2022-04-29
+publishDate: 2022-04-15
 cover: "bild1.png"
 author: lstrasser
 magazin/rubriken:
@@ -17,7 +17,7 @@ konkret erwartet, hier eine Kurzauffrischung der Basics.
 ## Die bisherige Situation rund um Zeiterfassung und was sich durch das Urteil ändert
 
 {{< figure caption="" class="float right width-25pc" >}}
-<img src="bild3.jpg" />
+<img src="bild4.jpg" />
 {{< /figure >}}
 
 Bisher waren Arbeitgeber verpflichtet, die Arbeitszeit über acht Stunden am Tag und die von „Minijobbern“ zu
@@ -55,7 +55,7 @@ Beweismittel, sollte es zu Streitigkeiten rund um Überstunden kommen.
 ## Besser heute als morgen: Sicher ist, wer ein System zur Zeiterfassung etabliert
 
 {{< figure caption="" class="float right width-40pc" >}}
-<img src="bild4.jpg" />
+<img src="bild3.jpg" />
 {{< /figure >}}
 
 Durch die sogenannte „Horizontalwirkung“ des EuGh ist Deutschland streng genommen ab sofort dazu verpflichtet, ein

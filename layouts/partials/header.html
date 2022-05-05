@@ -10,13 +10,16 @@
                 <li class="section-item">
                     <a href="/#funktionen"> Funktionen </a>
                 </li>
+
+                <li class="section-item {{ if eq .Section "preise" }}active{{ end }}">
+                    <a href="/#preise"> Preise </a>
+                </li>
+
                 <li class="section-item {{ if eq .Section "hilfe" }}active{{ end }}">
                     <a href="/hilfe"> Hilfe </a>
                 </li>
-                <li class="section-item {{ if eq .Section "blog" }}active{{ end }}">
-                    <a href="/blog"> Blog </a>
-                </li>
-                <li class="section-item {{ if eq .Section "magazin" }}active{{ end }}">
+
+                <li class="section-item {{ if hasPrefix .RelPermalink "/magazin" }}active{{ end }}">
                     <a href="/magazin"> Magazin </a>
                 </li>
             </ul>
@@ -61,13 +64,16 @@
                         <li>
                             <a href="/#funktionen"> Funktionen </a>
                         </li>
+
+                        <li class="{{ if eq .Section "preise" }}active{{ end }}">
+                            <a href="/#preise"> Preise </a>
+                        </li>
+
                         <li class="{{ if eq .Section "hilfe" }}active{{ end }}">
                             <a href="/hilfe"> Hilfe </a>
                         </li>
-                        <li class="{{ if eq .Section "blog" }}active{{ end }}">
-                            <a href="/blog"> Blog </a>
-                        </li>
-                        <li class="{{ if eq .Section "magazin" }}active{{ end }}">
+
+                        <li class="{{ if hasPrefix .RelPermalink "/magazin" }}active{{ end }}">
                             <a href="/magazin"> Magazin </a>
                         </li>
                     </ul>

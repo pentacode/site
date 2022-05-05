@@ -65,4 +65,9 @@ Wer sich mit den mannigfaltigen Details rund um Dienstplanung, Buchführung und 
 
 Während der Führungsjahre in der Gastronomie habe auch er „die Schmerzen des Wachstums“ gespürt - wenn Personalstrukturen immer größer werden und man bei allen gesetzlichen Vorgaben und Fallstricken über ein immer komplexer werdendes System den Überblick behalten muss. „Als Unternehmensberater konnte ich im Anschluss dieses Karriereabschnitts den Blick von außen auf andere Unternehmen werfen“. Und Dabei stellte er fest: **„Die Aufgabenstellungen und Probleme der „Großen“ entsprechen fast exakt den Herausforderungen, die sich auch jedem Einzelgastronomen im Alltag stellen.** Nur die Gewichtung der Einzelprobleme ist eine andere.“
 
-Vor diesem Hintergrund entstand die Idee, die vielfältigen und rechtlich oftmals komplizierten Aufgaben, die dem Unternehmer gestellt werden, in einer Softwarelösung zusammenzufassen und zu vereinheitlichen. „Dabei war es mir ein besonderes Anliegen, dass ein Anwender die Pentacode App nicht nur intuitiv und beinahe spielerisch bedienen kann, sondern dass die Software auch wirtschaftlich wirksam ist.“ Damit Unternehmer und Führungskräfte sich sicher fühlen können und genügend Zeit haben, gemeinsam mit ihren Teams daran zu arbeiten, was wirklich wichtig ist: gute Produkte, zufriedene Kunden und das Wachstum eines gesunden und zukunftsfähigen Betriebs. Und dabei Zeit sparen.
+Vor diesem Hintergrund entstand die Idee, die vielfältigen und rechtlich oftmals komplizierten Aufgaben, die dem
+Unternehmer gestellt werden, in einer Softwarelösung zusammenzufassen und zu vereinheitlichen. **„Dabei war es mir ein
+besonderes Anliegen, dass ein Anwender die Pentacode App nicht nur intuitiv und beinahe spielerisch bedienen kann,
+sondern dass die Software auch wirtschaftlich wirksam ist.“** Damit Unternehmer und Führungskräfte sich sicher fühlen
+können und genügend Zeit haben, gemeinsam mit ihren Teams daran zu arbeiten, was wirklich wichtig ist: gute Produkte,
+zufriedene Kunden und das Wachstum eines gesunden und zukunftsfähigen Betriebs. Und dabei Zeit sparen.

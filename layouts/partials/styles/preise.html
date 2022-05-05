@@ -1,0 +1,189 @@
+<style>
+    .section-preise-anchor {
+        position: relative;
+        top: -6em;
+    }
+
+    section.section-preise .inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.section-preise .inner .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.section-preise h2 {
+        font-size: 2.3em;
+        line-height: 1.2em;
+        margin: 0 0 0.2em 0;
+        font-weight: 100;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        background: linear-gradient(125deg, var(--green) 0%, var(--blue) 25%, var(--purple) 75%, var(--orange) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        display: inline-block;
+    }
+
+    section.section-preise .section-preise-tile:not(:hover) h3,
+    section.section-preise .section-preise-tile:not(:hover) .price-amount,
+    section.section-preise .section-preise-tile:not(:hover) .price-upon-request {
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    section.section-preise .price-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 6em;
+    }
+
+    section.section-preise .price {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.section-preise .price-amount {
+        font-size: 3em;
+    }
+
+    section.section-preise .price-upon-request {
+        font-size: 2em;
+    }
+
+    section.section-preise .price-from {
+        opacity: 0.5;
+        width: 0;
+        position: relative;
+        left: -1.5em;
+        top: 0.8em;
+    }
+
+    section.section-preise .all-features-plus {
+        opacity: 0.5;
+        margin-top: 0.5em;
+    }
+
+    section.section-preise .price-unit {
+        opacity: 0.5;
+        margin-top: -0.5em;
+    }
+
+    section.section-preise .content {
+        margin: -2em 0;
+        background: transparent;
+    }
+
+    section.section-preise .content::before,
+    section.section-preise .content::after {
+        display: none;
+    }
+
+    section.section-preise .section-preise-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        gap: 1em;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    section.section-preise .section-preise-grid > li {
+        position: relative;
+    }
+
+    section.section-preise .section-preise-tile {
+        display: flex;
+        flex-direction: column;
+        color: var(--color-fg);
+        border: dashed 1px var(--shade-2);
+        border-radius: 1em;
+        padding: 1em;
+        text-align: center;
+        will-change: transform;
+        min-height: 100%;
+        box-sizing: border-box;
+    }
+
+    section.section-preise .section-preise-tile:hover {
+        opacity: 1 !important;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        color: var(--color-bg);
+        border: none;
+        box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
+    }
+
+    section.section-preise .section-preise-tile .section-preise-icon {
+        font-size: 3em;
+        border-radius: 0;
+        color: var(--color-highlight);
+    }
+
+    section.section-preise .section-preise-tile h3 {
+        text-align: center;
+        font-size: 1.2em;
+        color: var(--color-highlight);
+        margin: 0;
+        color: white;
+    }
+
+    section.section-preise .section-preise-tile .features {
+        margin: 0.5em 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+        flex: 1;
+    }
+
+    section.section-preise .section-preise-tile .features li {
+        display: flex;
+        align-items: flex-start;
+        margin: 0.5em 0;
+    }
+
+    section.section-preise .section-preise-tile .features li .fa-check {
+        margin: 0.15em 0.3em;
+    }
+
+    section.section-preise .section-preise-tile .features li.highlight {
+        font-weight: bold;
+    }
+
+    section.section-preise .section-preise-tile:not(:hover) .features li.highlight {
+        color: var(--color-highlight);
+    }
+
+    section.section-preise .call-to-action {
+        margin-top: 0.5em;
+        padding: 0.5em;
+        font-weight: bold;
+        color: white;
+        border-radius: 0.5em;
+        border: dashed 1px white;
+    }
+
+    section.section-preise .section-preise-tile:not(:hover) .call-to-action {
+        border-color: transparent;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    }
+
+    @media (max-width: 700px) {
+        section.section-preise {
+            font-size: 0.8em;
+            margin-top: 0;
+        }
+
+        section.section-preise h2 {
+            width: 6.7em;
+        }
+    }
+</style>
