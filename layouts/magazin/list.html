@@ -33,14 +33,16 @@
                 <li>
                     <article>
                         <div class="cover-image">
-                            {{ if .Params.cover }}
-                                {{ $coverRes := .Resources.GetMatch .Params.cover }}
-                                {{ with $coverRes }}
-                                    <img class="article-cover stretch collapse" src="{{ $coverRes.Permalink }}" />
-                                    {{ else }}
-                                    <img class="article-cover stretch collapse" src="{{ .Params.cover }}" />
+                            <a href="{{ .RelPermalink }}">
+                                {{ if .Params.cover }}
+                                    {{ $coverRes := .Resources.GetMatch .Params.cover }}
+                                    {{ with $coverRes }}
+                                        <img class="article-cover stretch collapse" src="{{ $coverRes.Permalink }}" />
+                                        {{ else }}
+                                        <img class="article-cover stretch collapse" src="{{ .Params.cover }}" />
+                                    {{ end }}
                                 {{ end }}
-                            {{ end }}
+                            </a>
                         </div>
 
                         <div class="article-categories">
