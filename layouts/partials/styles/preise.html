@@ -88,16 +88,18 @@
     }
 
     section.section-preise .section-preise-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        display: flex;
         gap: 1em;
         list-style: none;
         padding: 0;
         justify-content: center;
         margin-top: 2em;
+        flex-wrap: wrap;
     }
 
     section.section-preise .section-preise-grid > li {
+        max-width: 24em;
+        width: 100%;
         position: relative;
     }
 
