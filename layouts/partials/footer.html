@@ -2,15 +2,22 @@
     <nav>
         <ul>
             {{ $currPage := . }}
-            {{ range .Site.Sections }}
-                {{ if not (eq .Title "Alt") }}
-                    <li class="section-item {{ if eq . $currPage }}active{{ end }}">
-                        <a href="{{ .RelPermalink }}">
-                            {{ .Title }}
-                        </a>
-                    </li>
-                {{ end }}
-            {{ end }}
+
+            <li class="section-item">
+                <a href="/magazin/"> Magazin </a>
+            </li>
+
+            <li class="section-item">
+                <a href="/news/"> News </a>
+            </li>
+
+            <li class="section-item">
+                <a href="/funktionen/"> Funktionen </a>
+            </li>
+
+            <li class="section-item">
+                <a href="/hilfe/"> Hilfe </a>
+            </li>
 
             <li class="section-item">
                 <a href="#" data-open-helpscout> Kontakt </a>
