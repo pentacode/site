@@ -1,6 +1,6 @@
 ---
 title: Tipps für Tips Vol. 2 - Mehr Trinkgeld, wenn der Kellner in die Hocke geht?
-publishDate: 2022-05-22
+publishDate: 2022-05-26
 cover: "bild1.jpg"
 author: lstrasser
 magazin/rubriken:

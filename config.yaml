@@ -23,3 +23,10 @@ markup:
     goldmark:
         renderer:
             unsafe: true
+related:
+    includeNewer: true
+    indices:
+        - name: magazin/rubriken
+          weight: 100
+    threshold: 80
+    toLower: true

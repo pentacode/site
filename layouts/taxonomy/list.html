@@ -42,7 +42,7 @@
             </li>
         </ul>
 
-        <ul class="articles animation-reveal-children">
+        <ul class="articles-list animation-reveal-children">
             {{ range .Data.Pages }}
                 {{ $author := index .Site.Data.staff (default "lstrasser" .Params.author) }}
                 <li>
