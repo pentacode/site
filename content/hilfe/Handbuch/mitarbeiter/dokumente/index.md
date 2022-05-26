@@ -23,7 +23,6 @@ Sie gelangen in die Einzelansicht der Dokumente eines Mitarbeiters, indem Sie de
 <img src = "einzelansicht.png" >
 {{</figure>}}
 
-
 ## Dokumente hinzufügen
 
 Um ein neues Dokument hinzuzufügen klicken Sie auf den {{< icon "fa-file-circle-plus" >}}-**Button** in der rechten oberen Ecke der Übersicht oder direkt unter dem Namen des Mitarbeiters. Sie werden anschließend aufgefordert die gewünschte Datei auf ihrem PC auszuwählen - dazu wählen Sie erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC gespeichert ist und anschließend die Datei, welche Sie hochladen wollen. Alternativ können Sie die Datei auch einfach per **Drag & Drop** in das Dokumentenfeld des Mitarbeiters ziehen. Sobald Sie das getan haben, wird sich ein [Dialogfeld](#dokumenteneigenschaften) öffnen, in welchem Sie weitere Dokumenteneigenschaften festlegen können. 
