@@ -31,8 +31,8 @@ Dokumentenkategorien filtern.
 
 Sie gelangen in die Einzelansicht der Dokumente eines Mitarbeiters, indem Sie
 den Namen in der Dokumentenübersicht anklicken. Hier haben Sie die Möglichkeit
-noch einmal **übersichtlicher** alle Dateien des Mitarbeiters zu durchforsten,
-explizite Dokumente zu suchen oder auch neue Dateien hinzufügen. Von hier aus
+, die Dokumente eines bestimmten Mitarbeiters einzusehen,
+Einträge gezielt zu suchen oder auch neue Dateien hinzufügen. Von hier aus
 können Sie die Dateien des ausgewählten Mitarbeiters auch auf ihrem PC sichern,
 bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie dazu
 ihren Cursor über eines der Dokumente und folgen den Anweisungen
