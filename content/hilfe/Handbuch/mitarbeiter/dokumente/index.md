@@ -153,7 +153,7 @@ Word-Dokument) einer Datei nicht ändern, dazu müssen Sie das Dokument
 
 ## Dokumente sichern
 
-Wenn Sie eine Kopie eines Dokuments auf ihrem Gerät **speichern** wollen, öffnen
+Wenn Sie eine Kopie eines Dokuments auf ihrem Gerät **speichern** wollen, [öffnen](#dokument-öffnen)
 Sie die Datei und klicken Sie auf den {{< icon "download">}}-**Button**. Nun
 wird das Dokument standardmäßig in ihrem Verzeichnis **Dieser PC/Downloads**
 gespeichert. 
