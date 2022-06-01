@@ -95,7 +95,7 @@ zugreifen. Klicken Sie dazu einfach auf die Datei in der
 [Einzelansicht](#einzelansicht). Die gewählt Datei wird sich darauf direkt im
 Browserfenster öffnen.
 
->Tipp {{<icon="bulb">}} Mit {{<key "strg">}} + {{<key "+">}} und {{<key
+>Tipp {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und {{<key
 >"strg">}} + {{<key "-">}} können Sie Dokumente beim Einsehen vergrößern und
 >verkleinern.  
 
