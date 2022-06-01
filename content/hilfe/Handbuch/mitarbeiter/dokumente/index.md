@@ -102,7 +102,7 @@ Browserfenster öffnen.
 ## Dokumente filtern
 
 Ein großer Vorteil eines digitalisierten Archivs ist die Geschwindigkeit, in der
-Sie das gesuchte Dokument unter Tausend finden können. Pentacode bietet Ihnen
+Sie das gesuchte Dokument selbst unter einer Vielzahl von anderen Dokumenten finden können. Pentacode bietet Ihnen
 dabei zwei mögliche **Filteroptionen**: Nach Mitarbeiterkriterien und nach
 Dokumentenkategorien
 
