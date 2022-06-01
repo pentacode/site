@@ -125,7 +125,7 @@ sie einer Datei zugeordnet haben beim [hinzufügen](#kategorien-hinzufügen).
 Wählen Sie dazu die mit den {{<icon "tag" >}} markierten Kategorien am oberen
 Rand der Dokumentenübersicht aus. Durch Anklicken einer der Kategorien sehen Sie
 nur noch die Dateien, welche dieser Kategorie zugeordnet sind. Um wieder zu
-allen Dokumenten zurückzukehren drücken Sie auf den {{<icon="tags">}}
+allen Dokumenten zurückzukehren drücken Sie auf den {{<icon "tags" >}}
 **Alle-Button**
 
 ### Filter kombinieren
