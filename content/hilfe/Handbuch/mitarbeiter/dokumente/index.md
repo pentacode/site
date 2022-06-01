@@ -23,8 +23,9 @@ gewünschte Dokument klicken, worauf sich diese in ihrem Browserfenster öffnet.
 Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern oder
 Dokumentenkategorien filtern. 
 
-{{<figure caption = "Hier können Sie die gespeicherten Datein all ihrer
-Mitarbeiter einsehen.">}} <img src = "dokumentenübersicht.png" /> {{</figure>}}
+{{<figure caption="Hier können Sie die gespeicherten Datein all ihrer Mitarbeiter einsehen.">}}
+<img src="dokumentenübersicht.png" />
+{{</figure>}}
 
 ## Einzelansicht
 
