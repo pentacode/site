@@ -14,7 +14,7 @@ einfacher.
 
 ## Kategorien
 
-Hier können Sie die farbliche Codierung ihrer **Dokumentenkategorien**
+Hier können Sie die Namen und farbliche Codierung ihrer **Dokumentenkategorien**
 individuell anpassen oder neue Kategorien erstellen. 
 
 ### Kategorien hinzufügen
