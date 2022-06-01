@@ -166,9 +166,9 @@ Sicherheit werden Sie jedoch noch einmal gefragt, ob Sie die Datei wirklich
 löschen wollen. Sobald Sie nun auf **Löschen** klicken, ist das Dokument
 unwiederruflich gelöscht.
 
-{{<figure caption = "Bewegen Sie in der Einzelansicht ihren Cursor über ein
-Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu
-öffnen">}} <img src = "bearbeiten.png"/> {{</figure>}}
+{{<figure caption="Bewegen Sie in der Einzelansicht ihren Cursor über ein Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu öffnen">}}
+<img src = "bearbeiten.png"/>
+{{</figure>}}
 
 ## Berechtigungen erteilen
 
