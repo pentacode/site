@@ -170,7 +170,7 @@ unwiederruflich gelöscht.
 Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu
 öffnen">}} <img src = "bearbeiten.png"/> {{</figure>}}
 
-## Dokumentenzugriff
+## Berechtigungen erteilen
 
 Im Menüpunkt **Zugänge und Rechte** können Sie ihren Mitarbeitern in
 verschiedenen Stufen Zugriff auf das Dokumentenarchiv gewähren. Sollen die
