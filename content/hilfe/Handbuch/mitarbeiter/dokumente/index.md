@@ -86,7 +86,7 @@ Dokument den ausgewählten Kategorien zugeordnet und es ist einfach danach zu
 Normalfall vom PC übernommen.">}} <img src = "eingabefenster.png" />
 {{</figure>}}
 
-## Dokumente abrufen 
+## Dokument öffnen
 
 Nachdem Sie nun zahlreiche Dokumente ihrer Mitarbeiter auf Pentacode
 digitalisiert gesichtert haben, möchten Sie natürlich auch wieder auf diese
