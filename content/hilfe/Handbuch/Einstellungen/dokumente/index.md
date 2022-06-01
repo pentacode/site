@@ -21,7 +21,7 @@ individuell anpassen oder neue Kategorien erstellen.
 
 Drücken Sie auf den Button **Neue Kategorie** werden Sie gebeten einen neuen
 **Namen** einzugeben. Dazu klicken Sie einfach auf das Textfeld neben dem
-{{<icon = "tag">}}-**icon** und gaben den gewünschten Namen ein. Zusätzlich
+{{<icon "tag" >}}-**icon** und geben den gewünschten Namen ein. Zusätzlich
 können Sie noch auswählen in welcher **Farbe** die Kategorie in der
 [Dokumentenübersicht](/hilfe/handbuch/mitarbeiter/dokumente) erscheinen soll.
 Dazu drücken Sie auf das farbliche Quadrat am rechten Rand der Kachel und wählen
