@@ -188,7 +188,7 @@ aber die Dokumente anderer Mitarbeiter. Gehen Sie dazu unter **Mitarbeiter** auf
 Mitarbeiterapp die für sie gespeicherten Dokumente einsehen aber keine weiteren
 hinzufügen oder bestehende löschen.
 
->**Tipp** {{<icon="bulb">}} Über das Dokumentenarchiv können Sie
+>**Tipp** {{<icon "lightbulb" >}} Über das Dokumentenarchiv können Sie
 >mitarbeiterspezifisch auch To-Do Listen, Meetingmitschriften oder selbst
 >ausgestellte Arbeitszeugnisse zur Verfügung stellen - ihrer Fantasie sind keine
 >Grenzen gesetzt
