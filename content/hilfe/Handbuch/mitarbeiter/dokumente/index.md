@@ -38,7 +38,7 @@ bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie da
 ihren Cursor über eines der Dokumente und folgen den Anweisungen
 [hier](#dokumente-bearbeiten).
 
-{{<figure caption = "">}} <img src = "einzelansicht.png" > {{</figure>}}
+{{<figure caption="">}} <img src = "einzelansicht.png" > {{</figure>}}
 
 ## Dokumente hinzufügen
 
