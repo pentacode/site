@@ -208,9 +208,9 @@ einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 >Dokumentenarchiv hat Zugriff auf eventuell private Daten der Mitarbeiter - eine
 >Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen. 
 
-{{<figure caption = "Erteilen Sie einem Manager die Berechtigung **Mitarbeiter**
-kann er automatisch auch das Dokumentenarchiv bearbeiten">}} <img src =
-"dokumentenberechtigung.png" /> {{</figure>}}
+{{<figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch das Dokumentenarchiv bearbeiten">}}
+<img src="dokumentenberechtigung.png" />
+{{</figure>}}
 
 ## Kategorien bearbeiten
 
