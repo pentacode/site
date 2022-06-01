@@ -53,7 +53,7 @@ Mitarbeiters ziehen. Sobald Sie das getan haben, wird sich ein
 [Dialogfeld](#dokumenteneigenschaften) öffnen, in welchem Sie weitere
 Dokumenteneigenschaften festlegen können. 
 
-> Tipp {{<icon = "bulb">}} Haben Sie eine Datei gerade erst von ihrem
+> Tipp {{<icon "lightbulb" >}} Haben Sie eine Datei gerade erst von ihrem
 > Mitarbeiter erhalten bspw. über den Anhang einer E-Mail, wird diese im
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
