@@ -60,6 +60,34 @@ zum Thema Berechtigungen finden Sie unter [Mitarbeiter/Zugänge & Rechte](../zug
 Wenn Sie die Berechtigungen des Mitarbeiters zu Ihrer Zufriedenheit eingerichtet haben, können Sie nun den Vorgang
 abschließen, indem Sie auf den Button {{<button label="Mitarbeiter Erstellen" >}} klicken.
 
+## Mitarbeiter Auf Probe
+
+Bevor eine Person als voller Mitarbeiter eingestellt wird, ist es in vielen Branchen üblich, ihn einen oder mehrere Tage
+"auf Probe" arbeiten zu lassen. So kann sichergestellt werden, dass ein Mitarbeiter auch wirklich in das Unternehmen
+passt und für die vorgesehenen Aufgaben geeignet ist.
+
+Um einen Mitarbeiter "auf Probe" anzulegen, gehen Sie genauso vor wie unter [Neuen Mitarbeiter
+Anlegen](#neuen-mitarbeiter-anlegen) beschrieben. Allerdings aktivieren Sie nun den Button {{<button label="Auf Probe"
+icon-right="toggle-on" >}} in der linke oberen Ecke. Die Punkte
+**Vertrag** und **Zugänge & Rechte** können Sie in diesem Fall übersprungen werden.
+
+Mitarbeiter mit dem Status "Auf Probe", können bereits für [Dienste eingeplant](../../dienstplan/) werden und sogar
+über die [Digitale Stempeluhr](../../stempeluhr/) Zeiten erfassen. Sonstige Features wie das Arbeitszeitkonto,
+Abwesenheiten oder das Dokumentenarchiv sind für Probemitarbeiter nicht verfügbar.
+
+### Probemitarbeiter Voll Einstellen
+
+Um einen Probemitarbeiter in einen vollen Mitarbeiter umzuwandeln, gehen Sie wie folgt vor:
+
+1. Wählen Sie den Punkt {{<button icon="users" label="Mitarbeiter" >}} im Hauptmenü
+   und wählen dort den gewünschten Mitarbeiter über das Dropdown-Menu
+   {{<button label="Alle Mitarbeiter" icon-right="caret-down" >}} in der linken oberen Ecke.
+2. Klicken Sie den Button {{<button icon="handshake-angle" label="Einstellen" >}} unter dem Namen
+   des Mitarbeiters.
+3. Bestätigen Sie die Aktion durch einen Klick auf den {{<button label="Einstellen" >}}-Button.
+4. Es öffnet sich automatisch das Formular zum [Erstellen eines neuen Vertrages](../vertrag/#neuer-vertrag).
+   Geben Sie hier die gewünschten Vertragsdaten ein und klicken Sie auf {{<button label="Speichern" >}}.
+
 ## Mitarbeiter Entlassen
 
 Wenn ein Mitarbeiter Ihr Unternehmen dauerhaft oder vorübergehen verlässt, können Sie diesen über die "Mitarbeiter
