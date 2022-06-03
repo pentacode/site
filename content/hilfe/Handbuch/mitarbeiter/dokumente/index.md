@@ -30,8 +30,8 @@ Dokumentenkategorien filtern.
 ## Einzelansicht
 
 Sie gelangen in die Einzelansicht der Dokumente eines Mitarbeiters, indem Sie
-den Namen in der Dokumentenübersicht anklicken. Hier haben Sie die Möglichkeit
-, die Dokumente eines bestimmten Mitarbeiters einzusehen,
+den Namen in der Dokumentenübersicht anklicken. Hier haben Sie die 
+Möglichkeit, die Dokumente eines bestimmten Mitarbeiters einzusehen,
 Einträge gezielt zu suchen oder auch neue Dateien hinzufügen. Von hier aus
 können Sie die Dateien des ausgewählten Mitarbeiters auch auf ihrem PC sichern,
 bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie dazu
@@ -42,16 +42,26 @@ ihren Cursor über eines der Dokumente und folgen den Anweisungen
 
 ## Dokumente hinzufügen
 
-Um ein neues Dokument hinzuzufügen klicken Sie auf den {{< icon
+So fügen Sie ein neues Dokument hinzufügen:
+1. Klicken Sie auf den {{< icon
 "fa-file-circle-plus" >}}-**Button** in der rechten oberen Ecke der Übersicht
-oder direkt unter dem Namen des Mitarbeiters. Sie werden anschließend
-aufgefordert die gewünschte Datei auf ihrem PC auszuwählen - dazu wählen Sie
-erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC gespeichert ist
-und anschließend die Datei, welche Sie hochladen wollen. Alternativ können Sie
-die Datei auch einfach per **Drag & Drop** in das Dokumentenfeld des
-Mitarbeiters ziehen. Sobald Sie das getan haben, wird sich ein
-[Dialogfeld](#dokumenteneigenschaften) öffnen, in welchem Sie weitere
-Dokumenteneigenschaften festlegen können. 
+oder direkt unter dem Namen des Mitarbeiters.
+2. Sie werden nun aufgefordert die gewünschte Datei auszuwählen,
+dazu wählen Sie erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC
+gespeichert ist und anschließend die Datei, welche Sie hochladen wollen.
+3. Durch Doppelklick bestätigen Sie die Auswahl
+4. Nun öffnet sich ein Fenster in dem Sie weitere
+   [Dokumenteneigenschaften](#dokumenteneigenschaften) bestimmen können.
+
+### Drag and Drop
+
+Um ein Dokument hinzuzufügen können Sie auch den Ordner mit den gewünschten
+Dateien auf ihrem PC öffnen und das Dokument per Drag and Drop in das
+Dokumentenarchiv ziehen. Drücken Sie dazu auf die Datei und 
+**halten die linke Maustaste gedrückt**. Nun **ziehen** Sie die Datei 
+in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend 
+öffnet sich auch das Fenster für weitere
+[Dokumenteneigenschaften](#dokumenteneigenschaften)
 
 > Tipp {{<icon "lightbulb" >}} Haben Sie eine Datei gerade erst von ihrem
 > Mitarbeiter erhalten bspw. über den Anhang einer E-Mail, wird diese im
@@ -77,13 +87,13 @@ diesem Dokument zu **filtern** und es schnell zu finden. Tippen Sie dazu einfach
 den Namen der gewünschten Kategorie in das Textfeld, bis diese auftaucht. Wenn
 Sie eine neue **Kategorie erstellen** und das Dokument dieser zuordnen wollen,
 geben Sie den Namen der neuen Kategorie ein und drücken Sie auf den
-{{<icon="tag">}}-**Button** mit dem Namen der Kategorie daneben. Jetzt ist das
+{{<icon "tag">}}-**Button** mit dem Namen der Kategorie daneben. Jetzt ist das
 Dokument den ausgewählten Kategorien zugeordnet und es ist einfach danach zu
 [filtern](#kategorienfilter)
 
 
-{{<figure caption = "Der Name der Datei sowie das aktuelle Datum werden im
-Normalfall vom PC übernommen.">}} <img src = "eingabefenster.png" />
+{{<figure caption = "Der Name der Datei sowie das aktuelle Datum werden im Normalfall vom PC übernommen">}}
+<img src = "eingabefenster.png" />
 {{</figure>}}
 
 ## Dokument öffnen
@@ -95,8 +105,8 @@ zugreifen. Klicken Sie dazu einfach auf die Datei in der
 [Einzelansicht](#einzelansicht). Die gewählt Datei wird sich darauf direkt im
 Browserfenster öffnen.
 
->Tipp {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und {{<key
->"strg">}} + {{<key "-">}} können Sie Dokumente beim Einsehen vergrößern und
+>Tipp {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und 
+{{<key "strg">}} + {{<key "-">}} können Sie Dokumente beim Einsehen vergrößern und
 >verkleinern.  
 
 ## Dokumente filtern
@@ -137,9 +147,9 @@ nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 >**Hygieneschulung** und schon haben Sie alle relevanten Bescheinigungen
 >aufgelistet. 
 
-{{<figure caption = "Hier wurden die Mitarbeiter nach der Abteilung Küche und
-die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert">}} <img src =
-"beispielfilter.png" /> {{</figure>}}
+{{<figure caption = "Hier wurden die Mitarbeiter nach der Abteilung Küche und die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert">}} 
+<img src ="beispielfilter.png" /> 
+{{</figure>}}
 
 ## Dokumente bearbeiten
 
