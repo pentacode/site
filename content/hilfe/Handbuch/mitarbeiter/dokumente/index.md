@@ -176,11 +176,16 @@ nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 
 ## Dokumente bearbeiten
 
-Um eine Datei zu **bearbeiten**, suchen Sie diese in der Dokumentenübersicht und
-rufen Sie sie auf. Drücken Sie nun auf den {{<icon "pencil-alt">}}-**Button** im
+So **bearbeiten** Sie eine Datei:
+
+1. [Öffnen](#dokument-öffnen) Sie das Dokument
+2. Drücken Sie nun auf den {{<icon "pencil-alt">}}-**Button** im
 rechten oberen Eck, um wieder in das [Dialogfeld](#dokumenteneigenschaften) zu
 gelangen, in dem Sie Namen, Kategorien und Kommentar des Dokuments bearbeiten
-können. Innerhalb von Pentacode können Sie den Inhalt (z.B den Text in einem
+können.
+3. Klicken Sie auf {{< button label="Speichern" >}}
+
+> Innerhalb von Pentacode können Sie den Inhalt (z.B den Text in einem
 Word-Dokument) einer Datei nicht ändern, dazu müssen Sie das Dokument
 [speichern](#dokumente-sichern) und lokal auf ihrem PC bearbeiten.
 
