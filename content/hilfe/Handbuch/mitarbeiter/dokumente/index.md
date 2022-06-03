@@ -2,7 +2,6 @@
 title: Dokumentenarchiv
 icon: cabinet-filing
 weight: 1
-
 ---
 
 Das **Dokumentenarchiv** bietet Ihnen die Möglichkeit die **Dokumente ihrer
@@ -10,7 +9,7 @@ Mitarbeiter direkt in Pentacode zu speichern und von überall verfügbar zu
 haben**. So bietet es sich an, Lebensläufe, Arbeitszeugnisse, Bescheinigungen
 oder ähnliche Dateien hier abzuspeichern um auf ein ausgedrucktes Archiv
 weitestgehend verzichten zu können. So sparen Sie sich Mühe und Papier, da Sie
-in Sekundenschnelle stets über das gesuchte Dokument verfügen können. 
+in Sekundenschnelle stets über das gesuchte Dokument verfügen können.
 
 ## Dokumentenübersicht
 
@@ -21,7 +20,7 @@ erscheinen dabei die ihm zugeteilten Dateien mit Namen, Datum und
 Dokumentenkategorie. Von hier aus können Sie Dateien einsehen, indem Sie auf das
 gewünschte Dokument klicken, worauf sich diese in ihrem Browserfenster öffnet.
 Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern oder
-Dokumentenkategorien filtern. 
+Dokumentenkategorien filtern.
 
 {{<figure caption="Hier können Sie die gespeicherten Datein all ihrer Mitarbeiter einsehen.">}}
 <img src="dokumentenübersicht.png" />
@@ -30,7 +29,7 @@ Dokumentenkategorien filtern.
 ## Einzelansicht
 
 Sie gelangen in die Einzelansicht der Dokumente eines Mitarbeiters, indem Sie
-den Namen in der Dokumentenübersicht anklicken. Hier haben Sie die 
+den Namen in der Dokumentenübersicht anklicken. Hier haben Sie die
 Möglichkeit, die Dokumente eines bestimmten Mitarbeiters einzusehen,
 Einträge gezielt zu suchen oder auch neue Dateien hinzufügen. Von hier aus
 können Sie die Dateien des ausgewählten Mitarbeiters auch auf ihrem PC sichern,
@@ -39,18 +38,19 @@ ihren Cursor über eines der Dokumente und folgen den Anweisungen
 [hier](#dokumente-bearbeiten).
 
 {{<figure caption="Die Einzelansicht zeigt Ihnen nur die Dokumente eines Mitarbeiters">}}
- <img src = "einzelansicht.png" > 
- {{</figure>}}
+<img src = "einzelansicht.png" >
+{{</figure>}}
 
 ## Dokumente hinzufügen
 
 So fügen Sie ein neues Dokument hinzufügen:
+
 1. Klicken Sie auf den {{< icon "fa-file-circle-plus" >}}-
-**Button** in der rechten oberen Ecke der Übersicht
-oder direkt unter dem Namen des Mitarbeiters.
+   **Button** in der rechten oberen Ecke der Übersicht
+   oder direkt unter dem Namen des Mitarbeiters.
 2. Sie werden nun aufgefordert die gewünschte Datei auszuwählen,
-dazu wählen Sie erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC
-gespeichert ist und anschließend die Datei, welche Sie hochladen wollen.
+   dazu wählen Sie erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC
+   gespeichert ist und anschließend die Datei, welche Sie hochladen wollen.
 3. Durch Doppelklick bestätigen Sie die Auswahl
 4. Nun öffnet sich ein Fenster in dem Sie weitere
    [Dokumenteneigenschaften](#dokumenteneigenschaften) bestimmen können.
@@ -59,9 +59,9 @@ gespeichert ist und anschließend die Datei, welche Sie hochladen wollen.
 
 Um ein Dokument hinzuzufügen können Sie auch den Ordner mit den gewünschten
 Dateien auf ihrem PC öffnen und das Dokument per Drag and Drop in das
-Dokumentenarchiv ziehen. Drücken Sie dazu auf die Datei und 
-**halten die linke Maustaste gedrückt**. Nun **ziehen** Sie die Datei 
-in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend 
+Dokumentenarchiv ziehen. Drücken Sie dazu auf die Datei und
+**halten die linke Maustaste gedrückt**. Nun **ziehen** Sie die Datei
+in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 öffnet sich auch das Fenster für weitere
 [Dokumenteneigenschaften](#dokumenteneigenschaften)
 
@@ -69,7 +69,6 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 > Mitarbeiter erhalten bspw. über den Anhang einer E-Mail, wird diese im
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
-
 
 ## Dokumenteneigenschaften
 
@@ -124,43 +123,44 @@ Dokument den ausgewählten Kategorien zugeordnet und es ist einfach danach zu
 ## Dokument öffnen
 
 Nachdem Sie nun zahlreiche Dokumente ihrer Mitarbeiter auf Pentacode
-digitalisiert gesichtert haben, möchten Sie natürlich auch wieder auf diese
+in digitaler Form gespeichert haben, möchten Sie natürlich auch wieder auf diese
 zugreifen. Klicken Sie dazu einfach auf die Datei in der
 [Dokumentenübersicht](#dokumentenübersicht) oder
 [Einzelansicht](#einzelansicht). Die gewählt Datei wird sich darauf direkt im
 Browserfenster öffnen.
 
->**Tipp:** {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und 
-{{<key "strg">}} + {{<key "-">}} können Sie Dokumente beim Einsehen vergrößern und
->verkleinern.  
+> **Tipp:** {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und
+> {{<key "strg">}} + {{<key "-">}} können Sie Dokumente beim Einsehen vergrößern und
+> verkleinern.
 
 ## Dokumente filtern
 
 Ein großer Vorteil eines digitalisierten Archivs ist die Geschwindigkeit, in der
 Sie das gesuchte Dokument selbst unter einer Vielzahl anderer Dokumente finden
 können.
-Pentacode bietet Ihnendabei zwei mögliche **Filteroptionen**: 
+Pentacode bietet Ihnen dabei zwei mögliche **Filteroptionen**:
 Nach Mitarbeiterkriterien und nach Dokumentenkategorien
 
 ### Mitarbeiterfilter
 
 So filtern Sie ihre Mitarbeiter nach ihren Positionen und
 Beschäftigungsverhältnissen:
-1. Gehen Sie in die Dokumentenübersicht und wählen  **Filtern...** neben dem
-{{<icon "filter">}} -**Button** im rechten oberen Eck aus.
+
+1. Gehen Sie in die Dokumentenübersicht und wählen **Filtern...** neben dem
+   {{<icon "filter">}} -**Button** im rechten oberen Eck aus.
 2. Nun können Sie durch Ab- und Anwählen verschiedener
-**Beschäftigungsverhältnisse** und **Arbeitsbereiche** nur die Gruppe an
-Mitarbeitern auswählen, deren Dokumente Sie einsehen möchten.
+   **Beschäftigungsverhältnisse** und **Arbeitsbereiche** nur die Gruppe an
+   Mitarbeitern auswählen, deren Dokumente Sie einsehen möchten.
 3. Sobald Sie wieder die Dokumente aller Mitarbeiter sehen wollen, scrollen Sie
-im Filtern-Dialogfenster ganz nach unten und drücken Sie auf **Filter
-zurücksetzen**.
+   im Filtern-Dialogfenster ganz nach unten und drücken Sie auf **Filter
+   zurücksetzen**.
 
 ### Kategorienfilter
 
 Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die Kategorien
 nützlich, die sie einer Datei zugeordnet haben beim
-[hinzufügen](#kategorien-hinzufügen). Wählen Sie dazu die mit den {{<icon "tag"
->}} markierten Kategorien am oberen Rand der Dokumentenübersicht aus. Durch
+[hinzufügen](#kategorien-hinzufügen). Wählen Sie dazu die mit den {{<icon "tag" >}}
+markierten Kategorien am oberen Rand der Dokumentenübersicht aus. Durch
 Anklicken einer der Kategorien sehen Sie nur noch die Dateien, welche dieser
 Kategorie zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren drücken
 Sie auf den {{<icon "tags" >}} **Alle-Button**
@@ -169,13 +169,14 @@ Sie auf den {{<icon "tags" >}} **Alle-Button**
 
 Die Mitarbeiter- und Kategorienfilter können auch kombiniert werden, wenn Sie
 nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
->**Beispiel:** Sollte eine Behörde alle Hygieneschulungen ihrer Köche einsehen
->wollen, stellen Sie den **Filter** auf **Küche** und die Kategorie auf
->**Hygieneschulung** und schon haben Sie alle relevanten Bescheinigungen
->aufgelistet. 
 
-{{<figure caption = "Hier wurden die Mitarbeiter nach der Abteilung Küche und die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert">}} 
-<img src ="beispielfilter.png" /> 
+> **Beispiel:** Sollte eine Behörde alle Hygieneschulungen ihrer Köche einsehen
+> wollen, stellen Sie den **Filter** auf **Küche** und die Kategorie auf
+> **Hygieneschulung** und schon haben Sie alle relevanten Bescheinigungen
+> aufgelistet.
+
+{{<figure caption = "Hier wurden die Mitarbeiter nach der Abteilung Küche und die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert">}}
+<img src ="beispielfilter.png" />
 {{</figure>}}
 
 ## Dokumente bearbeiten
@@ -184,21 +185,21 @@ So **bearbeiten** Sie eine Datei:
 
 1. [Öffnen](#dokument-öffnen) Sie das Dokument
 2. Drücken Sie nun auf den {{<icon "pencil-alt">}}-**Button** im
-rechten oberen Eck, um wieder in das [Dialogfeld](#dokumenteneigenschaften) zu
-gelangen, in dem Sie Namen, Kategorien und Kommentar des Dokuments bearbeiten
-können.
+   rechten oberen Eck, um wieder in das [Dialogfeld](#dokumenteneigenschaften) zu
+   gelangen, in dem Sie Namen, Kategorien und Kommentar des Dokuments bearbeiten
+   können.
 3. Klicken Sie auf {{< button label="Speichern" >}}
 
 > Innerhalb von Pentacode können Sie den Inhalt (z.B den Text in einem
-Word-Dokument) einer Datei nicht ändern, dazu müssen Sie das Dokument
-[speichern](#dokumente-sichern) und lokal auf ihrem PC bearbeiten.
+> Word-Dokument) einer Datei nicht ändern, dazu müssen Sie das Dokument
+> [speichern](#dokumente-sichern) und lokal auf ihrem PC bearbeiten.
 
 ## Dokumente sichern
 
 Wenn Sie eine Kopie eines Dokuments auf ihrem Gerät **speichern** wollen, [öffnen](#dokument-öffnen)
 Sie die Datei und klicken Sie auf den {{< icon "download">}}-**Button**. Nun
 wird das Dokument standardmäßig in ihrem Verzeichnis **Dieser PC/Downloads**
-gespeichert. 
+gespeichert.
 
 ## Dokumente löschen
 
@@ -206,7 +207,7 @@ Sollten Sie eine Datei von Pentacode **löschen** wollen, öffnen Sie die Datei
 und klicken Sie auf den {{<icon "trash">}}-**Button** im rechten oberen Eck. Zur
 Sicherheit werden Sie jedoch noch einmal gefragt, ob Sie die Datei wirklich
 löschen wollen. Sobald Sie nun auf **Löschen** klicken, ist das Dokument
-unwiederruflich gelöscht.
+unwiderruflich gelöscht.
 
 {{<figure caption="Bewegen Sie in der Einzelansicht ihren Cursor über ein Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu öffnen">}}
 <img src = "bearbeiten.png"/>
@@ -217,7 +218,7 @@ unwiederruflich gelöscht.
 Im Menüpunkt **Zugänge und Rechte** können Sie ihren Mitarbeitern in
 verschiedenen Stufen Zugriff auf das Dokumentenarchiv gewähren. Sollen die
 Mitarbeiter nur Zugriff auf ihre eigenen Dokumente haben, reicht ein
-**Mitarbeiterzugriff**. Soll jedoch das Dokumentenarchiv mitbearbeitet werden,
+**Mitarbeiterzugriff**. Soll jedoch das Dokumentenarchiv mit bearbeitet werden,
 ist auch das möglich mit einem **Managerzugriff**.
 
 ### Mitarbeiterzugriff
@@ -230,10 +231,10 @@ aber die Dokumente anderer Mitarbeiter. Gehen Sie dazu unter **Mitarbeiter** auf
 Mitarbeiterapp die für sie gespeicherten Dokumente einsehen aber keine weiteren
 hinzufügen oder bestehende löschen.
 
->**Tipp:** {{<icon "lightbulb" >}} Über das Dokumentenarchiv können Sie
->mitarbeiterspezifisch auch To-Do Listen, Meetingmitschriften oder selbst
->ausgestellte Arbeitszeugnisse zur Verfügung stellen - ihrer Fantasie sind keine
->Grenzen gesetzt
+> **Tipp:** {{<icon "lightbulb" >}} Über das Dokumentenarchiv können Sie
+> mitarbeiterspezifisch auch To-Do Listen, Meetingmitschriften oder selbst
+> ausgestellte Arbeitszeugnisse zur Verfügung stellen - ihrer Fantasie sind keine
+> Grenzen gesetzt
 
 ### Managerzugriff
 
@@ -246,9 +247,9 @@ Sie den Reiter **Mitarbeiter** ausklappen und alle Haken bis auf **Dokumente**
 entfernen. Von nun an kann dieser Manager die Dokumente aller Mitarbeiter
 einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 
->**Achtung** {{<icon "exclamation">}} Ein Manager mit Berechtigung auf das
->Dokumentenarchiv hat Zugriff auf eventuell private Daten der Mitarbeiter - eine
->Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen. 
+> **Achtung** {{<icon "exclamation">}} Ein Manager mit Berechtigung auf das
+> Dokumentenarchiv hat Zugriff auf eventuell private Daten der Mitarbeiter - eine
+> Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen.
 
 {{<figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch das Dokumentenarchiv bearbeiten">}}
 <img src="dokumentenberechtigung.png" />
@@ -261,5 +262,3 @@ verändern wollen, drücken Sie in der **Dokumentenübersicht** auf {{<button
 label="Kategorien bearbeiten">}} oben rechts im Fenster. Dieser leitet Sie zu
 den **Einstellungen** weiter. Klicken Sie
 [hier](/hilfe/handbuch/einstellungen/dokumente) für mehr Informationen.
-
-
