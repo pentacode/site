@@ -18,7 +18,7 @@ keywords:
 ---
 Im **Dienstplan** von Pentacode haben Sie die Möglichkeit, die **geplanten** Arbeitszeiten mit den tatsächlich **geleisteten** Arbeitszeiten **täglich** zu vergleichen. Unter "**Berichte**" werden die Arbeitszeiten **monatlich** zum Vergleich zusammengefasst.
 
-in die Zusammenfassung fließen ausschließlich **abgeschlossene** Arbeitstage ein. Geplante Arbeitszeiten werden hierbei **nicht** berücksichtigt.
+In die Zusammenfassung fließen ausschließlich **abgeschlossene** Arbeitstage ein. Geplante Arbeitszeiten werden hierbei **nicht** berücksichtigt.
 
 ## Stundenangabe
 
@@ -82,7 +82,7 @@ Nach demselben Prinzip können Sie **einzelne Mitarbeiter** auswählen. Wenn Sie
 
 Der in diesen Grafiken angezeigte Zeitraum ist immer das **Kalenderjahr**. Beim Öffnen dieses Berichts sehen Sie in der Standardeinstellung das **laufende Jahr**. 
 
-Zurückliegende Zeiträume können Sie sehen über das Dropdown-Symbol wählen. 
+Zurückliegende Zeiträume können Sie über das Dropdown-Symbol wählen. 
 
 {{< figure caption="Über das Dropdown-Symbol können Sie zurückliegende Kalenderjahre aufrufen" >}}
 

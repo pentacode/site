@@ -10,7 +10,7 @@ anchors:
 keywords: []
 ---
 
-Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilungen Stunden vorgeben.
+Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten spürbar zu senken), können Sie einem Dienstplaner für jede Abteilung Stunden vorgeben.
 
 ## Dienstplanung mit Stundenvorgabe
 
@@ -82,7 +82,7 @@ Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung de
 
 {{< /figure >}}
 
-Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz von 1.200 € geplant.. Der Stundenaufwand im Standard sieht für diesen Tag 20 Arbeitsstunden. Dies würde zu einer Produktivität von 63,50 € führen.
+Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz von 1.270 € geplant. Der Stundenaufwand im Standard sieht für diesen Tag 20 Arbeitsstunden. Dies würde zu einer Produktivität von 63,50 € führen.
 
 {{< figure caption="Eine Veränderung der Stundenanzahl führt zu einer Veränderung der Produktivität" >}}
 

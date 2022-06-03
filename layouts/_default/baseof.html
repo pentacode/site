@@ -13,10 +13,18 @@
         <meta name="og:description" content='{{- partial "description" . | chomp }}'></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        {{ $cover := default "https://pentacode.app/img/icon.png" .Params.cover }}
+        {{ $coverRes := .Resources.GetMatch $cover }}
+        {{ with $coverRes }}
+            <meta property="og:image" content="{{ $coverRes.Permalink }}" />
+            {{ else }}
+            <meta property="og:image" content="{{ $cover }}" />
+        {{ end }}
         {{ end }}
 
         {{ block "favicon" . }}
-        <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
+        <link rel="shortcut icon" type="image/png" href="/img/icon.png"/>
         {{ end }}
 
         {{ define "basecss" }}

@@ -70,7 +70,7 @@ So funktioniert das **Erfassen einer neuen Verfügbarkeit**:
 5. Klicken Sie auf {{< button label="Speichern" >}} um die Verfügbarkeit **übernehmen** oder
    {{< button label="Abbrechen" >}} um sie zu **verwerfen**.
 
-{{< figure caption="Indem Sie die Maustaste gedrückt können Sie direkt den kompletten Zeitraum der Verfügbarkeit selektieren." >}}
+{{< figure caption="Indem Sie die Maustaste gedrückt halten können Sie direkt den kompletten Zeitraum der Verfügbarkeit selektieren." >}}
 <img src="neue-verfuegbarkeit.gif" />
 {{< /figure >}}
 

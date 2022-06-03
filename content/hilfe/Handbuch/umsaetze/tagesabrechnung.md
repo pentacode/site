@@ -104,7 +104,7 @@ Analog zum hier gezeigten Vorgehen können Sie auch mit "Unbaren Zahlungsarten",
 
 ## Statistische Erfassung
 
-Selbst wenn Sie die Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir, die **Erlöse** in Ihrem Unternehmen zumindest zu **statistischen Zwecken** zu erfassen. Neben einer Darstellung Ihrer Umsätze nach deren Herkunft ermittelt Pentacode automatisch die Arbeits-Produktivität in Ihrem Unternehmen.
+Selbst wenn Sie das Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir, die **Erlöse** in Ihrem Unternehmen zumindest zu **statistischen Zwecken** zu erfassen. Neben einer Darstellung Ihrer Umsätze nach deren Herkunft ermittelt Pentacode automatisch die Arbeits-Produktivität in Ihrem Unternehmen.
 
 Verwenden Sie für die Umsatzeingabe am besten [**Umsatzgruppen**](/hilfe/handbuch/umsaetze/umsatzgruppen/).
 
@@ -182,7 +182,7 @@ Eine Liste der [Vorschüsse ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/)ents
 
 ## Bargeld Saldo
 
-Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhalten Sie denn **rechnerischen Kassenstand**.
+Nachdem Sie alle Einnahmen und Ausgaben des Geschäftstages erfasst haben, erhalten Sie den **rechnerischen Kassenstand**.
 
 {{< figure caption="Mit der Eingabe von Umsätzen und Ausgaben errechnet Pentacode die Bargeldsumme, die rechnerisch vorhanden ist" >}}
 
@@ -260,7 +260,7 @@ Nachträgliche **Änderungen** können **jederzeit** durchgeführt werden. Ein *
 
 Die Funktion **"Abschließen & Buchen"** ist nur für jene Administratoren sichtbar, die auch **Zugang zum Kassenbuch** haben.
 
-{{< figure caption="ABschließen und Buchen erfordert die Berechtigung zum Zugang zum Kassenbuch" >}}
+{{< figure caption="Abschließen und Buchen erfordert die Berechtigung zum Zugang zum Kassenbuch" >}}
 
 ![](/uploads/ta11.png)
 

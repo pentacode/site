@@ -36,7 +36,7 @@ Wie sie den Resturlaub eines Jahres verwerfen oder Überträge bearbeiten könne
 
 Das Konto **SFN-Zuschläge** weist die Summe der monatlichen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit des Mitarbeiters aus.
 
-In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "**(B.pfl.)**" jene Zuschläge, die durch Krank oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
+In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "**(B.pfl.)**" jene Zuschläge, die durch Krankheit oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
 
 Sollte der Mitarbeiter **Zuschläge** unterjährig als [**pauschale
 Vorauszahlung**](/hilfe/handbuch/mitarbeiter/vertrag#monatliche-sfn-pauschale) erhalten, werden diese unter
@@ -44,7 +44,7 @@ Vorauszahlung**](/hilfe/handbuch/mitarbeiter/vertrag#monatliche-sfn-pauschale) e
 und als fortlaufender **Saldo** gezeigt.
 
 Für die Saldierung werden standardmäßig ausschließlich die **betragsfreien** Zuschläge berücksichtigt. Wenn Sie bei der
-Saldierung auch die Beitragsplichtigen Zuschläge mit einberechnen wollen, können Sie dies unter [Einstellungen /
+Saldierung auch die beitragsplichtigen Zuschläge mit einberechnen wollen, können Sie dies unter [Einstellungen /
 Sonstiges](/hilfe/handbuch/einstellungen/sonstiges#saldierung-sfn-konten) einstellen.
 
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die Zuschläge ausweist, die auf
@@ -59,7 +59,7 @@ Grund der **bis zum aktuellen Zeitpunkt erfassten Arbeitszeiten** errechnet werd
 ## Monatsübersicht
 
 In der Monats-Kontenübersicht sehen Sie die Kontostände aller Mitarbeiter jeweils für einen einzelnen Monat. Diese
-Ansicht ist zum Beispiel dafür hilfreich, einen schnellen Überblick über die aktuellen Kontoständer Ihrer Mitarbeiter zu
+Ansicht ist zum Beispiel dafür hilfreich, einen schnellen Überblick über die aktuellen Kontostände Ihrer Mitarbeiter zu
 erhalten, oder um zu sehen, wer in einem Monat besonders viele Über- oder Mindestunden angehäuft hat.
 
 Sie gelangen in die Monats-Kontenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Konten** wählen.
@@ -145,7 +145,7 @@ Um die Kontenüberträge eines Monats für mehrere (oder alle) Mitarbeiter "in e
 4. Füllen Sie die Spalten "Stunden", "Urlaub" und "SFN" mit den gewünschten Werten. Lassen Sie jene Mitarbeiter/Spalten,
    für die "normalen" Übertrag des Vormonats beibehalten möchten, einfach leer.
 
-{{< figure caption="Das Bearbeiten von mehreren Mitarbeiterkonten können Sie im in der Jahresübersicht vornehmen." >}}
+{{< figure caption="Das Bearbeiten von mehreren Mitarbeiterkonten können Sie in der Jahresübersicht vornehmen." >}}
 <img src="uebertrag-bearbeiten-alle.gif" />
 {{< /figure >}}
 

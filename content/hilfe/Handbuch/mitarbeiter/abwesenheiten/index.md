@@ -51,12 +51,12 @@ So funktioniert das **erfassen einer neuen Abwesenheit**:
 4. Wählen Sie aus, welche Tage innerhalb des Abwesenheitszeitraums als **Fehltage** erfasst werden sollen. Pentacode
    trifft hier automatisch eine Vorauswahl anhand der üblichen Arbeitstage des Mitarbeiters (ermittelt basierend auf den
    [Vertragsdaten](/hilfe/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
-5. Klicken Sie auf {{< button label="Speichern" >}} um die Abwesenheit **übernehmen** oder
+5. Klicken Sie auf {{< button label="Speichern" >}} um die Abwesenheit zu **übernehmen** oder
    {{< button label="Abbrechen" >}} um sie zu **verwerfen**.
 6. Falls es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten gibt wird Pentacode Sie
    fragen, ob Sie diese löschen möchten. Bestätigen Sie, dass Sie den Vorgang abschließen möchten.
 
-{{< figure caption="Indem Sie die Maustaste gedrückt können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren." >}}
+{{< figure caption="Indem Sie die Maustaste gedrückt halten, können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren." >}}
 <img src="abwesenheit-erfassen.gif" />
 {{< /figure >}}
 
@@ -102,7 +102,7 @@ So **genehmigen** Sie einen Abwesenheitsantrag:
 
 ### Abwesenheitsantrag Ablehnen
 
-So **genehmigen** Sie einen Abwesenheitsantrag:
+So lehnen Sie einen Abwesenheitsantrag **ab**:
 
 1. **Wählen** Sie zunächst den Abwesenheitsantrag durch einen Mausklick in der [Übersicht](#übersicht) oder
    [Einzelansicht](#einzelansicht) oder indem Sie dem Link in der Benachrichtungs-Email folgen.

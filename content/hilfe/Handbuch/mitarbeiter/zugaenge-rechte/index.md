@@ -22,7 +22,7 @@ Der erste Schritt zur Einrichtung eines Mitarbeiterzugangs ist die Versendung ei
 1. Wählen Sie den Punkt **Mitarbeiter** aus dem Hauptmenü und dort den Unterpunkt **Zugänge & Rechte**.
 2. Wählen Sie den gewünschten Mitarbeiter aus dem Dropdown-Menü in der linken oberen Ecke oder indem Sie in der
    Listenansicht auf dessen Namen klicken.
-3. Klicken Sie auf den button {{< button label="Einladung Versenden" icon="envelope" >}}.
+3. Klicken Sie auf den Button {{< button label="Einladung Versenden" icon="envelope" >}}.
 4. Geben Sie die Emailadresse des Mitarbeiters ein. Falls bereits eine Emailadresse in den Stammdaten des Mitarbeiters
    hinterlegt ist, wird diese automatisch für Sie eingefügt. Sie können diese Addresse beibehalten oder eine abweichene
    Emailadresse eingeben (**Achtung:** Die Emailadresse in den Stammdaten des Mitarbeiters wird dann mit der neuen
@@ -104,7 +104,7 @@ Die **Berechtiungen** eines Mitarbeiters bestimmt, auf welche Bereiche der Softw
 
 In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat und können schnell und bequem Anpassungen vornehmen.
 
-Um die Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** im Hauptmenü und dort den Unterpunkt **Zugänge & Rechte**.
+Um in die Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** im Hauptmenü und dort den Unterpunkt **Zugänge & Rechte**.
 
 {{< figure caption="In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat." >}}
 <img src="uebersicht.png" />

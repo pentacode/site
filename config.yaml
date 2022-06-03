@@ -6,6 +6,8 @@ defaultContentLanguage: "de"
 metaDataFormat: "yaml"
 pluralizelisttitles: false
 summaryLength: 30
+taxonomies:
+    magazin/rubrik: magazin/rubriken
 params:
     get_started_url: "/#angebot"
     contact_url: "mailto:mail@pentacode.app"
@@ -21,3 +23,10 @@ markup:
     goldmark:
         renderer:
             unsafe: true
+related:
+    includeNewer: true
+    indices:
+        - name: magazin/rubriken
+          weight: 100
+    threshold: 80
+    toLower: true

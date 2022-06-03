@@ -1,15 +1,40 @@
 ---
-title: Vertrag
+title: Verträge
 weight: 3
 icon: file-contract
 ---
 
-Im Menüpunkt **"Vertrag"** geben Sie die **arbeitszeit**- und **lohnrelevanten Angaben** zum Mitarbeiter ein. Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
+Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und **lohnrelevanten Angaben** Ihrer Mitarbeiter. Achten Sie
+hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die
+gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
 
-Bitte stellen Sie sicher, dass die hier hinterlegten Angaben zu jedem Zeitpunkt den Vereinbarungen entsprechen, die Sie mit dem Mitarbeiter laut Arbeitsvertrag getroffen haben.
+## Verträge Übersicht
 
-{{< figure caption="Im Menüpunkt 'Vertrag' geben Sie die arbeitszeit- und lohnrelevanten Angaben zum Mitarbeiter ein." >}}
-<img src="vertrag.png" />
+In der Verträge-Übersicht sehen Sie in tabellarischer Form die wichtigsten aktuellen Vertragsdaten Ihrer Mitarbeiter auf
+einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {{<icon "users" >}} **Mitarbeiter** im Hauptmenü
+und dort im Untermenü **Verträge** wählen.
+
+Über den {{<button icon="print" >}}-Button können Sie diese Ansicht ausdrucken. Das {{<button
+label="Filtern..." icon-right="filter" >}} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
+nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {{<button icon="list-timeline"
+label="Vertragsänderungen" >}} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen einzelne
+Mitarbeiter bringt Sie in die [Verträge-Einzelansicht](#verträge-einzelansicht) des Mitarbeiters.
+
+{{< figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick." >}}
+<img src="vertraege_uebersicht.png" />
+{{< /figure >}}
+
+## Verträge Einzelansicht
+
+In der Verträge-Einzelansicht können Sie alle Verträge eines Mitarbeiters einsehen und verwalten. In die diese Ansicht
+gelangen Sie, indem Sie in der [Verträge-Übersicht](#verträge-übersicht) auf den gewünschten Mitarbeiter klicken.
+
+Um einen bestimmten Vertrag zu öffnen, klicken Sie einfach auf den entsprechenden Eintrag auf der linken Seite. Über den
+{{<button icon="list-timeline" label="Vertragsänderungen" >}} kommen Sie in die [Vertragsänderungen-Ansicht](#vertragsänderungen-einzelansicht) des
+Mitarbeiters.
+
+{{< figure caption="" >}}
+<img src="vertraege_einzelansicht.png" />
 {{< /figure >}}
 
 ## Felder & Eigenschaften
@@ -86,17 +111,23 @@ Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden
 
 ### Jahresarbeitszeitkonto
 
-Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
+Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehentliche Unterschreitung des Mindestlohns
+könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der
+Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
 In diesem Fall erhalten Sie in Pentacode eine _Problem Meldung_.
 
-Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos** vereinbaren.
+Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos**
+vereinbaren.
 
 Setzen Sie in diesem Fall den Button bei "**Jahresarbeitszeitkonto Vereinbart**".
 
-Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
+Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert
+und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 
-> **Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
+> **Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich
+> vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende
+> Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
 ### Fehlstundenberechnung
 
@@ -173,7 +204,7 @@ vereinbart sind.
 
 ### Urlaubszuwachs
 
-Der Urlaubsanspruch definiert den Gesamtanspruch eines eines Mitarbeiters auf ein komplettes Jahr. Für die forlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
+Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die forlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
 
 #### Nach Arbeitsstunden
 
@@ -181,7 +212,7 @@ Wenn Sie bei Urlaubszuwachs "**Nach Arbeitsstunden**" wählen, wird der Urlaubsa
 
 #### Monatlich
 
-Wählen Sie "**Monatlich**", wächst dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
+Wählen Sie "**Monatlich**", steht dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
 
 Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
 
@@ -205,73 +236,101 @@ Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter-einzeln/konten/#sfn-zusch
 
 > Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
 
-## Vertrag Bearbeiten
-
-**"Vertrag Bearbeiten"** heißt in Pentacode, dass **Angaben** in einem bestehenden Vertrag **ergänzt oder verändert** werden.
-
-Um Angaben zu ändern oder zu ergänzen, überschreiben Sie diese einfach und speichern dann.
-
-> **WICHTIG!** Wenn Sie Angaben ergänzen oder verändern, reichen diese **Änderungen** in die **Vergangenheit** zurück. Insbesondere alle **arbeitszeit- und lohnrelevanten Werte** zu einem Mitarbeiter werden somit **neu berechnet**.
-
-Diese Vergangenheit reicht bis zum Beginn des aktuell gültigen Vertrags zurück.
-
 ## Neuer Vertrag
 
-**"Neuer Vertrag"** heißt in Pentacode, dass **arbeitszeit**- oder **lohnrelevante Absprachen** mit dem Mitarbeiter **neu vereinbart** wurden, z.B. der Lohn geändert oder Arbeitszeit oder Urlaub neu geregelt wurden.
+Bei fast jedem Mitarbeiter, der längere Zeit in einem Unternehmen arbeitet, werden früher oder später
+Arbeitskonditionen neu verhandelt oder aus anderen Gründen angepasst. Diese Änderungen bilden Sie
+in Pentacode ab, indem Sie einen neuen Vertrag anlegen:
 
-Wenn Sie "Neuer Vertrag" wählen, öffnet der bestehende Vertrag. Geben Sie bei **Vertragsbeginn** den Zeitpunkt ein, ab dem die Änderungen Gültigkeit haben sollen.
+1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
+2. Klicken Sie auf {{<button label="Neuer Vertrag" icon="plus" >}}.
+3. Es öffnet sich das Vertragsformular, vorausgefüllt mit den Werten des vorherigen Vertrages. Nehmen Sie die
+   gewünschten Änderungen vor und klicken Sie dann auf {{<button label="Speichern" >}}. Durch einen Klick auf {{<button
+   label="Abbrechen" >}} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren Auswirkungen
+   finden Sie unter [Felder & Eigenschaften](#felder--eigenschaften).
 
-Sollten Sie vergessen haben, einen Vertrag rechtzeitig zu ändern, ist das kein Problem. Sie können auch einen Vertragsbeginn eingeben, der in der Vergangenheit liegt. Pentacode rechnet automatisch zurück.
+> {{<icon "info-circle" >}} Das Enddatum des vorherigen Vertrages wird automatisch auf den Vertragsbeginn des neuen
+> Vertrages gesetzt.
 
-Sie müssen im "alten" Vertrag nur jene Positionen überschreiben, die im neuen Vertrag abweichen und speichern.
+## Vertrag Bearbeiten
 
-> **WICHTIG!** Für die Richtigkeit der Berechnungen in Pentacode ist es wichtig, dass die Angaben zum Mitarbeiter identisch mit den aktuell gültigen arbeitsvertraglichen Vereinbarungen sind.
+Als alternative zum Erstellen eines neuen Vertrages können Sie außerdem einen bestehenden Vertrag bearbeiten.
 
-**Wenn Sie einen neuen Vertrag anlegen, sorgt Pentacode dafür, dass der alte Vertrag automatisch mit Beginn des neuen Vertrags endet.**
+> {{<icon "exclamation-triangle" >}} **ACHTUNG:** Änderungen an bestehenden Verträgen wirken sich rückwirkend
+> auf alle **arbeitszeit- und lohnrelevanten Werte** innerhalb Vertragszeitraums aus, welche in der Folge
+> neu berechnet werden. Änderungen an bestehenden Verträgen sollten deshalb nur in Ausnahmefällen vorgenommen werden.
+> **Bei regulären Vertragsänderungen, also Änderungen die erst ab einem bestimmten Zeitpunkt (gewöhnlich in der Gegenwart
+> oder Zukunft) greifen sollen ohne die Konditionen für die vorherigen Zeiträume zu ändern, empfehlen wir, einen [Neuen
+> Vertrag](#neuer-vertrag) anzulegen**.
+
+So nehmen Sie Änderungen an einem bestehenden Vertrag vor:
+
+1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
+2. Wählen Sie den gewünschten Vertrag aus der Liste der existierenden Verträge.
+3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {{<button icon="pencil-alt" >}}-Button in der rechten
+   oberen Ecke.
+4. Wählen Sie den Punkt {{<button label="Vertrag Bearbeiten" icon="edit" >}} und bestätigen Sie die Aktion indem
+   Sie auf {{<button label="Fortfahren" >}} klicken.
+5. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf {{<button label="Speichern" >}}. Durch einen Klick
+   auf {{<button label="Abbrechen" >}} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren
+   Auswirkungen finden Sie unter [Felder & Eigenschaften](#felder--eigenschaften).
 
 ## Vertragsunterbrechung
 
-**"Vertragsunterbrechung"** bedeutet die **Aussetzung** eines bestehenden Vertragsverhältnis über einen **bestimmten Zeitraum**.
+Die Funktion **Vertragsunterbrechung** ist ein hilfreiches Feature, um das **vorübergehende Aussetzen** eines bestehenden
+Vertragsverhältnisses über einen **bestimmten Zeitraum** abzubilden. Typische Gründe für eine Vertragsunterbrechung sind
+z.B. Elternzeit, unbezahlter Urlaub oder eine längere Krankheit. Während des Zeitraums der Aussetzung sind die
+Arbeitskonten des Mitarbeiters "eingefroren" und die **Berechnung der "Sollarbeitszeit" wird ausgesetzt**.
 
-Typische Gründe für eine Vertragsunterbrechung sind z.B. Elternzeit, unbezahlter Urlaub oder eine längere Krankheit.
+Das Erstellen einer Vertragsunterbrechung funktioniert wie folgt:
 
-Geben Sie in diesem Fall einfach Beginn und Ende der Unterbrechung ein.
+1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
+2. Wählen Sie den gewünschten Vertrag aus der Liste der existierenden Verträge.
+3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {{<button icon="pencil-alt" >}}-Button in der rechten
+   oberen Ecke.
+4. Wählen Sie den Punkt {{<button label="Vertragunterbrechnung" icon="pause-circle" >}} und bestätigen Sie die Aktion indem
+   Sie auf {{<button label="Fortfahren" >}} klicken.
+5. Es öffnet sich ein Dialog, in dem Sie folgenden Angaben tätigen müssen:
+   - Der **Zeitraum** der Unterbrechung. Dieser muss innerhalb des Vertragszeitraums des gewählten Vertrages liegen.
+   - Der **Grund** der Unterbrechung. Dieser dient vor allem für Anzeigezwecke und für die interne Dokumentation.
+   - Ob der **Urlaubsanspruch** trotz Vertragsunterbrechung weiter anwachsen soll (zum Beispiel bei längerer Krankheit).
+   - Ob eventuelle **SFN-Pauschalen** im Zeitraum der Vertragsunterbrechung anteilig gekürzt werden soll.
+6. Klicken Sie auf {{<button label="Speichern">}} um den Vorgang abzuschließen.
 
-Während des Zeitraums der Aussetzung sind die Arbeitskonten des Mitarbeiters "eingefroren" und die **Berechnung der "Sollarbeitszeit" wird ausgesetzt**.
+## Änderungsprotokoll
 
-Soll der **Urlaubsanspruch** während der Vertragsaussetzung **weiter berechnet** werden, so setzen Sie hierfür den Button bei "**Urlaubsanspruch Läuft Weiter**". Dies trifft zum Beispiel im Fall einer längeren Erkrankung zu.
+Gerade bei Unternehmen mit vielen Mitarbeitern kann es schnell sehr schwierig werden, einen Überblick über alle
+vorgenommenen Vertragsänderungen zu behalten. Vor allem aber ist es von essentieller Bedeutung, Vertragsänderungen
+mit Ihrem Lohnbüro oder Steuerberater abzugleichen. Das **Vertragsänderungs-Protokoll** schafft hier Abhilfe! Dieses
+kommt in zwei Ausführungen:
 
-Sofern Sie SFN-Zuschläge pauschal vorauszahlen, können Sie durch das Aktivieren des Buttons die Vorauszahlung bei einer Unterbrechung anteilig kürzen.
+### Vertragsänderungen-Übersicht
 
-## Vertragshistorie
+In der Vertragsänderungen-Übersicht sehen Sie die Vertragsänderungen aller Ihrer Mitarbeiter, die in einem bestimmten
+Monat vorgenommen wurden. Um in die Vertragsänderungen-Übersicht zu gelangen, navigieren Sie zunächst zur [Verträge-Übersicht](#verträge-übersicht)
+und klicken Sie dort den {{<button label="Vertrangsänderungen" icon="list-timeline" >}}-Button in der linken oberen Ecke.
 
-Über den {{< button icon="history" >}} Button am rechten oberen Rand erhalten Sie eine Liste mit den Verträgen, die Sie
-in der Vergangenheit mit dem Mitarbeiter abgeschlossen haben.
+Über den {{<button icon="print" >}}-Button können Sie diese Ansicht ausdrucken. Das {{<button
+label="Filtern..." icon-right="filter" >}} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
+nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {{<button icon="chevron-left"
+label="Verträge" >}} Button gelangen Sie zurück zur [Verträge-Übersicht](#verträge-übersicht). Ein Klick auf einen einzelnen
+Mitarbeiter bringt Sie in die [Vertragsänderungen-Einzelansicht](#vertragsänderungen-einzelansicht) des Mitarbeiters.
+Außerdem können Sie über die Pfeiltasten und das Monats-Dropdown in der Kopfleiste den Zeitraum wechseln.
 
-## Ausgeschiedene Mitarbeiter erneut einstellen
+{{< figure caption="Die Vertragsänderungen-Übersicht zeigt Ihnen die Vertragsänderungen alle Ihrer Mitarbeiter in einem bestimmten Monat." >}}
+<img src="vertragsaenderungen_uebersicht.png" />
+{{< /figure >}}
 
-Wenn ein Mitarbeiter bereits einmal in Ihrem Unternehmen gearbeitet hat und Sie ihn erneut einstellen, können Sie dies auf sehr einfache und mühelose Weise bewerkstelligen.
+### Vertragsänderungen-Einzelansicht
 
-Gehen Sie zuerst auf "**Mitarbeiter**", filtern Sie dort über das {{< icon "filter" >}}-Symbol die Mitarbeiter nach "**Ausgeschieden**" und suchen Sie nach dem Namen.
+Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick.
+Um in diese Ansicht zu gelangen, navigieren Sie zunächst zur [Verträge-Einzelansicht](#verträge-einzelansicht) des
+Mitarbeiters und klicken Sie dort den {{<button label="Vertrangsänderungen" icon="list-timeline" >}}-Button in der
+linken unteren Ecke.
 
-Wenn Sie den Mitarbeiter durch Anklicken wählen, finden Sie alle Angaben der Vergangenheit vor.
+Über den {{<button icon="print" >}}-Button können Sie diese Ansicht ausdrucken. Über den {{<button icon="chevron-left"
+label="Verträge" >}} Button gelangen Sie zurück zur [Verträge-Einzelansicht](#verträge-einzelansicht).
 
-Gehen Sie nun durch die einzelnen Menüpunkte und passen Sie diese eventuell an. Sie müssen dabei nur die Angaben ändern, die sich in der Zwischenzeit verändert haben.
-
-> **Wichtig**: Sie werden in jedem Fall die Personalnummer ändern müssen, da diese neu vergeben werden wird.
-
-Wenn Sie schließlich auf Vertrag klicken, öffnet der Vertrag, der zuletzt Gültigkeit hatte.
-
-Gehen Sie nun auf "Neuer Vertrag" und legen Sie diesen an. Für detaillierte Hinweise klicken Sie bitte [hier](/hilfe/handbuch/mitarbeiter-einzeln/vertraege/#neuer-vertrag).
-
-Das war's. Der Mitarbeiter ist nun wieder ein Angestellter Ihres Unternehmens.
-
-## Vertrag beenden
-
-Wenn das Beschäftigungsverhältnis eines Mitarbeiters endet, muss auch der Vertrag in Pentacode beendet werden.
-
-Öffnen Sie in diesem Fall den Vertrag des Mitarbeiters, klicken Sie auf das {{< icon "pencil-alt" >}}-Symbol und wählen Sie "**Vertrag bearbeiten**".
-
-Geben Sie dann unter "**Vertragsende**" das Datum ein, zu dem der Vertrag mit dem Mitarbeiter endet.
-
-Ab dem Folgetag ist der Mitarbeiter **archiviert**. Sie finden ihn wieder, indem Sie auf Mitarbeiter klicken, über das {{< icon "filter" >}}-Symbol den Haken bei "**Ausgeschieden**" setzen und den Namen eingeben.
+{{< figure caption="Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick." >}}
+<img src="vertragsaenderungen_einzelansicht.png" />
+{{< /figure >}}

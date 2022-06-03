@@ -4,7 +4,6 @@
     "rewrap.autoWrap.enabled": true,
     "rewrap.wrappingColumn": 80,
     "spellright.language": [
-        "en",
         "de"
     ],
     "spellright.documentTypes": [

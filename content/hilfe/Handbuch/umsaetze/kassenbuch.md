@@ -83,7 +83,7 @@ Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es ers
 
 Wählen Sie den Mitarbeiter mit dem Cursor oder über Buchstabeneingabe, geben Sie den Auszahlungsbetrag ein und "**Speichern**" Sie.
 
-> **Als Auszahlungsdatum wird immer der aktuelle Tagesdatum vorgeschlagen. Stellen Sie sicher, dass Sie das Datum im Bedarfsfall entsprechend korrigieren!**
+> **Als Auszahlungsdatum wird immer das aktuelle Tagesdatum vorgeschlagen. Stellen Sie sicher, dass Sie das Datum im Bedarfsfall entsprechend korrigieren!**
 
 ## Zählprotokoll
 
@@ -137,7 +137,7 @@ Bei einem "Mouse-over" erscheint am rechten Rand das {{< icon "print" >}}-Symbol
 
 {{< /figure >}}
 
-> **Zählprotokolle sollten ausgedruckt und unterzeichnet und für den Fall eine Betriebsprüfung in einem eigenen Ordner abgelegt werden werden.**
+> **Zählprotokolle sollten ausgedruckt und unterzeichnet und für den Fall eine Betriebsprüfung in einem eigenen Ordner abgelegt werden.**
 
 ## Überwachung des Kassensaldos
 
@@ -187,7 +187,7 @@ Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu
 
 ## Kassenbuch exportieren
 
-Über das {{< icon "file-export" >}}-Symbol wählen Sie mit **"Format"**, ob Sie das Kassenbuch **ausdrucken** wollen **oder** das Format, mit dem das Kassenbuch an Ihre Buchhaltung **exportiert** wird.
+Über das {{< icon "file-export" >}}-Symbol wählen Sie mit **"Format"**, ob Sie das Kassenbuch **ausdrucken** wollen **oder** ob das Kassenbuch an ihre Buchhaltung **exportiert** werden soll.
 
 Dabei können Sie den **Zeitraum wählen**. Die Standardvorgabe umfasst immer den gesamten Kalendermonat.
 
