@@ -38,13 +38,15 @@ bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie da
 ihren Cursor über eines der Dokumente und folgen den Anweisungen
 [hier](#dokumente-bearbeiten).
 
-{{<figure caption="">}} <img src = "einzelansicht.png" > {{</figure>}}
+{{<figure caption="Die Einzelansicht zeigt Ihnen nur die Dokumente eines Mitarbeiters">}}
+ <img src = "einzelansicht.png" > 
+ {{</figure>}}
 
 ## Dokumente hinzufügen
 
 So fügen Sie ein neues Dokument hinzufügen:
-1. Klicken Sie auf den {{< icon
-"fa-file-circle-plus" >}}-**Button** in der rechten oberen Ecke der Übersicht
+1. Klicken Sie auf den {{< icon "fa-file-circle-plus" >}}-
+**Button** in der rechten oberen Ecke der Übersicht
 oder direkt unter dem Namen des Mitarbeiters.
 2. Sie werden nun aufgefordert die gewünschte Datei auszuwählen,
 dazu wählen Sie erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC
@@ -63,7 +65,7 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 öffnet sich auch das Fenster für weitere
 [Dokumenteneigenschaften](#dokumenteneigenschaften)
 
-> Tipp {{<icon "lightbulb" >}} Haben Sie eine Datei gerade erst von ihrem
+> **Tipp:** {{<icon "lightbulb" >}} Haben Sie eine Datei gerade erst von ihrem
 > Mitarbeiter erhalten bspw. über den Anhang einer E-Mail, wird diese im
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
@@ -128,38 +130,40 @@ zugreifen. Klicken Sie dazu einfach auf die Datei in der
 [Einzelansicht](#einzelansicht). Die gewählt Datei wird sich darauf direkt im
 Browserfenster öffnen.
 
->Tipp {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und 
+>**Tipp:** {{<icon "lightbulb" >}} Mit {{<key "strg">}} + {{<key "+">}} und 
 {{<key "strg">}} + {{<key "-">}} können Sie Dokumente beim Einsehen vergrößern und
 >verkleinern.  
 
 ## Dokumente filtern
 
 Ein großer Vorteil eines digitalisierten Archivs ist die Geschwindigkeit, in der
-Sie das gesuchte Dokument selbst unter einer Vielzahl von anderen Dokumenten finden können. Pentacode bietet Ihnen
-dabei zwei mögliche **Filteroptionen**: Nach Mitarbeiterkriterien und nach
-Dokumentenkategorien
+Sie das gesuchte Dokument selbst unter einer Vielzahl anderer Dokumente finden
+können.
+Pentacode bietet Ihnendabei zwei mögliche **Filteroptionen**: 
+Nach Mitarbeiterkriterien und nach Dokumentenkategorien
 
 ### Mitarbeiterfilter
 
-Wenn Sie nur die Dokumente eines bestimmten Teils ihrer Belegschaft sehen
-wollen, können Sie den Mitarbeiterfilter nutzen. Gehen Sie dazu in die
-Dokumentenübersicht und wählen  **Filtern...** neben dem {{<icon=
-"filter">}}-**Button** im rechten oberen Eck aus. Nun können Sie durch Ab- und
-Anwählen verschiedener **Beschäftigungsverhältnisse** und **Arbeitsbereiche**
-nur die Gruppe an Mitarbeitern auswählen, deren Dokumente Sie einsehen möchten.
-Sobald Sie wieder die Dokumente aller Mitarbeiter sehen wollen, scrollen Sie im
-Filtern-Dialogfenster ganz nach unten und drücken Sie auf **Filter
-zurücksetzen**. 
+So filtern Sie ihre Mitarbeiter nach ihren Positionen und
+Beschäftigungsverhältnissen:
+1. Gehen Sie in die Dokumentenübersicht und wählen  **Filtern...** neben dem
+{{<icon "filter">}} -**Button** im rechten oberen Eck aus.
+2. Nun können Sie durch Ab- und Anwählen verschiedener
+**Beschäftigungsverhältnisse** und **Arbeitsbereiche** nur die Gruppe an
+Mitarbeitern auswählen, deren Dokumente Sie einsehen möchten.
+3. Sobald Sie wieder die Dokumente aller Mitarbeiter sehen wollen, scrollen Sie
+im Filtern-Dialogfenster ganz nach unten und drücken Sie auf **Filter
+zurücksetzen**.
 
 ### Kategorienfilter
 
-Beim Suchen bestimmter Dokumententypen werden Ihnen die Kategorien nützlich, die
-sie einer Datei zugeordnet haben beim [hinzufügen](#kategorien-hinzufügen).
-Wählen Sie dazu die mit den {{<icon "tag" >}} markierten Kategorien am oberen
-Rand der Dokumentenübersicht aus. Durch Anklicken einer der Kategorien sehen Sie
-nur noch die Dateien, welche dieser Kategorie zugeordnet sind. Um wieder zu
-allen Dokumenten zurückzukehren drücken Sie auf den {{<icon "tags" >}}
-**Alle-Button**
+Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die Kategorien
+nützlich, die sie einer Datei zugeordnet haben beim
+[hinzufügen](#kategorien-hinzufügen). Wählen Sie dazu die mit den {{<icon "tag"
+>}} markierten Kategorien am oberen Rand der Dokumentenübersicht aus. Durch
+Anklicken einer der Kategorien sehen Sie nur noch die Dateien, welche dieser
+Kategorie zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren drücken
+Sie auf den {{<icon "tags" >}} **Alle-Button**
 
 ### Filter kombinieren
 
@@ -226,7 +230,7 @@ aber die Dokumente anderer Mitarbeiter. Gehen Sie dazu unter **Mitarbeiter** auf
 Mitarbeiterapp die für sie gespeicherten Dokumente einsehen aber keine weiteren
 hinzufügen oder bestehende löschen.
 
->**Tipp** {{<icon "lightbulb" >}} Über das Dokumentenarchiv können Sie
+>**Tipp:** {{<icon "lightbulb" >}} Über das Dokumentenarchiv können Sie
 >mitarbeiterspezifisch auch To-Do Listen, Meetingmitschriften oder selbst
 >ausgestellte Arbeitszeugnisse zur Verfügung stellen - ihrer Fantasie sind keine
 >Grenzen gesetzt
