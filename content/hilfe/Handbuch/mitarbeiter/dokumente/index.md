@@ -68,31 +68,54 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
 
-### Dokumenteneigenschaften
 
-Sobald Sie die gewünschte Datei auf ihrem PC ausgewählt haben öffnet sich ein
-Dialogfeld. In diesem können Sie zum einen den Namen ändern, unter dem Pentacode
-das Dokument speichert. Unter **Mitarbeiter** kann zudem der Mitarbeiter
-geändert werden, dem das Dokument zugeordnet wird (sollte man sich in der
-Übersicht verklickt haben). Unter **Datei** ist das ausgewählte Dokument zu
-sehen und unter **Datum** ist standardmäßig das aktuelle Tagesdatum eingegeben.
+## Dokumenteneigenschaften
+
+Wenn Sie ein Dokument hinzufügen müssen Sie folgende Felder und Eigenschaften
+angeben:
+
+### Name
+
+Die Bezeichnung des Dokuments. Diese dient für Darstellungszwecke und erleichtert
+außerdem die Suche nach bestimmten Dokumenten.
+
+### Mitarbeiter
+
+Jedes Dokument ist einem bestimmten Mitarbeiter zugeordnet. Diese Zuordnung
+kann jederzeit durch einen Klick auf das Feld **Mitarbeiter** geändert werden.
+
+### Datei
+
+Jedem Dokument kann eine beliebige Datei **bis zu einer Größe von 5MB**
+angehängt werden. Unterstütze Formate sind **PDFs**, **Bilder (JPEG und PNG)**,
+**Word- und Excel-Dateien** sowie einfache **Text-Dateien**.
+
+### Datum
+
+Das **Datums-Feld** ist für die chronologische Einordnung des Dokumentes vorgesehen.
+Wenn Sie eine Datei auswählen, wird hier automatisch der Zeitpunkt der letzten
+Bearbeitung eingetragen - sie können aber auch ein beliebiges anderes Datum wählen.
+Generell sollte das Datumsfeld des Dokumentes das Entstehungsdatum der angehängten
+Datei widerspiegeln.
+
+### Kommentar
+
 Im Textfeld **Kommentar** kann, wie der Name schon sagt, dem Dokument ein
 Kommentar mit zusätzlichen Informationen hinzugefügt werden.
 
-#### Kategorien hinzufügen
+### Kategorien
 
-Besonders relevant ist das Feld **Kategorie**, hier kann das Dokument einer oder
-mehrerer Kategorien zugeteilt werden, welche es später einfacher machen nach
+Besonders relevant ist das Feld **Kategorien**, hier können dem Dokument eine oder
+mehrere Kategorien zugeordnet werden, welche es später einfacher machen nach
 diesem Dokument zu **filtern** und es schnell zu finden. Tippen Sie dazu einfach
 den Namen der gewünschten Kategorie in das Textfeld, bis diese auftaucht. Wenn
 Sie eine neue **Kategorie erstellen** und das Dokument dieser zuordnen wollen,
 geben Sie den Namen der neuen Kategorie ein und drücken Sie auf den
-{{<icon "tag">}}-**Button** mit dem Namen der Kategorie daneben. Jetzt ist das
+{{<icon "tag" >}}-**Button** mit dem Namen der Kategorie daneben. Jetzt ist das
 Dokument den ausgewählten Kategorien zugeordnet und es ist einfach danach zu
-[filtern](#kategorienfilter)
+[filtern](#kategorienfilter).
 
-
-{{<figure caption = "Der Name der Datei sowie das aktuelle Datum werden im Normalfall vom PC übernommen">}}
+{{<figure caption = "Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen.">}}
 <img src = "eingabefenster.png" />
 {{</figure>}}
 
