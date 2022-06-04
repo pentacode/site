@@ -2,7 +2,7 @@
     "prettier.prettierPath": "/Users/martin/.nvm/versions/node/v12.19.1/lib/node_modules/prettier",
     "editor.formatOnSave": true,
     "rewrap.autoWrap.enabled": true,
-    "rewrap.wrappingColumn": 120,
+    "rewrap.wrappingColumn": 80,
     "spellright.language": [
         "de"
     ],
@@ -10,5 +10,6 @@
         "markdown",
         "latex",
         "plaintext"
-    ]
+    ],
+    "vim.textwidth": 80
 }
