@@ -6,6 +6,8 @@ author: lstrasser
 magazin/rubriken:
   - Das gesunde Team
   - Der zufriedene Kunde
+aliases:
+  - trinkgeld_tips_1
 ---
 
 Die Höhe des Trinkgeldes hängt in den meisten Fällen von der Freundlichkeit des Kellners ab. Oder besser gesagt: von der

@@ -1,6 +1,6 @@
 ---
 title: Arbeitszeiten
-weight: 4
+weight: 3
 icon: hourglass-half
 ---
 
@@ -20,7 +20,7 @@ Um zur Arbeitszeiten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter
 
 ## Das Arbeitszeitblatt
 
-Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten 
+Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten
 monatlichen Arbeitszeiten eines Mitarbeiters in einer
 übersichtlichen Listenansicht. Hier können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden
 vergleichen und vieles mehr. Um zum Arbeitszeitblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht) und wählen dort den gewünschten Mitarbeiter.

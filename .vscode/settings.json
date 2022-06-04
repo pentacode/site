@@ -10,5 +10,6 @@
         "markdown",
         "latex",
         "plaintext"
-    ]
+    ],
+    "vim.textwidth": 80
 }

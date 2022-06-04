@@ -38,7 +38,7 @@
         border: solid 1px var(--orange);
     }
 
-    ul.articles {
+    ul.articles-list {
         list-style-type: none;
         padding: 2em;
         display: grid;
@@ -46,15 +46,15 @@
         grid-gap: 2em;
     }
 
-    ul.articles li:first-child {
+    ul.articles-list article h2 {
+        margin: 0.3em 0;
+        font-size: 1.2em;
+    }
+
+    .list ul.articles-list li:first-child {
         grid-column: -1/1;
         font-size: 1.2em;
         padding: 0 2em;
-    }
-
-    .list article h2 {
-        margin: 0.3em 0;
-        font-size: 1.2em;
     }
 
     .single article h1 {
@@ -100,11 +100,11 @@
         opacity: 0.7;
     }
 
-    .list .article-author {
+    .articles-list .article-author {
         margin: 0;
     }
 
-    .list .article-author-image {
+    .articles-list .article-author-image {
         width: 1.5em;
         height: 1.5em;
         border-radius: 100%;
@@ -112,15 +112,15 @@
         object-fit: cover;
     }
 
-    .list .article-author-name {
+    .articles-list .article-author-name {
         font-size: 0.8em;
     }
 
-    .list .article-date {
+    .articles-list .article-date {
         font-size: 0.8em;
     }
 
-    .list .article-categories {
+    .articles-list .article-categories {
         font-size: 0.8em;
     }
 
@@ -169,7 +169,7 @@
         margin: 0.5em 4rem;
     }
 
-    .single article {
+    .single .main-article {
         padding: 3em 1em;
     }
 
@@ -194,12 +194,40 @@
         margin-top: 1em;
     }
 
+    .footnotes {
+        font-size: 0.8em;
+        margin: 1em;
+    }
+
+    .footnotes hr {
+        border-style: dashed;
+        border-width: 1px;
+        border-bottom-width: 0;
+        opacity: 0.5;
+    }
+
+    .footnotes p {
+        margin: 0;
+    }
+
+    .related-articles {
+        padding: 1em;
+    }
+
+    .related-articles .articles-list {
+        padding: 0;
+    }
+
+    .related-articles > h2 {
+        text-align: center;
+    }
+
     @media (max-width: 55em) {
-        ul.articles {
+        ul.articles-list {
             padding: 1em;
         }
 
-        .single article {
+        .single .main-article {
             padding: 1em;
         }
 
@@ -220,11 +248,11 @@
             margin: 0.5em 0;
         }
 
-        .article-author {
+        .main-article .article-author {
             margin-bottom: 1em;
         }
 
-        ul.articles li:first-child {
+        .list ul.articles-list li:first-child {
             padding: 0;
         }
 
