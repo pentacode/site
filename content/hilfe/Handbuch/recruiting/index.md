@@ -106,7 +106,7 @@ die gewünschte Entlohnung ein. Rechts davon können Sie nun entscheiden ob dies
 Betrag **pro Stunde** oder **monatlich** ausgezahlt wird. 
 
 > **Keine Panik** {{<icon "exclamation">}} Alle in der Ausschreibung
-> spezifizierten Details können **nachträglich** noch adjustiert werden. Sie
+> spezifizierten Details können **nachträglich** noch bearbeitet werden. Sie
 > dienen lediglich der ersten Information der Bewerber und dem schnellen
 > Einstellen in Pentacode. 
 
