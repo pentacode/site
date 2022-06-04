@@ -1,6 +1,6 @@
 ---
 title: Stammdaten
-weight: 1
+weight: 7
 icon: address-card
 anchors: []
 ---

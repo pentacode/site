@@ -1,10 +1,10 @@
 ---
 keywords: []
 title: Zugänge & Rechte
-weight: "7"
+weight: 9
 icon: user-shield
-
 ---
+
 Über Pentacodes einfaches und flexibles Zugangs- und Berechtigungsystem können Sie definieren, **welche Ihrer
 Mitarbeiter Zugang zur Mitarbeiterapp oder Verwaltungsebene haben sollen und auf welche Bereiche und Funktionen jeder
 Person Zugriff gewährt wird**. So können Sie zum Beispiel einzelnen Mitarbeitern die Berechtigung erteilen, Dienstpläne

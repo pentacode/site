@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeiten
-weight: 7
+weight: 5
 icon: comment-check
 ---
 

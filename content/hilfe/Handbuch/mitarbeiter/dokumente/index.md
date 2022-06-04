@@ -1,7 +1,7 @@
 ---
 title: Dokumentenarchiv
 icon: cabinet-filing
-weight: 1
+weight: 6
 ---
 
 Das **Dokumentenarchiv** bietet Ihnen die Möglichkeit die **Dokumente ihrer
@@ -29,13 +29,13 @@ Dokumentenkategorien filtern.
 ## Einzelansicht
 
 Sie gelangen in die Einzelansicht der Dokumente eines Mitarbeiters, indem Sie
-den Namen in der Dokumentenübersicht anklicken. Hier haben Sie die
+den Namen in der [Dokumentenübersicht](#dokumentenübersicht) anklicken. Hier haben Sie die
 Möglichkeit, die Dokumente eines bestimmten Mitarbeiters einzusehen,
 Einträge gezielt zu suchen oder auch neue Dateien hinzufügen. Von hier aus
 können Sie die Dateien des ausgewählten Mitarbeiters auch auf ihrem PC sichern,
 bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie dazu
 ihren Cursor über eines der Dokumente und folgen den Anweisungen
-[hier](#dokumente-bearbeiten).
+[hier](#dokument-bearbeiten).
 
 {{<figure caption="Die Einzelansicht zeigt Ihnen nur die Dokumente eines Mitarbeiters">}}
 <img src = "einzelansicht.png" >
@@ -43,17 +43,17 @@ ihren Cursor über eines der Dokumente und folgen den Anweisungen
 
 ## Dokumente hinzufügen
 
-So fügen Sie ein neues Dokument hinzufügen:
+So fügen Sie ein neues Dokument hinzu:
 
-1. Klicken Sie auf den {{< icon "fa-file-circle-plus" >}}-
-   **Button** in der rechten oberen Ecke der Übersicht
-   oder direkt unter dem Namen des Mitarbeiters.
-2. Sie werden nun aufgefordert die gewünschte Datei auszuwählen,
-   dazu wählen Sie erst links das Verzeichnis aus, in dem das Dokument auf ihrem PC
+1. Klicken Sie auf den {{<button icon="file-circle-plus" >}}-
+   **Button** in der rechten oberen Ecke der [Übersicht](#dokumentenübersicht)
+   oder [Einzelansicht](#einzelansicht).
+2. Sie werden nun aufgefordert die gewünschte Datei auszuwählen, dazu wählen Sie
+   erst links das Verzeichnis aus, in dem das Dokument auf ihrer Festplatte
    gespeichert ist und anschließend die Datei, welche Sie hochladen wollen.
-3. Durch Doppelklick bestätigen Sie die Auswahl
-4. Nun öffnet sich ein Fenster in dem Sie weitere
+3. Nun öffnet sich ein Fenster in dem Sie weitere
    [Dokumenteneigenschaften](#dokumenteneigenschaften) bestimmen können.
+4. Klicken Sie auf {{<button label="Speichern">}} um den Vorgang abzuschließen.
 
 ### Drag and Drop
 
@@ -69,56 +69,6 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 > Mitarbeiter erhalten bspw. über den Anhang einer E-Mail, wird diese im
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
-
-## Dokumenteneigenschaften
-
-Wenn Sie ein Dokument hinzufügen müssen Sie folgende Felder und Eigenschaften
-angeben:
-
-### Name
-
-Die Bezeichnung des Dokuments. Diese dient für Darstellungszwecke und erleichtert
-außerdem die Suche nach bestimmten Dokumenten.
-
-### Mitarbeiter
-
-Jedes Dokument ist einem bestimmten Mitarbeiter zugeordnet. Diese Zuordnung
-kann jederzeit durch einen Klick auf das Feld **Mitarbeiter** geändert werden.
-
-### Datei
-
-Jedem Dokument kann eine beliebige Datei **bis zu einer Größe von 5MB**
-angehängt werden. Unterstütze Formate sind **PDFs**, **Bilder (JPEG und PNG)**,
-**Word- und Excel-Dateien** sowie einfache **Text-Dateien**.
-
-### Datum
-
-Das **Datums-Feld** ist für die chronologische Einordnung des Dokumentes vorgesehen.
-Wenn Sie eine Datei auswählen, wird hier automatisch der Zeitpunkt der letzten
-Bearbeitung eingetragen - sie können aber auch ein beliebiges anderes Datum wählen.
-Generell sollte das Datumsfeld des Dokumentes das Entstehungsdatum der angehängten
-Datei widerspiegeln.
-
-### Kommentar
-
-Im Textfeld **Kommentar** kann, wie der Name schon sagt, dem Dokument ein
-Kommentar mit zusätzlichen Informationen hinzugefügt werden.
-
-### Kategorien
-
-Besonders relevant ist das Feld **Kategorien**, hier können dem Dokument eine oder
-mehrere Kategorien zugeordnet werden, welche es später einfacher machen nach
-diesem Dokument zu **filtern** und es schnell zu finden. Tippen Sie dazu einfach
-den Namen der gewünschten Kategorie in das Textfeld, bis diese auftaucht. Wenn
-Sie eine neue **Kategorie erstellen** und das Dokument dieser zuordnen wollen,
-geben Sie den Namen der neuen Kategorie ein und drücken Sie auf den
-{{<icon "tag" >}}-**Button** mit dem Namen der Kategorie daneben. Jetzt ist das
-Dokument den ausgewählten Kategorien zugeordnet und es ist einfach danach zu
-[filtern](#kategorienfilter).
-
-{{<figure caption = "Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen.">}}
-<img src = "eingabefenster.png" />
-{{</figure>}}
 
 ## Dokument öffnen
 
@@ -157,13 +107,13 @@ Beschäftigungsverhältnissen:
 
 ### Kategorienfilter
 
-Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die Kategorien
-nützlich, die sie einer Datei zugeordnet haben beim
-[hinzufügen](#kategorien-hinzufügen). Wählen Sie dazu die mit den {{<icon "tag" >}}
-markierten Kategorien am oberen Rand der Dokumentenübersicht aus. Durch
-Anklicken einer der Kategorien sehen Sie nur noch die Dateien, welche dieser
-Kategorie zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren drücken
-Sie auf den {{<icon "tags" >}} **Alle-Button**
+Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die
+[Kategorien](#kategorien) nützlich, die sie beim Erstellen eines Datei
+zugeordnet haben. Wählen Sie dazu die mit den {{<icon "tag" >}} markierten
+Kategorien am oberen Rand der Dokumentenübersicht aus. Durch Anklicken einer
+der Kategorien sehen Sie nur noch die Dateien, welche dieser Kategorie
+zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren drücken Sie auf
+den {{<button icon="tags" label="Alle" >}}-Button.
 
 ### Filter kombinieren
 
@@ -179,38 +129,91 @@ nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 <img src ="beispielfilter.png" />
 {{</figure>}}
 
-## Dokumente bearbeiten
+## Dokument bearbeiten
 
 So **bearbeiten** Sie eine Datei:
 
 1. [Öffnen](#dokument-öffnen) Sie das Dokument
-2. Drücken Sie nun auf den {{<icon "pencil-alt">}}-**Button** im
+2. Drücken Sie nun auf den {{<button icon="pencil-alt">}}-**Button** im
    rechten oberen Eck, um wieder in das [Dialogfeld](#dokumenteneigenschaften) zu
    gelangen, in dem Sie Namen, Kategorien und Kommentar des Dokuments bearbeiten
    können.
-3. Klicken Sie auf {{< button label="Speichern" >}}
+3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf {{<button
+   label="Speichern" >}}
 
 > Innerhalb von Pentacode können Sie den Inhalt (z.B den Text in einem
 > Word-Dokument) einer Datei nicht ändern, dazu müssen Sie das Dokument
-> [speichern](#dokumente-sichern) und lokal auf ihrem PC bearbeiten.
+> [speichern](#dokument-herunterladen) und lokal auf ihrem PC bearbeiten.
 
-## Dokumente sichern
+## Dokument herunterladen
 
 Wenn Sie eine Kopie eines Dokuments auf ihrem Gerät **speichern** wollen, [öffnen](#dokument-öffnen)
 Sie die Datei und klicken Sie auf den {{< icon "download">}}-**Button**. Nun
 wird das Dokument standardmäßig in ihrem Verzeichnis **Dieser PC/Downloads**
 gespeichert.
 
-## Dokumente löschen
+## Dokument löschen
 
-Sollten Sie eine Datei von Pentacode **löschen** wollen, öffnen Sie die Datei
-und klicken Sie auf den {{<icon "trash">}}-**Button** im rechten oberen Eck. Zur
+Sollten Sie eine Datei von Pentacode **löschen** wollen, [öffnen](#dokument-öffnen) Sie die Datei
+und klicken Sie auf den {{<button icon="trash">}}-**Button** im rechten oberen Eck. Zur
 Sicherheit werden Sie jedoch noch einmal gefragt, ob Sie die Datei wirklich
 löschen wollen. Sobald Sie nun auf **Löschen** klicken, ist das Dokument
 unwiderruflich gelöscht.
 
 {{<figure caption="Bewegen Sie in der Einzelansicht ihren Cursor über ein Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu öffnen">}}
 <img src = "bearbeiten.png"/>
+{{</figure>}}
+
+## Dokumenteneigenschaften
+
+Wenn Sie ein Dokument hinzufügen müssen Sie folgende Felder und Eigenschaften
+angeben:
+
+### Name
+
+Die Bezeichnung des Dokuments. Diese dient für Darstellungszwecke und erleichtert
+außerdem die Suche nach bestimmten Dokumenten.
+
+### Mitarbeiter
+
+Jedes Dokument ist einem bestimmten Mitarbeiter zugeordnet. Diese Zuordnung
+kann jederzeit durch einen Klick auf das Feld **Mitarbeiter** geändert werden.
+
+### Datei
+
+Jedem Dokument kann eine beliebige Datei **bis zu einer Größe von 5MB**
+angehängt werden. Unterstütze Formate sind **PDFs**, **Bilder (JPEG und PNG)**,
+**Word- und Excel-Dateien** sowie einfache **Text-Dateien**.
+
+### Datum
+
+Das **Datums-Feld** ist für die chronologische Einordnung des Dokumentes vorgesehen.
+Wenn Sie eine Datei auswählen, wird hier automatisch der Zeitpunkt der letzten
+Bearbeitung eingetragen - sie können aber auch ein beliebiges anderes Datum wählen.
+Generell sollte das Datumsfeld des Dokumentes das Entstehungsdatum der angehängten
+Datei widerspiegeln.
+
+### Kommentar
+
+Im Textfeld **Kommentar** kann, wie der Name schon sagt, dem Dokument ein
+Kommentar mit zusätzlichen Informationen hinzugefügt werden.
+
+### Kategorien
+
+Besonders relevant ist das Feld **Kategorien**, hier können dem Dokument eine
+oder mehrere Kategorien zugeordnet werden, welche es später einfacher machen
+nach diesem Dokument zu [filtern](#kategorienfilter) und es schnell zu finden.
+Tippen Sie dazu einfach den Namen der gewünschten Kategorie in das Textfeld, bis
+diese auftaucht. Um eine neue Kategorie zu erstellen, geben Sie den Namen der
+neuen Kategorie ein und drücken Sie {{< key "Enter" >}}. Die neue Kategorie
+wird dann automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
+Darstellungsfarbe der Kategorie im Nachhinein bearbeiten wollen, können
+Sie dies unter
+[Einstellungen/Dokumente](../../einstellungen/dokumente/#kategorien-bearbeiten)
+tun.
+
+{{<figure caption = "Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen.">}}
+<img src = "eingabefenster.png" />
 {{</figure>}}
 
 ## Berechtigungen erteilen

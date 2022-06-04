@@ -1,6 +1,6 @@
 ---
 title: Verträge
-weight: 3
+weight: 10
 icon: file-contract
 ---
 
