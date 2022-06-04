@@ -86,9 +86,8 @@ Saisonarbeiter wählen.
 Unter Positionen können Sie auswählen in welcher Position der Angestellte
 zukünftig arbeiten soll. Auch hier können Sie über das Drop-down Menü wieder die
 gewünschten Positionen auswählen, wobei Sie einer Bewerbung mehrere Positionen
-zuschreiben könnnen. Die unterschiedlichen **Abteilungen** werden dabei jeweils
-in einer gleichen Farbe dargestellt. So wären sowohl die Position *Spüle* als
-auch *Koch* in der gleichen Farbe, da Sie beide Teil der Abteilung *Küche* sind. 
+zuschreiben können. Mehr Informationen zum Thema Positionen und Abteilungen
+finden Sie unter [Einstellungen/Arbeitsbereiche](../einstellungen/arbeitsbereiche/).
 
 #### Beginn und Ende
 
