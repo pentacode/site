@@ -14,13 +14,18 @@ magazin/rubriken:
 >
 > <cite>- Roman Rackwitz</cite>
 
-Roman Rackwitz, der führende Experte für Gamification im deutschsprachigen Raum,
-weiß: Ein Unternehmen, das in Sachen Mitarbeitermotivation ausschließlich auf
-hohe Löhne, Boni und Nettigkeiten wie Obstkörbe und Partyexzesse setzt, wird nie
-sein volles Potential entfalten. Stattdessen gilt es, Rahmenbedingungen zu
-schaffen, in denen das Gehirn jedes Mitarbeitenden auf Hochtouren laufen kann.
-Und zwar völlig frei von Wettbewerbsmentalität, einzig und allein aus dem
-inneren Willen heraus, einen guten Job zu machen.
+[Roman Rackwitz](https://www.romanrackwitz.de/), der führende Experte für
+Gamification im deutschsprachigen Raum, weiß: Ein Unternehmen, das in Sachen
+Mitarbeitermotivation ausschließlich auf hohe Löhne, Boni und Nettigkeiten wie
+Obstkörbe und Partyexzesse setzt, wird nie sein volles Potential entfalten.
+Stattdessen gilt es, Rahmenbedingungen zu schaffen, in denen das Gehirn jedes
+Mitarbeitenden auf Hochtouren laufen kann. Und zwar völlig frei von
+Wettbewerbsmentalität, einzig und allein aus dem inneren Willen heraus, einen
+guten Job zu machen.
+
+{{< figure caption="Roman Rackwitz, der führende Experte für Gamification im deutschsprachigen Raum" class="float right width-30pc" >}}
+<img src="rackwitz.jpg" />
+{{< /figure >}}
 
 ## Die unterschätzte Macht der inneren Einstellung
 
@@ -41,10 +46,6 @@ bereits ein extremer Performance Treiber.**“</cite>
 
 ## Was hohe Bezahlung in puncto Motivation wertlos macht
 
-{{< figure caption="" class="float right" >}}
-<img src="bild2.jpg" />
-{{< /figure >}}
-
 Nun stellt sich die Frage: Wenn es so schwer ist, intrinsische Motivation
 hervorzurufen, aber so leicht extrinsisch zu motivieren, warum sollte ich denn
 als Arbeitgeber nicht einfach auf materielle Belohnung setzen? Vorausgesetzt
@@ -61,6 +62,10 @@ möchten, sollten sich lieber fragen: **Was ist unser Alleinstellungsmerkmal mit
 dem wir neue Kräfte anziehen können?** Und wie halten wir die guten Personalien im
 Haus?
 
+{{< figure caption="" class="float left" >}}
+<img src="bild2.jpg" />
+{{< /figure >}}
+
 ## Ein Selbstläufer für individuellen und unternehmerischen Wachstum
 
 Die Antwort steckt statt in den quantitativen, in den qualitativen
@@ -72,21 +77,21 @@ steigt und vor allem qualitativ besser wird.“</cite> Nebenher werde man
 automatisch zu einem attraktiven Arbeitgeber, weil die Menschen, die für einen
 arbeiten, das gerne tun und zu potentiellen Botschaftern werden. <cite>„Es ist
 seit Jahrzehnten erforscht, aber wird leider in der Regel von Unternehmen
-komplett ignoriert: **Wenn der Mensch intrinsisch motiviert ist, zeigt er all die
-unglaublichen Eigenschaften, die man sich als Arbeitgeber in der Regel wünschen.**
-Er ist kreativ, flexibel und extrem resilient. Ihn oder sie wirft so schnell
-nichts aus der Bahn. Denn selbst, wenn ich scheitere, aber den Weg dorthin schon
-als etwas Positives empfunden habe, weil ich daraus Schlüsse ziehe, bin ich
-keinesfalls frustriert, sondern angeregt es wieder und wieder zu
+komplett ignoriert: **Wenn der Mensch intrinsisch motiviert ist, zeigt er all
+die unglaublichen Eigenschaften, die man sich als Arbeitgeber in der Regel
+wünschen kann.** Er ist kreativ, flexibel und extrem resilient. Ihn oder sie
+wirft so schnell nichts aus der Bahn. Denn selbst, wenn ich scheitere, aber den
+Weg dorthin schon als etwas Positives empfunden habe, weil ich daraus Schlüsse
+ziehe, bin ich keinesfalls frustriert, sondern angeregt es wieder und wieder zu
 probieren.“</cite> Ein intrinsisch motivierter Mensch wird also ziemlicher
 Wahrscheinlichkeit nach aus der Situation lernen, seine Strategie anpassen und
 in seinem Metier wachsen.
 
-{{< figure caption="" class="" >}}
+## Dienstleistung erfordert Motivation
+
+{{< figure caption="" class="float right" >}}
 <img src="bild3.jpg" />
 {{< /figure >}}
-
-## Dienstleistung erfordert Motivation
 
 Aber warum ist es so, dass Unternehmen klassischer Weise davon ausgehen, dass
 Arbeitnehmer eine Lohnerhöhung einem Job, der fördert und fordert, vorziehen?
@@ -103,10 +108,6 @@ Zielerreichung stellt, kann sich als Dienstleister durch qualitativ guten Output
 aus der Masse hervorheben.
 
 ## Die Erfahrung zeigt: Der Umbruch birgt Herausforderungen
-
-{{< figure caption="" class="float left" >}}
-<img src="bild4.jpg" />
-{{< /figure >}}
 
 Und wie schaffe ich nun als Arbeitgeber die Rahmenbedingungen, die intrinsische
 Motivation begünstigen? Rackwitz: <cite>„Wir alle lieben Herausforderungen: wir wollen
@@ -125,6 +126,10 @@ Die Herausforderung lautet also: **Workflows soviel Struktur geben, dass sie
 kalkulierbar sind, aber eben auch Raum zur kreativen Gestaltung zulassen.**
 
 ## Drei Faktoren zur Steigerung intrinsischer Motivation
+
+{{< figure caption="" class="float left" >}}
+<img src="bild4.jpg" />
+{{< /figure >}}
 
 Wir wissen nun: Die Aufgaben am Arbeitsplatz müssen mit den Mitarbeitenden
 wachsen, damit er oder sie im Flow bleibt. Also im Zustand, der kontinuierlichen
