@@ -59,7 +59,7 @@ Bewerber gefunden haben, lassen sich diese auch leicht wieder löschen:
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
    Ausschreibung indem Sie auf den entsprechenden Eintrag in der Liste auf linken
    Seite klicken.
-2. Klicken Sie den {{<button icon="track">}}-**Button** im der rechten oberen Ecke.
+2. Klicken Sie den {{<button icon="trash">}}-**Button** im der rechten oberen Ecke.
 3. Bestätigen Sie die Aktion durch einen Klick auf {{<button label="Löschen" >}}.
 
 ## Ausschreibung Felder & Eigenschaften

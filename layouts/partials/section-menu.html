@@ -20,7 +20,7 @@
 
             {{ $hiddenAttr := "" }}
 
-            {{ if not (.IsAncestor $currPage) }}
+            {{ if not (or (.IsAncestor $currPage) (eq .Permalink $currPage.Permalink)) }}
                 {{ $hiddenAttr = "hidden" }}
             {{ end }}
 
