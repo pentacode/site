@@ -28,7 +28,7 @@
         </ul>
 
         <ul class="articles-list animation-reveal-children">
-            {{ range .Data.Pages }}
+            {{ range where .Data.Pages "Params.unlisted" "!=" "true" }}
                 {{ $author := index .Site.Data.staff (default "lstrasser" .Params.author) }}
                 <li>
                     <article>
