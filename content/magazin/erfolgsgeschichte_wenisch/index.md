@@ -22,7 +22,7 @@ Vision des Personalmanagements unterhalten.
 
 ## Liebe zum Detail und Genuss an jeder Ecke: Willkommen bei Familie Wenisch!
 
-{{< figure caption="Anton Wenisch, Kopf Wenisch Genuss-Imperiums" class="float left width-30pc" >}}
+{{< figure caption="Anton Wenisch, Kopf des Wenisch Genuss-Imperiums" class="float left width-30pc" >}}
 <img src="bild2.jpg" />
 {{< /figure >}}
 
