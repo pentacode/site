@@ -10,12 +10,9 @@ icon: mobile
 
 ## Einloggen
 
-Nachdem Sie den Mitarbeiter wie unter 
-[Zugänge &Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte) beschrieben per Email
-eingeladen haben und er sich registriert hat, kann er sich nun in der
-Mitarbeiterapp einloggen. Hierzu ruft er die Mitarbeiterapp unter
-https://perso.pentacode.app auf und gibt seine Email Adresse, sowie das
-selbstgewählte Passwort ein. Worauf man in die **Übersicht** der Mitarbeiterapp
+Nachdem ihr Arbeitergeber Sie wie unter [Zugänge &Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte) beschrieben per Email eingeladen hat und sie sich registriert haben, können Sie sich in die Mitarbeiterapp einloggen. Hierzu rufen Sie die Mitarbeiterapp unter
+https://perso.pentacode.app auf und geben ihre Email Adresse, sowie das
+selbstgewählte Passwort ein. Worauf Sie in die **Übersicht** der Mitarbeiterapp
 gelangt.
 
 ## Übersicht
@@ -30,7 +27,7 @@ restlichen Tage gesetzlich geregelten Urlaubs für das laufende Jahr an. Alle
 Angaben werden regelmäßig auf den aktuellen Monat aktualisiert.
 
 {{<figure caption="Dieser Mitarbeiter ist zum Beispiel erst 8 von 85 Stundendiesen Monat beschäftigt gewesen, muss 65 negative Überstunden nachholen und hat unter einem Tag Resturlaub" >}} 
-<img src="übersicht.png" /> 
+<img src="übersicht - mobil.png" /> 
 {{</figure>}}
 
 ### Bild ändern
@@ -52,12 +49,21 @@ digitalen [Stempeluhr](/hilfe/handbuch/stempeluhr) nutzen. Sollten das
 **Stempeln via. App** erlaubt sein, nutzen Sie diese Funktion wie die Stempeluhr
 (Erklärung [hier](/hilfe/handbuch/stempeluhr)).
 
+
+-- Spontane Schicht >  
+
+
+
 ### Spontane Schicht
 
 Sollten Sie sich mit ihrem Vorgesetzten darauf geeinigt haben auch spontane
 Schichten zu übernehmen, können Sie diese auch unter Zeiterfassung starten.
 Wählen Sie erst eine **Position** in der Sie die spontane Schicht antreten und
 Klicken anschließend auf **Spontane Schicht** und **Bestätigen**.
+
+## Berechtigungen 
+
+Sollten Sie eine der hier beschriebenen Funktionen nicht vollständig nutzen können, sprechen Sie ihren Personaler an. Teile der Mitarbeiterapp können für einen Teil der Belegschaft de- oder aktiviert werden. Darunter zählen das Tauschen von Schichten, das Beantragen von Urlauben, als auch das direkte Krankmelden über die App. 
 
 ## Dienstplan
 
@@ -75,7 +81,7 @@ Start- sowie Endzeit ihrer Schicht angegeben.
 So können Sie ihren Kollegen Schichten zum Tausch anbieten:
 1. Klicken Sie auf den Reiter **Dienstplan** in der Mitarbeiterapp
 2. Wählen Sie ein Schicht aus, indem Sie ihren Cursor über diese bewegen
-3. Klicken Sie auf {{<button label="Zum Tausch freigeben">}} 
+3. Klicken Sie auf {{<button label="Zum Tausch freigeben" icon="hand-holding-magic">}} 
 4. Bestätigen Sie die Aktion mit einem weiteren Klick auf {{<button
    label="Freigeben">}}
 
@@ -83,7 +89,7 @@ So können Sie ihren Kollegen Schichten zum Tausch anbieten:
 
 Wenn ihr Manager Ersatz oder zusätzliches Personal in ihrer Position benötigt
 oder ihre Kollegen gerne eine Schicht tauschen würden, erhalten Sie die
-Möglichkeit diese zu übernehmen. Diese Schichten sind gestrichtelt umrahmt und
+Möglichkeit diese zu übernehmen. Diese Schichten sind gestrichelt umrahmt und
 tragen die Anmerkung {{<button label="verfügbar">}}. Sie sind erst für diese
 Schichten eingetragen, wenn Sie sie freiwillig übernehmen.
 
@@ -99,7 +105,7 @@ eingetragen und Sie wird anderen Mitarbeitern nicht mehr angezeigt.
 >keine Gedanken über Überschneidungen machen.
 
 {{<figure caption="Die Schicht am Samstag ist zum Übernehmen freigestellt,während die Schicht am Donnerstag von diesem Mitarbeiter selbst zum Tauschangeboten wurde" >}} 
-<img src="dienstplan.png" /> 
+<img src="dienstplan - mobil.png" /> 
 {{</figure>}}
 
 
@@ -122,10 +128,10 @@ So stellen Sie einen neuen Urlaubsantrag:
    Personalabteilung
 
 > Ihnen wird beim Erstellen des Urlaubsantrags direkt gezeigt wie viele ihrer
-> Urlaubstage Ihnen verbleiben wenn der Urlaub genehmigt wird. 
+> Urlaubstage Ihnen verbleiben, wenn der Urlaub genehmigt wird. 
 
 {{<figure caption="Dieser Urlaubsantrag würde die restlichen Urlaubstageüberschreiten" >}} 
-<img src="urlaubsantrag.png" /> 
+<img src="urlaubsantrag - mobil.png" /> 
 {{</figure>}}
 
 ### Krank melden
@@ -184,7 +190,7 @@ Mit {{<button label="Speichern">}} schicken Sie ihren Wunsch nun direkt an den
 Personalplaner und dieser versucht ihn in den Arbeitsplan einzuarbeiten. 
 
 {{<figure caption="Hier äußert der Mitarbeiter den Wunsch bevorzugt jedenMittwoch von 11 bis 18 Uhr an der Bar zu arbeiten" >}}
-<img src="neueverfügbarkeit.png" /> 
+<img src="neueverfügbarkeit - mobil.png" /> 
 {{</figure>}}
 
 
