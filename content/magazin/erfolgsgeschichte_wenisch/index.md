@@ -5,7 +5,7 @@ cover: "bild1.jpg"
 author: jtomski
 magazin/rubriken:
   - Das erfolgreiche Unternehmen
-  - Der zufriedene Kunde
+  - Das gesunde Team
 unlisted: true
 ---
 
@@ -111,6 +111,10 @@ dass seine Mitarbeitenden immer motiviert bleiben und ihr Bestes geben.
 
 ## Erfolgsrezept: Personalmanagement das "menschelt" und vorausschauend wirtschaftet
 
+{{< figure class="float left width-40pc" >}}
+<img src="bild6.jpg" />
+{{< /figure >}}
+
 <cite>„Du darfst die Leute nicht unter-, aber auch nicht überfordern - die Zeiten sind
 vorbei, in denen man die Kapazitäten bis zum Anschlag ausgereizt hat.
 Unterforderung ist aber auch gefährlich, weil der Reiz so verloren geht“</cite>, fasst
@@ -129,10 +133,6 @@ So kann jeder im Team fest mit dieser Erholungszeit rechnen, kann sich Zeit
 nehmen für die Familie, auf ein Konzert gehen - alles Dinge, die sonst in
 unserer Branche sehr schwer zu planen sind. Es ist wichtig, dass man versteht,
 was der Mitarbeiter heute will. Zeit wird immer wichtiger als Geld.“
-
-{{< figure >}}
-<img src="bild6.jpg" />
-{{< /figure >}}
 
 ## Die Vorteile der Prozessdigitalisierung: Fortschritt auf Augenhöhe mit Pentacode
 
