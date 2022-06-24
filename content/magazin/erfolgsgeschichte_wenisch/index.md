@@ -6,7 +6,6 @@ author: jtomski
 magazin/rubriken:
   - Das erfolgreiche Unternehmen
   - Das gesunde Team
-unlisted: true
 ---
 
 Ein Hotel, vier Metzgereien mit eigener Produktion, zwei Gastronomien mit
@@ -105,7 +104,7 @@ alles erschwinglich bleibt: für den Gast, aber auch für den Betrieb. Gut zu
 wirtschaften bedeutet für Wenisch vor allem auch den Fokus auf kluges,
 zukunftsorientiertes und vorausschauendes Personalmanagement zu legen. Wer
 Personal motiviert und schlau einsetzt statt „Pi mal Daumen“ und Kosten, wie
-Umsätze zu jeder Zeit abrufbar hat, der kann seinen Gewinn unmittelbar
+Umsätze zu jeder Zeit abrufbar hat, der kann seinen Betriebsergebnis unmittelbar
 beeinflussen, so die Erfahrung der Wenischs. Und er sorgt nebenbei noch dafür,
 dass seine Mitarbeitenden immer motiviert bleiben und ihr Bestes geben.
 
@@ -163,21 +162,22 @@ den Stand ausdrucken. Das schafft Vertrauen.“
 
 Auch für die Geschäftsleitung ist der Umgang mit Pentacode zur täglichen Routine
 geworden, die den Unternehmenserfolg unmittelbar ablesbar und damit
-beeinflussbar macht. <cite>„Als gelernter Koch hatte ich mit Zahlen so gar nichts am
-Hut. Dahingehend hat mir Pentacode sehr geholfen. Weil ich einfach jeden Tag
-ablesen kann, was meine Ausgaben und Umsätze sind und hab nicht erst Monate
-später den Durchblick. Das ist ein unglaublicher Vorteil. Seit der Nutzung von
-Pentacode haben wir unsere Personalkosten im Griff und konfrontieren uns jeden
-Tag mit den Kosten und Einnahmen und ich kann nur sagen, dass unsere Ergebnisse
-sehr gut sind. Wir haben eine extrem gute Quote.“</cite> Wenn es um schnelle und
-unmittelbare Einflussnahme auf den Unternehmenserfolg geht, lautet Anton
-Wenisch's Tipp also klar: <cite>„Die Personalkosten kannst du bereits ab dem nächsten
-Tag umstellen. Und der Gewinn wird sich mit den Personalkosten, die du im Griff
-hast sofort verändern.“</cite> Die Erfolgsgeschichte rund um das Genuss-Imperium der
-Familie Wenisch macht deutlich: Höhere Gewinne, zufriedene Mitarbeiter und eine
+beeinflussbar macht. <cite>„Als gelernter Koch hatte ich mit Zahlen so gar
+nichts am Hut. Dahingehend hat mir Pentacode sehr geholfen. Weil ich einfach
+jeden Tag ablesen kann, was meine Ausgaben und Umsätze sind und hab nicht erst
+Monate später den Durchblick. Das ist ein unglaublicher Vorteil. Seit der
+Nutzung von Pentacode haben wir unsere Personalkosten im Griff und konfrontieren
+uns jeden Tag mit den Kosten und Einnahmen und ich kann nur sagen, dass unsere
+Ergebnisse sehr gut sind. Wir haben eine extrem gute Quote.“</cite> Wenn es um
+schnelle und unmittelbare Einflussnahme auf den Unternehmenserfolg geht, lautet
+Anton Wenisch's Tipp also klar: <cite>„Die Personalkosten kannst du bereits ab
+dem nächsten Tag umstellen. Und das Betriebsergebnis wird sich mit den
+Personalkosten, die du im Griff hast sofort verändern.“</cite> Die
+Erfolgsgeschichte rund um das Genuss-Imperium der Familie Wenisch macht
+deutlich: Ein erfolgreicher Betrieb, zufriedene Mitarbeiter und eine
 verlässliche Personalplanung, die leicht und schnell von der Hand geht, schaffen
 mehr Zeit und Raum, um an Zukunftsvisionen zu feilen. <cite>„Wir wollen keine
 Schlösser bauen. Sondern wir wollen etwas auf einem gesunden Fundament
 erschaffen und es trotzdem sehr gut machen. Das ist glaube ich das, was uns
-hierhergebracht hat.“</cite> Wir von Pentacode freuen uns, dass wir die Familie Wenisch
-auf ihrem Weg in die Zukunft ein Stück weit begleiten dürfen.
+hierhergebracht hat.“</cite> Wir von Pentacode freuen uns, dass wir die Familie
+Wenisch auf ihrem Weg in die Zukunft ein Stück weit begleiten dürfen.
