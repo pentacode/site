@@ -334,17 +334,14 @@ Personalplaner und dieser versucht ihn in den Arbeitsplan einzuarbeiten.
 
 ## Dokumente
 
-Unter Dokumente können Sie die Dateien einsehen, die Ihnen ihr Manager in
-Pentacode zugeteilt hat. Auch können Sie Dateien auf ihrem PC speichern.
-
----Selbst hinzufügen??
+Unter Dokumente können Sie die Dateien einsehen und speichern, die ihnen zugeteilt wurden.
 
 ### Dokumente speichern
 
 So speichern Sie ein Dokument auf ihrem Gerät ab:
-1. Öffnen Sie den Reiter Dokumente
-2. Öffnen Sie ein Dokument, indem Sie darauf klicken
-3. Klicken Sie auf den {{<icon "download">}}-**Button** im rechten oberen Eck
+1. Öffnen Sie den Reiter Dokumente.
+2. Öffnen Sie ein Dokument, indem Sie darauf klicken.
+3. Klicken Sie auf den {{<icon "download">}}-**Button** im rechten oberen Eck.
 
 ## Einstellungen
 
@@ -354,19 +351,19 @@ für den Log in ändern, sowie ihre Benachrichtigungen deaktivieren.
 ### Passwort ändern
 
 So ändern Sie ihr Passwort für den Mitarbeiterzugang:
-1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**
-2. Klicken Sie auf **Passwort ändern**
+1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**.
+2. Klicken Sie auf **Passwort ändern**.
 3. Geben Sie ihr neues Wunsch Passwort in beide Felder ein - das Wiederholen
-   dient der Sicherheit
-4. Klicken Sie auf **Speichern** um das neue Passwort zu aktivieren
+   dient der Sicherheit.
+4. Klicken Sie auf **Speichern** um das neue Passwort zu aktivieren.
 
 ### Benachrichtigungen deaktivieren
 
 So deaktivieren Sie die Benachrichtigungen über Dienstplanänderungen an ihre
 Email:
-1. Klicken Sie unter **Einstellungen** auf den Reiter **Benachrichtigungen**
-2. Klicken Sie auf den Schieber neben **Dienstplanänderungen**
-3. Klicken Sie auf **Speichern** um die Auswahl zu bestätigen
+1. Klicken Sie unter **Einstellungen** auf den Reiter **Benachrichtigungen**.
+2. Klicken Sie auf den Schieber neben **Dienstplanänderungen**.
+3. Klicken Sie auf **Speichern** um die Auswahl zu bestätigen.
 
 Um die Benachrichtigungen zu reaktivieren, folgen Sie einfach den gleichen
 Schritten wie zum deaktivieren. 
