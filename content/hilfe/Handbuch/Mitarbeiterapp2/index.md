@@ -171,6 +171,7 @@ dabei nahezu identisch zu normalen Schichten.
 2. Wählen Sie im **Drop-down Menü** über {{<button label="Spontane Schicht" icon="running">}} die Abteilung aus, in der Sie arbeiten werden.
 3. Klicken Sie auf {{<button label="Spontane Schicht" icon="running">}} und
    bestätigen Sie die Auswahl.
+4. **Optional** Scannen Sie den vor Ort hinterlegten QR Code ein, um die Schicht zu beginnen.
 
 {{<figure caption="Wählen Sie vor Beginn der spontanen Schicht aus in welcher Abteilung Sie arbeiten werden">}} 
 <img src="spontane schicht.png" /> 
@@ -184,16 +185,13 @@ zum Ausstempeln aufgefordert diesen **noch einmal zu scannen**.
 
 1. Klicken Sie während einer aktiven Schicht auf {{<button label="Schicht beenden" icon="door-open">}}
 2. Bestätigen Sie die Auswahl durch einen erneuten Klick auf {{<button label="Schicht beenden" icon="door-open">}}
-3. **Optional** Scannen Sie den gleichen QR Code erneut ein, den Sie zu
-   Schichtbeginn gescannt haben.
+3. **Optional** Scannen Sie erneut den QR Code ein, um ihre Schicht zu beenden.
 
 > Sollten Sie einmal **vergessen sich auszustempeln** werden Sie automatisch
 > nach einer vorbestimmten Zeit ausgestempelt. Da ihre wahren Stunden dann aber
 > nicht mehr mit den über Pentacode datierten Stunden übereinstimmen, müssen Sie
 > ihrem Personaler eine Nachricht schreiben, damit dieser die Stunden
 > korrigiert. 
-
---> Wirklich gleicher QR Code?
 
 ## Dienstplan
 
