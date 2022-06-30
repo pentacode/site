@@ -38,7 +38,7 @@ Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren
 
 ## Neue Abwesenheit Erfassen
 
-So funktioniert das **erfassen einer neuen Abwesenheit**:
+So funktioniert das **Erfassen einer neuen Abwesenheit**:
 
 1. **In der [Übersicht](#übersicht):** Klicken Sie auf das Kästchen, dass dem gewünschten
    Mitarbeiter und Tag des Abwesenheitsbeginns entspricht, oder
