@@ -11,6 +11,13 @@ auf die wichtigsten Informationen und Funktionen.
 Die Pentacode Mitarbeiter App ist über die URL https://perso.pentacode.app
 verfügbar.
 
+> {{<icon "exclamation-triangle">}} Sollten Sie eine der im Folgenden
+> beschriebenen Funktionen **nicht vollständig nutzen** können, sprechen Sie
+> ihren Personaler an. Teile der Mitarbeiterapp können für einen Teil der
+> Belegschaft **de- oder reaktiviert** werden. Darunter zählen das Tauschen von
+> Schichten, das Beantragen von Urlauben, als auch das direkte Krankmelden über
+> die App.
+
 ## App Installieren
 
 Die Pentacode Mitarbeiter app ist eine Webapplikation und erfordert keine
@@ -68,12 +75,16 @@ src="installieren-ios-2.jpeg" /> {{< /figure >}}
 ## Einloggen
 
 Nachdem ihr Arbeitergeber Sie wie unter [Zugänge
-&Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte) beschrieben per Email
+& Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte) beschrieben per Email
 eingeladen hat und Sie sich registriert haben, können Sie sich in die
 Mitarbeiterapp einloggen. Hierzu rufen Sie die Mitarbeiterapp unter
 https://perso.pentacode.app auf und geben ihre Email Adresse, sowie das
 selbstgewählte Passwort ein. Worauf Sie in die **Übersicht** der Mitarbeiterapp
 gelangt.
+
+{{<figure caption="" class="float right narrow" >}}
+<img src="übersicht.png" />
+{{</figure>}}
 
 ## Übersicht
 
@@ -85,28 +96,6 @@ bereits abgearbeitet haben. **Überstunden** zeigt Ihnen ihr Pensum an
 **grünes Plus** für positive Überstunden steht. **Resturlaub** gibt die
 restlichen Tage gesetzlich geregelten Urlaubs für das laufende Jahr an. Alle
 Angaben werden regelmäßig auf den aktuellen Monat aktualisiert.
-
-{{<figure caption="Dieser Mitarbeiter ist zum Beispiel erst 8 von 85 Stunden diesen Monat beschäftigt gewesen, muss 65 negative Überstunden nachholen und hat unter einem Tag Resturlaub" >}} 
-<img src="übersicht.png" /> 
-{{</figure>}}
-
-### Bild ändern
-
-So ändern Sie ihr Bild:
-1. Klicken Sie auf den {{<icon "camera">}}-**Button** neben ihrem aktuellen
-   Profilbild.
-2. Klicken Sie im aufpoppenden Dialogfenster auf **zulassen**, wenn Sie gefragt
-   werden, ob Sie Pentacode Zugriff auf ihre Kamera gewähren wollen.
-3. Es öffnet sich die Ansicht der Innenkamera - nun können Sie ein neues Bild
-   machen oder per Klick auf {{<icon "image">}} ein vorhandenes Bild von ihrem
-   Gerät verwenden. 
-
-> {{<icon "exclamation">}} **Berechtigungen:** Sollten Sie eine der im Folgenden
-> beschriebenen Funktionen **nicht vollständig nutzen** können, sprechen Sie
-> ihren Personaler an. Teile der Mitarbeiterapp können für einen Teil der
-> Belegschaft **de- oder reaktiviert** werden. Darunter zählen das Tauschen von
-> Schichten, das Beantragen von Urlauben, als auch das direkte Krankmelden über
-> die App. 
 
 ## Zeiterfassung
 
@@ -129,14 +118,14 @@ verzichten.
 
 1. Klicken Sie auf den Reiter **Zeiterfassung**
 2. Nun sehen Sie ihre bevorstehende Schicht. Klicken Sie auf {{<button
-label="Schicht beginnen" icon="play-circle">}}.
+   label="Schicht beginnen" icon="play-circle">}}.
 3. Bestätigen Sie die Auswahl mit einem weiteren Klick auf {{<button
-label="Schicht beginnen" icon="play-circle">}}
+   label="Schicht beginnen" icon="play-circle">}}
 4. **Optional** Scannen Sie den QR Code vor Ort ein, um ihre Schicht zu
    beginnen.
 
 An dem grünen {{<button label="aktiv" icon="play-circle">}} Zeichen ist zu
-erkennen, dass ihre Schicht nun läuft. 
+erkennen, dass ihre Schicht nun läuft.
 
 ### Pausen stempeln
 
@@ -152,20 +141,24 @@ wie folgend beginnen:
 3. Bestätigen Sie die Pause mit einem weiteren Klick auf {{<button label="Pause" icon="coffee">}}
 
 Nun wird Ihnen neben der Schicht ein Timer mit der Länge der aktuellen Pause
-angezeigt. Um diese wieder zu beenden klicken Sie auf {{<button label="Pause beenden" icon="coffee">}} und bestätigen die Auswahl wieder. 
+angezeigt. Um diese wieder zu beenden klicken Sie auf {{<button label="Pause beenden" icon="coffee">}} und bestätigen die Auswahl wieder.
 
 Sie können sich im **manuellen Pausenmodus** mehrere Male in die Pause begeben.
 Der Timer für die Pause addiert dabei die Pausenzeiten für die aktuelle Schicht
 auf.
 
+{{<figure caption="Wählen Sie vor Beginn der spontanen Schicht aus in welcher Abteilung Sie arbeiten werden" class="float right narrow" >}}
+<img src="spontane schicht.png" />
+{{</figure>}}
 
 ### Spontane Schicht beginnnen
 
 Sollten Sie sich mit ihrem Vorgesetzten darauf geeinigt haben auch spontane
 Schichten zu übernehmen, können Sie diese auch unter Zeiterfassung starten.
-Vorraussetzung ist, dass Sie im gleichen Zeitfenster **keine reguläre Schicht**
-haben. Das Prozedere zum Ein- und Ausstempeln sowie zum Stempeln der Pausen ist
-dabei nahezu identisch zu normalen Schichten. 
+Vorraussetzung ist, dass Sie im gleichen Zeitfenster **keine geplante Schicht**
+vorliegt und Sie die Berechtigung zum Erfassen von spontanen Schichten haben.
+Das Prozedere zum Ein- und Ausstempeln sowie zum Stempeln der Pausen ist dabei
+nahezu identisch zu normalen Schichten.
 
 1. Öffnen Sie den Reiter Zeiterfassung
 2. Wählen Sie im **Drop-down Menü** über {{<button label="Spontane Schicht" icon="running">}} die Abteilung aus, in der Sie arbeiten werden.
@@ -173,15 +166,11 @@ dabei nahezu identisch zu normalen Schichten.
    bestätigen Sie die Auswahl.
 4. **Optional** Scannen Sie den vor Ort hinterlegten QR Code ein, um die Schicht zu beginnen.
 
-{{<figure caption="Wählen Sie vor Beginn der spontanen Schicht aus in welcher Abteilung Sie arbeiten werden">}} 
-<img src="spontane schicht.png" /> 
-{{</figure>}}
-
 ### Ausstempeln
 
 Das Ausstempeln mit der Mitarbeiterapp verläuft genauso einfach wie das
 Einstempeln. Mussten Sie beim Einstempeln einen QR Code scannen, werden Sie auch
-zum Ausstempeln aufgefordert diesen **noch einmal zu scannen**. 
+zum Ausstempeln aufgefordert diesen **noch einmal zu scannen**.
 
 1. Klicken Sie während einer aktiven Schicht auf {{<button label="Schicht beenden" icon="door-open">}}
 2. Bestätigen Sie die Auswahl durch einen erneuten Klick auf {{<button label="Schicht beenden" icon="door-open">}}
@@ -191,17 +180,16 @@ zum Ausstempeln aufgefordert diesen **noch einmal zu scannen**.
 > nach einer vorbestimmten Zeit ausgestempelt. Da ihre wahren Stunden dann aber
 > nicht mehr mit den über Pentacode datierten Stunden übereinstimmen, müssen Sie
 > ihrem Personaler eine Nachricht schreiben, damit dieser die Stunden
-> korrigiert. 
+> korrigiert.
 
 ## Dienstplan
 
 Unter dem Reiter Dienstplan können Sie ihre Schichten einsehen, zum Tausch
-anbieten oder Weitere übernehmen. Die aktuelle Woche sehen Sie standardmäßig
+anbieten oder weitere übernehmen. Die aktuelle Woche sehen Sie standardmäßig
 ein, wenn Sie auf den Reiter klicken. Mit den **Pfeilen** unten rechts und
 links, können Sie in vergangene und kommende Wochen wechseln. Wollen Sie schnell
 wieder in die aktuelle Woche zurückwechseln klicken Sie einfach auf den {{<icon "calendar-day">}}-**Button**. Unter dem jeweiligen Datum ist stets die
-Abteilung, die Start- sowie Endzeit ihrer Schicht angegeben. 
-
+Abteilung, die Start- sowie Endzeit ihrer Schicht angegeben.
 
 ### Schichten tauschen
 
@@ -209,15 +197,20 @@ Wenn Sie zu bestimmten Schichten **verhindert sind**, können Sie auch Schichten
 freistellen, damit Kollegen diese übernehmen können. Diese werden dann allen
 Kollegen mit passender Qualifikation und Schichtplan angezeigt. Achten Sie
 jedoch darauf, dass, wenn **kein Kollege die Schicht übernimmt, Sie weiterhin
-eingetragen bleiben**. 
+eingetragen bleiben**.
 
 So können Sie ihren Kollegen Schichten zum Tausch anbieten:
+
 1. Klicken Sie auf den Reiter **Dienstplan** in der Mitarbeiterapp
 2. Wählen Sie ein Schicht aus, indem Sie ihren Cursor über diese bewegen
 3. Klicken Sie auf {{<button label="Zum Tausch freigeben"
-   icon="hand-holding-magic">}} 
+   icon="hand-holding-magic">}}
 4. Bestätigen Sie die Aktion mit einem weiteren Klick auf {{<button
    label="Freigeben">}}
+
+{{<figure caption="Die Schicht am Samstag ist zum Übernehmen freigestellt, während die Schicht am Donnerstag von diesem Mitarbeiter selbst zum Tausch angeboten wurde" class="float right narrow">}}  
+<img src="dienstplan.png" />
+{{</figure>}}
 
 ### Schichten übernehmen
 
@@ -228,25 +221,24 @@ tragen die Anmerkung {{<button label="verfügbar">}}. Sie sind erst für diese
 Schichten eingetragen, wenn Sie sie **freiwillig übernehmen**.
 
 So übernehmen Sie eine freie Schicht:
+
 1. Wählen Sie eine freie Schicht aus, indem Sie ihren Cursor über diese bewegen.
 2. Klicken Sie auf {{<button label="Schicht übernehmen">}}.
 3. Bestätigen Sie die Aktion mit einem weiteren Klick auf {{<button
-label="Schicht übernehmen">}}.
+   label="Schicht übernehmen">}}.
 
 Sie werden anschließend für diese Schicht eingetragen und sie wird anderen
 Mitarbeitern nicht mehr angezeigt.
 
->**Tipp:** Pentacode bietet Ihnen nur freie Schichten an, die nicht in Konflikt
->mit ihren Pflichtschichten stehen - Sie müssen sich also keine Gedanken über
->Überschneidungen machen.
-
-{{<figure caption="Die Schicht am Samstag ist zum Übernehmen freigestellt, während die Schicht am Donnerstag von diesem Mitarbeiter selbst zum Tausch angeboten wurde" >}}  
-<img src="dienstplan.png" /> 
-{{</figure>}}
-
-
+> **Tipp:** Pentacode bietet Ihnen nur freie Schichten an, die nicht in Konflikt
+> mit ihren Pflichtschichten stehen - Sie müssen sich also keine Gedanken über
+> Überschneidungen machen.
 
 ## Urlaub & Krankmeldungen
+
+{{<figure caption="Dieser Urlaubsantrag würde die verbleibenden Urlaubstage überschreiten" class="float right narrow" >}}
+<img src="urlaubsantrag.png" />
+{{</figure>}}
 
 Über die Mitarbeiterapp können Sie auch schnell und einfach Urlaubsanträge und
 Krankschreibungen an die Personalabteilung weiterleiten und deren Genehmigung
@@ -255,6 +247,7 @@ und Ablehnung direkt einsehen.
 ### Urlaub beantragen
 
 So stellen Sie einen neuen Urlaubsantrag:
+
 1. Klicken Sie auf den Reiter **Urlaub & Krankmeldungen**.
 2. Drücken Sie unten links auf {{<button label="Urlaub beantragen">}}.
 3. Wählen Sie im angezeigten Fenster ein Start- sowie Enddatum für ihren
@@ -266,13 +259,10 @@ So stellen Sie einen neuen Urlaubsantrag:
 > **Ihnen wird beim Erstellen des Urlaubsantrags direkt gezeigt wie viele ihrer
 > Urlaubstage Ihnen verbleiben, wenn der Urlaub genehmigt wird.**
 
-{{<figure caption="Dieser Urlaubsantrag würde die verbleibenden Urlaubstage überschreiten" >}} 
-<img src="urlaubsantrag.png" /> 
-{{</figure>}}
-
 ### Krank melden
 
 So melden Sie sich krank:
+
 1. Klicken Sie auf den Reiter **Urlaub & Krankmeldungen**.
 2. Drücken Sie unten rechts auf {{<button label="Krank melden">}}.
 3. Wählen Sie im angezeigten Fenster ein Start- sowie Enddatum für ihre
@@ -282,14 +272,14 @@ So melden Sie sich krank:
 
 > Sie können keine Krankmeldungen für vergangene Tage stellen - schicken Sie
 > deshalb stets eine Krankmeldung über Pentacode am gleichen Tag, selbst wenn
-> Sie ihren Personaler auf anderem Wege kontaktiert haben. 
+> Sie ihren Personaler auf anderem Wege kontaktiert haben.
 
 ## Verfügbarkeiten
 
 Unter Verfügbarkeiten können Sie mitteilen an welchen Tagen Sie bevorzugt
 arbeiten, nicht verfügbar sind oder gerne frei hätten. Sie sollten stets ihre
 Verfügbarkeiten angeben, damit ihre Präferenzen in den nächsten Schichtplan mit
-einfließen können. 
+einfließen können.
 
 Klicken Sie auf den Reiter **Verfügbarkeiten** gelangen Sie in die Übersicht,
 diese ist zuerst in der aktuelle Woche, um weiter zu planen nutzen Sie die
@@ -297,6 +287,10 @@ diese ist zuerst in der aktuelle Woche, um weiter zu planen nutzen Sie die
 gelangen Sie in die aktuelle Woche zurück.
 
 ### Neue Verfügbarkeit
+
+{{<figure caption="Hier äußert der Mitarbeiter den Wunsch bevorzugt jeden Mittwoch von 11 bis 18 Uhr an der Bar zu arbeiten" class="float right narrow" >}}
+<img src="neueverfügbarkeit.png" />
+{{</figure>}}
 
 Klicken Sie auf einen Tag öffnet sich ein Dialogfenster mit folgenden
 Einstellungen:
@@ -311,7 +305,7 @@ Verfügbarkeiten zur Verfügung:
 
 **Häufigkeit** Standardmäßig wird die Verfügbarkeit nur einmalig eingetragen,
 sie können jedoch mit einem Klick auf das {{<icon "clock-rotate-left">}} Symbol
-auch eine **wöchentliche, monatliche oder jährliche** Regelmäßigkeit auswählen. 
+auch eine **wöchentliche, monatliche oder jährliche** Regelmäßigkeit auswählen.
 
 **Zeitspanne** Standardmäßig ist die Verfügbarkeit für den ganzen Tag geplant,
 durch Abwählen des Schiebers neben **ganztägig** und Eingeben einer Start- und
@@ -320,35 +314,51 @@ Schichten äußern.
 
 **Kommentar** Zuletzt haben Sie noch die Möglichkeit ihre Verfügbarkeitsangabe
 mit einem Kommentar zu versehen, etwa um aufkommende Fragen bereits im Vorfeld
-zu klären. 
+zu klären.
 
 Mit {{<button label="Speichern">}} schicken Sie ihren Wunsch nun direkt an den
-Personalplaner und dieser versucht ihn in den Arbeitsplan einzuarbeiten. 
-
-{{<figure caption="Hier äußert der Mitarbeiter den Wunsch bevorzugt jeden Mittwoch von 11 bis 18 Uhr an der Bar zu arbeiten" >}}
-<img src="neueverfügbarkeit.png" /> 
-{{</figure>}}
-
+Personalplaner und dieser versucht ihn in den Arbeitsplan einzuarbeiten.
 
 ## Dokumente
 
-Unter Dokumente können Sie die Dateien einsehen und speichern, die ihnen zugeteilt wurden.
+Unter Dokumente können Sie die Dateien einsehen, die ihnen zugeteilt wurden.
 
 ### Dokumente speichern
 
 So speichern Sie ein Dokument auf ihrem Gerät ab:
+
 1. Öffnen Sie den Reiter Dokumente.
 2. Öffnen Sie ein Dokument, indem Sie darauf klicken.
-3. Klicken Sie auf den {{<icon "download">}}-**Button** im rechten oberen Eck.
+3. Klicken Sie auf den {{<icon "download">}}-**Button** in der rechten oberen Ecke.
 
 ## Einstellungen
 
 Unter Einstellungen können Sie ihr Bild, ihre Email Adresse sowie ihr Passwort
-für den Log in ändern, sowie ihre Benachrichtigungen deaktivieren. 
+für den Log in ändern, sowie ihre Benachrichtigungen deaktivieren.
+
+### Profilbild Ändern
+
+So ändern Sie ihr Profilbild:
+
+1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**.
+2. Klicken Sie auf {{< button icon="pencil" label="Bild Wählen" >}}.
+3. Klicken Sie im aufpoppenden Dialogfenster auf **zulassen**, wenn Sie gefragt
+   werden, ob Sie Pentacode Zugriff auf ihre Kamera gewähren wollen.
+4. Es öffnet sich die Ansicht der Innenkamera - nun können Sie ein neues Bild
+   machen oder per Klick auf {{<icon "image">}} ein vorhandenes Bild von ihrem
+   Gerät verwenden.
+
+### Profilbild Löschen
+
+So löschen Sie ihr Profilbild:
+
+1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**.
+2. Klicken Sie auf {{< button icon="trash" label="Löschen" >}}.
 
 ### Passwort ändern
 
 So ändern Sie ihr Passwort für den Mitarbeiterzugang:
+
 1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**.
 2. Klicken Sie auf **Passwort ändern**.
 3. Geben Sie ihr neues Wunsch Passwort in beide Felder ein - das Wiederholen
@@ -359,14 +369,13 @@ So ändern Sie ihr Passwort für den Mitarbeiterzugang:
 
 So deaktivieren Sie die Benachrichtigungen über Dienstplanänderungen an ihre
 Email:
+
 1. Klicken Sie unter **Einstellungen** auf den Reiter **Benachrichtigungen**.
 2. Klicken Sie auf den Schieber neben **Dienstplanänderungen**.
 3. Klicken Sie auf **Speichern** um die Auswahl zu bestätigen.
 
 Um die Benachrichtigungen zu reaktivieren, folgen Sie einfach den gleichen
-Schritten wie zum deaktivieren. 
-
-
+Schritten wie zum deaktivieren.
 
 ## Hilfe
 
