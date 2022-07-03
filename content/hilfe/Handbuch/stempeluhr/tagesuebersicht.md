@@ -3,38 +3,38 @@ title: Tagesübersicht
 weight: 3
 icon: clock
 anchors:
-- hash: zeiterfassung-mit-stempeluhr
-  title: Zeiterfassung MIT Stempeluhr
-- hash: pausen-und-mahlzeiten
-  title: Pausen & Mahlzeiten
-- hash: provision
-  title: Provision
-- hash: status
-  title: Status
-- hash: änderung-von-geloggten-zeiten
-  title: Änderung von geloggten Zeiten
-- hash: zeiterfassung-ohne-stempeluhr
-  title: Zeiterfassung OHNE Stempeluhr
-- hash: änderung-von-arbeitszeiten
-  title: Änderung von Arbeitszeiten
-- hash: pausen
-  title: Pausen
-- hash: abteilungen-filtern
-  title: Abteilungen filtern
+  - hash: zeiterfassung-mit-stempeluhr
+    title: Zeiterfassung MIT Stempeluhr
+  - hash: pausen-und-mahlzeiten
+    title: Pausen & Mahlzeiten
+  - hash: provision
+    title: Provision
+  - hash: status
+    title: Status
+  - hash: änderung-von-geloggten-zeiten
+    title: Änderung von geloggten Zeiten
+  - hash: zeiterfassung-ohne-stempeluhr
+    title: Zeiterfassung OHNE Stempeluhr
+  - hash: änderung-von-arbeitszeiten
+    title: Änderung von Arbeitszeiten
+  - hash: pausen
+    title: Pausen
+  - hash: abteilungen-filtern
+    title: Abteilungen filtern
 keywords:
-- spontane schicht
-- " provision"
-- status
-- log-zeiten
-- log-in
-- zeiteingaben
-- änderung von arbeitszeiten
-- abteilungen filtern
-- stempeluhr
-- tablet
-- zeiterfassung
-
+  - spontane schicht
+  - " provision"
+  - status
+  - log-zeiten
+  - log-in
+  - zeiteingaben
+  - änderung von arbeitszeiten
+  - abteilungen filtern
+  - stempeluhr
+  - tablet
+  - zeiterfassung
 ---
+
 Im Hauptmenü "**Zeiterfassung**" sehen Sie die Mitarbeiter, die am jeweils gewählten Tag **laut Dienstplan** zur Arbeit eingeteilt sind.
 
 Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn, bzw. nach **Zeitpunkt des Log-ins** für den Fall, dass ein Mitarbeiter eine spontane, also nicht geplante Schicht angetreten hat.
@@ -71,7 +71,7 @@ Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen 
 
 ### Provision
 
-Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "[**Provision**](/hilfe/handbuch/mitarbeiter-einzeln/vertrag/#lohn-und-gehalt)" einen Wert **>0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
+Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "[**Provision**](/hilfe/handbuch/mitarbeiter/vertrag/#provision)" einen Wert **>0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
 
 {{< figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat" >}}
 
