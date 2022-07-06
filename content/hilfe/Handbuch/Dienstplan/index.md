@@ -10,9 +10,7 @@ In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnel
 Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
 {{< figure caption="" >}}
-
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-04-05-tab-0-4.png)
-
+<img src = "übersicht.png" />
 {{< /figure >}}
 
 ## Mitarbeiter Sortieren
@@ -23,21 +21,21 @@ Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentaco
 
 Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen {{< key "⇧" >}} + {{< key "a" "mono" >}} und {{< key "⇧" >}} + {{< key "d" "mono" >}} in die vorherige bzw. nächste Woche wechseln.
 
-## Tagesansicht
+## Dienstplannotizen hinzufügen
 
-Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die **Tagesansicht** für den entsprechenden Mitarbeiter und Tag. Hier finden Sie Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den folgenden Kapiteln).
+Wollen Sie ihrer Belegschaft weitere Informationen zum Tagesgeschäft, wichtige Neuerungen oder eine einfache Erinnerung zukommen lassen? All das können Sie über die Tagesnotizen erledigen. Diese können Sie einfach in der Dienstplanübersicht erstellen. 
 
-Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.
+1. Fahren Sie mit dem Cursor über einen Tag der ausgewählten Woche.
+2. Klicken Sie auf {{<button icon= "sticky-note" label="Notiz" >}}.
+3. Geben Sie die Nachricht an ihre Mitarbeiter ein.
+4. Wählen Sie den **Zeitraum** aus, in der die Notiz angezeigt werden soll - standardmäßig ist das nur der ausgewählte Tag.
+5. Wählen Sie die **Abteilungen** aus, welche die Notiz sehen sollen.
+6. Mit {{<button label="Speichern" >}} wird die Notiz ihren Mitarbeitern angezeigt.
 
-Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Tagesmenü.
+### Dienstplannotiz löschen 
 
-> **Tipp**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
-
-{{< figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen." >}}
-
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-3.png)
-
-{{< /figure >}}
+Um die Notiz eines oder mehrerer Tage zu löschen klicken Sie einfach über die Notiz in der Dienstplanübersicht. Nun können Sie zum einen die **Notiz bearbeiten**, durch einen Klick auf den 
+{{<icon "trash-alt">}}-**Button** können Sie die Notiz aber auch komplett löschen.
 
 ## Dienstplan-Tabs
 
@@ -68,14 +66,28 @@ Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Be
 > **Tipp:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
 
 {{< figure caption="Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten." >}}
-
-![](/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0.png)
-
+<img src= "tab.png" />
 {{< /figure >}}
 
 ### Mitarbeiter Suchen
 
 Wollen Sie schnell einen bestimmten Mitarbeiter finden? Dann geben Sie einfach den Namen oder die Personalnummer in das Suchfeld in der linken oberen Ecke des Dienstplans ein!
+
+## Tagesansicht
+
+Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die **Tagesansicht** für den entsprechenden Mitarbeiter und Tag. Hier finden Sie Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den folgenden Kapiteln).
+
+Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.
+
+Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das Tagesmenü.
+
+> **Tipp**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
+
+{{< figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen." >}}
+
+<img src = "tagesansicht.png" />
+
+{{< /figure >}}
 
 ## Dienstzeiten Eintragen
 
@@ -91,15 +103,32 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 {{< figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eigetragen." >}}
 
-![](/uploads/screenshot-2021-02-27-at-14-11-46.png)
+<img src = "globaleschichtvorschläge.gif"/>
 
 {{< /figure >}}
+
+#### Schichtvorschläge favorisieren
+
+**Klicken Sie auf den Stern** neben einem globalen Schichtvorschlag, wird dieser favorisiert. Er wird künftig immer **ganz oben** in der Liste der Schichtvorschläge angezeigt. So können Sie besonders häufig verwendete Schichten ohne Scrollen mehrfach in den Dienstplan einfügen. Ein erneutes Klicken auf den Stern wird diesen ausgrauen und der Schichtvorschlag ist **entfavorisiert**.
+
 
 ### Tages- und MA-spezifische Vorschläge
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](#tagesansicht) im Menü {{< icon "plus" >}} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 
 > **Tipp:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesansicht](#tagesansicht)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
+
+## Nicht zugewiesene Schichten
+
+Wenn Sie Schichten besetzen müssen, diese aber keinen konkreten Mitarbeiter zuordnen wollen, können Sie auch "nicht zugewiesene Schichten ausschreiben". Diese werden allen Mitarbeitern als verfügbar angezeigt, die in der gleichen Abteilung tätig sind. Die Mitarbeiter können sich anschließend **freiwillig für die Schicht eintragen** und diese somit "vom Markt nehmen". Klicken Sie auf den {{<icon "user-slash">}}-**Button** unter der Kalenderansicht im oberen rechten Eck, um sich die nicht zugewiesenen Schichten anzeigen zu lassen. 
+
+Um eine nicht zugewiesene Schicht auszuschreiben, aktivieren Sie erst die Anzeige wie oben beschrieben und gehen anschließend wie bei normalen [Dienstzeiten](#dienstzeiten-eintragen) vor. Sie müssen lediglich statt eines Mitarbeiter die Zeile "**Nicht zugewiesen**" auswählen. 
+
+{{< figure caption= "So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen" >}}
+
+<img src="nicht_zugewiesen.png" />
+
+{{< /figure >}}
 
 ## Fehltage Eintragen
 
@@ -143,19 +172,25 @@ Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, w
 
 {{< figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." >}}
 
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0-1.png)![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0.png)
+<img src = "änderungen.png" />
+<img src = "veröffentlichen.png"/>
 
 {{< /figure >}}
 
-### Dienstplan Teilen
+## Dienstplan Teilen
 
-Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatisch einen öffentlichen Link für Sie, den Sie mit beliebigen Personen (auch außerhalb Ihres Unternehmens) teilen können.
+Sie können ihren Dienstplan auch mit Personen teilen, die keinen Zugang zur Mitarbeiterapp haben. Klicken Sie dazu auf den {{<icon "share">}}-**Button** unter dem Kalenderfenster im rechten oberen Eck. Nun zeigt Ihnen Pentacode einen **Link** an, über den Externe den Dienstplan einsehen aber **nicht verändern** können. 
+- Klicken Sie auf {{<button icon="clipboard" label="Kopieren">}} um den Link an anderer Stelle mit {{<key "strg">}} **+** {{<key "V">}} einzusetzen.
+- Klicken Sie auf {{<button icon="envelope" label="Versenden">}} um ihrer Belegschaft eine Email mit dem Link zum Dienstplan zu schicken. 
 
-{{< figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leuten teilen." >}}
+**Wichtig!** Sie teilen immer nur den Teil des Dienstplans, der Ihnen im Filter des aktuellen Tabs angezeigt wird und bereits [veröffentlicht](#änderungen-veröffentlichen) ist (mehr info siehe [Teil-Dienstpläne](#teil-dienstpläne-veröffentlichen)).
 
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-25-tab-0.png)
+> **Beispiel:** In unserem Tab "Frühschicht" werden Spät- und Managementschichten nicht angezeigt, deshalb sind diese auch nicht Teil des geteilten Dienstplans. Zusätzlich haben wir einige Änderungen geplant, welche wir noch nicht veröffentlicht haben - auch diese werden im geteilten Diensplan nicht angezeigt.
 
-![](/uploads/demo-pentaco-de_dp__id-f4ccd654f5e014bd.png)
+{{< figure caption="Im geteilten Diensplan werden nur Schichten angezeigt, die veröffentlicht und Teil des geteilten [Dienstplantabs](#dienstplan-tabs) sind." >}}
+
+<img src= "teilen.png" />
+<img src= "geteilter_dienstplan.png" />
 
 {{< /figure >}}
 
@@ -169,13 +204,13 @@ Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen**
 
 ### Veröffentlichter Dienstplan
 
-Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite. (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {{< icon "paper-plane" >}} **Veröffentlicht** Button Klicken).
+Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie im gleichen Menü wie [Dienstplan teilen](#dienstplan-teilen). Klicken Sie dazu erst auf den {{<icon "share">}}-**Button** und anschließend auf {{<button icon="print" label="Drucken">}}.
 
-> **Beachten Sie:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
+> **Beachten Sie:** Sie drucken stets nur den veröffentlichten Dienstplan.
 
 {{< figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite." >}}
 
-![](/uploads/demo-pentacode-app_roster_venue-261-date-2021-03-01-tab-0-ipad-1.png)
+<img src="dienstplan_drucken.png" /> 
 
 {{< /figure >}}
 
@@ -195,7 +230,7 @@ Um eine Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und
 
 {{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 
-![](/uploads/demo-pentacode-app_roster_venue-261-date-2021-03-01-tab-0-ipad.png)
+<img src= "vorlage.png" />
 
 {{< /figure >}}
 
@@ -223,7 +258,7 @@ Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schicht�
 
 {{< figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben." >}}
 
-![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-2.png)
+<img src="probleme.png" />
 
 {{< /figure >}}
 
@@ -231,9 +266,19 @@ Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schicht�
 
 Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {{< icon "clone" >}}-**Button** im Dienstplanmenü aktiviert und deaktiviert werden.
 
+### Verfügbarkeiten anzeigen
+
+Um die Wüsche ihrer Mitarbeiter bei der Erarbeitung eines Diensplans zu berücksichtigen, können Sie sich die Verfügbarkeitsangaben einblenden lassen. Klicken Sie dazu auf den {{<icon "comment-check">}}-**Button** unter der Kalenderansicht im oberen rechten Eck. Nun werden Ihnen die verschiedenen Verfügbarkeiten ihrer Mitarbeiter farblich hinterlegt. Die Verfügbarkeiten sind dabei lediglich zur Orientierung gedacht, **sie beeinflussen ihre Schichtplanung nicht**.
+
+{{< figure caption= "Klicken Sie auf das icon um sich die Verfügbarkeiten der Mitarbeiter farblich hinterlegen zu lassen. " >}}
+
+<img src="verfügbarkeiten.png" />
+
+{{< /figure >}}
+
 ### Wochenstunden
 
-Über die "Fortschrittsanzeige" auf der linken des Dienstplans sehen Sie auf einen Blick, wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
+Über die "Fortschrittsanzeige" auf der Linken des Dienstplans sehen Sie auf einen Blick, wie viele Stunden einem Mitarbeiter noch fehlen, um auf die Sollstunden für diese Woche zu kommen. Diese Anzeige ist jeweils unter dem Namen des Mitarbeiters zu finden und aktualisiert sich automatisch, wenn Sie Änderungen an den Dienstplanzeiten des Mitarbeiters vornehmen.
 
 ### Monatsstunden
 
@@ -244,6 +289,16 @@ Analog zu der [Wochenstunden-Anzeige](#wochenstunden) gibt es außerdem eine "Fo
 Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden sollen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {{< icon "tasks-alt" >}}-**Button** ein- und ausblenden.
 
 Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hilfe/handbuch/planung/stundenvorgaben/).
+
+### Kompakte Darstellung
+
+Über den {{<icon "compress-arrows-alt">}}-**Button** können Sie den Dienstplan von der regulären in eine kompaktere Darstellungsform bringen. Die kompakte Form erlaubt es Ihnen auf einen Blick noch mehr Schichten einzusehen, indem einige Informationen, wie die Wochenstunden, ausgeblendet werden. Besonders für routinierte Anwender und die **erste Grobarbeit an neuen Plänen** eignet sich die kompakte Darstellung.
+
+{{< figure caption="Die kompakte Darstellung reduziert die Menge angezeigter Informationen." >}}
+
+<img src="kompakte_darstellung.gif" />
+
+{{< /figure >}}
 
 ### Personalkostenanalyse
 
@@ -257,7 +312,7 @@ Durch das Anklicken des {{< icon "chart-line" >}}-**Symbols** erscheinen am Fuß
 
 {{< figure caption="Über das Diagramm-Symbol werden Plan- und Ist-Kosten sichtbar gemacht" >}}
 
-![](/uploads/vergleich.png)
+<img src= "kosten.png" />
 
 {{< /figure >}}
 
@@ -265,7 +320,7 @@ Sollten sich die **Felder** mit Angabe der €-Beträge **überlappen**, werden 
 
 {{< figure caption="Durch einen Mouse-over werden einander überlappende Kennzahlen dargestellt" >}}
 
-![](/uploads/plan-ist1.png)
+<img src= "kosten_mouseover.gif" />
 
 {{< /figure >}}
 
@@ -273,7 +328,7 @@ In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" ge
 
 {{< figure caption="Über den Drop-down-Pfeil können Sie einzelne Abteilungen auswählen" >}}
 
-![](/uploads/plan-ist2.png)
+<img src= "kosten_abteilungen.gif" />
 
 {{< /figure >}}
 
