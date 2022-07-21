@@ -53,7 +53,7 @@ komplizierten Sachaufgabe dem Menschen überlegen und wenn ein immer
 wiederkehrendes Problem jedes Mal erneut und aufwändig gelöst werden muss, dann
 ist es für den Verantwortlichen natürlich eine riesen Erleichterung, wenn die
 Arbeit durch ein Programm „von Zauberhand“ erledigt wird. Aber wirklich gute
-Software hinterlässt beim den Anwender etwas - nennen wir es ein "gutes
+Software hinterlässt beim dem Anwender etwas - nennen wir es ein "gutes
 Gefühl".
 
 _**JT: Natürlich ist es ein gutes Gefühl, wenn ein Job schnell und korrekt erledigt werden kann.**_
@@ -61,9 +61,9 @@ _**JT: Natürlich ist es ein gutes Gefühl, wenn ein Job schnell und korrekt erl
 **MK:** Klar, aber das meine ich nicht. Viele Entwickler denken ja, dass das
 Problem einer Software der Anwender ist, der vor dem Bildschirm sitzt. Die
 sprechen dann vom DAU, dem dümmsten anzunehmenden Anwender. Wenn jemand mit
-einem komplexen Programm nicht zurecht kommt ist es der Fehler des Nutzers und
+einem komplexen Programm nicht zurecht kommt, ist es der Fehler des Nutzers und
 nicht der des Entwicklers. Ich bin aber der Meinung, dass Software dem Menschen
-dienen muss und nicht umgekehrt. Nicht nur, indem sie ihren Job erleichtert,
+dienen muss und nicht umgekehrt. Nicht nur, indem sie seinen Job erleichtert,
 sondern dem Nutzer außerdem das Gefühl gibt, selbstwirksam und kompetent zu sein.
 
 _**JT: Sprechen Programmierer echt vom dümmsten anzunehmenden Anwender?**_
@@ -71,10 +71,10 @@ _**JT: Sprechen Programmierer echt vom dümmsten anzunehmenden Anwender?**_
 **MK:** Natürlich nicht alle - aber welche Haltung ein Entwickler hat, muss er
 für sich selbst beantworten. Der Nutzer einer Software ist im Regelfall ja kein
 IT-Fachmann. Er ist ein Mensch mit einer Vielzahl unterschiedlicher
-Aufgaben und Fachmann in vielen Bereichen. Für ihn ist Software nur ein in
+Aufgaben und Fachmann in vielen Bereichen. Für ihn ist Software nur ein
 Werkzeug. Also sollte man bei der Entwicklung davon ausgehen, dass er
 wenig bis sehr wenig Ahnung von der Bedienung hat. Die Frage ist hier eher, ob
-ich den von oben herab betrachte oder ihm auf Augenhöhe begegne.
+ich ihn von oben herab betrachte oder ihm auf Augenhöhe begegne.
 
 _**JT: Wie kann man als Programmierer erreichen, dass sich ein Anwender kompetent fühlt?**_
 
@@ -116,7 +116,7 @@ nicht-technische, also inhaltliche Komponente der Software ausmacht. Diese
 Kompetenz steht dem Anwender dann nicht nur als Software zur Verfügung, sondern
 auch im unmittelbaren Austausch zwischen dem Kunden und unserem Support-Team.
 Ein weiterer Grund für meinen Einstieg war außerdem die Einstellung zum Kunden,
-die meiner eigenen Ansichten entspricht.
+die meinen eigenen Ansichten entspricht.
 
 _**JT: Damit meinst Du den Menschen vor dem Bildschirm als Mittelpunkt, richtig?**_
 
@@ -146,7 +146,7 @@ _**JT: Wie reagiert dann ein Kunde, wenn ein Wunsch nicht erfüllt wird?**_
 
 **MK:** In den meisten Fällen sehr verständnisvoll, weil wir unsere
 Entscheidungen auch immer begründen können. Es hilft ja
-niemandem, wenn eine Software 1000 Sonderwünsche erfüllt, der Anwender aber zehn Mal
+niemandem, wenn eine Software 1000 Sonderwünsche erfüllt, der Anwender aber zehnmal
 klicken muss, um zu einer bestimmten Funktion zu kommen. Am Ende kennt sich dann
 nur noch der Programmierer wirklich aus. In der Entwicklung nennen wir das
 „Feature Bloat“. Man muss also bei aller Kundenorientiertheit auch immer
