@@ -46,7 +46,6 @@ sections:
                 hinein. Egal wann, egal wo Sie sich befinden.
             image: "/uploads/funktionen_zeiterfassung_tagesuebersicht.png"
             padding: 10
-            image: "/uploads/funktionen_zeiterfassung_tagesuebersicht.png"
           - title: Nach Regeln, die Sie bestimmen
             icon: sliders-v-square
             text: Sie legen die Regeln fest, nach denen die
