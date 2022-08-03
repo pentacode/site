@@ -1,0 +1,63 @@
+{% macro renderGrid() %}
+<div class="brands-grid">
+    <i class="memo-pad"></i>
+    <i class="fab fa-airbnb" style="color: #fd5c63"></i>
+    <i class="fab fa-github" style="color: #24292f"></i>
+    <i class="fab fa-twitter" style="color: #1da1f2"></i>
+    <i class="fab fa-amazon" style="color: #ff9900"></i>
+    <i class="wifi"></i>
+    <i class="fab fa-pinterest" style="color: #e60023"></i>
+    <i class="fab fa-cc-mastercard" style="color: #000066"></i>
+    <i class="fab fa-cc-amex" style="color: #002663"></i>
+    <i class="fab fa-digital-ocean" style="color: #008bcf"></i>
+    <i class="fab fa-instagram" style="color: #c13584"></i>
+    <i class="file-certificate"></i>
+    <i class="fab fa-discord" style="color: #7289da"></i>
+    <i class="file-contract"></i>
+    <i class="fab fa-facebook" style="color: #1877f2"></i>
+    <i class="fab fa-microsoft" style="color: #f65314"></i>
+    <i class="fab fa-bitcoin" style="color: #f7931a"></i>
+    <i class="fab fa-slack" style="color: #e01563"></i>
+    <i class="server"></i>
+    <i class="fab fa-linkedin" style="color: #0077b5"></i>
+    <i class="image-polaroid"></i>
+    <i class="fab fa-dropbox" style="color: #007ee5"></i>
+    <i class="fab fa-cc-visa" style="color: #1a1f71"></i>
+    <i class="fab fa-reddit" style="color: #ff4500"></i>
+    <i class="fab fa-stack-overflow" style="color: #f48024"></i>
+    <i class="fab fa-youtube" style="color: #ff0000"></i>
+    <i class="fab fa-spotify" style="color: #1db954"></i>
+    <i class="money-check-dollar"></i>
+</div>
+{% endmacro %}
+
+<section class="centering horizontal layout">
+    <div style="max-width: 25em">
+        <h2 class="section-header">
+            <div>One, <strong>secure</strong> place for all your</div>
+            <div class="big vertical-carousel">
+                <div class="orange outline"><i class="lock"></i> passwords.</div>
+                <div class="purple outline"><i class="credit-card-front"></i> credit cards.</div>
+                <div class="green outline"><i class="memo-pad"></i> notes.</div>
+                <div class="blue outline"><i class="building-columns"></i> banking data.</div>
+                <div class="violet outline"><i class="paperclip"></i> documents.</div>
+            </div>
+        </h2>
+        <p>
+            Passwords are not the only sensitive information we are dealing with in our digital lives. From
+            <strong>credit card details</strong> to <strong>sensitive documents</strong>, <strong>secret notes</strong>,
+            <strong>license keys</strong> and more - Padloc gives you full flexibility in what kind of data you want to
+            store.
+        </p>
+        <p>
+            <a href="#plans">Start storing your data securely <i class="arrow-right"></i></a>
+        </p>
+    </div>
+
+    <div class="brands-scroller-outer">
+        <div class="brands-scroller">
+            {{ renderGrid() }}
+            {{ renderGrid() }}
+        </div>
+    </div>
+</section>

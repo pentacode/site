@@ -9,4 +9,4 @@ npm run build  # will build the _site folder with the static site contents
 
 ## Deployment
 
-Just push to the `gh-pages` branch.
+Just push to the `master` branch, and CI/CD will build and deploy the latest commit.

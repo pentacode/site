@@ -4,22 +4,22 @@
         <nav class="sections" role="navigation">
             <ul class="horizontal center-aligning layout">
                 <li>
-                    <a href="/"><img class="logo" src="/img/logo.svg" alt="Pentacode Logo" /></a>
+                    <a href="/"><img class="logo" src="/assets/img/logo.svg" alt="Pentacode Logo" /></a>
                 </li>
 
                 <li class="section-item">
                     <a href="/#funktionen"> Funktionen </a>
                 </li>
 
-                <li class="section-item {{ if eq .Section "preise" }}active{{ end }}">
+                <li class="section-item">
                     <a href="/#preise"> Preise </a>
                 </li>
 
-                <li class="section-item {{ if eq .Section "hilfe" }}active{{ end }}">
+                <li class="section-item {% if section == "hilfe" %}active{% endif %}">
                     <a href="/hilfe"> Hilfe </a>
                 </li>
 
-                <li class="section-item {{ if hasPrefix .RelPermalink "/magazin" }}active{{ end }}">
+                <li class="section-item {% if section == "magazin" %}active{% endif %}">
                     <a href="/magazin"> Magazin </a>
                 </li>
             </ul>
@@ -51,7 +51,7 @@
                 <nav class="menu-login-signup" role="navigation">
                     <ul>
                         <li>
-                            <a href="{{ .Param "get_started_url" }}" class="btn text-clip">
+                            <a href="/#angebot" class="btn text-clip">
                                 <i class="fal fa-user-headset"></i>
                                 <span>Termin Vereinbaren</span>
                             </a>
@@ -65,15 +65,15 @@
                             <a href="/#funktionen"> Funktionen </a>
                         </li>
 
-                        <li class="{{ if eq .Section "preise" }}active{{ end }}">
+                        <li>
                             <a href="/#preise"> Preise </a>
                         </li>
 
-                        <li class="{{ if eq .Section "hilfe" }}active{{ end }}">
+                        <li>
                             <a href="/hilfe"> Hilfe </a>
                         </li>
 
-                        <li class="{{ if hasPrefix .RelPermalink "/magazin" }}active{{ end }}">
+                        <li>
                             <a href="/magazin"> Magazin </a>
                         </li>
                     </ul>

@@ -1,5 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+const EleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = (config) => {
     function outdent(str) {
@@ -15,7 +17,22 @@ module.exports = (config) => {
         }).use(markdownItAnchor)
     );
 
-    config.addPlugin(require("@11ty/eleventy-navigation"));
+    const md = markdownIt({ html: true });
+
+    config.setFrontMatterParsingOptions({
+        excerpt: (file) => {
+            const text = md.render(file.content).replace(/(<([^>]+)>)/gi, "");
+            file.excerpt = text.split(" ").slice(0, 50).join(" ");
+        },
+    });
+
+    config.addFilter('markdownify', (str) => {
+        return md.renderInline(str);
+    });
+
+    config.addPlugin(EleventyNavigationPlugin);
+
+    config.addPlugin(EleventyRenderPlugin);
 
     const html = (...args) => outdent(String.raw(...args)).trim();
 
@@ -67,6 +84,9 @@ module.exports = (config) => {
     config.addFilter("prevInSection", function (items) {
         return items.find((item) => item.order === this.ctx.eleventyNavigation.order - 1);
     });
+
+    config.addFilter("formatDate", (date) => (date ? new Date(date).toDateString() : ""));
+    config.addFilter("orderByDate", (coll) => coll.sort((a, b) => b.date - a.date));
 
     return {
         markdownTemplateEngine: "njk",

@@ -1,0 +1,72 @@
+<style>
+    @keyframes scroll {
+        from {
+            transform: translate(0, 100%);
+        }
+
+        to {
+            transform: translate(0, -100%);
+        }
+    }
+
+    .brands-scroller-outer {
+        perspective: 1000px;
+        height: 25em;
+        width: 20em;
+    }
+
+    .brands-scroller {
+        position: relative;
+        height: 25em;
+        width: 20em;
+        overflow: hidden;
+        transform: rotatex(24deg) rotatey(335deg) rotatez(19deg);
+    }
+
+    .brands-scroller::before {
+        content: "";
+        display: block;
+        background: linear-gradient(rgba(var(--color-bg-rgb), 1), rgba(var(--color-bg-rgb), 0));
+        height: 10em;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .brands-scroller::after {
+        content: "";
+        display: block;
+        display: block;
+        background: linear-gradient(rgba(var(--color-bg-rgb), 0), rgba(var(--color-bg-rgb), 1));
+        height: 10em;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .brands-grid {
+        font-size: 3em;
+        font-weight: 600;
+        display: grid;
+        grid-template-columns: repeat(4, 1.2em);
+        grid-gap: 0.5em;
+        animation: scroll linear 40s infinite both;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0.25em;
+        text-align: center;
+    }
+
+    .brands-grid:nth-child(1) {
+        animation-delay: -20s;
+    }
+
+    .brands-grid:nth-child(2) {
+        animation-delay: 0s;
+    }
+</style>

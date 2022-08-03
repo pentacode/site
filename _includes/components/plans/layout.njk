@@ -1,0 +1,98 @@
+{% macro renderPlans(type, default=false) -%}<!-- -->
+<div class="billing-plans {{ type }}" {% if not default %}hidden{% endif %}>
+    {% for plan in plans %} {% if plan.type == type %}
+    <a href="{{ plan.url }}" class="unstyled billing-plan vertical layout {{ plan.color }}">
+        <div class="padded bg-dark border-bottom">
+            <div class="billing-plan-name">
+                <i class="{{ plan.icon }}"></i>
+                {{ plan.name }}
+            </div>
+            <div class="billing-plan-price">
+                {% if plan.priceUponRequest %}
+                <span class="blue highlighted nowrap large semibold"> Price Upon Request </span>
+                {% else %}
+                <span class="blue highlighted nowrap">
+                    <span class="bold giant"><sup>$</sup>{{ plan.priceMonthly }}</span>
+                    {% if plan.billsPerSeat %}<span class="semibold">/ <i class="bold person"></i></span>{% endif %}
+                    <span class="semibold">/ month</span>
+                </span>
+                {% if plan.priceYearly != 0 %}
+                <div>
+                    <span>or </span>
+                    <span class="blue highlighted nowrap">
+                        <span class="bold large"><sup>$</sup>{{ plan.priceYearly }}</span>
+                        {% if plan.billsPerSeat %}<span class="semibold">/ <i class="bold person"></i></span>{% endif %}
+                        <span class="semibold">/ year</span>
+                    </span>
+                </div>
+                {% endif %} {% endif %}
+            </div>
+            <div class="subtle top-margined">{{ plan.description }}</div>
+        </div>
+        <div class="small stretch vertical layout">
+            {% for feature in plan.features %}
+            <div class="padded list-item horizontal spacing start-aligning layout">
+                <i class="check"></i>
+                <div class="stretch">{{ feature }}</div>
+            </div>
+            {% endfor %}<!-- -->
+            {% for feature in plan.disabledFeatures %}
+            <div class="padded list-item horizontal spacing start-aligning layout">
+                <i class="times"></i>
+                <div class="stretch">
+                    <s>{{ feature }}</s>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="list-item stretch"></div>
+            <div class="unstyled billing-cta-button">{{ plan.buttonLabel }} <i class="arrow-right"></i></div>
+        </div>
+    </a>
+    {% endif %} {% endfor %}
+</div>
+{% endmacro %}
+
+<section id="plans">
+    <h2 class="section-header text-centering">
+        <div>The perfect solution for your</div>
+        <div class="big vertical-carousel">
+            <div class="orange outline"><i class="user-hair"></i> personal data.</div>
+            <div class="purple outline"><i class="family"></i> family.</div>
+            <div class="green outline"><i class="people-group"></i> team.</div>
+            <div class="violet outline"><i class="user-tie-hair"></i> business.</div>
+            <div class="blue outline"><i class="building"></i> organization.</div>
+        </div>
+    </h2>
+
+    <div class="billing-plans-wrapper">
+        <div class="horizontal spacing centering layout double-margined billing-tabs">
+            <button class="personal" aria-current="page">Personal</button>
+            <button class="business">Business</button>
+        </div>
+        {{ renderPlans("personal", true) }}
+        {{ renderPlans("business") }}
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            const personalButton = document.querySelector(".billing-tabs button.personal");
+            const businessButton = document.querySelector(".billing-tabs button.business");
+            const personalPlans = document.querySelector(".billing-plans.personal");
+            const businessPlans = document.querySelector(".billing-plans.business");
+
+            personalButton.addEventListener("click", () => {
+                personalButton.setAttribute("aria-current", "page");
+                businessButton.removeAttribute("aria-current");
+                personalPlans.removeAttribute("hidden");
+                businessPlans.setAttribute("hidden", "");
+            });
+
+            businessButton.addEventListener("click", () => {
+                businessButton.setAttribute("aria-current", "page");
+                personalButton.removeAttribute("aria-current");
+                businessPlans.removeAttribute("hidden");
+                personalPlans.setAttribute("hidden", "");
+            });
+        });
+    </script>
+</section>

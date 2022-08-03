@@ -1,0 +1,90 @@
+<style>
+    .phone-frame {
+        --border-color: var(--color-shade-4);
+        border: solid 1px var(--border-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 1em;
+        padding: 0 0.5em 1em 0.5em;
+        width: 15em;
+        height: 29em;
+        transform: rotatex(6deg) rotatey(20deg) rotatez(356deg);
+    }
+
+    .phone-frame .viewport > img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .phone-frame .phone-top {
+        height: 2em;
+    }
+
+    .phone-frame .viewport {
+        border: solid 1px var(--border-color);
+        border-radius: 0.5em;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .phone-speaker {
+        width: 3em;
+        height: 0.3em;
+        border: solid 1px var(--border-color);
+        border-radius: 0.5em;
+    }
+
+    .phone-camera {
+        width: 0.5em;
+        height: 0.5em;
+        border: solid 1px var(--border-color);
+        border-radius: 0.5em;
+    }
+
+    @keyframes scan {
+        from {
+            transform: translate3d(0, 50px, 0);
+        }
+        to {
+            transform: translate3d(0, 220px, 0);
+        }
+    }
+
+    .code {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+    }
+
+    .code-scan {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+        overflow: hidden;
+        animation: scan 2s linear infinite alternate;
+    }
+
+    .code-scan > div {
+        position: absolute;
+        top: -400px;
+        width: 100%;
+        height: 450px;
+        background: url(/assets/img/code.webp) no-repeat;
+        background-size: 500px;
+        animation: scan 2s linear infinite alternate-reverse;
+    }
+</style>

@@ -2,26 +2,86 @@
 <html lang="{{ metadata.language }}">
     <head>
         <title>{{ title or metadata.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="{{ description or metadata.description }}" />
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVP5NJ56FM"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-MVP5NJ56FM", {anonymize_ip: true});
+        </script>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({"gtm.start": new Date().getTime(), event: "gtm.js"});
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer"
+                        ? "&l=" + l
+                        : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-KHFFM9D");
+        </script>
+
+        {% if redirect %}
+        <meta http-equiv="refresh" content="0; url='{{ redirect }}'" />
+        {% endif %}
+
+        <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png" />
+
+        <meta name="og:title" content="{{ title or metadata.title }}"/>
         <meta name="description" content="{{ description or metadata.description }}"/>
-    <link
-        rel="shortcut icon" type="image/png" href="/assets/img/icon.png"/>
-    {# <link rel="stylesheet" href="/assets/css/config.css"/>
-            <link rel="stylesheet" href="/assets/css/base.css"/>
-            <link rel="stylesheet" href="/assets/css/layout.css"/>
-            <link rel="stylesheet" href="/assets/css/fonts.css"/>
-            <link rel="stylesheet" href="/assets/css/icons.css"/>
-            <link rel="stylesheet" href="/assets/css/brands.css"/>
-            <link rel="stylesheet" href="/assets/css/animation.css"/>
-            <link rel="stylesheet" href="/assets/css/misc.css"/>
-            <link rel="stylesheet" href="/assets/css/side-nav.css"/>
-            <link rel="stylesheet" href="/assets/css/header.css"/>
-            <link rel="stylesheet" href="/assets/css/home.css"/>
-            <link rel="stylesheet" href="/assets/css/page.css"/>
-            <link rel="stylesheet" href="/assets/css/sections.css"/> #}
+        <meta name="og:description" content="{{ description or metadata.description }}"/>
+        {# TODO: Figure out cover #}
+        {% if cover %}
+        <meta property="og:image" content="{{ cover }}"/>
+        {% endif %}
+        
+        {% block meta %}{% endblock %}
+
+        {% block styles %}
+        <!-- -->
+        {% include "styles/vars.html" %}
+        <!-- -->
+        {% include "styles/reset.html" %}
+        <!-- -->
+        {% include "styles/base.html" %}
+        <!-- -->
+        {% include "styles/layout.html" %}
+        <!-- -->
+        {% include "styles/fonts.html" %}
+        <!-- -->
+        {% include "styles/icons.html" %}
+        <!-- -->
+        {% include "styles/animation.html" %}
+        <!-- -->
+        {% include "styles/header.html" %}
+        <!-- -->
+        {% include "styles/misc.html" %}
+        <!-- -->
+        {% endblock %}
+        <!-- -->
+
+        {% block js %} {% endblock %}
+
+        <script src="/assets/js/scheduling.js" async></script>
     </head>
     <body>
-        {{ content | safe }}
+        {% block body %} {% endblock %}
+
+        {% block footer %}
+            {% include "components/footer.html" %}
+        {% endblock %}
+
+        {% include "components/helpscout.html" %}
     </body>
 </html>
