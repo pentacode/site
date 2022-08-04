@@ -1,4 +1,5 @@
 ---
+layout: layouts/funktionen/single.njk
 title: "**Controlling**"
 meta_title: Controlling
 subtitle: Ihr sofortiger Überblick über die wichtigsten Kennzahlen

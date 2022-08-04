@@ -1,4 +1,5 @@
 ---
+layout: layouts/funktionen/single.njk
 title: Automatisierte **Personalverwaltung**
 meta_title: Automatisierte Personalverwaltung
 subtitle: Personalverwaltung für Gastronomie, Hotellerie, Handel und Handwerk.

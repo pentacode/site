@@ -1,4 +1,5 @@
 ---
+layout: layouts/funktionen/single.njk
 title: Ihr digitaler **Dienstplan**
 meta_title: Ihr digitaler Dienstplan
 subtitle: Online-Schichtplanung für Gastronomie, Hotellerie, Handel und Handwerk.

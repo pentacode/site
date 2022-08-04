@@ -30,6 +30,11 @@ module.exports = (config) => {
         return md.renderInline(str);
     });
 
+    config.addFilter("demarkdown", function (string) {
+        const text = md.render(string).replace(/(<([^>]+)>)/gi, "").trim();
+        return text;
+    });
+
     config.addPlugin(EleventyNavigationPlugin);
 
     config.addPlugin(EleventyRenderPlugin);

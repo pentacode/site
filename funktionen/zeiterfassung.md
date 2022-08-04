@@ -1,4 +1,5 @@
 ---
+layout: layouts/funktionen/single.njk
 title: Digitale **Zeiterfassung**
 meta_title: Digitale Zeiterfassung
 subtitle: "Elektronische Arbeitszeiterfassung für **Gastronomie**, **Hotellerie**, **Handel** und **Handwerk**"

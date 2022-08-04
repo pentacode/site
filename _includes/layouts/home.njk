@@ -17,7 +17,6 @@
 {% endblock %}
 
 {% block body %}
-<div class="main-layout">
     {% include "components/header.njk" %}
 
     <section class="hero blue">
@@ -34,7 +33,7 @@
                 </h3>
 
                 <div class="buttons">
-                    <a href="/#angebot" class="btn highlight get-started">
+                    <a href="#preise" class="btn highlight get-started">
                         <span>Jetzt Kennenlernen</span>
                         <i class="icon fad fa-play-circle"></i>
                     </a>
@@ -343,7 +342,7 @@
                 </p>
 
                 <div class="feature-buttons">
-                    <a class="btn text-clip" href="#angebot">
+                    <a class="btn text-clip" href="#preise">
                         <div>
                             Erfahren Sie jetzt, wie Pentacode auch ohne Ihr Zutun
                             <strong>Arbeitszeit einspart</strong> und dadurch Ihre
@@ -373,5 +372,4 @@
     {% include "components/sections/preise.njk" %}
 
     {% include "components/provenexpert-seal.html" %}
-</div>
 {% endblock %}
