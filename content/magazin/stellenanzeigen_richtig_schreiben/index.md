@@ -90,17 +90,16 @@ Wussten Sie, dass die Wortwahl maßgeblich darüber entscheiden kann, ob sich au
 Ihre Stellenanzeige hauptsächlich Männer oder auch Frauen bewerben? „Wir suchen
 eine durchsetzungsstarke Persönlichkeit“ ist ein Beispiel für einen Satz, von
 dem sich mehr Männer angesprochen fühlen könnten als Frauen. Das zeigt u.a. ein
-Forschungsprojekt der TUM. (Verlinkung möglich:
-https://www.tum.de/die-tum/aktuelles/pressemitteilungen/details/31438/) Grund
-dafür ist der sogenannte „Unconcious Bias“ – also Gender Stereotype, die wir
-verinnerlichen und die daraus folgend unsere Sprache beeinflussen. Damit sich
-möglichst viele qualifizierte Bewerber melden, kann es also ratsam sein,
-Attribute wie „leistungsstark“ z.B. durch „talentiert“ zu ersetzen. Übrigens:
-Laut einer Studie der Platform LinkedIn von 2019 (Verlinkung möglich:
-https://news.linkedin.com/2019/January/linkedin-releases-2019-gender-insights-report)
+Forschungsprojekt der TUM [^1]. Grund dafür ist der sogenannte „Unconcious
+Bias“ – also Gender Stereotype, die wir verinnerlichen und die daraus folgend
+unsere Sprache beeinflussen. Damit sich möglichst viele qualifizierte Bewerber
+melden, kann es also ratsam sein, Attribute wie „leistungsstark“ z.B. durch
+„talentiert“ zu ersetzen. Übrigens: Laut einer Studie der Platform LinkedIn von 2019
 bewerben sich Männer bereits bei einer Übereinstimmung zwischen geforderten und
 eigenen Fähigkeiten von 60 Prozent, Frauen erst bei nahezu 100 Prozent
-Übereinstimmung. Sie sollten bei der Erstellung einer Stellenanzeige also
+Übereinstimmung [^2].
+
+Sie sollten bei der Erstellung einer Stellenanzeige also
 bereits im Blick haben, wie breit das Spektrum an Bewerber und Bewerberinnen
 sein soll und dementsprechend differenziert das Anforderungsprofil definieren.
 Außerdem stellen Sie sich die Frage: Was sollen Bewerber und Bewerberinnen genau
@@ -129,9 +128,8 @@ diese Punkte von einem Großteil der Unternehmen angeboten werden und Sie sich
 damit als potenzieller neuer Arbeitgeber nicht attraktiver machen. Suchen Sie
 lieber nach Aspekten, die ihr Unternehmen wirklich einzigartig macht, wie zum
 Beispiel die Möglichkeiten zur persönlichen Weiterentwicklung, die Flexibilität
-in den Arbeitszeitmodellen etc. Das sind Punkte, die die intrinsische Motivation
-ansprechen und damit um vieles wertvoller sind. (Fließtextverlinkung
-Magazinbeitrag intrinsiche Motivation)
+in den Arbeitszeitmodellen etc. Das sind Punkte, die die [intrinsische Motivation](../intrinsische_motivation/)
+ansprechen und damit um vieles wertvoller sind.
 
 ## Anschreiben und Motivationsschreiben? – Umdenken lohnt sich!
 
@@ -184,3 +182,6 @@ In-App Lösungen, [wie sie Pentacode beispielsweise
 liefert](https://pentacode.app/news/update_v1.22/), können an der Stelle
 ausschlaggebend sein. Es lohnt sich also auch im Bereich Recruiting, die Chancen
 der Digitalisierung zu nutzen.
+
+[^1]: https://www.tum.de/die-tum/aktuelles/pressemitteilungen/details/31438/
+[^2]: https://news.linkedin.com/2019/January/linkedin-releases-2019-gender-insights-repor
