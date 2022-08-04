@@ -25,8 +25,8 @@ Und die – bezogen auf den Eindruck, den Unternehmen bei potenziellen Kandidate
 hinterlassen – keine zweite Chance für den ersten Eindruck erlaubt.
 
 Doch wie können Unternehmen dafür Sorge tragen, dass ihre Stellenanzeige
-besonders attraktiv und erfolgreich ist? Denise Piko, Expertin aus dem Bereich
-Recruiting und HR, hat im Folgenden die entscheidenden Tipps zusammengetragen.
+besonders attraktiv und erfolgreich ist? Wir haben im Folgenden die
+entscheidenden Tipps zusammengetragen.
 
 ## Erledigen Sie ihre Hausaufgaben! – Marktscreening und Wettbewerb
 
