@@ -3,11 +3,12 @@
         <input type="search" placeholder="Suchen..." class="search-input" id="search-input" />
     </div>
     <ul class="section-menu-list">
-        {{ template "menu" (dict "page" .FirstSection "currentPage" .) }}
+        {# {{ template "menu" (dict "page" .FirstSection "currentPage" .) }} #}
     </ul>
 </nav>
 
-{{ define "menu" }}
+{# TODO: Finish this #}
+{# {{ define "menu" }}
     {{ $currPage := .currentPage }}
     {{ range .page.Pages }}
         <li class="{{ if eq . $currPage }}active{{ end }}">
@@ -35,7 +36,7 @@
             {{ end }}
         </li>
     {{ end }}
-{{ end }}
+{{ end }} #}
 
 <script>
     window.addEventListener("load", () => {

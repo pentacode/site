@@ -1,0 +1,46 @@
+{% set main_title = title + ' | Pentacode' %}
+
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/single.html" %}<!-- -->
+{% include "styles/section-menu.html" %}<!-- -->
+{% include "styles/page-menu.html" %}<!-- -->
+{% include "styles/search.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    <div class="main-layout">
+        <div>
+            <article class="animation-reveal-children animation-fast">
+                <div class="narrow">
+                    {% include "components/breadcrumbs.njk" %}
+                </div>
+
+                <div>
+                    <div class="cover">
+                        {% include "components/thumbnail.njk" %}
+                    </div>
+
+                    <h1><span>{{ title | markdownify | safe }}</span></h1>
+                </div>
+
+                {# TODO: Finish this #}
+                {# {{ with .PublishDate }}
+                    <p class="subtle">{{ dateFormat "Monday, Jan 2, 2006" . }}</p>
+                {{ end }} #}
+
+                <div>
+                    {{ content | markdownify | safe }}
+                </div>
+            </article>
+        </div>
+    </div>
+{% endblock %}

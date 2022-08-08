@@ -25,11 +25,11 @@ Mitarbeiter, die **Barvorschüsse** erhalten haben, sind alphabetisch nach Nachn
 
 Bei Mitarbeitern, die mehrere Vorschüsse erhalten haben, sind sowohl die Einzelzahlungen mit Datumsangabe wie auch als Summe ausgewiesen.
 
-{{< figure caption="Die Vorschussliste muss zur Übermittlung an die Lohnbuchhaltung ausgedruckt werden" >}}
+<figure caption="Die Vorschussliste muss zur Übermittlung an die Lohnbuchhaltung ausgedruckt werden">
 
 ![](/uploads/vorschusse3.png)
 
-{{< /figure >}}
+</figure>
 
 Diese Liste kann an dieser Stelle **nicht** bearbeitet werden. **Korrekturen** können nur in der **Tagesabrechnung** und im **Kassenbuch** durchgeführt werden.
 
@@ -39,30 +39,30 @@ Die Vorschussliste kann **nicht** exportiert werden. Um sie Ihrer Buchhaltung zu
 
 ## Zeitraum wechseln
 
-Über die {{< icon "chevron-right" >}}-Symbole können den gezeigten Monatszeitraum wechseln
+Über die {{< icon "chevron-right">-Symbole können den gezeigten Monatszeitraum wechseln
 
-{{< figure caption="Sie können über die Pfeilsymbole den Monatszeitraum wechseln" >}}
+<figure caption="Sie können über die Pfeilsymbole den Monatszeitraum wechseln">
 
 ![](/uploads/vorschusse-zeitraum-wechseln.png)
 
-{{< /figure >}}
+</figure>
 
 ## Filtern
 
 Über das Suchfeld können Sie Mitarbeiter durch Buchstabeneingabe filtern.
 
-{{< figure caption="So können Sie Mitarbeiter filtern" >}}
+<figure caption="So können Sie Mitarbeiter filtern">
 
 ![](/uploads/vorschusse-filtern.png)
 
-{{< /figure >}}
+</figure>
 
 ## Drucken
 
-Über das {{< icon "print" >}}-Symbol können Sie die Vorschussliste ausdrucken.
+Über das {{< icon "print">-Symbol können Sie die Vorschussliste ausdrucken.
 
-{{< figure caption="Über das Druckersymbol können Sie die Vorschussliste ausdrucken" >}}
+<figure caption="Über das Druckersymbol können Sie die Vorschussliste ausdrucken">
 
 ![](/uploads/vorschusse-drucken.png)
 
-{{< /figure >}}
+</figure>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ metadata.language }}">
     <head>
-        <title>{{ (main_title or title or metadata.title) | demarkdown }}</title>
+        <title>{{ (main_title or title or metadata.title) | plainify }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="description" content="{{ description or metadata.description }}" />
@@ -38,7 +38,7 @@
 
         <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png" />
 
-        <meta name="og:title" content="{{ (main_title or title or metadata.title) | demarkdown }}"/>
+        <meta name="og:title" content="{{ (main_title or title or metadata.title) | plainify }}"/>
         <meta name="description" content="{{ description or metadata.description }}"/>
         <meta name="og:description" content="{{ description or metadata.description }}"/>
         {% if cover %}

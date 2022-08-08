@@ -1,46 +1,44 @@
-{# TODO: Fix this! #}
+{% set slides = section.slides  %}
 
-{# {{ $slides := .slides }}
-
-{{ if eq .alignment "right" }}
-    {{ $slides = partial "reverse-slice.html" $slides }}
-{{ end }} #}
+{% if section.alignment === "right" %}
+    {% set slides = section.slides | reverse %}
+{% endif %}
 
 <section
-    class="section-slides {{ alignment }}"
-    style="--color-highlight: var(--{{ color_1 }}); --color-highlight-bg: var(--{{ color_2 }});"
+    class="section-slides {{ section.alignment }}"
+    style="--color-highlight: var(--{{ section.color_1 }}); --color-highlight-bg: var(--{{ section.color_2 }});"
     data-animation="slide_1"
-    data-animation_direction="{% if alignment == "right" %}reverse{% else %}normal{% endif %}"
+    data-animation_direction="{% if section.alignment === "right" %}reverse{% else %}normal{% endif %}"
 >
     <div class="inner">
         <div class="content">
-            <h2>{{ title | markdownify | safe }}</h2>
+            <h2>{{ section.title | markdownify | safe }}</h2>
 
-            {% if subtitle %}
+            {% if section.subtitle %}
                 <h3>
-                    {{ subtitle | markdownify | safe }}
+                    {{ section.subtitle | markdownify | safe }}
                 </h3>
             {% endif %}
 
-            {# {{ text | markdownify | safe }} #}
+            {{ section.text | markdownify | safe }}
 
             <ul class="tabs">
-                {# {{ range $i, $slide := .slides }}
+                {% for slide in section.slides %}
                     <li class="tab-outer">
-                        <div class="tab" data-slide="{{ $i }}" role="presentation">
+                        <div class="tab" data-slide="{{ loop.index0 }}" role="presentation">
                             <div class="tab-inner" role="presentation">
                                 <i class="tab-expand-icon fal fa-arrow-right"></i>
 
                                 <h4>
-                                    {{ with $slide.icon }}<i class="fal fa-{{ . }}"></i>{{ end }}
-                                    {{ $slide.title | markdownify }}
+                                    <i class="fal fa-{{ slide.icon }}"></i>
+                                    {{ slide.title | markdownify | safe }}
                                 </h4>
 
-                                {{ $slide.text | markdownify }}
+                                {{ slide.text | markdownify | safe }}
                             </div>
                         </div>
                     </li>
-                {{ end }} #}
+                {% endfor %}
             </ul>
         </div>
 
@@ -50,13 +48,13 @@
                     <div class="slides">
                         <div class="slides-inner">
                             <div style="width: 100%; pointer-events: none;"></div>
-                            {# {{ range $i, $slide := $slides }}
-                                <div class="slides-slide" data-slide="{{ $i }}">
+                            {% for slide in section.slides %}
+                                <div class="slides-slide" data-slide="{{ loop.index0 }}">
                                     <div class="slides-slide-inner">
-                                        <img src="{{ $slide.image }}" loading="lazy" class="animate" alt="{{ default $slide.alt ($slide.title | markdownify | plainify) }}" />
+                                        <img src="{{ slide.image }}" loading="lazy" class="animate" alt="{{ (slide.alt or slide.title) | plainify }}" />
                                     </div>
                                 </div>
-                            {{ end }} #}
+                            {% endfor %}
                             <div style="width: 100%; pointer-events: none;"></div>
                         </div>
                     </div>

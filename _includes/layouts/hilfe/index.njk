@@ -1,45 +1,54 @@
-{{ define "css" }}
-    {{ template "basecss" }}
-    {{ partial "styles/list.html" }}
-    {{ partial "styles/section-menu" }}
-    {{ partial "styles/search" }}
-{{ end }}
+{% set main_title = title + ' | Pentacode' %}
 
-{{ define "main" }}
-    {{ partial "header" . }}
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/list.html" %}<!-- -->
+{% include "styles/section-menu.html" %}<!-- -->
+{% include "styles/search.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block body %}
+
+    {% include "components/header.njk" %}
 
     <div class="main-layout">
         <aside>
-            {{ if not (eq .Parent.Kind "home") }}
+            {% if kind !== "home" %}
                 <div class="side-menu">
-                    {{ partial "section-menu" . }}
+                    {% include "components/section-menu.njk" %}
                 </div>
-            {{ end }}
+            {% endif %}
         </aside>
 
         <div class="main animation-reveal-children">
-            {{ if not (eq .Parent.Kind "home") }}
-                {{ partial "breadcrumbs" . }}
-            {{ end }}
+            {% if kind !== "home" %}
+                {% include "components/breadcrumbs.njk" %}
+            {% endif %}
 
             <div class="content">
                 <div>
-                    <i class="icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
+                    <i class="cover-icon fal fa-{{ icon or "scroll" }}"></i>
 
                     <h1>
-                        <span>{{ .Title }}</span>
+                        <span>{{ title | markdownify | safe }}</span>
                     </h1>
                 </div>
 
-                {{ .Content }}
+                {{ content | markdownify | safe }}
             </div>
 
-            {{ if eq .Parent.Kind "home" }}
-                {{ partial "section-menu" . }}
-            {{ end }}
+            {% if kind === "home" %}
+                {% include "components/section-menu.njk" %}
+            {% endif %}
 
             <ul class="articles animation-reveal-children">
-                {{ range .Pages }}
+                {# TODO: Finish this #}
+                {# {{ range .Pages }}
                     <li>
                         <a href="{{ .RelPermalink }}">
                             <article>
@@ -57,8 +66,8 @@
                             </article>
                         </a>
                     </li>
-                {{ end }}
+                {{ end }} #}
             </ul>
         </div>
     </div>
-{{ end }}
+{% endblock %}}

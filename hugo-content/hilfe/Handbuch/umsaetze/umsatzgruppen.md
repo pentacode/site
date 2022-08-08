@@ -29,11 +29,11 @@ Darüber hinaus erscheinen diese Gruppen als **dauerhafte Einträge** in der "[*
 
 Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungstext, UST-Satz und evtl. die Kostenstelle an.
 
-{{< figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" >}}
+<figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst">
 
 ![](/uploads/umsatzgruppe1.png)
 
-{{< /figure >}}
+</figure>
 
 Die Umsatzgruppe wird durch "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das** [**Kassenbuch**](/hilfe/handbuch/umsaetze/kassenbuch/) **geschrieben**.
 
@@ -47,19 +47,19 @@ In diesem Fall finden Sie eine Liste von **Einträgen im Kassenbuch** vor, die a
 
 Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, dass kleine Abweichungen beim manuellen Eintrag in der Tagesabrechnung zu mehreren Positionen führen, die sich jedoch auf eine Umsatzart beziehen. Hier zeigen wir Ihnen dies am Beispiel "**Getränke**".
 
-{{< figure caption="Ziehen Sie bestehende Umsätze aus der Liste per drag & drop in die zutreffende Umsatzgruppe" >}}
+<figure caption="Ziehen Sie bestehende Umsätze aus der Liste per drag & drop in die zutreffende Umsatzgruppe">
 
 ![](/uploads/umsatzgruppe2.png)
 
-{{< /figure >}}
+</figure>
 
 Wenn Sie dies für die Zukunft vereinheitlichen wollen, **ziehen** Sie nun die **gewünschten Einträge** in der Liste einfach per "drag & drop" **in die Gruppe**.
 
-{{< figure caption="Unterschiedliche Angaben werden damit automatisch vereinheitlicht" >}}
+<figure caption="Unterschiedliche Angaben werden damit automatisch vereinheitlicht">
 
 ![](/uploads/umsatzgruppe3.png)
 
-{{< /figure >}}
+</figure>
 
 Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und vereinheitlicht. Alle Texte, Steuersätze Kontonummern und Kostenstellen entsprechen nun den Angaben, die Sie für diese Gruppe definiert haben.
 
@@ -69,19 +69,19 @@ Dadurch werden alle **zurückliegenden Einträge im Kassenbuch korrigiert** und 
 
 Mit der **gedrückten linken Maustaste** können Sie die angelegten Gruppen in die von Ihnen **gewünschte Reihenfolge** bringen.
 
-{{< figure caption="Bringen Sie die Gruppen in die von Ihnen gewünschte Reihenfolge" >}}
+<figure caption="Bringen Sie die Gruppen in die von Ihnen gewünschte Reihenfolge">
 
 ![](/uploads/umsatzgruppe4.png)
 
-{{< /figure >}}
+</figure>
 
 In dieser **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tagesabrechnung**.
 
-{{< figure caption="Die Umsätze erscheinen in der Tagesabrechnung in der von Ihnen gewählten Reihenfolge" >}}
+<figure caption="Die Umsätze erscheinen in der Tagesabrechnung in der von Ihnen gewählten Reihenfolge">
 
 ![](/uploads/umsatzgruppe5.png)
 
-{{< /figure >}}
+</figure>
 
 ## Neue Umsätze anlegen
 
@@ -89,11 +89,11 @@ In dieser **Reihenfolge** erscheinen die Gruppen nun **dauerhaft** in der **Tage
 
 Und in der "**Tagesabrechnung**" können natürlich weiterhin **neue Umsatzarten anlegen** und diese evtl. einer bestehenden Gruppe hinzufügen.
 
-{{< figure caption="Sie können bestehenden Umsatzarten jederzeit weitere Umsätze hinzufügen" >}}
+<figure caption="Sie können bestehenden Umsatzarten jederzeit weitere Umsätze hinzufügen">
 
 ![](/uploads/umsatzgruppe6.png)
 
-{{< /figure >}}
+</figure>
 
 > **Wichtig! Umsätze, die keiner Gruppe angehören, werden bei der Dienstplanung gegen Umsatz-Ziele nicht berücksichtigt!**
 
@@ -101,10 +101,10 @@ Und in der "**Tagesabrechnung**" können natürlich weiterhin **neue Umsatzarten
 
 In derselben Weise, in der Sie Umsatzgruppen angelegt haben, können Sie die unbaren Zahlungsarten, aber auch sehr häufig wiederkehrende Barausgaben organisieren.
 
-{{< figure caption="Wie die Umsätze können Sie auch Ihre Kartenzahlungen in Gruppen zusammenfassen" >}}
+<figure caption="Wie die Umsätze können Sie auch Ihre Kartenzahlungen in Gruppen zusammenfassen">
 
 ![](/uploads/umsatzgruppe7.png)
 
-{{< /figure >}}
+</figure>
 
 > Das Anlegen von feststehenden Ausgabepositionen ist jedoch nur dann sinnvoll, wenn es sich um **sehr häufig wiederkehrende Ausgaben** handelt.

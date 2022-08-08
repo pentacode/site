@@ -1,7 +1,7 @@
 ---
+layout: layouts/_default/single.njk
 title: Impressum
 hide_menu: true
-
 ---
 ## Herausgeber
 

@@ -14,6 +14,7 @@ module.exports = (config) => {
         "md",
         markdownIt({
             html: true,
+            linkify: true,
         }).use(markdownItAnchor)
     );
 
@@ -30,7 +31,7 @@ module.exports = (config) => {
         return md.renderInline(str);
     });
 
-    config.addFilter("demarkdown", function (string) {
+    config.addFilter("plainify", function (string) {
         const text = md.render(string).replace(/(<([^>]+)>)/gi, "").trim();
         return text;
     });

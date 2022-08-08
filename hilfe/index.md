@@ -1,4 +1,5 @@
 ---
+layout: layouts/hilfe/index.njk
 title: Wissensportal
 weight:
 icon: "map-marker-question"

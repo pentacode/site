@@ -11,18 +11,18 @@ gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hin
 ## Verträge Übersicht
 
 In der Verträge-Übersicht sehen Sie in tabellarischer Form die wichtigsten aktuellen Vertragsdaten Ihrer Mitarbeiter auf
-einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {{<icon "users" >}} **Mitarbeiter** im Hauptmenü
+einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {{<icon "users"> **Mitarbeiter** im Hauptmenü
 und dort im Untermenü **Verträge** wählen.
 
-Über den {{<button icon="print" >}}-Button können Sie diese Ansicht ausdrucken. Das {{<button
-label="Filtern..." icon-right="filter" >}} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
+Über den {{<button icon="print">-Button können Sie diese Ansicht ausdrucken. Das {{<button
+label="Filtern..." icon-right="filter"> Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
 nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {{<button icon="list-timeline"
-label="Vertragsänderungen" >}} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen einzelne
+label="Vertragsänderungen"> Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen einzelne
 Mitarbeiter bringt Sie in die [Verträge-Einzelansicht](#verträge-einzelansicht) des Mitarbeiters.
 
-{{< figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick." >}}
+<figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick.">
 <img src="vertraege_uebersicht.png" />
-{{< /figure >}}
+</figure>
 
 ## Verträge Einzelansicht
 
@@ -30,12 +30,12 @@ In der Verträge-Einzelansicht können Sie alle Verträge eines Mitarbeiters ein
 gelangen Sie, indem Sie in der [Verträge-Übersicht](#verträge-übersicht) auf den gewünschten Mitarbeiter klicken.
 
 Um einen bestimmten Vertrag zu öffnen, klicken Sie einfach auf den entsprechenden Eintrag auf der linken Seite. Über den
-{{<button icon="list-timeline" label="Vertragsänderungen" >}} kommen Sie in die [Vertragsänderungen-Ansicht](#vertragsänderungen-einzelansicht) des
+{{<button icon="list-timeline" label="Vertragsänderungen"> kommen Sie in die [Vertragsänderungen-Ansicht](#vertragsänderungen-einzelansicht) des
 Mitarbeiters.
 
-{{< figure caption="" >}}
+<figure caption="">
 <img src="vertraege_einzelansicht.png" />
-{{< /figure >}}
+</figure>
 
 ## Felder & Eigenschaften
 
@@ -149,7 +149,7 @@ Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch
 
 Pentacode unterscheidet bei der Berechnung zwischen Wochen-, Sonn und Feiertagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
 
-> {{< icon "info-circle" >}} **Hinweis:** Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monate**n mit der Einstellung "**Feste Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
+> {{< icon "info-circle"> **Hinweis:** Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monate**n mit der Einstellung "**Feste Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
 >
 > **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf** "**13-Wochenschnitt**" **verändern wollen**.
 
@@ -243,20 +243,20 @@ Arbeitskonditionen neu verhandelt oder aus anderen Gründen angepasst. Diese Än
 in Pentacode ab, indem Sie einen neuen Vertrag anlegen:
 
 1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
-2. Klicken Sie auf {{<button label="Neuer Vertrag" icon="plus" >}}.
+2. Klicken Sie auf {{<button label="Neuer Vertrag" icon="plus">.
 3. Es öffnet sich das Vertragsformular, vorausgefüllt mit den Werten des vorherigen Vertrages. Nehmen Sie die
-   gewünschten Änderungen vor und klicken Sie dann auf {{<button label="Speichern" >}}. Durch einen Klick auf {{<button
-   label="Abbrechen" >}} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren Auswirkungen
+   gewünschten Änderungen vor und klicken Sie dann auf {{<button label="Speichern">. Durch einen Klick auf {{<button
+   label="Abbrechen"> werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren Auswirkungen
    finden Sie unter [Felder & Eigenschaften](#felder--eigenschaften).
 
-> {{<icon "info-circle" >}} Das Enddatum des vorherigen Vertrages wird automatisch auf den Vertragsbeginn des neuen
+> {{<icon "info-circle"> Das Enddatum des vorherigen Vertrages wird automatisch auf den Vertragsbeginn des neuen
 > Vertrages gesetzt.
 
 ## Vertrag Bearbeiten
 
 Als alternative zum Erstellen eines neuen Vertrages können Sie außerdem einen bestehenden Vertrag bearbeiten.
 
-> {{<icon "exclamation-triangle" >}} **ACHTUNG:** Änderungen an bestehenden Verträgen wirken sich rückwirkend
+> {{<icon "exclamation-triangle"> **ACHTUNG:** Änderungen an bestehenden Verträgen wirken sich rückwirkend
 > auf alle **arbeitszeit- und lohnrelevanten Werte** innerhalb Vertragszeitraums aus, welche in der Folge
 > neu berechnet werden. Änderungen an bestehenden Verträgen sollten deshalb nur in Ausnahmefällen vorgenommen werden.
 > **Bei regulären Vertragsänderungen, also Änderungen die erst ab einem bestimmten Zeitpunkt (gewöhnlich in der Gegenwart
@@ -267,12 +267,12 @@ So nehmen Sie Änderungen an einem bestehenden Vertrag vor:
 
 1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
 2. Wählen Sie den gewünschten Vertrag aus der Liste der existierenden Verträge.
-3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {{<button icon="pencil-alt" >}}-Button in der rechten
+3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {{<button icon="pencil-alt">-Button in der rechten
    oberen Ecke.
-4. Wählen Sie den Punkt {{<button label="Vertrag Bearbeiten" icon="edit" >}} und bestätigen Sie die Aktion indem
-   Sie auf {{<button label="Fortfahren" >}} klicken.
-5. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf {{<button label="Speichern" >}}. Durch einen Klick
-   auf {{<button label="Abbrechen" >}} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren
+4. Wählen Sie den Punkt {{<button label="Vertrag Bearbeiten" icon="edit"> und bestätigen Sie die Aktion indem
+   Sie auf {{<button label="Fortfahren"> klicken.
+5. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf {{<button label="Speichern">. Durch einen Klick
+   auf {{<button label="Abbrechen"> werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren
    Auswirkungen finden Sie unter [Felder & Eigenschaften](#felder--eigenschaften).
 
 ## Vertragsunterbrechung
@@ -286,10 +286,10 @@ Das Erstellen einer Vertragsunterbrechung funktioniert wie folgt:
 
 1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
 2. Wählen Sie den gewünschten Vertrag aus der Liste der existierenden Verträge.
-3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {{<button icon="pencil-alt" >}}-Button in der rechten
+3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {{<button icon="pencil-alt">-Button in der rechten
    oberen Ecke.
-4. Wählen Sie den Punkt {{<button label="Vertragunterbrechnung" icon="pause-circle" >}} und bestätigen Sie die Aktion indem
-   Sie auf {{<button label="Fortfahren" >}} klicken.
+4. Wählen Sie den Punkt {{<button label="Vertragunterbrechnung" icon="pause-circle"> und bestätigen Sie die Aktion indem
+   Sie auf {{<button label="Fortfahren"> klicken.
 5. Es öffnet sich ein Dialog, in dem Sie folgenden Angaben tätigen müssen:
    - Der **Zeitraum** der Unterbrechung. Dieser muss innerhalb des Vertragszeitraums des gewählten Vertrages liegen.
    - Der **Grund** der Unterbrechung. Dieser dient vor allem für Anzeigezwecke und für die interne Dokumentation.
@@ -308,29 +308,29 @@ kommt in zwei Ausführungen:
 
 In der Vertragsänderungen-Übersicht sehen Sie die Vertragsänderungen aller Ihrer Mitarbeiter, die in einem bestimmten
 Monat vorgenommen wurden. Um in die Vertragsänderungen-Übersicht zu gelangen, navigieren Sie zunächst zur [Verträge-Übersicht](#verträge-übersicht)
-und klicken Sie dort den {{<button label="Vertrangsänderungen" icon="list-timeline" >}}-Button in der linken oberen Ecke.
+und klicken Sie dort den {{<button label="Vertrangsänderungen" icon="list-timeline">-Button in der linken oberen Ecke.
 
-Über den {{<button icon="print" >}}-Button können Sie diese Ansicht ausdrucken. Das {{<button
-label="Filtern..." icon-right="filter" >}} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
+Über den {{<button icon="print">-Button können Sie diese Ansicht ausdrucken. Das {{<button
+label="Filtern..." icon-right="filter"> Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
 nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {{<button icon="chevron-left"
-label="Verträge" >}} Button gelangen Sie zurück zur [Verträge-Übersicht](#verträge-übersicht). Ein Klick auf einen einzelnen
+label="Verträge"> Button gelangen Sie zurück zur [Verträge-Übersicht](#verträge-übersicht). Ein Klick auf einen einzelnen
 Mitarbeiter bringt Sie in die [Vertragsänderungen-Einzelansicht](#vertragsänderungen-einzelansicht) des Mitarbeiters.
 Außerdem können Sie über die Pfeiltasten und das Monats-Dropdown in der Kopfleiste den Zeitraum wechseln.
 
-{{< figure caption="Die Vertragsänderungen-Übersicht zeigt Ihnen die Vertragsänderungen alle Ihrer Mitarbeiter in einem bestimmten Monat." >}}
+<figure caption="Die Vertragsänderungen-Übersicht zeigt Ihnen die Vertragsänderungen alle Ihrer Mitarbeiter in einem bestimmten Monat.">
 <img src="vertragsaenderungen_uebersicht.png" />
-{{< /figure >}}
+</figure>
 
 ### Vertragsänderungen-Einzelansicht
 
 Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick.
 Um in diese Ansicht zu gelangen, navigieren Sie zunächst zur [Verträge-Einzelansicht](#verträge-einzelansicht) des
-Mitarbeiters und klicken Sie dort den {{<button label="Vertrangsänderungen" icon="list-timeline" >}}-Button in der
+Mitarbeiters und klicken Sie dort den {{<button label="Vertrangsänderungen" icon="list-timeline">-Button in der
 linken unteren Ecke.
 
-Über den {{<button icon="print" >}}-Button können Sie diese Ansicht ausdrucken. Über den {{<button icon="chevron-left"
-label="Verträge" >}} Button gelangen Sie zurück zur [Verträge-Einzelansicht](#verträge-einzelansicht).
+Über den {{<button icon="print">-Button können Sie diese Ansicht ausdrucken. Über den {{<button icon="chevron-left"
+label="Verträge"> Button gelangen Sie zurück zur [Verträge-Einzelansicht](#verträge-einzelansicht).
 
-{{< figure caption="Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick." >}}
+<figure caption="Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick.">
 <img src="vertragsaenderungen_einzelansicht.png" />
-{{< /figure >}}
+</figure>

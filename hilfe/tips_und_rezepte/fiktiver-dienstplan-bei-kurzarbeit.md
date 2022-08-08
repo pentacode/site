@@ -17,21 +17,21 @@ Erstellen Sie dann eine neue Abteilung "**Kurzarbeit**" (**3**) mit der Position
 
 Setzen Sie den Button bei "**Von Zeiterfassung Ausschließen**" (**5**) und "**Speichern**" Sie.
 
-{{< figure caption="" >}}
+<figure caption="">
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e831f9f04286364bc978d72/file-uHsdGjj7Tt.png)
 
-{{< /figure >}}
+</figure>
 
 Klicken Sie dann auf " **Mitarbeiter**" (**1**) und wählen Sie dann unter "Alle Mitarbeiter" "**Positionen**" (**2**).
 
 Setzen Sie nun bei allen **Mitarbeitern**, die von **Kurzarbeit** betroffen sind, den **Haken** unter der Abteilung "**Kurzarbeit**" (**3**)
 
-{{< figure caption="" >}}
+<figure caption="">
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e8321a804286364bc978d7d/file-VEGWHAbsiH.png)
 
-{{< /figure >}}
+</figure>
 
 Im **Dienstplan** erscheinen die **ausgewählten Mitarbeiter** nun **neben Ihren Standardabteilungen** auch in der neuen Abteilung **Kurzarbeit**.
 
@@ -41,31 +41,31 @@ Erfassen Sie nun die **tatsächlich gearbeiteten Zeiten** eines Mitarbeiters wie
 
 Die **Kurzarbeitszeiten** erfassen Sie in der **Abteilung Kurzarbeit**. Sie schreiben somit einen **fiktiven Dienstplan**, der in etwa den normalen Arbeitszeiten des Mitarbeiters entspricht.
 
-{{< figure caption="" >}}
+<figure caption="">
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e832c162c7d3a7e9aea190a/file-lq5jCthqzg.png)
 
-{{< /figure >}}
+</figure>
 
 **Tipp**: Da die Kurzarbeitszeiten vermutlich sehr regelmäßige Zeiträume umfassen, können entsprechende **Dienstplanvorlagen** große Erleichterung verschaffen.
 
 Arbeitszeiten und Kurzarbeitszeit werden voneinander deutlich unterscheidbar im **Monatsarbeitszeitkonto** des Mitarbeiters ausgewiesen ...
 
-{{< figure caption="" >}}
+<figure caption="">
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e8330622c7d3a7e9aea1941/file-zRd2YmmbCB.png)
 
-{{< /figure >}}
+</figure>
 
 ... und für die **Lohnabrechnung** in der Ansicht "**Alle Mitarbeiter**" als jeweilige **Summe** erfasst.
 
-{{< figure caption="" >}}
+<figure caption="">
 
 ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5e83315a04286364bc978e50/file-uF1yay5GZW.png)
 
 **Empfehlung**: Es ist nicht notwendig, die Dienstpläne auszudrucken. Wir empfehlen Ihnen jedoch, die Monatsarbeitszeitkonten der einzelnen Mitarbeiter auszudrucken und diese von den Mitarbeitern unterzeichnen zu lassen.
 
-{{< /figure >}}
+</figure>
 
 ### SFN-Zuschläge und Kurzarbeit
 
