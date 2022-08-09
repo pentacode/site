@@ -18,9 +18,13 @@ module.exports = (config) => {
         }).use(markdownItAnchor)
     );
 
-    const md = markdownIt({ html: true });
+    const md = markdownIt({ html: true, linkify: true });
 
     config.setFrontMatterParsingOptions({
+        anchors: (file) => {
+            console.log(file)
+            file.anchors = [];
+        },
         excerpt: (file) => {
             const text = md.render(file.content).replace(/(<([^>]+)>)/gi, "");
             file.excerpt = text.split(" ").slice(0, 50).join(" ");
@@ -76,6 +80,12 @@ module.exports = (config) => {
                 mozallowfullscreen="true"
                 allowfullscreen
             ></iframe>
+        `
+    );
+    config.addNunjucksShortcode(
+        "youtube",
+        (videoId) => html`
+            <iframe src="https://www.youtube.com/embed/${videoId}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
         `
     );
     config.addPairedNunjucksShortcode("note", (content) => content);

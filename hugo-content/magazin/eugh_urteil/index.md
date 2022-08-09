@@ -16,9 +16,9 @@ konkret erwartet, hier eine Kurzauffrischung der Basics.
 
 ## Die bisherige Situation rund um Zeiterfassung und was sich durch das Urteil ändert
 
-{{< figure caption="" class="float right width-25pc" >}}
+<figure caption="" class="float right width-25pc">
 <img src="bild4.jpg" />
-{{< /figure >}}
+</figure>
 
 Bisher waren Arbeitgeber verpflichtet, die Arbeitszeit über acht Stunden am Tag und die von „Minijobbern“ zu
 protokollieren und mindestens zwei Jahre aufzuheben. Mit dem „Stechuhr-Urteil“ des EuGH sollen nun auch die Arbeitszeit
@@ -54,9 +54,9 @@ Beweismittel, sollte es zu Streitigkeiten rund um Überstunden kommen.
 
 ## Besser heute als morgen: Sicher ist, wer ein System zur Zeiterfassung etabliert
 
-{{< figure caption="" class="float right width-40pc" >}}
+<figure caption="" class="float right width-40pc">
 <img src="bild3.jpg" />
-{{< /figure >}}
+</figure>
 
 Durch die sogenannte „Horizontalwirkung“ des EuGh ist Deutschland streng genommen ab sofort dazu verpflichtet, ein
 Gesetz zu verabschieden. Da das bisher noch nicht passiert ist, es aber bisher einige Rechtsprechungen in

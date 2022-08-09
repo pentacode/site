@@ -26,9 +26,9 @@ aufbewahrt werden. **Für alle, die regelmäßig die Angst überkommt, hoffnungs
 der eigenen Zettelwirtschaft zu versinken und nie wieder gefunden zu werden, haben
 wir gute Neuigkeiten!**
 
-{{< figure caption="Mit dem Dokumentenarchiv können Sie Dateien jeder Art als digitale Dokumente ablegen und verwalten.">}}
+<figure caption="Mit dem Dokumentenarchiv können Sie Dateien jeder Art als digitale Dokumente ablegen und verwalten.">
 <img src="eingabefenster.png">
-{{< /figure >}}
+</figure>
 
 Mit Pentacode haben wir dem Papier schon vor langer Zeit den Krieg erklärt:
 Digitaler Dienstplan, digitale Stempeluhr und nun... **ein vollkommen digitales
@@ -50,9 +50,9 @@ bei der Arbeit zusehen 🦋.
 
 ## Stellenausschreibungen & Bewerbungen
 
-{{<figure class="float right" caption="Mit dem neuen Recruiting-Modul können Sie Stellenauschreibungen erstellen und veröffentlichen.">}}
+<figure class="float right" caption="Mit dem neuen Recruiting-Modul können Sie Stellenauschreibungen erstellen und veröffentlichen.">
 <img src="ausschreibung.png">
-{{</figure >}}
+</figure>
 
 Auf Grund der Pandemie haben viele Betriebe vor allem in der Gastronomie schon
 seit Monaten [mit Personalnot zu
@@ -74,9 +74,9 @@ Aber das heißt nicht, dass es nicht weiterhin genug willige, qualifizierte
 Arbeitskräfte gibt - **sie müssen nur gefunden werden**! Und hier kommt wieder
 einmal Pentacode ins Spiel...
 
-{{<figure class="float left" caption="Mit dem neuen Recruiting-Modul können Sie Stellenauschreibungen erstellen und veröffentlichen.">}}
+<figure class="float left" caption="Mit dem neuen Recruiting-Modul können Sie Stellenauschreibungen erstellen und veröffentlichen.">
 <img src="personaleransicht.png">
-{{</figure >}}
+</figure>
 
 Mit dem neuen [Recruiting-Modul](../../hilfe/handbuch/recruiting/) können Sie
 nicht nur **Stellenauschreibungen erstellen und veröffentlichen**, sondern auch
@@ -95,7 +95,7 @@ werden! Und natürlich freuen wir uns wie immer außerordentlich über Ihr
 Feedback, welches dann selbstverständlich in die weitere Entwicklung mit
 einfließen wird.
 
-> {{<icon "info-circle" >}} Solange das Recruiting-Modul in der Beta-Phase ist, **ist das Erstellen und
+> <icon "info-circle"> Solange das Recruiting-Modul in der Beta-Phase ist, **ist das Erstellen und
 > veröffentlichen von Stellenausschreibungen komplett gebührenfrei**! Nutzen Sie
 > also die Gelegenheit, dieses neue Feature in Ihrem Betrieb kostenlos zu
 > testen und dabei direkt ein paar neue Mitarbeiter zu finden!

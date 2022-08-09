@@ -14,9 +14,9 @@ Pentacode Version 1.19.0 ist hier! Dieses Update bringt einige langerwartete Fea
 Das Erstellen von Dienstplänen ist meist eine routinemäßige Angelegenheit. Aber selbst im "langweiligsten" Betrieb gibt es immer wieder besondere Ereignisse oder Aktionen, die in der Dienstplanung berücksichtigt werden müssen. Hierfür gibt es in Pentacode nun die **Dienstplannotizen**! Dienstplannotizen sind ganz einfach und schnell über die Dienstplanansicht
 erstellt und können eine beliebigen Zeitraum, sowie beliebige Abteilungen umfassen!
 
-{{< figure caption="Dienstplannotizen werden unter Anderem beim Anmelden in der Stempeluhr angezeigt." class="centered">}}
+<figure caption="Dienstplannotizen werden unter Anderem beim Anmelden in der Stempeluhr angezeigt." class="centered">
 <img src="dienstplannotiz_stempeluhr.gif">
-{{< /figure >}}
+</figure>
 
 Diese Notizen werden dann automatisch den betroffenen Mitarbeitern zu den relevanten Zeitpunkten angezeigt, also zum
 Beispiel beim Anmelden in der Stempeluhr, im persönlichen Dienstplan in der Mitarbeiterapp und bei der Planung von
@@ -25,9 +25,9 @@ unkomplizierte Möglichkeit, bestimmte Ereignisse und Anforderungen an Ihre Mita
 
 ## Schichtwahl & Schichttausch
 
-{{< figure caption="Nicht zugewiesene Schichten können von verfügbaren Mitarbeitern über die Mitarbeiterapp ausgewählt werden." class="float-right">}}
+<figure caption="Nicht zugewiesene Schichten können von verfügbaren Mitarbeitern über die Mitarbeiterapp ausgewählt werden." class="float-right">
 <img src="schichtwahl.gif">
-{{< /figure >}}
+</figure>
 
 Einer der wohl zeitraubendsten und oft auch frustierenden Aspekte bei der Dienstplanung ist herauszufinden, wer wann verfügbar ist oder wer welche Schichten übernehmen kann und will. Dies ist vor allem dann eine schwierige Aufgabe, wenn Arbeitszeitanforderungen und Verfügbarkeit von Mitarbeitern sich häufig ändern oder ein großer Teil der Arbeitskräfte Aushilfen sind.
 

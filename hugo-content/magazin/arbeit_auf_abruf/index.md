@@ -19,9 +19,9 @@ weiterzulesen.
 
 ## Ein Blick in den Gesetzestext
 
-{{< figure caption="" class="float right" >}}
+<figure caption="" class="float right">
 <img src="bild1.jpg" />
-{{< /figure >}}
+</figure>
 
 Das **Teilzeit- und Befristungsgesetz (TzBfG)** ermöglicht die Arbeit auf Abruf in **§12** ausdrücklich. Dort heißt es:
 
@@ -52,9 +52,9 @@ angepasst werden.
 
 ## Außerdem zu beachten: die Flexibilität von „Arbeit auf Abruf“ hat Grenzen
 
-{{< figure caption="" class="float left" >}}
+<figure caption="" class="float left">
 <img src="bild3.jpg" />
-{{< /figure >}}
+</figure>
 
 In **§12, Absatz 2 TzBfG** wird darüber hinaus auch geregelt, **dass die vereinbarte Wochenarbeitszeit um höchstens 20%
 unter- und um 25% überschritten werden darf**. Dies heißt, dass bei einer vereinbarten Wochenarbeitszeit von zehn
@@ -76,9 +76,9 @@ Aushilfen auf beispielsweise 400 € herab. Erfolgt durch den Sozialversicherung
 Urlaubs, so wird zumindest die 450 €-Grenze nicht gerissen. Das Problem wird damit auf das rein Arbeitsrechtliche
 eingeschränkt, berührt jedoch nicht mehr die Sozialversicherung.
 
-{{< figure caption="" >}}
+<figure caption="">
 <img src="bild4.jpg" />
-{{< /figure >}}
+</figure>
 
 ## Lohnt sich der Einsatz von Aushilfen überhaupt noch? - Aber ja!
 

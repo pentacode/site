@@ -5,12 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/funktionen
+  path: funktionen
   label: Funktionen
   create: documents
   match: "**/*"
 - type: directory
-  path: content/hilfe
+  path: hilfe
   label: Hilfe
   create: all
   match: "**/*"
@@ -20,16 +20,16 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/index
+  path: .
   label: Index
   create: all
   match: "**/*"
 - type: directory
-  path: content/blog
+  path: blog
   label: Blog
   create: all
   match: "**/*"
-upload_dir: static/uploads
+upload_dir: assets/uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false

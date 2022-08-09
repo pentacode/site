@@ -19,9 +19,9 @@ erhöhen, mehr Trinkgeld zu verdienen. Aber ist das auch tatsächlich der Fall?
 
 ## Minimal aber messbar: Mehr Trinkgeld bei persönlicher Notiz
 
-{{< figure caption="" class="float right" >}}
+<figure caption="" class="float right">
 <img src="bild2.jpg" />
-{{< /figure >}}
+</figure>
 
 Rind und Bordia haben diese These in einem gehobenen Restaurant in Philadelphia
 getestet [^1]. In ihrer Studie wurden einer Kellnerin nach dem Zufallsprinzip
@@ -54,9 +54,9 @@ auf der Rechnung das Trinkgeld erhöhen wird. Rind und Bordia haben diese
 Möglichkeit in einer Feldstudie im gleichen Restaurant, in welchem die „Vielen
 Dank“-Untersuchung durchgeführt wurde, in Philadelphia getestet [^2].
 
-{{< figure caption="" >}}
+<figure caption="">
 <img src="bild4.jpg" />
-{{< /figure >}}
+</figure>
 
 ## Wissenschaftliche Tests mit Kellner und Kellnerin
 
@@ -70,9 +70,9 @@ durchschnittlichen Tip von 28%, wenn sie nichts auf die Rechnung malte und 33%,
 wenn sie einen Smiley aufmalte. Das Aufmalen eines Smiley’s hat das Trinkgeld
 der Kellnerin um 18% verbessert.
 
-{{< figure caption="" class="float right" >}}
+<figure caption="" class="float right">
 <img src="bild3.jpg" />
-{{< /figure >}}
+</figure>
 
 ## Überraschend: Männliche Kellner kommen schlechter weg
 

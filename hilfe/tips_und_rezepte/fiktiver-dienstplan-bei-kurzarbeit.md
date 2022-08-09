@@ -1,4 +1,5 @@
 ---
+layout: layouts/hilfe/single.njk
 title: '"Fiktiver" Dienstplan bei Kurzarbeit'
 weight: 
 icon: table

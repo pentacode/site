@@ -1,42 +1,44 @@
+{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) %}
+
+{% macro menu(pages) %}
+    {% for page in pages %}
+        <li class="{% if page.section === eleventyNavigation.section and page.url === eleventyNavigation.url %}active{% endif %}">
+            <a href="{{ page.url }}">
+                <i class="icon fal fa-{{ page.icon or "scroll" }}"></i>
+                <span class="title">
+                    {{ page.title | markdownify | safe }}
+                </span>
+            </a>
+
+            {% if page.section !== eleventyNavigation.section %}
+                {% set hiddenAttribute = "hidden" %}
+            {% endif %}
+
+            {% if (not page.anchors) or (page.anchors.length === 0) %}
+                <ul {{ hiddenAttribute }}>
+                    {% set subpages = collections.all | eleventyNavigation(page.key) %}
+                    {{ menu(subpages) }}
+                </ul>
+            {% else %}
+                <ul class="table-of-contents" {{ hiddenAttribute }}>
+                    {% for anchor in page.anchors %}
+                        <li><a href="{{ page.url }}#{{ anchor.hash }}">{{ anchor.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
+
+
 <nav class="section-menu">
     <div class="centering layout">
         <input type="search" placeholder="Suchen..." class="search-input" id="search-input" />
     </div>
     <ul class="section-menu-list">
-        {# {{ template "menu" (dict "page" .FirstSection "currentPage" .) }} #}
+        {{ menu(allPages) }}
     </ul>
 </nav>
-
-{# TODO: Finish this #}
-{# {{ define "menu" }}
-    {{ $currPage := .currentPage }}
-    {{ range .page.Pages }}
-        <li class="{{ if eq . $currPage }}active{{ end }}">
-            <a href="{{ .RelPermalink }}">
-                <i class="icon fal fa-{{ (default "scroll" (default .Parent.Params.icon .Params.icon)) }}"></i>
-                <span class="title">
-                    {{ .Title }}
-                </span>
-            </a>
-
-            {{ $hiddenAttr := "" }}
-
-            {{ if not (or (.IsAncestor $currPage) (eq .Permalink $currPage.Permalink)) }}
-                {{ $hiddenAttr = "hidden" }}
-            {{ end }}
-
-            {{ if .IsNode }}
-                <ul {{ $hiddenAttr }}>
-                    {{ template "menu" (dict "page" . "currentPage" $currPage) }}
-                </ul>
-                {{ else }}
-                <ul class="table-of-contents" {{ $hiddenAttr }}>
-                    {{ .TableOfContents | replaceRE "<nav[^<]*>(\\s*<ul>\\s*([\\w\\W]*)</ul>\\s*)?</nav>" "$2" | replaceRE "href=\"(.*)\"" (printf "href=\"%s$1\"" .RelPermalink ) | safeHTML }}
-                </ul>
-            {{ end }}
-        </li>
-    {{ end }}
-{{ end }} #}
 
 <script>
     window.addEventListener("load", () => {

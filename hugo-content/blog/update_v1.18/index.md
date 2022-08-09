@@ -22,11 +22,11 @@ schwierig nachzuvollziehen, welche Regeln für einen bestimmten Arbeitseinsatz z
 haben wir uns diesem Problem angenommen und eine neue, **bessere Art der Verwaltung von Zeiterfassungeinstellungen**
 entwickelt.
 
-{{< figure caption="Zeiterfassungs-Regelsätze geben Ihnen maximale Flexibiliät bei besserer Übersichtlichkeit und einfacherer Verwaltung." class="centered">}}
+<figure caption="Zeiterfassungs-Regelsätze geben Ihnen maximale Flexibiliät bei besserer Übersichtlichkeit und einfacherer Verwaltung." class="centered">
 
 <img src="regelsaetze.png">
 
-{{< /figure >}}
+</figure>
 
 ### Zeiterfassungs-Regelsätze
 
@@ -47,9 +47,9 @@ Schicht Anwendung finden. Dieses Problem gehört nun der Vergangenheit an! Ein K
 Ihnen auf einen Blick, welcher Regelsatz bei dieser Schicht zur Anwendung kommt. Und mit einem weiteren Klick landen Sie
 direkt in der Bearbeitungsansicht des Regelsatzes, wo Sie Details einsehen und Änderungen vornehmen können!
 
-{{< figure caption="Die neuen Pausenmodi 'Geplant' und 'Geplant + Manuell' geben Ihnen noch mehr Kontrolle bei der Dienstplanung!" class="float-right">}}
+<figure caption="Die neuen Pausenmodi 'Geplant' und 'Geplant + Manuell' geben Ihnen noch mehr Kontrolle bei der Dienstplanung!" class="float-right">
 <img src="geplante_pausen.gif">
-{{< /figure >}}
+</figure>
 
 ## Pausen Planen
 

@@ -16,9 +16,9 @@ angewiesen, möglichst schnell eine Vertrauensbasis aufzubauen. **Man könnte si
 sogar in die Hocke gehen.** Und so die Beziehung „auf Augenhöhe“ suggerieren. **Aber wird das vom Gast gut angenommen? Ja,
 wird es** – das beweist eine Studie aus den USA.
 
-{{< figure caption="" class="float right" >}}
+<figure caption="" class="float right">
 <img src="bild4.jpg" />
-{{< /figure >}}
+</figure>
 
 ## Aussagekräftige Studien liefern die Basis
 
@@ -39,9 +39,9 @@ positive Auswirkungen**:
 2. Es **erleichtert den Augenkontakt** durch die gleiche Augenhöhe.
 3. Es **bringt das Gesicht näher** an das des Gastes.
 
-{{< figure caption="">}}
+<figure caption="">
 <img src="bild3.jpg" />
-{{< /figure >}}
+</figure>
 
 Untersuchungen über non-verbale Kommunikation haben herausgefunden, dass eine Übereinstimmung der Körperhaltung,
 Augenkontakt und körperliche Nähe mit Beziehung und Zuneigung zu tun haben [^1]. Nachdem Gäste häufig berichten, dass sie
@@ -53,9 +53,9 @@ abgesehen haben beide Kellner versucht, alle Tische gleich zu behandeln.
 
 ## Drei Prozent mehr Trinkgeld für die Probanden
 
-{{< figure caption="" class="float left" >}}
+<figure caption="" class="float left">
 <img src="bild5.jpg" />
-{{< /figure >}}
+</figure>
 
 **Wie erwartet hat sich das Trinkgeld beider Kellner erheblich erhöht, wenn sie am Tisch in die Hocke gehen**. Der Kellner
 erhielt einen durchschnittlichen Tip von 5,80 $ (15 \%), wenn er stehen blieb und 6,40 $ (18 %), wenn er beim ersten

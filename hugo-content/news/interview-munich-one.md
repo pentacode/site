@@ -12,4 +12,4 @@ categories:
 
 Unmittelbar nach Beginn des ersten Lockdowns im März 2020 wurde der Geschäftsführer von Pentacode zu seiner Einschätzung der Situation der Gastronomie interviewt. Die meisten Prognosen haben sich als richtig erwiesen. Aber sehen Sie vielleicht selbst.
 
-{{< youtube "IOGNwP6xw98" >}}
+{% youtube "IOGNwP6xw98" %}

@@ -32,10 +32,7 @@
                     <h1><span>{{ title | markdownify | safe }}</span></h1>
                 </div>
 
-                {# TODO: Finish this #}
-                {# {{ with .PublishDate }}
-                    <p class="subtle">{{ dateFormat "Monday, Jan 2, 2006" . }}</p>
-                {{ end }} #}
+                {% if publishDate %}<p class="subtle">{{ publishDate | formatDate }}</p>{% endif %}
 
                 <div>
                     {{ content | markdownify | safe }}

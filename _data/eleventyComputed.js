@@ -37,6 +37,8 @@ module.exports = {
     hero_title: (data) => data.hero_title,
     hero_subtitle: (data) => data.hero_subtitle,
     hero_text: (data) => data.hero_text,
+    url: (data) => data.page.url,
+    anchors: (data) => data.page.anchors,
   },
   currentYear: new Date().getFullYear(),
 };

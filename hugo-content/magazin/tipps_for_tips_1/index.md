@@ -19,9 +19,9 @@ die damit verbundene Zahlung von Trinkgeld beleuchten.**
 
 ## Trinkgeld verbessern, wissenschaftlich fundiert
 
-{{< figure caption="" class="float right" >}}
+<figure caption="" class="float right">
 <img src="bild2.jpg" />
-{{< /figure >}}
+</figure>
 
 Vorwegzunehmen ist: **Der Einfluss auf das Trinkgeldverhalten der Gäste durch die standardisierten Verhaltensweisen wurde
 im Laufe der Untersuchungen eindeutig nachgewiesen.** Das soziokulturelle Verhalten in den USA weicht nur unmaßgeblich von
@@ -31,9 +31,9 @@ Untersuchung befasste sich mit dem Kellner, der sich beim Gast mit Namen vorstel
 
 ## Ein Experiment im Brunchlokal
 
-{{< figure caption="" class="float left" >}}
+<figure caption="" class="float left">
 <img src="bild4.jpg" />
-{{< /figure >}}
+</figure>
 
 **Die persönliche Vorstellung lässt einerseits den Kellner als freundlich und höflich erscheinen und verursacht
 wahrscheinlich andererseits beim Gast höhere Sympathiegefühle für den Kellner.** Beide Effekte sollten positive
@@ -46,9 +46,9 @@ der Ansprache jedoch den Namen weg.
 
 ## Ergebnis: Namensnennung kommt gut an - wenn sie ehrlich gemeint ist
 
-{{< figure caption="" class="float right" >}}
+<figure caption="" class="float right">
 <img src="bild3.jpg" />
-{{< /figure >}}
+</figure>
 
 **Die Kellnerin erhielt einen durchschnittlichen Tip von 3,49 Dollar (15 %), wenn sie ihren Namen nicht nannte und 5,44 $
 (23 %), wenn sie sich mit Namen vorstellte.** Sie verdiente fast 2 $ mehr an jedem Tisch, wenn Sie sich persönlich
