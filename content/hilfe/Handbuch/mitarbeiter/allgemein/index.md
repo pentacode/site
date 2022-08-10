@@ -42,7 +42,7 @@ wollen.
 
 Falls Sie dies tun möchten, aktivieren Sie den Button {{<button label="Mitarbeiterzugang Einrichten" icon-right="toggle-on" >}}.
 Für das Erstellen eines Mitarbeiterzugangs wird eine Emailadresse benötigt. Geben Sie diese also ein, falls Sie
-dies nicht Bereits unter [1. Stammdaten](#1-stammdaten) getan haben. Optional können Sie auch eine Nachricht eingeben,
+dies nicht bereits unter [1. Stammdaten](#1-stammdaten) getan haben. Optional können Sie auch eine Nachricht eingeben,
 die in der Einladungs-Email an den Mitarbeiter angezeigt werden soll. Klicken Sie nun auf {{<button
 label="Berechtigungen" icon-right="arrow-right" >}}
 um festzulegen, welche [Berechtigungen](#5-berechtigungen) der Mitarbeiter erhalten soll.
@@ -68,8 +68,8 @@ passt und für die vorgesehenen Aufgaben geeignet ist.
 
 Um einen Mitarbeiter "auf Probe" anzulegen, gehen Sie genauso vor wie unter [Neuen Mitarbeiter
 Anlegen](#neuen-mitarbeiter-anlegen) beschrieben. Allerdings aktivieren Sie nun den Button {{<button label="Auf Probe"
-icon-right="toggle-on" >}} in der linke oberen Ecke. Die Punkte
-**Vertrag** und **Zugänge & Rechte** können Sie in diesem Fall übersprungen werden.
+icon-right="toggle-on" >}} in der linken oberen Ecke. Die Punkte
+**Vertrag** und **Zugänge & Rechte** können in diesem Fall übersprungen werden.
 
 Mitarbeiter mit dem Status "Auf Probe", können bereits für [Dienste eingeplant](../../dienstplan/) werden und sogar
 über die [Digitale Stempeluhr](../../stempeluhr/) Zeiten erfassen. Sonstige Features wie das Arbeitszeitkonto,

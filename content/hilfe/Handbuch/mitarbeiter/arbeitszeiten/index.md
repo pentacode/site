@@ -54,7 +54,7 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
 
 > {{< icon "lightbulb" >}} **Tipp:** Falls Sie bereits Arbeitszeiten für diesen Mitarbeiter erfasst haben, erstellt
 > Pentacode automatisch **Schichtvorschläge** anhand von üblichen Arbeitszeiten und Arbeitsbereichen. Mehr zu
-> Schlichtvorschlägen erfahren Sie im [{{< icon "table" >}} Dienstplan](/hilfe/handbuch/dienstplan#schichtvorschläge)
+> Schichtvorschlägen erfahren Sie im [{{< icon "table" >}} Dienstplan](/hilfe/handbuch/dienstplan#schichtvorschläge)
 > Hilfeartikel.
 
 ## Arbeitszeit Bearbeiten
@@ -77,7 +77,7 @@ So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
 
 ## Felder & Eigenschaften
 
-Wenn Sie eine Arbeitszeit zur Bearbeitung wählen oder eine neue Arbeitszeit erfassen wird Ihnen ein
+Wenn Sie eine Arbeitszeit zur Bearbeitung wählen oder eine neue Arbeitszeit erfassen, wird Ihnen ein
 Bearbeitungsformular präsentiert, wo Sie Sie Plan- und Ist-Zeiten einer Schicht sowie Pausen, Mitarbeiteressen und
 einiges mehr bearbeiten können. Im Folgenden möchten wir kurz auf die enthaltenen Felder und deren Bedeutung eingehen.
 
@@ -93,7 +93,7 @@ Unter dem Punkt {{< icon "user" >}} **Position** können Sie über ein Dropdown-
 
 Unter dem Punkt {{< icon "calendar" >}} **Geplant** können Sie den geplanten Schichtbeginn, das geplante Schichtende sowie die geplante Pause bearbeiten.
 
-> {{< icon "info-circle" >}} **Hinweis:** Dieser Bereich sind nur bearbeitbar, falls der Eintrag in der Zukunft liegt und für
+> {{< icon "info-circle" >}} **Hinweis:** Dieser Bereich ist nur bearbeitbar, falls der Eintrag in der Zukunft liegt und für
 > den zugewiesenen Mitarbeiter und Arbeitsbereich die Zeiterfassung per Stempeluhr oder Mitarbeiter-App aktiviert ist.
 
 #### Schichtbeginn und -ende
@@ -158,7 +158,7 @@ dieses Feld automatisch befüllt, kann aber nachträglich jederzeit bearbeitet w
 Über das Feld {{< icon "euro-sign" >}} **Umsatz** können Sie erfassen, wie viel Umsatz der Mitarbeiter während
 der Schicht eingenommen hat. Dieser Wert wird für die Berechnung der Provision herangezogen.
 
-> {{< icon "info-circle" >}} **Hinweis:** Diese Feld ist nur dann bearbeitbar, wenn im Vertrag des Mitarbeiters
+> {{< icon "info-circle" >}} **Hinweis:** Dieses Feld ist nur dann bearbeitbar, wenn im Vertrag des Mitarbeiters
 > eine Provision hinterlegt ist.
 
 ### Kommentar
@@ -187,6 +187,8 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 3. Der Eintrag ist nun gelöscht. Wenn Sie möchten können Sie die Tagesansicht nun schließen, indem sie den
    {{< button label="Zurück" icon="chevron-left" >}} button klicken oder {{< key "Esc" "mono" >}} auf Ihrer Tastatur
    drücken.
+
+> {{< icon "lightbulb" >}}**Tipp:** Mit der Tastenkombination {{<key "⇧">}} **+** {{<button icon="backspace">}} löschen Sie eine ausgewählte Arbeitszeit noch schneller.
 
 ## Freien Tag oder Guttag Erfassen
 
@@ -323,7 +325,7 @@ Spalten identisch. Wenn Sie hingegen **Pausen bezahlen**, werden diese den bezah
 addiert.
 
 Um den Arbeitszeiten-Nachweis eines **einzelnen Mitarbeiters** auszudrucken, gehen Sie in das
-[Arbeitszeitblatt](#das-arbeitszeitblatt) des Mitarbeiters, klicken den {{< button icon="print" >}}-Button in
+[Arbeitszeitblatt](#das-arbeitszeitblatt) des Mitarbeiters, klicken den {{< button icon="file-export" >}}-Button in
 der linken unteren Ecke und wählen die Option "Arbeitszeitnachweis".
 
 Um den Arbeitszeiten-Nachweis **aller Mitarbeiter** auszudrucken, gehen Sie in die
@@ -349,7 +351,7 @@ sich dabei auf das **Arbeitgeber-Brutto**. Dieser Nachweis dient vor allem Ihrer
 nicht zwingend geeignet, den Mitarbeitern ausgehändigt zu werden.
 
 Um die indviduelle Lohnabrechnung eines **einzelnen Mitarbeiters** auszudrucken, gehen Sie in das
-[Arbeitszeitblatt](#das-arbeitszeitblatt) des Mitarbeiters, klicken den {{< button icon="print" >}}-Button in
+[Arbeitszeitblatt](#das-arbeitszeitblatt) des Mitarbeiters, klicken den {{< button icon="file-export" >}}-Button in
 der linken unteren Ecke und wählen die Option "Lohnabrechnung".
 
 Um die indivuellen Lohnabrechnungen **aller Mitarbeiter** auszudrucken, gehen Sie in die

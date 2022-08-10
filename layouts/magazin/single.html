@@ -56,7 +56,8 @@
             <h2>Das könnte Dich auch interessieren:</h2>
 
             <ul class="articles-list">
-                {{ range .Site.RegularPages.RelatedIndices . "magazin/rubriken" | first 3 }}
+                {{ $related := .Site.RegularPages.RelatedIndices . "magazin/rubriken" }}
+                {{ range where $related "Params.unlisted" "!=" "true" | first 3 }}
                     {{ $author := index .Site.Data.staff (default "lstrasser" .Params.author) }}
                     <li>
                         <article>
