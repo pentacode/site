@@ -23,6 +23,7 @@ module.exports = {
       return data.parent || parent;
     },
     section: (data) => data.page.url.split("/")[1],
+    subsection: (data) => data.page.url.split("/")[2],
     order: (data) => data.order || data.weight,
     icon: (data) => data.icon,
     description: (data) => data.description,
@@ -38,7 +39,7 @@ module.exports = {
     hero_subtitle: (data) => data.hero_subtitle,
     hero_text: (data) => data.hero_text,
     url: (data) => data.page.url,
-    anchors: (data) => data.page.anchors,
+    anchors: (data) => data.anchors || data.page.anchors,
   },
   currentYear: new Date().getFullYear(),
 };

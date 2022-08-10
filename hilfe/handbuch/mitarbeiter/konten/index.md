@@ -51,7 +51,7 @@ Sonstiges](/hilfe/handbuch/einstellungen/sonstiges#saldierung-sfn-konten) einste
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die Zuschläge ausweist, die auf
 Grund der **bis zum aktuellen Zeitpunkt erfassten Arbeitszeiten** errechnet werden. **Geplante Arbeitszeiten** werden **nicht** berücksichtigt.
 
-> <icon "info-circle"> **Hinweis:** Anders als beim Stunden- und Urlaubskonto wird der Jahressaldo des SFN-Kontos
+> {% icon "info-circle" %} **Hinweis:** Anders als beim Stunden- und Urlaubskonto wird der Jahressaldo des SFN-Kontos
 > **nicht** automatisch in das Folgejahr übertragen.
 >
 > Zur lohnsteuer- und sozialversicherungsrechtlich **korrekten Behandlung von Über- oder Unterzahlung** bei
@@ -115,21 +115,19 @@ Um einen abweichenden Kontenübertrag in einem Monat für einen bestimmten Mitar
 
 1. Navigieren Sie zunächst zum [Kontenblatt](#kontenblatt) des Mitarbeiters.
 2. Fahren Sie mit der Maus über den Monat, für den Sie einen Abweichenden Übertrag erfassen wollen. und klicken Sie auf
-   den <button icon="undo"> Button am linken Rand.
+   den {% button icon="undo" %} Button am linken Rand.
 3. Füllen Sie die Angezeigten Felder für die jeweiligen Konten mit dem gewünschten Betrag. Sie können Felder für
    bestimmte Konten leer lassen, um für diese Konten den "normalen" Übertrag des Vormonats beizubehalten. Wenn Sie also
    zum Beispiel nur den Urlaubsübertrag zurücksetzen wollen, füllen Sie die Spalte "Urlaub" aus und lassen den Rest
    leer.
-4. Klicken Sie auf den <button icon="save"> Button um die Änderungen zu übernehmen oder den <button
-   icon="times"> Button um sie verwerfen.
+4. Klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu übernehmen oder den {% button icon="times" %} Button um sie verwerfen.
 
 Um den eingetragenen Übertrag im Nachhinein zu **bearbeiten**, fahren Sie mit der Maus über die entsprechende Zeile und
-klicken den <button icon="pencil-alt"> Button auf der linken Seite. Nehmen Sie dann die gewünschten Änderungen vor
-und klicken Sie auf den <button icon="save"> Button um die Änderungen zu übernehmen oder den <button
-icon="times"> Button um sie verwerfen.
+klicken den {% button icon="pencil-alt" %} Button auf der linken Seite. Nehmen Sie dann die gewünschten Änderungen vor
+und klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu übernehmen oder den {% button icon="times" %} Button um sie verwerfen.
 
 Um den eingetragenen Übertrag zu **entfernen**, fahren Sie mit der Maus über die entsprechende Zeile und
-klicken den <button icon="trash"> Button auf der linken Seite. Es wird dann wieder der "normale" Saldo des Vormonats übernommen.
+klicken den {% button icon="trash" %} Button auf der linken Seite. Es wird dann wieder der "normale" Saldo des Vormonats übernommen.
 
 <figure caption="Das Bearbeiten von einzelnen Mitarbeiterkonten können Sie im Kontenblatt vornehmen.">
 <img src="uebertrag-bearbeiten-einzeln.gif" />
@@ -140,7 +138,7 @@ klicken den <button icon="trash"> Button auf der linken Seite. Es wird dann wied
 Um die Kontenüberträge eines Monats für mehrere (oder alle) Mitarbeiter "in einem Schwung" zu ändern oder zurückzusetzen, gehen Sie wie folgt vor:
 
 1. Navigieren Sie zunächst zur [Jahresübersicht](#jahresübersicht).
-2. Klicken Sie den <button icon="ellipsis-h"> Button in der rechten oberen Ecke.
+2. Klicken Sie den {% button icon="ellipsis-h" %} Button in der rechten oberen Ecke.
 3. Es öffnet sich ein Dialog mit der Überschrift "Konten Zurücksetzen". Wählen Sie hier zuächst den gewünschten Monat
    aus.
 4. Füllen Sie die Spalten "Stunden", "Urlaub" und "SFN" mit den gewünschten Werten. Lassen Sie jene Mitarbeiter/Spalten,
@@ -156,13 +154,12 @@ Sowohl das Kontenblatt also auch die Monats- und Jahresübersicht bieten die Mö
 
 ### Monats- und Jahresübersicht
 
-In der [Monatsübersicht](#monatsübersicht) und [Jahresübersicht](#jahresübersicht) finden Sie die Druckfunktion in der rechten oberen Ecke in Form des <button
-icon="print"> Buttons.
+In der [Monatsübersicht](#monatsübersicht) und [Jahresübersicht](#jahresübersicht) finden Sie die Druckfunktion in der rechten oberen Ecke in Form des {% button icon="print" %} Buttons.
 
 ### Kontenblatt
 
-Im [Kontenblatt](#kontenblatt) eines Mitarbeiters können Sie einzelne Jahre ausdrucken, indem Sie mit der Maus über das gewünschte Jahr fahren und dort den <button icon="print"> Button klicken, den Sie am rechten Rand der Jahresüberschrift finden.
+Im [Kontenblatt](#kontenblatt) eines Mitarbeiters können Sie einzelne Jahre ausdrucken, indem Sie mit der Maus über das gewünschte Jahr fahren und dort den {% button icon="print" %} Button klicken, den Sie am rechten Rand der Jahresüberschrift finden.
 
-> <icon "lightbulb"> **Tipp:** Passt der Ausdruck nicht vollständig auf ein DIN-A4 Blatt? Versuchen Sie, die
+> {% icon "lightbulb" %} **Tipp:** Passt der Ausdruck nicht vollständig auf ein DIN-A4 Blatt? Versuchen Sie, die
 > Druckeinstellungen auf Querformat zu setzen oder die Skalierung des Ausdrucks anzupassen. Die Druckeinstellungen
 > finden Sie für gewöhnlich im Druck-Dialog ihres Browsers.

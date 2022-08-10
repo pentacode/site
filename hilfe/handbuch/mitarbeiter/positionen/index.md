@@ -13,7 +13,7 @@ planen](/hilfe/handbuch/dienstplan/) können, muss der Person zunächst mindeste
 können jedem Mitarbeiter beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen Standorten
 zuweisen.
 
-> <icon "info-circle"> **Hinweis:** Bevor Sie mit dem zuweisen von Positionen beginnen, müssen Sie zunächst die
+> {% icon "info-circle" %} **Hinweis:** Bevor Sie mit dem zuweisen von Positionen beginnen, müssen Sie zunächst die
 > entsprechenden Arbeitsbereiche definieren. Mehr dazu erfahren Sie im Handbuch unter [Einstellungen /
 > Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/).
 
@@ -42,4 +42,4 @@ navigieren und dort den gewünschten Mitarbeiter wählen.
 
 Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken. In der
 [Positionenübersicht](#positionen-übersicht) werden Änderungen automatisch gespeichert. In der
-[Einzelansicht](#positionen-einzelansicht) müssen Sie jedoch nach dem Wählen der gewünschten Bereiche noch auf <button label="Speichern"> klicken, damit die Änderungen übernommen werden.
+[Einzelansicht](#positionen-einzelansicht) müssen Sie jedoch nach dem Wählen der gewünschten Bereiche noch auf {% button label="Speichern" %} klicken, damit die Änderungen übernommen werden.

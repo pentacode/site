@@ -12,7 +12,7 @@ auf die wichtigsten Informationen und Funktionen.
 Die Pentacode Mitarbeiter App ist über die URL https://perso.pentacode.app
 verfügbar.
 
-> <icon "exclamation-triangle"> Sollten Sie eine der im Folgenden
+> {% icon "exclamation-triangle" %} Sollten Sie eine der im Folgenden
 > beschriebenen Funktionen **nicht vollständig nutzen** können, sprechen Sie
 > ihren Personaler an. Teile der Mitarbeiterapp können für einen Teil der
 > Belegschaft **de- oder reaktiviert** werden. Darunter zählen das Tauschen von
@@ -37,7 +37,7 @@ mit einer "normalen" App.
 
 So installieren Sie die Mitarbeiter-App auf Ihrem Android-Gerät:
 
-> <icon "info-circle"> **Hinweis:** Die Nutzung der App erfordert eine
+> {% icon "info-circle" %} **Hinweis:** Die Nutzung der App erfordert eine
 > Androidversion von 4.4 oder neuer und den [Google Chrome
 > Browser](https://play.google.com/store/apps/details?id=com.android.chrome) (In
 > den meisten Fällen bereits vorinstalliert)!
@@ -48,7 +48,7 @@ So installieren Sie die Mitarbeiter-App auf Ihrem Android-Gerät:
    herunterladen).
 2. Geben Sie folgenden Adresse in die URL-Leiste ein:
    https://perso.pentacode.app
-3. Tippen Sie auf das <button icon="ellipsis-v">-Symbol auf der rechten
+3. Tippen Sie auf das {% button icon="ellipsis-v" %}-Symbol auf der rechten
    Seite der URL-Leiste
 4. Wählen Sie die Option **"App Installieren"** bzw **"Zum Homebildschirm
    Hinzufügen"**
@@ -58,15 +58,15 @@ So installieren Sie die Mitarbeiter-App auf Ihrem Android-Gerät:
 
 So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
 
-> <icon "info-circle"> **Hinweis:** Die Nutzung App erfordert eine
+> {% icon "info-circle" %} **Hinweis:** Die Nutzung App erfordert eine
 > iOS-Version von 12.4 oder neuer!
 
 1. Öffnen Sie den **Safari Browser** (ist auf Apple-Geräten vorinstalliert).
 2. Geben Sie folgenden Adresse in die URL-Leiste ein:
    https://perso.pentacode.app
-3. Tippen Sie auf das <button icon="share-square"> Symbol am unteren Rand
+3. Tippen Sie auf das {% button icon="share-square" %} Symbol am unteren Rand
    des Bildschirms.
-4. Wählen Sie die Option **"Zum Homebildschirm <icon "plus-square">"**
+4. Wählen Sie die Option **"Zum Homebildschirm {% icon "plus-square" %}"**
 5. Wenn Sie möchten können Sie nun noch einen benutzerdefinierten Anzeigenamen
    wählen. Tippen Sie auf **"Hinzufügen"** um den Vorgang abzuschließen.
 
@@ -118,14 +118,12 @@ angebrachten QR Code, um ihre Schicht zu beginnen oder Sie können auf diesen
 verzichten.
 
 1. Klicken Sie auf den Reiter **Zeiterfassung**
-2. Nun sehen Sie ihre bevorstehende Schicht. Klicken Sie auf <button
-   label="Schicht beginnen" icon="play-circle">.
-3. Bestätigen Sie die Auswahl mit einem weiteren Klick auf <button
-   label="Schicht beginnen" icon="play-circle">
+2. Nun sehen Sie ihre bevorstehende Schicht. Klicken Sie auf {% button label="Schicht beginnen", icon="play-circle" %}.
+3. Bestätigen Sie die Auswahl mit einem weiteren Klick auf {% button label="Schicht beginnen", icon="play-circle" %}
 4. **Optional** Scannen Sie den QR Code vor Ort ein, um ihre Schicht zu
    beginnen.
 
-An dem grünen <button label="aktiv" icon="play-circle"> Zeichen ist zu
+An dem grünen {% button label="aktiv", icon="play-circle" %} Zeichen ist zu
 erkennen, dass ihre Schicht nun läuft.
 
 ### Pausen stempeln
@@ -138,11 +136,11 @@ wie folgend beginnen:
 
 1. Erst müssen Sie zu einer Schicht **aktiv [eingestempelt](#einstempeln)**
    sein.
-2. Klicken Sie nun auf den orangenen <button label="Pause" icon="coffee" class="orange"> Button
-3. Bestätigen Sie die Pause mit einem weiteren Klick auf <button label="Pause" icon="coffee">
+2. Klicken Sie nun auf den orangenen {% button label="Pause", icon="coffee", extraClass="orange" %} Button
+3. Bestätigen Sie die Pause mit einem weiteren Klick auf {% button label="Pause", icon="coffee" %}
 
 Nun wird Ihnen neben der Schicht ein Timer mit der Länge der aktuellen Pause
-angezeigt. Um diese wieder zu beenden klicken Sie auf <button label="Pause beenden" icon="coffee"> und bestätigen die Auswahl wieder.
+angezeigt. Um diese wieder zu beenden klicken Sie auf {% button label="Pause beenden", icon="coffee" %} und bestätigen die Auswahl wieder.
 
 Sie können sich im **manuellen Pausenmodus** mehrere Male in die Pause begeben.
 Der Timer für die Pause addiert dabei die Pausenzeiten für die aktuelle Schicht
@@ -162,8 +160,8 @@ Das Prozedere zum Ein- und Ausstempeln sowie zum Stempeln der Pausen ist dabei
 nahezu identisch zu normalen Schichten.
 
 1. Öffnen Sie den Reiter Zeiterfassung
-2. Wählen Sie im **Drop-down Menü** über <button label="Spontane Schicht" icon="running"> die Abteilung aus, in der Sie arbeiten werden.
-3. Klicken Sie auf <button label="Spontane Schicht" icon="running"> und
+2. Wählen Sie im **Drop-down Menü** über {% button label="Spontane Schicht", icon="running" %} die Abteilung aus, in der Sie arbeiten werden.
+3. Klicken Sie auf {% button label="Spontane Schicht", icon="running" %} und
    bestätigen Sie die Auswahl.
 4. **Optional** Scannen Sie den vor Ort hinterlegten QR Code ein, um die Schicht zu beginnen.
 
@@ -173,8 +171,8 @@ Das Ausstempeln mit der Mitarbeiterapp verläuft genauso einfach wie das
 Einstempeln. Mussten Sie beim Einstempeln einen QR Code scannen, werden Sie auch
 zum Ausstempeln aufgefordert diesen **noch einmal zu scannen**.
 
-1. Klicken Sie während einer aktiven Schicht auf <button label="Schicht beenden" icon="door-open">
-2. Bestätigen Sie die Auswahl durch einen erneuten Klick auf <button label="Schicht beenden" icon="door-open">
+1. Klicken Sie während einer aktiven Schicht auf {% button label="Schicht beenden", icon="door-open" %}
+2. Bestätigen Sie die Auswahl durch einen erneuten Klick auf {% button label="Schicht beenden", icon="door-open" %}
 3. **Optional** Scannen Sie erneut den QR Code ein, um ihre Schicht zu beenden.
 
 > Sollten Sie einmal **vergessen sich auszustempeln** werden Sie automatisch
@@ -189,7 +187,7 @@ Unter dem Reiter Dienstplan können Sie ihre Schichten einsehen, zum Tausch
 anbieten oder weitere übernehmen. Die aktuelle Woche sehen Sie standardmäßig
 ein, wenn Sie auf den Reiter klicken. Mit den **Pfeilen** unten rechts und
 links, können Sie in vergangene und kommende Wochen wechseln. Wollen Sie schnell
-wieder in die aktuelle Woche zurückwechseln klicken Sie einfach auf den <icon "calendar-day">-**Button**. Unter dem jeweiligen Datum ist stets die
+wieder in die aktuelle Woche zurückwechseln klicken Sie einfach auf den {% icon "calendar-day" %}-**Button**. Unter dem jeweiligen Datum ist stets die
 Abteilung, die Start- sowie Endzeit ihrer Schicht angegeben.
 
 ### Schichten tauschen
@@ -204,10 +202,8 @@ So können Sie ihren Kollegen Schichten zum Tausch anbieten:
 
 1. Klicken Sie auf den Reiter **Dienstplan** in der Mitarbeiterapp
 2. Wählen Sie ein Schicht aus, indem Sie ihren Cursor über diese bewegen
-3. Klicken Sie auf <button label="Zum Tausch freigeben"
-   icon="hand-holding-magic">
-4. Bestätigen Sie die Aktion mit einem weiteren Klick auf <button
-   label="Freigeben">
+3. Klicken Sie auf {% button label="Zum Tausch freigeben", icon="hand-holding-magic" %}
+4. Bestätigen Sie die Aktion mit einem weiteren Klick auf {% button label="Freigeben" %}
 
 <figure caption="Die Schicht am Samstag ist zum Übernehmen freigestellt, während die Schicht am Donnerstag von diesem Mitarbeiter selbst zum Tausch angeboten wurde" class="float right narrow">  
 <img src="dienstplan.png" />
@@ -218,15 +214,14 @@ So können Sie ihren Kollegen Schichten zum Tausch anbieten:
 Wenn ihr Manager Ersatz oder zusätzliches Personal in ihrer Position benötigt
 oder ihre Kollegen gerne eine Schicht tauschen würden, erhalten Sie die
 Möglichkeit diese zu übernehmen. Diese Schichten sind gestrichelt umrahmt und
-tragen die Anmerkung <button label="verfügbar">. Sie sind erst für diese
+tragen die Anmerkung {% button label="verfügbar" %}. Sie sind erst für diese
 Schichten eingetragen, wenn Sie sie **freiwillig übernehmen**.
 
 So übernehmen Sie eine freie Schicht:
 
 1. Wählen Sie eine freie Schicht aus, indem Sie ihren Cursor über diese bewegen.
-2. Klicken Sie auf <button label="Schicht übernehmen">.
-3. Bestätigen Sie die Aktion mit einem weiteren Klick auf <button
-   label="Schicht übernehmen">.
+2. Klicken Sie auf {% button label="Schicht übernehmen" %}.
+3. Bestätigen Sie die Aktion mit einem weiteren Klick auf {% button label="Schicht übernehmen" %}.
 
 Sie werden anschließend für diese Schicht eingetragen und sie wird anderen
 Mitarbeitern nicht mehr angezeigt.
@@ -250,7 +245,7 @@ und Ablehnung direkt einsehen.
 So stellen Sie einen neuen Urlaubsantrag:
 
 1. Klicken Sie auf den Reiter **Urlaub & Krankmeldungen**.
-2. Drücken Sie unten links auf <button label="Urlaub beantragen">.
+2. Drücken Sie unten links auf {% button label="Urlaub beantragen" %}.
 3. Wählen Sie im angezeigten Fenster ein Start- sowie Enddatum für ihren
    gewünschten Urlaub aus.
 4. **Optional** Fügen Sie eine Bemerkung für ihren Personaler hinzu.
@@ -265,7 +260,7 @@ So stellen Sie einen neuen Urlaubsantrag:
 So melden Sie sich krank:
 
 1. Klicken Sie auf den Reiter **Urlaub & Krankmeldungen**.
-2. Drücken Sie unten rechts auf <button label="Krank melden">.
+2. Drücken Sie unten rechts auf {% button label="Krank melden" %}.
 3. Wählen Sie im angezeigten Fenster ein Start- sowie Enddatum für ihre
    Krankmeldung aus.
 4. **Optional** Fügen Sie eine Bemerkung für ihren Personaler hinzu.
@@ -284,7 +279,7 @@ einfließen können.
 
 Klicken Sie auf den Reiter **Verfügbarkeiten** gelangen Sie in die Übersicht,
 diese ist zuerst in der aktuelle Woche, um weiter zu planen nutzen Sie die
-**Pfeile** unten rechts und links. Klicken Sie auf <icon "calendar-day">,
+**Pfeile** unten rechts und links. Klicken Sie auf {% icon "calendar-day" %},
 gelangen Sie in die aktuelle Woche zurück.
 
 ### Neue Verfügbarkeit
@@ -299,13 +294,13 @@ Einstellungen:
 **Art der Verfügbarkeit** Pentacode stellt Ihnen vier verschiedene Arten von
 Verfügbarkeiten zur Verfügung:
 
-- <icon "thumbs-up"> **Verfügbar**
-- <icon "ban"> **Nicht Verfügbar**
-- <icon "heart"> **Bevorzugt**
-- <icon "couch"> **Wunschfrei**
+- {% icon "thumbs-up" %} **Verfügbar**
+- {% icon "ban" %} **Nicht Verfügbar**
+- {% icon "heart" %} **Bevorzugt**
+- {% icon "couch" %} **Wunschfrei**
 
 **Häufigkeit** Standardmäßig wird die Verfügbarkeit nur einmalig eingetragen,
-sie können jedoch mit einem Klick auf das <icon "clock-rotate-left"> Symbol
+sie können jedoch mit einem Klick auf das {% icon "clock-rotate-left" %} Symbol
 auch eine **wöchentliche, monatliche oder jährliche** Regelmäßigkeit auswählen.
 
 **Zeitspanne** Standardmäßig ist die Verfügbarkeit für den ganzen Tag geplant,
@@ -317,7 +312,7 @@ Schichten äußern.
 mit einem Kommentar zu versehen, etwa um aufkommende Fragen bereits im Vorfeld
 zu klären.
 
-Mit <button label="Speichern"> schicken Sie ihren Wunsch nun direkt an den
+Mit {% button label="Speichern" %} schicken Sie ihren Wunsch nun direkt an den
 Personalplaner und dieser versucht ihn in den Arbeitsplan einzuarbeiten.
 
 ## Dokumente
@@ -330,7 +325,7 @@ So speichern Sie ein Dokument auf ihrem Gerät ab:
 
 1. Öffnen Sie den Reiter Dokumente.
 2. Öffnen Sie ein Dokument, indem Sie darauf klicken.
-3. Klicken Sie auf den <icon "download">-**Button** in der rechten oberen Ecke.
+3. Klicken Sie auf den {% icon "download" %}-**Button** in der rechten oberen Ecke.
 
 ## Einstellungen
 
@@ -342,11 +337,11 @@ für den Log in ändern, sowie ihre Benachrichtigungen deaktivieren.
 So ändern Sie ihr Profilbild:
 
 1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**.
-2. Klicken Sie auf <button icon="pencil" label="Bild Wählen">.
+2. Klicken Sie auf {% button icon="pencil", label="Bild Wählen" %}.
 3. Klicken Sie im aufpoppenden Dialogfenster auf **zulassen**, wenn Sie gefragt
    werden, ob Sie Pentacode Zugriff auf ihre Kamera gewähren wollen.
 4. Es öffnet sich die Ansicht der Innenkamera - nun können Sie ein neues Bild
-   machen oder per Klick auf <icon "image"> ein vorhandenes Bild von ihrem
+   machen oder per Klick auf {% icon "image" %} ein vorhandenes Bild von ihrem
    Gerät verwenden.
 
 ### Profilbild Löschen
@@ -354,7 +349,7 @@ So ändern Sie ihr Profilbild:
 So löschen Sie ihr Profilbild:
 
 1. Klicken Sie unter **Einstellungen** auf den Reiter **Account**.
-2. Klicken Sie auf <button icon="trash" label="Löschen">.
+2. Klicken Sie auf {% button icon="trash", label="Löschen" %}.
 
 ### Passwort ändern
 

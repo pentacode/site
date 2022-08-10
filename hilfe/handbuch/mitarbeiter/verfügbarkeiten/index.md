@@ -15,15 +15,15 @@ welche Mitarbeiter an bestimmten Tagen nicht arbeiten können, wer eventuell an 
 mehr! Die gespeicherten Informationen werden dann automatisch im Dienstplan angezeigt und dienen Ihnen dort als intuitive
 und leicht zugängliche Planungshilfe.
 
-> <icon "lightbulb"> **Tipp:** Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app)
+> {% icon "lightbulb" %} **Tipp:** Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app)
 > können Mitarbeiter Ihre Verfügbarkeiten selbst erfassen!
 
 Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügung:
 
-- <icon "thumbs-up"> **Verfügbar**
-- <icon "ban"> **Nicht Verfügbar**
-- <icon "heart"> **Bevorzugt**
-- <icon "couch"> **Wunschfrei**
+- {% icon "thumbs-up" %} **Verfügbar**
+- {% icon "ban" %} **Nicht Verfügbar**
+- {% icon "heart" %} **Bevorzugt**
+- {% icon "couch" %} **Wunschfrei**
 
 Verfügbarkeiten dienen lediglich als Hinweis für die Dienstplanung und können jederzeit ausgeblendet oder ignoriert
 werden. Ob sie Verfügbarkeiten selbst erfassen oder Ihre Mitarbeiter diese über die Pentacode
@@ -36,8 +36,8 @@ In der Verfügbarkeiten-Übersicht sehen Sie die Verfügbarkeiten aller Ihrer Mi
 Sie gelangen in die Verfügbarkeiten-Übersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt
 **Verfügbarkeiten** wählen.
 
-> <icon "lightbulb"> **Tipp:** Möchten Sie nur die Verfügbarkeiten einer bestimmten Abteilung sehen? Über das
-> <icon "filter">-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
+> {% icon "lightbulb" %} **Tipp:** Möchten Sie nur die Verfügbarkeiten einer bestimmten Abteilung sehen? Über das
+> {% icon "filter" %}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
 > bestimmter Abteilungen beschränken.
 
 <figure caption="In der Verfügbarkeiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Verfügbarkeiten aller Ihrer Mitarbeiter auf einen Blick.">
@@ -65,11 +65,10 @@ So funktioniert das **Erfassen einer neuen Verfügbarkeit**:
 
 2. Wählen Sie, ob die Verfügbarkeit einmalig, wöchentlich, monatlich oder jährlich gelten soll.
 3. Wählen Sie die Art der Verfügbarkeit.
-4. Falls die Verfügbarkeit nur für einen bestimmten Zeitraum gelten soll, deaktivieren Sie den Button <button
-   icon="toggle-off" label="Ganztägig"> und geben Sie den entsprechenden Zeitraum ein. Sie können das **von** oder das **bis**
+4. Falls die Verfügbarkeit nur für einen bestimmten Zeitraum gelten soll, deaktivieren Sie den Button {% button icon="toggle-off", label="Ganztägig" %} und geben Sie den entsprechenden Zeitraum ein. Sie können das **von** oder das **bis**
    Feld leer lassen, um eine Verfügbarkeit **bis** bzw. **ab** einer bestimmten Zeit des Tages einzutragen.
-5. Klicken Sie auf <button label="Speichern"> um die Verfügbarkeit **übernehmen** oder
-   <button label="Abbrechen"> um sie zu **verwerfen**.
+5. Klicken Sie auf {% button label="Speichern" %} um die Verfügbarkeit **übernehmen** oder
+   {% button label="Abbrechen" %} um sie zu **verwerfen**.
 
 <figure caption="Indem Sie die Maustaste gedrückt halten können Sie direkt den kompletten Zeitraum der Verfügbarkeit selektieren.">
 <img src="neue-verfuegbarkeit.gif" />
@@ -82,8 +81,8 @@ Um eine Verfügbarkeit zu **bearbeiten** gehen Sie wie folgt vor:
 1. **Selektieren** Sie zunächst in der [Übersicht](#übersicht) oder [Einzelansicht](#einzelansicht) die gewünschte
    Verfügbarkeit durch einen Mausklick.
 2. Bearbeiten Sie die Verfügbarkeit wie unter dem Punkt [Verfügbarkeit Erfassen](verfügbarkeit-erfassen) beschrieben.
-3. Klicken Sie auf <button label="Speichern"> um die Änderungen zu **übernehmen** oder
-   <button label="Abbrechen"> um sie zu **verwerfen**.
+3. Klicken Sie auf {% button label="Speichern" %} um die Änderungen zu **übernehmen** oder
+   {% button label="Abbrechen" %} um sie zu **verwerfen**.
 
 ## Verfügbarkeit Löschen
 
@@ -91,5 +90,5 @@ So **löschen** Sie eine Verfügbarkeit:
 
 1. **Selektieren** Sie zunächst in der [Übersicht](#übersicht) oder [Einzelansicht](#einzelansicht) die gewünschte
    Verfügbarkeit durch einen Mausklick.
-2. Im Bearbeitungsdialog, klicken Sie den <button icon="trash"> Button in der rechten oberen Ecke.
+2. Im Bearbeitungsdialog, klicken Sie den {% button icon="trash" %} Button in der rechten oberen Ecke.
 3. **Bestätigen** Sie, dass Sie die Verfügbarkeit löschen möchten.

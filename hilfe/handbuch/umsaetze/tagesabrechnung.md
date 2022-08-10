@@ -235,7 +235,7 @@ Wenn Sie in Pentacode die Bargeldzählung mithilfe des Zählprotokolls durchfüh
 
 </figure>
 
-**Drucken** Sie in diesem Fall idealerweise die Tagesabrechnung über das <icon "print">-Symbol aus und **unterzeichnen** Sie den Ausdruck.
+**Drucken** Sie in diesem Fall idealerweise die Tagesabrechnung über das {% icon "print" %}-Symbol aus und **unterzeichnen** Sie den Ausdruck.
 
 Der Ausdruck weist das Zählprotokoll aus.
 

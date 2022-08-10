@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/index.njk
 title: Handbuch
-weight: 
+weight: 2
 icon: book
 anchors: []
 

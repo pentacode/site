@@ -29,10 +29,10 @@ leicht zugängliche Planungshilfe.
 
 Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügung:
 
-- <icon "thumbs-up"> **Verfügbar**
-- <icon "ban"> **Nicht Verfügbar**
-- <icon "heart"> **Bevorzugt**
-- <icon "couch"> **Wunschfrei**
+- {% icon "thumbs-up" %} **Verfügbar**
+- {% icon "ban" %} **Nicht Verfügbar**
+- {% icon "heart" %} **Bevorzugt**
+- {% icon "couch" %} **Wunschfrei**
 
 Und der beste Teil: **Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) können Mitarbeiter ihre
 eigenen Verfügbarkeiten selbst einsehen und bearbeiten!** Alles was Sie tun müssen, ist die entsprechende Berechtigung

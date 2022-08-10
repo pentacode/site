@@ -4,7 +4,85 @@ keywords: []
 title: Dienstplan
 weight: 1
 icon: table
-anchors: ["testing", "testing2"]
+anchors:
+- hash: mitarbeiter-sortieren
+  title: Mitarbeiter Sortieren
+- hash: zeitraum-wechseln
+  title: Zeitraum Wechseln
+- hash: tagesansicht
+  title: Tagesansicht
+- hash: dienstplan-tabs
+  title: Dienstplan-Tabs
+- hash: tab-bearbeiten
+  title: Tab Bearbeiten
+- hash: neuen-tab-erstellen
+  title: Neuen Tab Erstellen
+- hash: tab-loschen
+  title: Tab Löschen
+- hash: filtern-suchen
+  title: Filtern & Suchen
+- hash: nitarbeiter-suchen
+  title: Mitarbeiter Suchen
+- hash: dienstzeiten-eintragen
+  title: Dienstzeiten Eintragen
+- hash: schichtvorschlage
+  title: Schichtvorschläge
+- hash: globale-schichtvorschläge
+  title: Globale Schichtvorschläge
+- hash: tages-und-ma-spezifische-vorschlage
+  title: Tages- und MA-spezifische Vorschläge
+- hash: fehltage-eintragen
+  title: Fehltage Eintragen
+- hash: mit-drag-drop
+  title: Mit Drag & Drop
+- hash: uber-die-tagesansicht
+  title: Über die Tagesansicht
+- hash: eintrage-verschieben
+  title: Einträge Verschieben
+- hash: eintrage-duplizieren
+  title: Einträge Duplizieren
+- hash: eintrage-loschen
+  title: Einträge Löschen
+- hash: veroffentlichen-teilen
+  title: Veröffentlichen & Teilen
+- hash: anderungen-veroffentlichen
+  title: Änderungen Veröffentlichen
+- hash: dienstplan-teilen
+  title: Dienstplan Teilen
+- hash: dienstplan-drucken
+  title: Dienstplan Drucken
+- hash: aktueller-bearbeitungsstatus
+  title: Aktueller Bearbeitungsstatus
+- hash: veroffentlichter-dienstplan
+  title: Veröffentlichter Dienstplan
+- hash: teil-dienstplane-veroffentlichen
+  title: Teil-Dienstpläne Veröffentlichen
+- hash: dienstplan-vorlagen
+  title: Dienstplan-Vorlagen
+- hash: vorlage-erstellen
+  title: Vorlage Erstellen
+- hash: vorlage-anwenden
+  title: Vorlage Anwenden
+- hash: vorlage-loschen
+  title: Vorlage Löschen
+- hash: dienstplan-leeren
+  title: Dienstplan Leeren
+- hash: planungshilfen
+  title: Planungshilfen
+- hash: problemberichte
+  title: Problemberichte
+- hash: schichten-spiegeln
+  title: Schichten Spiegeln
+- hash: wochenstunden
+  title: Wochenstunden
+- hash: monatsstunden
+  title: Monatsstunden
+- hash: stundenvorgaben
+  title: Stundenvorgaben
+- hash: personalkostenanalyse
+  title: Personalkostenanalyse
+- hash: plan-ist-vergleich
+  title: Plan-Ist-Vergleich
 ---
 
 In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell und einfach erstellen können. Wenn Sie Ihren ersten Dienstplan erstellen, werden Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen Sie dann einfach mit dem Schreiben an!
@@ -19,11 +97,11 @@ Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis S
 
 ## Mitarbeiter Sortieren
 
-Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und klicken Sie den <icon "caret-down"> oder <icon "caret-up"> Pfeil.
+Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und klicken Sie den {% icon "caret-down" %} oder {% icon "caret-up" %} Pfeil.
 
 ## Zeitraum Wechseln
 
-Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen <code>⇧</code> + <code>a</code> und <code>⇧</code> + <code>d</code> in die vorherige bzw. nächste Woche wechseln.
+Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die Tastenkombinationen {% key "⇧" %} + {% key "a", "mono" %} und {% key "⇧" %} + {% key "d", "mono" %} in die vorherige bzw. nächste Woche wechseln.
 
 ## Tagesansicht
 
@@ -31,9 +109,9 @@ Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die
 
 Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke der Tagesansicht.
 
-Der <icon "arrow-left"> **Zurück** Button am oberen Rand schließt das Tagesmenü.
+Der {% icon "arrow-left" %} **Zurück** Button am oberen Rand schließt das Tagesmenü.
 
-> **Tipp**: Mit den Tasten <code>w</code> **(auf)**, <code>s</code> **(ab)**, <code>a</code> **(links)** und <code>d</code> **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die <code>Esc</code>-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
+> **Tipp**: Mit den Tasten {% key "w" %} **(auf)**, {% key "s" %} **(ab)**, {% key "a" %} **(links)** und {% key "d" %} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {% key "Esc" %}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
 <figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen.">
 
@@ -49,15 +127,15 @@ Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell 
 
 ### Tab Bearbeiten
 
-Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den <icon "pencil-alt">-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](#filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
+Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus über den entsprechenden Tab fahren und den {% icon "pencil-alt" %}-**Button** klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern & Suchen](#filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
 
 ### Neuen Tab Erstellen
 
-Einen neuen Tab erstellen Sie, indem Sie auf den <icon "plus"> **-Button** am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.
+Einen neuen Tab erstellen Sie, indem Sie auf den {% icon "plus" %} **-Button** am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.
 
 ### Tab Löschen
 
-Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf den <icon "trash">-**Button** in der rechten oberen Ecke.
+Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf den {% icon "trash" %}-**Button** in der rechten oberen Ecke.
 
 > Da immer mindestens ein Tab existieren muss, ist der Löschen-Button deaktiviert falls Sie nur ein Tab haben.
 
@@ -65,7 +143,7 @@ Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf de
 
 Beim Arbeiten mit mehreren Abteilungen und Dutzenden von Mitarbeitern kann das Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden. Pentacodes Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie den Überblick und können ohne Ablenkung arbeiten.
 
-Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den <icon "pencil-alt">-**Icon** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
+Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Bearbeitungs-Fenster indem Sie auf den {% icon "pencil-alt" %}-**Icon** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 
 > **Tipp:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
 
@@ -81,7 +159,7 @@ Wollen Sie schnell einen bestimmten Mitarbeiter finden? Dann geben Sie einfach d
 
 ## Dienstzeiten Eintragen
 
-Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch Klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die <code>n</code>-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.
+Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag und Abteilung (z.B. durch Klicken in das entsprechende Feld). Sollte der entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem Sie auf den Button **Neuer Eintrag** klicken oder die {% key "n" %}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht** (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann, können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.
 
 ## Schichtvorschläge
 
@@ -99,9 +177,9 @@ Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschlä
 
 ### Tages- und MA-spezifische Vorschläge
 
-Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](#tagesansicht) im Menü <icon "plus"> **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
+Die intelligentere Variante von Schichtvorschlägen finden Sie in der [Tagesansicht](#tagesansicht) im Menü {% icon "plus" %} **Neuer Eintrag**. Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag um eine neue Schicht mit den vorgeschlagenen Daten zu erstellen. Anschließend haben Sie selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 
-> **Tipp:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: <code>1</code>). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten <code>w</code> <code>s</code> <code>a</code> <code>d</code> (siehe [Tagesansicht](#tagesansicht)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
+> **Tipp:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.: {% key "1" %}). Diese deutet an, dass Sie den Vorschlag über die entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den Tasten Mit den Tasten {% key "w" %} {% key "s" %} {% key "a" %} {% key "d" %} (siehe [Tagesansicht](#tagesansicht)) können Sie nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Fehltage Eintragen
 
@@ -115,7 +193,7 @@ Im Menü auf der rechten Seite finden Sie eine Liste der im Dienstplan verfügba
 
 Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen Sie zunächst die [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag, und klicken die gewünschte Art von Fehltag.
 
-> **Tipp:** Fehltage können auch über die Tastaturkürzel <code>u</code> **(Urlaub)**, <code>k</code> **(Krank)**, <code>g</code> **(Guttag)** und <code>f</code> **(Frei)** gewählt werden!
+> **Tipp:** Fehltage können auch über die Tastaturkürzel {% key "u" %} **(Urlaub)**, {% key "k" %} **(Krank)**, {% key "g" %} **(Guttag)** und {% key "f" %} **(Frei)** gewählt werden!
 
 ## Einträge Verschieben
 
@@ -123,13 +201,13 @@ Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen
 
 ## Einträge Duplizieren
 
-Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die <code>alt</code>-**Taste** gedrückt halten wird der Eintrag nicht verschoben sondern dupliziert, dies heißt, es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
+Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben. Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die {% key "alt" %}-**Taste** gedrückt halten wird der Eintrag nicht verschoben sondern dupliziert, dies heißt, es wird an dem neuen Ort ein Eintrag mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von Fehltagen mit der gleichen Fehltags-Art).
 
 ## Einträge Löschen
 
-Um einen Eintrag zu löschen, klicken sie einfach auf das <icon "times"> in der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der Tabellenansicht als auch in der [Tagesansicht](#tagesansicht).
+Um einen Eintrag zu löschen, klicken sie einfach auf das {% icon "times" %} in der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der Tabellenansicht als auch in der [Tagesansicht](#tagesansicht).
 
-> **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel <code>⇧</code> + <code>⌫</code> gelöscht werden!
+> **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {% key "⇧" %} + {% key "⌫" %} gelöscht werden!
 
 ## Veröffentlichen & Teilen
 
@@ -167,11 +245,11 @@ Für die Papiermenschen unter Ihnen gibt es selbstverständlich auch eine Druckf
 
 ### Aktueller Bearbeitungsstatus
 
-Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen** können Sie über das Tastenkürzel <code>strg</code> <code>P</code> (bzw. <code>cmd</code> <code>P</code> auf MacOS) oder über das Browser-Menü Drucken.
+Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen** können Sie über das Tastenkürzel {% key "strg" %} {% key "P" %} (bzw. {% key "cmd" %} {% key "P" %} auf MacOS) oder über das Browser-Menü Drucken.
 
 ### Veröffentlichter Dienstplan
 
-Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite. (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den <icon "paper-plane"> **Veröffentlicht** Button Klicken).
+Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie im Dienstplan-Menü auf der rechten Seite. (Eventuell müssen Sie den Abschnitt erst aufklappen, indem Sie auf den {% icon "paper-plane" %} **Veröffentlicht** Button Klicken).
 
 > **Beachten Sie:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
 
@@ -191,7 +269,7 @@ Viele Betriebe haben Arbeitsbereiche, in denen sich Arbeitszeiten von Woche zu W
 
 ### Vorlage Erstellen
 
-Um eine Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Falls Sie nur eine bestimmte Abteilung oder einen bestimmten Zeitraum in Ihrer Vorlage speichern möchten, können Sie die zu speichernden Schichten einschränken, indem sie die [Filterkriterien](#filtern--suchen) des aktiven Tabs bearbeiten. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button <icon "save"> **Vorlagen** und klicken auf den Button <icon "plus"> **Neue Vorlage**. In dem darauffolgenden Dialog müssen Sie der Vorlage nur noch einen Namen geben. Klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
+Um eine Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und tragen die gewünschten Dienstzeiten ein. Falls Sie nur eine bestimmte Abteilung oder einen bestimmten Zeitraum in Ihrer Vorlage speichern möchten, können Sie die zu speichernden Schichten einschränken, indem sie die [Filterkriterien](#filtern--suchen) des aktiven Tabs bearbeiten. Öffnen Sie nun die Vorlagen-Liste (mit einem Klick auf den Button {% icon "save" %} **Vorlagen** und klicken auf den Button {% icon "plus" %} **Neue Vorlage**. In dem darauffolgenden Dialog müssen Sie der Vorlage nur noch einen Namen geben. Klicken Sie **Speichern** um den Vorgang abzuschließen. Die Vorlage erscheint nun in der Liste Ihrer Vorlagen!
 
 > **Achtung:** Wählen Sie für die Erstellung einer Dienstplanvorlage immer eine **zukünftige Woche**! Es werden nur Einträge mit vorhandenen **Planzeiten** gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage ignoriert.
 
@@ -207,11 +285,11 @@ Um eine Vorlage in der aktuellen Woche anzuwenden, ziehen Sie diese einfach aus 
 
 ### Vorlage Löschen
 
-Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Sie dann mit der Maus über die gewünschte Vorlage und klicken Sie den <icon "trash">-**Icon**. Klicken Sie **Entfernen** im darauffolgenden Bestätigungsdialog um den Vorgang abzuschließen.
+Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Sie dann mit der Maus über die gewünschte Vorlage und klicken Sie den {% icon "trash" %}-**Icon**. Klicken Sie **Entfernen** im darauffolgenden Bestätigungsdialog um den Vorgang abzuschließen.
 
 ## Dienstplan Leeren
 
-Um den gesamten Dienstplan zu leeren, klicken Sie den <icon "trash">-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in dem Sie die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
+Um den gesamten Dienstplan zu leeren, klicken Sie den {% icon "trash" %}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in dem Sie die Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf **Dienstplan Leeren** um den Vorgang abzuschließen.
 
 > **Beachten Sie:** Es werden nur Schichten gelöscht, die den [Filterkriterien](#filtern--suchen) des aktuellen Tabs entsprechen.
 
@@ -221,7 +299,7 @@ Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit.
 
 ### Problemberichte
 
-Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich <icon "exclamation-triangle"> **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag, wo Sie eventuelle Fehler korrigieren können.
+Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich {% icon "exclamation-triangle" %} **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag, wo Sie eventuelle Fehler korrigieren können.
 
 <figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben.">
 
@@ -231,7 +309,7 @@ Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schicht�
 
 ### Schichten Spiegeln
 
-Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den <icon "clone">-**Button** im Dienstplanmenü aktiviert und deaktiviert werden.
+Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es hilfreich sein, in einer Abteilungen Einträge von anderen Abteilungen zu "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter bereits in einer anderen Abteilung eingeteilt ist und können dies in Ihrer Planung berücksichtigen. Die "Dienstplan Spiegeln"-Funktion kann über den {% icon "clone" %}-**Button** im Dienstplanmenü aktiviert und deaktiviert werden.
 
 ### Wochenstunden
 
@@ -243,19 +321,19 @@ Analog zu der [Wochenstunden-Anzeige](#wochenstunden) gibt es außerdem eine "Fo
 
 ### Stundenvorgaben
 
-Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden sollen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den <icon "tasks-alt">-**Button** ein- und ausblenden.
+Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung täglich aufgewendet werden? Über das Pentacode Planungsmodul können Sie genau definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag insgesamt in Anspruch genommen werden sollen. Diese [Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese Stundenvorgaben-Leisten können Sie über den {% icon "tasks-alt" %}-**Button** ein- und ausblenden.
 
 Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie [hier](/hilfe/handbuch/planung/stundenvorgaben/).
 
 ### Personalkostenanalyse
 
-Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den <icon "chart-line">-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich entstandenen vergleichen!
+Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick über die entstehenden Personalkosten zu haben. Über den {% icon "chart-line" %}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich entstandenen vergleichen!
 
 ## Plan-Ist-Vergleich
 
 Oft verliert eine Planung ihre Bedeutung, sobald sie beendet ist. Dabei macht ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit überprüft wird. Im Falle der Dienstplanung lässt sich dies durch eine einfache Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben eingehalten?
 
-Durch das Anklicken des <icon "chart-line">-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
+Durch das Anklicken des {% icon "chart-line" %}-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
 
 <figure caption="Über das Diagramm-Symbol werden Plan- und Ist-Kosten sichtbar gemacht">
 
@@ -279,7 +357,7 @@ In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" ge
 
 </figure>
 
-Durch **erneutes Anklicken** des <icon "chart-line">-**Symbols** wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
+Durch **erneutes Anklicken** des {% icon "chart-line" %}-**Symbols** wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
 
 Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt die Arbeitszeiterfassung durch die Stempeluhr voraus.
 

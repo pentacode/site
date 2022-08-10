@@ -15,7 +15,7 @@ Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten
 
 ## Dienstplanung mit Stundenvorgabe
 
-Wenn Sie auf das <icon "tasks-alt">-Symbol klicken, erscheint am **Fuß jeder Abteilung** die Anzeige "**Planungsziele Definieren**" .
+Wenn Sie auf das {% icon "tasks-alt" %}-Symbol klicken, erscheint am **Fuß jeder Abteilung** die Anzeige "**Planungsziele Definieren**" .
 
 Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt.
 

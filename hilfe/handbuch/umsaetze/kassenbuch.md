@@ -130,7 +130,7 @@ Durch "Speichern" wird die Kassenzählung im Kassenbuch festgeschrieben.
 
 > Gastronomie zählt im Jargon der Finanzbehörden zum "bargeldintensiven" Gewerbe. Kassendifferenzen können hier durchaus vorkommen und sollten als solche auch verbucht werden.
 
-Bei einem "Mouse-over" erscheint am rechten Rand das <icon "print">-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll **ausdrucken**.
+Bei einem "Mouse-over" erscheint am rechten Rand das {% icon "print" %}-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll **ausdrucken**.
 
 <figure caption="Drucken Sie das Zählprotokoll aus unterzeichnen Sie es mit Datumsangabe">
 
@@ -156,7 +156,7 @@ In diesem Fall müssen Sie den **Eintrag durch "Abbrechen" löschen**. Sie könn
 
 ## Splittbuchung
 
-Mit einem Mouse-over über die Position erscheint am rechten Seitenrand ein <icon "page-break">-Symbol. Durch Anklicken dieses <icon "page-break">-Symbols können Sie Ausgaben wie auch Einnahmen **splitten**.
+Mit einem Mouse-over über die Position erscheint am rechten Seitenrand ein {% icon "page-break" %}-Symbol. Durch Anklicken dieses {% icon "page-break" %}-Symbols können Sie Ausgaben wie auch Einnahmen **splitten**.
 
 Die Eingabe eines **Buchungstextes** ist dabei **zwingend,** die Angabe von UST und Kontonummer ist optional. Buchungstexte aus der Vergangenheit werden Ihnen bei der Eingabe vorgeschlagen. Sollten Sie diese bereits kontiert haben, werden alle Angaben automatisch übernommen.
 
@@ -188,7 +188,7 @@ Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu
 
 ## Kassenbuch exportieren
 
-Über das <icon "file-export">-Symbol wählen Sie mit **"Format"**, ob Sie das Kassenbuch **ausdrucken** wollen **oder** ob das Kassenbuch an ihre Buchhaltung **exportiert** werden soll.
+Über das {% icon "file-export" %}-Symbol wählen Sie mit **"Format"**, ob Sie das Kassenbuch **ausdrucken** wollen **oder** ob das Kassenbuch an ihre Buchhaltung **exportiert** werden soll.
 
 Dabei können Sie den **Zeitraum wählen**. Die Standardvorgabe umfasst immer den gesamten Kalendermonat.
 
@@ -208,7 +208,7 @@ Indem Sie in das Feld "Format" klicken, können Sie die Buchhaltungsformate wäh
 
 ## Festschreibung des Kassenbuchs
 
-Über das <icon "archive">-Symbol wird das Kassenbuch **festgeschrieben**.
+Über das {% icon "archive" %}-Symbol wird das Kassenbuch **festgeschrieben**.
 
 <figure caption="Über das Archiv-Symbol können Sie die Festschreibung des Kassenbuchs veranlassen">
 

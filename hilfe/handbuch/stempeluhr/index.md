@@ -1,6 +1,5 @@
 ---
 layout: layouts/hilfe/index.njk
-kind: home
 title: Digitale Stempeluhr
 weight: 2
 icon: stopwatch

@@ -2,6 +2,36 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const EleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const { minify: cleanHtml } = require("html-minifier-terser");
+const { getTOC } = require("./_lib/toc");
+
+async function minifyHtml(source, output_path) {
+    if (!output_path.endsWith(".html")) return source;
+
+    const result = await cleanHtml(source, {
+        collapseBooleanAttributes: true,
+        collapseWhitespace: false,
+        collapseInlineTagWhitespace: false,
+        continueOnParseError: true,
+        decodeEntities: true,
+        keepClosingSlash: true,
+        minifyCSS: true,
+        quoteCharacter: `"`,
+        removeComments: true,
+        removeAttributeQuotes: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        sortAttributes: true,
+        sortClassName: true,
+        useShortDoctype: true
+    });
+
+    console.log(`MINIFY ${output_path}`, source.length, `→`, result.length, `(${((1 - (result.length / source.length)) * 100).toFixed(2)}% reduction)`);
+
+    return result;
+}
+
 
 module.exports = (config) => {
     function outdent(str) {
@@ -21,10 +51,6 @@ module.exports = (config) => {
     const md = markdownIt({ html: true, linkify: true });
 
     config.setFrontMatterParsingOptions({
-        anchors: (file) => {
-            console.log(file)
-            file.anchors = [];
-        },
         excerpt: (file) => {
             const text = md.render(file.content).replace(/(<([^>]+)>)/gi, "");
             file.excerpt = text.split(" ").slice(0, 50).join(" ");
@@ -65,7 +91,9 @@ module.exports = (config) => {
     );
 
     config.addNunjucksShortcode("relref", (ref) => ref);
-    config.addNunjucksShortcode("icon", (icon) => html`<i class="${icon}"></i>`);
+    config.addNunjucksShortcode("key", (key, extraClass = "") => html`<span class="key ${extraClass}">${key}</span>`);
+    config.addNunjucksShortcode("icon", (icon) => html`<i class="fas fa-${icon}"></i>`);
+    config.addNunjucksShortcode("button", (label = "", icon = "", iconRight = "", extraClass = "") => html`<span class="fake-button ${extraClass}">${icon ? html`<i class="fas fa-${icon}"></i>` : ''} ${label ? label : ''} ${iconRight ? html`<i class="fas fa-${iconRight}"></i>` : ''}</span>`);
     config.addNunjucksShortcode("param", (param) => html`<strong>[REPLACE_ME ${param}]</strong>`);
     config.addNunjucksShortcode("br", () => html`<br />`);
     config.addNunjucksShortcode(
@@ -94,6 +122,7 @@ module.exports = (config) => {
 
     config.addFilter("jsonify", (val) => JSON.stringify(val, null, 4));
     config.addFilter("startsWith", (str = "", searchString = "") => str.startsWith(searchString));
+    config.addFilter("toc", getTOC);
     config.addFilter("nextInSection", function (items) {
         return items.find((item) => item.order === this.ctx.eleventyNavigation.order + 1);
     });
@@ -103,6 +132,9 @@ module.exports = (config) => {
 
     config.addFilter("formatDate", (date) => (date ? new Date(date).toDateString() : ""));
     config.addFilter("orderByDate", (coll) => coll.sort((a, b) => b.date - a.date));
+    config.addFilter("sortByWeight", (coll) => coll.sort((a, b) => b.weight - a.weight));
+
+    config.addTransform("htmlmin", minifyHtml);
 
     return {
         markdownTemplateEngine: "njk",

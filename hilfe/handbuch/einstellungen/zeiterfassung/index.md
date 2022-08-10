@@ -31,31 +31,29 @@ unten).
 
 ### Neuen Regelsatz Erstellen
 
-Um einen neuen Regelsatz zu erstellen, klicken Sie einfach auf den Button <button label="Neuer Regelsatz" icon="plus">.
+Um einen neuen Regelsatz zu erstellen, klicken Sie einfach auf den Button {% button label="Neuer Regelsatz", icon="plus" %}.
 Es öffnet sich ein Dialog über den Sie nun die Einstellungen für diesen Regelsatz bearbeiten können. Um den Regelsatz
-hinzuzufügen, klicken Sie auf <button label="Speichern">. Vergessen Sie nicht, dem Regelsatz einen Namen zu geben!
+hinzuzufügen, klicken Sie auf {% button label="Speichern" %}. Vergessen Sie nicht, dem Regelsatz einen Namen zu geben!
 
 ### Regelsatz Bearbeiten
 
 Einen existierenden Regelsatz bearbeiten Sie, indem Sie einfach den gewünschten Eintrag mit einem Klick aus der Liste
-wählen. Es öffnet sich ein Dialog, in dem Sie die gewünschten Änderungen vornehmen können. Klicken Sie auf <button
-label="Speichern"> um die Änderungen zu übernehmen oder <button label ="Abbrechen"> um die Änderungen zu
+wählen. Es öffnet sich ein Dialog, in dem Sie die gewünschten Änderungen vornehmen können. Klicken Sie auf {% button label="Speichern" %} um die Änderungen zu übernehmen oder {% button label="Abbrechen" %} um die Änderungen zu
 verwerfen.
 
 ### Regelsatz Entfernen
 
-Sie können einen Regelsatz entfernen, indem Sie auf den <icon "ellipsis-h"> icon in der rechten oberen Ecke des
-Listeneintrags klicken und im angezeigten Menü die Option <icon "trash-alt"> **Löschen** wählen.
+Sie können einen Regelsatz entfernen, indem Sie auf den {% icon "ellipsis-h" %} icon in der rechten oberen Ecke des
+Listeneintrags klicken und im angezeigten Menü die Option {% icon "trash-alt" %} **Löschen** wählen.
 
 > **Hinweis:** Der "globale" Regelsatz kann nicht gelöscht werden.
 
 ### Regelsatz Duplizieren
 
 Beim Erstellen eines neuen Regelsatzes kann es oft nützlich sein, die Einstellungen eines anderen Regelsatzes zu
-kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option <icon "clone">
-**Duplizieren** im <icon "ellipsis-h">-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
-Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können bevor Sie durch einen Klick auf den <button
-label="Speichern"> button den Regelsatz hinzufügen.
+kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option {% icon "clone" %}
+**Duplizieren** im {% icon "ellipsis-h" %}-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
+Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können bevor Sie durch einen Klick auf den {% button label="Speichern" %} button den Regelsatz hinzufügen.
 
 ## Zuordnung von Regelsätzen
 
@@ -67,13 +65,13 @@ Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mita
 funktioniert wie folgt:
 
 1. Erstellen Sie einen neuen Regelsatz oder wählen Sie einen existierenden Regelsatz.
-2. Klicken Sie auf das <button label="hinzufügen" icon="plus"> Feld direkt unter dem Namensfeld.
+2. Klicken Sie auf das {% button label="hinzufügen", icon="plus" %} Feld direkt unter dem Namensfeld.
 3. Es öffnet sich ein Dropdown mit einer Liste aller Standorte, Abteilungen und Mitarbeiter, denen der Regelsatz noch
    nicht zugeordnet wurde. Klicken Sie einfach auf einen der Einträge um den Regelsatz der/dem entsprechenden Standort,
-   Abteilung oder Mitarbeiter zuzuordnen. **Tipp:** Sie können die Liste filtern, indem Sie einen Suchbegriff in das <button label="hinzufügen" icon="plus">-Feld eingeben.
+   Abteilung oder Mitarbeiter zuzuordnen. **Tipp:** Sie können die Liste filtern, indem Sie einen Suchbegriff in das {% button label="hinzufügen", icon="plus" %}-Feld eingeben.
 4. Die/der Standort, Abteilung oder Mitarbeiter erscheinen dann in der Liste unter dem Namensfeld. Um die Zuordnung
    aufzuheben, klicken Sie einfach auf den entsprechenden Eintrag in dieser Liste.
-5. Klicken Sie auf <button label="Speichern"> um den Vorgang abzuschließen oder <button label="Abbrechen">
+5. Klicken Sie auf {% button label="Speichern" %} um den Vorgang abzuschließen oder {% button label="Abbrechen" %}
    um die Änderungen zu verwerfen.
 
 > **Hinweis:** Jeder/jedem Standort, Abteilung und Mitarbeiter kann jeweils höchstens ein Regelsatz zugeordnet werden.
@@ -88,12 +86,12 @@ sowie der jeweiligen Zuordnung von Regelsätzen ab. Hierbei werden grundsätzlic
 Zuordnung zu einem Mitarbeiter) höher priorisisert als weniger spezifische (z.B. Zuordnung zu einem Standort). Die
 Anwendungslogik ist wie folgt:
 
-1. Ist dem **Mitarbeiter** ein Regelsatz zugeordnet? <icon "arrow-right"> **Ja**: Regelsatz anwenden; **Nein**:
-   <icon "arrow-down">
-2. Ist der **Abteilung** ein Regelsatz zugeordnet? <icon "arrow-right"> **Ja:** Regelsatz anwenden ; **Nein**:
-   <icon "arrow-down">
-3. Ist dem **Standort** ein Regelsatz zugeordnet? <icon "arrow-right"> **Ja:** Regelsatz anwenden ; **Nein**:
-   <icon "arrow-down">
+1. Ist dem **Mitarbeiter** ein Regelsatz zugeordnet? {% icon "arrow-right" %} **Ja**: Regelsatz anwenden; **Nein**:
+   {% icon "arrow-down" %}
+2. Ist der **Abteilung** ein Regelsatz zugeordnet? {% icon "arrow-right" %} **Ja:** Regelsatz anwenden ; **Nein**:
+   {% icon "arrow-down" %}
+3. Ist dem **Standort** ein Regelsatz zugeordnet? {% icon "arrow-right" %} **Ja:** Regelsatz anwenden ; **Nein**:
+   {% icon "arrow-down" %}
 4. Verwende den globalen Regelsatz
 
 ### Anzeige im Dienstplan & Arbeitszeitblatt
@@ -101,7 +99,7 @@ Anwendungslogik ist wie folgt:
 Bei großen Betrieben mit mehreren Regelsätzen und komplexen Zuordnungen kann es oft schwierig sein nachzuvollziehen,
 welcher Regelsatz bei einer bestimmten Schicht zur Anwendung kommt. Pentacode schafft Ihnen hier Abhilfe indem es bei
 der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Selektieren Sie hierfür
-einfach die gewüschte Schicht - der Regelsatz erscheint dann unter dem Punkt <icon "sliders-h"> **Regeln**.
+einfach die gewüschte Schicht - der Regelsatz erscheint dann unter dem Punkt {% icon "sliders-h" %} **Regeln**.
 
 ## Pausen
 
@@ -120,8 +118,8 @@ Arbeitsdauer** (nicht anhand der geplanten Dauer). Dabei können Sie genau defin
 berechnet werden soll. Die Standardeinstellungen für die automatische Pause entsprechen den gesetzlichen
 Pausenvorschriften - d.h. **30 Minuten** ab einer Arbeitszeit von **6 Stunden** und **45 Minuten** ab einer Arbeitszeit
 von **9 Stunden**. Diese Werte können Sie natürlich jederzeit abändern beziehungsweise Stufen hinzufügen oder
-entfernen. Zum Hinzufügen einer Stufe, klicken Sie den <button label="Stufe Hinzufügen" icon="plus"> button. Um
-eine Stufe zu entfernen, bewegen Sie die Maus darüber und klicken Sie den <button icon="trash"> button.
+entfernen. Zum Hinzufügen einer Stufe, klicken Sie den {% button label="Stufe Hinzufügen", icon="plus" %} button. Um
+eine Stufe zu entfernen, bewegen Sie die Maus darüber und klicken Sie den {% button icon="trash" %} button.
 
 #### Manuell
 
@@ -156,7 +154,7 @@ manuell erfassten Pausen. Manuell erfasste Pausen werden dann beim Abschluss der
 > Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
 Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie dies durch das Setzen der Buttons
-<button label="Automatische/Geplante Pausen Werden Bezahlt"> und <button label="Manuelle Pausen Werden Bezahlt"> einstellen.
+{% button label="Automatische/Geplante Pausen Werden Bezahlt" %} und {% button label="Manuelle Pausen Werden Bezahlt" %} einstellen.
 
 Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewiesen, bei der Lohnabrechnung in ihrer
 Dauer jedoch der Arbeitszeit zugerechnet.
@@ -182,17 +180,17 @@ Buchen von Mitarbeiteressen deaktivieren, indem Sie **Kein Essen Buchen** wähle
 
 ## Stempeluhr
 
-Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr) und oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst werden sollen oder ob Sie Zeiten ausschließlich manuell über den [Dienstplan](/hilfe/handbuch/dienstplan) oder das [Arbeitszeitblatt](/hilfe/handbuch/arbeitszeitblatt) erfassen möchten. Aktivieren oder deaktivieren Sie hierzu einfach den Button <button label="Erfassung per Stempeluhr">.
+Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr) und oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst werden sollen oder ob Sie Zeiten ausschließlich manuell über den [Dienstplan](/hilfe/handbuch/dienstplan) oder das [Arbeitszeitblatt](/hilfe/handbuch/arbeitszeitblatt) erfassen möchten. Aktivieren oder deaktivieren Sie hierzu einfach den Button {% button label="Erfassung per Stempeluhr" %}.
 
 > Alle weiteren Optionen betreffen ausschließlich die Zeiterfassung per Stempeluhr und werden ausgeblendet, falls diese Option deaktiviert ist.
 
 ### Stempeln via MA-App erlauben
 
-Hier können Sie einstellen, ob Mitarbeiter zusätzlich zur digitalen Stempeluhr auch über die Mitarbeiter-App Zeiten erfassen dürfen. Hierfür aktivieren oder deaktivieren Sie einfach den Button <button label="Stempeln Via MA-App Erlauben">.
+Hier können Sie einstellen, ob Mitarbeiter zusätzlich zur digitalen Stempeluhr auch über die Mitarbeiter-App Zeiten erfassen dürfen. Hierfür aktivieren oder deaktivieren Sie einfach den Button {% button label="Stempeln Via MA-App Erlauben" %}.
 
 ### Stempeln Erfordert QR-Code
 
-Über den Button <button label="Stempeln Erfordert QR-Code"> können Sie einstellen, ob der Mitarbeiter vor dem Ein-
+Über den Button {% button label="Stempeln Erfordert QR-Code" %} können Sie einstellen, ob der Mitarbeiter vor dem Ein-
 oder Ausstempeln über die Mitarbeiter-App zunächst den QR-Code an der digitalen Stempeluhr scannen muss oder nicht.
 Durch das Scannen des QR-Codes kann Pentacode verifizieren, dass sich der Mitarbeiter zum Zeitpunkt des Stempelns am
 Arbeitsplatz befindet. Deaktivieren Sie diese Option, falls der Mitarbeiter auch an jenen Arbeitsorten Zeiten erfassen
@@ -223,7 +221,7 @@ frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
 ### Anmeldung Ohne Dienstplan / Spontane Schicht
 
-Ist die Option bei <button label="Anmeldung Ohne Dienstplan"> aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
+Ist die Option bei {% button label="Anmeldung Ohne Dienstplan" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
 ### Verspätete Abmeldung
 

@@ -70,7 +70,7 @@ Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in 
 Dies tun sie wie folgt:
 
 1. Navigieren Sie zum Punkt **Einstellungen > Sonstiges**.
-2. Unter dem Punk **Arbeitszeiten & Konten festschreiben**, klicken sie auf den Button <icon "pencil-alt"> **Bearbeiten**.
+2. Unter dem Punk **Arbeitszeiten & Konten festschreiben**, klicken sie auf den Button {% icon "pencil-alt" %} **Bearbeiten**.
 3. Klicken Sie auf **Zeitraum wählen...** und wählen Sie den Monat, bis zu welchem Arbeitszeiten und Konten festgeschrieben werden sollen.
 4. Klicken sie auf **Bestätigen**.
 

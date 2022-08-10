@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Änderungsprotokoll
-weight: 0
+weight: 1
 icon: "clipboard-list"
 anchors: []
 ---

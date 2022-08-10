@@ -1,8 +1,8 @@
-{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) %}
+{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) | sortByWeight %}
 
 {% macro menu(pages) %}
     {% for page in pages %}
-        <li class="{% if page.section === eleventyNavigation.section and page.url === eleventyNavigation.url %}active{% endif %}">
+        <li class="{% if page.url === eleventyNavigation.url %}active{% endif %}">
             <a href="{{ page.url }}">
                 <i class="icon fal fa-{{ page.icon or "scroll" }}"></i>
                 <span class="title">
@@ -10,13 +10,24 @@
                 </span>
             </a>
 
-            {% if page.section !== eleventyNavigation.section %}
+            {% set hideChildren = false %}
+            {% set hiddenAttribute = "" %}
+
+            {% if (eleventyNavigation.key not in page.key) and (page.key not in eleventyNavigation.key) %}
+                {% set hideChildren = true %}
+            {% endif %}
+
+            {% if (not hideChildren) and (eleventyNavigation.key in page.parent) %}
+                {% set hideChildren = true %}
+            {% endif %}
+
+            {% if hideChildren %}
                 {% set hiddenAttribute = "hidden" %}
             {% endif %}
 
             {% if (not page.anchors) or (page.anchors.length === 0) %}
                 <ul {{ hiddenAttribute }}>
-                    {% set subpages = collections.all | eleventyNavigation(page.key) %}
+                    {% set subpages = collections.all | eleventyNavigation(page.key) | sortByWeight %}
                     {{ menu(subpages) }}
                 </ul>
             {% else %}

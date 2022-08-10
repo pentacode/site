@@ -40,7 +40,7 @@ Die Vorschussliste kann **nicht** exportiert werden. Um sie Ihrer Buchhaltung zu
 
 ## Zeitraum wechseln
 
-Über die <icon "chevron-right">-Symbole können den gezeigten Monatszeitraum wechseln
+Über die {% icon "chevron-right" %}-Symbole können den gezeigten Monatszeitraum wechseln
 
 <figure caption="Sie können über die Pfeilsymbole den Monatszeitraum wechseln">
 
@@ -60,7 +60,7 @@ Die Vorschussliste kann **nicht** exportiert werden. Um sie Ihrer Buchhaltung zu
 
 ## Drucken
 
-Über das <icon "print">-Symbol können Sie die Vorschussliste ausdrucken.
+Über das {% icon "print" %}-Symbol können Sie die Vorschussliste ausdrucken.
 
 <figure caption="Über das Druckersymbol können Sie die Vorschussliste ausdrucken">
 

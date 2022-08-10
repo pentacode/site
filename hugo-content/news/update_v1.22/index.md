@@ -95,7 +95,7 @@ werden! Und natürlich freuen wir uns wie immer außerordentlich über Ihr
 Feedback, welches dann selbstverständlich in die weitere Entwicklung mit
 einfließen wird.
 
-> <icon "info-circle"> Solange das Recruiting-Modul in der Beta-Phase ist, **ist das Erstellen und
+> {% icon "info-circle" %} Solange das Recruiting-Modul in der Beta-Phase ist, **ist das Erstellen und
 > veröffentlichen von Stellenausschreibungen komplett gebührenfrei**! Nutzen Sie
 > also die Gelegenheit, dieses neue Feature in Ihrem Betrieb kostenlos zu
 > testen und dabei direkt ein paar neue Mitarbeiter zu finden!

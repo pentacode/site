@@ -50,7 +50,7 @@ Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mi
 
 ## Standort bearbeiten
 
-Durch Anklicken des <icon "ellipsis-h">-Symbols am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
+Durch Anklicken des {% icon "ellipsis-h" %}-Symbols am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
 
 <figure caption="So können Sie einen bestehenden Standort bearbeiten">
 
@@ -60,7 +60,7 @@ Durch Anklicken des <icon "ellipsis-h">-Symbols am rechten oberen Eck können Si
 
 ## Standort archivieren
 
-Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn über das <icon "archive">-Symbol **archivieren**. Der Standort ist dann nicht mehr sichtbar, alle Daten, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
+Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn über das {% icon "archive" %}-Symbol **archivieren**. Der Standort ist dann nicht mehr sichtbar, alle Daten, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
 <figure caption="So können Sie einen bestehenden Standort archivieren">
 
@@ -102,7 +102,7 @@ Wenn Sie auf eine Abteilung klicken, öffnet diese und kann wie oben beschrieben
 
 Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen, dass diese weiterhin im Dienstplan gezeigt wird, können Sie diese **archivieren**.
 
-Öffnen Sie hierzu die Abteilung und klicken Sie auf das <icon "archive">Symbol
+Öffnen Sie hierzu die Abteilung und klicken Sie auf das {% icon "archive" %}Symbol
 
 <figure caption="So können Sie eine Abteilung archivieren">
 

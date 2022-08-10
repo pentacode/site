@@ -13,8 +13,7 @@ deutlich vereinfacht.
 
 ## Ausschreibungen Verwaltungsansicht
 
-In die Ausschreibungsübersicht gelangen Sie über den Punkt <button
-icon="image-polaroid-user" label="Recruiting"> im Hauptmenü. Hier können Sie
+In die Ausschreibungsübersicht gelangen Sie über den Punkt {% button icon="image-polaroid-user", label="Recruiting" %} im Hauptmenü. Hier können Sie
 nun auf einen Blick all ihre **Stellenausschreibungen** einsehen und verwalten.
 Links sehen Sie eine Liste mit allen Stellenausschreibungen, wobei nur Titel und
 die wichtigsten Informationen angezeigt werden. Klicken Sie auf eine der
@@ -29,12 +28,12 @@ sowie alle Details der Ausschreibung einsehen.
 
 So erstellen Sie eine neue Ausschreibung:
 
-1. Klicken Sie auf <button icon="plus" label="Neue Ausschreibung"> unter der
+1. Klicken Sie auf {% button icon="plus", label="Neue Ausschreibung" %} unter der
    Ausschreibungs-Liste.
 2. Es öffnet sich das Formular zum Erstellen einer neuen Ausschreibung, wo Sie
    den Ausschreibungstitel, Beschreibung und verschiedene Details zur Stelle
    angeben können. Geben Sie die gewünschten Angaben ein und klicken Sie auf
-   <button label="Speichern">.
+   {% button label="Speichern" %}.
 
 Eine Liste der verfügbaren Felder und deren Beschreibung finden Sie unter
 [Felder & Eigenschaften](#ausschreibung-felder--eigenschaften).
@@ -48,8 +47,8 @@ eventuell korrigieren oder abändern. Dies tun Sie wie folgt:
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
    Ausschreibung indem Sie auf den entsprechenden Eintrag in der Liste auf linken
    Seite klicken.
-2. Klicken Sie den <button icon="pencil">-**Button** in der rechten oberen Ecke.
-3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf <button label="Speichern">.
+2. Klicken Sie den {% button icon="pencil" %}-**Button** in der rechten oberen Ecke.
+3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf {% button label="Speichern" %}.
 
 ## Ausschreibung löschen
 
@@ -60,8 +59,8 @@ Bewerber gefunden haben, lassen sich diese auch leicht wieder löschen:
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
    Ausschreibung indem Sie auf den entsprechenden Eintrag in der Liste auf linken
    Seite klicken.
-2. Klicken Sie den <button icon="trash">-**Button** im der rechten oberen Ecke.
-3. Bestätigen Sie die Aktion durch einen Klick auf <button label="Löschen">.
+2. Klicken Sie den {% button icon="trash" %}-**Button** im der rechten oberen Ecke.
+3. Bestätigen Sie die Aktion durch einen Klick auf {% button label="Löschen" %}.
 
 ## Ausschreibung Felder & Eigenschaften
 
@@ -95,7 +94,7 @@ Beschreibung zu erfassen, die nicht nur auf die Details der Stelle eingeht,
 sondern auch vermittelt, was Sie sich von Ihren Bewerbern erwarten und was Ihr
 Unternehmen zu einem attraktiven Arbeitsplatz macht!
 
-> <icon "lightbulb"> **Tipp:** Erwarten Sie bestimmte Angaben von Ihren
+> {% icon "lightbulb" %} **Tipp:** Erwarten Sie bestimmte Angaben von Ihren
 > Bewerbern, so wie etwa vorhandene Qualifikationen oder Berufserfahrung?
 > Dann erwähnen Sie dies in der Beschreibung, damit Bewerbe Ihre Fragen direkt
 > in der Bewerbung beantworten können!
@@ -158,7 +157,7 @@ Sie dazu in das Textfeld, welches standardmäßig mit dem Mindestlohn gefüllt i
 die gewünschte Entlohnung ein. Rechts davon können Sie nun entscheiden ob dieser
 Betrag **pro Stunde** oder **monatlich** ausgezahlt wird.
 
-> **Keine Panik** <icon "exclamation"> Alle in der Ausschreibung
+> **Keine Panik** {% icon "exclamation" %} Alle in der Ausschreibung
 > spezifizierten Details können **nachträglich** noch bearbeitet werden. Sie
 > dienen lediglich der ersten Information der Bewerber und dem schnellen
 > Einstellen in Pentacode.
@@ -175,10 +174,10 @@ hinzuzufügen, da dies die Anzeige visuell deutlich ansprechender macht.
 
 So fügen Sie Ihrer Ausschreibung ein Bild hinzu:
 
-1. Klicken Sie auf den <button icon="rectangle-history-circle-plus">-**Button** unter **Bilder**.
+1. Klicken Sie auf den {% button icon="rectangle-history-circle-plus" %}-**Button** unter **Bilder**.
 2. Wählen Sie die gewünschte Bilddatei von Ihrer Festplatte durch einen Doppelklick.
 
-> **Achtung** <icon "exclamation"> Achten Sie darauf während des Erstellens
+> **Achtung** {% icon "exclamation" %} Achten Sie darauf während des Erstellens
 > einer Ausschreibung nicht das **Recruiting** Fenster zu verlassen, da sonst
 > die nicht gespeicherte Stelle gelöscht wird.
 
@@ -197,10 +196,10 @@ anschauen und sich bei Interesse gleich bewerben. Sie können den Link sehen,
 indem sie in der Ausschreibungsübersicht eine Ausschreibung auswählen. Nun wird
 in der rechten unteren Ecke unter **Bewerbungs-Link** der Link angezeigt. Mit einem
 Rechtsklick und der Option _Adresse des Links kopieren_ können Sie diesen
-zwischenspeichern und mit der Tastenkombination <key "strg"> + <key "V">
+zwischenspeichern und mit der Tastenkombination {% key "strg" %} + {% key "V" %}
 nun beliebig einfügen.
 
-> <icon "lightbulb"> **Tipp:** Posten Sie den Bewerbungslink am Ende ihrer
+> {% icon "lightbulb" %} **Tipp:** Posten Sie den Bewerbungslink am Ende ihrer
 > Ausschreibungen auf ihrem Social-Media Kanälen, Jobbörsen oder per QR-Code
 > direkt in ihrem Betrieb. **Pentacode macht den Rest - den Link müssen Sie aber
 > noch selbst publizieren**.
@@ -214,7 +213,7 @@ zum anderen kann er sich über ein Formular direkt bewerben. In diesem Formular
 wird er gebeten seine Daten anzugeben - darunter zählen Vor- und Nachnamen,
 Geburtsdatum, Email Adresse, Telefonnummer, Verfügbarkeit und Wohnadresse. Zudem
 kann er ein Bild von sich hochladen, um es der Bewerbung beizufügen. Mit einem
-Klick auf <button label="Absenden"> landet die Bewerbung nun direkt in ihrem
+Klick auf {% button label="Absenden" %} landet die Bewerbung nun direkt in ihrem
 Pentacode Verwaltungszugang.
 
 <figure caption="Das Bewerberformular bietet einen Überblick über die wichtigsten Daten und ist schnell ausgefüllt">
@@ -237,8 +236,8 @@ Mitarbeiters sehen. Klicken Sie auf einen Bewerber, um dessen Detailansicht zu �
 
 Sie haben den perfekten Bewerber gefunden? Dann ist es an der Zeit, diesen in
 Pentacode als Mitarbeiter anzulegen! Dazu öffnen Sie einfach die
-[Detailansicht](#bewerber-einsehen) des Bewerbers und klicken auf <button
-icon="handshake" label="Einstellen">.
+[Detailansicht](#bewerber-einsehen) des Bewerbers und klicken auf {% button
+icon="handshake", label="Einstellen" %}.
 
 Es öffnet sich nun der Dialog zum [Erstellen eines neuen
 Mitarbeiters](../mitarbeiter/allgemein/#neuen-mitarbeiter-anlegen), wo alle
@@ -247,7 +246,7 @@ die Beschäftigungsdetails aus der Ausschreibung (Positionen, Wochenstunden etc.
 bereits ausgefüllt sind. Sie müssen also nur noch die fehlenden Daten nachtragen
 und der Mitarbeiter ist im Handumdrehen angelegt!
 
-> <icon "lightbulb"> **Tipp:** In vielen Fällen möchten Sie den Kandidaten
+> {% icon "lightbulb" %} **Tipp:** In vielen Fällen möchten Sie den Kandidaten
 > vermutlich erst zu einem Probearbeitstag einladen, bevor Sie ihn endgültig
 > einstellen. Hierfür können Sie die Funktion [Mitarbeiter auf
 > Probe](../mitarbeiter/allgemein/#mitarbeiter-auf-probe) perfekt geeignet!
@@ -256,10 +255,10 @@ und der Mitarbeiter ist im Handumdrehen angelegt!
 
 Nicht jeder Bewerber ist auf für ausgeschriebene Stelle geeignet. Um ungeeignete
 Kandidaten auszusortieren, öffnen Sie einfach deren [Detailansicht](#bewerber-einsehen)
-und klicken Sie auf <button icon="handshake-slash" label="Ablehnen">.
+und klicken Sie auf {% button icon="handshake-slash", label="Ablehnen" %}.
 Der Kandidat wird dann von der List der Bewerber entfernt.
 
-> <icon "exclamation-triangle"> **Achtung:** Abgelehnte Bewerber werden
+> {% icon "exclamation-triangle" %} **Achtung:** Abgelehnte Bewerber werden
 > unwiderruflich aus den System entfernt und können nicht wiederhergestellt werden!
 > In künftigen Versionen wird es aber die Möglichkeit geben, Bewerber zu
 > archivieren ohne Sie komplett zu entfernen.
