@@ -18,8 +18,8 @@ Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-
 definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle
 Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
-{{< figure caption="" >}} 
-<img src = "übersicht.png" /> 
+{{< figure caption="" >}}
+<img src = "übersicht.png" />
 {{< /figure >}}
 
 ## Mitarbeiter Sortieren
@@ -33,15 +33,15 @@ klicken Sie den {{< icon "caret-down" >}} oder {{< icon "caret-up" >}} Pfeil.
 
 Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten
 oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die
-Tastenkombinationen {{< key "⇧" >}} + {{< key "a" "mono" >}} und {{< key "⇧" >}}
-+ {{< key "d" "mono" >}} in die vorherige bzw. nächste Woche wechseln.
+Tastenkombinationen {{< key "⇧" >}} + {{< key "a" "mono" >}} und
+{{< key "⇧" >}} + {{< key "d" "mono" >}} in die vorherige bzw. nächste Woche wechseln.
 
 ## Dienstplannotizen hinzufügen
 
 Wollen Sie ihrer Belegschaft weitere Informationen zum Tagesgeschäft, wichtige
 Neuerungen oder eine einfache Erinnerung zukommen lassen? All das können Sie
 über die Tagesnotizen erledigen. Diese können Sie einfach in der
-Dienstplanübersicht erstellen. 
+Dienstplanübersicht erstellen.
 
 1. Fahren Sie mit dem Cursor über einen Tag der ausgewählten Woche.
 2. Klicken Sie auf {{<button icon= "sticky-note" label="Notiz" >}}.
@@ -52,7 +52,7 @@ Dienstplanübersicht erstellen.
 6. Mit {{<button label="Speichern" >}} wird die Notiz ihren Mitarbeitern
    angezeigt.
 
-### Dienstplannotiz löschen 
+### Dienstplannotiz löschen
 
 Um die Notiz eines oder mehrerer Tage zu löschen klicken Sie einfach über die
 Notiz in der Dienstplanübersicht. Nun können Sie zum einen die **Notiz
@@ -107,8 +107,8 @@ auch [Tab Bearbeiten](#tab-bearbeiten)).
 > Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie
 > schnell zwischen unterschiedlichen Ansichten wechseln!
 
-{{< figure caption= "Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten." >}} 
-<img src= "tab.png" /> 
+{{< figure caption= "Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten." >}}
+<img src= "tab.png" />
 {{< /figure >}}
 
 ### Mitarbeiter Suchen
@@ -132,13 +132,10 @@ der Tagesansicht.
 Der {{< icon "arrow-left" >}} **Zurück** Button am oberen Rand schließt das
 Tagesmenü.
 
-> **Tipp**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}}
-> **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}}
-> **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen.
+> **Tipp**: Mit den Tasten {{< key "w" "mono" >}} **(auf)**, {{< key "s" "mono" >}} > **(ab)**, {{< key "a" "mono" >}} **(links)** und {{< key "d" "mono" >}} > **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen.
 > Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten.
 > So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind"
-> zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}}
-> -**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
+> zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {{< key "Esc" "mono" >}} -**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
 {{< figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen." >}}
 
@@ -153,8 +150,8 @@ Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das
 Abteilung (z.B. durch Klicken in das entsprechende Feld). Sollte der
 entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur
 Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem
-Sie auf den Button **Neuer Eintrag** klicken oder die {{< key "n" "mono"
->}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht**
+Sie auf den Button **Neuer Eintrag** klicken oder die
+{{< key "n" "mono" >}}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht**
 (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann,
 können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein
 Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.
@@ -190,7 +187,6 @@ Schichtvorschläge angezeigt. So können Sie besonders häufig verwendete Schich
 ohne Scrollen mehrfach in den Dienstplan einfügen. Ein erneutes Klicken auf den
 Stern wird diesen ausgrauen und der Schichtvorschlag ist **entfavorisiert**.
 
-
 ### Tages- und MA-spezifische Vorschläge
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der
@@ -204,8 +200,7 @@ selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 > **Tipp:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.:
 > {{< key "1"  "mono" >}}). Diese deutet an, dass Sie den Vorschlag über die
 > entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den
-> Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}}
-> {{< key "d" "mono" >}} (siehe [Tagesansicht](#tagesansicht)) können Sie
+> Tasten Mit den Tasten {{< key "w" >}} {{< key "s" "mono">}} {{< key "a" "mono" >}} {{< key "d" "mono" >}} (siehe [Tagesansicht](#tagesansicht)) können Sie
 > nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Nicht zugewiesene Schichten
@@ -216,12 +211,12 @@ Diese werden allen Mitarbeitern als verfügbar angezeigt, die in der gleichen
 Abteilung tätig sind. Die Mitarbeiter können sich anschließend **freiwillig für
 die Schicht eintragen** und diese somit "vom Markt nehmen". Klicken Sie auf den
 {{<icon "user-slash">}}-**Button** unter der Kalenderansicht im oberen rechten
-Eck, um sich die nicht zugewiesenen Schichten anzeigen zu lassen. 
+Eck, um sich die nicht zugewiesenen Schichten anzeigen zu lassen.
 
 Um eine nicht zugewiesene Schicht auszuschreiben, aktivieren Sie erst die
 Anzeige wie oben beschrieben und gehen anschließend wie bei normalen
 [Dienstzeiten](#dienstzeiten-eintragen) vor. Sie müssen lediglich statt eines
-Mitarbeiter die Zeile "**Nicht zugewiesen**" auswählen. 
+Mitarbeiter die Zeile "**Nicht zugewiesen**" auswählen.
 
 {{< figure caption= "So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen" >}}
 
@@ -246,9 +241,7 @@ Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffn
 Sie zunächst die [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter
 und Tag, und klicken die gewünschte Art von Fehltag.
 
-> **Tipp:** Fehltage können auch über die Tastaturkürzel {{< key "u" "mono" >}}
-> **(Urlaub)**, {{< key "k" "mono" >}} **(Krank)**, {{< key "g" "mono" >}}
-> **(Guttag)** und {{< key "f" "mono" >}} **(Frei)** gewählt werden!
+> **Tipp:** Fehltage können auch über die Tastaturkürzel {{< key "u" "mono" >}} **(Urlaub)**, {{< key "k" "mono" >}} **(Krank)**, {{< key "g" "mono" >}} **(Guttag)** und {{< key "f" "mono" >}} **(Frei)** gewählt werden!
 
 ## Einträge Verschieben
 
@@ -275,8 +268,7 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {{< icon "times" >}} i
 der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der
 Tabellenansicht als auch in der [Tagesansicht](#tagesansicht).
 
-> **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}}
-> + {{< key "⌫" >}} gelöscht werden!
+> **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {{< key "⇧" >}} + {{< key "⌫" >}} gelöscht werden!
 
 ## Veröffentlichen & Teilen
 
@@ -316,11 +308,12 @@ Sie können ihren Dienstplan auch mit Personen teilen, die keinen Zugang zur
 Mitarbeiterapp haben. Klicken Sie dazu auf den {{<icon "share">}}-**Button**
 unter dem Kalenderfenster im rechten oberen Eck. Nun zeigt Ihnen Pentacode einen
 **Link** an, über den Externe den Dienstplan einsehen aber **nicht verändern**
-können. 
+können.
+
 - Klicken Sie auf {{<button icon="clipboard" label="Kopieren">}} um den Link an
   anderer Stelle mit {{<key "strg">}} **+** {{<key "V">}} einzusetzen.
 - Klicken Sie auf {{<button icon="envelope" label="Versenden">}} um ihrer
-  Belegschaft eine Email mit dem Link zum Dienstplan zu schicken. 
+  Belegschaft eine Email mit dem Link zum Dienstplan zu schicken.
 
 **Wichtig!** Sie teilen immer nur den Teil des Dienstplans, der Ihnen im Filter
 des aktuellen Tabs angezeigt wird und bereits
@@ -347,9 +340,9 @@ Druckfunktion. Es wird hier zwischen zwei Varianten unterschieden.
 ### Aktueller Bearbeitungsstatus
 
 Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen**
-können Sie über das Tastenkürzel {{<key "strg" "mono" >}}  {{< key "P" "mono"
->}} (bzw. {{< key "cmd" "mono" >}} {{< key "P" "mono" >}} auf MacOS) oder über
-das Browser-Menü Drucken.
+können Sie über das Tastenkürzel {{<key "strg" "mono" >}} {{< key "P" "mono" >}}
+(bzw. {{< key "cmd" "mono" >}} {{< key "P" "mono" >}} auf MacOS) oder über das
+Browser-Menü Drucken.
 
 ### Veröffentlichter Dienstplan
 
@@ -362,7 +355,7 @@ icon="print" label="Drucken">}}.
 
 {{< figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite." >}}
 
-<img src="dienstplan_drucken.png" /> 
+<img src="dienstplan_drucken.png" />
 
 {{< /figure >}}
 
@@ -401,11 +394,8 @@ nun in der Liste Ihrer Vorlagen!
 > gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage
 > ignoriert.
 
-{{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!"
->}}
-
+{{< figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" >}}
 <img src= "vorlage.png" />
-
 {{< /figure >}}
 
 ### Vorlage Anwenden
@@ -425,9 +415,10 @@ Bestätigungsdialog um den Vorgang abzuschließen.
 
 ## Dienstplan Leeren
 
-Um den gesamten Dienstplan zu leeren, klicken Sie den {{< icon "trash"
->}}-**Icon** im Dienstplanmenü. Es öffnet sich ein Dialogfenster, in dem Sie die
-Arten der zu löschenden Einträgen einschränken können. Klicken Sie auf
+Um den gesamten Dienstplan zu leeren, klicken Sie den
+{{< icon "trash">}}-**Icon** im Dienstplanmenü. Es öffnet sich ein
+Dialogfenster, in dem Sie die Arten der zu löschenden Einträgen einschränken
+können. Klicken Sie auf
 **Dienstplan Leeren** um den Vorgang abzuschließen.
 
 > **Beachten Sie:** Es werden nur Schichten gelöscht, die den
@@ -527,11 +518,11 @@ die kompakte Darstellung.
 ### Personalkostenanalyse
 
 Für eine effiziente Personalplanung ist es essentiell, immer einen Überblick
-über die entstehenden Personalkosten zu haben. Über den {{< icon "chart-line"
->}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte Auskunft
-darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie können bei
-vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich entstandenen
-vergleichen!
+über die entstehenden Personalkosten zu haben. Über den {{<icon
+"chart-line">}}-**Button** im Dienstplanmenü erhalten Sie nicht nur eine direkte
+Auskunft darüber, wie hoch der Kostenaufwand für eine bestimmten Tag ist, Sie
+können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich
+entstandenen vergleichen!
 
 ## Plan-Ist-Vergleich
 
