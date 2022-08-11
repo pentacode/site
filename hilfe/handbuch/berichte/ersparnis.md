@@ -14,11 +14,11 @@ Auch nur geringfügige Verspätungen oder kleinteilige Minutenrundungen addieren
 
 Da in Pentacode die Lohnangaben zu jedem Mitarbeiter hinterlegt sind, werden die Minuten Mitarbeiter-genau in Lohnsumme umgerechnet. Diese Lohnsumme ist die de facto-Ersparnis, die Sie durch Pentacode erzielen.
 
-<figure caption="Hier sehen Sie die Entwicklung der monatlichen Einsparungen durch Pentacode">
+{% figure caption="Hier sehen Sie die Entwicklung der monatlichen Einsparungen durch Pentacode" %}
 
 ![](/uploads/ersparnis1.png)
 
-</figure>
+{% endfigure %}
 
 Bei der Berechnung der Einsparungen werden ausschließlich abgeschlossene Arbeitstage berücksichtigt, also die Arbeitstage der einzelnen Mitarbeiter, die durch einen Log-out beendet wurden.
 
@@ -30,11 +30,11 @@ Dies bedeutet, dass die Einsparungen bereits nach zwei Wochen fünf mal höher w
 
 In dieser Grafik wird die aufgelaufene Gesamtersparnis gezeigt. Seit Inbetriebnahme von Pentacode im Mai bis Mitte Dezember hat unsere Anwendung zu Einsparungen in Höhe von 10.655 € geführt. Dies entspricht fast einem Prozent des Umsatzes.
 
-<figure caption="Hier sehen Sie die Gesamtersparnis">
+{% figure caption="Hier sehen Sie die Gesamtersparnis" %}
 
 ![](/uploads/ersparnis2.png)
 
-</figure>
+{% endfigure %}
 
 Die hier gezeigten Grafiken entstammen einem anonymisierten Echt-Betrieb, mit dem wir eine Test-Vereinbarung getroffen haben. Zum Zeitpunkt der Aufnahme dieser Screenshots waren 61 Mitarbeiter beschäftigt.
 

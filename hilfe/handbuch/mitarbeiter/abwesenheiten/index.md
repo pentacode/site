@@ -23,9 +23,9 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 > {% icon "filter" %}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
 > bestimmter Abteilungen beschränken.
 
-<figure caption="In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrer Mitarbeiter auf einen Blick.">
+{% figure caption="In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrer Mitarbeiter auf einen Blick." %}
 <img src="uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Einzelansicht
 
@@ -33,9 +33,9 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 
 Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Abwesenheiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
 
-<figure caption="Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten.">
+{% figure caption="Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten." %}
 <img src="einzeln.png" />
-</figure>
+{% endfigure %}
 
 ## Neue Abwesenheit Erfassen
 
@@ -57,9 +57,9 @@ So funktioniert das **Erfassen einer neuen Abwesenheit**:
 6. Falls es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten gibt wird Pentacode Sie
    fragen, ob Sie diese löschen möchten. Bestätigen Sie, dass Sie den Vorgang abschließen möchten.
 
-<figure caption="Indem Sie die Maustaste gedrückt halten, können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren.">
+{% figure caption="Indem Sie die Maustaste gedrückt halten, können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren." %}
 <img src="abwesenheit-erfassen.gif" />
-</figure>
+{% endfigure %}
 
 ## Abwesenheit Bearbeiten
 
@@ -97,9 +97,9 @@ So **genehmigen** Sie einen Abwesenheitsantrag:
 4. Sie können nun noch eine optionale Antwortnachricht eingeben. Klicken Sie auf {% button label="Absenden" %} um den
    Vorgang abzuschließen.
 
-<figure caption="Über die Mitarbeiter-App können Ihre Mitarbeiter Urlaubsanträge und Krankmeldungen erfassen, welche Sie dann genehmigen oder ablehnen können.">
+{% figure caption="Über die Mitarbeiter-App können Ihre Mitarbeiter Urlaubsanträge und Krankmeldungen erfassen, welche Sie dann genehmigen oder ablehnen können." %}
 <img src="antrag-genehmigen.gif" />
-</figure>
+{% endfigure %}
 
 ### Abwesenheitsantrag Ablehnen
 

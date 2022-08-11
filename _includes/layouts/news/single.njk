@@ -1,0 +1,59 @@
+{% set main_title = title + ' | News | Pentacode' %}
+
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/news.html" %}<!-- -->
+{% include "styles/section-menu.html" %}<!-- -->
+{% include "styles/page-menu.html" %}<!-- -->
+{% include "styles/search.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    {% set author = staff[author or "lstrasser"] %}
+
+    <div class="main single">
+        <article class="animation-reveal-children">
+            <div class="horizontal layout">
+                <div class="stretch article-categories">
+                    {% for category in categories %}
+                        <div>{{ category }}</div>
+                    {% else %}
+                        <div>Sonstiges</div>
+                    {% endfor %}
+                </div>
+                <div class="article-date">
+                    {{ publishDate | formatDate }}
+                </div>
+            </div>
+
+            <div class="horizontal layout heading">
+                <h1 class="stretch">{{ title | markdownify | safe }}</h1>
+                <div class="article-author center-aligning horizontal layout">
+                    <img class="article-author-image" src="{{ author.image }}" />
+                    <div class="stretch">
+                        <div class="article-author-name">{{ author.name }}</div>
+                        <div class="article-author-title">{{ author.title }}</div>
+                    </div>
+                </div>
+            </div>
+
+            {% if cover %}
+                <div class="article-cover-wrapper">
+                    <img class="article-cover" src="{{ cover }}" />
+                </div>
+            {% endif %}
+
+            <div class="article-content">
+                {{ content | markdownify | safe }}
+            </div>
+        </article>
+    </div>
+{% endblock %}

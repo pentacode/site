@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Interview Munich One
 summary: Interview mit Lorenz Strasser auf ONEmuenchen zur Situation der Gastronomie
   nach dem Lockdown

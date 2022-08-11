@@ -44,41 +44,41 @@ Die Mitarbeiter erscheinen **chronologisch** nach geplantem Dienstbeginn, bzw. n
 
 Neben dem Namen des Mitarbeiters stehen in der ersten Zeile die **geplanten Arbeitszeiten**, darunter die **aktuellen Log-Zeiten**.
 
-<figure caption="Hier sehen Sie geplante  und tatsächlich geloggte Arbeitszeiten in einer Gegenüberstellung">
+{% figure caption="Hier sehen Sie geplante  und tatsächlich geloggte Arbeitszeiten in einer Gegenüberstellung" %}
 
 ![](/uploads/log-in.png)
 
-</figure>
+{% endfigure %}
 
 Sollte sich ein Mitarbeiter außerhalb der von Ihnen festgelegten "Karenz-Zeit" eingeloggt haben oder eine Schicht angetreten haben, für die er nicht geplant war, sehen Sie in der ersten Zeile ein "**?**".
 
 Dieses Zeichen weist Sie darauf hin, dass hier **Arbeitszeit** entstanden ist, die **so nicht geplant** war.
 
-<figure caption="Diese Arbeitszeit war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine '**Spontane Schicht**' angetreten">
+{% figure caption="Diese Arbeitszeit war nicht geplant. Der Mitarbeiter hat über die Stempeluhr eine '**Spontane Schicht**' angetreten" %}
 
 ![](/uploads/spontane-schicht.png)
 
-</figure>
+{% endfigure %}
 
 ### Pausen und Mahlzeiten
 
 Die **Pausenzeiten** werden **automatisch** und nach den von Ihnen vorgegebenen Regeln ausgewiesen, ebenso die **Anzahl** der **automatisch gebuchten Mahlzeiten**. Sehen Sie hierzu evtl. den Hilfeartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen)".
 
-<figure caption="Pausen werden am Ende des Arbeitstages errechnet, Mahlzeiten mit Schichtbeginn gebucht">
+{% figure caption="Pausen werden am Ende des Arbeitstages errechnet, Mahlzeiten mit Schichtbeginn gebucht" %}
 
 ![](/uploads/pausen-mahlzeiten.png)
 
-</figure>
+{% endfigure %}
 
 ### Provision
 
 Wenn Sie beim Mitarbeiter unter "**Vertrag**" bei "[**Provision**](/hilfe/handbuch/mitarbeiter/vertrag/#provision)" einen Wert **>0** eingegeben haben, erscheint beim betreffenden Mitarbeiter ein **Eingabefeld**. Hier tragen Sie dessen **Umsatz** ein.
 
-<figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat">
+{% figure caption="Hier geben Sie bei Provisionsbezahlung den Umsatz des Mitarbeiters ein, den er laut Kassenbericht erzielt hat" %}
 
 ![](/uploads/provision1.png)
 
-</figure>
+{% endfigure %}
 
 ### Status
 
@@ -102,11 +102,11 @@ Wenn Sie ohne die Stempeluhr von Pentacode arbeiten, geben Sie die Arbeitszeiten
 
 Im Menüpunkt "**Zeiterfassung**" sind **geplante** Arbeitszeit und tatsächliche Arbeitszeit immer **identisch**. Es gibt deshalb auch nur den Status "**fertig**".
 
-<figure caption="Wenn Sie ohne Stempeluhr arbeiten, sind 'geplante Arbeitszeit' und 'tatsächliche Arbeitszeit' immer identisch">
+{% figure caption="Wenn Sie ohne Stempeluhr arbeiten, sind 'geplante Arbeitszeit' und 'tatsächliche Arbeitszeit' immer identisch" %}
 
 **![](/uploads/ohne-stempeluhr1.png)**
 
-</figure>
+{% endfigure %}
 
 ### Änderung von Arbeitszeiten
 
@@ -118,11 +118,11 @@ Die [**Pausen** ](/hilfe/handbuch/einstellungen/zeiterfassung/#definition-der-pa
 
 Wenn Sie in der Folge eine einmal eingetragene Arbeitszeit ändern, wird die mit dem ersten Eintrag gesetzte Pausenzeit jedoch **nicht** geändert. Sollte sich die Dauer des Arbeitstages soweit ändern, dass die Pausenzeit verlängert oder verkürzt wird oder ganz entfällt, ist eine entsprechende **Korrektur der Pausenzeit manuell** vorzunehmen!
 
-<figure caption="Unterschreitungen der gesetzlichen Pausen werden ausgewiesen und müssen manuell korrigiert werden">
+{% figure caption="Unterschreitungen der gesetzlichen Pausen werden ausgewiesen und müssen manuell korrigiert werden" %}
 
 ![](/uploads/pausenkorrektur-manuell.png)
 
-</figure>
+{% endfigure %}
 
 ## Abteilungen filtern
 
@@ -130,8 +130,8 @@ Wenn in Ihrem Unternehmen sehr viele Mitarbeiter beschäftigt sind, kann die Ans
 
 Die abgewählten Abteilungen sind dann nicht mehr sichtbar.
 
-<figure caption="Sie können Abteilungen durch Entfernen des Buttons ausblenden">
+{% figure caption="Sie können Abteilungen durch Entfernen des Buttons ausblenden" %}
 
 ![](/uploads/abteilungen-abwahlen.png)
 
-</figure>
+{% endfigure %}

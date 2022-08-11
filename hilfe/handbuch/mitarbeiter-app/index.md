@@ -29,9 +29,9 @@ wo sie sie wie eine normale App öffnen können - die App wird dann auch in Ihre
 eigenen Fenster angezeigt und ist somit in Erscheinung und Funktion identisch
 mit einer "normalen" App.
 
-<figure caption="Wählen Sie die Option 'App Installieren' aus dem 'Drei-Punkte-Menü'" class="float-right narrow">
+{% figure caption="Wählen Sie die Option 'App Installieren' aus dem 'Drei-Punkte-Menü'", extraClass="float-right narrow" %}
 <img src="installieren-android.png" />
-</figure>
+{% endfigure %}
 
 ### Android
 
@@ -70,8 +70,8 @@ So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
 5. Wenn Sie möchten können Sie nun noch einen benutzerdefinierten Anzeigenamen
    wählen. Tippen Sie auf **"Hinzufügen"** um den Vorgang abzuschließen.
 
-<figure class="centered"> <img src="installieren-ios-1.jpeg" /> <img
-src="installieren-ios-2.jpeg" /> </figure>
+{% figure extraClass="centered" %} <img src="installieren-ios-1.jpeg" /> <img
+src="installieren-ios-2.jpeg" /> {% endfigure %}
 
 ## Einloggen
 
@@ -83,9 +83,9 @@ https://perso.pentacode.app auf und geben ihre Email Adresse, sowie das
 selbstgewählte Passwort ein. Worauf Sie in die **Übersicht** der Mitarbeiterapp
 gelangt.
 
-<figure caption="" class="float right narrow">
+{% figure caption="", extraClass="float right narrow" %}
 <img src="übersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Übersicht
 
@@ -146,9 +146,9 @@ Sie können sich im **manuellen Pausenmodus** mehrere Male in die Pause begeben.
 Der Timer für die Pause addiert dabei die Pausenzeiten für die aktuelle Schicht
 auf.
 
-<figure caption="Wählen Sie vor Beginn der spontanen Schicht aus in welcher Abteilung Sie arbeiten werden" class="float right narrow">
+{% figure caption="Wählen Sie vor Beginn der spontanen Schicht aus in welcher Abteilung Sie arbeiten werden", extraClass="float right narrow" %}
 <img src="spontane schicht.png" />
-</figure>
+{% endfigure %}
 
 ### Spontane Schicht beginnnen
 
@@ -205,9 +205,9 @@ So können Sie ihren Kollegen Schichten zum Tausch anbieten:
 3. Klicken Sie auf {% button label="Zum Tausch freigeben", icon="hand-holding-magic" %}
 4. Bestätigen Sie die Aktion mit einem weiteren Klick auf {% button label="Freigeben" %}
 
-<figure caption="Die Schicht am Samstag ist zum Übernehmen freigestellt, während die Schicht am Donnerstag von diesem Mitarbeiter selbst zum Tausch angeboten wurde" class="float right narrow">  
+{% figure caption="Die Schicht am Samstag ist zum Übernehmen freigestellt, während die Schicht am Donnerstag von diesem Mitarbeiter selbst zum Tausch angeboten wurde", extraClass="float right narrow" %}  
 <img src="dienstplan.png" />
-</figure>
+{% endfigure %}
 
 ### Schichten übernehmen
 
@@ -232,9 +232,9 @@ Mitarbeitern nicht mehr angezeigt.
 
 ## Urlaub & Krankmeldungen
 
-<figure caption="Dieser Urlaubsantrag würde die verbleibenden Urlaubstage überschreiten" class="float right narrow">
+{% figure caption="Dieser Urlaubsantrag würde die verbleibenden Urlaubstage überschreiten", extraClass="float right narrow" %}
 <img src="urlaubsantrag.png" />
-</figure>
+{% endfigure %}
 
 Über die Mitarbeiterapp können Sie auch schnell und einfach Urlaubsanträge und
 Krankschreibungen an die Personalabteilung weiterleiten und deren Genehmigung
@@ -284,9 +284,9 @@ gelangen Sie in die aktuelle Woche zurück.
 
 ### Neue Verfügbarkeit
 
-<figure caption="Hier äußert der Mitarbeiter den Wunsch bevorzugt jeden Mittwoch von 11 bis 18 Uhr an der Bar zu arbeiten" class="float right narrow">
+{% figure caption="Hier äußert der Mitarbeiter den Wunsch bevorzugt jeden Mittwoch von 11 bis 18 Uhr an der Bar zu arbeiten", extraClass="float right narrow" %}
 <img src="neueverfügbarkeit.png" />
-</figure>
+{% endfigure %}
 
 Klicken Sie auf einen Tag öffnet sich ein Dialogfenster mit folgenden
 Einstellungen:

@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Wo Sie Ihre Lebensmittel-Restbestände spenden können
 summary: "Die Corona-Krise trifft die Gastronomie hart. Wenn die schwere Entscheidung
   der Schließung einmal getroffen ist stehen viele Gastronomen vor dem selben Problem:

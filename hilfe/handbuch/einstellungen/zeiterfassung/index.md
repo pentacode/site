@@ -57,9 +57,9 @@ Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können 
 
 ## Zuordnung von Regelsätzen
 
-<figure caption="Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mitarbeitern zugeordnet werden." class="centered">
+{% figure caption="Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mitarbeitern zugeordnet werden.", extraClass="centered" %}
 <img src="regelsatz_zuordnen.gif">
-</figure>
+{% endfigure %}
 
 Regelsätze können einer beliebigen Anzahl von Standorten, Abteilungen und Mitarbeitern zugeordnet werden. Dies
 funktioniert wie folgt:

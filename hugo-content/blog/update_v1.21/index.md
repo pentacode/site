@@ -12,9 +12,9 @@ Auch version 1.21 bringt wieder mal einige tolle neue Features:
 
 ## Verfügbarkeiten
 
-<figure caption="Über die App können Ihre Mitarbeiter Verfügbarkeiten selbst eintragen!" class="float-right">
+{% figure caption="Über die App können Ihre Mitarbeiter Verfügbarkeiten selbst eintragen!", extraClass="float-right" %}
 <img src="ma-app.gif">
-</figure>
+{% endfigure %}
 
 Das Planen von Arbeitszeiten kann eine enorm komplizierte Aufgabe sein, gerade in Betrieben mit volatilen Arbeitszeiten
 und vielen Aushilfs- und Teilzeitkräften. Es reicht meist nicht zu wissen, wann wie viele Arbeitskräfte benötigt werden ‒
@@ -60,9 +60,9 @@ wählen Sie einfach aus, bis zu welchem Monat die Festschreibung gelten soll. Ar
 dann durch niemanden mehr bearbeitbar und Konten und Lohnabrechnungen bleiben unverändert, selbst wenn Sie Änderungen an
 Mitarbeiterverträgen oder Zeiterfassungs-Regelsätzen vornehmen.
 
-<figure caption="Unter dem Punkt Einstellungen/Sonstiges können Sie nun ein Festschreibungs-Datum für Arbeitszeiten und Konten wählen.">
+{% figure caption="Unter dem Punkt Einstellungen/Sonstiges können Sie nun ein Festschreibungs-Datum für Arbeitszeiten und Konten wählen." %}
 <img src="zeiten-festschreiben.png">
-</figure>
+{% endfigure %}
 
 ## ... Und Mehr!
 

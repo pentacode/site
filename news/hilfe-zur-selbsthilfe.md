@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Hilfe zur Selbsthilfe
 summary: Mit der Wieder- oder Neueinstellung von Mitarbeitern können Sie die Zusammensetzung
   der Gehälter neu gestalten. Damit haben Sie die Gelegenheit, bei gleichem Auszahlungsgehalt

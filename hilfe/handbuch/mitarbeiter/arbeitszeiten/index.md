@@ -15,9 +15,9 @@ Die Arbeitszeitenübersicht zeigt Ihnen in tabellarischer Form alle geleisteten 
 
 Um zur Arbeitszeiten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** aus dem Hauptmenü und dort den Unterpunkt **Arbeitszeiten**.
 
-<figure caption="Die Arbeitszeitenübersicht zeigt Ihnen in tabellarischer Form alle geleisteten Arbeitszeiten und Tage eines Monats.">
+{% figure caption="Die Arbeitszeitenübersicht zeigt Ihnen in tabellarischer Form alle geleisteten Arbeitszeiten und Tage eines Monats." %}
 <img src="uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Das Arbeitszeitblatt
 
@@ -26,9 +26,9 @@ monatlichen Arbeitszeiten eines Mitarbeiters in einer
 übersichtlichen Listenansicht. Hier können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden
 vergleichen und vieles mehr. Um zum Arbeitszeitblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht) und wählen dort den gewünschten Mitarbeiter.
 
-<figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr">
+{% figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
 <img src="arbeitszeitblatt.png" />
-</figure>
+{% endfigure %}
 
 > {% icon "lightbulb" %} **Tipp:** Verwenden Sie Ihre Tastatur, um noch schneller zwischen Monaten, Tagen und
 > Einträgen zu wechseln! Mit der {% key "a" %} Taste springen Sie in den vorherigen Monat, die {% key "d" %} Taste
@@ -82,9 +82,9 @@ Wenn Sie eine Arbeitszeit zur Bearbeitung wählen oder eine neue Arbeitszeit erf
 Bearbeitungsformular präsentiert, wo Sie Sie Plan- und Ist-Zeiten einer Schicht sowie Pausen, Mitarbeiteressen und
 einiges mehr bearbeiten können. Im Folgenden möchten wir kurz auf die enthaltenen Felder und deren Bedeutung eingehen.
 
-<figure caption="Über das Bearbeitungsformular können Sie Plan- und Ist-Zeiten einer Schicht sowie Pausen, Mitarbeiteressen und einiges mehr bearbeiten.">
+{% figure caption="Über das Bearbeitungsformular können Sie Plan- und Ist-Zeiten einer Schicht sowie Pausen, Mitarbeiteressen und einiges mehr bearbeiten." %}
 <img src="bearbeitungsformular.png" />
-</figure>
+{% endfigure %}
 
 ### Position
 
@@ -305,9 +305,9 @@ letzten 13 Wochen, multipliziert mit dem Betrag der abgebuchten Tage.
 Pentacode bietet Ihnen einige Optionen, die Arbeitszeiten eines oder aller Ihrer Mitarbeiter zu exportieren, sei es für
 Archivierungszwecke, zur Überprüfung durch den Mitarbeiter oder für die Übermittlung in die Lohnbuchhaltung.
 
-<figure caption="Arbeitszeiten 'AZ' und bezahlte Zeiten 'Bez' sind in diesem Beispiel identisch, da Pausen **nicht** bezahlt werden" class="float-right">
+{% figure caption="Arbeitszeiten 'AZ' und bezahlte Zeiten 'Bez' sind in diesem Beispiel identisch, da Pausen **nicht** bezahlt werden", extraClass="float-right" %}
 <img src="arbeitzeiten-nachweis.png" />
-</figure>
+{% endfigure %}
 
 ### Arbeitszeiten Nachweis
 
@@ -334,9 +334,9 @@ der rechten oberen Ecke und wählen die Option "Arbeitszeitnachweis".
 > bestätigt der Mitarbeiter mit der Unterschrift die Richtigkeit der Dokumentation. Dies dient Ihrem Schutz vor späteren
 > Anfechtungen.
 
-<figure caption="Die Lohnabrechnung entspricht dem 'Arbeitszeiten Nachweis', ist jedoch wesentlich detaillierter" class="float-right">
+{% figure caption="Die Lohnabrechnung entspricht dem 'Arbeitszeiten Nachweis', ist jedoch wesentlich detaillierter", extraClass="float-right" %}
 <img src="lohnabrechnung-individuell.png" />
-</figure>
+{% endfigure %}
 
 ### Lohnabrechnung Individuell
 
@@ -364,9 +364,9 @@ an Ihr Lohnbüro gut geeignet und dient als Alternative zum direkten Export/Impo
 
 Um die Lohnabrechung-Übersicht eines Monats auszudrucken, gehen Sie in die [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht), klicken dort den {% button icon="file-export" %}-Button und wählen die Option "Lohnabrechnung-Übersicht".
 
-<figure caption="Die Lohnabrechnung-Übersicht fasst die Arbeitsstunden Ihrer Mitarbeiter in einer tabellarischen Ansicht zusammen.">
+{% figure caption="Die Lohnabrechnung-Übersicht fasst die Arbeitsstunden Ihrer Mitarbeiter in einer tabellarischen Ansicht zusammen." %}
 <img src="lohnabrechnung-übersicht.png" />
-</figure>
+{% endfigure %}
 
 > {% icon "lightbulb " %} **Tipp:** Falls sie Ihre Lohnabrechnung nicht vom ersten bis zum letzten Tag des Monats,
 > sondern **monatsübergreifend** vornehmen, können Sie bei der Lohnabrechnung-Übersicht auch einen abweichenden Zeitraum

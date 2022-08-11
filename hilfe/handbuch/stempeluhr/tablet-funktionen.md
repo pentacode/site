@@ -42,31 +42,31 @@ In der Rubrik "**Geplant**" sehen Sie die Mitarbeiter, die zum Dienst erwartet w
 
 In der **Standardeinstellung** sind die Mitarbeiter **aller Abteilungen** sichtbar.
 
-<figure caption="Ansicht der Zeiterfassung am Tablet">
+{% figure caption="Ansicht der Zeiterfassung am Tablet" %}
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead8ae5042863474d1a080b/file-71Bbk35Nqw.png)
 
-</figure>
+{% endfigure %}
 
 ## Abteilungen auswählen
 
 Sollten Sie **mehrere Tablets** in Ihrem Betrieb verwenden, so können Sie durch das Antippen von "**Alle Abteilungen**" unter der Datumsangabe auf dem Tablet jene **Abteilungen auswählen**, deren Mitarbeiter an einem bestimmten Tablet gezeigt werden sollen.
 
-<figure caption="Abteilungen können von der Anzeige abgewählt werden, indem Sie den entsprechenden Button deaktivieren">
+{% figure caption="Abteilungen können von der Anzeige abgewählt werden, indem Sie den entsprechenden Button deaktivieren" %}
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5dd29b3f04286364bc91dcd3/images/5ead8bb2042863474d1a080d/file-g9rRjVw07R.png)
 
-</figure>
+{% endfigure %}
 
 ## Log-in durch Mitarbeiter
 
 Mitarbeiter **loggen** sich über Ihren 4-stelligen PIN zu **Beginn** ihrer **Schicht** ein und zu deren **Ende** wieder aus und registrieren **eventuelle** (oder zusätzliche) **Pausen**. (siehe hierzu den Hilfeartikel "**Regeleinstellung der Zeiterfassung**")
 
-<figure caption="Nach Eingabe seines PINs beginnt der Mitarbeiter seinen Arbeitstag durch 'Schicht Beginnen'">
+{% figure caption="Nach Eingabe seines PINs beginnt der Mitarbeiter seinen Arbeitstag durch 'Schicht Beginnen'" %}
 
 ![](/uploads/log-in2.png)
 
-</figure>
+{% endfigure %}
 
 Den Umfang, in dem der Mitarbeiter **Auskunft** über den Stand seiner **Arbeitskonten** erhält, bestimmen Sie in den "**Regeleinstellungen der Zeiterfassung**".
 
@@ -76,29 +76,29 @@ Wenn Sie in den **Einstellungen** der Zeiterfassung als **Pausenmodus** "**Autom
 
 Wenn Sie als Einstellung "**Automatisch + Manuell**" oder "**Manuell**" gewählt haben und der Mitarbeiter **nach erfolgtem Log-in** seinen PIN eingibt, hat er die Möglichkeit, seine **Schicht zu beenden** oder sich zur (zusätzlichen) **Pause** auszustempeln
 
-<figure caption="Der Mitarbeiter hat bei erneutem Log-in die Wahl, sich zur Pause auszustempeln oder die Schicht zu beenden">
+{% figure caption="Der Mitarbeiter hat bei erneutem Log-in die Wahl, sich zur Pause auszustempeln oder die Schicht zu beenden" %}
 
 ![](/uploads/pause-ein.png)
 
-</figure>
+{% endfigure %}
 
 Hat sich der Mitarbeiter zur **Pause ausgestempelt** und logt sich mit seinem PIN erneut ein, kann er lediglich die **Pause beenden**.
 
-<figure caption="Hat sich der Mitarbeiter zur Pause ausgestempelt, kann er nach erneutem Log in lediglich die Pause beenden">
+{% figure caption="Hat sich der Mitarbeiter zur Pause ausgestempelt, kann er nach erneutem Log in lediglich die Pause beenden" %}
 
 ![](/uploads/pause-aus.png)
 
-</figure>
+{% endfigure %}
 
 ## Log-out
 
 Um seinen **Arbeitstag zu beenden**, wählt der Mitarbeiter nach Eingabe seines PINs "**Schicht beenden**"
 
-<figure caption="Nach Eingabe seines PINs beendet der Mitarbeiter seinen Arbeitstag durch 'Schicht beenden'">
+{% figure caption="Nach Eingabe seines PINs beendet der Mitarbeiter seinen Arbeitstag durch 'Schicht beenden'" %}
 
 ![](/uploads/log-out.png)
 
-</figure>
+{% endfigure %}
 
 ## Spontane Schicht
 
@@ -106,11 +106,11 @@ In den **_Einstellungen_** der Zeiterfassung haben Sie festgelegt, ob Mitarbeite
 
 Meldet sich ein Mitarbeiter **außerhalb** dieses Zeitraums oder **ohne** geplante Arbeitszeit an, kann er eine **spontane Schicht** antreten.
 
-<figure caption="Weicht die Anmeldezeit vom Dienstplan ab, kann der Mitarbeiter eine spontane Schicht antreten">
+{% figure caption="Weicht die Anmeldezeit vom Dienstplan ab, kann der Mitarbeiter eine spontane Schicht antreten" %}
 
 ![](/uploads/spontane-schicht2.png)
 
-</figure>
+{% endfigure %}
 
 In diesem Fall erscheinen in der Tagesübersicht der Zeiterfassung beim Mitarbeiter ein **"?"** anstelle der geplanten Arbeitszeit. Das "?" zeigen Ihnen an, dass Arbeitszeiten geloggt wurden, die so nicht geplant waren.
 
@@ -120,11 +120,11 @@ Erfahren Sie hierzu mehr unter [**Tagesübersicht**](/hilfe/handbuch/zeiterfassu
 
 In den "**Regeleinstellungen der Zeiterfassung**" bestimmen Sie weiterhin, ob Mitarbeiter den **Dienstplan** der laufenden Woche am Tablet **einsehen** können.
 
-<figure caption="Durch 'Wischen' können Mitarbeiter die Folgewochen einsehen">
+{% figure caption="Durch 'Wischen' können Mitarbeiter die Folgewochen einsehen" %}
 
 ![](/uploads/dienstplan-tablet.png)
 
-</figure>
+{% endfigure %}
 
 Da der hier **gezeigte** Dienstplan immer dem **aktuellen** Dienstplan in Pentacode entspricht, ist es unsere Empfehlung, den Mitarbeitern hier Einsicht zu geben.
 
@@ -142,11 +142,11 @@ Ihre Stempeluhr und Pentacode stehen miteinander in Verbindung. Die **Synchronis
 
 Sie können die **Synchronisation** jedoch auch **manuell** anstoßen, indem Sie auf die **Datumsanzeige tippen**, die Sie am unteren Bildrand der Stempeluhr sehen.
 
-<figure caption="Durch Antippen der Datumsleiste synchronisieren Sie die Stempeluhr manuell">
+{% figure caption="Durch Antippen der Datumsleiste synchronisieren Sie die Stempeluhr manuell" %}
 
 ![](/uploads/synchro.png)
 
-</figure>
+{% endfigure %}
 
 ## Online-Offline-Status
 
@@ -154,10 +154,10 @@ Wie Pentacode selbst funktioniert auch die Stempeluhr, wenn Ihre Internetverbind
 
 Eine **funktionierende Internetverbindung** wird durch den **grünen** Punkt neben der Datumsleiste angezeigt. Ist die **Internetverbindung unterbrochen**, ist dieser Punkt **rot**.
 
-<figure caption="Eine funktionierende Internetverbindung wird durch den grünen Punkt angezeigt">
+{% figure caption="Eine funktionierende Internetverbindung wird durch den grünen Punkt angezeigt" %}
 
 ![](/uploads/status.png)
 
-</figure>
+{% endfigure %}
 
 > Im Falle einer unterbrochenen Internetverbindung können sich die Mitarbeiter weiterhin ein- und ausloggen oder Pausen stempeln. Während der Unterbrechung findet lediglich keine Synchronisation mit Pentacode statt.

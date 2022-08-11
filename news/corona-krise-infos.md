@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Wichtige Infos im Rahmen der Corona-Krise
 summary: Die Epidemie des Covid-19 Virus versetzt gerade die Gesamte Welt in einen
   Ausnahmezustand. Wie es bei uns weiter geht und welche Maßnahmen wir ergreifen,

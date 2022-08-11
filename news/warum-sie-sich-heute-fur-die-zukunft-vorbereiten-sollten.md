@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Warum Sie sich heute für die Zukunft vorbereiten sollten
 summary: Bis Sie Ihren Betrieb schließen mussten, hatten Sie einen klaren Blick nach
   vorne. Wenn Sie ihn wiedereröffnen, können Sie nicht mit Bestimmtheit sagen, wohin

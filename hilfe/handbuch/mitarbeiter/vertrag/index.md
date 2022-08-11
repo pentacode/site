@@ -19,9 +19,9 @@ und dort im Untermenü **Verträge** wählen.
 nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {% button icon="list-timeline", label="Vertragsänderungen" %} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen einzelne
 Mitarbeiter bringt Sie in die [Verträge-Einzelansicht](#verträge-einzelansicht) des Mitarbeiters.
 
-<figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick.">
+{% figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick." %}
 <img src="vertraege_uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Verträge Einzelansicht
 
@@ -32,9 +32,9 @@ Um einen bestimmten Vertrag zu öffnen, klicken Sie einfach auf den entsprechend
 {% button icon="list-timeline", label="Vertragsänderungen" %} kommen Sie in die [Vertragsänderungen-Ansicht](#vertragsänderungen-einzelansicht) des
 Mitarbeiters.
 
-<figure caption="">
+{% figure caption="" %}
 <img src="vertraege_einzelansicht.png" />
-</figure>
+{% endfigure %}
 
 ## Felder & Eigenschaften
 
@@ -313,9 +313,9 @@ nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {
 Mitarbeiter bringt Sie in die [Vertragsänderungen-Einzelansicht](#vertragsänderungen-einzelansicht) des Mitarbeiters.
 Außerdem können Sie über die Pfeiltasten und das Monats-Dropdown in der Kopfleiste den Zeitraum wechseln.
 
-<figure caption="Die Vertragsänderungen-Übersicht zeigt Ihnen die Vertragsänderungen alle Ihrer Mitarbeiter in einem bestimmten Monat.">
+{% figure caption="Die Vertragsänderungen-Übersicht zeigt Ihnen die Vertragsänderungen alle Ihrer Mitarbeiter in einem bestimmten Monat." %}
 <img src="vertragsaenderungen_uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ### Vertragsänderungen-Einzelansicht
 
@@ -326,6 +326,6 @@ linken unteren Ecke.
 
 Über den {% button icon="print" %}-Button können Sie diese Ansicht ausdrucken. Über den {% button icon="chevron-left", label="Verträge" %} Button gelangen Sie zurück zur [Verträge-Einzelansicht](#verträge-einzelansicht).
 
-<figure caption="Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick.">
+{% figure caption="Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick." %}
 <img src="vertragsaenderungen_einzelansicht.png" />
-</figure>
+{% endfigure %}

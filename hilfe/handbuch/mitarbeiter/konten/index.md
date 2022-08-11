@@ -65,9 +65,9 @@ erhalten, oder um zu sehen, wer in einem Monat besonders viele Über- oder Minde
 
 Sie gelangen in die Monats-Kontenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Konten** wählen.
 
-<figure caption="In der Monats-Kontenübersicht sehen Sie die Kontostände aller Mitarbeiter jeweils für einen einzelnen Monat.">
+{% figure caption="In der Monats-Kontenübersicht sehen Sie die Kontostände aller Mitarbeiter jeweils für einen einzelnen Monat." %}
 <img src="kontenuebersicht-monat.png" />
-</figure>
+{% endfigure %}
 
 ## Jahresübersicht
 
@@ -77,17 +77,17 @@ verschiedenen Konten wechseln, indem sie die gewünschte Kontenart über das Men
 
 In die Jahresübersicht gelangen Sie, indem Sie zunächst zur [Monatsansicht](#monatsübersicht) navigieren und dort in der rechten oben Ecke von der Option "Monat" auf "Jahr" wechseln.
 
-<figure caption="Die Konten-Jahresübersicht zeigt Ihnen wie der Name schon sagt die Konten all Ihrere Mitarbeiter jeweils für ein ganzes Jahr an.">
+{% figure caption="Die Konten-Jahresübersicht zeigt Ihnen wie der Name schon sagt die Konten all Ihrere Mitarbeiter jeweils für ein ganzes Jahr an." %}
 <img src="kontenuebersicht-jahr.png" />
-</figure>
+{% endfigure %}
 
 ## Kontenblatt
 
 Im Kontenblatt eines Mitarbeiters sehen Sie den gesamten Kontenverlauf vom Zeitpunkt des Beschäftigungsbeginns bis hin zum aktuellen Monat. Um zum Kontenblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Monatsübersicht](#monatsübersicht) oder [Jahresübersicht](#jahresübersicht) und wählen dort den gewünschten Mitarbeiter.
 
-<figure caption="Im Kontenblatt eines Mitarbeiters sehen Sie den gesamten Kontenverlauf vom Zeitpunkt des Beschäftigungsbeginns bis hin zum aktuellen Monat.">
+{% figure caption="Im Kontenblatt eines Mitarbeiters sehen Sie den gesamten Kontenverlauf vom Zeitpunkt des Beschäftigungsbeginns bis hin zum aktuellen Monat." %}
 <img src="kontenblatt.png" />
-</figure>
+{% endfigure %}
 
 ## Manuelle Buchungen
 
@@ -129,9 +129,9 @@ und klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu ü
 Um den eingetragenen Übertrag zu **entfernen**, fahren Sie mit der Maus über die entsprechende Zeile und
 klicken den {% button icon="trash" %} Button auf der linken Seite. Es wird dann wieder der "normale" Saldo des Vormonats übernommen.
 
-<figure caption="Das Bearbeiten von einzelnen Mitarbeiterkonten können Sie im Kontenblatt vornehmen.">
+{% figure caption="Das Bearbeiten von einzelnen Mitarbeiterkonten können Sie im Kontenblatt vornehmen." %}
 <img src="uebertrag-bearbeiten-einzeln.gif" />
-</figure>
+{% endfigure %}
 
 ### Kontenüberträge Mehrerer Mitarbeiter Bearbeiten
 
@@ -144,9 +144,9 @@ Um die Kontenüberträge eines Monats für mehrere (oder alle) Mitarbeiter "in e
 4. Füllen Sie die Spalten "Stunden", "Urlaub" und "SFN" mit den gewünschten Werten. Lassen Sie jene Mitarbeiter/Spalten,
    für die "normalen" Übertrag des Vormonats beibehalten möchten, einfach leer.
 
-<figure caption="Das Bearbeiten von mehreren Mitarbeiterkonten können Sie in der Jahresübersicht vornehmen.">
+{% figure caption="Das Bearbeiten von mehreren Mitarbeiterkonten können Sie in der Jahresübersicht vornehmen." %}
 <img src="uebertrag-bearbeiten-alle.gif" />
-</figure>
+{% endfigure %}
 
 ## Konten Drucken
 

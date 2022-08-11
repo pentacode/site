@@ -39,9 +39,9 @@ ist das Screening des Marktes und des Wettbewerbs wichtig. Machen Sie sich
 bewusst, wer mit Ihnen um die besten Talente konkurriert. Diesen Wettbewerb gilt
 es während des gesamten Recruitingprozesses nicht aus den Augen zu lassen.
 
-<figure caption="" class="">
+{% figure caption="", extraClass="" %}
 <img src="bild2.webp" alt="Zwei Frauen sitzen vor einem Laptop" />
-</figure>
+{% endfigure %}
 
 ## Der Titel: Eindeutig und auffindbar
 
@@ -64,9 +64,9 @@ Unternehmen passen und es im weitesten Sinne widerspiegeln. Durch die richtige
 Optik bekommen potenzielle Bewerber und Bewerberinnen einen unmittelbaren ersten
 Eindruck, der anspricht, Identifikation erzeugt und im Kopf bleibt.
 
-<figure caption="" class="float right width-40pc">
+{% figure caption="", extraClass="float right width-40pc" %}
 <img src="bild3.webp" alt="Bild von einem Neon-Zeichen von zwei sich gegenseitig schüttelnden Händen" />
-</figure>
+{% endfigure %}
 
 ## Die Aufgabenbeschreibung: unmissverständlich, übersichtlich, ehrlich
 
@@ -111,9 +111,9 @@ mitunter die mit der richtigen Einstellung. Das Potenzial von einer Person ganz
 individuell und fernab des beruflichen Werdegangs zu prüfen, kann große Chancen
 bieten.
 
-<figure caption="" class="">
+{% figure caption="", extraClass="" %}
 <img src="bild4.webp" alt="Bild von einer Dartscheibe mit einem Bullseye-Treffer." />
-</figure>
+{% endfigure %}
 
 ## Unternehmensprofil
 
@@ -147,9 +147,9 @@ die Texte möglicherweise sogar gar nicht selbst. Eine direkte, echte und
 unmittelbare Kommunikation ist aber das A und O, um Potenziale von Bewerbern
 einzuschätzen und einen echten Fit zu erzielen.
 
-<figure caption="" class="">
+{% figure caption="", extraClass="" %}
 <img src="bild5.webp" alt="Bild einer Frau, die vor ihrem Laptop sitzt und frustriert in einen Bleistift beißt." />
-</figure>
+{% endfigure %}
 
 ## Platzierung und Tracking
 

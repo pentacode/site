@@ -89,11 +89,11 @@ In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnel
 
 Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der Reihenfolge dargestellt, die Sie unter [Einstellungen / Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern) definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
-<figure caption="">
+{% figure caption="" %}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-04-05-tab-0-4.png)
 
-</figure>
+{% endfigure %}
 
 ## Mitarbeiter Sortieren
 
@@ -113,11 +113,11 @@ Der {% icon "arrow-left" %} **Zurück** Button am oberen Rand schließt das Tage
 
 > **Tipp**: Mit den Tasten {% key "w" %} **(auf)**, {% key "s" %} **(ab)**, {% key "a" %} **(links)** und {% key "d" %} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen. Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten. So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind" zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {% key "Esc" %}-**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
-<figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen.">
+{% figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen." %}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-3.png)
 
-</figure>
+{% endfigure %}
 
 ## Dienstplan-Tabs
 
@@ -147,11 +147,11 @@ Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das Be
 
 > **Tipp:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie schnell zwischen unterschiedlichen Ansichten wechseln!
 
-<figure caption="Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten.">
+{% figure caption="Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten." %}
 
 ![](/uploads/demo-pentaco-de_employees_21036_permissions_venue-135-date-2021-03-01-tab-0.png)
 
-</figure>
+{% endfigure %}
 
 ### Mitarbeiter Suchen
 
@@ -169,11 +169,11 @@ Die **Schichtvorschläge** in Pentacode sind ein mächtiges Hilfsmittel, das Ihn
 
 Auf der rechten Seite des Dienstplans finden Sie die **globalen Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten. Um einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese einfach per **Drag & Drop** in das entsprechende Feld.
 
-<figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eigetragen.">
+{% figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eigetragen." %}
 
 ![](/uploads/screenshot-2021-02-27-at-14-11-46.png)
 
-</figure>
+{% endfigure %}
 
 ### Tages- und MA-spezifische Vorschläge
 
@@ -221,23 +221,23 @@ Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an, w
 
 > **Tipp:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan benachrichtigen zu können, wird eine Emailadresse benötigt. Diese können Sie in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der einzelnen Mitarbeiter hinterlegen.
 
-<figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden.">
+{% figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." %}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0-1.png)![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-02-27-tab-0.png)
 
-</figure>
+{% endfigure %}
 
 ### Dienstplan Teilen
 
 Sobald Sie Ihren Dienstplan veröffentlicht haben, generiert Pentacode automatisch einen öffentlichen Link für Sie, den Sie mit beliebigen Personen (auch außerhalb Ihres Unternehmens) teilen können.
 
-<figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leuten teilen.">
+{% figure caption="Über die öffentliche Dienstplan-Seite können Sie Ihren Dienstplan mit beliebig vielen Leuten teilen." %}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-25-tab-0.png)
 
 ![](/uploads/demo-pentaco-de_dp__id-f4ccd654f5e014bd.png)
 
-</figure>
+{% endfigure %}
 
 ## Dienstplan Drucken
 
@@ -253,11 +253,11 @@ Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie
 
 > **Beachten Sie:** Diese Option ist nur verfügbar, solange keine unveröffentlichten Änderungen vorliegen.
 
-<figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite.">
+{% figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite." %}
 
 ![](/uploads/demo-pentacode-app_roster_venue-261-date-2021-03-01-tab-0-ipad-1.png)
 
-</figure>
+{% endfigure %}
 
 ### Teil-Dienstpläne Veröffentlichen
 
@@ -273,11 +273,11 @@ Um eine Vorlage zu erstellen, navigieren Sie zunächst in eine "leere" Woche und
 
 > **Achtung:** Wählen Sie für die Erstellung einer Dienstplanvorlage immer eine **zukünftige Woche**! Es werden nur Einträge mit vorhandenen **Planzeiten** gespeichert. Abgeschlossene Arbeitstage werden bei der Erstellung der Vorlage ignoriert.
 
-<figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!">
+{% figure caption="Vergessen Sie nicht, Ihrer Vorlage einen Namen zu geben!" %}
 
 ![](/uploads/demo-pentacode-app_roster_venue-261-date-2021-03-01-tab-0-ipad.png)
 
-</figure>
+{% endfigure %}
 
 ### Vorlage Anwenden
 
@@ -301,11 +301,11 @@ Das Schreiben eines "fehlerfreien" Dienstplans ist keine einfache Angelegenheit.
 
 Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen, Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im Dienstplan-Menü unter dem Bereich {% icon "exclamation-triangle" %} **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie direkt zum betroffenen Eintrag, wo Sie eventuelle Fehler korrigieren können.
 
-<figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben.">
+{% figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben." %}
 
 ![](/uploads/demo-pentaco-de_roster_venue-135-date-2021-03-24-tab-0-2.png)
 
-</figure>
+{% endfigure %}
 
 ### Schichten Spiegeln
 
@@ -335,27 +335,27 @@ Oft verliert eine Planung ihre Bedeutung, sobald sie beendet ist. Dabei macht ei
 
 Durch das Anklicken des {% icon "chart-line" %}-**Symbols** erscheinen am Fuß des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten** gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur Sozialversicherung.
 
-<figure caption="Über das Diagramm-Symbol werden Plan- und Ist-Kosten sichtbar gemacht">
+{% figure caption="Über das Diagramm-Symbol werden Plan- und Ist-Kosten sichtbar gemacht" %}
 
 ![](/uploads/vergleich.png)
 
-</figure>
+{% endfigure %}
 
 Sollten sich die **Felder** mit Angabe der €-Beträge **überlappen**, werden die jeweiligen Beträge durch "**Mouse-over**" sichtbar.
 
-<figure caption="Durch einen Mouse-over werden einander überlappende Kennzahlen dargestellt">
+{% figure caption="Durch einen Mouse-over werden einander überlappende Kennzahlen dargestellt" %}
 
 ![](/uploads/plan-ist1.png)
 
-</figure>
+{% endfigure %}
 
 In der Standard-Einstellung werden die Gesamtkosten in "**Alle Abteilungen**" gezeigt. Über das **Dropdown-Menü** können Sie **einzelne Abteilungen** auswählen.
 
-<figure caption="Über den Drop-down-Pfeil können Sie einzelne Abteilungen auswählen">
+{% figure caption="Über den Drop-down-Pfeil können Sie einzelne Abteilungen auswählen" %}
 
 ![](/uploads/plan-ist2.png)
 
-</figure>
+{% endfigure %}
 
 Durch **erneutes Anklicken** des {% icon "chart-line" %}-**Symbols** wird die Plan-Ist-Anzeige wieder **ausgeblendet**.
 

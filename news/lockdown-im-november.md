@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Lockdown im November – endlich ein deutliches Zeichen an die Gastronomen
 summary: Die Politik hat anscheinend begriffen, dass für den November Lockdown eine
   echte Unterstützung der Betriebe notwendig ist. Sie als Gastronomen und Hoteliers

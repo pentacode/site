@@ -74,6 +74,6 @@ Dies tun sie wie folgt:
 3. Klicken Sie auf **Zeitraum wählen...** und wählen Sie den Monat, bis zu welchem Arbeitszeiten und Konten festgeschrieben werden sollen.
 4. Klicken sie auf **Bestätigen**.
 
-<figure caption="Unter dem Punkt Einstellungen > Sonstiges können Sie ein Festschreibungsdatum für Arbeitszeiten und Konten festlegen.">
+{% figure caption="Unter dem Punkt Einstellungen > Sonstiges können Sie ein Festschreibungsdatum für Arbeitszeiten und Konten festlegen." %}
 <img src="zeiten-festschreiben.png" />
-</figure>
+{% endfigure %}

@@ -20,9 +20,9 @@ die wichtigsten Informationen angezeigt werden. Klicken Sie auf eine der
 Ausschreibungen, öffnet sich diese im mittigen Fenster und Sie können den Text,
 sowie alle Details der Ausschreibung einsehen.
 
-<figure caption="Klicken Sie auf eine ihrer Stellenanzeigen um diese zu öffnen">
+{% figure caption="Klicken Sie auf eine ihrer Stellenanzeigen um diese zu öffnen" %}
 <img src="übersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Ausschreibung erstellen
 
@@ -216,9 +216,9 @@ kann er ein Bild von sich hochladen, um es der Bewerbung beizufügen. Mit einem
 Klick auf {% button label="Absenden" %} landet die Bewerbung nun direkt in ihrem
 Pentacode Verwaltungszugang.
 
-<figure caption="Das Bewerberformular bietet einen Überblick über die wichtigsten Daten und ist schnell ausgefüllt">
+{% figure caption="Das Bewerberformular bietet einen Überblick über die wichtigsten Daten und ist schnell ausgefüllt" %}
 <img src="bewerberansicht.png"/>
-</figure>
+{% endfigure %}
 
 ### Bewerber einsehen
 
@@ -228,9 +228,9 @@ der entsprechenden Ausschreibung unterhalb der Beschreibung, wo Sie
 Namen, Profilbild und Alter (falls angegeben) und die Verfügbarkeit des
 Mitarbeiters sehen. Klicken Sie auf einen Bewerber, um dessen Detailansicht zu öffnen.
 
-<figure caption="Klicken Sie auf einen Bewerber um die Detailansicht zu öffnen.">
+{% figure caption="Klicken Sie auf einen Bewerber um die Detailansicht zu öffnen." %}
 <img src="personaleransicht.png" />
-</figure>
+{% endfigure %}
 
 ### Bewerber einstellen
 

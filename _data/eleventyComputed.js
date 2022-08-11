@@ -34,12 +34,16 @@ module.exports = {
         : data.cover.startsWith("http") || data.cover.startsWith("/")
           ? data.cover
           : `${data.page.url}/${data.cover}`,
-    date: (data) => data.date,
-    hero_title: (data) => data.hero_title,
-    hero_subtitle: (data) => data.hero_subtitle,
-    hero_text: (data) => data.hero_text,
+    date: (data) => data.date || data.page.date || new Date(),
+    publishDate: (data) => data.publishDate || data.page.publishDate || new Date(),
+    hero_title: (data) => data.hero_title || data.page.hero_title,
+    hero_subtitle: (data) => data.hero_subtitle || data.page.hero_subtitle,
+    hero_text: (data) => data.hero_text || data.page.hero_text,
+    draft: (data) => data.draft || data.page.draft,
     url: (data) => data.page.url,
     anchors: (data) => data.anchors || data.page.anchors,
+    categories: (data) => data.categories || data.page.categories,
+    author: (data) => data.author || data.page.author,
   },
   currentYear: new Date().getFullYear(),
 };

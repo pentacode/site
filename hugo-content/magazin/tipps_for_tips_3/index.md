@@ -14,9 +14,9 @@ attraktiver, aufrichtiger, geselliger und kompetenter empfunden werden**, als ni
 zwischenmenschliche Wirkung von Lächeln lässt die Vermutung zu, **dass Kellner ihr Trinkgeld erhöhen können, indem sie
 ihre Gäste anlächeln**. Titt und Lockard haben diese Möglichkeit in einer Cocktaillounge in Seattle getestet [^5].
 
-<figure caption="" class="float right">
+{% figure caption="", extraClass="float right" %}
 <img src="bild2.jpg" />
-</figure>
+{% endfigure %}
 
 ## Breites und schmales Lächeln – ein Trinkgeld-Unterschied von 140%
 
@@ -29,9 +29,9 @@ Prozent.**
 
 ## Studien belegen: Emotionale Ansprache hat einen Effekt
 
-<figure caption="" class="float left">
+{% figure caption="", extraClass="float left" %}
 <img src="bild4.jpg" />
-</figure>
+{% endfigure %}
 
 Es ist schwierig, vorherzusagen, welchen Effekt dies auf Restaurantkellner hat, da die durchschnittliche Rechnung in
 Restaurants typischerweise höher und das Trinkgeld des Einzelgastes größer ist, als in Cocktaillounges. Die erzielten

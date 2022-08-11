@@ -40,9 +40,9 @@ Sie gelangen in die Verfügbarkeiten-Übersicht, indem Sie im Hauptmenü den Pun
 > {% icon "filter" %}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
 > bestimmter Abteilungen beschränken.
 
-<figure caption="In der Verfügbarkeiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Verfügbarkeiten aller Ihrer Mitarbeiter auf einen Blick.">
+{% figure caption="In der Verfügbarkeiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Verfügbarkeiten aller Ihrer Mitarbeiter auf einen Blick." %}
 <img src="uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Einzelansicht
 
@@ -50,9 +50,9 @@ Sie gelangen in die Verfügbarkeiten-Übersicht, indem Sie im Hauptmenü den Pun
 
 Um in die Verfügbarkeiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Verfügbarkeiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
 
-<figure caption="Über die Verfügbarkeiten-Einzelansicht können Sie die Verfügbarkeiten eines einzelnen Mitarbeiters einsehen und bearbeiten.">
+{% figure caption="Über die Verfügbarkeiten-Einzelansicht können Sie die Verfügbarkeiten eines einzelnen Mitarbeiters einsehen und bearbeiten." %}
 <img src="einzeln.png" />
-</figure>
+{% endfigure %}
 
 ## Verfügbarkeit Erfassen
 
@@ -70,9 +70,9 @@ So funktioniert das **Erfassen einer neuen Verfügbarkeit**:
 5. Klicken Sie auf {% button label="Speichern" %} um die Verfügbarkeit **übernehmen** oder
    {% button label="Abbrechen" %} um sie zu **verwerfen**.
 
-<figure caption="Indem Sie die Maustaste gedrückt halten können Sie direkt den kompletten Zeitraum der Verfügbarkeit selektieren.">
+{% figure caption="Indem Sie die Maustaste gedrückt halten können Sie direkt den kompletten Zeitraum der Verfügbarkeit selektieren." %}
 <img src="neue-verfuegbarkeit.gif" />
-</figure>
+{% endfigure %}
 
 ## Verfügbarkeit Bearbeiten
 

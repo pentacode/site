@@ -19,21 +19,21 @@ Wenn Sie auf das {% icon "tasks-alt" %}-Symbol klicken, erscheint am **Fuß jede
 
 Beim Anklicken des Feldes "Stundenvorgaben" werden Sie in den Bereich "Planung" und dort in den Menüpunkt "Stundenvorgabe" geführt.
 
-<figure caption="Durch Anklicken des Feldes 'Stundenvorgabe' gelangen Sie in den Bereich 'Planung'">
+{% figure caption="Durch Anklicken des Feldes 'Stundenvorgabe' gelangen Sie in den Bereich 'Planung'" %}
 
 ![/uploads/stunden-zeigen.png](/uploads/stunden-zeigen.png)
 
-</figure>
+{% endfigure %}
 
 Hier finden Sie die Liste der Abteilungen, die Sie in Pentacode angelegt haben.
 
 Wenn Sie dann auf das **Ø**-Symbol klicken, erscheint die **Anzahl der Stunden**, die an den betreffenden Wochentagen jeweils im Durchschnitt der **letzten 4 Wochen** tatsächlich angefallen sind. Über das Dropdown am Kopfende können Sie jederzeit einen anderen Zeitraum bestimmen.
 
-<figure caption="In der Standardeinstellung sehen Sie den durchschnittlichen Stundenaufwand der letzten 4 Wochen">
+{% figure caption="In der Standardeinstellung sehen Sie den durchschnittlichen Stundenaufwand der letzten 4 Wochen" %}
 
 ![/uploads/stundenvorgaben1.png](/uploads/stundenvorgaben1.png)
 
-</figure>
+{% endfigure %}
 
 Diese Angaben sollen Ihrer ersten Orientierung dienen.
 
@@ -41,11 +41,11 @@ Sie können diese Stundenangaben jederzeit **überschreiben**. Der **gewählte W
 
 > Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment befinden. Wenn Sie den Button bei "**Als Standard Verwenden**" setzen, werden diese Vorgaben für alle folgenden Wochen angewendet.
 
-<figure caption="So können Sie Stundenvorgaben als Standard für die folgenden Wochen setzen">
+{% figure caption="So können Sie Stundenvorgaben als Standard für die folgenden Wochen setzen" %}
 
 ![/uploads/stunden-standard.png](/uploads/stunden-standard.png)
 
-</figure>
+{% endfigure %}
 
 > Wenn Sie einen gewählten Wert an einem Tag überschreiben, gilt dieser nur für diesen einen Tag. Wenn der neue Wert dauerhaft verwendet werden soll, speichern Sie einfach wieder unter "Als Standard Verwenden". Er wird dann dauerhaft auch in Zukunft gelten.
 
@@ -53,11 +53,11 @@ Im Dienstplan finden Sie nun die gewählten Stundenvorgaben in der Fußzeile ein
 
 **Überschreitet** im Dienstplan die Stundenanzahl der **Planung** die **Vorgabe**, wird das Feld im jeweiligen Tag in **Rot** gekennzeichnet.
 
-<figure caption="Eine Überschreitung der Stundenvorgabe bei der Dienstplanung wird in Rot angezeigt">
+{% figure caption="Eine Überschreitung der Stundenvorgabe bei der Dienstplanung wird in Rot angezeigt" %}
 
 ![/uploads/stundenanzeige-dp.png](/uploads/stundenanzeige-dp.png)
 
-</figure>
+{% endfigure %}
 
 Ihre Ziele können Sie jederzeit **neu definieren**, indem Sie auf "**Planungsziele**" klicken.
 
@@ -69,34 +69,34 @@ Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvor
 
 Durch das Anklicken des **€**-Symbols in der Fußleiste werden Ihren Stundenvorgaben die Planumsätze hinzugefügt und die daraus resultierende **Produktivität** gezeigt. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde**.
 
-<figure caption="So können Sie Ihre Stundenvorgaben mit Ihren Umsatz-Zielen verknüpfen">
+{% figure caption="So können Sie Ihre Stundenvorgaben mit Ihren Umsatz-Zielen verknüpfen" %}
 
 ![/uploads/umsatzpl-9.png](/uploads/umsatzpl-9.png)
 
-</figure>
+{% endfigure %}
 
 Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung der Produktivität führt.
 
-<figure caption="Ein Mouse-over zeigt den Rechenweg">
+{% figure caption="Ein Mouse-over zeigt den Rechenweg" %}
 
 ![/uploads/umsatzpl-10.png](/uploads/umsatzpl-10.png)
 
-</figure>
+{% endfigure %}
 
 Im oben gezeigten Beispiel wurde für die Abteilung Service am Montag ein Umsatz von 1.270 € geplant. Der Stundenaufwand im Standard sieht für diesen Tag 20 Arbeitsstunden. Dies würde zu einer Produktivität von 63,50 € führen.
 
-<figure caption="Eine Veränderung der Stundenanzahl führt zu einer Veränderung der Produktivität">
+{% figure caption="Eine Veränderung der Stundenanzahl führt zu einer Veränderung der Produktivität" %}
 
 ![/uploads/umsatzpl-11.png](/uploads/umsatzpl-11.png)
 
-</figure>
+{% endfigure %}
 
 Soll z.B eine Produktivität von ca. 80 € / Stunde erreicht werden, muss die Stundenanzahl von 20 auf 16 gekürzt werden. Die von Ihnen auf diese Weise vorgegebene Stundenanzahl erscheint entsprechend im Dienstplan.
 
-<figure caption="Die Stundenvorgabe ändert sich im Dienstplan entsprechend">
+{% figure caption="Die Stundenvorgabe ändert sich im Dienstplan entsprechend" %}
 
 ![/uploads/umsatzpl-12.png](/uploads/umsatzpl-12.png)
 
-</figure>
+{% endfigure %}
 
 Jeder neu gesetzte Standard gilt immer nur für die **Zukunft**. Vergangene Wochen werden durch einen neuen Standard nicht beeinflusst.

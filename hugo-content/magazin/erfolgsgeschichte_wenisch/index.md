@@ -21,9 +21,9 @@ Vision des Personalmanagements unterhalten.
 
 ## Liebe zum Detail und Genuss an jeder Ecke: Willkommen bei Familie Wenisch!
 
-<figure caption="Anton Wenisch, Kopf des Wenisch Genuss-Imperiums" class="float left width-30pc">
+{% figure caption="Anton Wenisch, Kopf des Wenisch Genuss-Imperiums", extraClass="float left width-30pc" %}
 <img src="bild2.jpg" />
-</figure>
+{% endfigure %}
 
 Wir treffen Anton <cite>„Toni“</cite> Wenisch an einem Donnerstagvormittag hinter der Bar des
 Toni’s. Es ist viel los - Mittagstisch - und natürlich packt der Chef mit an.
@@ -42,9 +42,9 @@ alles hier in Gang gesetzt hat.“</cite>
 
 ## Ausbildung und Handwerk als starkes Fundament
 
-<figure class="float right width-40pc">
+{% figure extraClass="float right width-40pc" %}
 <img src="bild3.jpg" />
-</figure>
+{% endfigure %}
 
 Das Thema Demut prägt nicht nur den Vater der jungen Wenisch Männer, die als
 gelernte Metzgermeister, Köche und Servicekräfte heute alle Betriebe des
@@ -78,15 +78,15 @@ wie im Urlaub fühlen. Deswegen legen wir großen Wert auf besondere
 Gastronomieerlebnisse. Das ist unsere Nische, unser USP, der uns von anderen
 Stadthotels klar abgrenzt.“</cite>
 
-<figure caption="Generationswechsel: Traditionen aufgreifen, aber das eigene Profil schärfen">
+{% figure caption="Generationswechsel: Traditionen aufgreifen, aber das eigene Profil schärfen" %}
 <img src="bild4.jpg" />
-</figure>
+{% endfigure %}
 
 ## Ein Genuss-Ort für jeden: Zielgruppen erkennen und alle willkommen heißen
 
-<figure caption="Ein Genuss-Ort für jeden: Zielgruppen erkennen und alle willkommen heißen" class="float right width-40pc">
+{% figure caption="Ein Genuss-Ort für jeden: Zielgruppen erkennen und alle willkommen heißen", extraClass="float right width-40pc" %}
 <img src="bild5.jpg" />
-</figure>
+{% endfigure %}
 
 Jeder der einmal im Toni’s zu Gast war, wird es unterschreiben: Es herrscht eine
 ganz besondere Atmosphäre. <cite>„Das Schöne ist, unsere Gäste kommen zum Einen durch
@@ -110,9 +110,9 @@ dass seine Mitarbeitenden immer motiviert bleiben und ihr Bestes geben.
 
 ## Erfolgsrezept: Personalmanagement das "menschelt" und vorausschauend wirtschaftet
 
-<figure class="float left width-40pc">
+{% figure extraClass="float left width-40pc" %}
 <img src="bild6.jpg" />
-</figure>
+{% endfigure %}
 
 <cite>„Du darfst die Leute nicht unter-, aber auch nicht überfordern - die Zeiten sind
 vorbei, in denen man die Kapazitäten bis zum Anschlag ausgereizt hat.
@@ -154,9 +154,9 @@ auch, weil sie durch die Software zu jeder Zeit vor Augen haben, wie es mit
 Urlaubstagen und Co. aussieht. Sie können ja immer in die App schauen oder sich
 den Stand ausdrucken. Das schafft Vertrauen.“
 
-<figure>
+{% figure %}
 <img src="bild7.jpg" />
-</figure>
+{% endfigure %}
 
 ## Viel richtig gemacht: Der Familienbetrieb als gutes Beispiel für gesundes Wachstum
 

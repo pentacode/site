@@ -34,9 +34,9 @@ für mich alle Zweifel aus dem Weg geräumt. Das Programmieren liegt mir und ich
 gerne. Was Software-Entwicklung für mich aber so befriedigend macht, ist die Wirkung, die
 gute Software auf das Leben anderer Menschen haben kann.
 
-<figure caption="Martin Kleinschrodt, Chefentwickler bei Pentacode" class="float right width-30pc">
+{% figure caption="Martin Kleinschrodt, Chefentwickler bei Pentacode", extraClass="float right width-30pc" %}
 <img src="bild2.webp" />
-</figure>
+{% endfigure %}
 
 _**JT: Was meinst Du mit Wirkung im Genauen?**_
 
@@ -84,9 +84,9 @@ getan werden muss, die Arbeit intuitiv und spielerisch von der Hand geht. Das
 gibt das Gefühl, dass man die Software beherrscht und nicht von ihr beherrscht
 wird.
 
-<figure caption="" class="float left width-30pc">
+{% figure caption="", extraClass="float left width-30pc" %}
 <img src="bild3.webp" />
-</figure>
+{% endfigure %}
 
 _**JT: Was bedeutet das für Deine Arbeit?**_
 
@@ -130,9 +130,9 @@ bringen. „Customer Success“ steht bei uns in der Priorisierung ganz weit obe
 Das hebt uns von den meisten anderen Anbietern ab und macht einen großen Teil
 unseres eigenen Erfolgs aus.
 
-<figure caption="Martin zusammen mit Pentacode Gründer Lorenz Strasser" class="">
+{% figure caption="Martin zusammen mit Pentacode Gründer Lorenz Strasser", extraClass="" %}
 <img src="bild4.webp" />
-</figure>
+{% endfigure %}
 
 _**JT: Kommt der Kunde auch zur Sprache, wenn es um die Weiterentwicklung von Pentacode geht?**_
 

@@ -86,8 +86,8 @@ module.exports = (config) => {
 
     config.addPairedNunjucksShortcode(
         "figure",
-        (content, { caption }) =>
-            html` <figure>${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}</figure> `
+        (content, { caption, extraClass = "" }) =>
+            html` <figure class="${extraClass}">${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}</figure> `
     );
 
     config.addNunjucksShortcode("relref", (ref) => ref);
@@ -130,9 +130,10 @@ module.exports = (config) => {
         return items.find((item) => item.order === this.ctx.eleventyNavigation.order - 1);
     });
 
-    config.addFilter("formatDate", (date) => (date ? new Date(date).toDateString() : ""));
-    config.addFilter("orderByDate", (coll) => coll.sort((a, b) => b.date - a.date));
+    config.addFilter("formatDate", (date) => (date ? new Date(date).toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) : ""));
+    config.addFilter("orderByDate", (coll) => coll.sort((a, b) => (b.publishDate || b.date) - (a.publishDate || a.date)));
     config.addFilter("sortByWeight", (coll) => coll.sort((a, b) => b.weight - a.weight));
+    config.addFilter("excludeDrafts", (coll) => coll.filter((item) => !item.draft));
 
     config.addTransform("htmlmin", minifyHtml);
 

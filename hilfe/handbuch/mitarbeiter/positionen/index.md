@@ -24,9 +24,9 @@ können diese schnell und einfach bearbeiten.
 
 Sie gelangen in die Positionenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Positionen** wählen.
 
-<figure caption="Über die Positionen-Übersicht verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrere Mitarbeiter und können diese schnell und einfach bearbeiten.">
+{% figure caption="Über die Positionen-Übersicht verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrere Mitarbeiter und können diese schnell und einfach bearbeiten." %}
 <img src="positionen-uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Positionen Einzelansicht
 
@@ -34,9 +34,9 @@ Wenn Sie die Positionen eines bestimmten Mitarbeiters einsehen oder bearbeiten m
 Positionen-Einzelansicht einer Person, indem Sie zunächst zur [Positionenübersicht](#positionen-übersicht)
 navigieren und dort den gewünschten Mitarbeiter wählen.
 
-<figure caption="In der Positionen-Einzelansicht können Sie die Positionen eines bestimmten Mitarbeiters einsehen oder bearbeiten.">
+{% figure caption="In der Positionen-Einzelansicht können Sie die Positionen eines bestimmten Mitarbeiters einsehen oder bearbeiten." %}
 <img src="positionen-einzeln.png" />
-</figure>
+{% endfigure %}
 
 ## Positionen Zuweisen
 

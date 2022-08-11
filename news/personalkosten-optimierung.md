@@ -1,4 +1,5 @@
 ---
+layout: layouts/news/single.njk
 title: Personalkosten-Optimierung in der Gastronomie - es gibt mehr Möglichkeiten
   als Sie denken
 summary: Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wenn es

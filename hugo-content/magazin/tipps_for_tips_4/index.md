@@ -19,9 +19,9 @@ beeinflußt.
 
 ## Wissenschaftliche Untersuchung mit zwei Gästegruppen
 
-<figure caption="" class="float right width-40pc">
+{% figure caption="", extraClass="float right width-40pc" %}
 <img src="bild2.jpg" />
-</figure>
+{% endfigure %}
 
 Cusco und Wetzel haben diese Möglichkeit in zwei Restaurants in Oxford,
 Mississippi getestet [^2]. Drei Kellnerinnen in beiden Restaurants wurden
@@ -42,9 +42,9 @@ ist, wenn männliche Kellner weibliche Gäste berühren [^3].
 
 ## Ein völlig unbewusster Vorgang
 
-<figure caption="" class="float left width-40pc">
+{% figure caption="", extraClass="float left width-40pc" %}
 <img src="bild4.jpg" />
-</figure>
+{% endfigure %}
 
 Manche Mitarbeiter werden sich bei dieser Empfehlung unbehaglich fühlen; sie
 werden befürchten, dass Gäste etwas gegen Berührung haben. Forscher haben jedoch

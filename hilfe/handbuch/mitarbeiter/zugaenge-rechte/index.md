@@ -40,9 +40,9 @@ Email des Mitarbeiters kann dieses Passwort nun zum Login in die [Mitarbeiter-Ap
 > allerdings empfehlen wir, eine kurze Erklärung beizufügen, um zu vermeiden, dass die Einladung fälschlicherweise für
 > einer Spam oder Phishing-Email verwechselt wird.
 
-<figure caption="Der erste Schritt zur Einrichtung eines Mitarbeiterzugangs ist die Versendung einer Einladung">
+{% figure caption="Der erste Schritt zur Einrichtung eines Mitarbeiterzugangs ist die Versendung einer Einladung" %}
 <img src="zugang-einrichten.gif" />
-</figure>
+{% endfigure %}
 
 ### Mehrere Mitarbeiter Einladen
 
@@ -107,9 +107,9 @@ In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Be
 
 Um in die Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** im Hauptmenü und dort den Unterpunkt **Zugänge & Rechte**.
 
-<figure caption="In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat.">
+{% figure caption="In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat." %}
 <img src="uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Zugang Entziehen
 

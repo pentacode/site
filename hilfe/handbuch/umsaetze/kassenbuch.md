@@ -52,19 +52,19 @@ Weitere Beispiele für Ausgaben, die in das Kassenbuch einzutragen sind, wären:
 
 Über das **"+"**-Zeichen können Sie **Einnahmen** und **Ausgaben** im Kassenbuch **hinzufügen**. Bar ausbezahlte Gehaltsvorschüsse werden darüber hinaus automatisch in die "Vorschussliste" der Mitarbeiter übertragen.
 
-<figure caption="Über das + Zeichen können Einnahmen und Ausgaben im Kassenbuch erfasst werden">
+{% figure caption="Über das + Zeichen können Einnahmen und Ausgaben im Kassenbuch erfasst werden" %}
 
 ![](/uploads/kb1.png)
 
-</figure>
+{% endfigure %}
 
 Jede **Eingabe oder Veränderung** im Kassenbuch wird **zuerst farbig** hervorgehoben. Nach der Eingabe findet weder eine Nummerierung, noch eine Saldierung des Kassenstandes statt.
 
-<figure caption="Eingaben oder Veränderungen werden zuerst farbig hervorgehoben">
+{% figure caption="Eingaben oder Veränderungen werden zuerst farbig hervorgehoben" %}
 
 ![](/uploads/kb2.png)
 
-</figure>
+{% endfigure %}
 
 Erst wenn Sie die manuelle Eingabe im Kassenbuch **speichern**, erhält die Position eine Nummerierung und der Kassenstand wird saldiert.
 
@@ -76,11 +76,11 @@ Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszah
 
 Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Namen im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
 
-<figure caption="So erfassen Sie Gehaltsvorschüsse im Kassenbuch, wenn diese nicht Bestandteil der Tagesabrechnung sind">
+{% figure caption="So erfassen Sie Gehaltsvorschüsse im Kassenbuch, wenn diese nicht Bestandteil der Tagesabrechnung sind" %}
 
 ![](/uploads/kb12.png)
 
-</figure>
+{% endfigure %}
 
 Wählen Sie den Mitarbeiter mit dem Cursor oder über Buchstabeneingabe, geben Sie den Auszahlungsbetrag ein und "**Speichern**" Sie.
 
@@ -104,27 +104,27 @@ Unter "**Zählung durchgeführt von**" steht standardmäßig der Name der Person
 
 Geben Sie nun die Stückelung ein. Der Zählbetrag wird automatisch aufaddiert.
 
-<figure caption="Der Zählbetrag wird bei Eingabe der Stückelung automatisch aufaddiert">
+{% figure caption="Der Zählbetrag wird bei Eingabe der Stückelung automatisch aufaddiert" %}
 
 ![](/uploads/zahlprotokoll1.png)
 
-</figure>
+{% endfigure %}
 
 Sollte die Zählung eine negative oder auch positive **Differenz** zum rechnerischen Bargeldbestand ausweisen, werden Sie bei "Speichern" gefragt, ob die **Differenz gebucht** **oder** durch "Überspringen" **ignoriert** werden soll.
 
-<figure caption="Ein Differenzbetrag zwischen rechnerischem und tatsächlichem Bargeldbestand kann gebucht oder ignoriert werden">
+{% figure caption="Ein Differenzbetrag zwischen rechnerischem und tatsächlichem Bargeldbestand kann gebucht oder ignoriert werden" %}
 
 ![](/uploads/zahlprotokoll2.png)
 
-</figure>
+{% endfigure %}
 
 In jedem Fall entsteht im Kassenbuch der Saldo-neutrale Eintrag "**Kassenzählung**", der die Durchführung des sogenannten "Kassensturzes" nachweist.
 
-<figure caption="Im hier gezeigten Beispiel wird der Differenzbetrag der Kassenzählung ausgewiesen">
+{% figure caption="Im hier gezeigten Beispiel wird der Differenzbetrag der Kassenzählung ausgewiesen" %}
 
 ![](/uploads/zahlprotokoll3.png)
 
-</figure>
+{% endfigure %}
 
 Durch "Speichern" wird die Kassenzählung im Kassenbuch festgeschrieben.
 
@@ -132,11 +132,11 @@ Durch "Speichern" wird die Kassenzählung im Kassenbuch festgeschrieben.
 
 Bei einem "Mouse-over" erscheint am rechten Rand das {% icon "print" %}-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll **ausdrucken**.
 
-<figure caption="Drucken Sie das Zählprotokoll aus unterzeichnen Sie es mit Datumsangabe">
+{% figure caption="Drucken Sie das Zählprotokoll aus unterzeichnen Sie es mit Datumsangabe" %}
 
 ![](/uploads/zahlprotokoll5.png)
 
-</figure>
+{% endfigure %}
 
 > **Zählprotokolle sollten ausgedruckt und unterzeichnet und für den Fall eine Betriebsprüfung in einem eigenen Ordner abgelegt werden.**
 
@@ -144,11 +144,11 @@ Bei einem "Mouse-over" erscheint am rechten Rand das {% icon "print" %}-Symbol. 
 
 Das **Kassenbuch** überwacht selbständig den laufenden Endsaldo und lässt einen **negativen Endsaldo nicht** zu.
 
-<figure caption="Das Kassenbuch lässt keinen Negativ-Saldo zu">
+{% figure caption="Das Kassenbuch lässt keinen Negativ-Saldo zu" %}
 
 ![](/uploads/kb3.png)
 
-</figure>
+{% endfigure %}
 
 Wenn durch eine Ausgabe ein **negativer Saldo** entstehen sollte, wird die **Zeile farbig** markiert und der **Endsaldo** mit **"0,00"** ausgewiesen (da diese Zelle keinen Wert < 0 zulässt).
 
@@ -160,31 +160,31 @@ Mit einem Mouse-over über die Position erscheint am rechten Seitenrand ein {% i
 
 Die Eingabe eines **Buchungstextes** ist dabei **zwingend,** die Angabe von UST und Kontonummer ist optional. Buchungstexte aus der Vergangenheit werden Ihnen bei der Eingabe vorgeschlagen. Sollten Sie diese bereits kontiert haben, werden alle Angaben automatisch übernommen.
 
-<figure caption="So können Sie auf einfache Weise einen Beleg nach Kostenstelle / UST trennen">
+{% figure caption="So können Sie auf einfache Weise einen Beleg nach Kostenstelle / UST trennen" %}
 
 ![](/uploads/kb4.png)
 
-</figure>
+{% endfigure %}
 
 Eine Splittbuchung wird nur angenommen, wenn die **Summe der gesplitteten Beträge dem Gesamtrechnungsbetrag** entspricht.
 
 Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu übernehmen, muss nochmals gespeichert werden.
 
-<figure caption="Nach Übernahme ins Kassenbuch muss hier erneut gespeichert werden">
+{% figure caption="Nach Übernahme ins Kassenbuch muss hier erneut gespeichert werden" %}
 
 ![](/uploads/kb5.png)
 
-</figure>
+{% endfigure %}
 
 ## Suchfunktion
 
 Über die **Suchfunktion** können Sie nach **Buchungstext** und **Zahlen** **filtern**. Mit jeder Eingabe wird der Kreis der Möglichkeiten weiter eingeschränkt
 
-<figure caption="So können Sie im Kassenbuch suchen">
+{% figure caption="So können Sie im Kassenbuch suchen" %}
 
 ![](/uploads/kb6.png)
 
-</figure>
+{% endfigure %}
 
 ## Kassenbuch exportieren
 
@@ -192,34 +192,34 @@ Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu
 
 Dabei können Sie den **Zeitraum wählen**. Die Standardvorgabe umfasst immer den gesamten Kalendermonat.
 
-<figure caption="So können Sie das Kassenbuch ausdrucken oder an die Buchhaltung senden">
+{% figure caption="So können Sie das Kassenbuch ausdrucken oder an die Buchhaltung senden" %}
 
 ![](/uploads/kb7.png)
 
-</figure>
+{% endfigure %}
 
 Indem Sie in das Feld "Format" klicken, können Sie die Buchhaltungsformate wählen, die Sie der Buchhaltung zukommen lassen wollen.
 
-<figure caption="So können Sie das Format wählen">
+{% figure caption="So können Sie das Format wählen" %}
 
 ![](/uploads/kb11.png)
 
-</figure>
+{% endfigure %}
 
 ## Festschreibung des Kassenbuchs
 
 Über das {% icon "archive" %}-Symbol wird das Kassenbuch **festgeschrieben**.
 
-<figure caption="Über das Archiv-Symbol können Sie die Festschreibung des Kassenbuchs veranlassen">
+{% figure caption="Über das Archiv-Symbol können Sie die Festschreibung des Kassenbuchs veranlassen" %}
 
 ![](/uploads/kb9.png)
 
-</figure>
+{% endfigure %}
 
 Eine **Festschreibung** kann **nicht mehr rückgängig** gemacht werden. Ist das Kassenbuch festgeschrieben, können **festgeschriebene Werte** nur mehr durch **Korrekturbuchungen** korrigiert werden.
 
-<figure caption="Mit 'Bestätigen' wird das Kassenbuch unveränderbar">
+{% figure caption="Mit 'Bestätigen' wird das Kassenbuch unveränderbar" %}
 
 ![](/uploads/kb10.png)
 
-</figure>
+{% endfigure %}

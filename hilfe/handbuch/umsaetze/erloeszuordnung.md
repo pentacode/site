@@ -15,29 +15,29 @@ Unter "**Umsätze**" können Sie im Menüpunkt "**Erlöszuordnung**" den Umsatzg
 
 Wenn Sie erstmals "Erlöszuordnung" anklicken, finden Sie die Umsatzgruppen und die Abteilungen, die Sie für den Betrieb angelegt haben.
 
-<figure caption="Hier sehen Sie die Umsatzgruppen und Abteilungen, die Sie angelegt haben">
+{% figure caption="Hier sehen Sie die Umsatzgruppen und Abteilungen, die Sie angelegt haben" %}
 
 ![](/uploads/erloszuordnung1.png)
 
-</figure>
+{% endfigure %}
 
 **Ziehen** Sie hierzu die entsprechenden **Abteilungen** per "drag & drop" in die gewählte **Umsatzgruppe**.
 
-<figure caption="Ziehen Sie die gewünschten Abteilungen in eine Umsatzgruppe">
+{% figure caption="Ziehen Sie die gewünschten Abteilungen in eine Umsatzgruppe" %}
 
 ![](/uploads/erloszuordnung2.png)
 
-</figure>
+{% endfigure %}
 
 Der **Anteil**, den eine Abteilung am Umsatz hat, wird dabei zunächst **gleichmäßig** auf die Abteilungen verteilt.
 
 Sie können die entstandenen **Prozentwerte** jedoch beliebig **überschreiben** und so zu einer Verteilung gelangen, die nach Ihrem Gefühl angemessen ist.
 
-<figure caption="'Gewichten' Sie den Anteil, den eine Abteilung an der jeweiligen Umsatzart hat durch Überschreiben">
+{% figure caption="'Gewichten' Sie den Anteil, den eine Abteilung an der jeweiligen Umsatzart hat durch Überschreiben" %}
 
 ![](/uploads/erloszuordnung3.png)
 
-</figure>
+{% endfigure %}
 
 Bei der Umsatzplanung werden die jeweiligen Umsatzbeteiligungen nun den Abteilungen entsprechend zugewiesen.
 

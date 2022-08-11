@@ -23,9 +23,9 @@ gewünschte Dokument klicken, worauf sich diese in ihrem Browserfenster öffnet.
 Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern oder
 Dokumentenkategorien filtern.
 
-<figure caption="Hier können Sie die gespeicherten Datein all ihrer Mitarbeiter einsehen.">
+{% figure caption="Hier können Sie die gespeicherten Datein all ihrer Mitarbeiter einsehen." %}
 <img src="dokumentenübersicht.png" />
-</figure>
+{% endfigure %}
 
 ## Einzelansicht
 
@@ -38,9 +38,9 @@ bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie da
 ihren Cursor über eines der Dokumente und folgen den Anweisungen
 [hier](#dokument-bearbeiten).
 
-<figure caption="Die Einzelansicht zeigt Ihnen nur die Dokumente eines Mitarbeiters">
+{% figure caption="Die Einzelansicht zeigt Ihnen nur die Dokumente eines Mitarbeiters" %}
 <img src = "einzelansicht.png" >
-</figure>
+{% endfigure %}
 
 ## Dokumente hinzufügen
 
@@ -126,9 +126,9 @@ nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 > **Hygieneschulung** und schon haben Sie alle relevanten Bescheinigungen
 > aufgelistet.
 
-<figure caption = "Hier wurden die Mitarbeiter nach der Abteilung Küche und die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert">
+{% figure caption="Hier wurden die Mitarbeiter nach der Abteilung Küche und die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert" %}
 <img src ="beispielfilter.png" />
-</figure>
+{% endfigure %}
 
 ## Dokument bearbeiten
 
@@ -160,9 +160,9 @@ Sicherheit werden Sie jedoch noch einmal gefragt, ob Sie die Datei wirklich
 löschen wollen. Sobald Sie nun auf **Löschen** klicken, ist das Dokument
 unwiderruflich gelöscht.
 
-<figure caption="Bewegen Sie in der Einzelansicht ihren Cursor über ein Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu öffnen">
+{% figure caption="Bewegen Sie in der Einzelansicht ihren Cursor über ein Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu öffnen" %}
 <img src = "bearbeiten.png"/>
-</figure>
+{% endfigure %}
 
 ## Dokumenteneigenschaften
 
@@ -212,9 +212,9 @@ Sie dies unter
 [Einstellungen/Dokumente](../../einstellungen/dokumente/#kategorien-bearbeiten)
 tun.
 
-<figure caption = "Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen.">
+{% figure caption="Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen." %}
 <img src = "eingabefenster.png" />
-</figure>
+{% endfigure %}
 
 ## Berechtigungen erteilen
 
@@ -254,9 +254,9 @@ einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 > Dokumentenarchiv hat Zugriff auf eventuell private Daten der Mitarbeiter - eine
 > Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen.
 
-<figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch das Dokumentenarchiv bearbeiten">
+{% figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch das Dokumentenarchiv bearbeiten" %}
 <img src="dokumentenberechtigung.png" />
-</figure>
+{% endfigure %}
 
 ## Kategorien bearbeiten
 

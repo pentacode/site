@@ -23,9 +23,9 @@ Mitarbeitenden auf Hochtouren laufen kann. Und zwar völlig frei von
 Wettbewerbsmentalität, einzig und allein aus dem inneren Willen heraus, einen
 guten Job zu machen.
 
-<figure caption="Roman Rackwitz, der führende Experte für Gamification im deutschsprachigen Raum" class="float right width-30pc">
+{% figure caption="Roman Rackwitz, der führende Experte für Gamification im deutschsprachigen Raum", extraClass="float right width-30pc" %}
 <img src="rackwitz.jpg" />
-</figure>
+{% endfigure %}
 
 ## Die unterschätzte Macht der inneren Einstellung
 
@@ -62,9 +62,9 @@ möchten, sollten sich lieber fragen: **Was ist unser Alleinstellungsmerkmal mit
 dem wir neue Kräfte anziehen können?** Und wie halten wir die guten Personalien im
 Haus?
 
-<figure caption="" class="float left">
+{% figure caption="", extraClass="float left" %}
 <img src="bild2.jpg" />
-</figure>
+{% endfigure %}
 
 ## Ein Selbstläufer für individuellen und unternehmerischen Wachstum
 
@@ -89,9 +89,9 @@ in seinem Metier wachsen.
 
 ## Dienstleistung erfordert Motivation
 
-<figure caption="" class="float right">
+{% figure caption="", extraClass="float right" %}
 <img src="bild3.jpg" />
-</figure>
+{% endfigure %}
 
 Aber warum ist es so, dass Unternehmen klassischer Weise davon ausgehen, dass
 Arbeitnehmer eine Lohnerhöhung einem Job, der fördert und fordert, vorziehen?
@@ -127,9 +127,9 @@ kalkulierbar sind, aber eben auch Raum zur kreativen Gestaltung zulassen.**
 
 ## Drei Faktoren zur Steigerung intrinsischer Motivation
 
-<figure caption="" class="float left">
+{% figure caption="", extraClass="float left" %}
 <img src="bild4.jpg" />
-</figure>
+{% endfigure %}
 
 Wir wissen nun: Die Aufgaben am Arbeitsplatz müssen mit den Mitarbeitenden
 wachsen, damit er oder sie im Flow bleibt. Also im Zustand, der kontinuierlichen

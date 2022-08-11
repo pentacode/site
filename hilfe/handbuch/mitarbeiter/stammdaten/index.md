@@ -12,9 +12,9 @@ Die Stammdaten-Übersicht zeigt die Stammdaten aller Ihrer Mitarbeiter in tabell
 Stammdaten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** aus dem Hauptmenü und dort den Unterpunkt
 **Stammdaten**.
 
-<figure caption="Die Stammdaten-Übersicht zeigt die Stammdaten aller Ihrer Mitarbeiter in tabellarischer Form.">
+{% figure caption="Die Stammdaten-Übersicht zeigt die Stammdaten aller Ihrer Mitarbeiter in tabellarischer Form." %}
 <img src="uebersicht.png" />
-</figure>
+{% endfigure %}
 
 ### Spaltenwahl
 
@@ -53,9 +53,9 @@ So löschen Sie einen Mitarbeiter:
 > markieren wollen, empfehlen wir, stattdessen das [Vertragsverhältnis zu
 > beenden](/hilfe/handbuch/vertrag/#vertrag-beenden).
 
-<figure caption="Das Datenblatt fasst die grundlegenden Informationen eines Mitarbeiters auf einer DIN-A4 Seite zusammen." class="float-right">
+{% figure caption="Das Datenblatt fasst die grundlegenden Informationen eines Mitarbeiters auf einer DIN-A4 Seite zusammen.", extraClass="float-right" %}
 <img src="datenblatt.png" />
-</figure>
+{% endfigure %}
 
 ## Datenblatt Drucken
 

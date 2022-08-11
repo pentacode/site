@@ -30,21 +30,21 @@ In der Kopfzeile können Sie den Zeitraum wählen, über welchen die Kennzahlen 
 
 Die **gestrichelte Linie** zeigt den **historischen Zeitraum** an, die durchgehende **blaue Linie** den Zeitraum, der mit dem jeweils **gestrigen Tag** geendet hat. Die €-Angabe in blau zeigt entsprechend den aktuellen Zeitraum, in schwarz den historischen Vergleichszeitraum.
 
-<figure caption="So können Sie die Vergleichszeiträume wählen">
+{% figure caption="So können Sie die Vergleichszeiträume wählen" %}
 
 ![](/uploads/ubersicht3.png)
 
-</figure>
+{% endfigure %}
 
 Im vorliegenden Beispiel wurde als Zeitraum 13 Wochen gewählt. Dies entspricht **zwei Quartals-Zeiträumen**.
 
 Durch ein "Mouse over" über eine der Grafiken können Sie **einzelne Tage** einander **gegenüberstellen**.  **Tag und Datum** erscheinen dabei in der **Fußzeile** der Grafik. Der gewählte Vergleich erscheint dabei **parallel** auch auf allen weiteren Grafiken
 
-<figure caption="Durch einen 'Mouse over' können Sie einzelne Tage einander gegenüberstellen">
+{% figure caption="Durch einen 'Mouse over' können Sie einzelne Tage einander gegenüberstellen" %}
 
 ![](/uploads/ubersicht2.png)
 
-</figure>
+{% endfigure %}
 
 Im vorliegenden Beispiel wird der 5. Dezember mit dem 6. September verglichen. Die beiden Daten liegen exakt 13 Wochen auseinander.
 
