@@ -26,15 +26,15 @@ So legen Sie eine neue Kategorie an:
 4. Klicken Sie den {{<button label="Speichern" >}}-Button.
 
 > **Tipp** {{<icon "lightbulb">}} Mit den vorgefertigten Farben nicht zufrieden?
-> Drücken Sie bei der Farbauwahl auf **Mehr...**
+> Drücken Sie bei der Farbauswahl auf **Mehr...**
 > erscheint ein Fenster in dem Sie ihre eigene Kategorienfarbe kreieren können. 
 
 ### Kategorien bearbeiten
 
 Um den **Namen** einer Kategorie zu ändern, klicken Sie auf den aktuellen Namen
 und geben den neuen ein. Zum ändern der **Kategorienfarbe** klicken Sie auf die
-farbliche Neben dem Kategoriennamen und wählen eine neue Farbe aus. Wollen Sie
+farbliche Kachel neben dem Kategoriennamen und wählen eine neue Farbe aus. Wollen Sie
 eine Kategorie löschen fahren Sie mit dem Cursor über die Kachel der Kategorie
-und drücken auf den {{<icon="trash">}}-**Button**. Mit einem Klick auf
+und drücken auf den {{<icon= "trash" >}}-**Button**. Mit einem Klick auf
 {{<button label= "Speichern">}} können Sie die Änderungen speichern. 
 Wählen Sie {{<button label="Abbrechen">}} werden die Änderungen verworfen. 
