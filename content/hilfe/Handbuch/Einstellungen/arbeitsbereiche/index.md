@@ -29,7 +29,7 @@ keywords:
 ---
 Mit "**Arbeitsbereiche**" umschreiben wir, was in vielen Unternehmen auch als **Abteilungen** bezeichnet wird.
 
-Im Menüpunkt "**Arbeitsbereiche**" legen Sie **Standorte** und deren **Abteilungen** an und bestimmen eventuell **Regeln für die Zeiterfassung**, die von den allgemeingültigen Regeln **abweichen**, die Sie im Menüpunkt **"**[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/)**"** definiert haben.
+Im Menüpunkt "**Arbeitsbereiche**" legen Sie **Standorte** und deren **Abteilungen** an und können diese bearbeiten. 
 
 Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert einen Standort und eine Abteilung anzulegen, wenn sie "an Bord gehen".
 
@@ -39,7 +39,7 @@ Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken.
 
 {{< figure caption="So legen Sie einen neuen Standort an" >}}
 
-![](/uploads/neuer-standort.png)
+<img src = "neuer_standort.png"/>
 
 {{< /figure >}}
 
@@ -53,7 +53,7 @@ Durch Anklicken des {{< icon "ellipsis-h" >}}-Symbols am rechten oberen Eck kön
 
 {{< figure caption="So können Sie einen bestehenden Standort bearbeiten" >}}
 
-![](/uploads/standort-bearbeiten.png)
+<img src = "standort_bearbeiten.png"/>
 
 {{< /figure >}}
 
@@ -63,7 +63,7 @@ Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen,
 
 {{< figure caption="So können Sie einen bestehenden Standort archivieren" >}}
 
-![](/uploads/standort-archivieren.png)
+<img src = "standort_archivieren.png"/>
 
 {{< /figure >}}
 
@@ -77,21 +77,11 @@ Jede Abteilung muss **mindestens eine Position** ausweisen. Sollten Sie innerhal
 
 {{< figure caption="So legen Sie eine neue Abteilung an" >}}
 
-![](/uploads/neue-abteilung.png)
+<img src = "neue_abteilung.png"/>
 
 {{< /figure >}}
 
-Wenn für die gewählte Abteilung **andere** Regeln gelten sollen, setzen Sie den Haken bei "**Abweichende Zeiterfassungsregeln**". Sie können damit an dieser Stelle **Regeln** definieren, die ausschließlich **für diese Abteilung** gelten werden.
-
-{{< figure caption="Die Regeln der Zeiterfassung sollen für diese Abteilung abweichen" >}}
-
-![](/uploads/abw-ze.png)
-
-{{< /figure >}}
-
-Im Hilfsartikel "[**Zeiterfassung**](/hilfe/handbuch/einstellungen/zeiterfassung/)" erfahren Sie, wie Sie die **Regeln** definieren, nach denen die **Zeiterfassung** erfolgen wird. Die dort beschriebenen Regeleinstellungen gelten **generell** für das **gesamte Unternehmen**.
-
-> Wenn Sie in Ihrem Unternehmen **Azubis** beschäftigen, sollte die Abteilung "**Schule**" grundsätzlich von der elektronischen **Zeiterfassung ausgenommen** werden.
+Sie können zusätzlich auswählen ob SFN Zuschläge für Mitarbeiter in dieser Abteilung beitragspflichtig sind. Standardmäßig gelten diese als beitragsbefreit. 
 
 ## Abteilung bearbeiten
 
@@ -105,7 +95,7 @@ Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen,
 
 {{< figure caption="So können Sie eine Abteilung archivieren" >}}
 
-![](/uploads/abteilung-archivieren.png)
+<img src = "abteilung_archivieren.png"/>
 
 {{< /figure >}}
 
@@ -119,6 +109,6 @@ Sie können diese **Reihenfolge** jederzeit **ändern**, indem sie mit einem **M
 
 {{< figure caption="So ändern Sie die Reihenfolge der Abteilungen für den Dienstplan" >}}
 
-![](/uploads/reihenfolge-abt.png)
+<img src = "abteilungen_verschieben.png"/>
 
 {{< /figure >}}
