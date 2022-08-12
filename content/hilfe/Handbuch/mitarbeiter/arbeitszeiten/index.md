@@ -262,8 +262,10 @@ angegebenen Betrag.
 ## Urlaubsbuchungen
 
 Ähnlich wie [Zeitbuchungen](#zeitbuchungen) können Urlaubsbuchungen verwendet werden, um Korrekuten am [Urlaubskonto](/hilfe/handbuch/mitarbeiter/konten) eines Mitarbeiters vorzunehmen. Um eine Zeitbuchnung zu erfassen, klicken Sie auf den
-{{< button icon="plus" >}}-Button in der Rechten unteren Ecke des [Arbeitszeitblatts](#das-arbeitszeitblatt) des
+{{< button icon="plus" >}}-Button in der rechten unteren Ecke des [Arbeitszeitblatts](#das-arbeitszeitblatt) des
 Mitarbeiters und wählen die Option "Urlaubsbuchung".
+
+> {{<icon "lightbulb">}} **Tipp:** Durch die manuelle Urlaubsbuchung können Sie auch Altbestände ihrer alten Personalmanagement Software mit wenigen Klicks nach Pentacode übertragen. [Hier](/hilfe/tips_und_rezepte/umstieg) finden Sie eine genauere Erklärung mit Beispielen.
 
 ### Datum
 
