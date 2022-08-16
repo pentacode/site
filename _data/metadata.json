@@ -2,5 +2,7 @@
   "title": "Pentacode - Personalmanagement war noch nie so einfach",
   "url": "https://pentacode.app",
   "language": "de-de",
-  "description": "Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling und Lohnvorbereitung - so einfach und intuitiv wie noch nie."
+  "description": "Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling und Lohnvorbereitung - so einfach und intuitiv wie noch nie.",
+  "feedAuthorName": "Pentacode",
+  "feedAuthorEmail": "contact@pentacode.app"
 }

@@ -1,0 +1,27 @@
+---
+permalink: blog/atom.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
+  <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  {# TODO: <updated>{{ collections.all | eleventyNavigation("/blog") | excludeDrafts | getNewestCollectionItemDate | dateToRfc3339 }}</updated> #}
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.feedAuthorName }}</name>
+    <email>{{ metadata.feedAuthorEmail }}</email>
+  </author>
+  {%- for post in collections.all | eleventyNavigation("/blog") | excludeDrafts | orderByDate %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+    <entry>
+      <title>{{ post.data.title or post.title }}</title>
+      <link href="{{ absolutePostUrl }}"/>
+      {# TODO: <updated>{{ (post.date or post.publishDate) | dateToRfc3339 }}</updated> #}
+      <id>{{ absolutePostUrl }}</id>
+      <content xml:lang="{{ metadata.language }}" type="html">{{ post.excerpt | htmlToAbsoluteUrls(absolutePostUrl) }}...</content>
+    </entry>
+  {%- endfor %}
+</feed>

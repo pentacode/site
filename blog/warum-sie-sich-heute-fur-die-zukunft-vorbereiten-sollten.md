@@ -1,4 +1,5 @@
 ---
+layout: layouts/blog/single.njk
 title: Warum Sie sich heute für die Zukunft vorbereiten sollten
 summary: Bis Sie Ihren Betrieb schließen mussten, hatten Sie einen klaren Blick nach
   vorne. Wenn Sie ihn wiedereröffnen, können Sie nicht mit Bestimmtheit sagen, wohin
@@ -7,6 +8,7 @@ summary: Bis Sie Ihren Betrieb schließen mussten, hatten Sie einen klaren Blick
 publishDate: 2020-04-07T22:00:00+00:00
 cover: "/uploads/startbild.jpg"
 author: lstrasser
+kind: page
 categories:
   - Ratgeber
 ---

@@ -3,6 +3,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const EleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { minify: cleanHtml } = require("html-minifier-terser");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { getTOC } = require("./_lib/toc");
 
 async function minifyHtml(source, output_path) {
@@ -70,12 +71,16 @@ module.exports = (config) => {
 
     config.addPlugin(EleventyRenderPlugin);
 
+    config.addPlugin(pluginRss);
+
     const html = (...args) => outdent(String.raw(...args)).trim();
 
     config.addPassthroughCopy("assets/**/*");
 
+    config.addPassthroughCopy("blog/**/*.{gif,jpg}");
+
     // Old paths
-    config.addPassthroughCopy({"./assets": "/"});
+    config.addPassthroughCopy({ "./assets": "/" });
 
     config.setTemplateFormats(["html", "md", "njk", "png", "jpg"]);
 

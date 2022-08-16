@@ -47,7 +47,7 @@
             {% endif %}
 
             <ul class="articles animation-reveal-children">
-                {% set pages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+                {% set pages = collections.all | eleventyNavigation(eleventyNavigation.key) | orderByDate | excludeDrafts %}
 
                 {% for page in pages %}
                     <li>
@@ -71,4 +71,4 @@
             </ul>
         </div>
     </div>
-{% endblock %}}
+{% endblock %}

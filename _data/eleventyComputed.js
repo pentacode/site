@@ -1,3 +1,9 @@
+const fs = require("fs");
+const path = require("path");
+const markdownIt = require("markdown-it");
+const markdownItFrontMatter = require("markdown-it-front-matter");
+const md = markdownIt({ html: true, linkify: true }).use(markdownItFrontMatter, () => {});
+
 module.exports = {
   eleventyNavigation: {
     key: (data) => {
@@ -44,6 +50,11 @@ module.exports = {
     anchors: (data) => data.anchors || data.page.anchors,
     categories: (data) => data.categories || data.page.categories,
     author: (data) => data.author || data.page.author,
+    content: (data) => {
+      const fileContents = fs.readFileSync(path.join(__dirname, "..", data.page.inputPath), "utf-8");
+      const text = md.render(fileContents).replace(/(<([^>]+)>)/gi, "");
+      return text;
+    },
   },
   currentYear: new Date().getFullYear(),
 };

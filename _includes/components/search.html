@@ -36,17 +36,13 @@
                 });
             }
 
-            function renderResultItem({ matches, item: { icon, title, subtitle, url } }) {
-                const snippets = [];
-                for (let { key, value, indices } of matches) {
-                    console.log(key, value, indices);
-                    if (key !== "match.content") {
-                        continue;
-                    }
-                    for (const [start, end] of indices) {
-                        value = `${value.slice(0, start)}<mark>${value.slice(start, end)}</mark>${value.slice(end)}`;
-                        snippets.push(value);
-                    }
+            function renderResultItem({ matches, item: { icon, title, summary, url } }) {
+                if (summary.toLowerCase().includes(input.value.toLowerCase())) {
+                    summary = summary.replace(new RegExp(`(${input.value})`, 'ig'), '<mark>$1</mark>');
+                }
+
+                if (title.toLowerCase().includes(input.value.toLowerCase())) {
+                    title = title.replace(new RegExp(`(${input.value})`, 'ig'), '<mark>$1</mark>');
                 }
                 return `
                     <li>
@@ -55,12 +51,9 @@
                                 <i class="fal fa-${icon}"></i>
                                 ${title}
                             </div>
-                            <div class="search-result-title">
-                                ${subtitle}
-                            </div>
-                            <div>
-                                ... ${snippets.join("...")} ...
-                            </div>
+                            ${summary ? `<div class="search-result-title">
+                                ${summary}
+                            </div>` : ''}
                         </a>
                     </li>
                 `;
@@ -79,29 +72,12 @@
             function setupSearch(index) {
                 const items = [];
 
-                for ({ title, content, icon, relUrl: url } of index.pages) {
-                    items.push({ icon, title, content: content.replace(/(<([^>]+)>)/gi, "") });
-                    const matches = [
-                        ...content.matchAll(/<h2(?:[^>]*)?id="([^"]+)">([\w\W]*?)<\/h2>([\w\W]*?)(?=(<h2)|\z)/g),
-                    ];
-                    for (const [, id, subtitle, subcontent] of matches) {
-                        items.push({
-                            icon,
-                            title,
-                            subtitle,
-                            content: subcontent,
-                            url: `${url}#${id}`,
-                            parentTitle: title,
-                            match: {
-                                title: subtitle,
-                                content: subcontent,
-                            },
-                        });
-                    }
+                for ({ title, summary, content, icon, relUrl: url } of index.pages) {
+                    items.push({ icon, title, summary, content, url });
                 }
 
                 const fuse = new Fuse(items, {
-                    keys: ["match.title", "match.content"],
+                    keys: ["title", "content"],
                     includeScore: true,
                     includeMatches: true,
                     threshold: 0.2,
@@ -112,7 +88,6 @@
                     const val = input.value;
                     if (val) {
                         const results = fuse.search(val);
-                        console.log(results);
                         displaySearchResults(results);
                         resultsContainer.removeAttribute("hidden");
                     } else {

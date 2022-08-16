@@ -1,8 +1,10 @@
 ---
+layout: layouts/blog/single.njk
 title: 'Pentacode v1.21: Verfügbarkeiten, Festschreibung von Arbeitszeiten'
 publishDate: 2022-02-16
 cover: dienstplan.png
 author: mklein
+kind: page
 categories:
 - Produktupdates
 ---
