@@ -49,6 +49,7 @@ module.exports = {
     url: (data) => data.page.url,
     anchors: (data) => data.anchors || data.page.anchors,
     categories: (data) => data.categories || data.page.categories,
+    magazinCategories: (data) => data.magazinCategories || data.page.magazinCategories,
     author: (data) => data.author || data.page.author,
     content: (data) => {
       const fileContents = fs.readFileSync(path.join(__dirname, "..", data.page.inputPath), "utf-8");

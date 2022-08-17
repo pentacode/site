@@ -1,1 +1,0 @@
-{{ .TableOfContents | replaceRE "<nav[^<]*>(?:\\s*<ul>\\s*([\\w\\W]*)</ul>\\s*)?</nav>" "[$1]" | replaceRE "<ul>\\s*([\\w\\W]*)</ul>" "[$1]" | replaceRE "<li>(<a href=\"(.*)\">([\\w\\W]*?)</a>)?</li>\\s*" "{ \"href\": \"$2\", \"title\": \"$3\" }," | replaceRE "},\\s*\\]" "}]" }}

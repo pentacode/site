@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItFootnote = require("markdown-it-footnote");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const EleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { minify: cleanHtml } = require("html-minifier-terser");
@@ -33,6 +34,13 @@ async function minifyHtml(source, output_path) {
     return result;
 }
 
+function orderByDate(collection) {
+    return collection.sort((a, b) => (b.publishDate || b.date) - (a.publishDate || a.date));
+}
+
+function excludeDrafts(collection) {
+    return collection.filter((item) => !item.draft);
+}
 
 module.exports = (config) => {
     function outdent(str) {
@@ -46,7 +54,7 @@ module.exports = (config) => {
         markdownIt({
             html: true,
             linkify: true,
-        }).use(markdownItAnchor)
+        }).use(markdownItAnchor).use(markdownItFootnote)
     );
 
     const md = markdownIt({ html: true, linkify: true });
@@ -77,12 +85,10 @@ module.exports = (config) => {
 
     config.addPassthroughCopy("assets/**/*");
 
-    config.addPassthroughCopy("blog/**/*.{gif,jpg}");
-
     // Old paths
     config.addPassthroughCopy({ "./assets": "/" });
 
-    config.setTemplateFormats(["html", "md", "njk", "png", "jpg"]);
+    config.setTemplateFormats(["html", "md", "njk", "png", "jpg", "gif", "webp"]);
 
     config.addNunjucksShortcode(
         "img",
@@ -91,7 +97,7 @@ module.exports = (config) => {
 
     config.addPairedNunjucksShortcode(
         "figure",
-        (content, { caption, extraClass = "" }) =>
+        (content, { caption = "", extraClass = "" } = {}) =>
             html` <figure class="${extraClass}">${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}</figure> `
     );
 
@@ -136,9 +142,16 @@ module.exports = (config) => {
     });
 
     config.addFilter("formatDate", (date) => (date ? new Date(date).toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) : ""));
-    config.addFilter("orderByDate", (coll) => coll.sort((a, b) => (b.publishDate || b.date) - (a.publishDate || a.date)));
-    config.addFilter("sortByWeight", (coll) => coll.sort((a, b) => b.weight - a.weight));
-    config.addFilter("excludeDrafts", (coll) => coll.filter((item) => !item.draft));
+    config.addFilter("orderByDate", orderByDate);
+    config.addFilter("sortByWeight", (collection) => collection.sort((a, b) => b.weight - a.weight));
+    config.addFilter("excludeDrafts", excludeDrafts);
+    config.addFilter("getRelatedByMagazinCategories", (collection, magazinCategories, itemKey) => {
+        orderByDate(collection);
+
+        const related = excludeDrafts(collection).filter((item) => item.magazinCategories.some((category) => magazinCategories.includes(category)) && item.key !== itemKey);
+
+        return related.slice(0, 3);
+    });
 
     config.addTransform("htmlmin", minifyHtml);
 
