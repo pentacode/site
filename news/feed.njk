@@ -1,5 +1,5 @@
 ---
-permalink: blog/feed.json
+permalink: news/feed.json
 eleventyExcludeFromCollections: true
 ---
 {
@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
     "url": "{{ metadata.feedAuthorEmail }}"
   },
   "items": [
-    {%- for post in collections.all | eleventyNavigation("/blog") | excludeDrafts | orderByDate %}
+    {%- for post in collections.all | eleventyNavigation("/news") | excludeDrafts | orderByDate %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     {
       "id": "{{ absolutePostUrl }}",

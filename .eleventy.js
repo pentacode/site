@@ -145,6 +145,7 @@ module.exports = (config) => {
     config.addFilter("orderByDate", orderByDate);
     config.addFilter("sortByWeight", (collection) => collection.sort((a, b) => b.weight - a.weight));
     config.addFilter("excludeDrafts", excludeDrafts);
+    config.addFilter("getNewestCollectionItemPublishDate", (collection) => new Date(Math.max(...collection.map(item => { return item.publishDate }))));
     config.addFilter("getRelatedByMagazinCategories", (collection, magazinCategories, itemKey) => {
         orderByDate(collection);
 

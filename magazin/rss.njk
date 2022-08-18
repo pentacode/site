@@ -1,5 +1,5 @@
 ---
-permalink: blog/rss.xml
+permalink: magazin/rss.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
     <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.description }}</description>
     <language>{{ metadata.language }}</language>
-    {%- for post in collections.all | eleventyNavigation("/blog") | excludeDrafts | orderByDate %}
+    {%- for post in collections.all | eleventyNavigation("/magazin") | excludeDrafts | orderByDate %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <item>
       <title>{{ post.data.title or post.title }}</title>

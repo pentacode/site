@@ -4,6 +4,5 @@ title: Tipps & Rezepte
 weight: 3
 icon: cauldron
 anchors: []
-kind: home
 ---
 Die Artikel in diesem Bereich sollen Ihnen helfen, tiefer in die Möglichkeiten "einzusteigen", die Ihnen Pentacode bietet

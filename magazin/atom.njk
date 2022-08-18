@@ -1,5 +1,5 @@
 ---
-permalink: blog/atom.xml
+permalink: magazin/atom.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -8,13 +8,13 @@ eleventyExcludeFromCollections: true
   <subtitle>{{ metadata.description }}</subtitle>
   <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.all | eleventyNavigation("/blog") | excludeDrafts | getNewestCollectionItemPublishDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.all | eleventyNavigation("/magazin") | excludeDrafts | getNewestCollectionItemPublishDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.feedAuthorName }}</name>
     <email>{{ metadata.feedAuthorEmail }}</email>
   </author>
-  {%- for post in collections.all | eleventyNavigation("/blog") | excludeDrafts | orderByDate %}
+  {%- for post in collections.all | eleventyNavigation("/magazin") | excludeDrafts | orderByDate %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <entry>
       <title>{{ post.data.title or post.title }}</title>
