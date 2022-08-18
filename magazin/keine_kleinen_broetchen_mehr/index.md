@@ -1,10 +1,9 @@
 ---
-layout: layouts/magazin/single.njk
 title: Keine kleinen Brötchen mehr backen - Wie Pentacode Personalmanagement spielend leicht macht
 publishDate: 2022-08-16
 cover: "bild1.webp"
 author: jtomski
-magazinCategories:
+magazin/rubriken:
   - Das erfolgreiche Unternehmen
 ---
 
@@ -21,9 +20,9 @@ Personalplanungsprogramm Pentacode heute Unternehmen aller Art zum Erfolg führt
 
 ## Trotz bestem Wissen und Gewissen: Fallstricke lauern überall
 
-{% figure caption="Pentacode Gründer Lorenz Strasser", extraClass="float right width-30pc" %}
+{{< figure caption="Pentacode Gründer Lorenz Strasser" class="float right width-30pc" >}}
 <img src="bild2.webp" alt="Pentacode Gründer Lorenz Strasser" />
-{% endfigure %}
+{{< /figure >}}
 
 Damals nutze der technikaffine ehemalige Unternehmensberater ein Bündel an
 Softwarelösungen für Dienstplanung, Zeiterfassung und Kassenbuchführung und
@@ -57,9 +56,9 @@ und wie eine Software funktioniert.“</cite>
 
 ## Sicherheit und Transparenz für alle Arten von Unternehmen
 
-{% figure caption="Lorenz Strasser zusammen mit Chefentwickler Martin Kleinschrodt", extraClass="float left" %}
+{{< figure caption="Lorenz Strasser zusammen mit Chefentwickler Martin Kleinschrodt" class="float left" >}}
 <img src="bild3.webp" alt="Lorenz Strasser zusammen mit Chefentwickler Martin Kleinschrodt" />
-{% endfigure %}
+{{< /figure >}}
 
 Ein digitales Tool, das im Hintergrund völlig geräuschlos mitläuft, im Umgang
 für alle Mitarbeiter leicht verständlich und intuitiv erlernbar ist und
