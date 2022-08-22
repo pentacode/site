@@ -6,15 +6,10 @@
     "bracketSpacing": true,
     "overrides": [
         {
-            "files": ["*.html"],
+            "files": "**/*.md",
             "options": {
-                "parser": "go-template"
-            }
-        },
-        {
-            "files": ["content/**/*.md", ".forestry/**/*.yml"],
-            "options": {
-                "tabWidth": 2
+                "printWidth": 80,
+                "proseWrap": "always"
             }
         }
     ]

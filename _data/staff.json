@@ -1,0 +1,20 @@
+{
+  "lstrasser": {
+    "name": "Lorenz Strasser",
+    "title": "Geschäftsführer",
+    "bio": "bla bla bla",
+    "image": "/staff/lstrasser.jpg"
+  },
+  "jtomski": {
+    "name": "Julia Tomski",
+    "title": "Customer Success",
+    "bio": "bla bla bla",
+    "image": "/staff/jtomski.jpg"
+  },
+  "mklein": {
+    "name": "Martin Kleinschrodt",
+    "title": "Produktentwicklung",
+    "bio": "bla bla bla",
+    "image": "/staff/mklein.png"
+  }
+}

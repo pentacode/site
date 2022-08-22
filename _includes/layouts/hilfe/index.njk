@@ -1,0 +1,74 @@
+{% set main_title = title + ' | Pentacode' %}
+
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/list.html" %}<!-- -->
+{% include "styles/section-menu.html" %}<!-- -->
+{% include "styles/search.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    <div class="main-layout">
+        <aside>
+            {% if kind !== "home" %}
+                <div class="side-menu">
+                    {% include "components/section-menu.njk" %}
+                </div>
+            {% endif %}
+        </aside>
+
+        <div class="main animation-reveal-children">
+            {% if kind !== "home" %}
+                {% include "components/breadcrumbs.njk" %}
+            {% endif %}
+
+            <div class="content">
+                <div>
+                    <i class="icon fal fa-{{ icon or "scroll" }}"></i>
+
+                    <h1>
+                        <span>{{ title | markdownify | safe }}</span>
+                    </h1>
+                </div>
+
+                {{ content | markdownify | safe }}
+            </div>
+
+            {% if kind === "home" %}
+                {% include "components/section-menu.njk" %}
+            {% endif %}
+
+            <ul class="articles animation-reveal-children">
+                {% set pages = collections.all | eleventyNavigation(eleventyNavigation.key) | sortByWeight | excludeDrafts %}
+
+                {% for page in pages %}
+                    <li>
+                        <a href="{{ page.url }}">
+                            <article>
+                                <div>
+                                    <i
+                                        class="icon fal fa-{{ page.icon or "scroll" }}"
+                                    ></i>
+
+                                    <h2 class="title"><span>{{ page.title }}</span></h2>
+                                </div>
+
+                                <div class="text">
+                                    {{ page.excerpt | plainify | safe | truncate(200) }}
+                                </div>
+                            </article>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

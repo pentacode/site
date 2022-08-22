@@ -1,6 +1,5 @@
 {
-    "prettier.prettierPath": "/Users/martin/.nvm/versions/node/v12.19.1/lib/node_modules/prettier",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "rewrap.autoWrap.enabled": false,
     "rewrap.wrappingColumn": 80,
     "spellright.language": [
