@@ -1,0 +1,62 @@
+<style>
+    .sharing-illustration {
+        perspective: 1000px;
+    }
+
+    .sharing-illustration-inner {
+        height: 30em;
+        width: 30em;
+        position: relative;
+        transform: rotatex(17deg) rotatey(346deg) rotatez(1deg);
+    }
+
+    .sharing-illustration-inner > * {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .sharing-illustration .logo {
+        width: 6em;
+        height: 6em;
+    }
+
+    .sharing-illustration-inner > i {
+        width: 1em;
+        height: 1em;
+        font-size: 4em;
+        font-weight: bold;
+        -webkit-text-stroke: 1px currentColor;
+        -webkit-text-fill-color: var(--color-bg);
+        text-shadow: currentColor 2px 2px;
+    }
+
+    .sharing-illustration-inner > i:nth-of-type(1) {
+        transform: translate(-2.5em, 0.3em);
+        color: var(--orange);
+    }
+
+    .sharing-illustration-inner > i:nth-of-type(2) {
+        transform: translate(-1.2em, -2em);
+        color: var(--purple);
+    }
+
+    .sharing-illustration-inner > i:nth-of-type(3) {
+        transform: translate(1.6em, -1.7em);
+        color: var(--green);
+    }
+
+    .sharing-illustration-inner > i:nth-of-type(4) {
+        transform: translate(2em, 0.7em);
+        color: var(--violet);
+    }
+
+    .sharing-illustration-inner > i:nth-of-type(5) {
+        transform: translate(-0.5em, 2em);
+        color: var(--blue);
+    }
+</style>

@@ -1,0 +1,43 @@
+{% set main_title = title + ' | Wissensportal | Pentacode' %}
+
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/single.html" %}<!-- -->
+{% include "styles/side-menu.html" %}<!-- -->
+{% include "styles/section-menu.html" %}<!-- -->
+{% include "styles/hilfe.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    <div class="main-layout">
+        <aside>
+            {% if not hide_menu %}
+                <div class="side-menu">
+                    {% include "components/section-menu.njk" %}
+                </div>
+            {% endif %}
+        </aside>
+
+        <div>
+            {% include "components/breadcrumbs.njk" %}
+
+            <article>
+                <i class="cover-icon fal fa-{{ icon or "scroll" }}"></i>
+
+                <h1>{{ title | markdownify | safe }}</h1>
+
+                <div>
+                    {{ content | markdownify | safe }}
+                </div>
+            </article>
+        </div>
+    </div>
+{% endblock %}
