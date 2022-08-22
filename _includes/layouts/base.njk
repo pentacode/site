@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+    <head>
+        <title>{{ (main_title or title or metadata.title) | plainify }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="{{ description or metadata.description }}" />
+
+        <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" />
+        <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" />
+        <link rel="alternate" type="application/feed+json" href="/blog/feed.json" />
+
+        <link rel="alternate" type="application/rss+xml" href="/magazin/rss.xml" />
+        <link rel="alternate" type="application/atom+xml" href="/magazin/atom.xml" />
+        <link rel="alternate" type="application/feed+json" href="/magazin/feed.json" />
+
+        <link rel="alternate" type="application/rss+xml" href="/news/rss.xml" />
+        <link rel="alternate" type="application/atom+xml" href="/news/atom.xml" />
+        <link rel="alternate" type="application/feed+json" href="/news/feed.json" />
+
+        {% include "components/tracking.html" %}
+
+        {% if redirect %}
+        <meta http-equiv="refresh" content="0; url='{{ redirect }}'" />
+        {% endif %}
+
+        <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png" />
+
+        <meta name="og:title" content="{{ (main_title or title or metadata.title) | plainify }}"/>
+        <meta name="description" content="{{ description or metadata.description }}"/>
+        <meta name="og:description" content="{{ description or metadata.description }}"/>
+        {% if cover %}
+        <meta property="og:image" content="{{ cover }}"/>
+        {% endif %}
+        
+        {% block meta %}{% endblock %}
+
+        {% block styles %}
+        <!-- -->
+        {% include "styles/vars.html" %}
+        <!-- -->
+        {% include "styles/base.html" %}
+        <!-- -->
+        {% include "styles/layout.html" %}
+        <!-- -->
+        {% include "styles/fonts.html" %}
+        <!-- -->
+        {% include "styles/icons.html" %}
+        <!-- -->
+        {% include "styles/animation.html" %}
+        <!-- -->
+        {% include "styles/header.html" %}
+        <!-- -->
+        {% endblock %}
+        <!-- -->
+
+        {% block js %} {% endblock %}
+
+        <script src="/assets/js/scheduling.js" async></script>
+    </head>
+    <body>
+        {% block body %} {% endblock %}
+
+        {% block footer %}
+            {% include "components/footer.html" %}
+        {% endblock %}
+
+        {% include "components/helpscout.html" %}
+    </body>
+</html>

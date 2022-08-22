@@ -1,0 +1,30 @@
+{% set main_title = title + ' | Pentacode' %}
+
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/funktionen.html" %}<!-- -->
+{% include "styles/divider.html" %}<!-- -->
+{% include "styles/features.html" %}<!-- -->
+{% include "styles/preise.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block js %}
+    <script src="/assets/js/anime.min.js" async></script>
+    <script src="/assets/js/animation.js" async></script>
+{% endblock %}
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    <div style="height: 5em"></div>
+
+    {% include "components/sections/features.njk" %}
+
+    {% include "components/sections/preise.njk" %}
+{% endblock %}

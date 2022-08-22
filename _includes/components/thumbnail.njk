@@ -1,0 +1,15 @@
+{% if thumbnail %}
+<div class="golden-ratio thumbnail-img">
+    <img src='{{ thumbnail.permalink }}' class="cover-parent" />
+</div>
+{% endif %}
+{% if not thumbnail and cover %}
+<div class="golden-ratio thumbnail-img">
+    <img src='{{ cover }}' class="cover-parent" />
+</div>
+{% endif %}
+{% if not thumbnail and not cover %}
+<div class="thumbnail-icon">
+    <i class="fal fa-{{ icon or "scroll" }}"></i>
+</div>
+{% endif %}

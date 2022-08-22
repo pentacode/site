@@ -1,0 +1,102 @@
+<div class="search-wrapper">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+
+    <input type="search" placeholder="Artikel Durchsuchen..." />
+
+    <div class="search-results" hidden></div>
+
+    <script>
+        (() => {
+            const searchWrapper = document.currentScript.parentElement;
+            const input = searchWrapper.querySelector("input");
+            const resultsContainer = searchWrapper.querySelector(".search-results");
+            // const resultsList = searchWrapper.querySelector(".search-results ul");
+            // const resultsElements = [...searchWrapper.querySelectorAll("li")];
+
+            function loadIndex() {
+                let req = new XMLHttpRequest();
+
+                return new Promise((resolve, reject) => {
+                    req.onreadystatechange = () => {
+                        if (req.readyState === 4) {
+                            if (!req.status) {
+                                reject();
+                            } else {
+                                resolve(JSON.parse(req.responseText));
+                            }
+                        }
+                    };
+
+                    try {
+                        req.open("get", "/hilfe/index.json", true);
+                        req.send();
+                    } catch (e) {
+                        reject();
+                    }
+                });
+            }
+
+            function renderResultItem({ matches, item: { icon, title, summary, url } }) {
+                if (summary.toLowerCase().includes(input.value.toLowerCase())) {
+                    summary = summary.replace(new RegExp(`(${input.value})`, 'ig'), '<mark>$1</mark>');
+                }
+
+                if (title.toLowerCase().includes(input.value.toLowerCase())) {
+                    title = title.replace(new RegExp(`(${input.value})`, 'ig'), '<mark>$1</mark>');
+                }
+                return `
+                    <li>
+                        <a href="${url}">
+                            <div class="search-result-section">
+                                <i class="fal fa-${icon}"></i>
+                                ${title}
+                            </div>
+                            ${summary ? `<div class="search-result-title">
+                                ${summary}
+                            </div>` : ''}
+                        </a>
+                    </li>
+                `;
+            }
+
+            function displaySearchResults(results) {
+                results = results.sort((a, b) => a.score - b.score);
+
+                resultsContainer.innerHTML = `
+                    <ul>
+                        ${results.map(renderResultItem).join("\n")}
+                    </ul>
+                `;
+            }
+
+            function setupSearch(index) {
+                const items = [];
+
+                for ({ title, summary, content, icon, relUrl: url } of index.pages) {
+                    items.push({ icon, title, summary, content, url });
+                }
+
+                const fuse = new Fuse(items, {
+                    keys: ["title", "content"],
+                    includeScore: true,
+                    includeMatches: true,
+                    threshold: 0.2,
+                    minMatchCharLength: 4,
+                });
+
+                input.addEventListener("input", () => {
+                    const val = input.value;
+                    if (val) {
+                        const results = fuse.search(val);
+                        displaySearchResults(results);
+                        resultsContainer.removeAttribute("hidden");
+                    } else {
+                        resultsContainer.setAttribute("hidden", "");
+                    }
+                });
+            }
+
+            loadIndex().then((index) => setupSearch(index));
+        })();
+    </script>
+</div>

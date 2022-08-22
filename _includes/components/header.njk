@@ -1,0 +1,106 @@
+<div id="header_anchor"></div>
+<header class="blue">
+    <div class="header-inner horizonal center-aligning layout">
+        <nav class="sections" role="navigation">
+            <ul class="horizontal center-aligning layout">
+                <li>
+                    <a href="/"><img class="logo" src="/assets/img/logo.svg" alt="Pentacode Logo" /></a>
+                </li>
+
+                <li class="section-item">
+                    <a href="/#funktionen"> Funktionen </a>
+                </li>
+
+                <li class="section-item">
+                    <a href="/#preise"> Preise </a>
+                </li>
+
+                <li class="section-item {% if eleventyNavigation.section === "hilfe" %}active{% endif %}">
+                    <a href="/hilfe"> Hilfe </a>
+                </li>
+
+                <li class="section-item {% if eleventyNavigation.section === "magazin" %}active{% endif %}">
+                    <a href="/magazin"> Magazin </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="stretch"></div>
+
+        <nav class="login-signup">
+            <ul class="horizontal center-aligning layout">
+                <li>
+                    <a
+                        href="https://calendly.com/pentacode/demo"
+                        onclick="openScheduler(); return false;"
+                        class="btn get-started text-clip"
+                    >
+                        <i class="fal fa-user-headset"></i>
+                        <span>Termin Vereinbaren</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="menu">
+            <button class="btn menu-button" aria-label="Menü">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="menu-inner" hidden>
+                <nav class="menu-login-signup" role="navigation">
+                    <ul>
+                        <li>
+                            <a href="/#preise" class="btn text-clip">
+                                <i class="fal fa-user-headset"></i>
+                                <span>Termin Vereinbaren</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="menu-sections">
+                    <ul>
+                        <li>
+                            <a href="/#funktionen"> Funktionen </a>
+                        </li>
+
+                        <li>
+                            <a href="/#preise"> Preise </a>
+                        </li>
+
+                        <li>
+                            <a href="/hilfe"> Hilfe </a>
+                        </li>
+
+                        <li>
+                            <a href="/magazin"> Magazin </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    (() => {
+        const header = document.querySelector("header");
+        const headerAnchor = document.querySelector("#header_anchor");
+        const menuButton = document.querySelector(".menu-button");
+        const menu = document.querySelector(".menu-inner");
+
+        new IntersectionObserver(([entry]) => header.classList.toggle("floating", !entry.isIntersecting), {
+            threshold: 0.5,
+        }).observe(headerAnchor);
+
+        menuButton.addEventListener("click", (e) => {
+            e.stopPropagation();
+            menu.removeAttribute("hidden");
+        });
+
+        document.addEventListener("click", () => {
+            menu.setAttribute("hidden", "");
+        });
+    })();
+</script>

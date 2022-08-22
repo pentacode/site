@@ -1,0 +1,32 @@
+{% set main_title = title + ' | Pentacode' %}
+
+{% extends "./base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/single.html" %}<!-- -->
+{% include "styles/section-menu.html" %}<!-- -->
+{% include "styles/page-menu.html" %}<!-- -->
+{% include "styles/search.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    <div class="main-layout">
+        <div>
+            <article class="animation-reveal-children animation-fast">
+                <i class="cover-icon fal fa-circle-exclamation"></i>
+                <h1><span>{{ title | markdownify | safe }}</span></h1>
+
+                <div>
+                    {{ content | markdownify | safe }}
+                </div>
+            </article>
+        </div>
+    </div>
+{% endblock %}

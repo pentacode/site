@@ -1,0 +1,133 @@
+{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) | sortByWeight %}
+
+{% macro menu(pages) %}
+    {% for page in pages %}
+        <li class="{% if page.url === eleventyNavigation.url %}active{% endif %}">
+            <a href="{{ page.url }}">
+                <i class="icon fal fa-{{ page.icon or "scroll" }}"></i>
+                <span class="title">
+                    {{ page.title | markdownify | safe }}
+                </span>
+            </a>
+
+            {% set hideChildren = false %}
+            {% set hiddenAttribute = "" %}
+
+            {% if (eleventyNavigation.key not in page.key) and (page.key not in eleventyNavigation.key) %}
+                {% set hideChildren = true %}
+            {% endif %}
+
+            {% if (not hideChildren) and (eleventyNavigation.key in page.parent) %}
+                {% set hideChildren = true %}
+            {% endif %}
+
+            {% if hideChildren %}
+                {% set hiddenAttribute = "hidden" %}
+            {% endif %}
+
+            {% if (not page.anchors) or (page.anchors.length === 0) %}
+                <ul {{ hiddenAttribute }}>
+                    {% set subpages = collections.all | eleventyNavigation(page.key) | sortByWeight %}
+                    {{ menu(subpages) }}
+                </ul>
+            {% else %}
+                <ul class="table-of-contents" {{ hiddenAttribute }}>
+                    {% for anchor in page.anchors %}
+                        <li><a href="{{ page.url }}#{{ anchor.hash }}">{{ anchor.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
+
+
+<nav class="section-menu">
+    <div class="centering layout">
+        <input type="search" placeholder="Suchen..." class="search-input" id="search-input" />
+    </div>
+    <ul class="section-menu-list">
+        {{ menu(allPages) }}
+    </ul>
+</nav>
+
+<script>
+    window.addEventListener("load", () => {
+        const currentItems = [...document.querySelectorAll(".table-of-contents:not([hidden]) li")];
+        const headings = document.querySelectorAll("h2[id], h3[id]");
+        const container = document.querySelector(".section-menu");
+        const allItems = [...document.querySelectorAll(".section-menu li")];
+        const input = document.querySelector(".section-menu input");
+        input.focus();
+        document.documentElement.style.scrollBehavior = "smooth";
+
+        let timeout;
+        function scrollTo(el) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                try {
+                    el.scrollIntoViewIfNeeded();
+                } catch (e) {
+                    el.scrollIntoView();
+                }
+            }, 500);
+        }
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                for (const entry of entries) {
+                    const id = entry.target.id;
+                    const items = currentItems.filter((item) => {
+                        const link = item.querySelector("a");
+                        return link && link.getAttribute("href").endsWith(`#${id}`);
+                    });
+                    items.forEach((item) => (item.dataset.headerVisible = entry.isIntersecting));
+                }
+
+                const firstVisibleIndex = currentItems.findIndex((item) => item.dataset.headerVisible === "true");
+                const firstVisible =
+                    currentItems[firstVisibleIndex - 1] || (firstVisibleIndex && currentItems[firstVisibleIndex]);
+                if (firstVisible) {
+                    currentItems.forEach((item) => item.classList.remove("active"));
+                    firstVisible.classList.add("active");
+                    currentItems
+                        .filter((item) => !!item.querySelector("li.active"))
+                        .forEach((item) => item.classList.add("active"));
+                    scrollTo(firstVisible);
+                }
+            },
+            { root: document, rootMargin: "-100px 0px 200px 0px", threshold: 1 }
+        );
+
+        headings.forEach((heading) => observer.observe(heading));
+
+        input.addEventListener("input", () => {
+            const vals = input.value.split(" ").filter((val) => !!val);
+            container.classList.toggle("searching", !!vals.length);
+
+            if (vals.length) {
+                allItems.forEach((item) => {
+                    const titleEl = item.querySelector("a .title") || item.querySelector("a");
+                    titleEl && (titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, ""));
+                    const innerMatch = vals.some((val) => item.textContent.toLowerCase().includes(val.toLowerCase()));
+                    if (innerMatch) {
+                        titleEl &&
+                            (titleEl.innerHTML = titleEl.innerHTML.replaceAll(
+                                new RegExp(vals.join("|"), "gi"),
+                                "<mark>$&</mark>"
+                            ));
+                        item.removeAttribute("hidden");
+                    } else {
+                        item.setAttribute("hidden", "");
+                    }
+                });
+            } else {
+                allItems.forEach((item) => {
+                    const titleEl = item.querySelector("a .body") || item.querySelector("a");
+                    titleEl && (titleEl.innerHTML = titleEl.innerHTML.replace(/<\/?mark>/g, ""));
+                    item.removeAttribute("hidden");
+                });
+            }
+        });
+    });
+</script>

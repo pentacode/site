@@ -1,0 +1,78 @@
+{% set main_title = title + ' | Funktionen | Pentacode' %}
+
+{% extends "../base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/funktionen.html" %}<!-- -->
+{% include "styles/slides.html" %}<!-- -->
+{% include "styles/waterfall.html" %}<!-- -->
+{% include "styles/divider.html" %}<!-- -->
+{% include "styles/features.html" %}<!-- -->
+{% include "styles/preise.html" %}<!-- -->
+
+{% endblock %}<!-- -->
+
+{% block js %}
+    <script src="/assets/js/anime.min.js" async></script>
+    <script src="/assets/js/animation.js" async></script>
+    <script src="/assets/js/slides.js" async></script>
+    <script src="/assets/js/waterfall.js" async></script>
+{% endblock %}
+
+{% block body %}
+
+    {% include "components/header.njk" %}
+
+    <section class="hero blue" data-section="hero">
+        <div class="inner">
+            <div class="content animation-reveal-children">
+                <h1 class="blue text-clip">{{ title | markdownify | safe }}</h1>
+
+                <h2>
+                    {{ subtitle | markdownify | safe }}
+                </h2>
+
+                <h3 class="red text-clip">
+                    {{ subsubtitle | markdownify | safe }}
+                </h3>
+
+                <div>
+                    {{ description | markdownify | safe }}
+                </div>
+
+                <div class="buttons">
+                    <a href="#preise" class="btn highlight get-started">
+                        <span>Jetzt Kennenlernen</span>
+                        <span class="icon fas fa-play-circle"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="images">
+                <div class="scaler">
+                    <div class="image animation-reveal-children">
+                        <img src="{{ cover }}" alt="{{ cover_alt or subtitle }}" />
+                        {% if cover_2 %}
+                            <img src="{{ cover_2 }}" alt="{{ cover_alt_2 or subtitle }}" />
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include "components/divider.njk" %}
+    </section>
+
+    {% for section in sections %}
+        {% include "components/" + section.template_path + ".njk" ignore missing %}
+    {% endfor %}
+
+    {% include "components/sections/preise.njk" %}
+
+    {% include "components/sections/features.njk" %}
+
+    {% include "components/provenexpert-seal.html" %}
+{% endblock %}
