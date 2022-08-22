@@ -104,7 +104,7 @@ module.exports = (config) => {
     config.addNunjucksShortcode("relref", (ref) => ref);
     config.addNunjucksShortcode("key", (key, extraClass = "") => html`<span class="key ${extraClass}">${key}</span>`);
     config.addNunjucksShortcode("icon", (icon) => html`<i class="fas fa-${icon}"></i>`);
-    config.addNunjucksShortcode("button", (label = "", icon = "", iconRight = "", extraClass = "") => html`<span class="fake-button ${extraClass}">${icon ? html`<i class="fas fa-${icon}"></i>` : ''} ${label ? label : ''} ${iconRight ? html`<i class="fas fa-${iconRight}"></i>` : ''}</span>`);
+    config.addNunjucksShortcode("button", ({ label = "", icon = "", iconRight = "", extraClass = "" }) => html`<span class="fake-button ${extraClass}">${icon ? html`<i class="fas fa-${icon}"></i>` : ''} ${label ? label : ''} ${iconRight ? html`<i class="fas fa-${iconRight}"></i>` : ''}</span>`);
     config.addNunjucksShortcode("param", (param) => html`<strong>[REPLACE_ME ${param}]</strong>`);
     config.addNunjucksShortcode("br", () => html`<br />`);
     config.addNunjucksShortcode(
