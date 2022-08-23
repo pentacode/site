@@ -90,11 +90,11 @@ Um einen Probemitarbeiter in einen vollen Mitarbeiter umzuwandeln, gehen Sie wie
 
 ## Sofortmeldung 
 
-Da Sie jeder von Ihnen eingestellte Mitarbeiter -- ab dem ersten Tag -- bei der Rentenversicherung meldepflichtig ist, fällt besonders bei häufig wechselndem Personal viel Arbeit an. Dank der Sofortmeldungsfunktion können Sie das Melden eines neuen Mitarbeiter nun **in wenigen Minuten direkt über Pentacode** erledigen und gehen sicher, **stets rechtlich korrekt** zu arbeiten. Sie benötigen dazu nur einige Daten des Mitarbeiters, welche Sie einfach über die Personalfragebogen Funktion anfragen können. 
+Da Sie jeder von Ihnen eingestellte Mitarbeiter ab dem ersten Arbeitstag bei der Rentenversicherung meldepflichtig ist, fällt besonders bei häufig wechselndem Personal viel Arbeit an. Dank der Sofortmeldungsfunktion können Sie das Melden eines neuen Mitarbeiter nun **in wenigen Minuten direkt über Pentacode** erledigen und gehen sicher, **stets rechtlich korrekt** zu arbeiten. Sie benötigen dazu nur einige Daten des Mitarbeiters, welche Sie einfach über die Personalfragebogen Funktion anfragen können. 
 
-> Für jede Sofortmeldung fällt eine Bearbeitungsgebühr von 8€ an, welche mit ihrer nächsten regulären Monatsabrechnung anfällt. Ihre Zeitersparnis und die Sicherheit bei -- Betriebskontrollen -- nichts zu befürchten zu haben, ist aber unbezahlbar.
+> Für jede Sofortmeldung fällt eine Bearbeitungsgebühr von 8€ an, welche mit ihrer nächsten regulären Monatsabrechnung anfällt. Ihre Zeitersparnis und die Sicherheit bei Betriebskontrollen nichts zu befürchten zu haben, ist aber unbezahlbar.
 
--- Auf Probe auch meldepflichtig oder?
+
 
 ### Sofortmeldung bei neuen Mitarbeitern 
 
@@ -105,6 +105,8 @@ Sobald Sie einen neuen Mitarbeiter angelegt haben wird sich ein Dialogfeld öffn
 <img src="sofortmeldung.png" />
 
 {{< /figure >}}
+
+> **Wichtig:** {{<icon "exclamation">}} Auch Mitarbeiter auf Probe sind meldepflichtig obwohl sie noch nicht fest angestellt sind - Sie sollten also für jeden neuen Mitarbeiter gleich eine Sofortmeldung ausfüllen.
 
 #### Unternehmen
 
