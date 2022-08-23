@@ -1,0 +1,84 @@
+backend:
+  name: github
+  repo: pentacode/site
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: https://pentacode.app
+display_url: https://pentacode.app
+logo_url: https://pentacode.app/assets/img/logo.svg
+# locale: "de"
+
+slug:
+  encoding: "unicode"
+  clean_accents: false
+  sanitize_replacement: "-"
+
+collections:
+  - name: "news"
+    identifier_field: "title"
+    folder: "news"
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{filename}}"
+    preview_path: "news/{{dirname}}/{{filename}}"
+    summary: "{{title}}"
+    sortable_fields: ["publishDate", "title", "author"]
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        width: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/news/single.njk"
+      - name: "cover"
+        label: "Cover"
+        required: false
+        widget: "image"
+      - name: "summary"
+        label: "Summary"
+        required: true
+        widget: "text"
+      - name: "author"
+        label: "Author"
+        required: true
+        widget: "select"
+        default: "lstrasser"
+        options:
+          - { label: "Lorenz Strasser", value: "lstrasser" }
+          - { label: "Julia Tomski", value: "jtomski" }
+          - { label: "Martin Kleinschrodt", value: "mklein" }
+      - name: "categories"
+        label: "Categories"
+        required: false
+        widget: "select"
+        multiple: true
+        options: ["Ratgeber", "Ankündigungen", "Sonstiges", "Produktupdates"]
+      - name: "keywords"
+        label: "Keywords"
+        required: false
+        widget: "list"
+      - name: "publishDate"
+        label: "Publish Date"
+        required: true
+        widget: "date"
+        format: "YYYY-MM-DD"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"
