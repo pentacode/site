@@ -84,6 +84,7 @@ module.exports = (config) => {
     const html = (...args) => outdent(String.raw(...args)).trim();
 
     config.addPassthroughCopy("assets/**/*");
+    config.addPassthroughCopy("admin/config.yml");
 
     // Old paths
     config.addPassthroughCopy({ "./assets": "/" });

@@ -18,13 +18,14 @@ slug:
 
 collections:
   - name: "news"
-    identifier_field: "title"
+    label: "News"
+    identifier_field: title
     folder: "news"
     create: true
     extension: md
     format: frontmatter
-    slug: "{{filename}}"
-    preview_path: "news/{{dirname}}/{{filename}}"
+    slug: "{{title}}"
+    preview_path: "news/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
     view_filters:
