@@ -32,7 +32,7 @@ Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungs
 
 {% figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" %}
 
-![](/uploads/umsatzgruppe1.png)
+<img src="neue-umsatzgruppen" />
 
 {% endfigure %}
 
