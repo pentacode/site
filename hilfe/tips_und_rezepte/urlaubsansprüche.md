@@ -1,4 +1,5 @@
 ---
+layout: layouts/hilfe/single.njk
 title: Urlaubsansprüche übertragen
 weight: 1
 icon: calendar
@@ -21,16 +22,14 @@ Frau Hahn hat einen **jährlichen Gesamturlaubsanspruch von 27 Tagen**. Zum erst
 
 Pentacode wird nun (sofern Sie einen [monatlichen Urlaubszuwachs](/hilfe/handbuch/mitarbeiter/vertrag/#Urlaubszuwachs) festgelegt haben) zu Beginn eines jeden Monats Frau Hahn 2,25 Tage Urlaubsanspruch verbuchen (jährlicher Gesamtanspruch geteilt durch 12). Ohne Übertrag würden nun aber weder der Anspruch der drei Monate Januar - März (vor dem Wechsel auf Pentacode) noch die drei genommenen Urlaubstage in das Urlaubskonto mit einfließen. Normalerweise sollten wir aus einer vorherigen Software oder händisch ausgerechnet den Urlaubsanspruch zu Ende März bereits berechnet haben, wenn nicht können wir ihn aber auch aus unseren [Angaben berechnen](#übertrag-händisch-berechnen). Bei Frau Hahn kommen wir schließlich auf eine Urlaubsgutschrift von 3,75 Tagen welche wir wie [hier](#urlaub-gutschreiben) beschrieben übertragen. 
 
-{{<figure caption= "So verbuchen wir den Urlaubsübertrag für Frau Hahn">}}
+{% figure caption="So verbuchen wir den Urlaubsübertrag für Frau Hahn" %}
 
 <img src = "gutschrift.gif" />
 
-{{< /figure >}}
+{% endfigure %}
 
 ### Übertrag händisch berechnen
 Um den überstehenden Urlaubsanspruch zu errechnen, ermitteln wir erst den monatlichen Urlaubsanspruch indem wir den jährlichen Gesamtanspruch durch 12 teilen **(27/12 = 2,25 pro Monat)**. Anschließend multiplizieren wir diesen mit drei, um den Anspruch für Januar bis März zu erhalten **(2,25x3 = 6,75)**. Anschließend subtrahieren wir noch den bereits genommenen Urlaub **(6,75-3 = 3,75)** um auf den Übertrag zu kommen. Wir wissen nun also, dass +3,75 Tage zusätzlicher Urlaubsanspruch in Pentacode zu verbuchen sind. 
 
 ## Urlaubsvortragsberechnung
 Bittet ein Mitarbeiter um eine Vortragsberechnung, um seinen Urlaub besser planen zu können, können wir auch diese mit Hilfe von Pentacode einfach errechnen. Der Einfachkeit halber sollte dazu der Übertrag schon verrechnet sein. Nun müssen wir nur noch den momentanen Urlaubsanspruch in Pentacode mit dem zu Erwarteten bis zur Vortragsberechnung addieren. ???
-
-
