@@ -56,7 +56,7 @@ sind? Vielleicht hatte es mit der Körpersprache des Gegenübers zu tun. Wer mit
 verschränkten Armen und versteinerter Miene die Fortschritte des Projektes lobt,
 der wird seine Gesprächspartner bestenfalls verwirren. Schlimmstenfalls wird er
 ihnen vor den Kopf stoßen. Da rund 90 Prozent des gesendeten Inhalts unserer
-Gespräche nonverbal vonstatten geht, ist es essentiell, dass wir sensibel sind
+Gespräche non-verbal vonstatten geht, ist es essentiell, dass wir sensibel sind
 für unsere Mimik, Blickverhalten, Körperhaltung und Co.
 
 {% figure caption="Dass in diesem Gespräch etwas schiefläuft, merkt man. Auch ohne Worte", extraClass="" %}
@@ -67,7 +67,7 @@ Im hektischen Alltag fällt es leider gerne hinten über. Gemessen an dem Effekt
 den unsere Körpersprache hat, lohnt es sich aber ganz bewusst an sich zu
 arbeiten: Mit den Gedanken in der konkreten Gesprächssituation bleiben und nicht
 schon zu den nächsten To-Dos wandern. So bleiben mehr Kapazitäten für eine
-bewusste Kommunikation – die verbale **und** nonverbale.
+bewusste Kommunikation – die verbale **und** non-verbale.
 
 {% figure caption="Ein wichtiger Tipp in Sachen Kommunikation: Große Ohren machen.", extraClass="float right width-30pc" %}
 <img src="pentacode-tipps_kommunikation_im_arbeitsumfeld_2.webp" alt="Französische Bulldogge im Bananen-shirt und großem Ohr seitlich." />
@@ -92,7 +92,7 @@ Arbeitsbeziehung sabotieren könnten.
 ## Statt „aus dem Bauch heraus“: besonnen und auf Fakten basierend kommunizieren
 
 Ein Vorwurf, eine Kritik, vielleicht war es auch einfach nur eine ungünstig
-formulierte Feststellung: Wenn sich eine im Gespräch beteiligte Person perönlich
+formulierte Feststellung: Wenn sich eine im Gespräch beteiligte Person persönlich
 angegriffen fühlt, ist erst einmal wichtig herauszufinden, ob der Affront
 wirklich initiiert war. Reagiert man im Affekt, kann aus einer banalen
 Situation, die vielleicht sogar auf einer reinen „gefühlten Wahrheit“ basiert,
@@ -139,6 +139,6 @@ In dieser Hinsicht ist übrigens auch unser Personalplanungstool eine gut
 gemeinter Tipp in Sachen Kommunikationsoptimierung. Von der automatischen
 Dienstplanerstellung bis zur Lohnkostenvorbereitung: Pentacode eliminiert viele
 stressbringende Kommunikationsanlässe per se. Mehr zu den Vorteilen des
-technisch umfangreichsten Tools zur Personalplanungs, das es derzeit auf dem
+technisch umfangreichsten Tools zur Personalplanung, das es derzeit auf dem
 Markt gibt, lesen Sie auf unserer [Homepage](/).
 
