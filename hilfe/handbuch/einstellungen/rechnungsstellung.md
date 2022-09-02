@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Rechnungsstellung
 weight: 7
 icon: file-invoice-dollar
-anchors: []
 keywords:
 - rechnungsanschrift
 - zahlungsmittel

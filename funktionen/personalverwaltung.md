@@ -12,7 +12,6 @@ cover: "/uploads/funktionen_personalverwaltung_abwesenheiten-einzeln.png"
 cover_2: "/uploads/funktionen_personalverwaltung_ma-app-home.png"
 weight: 1
 icon: "table"
-anchors: []
 keywords: []
 draft: false
 ---

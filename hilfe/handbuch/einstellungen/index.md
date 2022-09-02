@@ -3,7 +3,6 @@ layout: layouts/hilfe/index.njk
 title: Einstellungen
 weight: 8
 icon: cog
-anchors: []
 keywords:
 - einstellungen
 

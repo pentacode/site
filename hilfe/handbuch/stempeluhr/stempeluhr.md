@@ -4,11 +4,6 @@ permalink: "hilfe/handbuch/stempeluhr/stempeluhr/"
 title: Einrichten der Stempeluhr
 weight: 1
 icon: stopwatch
-anchors:
-- hash: einrichten-eines-android-tablets
-  title: Android Tablet
-- hash: einrichten-eines-ios-tablets
-  title: iOS-Tablet
 keywords:
 - tablet
 - android

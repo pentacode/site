@@ -12,7 +12,6 @@ cover: "/uploads/funktionen_zeiterfassung_stempeluhr-1.png"
 cover_2: "/uploads/funktionen_zeiterfassung_ma-app.png"
 weight: 1
 icon: "stopwatch"
-anchors: []
 keywords: []
 aliases: [/funktionen/dokumentation]
 sections:

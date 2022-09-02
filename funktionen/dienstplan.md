@@ -11,7 +11,6 @@ cover: "/uploads/funktionen_dienstplan_titelbild.png"
 cover_2: "/uploads/funktionen_dienstplan_ma-app-2.png"
 weight: 1
 icon: "table"
-anchors: []
 keywords: []
 aliases: [/funktionen/dienstplanung]
 sections:

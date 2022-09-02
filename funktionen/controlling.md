@@ -11,7 +11,6 @@ cover: "/uploads/funktionen_controlling_berichte-arbeitszeit.png"
 cover_2: "/uploads/funktionen_controlling_berichte-dashboard.png"
 weight: 1
 icon: "table"
-anchors: []
 keywords: []
 draft: false
 ---

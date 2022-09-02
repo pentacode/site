@@ -3,15 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Arbeitszeit
 weight: 
 icon: chart-bar
-anchors:
-- hash: stundenangabe
-  title: Stundenangabe
-- hash: euro-anzeige
-  title: Euro-Anzeige
-- hash: einzelne-mitarbeiter
-  title: Einzelne Mitarbeiter
-- hash: zeitraum-wählen
-  title: Zeitraum wählen
 keywords:
 - stundenaufwand
 - personalkosten

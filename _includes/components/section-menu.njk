@@ -32,7 +32,7 @@
                     {{ menu(subpages) }}
                 </ul>
             {% else %}
-                {% set anchors = page.anchors or (page.htmlContent | toc) %}
+                {% set anchors = (page.htmlContent | toc) %}
                 <ul class="table-of-contents" {{ hiddenAttribute }}>
                     {% for anchor in anchors %}
                         <li><a href="{{ page.url }}#{{ anchor.hash }}">{{ anchor.title | plainify | safe }}</a></li>
