@@ -12,6 +12,6 @@ Eine Änderung der Adressdaten hat keinerlei sonstige Auswirkung.
 
 {% figure caption="Angaben zum Unternehmen und allgemeine Kontaktdaten" %}
 
-![](/uploads/unternehmen.png)
+<img src="überblick.png"/>
 
 {% endfigure %}

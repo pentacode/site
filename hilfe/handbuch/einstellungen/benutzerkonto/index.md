@@ -14,7 +14,7 @@ Sofern ein Administrator Zugang zum "Benutzerkonto" hat, kann er in diesem Menü
 
 {% figure caption="Benutzerdaten & Passwort ändern" %}
 
-![](/uploads/benutzerkonto.png)
+<img src="überblick.png"/>
 
 {% endfigure %}
 

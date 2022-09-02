@@ -40,6 +40,7 @@ module.exports = {
         : data.cover.startsWith("http") || data.cover.startsWith("/")
           ? data.cover
           : `${data.page.url}/${data.cover}`,
+    coverAlt: data => data.coverAlt,
     date: (data) => data.date || data.page.date || new Date(),
     publishDate: (data) => data.publishDate || data.page.publishDate || new Date(),
     hero_title: (data) => data.hero_title || data.page.hero_title,

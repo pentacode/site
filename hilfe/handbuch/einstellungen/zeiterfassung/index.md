@@ -5,14 +5,14 @@ weight: 4
 icon: stopwatch
 ---
 
-Egal wie Sie Arbeitszeiten in Pentacode verwalten - über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr/) unsere
+Egal wie Sie Arbeitszeiten in Pentacode verwalten - über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr/), unsere
 [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app/) oder manuell - Pentacode bietet Ihnen eine Vielzahl von
 Einstellungsmöglichkeiten mit denen Sie definieren können, wie und wann sich Mitarbeiter ein- und ausstempeln dürfen,
 wie Pausen erfasst werden und vieles mehr.
 
 > Die Zeiterfassungseinstellungen betreffen in Pentacode vor allem das Erfassen von Arbeitszeiten per Digitaler
 > Stempeluhr oder Mitarbeiter-App. Aber auch wenn Sie Zeiten ausschließlich manuell erfassen finden Sie hier einige
-> relevante Einstellungen, so wie die zum Beispiel die [automatische Pausenberechnung](#pausenberechnung) oder das
+> relevante Einstellungen, so wie die [automatische Pausenberechnung](#pausenberechnung) oder das
 > automatische Buchen von [Mitarbeiteressen](#buchung-von-mitarbeiteressen).
 
 ## Über Zeiterfassungs-Regelsätze
@@ -32,13 +32,14 @@ unten).
 ### Neuen Regelsatz Erstellen
 
 Um einen neuen Regelsatz zu erstellen, klicken Sie einfach auf den Button {% button label="Neuer Regelsatz", icon="plus" %}.
-Es öffnet sich ein Dialog über den Sie nun die Einstellungen für diesen Regelsatz bearbeiten können. Um den Regelsatz
+Es öffnet sich ein Dialogfeld über welches Sie nun die Einstellungen für diesen Regelsatz bearbeiten können. Um den Regelsatz
 hinzuzufügen, klicken Sie auf {% button label="Speichern" %}. Vergessen Sie nicht, dem Regelsatz einen Namen zu geben!
 
 ### Regelsatz Bearbeiten
 
 Einen existierenden Regelsatz bearbeiten Sie, indem Sie einfach den gewünschten Eintrag mit einem Klick aus der Liste
-wählen. Es öffnet sich ein Dialog, in dem Sie die gewünschten Änderungen vornehmen können. Klicken Sie auf {% button label="Speichern" %} um die Änderungen zu übernehmen oder {% button label="Abbrechen" %} um die Änderungen zu
+wählen. Es öffnet sich ein Dialogfeld, in welchem Sie die gewünschten Änderungen vornehmen können. Klicken Sie auf {% button
+label="Speichern" %} um die Änderungen zu übernehmen oder {% button label="Abbrechen" %} um die Änderungen zu
 verwerfen.
 
 ### Regelsatz Entfernen
@@ -78,6 +79,10 @@ funktioniert wie folgt:
 > Sollten Sie bei der Zuordnung eine/n Standort, Abteilung oder Mitarbeiter wählen, der/dem bereits ein Regelsatz
 > zugeordnet wurde, wird Pentacode Ihnen eine entsprechende Warnung anzeigen und Sie fragen, ob sie die Zuordnung
 > überschreiben wollen.
+
+### Regelsatz global verwenden
+
+Sie können einen individuell erstellten Regelsatz ebenfalls als neuen globalen Regelsatz festlegen. Wählen Sie dabei bei der [Zuordnung von Regelsätzen](#zuordnung-von-regelsätzen) **{% icon "globe" %} Als globale Einstellung verwenden** aus. Der ausgewählte Regelsatz wird nun nach erneuter Bestätigung für alle Mitarbeiter und Abteilungen verwendet, denen kein eigener Regelsatz zugeordnet ist. 
 
 ## Anwendung von Regelsätzen
 
