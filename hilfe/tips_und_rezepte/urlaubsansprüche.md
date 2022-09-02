@@ -24,7 +24,7 @@ Pentacode wird nun (sofern Sie einen [monatlichen Urlaubszuwachs](/hilfe/handbuc
 
 {% figure caption="So verbuchen wir den Urlaubsübertrag für Frau Hahn" %}
 
-<img src = "gutschrift.gif" />
+<img src="gutschrift.gif" />
 
 {% endfigure %}
 
