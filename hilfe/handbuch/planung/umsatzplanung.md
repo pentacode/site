@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Umsatzplanung
 weight: 
 icon: paper-plane
-anchors: []
 keywords:
 - Planung
 - Umsätze planen

@@ -4,47 +4,6 @@ keywords: []
 title: Dienstplan
 weight: 1
 icon: table
-anchors:
-- hash: mitarbeiter-sortieren
-  title: Mitarbeiter Sortieren
-- hash: zeitraum-wechseln
-  title: Zeitraum Wechseln
-- hash: dienstplannotizen-hinzufügen
-  title: Dienstplannotizen hinzufügen
-- hash: dienstplan-tabs
-  title: Dienstplan-Tabs
-- hash: filtern--suchen
-  title: Filtern & Suchen
-- hash: tagesansicht
-  title: Tagesansicht
-- hash: dienstzeiten-eintragen
-  title: Dienstzeiten Eintragen
-- hash: schichtvorschläge
-  title: Schichtvorschläge
-- hash: nicht-zugewiesene-schichten
-  title: Nicht zugewiesene Schichten
-- hash: fehltage-eintragen
-  title: Fehltage Eintragen
-- hash: einträge-verschieben
-  title: Einträge Verschieben
-- hash: einträge-duplizieren
-  title: Einträge Duplizieren
-- hash: einträge-löschen
-  title: Einträge Löschen
-- hash: veröffentlichen--teilen
-  title: Veröffentlichen & Teilen
-- hash: dienstplan-teilen
-  title: Dienstplan Teilen
-- hash: dienstplan-drucken
-  title: Dienstplan Drucken
-- hash: dienstplan-vorlagen
-  title: Dienstplan-Vorlagen
-- hash: dienstplan-leeren
-  title: Dienstplan Leeren
-- hash: planungshilfen
-  title: Planungshilfen
-- hash: plan-ist-vergleich
-  title: Plan-Ist-Vergleich
 ---
 
 In diesem Hilfeartikel erfahren Sie, wie Sie selbst komplexe Dienstpläne schnell

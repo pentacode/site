@@ -49,7 +49,6 @@ module.exports = {
     hero_text: (data) => data.hero_text || data.page.hero_text,
     draft: (data) => data.draft || data.page.draft,
     url: (data) => data.page.url,
-    anchors: (data) => data.anchors || data.page.anchors,
     categories: (data) => data.categories || data.page.categories,
     magazinCategories: (data) => data.magazinCategories || data.page.magazinCategories,
     author: (data) => data.author || data.page.author,

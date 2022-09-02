@@ -3,33 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Tagesabrechnung
 weight: 2
 icon: hand-holding-usd
-anchors:
-- hash: umsatzerfassung-mit-umsatzgruppen
-  title: Umsatzerfassung MIT Umsatzgruppen
-- hash: umsatzerfassung-ohne-umsatzgruppen
-  title: Umsatzerfassung OHNE Umsatzgruppen
-- hash: statistische.erfassung
-  title: Statistische Erfassung
-- hash: unbare-zahlungen
-  title: Unbare Zahlungen
-- hash: auf-rechnung
-  title: Auf Rechnung
-- hash: ausgaben
-  title: Ausgaben
-- hash: gehaltsvorschüsse
-  title: Gehaltsvorschüsse
-- hash: bargeld-saldo
-  title: Bargeld Saldo
-- hash: kassendifferenz
-  title: Kassendifferenz
-- hash: unbare-trinkgelder
-  title: Unbare Trinkgelder
-- hash: abrechnung-mit-zählprotokoll
-  title: Abrechnung mit Zählprotokoll
-- hash: zwischenspeichern
-  title: Zwischenspeichern
-- hash: abschließen-und-buchen
-  title: Abschließen und Buchen
 keywords:
 - Tagesabrechnung
 - umsatzerfassung

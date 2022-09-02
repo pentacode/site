@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Konten
 weight: 2
 icon: balance-scale-right
-anchors: []
 ---
 
 Basierend auf den hinterlegten Vertragsdaten, erfassten Arbeitszeiten und Urlauben kann Pentacode automatisch aggregierte Werte wie Überstunden und Resturlaubsansprüche für Sie berechnen und diese in fortlaufend saldierenden Konten zusammenfassen. Pentacode unterscheidet zwischen drei verschiedenen Kontenarten.

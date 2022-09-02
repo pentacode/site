@@ -3,11 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Planung nach Stundenvorgaben
 weight:
 icon: hourglass-half
-anchors:
-  - hash: dienstplanung-mit-stundenvorgabe
-    title: Dienstplanung mit Stundenvorgabe
-  - hash: stundenvorgabe-nach-umsatz-zielen
-    title: Stundenvorgabe nach Umsatz-Zielen
 keywords: []
 ---
 

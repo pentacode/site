@@ -8,7 +8,7 @@ permalink: hilfe/index.json
     "relUrl": {{ page.url | jsonify | safe }},
     "section": {{ (page.parent or page.section) | jsonify | safe }},
     "keywords": {{ (page.keywords or []) | jsonify | safe }},
-    "anchors": {{ (page.anchors or []) | jsonify | safe }},
+    "anchors": {{ (page.htmlContent | toc) | jsonify | safe }},
     "icon": {{ (page.icon or "scroll") | jsonify | safe }},
     "isDescendant": true,
     "content": {{ page.content | jsonify | safe }}
