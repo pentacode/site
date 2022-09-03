@@ -8,12 +8,12 @@ categories:
   - Produktupdates
 ---
 
-Besonders im Gastrogewerbe ist ein stetiges Kommen und Gehen von vielen
-Beschäftigten der Normalfall - das bedeutet aber nicht nur viel frische Luft im
+Besonders im Gastrogewerbe ist das stetiges Kommen und Gehen vieler Mitarbeiter
+der Normalfall - das bedeutet aber nicht nur viel frische Luft im
 Team, sondern auch eine ganze Menge Arbeit mit Meldebescheinigungen. Denn in der
 Gastro gilt: Jeder Angestellte muss vor dem ersten Arbeitseinsatz gemeldet sein.
-Im Update v1.23 dreht sich also alles um das schnelle Einholen von Lohndaten und
-Übertragen an die Rentenversicherung. Dazu führen wir die
+Für das Update v1.23 haben wir uns also entschieden: Es dreht sich alles um das
+schnelle Einholen der Lohndaten und Übertragen an die Rentenversicherung. Dazu führen wir die
 neuen **Personalfragebögen** ein, welche das Sammeln der Lohndaten
 automatisieren. Sowie die **Sofortmeldefunktion**, welche das Weiterleiten der
 Daten an die Rentenvericherung so einfach wie noch nie macht. Zwei Funktionen,
@@ -45,19 +45,20 @@ direkt in sein Stammdatenblatt" %}
 Nun haben Sie zwar die Lohndaten mit Hilfe des Personalfragebogens blitzschnell
 eingesammelt - doch diese müssen noch an die Deutsche Rentenversicherung
 gelangen, damit der Mitarbeiter auch korrekt gemeldet ist und Sie jeder
-Kontrolle stets mit gutem Gefühl durchstehen können. Pentacode automatisiert nun auch diesen
-Schritt, denn mit der neuen **Sofortmeldungfunktion** werden die **durch den 
-Personalfragebogen erfassten Daten direkt an die Rentenversicherung
-weitergeleitet**. Durch den Unterhalt der Schnittstelle zum Deutschen
+Kontrolle trotzen können. Pentacode automatisiert nun auch diesen
+Schritt, denn mit der neuen **Sofortmeldungfunktion** werden die **durch den Personalfragebogen erfassten Daten direkt an die Rentenversicherung weitergeleitet**. Durch den Unterhalt der Schnittstelle zum Deutschen
 Rentenversicherung müssen wir zwar eine geringe Gebühr für jede Meldung
-verlangen - Doch auch hier gilt: **Sie sparen sich wervolle Zeit und haben die
-klare Sicherheit, dass Ihnen im Meldeprozess kein Fehler unterlaufen ist.** Wie
-Sie genau Mitarbeiter melden können, ohne auch nur die App zu wechseln, können
+verlangen - Doch auch hier gilt: **Sie sparen sich wervolle Zeit und haben die klare Sicherheit, dass Ihnen im Meldeprozess kein Fehler unterlaufen ist.** Wie
+Sie genau Mitarbeiter melden können, ohne auch nur die App wechseln zu müssen, können
 Sie [hier](/hilfe/mitarbeiter/allgemein) nachlesen. 
 
 {% figure caption="Meldung bei der Rentenversicherung in nur 10 Sekunden?
-Pentacode 1.23 macht es möglich!" %}
+Pentacode v1.23 macht es möglich!" %}
 <img src="sofortmeldung.gif"/>
 {%endfigure%}
 
- 
+ Wir hoffen Sie können die neuen Automatisierungsfeatures gut in ihrem Onboarding Prozess anwenden
+ und ihre frei gewordene sinnvoller nutzen - zum Beispiel indem Sie die letzten
+ schönen Sommertage genießen!
+
+ Ihr Pentacode Team
