@@ -10,7 +10,9 @@ Mitarbeiter direkt in Pentacode zu speichern und von überall verfügbar zu
 haben**. So bietet es sich an, Lebensläufe, Arbeitszeugnisse, Bescheinigungen
 oder ähnliche Dateien hier abzuspeichern um auf ein ausgedrucktes Archiv
 weitestgehend verzichten zu können. So sparen Sie sich Mühe und Papier, da Sie
-in Sekundenschnelle stets über das gesuchte Dokument verfügen können.
+in Sekundenschnelle stets über das gesuchte Dokument verfügen können. Zusätzlich
+können Sie ihren Mitarbeitern **Formulare** ausstellen und Informationen
+einholen.
 
 ## Dokumentenübersicht
 
@@ -71,6 +73,79 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
 
+## Personalfragebogen erstellen
+
+Pentacode erlaubt Ihnen auch vorgefertigte Dokumente vom Mitarbeiter von
+Mitarbeitern ausfüllen zu lassen. Dies ist besonders hilfreich um schnell
+Daten und Informationen einzuholen und direkt in Pentacode zu speichern. Zur
+Zeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgend
+anlegen können:
+1. Wählen Sie den gewünschten Mitarbeiter aus und gehen zu **Dokumente & Formulare**.
+2. Klicken Sie auf das {%icon "file-circle-plus"%} **-Symbol** in der oberen
+   rechten Ecke.
+3. Wählen Sie {%icon "pen-field"%} **Personalfragebogen** aus. 
+4. Fügen Sie einen Kommentar und eine Kategorie hinzu, falls gewünscht und
+   klicken Sie auf **Speichern**
+
+Der vorläufige Personalfragebogen ist nun im Dokumentenarchiv des Mitarbeiters
+gespeichert und noch mit dem Zusatz 'Entwurf' versehen. Sie müssen ihn erst
+[ausfüllen und freigeben](#personalfragebogen-ausfüllen-und-freigeben) bevor der
+Mitarbeiter an der Reihe ist.
+
+
+>**Tipp**: {%icon "lightbulb"%} Versehen Sie den Personalfragebogen mit einer
+>Kategorie, die Sie am besten auch 'Personalfragebogen' nennen. So finden Sie
+>auch unter vielen Dokumenten immer schnell das richtige. 
+
+### Doch warum ein Personalfragebogen?
+
+Das Übertragen der **Sozialversicherungs- und Lohndaten** neuer Mitarbeiter
+nimmt besonders in Betrieben mit häufig wechselnder Belegschaft viel Zeit in
+Anspruch. Mit Hilfe von **Personalfragebögen** können Sie neuen Mitarbeitern ein
+Formular zuschicken, in welchem sie ihre Daten angeben können und diese direkt
+und sicher in ihrem Pentacode Dokumentenarchiv gespeichert werden. So sparen Sie
+sich Zeit die Lohndaten einzufordern und müssen sie auch nicht mehr händisch
+übertragen, was Fehler vermeidet.
+Wenn Sie nun noch die
+[Sofortmeldungsfunktion](/hilfe/handbuch/mitarbeiter/allgemein/) nutzen,
+werden die Daten automatisch an die Rentenversicherung weitergeleitet ohne, 
+dass Sie auch nur einmal Sozialversicherungsnummer und co. händisch eintragen
+müssen. 
+
+### Personalfragebogen ausfüllen und freigeben
+
+Sobald Sie nun auf den gerade erstellten Personalfragebogen klicken, der unter
+den Dokumenten des Mitarbeiters gespeichtert ist, öffnet sich dieser und steht
+Ihnen zum Ausfüllen bereit. Tragen Sie nun die nötigen Informationen zu ihrem
+Betrieb, dem Vertragsverhältnis mit dem Mitarbeiter, sowie Vergütung und
+Arbeitszeit ein und klicken Sie auf {%icon "paper-plane"%}. Der Mitarbeiter wird nun informiert und kann den
+Personalfragebogen unter **Dokumente** in der **Mitarbeiterapp** mit seinen
+Daten ausfüllen. 
+
+> **Wichtig!** Sie müssen dem Mitarbeiter unter [Zugänge & Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) erlauben auf seine Dokumente zuzugreifen, sonst ist es ihm nicht möglich den Personalfragebogen zu bearbeiten.
+
+{% figure caption= "Der Vermerk <a style= "color:#13A2CC";> In Bearbeitung </a>
+bedeutet, dass der Mitarbeiter kontaktiert wurde, den Fragebogen jedoch noch
+nicht ausgefüllt und zurückgeschickt hat." %}
+<img src = "in_bearbeitung.png"/>
+{% endfigure %}
+
+### Personalfragebogen überprüfen und fertigstellen
+
+Nachdem der Mitarbeiter seine Daten eingetragen und deren Vollständigkeit durch
+eine Unterschrift bestätigt hat, wird der Personalfragebogen mit dem Vermerk 
+<a style=color:#8310C9> 'Ausgefüllt' </a> markiert. Nun können Sie den Fragebogen noch einmal final
+überprüfen und fertigstellen. Klicken Sie dazu auf den Fragebogen und
+kontrollieren die Daten in den Feldern ein letztes Mal. Wenn der Bogen
+fehlerfrei ausgefüllt ist, müssen Sie ihn nur noch unterschreiben. Klicken Sie
+dazu auf das Feld in der unteren linken Ecke über **Unterschrift Arbeitgeber**.
+Um den Fragebogen zu speichern klicken Sie auf {% button icon =
+"memo-circle-check" %} **Fertigstellen**. 
+
+> **Info:** Der Mitarbeiter kann die von [Ihnen ausgefüllten Daten](#ausfüllen-und-freigeben) nur einsehen und nicht bearbeiten - die Angaben zum Vertragsvehältnis liegen also einzig bei Ihnen.
+
+Nachdem Sie den Personalfragebogen fertiggestellt haben, wird eine nicht mehr bearbeitbare Kopie in den [Dokumenten](#dokumentenübersicht) des Mitarbeiters gespeichert. Zusätzlich werden die Daten in das **Stammdatenblatt** des Mitarbeiters übertragen. Diese können mit Hilfe der [Sofortmeldefunktion]() direkt an die Rentenversicherung weitergeleteit werden.
+
 ## Dokument öffnen
 
 Nachdem Sie nun zahlreiche Dokumente ihrer Mitarbeiter auf Pentacode
@@ -82,7 +157,7 @@ Browserfenster öffnen.
 
 > **Tipp:** {% icon "lightbulb" %} Mit {% key "strg" %} + {% key "+" %} und
 > {% key "strg" %} + {% key "-" %} können Sie Dokumente beim Einsehen vergrößern und
-> verkleinern.
+> verkleinern. 
 
 ## Dokumente filtern
 
