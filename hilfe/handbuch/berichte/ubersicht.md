@@ -3,17 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Übersicht
 weight: 
 icon: highlighter
-anchors:
-- hash: vergleichszeitraum-wählen
-  title: Vergleichszeitraum wählen
-- hash: einnahmen
-  title: Einnahmen
-- hash: personalkosten
-  title: Personalkosten
-- hash: arbeitszeit
-  title: Arbeitszeit
-- hash: produktivität
-  title: Produktivität
 keywords:
 - übersicht
 - einnahmen

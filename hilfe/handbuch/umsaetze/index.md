@@ -4,7 +4,6 @@ kind: home
 title: Umsätze
 weight: 5
 icon: euro-sign
-anchors: []
 
 ---
 Die Hilfeartikel zum Menüpunkt "Umsätze" sind in der Reihenfolge angeordnet, in der Sie idealerweise vorgehen, wenn Sie Pentacode erstmals einrichten, nicht in der sonst üblichen Reihenfolge der Menüpunkte.

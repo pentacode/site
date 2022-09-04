@@ -3,21 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Arbeitsbereiche
 weight: 3
 icon: cubes
-anchors:
-- hash: neuer-standort
-  title: Neuer Standort
-- hash: standort-bearbeiten
-  title: Standort bearbeiten
-- hash: standort-archivieren
-  title: Standort archivieren
-- hash: neue-abteilung
-  title: Neue Abteilung
-- hash: abteilung-bearbeiten
-  title: Abteilung bearbeiten
-- hash: abteilung-archivieren
-  title: Abteilung archivieren
-- hash: reihenfolge-der-abteilungen-ändern
-  title: Reihenfolge der Abteilungen ändern
 keywords:
 - arbeitsbereiche
 - Abteilung

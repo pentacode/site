@@ -3,15 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Vorschüsse
 weight: 8
 icon: coins
-anchors:
-  - title: Vorschussliste
-    hash: vorschussliste
-  - hash: zeitraum-wechseln
-    title: Zeitraum wechseln
-  - hash: filtern
-    title: Filtern
-  - hash: drucken
-    title: Drucken
 keywords:
   - vorschüsse
   - vorschussliste

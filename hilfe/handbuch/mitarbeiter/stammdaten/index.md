@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Stammdaten
 weight: 7
 icon: address-card
-anchors: []
 ---
 
 ## Stammdaten-Übersicht

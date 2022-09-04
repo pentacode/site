@@ -3,15 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Personalkosten
 weight: 
 icon: chart-area
-anchors:
-- hash: ansicht
-  title: Ansicht
-- hash: jahres-summe
-  title: Jahres-Summe
-- hash: monats-summen
-  title: Monats-Summen
-- hash: einzelne-mitarbeiter
-  title: Einzelne Mitarbeiter
 keywords:
 - personalkosten
 

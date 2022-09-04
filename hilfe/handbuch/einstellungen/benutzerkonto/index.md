@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Benutzerkonto
 weight: 1
 icon: unlock-alt
-anchors: []
 keywords:
 - passwort ändern
 - passwort vergessen
