@@ -31,7 +31,6 @@ function getTOC(htmlContent) {
     id,
     title,
     level: Number(tag[1]),
-    hash: id,
   }));
   
   const toc = getItems(headers);
