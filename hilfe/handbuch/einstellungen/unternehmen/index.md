@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Unternehmen
 weight: 2
 icon: building
-anchors: []
 
 ---
 Die hier hinterlegten Unternehmensdaten dienen lediglich zur allgemeinen Information.

@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Positionen
 weight: 8
 icon: user-tag
-anchors: []
 ---
 
 Über die **Positionen** eines Mitarbeiters können Sie festlegen, in welchen

@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Recruiting
 weight: 6
 icon: image-polaroid-user
-anchors: []
 ---
 
 Die Recruiting Funktion hilft Ihnen dabei, Stellen auszuschreiben, Bewerber zu

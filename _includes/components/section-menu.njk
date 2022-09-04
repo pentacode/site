@@ -1,4 +1,4 @@
-{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) | sortByWeight %}
+{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) | excludeDrafts | sortByWeight %}
 
 {% macro menu(pages) %}
     {% for page in pages %}
@@ -25,15 +25,17 @@
                 {% set hiddenAttribute = "hidden" %}
             {% endif %}
 
-            {% if (not page.anchors) or (page.anchors.length === 0) %}
+            {% set subpages = collections.all | eleventyNavigation(page.key) | excludeDrafts | sortByWeight %}
+            
+            {% if subpages.length > 0 %}
                 <ul {{ hiddenAttribute }}>
-                    {% set subpages = collections.all | eleventyNavigation(page.key) | sortByWeight %}
                     {{ menu(subpages) }}
                 </ul>
             {% else %}
+                {% set anchors = (page.htmlContent | toc) %}
                 <ul class="table-of-contents" {{ hiddenAttribute }}>
-                    {% for anchor in page.anchors %}
-                        <li><a href="{{ page.url }}#{{ anchor.hash }}">{{ anchor.title }}</a></li>
+                    {% for anchor in anchors %}
+                        <li><a href="{{ page.url }}#{{ anchor.hash }}">{{ anchor.title | plainify | safe }}</a></li>
                     {% endfor %}
                 </ul>
             {% endif %}

@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Änderungsprotokoll
 weight: 1
 icon: "clipboard-list"
-anchors: []
 ---
 
 Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.

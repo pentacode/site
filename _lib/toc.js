@@ -24,15 +24,16 @@ function getItems(headers) {
   return items;
 }
 
-function getTOC(content) {
-  const matches = content.matchAll(/\<(?<tag>h2|h3|h4) .*id="(?<id>.+?)".*?\>(?<title>.+?)\<\/\k<tag>\>/gi);
+function getTOC(htmlContent) {
+  const matches = htmlContent.matchAll(/\<(?<tag>h2|h3|h4) .*id="(?<id>.+?)".*?\>(?<title>.+?)\<\/\k<tag>\>/gi);
   const headers = [...matches].map(({ groups: { tag, id, title } }) => ({
     tag,
     id,
     title,
     level: Number(tag[1]),
+    hash: id,
   }));
-
+  
   const toc = getItems(headers);
   return toc;
 }

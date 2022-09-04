@@ -1,6 +1,6 @@
 ---
 layout: layouts/hilfe/single.njk
-title: Dokumentenarchiv
+title: Dokumente & Formulare
 icon: cabinet-filing
 weight: 6
 ---
@@ -118,15 +118,13 @@ Sobald Sie nun auf den gerade erstellten Personalfragebogen klicken, der unter
 den Dokumenten des Mitarbeiters gespeichtert ist, öffnet sich dieser und steht
 Ihnen zum Ausfüllen bereit. Tragen Sie nun die nötigen Informationen zu ihrem
 Betrieb, dem Vertragsverhältnis mit dem Mitarbeiter, sowie Vergütung und
-Arbeitszeit ein und klicken Sie auf {%icon "paper-plane"%}. Der Mitarbeiter wird nun informiert und kann den
+Arbeitszeit ein und klicken Sie auf {% icon "paper-plane" %}. Der Mitarbeiter wird nun informiert und kann den
 Personalfragebogen unter **Dokumente** in der **Mitarbeiterapp** mit seinen
 Daten ausfüllen. 
 
 > **Wichtig!** Sie müssen dem Mitarbeiter unter [Zugänge & Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) erlauben auf seine Dokumente zuzugreifen, sonst ist es ihm nicht möglich den Personalfragebogen zu bearbeiten.
 
-{% figure caption= "Der Vermerk <a style= "color:#13A2CC";> In Bearbeitung </a>
-bedeutet, dass der Mitarbeiter kontaktiert wurde, den Fragebogen jedoch noch
-nicht ausgefüllt und zurückgeschickt hat." %}
+{% figure caption="Der Vermerk bedeutet, dass der Mitarbeiter kontaktiert wurde, den Fragebogen jedoch noch nicht ausgefüllt und zurückgeschickt hat." %}
 <img src = "in_bearbeitung.png"/>
 {% endfigure %}
 

@@ -3,23 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Kassenbuch
 weight: 3
 icon: book-open
-anchors:
-- hash: erfassen-von-einnahmen-und-ausgaben
-  title: Erfassen von Einnahmen und Ausgaben
-- hash: gehaltsvorschuss
-  title: Gehaltsvorschuss
-- hash: zählprotokoll
-  title: Zählprotokoll
-- hash: überwachung-des-kassensaldos
-  title: Überwachung des Kassensaldos
-- hash: splittbuchung
-  title: Splittbuchung
-- hash: suchfunktion
-  title: Suchfunktion
-- hash: kassenbuch-exportieren
-  title: Kassenbuch exportieren
-- hash: festschreibung-des-kassenbuchs
-  title: Festschreibung des Kassenbuchs
 keywords:
 - kassenbuch
 - einnahmen
