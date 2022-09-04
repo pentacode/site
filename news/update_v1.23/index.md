@@ -2,7 +2,7 @@
 layout: layouts/news/single.njk
 title: "Pentacode v1.23: Sofortmeldungen und Personalfragebogen"
 publishDate: 
-cover: bewerbungsformular.png
+cover: sofortmeldung.webp
 author: mklein
 categories:
   - Produktupdates
@@ -39,7 +39,7 @@ können, finden Sie
 
 {%figure caption="Mit nur einem Klick übernehmen Sie die Daten des Mitarbeiters
 direkt in sein Stammdatenblatt" %}
-<img src="angaben_übernehmen.png"/>
+<img src="personalfragebogen.webp"/>
 {%endfigure%}
 
 ## Sofortmeldung
@@ -56,11 +56,16 @@ Sie genau Mitarbeiter melden können, können Sie
 
 {% figure caption="Meldung bei der Rentenversicherung in nur 10 Sekunden?
 Pentacode v1.23 macht es möglich!" %}
-<img src="sofortmeldung.gif"/>
+<img src="sofortmeldung_animiert.webp"/>
 {%endfigure%}
 
  Wir hoffen Sie können die neuen Automatisierungsfeatures gut in ihrem
  Onboarding Prozess anwenden und ihre frei gewordene Zeit sinnvoller nutzen -
  zum Beispiel indem Sie die letzten schönen Sommertage genießen!
+
+ Der Personalfragebogen und Sofortmeldungen sind nur ein kleiner Teil der
+ Verbesserungen in diesem Update! Ein komplette Liste aller Neuigkeiten
+ und Bugfixes finden Sie in unserem
+ [Änderungsprotokoll](/hilfe/aenderungsprotokoll/).
 
  Ihr Pentacode Team
