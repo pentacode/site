@@ -78,7 +78,7 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 Pentacode erlaubt Ihnen auch vorgefertigte Dokumente vom Mitarbeiter von
 Mitarbeitern ausfüllen zu lassen. Dies ist besonders hilfreich um schnell
 Daten und Informationen einzuholen und direkt in Pentacode zu speichern. Zur
-Zeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgend
+Zeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgt
 anlegen können:
 1. Wählen Sie den gewünschten Mitarbeiter aus und gehen zu **Dokumente & Formulare**.
 2. Klicken Sie auf das {%icon "file-circle-plus"%} **-Symbol** in der oberen
@@ -112,37 +112,35 @@ werden die Daten automatisch an die Rentenversicherung weitergeleitet ohne,
 dass Sie auch nur einmal Sozialversicherungsnummer und co. händisch eintragen
 müssen. 
 
-### Personalfragebogen ausfüllen und freigeben
+### Zum ausfüllen freigeben
 
 Sobald Sie nun auf den gerade erstellten Personalfragebogen klicken, der unter
-den Dokumenten des Mitarbeiters gespeichtert ist, öffnet sich dieser und steht
+den Dokumenten des Mitarbeiters gespeichert ist, öffnet sich dieser und steht
 Ihnen zum Ausfüllen bereit. Tragen Sie nun die nötigen Informationen zu ihrem
 Betrieb, dem Vertragsverhältnis mit dem Mitarbeiter, sowie Vergütung und
-Arbeitszeit ein und klicken Sie auf {% icon "paper-plane" %}. Der Mitarbeiter wird nun informiert und kann den
-Personalfragebogen unter **Dokumente** in der **Mitarbeiterapp** mit seinen
-Daten ausfüllen. 
+Arbeitszeit ein und klicken Sie auf {% button icon="paper-plane", label="Zum Ausfüllen Freigeben", extraClass="primary" %}.
+Der Mitarbeiter wird nun informiert und kann den Personalfragebogen unter
+**Dokumente** in der **Mitarbeiterapp** mit seinen Daten ausfüllen. 
 
-> **Wichtig!** Sie müssen dem Mitarbeiter unter [Zugänge & Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) erlauben auf seine Dokumente zuzugreifen, sonst ist es ihm nicht möglich den Personalfragebogen zu bearbeiten.
-
-{% figure caption="Der Vermerk bedeutet, dass der Mitarbeiter kontaktiert wurde, den Fragebogen jedoch noch nicht ausgefüllt und zurückgeschickt hat." %}
+{% figure caption="Der Status 'In Bearbeitung' bedeutet, dass der Mitarbeiter kontaktiert wurde, den Fragebogen jedoch noch nicht ausgefüllt und zurückgeschickt hat." %}
 <img src = "in_bearbeitung.png"/>
 {% endfigure %}
 
-### Personalfragebogen überprüfen und fertigstellen
+### Überprüfen und fertigstellen
 
 Nachdem der Mitarbeiter seine Daten eingetragen und deren Vollständigkeit durch
 eine Unterschrift bestätigt hat, wird der Personalfragebogen mit dem Vermerk 
-<a style=color:#8310C9> 'Ausgefüllt' </a> markiert. Nun können Sie den Fragebogen noch einmal final
+<span style=color:#8310C9> 'Ausgefüllt' </span> markiert. Nun können Sie den Fragebogen noch einmal final
 überprüfen und fertigstellen. Klicken Sie dazu auf den Fragebogen und
 kontrollieren die Daten in den Feldern ein letztes Mal. Wenn der Bogen
 fehlerfrei ausgefüllt ist, müssen Sie ihn nur noch unterschreiben. Klicken Sie
 dazu auf das Feld in der unteren linken Ecke über **Unterschrift Arbeitgeber**.
-Um den Fragebogen zu speichern klicken Sie auf {% button icon =
-"memo-circle-check" %} **Fertigstellen**. 
+Um den Fragebogen zu speichern klicken Sie auf {% button icon=
+"memo-circle-check", label="Fertigstellen" %}
 
-> **Info:** Der Mitarbeiter kann die von [Ihnen ausgefüllten Daten](#ausfüllen-und-freigeben) nur einsehen und nicht bearbeiten - die Angaben zum Vertragsvehältnis liegen also einzig bei Ihnen.
+> **Info:** Der Mitarbeiter kann die von Ihnen ausgefüllten Daten nur einsehen und nicht bearbeiten - die Angaben zum Vertragsverhältnis liegen also einzig bei Ihnen.
 
-Nachdem Sie den Personalfragebogen fertiggestellt haben, wird eine nicht mehr bearbeitbare Kopie in den [Dokumenten](#dokumentenübersicht) des Mitarbeiters gespeichert. Zusätzlich werden die Daten in das **Stammdatenblatt** des Mitarbeiters übertragen. Diese können mit Hilfe der [Sofortmeldefunktion]() direkt an die Rentenversicherung weitergeleteit werden.
+Nachdem Sie den Personalfragebogen fertiggestellt haben, wird eine nicht mehr bearbeitbare Kopie in den [Dokumenten](#dokumentenübersicht) des Mitarbeiters gespeichert. Zusätzlich werden die Daten in das **Stammdatenblatt** des Mitarbeiters übertragen. Diese können mit Hilfe der [Sofortmeldefunktion]() direkt an die Rentenversicherung weitergeleitet werden.
 
 ## Dokument öffnen
 
