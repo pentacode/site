@@ -91,7 +91,10 @@ Um einen Probemitarbeiter in einen vollen Mitarbeiter umzuwandeln, gehen Sie wie
 
 Da Sie jeder von Ihnen eingestellte Mitarbeiter ab dem ersten Arbeitstag bei der Rentenversicherung meldepflichtig ist, fällt besonders bei häufig wechselndem Personal viel Arbeit an. Dank der Sofortmeldungsfunktion können Sie das Melden eines neuen Mitarbeiter nun **in wenigen Minuten direkt über Pentacode** erledigen und gehen sicher, **stets rechtlich korrekt** zu arbeiten. Sie benötigen dazu nur einige Daten des Mitarbeiters, welche Sie einfach über die Personalfragebogen Funktion anfragen können. 
 
-> Für jede Sofortmeldung fällt eine Bearbeitungsgebühr von 8€ an, welche mit ihrer nächsten regulären Monatsabrechnung anfällt. Ihre Zeitersparnis und die Sicherheit bei Betriebskontrollen nichts zu befürchten zu haben, ist aber unbezahlbar.
+> Für jede Sofortmeldung fällt eine **Bearbeitungsgebühr von 8€** an, welche mit
+> ihrer nächsten regulären Monatsrechnung anfällt. Ihre Zeitersparnis und die
+> Sicherheit bei Betriebskontrollen nichts zu befürchten zu haben, ist aber
+> unbezahlbar.
 
 
 ### Sofortmeldung bei neuen Mitarbeitern 
@@ -104,7 +107,7 @@ Sobald Sie einen neuen Mitarbeiter angelegt haben wird sich ein Dialogfeld öffn
 
 {% endfigure %}
 
-> **Wichtig:** {% icon "exclamation" %} Auch Mitarbeiter auf Probe sind meldepflichtig obwohl sie noch nicht fest angestellt sind - Sie sollten also für jeden neuen Mitarbeiter gleich eine Sofortmeldung ausfüllen.
+> {% icon "exclamation-triangle" %} **Wichtig:** Auch Mitarbeiter auf Probe sind meldepflichtig obwohl sie noch nicht fest angestellt sind - Sie sollten also für jeden neuen Mitarbeiter gleich eine Sofortmeldung ausfüllen.
 #### Unternehmen
 
 Hier tragen Sie die Daten ihres Unternehmens ein. Wenn Sie unter [**Einstellungen**](/hilfe/handbuch/einstellungen/unternehmen) ihre Unternehmensdaten bereits angegeben haben, werden diese automatisch in die Sofortmeldung übertragen. 
@@ -117,8 +120,11 @@ Hier sind die Meldedaten des Mitarbeiters anzugeben. Wenn Sie während der Anmel
 
 Die Rentenversicherung braucht desweiteren das Datum des **Beginns der Beschäftigung** sowie die **Versicherungsgruppe** des Mitarbeiters und die **Sozialversicherungsnummer**.
 
-> **Tipp** {% icon "lightbulb" %} Wenn Sie die Sozialversicherungsnummer des Mitarbeiters nicht wissen, klicken Sie auf **Nicht bekannt** neben dem Feld. Füllen Sie nun die weiteren Daten des Mitarbeiters aus um die Zuordnung zu ermöglichen.
-Anschließend müssen Sie die Sofortmeldung noch bestätigen, dann wird diese unter der Bearbeitungsgebühr an die Rentenversicherung weitergeleitet. 
+> {% icon "lightbulb" %} **Tipp:** Wenn Sie die Sozialversicherungsnummer des
+> Mitarbeiters nicht wissen, klicken Sie auf **Nicht bekannt** neben dem Feld.
+> Füllen Sie nun die weiteren Daten des Mitarbeiters aus um die Zuordnung zu
+> ermöglichen.  Anschließend müssen Sie die Sofortmeldung noch bestätigen, dann
+> wird diese an die Rentenversicherung weitergeleitet. 
 
 ### Mitarbeitern nachmelden
 
@@ -131,7 +137,14 @@ Mitarbeitern](#sofortmeldung-bei-neuen-mitarbeitern) beschrieben.
 
 ### Meldebescheinigung
 
-Nachdem Sie die Sofortmeldung eines Mitarbeiters erfolgreich abgeschlossen haben, fertigt Pentacode automatisch eine Meldebescheinigung an und speichter diese im **Dokumentenarchiv** des Mitarbeiters. Diese dient sowohl Ihnen als Nachweis der verpflichteten Meldung als auch ihrem Mitarbeiter. Damit dieser jedoch Zugriff auf die Meldebescheinigung erhält, muss er ein Profil in der [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) besitzen und Sie müssen ihm den [Zugang zu seinem Dokumentenarchiv](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) gewähren. 
+Nachdem Sie die Sofortmeldung eines Mitarbeiters erfolgreich abgeschlossen
+haben, fertigt Pentacode automatisch eine Meldebescheinigung an und speichter
+diese im **Dokumentenarchiv** des Mitarbeiters. Diese dient sowohl Ihnen als
+Nachweis der verpflichteten Meldung als auch Ihrem Mitarbeiter. Damit dieser
+jedoch Zugriff auf die Meldebescheinigung erhält, muss er ein Profil in der
+[Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) besitzen und Sie müssen ihm
+den [Zugang zu seinem
+Dokumentenarchiv](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) gewähren. 
 
 ## Mitarbeiter Entlassen
 
