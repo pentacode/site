@@ -7,6 +7,42 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
+## 1.23.0
+
+### Änderungen & Neuigkeiten
+
+-   Neues Feature: [Sofortmeldung](https://pentacode.app/hilfe/handbuch/mitarbeiter/allgemein/#sofortmeldung)
+-   Neues Feature: [Personalfragebogen](https://pentacode.app/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
+-   Überarbeitete Mitarbeiter-Filterfunktion
+-   Das Mitarbeiter-Stammdatenblatt wurde erweitert.
+-   Mitarbeiter-Listen können nun nach verschiedenen Kriterien wie Personalnummer, Geburtstag etc. sortiert werden.
+-   Neue Beschäftigungsverhältnisse: Midi-Job, Werkstudent, Dualer Student und Prakikant
+-   Es ist nun möglich, die Liste der gesetzlichen Feiertage standortbasiert anzupassen.
+-   Die ab Oktober geltenden neuen Verdienstgrenzen für Minijobber werden nun berücksichtigt.
+-   Beim Anlegen eines neuen Mitarbeiters wird als Eingabehilfe nun die aktuell höchste Personalnummer angezeigt.
+-   Die Option "13-Wochen Durchschnitt" ist nun auch bei Wahl der Sollstundenoptionen "Pauschale Fehlstunden" und "Feste Wochentage" verfügbar.
+
+### Behobene Fehler
+
+-   Beim Öffnen mehrerer PDF-Dokumente wurde manchmal das falsche Dokument geladen.
+-   Im Vertrags-Änderungsprotokoll wurde in manchen Fällen das letze Vertragsende nicht angezeigt.
+-   In manchen Fällen war das Anlegen neuer Mitarbeiter-Verträge nicht möglich.
+
+## 1.22.1
+
+### Änderungen & Neuigkeiten
+
+-   In der Dokumenten-Übersicht werden nun nur Mitarbeiter angezeigt, für die Dokumente vorliegen.
+-   Der Umsatzsteuer-Pauschalierungssatz Landwirtschaft wurde von 10,7% auf 9.5% angepasst.
+-   Im Bereich "Planung" kann nun auch in die Vergangenheit navigiert werden.
+
+### Behobene Fehler
+
+-   Bei manchen Unternehmen mit vielen Mitarbeitern konnte der Bereich Mitarbeiter / Zugänge & Rechte nicht richtig dargestellt werden.
+-   In der Verträge-Einzelansicht gab es einen Fehler in der Darstellung des Vertragsendes in der Vertragsliste.
+-   In Safari konnten Lohnartensätze nicht gespeichert werden
+-   Beim Ausdrucken der Personal-Stammblätter aller Mitarbeiter wurden auch Mitarbeiter mit ausgedruckt, auf die der aktuelle Nutzer laut Berechtigungen keinen Zugriff haben sollte.
+
 ## 1.22.0
 
 ### Änderungen & Neuigkeiten
