@@ -8,7 +8,6 @@
 
 {% include "styles/magazin.html" %}<!-- -->
 {% include "styles/section-menu.html" %}<!-- -->
-{% include "styles/page-menu.html" %}<!-- -->
 {% include "styles/search.html" %}<!-- -->
 
 {% endblock %}<!-- -->
@@ -47,7 +46,7 @@
 
             {% if cover %}
                 <div class="article-cover-wrapper">
-                    <img class="article-cover" src="{{ cover }}" />
+                    <img class="article-cover" src="{{ cover }}" alt="{{ coverAlt or title }}" />
                 </div>
             {% endif %}
 

@@ -1,11 +1,11 @@
 {% if page.thumbnail %}
 <div class="golden-ratio thumbnail-img">
-    <img src='{{ page.thumbnail.permalink }}' class="cover-parent" />
+    <img src='{{ page.thumbnail.permalink }}' alt="{{ page.coverAlt or page.title }}" class="cover-parent" />
 </div>
 {% endif %}
 {% if not page.thumbnail and page.cover %}
 <div class="golden-ratio thumbnail-img">
-    <img src='{{ page.cover }}' class="cover-parent" />
+    <img src='{{ page.cover }}' alt="{{ page.coverAlt or page.title }}" class="cover-parent" />
 </div>
 {% endif %}
 {% if not page.thumbnail and not page.cover %}

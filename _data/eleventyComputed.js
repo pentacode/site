@@ -1,8 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 const markdownItFrontMatter = require("markdown-it-front-matter");
-const md = markdownIt({ html: true, linkify: true }).use(markdownItFrontMatter, () => {});
+const md = markdownIt({ html: true, linkify: true }).use(markdownItAnchor).use(markdownItFrontMatter, () => {});
 
 module.exports = {
   eleventyNavigation: {
@@ -40,6 +41,7 @@ module.exports = {
         : data.cover.startsWith("http") || data.cover.startsWith("/")
           ? data.cover
           : `${data.page.url}/${data.cover}`,
+    coverAlt: data => data.coverAlt,
     date: (data) => data.date || data.page.date || new Date(),
     publishDate: (data) => data.publishDate || data.page.publishDate || new Date(),
     hero_title: (data) => data.hero_title || data.page.hero_title,
@@ -47,13 +49,17 @@ module.exports = {
     hero_text: (data) => data.hero_text || data.page.hero_text,
     draft: (data) => data.draft || data.page.draft,
     url: (data) => data.page.url,
-    anchors: (data) => data.anchors || data.page.anchors,
     categories: (data) => data.categories || data.page.categories,
     magazinCategories: (data) => data.magazinCategories || data.page.magazinCategories,
     author: (data) => data.author || data.page.author,
     content: (data) => {
       const fileContents = fs.readFileSync(path.join(__dirname, "..", data.page.inputPath), "utf-8");
       const text = md.render(fileContents).replace(/(<([^>]+)>)/gi, "");
+      return text;
+    },
+    htmlContent: (data) => {
+      const fileContents = fs.readFileSync(path.join(__dirname, "..", data.page.inputPath), "utf-8");
+      const text = md.render(fileContents);
       return text;
     },
   },

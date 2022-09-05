@@ -3,7 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Ersparnis
 weight: 
 icon: piggy-bank
-anchors: []
 keywords:
 - ersparnis
 

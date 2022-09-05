@@ -45,7 +45,7 @@
                         <div class="cover-image">
                             <a href="{{ page.url }}">
                                 {% if page.cover %}
-                                    <img class="article-cover stretch collapse" src="{{ page.cover }}" />
+                                    <img class="article-cover stretch collapse" src="{{ page.cover }}" alt="{{ page.coverAlt or page.title }}" />
                                 {% endif %}
                             </a>
                         </div>

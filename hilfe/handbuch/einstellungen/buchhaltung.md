@@ -3,13 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Buchhaltung
 weight: 6
 icon: abacus
-anchors:
-  - hash: allgemein
-    title: Allgemein
-  - hash: kassenbuch
-    title: Kassenbuch
-  - hash: lohnarten
-    title: Lohnarten
 keywords:
   - buchhaltung
   - kontonummer

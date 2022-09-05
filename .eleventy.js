@@ -13,7 +13,7 @@ async function minifyHtml(source, output_path) {
     const result = await cleanHtml(source, {
         collapseBooleanAttributes: true,
         collapseWhitespace: false,
-        collapseInlineTagWhitespace: false,
+        collapseInlineTagWhitespace: true,
         continueOnParseError: true,
         decodeEntities: true,
         keepClosingSlash: true,
@@ -153,6 +153,14 @@ module.exports = (config) => {
         const related = excludeDrafts(collection).filter((item) => item.magazinCategories.some((category) => magazinCategories.includes(category)) && item.key !== itemKey);
 
         return related.slice(0, 3);
+    });
+
+    config.addFilter("filterByMagazinCategory", (collection, magazinCategory) => {
+        orderByDate(collection);
+
+        const filtered = excludeDrafts(collection).filter((item) => item.magazinCategories.includes(magazinCategory));
+
+        return filtered;
     });
 
     config.addTransform("htmlmin", minifyHtml);

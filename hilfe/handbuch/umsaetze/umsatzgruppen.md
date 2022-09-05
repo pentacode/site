@@ -3,17 +3,6 @@ layout: layouts/hilfe/single.njk
 title: Umsatzgruppen
 weight: 1
 icon: layer-group
-anchors:
-- hash: anlegen-von-umsatzgruppen
-  title: Anlegen von Umsatzgruppen
-- hash: bestehende-einträge-in-gruppen-zusammenfassen
-  title: Bestehende Einträge in Gruppen zusammenfassen
-- hash: reihenfolge-der-umsatzgruppen
-  title: Reihenfolge der Umsatzgruppen
-- hash: neue-umsätze-anlegen
-  title: Neue Umsätze anlegen
-- hash: zahlungswege
-  title: Zahlungswege
 keywords:
 - umsatzgruppen
 - anlegen
