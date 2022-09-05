@@ -28,6 +28,8 @@ collections:
     preview_path: "news/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
+    nested:
+      depth: 5
     view_filters:
       - label: Drafts
         field: draft
