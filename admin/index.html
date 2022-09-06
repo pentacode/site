@@ -22,7 +22,7 @@
         const authorId = entry.getIn(['data', 'author']) || 'mklein';
         const title = entry.getIn(['data', 'title']);
         const categories = (entry.getIn(['data', 'categories']) || []);
-        const publishDate = entry.getIn(['data', 'publishDate']) || new Date();
+        const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
         const coverImage = entry.getIn(['data', 'cover']) || '';
         const coverImageUrl = coverImage.includes('/') ? getAsset(coverImage) : `/news/${slug}/${coverImage}`;
 
@@ -52,6 +52,54 @@
     });
 
     CMS.registerPreviewTemplate("news", NewsPreview);
+
+    CMS.registerEditorComponent({
+      id: 'figure',
+      label: 'Figure',
+      fields: [
+        {
+          name: 'caption',
+          label: 'Caption',
+          widget: 'string',
+          required: false,
+        },
+        {
+          name: 'extraClass',
+          label: 'Class',
+          widget: 'string',
+          required: false,
+        },
+        {
+          name: 'body',
+          label: 'HTML',
+          widget: 'text',
+          required: true,
+        }
+      ],
+      pattern: /^{% raw %}{% figure caption="(.*?)", extraClass="(.*?)" %}$(.*?)^{% endfigure %}{% endraw %}$/ms,
+      fromBlock: function (match) {
+        return {
+          caption: match[1],
+          extraClass: match[2],
+          body: match[3]
+        };
+      },
+      toBlock: function (data) {
+        return `
+{% raw %}{% figure caption="${data.caption}", extraClass="${data.extraClass}" %}
+  ${data.body}
+{% endfigure %}{% endraw %}
+`;
+      },
+      toPreview: function (data) {
+        return `
+  <figure class="${data.extraClass}">
+    ${data.body}
+    <figcaption>${data.caption}</figcaption>
+  </figure>
+  `;
+      }
+    });
   </script>
   <script src="https://kit.fontawesome.com/b11eabbb32.js" crossorigin="anonymous" async></script>
 </body>

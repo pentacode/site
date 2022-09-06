@@ -53,6 +53,7 @@ collections:
         label: "Cover"
         required: false
         widget: "image"
+        media_folder: "."
       - name: "summary"
         label: "Summary"
         required: true
@@ -79,7 +80,7 @@ collections:
       - name: "publishDate"
         label: "Publish Date"
         required: true
-        widget: "date"
+        widget: "datetime"
         format: "YYYY-MM-DD"
       - name: "body"
         label: "Body"
