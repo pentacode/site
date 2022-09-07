@@ -86,3 +86,65 @@ collections:
         label: "Body"
         required: true
         widget: "markdown"
+  
+  - name: "magazin"
+    label: "Magazin"
+    identifier_field: title
+    folder: "magazin"
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{title}}"
+    preview_path: "magazin/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["publishDate", "title", "author"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        width: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/magazin/single.njk"
+      - name: "cover"
+        label: "Cover"
+        required: false
+        widget: "image"
+        media_folder: "."
+      - name: "author"
+        label: "Author"
+        required: true
+        widget: "select"
+        default: "lstrasser"
+        options:
+          - { label: "Lorenz Strasser", value: "lstrasser" }
+          - { label: "Julia Tomski", value: "jtomski" }
+          - { label: "Martin Kleinschrodt", value: "mklein" }
+      - name: "magazinCategories"
+        label: "Magazin Categories"
+        required: false
+        widget: "select"
+        multiple: true
+        options: ["Das erfolgreiche Unternehmen", "Das gesunde Team", "Der zufriedene Kunde"]
+      - name: "publishDate"
+        label: "Publish Date"
+        required: true
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"
