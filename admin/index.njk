@@ -16,6 +16,7 @@
       CMS.registerPreviewStyle("/admin/base-preview.css");
       CMS.registerPreviewStyle("/admin/news-preview.css");
       CMS.registerPreviewStyle("/admin/magazin-preview.css");
+      CMS.registerPreviewStyle("/admin/blog-preview.css");
 
       const staff = JSON.parse(`{{ staff | jsonify | safe }}`);
 
@@ -23,7 +24,7 @@
         render: function () {
           const { entry, widgetFor, getAsset } = this.props;
           const slug = window.location.hash.replace('#/collections/news/entries/', '').replace('/index', '');
-          const authorId = entry.getIn(['data', 'author']) || 'mklein';
+          const authorId = entry.getIn(['data', 'author']) || 'lstrasser';
           const title = entry.getIn(['data', 'title']);
           const categories = (entry.getIn(['data', 'categories']) || []);
           const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
@@ -34,7 +35,7 @@
             h('article', {},
               h('div', { className: 'layout horizontal' },
                 h('div', { className: 'stretch article-categories' }, categories.map((category) => h('div', {}, category))),
-                h('div', { className: 'article-date'}, publishDate.toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
+                h('div', { className: 'article-date'}, publishDate.toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })),
               ),
               h('div', { className: 'layout horizontal heading' },
                 h('h1', { className: 'stretch' }, title),
@@ -42,12 +43,12 @@
                   h('img', { src: staff[authorId].image, className: 'article-author-image' }),
                   h('div', { className: 'stretch' },
                     h('div', { className: 'article-author-name' }, staff[authorId].name),
-                    h('div', { className: 'article-author-title' }, staff[authorId].title)
-                  )
-                )
+                    h('div', { className: 'article-author-title' }, staff[authorId].title),
+                  ),
+                ),
               ),
               h('div', { className: 'article-cover-wrapper' },
-                h('img', { src: coverImageUrl, className: 'article-cover' })
+                h('img', { src: coverImageUrl, className: 'article-cover' }),
               ),
               h('div', { className: 'article-content' }, widgetFor('body')),
             )
@@ -73,7 +74,7 @@
             h('article', { className: 'main-article' },
               h('div', { className: 'layout horizontal meta-data' },
                 h('div', { className: 'stretch article-categories' }, magazinCategories.map((category) => h('div', {}, category))),
-                h('div', { className: 'article-date'}, publishDate.toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
+                h('div', { className: 'article-date'}, publishDate.toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })),
               ),
               h('div', { className: 'layout horizontal heading' },
                 h('h1', { className: 'stretch' }, title),
@@ -81,12 +82,12 @@
                   h('img', { src: staff[authorId].image, className: 'article-author-image' }),
                   h('div', { className: 'stretch' },
                     h('div', { className: 'article-author-name' }, staff[authorId].name),
-                    h('div', { className: 'article-author-title' }, staff[authorId].title)
-                  )
-                )
+                    h('div', { className: 'article-author-title' }, staff[authorId].title),
+                  ),
+                ),
               ),
               h('div', { className: 'article-cover-wrapper' },
-                h('img', { src: coverImageUrl, className: 'article-cover' })
+                h('img', { src: coverImageUrl, className: 'article-cover' }),
               ),
               h('div', { className: 'article-content' }, widgetFor('body')),
             )
@@ -94,8 +95,54 @@
         }
       });
 
+      const BlogPreview = createClass({
+        render: function () {
+          const { entry, widgetFor, getAsset } = this.props;
+          const slug = window.location.hash.replace('#/collections/blog/entries/', '').replace('/index', '');
+          const title = entry.getIn(['data', 'title']);
+          const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
+          const coverImage = entry.getIn(['data', 'cover']) || '';
+          const coverImageUrl = coverImage.includes('/') ? getAsset(coverImage) : `/blog/${slug}/${coverImage}`;
+
+          return h('div', { className: 'main-layout blog-preview' },
+            h('div', {},
+              h('article', {},
+                h('div', { className: 'narrow' },
+                  h('div', { className: 'breadcrumbs' },
+                    h('nav', {},
+                      h('ul', { className: 'center-aligning horizontal wrapping layout' },
+                        h('li', {},
+                          h('a', { href: '#' },
+                            h('i', { className: 'fal fa-scroll' }),
+                            h('span', {}, 'Testing')
+                          ),
+                          h('span', { className: 'subtle' }, '&nbsp;&nbsp;/&nbsp;&nbsp;'),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                h('div', {},
+                  h('div', { className: 'cover' },
+                    h('div', { className: 'golden-ratio thumbnail-img' },
+                      h('img', { src: coverImageUrl, className: 'cover-parent' }),
+                    ),
+                  ),
+                  h('h1', {},
+                    h('span', {}, title)
+                  ),
+                ),
+                h('p', { className: 'subtle'}, publishDate.toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })),
+                h('div', {}, widgetFor('body')),
+              )
+            )
+          );
+        }
+      });
+
       CMS.registerPreviewTemplate("news", NewsPreview);
       CMS.registerPreviewTemplate("magazin", MagazinPreview);
+      CMS.registerPreviewTemplate("blog", BlogPreview);
 
       CMS.registerEditorComponent({
         id: 'figure',
