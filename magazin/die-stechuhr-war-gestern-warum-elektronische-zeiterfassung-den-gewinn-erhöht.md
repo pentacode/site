@@ -14,11 +14,14 @@ Das [EuGH-Urteil von 2019](/magazin/eugh_urteil/) verpflichtet jedes Unternehmen
 
 Arbeitszeit ist im Regelfall das wertvollste Wirtschaftsgut eines Unternehmens. Deshalb sind Lohn- und Gehaltskosten in den meisten Fällen auch die größte Kostenposition eines Unternehmens. Wird Arbeitszeit eingespart, schlägt sich dies bei Stundenlohnempfängern in geringeren Auszahlungslöhnen, bei Festangestellten in weniger Überstunden nieder. Welche Dimension dies annehmen kann, sei anhand der gängigen Methoden der Arbeitszeiterfassung illustriert.
 
-
   <figure class="undefined">
     undefined
     <figcaption>Schnelles Rad, schneller auf der Arbeit. Aber wer zahlt den verfrühten Arbeitsbeginn?</figcaption>
   </figure>
+
+![](/assets/uploads/pentacode-vorteile_zeiterfassung_1.jpg)
+
+
   
 
 ## Elektronische Zeiterfassung vs. ungenaue Zettelwirtschaft
