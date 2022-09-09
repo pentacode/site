@@ -21,21 +21,37 @@ Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert ei
 
 ## Neuer Standort
 
-Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken. Es öffnet ein Dialogfenster, in dem Sie die Standortdaten eingeben.
+Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken.
+Es öffnet sich anschließend ein Dialogfenster, in dem Sie einige Daten des
+Standorts festlegen können.
 
-{% figure caption="So legen Sie einen neuen Standort an" %}
+**Standortname** und **Adresse** dienen dabei der Organisation ihrer Standorte
+und -- ??? --
+Das **Bundesland** ist zusätzlich relevant um die verschiedenen Feiertage zu
+bestimmen, welche mitunter für die SFN-Zuschläge relevant sind. Wählen Sie dazu
+einfach das Bundesland des Standorts aus dem Drop-down Menü aus und die
+gesetzlich geregelten Feiertage werden automatisch an- und abgewählt. Sie haben
+jedoch immer auch die Option **manuell Feiertage ab- und anzuwählen**. Klicken
+Sie dazu einfach den gewünschten Feiertag an. 
 
-<img src = "neuer_standort.png"/>
+{% figure caption="So legen Sie einen neuen Standort an und wählen zusätzliche
+Feiertage aus." %}
+
+<img src = "standort_anlegen.gif"/>
 
 {% endfigure %}
 
-Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die entsprechenden Abteilungen an.
+Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die 
+[entsprechenden Abteilungen](#neue-abteilung) an.
 
 Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter "[**Positionen**](/hilfe/handbuch/mitarbeiter-alle/positionen/)". Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden.
 
 ## Standort bearbeiten
 
-Durch Anklicken des {% icon "ellipsis-h" %}-Symbols am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
+Durch Anklicken des {% icon "ellipsis-h" %}-Symbols am rechten oberen Eck können
+Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort
+Bearbeiten"** wählen. Sie kommen so in das gleiche Menü welches
+[hier](#neuer-standort) beschrieben ist.
 
 {% figure caption="So können Sie einen bestehenden Standort bearbeiten" %}
 
