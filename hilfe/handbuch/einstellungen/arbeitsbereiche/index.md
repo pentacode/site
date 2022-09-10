@@ -26,7 +26,7 @@ Es öffnet sich anschließend ein Dialogfenster, in dem Sie einige Daten des
 Standorts festlegen können.
 
 **Standortname** und **Adresse** dienen dabei der Organisation ihrer Standorte
-und -- ??? --
+und ??? 
 Das **Bundesland** ist zusätzlich relevant um die verschiedenen Feiertage zu
 bestimmen, welche mitunter für die SFN-Zuschläge relevant sind. Wählen Sie dazu
 einfach das Bundesland des Standorts aus dem Drop-down Menü aus und die
