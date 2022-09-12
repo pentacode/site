@@ -27,7 +27,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{slug}}"
+    slug: "{{fields.slug || slug}}"
     preview_path: "news/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -46,21 +46,25 @@ collections:
       - name: "title"
         label: "Title"
         required: true
-        width: "string"
+        widget: "string"
       - name: "layout"
         label: "Layout"
         required: true
         widget: "hidden"
         default: "layouts/news/single.njk"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
       - name: "cover"
         label: "Cover"
         required: false
         widget: "image"
-        media_folder: "."
+        media_folder: ""
       - name: "coverAlt"
         label: "Cover Alt"
         required: false
-        width: "string"
+        widget: "string"
       - name: "summary"
         label: "Summary"
         required: false
@@ -104,7 +108,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{slug}}"
+    slug: "{{fields.slug || slug}}"
     preview_path: "magazin/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -123,21 +127,25 @@ collections:
       - name: "title"
         label: "Title"
         required: true
-        width: "string"
+        widget: "string"
       - name: "layout"
         label: "Layout"
         required: true
         widget: "hidden"
         default: "layouts/magazin/single.njk"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
       - name: "cover"
         label: "Cover"
         required: false
         widget: "image"
-        media_folder: "."
+        media_folder: ""
       - name: "coverAlt"
         label: "Cover Alt"
         required: false
-        width: "string"
+        widget: "string"
       - name: "author"
         label: "Author"
         required: true
@@ -173,7 +181,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{slug}}"
+    slug: "{{fields.slug || slug}}"
     preview_path: "blog/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -192,7 +200,7 @@ collections:
       - name: "title"
         label: "Title"
         required: true
-        width: "string"
+        widget: "string"
       - name: "layout"
         label: "Layout"
         required: true
@@ -203,15 +211,19 @@ collections:
         required: true
         widget: "hidden"
         default: "page"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
       - name: "cover"
         label: "Cover"
         required: false
         widget: "image"
-        media_folder: "."
+        media_folder: ""
       - name: "coverAlt"
         label: "Cover Alt"
         required: false
-        width: "string"
+        widget: "string"
       - name: "summary"
         label: "Summary"
         required: false

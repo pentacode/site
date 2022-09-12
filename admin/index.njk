@@ -23,13 +23,12 @@
       const NewsPreview = createClass({
         render: function () {
           const { entry, widgetFor, getAsset } = this.props;
-          const slug = window.location.hash.replace('#/collections/news/entries/', '').replace('/index', '');
           const authorId = entry.getIn(['data', 'author']) || 'lstrasser';
           const title = entry.getIn(['data', 'title']);
           const categories = (entry.getIn(['data', 'categories']) || []);
           const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
           const coverImage = entry.getIn(['data', 'cover']) || '';
-          const coverImageUrl = coverImage.includes('/') ? getAsset(coverImage) : `/news/${slug}/${coverImage}`;
+          const coverImageUrl = getAsset(coverImage);
 
           return h('div', { className: 'main single news-preview' },
             h('article', {},
@@ -59,7 +58,6 @@
       const MagazinPreview = createClass({
         render: function () {
           const { entry, widgetFor, getAsset } = this.props;
-          const slug = window.location.hash.replace('#/collections/magazin/entries/', '').replace('/index', '');
           const authorId = entry.getIn(['data', 'author']) || 'lstrasser';
           const title = entry.getIn(['data', 'title']);
           const magazinCategories = (entry.getIn(['data', 'magazinCategories']) || []);
@@ -68,7 +66,7 @@
           }
           const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
           const coverImage = entry.getIn(['data', 'cover']) || '';
-          const coverImageUrl = coverImage.includes('/') ? getAsset(coverImage) : `/magazin/${slug}/${coverImage}`;
+          const coverImageUrl = getAsset(coverImage);
 
           return h('div', { className: 'main single magazin-preview' },
             h('article', { className: 'main-article' },
@@ -98,11 +96,10 @@
       const BlogPreview = createClass({
         render: function () {
           const { entry, widgetFor, getAsset } = this.props;
-          const slug = window.location.hash.replace('#/collections/blog/entries/', '').replace('/index', '');
           const title = entry.getIn(['data', 'title']);
           const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
           const coverImage = entry.getIn(['data', 'cover']) || '';
-          const coverImageUrl = coverImage.includes('/') ? getAsset(coverImage) : `/blog/${slug}/${coverImage}`;
+          const coverImageUrl = getAsset(coverImage);
 
           return h('div', { className: 'main-layout blog-preview' },
             h('div', {},
@@ -157,8 +154,10 @@
           {
             name: 'extraClass',
             label: 'Class',
-            widget: 'string',
+            widget: 'select',
             required: false,
+            multiple: true,
+            options: ['border', 'float-right', 'float-left', 'centered', 'width-25pc', 'narrow', 'width-30pc', 'width-40pc', 'float', 'right', 'left'],
           },
           {
             name: 'body',
