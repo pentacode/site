@@ -60,7 +60,7 @@ Urlaubsansprüchen.
 
 {%figure caption="Wenn Sie Resturlaub und Überstunden des Mitarbeiters bereits
 kennen, ist das Übertragen in Sekunden erledigt"%}
-<img src="urlaubsansprüche.gif"/>
+<img src="urlaubsübertrag.gif"/>
 {%endfigure%}
 
 ## Urlaubsanspruch händisch berechnen
