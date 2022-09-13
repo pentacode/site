@@ -17,6 +17,7 @@
       CMS.registerPreviewStyle("/admin/news-preview.css");
       CMS.registerPreviewStyle("/admin/magazin-preview.css");
       CMS.registerPreviewStyle("/admin/blog-preview.css");
+      CMS.registerPreviewStyle("/admin/hilfe-preview.css");
 
       const staff = JSON.parse(`{{ staff | jsonify | safe }}`);
 
@@ -113,7 +114,7 @@
                             h('i', { className: 'fal fa-scroll' }),
                             h('span', {}, 'Testing')
                           ),
-                          h('span', { className: 'subtle' }, '&nbsp;&nbsp;/&nbsp;&nbsp;'),
+                          h('span', { className: 'subtle' }, '  /  '),
                         ),
                       ),
                     ),
@@ -137,9 +138,41 @@
         }
       });
 
+      const HilfePreview = createClass({
+        render: function () {
+          const { entry, widgetFor } = this.props;
+          const title = entry.getIn(['data', 'title']);
+          const icon = entry.getIn(['data', 'icon']) || 'scroll';
+
+          return h('div', { className: 'main-layout hilfe-preview' },
+            h('div', {},
+              h('div', { className: 'breadcrumbs' },
+                h('nav', {},
+                  h('ul', { className: 'center-aligning horizontal wrapping layout' },
+                    h('li', {},
+                      h('a', { href: '#' },
+                        h('i', { className: 'fal fa-scroll' }),
+                        h('span', {}, 'Testing')
+                      ),
+                      h('span', { className: 'subtle' }, '  /  '),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            h('article', {},
+              h('i', { className: `cover-icon fal fa-${icon}` }),
+              h('h1', {}, title),
+              h('div', {}, widgetFor('body')),
+            ),
+          );
+        }
+      });
+
       CMS.registerPreviewTemplate("news", NewsPreview);
       CMS.registerPreviewTemplate("magazin", MagazinPreview);
       CMS.registerPreviewTemplate("blog", BlogPreview);
+      CMS.registerPreviewTemplate("hilfe", HilfePreview);
 
       CMS.registerEditorComponent({
         id: 'figure',

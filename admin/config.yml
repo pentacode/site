@@ -260,3 +260,59 @@ collections:
         label: "Body"
         required: true
         widget: "markdown"
+  
+  - name: "hilfe"
+    label: "Hilfe"
+    identifier_field: title
+    folder: "hilfe"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug || slug}}"
+    preview_path: "hilfe/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["title", "weight"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/hilfe/single.njk"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
+      - name: "icon"
+        label: "Icon"
+        required: false
+        widget: "string" # NOTE: Ideally this would be a select, but there are too many options
+      - name: "weight"
+        label: "Weight"
+        required: false
+        widget: "number"
+        min: -100
+        max: 100
+        step: 1
+        value_type: "int"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"
