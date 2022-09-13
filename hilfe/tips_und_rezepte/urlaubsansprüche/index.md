@@ -30,8 +30,8 @@ bringen.
 ## Urlaubsansprüche Übertragen
 
 Um das Urlaubskonto ihres Mitarbeiters auf den richtigen Stand zu bringen
-verwenden Sie die
-[Buchungsfunktion](/hilfe/handbuch/mitarbeiter/konten/übertrag-bearbeiten-konten-zurücksetzen).
+verwenden Sie den
+[Kontenübertrag](/hilfe/handbuch/mitarbeiter/konten/übertrag-bearbeiten-konten-zurücksetzen).
 
 1. Navigieren Sie dazu zunächst zum Kontenblatt des Mitarbeiters.
 2. Fahren Sie mit der Maus über den erste Monat des Mitarbeiters und
@@ -63,6 +63,26 @@ kennen, ist das Übertragen in Sekunden erledigt"%}
 <img src="urlaubsübertrag.gif"/>
 {%endfigure%}
 
+### Kontenübertrag für mehrere Mitarbeiter 
+
+Da Sie bei einem Wechsel zu Pentacode meist nicht nur die Stunden und
+Urlaubstage eines Mitarbeiters übertragen müssen, bietet Pentacode Ihnen auch die
+Funktion mehrere Konten "In einem Schwung" zu übertragen. 
+
+1. Navigieren Sie zunächst unter Mitarbeiter auf Konten und in die Jahresübersicht.
+2. Klicken Sie den {% icon "ellipsis"%} **-Button** in der rechten oberen Ecke.
+3. Es öffnet sich ein Dialog mit der Überschrift "Konten Zurücksetzen". Wählen
+   Sie ihren Startmonat in Pentacode aus.
+4. Füllen Sie die Spalten **"Urlaub"** mit den Resturlaubstagen und
+   **"Stunden"** mit den Über- oder Minderstunden des Mitarbeiters.
+5. Sollte für manche Mitarbeiter nichts zu übertragen sein, lassen Sie die
+   Felder einfach unbeschriftet
+
+{%figure caption="So aktualisieren sie schnell die Urlaubs- und Arbeitskonten
+mehrere Mitarbeiter auf einmal"%}
+<img src="übertrag-mehrere.gif"/>
+{%endfigure%}
+
 ## Urlaubsanspruch händisch berechnen
 
 Da wir schließlich nicht mit irgendwelchen Zahlen, sondern realistischen
@@ -86,10 +106,7 @@ unter [Urlaubsansprüche übertragen](#urlaubsansprüche-übertragen) beschriebe
 Pentacode speichern.
 
 **Hier noch einmal die Schritte um den Urlaubsanspruch zu berechnen:**
-1. Monatsanspruch berechnen: *Jahresanspruch/12*.
-2. Zeitspanne seit Jahresbeginn berechnen, in der der Mitarbeiter gearbeitet hat aber nicht über
-   Pentacode geführt wurde. Wenn der Mitarbeiter seit Jahresbeginn (oder dem Vorjahr) arbeitet aber
-   erst Mitte September auf Pentacode gewechselt wurde bspw. 8,5 Monate.
-3. Monatsanspruch mit Zeitspanne multiplizieren.
-4. (Falls vorhanden) Genommene Urlaubstage abziehen und Resturlaub aus dem
-   letzten addieren.
+1. **Monatsanspruch berechnen**
+2. **Zeitspanne berechnen in welcher der Mitarbeiter gearbeitet hat aber nicht über Pentacode geführt wurde**
+3. **Monatsanspruch mit Zeitspanne multiplizieren.**
+4. **(Falls vorhanden) Genommene Urlaubstage abziehen und Resturlaub aus dem letzten Jahr aufaddieren.**
