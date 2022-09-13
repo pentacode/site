@@ -38,7 +38,7 @@ verwenden Sie die
    klicken Sie auf den {% button icon="undo" %} Button am linken Rand.
 3. Tragen Sie im erschienen Feld unter **Urlaub** die Anzahl an Resturlaubstagen
    ein, um diese dem Mitarbeiter gutzuschreiben. 
-4. Klicken Sie auf den {$button icon="save" $} um die Änderung zu speichern.
+4. Klicken Sie auf den {% button icon="save" %} um die Änderung zu speichern.
 
 Sollten Sie die Menge an bestehendem **Resturlaub nicht wissen**, weil Sie
 bisher keine Personalsoftware verwendet haben - keine Sorge.
