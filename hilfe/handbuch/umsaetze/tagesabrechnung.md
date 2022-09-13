@@ -109,7 +109,11 @@ Selbst wenn Sie das Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir
 
 Verwenden Sie für die Umsatzeingabe am besten [**Umsatzgruppen**](/hilfe/handbuch/umsaetze/umsatzgruppen/).
 
-Wenn Sie im Menüpunkt Umsatzgruppen auf "**+ Neue Umsatzgruppe**" klicken, öffnet ein  Eingabefeld, in dem Sie u.a. buchhalterische Angaben leisten können. Wenn Sie Ihre Umsatzarten nur aus statistischen Gründen erfassen, können Sie diese Eingaben ignorieren. **Sie sollten jedoch unbedingt den zutreffenden UST-Satz wählen**.
+Wenn Sie im Menüpunkt Umsatzgruppen auf "**+ Neue Umsatzgruppe**" klicken,
+öffnet sich ein Eingabefeld, in dem Sie u.a. buchhalterische Angaben leisten
+können. Wenn Sie Ihre Umsatzarten nur aus statistischen Gründen erfassen, können
+Sie diese Eingaben ignorieren. **Sie sollten jedoch unbedingt den zutreffenden
+UST-Satz wählen**.
 
 {% figure caption="Ignorieren Sie für die statistische Erfassung die buchhalterischen Angaben, wählen Sie jedoch den zutreffenden UST-Satz" %}
 

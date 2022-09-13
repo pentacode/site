@@ -32,7 +32,7 @@ Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten Buchungs
 
 {% figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" %}
 
-<img src="neue-umsatzgruppen" />
+<img src="neue-umsatzgruppe.png" />
 
 {% endfigure %}
 
@@ -50,7 +50,7 @@ Da Pentacode alle Eingaben auf Einheitlichkeit überprüft, kann es vorkommen, d
 
 {% figure caption="Ziehen Sie bestehende Umsätze aus der Liste per drag & drop in die zutreffende Umsatzgruppe" %}
 
-![](/uploads/umsatzgruppe2.png)
+<img src="umsatz-hinzufügen.gif"/>
 
 {% endfigure %}
 
@@ -58,7 +58,7 @@ Wenn Sie dies für die Zukunft vereinheitlichen wollen, **ziehen** Sie nun die *
 
 {% figure caption="Unterschiedliche Angaben werden damit automatisch vereinheitlicht" %}
 
-![](/uploads/umsatzgruppe3.png)
+<img src="umsätze-verschieben.gif" />
 
 {% endfigure %}
 
@@ -72,7 +72,7 @@ Mit der **gedrückten linken Maustaste** können Sie die angelegten Gruppen in d
 
 {% figure caption="Bringen Sie die Gruppen in die von Ihnen gewünschte Reihenfolge" %}
 
-![](/uploads/umsatzgruppe4.png)
+<img src="umsätze-reihenfolge.png"/>
 
 {% endfigure %}
 
@@ -92,7 +92,7 @@ Und in der "**Tagesabrechnung**" können natürlich weiterhin **neue Umsatzarten
 
 {% figure caption="Sie können bestehenden Umsatzarten jederzeit weitere Umsätze hinzufügen" %}
 
-![](/uploads/umsatzgruppe6.png)
+<img src="umsatz-liste.png"/>
 
 {% endfigure %}
 
