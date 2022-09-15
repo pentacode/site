@@ -107,7 +107,9 @@ Analog zum hier gezeigten Vorgehen können Sie auch mit "Unbaren Zahlungsarten",
 
 Selbst wenn Sie das Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir, die **Erlöse** in Ihrem Unternehmen zumindest zu **statistischen Zwecken** zu erfassen. Neben einer Darstellung Ihrer Umsätze nach deren Herkunft ermittelt Pentacode automatisch die Arbeits-Produktivität in Ihrem Unternehmen.
 
-Verwenden Sie für die Umsatzeingabe am besten [**Umsatzgruppen**](/hilfe/handbuch/umsaetze/umsatzgruppen/).
+Verwenden Sie für die Umsatzeingabe am besten **Umsatzgruppen**.
+[**Hier**](/hilfe/handbuch/umsaetze/umsatzgruppen/) können Sie nachschlagen, wie
+Sie diese erstellen und ordnen. 
 
 Wenn Sie im Menüpunkt Umsatzgruppen auf "**+ Neue Umsatzgruppe**" klicken,
 öffnet sich ein Eingabefeld, in dem Sie u.a. buchhalterische Angaben leisten
@@ -133,7 +135,8 @@ In der Standardeinstellung ist der Button bei "Kassenbuch" und "Berichte" gesetz
 
 ## Unbare Zahlungen
 
-**Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw. **wie** Sie dies **bisher gewohnt** waren.
+**Erfassen Sie** die Bezahlung durch EC-Karten, Kreditkarten, Gutscheine usw.
+unter **Unbare Zahlungen**. Entnehmen Sie diese am besten direkt ihrem Kassensystem. 
 
 {% figure caption="Erfassen Sie hier die unbaren Zahlarten" %}
 
@@ -147,13 +150,17 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 
 ## Auf Rechnung
 
-**Debitoren**, die einmal erfasst sind, **werden** von Pentacode **wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
+**Debitoren**, die einmal erfasst sind, **werden** von Pentacode
+**wiedererkannt** und in einer Dropdown-Liste zur Auswahl **vorgeschlagen**.
 
 {% figure caption="Einmal erfasste Debitoren werden automatisch vorgeschlagen" %}
 
 ![](/uploads/ta3.png)
 
 {% endfigure %}
+
+Alle Debitoren können Sie übersichtlich unter
+[**Debitoren**](/hilfe/handbuch/umsaetze/debitoren) aufgelistet sehen. 
 
 ## Ausgaben
 

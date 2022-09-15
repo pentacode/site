@@ -48,8 +48,8 @@ Debitor durchsuchen." %}
 
 ### Rechnung als bezahlt markieren
 
-Sobald ein Debitor seine Schulden beglichen hat können Sie die eingegangene
-Rechnung einfach markieren. Suchen Sie dazu einfach mit der Filteroption die
-Rechnung des gesuchten Debitors zur gesuchten Zeit und markieren die Rechnung
+Sobald ein Debitor eine Rechnung beglichen hat, markieren Sie diese als gezahlt.
+Suchen Sie dazu einfach mit der Filteroption den Debitor und markieren die Rechnung
 als **bezahlt**, indem Sie auf das **Kästchen auf der rechten Seite** klicken. Der
-Betrag der Rechnung wird anschließend vom offenen Schuldenkonto des Debitors abgezogen.
+Betrag der Rechnung wird anschließend vom offenen Schuldenkonto des Debitors
+abgezogen. 
