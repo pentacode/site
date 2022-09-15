@@ -21,7 +21,7 @@ Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert ei
 
 ## Neuer Standort
 
-Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken.
+Sie können weitere Standorte anlegen, indem Sie auf {% button icon="plus", label="Neuer Standort" %} klicken.
 Es öffnet sich anschließend ein Dialogfenster, in dem Sie einige Daten des
 Standorts festlegen können.
 
