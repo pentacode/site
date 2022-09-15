@@ -1,0 +1,318 @@
+backend:
+  name: github
+  repo: pentacode/site
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: https://pentacode.app
+display_url: https://pentacode.app
+logo_url: https://pentacode.app/assets/img/logo.svg
+# locale: "de"
+
+slug:
+  encoding: "unicode"
+  clean_accents: false
+  sanitize_replacement: "-"
+
+collections:
+  - name: "news"
+    label: "News"
+    identifier_field: title
+    folder: "news"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug || slug}}"
+    preview_path: "news/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["publishDate", "title", "author"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/news/single.njk"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
+      - name: "cover"
+        label: "Cover"
+        required: false
+        widget: "image"
+        media_folder: ""
+      - name: "coverAlt"
+        label: "Cover Alt"
+        required: false
+        widget: "string"
+      - name: "summary"
+        label: "Summary"
+        required: false
+        widget: "text"
+      - name: "author"
+        label: "Author"
+        required: true
+        widget: "select"
+        default: "lstrasser"
+        options:
+          - { label: "Lorenz Strasser", value: "lstrasser" }
+          - { label: "Julia Tomski", value: "jtomski" }
+          - { label: "Martin Kleinschrodt", value: "mklein" }
+      - name: "categories"
+        label: "Categories"
+        required: false
+        widget: "select"
+        multiple: true
+        options: ["Ratgeber", "Ankündigungen", "Sonstiges", "Produktupdates"]
+      - name: "keywords"
+        label: "Keywords"
+        required: false
+        widget: "list"
+      - name: "publishDate"
+        label: "Publish Date"
+        required: true
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"
+  
+  - name: "magazin"
+    label: "Magazin"
+    identifier_field: title
+    folder: "magazin"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug || slug}}"
+    preview_path: "magazin/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["publishDate", "title", "author"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/magazin/single.njk"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
+      - name: "cover"
+        label: "Cover"
+        required: false
+        widget: "image"
+        media_folder: ""
+      - name: "coverAlt"
+        label: "Cover Alt"
+        required: false
+        widget: "string"
+      - name: "author"
+        label: "Author"
+        required: true
+        widget: "select"
+        default: "lstrasser"
+        options:
+          - { label: "Lorenz Strasser", value: "lstrasser" }
+          - { label: "Julia Tomski", value: "jtomski" }
+          - { label: "Martin Kleinschrodt", value: "mklein" }
+      - name: "magazinCategories"
+        label: "Magazin Categories"
+        required: false
+        widget: "select"
+        multiple: true
+        options: ["Das erfolgreiche Unternehmen", "Das gesunde Team", "Der zufriedene Kunde"]
+      - name: "publishDate"
+        label: "Publish Date"
+        required: true
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"
+
+  - name: "blog"
+    label: "Blog"
+    identifier_field: title
+    folder: "blog"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug || slug}}"
+    preview_path: "blog/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["publishDate", "title", "author"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/blog/single.njk"
+      - name: "kind"
+        label: "Kind"
+        required: true
+        widget: "hidden"
+        default: "page"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
+      - name: "cover"
+        label: "Cover"
+        required: false
+        widget: "image"
+        media_folder: ""
+      - name: "coverAlt"
+        label: "Cover Alt"
+        required: false
+        widget: "string"
+      - name: "summary"
+        label: "Summary"
+        required: false
+        widget: "text"
+      - name: "author"
+        label: "Author"
+        required: true
+        widget: "select"
+        default: "lstrasser"
+        options:
+          - { label: "Lorenz Strasser", value: "lstrasser" }
+          - { label: "Julia Tomski", value: "jtomski" }
+          - { label: "Martin Kleinschrodt", value: "mklein" }
+      - name: "categories"
+        label: "Categories"
+        required: false
+        widget: "select"
+        multiple: true
+        options: ["Ratgeber", "Ankündigungen", "Sonstiges", "Produktupdates"]
+      - name: "weight"
+        label: "Weight"
+        required: false
+        widget: "number"
+        min: -100
+        max: 100
+        step: 1
+        value_type: "int"
+      - name: "publishDate"
+        label: "Publish Date"
+        required: true
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"
+  
+  - name: "hilfe"
+    label: "Hilfe"
+    identifier_field: title
+    folder: "hilfe"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug || slug}}"
+    preview_path: "hilfe/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["title", "weight"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "By author"
+        field: author
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/hilfe/single.njk"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
+      - name: "icon"
+        label: "Icon"
+        required: false
+        widget: "string" # NOTE: Ideally this would be a select, but there are too many options
+      - name: "weight"
+        label: "Weight"
+        required: false
+        widget: "number"
+        min: -100
+        max: 100
+        step: 1
+        value_type: "int"
+      - name: "body"
+        label: "Body"
+        required: true
+        widget: "markdown"

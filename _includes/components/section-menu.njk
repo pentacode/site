@@ -21,6 +21,11 @@
                 {% set hideChildren = true %}
             {% endif %}
 
+            {# Special case of pages/URLs with the same starting slug #}
+            {% if (not hideChildren) and (page.key === "/hilfe/handbuch/mitarbeiter-app" or page.key === "/hilfe/handbuch/mitarbeiter") and (eleventyNavigation.key === "/hilfe/handbuch/mitarbeiter-app" or eleventyNavigation.key === "/hilfe/handbuch/mitarbeiter") and (page.key !== eleventyNavigation.key) %}
+                {% set hideChildren = true %}
+            {% endif %}
+
             {% if hideChildren %}
                 {% set hiddenAttribute = "hidden" %}
             {% endif %}

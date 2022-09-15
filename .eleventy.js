@@ -7,8 +7,10 @@ const { minify: cleanHtml } = require("html-minifier-terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { getTOC } = require("./_lib/toc");
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 async function minifyHtml(source, output_path) {
-    if (!output_path.endsWith(".html")) return source;
+    if (!output_path.endsWith(".html") || !isProduction) return source;
 
     const result = await cleanHtml(source, {
         collapseBooleanAttributes: true,
@@ -84,6 +86,8 @@ module.exports = (config) => {
     const html = (...args) => outdent(String.raw(...args)).trim();
 
     config.addPassthroughCopy("assets/**/*");
+    config.addPassthroughCopy("admin/config.yml");
+    config.addPassthroughCopy("admin/*.css");
 
     // Old paths
     config.addPassthroughCopy({ "./assets": "/" });
