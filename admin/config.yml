@@ -2,6 +2,7 @@ backend:
   name: github
   repo: pentacode/site
   branch: master
+  site_domain: pentacode-site.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "assets/uploads"
