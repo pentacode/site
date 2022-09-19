@@ -316,3 +316,135 @@ collections:
         label: "Body"
         required: true
         widget: "markdown"
+  
+  - name: "funktionen"
+    label: "Funktionen"
+    identifier_field: title
+    folder: "funktionen"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug || slug}}"
+    preview_path: "blog/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["title", "meta_title"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/funktionen/single.njk"
+      - name: "meta_title"
+        label: "Meta Title"
+        required: true
+        widget: "string"
+      - name: "slug"
+        label: "Slug Override"
+        required: false
+        widget: "string"
+      - name: "subtitle"
+        label: "Subtitle"
+        required: true
+        widget: "string"
+      - name: "subsubtitle"
+        label: "Sub-Subtitle"
+        required: true
+        widget: "string"
+      - name: "description"
+        label: "Description"
+        required: true
+        widget: "text"
+      - name: "cover"
+        label: "Cover"
+        required: true
+        widget: "image"
+        media_folder: ""
+      - name: "cover_alt"
+        label: "Cover Alt"
+        required: false
+        widget: "string"
+      - name: "cover_2"
+        label: "Cover 2"
+        required: false
+        widget: "image"
+        media_folder: ""
+      - name: "cover_2_alt"
+        label: "Cover 2 Alt"
+        required: false
+        widget: "string"
+      - name: "weight"
+        label: "Weight"
+        required: false
+        widget: "number"
+        min: -100
+        max: 100
+        step: 1
+        value_type: "int"
+      - name: "icon"
+        label: "Icon"
+        required: false
+        widget: "string" # NOTE: Ideally this would be a select, but there are too many options
+      - name: "keywords"
+        label: "Keywords"
+        required: false
+        widget: "list"
+      - name: "aliases"
+        label: "Aliases"
+        required: false
+        widget: "list"
+      - name: "sections"
+        label: "Sections"
+        required: false
+        widget: "list"
+        fields:
+          - label: Template
+            name: template
+            widget: "select"
+            required: true
+            multiple: false
+            options: ["section-slides", "section-waterfall", "section-preise", "section-features", "section-offer"]
+          - label: Template Path
+            name: template_path
+            widget: "select"
+            required: true
+            multiple: false
+            options: ["sections/slides", "sections/waterfall", "sections/preise", "sections/features", "sections/offer"]
+
+
+# TODO:
+# title: "**Elektronische Zeiterfassung**<br>für Ihre Mitarbeiter"
+# subtitle: Über Tablet, per Mitarbeiter-App, im Homeoffice
+# color_1: orange
+# color_2: red
+# alignment: right
+# text: "Ob stationär am Tablet, per Smartphone über QR Code, ob mobil oder
+#     im Homeoffice per Mitarbeiter-App: die elektronische Zeiterfassung ist sofort
+#     einsetzbar, erfordert keine Schulung und keine Sprachkenntnisse.
+#     Arbeitnehmer erfassen ihre Arbeitszeiten und eventuelle Pausen - die Software
+#     erledigt den gesamten Rest."
+# slides:
+#   - title: Performant & Offline-Fähig
+#     icon: rabbit-fast
+#     text: "Schlechter WLAN-Empfang am Tablet? Kein Problem! Unsere
+#         Stempeluhr arbeitet auch bei einer schlechten oder instabilen
+#         Internetverbindung einwandfrei. Und selbst wenn Ihre
+#         Internetverbindung einmal komplett in die Knie geht arbeitet
+#         Pentacode einfach offline weiter. 😎"
+#     image: "/uploads/funktionen_zeiterfassung_stempeluhr-2.png"
+#     padding: 10
