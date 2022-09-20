@@ -397,6 +397,7 @@ collections:
         max: 100
         step: 1
         value_type: "int"
+        default: 1
       - name: "icon"
         label: "Icon"
         required: false
@@ -414,38 +415,77 @@ collections:
         required: false
         widget: "list"
         fields:
-          - label: Template
-            name: template
-            widget: "select"
+          - name: "template"
+            label: "Template"
             required: true
+            widget: "select"
             multiple: false
             options: ["section-slides", "section-waterfall", "section-preise", "section-features", "section-offer"]
-          - label: Template Path
-            name: template_path
-            widget: "select"
+          - name: "template_path"
+            label: "Template Path"
             required: true
+            widget: "select"
             multiple: false
             options: ["sections/slides", "sections/waterfall", "sections/preise", "sections/features", "sections/offer"]
-
-
-# TODO:
-# title: "**Elektronische Zeiterfassung**<br>für Ihre Mitarbeiter"
-# subtitle: Über Tablet, per Mitarbeiter-App, im Homeoffice
-# color_1: orange
-# color_2: red
-# alignment: right
-# text: "Ob stationär am Tablet, per Smartphone über QR Code, ob mobil oder
-#     im Homeoffice per Mitarbeiter-App: die elektronische Zeiterfassung ist sofort
-#     einsetzbar, erfordert keine Schulung und keine Sprachkenntnisse.
-#     Arbeitnehmer erfassen ihre Arbeitszeiten und eventuelle Pausen - die Software
-#     erledigt den gesamten Rest."
-# slides:
-#   - title: Performant & Offline-Fähig
-#     icon: rabbit-fast
-#     text: "Schlechter WLAN-Empfang am Tablet? Kein Problem! Unsere
-#         Stempeluhr arbeitet auch bei einer schlechten oder instabilen
-#         Internetverbindung einwandfrei. Und selbst wenn Ihre
-#         Internetverbindung einmal komplett in die Knie geht arbeitet
-#         Pentacode einfach offline weiter. 😎"
-#     image: "/uploads/funktionen_zeiterfassung_stempeluhr-2.png"
-#     padding: 10
+          - name: "title"
+            label: "Title"
+            required: true
+            widget: "string"
+          - name: "subtitle"
+            label: "Subitle"
+            required: true
+            widget: "string"
+          - name: "color_1"
+            label: "Color 1"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["red", "orange", "yellow", "olive", "green", "teal", "blue", "violet", "purple", "pink", "brown", "grey", "black", "aqua"]
+          - name: "color_2"
+            label: "Color 2"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["red", "orange", "yellow", "olive", "green", "teal", "blue", "violet", "purple", "pink", "brown", "grey", "black", "aqua"]
+          - name: "alignment"
+            label: "Alignment"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["left", "right"]
+            default: "left"
+          - name: "text"
+            label: "Text"
+            required: true
+            widget: "markdown"
+          - name: "slides"
+            label: "Slides"
+            required: false
+            widget: "list"
+            fields:
+              - name: "title"
+                label: "Title"
+                required: true
+                widget: "string"
+              - name: "icon"
+                label: "Icon"
+                required: true
+                widget: "string" # NOTE: Ideally this would be a select, but there are too many options
+              - name: "text"
+                label: "Text"
+                required: true
+                widget: "markdown"
+              - name: "image"
+                label: "Image"
+                required: true
+                widget: "image"
+                media_folder: ""
+              - name: "padding"
+                label: "Padding"
+                required: false
+                widget: "number"
+                min: -100
+                max: 100
+                step: 1
+                value_type: "int"
+                default: 10
