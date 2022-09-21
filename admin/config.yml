@@ -57,6 +57,7 @@ collections:
         label: "Slug Override"
         required: false
         widget: "string"
+        default: "{{slug}}"
       - name: "cover"
         label: "Cover"
         required: false
@@ -138,6 +139,7 @@ collections:
         label: "Slug Override"
         required: false
         widget: "string"
+        default: "{{title}}"
       - name: "cover"
         label: "Cover"
         required: false
@@ -216,6 +218,7 @@ collections:
         label: "Slug Override"
         required: false
         widget: "string"
+        default: "{{title}}"
       - name: "cover"
         label: "Cover"
         required: false
@@ -301,6 +304,7 @@ collections:
         label: "Slug Override"
         required: false
         widget: "string"
+        default: "{{title}}"
       - name: "icon"
         label: "Icon"
         required: false
