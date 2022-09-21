@@ -30,18 +30,29 @@ Das **Bundesland** ist zusätzlich relevant um die verschiedenen Feiertage zu
 bestimmen, welche mitunter für die SFN-Zuschläge relevant sind. Wählen Sie dazu
 einfach das Bundesland des Standorts aus dem Drop-down Menü aus und die
 gesetzlich geregelten Feiertage werden automatisch an- und abgewählt. Sie haben
-jedoch immer auch die Option **manuell Feiertage ab- und anzuwählen**. Klicken
-Sie dazu einfach den gewünschten Feiertag an. 
+jedoch immer auch die Option [**manuell Feiertage ab- und anzuwählen**](#feiertage-bearbeiten).
 
-{% figure caption="So legen Sie einen neuen Standort an und wählen zusätzliche
-Feiertage aus." %}
-<img src = "standort_anlegen.gif"/>
+{% figure caption="So legen Sie einen neuen Standort an." %}
+<img src = "neuer-standort.png"/>
 {% endfigure %}
 
 Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die 
 [entsprechenden Abteilungen](#neue-abteilung) an.
 
 Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter "[**Positionen**](/hilfe/handbuch/mitarbeiter-alle/positionen/)". Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden.
+
+### Feiertage bearbeiten
+
+Wenn Sie einen [neuen Standort anlegen](#neuer-standort) oder
+[bearbeiten](#standort-bearbeiten), werden die Feiertage vorerst standardmäßig
+für das ausgewählte Bundeland festgelegt. Sollten Sie die Feiertage jedoch
+ändern wollen, können Sie diese ganz einfach über das Dialogfenster beim
+Bearbeiten des Standorts tun. Klicken Sie dazu auf den Schieberegler, bis dieser bei nicht
+gewünschte Feiertagen weiß erscheint und bei gewünschten Feiertage blau. 
+
+{% figure caption="Ein neuer Standort soll zwei zusätzliche Feiertage anerkennen. %}
+<img src = "standort_anlegen.gif"/>
+{% endfigure %}
 
 ## Standort bearbeiten
 
