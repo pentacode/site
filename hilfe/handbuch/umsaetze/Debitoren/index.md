@@ -26,7 +26,7 @@ des aktuellen Jahres." %}
 
 ## Debitoren filtern
 
-Sie können die Liste der Debitoren auf mehrere Weisen filtern:
+Sie können die Liste der Debitoren auf verschiedene Weise filtern:
 
 -  **Nach Namen** - Klicken Sie dazu in das **Suchen... Dialogfeld** in der
    oberen rechten Ecke und geben den Namen des gesuchten Debitors ein.
