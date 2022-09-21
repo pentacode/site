@@ -28,7 +28,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "news/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -109,7 +109,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "magazin/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -182,7 +182,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "blog/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -272,7 +272,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "hilfe/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["title", "weight"]
