@@ -38,7 +38,7 @@ Sie können die Liste der Debitoren auf mehrere Weisen filtern:
    werden alle Debitoren des kompletten Jahres angezeigt.
 -  **bezahlt und unbezahlt** - Normalerweise werden Ihnen nur unbeglichene
    Schuldversprechen angezeigt, wollen Sie jedoch auch die bezahlten mit
-   einsehen, klicken Sie auf den Regler **bezahlt** in der oberen rechten Ecke
+   einsehen, klicken Sie auf den Regler {% button icon="toggle-on", label="bezahlt" %} in der oberen rechten Ecke
    neben dem Suchen... Dialogfeld
 
 {% figure caption="So können wir das gesamte Jahr 2021 nach einem spezifischen
