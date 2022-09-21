@@ -328,7 +328,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "blog/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["title", "meta_title"]
@@ -356,8 +356,8 @@ collections:
         required: true
         widget: "string"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
       - name: "subtitle"
         label: "Subtitle"
