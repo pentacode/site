@@ -30,7 +30,7 @@ Sie können die Liste der Debitoren auf mehrere Weisen filtern:
 
 -  **Nach Namen** - Klicken Sie dazu in das **Suchen... Dialogfeld** in der
    oberen rechten Ecke und geben den Namen des gesuchten Debitors ein.
--  **Zeitpunkt des Schuldversprechens** - Sie können nach spezifischen Jahren oder
+-  **Rechnungsdatum** - Sie können nach spezifischen Jahren oder
    Monaten filtern. Wählen Sie dazu erst die Zeitspanne aus, indem Sie in der
    oberen rechten Ecke auf **Monat** oder **Jahr** klicken. Nun können Sie
    spezifizieren nach welchem Monat oder Jahr Sie suchen, indem Sie links im
