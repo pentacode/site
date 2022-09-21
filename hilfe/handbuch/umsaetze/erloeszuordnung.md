@@ -28,7 +28,7 @@ wird dabei zunächst **gleichmäßig** auf die Abteilungen verteilt.
 Sie können die entstandenen **Prozentwerte** jedoch beliebig **überschreiben** und so zu einer Verteilung gelangen, die nach Ihrem Gefühl angemessen ist.
 
 {% figure caption="'Gewichten' Sie den Anteil, den eine Abteilung an der jeweiligen Umsatzart hat durch Überschreiben" %}
-<img src="erlöszuordnung.gif"/>
+<img src="zuordnung.gif"/>
 {% endfigure %}
 
 Bei der Umsatzplanung werden die jeweiligen Umsatzbeteiligungen nun den Abteilungen entsprechend zugewiesen.

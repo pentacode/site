@@ -5,21 +5,20 @@ weight: 2
 icon: file-invoice
 ---
 
-Besonders bei großen Aufträgen und Bestellungen, bevorzugen viele Kunden **auf
-Rechnung zu zahlen**. Diese Option anzubieten kann also zur Kundenzufriedenheit
-beitragen, Sie müssen jedoch auch stets im Auge behahalten, ob
-das Geld schließlich eintrifft. Unter dem Reiter **Debitoren** finden Sie eine Auflistung aller auf
-Rechnung gezahlten Leistungen und können so stets nachvollziehen, wie es um ihre
-Schuldner steht. 
+Besonders bei großen Aufträgen ist ein "auf Rechnung" zahlen in vielen Betrieben
+nicht unüblich. Unter dem Reiter **Debitoren** führt Pentacode eine Auflistung
+aller Rechnungen, welche über die
+[Tagesabrechnung](hilfe/handbuch/umsaetze/tagesabrechnung/index) gebucht wurden.
+So können Sie stets nachvollziehen wie es um ihre Schuldner steht und welche
+Rechnungen noch zu begleichen sind. 
 
 ## Übersicht
 
-Sobald Sie den Reiter **Debitoren** auswählen, erscheint eine Liste der
-Schuldversprechen. Hier sind alle Daten mit angegeben, welche in der
+Sobald Sie den Reiter **Debitoren** auswählen, erscheint eine Liste der Rechnungen. Hier sind alle Daten mit angegeben, welche in der
 Tagesabrechnung angegeben wurden. Darunter Name des Schuldners, Konto, Datum,
 Betrag sowie Trinkgeld und der offene Restbetrag. 
 
-{% figure caption="Auf einen Blick eine Übersicht über alle Schuldversprechen
+{% figure caption="Auf einen Blick eine Übersicht über alle Käufe auf Rechnung
 des aktuellen Jahres." %}
 <img src="debitoren-übersicht.png"/>
 {% endfigure %}
@@ -37,7 +36,7 @@ Sie können die Liste der Debitoren auf verschiedene Weise filtern:
    Kalender einen Monat aussuchen. Wenn Sie zuvor "Jahr" ausgewählt haben,
    werden alle Debitoren des kompletten Jahres angezeigt.
 -  **bezahlt und unbezahlt** - Normalerweise werden Ihnen nur unbeglichene
-   Schuldversprechen angezeigt, wollen Sie jedoch auch die bezahlten mit
+   Rechnungen angezeigt, wollen Sie jedoch auch die bezahlten mit
    einsehen, klicken Sie auf den Regler {% button icon="toggle-on", label="bezahlt" %} in der oberen rechten Ecke
    neben dem Suchen... Dialogfeld
 
@@ -48,7 +47,7 @@ Debitor durchsuchen." %}
 
 ### Rechnung als bezahlt markieren
 
-Sobald ein Debitor eine Rechnung beglichen hat, markieren Sie diese als gezahlt.
+Sobald ein Debitor eine Rechnung beglichen hat, markieren Sie diese als bezahlt.
 Suchen Sie dazu einfach mit der Filteroption den Debitor und markieren die Rechnung
 als **bezahlt**, indem Sie auf das **Kästchen auf der rechten Seite** klicken. Der
 Betrag der Rechnung wird anschließend vom offenen Schuldenkonto des Debitors

@@ -107,29 +107,10 @@ Analog zum hier gezeigten Vorgehen können Sie auch mit "Unbaren Zahlungsarten",
 
 Selbst wenn Sie das Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir, die **Erlöse** in Ihrem Unternehmen zumindest zu **statistischen Zwecken** zu erfassen. Neben einer Darstellung Ihrer Umsätze nach deren Herkunft ermittelt Pentacode automatisch die Arbeits-Produktivität in Ihrem Unternehmen.
 
-Verwenden Sie für die Umsatzeingabe am besten **Umsatzgruppen**.
-[**Hier**](/hilfe/handbuch/umsaetze/umsatzgruppen/) können Sie nachschlagen, wie
-Sie diese erstellen und ordnen. 
+**Verwenden Sie für die Umsatzeingabe am besten Umsatzgruppen!**
 
-Wenn Sie im Menüpunkt Umsatzgruppen auf "**+ Neue Umsatzgruppe**" klicken,
-öffnet sich ein Eingabefeld, in dem Sie u.a. buchhalterische Angaben leisten
-können. Wenn Sie Ihre Umsatzarten nur aus statistischen Gründen erfassen, können
-Sie diese Eingaben ignorieren. **Sie sollten jedoch unbedingt den zutreffenden
-UST-Satz wählen**.
-
-{% figure caption="Ignorieren Sie für die statistische Erfassung die buchhalterischen Angaben, wählen Sie jedoch den zutreffenden UST-Satz" %}
-
-![](/uploads/umsatzgruppe8.png)
-
-{% endfigure %}
-
-In der Standardeinstellung ist der Button bei "Kassenbuch" und "Berichte" gesetzt. Wenn Sie nur die Berichtsfunktion nutzen wollen, **wählen Sie den Button bei** "**Kassenbuch**" **ab**. Ihre Angaben laufen damit lediglich in das Berichtswesen ein.
-
-{% figure caption="Durch Abwählen des Buttons 'Kassenbuch' werden Ihre Angaben nur für das Berichtswesen verwendet" %}
-
-![](/uploads/umsatzgruppe9.png)
-
-{% endfigure %}
+[**Hier**](/hilfe/handbuch/umsaetze/umsatzgruppen/#anlegen-von-umsatzgruppen)
+können Sie nachschlagen, wie Sie diese erstellen und ordnen. 
 
 **Empfehlung:** Sollten Sie in Zukunft das Berichtswesen von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen [zugeordnet](/hilfe/handbuch/umsaetze/erloeszuordnung/) und in den [Berichten ](/hilfe/handbuch/berichte/)z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
