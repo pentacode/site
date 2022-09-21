@@ -22,7 +22,7 @@ collections:
     label: "News"
     identifier_field: title
     folder: "news"
-    path: "{{fields.slug || slug}}/index"
+    path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
     create: true
@@ -54,10 +54,9 @@ collections:
         widget: "hidden"
         default: "layouts/news/single.njk"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
-        default: "{{title}}"
       - name: "cover"
         label: "Cover"
         required: false
@@ -136,10 +135,9 @@ collections:
         widget: "hidden"
         default: "layouts/magazin/single.njk"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
-        default: "{{title}}"
       - name: "cover"
         label: "Cover"
         required: false
@@ -215,10 +213,9 @@ collections:
         widget: "hidden"
         default: "page"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
-        default: "{{title}}"
       - name: "cover"
         label: "Cover"
         required: false
@@ -301,10 +298,9 @@ collections:
         widget: "hidden"
         default: "layouts/hilfe/single.njk"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
-        default: "{{title}}"
       - name: "icon"
         label: "Icon"
         required: false
