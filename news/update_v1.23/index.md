@@ -1,13 +1,13 @@
 ---
-layout: layouts/news/single.njk
 title: "Pentacode v1.23: Sofortmeldungen und Personalfragebogen"
-publishDate: 2022-09-04
+layout: layouts/news/single.njk
+slug: update_v1.23
 cover: sofortmeldung.webp
 author: mklein
 categories:
   - Produktupdates
+publishDate: 2022-09-04
 ---
-
 In vielen Branchen ist das stetiges Kommen und Gehen vieler Mitarbeiter der
 Normalfall - das bedeutet aber nicht nur viel frische Luft im Team, sondern auch
 eine ganze Menge Arbeit mit Meldebescheinigungen. Denn es gilt: Jeder
@@ -42,7 +42,7 @@ direkt in sein Stammdatenblatt" %}
 <img src="personalfragebogen.webp"/>
 {%endfigure%}
 
-## Sofortmeldung
+## Sofortmeldung!
 
 Nun haben Sie zwar die Lohndaten mit Hilfe des Personalfragebogens blitzschnell
 eingesammelt - doch diese müssen noch an die Deutsche Rentenversicherung
