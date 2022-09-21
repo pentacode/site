@@ -28,7 +28,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "news/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -54,8 +54,8 @@ collections:
         widget: "hidden"
         default: "layouts/news/single.njk"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
       - name: "cover"
         label: "Cover"
@@ -109,7 +109,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "magazin/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -135,8 +135,8 @@ collections:
         widget: "hidden"
         default: "layouts/magazin/single.njk"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
       - name: "cover"
         label: "Cover"
@@ -182,7 +182,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "blog/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
@@ -213,8 +213,8 @@ collections:
         widget: "hidden"
         default: "page"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
       - name: "cover"
         label: "Cover"
@@ -272,7 +272,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: "{{fields.slug || slug}}"
+    slug: "{{fields.slug}}"
     preview_path: "hilfe/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["title", "weight"]
@@ -298,8 +298,8 @@ collections:
         widget: "hidden"
         default: "layouts/hilfe/single.njk"
       - name: "slug"
-        label: "Slug Override"
-        required: false
+        label: "Slug"
+        required: true
         widget: "string"
       - name: "icon"
         label: "Icon"
