@@ -7,7 +7,7 @@ cover: bewerbungsformular.png
 author: 
 =======
 title: "Pentacode v1.23: Sofortmeldungen und Personalfragebogen"
-publishDate: 
+publishDate: 2022-09-04
 cover: sofortmeldung.webp
 author: mklein
 >>>>>>> b3e8df89c47d0917250041f089b99496348f86bd
