@@ -13,12 +13,12 @@ Es gibt eine Sache, die lässt jeden noch so erfahrenen Unternehmer nicht kalt. 
 
 Frische Limetten, knackige Tortillas, Bier mit Tequila veredelt – als die Gründer von Joe Peña's 1987 beginnen, mexikanisches Essen in Deutschland ganz neu zu denken, sind solche Geschmackserlebnisse eine bisher nicht dagewesene Erfahrung für den deutschen Restaurantgast. Sie reisen ins Ausland, lassen sich von Originalrezepten und den dazugehörigen Produkten inspirieren und gießen zurück in der Heimat alles in ein Franchise Konzept, das die gute exotische Küche mit einem außergewöhnlich facettenreichen Cocktailbarkonzept vereint. 1989 eröffnet der erste Standort in München. Es folgen weitere in ganz Deutschland, später auch im Ausland. „Bis heute unterscheidet Joe Peña's ganz klar von anderen Franchise Konzepten, dass alles bis hin zu den Saucen täglich in der jeweiligen Restaurantküche frisch und von Hand zubereitet wird“, betont Ulli Frankenhauser, Geschäftsleiter von drei Standorten in Baden-Württemberg.
 
-
 <figure class="float-right">
-  <img src="pentacode_joe_penas-20.jpg" alt="">
+  <img src="pentacode_joe_penas-20.jpg" alt="a">
   <figcaption>undefined</figcaption>
 </figure>
-  
+
+
 
 ## **Ein Tool von Insidern für Insider**
 
@@ -35,15 +35,3 @@ Die Nähe zur eigenen Arbeitswirklichkeit – und zu der seines Teams; das sei e
 ## **Gut gewappnet für alles was kommt**
 
 Hinzu kämen die ganz persönlichen Benefits, die Frankenhauser mit der Nutzung von Pentacode in seinen Betrieben spürt: Keine Kopfschmerzen und einen weitaus ruhigeren Schlaf. „Für mich ist Pentacode eine große Erleichterung, denn es sorgt dafür, dass ich die Zahlen tagesaktuell vor mir habe. Ich mache eine Abrechnung und ich habe direkt das Kassenbuch vorliegen. So bin ich zu jeder Zeit bereit für eine Prüfungssituationen durch Finanzamt, Zoll und Co. Ich kann in Sekundenschnelle dem prüfenden Organ alles zur Verfügung stellen, was sie haben wollen – das bringt mir als Unternehmer sehr viel Sicherheit im Alltag. Und dadurch kann ich persönlich weitaus besser schlafen.“ Weiterer positiver Nebenaffekt: die Arbeitszeiten der Mitarbeiter sind ebenso transparent. Und zwar für alle Beteiligten. „Überstunden, Urlaubstage – wenn mein Team alles einsehen kann, gibt es keine Diskussionen mehr. Das erleichtert den Umgang untereinander ungemein.“ Richtig, es sei wahrlich keine Zeit, die es einem leicht mache, zuversichtlich in die Zukunft zu schauen. „Aber ich weiß, dass ich Partner an meiner Seite habe, mit denen ich für jeden nächsten Sturm gewappnet bin. Einer dieser Partner ist ganz sicher Pentacode.“
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<!--EndFragment-->
