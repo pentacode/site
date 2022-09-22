@@ -15,10 +15,8 @@ Frische Limetten, knackige Tortillas, Bier mit Tequila veredelt – als die Grü
 
 <figure class="float-right">
   <img src="pentacode_joe_penas-20.jpg" alt="a">
-  <figcaption>undefined</figcaption>
+  <figcaption>asdf</figcaption>
 </figure>
-
-
 
 ## **Ein Tool von Insidern für Insider**
 
