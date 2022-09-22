@@ -33,7 +33,7 @@ gesetzlich geregelten Feiertage werden automatisch an- und abgewählt. Sie haben
 jedoch immer auch die Option [**manuell Feiertage ab- und anzuwählen**](#feiertage-bearbeiten).
 
 {% figure caption="So legen Sie einen neuen Standort an." %}
-<img src = "neuer-standort.png"/>
+<img src="neuer-standort.png"/>
 {% endfigure %}
 
 Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die 
