@@ -489,3 +489,26 @@ collections:
                 step: 1
                 value_type: "int"
                 default: 10
+          - name: "images"
+            label: "Images"
+            required: false
+            widget: "list"
+            fields:
+              - name: "alt"
+                label: "Alt"
+                required: true
+                widget: "string"
+              - name: "src"
+                label: "Src"
+                required: true
+                widget: "image"
+                media_folder: ""
+              - name: "padding"
+                label: "Padding"
+                required: false
+                widget: "number"
+                min: -100
+                max: 100
+                step: 1
+                value_type: "int"
+                default: 10

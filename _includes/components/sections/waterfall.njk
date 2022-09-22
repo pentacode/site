@@ -1,0 +1,50 @@
+<section
+    class="section-waterfall {{ section.alignment }}"
+    style="--color-highlight: var(--{{ section.color_1 }}); --color-highlight-bg: var(--{{ section.color_2 }});"
+    data-animation="slide_1"
+>
+    <div class="inner">
+        <div class="content">
+            <h2>{{ section.title | markdownify | safe }}</h2>
+
+            {% if section.subtitle %}
+                <h3>
+                    {{ section.subtitle | markdownify | safe }}
+                </h3>
+            {% endif %}
+
+            {{ section.text | markdownify | safe }}
+
+            <ul class="tabs">
+                {% for slide in section.slides %}
+                    <li class="tab-outer">
+                        <div class="tab" role="presentation">
+                            <div class="tab-inner" role="presentation">
+                                <i class="tab-expand-icon fal fa-arrow-right"></i>
+
+                                <h4>
+                                    <i class="fal fa-{{ slide.icon }}"></i>
+                                    {{ slide.title | markdownify | safe }}
+                                </h4>
+
+                                {{ slide.text | markdownify | safe }}
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="images">
+            <div class="scaler">
+                <div class="images-inner">
+                    {% for image in section.images %}
+                        <img src="{{ image.src }}" class="animate" style="padding: {{ image.padding }}px" alt="{{ image.alt | plainify }}" />
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "components/divider.njk" %}
+</section>
