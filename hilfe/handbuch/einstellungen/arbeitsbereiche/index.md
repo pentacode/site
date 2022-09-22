@@ -50,7 +50,7 @@ für das ausgewählte Bundeland festgelegt. Sollten Sie die Feiertage jedoch
 Bearbeiten des Standorts tun. Klicken Sie dazu auf den Schieberegler, bis dieser bei nicht
 gewünschte Feiertagen weiß erscheint und bei gewünschten Feiertage blau. 
 
-{% figure caption="Ein neuer Standort soll zwei zusätzliche Feiertage anerkennen. %}
+{% figure caption="Ein neuer Standort soll zwei zusätzliche Feiertage anerkennen." %}
 <img src = "standort_anlegen.gif"/>
 {% endfigure %}
 
