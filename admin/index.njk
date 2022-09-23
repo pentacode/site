@@ -204,7 +204,7 @@
             required: true,
           }
         ],
-        pattern: /^<figure class="(.*?)">$(.*?)^<figcaption>(.*?)<\/figcaption>$^<\/figure>$/ms,
+        pattern: /^<figure class="(.*?)">$(.*?)(?:\s)<figcaption>(.*?)<\/figcaption>(?:\s)<\/figure>$/ms,
         fromBlock: function (match) {
           return {
             extraClass: match[1],
