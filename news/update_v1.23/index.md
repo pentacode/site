@@ -55,11 +55,7 @@ Sie genau Mitarbeiter melden können, können Sie
 [hier](/hilfe/mitarbeiter/allgemein) nachlesen. 
 
 
-<figure class="float-right">
-  
-<img src="sofortmeldung_animiert.webp"/>
-  <figcaption>Meldung bei der Rentenversicherung in nur 10 Sekunden? Pentacode v1.23 macht es möglich!</figcaption>
-</figure>
+<figure class="border,centered"><img src="sofortmeldung_animiert.webp"/>asd<figcaption>Meldung bei der Rentenversicherung in nur 10 Sekunden? Pentacode v1.23 macht es möglich!</figcaption></figure>
   
 
  Wir hoffen Sie können die neuen Automatisierungsfeatures gut in ihrem
