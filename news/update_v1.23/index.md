@@ -1,13 +1,13 @@
 ---
-layout: layouts/news/single.njk
 title: "Pentacode v1.23: Sofortmeldungen und Personalfragebogen"
-publishDate: 2022-09-04
+layout: layouts/news/single.njk
+slug: update_v1.23
 cover: sofortmeldung.webp
 author: mklein
 categories:
   - Produktupdates
+publishDate: 2022-09-04
 ---
-
 In vielen Branchen ist das stetiges Kommen und Gehen vieler Mitarbeiter der
 Normalfall - das bedeutet aber nicht nur viel frische Luft im Team, sondern auch
 eine ganze Menge Arbeit mit Meldebescheinigungen. Denn es gilt: Jeder
@@ -54,10 +54,12 @@ verlangen - Doch auch hier gilt: **Sie sparen sich wervolle Zeit und haben die k
 Sie genau Mitarbeiter melden können, können Sie
 [hier](/hilfe/mitarbeiter/allgemein) nachlesen. 
 
-{% figure caption="Meldung bei der Rentenversicherung in nur 10 Sekunden?
-Pentacode v1.23 macht es möglich!" %}
-<img src="sofortmeldung_animiert.webp"/>
-{%endfigure%}
+
+<figure class="undefined">
+  <img src="sofortmeldung_animiert.webp"/>
+  <figcaption>Meldung bei der Rentenversicherung in nur 10 Sekunden? Pentacode v1.23 macht es möglich!</figcaption>
+</figure>
+  
 
  Wir hoffen Sie können die neuen Automatisierungsfeatures gut in ihrem
  Onboarding Prozess anwenden und ihre frei gewordene Zeit sinnvoller nutzen -
