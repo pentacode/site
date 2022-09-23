@@ -153,7 +153,7 @@ module.exports = (config) => {
     config.addFilter("getRelatedByMagazinCategories", (collection, magazinCategories, itemKey) => {
         orderByDate(collection);
 
-        const related = excludeDrafts(collection).filter((item) => item.magazinCategories.some((category) => magazinCategories.includes(category)) && item.key !== itemKey);
+        const related = excludeDrafts(collection).filter((item) => item.magazinCategories?.some((category) => magazinCategories?.includes(category)) && item.key !== itemKey);
 
         return related.slice(0, 3);
     });
@@ -161,7 +161,7 @@ module.exports = (config) => {
     config.addFilter("filterByMagazinCategory", (collection, magazinCategory) => {
         orderByDate(collection);
 
-        const filtered = excludeDrafts(collection).filter((item) => item.magazinCategories.includes(magazinCategory));
+        const filtered = excludeDrafts(collection).filter((item) => item.magazinCategories?.includes(magazinCategory));
 
         return filtered;
     });

@@ -21,21 +21,45 @@ Wenn Sie mit Pentacode in Ihrem Unternehmen beginnen, werden Sie aufgefordert ei
 
 ## Neuer Standort
 
-Sie können weitere Standorte anlegen, indem Sie auf "+ Neuer Standort" klicken. Es öffnet ein Dialogfenster, in dem Sie die Standortdaten eingeben.
+Sie können weitere Standorte anlegen, indem Sie auf {% button icon="plus", label="Neuer Standort" %} klicken.
+Es öffnet sich anschließend ein Dialogfenster, in dem Sie einige Daten des
+Standorts festlegen können.
 
-{% figure caption="So legen Sie einen neuen Standort an" %}
+**Standortname** und **Adresse** dienen dabei einzig ihrer eigenen Organisation.
+Das **Bundesland** ist zusätzlich relevant um die verschiedenen Feiertage zu
+bestimmen, welche mitunter für die SFN-Zuschläge relevant sind. Wählen Sie dazu
+einfach das Bundesland des Standorts aus dem Drop-down Menü aus und die
+gesetzlich geregelten Feiertage werden automatisch an- und abgewählt. Sie haben
+jedoch immer auch die Option [**manuell Feiertage ab- und anzuwählen**](#feiertage-bearbeiten).
 
-<img src = "neuer_standort.png"/>
-
+{% figure caption="So legen Sie einen neuen Standort an." %}
+<img src="neuer-standort.png"/>
 {% endfigure %}
 
-Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die entsprechenden Abteilungen an.
+Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die 
+[entsprechenden Abteilungen](#neue-abteilung) an.
 
 Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter "[**Positionen**](/hilfe/handbuch/mitarbeiter-alle/positionen/)". Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden.
 
+### Feiertage bearbeiten
+
+Wenn Sie einen [neuen Standort anlegen](#neuer-standort) oder
+[bearbeiten](#standort-bearbeiten), werden die Feiertage vorerst standardmäßig
+für das ausgewählte Bundeland festgelegt. Sollten Sie die Feiertage jedoch
+ändern wollen, können Sie diese ganz einfach über das Dialogfenster beim
+Bearbeiten des Standorts tun. Klicken Sie dazu auf den Schieberegler, bis dieser bei nicht
+gewünschte Feiertagen weiß erscheint und bei gewünschten Feiertage blau. 
+
+{% figure caption="Ein neuer Standort soll zwei zusätzliche Feiertage anerkennen." %}
+<img src = "standort_anlegen.gif"/>
+{% endfigure %}
+
 ## Standort bearbeiten
 
-Durch Anklicken des {% icon "ellipsis-h" %}-Symbols am rechten oberen Eck können Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort Bearbeiten"** wählen.
+Durch Anklicken des {% icon "ellipsis-h" %}-Symbols am rechten oberen Eck können
+Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort
+Bearbeiten"** wählen. Sie kommen so in das gleiche Menü welches
+[hier](#neuer-standort) beschrieben ist.
 
 {% figure caption="So können Sie einen bestehenden Standort bearbeiten" %}
 
