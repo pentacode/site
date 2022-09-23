@@ -54,9 +54,7 @@ verlangen - Doch auch hier gilt: **Sie sparen sich wervolle Zeit und haben die k
 Sie genau Mitarbeiter melden können, können Sie
 [hier](/hilfe/mitarbeiter/allgemein) nachlesen. 
 
-
-<figure class="border,centered"><img src="sofortmeldung_animiert.webp"/>asd<figcaption>Meldung bei der Rentenversicherung in nur 10 Sekunden? Pentacode v1.23 macht es möglich!</figcaption></figure>
-  
+<figure class="border centered"><img src="sofortmeldung_animiert.webp"/><figcaption>Meldung bei der Rentenversicherung in nur 10 Sekunden? Pentacode v1.23 macht es möglich!</figcaption></figure>
 
  Wir hoffen Sie können die neuen Automatisierungsfeatures gut in ihrem
  Onboarding Prozess anwenden und ihre frei gewordene Zeit sinnvoller nutzen -
