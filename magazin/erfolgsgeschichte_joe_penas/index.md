@@ -4,6 +4,7 @@ title: „Dieses Tool lässt mich ruhig schlafen.“ – Wie smartes Personalman
 layout: layouts/magazin/single.njk
 slug: erfolgsgeschichte_joe_penas
 cover: pentacode_joe_penas-3.webp
+coverAlt: "Bild von Uli Frankenhauser, Inhaber einiger Joe Penas Standorte"
 author: lstrasser
 publishDate: 2022-09-22
 magazinCategories:
@@ -28,8 +29,8 @@ interessieren, wie Joe Penas zum Liebling der Betriebsprüfer wurde.
 ## Vorreiter sein - nicht nur in Sachen Gastro-Konzept
 
 <figure class="float right width-40pc">
-  <img src="pentacode_joe_penas-20.webp" alt="">
-  <figcaption></figcaption>
+  <img src="pentacode_joe_penas-20.webp" alt="Blick auf Gastronomie Interieur, Stühle und Tische. An der Wand: ein Bild von Hemingway.">
+  <figcaption>Der Joe Peña’s Standort in Ludwigsburg.</figcaption>
 </figure>
 
 Frische Limetten, knackige Tortillas, Bier mit Tequila veredelt – als die
@@ -61,8 +62,8 @@ können, die wir jeden Tag haben. Die Features des Tools sind dazu passgenau
 angelegt.“</cite>
 
 <figure class="">
-  <img src="pentacode_joe_penas-25.webp" alt="">
-  <figcaption></figcaption>
+  <img src="pentacode_joe_penas-25.webp" alt="Barmann schüttet orangefarbenen Drink aus einem Shaker ins Cocktailglas">
+  <figcaption>Gute Cocktails und authentisches mexikanisches Essen - dafür ist Joe Peña’s bekannt.</figcaption>
 </figure>
 
 ## Weiterentwicklung durch engen Austausch und Kundenbeziehung auf Augenhöhe
@@ -81,8 +82,8 @@ Controling automatisiert. Und seit Kurzem sogar Bewerbungsprozesse einbezieht.�
 ## Feature-Favorit: Der Dienstplan, der sich selbst schreibt
 
 <figure class="float left width-30pc">
-  <img src="pentacode_joe_penas-30.webp" alt="">
-  <figcaption></figcaption>
+  <img src="pentacode_joe_penas-30.webp" alt="Schulterblick, Mann hält Handy quer und schaut in Pentacode App">
+  <figcaption>Arbeitszeiten immer im Blick: die Pentacode Mitarbeiter-App</figcaption>
 </figure>
 
 Die Nähe zur eigenen Arbeitswirklichkeit – und zu der seines Teams; das sei ein
