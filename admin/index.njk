@@ -204,31 +204,21 @@
             required: true,
           }
         ],
-        pattern: /^<figure class="(.*?)">$(.*?)(?:\s)<figcaption>(.*?)<\/figcaption>(?:\s)<\/figure>$/ms,
+        pattern: /^<figure class="(.*?)">(.*?)<figcaption>(.*?)<\/figcaption>(?:.*?)<\/figure>$/ms,
         fromBlock: function (match) {
           return {
-            extraClass: match[1],
-            body: match[2],
-            caption: match[3],
+            extraClass: (match[1] || '').split(','),
+            body: match[2] || '',
+            caption: match[3] || '',
           };
         },
         toBlock: function (data) {
-          const bodyHtml = md.renderInline(data.body || '');
-          return `
-<figure class="${data.extraClass}">
-  ${bodyHtml}
-  <figcaption>${data.caption}</figcaption>
-</figure>
-  `;
+          const bodyHtml = md.renderInline(data.body || '').replace(/\n/g, '');
+          return `<figure class="${(data.extraClass || []).join(' ')}">${bodyHtml}<figcaption>${data.caption || ''}</figcaption></figure>`;
         },
         toPreview: function (data) {
-          const bodyHtml = md.renderInline(data.body || '');
-          return `
-<figure class="${data.extraClass}">
-  ${bodyHtml}
-  <figcaption>${data.caption}</figcaption>
-</figure>
-    `;
+          const bodyHtml = md.renderInline(data.body || '').replace(/\n/g, '');
+          return `<figure class="${(data.extraClass || []).join(' ')}">${bodyHtml}<figcaption>${data.caption || ''}</figcaption></figure>`;
         }
       });
     })();
