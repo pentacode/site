@@ -440,6 +440,8 @@ Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im
 Dienstplan-Menü unter dem Bereich {% icon "exclamation-triangle" %}
 **Probleme** dargestellt. Ein Klick auf einen Eintrag in dieser Liste bringt Sie
 direkt zum betroffenen Eintrag, wo Sie eventuelle Fehler korrigieren können.
+Zusätzlich können Sie eine Auflistung aller Problemberichte unter dem Reiter
+[Probleme](hilfe/handbuch/probleme) einsehen.
 
 {% figure caption="Über den Bereich 'Probleme' im Dienstplanmenü sehen Sie unmittelbar, ob Sie bei der Eingabe einen Fehler gemacht haben." %}
 
