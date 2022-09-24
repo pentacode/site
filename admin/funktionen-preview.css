@@ -1,0 +1,952 @@
+.funktionen-preview {
+  padding: 0 1em;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.funktionen-preview section.hero h1 {
+  margin-bottom: 0.2em;
+}
+
+.funktionen-preview section.hero h2 {
+  margin: 0.4em 0;
+}
+
+.funktionen-preview section.hero h3 {
+  margin-bottom: 0.5em;
+}
+
+.funktionen-preview section.hero .buttons {
+  margin-top: 1em;
+}
+
+.funktionen-preview section.hero .btn {
+  font-size: 1.2em;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+}
+
+.funktionen-preview section.hero .images {
+  height: 450px;
+  perspective: 3000px;
+  perspective-origin: 0 center;
+  width: 600px;
+}
+
+.funktionen-preview section.hero .images .image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  text-align: center;
+  transform: translate3d(0, 20px, 200px) rotateY(-20deg) rotateX(10deg);
+}
+
+.funktionen-preview section.hero .images .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  border-radius: 2em;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+  height: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.funktionen-preview section.hero .images .image img:nth-child(1) {
+  transform: translate(100px, 0);
+}
+
+.funktionen-preview section.hero .images .image img:nth-child(2) {
+  transform: scale(0.7) translate(-100px, 250px);
+}
+
+.funktionen-preview section.hero .inner {
+  display: flex;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+.funktionen-preview section.hero .inner .content {
+  display: block;
+  position: relative;
+  z-index: 1;
+  min-width: 500px;
+  padding: 0;
+  margin: 3em 1em;
+}
+
+.funktionen-preview section.hero .divider {
+  margin: 3em 0 -3em 0;
+}
+
+.funktionen-preview section.intro {
+  margin-top: -50px;
+}
+
+.funktionen-preview section.intro .inner {
+  flex-direction: column;
+}
+
+.funktionen-preview section.intro .inner .content {
+  max-width: 600px;
+  padding: 0;
+}
+
+@media (max-width: 1023px) {
+  .funktionen-preview section {
+      margin: 2em;
+  }
+
+  .funktionen-preview section .inner {
+      flex-direction: column !important;
+  }
+
+  .funktionen-preview section .inner .content {
+      background: rgba(255, 255, 255, 0.5);
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 1em 1em 2em 1em;
+  }
+
+  .funktionen-preview section .inner .content::before,
+  .funktionen-preview section .inner .content::after {
+      display: none;
+  }
+
+  .funktionen-preview section.hero .images {
+      transform: rotateX(10deg);
+      perspective-origin: center center;
+  }
+
+  .funktionen-preview section.hero .images .image {
+      transform: translate3d(0, 20px, 200px) rotateY(0) rotateX(10deg);
+  }
+
+  .funktionen-preview section.hero .images .image img:nth-child(1) {
+      transform: translate(0, 0);
+  }
+
+  .funktionen-preview section.hero .images .image img:nth-child(2) {
+      transform: scale(0.7) translate(-220px, 250px);
+  }
+}
+
+@media (max-width: 700px) {
+  .funktionen-preview section {
+      margin: 1em;
+  }
+
+  .funktionen-preview section.hero h1 {
+      font-size: 2em;
+  }
+
+  .funktionen-preview section .inner .content {
+      min-width: 0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+
+  .funktionen-preview section.hero .inner .images {
+      display: none !important;
+  }
+
+  .funktionen-preview section.hero .divider {
+      margin: 1em 0 -1em 0;
+  }
+}
+
+.funktionen-preview section.section-slides {
+  margin: 4em 2em 8em 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  transform-style: preserve-3d;
+}
+
+.funktionen-preview section.section-slides h2 {
+  font-size: 2.3em;
+  line-height: 1.2em;
+  margin: 0 0 0.2em 0;
+  font-weight: 100;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.funktionen-preview section.section-slides h3 {
+  margin-bottom: 0.5em;
+}
+
+.funktionen-preview section.section-slides .inner {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.funktionen-preview section.section-slides .inner .content {
+  display: block;
+  position: relative;
+  z-index: 1;
+  min-width: 500px;
+  padding: 0;
+  margin: 3em 1em;
+}
+
+.funktionen-preview section.section-slides.right .inner {
+  flex-direction: row-reverse;
+}
+
+.funktionen-preview section.section-slides.right .divider {
+  transform: scale(-1, 1);
+}
+
+.funktionen-preview section.section-slides .images {
+  width: 600px;
+  position: relative;
+  overflow: visible;
+  transform-style: preserve-3d;
+  z-index: -1;
+  perspective: 2000px;
+}
+
+.funktionen-preview section.section-slides .images * {
+  transform-style: preserve-3d;
+}
+
+.funktionen-preview section.section-slides .images::before {
+  content: "";
+  display: block;
+  padding-top: 75%;
+  pointer-events: none;
+}
+
+.funktionen-preview section.section-slides .images-inner {
+  position: absolute;
+  width: 180%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.funktionen-preview section.section-slides.left .images-inner {
+  left: -40%;
+  transform: translateX(0) rotateY(-20deg) rotateX(10deg);
+}
+
+.funktionen-preview section.section-slides.right .images-inner {
+  right: -40%;
+  transform: translateX(0) rotateY(20deg) rotateX(10deg);
+}
+
+.funktionen-preview section.section-slides .images-inner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+}
+
+.funktionen-preview section.section-slides .images-inner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  right: 0;
+  z-index: 2;
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+}
+
+.funktionen-preview section.section-slides.left .images-inner::before {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.funktionen-preview section.section-slides.right .images-inner::after {
+  background: linear-gradient(
+      -90deg,
+      rgba(255, 255, 255, 1) 0,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.funktionen-preview section.section-slides .images .slides {
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  position: relative;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  scroll-behavior: smooth;
+}
+
+.funktionen-preview section.section-slides .images .slides .slides-inner {
+  height: 100%;
+  padding: 1em 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.funktionen-preview section.section-slides .images .slides .slides-inner > * {
+  flex: none;
+  height: 100%;
+  margin: 0 -8em;
+}
+
+.funktionen-preview section.section-slides .images .slides .slides-inner .slides-slide {
+  scroll-snap-align: center;
+  perspective: 500px;
+  cursor: pointer;
+}
+
+.funktionen-preview section.section-slides .images .slides .slides-inner .slides-slide .slides-slide-inner {
+  height: 100%;
+}
+
+.funktionen-preview section.section-slides .images .slides .slides-inner img {
+  height: 100%;
+  border-radius: 2em;
+  box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -10px;
+  position: relative;
+  background: var(--color-bg);
+  box-sizing: border-box;
+  will-change: transform;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+}
+
+.funktionen-preview section.section-slides .tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+  gap: 1em;
+  margin: 1em -0.5em;
+  font-size: 0.8em;
+  list-style: none;
+  padding: 0;
+}
+
+.funktionen-preview section.section-slides .tab-outer {
+  position: relative;
+  height: 100px;
+}
+
+.funktionen-preview section.section-slides .tab {
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: var(--color-bg);
+  border: dashed 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  overflow: hidden;
+  will-change: transform, height;
+  z-index: 4;
+}
+
+.funktionen-preview section.section-slides .tab h4 {
+  font-size: 1.1em;
+  margin: 0.2em 1em 0.1em 0.1em;
+  font-weight: bold;
+}
+
+.funktionen-preview section.section-slides .tab-inner {
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  color: var(--color-highlight);
+  padding: 0.3em 0.6em;
+}
+
+.funktionen-preview section.section-slides .tab:hover {
+  border: none;
+  z-index: 110;
+  opacity: 1 !important;
+  box-shadow: rgba(0, 0, 0, 0.9) 0 0 10px -5px;
+  /* height: auto; */
+}
+
+.funktionen-preview section.section-slides .tab.active .tab-inner {
+  border: none;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  color: var(--color-bg);
+}
+
+.funktionen-preview section.section-slides .tab.active .tab-inner {
+  border: transparent;
+}
+
+.funktionen-preview section.section-slides .tab .tab-expand-icon {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.funktionen-preview section.section-slides .tab.expanded .tab-expand-icon {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 1000px) {
+  .funktionen-preview section.section-slides .inner {
+      flex-direction: column !important;
+  }
+
+  .funktionen-preview section.section-slides .content {
+      margin: 1em;
+  }
+
+  .funktionen-preview section.section-slides .images {
+      width: 100%;
+      max-width: 600px;
+  }
+
+  .funktionen-preview section.section-slides .images-inner {
+      left: -40%;
+      right: auto;
+      transform: translateX(0) rotateY(0) rotateX(10deg) !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .funktionen-preview section.section-slides {
+      margin: 1em;
+  }
+
+  .funktionen-preview section.section-slides h2 {
+      font-size: 2em;
+  }
+
+  .funktionen-preview section.section-slides .content {
+      min-width: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+      background: transparent !important;
+  }
+
+  .funktionen-preview section.section-slides .images {
+      display: none !important;
+  }
+}
+
+.funktionen-preview section.section-waterfall {
+  margin: 4em 2em 8em 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  transform-style: preserve-3d;
+}
+
+.funktionen-preview section.section-waterfall h2 {
+  font-size: 2.3em;
+  line-height: 1.2em;
+  margin: 0 0 0.2em 0;
+  font-weight: 100;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.funktionen-preview section.section-waterfall h3 {
+  margin-bottom: 0.5em;
+}
+
+.funktionen-preview section.section-waterfall .inner {
+  display: flex;
+  transform-style: preserve-3d;
+}
+
+.funktionen-preview section.section-waterfall .inner .content {
+  display: block;
+  position: relative;
+  z-index: 1;
+  min-width: 500px;
+  padding: 0;
+  margin: 3em 1em;
+}
+
+.funktionen-preview section.section-waterfall.right .inner {
+  flex-direction: row-reverse;
+}
+
+.funktionen-preview section.section-waterfall.right .divider {
+  transform: scale(-1, 1);
+}
+
+.funktionen-preview section.section-waterfall .images {
+  width: 500px;
+  position: relative;
+  overflow: visible;
+  transform-style: preserve-3d;
+  z-index: -1;
+  perspective: 2000px;
+}
+
+.funktionen-preview section.section-waterfall .images * {
+  transform-style: preserve-3d;
+}
+
+.funktionen-preview section.section-waterfall .images-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 0 2em;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.funktionen-preview section.section-waterfall .images-inner > * {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+  border-radius: 1em;
+  flex: none;
+}
+
+.funktionen-preview section.section-waterfall.left .images-inner {
+  transform: translateX(0) rotateY(-10deg) rotateX(5deg);
+}
+
+.funktionen-preview section.section-waterfall.right .images-inner {
+  transform: translateX(0) rotateY(10deg) rotateX(5deg);
+}
+
+.funktionen-preview section.section-waterfall .tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+  margin: 1em -0.5em;
+  font-size: 0.8em;
+  list-style: none;
+  padding: 0;
+}
+
+.funktionen-preview section.section-waterfall .tab-outer {
+  position: relative;
+  height: 100px;
+}
+
+.funktionen-preview section.section-waterfall .tab {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: var(--color-bg);
+  border: dashed 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  overflow: hidden;
+  will-change: transform, height;
+}
+
+.funktionen-preview section.section-waterfall .tab h4 {
+  font-size: 1.1em;
+  margin: 0.2em 1.5em 0.1em 0.1em;
+  font-weight: bold;
+}
+
+.funktionen-preview section.section-waterfall .tab-inner {
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  padding: 0.3em 0.6em;
+  color: var(--color-highlight);
+}
+
+.funktionen-preview section.section-waterfall .tab:hover {
+  border: none;
+  z-index: 110;
+  opacity: 1 !important;
+  box-shadow: rgba(0, 0, 0, 0.9) 0 0 10px -5px;
+  /* height: auto; */
+}
+
+.funktionen-preview section.section-waterfall .tab.active .tab-inner {
+  border: none;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  color: var(--color-bg);
+}
+
+.funktionen-preview section.section-waterfall .tab.active .tab-inner {
+  -webkit-text-fill-color: unset;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  border: transparent;
+}
+
+.funktionen-preview section.section-waterfall .tab .tab-expand-icon {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.funktionen-preview section.section-waterfall .tab.expanded .tab-expand-icon {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 1000px) {
+  .funktionen-preview section.section-waterfall .inner {
+      flex-direction: column !important;
+  }
+
+  .funktionen-preview section.section-waterfall .inner .content {
+      margin: 1em;
+  }
+
+  .funktionen-preview section.section-waterfall .scaler {
+      position: static;
+      width: auto;
+      height: auto;
+      transform: none;
+  }
+
+  .funktionen-preview section.section-waterfall .images {
+      width: 100%;
+      height: auto;
+  }
+
+  .funktionen-preview section.section-waterfall .images-inner {
+      right: auto;
+      transform: none !important;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+      padding: 0;
+      align-items: center;
+  }
+
+  .funktionen-preview section.section-waterfall .images-inner > * {
+      flex: 1;
+  }
+
+  .funktionen-preview section.section-waterfall .images-inner img {
+      width: 100%;
+      box-sizing: border-box;
+      height: auto;
+      border-radius: 0.5em;
+      box-shadow: rgba(149, 157, 165, 0.4) 0px 4px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .funktionen-preview section.section-waterfall {
+      margin: 1em;
+  }
+
+  .funktionen-preview section.section-waterfall h2 {
+      font-size: 2em;
+  }
+
+  .funktionen-preview section.section-waterfall .inner .content {
+      min-width: 100%;
+      padding: 0 !important;
+      margin: 0 0 1em 0 !important;
+  }
+}
+
+.section-features-anchor {
+  position: relative;
+  top: -6em;
+}
+
+.funktionen-preview section.section-features {
+  margin-top: -1em;
+}
+
+.funktionen-preview section.section-features .inner {
+  display: flex;
+  justify-content: center;
+}
+
+.funktionen-preview section.section-features .inner .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.funktionen-preview section.section-features h2 {
+  font-size: 2.3em;
+  line-height: 1.2em;
+  margin: 0 0 0.2em 0;
+  font-weight: 100;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  background: linear-gradient(125deg, var(--green) 0%, var(--blue) 25%, var(--purple) 75%, var(--orange) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+}
+
+.funktionen-preview section.section-features .content {
+  margin: -2em 0;
+  background: transparent;
+}
+
+.funktionen-preview section.section-features .content::before,
+.funktionen-preview section.section-features .content::after {
+  display: none;
+}
+
+.funktionen-preview section.section-features .section-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.funktionen-preview section.section-features .section-features-tile {
+  display: block;
+  color: var(--color-fg);
+  border: dashed 1px var(--shade-2);
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+  will-change: transform;
+}
+
+.funktionen-preview section.section-features .section-features-tile:hover {
+  opacity: 1 !important;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  color: var(--color-bg);
+  border: none;
+  box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
+}
+
+.funktionen-preview section.section-features .section-features-tile .section-features-icon {
+  font-size: 3em;
+  border-radius: 0;
+  color: var(--color-highlight);
+}
+
+.funktionen-preview section.section-features .section-features-tile h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  color: var(--color-highlight);
+}
+
+.funktionen-preview section.section-features .section-features-tile:hover .section-features-icon,
+.funktionen-preview section.section-features .section-features-tile:hover h3 {
+  color: var(--color-bg);
+}
+
+.funktionen-preview section.section-features .section-features-tile p {
+  text-align: left;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .funktionen-preview section.section-features {
+      font-size: 0.8em;
+      margin-top: 0;
+  }
+
+  .funktionen-preview section.section-features h2 {
+      width: 6.7em;
+  }
+}
+
+.section-preise-anchor {
+  position: relative;
+  top: -6em;
+}
+
+.funktionen-preview section.section-preise .inner {
+  display: flex;
+  justify-content: center;
+}
+
+.funktionen-preview section.section-preise .inner .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.funktionen-preview section.section-preise h2 {
+  font-size: 2.3em;
+  line-height: 1.2em;
+  margin: 0 0 0.2em 0;
+  font-weight: 100;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  background: linear-gradient(125deg, var(--green) 0%, var(--blue) 25%, var(--purple) 75%, var(--orange) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile:not(:hover) h3,
+.funktionen-preview section.section-preise .section-preise-tile:not(:hover) .price-amount,
+.funktionen-preview section.section-preise .section-preise-tile:not(:hover) .price-upon-request {
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.funktionen-preview section.section-preise .price-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 6em;
+}
+
+.funktionen-preview section.section-preise .price {
+  display: flex;
+  justify-content: center;
+}
+
+.funktionen-preview section.section-preise .price-amount {
+  font-size: 3em;
+}
+
+.funktionen-preview section.section-preise .price-upon-request {
+  font-size: 2em;
+}
+
+.funktionen-preview section.section-preise .price-from {
+  opacity: 0.5;
+  width: 0;
+  position: relative;
+  left: -1.5em;
+  top: 0.8em;
+}
+
+.funktionen-preview section.section-preise .all-features-plus {
+  opacity: 0.5;
+  margin-top: 0.5em;
+}
+
+.funktionen-preview section.section-preise .price-unit {
+  opacity: 0.5;
+  margin-top: -0.5em;
+}
+
+.funktionen-preview section.section-preise .content {
+  margin: -2em 0;
+  background: transparent;
+}
+
+.funktionen-preview section.section-preise .content::before,
+.funktionen-preview section.section-preise .content::after {
+  display: none;
+}
+
+.funktionen-preview section.section-preise .section-preise-grid {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.funktionen-preview section.section-preise .section-preise-grid > li {
+  max-width: 24em;
+  width: 100%;
+  position: relative;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-fg);
+  border: dashed 1px var(--shade-2);
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+  will-change: transform;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile:hover {
+  opacity: 1 !important;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+  color: var(--color-bg);
+  border: none;
+  box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile .section-preise-icon {
+  font-size: 3em;
+  border-radius: 0;
+  color: var(--color-highlight);
+}
+
+.funktionen-preview section.section-preise .section-preise-tile h3 {
+  text-align: center;
+  font-size: 1.2em;
+  color: var(--color-highlight);
+  margin: 0;
+  color: white;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile .features {
+  margin: 0.5em 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  flex: 1;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile .features li {
+  display: flex;
+  align-items: flex-start;
+  margin: 0.5em 0;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile .features li .fa-check {
+  margin: 0.15em 0.3em;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile .features li.highlight {
+  font-weight: bold;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile:not(:hover) .features li.highlight {
+  color: var(--color-highlight);
+}
+
+.funktionen-preview section.section-preise .call-to-action {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.5em;
+  border: dashed 1px white;
+}
+
+.funktionen-preview section.section-preise .section-preise-tile:not(:hover) .call-to-action {
+  border-color: transparent;
+  background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+}
+
+@media (max-width: 700px) {
+  .funktionen-preview section.section-preise {
+      font-size: 0.8em;
+      margin-top: 0;
+  }
+
+  .funktionen-preview section.section-preise h2 {
+      width: 6.7em;
+  }
+}

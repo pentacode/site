@@ -420,13 +420,13 @@ collections:
             required: true
             widget: "select"
             multiple: false
-            options: ["section-slides", "section-waterfall", "section-preise", "section-features", "section-offer"]
+            options: ["section-slides", "section-waterfall"]
           - name: "template_path"
             label: "Template Path"
             required: true
             widget: "select"
             multiple: false
-            options: ["sections/slides", "sections/waterfall", "sections/preise", "sections/features", "sections/offer"]
+            options: ["sections/slides", "sections/waterfall"]
           - name: "title"
             label: "Title"
             required: true
