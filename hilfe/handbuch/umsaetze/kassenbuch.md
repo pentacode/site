@@ -23,7 +23,7 @@ keywords:
 - festschreibung
 
 ---
-Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der Tagesabrechnung.
+Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der [Tagesabrechnung](/hilfe/handbuch/umsaetze/tagesabrechnungen).
 
 > **Manuell in das Kassenbuch werden ausschließlich jene Einnahmen oder Ausgaben eingetragen, für die Sie im Wortsinn "an den Tresor" gehen, in anderen Worten: Wenn Sie auf Gelder zugreifen, die aus zurückliegenden, bereits abgerechneten Tagen stammen.**
 
@@ -115,7 +115,7 @@ Durch "Speichern" wird die Kassenzählung im Kassenbuch festgeschrieben.
 
 Bei einem "Mouse-over" erscheint am rechten Rand das {% icon "print" %}-Symbol. Indem Sie diese anklicken, können Sie das Zählprotokoll **ausdrucken**.
 
-{% figure caption="Drucken Sie das Zählprotokoll aus unterzeichnen Sie es mit Datumsangabe" %}
+{% figure caption="Drucken Sie das Zählprotokoll aus und unterzeichnen Sie es mit Datumsangabe" %}
 
 ![](/uploads/zahlprotokoll5.png)
 
