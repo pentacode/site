@@ -51,7 +51,7 @@ klicken, bringt Sie Pentacode automatisch zum Ursprung des Problems.
 
 <figure>
     <img src="beheben.png">
-    <figcaption> Klicken Sie auf **Beheben** um dem Ursprung eines Problems auf die Schliche zu kommen. </figcaption>
+    <figcaption> Klicken Sie auf <b> Beheben </b> um dem Ursprung eines Problems auf die Schliche zu kommen. </figcaption>
 </figure>
 
 ## Problembericht verwerfen
