@@ -25,9 +25,10 @@ entweder durch scrollen in abgeschlossene Monate gelangen oder den gewünschten 
 direkt in der linken unteren Ecke auswählen. Eine rot umrahmte Zahl zeigt
 Ihnen dabei wie viele Probleme im betroffenen Monat aufgekommen sind. 
 
-{% figure caption="Wählen Sie den gewünschten Monat in der Liste aus." %}
-<img src="probleme-übersicht.png"/>
-{%endfigure%}
+<figure>
+    <img src="probleme-übersicht.png">
+    <figcaption> Wählen Sie den gewünschten Monat in der Liste aus. </figcaption>
+</figure>
 
 ## Nach Art des Problems filtern
 
@@ -36,10 +37,10 @@ verschiedene "Problemarten" an- und abwählen. Standardmäßig werden Ihnen alle
 Probleme angezeigt, um eine Art von Problembericht abzuwählen, klicken Sie diesen
 in der oberen rechten Ecke an. 
 
-{% figure caption="Da alle anderen Problemberichte abgewählt sind werden hier
-nur *nicht angetretene Schichten* angezeigt." %}
-<img src="probleme-filtern.png"/>
-{%endfigure%}
+<figure>
+    <img src="probleme-filtern.png"/>
+    <figcaption>Da alle anderen Problemberichte abgewählt sind werden hier nur *nicht angetretene Schichten* angezeigt.</figcaption>
+</figure>
 
 ## Problem beheben
 
@@ -48,10 +49,10 @@ Sie mit der Maus über einen der Problemberichte fahren erscheint auf der rechte
 Seite der Button {%button label="Beheben", icon="pencil"%}. Wenn Sie auf diesen
 klicken, bringt Sie Pentacode automatisch zum Ursprung des Problems. 
 
-{% figure caption="Klicken Sie auf "Beheben" um dem Ursprung eines Problems auf
-die Schliche zu kommen." %}
-<img src="beheben.png"/>
-{%endfigure%}
+<figure>
+    <img src="beheben.png">
+    <figcaption> Klicken Sie auf **Beheben** um dem Ursprung eines Problems auf die Schliche zu kommen. </figcaption>
+</figure>
 
 ## Problembericht verwerfen
 
@@ -71,10 +72,11 @@ in einem Klick tun. Klicken Sie dazu auf den Button {%button label="Verwefen",
 icon="eye-slash"%} neben einem Monat und bestätigen Sie anschließend die Aktion.
 Es werden anschließend alle Problemberichte des ausgewählten Monats verworfen. 
 
-{% figure caption="So verwerfen Sie einzelne Problemberichte oder gleich die des
-ganzen Monats." %}
-<img src="verwerfen.gif"/>
-{%endfigure%}
+<figure>
+    <img src="verwerfen.gif">
+    <figcaption> So verwerfen Sie einzelne Problemberichte oder gleich die des
+ganzen Monats. </figcaption>
+</figure>
 
 **Aber Achtung: Das Verwerfen von Problemberichten ist nicht rückgängig zu machen!**
 
