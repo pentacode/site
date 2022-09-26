@@ -317,3 +317,198 @@ collections:
         label: "Body"
         required: true
         widget: "markdown"
+  
+  - name: "funktionen"
+    label: "Funktionen"
+    identifier_field: title
+    folder: "funktionen"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.slug}}"
+    preview_path: "blog/{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["title", "meta_title"]
+    nested:
+      depth: 5
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "Drafts"
+        field: draft
+    fields:
+      - name: "title"
+        label: "Title"
+        required: true
+        widget: "string"
+      - name: "layout"
+        label: "Layout"
+        required: true
+        widget: "hidden"
+        default: "layouts/funktionen/single.njk"
+      - name: "meta_title"
+        label: "Meta Title"
+        required: true
+        widget: "string"
+      - name: "slug"
+        label: "Slug"
+        required: true
+        widget: "string"
+      - name: "subtitle"
+        label: "Subtitle"
+        required: true
+        widget: "string"
+      - name: "subsubtitle"
+        label: "Sub-Subtitle"
+        required: true
+        widget: "string"
+      - name: "description"
+        label: "Description"
+        required: true
+        widget: "text"
+      - name: "cover"
+        label: "Cover"
+        required: true
+        widget: "image"
+        media_folder: ""
+      - name: "cover_alt"
+        label: "Cover Alt"
+        required: false
+        widget: "string"
+      - name: "cover_2"
+        label: "Cover 2"
+        required: false
+        widget: "image"
+        media_folder: ""
+      - name: "cover_2_alt"
+        label: "Cover 2 Alt"
+        required: false
+        widget: "string"
+      - name: "weight"
+        label: "Weight"
+        required: false
+        widget: "number"
+        min: -100
+        max: 100
+        step: 1
+        value_type: "int"
+        default: 1
+      - name: "icon"
+        label: "Icon"
+        required: false
+        widget: "string" # NOTE: Ideally this would be a select, but there are too many options
+      - name: "keywords"
+        label: "Keywords"
+        required: false
+        widget: "list"
+      - name: "aliases"
+        label: "Aliases"
+        required: false
+        widget: "list"
+      - name: "sections"
+        label: "Sections"
+        required: false
+        widget: "list"
+        fields:
+          - name: "template"
+            label: "Template"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["section-slides", "section-waterfall"]
+          - name: "template_path"
+            label: "Template Path"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["sections/slides", "sections/waterfall"]
+          - name: "title"
+            label: "Title"
+            required: true
+            widget: "string"
+          - name: "subtitle"
+            label: "Subitle"
+            required: true
+            widget: "string"
+          - name: "color_1"
+            label: "Color 1"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["red", "orange", "yellow", "olive", "green", "teal", "blue", "violet", "purple", "pink", "brown", "grey", "black", "aqua"]
+          - name: "color_2"
+            label: "Color 2"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["red", "orange", "yellow", "olive", "green", "teal", "blue", "violet", "purple", "pink", "brown", "grey", "black", "aqua"]
+          - name: "alignment"
+            label: "Alignment"
+            required: true
+            widget: "select"
+            multiple: false
+            options: ["left", "right"]
+            default: "left"
+          - name: "text"
+            label: "Text"
+            required: true
+            widget: "markdown"
+          - name: "slides"
+            label: "Slides"
+            required: false
+            widget: "list"
+            fields:
+              - name: "title"
+                label: "Title"
+                required: true
+                widget: "string"
+              - name: "icon"
+                label: "Icon"
+                required: true
+                widget: "string" # NOTE: Ideally this would be a select, but there are too many options
+              - name: "text"
+                label: "Text"
+                required: true
+                widget: "markdown"
+              - name: "image"
+                label: "Image"
+                required: true
+                widget: "image"
+                media_folder: ""
+              - name: "padding"
+                label: "Padding"
+                required: false
+                widget: "number"
+                min: -100
+                max: 100
+                step: 1
+                value_type: "int"
+                default: 10
+          - name: "images"
+            label: "Images"
+            required: false
+            widget: "list"
+            fields:
+              - name: "alt"
+                label: "Alt"
+                required: true
+                widget: "string"
+              - name: "src"
+                label: "Src"
+                required: true
+                widget: "image"
+                media_folder: ""
+              - name: "padding"
+                label: "Padding"
+                required: false
+                widget: "number"
+                min: -100
+                max: 100
+                step: 1
+                value_type: "int"
+                default: 10
