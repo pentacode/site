@@ -1,9 +1,11 @@
 ---
 layout: layouts/hilfe/index.njk
-title: Industrieminuten und Echtminuten - Verwendung und Umrechnung
+title: Industriezeit - Was ist das?
 weight: 3
 icon: clock
 ---
+<body>
+
 Um zu verstehen wie Pentacode Arbeitszeiten berechnet und darstellt ist es
 wichtig ein einfaches aber essentielles Konzept der Personalverwaltung zu
 verstehen: Das der Industrieminute. Im folgenden Artikel
@@ -23,7 +25,7 @@ Industrieminuten gezählt - unabhängig der Darstellung bleibt eine Stunde eine 
 
 >**Beispiel:**
 Eineinhalb Stunden oder 1:30 entspricht 1,50 Stunden in Dezimal
-oder 150 Industrieminuten. 
+oder 150 Industrieminuten. <br>
 Eine Dreiviertelstunde oder 0:45 entspricht 0,75 Stunden in
 Dezimal oder 75 Industrieminuten.
 
@@ -44,6 +46,8 @@ wird Ihnen jedoch oft das Pendant in Echtzeit angezeigt.
 - Sie können in den
    [Einstellungen](hilfe/handbuch/einstellungen/zeiterfassung/#Rundung-von-Stempelzeiten)
    anpassen auf wie viele Echtminuten beim Ein- und Ausstempeln gerundet wird.
+   <br>
+
 Alle Konten werden hingegen in Industriezeit dargestellt.
 - Soll- und Ist-Stunden 
 - Überstunden
@@ -59,17 +63,17 @@ Normalerweise sollte es nicht nötig sein Industrie- und Echtminuten in einander
 umzuwandeln, da Pentacode das bereits für Sie erledigt. Sollten Sie dies aber
 doch einmal händisch benötigen, ist die Formel zur Umrechnung sehr einfach:
 
-Echtminuten zu Industrieminuten: EM/60 x 100
+Echtminuten zu Industrieminuten: EM/60 x 100 <br>
 Industrieminuten zu Echtminuten: IM/100 x 60 
 
 > **Beispiel:** Wir wollen eine Schicht mit der Länge von 8:40 in Industriezeit
 > umwandeln. Die 8 Stunden bleiben erhalten und die 40 Minuten werden durch die
 > Formel **40/60 x 100 = 66,66** zu etwa 67 Industrieminuten -> Die Schicht hat also 8,67h
-> in Industriezeit gedauert. 
+> in Industriezeit gedauert. <br>
 > *Wie Sie merken lassen sich nicht alle Minutenbeträge ohne Bruchteile
 > ineinander überrechnen - wenn Sie auf ganze Industrieminuten rechnen macht
 > dies jedoch nur wenige Sekundenbruchteile aus.*
 
-
+</body>
 
 
