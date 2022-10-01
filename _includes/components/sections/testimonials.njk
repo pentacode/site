@@ -1,0 +1,209 @@
+<style>
+    section.section-testimonials h2 {
+        font-weight: bold;
+        background: linear-gradient(
+            125deg,
+            var(--green) 0%,
+            var(--blue) 25%,
+            var(--purple) 50%,
+            var(--orange) 75%,
+            var(--red) 100%
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    .section-testimonials-subtitle {
+        padding: 0.5em;
+        max-width: 30em;
+        text-align: center;
+        margin: 2em auto 3em auto;
+    }
+
+    .section-testimonials-layout {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-testimonials-quote {
+        position: relative;
+        width: 30em;
+        display: inline-block;
+        transform-style: preserve-3d;
+    }
+
+    .section-testimonials-quote-image {
+        width: 5em;
+        height: 5em;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        transform: translateZ(100px);
+    }
+
+    .section-testimonials-quote-image > img {
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+        border: solid 0.2em var(--color-highlight);
+    }
+
+    .section-testimonials-quote-body {
+        border-radius: 0.5em;
+        position: relative;
+        padding: 4.5em 2em 2em 4.5em;
+        font-style: italic;
+        color: var(--color-highlight);
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+    }
+
+    .section-testimonials-quote-body::before {
+        font-size: 15em;
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
+        z-index: -1;
+        line-height: 0;
+    }
+
+    .section-testimonials-quote-author {
+        color: var(--color-fg);
+        opacity: 0.8;
+    }
+
+    .section-testimonials-quote-mark {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.1;
+        transform: scale(3);
+    }
+
+    .section-testimonials-quote-body:hover {
+        transform: translate(0, -0.5em);
+    }
+
+    .section-testimonials-quote-body a:hover {
+        opacity: 1;
+    }
+
+    .section-testimonials-quote-body .section-testimonials-quote-read {
+        transition: opacity 0.5s;
+        font-size: 0.8em;
+        margin-top: 0.5em;
+    }
+
+    .section-testimonials-quote-body a:not(:hover) .section-testimonials-quote-read {
+        opacity: 0;
+    }
+</style>
+
+<section class="section-testimonials left" data-animation="slide_2" data-animation_threshold="0.2">
+    <div class="inner">
+        <div class="content">
+            <div class="vertical center-aligning layout">
+                <h2>Erfolgsgeschichten</h2>
+            </div>
+
+            <p class="section-testimonials-subtitle">
+                Wir sehen uns nicht nur als Softwareanbieter, sondern als Partner der Ihnen dabei hilft, unternehmerisch
+                und wirtschaftlich erfolgreich zu sein. Das Ergebnis spricht für sich selbst.
+            </p>
+
+            <div class="section-testimonials-layout">
+                <div class="section-testimonials-quote green">
+                    <div class="section-testimonials-quote-image">
+                        <img src="/assets/img/testimonials/stingl.jpg" />
+                    </div>
+                    <div class="section-testimonials-quote-body">
+                        <a href="/magazin/keine_kleinen_broetchen_mehr/">
+                            <i class="fas fa-quote-right section-testimonials-quote-mark"></i>
+                            <span class="text-clip"
+                                >Schon alleine, dass das langwierige Zusammenzählen von Stundenzetteln wegfällt, ist ein
+                                echter Mehrwert. Die Zahlen sind strukturiert und verlässlich. Das spart im
+                                Arbeitsalltag nicht nur Zeit, sondern beruhigt mich als Unternehmer auch sehr.</span
+                            ><i class="fas fa-quote-left section-testimonials-quote-mark"></i>
+                            <span class="section-testimonials-quote-author"> - Stefan Alof, Alof & Stingl </span>
+                            <div class="section-testimonials-quote-read">
+                                Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section-testimonials-quote purple">
+                    <div class="section-testimonials-quote-image">
+                        <img src="/assets/img/testimonials/wenisch.jpg" />
+                    </div>
+                    <div class="section-testimonials-quote-body">
+                        <a href="/magazin/erfolgsgeschichte_wenisch/">
+                            <i class="fas fa-quote-right section-testimonials-quote-mark"></i>
+                            <span class="text-clip"
+                                >Als gelernter Koch hatte ich mit Zahlen so gar nichts am Hut. Dahingehend hat mir
+                                Pentacode sehr geholfen. Weil ich einfach jeden Tag ablesen kann, was meine Ausgaben und
+                                Umsätze sind. Seit der Nutzung von Pentacode haben wir unsere Personalkosten im
+                                Griff.</span
+                            ><i class="fas fa-quote-left section-testimonials-quote-mark"></i>
+                            <span class="section-testimonials-quote-author">
+                                - Anton Wenisch, Wenisch Gastronomie
+                            </span>
+                            <div class="section-testimonials-quote-read">
+                                Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section-testimonials-quote red">
+                    <div class="section-testimonials-quote-image">
+                        <img src="/assets/img/testimonials/frankenhauser.jpg" />
+                    </div>
+                    <div class="section-testimonials-quote-body">
+                        <a href="/magazin/erfolgsgeschichte_joe_penas/">
+                            <i class="fas fa-quote-right section-testimonials-quote-mark"></i>
+                            <span class="text-clip"
+                                >Für mich ist Pentacode eine große Erleichterung, denn es sorgt dafür, dass ich die
+                                Zahlen tagesaktuell vor mir habe… So bin ich zu jeder Zeit bereit für eine
+                                Prüfungssituationen durch Finanzamt, Zoll und Co. Und dadurch kann ich persönlich
+                                weitaus besser schlafen.</span
+                            >
+                            <i class="fas fa-quote-left section-testimonials-quote-mark"></i>
+                            <span class="section-testimonials-quote-author">
+                                - Uli Frankenhauser, Joe Peñas Ludwigsburg
+                            </span>
+                            <div class="section-testimonials-quote-read">
+                                Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "components/divider.njk" %}
+
+    <script>
+        (() => {
+            const container = document.querySelector(".section-testimonials");
+            const quotes = document.querySelectorAll(".section-testimonials-quote");
+            const images = document.querySelectorAll(".section-testimonials-quote-image");
+            window.addEventListener("scroll", () => {
+                const { y, height } = container.getBoundingClientRect();
+                const offset = y + height / 2 - window.innerHeight / 2;
+                const offsetRatio = offset / window.innerHeight;
+                console.log(offsetRatio, quotes);
+                for (const quote of quotes) {
+                    quote.style.transform = `translate(0, ${offsetRatio * 50}px)`;
+                }
+                for (const image of images) {
+                    image.style.transform = `translate(0, ${offsetRatio * 30}px)`;
+                }
+            });
+        })();
+    </script>
+</section>
