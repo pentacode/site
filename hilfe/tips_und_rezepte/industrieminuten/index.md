@@ -5,11 +5,12 @@ weight: 3
 icon: clock
 ---
 <body>
+<div align="left">
 
 Um zu verstehen wie Pentacode Arbeitszeiten berechnet und darstellt ist es
 wichtig ein einfaches aber essentielles Konzept der Personalverwaltung zu
 verstehen: Das der Industrieminute. Im folgenden Artikel
-werden wir Ihnen die Unterschiede von Insturie- und Echtminuten näher bringen
+werden wir Ihnen die Unterschiede von Industrie- und Echtminuten näher bringen
 und erkären wo diese in Pentacode von Bedeutung sind.
 
 ## Definition Industrieminute
@@ -74,6 +75,7 @@ Industrieminuten zu Echtminuten: IM/100 x 60
 > ineinander überrechnen - wenn Sie auf ganze Industrieminuten rechnen macht
 > dies jedoch nur wenige Sekundenbruchteile aus.*
 
+</div>
 </body>
 
 
