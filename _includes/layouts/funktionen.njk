@@ -1,0 +1,181 @@
+{% extends "./base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/divider.html" %}<!-- -->
+{% include "styles/preise.html" %}<!-- -->
+
+<style>
+    .funktionen-details-section {
+        display: flex;
+        padding-bottom: 5em;
+    }
+
+    .funktionen-details-line {
+        width: 4em;
+    }
+
+    .funktionen-details-line::before {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        z-index: -1;
+        border-left: dashed 2px var(--shade-2);
+    }
+
+    .funktionen-details-bullet {
+        font-size: 1.2em;
+        width: 1.2em;
+        height: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px;
+        border-radius: 100%;
+        padding: 0.5em;
+        align-self: start;
+        background: linear-gradient(-45deg, var(--color-highlight) 0%, var(--color-highlight-bg) 100%);
+        color: var(--color-bg);
+        margin: 0 auto;
+    }
+
+    .funktionen-details-subbullet {
+        font-size: 1em;
+        width: 1em;
+        height: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        border-radius: 100%;
+        padding: 0.5em;
+        align-self: start;
+        background: var(--color-bg);
+        margin: 0 auto;
+    }
+
+    .funktionen-details-section h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 0.2em 0;
+    }
+
+    .funktionen-details-section h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0.2em 0;
+    }
+
+    .funktionen-details-copy {
+        max-width: 30em;
+        flex: 1;
+        margin-right: 2em;
+    }
+
+    .funktionen-details-copy ul {
+        padding: 0;
+        list-style: none;
+        position: relative;
+    }
+
+    .funktionen-details-copy ul li {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.3em;
+        margin-bottom: 0.5em;
+        font-size: 0.9em;
+    }
+
+    .funktionen-details-copy ul li > svg {
+        position: absolute;
+        left: -3.5em;
+        background: var(--color-bg);
+        padding: 0.2em;
+        width: 1em;
+        border-radius: 100%;
+        font-size: 0.8em;
+        border: solid 1px;
+        margin-top: 0;
+    }
+
+    .funktionen-details-images {
+        width: 600px;
+        height: 400px;
+        position: relative;
+        overflow: visible;
+        transform-style: preserve-3d;
+        perspective: 2000px;
+    }
+
+    .funktionen-details-images-inner {
+        width: 200%;
+        transform-origin: 0 0;
+        transform-style: preserve-3d;
+        transform: scale(0.5);
+        margin-left: 2em;
+    }
+
+    .funktionen-details-images-inner > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        transform-origin: center center;
+    }
+
+    .funktionen-details-images-inner > div > img {
+        padding: 0.5em;
+        box-shadow: rgb(0 0 0 / 30%) 0 0 2em -1em;
+        border-radius: 2em;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    /*
+    .funktionen-details-images video {
+        box-shadow: rgb(0 0 0 / 30%) 0 0 2em -1em;
+        border-radius: 0.5em;
+        width: 100%;
+        position: sticky;
+        top: 8em;
+    }
+    */
+</style>
+
+{% endblock %}<!-- -->
+
+{% block js %}
+<script src="/assets/js/anime.min.js" async></script>
+<script src="/assets/js/animation.js" async></script>
+{% endblock %} {% block body %} {% include "components/header.njk" %}
+
+<section class="funktionen-details">
+    <div class="inner">
+        {{ content | safe }}
+    </div>
+
+    <script>
+        (() => {
+            const screenshotContainers = document.querySelectorAll(".funktionen-details-images");
+            window.addEventListener("scroll", () => {
+                for (const [i, container] of screenshotContainers.entries()) {
+                    const { y, height } = container.getBoundingClientRect();
+                    const offset = y + height / 2 - window.innerHeight / 2;
+                    const offsetRatio = offset / window.innerHeight;
+                    container.style.perspectiveOrigin = `center ${Math.max(
+                        -height,
+                        Math.min(height / 2 + offset, 2 * height)
+                    )}px`;
+                }
+            });
+        })();
+    </script>
+
+    {% include "components/divider.njk" %}
+</section>
+
+{% include "components/sections/preise.njk" %} {% include "components/provenexpert-seal.html" %} {% endblock %}
