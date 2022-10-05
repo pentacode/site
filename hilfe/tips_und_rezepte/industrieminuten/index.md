@@ -4,7 +4,6 @@ title: Industriezeit - Was ist das?
 weight: 3
 icon: clock
 ---
-<body>
 
 Um zu verstehen wie Pentacode Arbeitszeiten berechnet und darstellt ist es
 wichtig ein einfaches aber essentielles Konzept der Personalverwaltung zu
@@ -73,7 +72,5 @@ Industrieminuten zu Echtminuten: IM/100 x 60
 > *Wie Sie merken lassen sich nicht alle Minutenbeträge ohne Bruchteile
 > ineinander überrechnen - wenn Sie auf ganze Industrieminuten rechnen macht
 > dies jedoch nur wenige Sekundenbruchteile aus.*
-
-</body>
 
 
