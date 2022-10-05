@@ -116,7 +116,7 @@
         width: 200%;
         transform-origin: 0 0;
         transform-style: preserve-3d;
-        transform: scale(0.5);
+        transform: scale(0.45);
         margin-left: 2em;
     }
 
@@ -153,8 +153,22 @@
 <script src="/assets/js/animation.js" async></script>
 {% endblock %} {% block body %} {% include "components/header.njk" %}
 
-<section class="funktionen-details">
+<section class="funktionen-details {{ color }}">
     <div class="inner">
+        <div class="funktionen-details-section">
+            <div class="funktionen-details-line">
+                <div class="funktionen-details-bullet">
+                    <i class="fal fa-{{ icon }}"></i>
+                </div>
+            </div>
+            <div class="funktionen-details-copy">
+                <h1 class="text-clip">{{ title }}</h1>
+                <p>
+                    {{ description }}
+                </p>
+            </div>
+        </div>
+
         {{ content | safe }}
     </div>
 
