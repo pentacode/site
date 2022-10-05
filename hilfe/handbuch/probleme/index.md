@@ -7,16 +7,57 @@ icon: exclamation-triangle
 
     **"Irren ist menschlich" - und die Fülle gesetzlicher Bestimmungen enorm.**
 
-So gern wir auch auf Anhieb den perfekten
-Dienstplan erstellen würden, schnell ist gegen **Arbeitsrichtlinien oder
-Vertragsvereinbarungen** verstoßen - früh genug entdeckt ein Aufwendiges, doch im
-schlimmsten Fall ein kostspieliges Irren. Um Fehler dieser Art zu vermeiden,
-bevor Sie überhaupt entstehen, macht Pentacode Sie auf Probleme aufmerksam, die
-während der Dienstplanung aufkommen. So können Sie sich sicher sein, dass Sie **stets im Recht handeln** und vor einer **Prüfung nichts zu befürchten** haben.
+So gern wir auch auf Anhieb den perfekten Dienstplan erstellen oder alle
+Schichten im Blick haben würden - Fehler schleichen sich immer ein. Besonders
+wenn man die diversen **Arbeitsrichtlinien und Vertragsvereinbarungen** dabei im
+Blick behalten muss. Die **Problemberichte** in Pentacode helfen Ihnen dabei einen
+klaren Überblick zu behalten ob Dienstplan, Schichten und Kassenbuch reibungslos
+laufen - und **Probleme zu vermeiden bevor sie überhaupt entstehen**. Das spart
+Ihnen nicht nur Zeit, sondern auch Nerven bei der nächsten Buchprüfung, da Sie
+sicher sein können, stets im Recht gehandelt zu haben. 
+
+## Verschiedene Arten von Problemen
+
+Pentacode zeigt Ihnen in der Problemübersicht **acht Arten von
+Problemberichten** an. Um diese möglichst schnell beheben zu können sollten Sie
+wissen wo der Ursprung jedes dieser Probleme liegt. Wie unter [Problem
+beheben](#problem-beheben) beschrieben, bringt Sie der {%button label="Beheben",
+icon="pencil"%} immer direkt zum Kern des Problems.  
+
+### Probleme aus der Dienstplanung
+
+- **Arbeitszeit >10 Stunden:** Die maximale Arbeitszeit an einem Stück darf nur
+  10 Stunden betragen - sollte einem Mitarbeiter eine Schicht zu geteilt werden,
+  welche länger dauert, wird dieses Problem angezeigt. Sie müssen die betroffene
+  Schicht kürzen um das Probelem zu beheben. 
+- **Ruhezeit <11 Stunden:** Zwischen Schichten müssen Angestellte mindestens 11
+  Stunden arbeitsfreie Ruhezeit haben. Sollten zwei Schichten zu nah an einander
+  liegen, wird dieses Problem angezeigt. Löschen oder verschieben Sie die
+  Schichten so, dass diese 11 Stunden Abstand haben.
+- **Schichtüberlappung:** Sollten zwei Schichten eines Mitarbeiters sich
+  zeitlich überlappen wird dieses Problem angezeigt. Da ihr Mitarbeiter sich
+  nicht zweiteilen kann, müssen Sie eine der Schichten verschieben oder löschen.
+
+### Probleme aus Schichtdurchführung
+
+
+- **gesetzliche Pause unterschritten:** Jedem Mitarbeiter stehen nach 6 Stunden
+  Schicht 
+
+-Lohnunterschreitung
+-Lohngrenze
+
+-Arbeitszeit
+-Ruhezeit
+-ges Pause
+-Schichtüberlappung
+
+-Schicht n angetreten
+-Schicht n beendet
 
 ## Übersicht nach Monaten
 
-Klicken Sie auf den Reiter {%button label="Probleme",
+Klicken Sie im Hauptmenü auf den Reiter {%button label="Probleme",
 icon="exclamation-triangle"%} um in die Problemübersicht zu gelangen. Sie werden
 anschließend eine **chronologische Auflistung** der von Pentacode erkannten
 Problemmeldungen erhalten. Dabei werden die neusten Problemberichte ganz oben
@@ -62,8 +103,10 @@ zu wahren. Fahren Sie dazu über einen Problembericht und klicken auf den Button
 {%button label="Verwerfen", icon="eye-slash"%}. Bestätigen Sie anschließend, dass
 Sie den Problembericht wirklich verwerfen wollen
 
-**Wichtig: Das Verwerfen eines Problemberichts löst das Problem nicht! Pentacode
-zeigt Ihnen das Problem nur nicht mehr an.**
+    **Achtung: Das Verwerfen von Problemberichten ist nicht rückgängig zu machen!**
+
+>**Wichtig: Das Verwerfen eines Problemberichts löst das Problem nicht! Pentacode
+>zeigt Ihnen das Problem nur nicht mehr an.**
 
 ### Alle Problemberichte verwerfen
 
@@ -77,8 +120,6 @@ Es werden anschließend alle Problemberichte des ausgewählten Monats verworfen.
     <figcaption> So verwerfen Sie einzelne Problemberichte oder gleich die des
 ganzen Monats. </figcaption>
 </figure>
-
-**Aber Achtung: Das Verwerfen von Problemberichten ist nicht rückgängig zu machen!**
 
 > Der Problembericht von **fehlenden Tagesabrechnungen** kann nicht verworfen
 > werden! Da die Tagesabrechnung elementar für eine nachvollziehbare
