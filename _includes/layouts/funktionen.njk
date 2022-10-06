@@ -8,13 +8,20 @@
 {% include "styles/preise.html" %}<!-- -->
 
 <style>
+    section.funktionen-details {
+        margin: 1em;
+    }
+
     .funktionen-details-section {
         display: flex;
         padding-bottom: 5em;
+        margin-left: -1em;
+        position: relative;
     }
 
     .funktionen-details-line {
         width: 4em;
+        flex: none;
     }
 
     .funktionen-details-line::before {
@@ -72,9 +79,7 @@
     }
 
     .funktionen-details-copy {
-        max-width: 30em;
-        flex: 1;
-        margin-right: 2em;
+        width: 25em;
     }
 
     .funktionen-details-copy ul {
@@ -104,7 +109,7 @@
     }
 
     .funktionen-details-images {
-        width: 600px;
+        flex: 1;
         height: 400px;
         position: relative;
         overflow: visible;
@@ -135,15 +140,24 @@
         background: rgba(255, 255, 255, 0.5);
     }
 
-    /*
-    .funktionen-details-images video {
-        box-shadow: rgb(0 0 0 / 30%) 0 0 2em -1em;
-        border-radius: 0.5em;
-        width: 100%;
-        position: sticky;
-        top: 8em;
+    .funktionen-details-images-inner svg path {
+        fill: url(#icon_gradient);
     }
-    */
+
+    @media (max-width: 800px) {
+        .funktionen-details-section {
+            padding-bottom: 2em;
+        }
+
+        .funktionen-details-images {
+            display: none;
+        }
+
+        .funktionen-details-section h1 {
+            font-size: 1.6em;
+            margin: 0.4em 0;
+        }
+    }
 </style>
 
 {% endblock %}<!-- -->
@@ -154,7 +168,24 @@
 {% endblock %} {% block body %} {% include "components/header.njk" %}
 
 <section class="funktionen-details {{ color }}">
-    <div class="inner">
+
+<svg
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    style="position: absolute; opacity: 0; pointer-events: none;"
+>
+    <defs>
+        <linearGradient
+            id="icon_gradient"
+            gradientTransform="rotate(30)"
+        >
+            <stop offset="0%" style="stop-color: var(--color-highlight);"></stop>
+            <stop offset="100%" style="stop-color: var(--color-highlight-bg);"></stop>
+        </linearGradient>
+    </defs>
+</svg>
+
+    <div class="inner animation-reveal-children">
         <div class="funktionen-details-section">
             <div class="funktionen-details-line">
                 <div class="funktionen-details-bullet">
