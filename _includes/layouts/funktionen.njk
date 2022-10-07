@@ -140,6 +140,10 @@
         background: rgba(255, 255, 255, 0.5);
     }
 
+    .funktionen-details-images-inner svg path {
+        fill: url(#icon_gradient);
+    }
+
     @media (max-width: 800px) {
         .funktionen-details-section {
             padding-bottom: 2em;
@@ -189,6 +193,28 @@
         </div>
 
         {{ content | safe }}
+
+        <div class="funktionen-details-section">
+            <div class="funktionen-details-line">
+                <div class="funktionen-details-subbullet">
+                    <i class="fal fa-question"></i>
+                </div>
+            </div>
+            <div class="funktionen-details-copy">
+                <h2>Haben wir Ihr <em>Interesse</em> geweckt?</h2>
+                <p>
+                    Wir freuen uns darauf, Ihnen Pentacode vorzustellen und nehmen uns gerne Zeit, Ihre Wünsche und
+                    Anforderungen zu besprechen.
+                </p>
+                <a
+                    class="btn get-started text-clip"
+                    href="https://calendly.com/pentacode/demo"
+                    onclick="openScheduler(); return false;"
+                >
+                    <i class="fal fa-user-headset"></i> Jetzt Demotermin Vereinbaren</a
+                >
+            </div>
+        </div>
     </div>
 
     <script>

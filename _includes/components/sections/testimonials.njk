@@ -14,7 +14,7 @@
             <div class="section-testimonials-layout">
                 <div class="section-testimonials-quote green">
                     <div class="section-testimonials-quote-image">
-                        <img src="/assets/img/testimonials/stingl.jpg" />
+                        <img src="/assets/img/testimonials/stingl.jpg" alt="Zufriedener Pentacode Nutzer Fabian Stingl" />
                     </div>
                     <div class="section-testimonials-quote-body">
                         <a href="/magazin/keine_kleinen_broetchen_mehr/">
@@ -24,7 +24,7 @@
                                 echter Mehrwert. Die Zahlen sind strukturiert und verlässlich. Das spart im
                                 Arbeitsalltag nicht nur Zeit, sondern beruhigt mich als Unternehmer auch sehr.</span
                             ><i class="fas fa-quote-left section-testimonials-quote-mark"></i>
-                            <span class="section-testimonials-quote-author"> - Stefan Alof, Alof & Stingl </span>
+                            <span class="section-testimonials-quote-author"> - Fabian Stingl, Alof & Stingl </span>
                             <div class="section-testimonials-quote-read">
                                 Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
                             </div>
@@ -34,7 +34,7 @@
 
                 <div class="section-testimonials-quote purple">
                     <div class="section-testimonials-quote-image">
-                        <img src="/assets/img/testimonials/wenisch.jpg" />
+                        <img src="/assets/img/testimonials/wenisch.jpg" alt="Zufriedener Pentacode Nutzer Anton Wenisch" />
                     </div>
                     <div class="section-testimonials-quote-body">
                         <a href="/magazin/erfolgsgeschichte_wenisch/">
@@ -57,7 +57,7 @@
 
                 <div class="section-testimonials-quote red">
                     <div class="section-testimonials-quote-image">
-                        <img src="/assets/img/testimonials/frankenhauser.jpg" />
+                        <img src="/assets/img/testimonials/frankenhauser.jpg" alt="Zufriedener Pentacode Nutzer Uli Frankenhauser" />
                     </div>
                     <div class="section-testimonials-quote-body">
                         <a href="/magazin/erfolgsgeschichte_joe_penas/">
@@ -93,7 +93,6 @@
                 const { y, height } = container.getBoundingClientRect();
                 const offset = y + height / 2 - window.innerHeight / 2;
                 const offsetRatio = offset / window.innerHeight;
-                console.log(offsetRatio, quotes);
                 for (const quote of quotes) {
                     quote.style.transform = `translate(0, ${offsetRatio * 50}px)`;
                 }

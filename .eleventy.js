@@ -8,6 +8,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { getTOC } = require("./_lib/toc");
 
 const isProduction = process.env.NODE_ENV === 'production';
+console.log(isProduction);
 
 async function minifyHtml(source, output_path) {
     if (!output_path.endsWith(".html") || !isProduction) return source;
@@ -85,12 +86,14 @@ module.exports = (config) => {
 
     const html = (...args) => outdent(String.raw(...args)).trim();
 
-    config.addPassthroughCopy("assets/**/*");
-    config.addPassthroughCopy("admin/config.yml");
-    config.addPassthroughCopy("admin/*.css");
+    config.addPassthroughCopy("assets/img/**/*");
+    config.addPassthroughCopy("assets/js/**/*");
+    config.addPassthroughCopy("assets/video/**/*");
+    // config.addPassthroughCopy("admin/config.yml");
+    // config.addPassthroughCopy("admin/*.css");
 
     // Old paths
-    config.addPassthroughCopy({ "./assets": "/" });
+    // config.addPassthroughCopy({ "./assets": "/" });
 
     config.setTemplateFormats(["html", "md", "njk", "png", "jpg", "gif", "webp"]);
 
@@ -166,7 +169,12 @@ module.exports = (config) => {
         return filtered;
     });
 
-    config.addTransform("htmlmin", minifyHtml);
+    // config.addTransform("htmlmin", minifyHtml);
+
+    config.ignores.add("magazin");
+    config.ignores.add("hilfe");
+    config.ignores.add("blog");
+    config.ignores.add("news");
 
     return {
         markdownTemplateEngine: "njk",
