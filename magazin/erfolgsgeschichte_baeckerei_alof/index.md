@@ -4,7 +4,7 @@ title:
     Back ma’s! - Vom Quereinsteiger zum Multigastronom mit smarter
     Personalplanung
 slug: erfolgsgeschichte_baeckerei_alof
-cover: pentacode-konditorei-alof-17.webp
+cover: Pentacode-konditorei-Alof-17.webp
 coverAlt:
     "Fabian Stingl, Mitgründer der Bäckerei Alof, bereitet Kaffee an
     Siebträger-Maschine zu."
@@ -25,7 +25,7 @@ und zufrieden auf die Entwicklungen ihrer Betriebe blicken können, verdanken si
 auch smarter Personalplanung.
 
 <figure class="float right">
-  <img src="pentacode-konditorei-alof-8.webp" alt="Stück Sachertorte auf Teller. Im Hintergrund Tasse im Anschnitt und ganze Sachertorte.">
+  <img src="Pentacode-konditorei-Alof-8.webp" alt="Stück Sachertorte auf Teller. Im Hintergrund Tasse im Anschnitt und ganze Sachertorte.">
   <figcaption>Im Alof-Angebot: Klassiker wie Sachertorte, aber auch vegane Trendkuchen.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Wohlfühloase der Nachbarschaft auch immer ein bisschen anfühlen wie heimkommen
 <cite>„Genau so soll es sein“</cite>, bestätigt Fabian Stingl.
 
 <figure>
-  <img src="pentacode-konditorei-alof-5.webp" alt="Blick auf Bäckerei Theke und Auslage mit Kuchen, Torten, Brot und Kaffeemaschine in Holzoptik.">
+  <img src="Pentacode-konditorei-Alof-5.webp" alt="Blick auf Bäckerei Theke und Auslage mit Kuchen, Torten, Brot und Kaffeemaschine in Holzoptik.">
   <figcaption>Geordnete Auslage, geordnetes Personalmanagement.</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ es kostet, wenn man naiv an sowas drangeht.“</cite>
 ## Ein zufriedener Gastgeber, ist ein guter Gastgeber
 
 <figure class="float right width-30pc">
-  <img src="pentacode-konditorei-alof-20.webp" alt="Fabian Stingl lehnt an Stehtisch. Vor ihm ein Stück Torte auf dem Teller und eine Kaffeetasse.">
+  <img src="Pentacode-konditorei-Alof-20.webp" alt="Fabian Stingl lehnt an Stehtisch. Vor ihm ein Stück Torte auf dem Teller und eine Kaffeetasse.">
   <figcaption>Vom Quereinsteiger aus der Film-Branche zum Multigastronom: Fabian Stingl.</figcaption>
 </figure>
 
