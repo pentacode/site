@@ -1,4 +1,5 @@
 ---
+layout: layouts/magazin/single.njk
 title:
     Back ma’s! - Vom Quereinsteiger zum Multigastronom mit smarter
     Personalplanung
