@@ -242,6 +242,33 @@
         transform: rotate(90deg);
     }
 
+    section.section-slides .slides-bullets {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        position: absolute;
+        bottom: -2em;
+        width: 100%;
+    }
+
+    section.section-slides .slides-bullet {
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 100%;
+        border: solid 0.1em var(--color-highlight);
+        box-sizing: border-box;
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+
+    section.section-slides .slides-bullet:hover {
+        transform: scale(1.2);
+    }
+
+    section.section-slides .slides-bullet.active {
+        border-width: 0.4em;
+    }
+
     @media (max-width: 1000px) {
         section.section-slides .inner {
             flex-direction: column !important;

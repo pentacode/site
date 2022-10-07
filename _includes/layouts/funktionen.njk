@@ -1,0 +1,240 @@
+{% extends "./base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/divider.html" %}<!-- -->
+{% include "styles/preise.html" %}<!-- -->
+
+<style>
+    section.funktionen-details {
+        margin: 1em;
+    }
+
+    .funktionen-details-section {
+        display: flex;
+        padding-bottom: 5em;
+        margin-left: -1em;
+        position: relative;
+    }
+
+    .funktionen-details-line {
+        width: 4em;
+        flex: none;
+    }
+
+    .funktionen-details-line::before {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        z-index: -1;
+        border-left: dashed 2px var(--shade-2);
+    }
+
+    .funktionen-details-bullet {
+        font-size: 1.2em;
+        width: 1.2em;
+        height: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px;
+        border-radius: 100%;
+        padding: 0.5em;
+        align-self: start;
+        background: linear-gradient(-45deg, var(--color-highlight) 0%, var(--color-highlight-bg) 100%);
+        color: var(--color-bg);
+        margin: 0 auto;
+    }
+
+    .funktionen-details-subbullet {
+        font-size: 1em;
+        width: 1em;
+        height: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        border-radius: 100%;
+        padding: 0.5em;
+        align-self: start;
+        background: var(--color-bg);
+        margin: 0 auto;
+    }
+
+    .funktionen-details-section h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 0.2em 0;
+    }
+
+    .funktionen-details-section h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0.2em 0;
+    }
+
+    .funktionen-details-copy {
+        width: 25em;
+    }
+
+    .funktionen-details-copy ul {
+        padding: 0;
+        list-style: none;
+        position: relative;
+    }
+
+    .funktionen-details-copy ul li {
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.3em;
+        margin-bottom: 0.5em;
+        font-size: 0.9em;
+    }
+
+    .funktionen-details-copy ul li > svg {
+        position: absolute;
+        left: -3.5em;
+        background: var(--color-bg);
+        padding: 0.2em;
+        width: 1em;
+        border-radius: 100%;
+        font-size: 0.8em;
+        border: solid 1px;
+        margin-top: 0;
+    }
+
+    .funktionen-details-images {
+        flex: 1;
+        height: 400px;
+        position: relative;
+        overflow: visible;
+        transform-style: preserve-3d;
+        perspective: 2000px;
+    }
+
+    .funktionen-details-images-inner {
+        width: 200%;
+        transform-origin: 0 0;
+        transform-style: preserve-3d;
+        transform: scale(0.45);
+        margin-left: 2em;
+    }
+
+    .funktionen-details-images-inner > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        transform-origin: center center;
+    }
+
+    .funktionen-details-images-inner > div > img {
+        padding: 0.5em;
+        box-shadow: rgb(0 0 0 / 30%) 0 0 2em -1em;
+        border-radius: 2em;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .funktionen-details-images-inner svg path {
+        fill: url(#icon_gradient);
+    }
+
+    @media (max-width: 800px) {
+        .funktionen-details-section {
+            padding-bottom: 2em;
+        }
+
+        .funktionen-details-images {
+            display: none;
+        }
+
+        .funktionen-details-section h1 {
+            font-size: 1.6em;
+            margin: 0.4em 0;
+        }
+    }
+</style>
+
+{% endblock %}<!-- -->
+
+{% block js %}
+<script src="/assets/js/anime.min.js" async></script>
+<script src="/assets/js/animation.js" async></script>
+{% endblock %} {% block body %} {% include "components/header.njk" %}
+
+<section class="funktionen-details {{ color }}">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="position: absolute; opacity: 0; pointer-events: none">
+        <defs>
+            <linearGradient id="icon_gradient" gradientTransform="rotate(30)">
+                <stop offset="0%" style="stop-color: var(--color-highlight)"></stop>
+                <stop offset="100%" style="stop-color: var(--color-highlight-bg)"></stop>
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <div class="inner">
+        <div class="funktionen-details-section">
+            <div class="funktionen-details-line">
+                <div class="funktionen-details-bullet">
+                    <i class="fal fa-{{ icon }}"></i>
+                </div>
+            </div>
+            <div class="funktionen-details-copy">
+                <h1 class="text-clip">{{ title }}</h1>
+                <p>
+                    {{ description }}
+                </p>
+            </div>
+        </div>
+
+        {{ content | safe }}
+
+        <div class="funktionen-details-section">
+            <div class="funktionen-details-line">
+                <div class="funktionen-details-subbullet">
+                    <i class="fal fa-question"></i>
+                </div>
+            </div>
+            <div class="funktionen-details-copy">
+                <h2>Haben wir Ihr <em>Interesse</em> geweckt?</h2>
+                <p>
+                    Wir freuen uns darauf, Ihnen Pentacode vorzustellen und nehmen uns gerne Zeit, Ihre Wünsche und
+                    Anforderungen zu besprechen.
+                </p>
+                <a
+                    class="btn get-started text-clip"
+                    href="https://calendly.com/pentacode/demo"
+                    onclick="openScheduler(); return false;"
+                >
+                    <i class="fal fa-user-headset"></i> Jetzt Demotermin Vereinbaren</a
+                >
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (() => {
+            const screenshotContainers = document.querySelectorAll(".funktionen-details-images");
+            window.addEventListener("scroll", () => {
+                for (const [i, container] of screenshotContainers.entries()) {
+                    const { y, height } = container.getBoundingClientRect();
+                    const offset = y + height / 2 - window.innerHeight / 2;
+                    const offsetRatio = offset / window.innerHeight;
+                    container.style.perspectiveOrigin = `center ${Math.max(
+                        -height,
+                        Math.min(height / 2 + offset, 2 * height)
+                    )}px`;
+                }
+            });
+        })();
+    </script>
+
+    {% include "components/divider.njk" %}
+</section>
+
+{% include "components/sections/preise.njk" %} {% include "components/provenexpert-seal.html" %} {% endblock %}

@@ -1,4 +1,8 @@
 <style>
+    html, body {
+        scroll-behavior: smooth;
+    }
+
     section {
         margin: 4em 2em 8em 2em;
         margin-bottom: 0;
@@ -362,10 +366,16 @@
         section.hero h1,
         section:not(.hero) h2 {
             font-size: 1.8em;
+            margin-bottom: 0.5em;
         }
 
         section.hero h2 {
-            font-size: 1.3em;
+            font-size: 1.2em;
+        }
+
+        section.hero h3 {
+            font-size: 1em;
+            margin: 1.4em 0;
         }
 
         section:not(.hero) h3 {

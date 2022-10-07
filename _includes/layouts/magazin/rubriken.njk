@@ -35,7 +35,7 @@
             </li>
         </ul>
 
-        <ul class="articles-list animation-reveal-children">
+        <ul class="articles-list">
             {% set pages = collections.all | eleventyNavigation("/magazin") | filterByMagazinCategory(magazinCategory) | orderByDate | excludeDrafts %}
 
             {% for page in pages %}
@@ -43,7 +43,7 @@
                 <li>
                     <article>
                         <div class="cover-image">
-                            <a href="{{ page.url }}">
+                            <a href="{{ page.url }}" title="{{ page.title }}">
                                 {% if page.cover %}
                                     <img class="article-cover stretch collapse" src="{{ page.cover }}" alt="{{ page.coverAlt or page.title }}" />
                                 {% endif %}
@@ -71,7 +71,7 @@
 
                         <div class="horizontal center-aligning layout">
                             <div class="article-author center-aligning horizontal layout stretch">
-                                <img class="article-author-image" src="{{ author.image }}" />
+                                <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
                                 <div class="article-author-name stretch">{{ author.name }}</div>
                             </div>
 

@@ -72,9 +72,23 @@
         text-decoration: none;
     }
 
-    button:hover,
-    a:hover {
-        opacity: 0.7;
+    a:not(.underline):hover {
+        opacity: 0.8;
+    }
+
+    a.underline {
+        --bg-h: 1px;
+        background: linear-gradient(0deg, currentColor, currentColor) no-repeat right bottom / 0 var(--bg-h);
+        display: inline-block;
+        padding-bottom: 1px;
+        margin-bottom: -1px;
+        transition: background-size 350ms, transform 350ms;
+    }
+
+    a.underline:where(:hover, :focus-visible) {
+        background-size: 100% var(--bg-h);
+        background-position-x: left;
+        transform: translate(0, -2px);
     }
 
     button,
@@ -313,7 +327,6 @@
 
     section {
         clear: both;
-        margin-bottom: 50px;
         box-sizing: border-box;
         margin: 2em;
         position: relative;
@@ -389,6 +402,7 @@
         white-space: nowrap;
     }
 
+    em,
     .text-clip {
         border-radius: 0.5em;
         background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
@@ -396,6 +410,12 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: var(--color-bg);
+        font-style: normal;
+    }
+
+    em svg,
+    .text-clip:not(.btn) svg {
+        color: var(--color-highlight);
     }
 
     .btn.text-clip {
