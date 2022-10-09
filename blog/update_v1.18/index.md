@@ -1,10 +1,8 @@
 ---
-layout: layouts/blog/single.njk
 title: "Pentacode v1.18: Pausen Planen, Zeiterfassungs-Regelsätze und mehr"
 publishDate: 2021-07-11
 cover: "az-konto.gif"
 author: mklein
-kind: page
 categories:
   - Produktupdates
 ---

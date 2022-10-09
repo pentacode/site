@@ -1,14 +1,14 @@
 ---
-layout: layouts/blog/single.njk
-title: 'Pentacode v1.21: Verfügbarkeiten, Festschreibung von Arbeitszeiten'
-publishDate: 2022-02-16
+title: "Pentacode v1.21: Verfügbarkeiten, Festschreibung von Arbeitszeiten"
 cover: dienstplan.png
+summary: Es ist uns immer wieder eine Freude, große und kleine Neuerungen und
+  Verbesserungen an unserer Software vorzustellen! Auch version 1.21 bringt
+  wieder mal einige tolle neue Features.
 author: mklein
-kind: page
 categories:
-- Produktupdates
+  - Produktupdates
+publishDate: 2022-02-16
 ---
-
 Es ist uns immer wieder eine Freude, große und kleine Neuerungen und Verbesserungen an unserer Software vorzustellen!
 Auch version 1.21 bringt wieder mal einige tolle neue Features:
 
@@ -31,10 +31,10 @@ leicht zugängliche Planungshilfe.
 
 Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügung:
 
-- {% icon "thumbs-up" %} **Verfügbar**
-- {% icon "ban" %} **Nicht Verfügbar**
-- {% icon "heart" %} **Bevorzugt**
-- {% icon "couch" %} **Wunschfrei**
+* {% icon "thumbs-up" %} **Verfügbar**
+* {% icon "ban" %} **Nicht Verfügbar**
+* {% icon "heart" %} **Bevorzugt**
+* {% icon "couch" %} **Wunschfrei**
 
 Und der beste Teil: **Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) können Mitarbeiter ihre
 eigenen Verfügbarkeiten selbst einsehen und bearbeiten!** Alles was Sie tun müssen, ist die entsprechende Berechtigung
@@ -45,7 +45,7 @@ Verfügbarkeiten dienen lediglich als Hinweis für die Dienstplanung und **könn
 werden**. Ob Sie Verfügbarkeiten selbst erfassen oder Ihre Mitarbeiter diese über die Mitarbeiter-App eingeben, sie
 behalten immer das letzte Wort.
 
-## Festschreibung von Arbeitzzeiten & Konten
+## Festschreibung von Arbeitszeiten & Konten
 
 Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der Umstand, dass Sie jederzeit "in die
 Vergangenheit reisen" und Korrekturen an bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei

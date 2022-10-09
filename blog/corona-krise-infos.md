@@ -1,5 +1,4 @@
 ---
-layout: layouts/blog/single.njk
 title: Wichtige Infos im Rahmen der Corona-Krise
 summary: Die Epidemie des Covid-19 Virus versetzt gerade die Gesamte Welt in einen
   Ausnahmezustand. Wie es bei uns weiter geht und welche Maßnahmen wir ergreifen,
@@ -7,9 +6,8 @@ summary: Die Epidemie des Covid-19 Virus versetzt gerade die Gesamte Welt in ein
 publishDate: 2020-03-19T23:00:00+00:00
 cover: "/uploads/covid-19-1.jpg"
 author: lstrasser
-kind: page
 categories:
-  - Ankündigungen
+  - Aktuelles
 ---
 
 Die Epidemie des Covid-19 Virus versetzt gerade die Welt in einen Ausnahmezustand. Jeder ist von der Krise betroffen, viele sehen Ihre Existenz bedroht. Vor allem die Gastronomie trifft die Corona-Krise hart - eine Branche die uns sehr am Herzen liegt und von der auch unsere eigene wirtschaftliche Zukunft direkt abhängt. Wie es bei uns weiter geht und welche Maßnahmen wir ergreifen, um unsere Kunden und Gastronomen im Allgemeinen zu unterstützen, erfahren Sie hier.

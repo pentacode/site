@@ -1,5 +1,4 @@
 ---
-layout: layouts/blog/single.njk
 title: Personalkosten-Optimierung in der Gastronomie - es gibt mehr Möglichkeiten
   als Sie denken
 summary: Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wenn es
@@ -10,10 +9,8 @@ date: '2020-09-23T22:00:00+00:00'
 publishDate: 2020-09-24
 cover: "/uploads/athlet.jpg"
 author: lstrasser
-kind: page
 categories:
-- Ratgeber
-keywords: []
+  - Ratgeber
 
 ---
 Im Verhältnis zu anderen Branchen schneidet die Gastronomie im Durchschnitt wirtschaftlich relativ schlecht ab. Dies wird häufig damit begründet, dass Lohnkosten und Abgabenlast zu hoch und damit die Profitabilität der Unternehmen zu gering seien. Dieser Eindruck entsteht leicht und ist verständlich, wenn ein Gastronom nach einer langen Reihe langer und harter Arbeitstage „sieht“, was für ihn am Ende übrig blieb. Die Annahme, dass die Kosten für Arbeit in Deutschland zu hoch sind, ist in den allermeisten Aspekten jedoch schlicht falsch.
