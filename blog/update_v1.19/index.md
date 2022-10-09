@@ -4,7 +4,7 @@ publishDate: 2021-07-24
 cover: dienstplannotiz-erstellen.gif
 author: mklein
 categories:
-    - Produktupdates
+    - Produkt
 
 ---
 Pentacode Version 1.19.0 ist hier! Dieses Update bringt einige langerwartete Features und Verbesserungen.

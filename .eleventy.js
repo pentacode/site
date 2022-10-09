@@ -7,7 +7,7 @@ const { minify: cleanHtml } = require("html-minifier-terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { getTOC } = require("./_lib/toc");
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.NODE_ENV === "production";
 
 async function minifyHtml(source, output_path) {
     if (!output_path.endsWith(".html") || !isProduction) return source;
@@ -28,10 +28,16 @@ async function minifyHtml(source, output_path) {
         removeStyleLinkTypeAttributes: true,
         sortAttributes: true,
         sortClassName: true,
-        useShortDoctype: true
+        useShortDoctype: true,
     });
 
-    console.log(`MINIFY ${output_path}`, source.length, `→`, result.length, `(${((1 - (result.length / source.length)) * 100).toFixed(2)}% reduction)`);
+    console.log(
+        `MINIFY ${output_path}`,
+        source.length,
+        `→`,
+        result.length,
+        `(${((1 - result.length / source.length) * 100).toFixed(2)}% reduction)`
+    );
 
     return result;
 }
@@ -56,7 +62,9 @@ module.exports = (config) => {
         markdownIt({
             html: true,
             linkify: true,
-        }).use(markdownItAnchor).use(markdownItFootnote)
+        })
+            .use(markdownItAnchor)
+            .use(markdownItFootnote)
     );
 
     const md = markdownIt({ html: true, linkify: true });
@@ -68,12 +76,15 @@ module.exports = (config) => {
         },
     });
 
-    config.addFilter('markdownify', (str) => {
+    config.addFilter("markdownify", (str) => {
         return md.renderInline(str);
     });
 
     config.addFilter("plainify", function (string) {
-        const text = md.render(string).replace(/(<([^>]+)>)/gi, "").trim();
+        const text = md
+            .render(string)
+            .replace(/(<([^>]+)>)/gi, "")
+            .trim();
         return text;
     });
 
@@ -102,13 +113,24 @@ module.exports = (config) => {
     config.addPairedNunjucksShortcode(
         "figure",
         (content, { caption = "", extraClass = "" } = {}) =>
-            html` <figure class="${extraClass}">${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}</figure> `
+            html`
+                <figure class="${extraClass}">
+                    ${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}
+                </figure>
+            `
     );
 
     config.addNunjucksShortcode("relref", (ref) => ref);
     config.addNunjucksShortcode("key", (key, extraClass = "") => html`<span class="key ${extraClass}">${key}</span>`);
     config.addNunjucksShortcode("icon", (icon) => html`<i class="fas fa-${icon}"></i>`);
-    config.addNunjucksShortcode("button", ({ label = "", icon = "", iconRight = "", extraClass = "" }) => html`<span class="fake-button ${extraClass}">${icon ? html`<i class="fas fa-${icon}"></i>` : ''} ${label ? label : ''} ${iconRight ? html`<i class="fas fa-${iconRight}"></i>` : ''}</span>`);
+    config.addNunjucksShortcode(
+        "button",
+        ({ label = "", icon = "", iconRight = "", extraClass = "" }) =>
+            html`<span class="fake-button ${extraClass}"
+                >${icon ? html`<i class="fas fa-${icon}"></i>` : ""} ${label ? label : ""}
+                ${iconRight ? html`<i class="fas fa-${iconRight}"></i>` : ""}</span
+            >`
+    );
     config.addNunjucksShortcode("param", (param) => html`<strong>[REPLACE_ME ${param}]</strong>`);
     config.addNunjucksShortcode("br", () => html`<br />`);
     config.addNunjucksShortcode(
@@ -128,7 +150,12 @@ module.exports = (config) => {
     config.addNunjucksShortcode(
         "youtube",
         (videoId) => html`
-            <iframe src="https://www.youtube.com/embed/${videoId}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+            <iframe
+                src="https://www.youtube.com/embed/${videoId}"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"
+                allowfullscreen
+                title="YouTube Video"
+            ></iframe>
         `
     );
     config.addPairedNunjucksShortcode("note", (content) => content);
@@ -145,23 +172,46 @@ module.exports = (config) => {
         return items.find((item) => item.order === this.ctx.eleventyNavigation.order - 1);
     });
 
-    config.addFilter("formatDate", (date) => (date ? new Date(date).toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) : ""));
+    config.addFilter("formatDate", (date) =>
+        date
+            ? new Date(date).toLocaleDateString("de-DE", {
+                  weekday: "long",
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+              })
+            : ""
+    );
     config.addFilter("orderByDate", orderByDate);
     config.addFilter("sortByWeight", (collection) => collection.sort((a, b) => b.weight - a.weight));
     config.addFilter("excludeDrafts", excludeDrafts);
-    config.addFilter("getNewestCollectionItemPublishDate", (collection) => new Date(Math.max(...collection.map(item => { return item.publishDate }))));
-    config.addFilter("getRelatedByMagazinCategories", (collection, magazinCategories, itemKey) => {
+    config.addFilter(
+        "getNewestCollectionItemPublishDate",
+        (collection) =>
+            new Date(
+                Math.max(
+                    ...collection.map((item) => {
+                        return item.publishDate;
+                    })
+                )
+            )
+    );
+    config.addFilter("getRelatedBycategories", (collection, categories, itemKey) => {
         orderByDate(collection);
 
-        const related = excludeDrafts(collection).filter((item) => item.magazinCategories?.some((category) => magazinCategories?.includes(category)) && item.key !== itemKey);
+        const related = excludeDrafts(collection).filter(
+            (item) => item.categories?.some((category) => categories?.includes(category)) && item.key !== itemKey
+        );
 
         return related.slice(0, 3);
     });
 
-    config.addFilter("filterByMagazinCategory", (collection, magazinCategory) => {
+    config.addFilter("filterByCategory", (collection, category) => {
         orderByDate(collection);
 
-        const filtered = excludeDrafts(collection).filter((item) => item.magazinCategories?.includes(magazinCategory));
+        const filtered = excludeDrafts(collection).filter(
+            (item) => !category || item.categories?.some(cat => cat.toLowerCase() === category)
+        );
 
         return filtered;
     });

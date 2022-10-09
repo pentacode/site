@@ -99,10 +99,10 @@ collections:
         required: true
         widget: "markdown"
   
-  - name: "magazin"
+  - name: "blog"
     label: "Magazin"
     identifier_field: title
-    folder: "magazin"
+    folder: "blog"
     path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
@@ -110,7 +110,7 @@ collections:
     extension: md
     format: frontmatter
     slug: "{{fields.slug}}"
-    preview_path: "magazin/{{slug}}"
+    preview_path: "blog/{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["publishDate", "title", "author"]
     nested:
@@ -133,7 +133,7 @@ collections:
         label: "Layout"
         required: true
         widget: "hidden"
-        default: "layouts/magazin/single.njk"
+        default: "layouts/blog/single.njk"
       - name: "slug"
         label: "Slug"
         required: true
@@ -156,7 +156,7 @@ collections:
           - { label: "Lorenz Strasser", value: "lstrasser" }
           - { label: "Julia Tomski", value: "jtomski" }
           - { label: "Martin Kleinschrodt", value: "mklein" }
-      - name: "magazinCategories"
+      - name: "categories"
         label: "Magazin Categories"
         required: false
         widget: "select"

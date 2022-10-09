@@ -3,9 +3,8 @@ title: "Das Gute von gestern, die Neugier von heute, Visionen von morgen - Was d
 publishDate: 2022-06-20
 cover: "bild1.jpg"
 author: jtomski
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Das gesunde Team
+categories:
+  - Erfolgsgeschichten
 ---
 
 Ein Hotel, vier Metzgereien mit eigener Produktion, zwei Gastronomien mit

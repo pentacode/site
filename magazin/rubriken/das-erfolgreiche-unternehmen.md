@@ -1,3 +1,3 @@
 ---
-redirect: /blog/rubriken/das-erfolgreiche-unternehmen
+redirect: /blog/rubriken/ratgeber
 ---

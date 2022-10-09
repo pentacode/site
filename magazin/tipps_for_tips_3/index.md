@@ -3,7 +3,7 @@ title: Tipps für Tips Vol. 3 - Bitte lächeln für mehr Trinkgeld!
 publishDate: 2022-06-02
 cover: "bild1.jpg"
 author: lstrasser
-magazinCategories:
+categories:
   - Das gesunde Team
   - Der zufriedene Kunde
 ---

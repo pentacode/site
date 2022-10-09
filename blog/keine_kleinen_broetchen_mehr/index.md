@@ -3,8 +3,8 @@ title: Keine kleinen Brötchen mehr backen - Wie Pentacode Personalmanagement sp
 publishDate: 2022-08-16
 cover: "bild1.webp"
 author: jtomski
-magazinCategories:
-  - Das erfolgreiche Unternehmen
+categories:
+  - Erfolgsgeschichten
 ---
 
 Ein „echtes Erweckungserlebnis“ – Jeder, der ein Unternehmen führt, hat in

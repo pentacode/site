@@ -4,9 +4,8 @@ publishDate: 2022-09-02
 cover: "pentacode-tipps_kommunikation_im_arbeitsumfeld_header.webp"
 coverAlt: "Mann am Schreibtisch schreit ins Telefon."
 author: lstrasser
-magazinCategories:
-  - Das gesunde Team
-  - Der zufriedene Kunde
+categories:
+  - Ratgeber
 ---
 
 Längst ist Kommunikation am Arbeitsplatz nicht mehr auf Telefon, Mail und

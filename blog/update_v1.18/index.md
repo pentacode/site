@@ -4,7 +4,7 @@ publishDate: 2021-07-11
 cover: "az-konto.gif"
 author: mklein
 categories:
-  - Produktupdates
+  - Produkt
 ---
 
 Es ist wiedermal Zeit für ein größeres Update! Pentacode v1.18 bringt Verbesserungen im Bereich der **Zeiterfassungseinstellungen**, ein **überarbeitetes Arbeitszeitkonto** und eine **neue Möglichkeit der Pausenerfassung**!

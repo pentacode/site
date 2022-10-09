@@ -4,9 +4,8 @@ publishDate: 2022-08-24
 cover: "pentacode-tipps_mitarbeiter_onboarding-header.webp"
 coverAlt: "Arbeitskollegen sitzen mit Laptops am Tisch. Zwei reichen sich die Hände"
 author: lstrasser
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Das gesunde Team
+categories:
+  - Ratgeber
 ---
 
 <cite>„Es gibt keine zweite Chance für den ersten Eindruck.“</cite> - Dieser

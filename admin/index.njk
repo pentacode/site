@@ -20,7 +20,7 @@
 
       CMS.registerPreviewStyle("/admin/base-preview.css");
       CMS.registerPreviewStyle("/admin/news-preview.css");
-      CMS.registerPreviewStyle("/admin/magazin-preview.css");
+      CMS.registerPreviewStyle("/admin/blog-preview.css");
       CMS.registerPreviewStyle("/admin/blog-preview.css");
       CMS.registerPreviewStyle("/admin/hilfe-preview.css");
       CMS.registerPreviewStyle("/admin/funktionen-preview.css");
@@ -67,18 +67,18 @@
           const { entry, widgetFor, getAsset } = this.props;
           const authorId = entry.getIn(['data', 'author']) || 'lstrasser';
           const title = md.renderInline(entry.getIn(['data', 'title']) || '');
-          const magazinCategories = (entry.getIn(['data', 'magazinCategories']) || []);
-          if (magazinCategories.length === 0) {
-            magazinCategories.push('Sonstiges');
+          const categories = (entry.getIn(['data', 'categories']) || []);
+          if (categories.length === 0) {
+            categories.push('Sonstiges');
           }
           const publishDate = entry.getIn(['data', 'publishDate']) ? new Date(entry.getIn(['data', 'publishDate'])) : new Date();
           const coverImage = entry.getIn(['data', 'cover']) || '';
           const coverImageUrl = getAsset(coverImage);
 
-          return h('div', { className: 'main single magazin-preview' },
+          return h('div', { className: 'main single blog-preview' },
             h('article', { className: 'main-article' },
               h('div', { className: 'layout horizontal meta-data' },
-                h('div', { className: 'stretch article-categories' }, magazinCategories.map((category) => h('div', {}, category))),
+                h('div', { className: 'stretch article-categories' }, categories.map((category) => h('div', {}, category))),
                 h('div', { className: 'article-date'}, publishDate.toLocaleDateString("de-DE", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })),
               ),
               h('div', { className: 'layout horizontal heading' },
@@ -341,7 +341,7 @@
       });
 
       CMS.registerPreviewTemplate("news", NewsPreview);
-      CMS.registerPreviewTemplate("magazin", MagazinPreview);
+      CMS.registerPreviewTemplate("blog", MagazinPreview);
       CMS.registerPreviewTemplate("blog", BlogPreview);
       CMS.registerPreviewTemplate("hilfe", HilfePreview);
       CMS.registerPreviewTemplate("funktionen", FunktionenPreview);

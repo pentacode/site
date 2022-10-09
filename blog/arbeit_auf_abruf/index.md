@@ -3,9 +3,8 @@ title: Arbeit auf Abruf
 publishDate: 2022-04-08
 cover: "bild5.jpg"
 author: lstrasser
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Das gesunde Team
+categories:
+  - Ratgeber
 ---
 
 „Arbeit auf Abruf“ ist einfach definiert: Ein Mitarbeiter kommt zur Arbeit, wenn es etwas zu tun gibt. Dieses Modell

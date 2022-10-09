@@ -4,7 +4,7 @@ publishDate: 2022-06-05
 cover: bewerbungsformular.png
 author: mklein
 categories:
-  - Produktupdates
+  - Produkt
 ---
 
 Der Sommer zieht ins Land, uns es sieht so aus als könnten wir dieses Jahr zum

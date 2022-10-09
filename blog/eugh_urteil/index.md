@@ -3,9 +3,8 @@ title: Und täglich grüßt die Stechuhr – Alles, was Unternehmen rund um das 
 publishDate: 2022-04-15
 cover: "bild1.png"
 author: lstrasser
-magazinCategories:
-  - Das gesunde Team
-  - Das erfolgreiche Unternehmen
+categories:
+  - Ratgeber
 ---
 
 Im Mai 2019 fällte der Europäische Gerichtshof als Reaktion auf die Klage einer spanischen Gewerkschaft ein

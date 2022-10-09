@@ -3,9 +3,8 @@ title: Willkommen im Zeitalter der Dienstleistung! – Warum intrinsische Motiva
 publishDate: 2022-06-05
 cover: "bild1.jpg"
 author: lstrasser
-magazinCategories:
-  - Das gesunde Team
-  - Das erfolgreiche Unternehmen
+categories:
+  - Ratgeber
 ---
 
 > Ähnlich wie im Spiel sind wir auch am Arbeitsplatz auf der Suche nach

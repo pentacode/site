@@ -1,3 +1,3 @@
 ---
-redirect: /blog
+redirect: /blog/intrinsische_motivation
 ---

@@ -3,8 +3,8 @@ title: Wenn das Finanzamt klingelt - Die 5 häufigsten Fragen zum Thema Betriebs
 publishDate: 2022-05-30
 cover: "bild1.jpg"
 author: lstrasser
-magazinCategories:
-  - Das erfolgreiche Unternehmen
+categories:
+  - Ratgeber
 ---
 
 Das Thema Betriebsprüfung ist ein leidiges - vor allem für die Unternehmen, die sich nicht gut darauf vorbereiten. Das

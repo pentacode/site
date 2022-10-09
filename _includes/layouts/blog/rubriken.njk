@@ -1,4 +1,4 @@
-{% set main_title = magazinCategory + ' - ' + title + ' | Pentacode' %}
+{% set main_title = blogCategory + ' - ' + title + ' | Pentacode' %}
 
 {% extends "../base.njk" %}<!-- -->
 
@@ -6,7 +6,7 @@
 
 {{ super() }}
 
-{% include "styles/magazin.html" %}<!-- -->
+{% include "styles/blog.html" %}<!-- -->
 {% include "styles/section-menu.html" %}<!-- -->
 {% include "styles/search.html" %}<!-- -->
 
@@ -19,31 +19,31 @@
     <div class="main list">
         <ul class="categories-menu horizontal center-justifying layout">
             <li>
-                <a href="/magazin">Alle Rubriken</a>
+                <a href="/blog">Alle Rubriken</a>
             </li>
 
             <li>
-                <a href="/magazin/rubriken/das-erfolgreiche-unternehmen" {% if magazinCategory === "Das erfolgreiche Unternehmen" %}class="active"{% endif %}>Das erfolgreiche Unternehmen</a>
+                <a href="/blog/rubriken/das-erfolgreiche-unternehmen" {% if blogCategory === "Das erfolgreiche Unternehmen" %}class="active"{% endif %}>Das erfolgreiche Unternehmen</a>
             </li>
 
             <li>
-                <a href="/magazin/rubriken/das-gesunde-team" {% if magazinCategory === "Das gesunde Team" %}class="active"{% endif %}>Das gesunde Team</a>
+                <a href="/blog/rubriken/das-gesunde-team" {% if blogCategory === "Das gesunde Team" %}class="active"{% endif %}>Das gesunde Team</a>
             </li>
 
             <li>
-                <a href="/magazin/rubriken/der-zufriedene-kunde" {% if magazinCategory === "Der zufriedene Kunde" %}class="active"{% endif %}>Der zufriedene Kunde</a>
+                <a href="/blog/rubriken/der-zufriedene-kunde" {% if blogCategory === "Der zufriedene Kunde" %}class="active"{% endif %}>Der zufriedene Kunde</a>
             </li>
         </ul>
 
-        <ul class="articles-list">
-            {% set pages = collections.all | eleventyNavigation("/magazin") | filterByMagazinCategory(magazinCategory) | orderByDate | excludeDrafts %}
+        <ul class="articles-list animation-reveal-children">
+            {% set pages = collections.all | eleventyNavigation("/blog") | filterByMagazinCategory(blogCategory) | orderByDate | excludeDrafts %}
 
             {% for page in pages %}
                 {% set author = staff[page.author or "lstrasser"] %}
                 <li>
                     <article>
                         <div class="cover-image">
-                            <a href="{{ page.url }}" title="{{ page.title }}">
+                            <a href="{{ page.url }}">
                                 {% if page.cover %}
                                     <img class="article-cover stretch collapse" src="{{ page.cover }}" alt="{{ page.coverAlt or page.title }}" />
                                 {% endif %}
@@ -51,7 +51,7 @@
                         </div>
 
                         <div class="article-categories">
-                            {% for category in page.magazinCategories %}
+                            {% for category in page.categories %}
                                 <div>{{ category }}</div>
                             {% else %}
                                 <div>Sonstiges</div>
@@ -71,7 +71,7 @@
 
                         <div class="horizontal center-aligning layout">
                             <div class="article-author center-aligning horizontal layout stretch">
-                                <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
+                                <img class="article-author-image" src="{{ author.image }}" />
                                 <div class="article-author-name stretch">{{ author.name }}</div>
                             </div>
 

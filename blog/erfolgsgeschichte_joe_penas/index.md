@@ -6,9 +6,8 @@ cover: pentacode_joe_penas-3.webp
 coverAlt: "Bild von Uli Frankenhauser, Inhaber einiger Joe Penas Standorte"
 author: lstrasser
 publishDate: 2022-09-22
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Das gesunde Team
+categories:
+  - Erfolgsgeschichten
 ---
 
 Es gibt eine Sache, die lässt jeden noch so erfahrenen Unternehmer nicht kalt.

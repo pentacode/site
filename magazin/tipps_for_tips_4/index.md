@@ -3,7 +3,7 @@ title: "Tipps für Tips Vo. 4: Wie kommt es beim Gast an, wenn er berührt wird?
 publishDate: 2022-06-13
 cover: "bild1.jpg"
 author: lstrasser
-magazinCategories:
+categories:
   - Das gesunde Team
   - Der zufriedene Kunde
 ---

@@ -4,9 +4,8 @@ publishDate: 2022-09-09
 cover: "pentacode-vorteile_zeiterfassung_2.webp"
 coverAlt: "Overshoulder, Mann sitzt am Tisch und blickt auf eine Wanduhr."
 author: lstrasser
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Das gesunde Team
+categories:
+  - Ratgeber
 ---
 
 Das [EuGH-Urteil von 2019](../eugh_urteil/) verpflichtet jedes Unternehmen

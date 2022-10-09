@@ -4,7 +4,7 @@ publishDate: 2022-09-04
 cover: sofortmeldung.webp
 author: mklein
 categories:
-  - Produktupdates
+  - Produkt
 ---
 
 In vielen Branchen ist das stetiges Kommen und Gehen vieler Mitarbeiter der

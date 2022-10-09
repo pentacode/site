@@ -3,9 +3,8 @@ title: "Der Mensch im Fokus: Ein Schulterblick auf die Arbeit eines Chef-Entwick
 publishDate: 2022-07-19
 cover: "bild1.webp"
 author: jtomski
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Der zufriedene Kunde
+categories:
+  - Produkt
 ---
 
 Wie arbeitet eigentlich ein App Entwickler? Welche Fragen und Herausforderungen

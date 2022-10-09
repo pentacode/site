@@ -4,9 +4,7 @@
 
 {{ super() }}
 
-{% include "styles/magazin.html" %}<!-- -->
-{% include "styles/section-menu.html" %}<!-- -->
-{% include "styles/search.html" %}<!-- -->
+{% include "styles/blog.html" %}<!-- -->
 
 {% endblock %}<!-- -->
 
@@ -15,29 +13,33 @@
 <div class="main list">
     <ul class="categories-menu horizontal center-justifying layout">
         <li>
-            <a href="/magazin" class="active">Alle Rubriken</a>
+            <a href="/blog" class="underline {% if not category %}active{% endif %}">
+                <i class="far fa-list-timeline"></i> Alle Rubriken
+            </a>
         </li>
 
+        {% for cat in all_categories %}
         <li>
-            <a href="/magazin/rubriken/das-erfolgreiche-unternehmen">Das erfolgreiche Unternehmen</a>
+            <a
+                href="/blog/rubriken/{{ cat.name }}"
+                class="underline {{ cat.color }} {% if category === cat.name %}active{% endif %}"
+            >
+                <i class="far fa-{{ cat.icon }}"></i> {{ cat.title }}</a
+            >
         </li>
-
-        <li>
-            <a href="/magazin/rubriken/das-gesunde-team">Das gesunde Team</a>
-        </li>
-
-        <li>
-            <a href="/magazin/rubriken/der-zufriedene-kunde">Der zufriedene Kunde</a>
-        </li>
+        {% endfor %}
     </ul>
 
-    <ul class="articles-list">
-        {% set pages = collections.all | eleventyNavigation(eleventyNavigation.key) | orderByDate | excludeDrafts %} {%
-        for page in pages %} {% set author = staff[page.author or "lstrasser"] %}
+    <ul class="articles-list animation-reveal-children">
+        {% set pages = collections.all | eleventyNavigation("/blog") | filterByCategory(category) | orderByDate |
+        excludeDrafts %}
+        <!-- -->
+
+        {% for page in pages %} {% set author = staff[page.author or "lstrasser"] %}
         <li>
             <article>
                 <div class="cover-image">
-                    <a href="{{ page.url }}" title="{{ page.title }}">
+                    <a href="{{ page.url }}">
                         {% if page.cover %}
                         <img
                             class="article-cover stretch collapse"
@@ -49,10 +51,10 @@
                 </div>
 
                 <div class="article-categories">
-                    {% for category in page.magazinCategories %}
-                    <div>{{ category }}</div>
-                    {% else %}
-                    <div>Sonstiges</div>
+                    {% for category in page.expanded_categories %}
+                    <div class="{{ category.color }}">
+                        <i class="far fa-{{ category.icon }}"></i> {{ category.title }}
+                    </div>
                     {% endfor %}
                 </div>
 
@@ -69,7 +71,7 @@
 
                 <div class="horizontal center-aligning layout">
                     <div class="article-author center-aligning horizontal layout stretch">
-                        <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
+                        <img class="article-author-image" src="{{ author.image }}" />
                         <div class="article-author-name stretch">{{ author.name }}</div>
                     </div>
 

@@ -3,7 +3,7 @@ title: "Die Rechnung bitte! - Welchen Einfluss Notizen oder Smileys auf die Trin
 publishDate: 2022-07-01
 cover: "bild1.jpg"
 author: lstrasser
-magazinCategories:
+categories:
   - Das gesunde Team
   - Der zufriedene Kunde
 ---

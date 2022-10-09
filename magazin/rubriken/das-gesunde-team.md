@@ -1,3 +1,3 @@
 ---
-redirect: /blog/rubriken/das-gesunde-team
+redirect: /blog/rubriken/ratgeber
 ---

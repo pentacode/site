@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/blog/index.njk",
+    "eleventyExcludeFromCollections": true
+}

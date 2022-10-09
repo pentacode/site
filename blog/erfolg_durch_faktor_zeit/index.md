@@ -3,9 +3,8 @@ title: Erfolg durch Faktor Zeit
 publishDate: 2022-04-29
 cover: "bild5.jpg"
 author: jtomski
-magazinCategories:
-  - Das erfolgreiche Unternehmen
-  - Das gesunde Team
+categories:
+  - Ratgeber
 ---
 
 > Wer Zeitfresser eliminiert, wird erfolgreicher sein.

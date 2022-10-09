@@ -9,10 +9,8 @@ coverAlt:
     Siebträger-Maschine zu."
 author: jtomski
 publishDate: 2022-10-07
-magazinCategories:
-    - Das erfolgreiche Unternehmen
-    - Das gesunde Team
-    - Der zufriedene Kunde
+categories:
+    - Erfolgsgeschichten
 ---
 
 Als Fabian Stingl, heute Multigastronom, 2010 mit Geschäftspartner Stefan Alof

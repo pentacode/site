@@ -1,3 +1,3 @@
 ---
-redirect: /blog/rubriken/der-zufriedene-kunde
+redirect: /blog/rubriken/ratgeber
 ---

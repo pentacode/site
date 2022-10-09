@@ -3,9 +3,8 @@ title: Stellenanzeigen richtig angehen – In 9 Schritten zum Recruiting-Erfolg
 publishDate: 2022-08-03
 cover: "bild1.webp"
 author: jtomski
-magazinCategories:
-  - Das gesunde Team
-  - Das erfolgreiche Unternehmen
+categories:
+  - Ratgeber
 ---
 
 Stellenanzeigen sind noch immer einer der Schlüsselfaktoren für ein

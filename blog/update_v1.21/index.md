@@ -6,7 +6,7 @@ summary: Es ist uns immer wieder eine Freude, große und kleine Neuerungen und
   wieder mal einige tolle neue Features.
 author: mklein
 categories:
-  - Produktupdates
+  - Produkt
 publishDate: 2022-02-16
 ---
 Es ist uns immer wieder eine Freude, große und kleine Neuerungen und Verbesserungen an unserer Software vorzustellen!

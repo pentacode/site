@@ -1,3 +1,3 @@
 ---
-redirect: /blog
+redirect: /blog/erfolgsgeschichte_joe_penas
 ---
