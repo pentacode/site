@@ -1,6 +1,30 @@
-{% set main_title = title + ' | Magazin | Pentacode' %} {% extends "../base.njk" %}<!-- -->
+{% set main_title = title + ' | Blog | Pentacode' %}
+<!-- -->
+{% set author = staff[author or "lstrasser"] %}
+<!-- -->
+{% extends "../base.njk" %}<!-- -->
 
-{% block styles %}
+{% block meta %}
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "{% if 'aktuelles' in categories %}NewsArticle{% else %}BlogPosting{% endif %}",
+        "headline": "{{ title }}",
+        "image": ["{{ cover }}"],
+        "datePublished": "{{ date }}",
+        "dateModified": "{{ date }}",
+        "author": [
+            {
+                "@type": "Person",
+                "name": "{{ author.name }}",
+                "jobTitle": "{{ author.title }}"
+            }
+        ]
+    }
+</script>
+
+{% endblock %} {% block styles %}
 
 {{ super() }}
 
@@ -8,7 +32,7 @@
 
 {% endblock %}<!-- -->
 
-{% block body %} {% include "components/header.njk" %} {% set author = staff[author or "lstrasser"] %}
+{% block body %} {% include "components/header.njk" %}
 
 <div class="main single">
     <article class="main-article">

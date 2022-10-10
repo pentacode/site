@@ -4,10 +4,10 @@ summary: Die Epidemie des Covid-19 Virus versetzt gerade die Gesamte Welt in ein
   Ausnahmezustand. Wie es bei uns weiter geht und welche Maßnahmen wir ergreifen,
   um unsere Kunden und Gastronomen im allgemeinen zu unterstützen erfahren Sie hier.
 date: 2020-03-19T23:00:00+00:00
-cover: "/uploads/covid-19-1.jpg"
+cover: "covid-19-1.jpg"
 author: lstrasser
 categories:
-  - Aktuelles
+  - aktuelles
 ---
 
 Die Epidemie des Covid-19 Virus versetzt gerade die Welt in einen Ausnahmezustand. Jeder ist von der Krise betroffen, viele sehen Ihre Existenz bedroht. Vor allem die Gastronomie trifft die Corona-Krise hart - eine Branche die uns sehr am Herzen liegt und von der auch unsere eigene wirtschaftliche Zukunft direkt abhängt. Wie es bei uns weiter geht und welche Maßnahmen wir ergreifen, um unsere Kunden und Gastronomen im Allgemeinen zu unterstützen, erfahren Sie hier.
@@ -21,8 +21,6 @@ Zunächst möchten wir ihnen versichern, dass die Verfügbarkeit all unserer Sof
 Wir stehen Ihnen in Supportanfragen natürlich weiterhin und ungebrochen zur Verfügung. Aufgrund der momentanen Situation bitten wir Sie allerdings Ihre Fragen per Email an [support@pentaco.de](mailto:support@pentaco.de) zu stellen, da wir über unsere Hotline momentan nur begrenzt erreichbar sind. Wir werden uns in jedem Fall sehr zeitnah und auch während der Wochenenden bei Ihnen melden.
 
 Wenn Sie bereits in der neuen Version von Pentacode arbeiten, verwenden Sie für die Kontaktaufnahme am besten das Kontaktformular direkt in der App.
-
-![](https://pentaco.de/content/images/2020/03/Screenshot-2020-03-20-at-11.46.20.png "Unseren Support erreichen Sie immer auch direkt über das Kontaktformular in der App.")
 
 ### Beitragsstundung
 
