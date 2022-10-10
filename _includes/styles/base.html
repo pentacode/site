@@ -473,6 +473,20 @@
         font-family: monospace;
     }
 
+    .rainbow {
+        background: linear-gradient(
+            125deg,
+            var(--green) 0%,
+            var(--blue) 25%,
+            var(--purple) 50%,
+            var(--orange) 75%,
+            var(--red) 100%
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
     @media (max-width: 55em) {
         figure.float-right,
         figure.float-left {

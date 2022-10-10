@@ -11,7 +11,12 @@
 {% block body %} {% include "components/header.njk" %}
 
 <div class="main list">
-    <ul class="categories-menu horizontal center-justifying layout">
+    <div class="vertical center-aligning layout">
+        <h1 class="rainbow">Der Pentacode <strong>Blog</strong></h1>
+        <p>Produkt-Updates, Aktuelles zum Thema Personalmanagement und mehr!</p>
+    </div>
+
+    <ul class="categories-menu">
         <li>
             <a href="/blog" class="underline {% if not category %}active{% endif %}">
                 <i class="far fa-list-timeline"></i> Alle Rubriken
@@ -30,7 +35,7 @@
         {% endfor %}
     </ul>
 
-    <ul class="articles-list animation-reveal-children">
+    <ul class="articles-list">
         {% set pages = collections.all | eleventyNavigation("/blog") | filterByCategory(category) | orderByDate |
         excludeDrafts %}
         <!-- -->
@@ -38,11 +43,10 @@
         {% for page in pages %} {% set author = staff[page.author or "lstrasser"] %}
         <li>
             <article>
-                <div class="cover-image">
+                <div class="article-cover">
                     <a href="{{ page.url }}">
                         {% if page.cover %}
                         <img
-                            class="article-cover stretch collapse"
                             src="{{ page.cover }}"
                             alt="{{ page.coverAlt or page.title }}"
                         />
@@ -53,31 +57,34 @@
                 <div class="article-categories">
                     {% for category in page.expanded_categories %}
                     <div class="{{ category.color }}">
-                        <i class="far fa-{{ category.icon }}"></i> {{ category.title }}
+                        <i class="far fa-{{ category.icon }} article-category-icon"></i> {{ category.title }}
                     </div>
                     {% endfor %}
                 </div>
 
-                <a href="{{ page.url }}" class="stretch">
+                <a href="{{ page.url }}" class="article-title">
                     <h2>{{ page.title | markdownify | safe }}</h2>
                 </a>
 
                 <div class="article-summary">
+                    <p>
                     {{ page.excerpt | plainify | safe }}...
-                    <a href="{{ page.url }}" class="article-continue">
-                        weiterlesen <i class="fas fa-arrow-right icon"></i>
+                    </p>
+                    <a href="{{ page.url }}" class="underline article-continue">
+                        Weiterlesen <i class="fas fa-arrow-right icon"></i>
                     </a>
                 </div>
 
-                <div class="horizontal center-aligning layout">
-                    <div class="article-author center-aligning horizontal layout stretch">
-                        <img class="article-author-image" src="{{ author.image }}" />
-                        <div class="article-author-name stretch">{{ author.name }}</div>
+                <div class="article-author center-aligning horizontal layout">
+                    <img class="article-author-image" src="{{ author.image }}" />
+                    <div class="stretch">
+                        <div class="article-author-name">{{ author.name }}</div>
+                        <div class="article-author-title">{{ author.title }}</div>
                     </div>
+                </div>
 
-                    <div class="article-date">
-                        {{ page.publishDate | formatDate }}
-                    </div>
+                <div class="article-date">
+                    {{ page.publishDate | formatDate }}
                 </div>
             </article>
         </li>

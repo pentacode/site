@@ -4,8 +4,8 @@ title: „Dieses Tool lässt mich ruhig schlafen.“ – Wie smartes Personalman
 slug: erfolgsgeschichte_joe_penas
 cover: pentacode_joe_penas-3.webp
 coverAlt: "Bild von Uli Frankenhauser, Inhaber einiger Joe Penas Standorte"
-author: lstrasser
-publishDate: 2022-09-22
+author: jtomski
+publishDate: 2022-09-15
 categories:
   - Erfolgsgeschichten
 ---

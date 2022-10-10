@@ -2,20 +2,23 @@
     .main {
         max-width: 60em;
         margin: 0 auto;
+        padding: 1em 1em 1em 1.5em;
     }
 
-    .main-cover {
-        text-align: center;
+    .main.list h1 {
+        margin: 0;
     }
 
     ul.categories-menu {
-        margin-top: 2em;
-        margin-bottom: -2em;
+        margin-top: 2em 0.5em;
         list-style: none;
         font-size: 0.8em;
         font-weight: 600;
-        flex-wrap: wrap;
         padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;;
     }
 
     ul.categories-menu > :not(:last-child) {
@@ -35,53 +38,85 @@
 
     ul.articles-list {
         list-style-type: none;
-        padding: 2em;
+        padding: 0;
+        margin: 2em 0;
+        border-left: dashed 2px var(--shade-2);
+    }
+
+    ul.articles-list article {
+        margin-bottom: 5em;
+    }
+
+    article {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-        grid-gap: 2em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "category category category date"
+            "title title title author"
+            "body body cover cover";
+        gap: 1em;
+        position: relative;
+        padding: 0 0 2em 1.5em;
     }
 
     ul.articles-list article h2 {
-        margin: 0.3em 0;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        grid-area: title;
+        margin: 0;
     }
 
-    .list ul.articles-list li:first-child {
-        grid-column: -1/1;
-        font-size: 1.2em;
-        padding: 0 2em;
+    .single .main-article .article-title {
+        font-size: 2em;
+        margin: 0;
+        font-weight: normal;
     }
 
-    .single article h1 {
-        margin-right: 1em;
-        color: var(--color-highlight);
+    .article-title {
+        grid-area: title;
     }
 
     .article-categories {
-        margin: 0.5em 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0.5em;
+        grid-area: category;
     }
 
     .article-categories > * {
-        font-size: 0.8em;
         color: var(--color-highlight, var(--orange));
-        border-radius: 0.5em;
-        border: solid 1px;
-        padding: 0.1em 0.4em;
         display: inline-block;
-        font-weight: bold;
+    }
+
+    .article-categories > :first-child .article-category-icon {
+        position: absolute;
+        left: -0.6em;
+        padding: 0.5em;
+        margin: -0.5em;
+        background: var(--color-bg);
+        border: solid 1px;
+        border-radius: 100%;
+        width: 1em;
+        height: 1em;
     }
 
     .article-date {
-        opacity: 0.5;
+        opacity: 0.7;
+        font-size: 0.9em;
+        grid-area: date;
+    }
+
+    .article-author {
+        grid-area: author;
+        align-self: start;
+        display: flex;
+        align-items: center;
     }
 
     .article-author-image {
-        width: 3em;
-        height: 3em;
+        width: 2.8em;
+        height: 2.8em;
         border-radius: 100%;
         margin-right: 0.5em;
         object-fit: cover;
@@ -93,6 +128,7 @@
 
     .article-author-title {
         opacity: 0.7;
+        font-size: 0.9em;
     }
 
     .articles-list .article-author {
@@ -100,60 +136,36 @@
     }
 
     .articles-list .article-author-image {
-        width: 1.5em;
-        height: 1.5em;
         border-radius: 100%;
         margin-right: 0.5em;
         object-fit: cover;
     }
 
-    .articles-list .article-author-name {
-        font-size: 0.8em;
-    }
-
-    .articles-list .article-date {
-        font-size: 0.8em;
-    }
-
-    .articles-list .article-categories {
-        font-size: 0.8em;
-    }
-
     .article-summary {
-        margin: 0.5em 0;
-        font-size: 0.8em;
+        grid-area: body;
+        margin-right: 1em;
+    }
+
+    .article-summary p {
+        margin-top: 0;
     }
 
     .article-cover {
-        border-radius: 0.5em;
-        object-fit: cover;
-    }
-
-    .cover-image {
         position: relative;
         padding-bottom: 62%;
-        margin-bottom: 1em;
+        grid-area: cover;
     }
 
-    .cover-image img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .single .article-cover-wrapper {
-        position: relative;
-        padding-top: 62%;
-        margin-bottom: 2em;
-    }
-
-    .single .article-cover {
+    .article-cover img {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+        object-fit: cover;
+        border-radius: 0.5em;
+        object-fit: cover;
+        box-shadow: rgb(0 0 0 / 30%) 0 10px 30px -10px;
     }
 
     .article-continue > .icon {
@@ -161,11 +173,23 @@
     }
 
     .article-content {
-        margin: 0.5em 4rem;
+        margin: 0.5em 2em;
+        grid-area: body;
     }
 
     .single .main-article {
-        padding: 3em 1em;
+        padding: 0 2em 15em 2em;
+        border-left: dashed 2px var(--shade-2);
+        grid-template-areas:
+            "category category category date"
+            "title title title author"
+            "cover cover cover cover"
+            "body body body body";
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .single .main-article .article-cover {
+        margin: 1em 0;
     }
 
     article blockquote {
@@ -206,53 +230,58 @@
     }
 
     .related-articles {
-        padding: 1em;
+        margin-top: -5em;
     }
 
     .related-articles .articles-list {
-        padding: 0;
+        margin: 0;
     }
 
     .related-articles > h2 {
+        font-size: 1.2em;
+        opacity: 0.7;
         text-align: center;
+        margin-bottom: 2em;
     }
 
-    @media (max-width: 55em) {
-        ul.articles-list {
-            padding: 1em;
+    @media (max-width: 900px) {
+        article, .single .main-article {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto;
+            grid-template-areas:
+                "category"
+                "title"
+                "author"
+                "date"
+                "cover"
+                "body";
+            gap: 1em;
+            position: relative;
+            padding-top: 0;
+            padding-right: 0;
+            padding-left: 1.5em;
         }
 
-        .single .main-article {
-            padding: 1em;
-        }
-
-        .single .meta-data {
-            flex-direction: column;
+        .single .main-article .article-title {
+            font-size: 1.5em;
         }
 
         .article-content {
-            margin: 0.5em 0;
+            margin: 0;
         }
 
-        .horizontal.layout.heading {
-            flex-direction: column;
+        ul.articles-list article {
+            margin-bottom: 2em;
         }
 
-        .heading h1 {
-            font-size: 200%;
-            margin: 0.5em 0;
-        }
-
-        .main-article .article-author {
-            margin-bottom: 1em;
-        }
-
-        .list ul.articles-list li:first-child {
-            padding: 0;
-        }
-
-        figure.float {
+        figure {
             float: none !important;
+            margin: 0 !important;
+            width: auto !important;
+        }
+
+        .main.list h1 {
+            font-size: 2em;
         }
     }
 </style>

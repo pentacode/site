@@ -1,6 +1,6 @@
 ---
 title: Die Stechuhr war gestern - Warum elektronische Zeiterfassung den Gewinn erhöht
-publishDate: 2022-09-09
+publishDate: 2022-09-22
 cover: "pentacode-vorteile_zeiterfassung_2.webp"
 coverAlt: "Overshoulder, Mann sitzt am Tisch und blickt auf eine Wanduhr."
 author: lstrasser
