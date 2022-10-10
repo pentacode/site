@@ -3,7 +3,7 @@ title: "Corona-Krisenratgeber für Gastronomen: So beantragen Sie Hilfsmittel"
 summary: Die Regierungen von Bund und Ländern haben angesichts der Corona-Krise ein
   außergewöhnliches Paket an Hilfsmaßnahmen zusammengestellt und eine unbürokratische
   Umsetzung zugesichert. Wir haben die wichtigsten Punkte für Sie zusammengefasst.
-publishDate: 2020-03-19T23:00:00+00:00
+date: 2020-03-19T23:00:00+00:00
 cover: "/uploads/bundesregierung-1.jpg"
 author: lstrasser
 categories:

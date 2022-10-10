@@ -8,7 +8,7 @@ coverAlt:
     "Fabian Stingl, Mitgründer der Bäckerei Alof, bereitet Kaffee an
     Siebträger-Maschine zu."
 author: jtomski
-publishDate: 2022-10-07
+date: 2022-10-07
 categories:
     - Erfolgsgeschichten
 ---

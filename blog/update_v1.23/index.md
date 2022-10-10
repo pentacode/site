@@ -1,6 +1,6 @@
 ---
 title: "Pentacode v1.23: Sofortmeldungen und Personalfragebogen"
-publishDate: 2022-09-04
+date: 2022-09-04
 cover: sofortmeldung.webp
 author: mklein
 categories:

@@ -17,14 +17,14 @@
             <div class="{{ category.color }}">
                 <i class="far fa-{{ category.icon }} article-category-icon"></i>
                 <a href="/blog/rubriken/{{ category.name }}" class="underline">
-                {{ category.title }}
-            </a>
+                    {{ category.title }}
+                </a>
             </div>
             {% endfor %}
         </div>
 
         <div class="article-date">
-            {{ (publishDate or date) | formatDate }}
+            {{ (date or date) | formatDate }}
         </div>
 
         <div class="article-author">
@@ -52,7 +52,7 @@
         <h2><i class="fal fa-lightbulb-on"></i> Das könnte Dich auch interessieren:</h2>
 
         <ul class="articles-list">
-            {% set relatedPosts = collections.all | eleventyNavigation("/blog") | getRelatedBycategories(categories,
+            {% set relatedPosts = collections.all | eleventyNavigation("/blog") | getRelatedByCategories(categories,
             eleventyNavigation.key) %}
             <!-- -->
 
@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="article-author center-aligning horizontal layout">
-                        <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}"/>
+                        <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
                         <div class="stretch">
                             <div class="article-author-name">{{ author.name }}</div>
                             <div class="article-author-title">{{ author.title }}</div>
@@ -97,7 +97,7 @@
                     </div>
 
                     <div class="article-date">
-                        {{ page.publishDate | formatDate }}
+                        {{ page.date | formatDate }}
                     </div>
                 </article>
             </li>

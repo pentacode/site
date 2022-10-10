@@ -1,6 +1,6 @@
 ---
 title: Keine kleinen Brötchen mehr backen - Wie Pentacode Personalmanagement spielend leicht macht
-publishDate: 2022-08-16
+date: 2022-08-16
 cover: "bild1.webp"
 author: jtomski
 categories:

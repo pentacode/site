@@ -1,6 +1,6 @@
 ---
 title: "Das Gute von gestern, die Neugier von heute, Visionen von morgen - Was das Genuss-Imperium Wenisch so erfolgreich macht"
-publishDate: 2022-06-20
+date: 2022-06-20
 cover: "bild1.jpg"
 author: jtomski
 categories:

@@ -1,6 +1,6 @@
 ---
 title: "Pentacode v1.22: Dokumentenarchiv, Stellenausschreibungen und mehr!"
-publishDate: 2022-06-05
+date: 2022-06-05
 cover: bewerbungsformular.webp
 author: mklein
 categories:

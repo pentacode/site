@@ -5,8 +5,7 @@ summary: Umsatz zu steigern ist aufwändig, Kosten senken leicht. Vor allem, wen
   um Personalkosten geht, bietet in Europa gerade Deutschland die besten Voraussetzungen
   für Arbeitgeber. Warum und wie Sie die bestehenden Möglichkeiten unbedingt nutzen
   sollten.
-date: '2020-09-23T22:00:00+00:00'
-publishDate: 2020-09-24
+date: 2020-09-24
 cover: "/uploads/athlet.jpg"
 author: lstrasser
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Stellenanzeigen richtig angehen – In 9 Schritten zum Recruiting-Erfolg
-publishDate: 2022-08-03
+date: 2022-08-03
 cover: "bild1.webp"
 author: jtomski
 categories:

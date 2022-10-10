@@ -5,7 +5,7 @@ slug: erfolgsgeschichte_joe_penas
 cover: pentacode_joe_penas-3.webp
 coverAlt: "Bild von Uli Frankenhauser, Inhaber einiger Joe Penas Standorte"
 author: jtomski
-publishDate: 2022-09-15
+date: 2022-09-15
 categories:
   - Erfolgsgeschichten
 ---

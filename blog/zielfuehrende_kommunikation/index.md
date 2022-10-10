@@ -1,6 +1,6 @@
 ---
 title: Zielführend kommunizieren im Arbeitsalltag - Was unsere Meetings, Mails und Kundengespräche besser macht
-publishDate: 2022-09-02
+date: 2022-09-02
 cover: "pentacode-tipps_kommunikation_im_arbeitsumfeld_header.webp"
 coverAlt: "Mann am Schreibtisch schreit ins Telefon."
 author: lstrasser

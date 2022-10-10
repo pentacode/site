@@ -1,6 +1,6 @@
 ---
 title: "Der Mensch im Fokus: Ein Schulterblick auf die Arbeit eines Chef-Entwicklers"
-publishDate: 2022-07-19
+date: 2022-07-19
 cover: "bild1.webp"
 author: jtomski
 categories:

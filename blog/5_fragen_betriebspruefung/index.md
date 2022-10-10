@@ -1,6 +1,6 @@
 ---
 title: Wenn das Finanzamt klingelt - Die 5 häufigsten Fragen zum Thema Betriebsprüfung
-publishDate: 2022-05-30
+date: 2022-05-30
 cover: "bild1.jpg"
 author: lstrasser
 categories:

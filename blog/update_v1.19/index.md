@@ -1,6 +1,6 @@
 ---
 title: 'Pentacode v1.19: Dienstplannotizen, Schichtwahl, Schichttausch'
-publishDate: 2021-07-24
+date: 2021-07-24
 cover: dienstplannotiz-erstellen.gif
 author: mklein
 categories:

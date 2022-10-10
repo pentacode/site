@@ -1,6 +1,6 @@
 ---
 title: Und täglich grüßt die Stechuhr – Alles, was Unternehmen rund um das EuGH Urteil zur Zeiterfassung wissen müssen
-publishDate: 2022-04-15
+date: 2022-04-15
 cover: "bild1.png"
 author: lstrasser
 categories:

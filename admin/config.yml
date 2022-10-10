@@ -31,7 +31,7 @@ collections:
     slug: "{{fields.slug}}"
     preview_path: "news/{{slug}}"
     summary: "{{title}}"
-    sortable_fields: ["publishDate", "title", "author"]
+    sortable_fields: ["date", "title", "author"]
     nested:
       depth: 5
     view_filters:
@@ -89,7 +89,7 @@ collections:
         label: "Keywords"
         required: false
         widget: "list"
-      - name: "publishDate"
+      - name: "date"
         label: "Publish Date"
         required: true
         widget: "datetime"
@@ -112,7 +112,7 @@ collections:
     slug: "{{fields.slug}}"
     preview_path: "blog/{{slug}}"
     summary: "{{title}}"
-    sortable_fields: ["publishDate", "title", "author"]
+    sortable_fields: ["date", "title", "author"]
     nested:
       depth: 5
     view_filters:
@@ -162,7 +162,7 @@ collections:
         widget: "select"
         multiple: true
         options: ["Das erfolgreiche Unternehmen", "Das gesunde Team", "Der zufriedene Kunde"]
-      - name: "publishDate"
+      - name: "date"
         label: "Publish Date"
         required: true
         widget: "datetime"
@@ -185,7 +185,7 @@ collections:
     slug: "{{fields.slug}}"
     preview_path: "blog/{{slug}}"
     summary: "{{title}}"
-    sortable_fields: ["publishDate", "title", "author"]
+    sortable_fields: ["date", "title", "author"]
     nested:
       depth: 5
     view_filters:
@@ -252,7 +252,7 @@ collections:
         max: 100
         step: 1
         value_type: "int"
-      - name: "publishDate"
+      - name: "date"
         label: "Publish Date"
         required: true
         widget: "datetime"

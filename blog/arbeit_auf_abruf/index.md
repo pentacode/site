@@ -1,6 +1,6 @@
 ---
 title: Arbeit auf Abruf
-publishDate: 2022-04-08
+date: 2022-04-08
 cover: "bild5.jpg"
 author: lstrasser
 categories:

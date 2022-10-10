@@ -43,7 +43,7 @@ async function minifyHtml(source, output_path) {
 }
 
 function orderByDate(collection) {
-    return collection.sort((a, b) => (b.publishDate || b.date) - (a.publishDate || a.date));
+    return collection.sort((a, b) => (b.date || b.date) - (a.date || a.date));
 }
 
 function excludeDrafts(collection) {
@@ -186,17 +186,15 @@ module.exports = (config) => {
     config.addFilter("sortByWeight", (collection) => collection.sort((a, b) => b.weight - a.weight));
     config.addFilter("excludeDrafts", excludeDrafts);
     config.addFilter(
-        "getNewestCollectionItemPublishDate",
+        "getNewestCollectionItemDate",
         (collection) =>
             new Date(
                 Math.max(
-                    ...collection.map((item) => {
-                        return item.publishDate;
-                    })
+                    ...collection.map((item) =>  item.date)
                 )
             )
     );
-    config.addFilter("getRelatedBycategories", (collection, categories, itemKey) => {
+    config.addFilter("getRelatedByCategories", (collection, categories, itemKey) => {
         orderByDate(collection);
 
         const related = excludeDrafts(collection).filter(

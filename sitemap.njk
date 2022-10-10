@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
        {% if not page.data.draft %}
         <url>
             <loc>{{ metadata.url }}{{ page.url | url }}</loc>
-            <lastmod>{{ page.publishDate.toISOString() if page.publishDate else page.date.toISOString() }}</lastmod>
+            <lastmod>{{ page.date.toISOString() if page.date else page.date.toISOString() }}</lastmod>
             <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "monthly" }}</changefreq>
         </url>
         {% endif %}

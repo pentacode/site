@@ -66,7 +66,6 @@ module.exports = {
                 : `${data.page.url}/${data.cover}`,
         coverAlt: (data) => data.coverAlt,
         date: (data) => data.date || data.page.date || new Date(),
-        publishDate: (data) => data.publishDate || data.page.publishDate || new Date(),
         hero_title: (data) => data.hero_title || data.page.hero_title,
         hero_subtitle: (data) => data.hero_subtitle || data.page.hero_subtitle,
         hero_text: (data) => data.hero_text || data.page.hero_text,

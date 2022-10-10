@@ -1,6 +1,6 @@
 ---
 title: In fünf Schritten zum gelungenen Mitarbeiter Onboarding
-publishDate: 2022-08-24
+date: 2022-08-24
 cover: "pentacode-tipps_mitarbeiter_onboarding-header.webp"
 coverAlt: "Arbeitskollegen sitzen mit Laptops am Tisch. Zwei reichen sich die Hände"
 author: lstrasser

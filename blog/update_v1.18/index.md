@@ -1,6 +1,6 @@
 ---
 title: "Pentacode v1.18: Pausen Planen, Zeiterfassungs-Regelsätze und mehr"
-publishDate: 2021-07-11
+date: 2021-07-11
 cover: "az-konto.gif"
 author: mklein
 categories:
@@ -12,7 +12,6 @@ Es ist wiedermal Zeit für ein größeres Update! Pentacode v1.18 bringt Verbess
 ## Komplexe Zeiterfassungsregeln Leicht Gemacht
 
 Egal wie sie Ihre Arbeitszeiten erfassen - ob manuell, über die **digitale Stempeluhr** oder per **Mitarbeiter-App**,
-
 Pentacode bietet eines der mächtigsten und flexibelsten Zeiterfassungssysteme auf dem Markt. Mit einer Vielzahl von
 Einstellungsmöglichkeiten wie der automatischen Pausenberechnung, detaillierten Stempeluhr-Regeln und mehr haben Sie
 nicht nur volle Kontrolle darüber, wie Arbeitszeiten in Ihrem Unternehmen erfasst werden, sondern können über

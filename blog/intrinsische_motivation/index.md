@@ -1,6 +1,6 @@
 ---
 title: Willkommen im Zeitalter der Dienstleistung! – Warum intrinsische Motivation für jeden Erfolgssuchenden ein Begriff sein sollte
-publishDate: 2022-06-05
+date: 2022-06-05
 cover: "bild1.jpg"
 author: lstrasser
 categories:

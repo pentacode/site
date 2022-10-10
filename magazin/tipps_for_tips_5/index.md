@@ -1,6 +1,6 @@
 ---
 title: "Die Rechnung bitte! - Welchen Einfluss Notizen oder Smileys auf die Trinkgeldbereitschaft des Gastes haben"
-publishDate: 2022-07-01
+date: 2022-07-01
 cover: "bild1.jpg"
 author: lstrasser
 categories:

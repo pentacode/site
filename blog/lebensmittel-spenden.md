@@ -4,7 +4,7 @@ summary: "Die Corona-Krise trifft die Gastronomie hart. Wenn die schwere Entsche
   der Schließung einmal getroffen ist stehen viele Gastronomen vor dem selben Problem:
   Wo hin mit dem Restbestand an verderblichen Lebensmitteln? Wir haben eine Liste
   von Spendenempfängern für Sie zusammengestellt."
-publishDate: 2020-03-29T22:00:00+00:00
+date: 2020-03-29T22:00:00+00:00
 cover: "/uploads/spenden_lebensmittel_header-1.jpg"
 author: "mklein"
 categories:

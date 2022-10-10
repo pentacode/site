@@ -1,6 +1,6 @@
 ---
 title: Erfolg durch Faktor Zeit
-publishDate: 2022-04-29
+date: 2022-04-29
 cover: "bild5.jpg"
 author: jtomski
 categories:
