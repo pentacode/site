@@ -46,10 +46,7 @@
                 <div class="article-cover">
                     <a href="{{ page.url }}">
                         {% if page.cover %}
-                        <img
-                            src="{{ page.cover }}"
-                            alt="{{ page.coverAlt or page.title }}"
-                        />
+                        <img src="{{ page.cover }}" alt="{{ page.coverAlt or page.title }}" />
                         {% endif %}
                     </a>
                 </div>
@@ -57,7 +54,11 @@
                 <div class="article-categories">
                     {% for category in page.expanded_categories %}
                     <div class="{{ category.color }}">
-                        <i class="far fa-{{ category.icon }} article-category-icon"></i> {{ category.title }}
+                        <i class="far fa-{{ category.icon }} article-category-icon"></i>
+
+                        <a href="/blog/rubriken/{{ category.name }}" class="underline">
+                            {{ category.title }}
+                        </a>
                     </div>
                     {% endfor %}
                 </div>
@@ -67,16 +68,14 @@
                 </a>
 
                 <div class="article-summary">
-                    <p>
-                    {{ page.excerpt | plainify | safe }}...
-                    </p>
+                    <p>{{ page.excerpt | plainify | safe }}...</p>
                     <a href="{{ page.url }}" class="underline article-continue">
                         Weiterlesen <i class="fas fa-arrow-right icon"></i>
                     </a>
                 </div>
 
                 <div class="article-author center-aligning horizontal layout">
-                    <img class="article-author-image" src="{{ author.image }}" />
+                    <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
                     <div class="stretch">
                         <div class="article-author-name">{{ author.name }}</div>
                         <div class="article-author-title">{{ author.title }}</div>

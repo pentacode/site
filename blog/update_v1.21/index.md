@@ -1,6 +1,6 @@
 ---
 title: "Pentacode v1.21: Verfügbarkeiten, Festschreibung von Arbeitszeiten"
-cover: dienstplan.png
+cover: dienstplan.webp
 summary: Es ist uns immer wieder eine Freude, große und kleine Neuerungen und
   Verbesserungen an unserer Software vorzustellen! Auch version 1.21 bringt
   wieder mal einige tolle neue Features.
@@ -63,7 +63,7 @@ dann durch niemanden mehr bearbeitbar und Konten und Lohnabrechnungen bleiben un
 Mitarbeiterverträgen oder Zeiterfassungs-Regelsätzen vornehmen.
 
 {% figure caption="Unter dem Punkt Einstellungen/Sonstiges können Sie nun ein Festschreibungs-Datum für Arbeitszeiten und Konten wählen." %}
-<img src="zeiten-festschreiben.png">
+<img src="zeiten-festschreiben.webp">
 {% endfigure %}
 
 ## ... Und Mehr!

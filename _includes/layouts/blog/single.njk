@@ -15,7 +15,10 @@
         <div class="article-categories">
             {% for category in expanded_categories %}
             <div class="{{ category.color }}">
-                <i class="far fa-{{ category.icon }} article-category-icon"></i> {{ category.title }}
+                <i class="far fa-{{ category.icon }} article-category-icon"></i>
+                <a href="/blog/rubriken/{{ category.name }}" class="underline">
+                {{ category.title }}
+            </a>
             </div>
             {% endfor %}
         </div>
@@ -25,7 +28,7 @@
         </div>
 
         <div class="article-author">
-            <img class="article-author-image" src="{{ author.image }}" />
+            <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
             <div class="stretch">
                 <div class="article-author-name">{{ author.name }}</div>
                 <div class="article-author-title">{{ author.title }}</div>
@@ -75,7 +78,7 @@
                     </div>
 
                     <a href="{{ page.url }}" class="article-title">
-                        <h2 class="text-clip">{{ page.title | markdownify | safe }}</h2>
+                        <h2>{{ page.title | markdownify | safe }}</h2>
                     </a>
 
                     <div class="article-summary">
@@ -86,7 +89,7 @@
                     </div>
 
                     <div class="article-author center-aligning horizontal layout">
-                        <img class="article-author-image" src="{{ author.image }}" />
+                        <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}"/>
                         <div class="stretch">
                             <div class="article-author-name">{{ author.name }}</div>
                             <div class="article-author-title">{{ author.title }}</div>

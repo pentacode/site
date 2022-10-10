@@ -1,7 +1,7 @@
 ---
 title: "Pentacode v1.22: Dokumentenarchiv, Stellenausschreibungen und mehr!"
 publishDate: 2022-06-05
-cover: bewerbungsformular.png
+cover: bewerbungsformular.webp
 author: mklein
 categories:
   - Produkt
@@ -27,7 +27,7 @@ der eigenen Zettelwirtschaft zu versinken und nie wieder gefunden zu werden, hab
 wir gute Neuigkeiten!**
 
 {% figure caption="Mit dem Dokumentenarchiv können Sie Dateien jeder Art als digitale Dokumente ablegen und verwalten." %}
-<img src="eingabefenster.png">
+<img src="eingabefenster.webp">
 {% endfigure %}
 
 Mit Pentacode haben wir dem Papier schon vor langer Zeit den Krieg erklärt:
@@ -51,7 +51,7 @@ bei der Arbeit zusehen 🦋.
 ## Stellenausschreibungen & Bewerbungen
 
 {% figure caption="Mit dem neuen Recruiting-Modul können Sie Stellenauschreibungen erstellen und veröffentlichen.", extraClass="float right" %}
-<img src="ausschreibung.png">
+<img src="ausschreibung.webp">
 {% endfigure %}
 
 Auf Grund der Pandemie haben viele Betriebe vor allem in der Gastronomie schon
@@ -75,7 +75,7 @@ Arbeitskräfte gibt - **sie müssen nur gefunden werden**! Und hier kommt wieder
 einmal Pentacode ins Spiel...
 
 {% figure caption="Mit dem neuen Recruiting-Modul können Sie Stellenauschreibungen erstellen und veröffentlichen.", extraClass="float left" %}
-<img src="personaleransicht.png">
+<img src="personaleransicht.webp">
 {% endfigure %}
 
 Mit dem neuen [Recruiting-Modul](../../hilfe/handbuch/recruiting/) können Sie
