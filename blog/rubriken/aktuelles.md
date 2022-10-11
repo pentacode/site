@@ -1,4 +1,4 @@
 ---
-title: Aktuelles - Rubriken - Blog
+title: Aktuelles | Blog
 category: aktuelles
 ---

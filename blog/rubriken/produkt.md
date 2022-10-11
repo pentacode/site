@@ -1,4 +1,4 @@
 ---
-title: Produkt - Rubriken - Blog
+title: Produkt | Blog
 category: produkt
 ---

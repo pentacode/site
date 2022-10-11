@@ -1,4 +1,4 @@
 ---
-title: Erfolgsgeschichten - Rubriken - Blog
+title: Erfolgsgeschichten | Blog
 category: erfolgsgeschichten
 ---

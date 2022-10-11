@@ -1,4 +1,4 @@
 ---
-title: Sonstiges - Rubriken - Blog
+title: Sonstiges | Blog
 category: sonstiges
 ---

@@ -1,4 +1,4 @@
 ---
-title: Ratgeber - Rubriken - Blog
+title: Ratgeber | Blog
 category: ratgeber
 ---
