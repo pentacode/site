@@ -113,11 +113,11 @@ module.exports = (config) => {
     config.addPairedNunjucksShortcode(
         "figure",
         (content, { caption = "", extraClass = "" } = {}) =>
-            html`
+            outdent(html`
                 <figure class="${extraClass}">
                     ${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}
                 </figure>
-            `
+            `).replace(/\s{2,}/g, "")
     );
 
     config.addNunjucksShortcode("relref", (ref) => ref);

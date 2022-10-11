@@ -15,9 +15,9 @@ konzentrieren: die Außenprüfung durch das Finanzamt.
 
 ## 1. Wer prüft was?
 
-{% figure caption="", extraClass="float right width-50pc" %}
-<img src="bild2.jpg" />
-{% endfigure %}
+<figure class="float right width-50pc">
+  <img src="bild2.jpg" />
+</figure>
 
 Generell dient eine Betriebsprüfung dazu zu ermitteln, ob der Geprüfte seinen Steuerpflichten ordnungsgemäß nachkommt.
 **Die Außenprüfung wird vom zuständigen Finanzamt angeordnet und stellt eine Gesamtkontrolle aller steuerlich relevanten
@@ -29,9 +29,9 @@ Prüfungsanordnung und dem Kontrolltermin liegt, gezielt nutzt, um alle Belege v
 
 ## 2. Wer darf geprüft werden und wann?
 
-{% figure caption="", extraClass="float left width-50pc" %}
-<img src="bild3.jpg" />
-{% endfigure %}
+<figure class="float left width-50pc">
+  <img src="bild3.jpg" />
+</figure>
 
 **Die Abgabenordnung (AO) ab § 193 legt fest, dass das Finanzamt jederzeit dazu befugt ist, in Unternehmen eine Prüfung
 durchzuführen.** Die Größe spielt keine Rolle, Freiberufler können ebenso betroffen sein wie UGs, GmbHs oder
@@ -44,9 +44,9 @@ und für welche Betriebe diese gelten sind in § 3 Betriebsprüfungsordnung (BpO
 
 ## 3. Was kann eine Betriebsprüfung begünstigen?
 
-{% figure caption="", extraClass="float right width-50pc" %}
-<img src="bild4.jpg" />
-{% endfigure %}
+<figure class="float right width-50pc">
+  <img src="bild4.jpg" />
+</figure>
 
 Fernab des generellen Prüfungsturnus des Finanzamts, gibt es Faktoren, die eine Betriebsprüfung wahrscheinlicher machen.
 Und zwar die, **die den Verdacht nahelegen, dass es im Betrieb Probleme mit der Buchhaltung/ Buchführung gibt**. Wenn er
@@ -57,9 +57,9 @@ und verlässlich organisiert.
 
 ## 4. Wie läuft die Betriebsprüfung ab und wie lange dauert das?
 
-{% figure caption="", extraClass="float left width-50pc" %}
-<img src="bild5.jpg" />
-{% endfigure %}
+<figure class="float left width-50pc">
+  <img src="bild5.jpg" />
+</figure>
 
 Wem eine Betriebsprüfung durch das Finanzamt bevorsteht, der bekommt mindestens 14 Tage vor dem Kontrolltermin eine so
 genannte „Prüfungsanordnung“ zugesendet. Oft ruft der Prüfer oder die Prüferin vor dem offiziellen Brief auch an, um
@@ -74,9 +74,9 @@ Besteuerungsgrundlagen angepasst werden.
 
 ## 5. Vor und während der Prüfung: Wie verhalte ich mich richtig?
 
-{% figure caption="", extraClass="float right width-50pc" %}
-<img src="bild6.jpg" />
-{% endfigure %}
+<figure class="float right width-50pc">
+  <img src="bild6.jpg" />
+</figure>
 
 Wer eine kompetente Steuerberatung an seiner Seite und eine lückenlose Buchführung vorzuweisen hat, hat den Großteil
 schon richtig gemacht. Je übersichtlicher die Unterlagen, desto schneller findet sich der Prüfer oder die Prüferin

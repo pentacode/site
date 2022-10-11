@@ -24,7 +24,7 @@
         </li>
 
         {% for cat in all_categories %}
-        <li>
+        <li {% if cat.name === "aktuelles" %} hidden {% endif %}>
             <a
                 href="/blog/rubriken/{{ cat.name }}"
                 class="underline {{ cat.color }} {% if category === cat.name %}active{% endif %}"
