@@ -1,13 +1,11 @@
 ---
-layout: layouts/blog/single.njk
 title: Weshalb Sie zuversichtlich in das Neue Jahr gehen sollten
 summary: |-
   Das Jahr 2020 hat die Gastronomie, unsere geliebte Branche, gebeutelt wie noch nie in den letzten 75 Jahren. Auch die ersten Monate des Neuen Jahres werden nicht einfach werden, und doch ist Zuversicht erlaubt. Nicht, weil man sich gerne ein gutes Ende einredet. Auch nicht, weil irgendjemand eine magische Kristallkugel hätte. Sondern durchaus begründet, wenn man einen Blick zurück in die Geschichte wirft.
   Denn Geschichte wiederholt sich.
-publishDate: 2020-12-23T11:00:00.000+00:00
+date: 2020-12-23T11:00:00.000+00:00
 cover: "/uploads/shutterstock_1148076167.png"
 author: lstrasser
-kind: page
 categories:
   - Sonstiges
 ---

@@ -1,12 +1,10 @@
 ---
-layout: layouts/blog/single.njk
 title: "Pentacode v1.18: Pausen Planen, Zeiterfassungs-Regelsätze und mehr"
-publishDate: 2021-07-11
+date: 2021-07-11
 cover: "az-konto.gif"
 author: mklein
-kind: page
 categories:
-  - Produktupdates
+  - Produkt
 ---
 
 Es ist wiedermal Zeit für ein größeres Update! Pentacode v1.18 bringt Verbesserungen im Bereich der **Zeiterfassungseinstellungen**, ein **überarbeitetes Arbeitszeitkonto** und eine **neue Möglichkeit der Pausenerfassung**!
@@ -26,7 +24,7 @@ entwickelt.
 
 {% figure caption="Zeiterfassungs-Regelsätze geben Ihnen maximale Flexibiliät bei besserer Übersichtlichkeit und einfacherer Verwaltung.", extraClass="centered" %}
 
-<img src="regelsaetze.png">
+<img src="regelsaetze.webp">
 
 {% endfigure %}
 

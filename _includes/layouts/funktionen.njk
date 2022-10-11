@@ -12,6 +12,14 @@
         margin: 1em;
     }
 
+    section.funktionen-details .funktionen-details-supertitle {
+        font-size: 2.1em;
+        line-height: 1.2em;
+        margin: 0 0 0.2em 0;
+        font-weight: 100;
+        text-align: center;
+    }
+
     .funktionen-details-section {
         display: flex;
         padding-bottom: 5em;
@@ -144,6 +152,49 @@
         fill: url(#icon_gradient);
     }
 
+    section.funktionen-details .funktionen-details-tabs {
+        font-size: 0.8em;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+        gap: 0.5em;
+        list-style: none;
+        padding: 0.5em;
+        justify-content: center;
+        position: sticky;
+        top: 4em;
+        z-index: 10;
+        background: var(--color-bg);
+        margin: 0 0 1em 0;
+        border-radius: 0 0 0.5em 0.5em;
+    }
+
+    section.funktionen-details .funktionen-details-tab {
+        display: block;
+        color: var(--color-fg);
+        border: dashed 1px var(--shade-2);
+        border-radius: 0.5em;
+        padding: 0.5em;
+        text-align: center;
+        will-change: transform;
+        color: var(--color-highlight);
+    }
+
+    section.funktionen-details .funktionen-details-tab.active {
+        opacity: 1 !important;
+        background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+        color: var(--color-bg);
+        border: none;
+        box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
+        color: var(--color-bg);
+    }
+
+    .funktionen-details-subtitle {
+        padding: 0.5em;
+        max-width: 31em;
+        text-align: center;
+        margin: 0 auto 1em auto;
+    }
+
     @media (max-width: 800px) {
         .funktionen-details-section {
             padding-bottom: 2em;
@@ -156,6 +207,10 @@
         .funktionen-details-section h1 {
             font-size: 1.6em;
             margin: 0.4em 0;
+        }
+
+        .funktionen-details-menu {
+            display: none;
         }
     }
 </style>
@@ -178,6 +233,71 @@
     </svg>
 
     <div class="inner">
+        <div class="funktionen-details-menu">
+            <div class="vertical center-aligning layout">
+                <div class="funktionen-details-supertitle rainbow">
+                    Die <strong>Rundum-Lösung</strong><br />für Ihr <strong>Personalmanagement</strong>
+                </div>
+            </div>
+
+            <p class="funktionen-details-subtitle">
+                Von der Bewerbung bis zum Ausscheiden - Pentacode begleitet den gesamten Lebenszyklus jedes Mitarbeiters
+                in Ihrem Unternehmen.
+            </p>
+
+            <ul class="funktionen-details-tabs">
+                <li>
+                    <a
+                        href="/funktionen/recruiting"
+                        class="funktionen-details-tab green underline {% if eleventyNavigation.key === '/funktionen/recruiting' %}active{% endif %}"
+                    >
+                        <i class="fal fa-people-pulling"></i>
+                        Recruiting & Onboarding
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="/funktionen/planung"
+                        class="funktionen-details-tab blue underline {% if eleventyNavigation.key === '/funktionen/planung' %}active{% endif %}"
+                    >
+                        <i class="fal fa-table"></i>
+                        Personalplanung
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="/funktionen/zeiterfassung"
+                        class="funktionen-details-tab purple underline {% if eleventyNavigation.key === '/funktionen/zeiterfassung' %}active{% endif %}"
+                    >
+                        <i class="fal fa-stopwatch"></i>
+                        Zeiterfassung
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="/funktionen/verwaltung"
+                        class="funktionen-details-tab orange underline {% if eleventyNavigation.key === '/funktionen/verwaltung' %}active{% endif %}"
+                    >
+                        <i class="fal fa-envelopes-bulk"></i>
+                        Personalverwaltung
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="/funktionen/mitarbeiter-app"
+                        class="funktionen-details-tab red underline {% if eleventyNavigation.key === '/funktionen/mitarbeiter-app' %}active{% endif %}"
+                    >
+                        <i class="fal fa-mobile"></i>
+                        Mitarbeiter-App
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <div class="funktionen-details-section">
             <div class="funktionen-details-line">
                 <div class="funktionen-details-bullet">
@@ -215,6 +335,63 @@
                 >
             </div>
         </div>
+
+        <div class="center-aligning vertical layout">
+            <h2 class="rainbow">Weitere <strong>Funktionen</strong>:</h2>
+        </div>
+
+        <ul class="funktionen-details-tabs">
+            <li>
+                <a
+                    href="/funktionen/recruiting"
+                    class="funktionen-details-tab green underline {% if eleventyNavigation.key === '/funktionen/recruiting' %}active{% endif %}"
+                >
+                    <i class="fal fa-people-pulling"></i>
+                    Recruiting & Onboarding
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="/funktionen/planung"
+                    class="funktionen-details-tab blue underline {% if eleventyNavigation.key === '/funktionen/planung' %}active{% endif %}"
+                >
+                    <i class="fal fa-table"></i>
+                    Personalplanung
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="/funktionen/zeiterfassung"
+                    class="funktionen-details-tab purple underline {% if eleventyNavigation.key === '/funktionen/zeiterfassung' %}active{% endif %}"
+                >
+                    <i class="fal fa-stopwatch"></i>
+                    Zeiterfassung
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="/funktionen/verwaltung"
+                    class="funktionen-details-tab orange underline {% if eleventyNavigation.key === '/funktionen/verwaltung' %}active{% endif %}"
+                >
+                    <i class="fal fa-envelopes-bulk"></i>
+                    Personalverwaltung
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="/funktionen/mitarbeiter-app"
+                    class="funktionen-details-tab red underline {% if eleventyNavigation.key === '/funktionen/mitarbeiter-app' %}active{% endif %}"
+                >
+                    <i class="fal fa-mobile"></i>
+                    Mitarbeiter-App
+                </a>
+            </li>
+        </ul>
+    </div>
     </div>
 
     <script>

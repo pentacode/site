@@ -1,15 +1,12 @@
 ---
-layout: layouts/blog/single.njk
 title: Hilfe zur Selbsthilfe
 summary: Mit der Wieder- oder Neueinstellung von Mitarbeitern können Sie die Zusammensetzung
   der Gehälter neu gestalten. Damit haben Sie die Gelegenheit, bei gleichem Auszahlungsgehalt
   die Lohnnebenkosten erheblich zu senken. Wie Sie sofort spürbare Einsparungen erreichen
   können, erfahren Sie hier.
-date: 2020-06-29T22:00:00+00:00
-publishDate: 2020-06-29T22:00:00+00:00
+date: 2020-06-29
 cover: "/uploads/segelbild_kleiner.jpg"
 author: lstrasser
-kind: page
 categories:
   - Ratgeber
 ---

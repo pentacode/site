@@ -1,10 +1,9 @@
 ---
-layout: layouts/magazin/single.njk
 title: Tipps für Tips Vol. 1 - Wenn der Kellner seinen Namen nennt
-publishDate: 2022-04-22
+date: 2022-04-22
 cover: "bild5.jpg"
 author: lstrasser
-magazinCategories:
+categories:
   - Das gesunde Team
   - Der zufriedene Kunde
 aliases:

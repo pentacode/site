@@ -1,42 +1,132 @@
 {% set main_title = title + ' | Blog | Pentacode' %}
-
+<!-- -->
+{% set author = staff[author or "lstrasser"] %}
+<!-- -->
 {% extends "../base.njk" %}<!-- -->
 
-{% block styles %}
+{% block meta %}
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "{% if 'aktuelles' in categories %}NewsArticle{% else %}BlogPosting{% endif %}",
+        "headline": "{{ title }}",
+        "image": ["{{ cover }}"],
+        "datePublished": "{{ date }}",
+        "dateModified": "{{ date }}",
+        "author": [
+            {
+                "@type": "Person",
+                "name": "{{ author.name }}",
+                "jobTitle": "{{ author.title }}"
+            }
+        ]
+    }
+</script>
+
+{% endblock %} {% block styles %}
 
 {{ super() }}
 
-{% include "styles/single.html" %}<!-- -->
-{% include "styles/section-menu.html" %}<!-- -->
-{% include "styles/search.html" %}<!-- -->
+{% include "styles/blog.html" %}<!-- -->
 
 {% endblock %}<!-- -->
 
-{% block body %}
+{% block body %} {% include "components/header.njk" %}
 
-    {% include "components/header.njk" %}
+<div class="main single">
+    <article class="main-article">
+        <div class="article-categories">
+            {% for category in expanded_categories %}
+            <div class="{{ category.color }}">
+                <i class="far fa-{{ category.icon }} article-category-icon"></i>
+                <a href="/blog/rubriken/{{ category.name }}" class="underline">
+                    {{ category.title }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
 
-    <div class="main-layout">
-        <div>
-            <article class="animation-reveal-children animation-fast">
-                <div class="narrow">
-                    {% include "components/breadcrumbs.njk" %}
-                </div>
+        <div class="article-date">
+            {{ (date or date) | formatDate }}
+        </div>
 
-                <div>
-                    <div class="cover">
-                        {% include "components/thumbnail.njk" %}
+        <div class="article-author">
+            <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
+            <div class="stretch">
+                <div class="article-author-name">{{ author.name }}</div>
+                <div class="article-author-title">{{ author.title }}</div>
+            </div>
+        </div>
+
+        <h1 class="article-title text-clip">{{ title | markdownify | safe }}</h1>
+
+        {% if cover %}
+        <div class="article-cover">
+            <img src="{{ cover }}" alt="{{ coverAlt or title }}" />
+        </div>
+        {% endif %}
+
+        <div class="article-content">
+            {{ content | markdownify | safe }}
+        </div>
+    </article>
+
+    <div class="related-articles">
+        <h2><i class="fal fa-lightbulb-on"></i> Das könnte Dich auch interessieren:</h2>
+
+        <ul class="articles-list">
+            {% set relatedPosts = collections.all | eleventyNavigation("/blog") | getRelatedByCategories(categories,
+            eleventyNavigation.key) %}
+            <!-- -->
+
+            {% for page in relatedPosts %}
+            <!-- -->
+            {% set author = staff[post.author or "lstrasser"] %}
+            <li>
+                <article>
+                    <div class="article-cover">
+                        <a href="{{ page.url }}">
+                            {% if page.cover %}
+                            <img src="{{ page.cover }}" alt="{{ page.coverAlt or page.title }}" />
+                            {% endif %}
+                        </a>
                     </div>
 
-                    <h1><span>{{ title | markdownify | safe }}</span></h1>
-                </div>
+                    <div class="article-categories">
+                        {% for category in page.expanded_categories %}
+                        <div class="{{ category.color }}">
+                            <i class="far fa-{{ category.icon }} article-category-icon"></i> {{ category.title }}
+                        </div>
+                        {% endfor %}
+                    </div>
 
-                {% if publishDate %}<p class="subtle">{{ publishDate | formatDate }}</p>{% endif %}
+                    <a href="{{ page.url }}" class="article-title">
+                        <h2>{{ page.title | markdownify | safe }}</h2>
+                    </a>
 
-                <div>
-                    {{ content | markdownify | safe }}
-                </div>
-            </article>
-        </div>
+                    <div class="article-summary">
+                        <p>{{ page.excerpt | plainify | safe }}...</p>
+                        <a href="{{ page.url }}" class="underline article-continue">
+                            Weiterlesen <i class="fas fa-arrow-right icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="article-author center-aligning horizontal layout">
+                        <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
+                        <div class="stretch">
+                            <div class="article-author-name">{{ author.name }}</div>
+                            <div class="article-author-title">{{ author.title }}</div>
+                        </div>
+                    </div>
+
+                    <div class="article-date">
+                        {{ page.date | formatDate }}
+                    </div>
+                </article>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
+</div>
 {% endblock %}
