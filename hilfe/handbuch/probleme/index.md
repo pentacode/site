@@ -140,7 +140,7 @@ zu wahren. Fahren Sie dazu über einen Problembericht und klicken auf den Button
 {%button label="Verwerfen", icon="eye-slash"%}. Bestätigen Sie anschließend, dass
 Sie den Problembericht wirklich verwerfen wollen
 
-    **Achtung: Das Verwerfen von Problemberichten ist nicht rückgängig zu machen!**
+> **Achtung**: Das Verwerfen von Problemberichten ist nicht rückgängig zu machen!
 
 >**Wichtig: Das Verwerfen eines Problemberichts löst das Problem nicht! Pentacode
 >zeigt Ihnen das Problem nur nicht mehr an.**
