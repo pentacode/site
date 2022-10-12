@@ -9,7 +9,7 @@ icon: exclamation-triangle
 
 So gern wir auch auf Anhieb den perfekten Dienstplan erstellen oder alle
 Schichten im Blick haben würden - Fehler schleichen sich immer ein. Besonders
-wenn man die diversen **Arbeitsrichtlinien und Vertragsvereinbarungen** dabei im
+wenn man dabei die diversen **Arbeitsrichtlinien und Vertragsvereinbarungen** im
 Blick behalten muss. Die **Problemberichte** in Pentacode helfen Ihnen dabei einen
 klaren Überblick zu behalten ob Dienstplan, Schichten und Kassenbuch reibungslos
 laufen - und **Probleme zu vermeiden bevor sie überhaupt entstehen**. Das spart
