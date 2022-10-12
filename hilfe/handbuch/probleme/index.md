@@ -7,7 +7,7 @@ icon: exclamation-triangle
 
     **"Irren ist menschlich" - und die Fülle gesetzlicher Bestimmungen enorm.**
 
-So gern wir auch auf Anhieb den perfekten Dienstplan erstellen oder alle
+So gerne wir auch auf Anhieb den perfekten Dienstplan erstellen oder alle
 Schichten im Blick haben würden - Fehler schleichen sich immer ein. Besonders
 wenn man dabei die diversen **Arbeitsrichtlinien und Vertragsvereinbarungen** im
 Blick behalten muss. Die **Problemberichte** in Pentacode helfen Ihnen dabei einen
