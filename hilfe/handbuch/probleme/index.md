@@ -16,7 +16,7 @@ laufen - und **Probleme zu vermeiden bevor sie überhaupt entstehen**. Das spart
 Ihnen nicht nur Zeit, sondern auch Nerven bei der nächsten Buchprüfung, da Sie
 sicher sein können, stets im Recht gehandelt zu haben. 
 
-## Verschiedene Arten von Problemen
+## Problemarten
 
 Pentacode zeigt Ihnen in der Problemübersicht **acht Arten von
 Problemberichten** an. Um diese möglichst schnell beheben zu können, sollten Sie
