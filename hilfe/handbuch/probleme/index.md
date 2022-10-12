@@ -148,7 +148,7 @@ Sie den Problembericht wirklich verwerfen wollen
 ### Alle Problemberichte verwerfen
 
 Sollten Sie alle Problemberichte eines Monats verwerfen wollen, können Sie dies
-in einem Klick tun. Klicken Sie dazu auf den Button {%button label="Verwefen",
+in einem Klick tun. Klicken Sie dazu auf den Button {%button label="Verwerfen",
 icon="eye-slash"%} neben einem Monat und bestätigen Sie anschließend die Aktion.
 Es werden anschließend alle Problemberichte des ausgewählten Monats verworfen. 
 
