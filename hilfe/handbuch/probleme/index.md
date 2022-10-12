@@ -39,7 +39,7 @@ diese präventiv beheben können.
   zeitlich überlappen wird dieses Problem angezeigt. Da ihr Mitarbeiter sich
   nicht zweiteilen kann, müssen Sie eine der Schichten verschieben oder löschen.
 
-### Probleme aus Schichtdurchführung (post- Information)
+### Probleme aus Schichtdurchführung
 
 Diese Problemberichte geben Ihnen Informationen über Probleme in den vergangenen
 Schichten, um mit den Mitarbeitern in Kontakt zu treten und zukünftig zu vermeiden.
@@ -65,6 +65,11 @@ Schichten, um mit den Mitarbeitern in Kontakt zu treten und zukünftig zu vermei
   'nicht ausgestempelt' erkennt. Auch hier sollten Sie ihren Mitarbeiter darauf
   aufmerksam machen, zukünftig das Ausstempeln zu beachten und **die Länge der
   Schicht korrigieren**.
+
+> Die Problemmeldungen 'Arbeitszeit > 10 Stunden' und 'Ruhezeit < 11 Stunden'
+> können auch erscheinen, wenn der Mitarbeiter Überstunden gestempelt hat. In
+> diesem Fall entstehen diese Probleme nicht aus der Dienstplanung sondern
+> ebenfals aus der Durchführung. 
 
 ### Vertragsbedingte Probleme
 
