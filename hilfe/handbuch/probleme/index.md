@@ -69,7 +69,7 @@ Schichten, um mit den Mitarbeitern in Kontakt zu treten und zukünftig zu vermei
 > Die Problemmeldungen 'Arbeitszeit > 10 Stunden' und 'Ruhezeit < 11 Stunden'
 > können auch erscheinen, wenn der Mitarbeiter Überstunden gestempelt hat. In
 > diesem Fall entstehen diese Probleme nicht aus der Dienstplanung sondern
-> ebenfals aus der Durchführung. 
+> ebenfalls aus der Durchführung!
 
 ### Vertragsbedingte Probleme
 
