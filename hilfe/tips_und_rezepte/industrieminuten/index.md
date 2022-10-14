@@ -62,7 +62,8 @@ Normalerweise sollte es nicht nötig sein Industrie- und Echtminuten in einander
 umzuwandeln, da Pentacode das bereits für Sie erledigt. Sollten Sie dies aber
 doch einmal händisch benötigen, ist die Formel zur Umrechnung sehr einfach:
 
-Echtminuten zu Industrieminuten: EM/60 x 100 <br>
+Echtminuten zu Industrieminuten:
+$$ IM = {EM \over 60} * 100 $$
 Industrieminuten zu Echtminuten: IM/100 x 60 
 
 > **Beispiel:** Wir wollen eine Schicht mit der Länge von 8:40 in Industriezeit
