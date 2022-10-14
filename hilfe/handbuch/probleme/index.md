@@ -22,28 +22,24 @@ wissen wo der Ursprung jedes dieser Probleme liegt. Wie unter [Problem
 beheben](#problem-beheben) beschrieben, bringt Sie der {%button label="Beheben",
 icon="pencil"%} immer direkt zum Kern des Problems.  
 
-### Probleme aus der Dienstplanung
-
-Diese Problemberichte warnen Sie vor Problemen in der Dienstplanung, damit Sie
-diese präventiv beheben können.
-
 - **Arbeitszeit >10 Stunden:** Die maximale Arbeitszeit an einem Stück darf nur
   10 Stunden betragen - sollte einem Mitarbeiter eine Schicht zu geteilt werden,
   welche länger dauert, wird dieses Problem angezeigt. Sie müssen die betroffene
   Schicht kürzen um das Problem zu beheben. 
+
 - **Ruhezeit <11 Stunden:** Zwischen Schichten müssen Angestellte mindestens 11
   Stunden arbeitsfreie Ruhezeit haben. Sollten zwei Schichten zu nah an einander
   liegen, wird dieses Problem angezeigt. Löschen oder verschieben Sie die
   Schichten so, dass diese 11 Stunden Abstand haben.
+
+  > Die Problemmeldungen 'Arbeitszeit > 10 Stunden' und 'Ruhezeit < 11 Stunden'
+  > können auch erscheinen, wenn der Mitarbeiter zu viele Überstunden gestempelt hat. In
+  > diesem Fall werden die Problemmeldungen erst nach der Schichtdurchführung angezeigt.
+
+
 - **Schichtüberlappung:** Sollten zwei Schichten eines Mitarbeiters sich
   zeitlich überlappen wird dieses Problem angezeigt. Da ihr Mitarbeiter sich
   nicht zweiteilen kann, müssen Sie eine der Schichten verschieben oder löschen.
-
-### Probleme aus Schichtdurchführung
-
-Diese Problemberichte geben Ihnen Informationen über Probleme in den vergangenen
-Schichten, um mit den Mitarbeitern in Kontakt zu treten und zukünftig zu vermeiden.
-
 
 - **gesetzliche Pause unterschritten:** Jedem Mitarbeiter stehen nach 6 Stunden
   Schicht 30 Minuten und nach 9 Stunden Schicht 45 Minuten Pause zu. Sollte ein
@@ -65,17 +61,6 @@ Schichten, um mit den Mitarbeitern in Kontakt zu treten und zukünftig zu vermei
   'nicht ausgestempelt' erkennt. Auch hier sollten Sie ihren Mitarbeiter darauf
   aufmerksam machen, zukünftig das Ausstempeln zu beachten und **die Länge der
   Schicht korrigieren**.
-
-> Die Problemmeldungen 'Arbeitszeit > 10 Stunden' und 'Ruhezeit < 11 Stunden'
-> können auch erscheinen, wenn der Mitarbeiter Überstunden gestempelt hat. In
-> diesem Fall entstehen diese Probleme nicht aus der Dienstplanung sondern
-> ebenfalls aus der Durchführung!
-
-### Vertragsbedingte Probleme
-
-Diese Problemberichte machen Sie auf Unstimmigkeiten im Vertragsverhältnis
-aufmerksam und sollten schnellstmöglich in Absprache mit dem Mitarbeiter behoben
-werden.
 
 - **Mindestlohnunterschreitung:** Sollte ein Mitarbeiter auf einen Stundenlohn
   unter dem Mindestlohn fallen, wird Ihnen dieses Problem angezeigt. Dies kann
