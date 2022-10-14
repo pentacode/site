@@ -5,7 +5,7 @@ weight: 3
 icon: clock
 ---
 
-Um zu verstehen wie Pentacode Arbeitszeiten berechnet und darstellt ist es
+Um zu verstehen wie Pentacode Arbeitszeiten und andere Stundenwerte berechnet und darstellt ist es
 wichtig ein einfaches aber essentielles Konzept der Personalverwaltung zu
 verstehen: Das der Industrieminute. Im folgenden Artikel
 werden wir Ihnen die Unterschiede von Industrie- und Echtminuten näher bringen
