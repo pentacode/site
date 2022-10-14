@@ -5,6 +5,10 @@ weight: 3
 icon: clock
 ---
 
+$(".latex").latex();
+
+<body>
+
 Um zu verstehen wie Pentacode Arbeitszeiten und andere Stundenwerte berechnet und darstellt ist es
 wichtig ein einfaches aber essentielles Konzept der Personalverwaltung zu
 verstehen: Das der Industrieminute. Im folgenden Artikel
@@ -63,7 +67,9 @@ umzuwandeln, da Pentacode das bereits für Sie erledigt. Sollten Sie dies aber
 doch einmal händisch benötigen, ist die Formel zur Umrechnung sehr einfach:
 
 Echtminuten zu Industrieminuten:
-$$ IM = {EM \over 60} * 100 $$
+<div class="latex">
+IM = {EM \over 60} * 100
+</div>
 Industrieminuten zu Echtminuten:
 $$ EM = IM \over 100 * 60 $$
 
@@ -76,3 +82,4 @@ $$ EM = IM \over 100 * 60 $$
 > dies jedoch nur wenige Sekundenbruchteile aus.*
 
 
+</body>
