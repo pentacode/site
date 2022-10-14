@@ -35,7 +35,7 @@ werden **2:30h** wird 'Industriezeit' in Dezimal dargestellt, also **2,50h**.
 Echtzeit ist natürlich deutlich intuitiver zu nutzen - so würde man sagen ein
 Mitarbeiter hat z.B 15 Minuten Pause und nicht 25 Industrieminuten (0,25h).
 Industrieminuten sind jedoch nötig damit weitere Berechnungen wie Gehälter,
-Urlaubstage, Personalkosten etc. in Dezimal problemlos funktionieren.
+Urlaubstage, Personalkosten etc. im Dezimalsystem problemlos funktionieren.
 
 ## Anwendung von Industriezeit in Pentacode
 
