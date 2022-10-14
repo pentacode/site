@@ -15,7 +15,7 @@ und erkären wo diese in Pentacode von Bedeutung sind.
 
 Die Industrieminute hat ihren Ursprung in der Idee Stundenbruchteile durch Dezimalzahlen
 darzustellen. **Eine Industrieminute ist dabei 1/100 Stunde - also 0,6 Minuten oder 36
-Sekunden.** In Dezimal dargestellt ist eine Industrieminute also 0,01 Stunden.
+Sekunden.** In Dezimaldarstellung entspricht eine Minute also 0,01 Stunden. Eine "Echtminute" hingegen entspricht 1/60 Stunde oder ~ 0,017 Stunden.
 In Dezimal umgewandelte Stundenbruchteile vereinfachen dabei die Verwaltung der
 Arbeitszeiten durch Programme wie Pentacode.
 
