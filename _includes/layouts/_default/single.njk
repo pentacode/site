@@ -31,7 +31,7 @@
                     <h1><span>{{ title | markdownify | safe }}</span></h1>
                 </div>
 
-                {% if publishDate %}<p class="subtle">{{ publishDate | formatDate }}</p>{% endif %}
+                {% if date %}<p class="subtle">{{ date | formatDate }}</p>{% endif %}
 
                 <div>
                     {{ content | markdownify | safe }}

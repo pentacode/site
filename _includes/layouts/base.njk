@@ -4,19 +4,10 @@
         <title>{{ (main_title or title or metadata.title) | plainify | safe }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="description" content="{{ description or metadata.description }}" />
 
         <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" />
         <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" />
         <link rel="alternate" type="application/feed+json" href="/blog/feed.json" />
-
-        <link rel="alternate" type="application/rss+xml" href="/magazin/rss.xml" />
-        <link rel="alternate" type="application/atom+xml" href="/magazin/atom.xml" />
-        <link rel="alternate" type="application/feed+json" href="/magazin/feed.json" />
-
-        <link rel="alternate" type="application/rss+xml" href="/news/rss.xml" />
-        <link rel="alternate" type="application/atom+xml" href="/news/atom.xml" />
-        <link rel="alternate" type="application/feed+json" href="/news/feed.json" />
 
         {% include "components/tracking.html" %}
 
@@ -27,8 +18,8 @@
         <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png" />
 
         <meta name="og:title" content="{{ (main_title or title or metadata.title) | plainify }}"/>
-        <meta name="description" content="{{ description or metadata.description }}"/>
-        <meta name="og:description" content="{{ description or metadata.description }}"/>
+        <meta name="description" content="{{ description or page.excerpt or metadata.description }}"/>
+        <meta name="og:description" content="{{ description or page.excerpt or metadata.description }}"/>
         {% if cover %}
         <meta property="og:image" content="{{ cover }}"/>
         {% endif %}

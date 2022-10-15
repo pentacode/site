@@ -4,11 +4,13 @@
     <nav>
         <ul class="center-aligning horizontal wrapping layout">
             {% for crumb in breadcrumbs %}
+            {% if crumb.url != "/" %}
             <li>
                 <a href="{{ crumb.url }}"
                     ><i class="fal fa-{{ crumb.icon }}"></i> {{ crumb.title }}</a
                 ><span class="subtle">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
     </nav>

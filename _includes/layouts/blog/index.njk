@@ -1,70 +1,93 @@
-{% set main_title = title + ' | Pentacode' %}
-
-{% extends "../base.njk" %}<!-- -->
+{% set main_title = title + ' | Pentacode' %} {% extends "../base.njk" %}<!-- -->
 
 {% block styles %}
 
 {{ super() }}
 
-{% include "styles/list.html" %}<!-- -->
-{% include "styles/section-menu.html" %}<!-- -->
-{% include "styles/search.html" %}<!-- -->
+{% include "styles/blog.html" %}<!-- -->
 
 {% endblock %}<!-- -->
 
-{% block body %}
+{% block body %} {% include "components/header.njk" %}
 
-    {% include "components/header.njk" %}
-
-    <div class="main-layout">
-        <div class="main">
-            {% if kind === "home" %}
-                <div class="animation-reveal">
-                    {% include "components/search.html" %}
-                </div>
-                
-                {% else %}
-
-                <div class="content animation-reveal">
-                    <div>
-                        <i class="icon fal fa-{{ icon or parent.icon or "scroll" }}"></i>
-                        <h1>
-                            <span>{{ title | markdownify | safe }}</span>
-                        </h1>
-                    </div>
-
-                    {{ content | markdownify | safe }}
-                </div>
-            {% endif %}
-
-            <ul class="articles">
-                {% set pages = collections.all | eleventyNavigation(eleventyNavigation.key) | orderByDate | excludeDrafts %}
-                {% set index = 0 %}
-                {% for page in pages %}
-                    <li class="animation-reveal animation-fast animation-delay-{{ index + 1 }}">
-                        {% set index = index + 1 %}
-                        <a href="{{ page.url }}">
-                            <article>
-                                <div>
-                                    <div class="cover">
-                                        {% include "components/page-thumbnail.njk" %}
-                                    </div>
-
-                                    <h2 class="title"><span>{{ page.title | markdownify | safe }}</span></h2>
-                                </div>
-
-                                <div class="subtitle">
-                                    {{ (page.publishDate or page.date) | formatDate }}
-                                </div>
-
-                                <div class="text">
-                                    {{ page.excerpt | plainify | safe | truncate(200) }}
-                                </div>
-                            </article>
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
+<div class="main list">
+    <div class="vertical center-aligning layout">
+        <h1 class="rainbow">Der Pentacode <strong>Blog</strong></h1>
+        <p>Produkt-Updates, Tipps & Aktuelles zum Thema Personalmanagement und mehr!</p>
     </div>
+
+    <ul class="categories-menu">
+        <li>
+            <a href="/blog" class="underline {% if not category %}active{% endif %}">
+                <i class="far fa-list-timeline"></i> Alle Rubriken
+            </a>
+        </li>
+
+        {% for cat in all_categories %}
+        <li {% if cat.name === "aktuelles" %} hidden {% endif %}>
+            <a
+                href="/blog/rubriken/{{ cat.name }}"
+                class="underline {{ cat.color }} {% if category === cat.name %}active{% endif %}"
+            >
+                <i class="far fa-{{ cat.icon }}"></i> {{ cat.title }}</a
+            >
+        </li>
+        {% endfor %}
+    </ul>
+
+    <ul class="articles-list">
+        {% set pages = collections.all | eleventyNavigation("/blog") | filterByCategory(category) | orderByDate |
+        excludeDrafts %}
+        <!-- -->
+
+        {% for page in pages %} {% set author = staff[page.author or "lstrasser"] %}
+        <li>
+            <article>
+                <div class="article-cover">
+                    <a href="{{ page.url }}">
+                        {% if page.cover %}
+                        <img src="{{ page.cover }}" alt="{{ page.coverAlt or page.title }}" />
+                        {% endif %}
+                    </a>
+                </div>
+
+                <div class="article-categories">
+                    {% for category in page.expanded_categories %}
+                    <div class="{{ category.color }}">
+                        <i class="far fa-{{ category.icon }} article-category-icon"></i>
+
+                        <a href="/blog/rubriken/{{ category.name }}" class="underline">
+                            {{ category.title }}
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <a href="{{ page.url }}" class="article-title">
+                    <h2>{{ page.title | markdownify | safe }}</h2>
+                </a>
+
+                <div class="article-summary">
+                    <p>{{ page.excerpt | plainify | safe }}...</p>
+                    <a href="{{ page.url }}" class="underline article-continue">
+                        Weiterlesen <i class="fas fa-arrow-right icon"></i>
+                    </a>
+                </div>
+
+                <div class="article-author center-aligning horizontal layout">
+                    <img class="article-author-image" src="{{ author.image }}" alt="Author: {{ author.name }}" />
+                    <div class="stretch">
+                        <div class="article-author-name">{{ author.name }}</div>
+                        <div class="article-author-title">{{ author.title }}</div>
+                    </div>
+                </div>
+
+                <div class="article-date">
+                    {{ page.date | formatDate }}
+                </div>
+            </article>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

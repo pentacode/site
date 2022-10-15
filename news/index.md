@@ -1,4 +1,4 @@
 ---
-layout: layouts/news/index.njk
-title: News
+layout: layouts/base.njk
+redirect: /blog
 ---

@@ -23,7 +23,14 @@
         text-align: center;
         width: auto;
         margin: 0 auto;
-        background: linear-gradient(125deg, var(--green) 0%, var(--blue) 25%, var(--purple) 75%, var(--orange) 100%);
+        background: linear-gradient(
+            125deg,
+            var(--green) 0%,
+            var(--blue) 25%,
+            var(--purple) 50%,
+            var(--orange) 75%,
+            var(--red) 100%
+        );
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
@@ -60,7 +67,7 @@
     }
 
     section.section-preise .price-from {
-        opacity: 0.5;
+        opacity: 0.7;
         width: 0;
         position: relative;
         left: -1.5em;
@@ -68,12 +75,12 @@
     }
 
     section.section-preise .all-features-plus {
-        opacity: 0.5;
+        opacity: 0.7;
         margin-top: 0.5em;
     }
 
     section.section-preise .price-unit {
-        opacity: 0.5;
+        opacity: 0.7;
         margin-top: -0.5em;
     }
 
@@ -156,11 +163,11 @@
         margin: 0.15em 0.3em;
     }
 
-    section.section-preise .section-preise-tile .features li.highlight {
+    section.section-preise .section-preise-tile .highlight {
         font-weight: bold;
     }
 
-    section.section-preise .section-preise-tile:not(:hover) .features li.highlight {
+    section.section-preise .section-preise-tile:not(:hover) .highlight {
         color: var(--color-highlight);
     }
 

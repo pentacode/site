@@ -1,0 +1,26 @@
+[
+    {
+        "name": "aktuelles",
+        "title": "Aktuelles",
+        "color": "green",
+        "icon": "newspaper"
+    },
+    {
+        "name": "produkt",
+        "title": "Produkt",
+        "color": "purple",
+        "icon": "box-heart"
+    },
+    {
+        "name": "ratgeber",
+        "title": "Ratgeber",
+        "color": "orange",
+        "icon": "book"
+    },
+    {
+        "name": "erfolgsgeschichten",
+        "title": "Erfolgsgeschichten",
+        "color": "red",
+        "icon": "trophy"
+    }
+]

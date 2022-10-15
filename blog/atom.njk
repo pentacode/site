@@ -1,6 +1,7 @@
 ---
 permalink: blog/atom.xml
 eleventyExcludeFromCollections: true
+layout: ""
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
@@ -8,7 +9,7 @@ eleventyExcludeFromCollections: true
   <subtitle>{{ metadata.description }}</subtitle>
   <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.all | eleventyNavigation("/blog") | excludeDrafts | getNewestCollectionItemPublishDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.all | eleventyNavigation("/blog") | excludeDrafts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.feedAuthorName }}</name>
@@ -19,7 +20,7 @@ eleventyExcludeFromCollections: true
     <entry>
       <title>{{ post.data.title or post.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.publishDate | dateToRfc3339 }}</updated>
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content xml:lang="{{ metadata.language }}" type="html">{{ post.excerpt | htmlToAbsoluteUrls(absolutePostUrl) }}...</content>
     </entry>

@@ -7,20 +7,20 @@
                     <a href="/"><img class="logo" src="/assets/img/logo.svg" alt="Pentacode Logo" /></a>
                 </li>
 
-                <li class="section-item">
-                    <a href="/#funktionen"> Funktionen </a>
+                <li class="section-item {% if eleventyNavigation.section === "funktionen" %}active{% endif %}">
+                    <a href="/#funktionen" class="underline"> Funktionen </a>
                 </li>
 
                 <li class="section-item">
-                    <a href="/#preise"> Preise </a>
+                    <a href="/#preise" class="underline"> Preise </a>
                 </li>
 
                 <li class="section-item {% if eleventyNavigation.section === "hilfe" %}active{% endif %}">
-                    <a href="/hilfe"> Hilfe </a>
+                    <a href="/hilfe" class="underline"> Hilfe </a>
                 </li>
 
-                <li class="section-item {% if eleventyNavigation.section === "magazin" %}active{% endif %}">
-                    <a href="/magazin"> Magazin </a>
+                <li class="section-item {% if eleventyNavigation.section === "blog" %}active{% endif %}">
+                    <a href="/blog" class="underline"> Blog </a>
                 </li>
             </ul>
         </nav>
@@ -74,7 +74,7 @@
                         </li>
 
                         <li>
-                            <a href="/magazin"> Magazin </a>
+                            <a href="/blog"> Blog </a>
                         </li>
                     </ul>
                 </nav>

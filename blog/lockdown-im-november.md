@@ -1,13 +1,11 @@
 ---
-layout: layouts/blog/single.njk
 title: Lockdown im November – endlich ein deutliches Zeichen an die Gastronomen
 summary: Die Politik hat anscheinend begriffen, dass für den November Lockdown eine
   echte Unterstützung der Betriebe notwendig ist. Sie als Gastronomen und Hoteliers
   erhalten bis zu 75% des Umsatzes, den Sie im November 2019 erzielt haben.
-publishDate: 2020-11-05T23:00:00.000+00:00
+date: 2020-11-05T23:00:00.000+00:00
 cover: "/uploads/shutterstock_410677828.jpg"
 author: lstrasser
-kind: page
 categories:
   - Ratgeber
 ---

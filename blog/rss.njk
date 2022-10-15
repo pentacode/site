@@ -1,6 +1,7 @@
 ---
 permalink: blog/rss.xml
 eleventyExcludeFromCollections: true
+layout: ""
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -16,7 +17,7 @@ eleventyExcludeFromCollections: true
       <title>{{ post.data.title or post.title }}</title>
       <link>{{ absolutePostUrl }}</link>
       <description>{{ post.excerpt | htmlToAbsoluteUrls(absolutePostUrl) }}...</description>
-      <pubDate>{{ post.publishDate | dateToRfc822 }}</pubDate>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <dc:creator>{{ metadata.feedAuthorName }}</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
     </item>

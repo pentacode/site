@@ -5,7 +5,7 @@
     }
 
     section.section-features {
-        margin-top: -1em;
+        margin: -1em 0 2em 0;
     }
 
     section.section-features .inner {
@@ -14,20 +14,25 @@
     }
 
     section.section-features .inner .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
     }
 
     section.section-features h2 {
-        font-size: 2.3em;
+        font-size: 2.1em;
         line-height: 1.2em;
         margin: 0 0 0.2em 0;
         font-weight: 100;
         text-align: center;
         width: auto;
         margin: 0 auto;
-        background: linear-gradient(125deg, var(--green) 0%, var(--blue) 25%, var(--purple) 75%, var(--orange) 100%);
+        background: linear-gradient(
+            125deg,
+            var(--green) 0%,
+            var(--blue) 25%,
+            var(--purple) 50%,
+            var(--orange) 75%,
+            var(--red) 100%
+        );
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
@@ -44,65 +49,167 @@
         display: none;
     }
 
-    section.section-features .section-features-grid {
+    section.section-features .section-features-tabs {
+        font-size: 0.8em;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
-        gap: 1em;
+        gap: 0.5em;
         list-style: none;
-        padding: 0;
+        padding: 0.5em;
         justify-content: center;
+        position: sticky;
+        top: 4em;
+        z-index: 10;
+        background: var(--color-bg);
+        margin: 0 0 1em 0;
+        border-radius: 0 0 0.5em 0.5em;
     }
 
-    section.section-features .section-features-tile {
+    section.section-features .section-features-tab {
         display: block;
         color: var(--color-fg);
         border: dashed 1px var(--shade-2);
-        border-radius: 1em;
-        padding: 1em;
+        border-radius: 0.5em;
+        padding: 0.5em;
         text-align: center;
         will-change: transform;
+        color: var(--color-highlight);
     }
 
-    section.section-features .section-features-tile:hover {
+    section.section-features .section-features-tab.active {
         opacity: 1 !important;
         background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
         color: var(--color-bg);
         border: none;
         box-shadow: rgba(149, 157, 165, 1) 0px 1px 20px -5px;
-    }
-
-    section.section-features .section-features-tile .section-features-icon {
-        font-size: 3em;
-        border-radius: 0;
-        color: var(--color-highlight);
-    }
-
-    section.section-features .section-features-tile h3 {
-        text-align: center;
-        font-size: 1.2em;
-        margin: 0.5em 0;
-        color: var(--color-highlight);
-    }
-
-    section.section-features .section-features-tile:hover .section-features-icon,
-    section.section-features .section-features-tile:hover h3 {
         color: var(--color-bg);
     }
 
-    section.section-features .section-features-tile p {
-        text-align: left;
-        font-size: 0.9em;
+    .section-features-subtitle {
+        padding: 0.5em;
+        max-width: 31em;
+        text-align: center;
+        margin: 1em auto;
+    }
+
+    .section-features-list {
+        position: relative;
+        list-style: none;
+        appearance: none;
+        padding: 0;
+        margin-left: -1em;
+    }
+
+    .section-features-list::before {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        z-index: -1;
+        border-left: dashed 2px var(--shade-2);
+    }
+
+    .section-features-list li {
+        padding: 2em 0 6em 0;
+        display: flex;
+    }
+
+    .section-features-list-anchor {
+        position: relative;
+        top: -8em;
+    }
+
+    .section-features-list-bullet {
+        font-size: 1.2em;
+        width: 1.2em;
+        height: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px;
+        border-radius: 100%;
+        padding: 0.5em;
+        align-self: start;
+        color: var(--color-highlight);
+        background: linear-gradient(-45deg, var(--color-highlight) 0%, var(--color-highlight-bg) 100%);
+        color: var(--color-bg);
+        margin: 0.5em;
+        flex: none;
+    }
+
+    .section-features-list-copy {
+        width: 25em;
+        padding: 1em 0;
+    }
+
+    .section-features-list-copy h3 {
+        font-size: 1.6em;
         margin: 0;
     }
 
-    @media (max-width: 700px) {
+    .section-features-list-copy h4 {
+        font-size: 1.1em;
+        margin: 0.5em 0;
+    }
+
+    .section-features-list-screenshots {
+        width: 700px;
+        height: 400px;
+        flex: 1;
+        position: relative;
+        overflow: visible;
+        transform-style: preserve-3d;
+        perspective: 2000px;
+    }
+
+    .section-features-list-screenshots-inner {
+        width: 200%;
+        transform-origin: 0 0;
+        transform-style: preserve-3d;
+        transform: scale(0.45);
+        margin-left: 2em;
+    }
+
+    .section-features-list-screenshots-inner > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        transform-origin: center center;
+    }
+
+    .section-features-list-screenshots-inner > div > img {
+        padding: 0.5em;
+        box-shadow: rgb(0 0 0 / 30%) 0 0 2em -1em;
+        border-radius: 2em;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .section-features .inner p em {
+        font-weight: bold;
+    }
+
+    @media (max-width: 800px) {
         section.section-features {
-            font-size: 0.8em;
             margin-top: 0;
         }
 
         section.section-features h2 {
-            width: 6.7em;
+            font-size: 1.8em;
+        }
+
+        section.section-features .section-features-tabs {
+            position: static;
+        }
+
+        section.section-features .section-features-list-screenshots {
+            display: none;
+        }
+
+        section.section-features .section-features-list li {
+            padding: 1em 0;
         }
     }
 </style>

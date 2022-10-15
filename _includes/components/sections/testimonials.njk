@@ -1,0 +1,113 @@
+<section class="section-testimonials left" data-animation="slide_2" data-animation_threshold="0.2">
+    <div class="inner">
+        <div class="content">
+            <div class="vertical center-aligning layout">
+                <h2>Erfolgsgeschichten</h2>
+            </div>
+
+            <p class="section-testimonials-subtitle">
+                Wir sehen uns nicht nur als Softwareanbieter, sondern als Partner der Ihnen dabei hilft, unternehmerisch
+                und wirtschaftlich erfolgreich zu sein. Das Ergebnis spricht für sich selbst.
+            </p>
+
+            <div class="section-testimonials-layout">
+                <div class="section-testimonials-quote green">
+                    <div class="section-testimonials-quote-image">
+                        <img
+                            src="/assets/img/testimonials/stingl.webp"
+                            alt="Zufriedener Pentacode Nutzer Fabian Stingl"
+                        />
+                    </div>
+                    <div class="section-testimonials-quote-body">
+                        <a href="/blog/erfolgsgeschichte_baeckerei_alof/">
+                            <i class="fas fa-quote-right section-testimonials-quote-mark"></i>
+                            <span class="text-clip"
+                                >Schon alleine, dass das langwierige Zusammenzählen von Stundenzetteln wegfällt, ist ein
+                                echter Mehrwert. Die Zahlen sind strukturiert und verlässlich. Das spart im
+                                Arbeitsalltag nicht nur Zeit, sondern beruhigt mich als Unternehmer auch sehr.</span
+                            ><i class="fas fa-quote-left section-testimonials-quote-mark"></i>
+                            <span class="section-testimonials-quote-author"> - Fabian Stingl, Alof & Stingl </span>
+                            <div class="section-testimonials-quote-read">
+                                Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section-testimonials-quote purple">
+                    <div class="section-testimonials-quote-image">
+                        <img
+                            src="/assets/img/testimonials/wenisch.webp"
+                            alt="Zufriedener Pentacode Nutzer Anton Wenisch"
+                        />
+                    </div>
+                    <div class="section-testimonials-quote-body">
+                        <a href="/blog/erfolgsgeschichte_wenisch/">
+                            <i class="fas fa-quote-right section-testimonials-quote-mark"></i>
+                            <span class="text-clip"
+                                >Als gelernter Koch hatte ich mit Zahlen so gar nichts am Hut. Dahingehend hat mir
+                                Pentacode sehr geholfen. Weil ich einfach jeden Tag ablesen kann, was meine Ausgaben und
+                                Umsätze sind. Seit der Nutzung von Pentacode haben wir unsere Personalkosten im
+                                Griff.</span
+                            ><i class="fas fa-quote-left section-testimonials-quote-mark"></i>
+                            <span class="section-testimonials-quote-author">
+                                - Anton Wenisch, Wenisch Gastronomie
+                            </span>
+                            <div class="section-testimonials-quote-read">
+                                Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section-testimonials-quote red">
+                    <div class="section-testimonials-quote-image">
+                        <img
+                            src="/assets/img/testimonials/frankenhauser.webp"
+                            alt="Zufriedener Pentacode Nutzer Uli Frankenhauser"
+                        />
+                    </div>
+                    <div class="section-testimonials-quote-body">
+                        <a href="/blog/erfolgsgeschichte_joe_penas/">
+                            <i class="fas fa-quote-right section-testimonials-quote-mark"></i>
+                            <span class="text-clip"
+                                >Für mich ist Pentacode eine große Erleichterung, denn es sorgt dafür, dass ich die
+                                Zahlen tagesaktuell vor mir habe… So bin ich zu jeder Zeit bereit für eine
+                                Prüfungssituationen durch Finanzamt, Zoll und Co. Und dadurch kann ich persönlich
+                                weitaus besser schlafen.</span
+                            >
+                            <i class="fas fa-quote-left section-testimonials-quote-mark"></i>
+                            <span class="section-testimonials-quote-author">
+                                - Uli Frankenhauser, Joe Peñas Ludwigsburg
+                            </span>
+                            <div class="section-testimonials-quote-read">
+                                Erfolgsgeschichte lesen <i class="fal fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "components/divider.njk" %}
+
+    <script>
+        (() => {
+            const container = document.querySelector(".section-testimonials");
+            const quotes = document.querySelectorAll(".section-testimonials-quote");
+            const images = document.querySelectorAll(".section-testimonials-quote-image");
+            window.addEventListener("scroll", () => {
+                const { y, height } = container.getBoundingClientRect();
+                const offset = y + height / 2 - window.innerHeight / 2;
+                const offsetRatio = offset / window.innerHeight;
+                for (const quote of quotes) {
+                    quote.style.transform = `translate(0, ${offsetRatio * 50}px)`;
+                }
+                for (const image of images) {
+                    image.style.transform = `translate(0, ${offsetRatio * 30}px)`;
+                }
+            });
+        })();
+    </script>
+</section>

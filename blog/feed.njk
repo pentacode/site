@@ -1,6 +1,7 @@
 ---
 permalink: blog/feed.json
 eleventyExcludeFromCollections: true
+layout: ""
 ---
 {
   "version": "https://jsonfeed.org/version/1.1",
@@ -21,7 +22,7 @@ eleventyExcludeFromCollections: true
       "url": "{{ absolutePostUrl }}",
       "title": "{{ post.data.title or post.title }}",
       "content_html": {% if post.excerpt %}{{ (post.excerpt + "...") | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
-      "date_published": "{{ post.publishDate | dateToRfc3339 }}"
+      "date_published": "{{ post.date | dateToRfc3339 }}"
     }
     {% if not loop.last %},{% endif %}
     {%- endfor %}

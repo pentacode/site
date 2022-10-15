@@ -1,6 +1,5 @@
 ---
-layout: layouts/blog/index.njk
-kind: home
 title: Blog
-weight: 10
+layout: layouts/blog/index.njk
+description: "Der Pentacode Blog: Produkt-Updates, Tipps & Aktuelles zum Thema Personalmanagement und mehr!"
 ---
