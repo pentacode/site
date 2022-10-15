@@ -67,11 +67,11 @@ umzuwandeln, da Pentacode das bereits für Sie erledigt. Sollten Sie dies aber
 doch einmal händisch benötigen, ist die Formel zur Umrechnung sehr einfach:
 
 Echtminuten zu Industrieminuten:
-<div class="latex">
-IM = {EM \over 60} * 100
+
+'IM = EM \ 60 x 100'
 </div>
 Industrieminuten zu Echtminuten:
-$$ EM = IM \over 100 * 60 $$
+´EM = IM \ 100 x 60´
 
 > **Beispiel:** Wir wollen eine Schicht mit der Länge von 8:40 in Industriezeit
 > umwandeln. Die 8 Stunden bleiben erhalten und die 40 Minuten werden durch die
