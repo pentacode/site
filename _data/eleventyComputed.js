@@ -9,7 +9,7 @@ const md = markdownIt({ html: true, linkify: true })
 
 function getExpandedCategories(data) {
     return (
-        data.categories?.map(
+        data.categories ? data.categories.map(
             (cat) =>
                 data.all_categories.find((c) => c.name === cat.toLowerCase()) || {
                     name: cat.toLowerCase(),
@@ -17,7 +17,7 @@ function getExpandedCategories(data) {
                     icon: "scroll",
                     color: "blue",
                 }
-        ) || [
+        ) : [
             {
                 name: "sonstiges",
                 title: "Sonstiges",
@@ -86,5 +86,6 @@ module.exports = {
         },
     },
     currentYear: new Date().getFullYear(),
+    categories: (data) => data.categories || [],
     expanded_categories: getExpandedCategories,
 };

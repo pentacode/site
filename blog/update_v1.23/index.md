@@ -1,5 +1,4 @@
 ---
-layout: layouts/news/single.njk
 title: "Pentacode v1.23: Sofortmeldungen und Personalfragebogen"
 date: 2022-09-04
 cover: sofortmeldung.webp

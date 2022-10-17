@@ -16,5 +16,11 @@
     "title": "Produktentwicklung",
     "bio": "bla bla bla",
     "image": "/staff/mklein.png"
+  },
+  "jseidel": {
+    "name": "Jonathan Seidel",
+    "title": "Customer Success",
+    "bio": "bla bla bla",
+    "image": "/staff/mklein.png"
   }
 }
