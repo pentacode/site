@@ -1,7 +1,6 @@
 ---
-title: 12 € Mindestlohn und Minijobgrenze erhöht - was Sie wissen müssen.
+title: Mindestlohn auf 12 € erhöht - was Sie wissen müssen.
 date: 2022-10-15
-slug: Mindestlohnerhöhung
 cover: "münzstapel.webp"
 author: jseidel
 categories:
