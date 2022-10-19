@@ -1,6 +1,6 @@
 ---
 title: "Urteil des Bundesarbeitsgerichts: Zeiterfassung wird zur Pflicht"
-date: 2022-09-13
+date: 2022-09-14
 cover: "bag_gebäude.webp"
 coverAlt:
     "Außenansicht des Bundesarbeitsgerichts-Gebäudes in Erfurt (Quelle:
@@ -11,7 +11,7 @@ categories:
 ---
 
 Mit dem
-[heutigem Urteil](https://www.bundesarbeitsgericht.de/presse/einfuehrung-elektronischer-zeiterfassung-initiativrecht-des-betriebsrats/)
+[gestrigen Urteil](https://www.bundesarbeitsgericht.de/presse/einfuehrung-elektronischer-zeiterfassung-initiativrecht-des-betriebsrats/)
 hat das Bundesarbeitsgericht entschieden, **dass Arbeitgeber zur Einführung
 einer objektiven Zeiterfassung verpflichtet sind**.
 
