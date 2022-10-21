@@ -175,7 +175,6 @@ module.exports = (config) => {
     config.addFilter("formatDate", (date) =>
         date
             ? new Date(date).toLocaleDateString("de-DE", {
-                  weekday: "short",
                   year: "numeric",
                   month: "long",
                   day: "numeric",

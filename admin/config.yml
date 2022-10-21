@@ -76,11 +76,11 @@ collections:
           - { label: "Julia Tomski", value: "jtomski" }
           - { label: "Martin Kleinschrodt", value: "mklein" }
       - name: "categories"
-        label: "Magazin Categories"
+        label: "Blog Categories"
         required: false
         widget: "select"
         multiple: true
-        options: ["Das erfolgreiche Unternehmen", "Das gesunde Team", "Der zufriedene Kunde"]
+        options: ["produkt", "aktuelles", "ratgeber", "erfolgsgeschichten"]
       - name: "date"
         label: "Publish Date"
         required: true
