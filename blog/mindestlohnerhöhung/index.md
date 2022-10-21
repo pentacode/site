@@ -1,6 +1,6 @@
 ---
 title: Mindestlohn auf 12 € erhöht - was Sie wissen müssen.
-date: 2022-10-15
+date: 2022-10-01
 cover: "münzstapel.webp"
 coverAlt: "Plastikfiguren stehen auf Münzstapel"
 author: jseidel
