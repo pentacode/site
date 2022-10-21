@@ -8,17 +8,18 @@ categories:
     - aktuelles
 ---
 
-Wie der Name schon sagt definiert der Mindestlohn die vom Gesetzgeber
-festgelegte **Mindesthöhe des Lohns**. Ihn gibt es seit 2015 in Deutschland und
-seitdem wird er regelmäßig leicht angehoben um für steigende Preise zu
-korrigieren.
-Ab dem 1. Oktober 2022 wird die bisweilen größte Erhöhung in Kraft treten -
-damit wird der Mindestlohn von 10,45€ auf 12.00€ Bruttogehalt pro Stunde steigen. 
+Im Zuge der weiter rekordverdächtig hohen Inflation und damit steigenden
+Lebenskosten hat die Bundesregierung beschlossen den Mindestlohn deutlich zu
+erhöhen - die größte Steigerung seit seiner Einführung im Jahr 2015.
+Damit wird ab dem 1.Oktober 2022 jeder
+Arbeitnehmer mindestens 12€ brutto die Stunde verdienen statt bisher nur 10,45€.
+Im Folgenden Artikel fassen wir knapp zusammmen, wer betroffen ist, was das für
+ihre Dienstplanung bedeutet und wie der Mindestlohn sich weiter entwickeln wird.  
 
 ## Wen betrifft der Mindestlohn?
 
 Der Mindestlohn gilt grundsätzlich für alle in Deutschland beschäftigten
-Mitarbeiter.
+Angestellten.
 Dabei ist das Vertragsverhältnis - also ob der Angestellte fest angestellt, als
 Minijobber oder Werkstudent arbeitet - nicht von Relevanz. **Einzig
 Praktikanten, Auszubildende und Langzeitarbeitslose fallen nicht unter den
@@ -47,7 +48,7 @@ Der neue Mindestlohn von 12€ wird nun erst einmal erhalten bleiben. Eine weite
 Erhöhung ist erst Anfang 2024 geplant. Auf welchen Betrag - das wird von der
 Bundesregierung bis Mitte 2023 bekannt gegeben. 
 
-## Midijobber referenz
+## Midijobber profitieren auch
 
 Auch die Midijobgrenze - die Zwischenstufe zwischen Minijob und
 Vollzeitanstellung - wurde von 1.300€ auf 1.600€ angehoben. So können
