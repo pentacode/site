@@ -1,7 +1,8 @@
 ---
 title: DBST erforderlich - Minijobber müssen zukünftig auch mit Steuer-ID gemeldet werden
 date: 2022-01-01
-cover: steuerunterlagen.webp
+cover: "steuerunterlagen.webp"
+coverAlt: "Steuerdaten werden übergeben"
 author: jseidel
 categories:
   - Aktuelles
