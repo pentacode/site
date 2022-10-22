@@ -16,7 +16,7 @@ Abgabe der Lohnsteuer alles mit rechten Dingen verläuft.
 
 ## Neuer Datenbaustein "DBST"
 
-"Datenbaustein Steuerdaten (DBST)" nennt der Gesetzgeber den Satz an Informationen
+"*Datenbaustein Steuerdaten (DBST)*" nennt der Gesetzgeber den Satz an Informationen
 der nun auch für Minijobber gemeldet werden muss. Darunter zählt die
 Steuernummer des Arbeitgebers, die Art der Besteuerung und die **Steuer-ID des
 Beschäftigen** - diese musste bisher nicht für geringfügig Beschäftigte angegeben
@@ -25,8 +25,8 @@ werden.
 
 ## Welche Stellen sind betroffen?
 
-Unter die neue Regelung des "DBST" fallen alle geringfügig Beschäftigten, die
-dauerhaft angestellt sind und eine Steuer-ID besitzen. Bis auf einige wenige
+Unter die neue Regelung des "DBST" fallen **alle geringfügig Beschäftigten, die
+dauerhaft angestellt sind und eine Steuer-ID besitzen.** Bis auf einige wenige
 Stellen macht dies einen Großteil der Minijobber aus, deren
 Steuer-ID zukünftig bei der Minijobzentrale gemeldet werden muss.
 
