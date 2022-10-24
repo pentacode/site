@@ -1,6 +1,6 @@
 ---
-title: "Zeiterfassung wird zur Pflicht - Was Sie wissen müssen"
-date: 2022-10-14
+title: "Zeiterfassung wird zur Pflicht - Was Sie wissen sollten"
+date: 2022-10-10
 cover: "zeiterfassung_wird_zur_pflicht.webp"
 coverAlt: "Stoppuhr auf weißem Hintergrund"
 author: lstrasser
