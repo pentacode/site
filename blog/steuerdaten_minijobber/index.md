@@ -8,8 +8,8 @@ categories:
   - Aktuelles
 ---
 
-Minijobber unter der 520€ Grenze sind zwar einkommenssteuerbefreit -
-Lohnsteuerabgaben müssen aber auch sie entrichten. Diese werden gemeinsam mit
+Minijobber unter der 520€ Grenze sind zwar einkommenssteuerbefreit,
+ein Arbeitgeberanteil der Lohnsteuerabgaben muss aber trotzdem entrichtet werden. Dieser wird gemeinsam mit
 Sozialabgaben an die Minijobzentrale gezahlt. Nun hat der Gesetzgeber
 beschlossen, dass der Minijobzentrale zukünftig auch die Steuernummer der
 geringfügig Beschäftigen mitzuteilen ist, damit diese prüfen kann ob bei der
