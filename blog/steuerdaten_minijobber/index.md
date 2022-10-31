@@ -53,7 +53,7 @@ verändern, wenn Sie bereits die
 nutzen. Pentacode trägt automatisch die vom Mitarbeiter im
 [Personalfragebogen](/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
 angegebene Steuer-ID gemeinsam mit den restlichen Daten in die Sofortmeldung ein
-und übermittelt diese an die Minijobzentrale. <br>
+und übermittelt diese an die Minijobzentrale.
 
 >Sollten Sie bisher das Melden ihrer Mitarbeiter noch händisch erledigt haben,
 >sollten Sie erst den Mitarbeiter den
