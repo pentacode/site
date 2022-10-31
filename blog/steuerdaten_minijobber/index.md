@@ -42,7 +42,7 @@ bereits angestellten Mitarbeiter nachmelden, sowie neue Mitarbeiter von Anfang a
 mit Steuer-ID melden. Dies könnte zusätzlichen Aufwand bedeuten, da Sie nun auch
 noch die 11-stellige Steurnummer erst von jedem Mitarbeiter einholen und dann
 auch noch an die Minijobzentrale melden müssen.
-Zum Glück nimmt **Pentacode mit seiner Personalfragebogen und
+Zum Glück nimmt **Pentacode mit seiner Personalfragebogen- und
 Sofortmeldungfunktion** Ihnen diese Arbeit schon jetzt ab.
 
 ## DBST mit Pentacode melden 
