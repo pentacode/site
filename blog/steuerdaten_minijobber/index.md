@@ -60,5 +60,3 @@ und übermittelt diese an die Minijobzentrale.
 >[Personalfragebogen](/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
 >ausfüllen lassen und anschließend die
 >[Sofortmeldefunktion](/hilfe/handbuch/mitarbeiter/allgemein/#sofortmeldung) nutzen.
-
---> Steuer ID in Sofortmeldung
