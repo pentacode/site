@@ -8,8 +8,8 @@ categories:
   - Aktuelles
 ---
 
-Minijobber unter der 520€ Grenze sind zwar einkommenssteuerbefreit -
-Lohnsteuerabgaben müssen aber auch sie entrichten. Diese werden gemeinsam mit
+Minijobber unter der 520€ Grenze sind zwar einkommenssteuerbefreit,
+ein Arbeitgeberanteil der Lohnsteuerabgaben muss aber trotzdem entrichtet werden. Dieser wird gemeinsam mit
 Sozialabgaben an die Minijobzentrale gezahlt. Nun hat der Gesetzgeber
 beschlossen, dass der Minijobzentrale zukünftig auch die Steuernummer der
 geringfügig Beschäftigen mitzuteilen ist, damit diese prüfen kann ob bei der
@@ -17,7 +17,7 @@ Abgabe der Lohnsteuer alles mit rechten Dingen verläuft.
 
 ## Neuer Datenbaustein "DBST"
 
-"*Datenbaustein Steuerdaten (DBST)*" nennt der Gesetzgeber den Satz an Informationen
+"Datenbaustein Steuerdaten (DBST)" nennt der Gesetzgeber den Satz an Informationen
 der nun auch für Minijobber gemeldet werden muss. Darunter zählt die
 Steuernummer des Arbeitgebers, die Art der Besteuerung und die **Steuer-ID des
 Beschäftigen** - diese musste bisher nicht für geringfügig Beschäftigte angegeben
@@ -42,7 +42,7 @@ bereits angestellten Mitarbeiter nachmelden, sowie neue Mitarbeiter von Anfang a
 mit Steuer-ID melden. Dies könnte zusätzlichen Aufwand bedeuten, da Sie nun auch
 noch die 11-stellige Steurnummer erst von jedem Mitarbeiter einholen und dann
 auch noch an die Minijobzentrale melden müssen.
-Zum Glück nimmt **Pentacode mit seiner Personalfragebogen und
+Zum Glück nimmt **Pentacode mit seiner Personalfragebogen- und
 Sofortmeldungfunktion** Ihnen diese Arbeit schon jetzt ab.
 
 ## DBST mit Pentacode melden 
@@ -53,7 +53,7 @@ verändern, wenn Sie bereits die
 nutzen. Pentacode trägt automatisch die vom Mitarbeiter im
 [Personalfragebogen](/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
 angegebene Steuer-ID gemeinsam mit den restlichen Daten in die Sofortmeldung ein
-und übermittelt diese an die Minijobzentrale. <br>
+und übermittelt diese an die Minijobzentrale.
 
 >Sollten Sie bisher das Melden ihrer Mitarbeiter noch händisch erledigt haben,
 >sollten Sie erst den Mitarbeiter den
