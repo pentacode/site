@@ -3,18 +3,24 @@
     "name": "Lorenz Strasser",
     "title": "Geschäftsführer",
     "bio": "bla bla bla",
-    "image": "/staff/lstrasser.jpg"
+    "image": "/staff/lstrasser.webp"
   },
   "jtomski": {
     "name": "Julia Tomski",
     "title": "Customer Success",
     "bio": "bla bla bla",
-    "image": "/staff/jtomski.jpg"
+    "image": "/staff/jtomski.webp"
   },
   "mklein": {
     "name": "Martin Kleinschrodt",
     "title": "Produktentwicklung",
     "bio": "bla bla bla",
-    "image": "/staff/mklein.png"
+    "image": "/staff/mklein.webp"
+  },
+  "jseidel": {
+    "name": "Jonathan Seidel",
+    "title": "Customer Success",
+    "bio": "bla bla bla",
+    "image": "/staff/jseidel.webp"
   }
 }
