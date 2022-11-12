@@ -5,7 +5,7 @@ cover: "agentur-für-arbeit.webp"
 coverAlt: "Agentur für Arbeit"
 author: lstrasser
 categories:
-    -Ratgeber
+    -ratgeber
 ---
 
 
