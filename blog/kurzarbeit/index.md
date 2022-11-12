@@ -1,7 +1,7 @@
 ---
 title: Kurzarbeit – wenn der Prüfer kommt
 date: 2022-10-15
-cover: 
+cover: "agentur-für-arbeit.webp"
 coverAlt: "agentur-für-arbeit.jpg"
 author: lstrasser
 categories:
