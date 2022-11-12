@@ -11,7 +11,7 @@ categories:
 Während der diversen Lockdowns über die vergangenen zwei Jahren waren viele
 Betriebe gezwungen zu schließen und ihre Mitarbeiter in
 Kurzarbeit zu schicken. Für Teil- und Vollzeitangestellte gab es staatliche
-Hilfpakete durch Kurzarbeit - Minijobber hingegen gingen leer aus und die Frage
+Hilfspakete durch Kurzarbeit - Minijobber hingegen gingen leer aus und die Frage
 bestand, ob der Arbeitsgeber verpflichtet ist den entfallenen Lohn zu entrichten. In einem
 Präzedenzurteil wurde nun entschieden, dass Minijobber kein Anrecht auf
 Lohnfortzahlung auf Grund einer staatlich beschlossenen Betriebsschließung
