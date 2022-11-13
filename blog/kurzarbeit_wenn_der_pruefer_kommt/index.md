@@ -5,12 +5,13 @@ cover: "agentur-für-arbeit.webp"
 coverAlt: "Agentur für Arbeit"
 author: lstrasser
 categories:
-    -ratgeber
+    - ratgeber
 ---
 
 
-<code> „Wir sind nicht naiv, und wir haben einen langen Atem“ </code>
-**(Daniel Terzenbach, Vorstand der Bundesagentur für Arbeit)**
+> „Wir sind nicht naiv, und wir haben einen langen Atem“
+>
+> \- **Daniel Terzenbach, Vorstand der Bundesagentur für Arbeit** [^1]
 
 Kurzarbeit war für die allermeisten Gastronomen bis zur Corona-Epidemie ein
 Fremdwort. Kurzarbeit betraf Mitarbeiter in der Schwerindustrie und in der
@@ -33,9 +34,11 @@ für Arbeit hat ein dreistufiges Verfahren zur Überprüfung: Zuerst bei der
 Anzeige der Kurzarbeit, dann bei der monatlichen Abrechnung und schließlich bei
 der Abschlussprüfung. Spätestens dann wird die Rechnung mit dem Wirt gemacht.
 
-*„Wenn in einem Betrieb die Kurzarbeit endet, machen wir die Schlussrechnung. Da
-schauen wir dann sehr genau hin… Außerdem suchen wir mit Analyse-Software … nach
-Auffälligkeiten“.* (Daniel Terzenbach)
+> „Wenn in einem Betrieb die Kurzarbeit endet, machen wir die Schlussrechnung. Da
+> schauen wir dann sehr genau hin… Außerdem suchen wir mit Analyse-Software … nach
+> Auffälligkeiten“.
+>
+> \- **Daniel Terzenbach**
 
 Während der Finanzkrise in den Jahren 2009 und 2010 meldeten 60.000 Firmen
 Kurzarbeit an. In 1.500 Fällen bestand der Verdacht auf Falschangaben, 850 davon
@@ -133,13 +136,9 @@ Arbeitszeitdokumentation und schützt Sie so im Prüfungsfall.
 
 Buchstäblich Hopfen und Malz dürfte bei jenen verloren sein, die Daniel
 Terzenbach als einen der typischen Fälle bezeichnet:
-*„Jemand stellt noch schnell Familienangehörige ein, und das auch noch zu unüblichen und unglaublich hohen Löhnen, um dann für sie Kurzarbeitergeld zu kassieren“.*
-Hier droht, wie Terzenbach sagt, *„…bei einem echten Betrug eine
-Freiheitsstrafe…“.*
+<cite>„Jemand stellt noch schnell Familienangehörige ein, und das auch noch zu unüblichen und unglaublich hohen Löhnen, um dann für sie Kurzarbeitergeld zu kassieren.“</cite>
+Hier droht, wie Terzenbach sagt, <cite>„…bei einem echten Betrug eine
+Freiheitsstrafe…“.</cite>
 
-Bis bald!
-Ihr Pentacode Team
-
-
-(Alle Zitate von Daniel Terzenbach sind einem Interview von „Die Zeit“, Ausgabe
-22/2020 vom 20.Mai 2020 entnommen)
+[^1]: Alle Zitate von Daniel Terzenbach sind einem Interview von „Die Zeit“, Ausgabe
+22/2020 vom 20.Mai 2020 entnommen
