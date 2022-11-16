@@ -34,9 +34,11 @@ für Arbeit hat ein dreistufiges Verfahren zur Überprüfung: Zuerst bei der
 Anzeige der Kurzarbeit, dann bei der monatlichen Abrechnung und schließlich bei
 der Abschlussprüfung. Spätestens dann wird die Rechnung mit dem Wirt gemacht.
 
-<cite> „Wenn in einem Betrieb die Kurzarbeit endet, machen wir die Schlussrechnung. Da
-schauen wir dann sehr genau hin… Außerdem suchen wir mit Analyse-Software … nach
-Auffälligkeiten“. </cite> (Daniel Terzenbach)
+> „Wenn in einem Betrieb die Kurzarbeit endet, machen wir die Schlussrechnung. Da
+> schauen wir dann sehr genau hin… Außerdem suchen wir mit Analyse-Software … nach
+> Auffälligkeiten“.
+>
+> \- **Daniel Terzenbach**
 
 Während der Finanzkrise in den Jahren 2009 und 2010 meldeten 60.000 Firmen
 Kurzarbeit an. In 1.500 Fällen bestand der Verdacht auf Falschangaben, 850 davon
