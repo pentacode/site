@@ -49,7 +49,6 @@
                 }
                 window.dataLayer.push({
                     event: e.data.event,
-                    ...e.data.payload,
                 });
             }
         });
