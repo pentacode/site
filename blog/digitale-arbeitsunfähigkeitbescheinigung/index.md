@@ -9,9 +9,7 @@ categories:
 ---
 
 Ab Anfang nächsten Jahres wird in ganz Deutschland die elektronische
-Arbeitsunfähigkeitsbescheinigung (eAU) eingeführt. Eine eAU ist dabei einfach
-die digitale Form des altbekannten gelben Zettels, der bei Krankheit vom Arzt
-ausgestellt wird. Neben dieser einfachen Umstellung von Papierformat auf
+Arbeitsunfähigkeitsbescheinigung (eAU) eingeführt - einfach gesagt die digitale Version des gelben Zettels. Neben dieser einfachen Umstellung von Papierformat auf
 digitale Bescheinigung erfolgt jedoch auch ein rechtlicher Wechsel zu Kosten des
 Arbeitgebers. Der Arbeitnehmer ist nun nicht mehr in der Pflicht die AU beim
 Arbeitgeber einzureichen - dieser muss sie selbstständig bei der Krankenkasse
@@ -20,9 +18,22 @@ aber nicht wirklich komplizierter und eröffnet auch wieder Chancen einer
 effektiveren Dokumentenverwaltung. **Im folgenden Artikel erfahren Sie alles, was
 Sie als Arbeitgeber zur neuen eAU wissen müssen**.
 
+## Das bleibt unverändert
+
+**Meldepflicht:** Wie bisher ist der muss der Arbeitnehmer den Arbeitgeber über eine Arbeitsunfähigkeit so früh wie möglich informieren. **Ihre Mitarbeiter müssen Sie also wie bisher über eine AU informieren**
+
+**Bescheinigungspflicht:** 
+
+
+## Was sich für Sie ändert
+
+**Vorlagepflicht**
+
+### Wie kontaktieren Sie die Krankekasse?
+
 ## Arbeitsunfähigkeitsbescheinigung bisher
 
-Bisher war der Arbeitsnehmer gezwungen spätestens **ab dem vierten
+Bisher war der Arbeitsnehmer in der spätestens **ab dem vierten
 Krankheitstag** - nach Wunsch des Arbeitgebers aber auch schon nach dem ersten -
 bei einem Arzt die Bescheinigung seiner Arbeitsunfähigkeit einzuholen. **An
 diesen Regeln ändert sich auch nichts**. 
