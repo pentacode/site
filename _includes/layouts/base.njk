@@ -5,11 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-KHFFM9D");
+        </script>
+        <!-- End Google Tag Manager -->
+
         <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" />
         <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" />
         <link rel="alternate" type="application/feed+json" href="/blog/feed.json" />
-
-        {% include "components/tracking.html" %}
 
         {% if redirect %}
         <meta http-equiv="refresh" content="0; url='{{ redirect }}'" />
@@ -17,16 +30,12 @@
 
         <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png" />
 
-        <meta name="og:title" content="{{ (main_title or title or metadata.title) | plainify }}"/>
-        <meta name="description" content="{{ description or page.excerpt or metadata.description }}"/>
-        <meta name="og:description" content="{{ description or page.excerpt or metadata.description }}"/>
+        <meta name="og:title" content="{{ (main_title or title or metadata.title) | plainify }}" />
+        <meta name="description" content="{{ description or page.excerpt or metadata.description }}" />
+        <meta name="og:description" content="{{ description or page.excerpt or metadata.description }}" />
         {% if cover %}
-        <meta property="og:image" content="{{ cover }}"/>
-        {% endif %}
-        
-        {% block meta %}{% endblock %}
-
-        {% block styles %}
+        <meta property="og:image" content="{{ cover }}" />
+        {% endif %} {% block meta %}{% endblock %} {% block styles %}
         <!-- -->
         {% include "styles/vars.html" %}
         <!-- -->
@@ -50,12 +59,18 @@
         <script src="/assets/js/scheduling.js" async></script>
     </head>
     <body>
-        {% block body %} {% endblock %}
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-KHFFM9D"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
-        {% block footer %}
-            {% include "components/footer.html" %}
-        {% endblock %}
-
-        {% include "components/helpscout.html" %}
+        {% block body %} {% endblock %} {% block footer %} {% include "components/footer.html" %} {% endblock %} {%
+        include "components/helpscout.html" %}
     </body>
 </html>
