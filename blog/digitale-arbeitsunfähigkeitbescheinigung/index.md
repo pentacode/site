@@ -5,7 +5,7 @@ cover: "AU.webp"
 coverAlt: "Close-up von einer Arbeitsunfähigkeitsbescheinigung"
 author: jseidel
 categories:
-    -aktuelles
+    - Aktuelles
 ---
 
 Ab Anfang nächsten Jahres wird in ganz Deutschland die elektronische
