@@ -1,69 +1,48 @@
 ---
 title: Ciau gelber Zettel - die eAU kommt.
 date: 2022-11-12
-cover: 
-coverAlt: 
+cover: "AU.webp"
+coverAlt: "Close-up von einer Arbeitsunfähigkeitsbescheinigung"
 author: jseidel
 categories:
-    - aktuelles
+    -aktuelles
 ---
 
 Ab Anfang nächsten Jahres wird in ganz Deutschland die elektronische
 Arbeitsunfähigkeitsbescheinigung (eAU) eingeführt - einfach gesagt die digitale Version des gelben Zettels. Neben dieser einfachen Umstellung von Papierformat auf
 digitale Bescheinigung erfolgt jedoch auch ein rechtlicher Wechsel zu Kosten des
-Arbeitgebers. Der Arbeitnehmer ist nun nicht mehr in der Pflicht die AU beim
-Arbeitgeber einzureichen - dieser muss sie selbstständig bei der Krankenkasse
-anfragen. Hört sich nach viel Arbeit an - einmal erlernt ist diese Anforderung
+Arbeitgebers. Dieser muss von nun an die eAU selbstständig bei der Krankenkasse einholen. Hört sich nach viel Arbeit an - einmal erlernt ist diese Anforderung
 aber nicht wirklich komplizierter und eröffnet auch wieder Chancen einer
 effektiveren Dokumentenverwaltung. **Im folgenden Artikel erfahren Sie alles, was
 Sie als Arbeitgeber zur neuen eAU wissen müssen**.
 
 ## Das bleibt unverändert
 
-**Meldepflicht:** Wie bisher ist der muss der Arbeitnehmer den Arbeitgeber über eine Arbeitsunfähigkeit so früh wie möglich informieren. **Ihre Mitarbeiter müssen Sie also wie bisher über eine AU informieren**
+**Meldepflicht:** Wie bisher muss der Arbeitnehmer den Arbeitgeber über eine Arbeitsunfähigkeit so früh wie möglich informieren. **Ihre Mitarbeiter müssen Sie also wie bisher über eine AU informieren**
 
-**Bescheinigungspflicht:** 
-
+**Bescheinigungspflicht:** Auch muss der Arbeitnehmer spätestens nach 4 Tagen
+AU, bei Regelung im Arbeitsvertrag auch schon ab dem ersten Tag, einen Arzt
+aufsuchen, um sich die AU bescheinigen zu lassen.
 
 ## Was sich für Sie ändert
 
-**Vorlagepflicht**
+**Vorlagepflicht:** Bisher hatte der Arbeitnehmer auch eine Vorlagepflicht, er
+musste also die Bescheinigung der AU beim Arbeitgeber vorlegen. Diese Pflicht
+entfällt nun, nach dem Arztbesuch hat der Arbeitnehmer seine Pflicht erfüllt und
+der **Arbeitgeber muss eigenständig die AU Bescheinigung bei der Krankenkasse
+einholen.** 
 
-### Wie kontaktieren Sie die Krankekasse?
+### Wie kontaktieren Sie die Krankenkasse?
 
-## Arbeitsunfähigkeitsbescheinigung bisher
-
-Bisher war der Arbeitsnehmer in der spätestens **ab dem vierten
-Krankheitstag** - nach Wunsch des Arbeitgebers aber auch schon nach dem ersten -
-bei einem Arzt die Bescheinigung seiner Arbeitsunfähigkeit einzuholen. **An
-diesen Regeln ändert sich auch nichts**. 
-Was sich ändert ist, dass bisher der Arbeitsnehmer die AU in Papierform vom Arzt
-erhalten hat und diese händisch oder postalisch beim Arbeitgeber einreichen
-musste - **diese Pflicht entfällt von nun an für den Arbeitnehmer**.
-Stattdessen übermittelt der Arzt wie bisher die Krankmeldung an die Krankenkasse
-und der Arbeitgeber kann nun direkt bei der Krankenkasse auf digitalem Wege die
-Krankmeldung einholen. 
-
-## Was ändert sich für den Arbeitnehmer?
-
-Der Arbeitnehmer muss weiterhin seinen Arbeitgeber über die Arbeitsunfähigkeit
-informieren - die **Meldepflicht bleibt somit bestehen**. Zusätzlich muss er
-weiterhin einen Arzt aufsuchen um sich die Arbeitsunfähigkeit anerkennen zu
-lassen. Jedoch ist es nun nicht mehr seine Aufgabe die
-Bescheinigung beim Arbeitgeber einzureichen - die **Vorlagepflicht entfällt
-also**.
-
-## Was ändert sich für den Arbeitgeber?
-
-Der Arbeitgeber wird nun zukünftig weiterhin die Information vom Mitarbeiter
-erhalten, dass dieser nicht arbeitstüchtig ist - **muss die Bescheinigung nun
-jedoch selbst anfordern**. Dazu muss er in direkten Kontakt mit der Krankenkasse
-des Mitarbeiters stehen, da er von dieser die eAU erhält. 
-In Kontakt treten Sie dabei entweder direkt über ihre Entgeldabrechnungssoftware
+Um die AU Bescheinigung einer ihrer Mitarbeiter einzuholen müssen Sie direkt mit
+der Krankenkasse in Kontakt treten. Wie der Name eAU schon verrät erfolgt das
+vollständig digital. In Kontakt treten Sie dabei entweder direkt über ihre Entgeldabrechnungssoftware
 oder über die supplementäre Software **sv.net der ITSG**, welche speziell für diesen Zweck
 eingerichtet wurde. 
 
-### Krankenkassendaten nun auch für Minijobber einholen
+--- Zusätzliche Information der Nutzung 
+
+## Krankenkassendaten nun auch für Minijobber einholen
 
 Da nun auch die eAU von Minijobbern vom Arbeitgeber eingeholt werden müssen,
 müssen deren **Krankenversicherungsdaten nun auch bekannt sein**. Diese Daten waren
@@ -72,16 +51,16 @@ Minijobzentrale in Kontakt getreten ist. Von nun an müssen diese direkt beim
 Angestellten eingefordert werden - am besten direkt im Einstellungsprozess.
 Wenn Sie bereits die **Personalfragebogen** von Pentacode nutzen **ändert
 sich nichts für Sie** - die Krankenkassendaten werden automatisch Teil des
-Dokuments und der Mitarbeiter muss diese somit ausfüllen.
+Dokuments und der Mitarbeiter füllt diese aus und Pentacode speichert sie ab.
 Wenn nicht könnte das ein weiterer Grund sein sich dieses Feature genauer
 anzuschauen - [hier](hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
 finden Sie weitere Informationen zum Fragebogen.
 
-### Umgang mit sensiblen Daten
+## Umgang mit sensiblen Daten
 
 Wie bisher gelten die Krankheitsdaten des Mitarbeiters als **sensibel** und sollten
 deshalb nicht mit aller Welt geteilt werden. Die Informationen der eAU sind
-dabei die gleichen, wei bisher auf der AU in Papierform angegeben waren.
+dabei die gleichen, wie bisher auf der AU in Papierform angegeben waren.
 
 -Name des/der Beschäftigten.
 -Beginn und Ende der Arbeitsunfähigkeit.
@@ -106,29 +85,32 @@ Krankenkassen anfragen.
 
 ## Wo bleibt die alte AU erhalten?
 
-Da das System der eAU noch neu ist werden von Anfang an nicht alle Zentren der
-Gesundheitsversorgung daran teilhaben. So gilt zum einen **für Privatärzte und
-Privatkliniken, sowie Ärzte im Ausland**. Auch auch **Rehabilitationskliniken,
-Physio- und Psychotherapeuten** werden vorest ihre AU weiterhin als 'gelben
-Zettel' ausstellen. 
+Da das System der eAU noch neu ist, werden nicht alle Zentren der
+Gesundheitsversorgung von Anfang an daran teilhaben. Dies gilt zum einen **für Privatärzte und
+Privatkliniken, sowie Ärzte im Ausland und generell alle privat Versicherten**.
+Auch **Rehabilitationskliniken, Physio- und Psychotherapeuten** werden vorest
+ihre AU weiterhin als 'gelben Zettel' ausstellen. 
 Auch erhält der Arbeitnehmer weiterhin eine Bescheinigung über seine AU beim
 diagnostizierenden Arzt - diese dient der rechtlichen Sicherheit, dass er seiner
 Meldepflicht nachgegangen ist. Als Arbeitgeber dürfen Sie diese nun aber nicht
 mehr einfordern - und sollten dies auch nicht tuen, falls der Mitarbeiter Ihnen
 diese Option anbietet. Sie sollten lieber die Chance nutzen auf ein gänzlich
 digitales Dokumentenarchiv umzuschalten und der Zettelwirschaft den Krieg
-anzusagen. Denn wie alle Formen der Digitalisierung bietet auch die eAu Chancen!
-
+anzusagen.
 
 ## Chancen der eAU
 
+Wie alle Formen der Digitalisierung bietet auch die eAU Chancen einer
+effektiveren Verwaltung. So gehen nun auch diese Dokumente digital ein und
+müssen nicht erst einmal durch scannen digitalisiert werden. Das macht es
+leichter die eAU gemeinsam mit den restlichen Dokumenten des Mitarbeiters zu
+speichern und sie im Fall der Fälle schnell zur Verfügung zu haben. 
 
+### Beispielablauf in Pentacode
 
-# Ciao gelber Zettel
-# Papier bleibt erhalten aber nur für den Notfall
-# nicht für privat versicherte
-
-Ein regelmäßiger oder pauschaler Abruf von eAU-Daten durch Arbeitgeber ist nicht zulässig. Die AU-Bescheinigungen (Erst- und Folgebescheinigungen) können nur individuell für den jeweiligen Arbeitnehmer angefordert werden.
+Sie sehen zu Tagesbeginn die Meldung ihres Mitarbeiters, dass dieser sich
+krankgemeldet hat und seine Schicht nicht antreten kann. 
+-
 
 
 PC: Workflow in Pentacode - bei Krankmeldung direkt anfordern und abgearbeitet
