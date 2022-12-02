@@ -1,7 +1,7 @@
 ---
 title: Wenn das Finanzamt klingelt - Die 5 häufigsten Fragen zum Thema Betriebsprüfung
 date: 2022-05-30
-cover: "bild1.jpg"
+cover: "bild1.webp"
 author: lstrasser
 categories:
   - Ratgeber
@@ -16,7 +16,7 @@ konzentrieren: die Außenprüfung durch das Finanzamt.
 ## 1. Wer prüft was?
 
 <figure class="float right width-50pc">
-  <img src="bild2.jpg" />
+  <img src="bild2.webp" />
 </figure>
 
 Generell dient eine Betriebsprüfung dazu zu ermitteln, ob der Geprüfte seinen Steuerpflichten ordnungsgemäß nachkommt.
@@ -30,7 +30,7 @@ Prüfungsanordnung und dem Kontrolltermin liegt, gezielt nutzt, um alle Belege v
 ## 2. Wer darf geprüft werden und wann?
 
 <figure class="float left width-50pc">
-  <img src="bild3.jpg" />
+  <img src="bild3.webp" />
 </figure>
 
 **Die Abgabenordnung (AO) ab § 193 legt fest, dass das Finanzamt jederzeit dazu befugt ist, in Unternehmen eine Prüfung
@@ -45,7 +45,7 @@ und für welche Betriebe diese gelten sind in § 3 Betriebsprüfungsordnung (BpO
 ## 3. Was kann eine Betriebsprüfung begünstigen?
 
 <figure class="float right width-50pc">
-  <img src="bild4.jpg" />
+  <img src="bild4.webp" />
 </figure>
 
 Fernab des generellen Prüfungsturnus des Finanzamts, gibt es Faktoren, die eine Betriebsprüfung wahrscheinlicher machen.
@@ -58,7 +58,7 @@ und verlässlich organisiert.
 ## 4. Wie läuft die Betriebsprüfung ab und wie lange dauert das?
 
 <figure class="float left width-50pc">
-  <img src="bild5.jpg" />
+  <img src="bild5.webp" />
 </figure>
 
 Wem eine Betriebsprüfung durch das Finanzamt bevorsteht, der bekommt mindestens 14 Tage vor dem Kontrolltermin eine so
@@ -75,7 +75,7 @@ Besteuerungsgrundlagen angepasst werden.
 ## 5. Vor und während der Prüfung: Wie verhalte ich mich richtig?
 
 <figure class="float right width-50pc">
-  <img src="bild6.jpg" />
+  <img src="bild6.webp" />
 </figure>
 
 Wer eine kompetente Steuerberatung an seiner Seite und eine lückenlose Buchführung vorzuweisen hat, hat den Großteil
