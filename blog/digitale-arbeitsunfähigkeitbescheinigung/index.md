@@ -37,7 +37,7 @@ einholen.**
 Um die AU Bescheinigung einer ihrer Mitarbeiter einzuholen müssen Sie direkt mit
 der Krankenkasse in Kontakt treten. Wie der Name eAU schon verrät erfolgt das
 vollständig digital. In Kontakt treten Sie dabei entweder direkt über ihre Entgeldabrechnungssoftware
-oder über die supplementäre Software **sv.net der ITSG**, welche speziell für diesen Zweck
+oder über die supplementäre Software **ITSG**, welche speziell für diesen Zweck
 eingerichtet wurde. 
 
 --- Zusätzliche Information der Nutzung 
