@@ -1,11 +1,11 @@
 ---
 title: Midijobs - alles über die Gleitzone
-date: 2022-11-12
+date: 2022-12-02
 cover: "vertrag.webp"
 coverAlt: "Arbeitsvertrag wird unterschrieben"
 author: jseidel
 categories:
-    -ratgeber
+    - Ratgeber
 ---
 
 Der "Minijob" aka. die geringfügige Beschäftigung ist in aller Munde - doch
