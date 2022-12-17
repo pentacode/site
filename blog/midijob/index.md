@@ -71,7 +71,7 @@ Rentenversicherung im geringefügigen Arbeitsverhältnis.
 > Bereich der Gleitzone keine Lohnsteuer zahlen! Wo genau der Grenzbetrag liegt,
 > hängt von der Lohnsteuerklasse ab. Der aktuelle Freibetrag für die
 > Steuerklasse 1 (in die die meisten Angestellten fallen) beträgt zur Zeit etwa
-> 960€/Monat und wird regelmäßig erhöht.
+> 960 € / Monat und wird regelmäßig erhöht.
 
 Wir können also konsultieren, dass besonders der Arbeitnehmer von einer leichten
 Erhöhung des Entgelts in die Gleitzone profitiert - durch einen **deutlich
