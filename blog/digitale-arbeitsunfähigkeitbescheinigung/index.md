@@ -18,7 +18,7 @@ Sie als Arbeitgeber zur neuen eAU wissen müssen**.
 
 ## Das bleibt unverändert
 
-**Meldepflicht:** Wie bisher muss der Arbeitnehmer den Arbeitgeber über eine Arbeitsunfähigkeit so früh wie möglich informieren. **Ihre Mitarbeiter müssen Sie also wie bisher über eine AU informieren**
+**Meldepflicht:** Wie bisher muss der Arbeitnehmer den Arbeitgeber über eine Arbeitsunfähigkeit so früh wie möglich informieren. **Ihre Mitarbeiter müssen Sie also wie bisher über eine AU informieren**.
 
 **Bescheinigungspflicht:** Auch muss der Arbeitnehmer spätestens nach 4 Tagen
 AU, bei Regelung im Arbeitsvertrag auch schon ab dem ersten Tag, einen Arzt
