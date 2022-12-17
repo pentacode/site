@@ -49,12 +49,11 @@ müssen deren **Krankenversicherungsdaten nun auch bekannt sein**. Diese Daten w
 bisher für den Arbeitgeber irrelevant, da er ausschließlich mit der
 Minijobzentrale in Kontakt getreten ist. Von nun an müssen diese direkt beim
 Angestellten eingefordert werden - am besten direkt im Einstellungsprozess.
-Wenn Sie bereits die **Personalfragebogen** von Pentacode nutzen **ändert
+Wenn Sie bereits den [Personalfragebogen](hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen) von Pentacode nutzen **ändert
 sich nichts für Sie** - die Krankenkassendaten werden automatisch Teil des
 Dokuments und der Mitarbeiter füllt diese aus und Pentacode speichert sie ab.
 Wenn nicht könnte das ein weiterer Grund sein sich dieses Feature genauer
-anzuschauen - [hier](hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
-finden Sie weitere Informationen zum Fragebogen.
+anzuschauen.
 
 ## Umgang mit sensiblen Daten
 
