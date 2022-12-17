@@ -67,7 +67,7 @@ Minijobbern Anspruch auf alle Leistungen der Kranken- Pflege- und
 Arbeitslosenversicherung!** Ein klares Upgrade zur auschließlichen
 Rentenversicherung im geringefügigen Arbeitsverhältnis. 
 
-> Dem Grundfreibetrag und Werbungskostenpauschale sei Dank müssen die meißten Angestellten im unteren
+> Dem Grundfreibetrag und der Werbungskostenpauschale sei Dank müssen die meisten Angestellten im unteren
 > Bereich der Gleitzone keine Lohnsteuer zahlen! Wo genau der Grenzbetrag liegt,
 > hängt von der Lohnsteuerklasse ab. Der aktuelle Freibetrag für die
 > Steuerklasse 1 (in die die meisten Angestellten fallen) beträgt zur Zeit etwa
