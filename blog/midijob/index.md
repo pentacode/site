@@ -56,7 +56,7 @@ Zwar sind Arbeitnehmer in einem Midijobverhältnis gezwungen einen Teil des
 Sozialversicherungsbeitrags selbst zu zahlen und auch Lohnsteuer zu entrichten -
 das hört sich aber dramatischer an, als es ist. Durch die gestaffelte Erhöhung
 der Sozialbeiträge erhöhen sich die Kosten nur leicht, besonders im unteren
-Bereich der Gleitzone. Die Lohnsteuer hingegen ist zustäzlich abhängig von der Steuerklasse, im unteren Bereich der Gleitzone haben die meißten Arbeitnehmer dadurch
+Bereich der Gleitzone. Die Lohnsteuer hingegen ist zusätzlich abhängig von der Steuerklasse, im unteren Bereich der Gleitzone haben die meisten Arbeitnehmer dadurch
 aber **keine weiteren Kosten** zu fürchten (**siehe Kasten**).
 
 So zeigt sich, dass besonders im unteren Bereich der Gleitzone für den
