@@ -92,7 +92,7 @@ ihre AU weiterhin als 'gelben Zettel' ausstellen.
 Auch erhält der Arbeitnehmer weiterhin eine Bescheinigung über seine AU beim
 diagnostizierenden Arzt - diese dient der rechtlichen Sicherheit, dass er seiner
 Meldepflicht nachgegangen ist. Als Arbeitgeber dürfen Sie diese nun aber nicht
-mehr einfordern - und sollten dies auch nicht tuen, falls der Mitarbeiter Ihnen
+mehr einfordern - und sollten dies auch nicht tun, falls der Mitarbeiter Ihnen
 diese Option anbietet. Sie sollten lieber die Chance nutzen auf ein gänzlich
 digitales Dokumentenarchiv umzuschalten und der Zettelwirschaft den Krieg
 anzusagen.
