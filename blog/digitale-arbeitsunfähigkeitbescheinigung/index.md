@@ -61,10 +61,10 @@ Wie bisher gelten die Krankheitsdaten des Mitarbeiters als **sensibel** und soll
 deshalb nicht mit aller Welt geteilt werden. Die Informationen der eAU sind
 dabei die gleichen, wie bisher auf der AU in Papierform angegeben waren.
 
--Name des/der Beschäftigten.
--Beginn und Ende der Arbeitsunfähigkeit.
--Datum der ärztlichen Feststellung der Arbeitsunfähigkeit.
--Kennzeichnung als Erst- oder Folgemeldung und die Angabe ob die AU als Folge
+- Name des/der Beschäftigten.
+- Beginn und Ende der Arbeitsunfähigkeit.
+- Datum der ärztlichen Feststellung der Arbeitsunfähigkeit.
+- Kennzeichnung als Erst- oder Folgemeldung und die Angabe ob die AU als Folge
 eines Arbeitsunfalls erfolgt ist. 
 
 > Diese Daten können selbstverständlich auch nur dann von der Krankenkasse
