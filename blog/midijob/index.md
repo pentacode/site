@@ -20,7 +20,7 @@ Der **Midijob** - oder das **Beschäftigungsverhältnis im Übergangsbereich** -
 existiert in seiner heutigen Form seit 2003 in Deutschland. Eingeführt im Zuge
 der Hartz-Reformen sollte er einen Anreiz für Beschäftigungen bieten, deren
 Entgelt nur leicht über der Minijobgrenze liegt. Dazu werden progressiv in der
-Spanne **zwischen 520€ - 1.600€ Sozialversicherungsbeiträge langsam angehoben**, um
+Spanne **zwischen 520 € - 1.600 € Sozialversicherungsbeiträge langsam angehoben**, um
 sicherzustellen, dass der Nettoverdienst beim Verlassen der Minijobgrenze nicht
 am Ende niedriger ausfällt als zuvor.  
 
