@@ -46,7 +46,7 @@ auch -nehmer lohnen.
 ### Für Arbeitgeber
 
 Da die Abgabenlast zwischen Arbeitsgeber und -nehmer nun
-aufgeteilt wird, sinkt der Anteil der Sozialabgaben von den ursprünglichen 28% für
+aufgeteilt wird, sinkt der Anteil der Sozialabgaben von den ursprünglichen 28 % für
 Minijobber, auf etwa 20% bei 1.600€ Entgelt ab. Somit sinken die relativen
 Kosten für die Arbeitskraft beim Heben über die 520€ Grenze. 
 
