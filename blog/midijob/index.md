@@ -57,7 +57,7 @@ Sozialversicherungsbeitrags selbst zu zahlen und auch Lohnsteuer zu entrichten -
 das hört sich aber dramatischer an, als es ist. Durch die gestaffelte Erhöhung
 der Sozialbeiträge erhöhen sich die Kosten nur leicht, besonders im unteren
 Bereich der Gleitzone. Die Lohnsteuer hingegen ist zusätzlich abhängig von der Steuerklasse, im unteren Bereich der Gleitzone haben die meisten Arbeitnehmer dadurch
-aber **keine weiteren Kosten** zu fürchten (**siehe Kasten**).
+aber **keine weiteren Kosten** zu befürchten.
 
 So zeigt sich, dass besonders im unteren Bereich der Gleitzone für den
 Arbeitnehmer kaum zusätzliche Kosten anfallen - sie haben aber den identischen
