@@ -12,7 +12,7 @@ Der "Minijob" aka. die geringfügige Beschäftigung ist in aller Munde - doch
 haben Sie schon einmal etwas von einem "Midijob" gehört? In diesem kurzen
 Artikel erfahren Sie alle relevanten Informationen zur **Zwischenstufe zwischen
 Minijob und Vollzeitanstellung**, seine Vorteile und warum dieses
-Anstellungsverhältnis Sie und ihre Mitarbeitern entlasten kann. 
+Anstellungsverhältnis Sie und ihre Mitarbeiter entlasten kann. 
 
 ## Ursprung
 
@@ -27,10 +27,10 @@ am Ende niedriger ausfällt als zuvor.
 ## Was macht den Midijob aus?
 
 Als Midijob gilt ein Beschäftigungsverhältnis dann, wenn:
-- Das durchschnittliche monatliche Entgelt zwischen 520€ und 1.600€ liegt
+- Das durchschnittliche monatliche Entgelt zwischen 520 € und 1.600 € liegt
 - Der Mitarbeiter langfristig (mindestens 3 Monate) angestellt ist
 
-Im Gegensatz zum Minijob unter 520€ ist der **Midijob sowohl Steuer - als auch
+Im Gegensatz zum Minijob unter 520 € ist der **Midijob sowohl steuer - als auch
 sozialversicherungspflichtig**. Das bedeutet, dass er bei den
 Versicherungsträgern angemeldet werden muss, mehr dazu
 [hier](site/blog/midijob/#zu-beachten). Dafür ist der Arbeitnehmer aber auch
@@ -55,19 +55,20 @@ Kosten für die Arbeitskraft beim Heben über die 520€ Grenze.
 Zwar sind Arbeitnehmer in einem Midijobverhältnis gezwungen einen Teil des
 Sozialversicherungsbeitrags selbst zu zahlen und auch Lohnsteuer zu entrichten -
 das hört sich aber dramatischer an, als es ist. Durch die gestaffelte Erhöhung
-der Sozialbeiträge erhöhen sich die Kosten nur leicht, besonders im unteren
+der Sozialbeiträge steigen die Kosten nur leicht, besonders im unteren
 Bereich der Gleitzone. Die Lohnsteuer hingegen ist zusätzlich abhängig von der Steuerklasse, im unteren Bereich der Gleitzone haben die meisten Arbeitnehmer dadurch
 aber **keine weiteren Kosten** zu befürchten.
 
 So zeigt sich, dass besonders im unteren Bereich der Gleitzone für den
 Arbeitnehmer kaum zusätzliche Kosten anfallen - sie haben aber den identischen
-Anspruch auf Sozialleistungen wie regulär Angestellte Mitarbeiter - unabhängig
+Anspruch auf Sozialleistungen wie regulär angestellte Mitarbeiter - unabhängig
 ob das Entgelt 521€ oder 1.600€ ist. **So haben Midijobber im Gegensatz zu
 Minijobbern Anspruch auf alle Leistungen der Kranken- Pflege- und
 Arbeitslosenversicherung!** Ein klares Upgrade zur auschließlichen
 Rentenversicherung im geringefügigen Arbeitsverhältnis. 
 
-> Dem Grundfreibetrag und der Werbungskostenpauschale sei Dank müssen die meisten Angestellten im unteren
+> Dem Grundfreibetrag und der Werbungskostenpauschale sei Dank müssen die
+> meisten Angestellten im unteren
 > Bereich der Gleitzone keine Lohnsteuer zahlen! Wo genau der Grenzbetrag liegt,
 > hängt von der Lohnsteuerklasse ab. Der aktuelle Freibetrag für die
 > Steuerklasse 1 (in die die meisten Angestellten fallen) beträgt zur Zeit etwa
@@ -97,8 +98,10 @@ signifikant ist am Ende immer das gesamte Entgelt über alle Einkünfte. Spreche
 Sie daher mit ihrem Mitarbeitern, ob diese weiteren entlohnten Tätigkeiten
 nachgehen. 
 
-## Midijobber melden
+## Abschluss
 
-Nachdem Sie nun die vielseitigen 
-
-# Abschluss
+Generell können wir sagen: Der Midijob bringt bis auf den höheren
+Verwaltungsaufwand fast nur Vorteile mit sich - sowohl für Arbeitgeber also
+auch -nehmer. Sollten Sie mit einem Mitarbeiter zufrieden sein und einem
+längeren Angestelltenverhältnis steht nichts im Wege, ist es fast immer zum
+Vorteil beider Parteien das Entgeld in die Gleitzone anzuheben. 
