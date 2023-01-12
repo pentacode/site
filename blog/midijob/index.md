@@ -98,10 +98,12 @@ signifikant ist am Ende immer das gesamte Entgelt über alle Einkünfte. Spreche
 Sie daher mit ihrem Mitarbeitern, ob diese weiteren entlohnten Tätigkeiten
 nachgehen. 
 
-## Abschluss
+## Zusammenfassung
 
 Generell können wir sagen: Der Midijob bringt bis auf den höheren
 Verwaltungsaufwand fast nur Vorteile mit sich - sowohl für Arbeitgeber also
-auch -nehmer. Sollten Sie mit einem Mitarbeiter zufrieden sein und einem
-längeren Angestelltenverhältnis steht nichts im Wege, ist es fast immer zum
+auch -nehmer. Sie entlastet werden ein wenig von den Abgaben entlastet und
+der Angestellte profitiert von deutlich besseren Sozialleistungen. Sollten Sie
+mit einem Mitarbeiter zufrieden sein und einem längeren Angestelltenverhältnis
+steht nichts im Wege, ist es fast immer zum
 Vorteil beider Parteien das Entgeld in die Gleitzone anzuheben. 
