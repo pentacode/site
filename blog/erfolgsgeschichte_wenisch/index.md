@@ -1,7 +1,7 @@
 ---
 title: "Das Gute von gestern, die Neugier von heute, Visionen von morgen - Was das Genuss-Imperium Wenisch so erfolgreich macht"
 date: 2022-06-20
-cover: "bild1.jpg"
+cover: "bild1.webp"
 author: jtomski
 categories:
   - Erfolgsgeschichten
@@ -21,7 +21,7 @@ Vision des Personalmanagements unterhalten.
 ## Liebe zum Detail und Genuss an jeder Ecke: Willkommen bei Familie Wenisch!
 
 {% figure caption="Anton Wenisch, Kopf des Wenisch Genuss-Imperiums", extraClass="float left width-30pc" %}
-<img src="bild2.jpg" />
+<img src="bild2.webp" />
 {% endfigure %}
 
 Wir treffen Anton <cite>„Toni“</cite> Wenisch an einem Donnerstagvormittag hinter der Bar des
@@ -42,7 +42,7 @@ alles hier in Gang gesetzt hat.“</cite>
 ## Ausbildung und Handwerk als starkes Fundament
 
 {% figure extraClass="float right width-40pc" %}
-<img src="bild3.jpg" />
+<img src="bild3.webp" />
 {% endfigure %}
 
 Das Thema Demut prägt nicht nur den Vater der jungen Wenisch Männer, die als
@@ -78,13 +78,13 @@ Gastronomieerlebnisse. Das ist unsere Nische, unser USP, der uns von anderen
 Stadthotels klar abgrenzt.“</cite>
 
 {% figure caption="Generationswechsel: Traditionen aufgreifen, aber das eigene Profil schärfen" %}
-<img src="bild4.jpg" />
+<img src="bild4.webp" />
 {% endfigure %}
 
 ## Ein Genuss-Ort für jeden: Zielgruppen erkennen und alle willkommen heißen
 
 {% figure caption="Ein Genuss-Ort für jeden: Zielgruppen erkennen und alle willkommen heißen", extraClass="float right width-40pc" %}
-<img src="bild5.jpg" />
+<img src="bild5.webp" />
 {% endfigure %}
 
 Jeder der einmal im Toni’s zu Gast war, wird es unterschreiben: Es herrscht eine
@@ -110,7 +110,7 @@ dass seine Mitarbeitenden immer motiviert bleiben und ihr Bestes geben.
 ## Erfolgsrezept: Personalmanagement das "menschelt" und vorausschauend wirtschaftet
 
 {% figure extraClass="float left width-40pc" %}
-<img src="bild6.jpg" />
+<img src="bild6.webp" />
 {% endfigure %}
 
 <cite>„Du darfst die Leute nicht unter-, aber auch nicht überfordern - die Zeiten sind
@@ -154,7 +154,7 @@ Urlaubstagen und Co. aussieht. Sie können ja immer in die App schauen oder sich
 den Stand ausdrucken. Das schafft Vertrauen.“
 
 {% figure %}
-<img src="bild7.jpg" />
+<img src="bild7.webp" />
 {% endfigure %}
 
 ## Viel richtig gemacht: Der Familienbetrieb als gutes Beispiel für gesundes Wachstum
