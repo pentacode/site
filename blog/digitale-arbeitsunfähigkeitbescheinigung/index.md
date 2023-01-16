@@ -37,10 +37,7 @@ einholen.**
 Um die AU Bescheinigung einer ihrer Mitarbeiter einzuholen müssen Sie direkt mit
 der Krankenkasse in Kontakt treten. Wie der Name eAU schon verrät erfolgt das
 vollständig digital. In Kontakt treten Sie dabei entweder direkt über ihre Entgeldabrechnungssoftware
-oder über die supplementäre Software **ITSG**, welche speziell für diesen Zweck
-eingerichtet wurde. 
-
---- Zusätzliche Information der Nutzung 
+oder über die supplementäre Software (**sv.net**)[https://www.itsg.de/produkte/sv-net/], welche speziell für diesen Zweck eingerichtet wurde. 
 
 ## Krankenkassendaten nun auch für Minijobber einholen
 
@@ -105,15 +102,6 @@ müssen nicht erst einmal durch scannen digitalisiert werden. Das macht es
 leichter die eAU gemeinsam mit den restlichen Dokumenten des Mitarbeiters zu
 speichern und sie im Fall der Fälle schnell zur Verfügung zu haben. 
 
-### Beispielablauf in Pentacode
-
-Sie sehen zu Tagesbeginn die Meldung ihres Mitarbeiters, dass dieser sich
-krankgemeldet hat und seine Schicht nicht antreten kann. 
--
 
 
-PC: Workflow in Pentacode - bei Krankmeldung direkt anfordern und abgearbeitet
-Speichern in Pentacode ohne scannen etc. 
-
-
-Fotoquelle: Foto: Tim Reckmann | ccnull.de | CC-BY 2.0
+*Fotoquelle: Foto: Tim Reckmann | ccnull.de | CC-BY 2.0*
