@@ -1,7 +1,7 @@
 ---
 title: Arbeit auf Abruf
 date: 2022-04-08
-cover: "bild5.jpg"
+cover: "bild5.webp"
 author: lstrasser
 categories:
   - Ratgeber
@@ -19,7 +19,7 @@ weiterzulesen.
 ## Ein Blick in den Gesetzestext
 
 {% figure caption="", extraClass="float right" %}
-<img src="bild1.jpg" />
+<img src="bild1.webp" />
 {% endfigure %}
 
 Das **Teilzeit- und Befristungsgesetz (TzBfG)** ermöglicht die Arbeit auf Abruf in **§12** ausdrücklich. Dort heißt es:
@@ -52,7 +52,7 @@ angepasst werden.
 ## Außerdem zu beachten: die Flexibilität von „Arbeit auf Abruf“ hat Grenzen
 
 {% figure caption="", extraClass="float left" %}
-<img src="bild3.jpg" />
+<img src="bild3.webp" />
 {% endfigure %}
 
 In **§12, Absatz 2 TzBfG** wird darüber hinaus auch geregelt, **dass die vereinbarte Wochenarbeitszeit um höchstens 20%
@@ -76,7 +76,7 @@ Urlaubs, so wird zumindest die 450 €-Grenze nicht gerissen. Das Problem wird d
 eingeschränkt, berührt jedoch nicht mehr die Sozialversicherung.
 
 {% figure caption="" %}
-<img src="bild4.jpg" />
+<img src="bild4.webp" />
 {% endfigure %}
 
 ## Lohnt sich der Einsatz von Aushilfen überhaupt noch? - Aber ja!

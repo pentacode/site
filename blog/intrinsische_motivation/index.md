@@ -1,7 +1,7 @@
 ---
 title: Willkommen im Zeitalter der Dienstleistung! – Warum intrinsische Motivation für jeden Erfolgssuchenden ein Begriff sein sollte
 date: 2022-06-05
-cover: "bild1.jpg"
+cover: "bild1.webp"
 author: lstrasser
 categories:
   - Ratgeber
@@ -23,7 +23,7 @@ Wettbewerbsmentalität, einzig und allein aus dem inneren Willen heraus, einen
 guten Job zu machen.
 
 {% figure caption="Roman Rackwitz, der führende Experte für Gamification im deutschsprachigen Raum", extraClass="float right width-30pc" %}
-<img src="rackwitz.jpg" />
+<img src="rackwitz.webp" />
 {% endfigure %}
 
 ## Die unterschätzte Macht der inneren Einstellung
@@ -62,7 +62,7 @@ dem wir neue Kräfte anziehen können?** Und wie halten wir die guten Personalie
 Haus?
 
 {% figure caption="", extraClass="float left" %}
-<img src="bild2.jpg" />
+<img src="bild2.webp" />
 {% endfigure %}
 
 ## Ein Selbstläufer für individuellen und unternehmerischen Wachstum
@@ -89,7 +89,7 @@ in seinem Metier wachsen.
 ## Dienstleistung erfordert Motivation
 
 {% figure caption="", extraClass="float right" %}
-<img src="bild3.jpg" />
+<img src="bild3.webp" />
 {% endfigure %}
 
 Aber warum ist es so, dass Unternehmen klassischer Weise davon ausgehen, dass
@@ -127,7 +127,7 @@ kalkulierbar sind, aber eben auch Raum zur kreativen Gestaltung zulassen.**
 ## Drei Faktoren zur Steigerung intrinsischer Motivation
 
 {% figure caption="", extraClass="float left" %}
-<img src="bild4.jpg" />
+<img src="bild4.webp" />
 {% endfigure %}
 
 Wir wissen nun: Die Aufgaben am Arbeitsplatz müssen mit den Mitarbeitenden

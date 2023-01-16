@@ -1,7 +1,7 @@
 ---
 title: Erfolg durch Faktor Zeit
 date: 2022-04-29
-cover: "bild5.jpg"
+cover: "bild5.webp"
 author: jtomski
 categories:
   - Ratgeber
@@ -23,7 +23,7 @@ erheblichste - mit dem man diese Basis sichern kann.
 ## Zeit ist Geld – besonders in Bezug auf Personalkosten
 
 {% figure caption="", extraClass="float right width-40pc" %}
-<img src="bild2.jpg" />
+<img src="bild2.webp" />
 {% endfigure %}
 
 > Egal in welcher Branche: **Die Grundvoraussetzung, um dauerhaft gute Umsätze zu erzielen, ist die Qualität des
@@ -45,7 +45,7 @@ seine Dienstplanung aufsetzt. Strasser:
 ## Zeitliche Zielvorgaben und ihre positiven Auswirkungen
 
 {% figure caption="", extraClass="float left" %}
-<img src="bild4.jpg" />
+<img src="bild4.webp" />
 {% endfigure %}
 
 Wirklich wirkungsvolle Planung hat ein Ziel vor Augen und beschreibt den Weg, um dieses Ziel zu erreichen. Ein Ziel kann zum Beispiel die Vermeidung von den eben genannten solchen oben genannten Leerlaufzeiten sein. Also Zeiten, die Mitarbeiter zwar mit Beschäftigung zubringen, jedoch keinen produktiven Beitrag leisten. Im Umkehrschluss heißt das natürlich auch: **Damit meine Planung greift, muss ich die Zeit, die zur Erledigung einer Arbeit erforderlich ist, angemessen planen.** Dadurch bin ich in der Lage, meinen Mitarbeitenden Zielvorgaben zu machen. Und deren Einhaltung auch konsequent einzufordern. Auch kleine Abweichungen der zeitlichen Kalkulation addieren sich auf. Und das schmälert am Ende den Unternehmensgewinn.
@@ -55,7 +55,7 @@ Wirklich wirkungsvolle Planung hat ein Ziel vor Augen und beschreibt den Weg, um
 ## Zeitfresser eliminieren! – Gilt auch für Unternehmer\*innen
 
 {% figure caption="", extraClass="float right" %}
-<img src="bild3.jpg" />
+<img src="bild3.webp" />
 {% endfigure %}
 
 Wer sich mit den mannigfaltigen Details rund um Dienstplanung, Buchführung und die ständige Angst vor dem bösen Erwachen bei einer Betriebsprüfung rumschlagen muss, hat erstens zu wenig Zeit, um sich ums Kernprodukt zu kümmern und wird zweitens immer weniger Freude an der eigentlichen Leidenschaft haben. Beides kann den Betrieb unmittelbar schädigen. Im Umkehrschluss bedeutet das: **Wer sein Zeitmanagement in Form einer lückenlosen, verlässlichen und intelligenten Personalplanung auf solide Beine stellt, wird augenblicklich sich selbst, seine Mitarbeiter, die Kundenbindung und nicht zuletzt auch den Unternehmenserfolg positiv beeinflussen.** Für Lorenz Strasser ist das keine These. Sondern eine Tatsache, die er regelmäßig im Umgang mit seinen Kunden und Pentacode Nutzern gespiegelt bekommt.
