@@ -20,12 +20,11 @@
         </script>
         <!-- End Google Tag Manager -->
 
-        <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" />
-        <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" />
-        <link rel="alternate" type="application/feed+json" href="/blog/feed.json" />
-
         {% if redirect %}
         <meta http-equiv="refresh" content="0; url='{{ redirect }}'" />
+        <link rel="canonical" href="{{ metadata.url }}{{ redirect }}" />
+        {% else %}
+        <link rel="canonical" href="{{ metadata.url }}{{ page.url }}" />
         {% endif %}
 
         <link rel="shortcut icon" type="image/png" href="/assets/img/icon.png" />
