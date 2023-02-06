@@ -8,8 +8,6 @@ Zuschläge sind eine Möglichkeit ihre Mitarbeiter für bestimmmte Schichten ext
 
 ## Neue Zuschlagsart hinzufügen
 
-- SFN Standardmäßig?
-
 Klicken sie auf {% button icon = "plus", label = "Neue Zuschlagsart"%}** um einen neuen Typen Zuschlagsklasse zu erstellen. Anschließend öffnet sich ein Dialogsfeld in welchem Sie die Eigenschaften des Zuschlags definieren können. 
 
 ### Name der Zuschlagsart
