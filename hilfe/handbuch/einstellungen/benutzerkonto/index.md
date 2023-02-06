@@ -1,6 +1,6 @@
 ---
 layout: layouts/hilfe/single.njk
-title: Benutzerkonto
+title: Benutzer
 weight: 1
 icon: unlock-alt
 keywords:
