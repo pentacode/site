@@ -9,7 +9,7 @@ categories:
 ---
 
 Wir alle kennen den Kampf mit der Buchhaltung - aber leider ist die Aufbereitung und Dokumentation von Lohnberichten und co. ein integraler Teil des Unternehmertums.
-Mit Pentacode V. 1.24 helfen wir Ihnen den Bürokratiejungle zu navigieren und wertvolle Zeit bei der Vorbereitung von Lohndaten und co. zu sparen. Dabei haben wir **eine gänzlich überarbeitete Datenexportfunktion, viele neue Individualisierungsoptionen sowie viele neue Optionen** in Petto, um Ihnen die Vorbereitung der Buchhaltung so einfach wie möglich zu machen.
+Mit Pentacode V. 1.24 helfen wir Ihnen den Bürokratiedschungel zu navigieren und wertvolle Zeit bei der Vorbereitung von Lohndaten und co. zu sparen. Dabei haben wir **eine gänzlich überarbeitete Datenexportfunktion, viele neue Individualisierungsoptionen sowie viele weitere Verbesserungen & Neuheiten** in Petto, um Ihnen die Vorbereitung der Buchhaltung so einfach wie möglich zu machen.
 
 ## Datenexport
 
