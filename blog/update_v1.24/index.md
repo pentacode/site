@@ -46,10 +46,9 @@ Mit den neuen **individualisierten Zuschüssen** bekommen Sie dafür das Werkzeu
 
 Auch Sonderleistungen - egal ob Benzingeld, Materialkosten oder Weihnachtsgeld - können mit dem neuen Update komplett individualisiert werden. Auch diese werden mit dem neuen Update automatisch in den Lohn integriert, wenn Sie das wünschen. 
 
-## Neue Buchhaltungsoptionen
+## Kostenstellen und Lohnartensätze
 
-Sie können nun eigene Kostenstellen anlegen und Mitarbeitern zuordnen - und Lohnartensätze genauer definieren. 
-Gleichzeitig sind Provisionen, Essensgeld, Sonderzahlung und Zuschüsse nun auch in den Lohnabrechnungen integriert und erleichtern Ihnen den Export in ihr Lohnbuchhaltungsprogramm. 
+Sie können nun eigene Kostenstellen anlegen und Mitarbeitern zuordnen - und Lohnartensätze genauer definieren. Gleichzeitig können Sie nun einem Mitarbeiter abteilungsabhängig verschiedene Lohnartensätze zuordnen - besonders hilfreich bei Festangestellten, die zusätzliche Aushilfsarbeiten außerhalb ihrer Arbeitszeit übernehmen!
 
 ## Und vieles mehr!
 
