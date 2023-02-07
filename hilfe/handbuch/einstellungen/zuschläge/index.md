@@ -44,7 +44,15 @@ Hier können Sie die Stunden auswählen zu denen der Zuschlag gewährt werden so
 
 ### Prozent Maximal
 
+Der hier eingetragene Wert gilt als Obergrenze wenn diese Zuschlagsart einem Mitarbeiter zugeteilt wird. Dies verhindert, dass Sie ausversehen einen zu hohen Betrag im Vertrag eines Mitarbeiters angeben. 
+
+{% figure caption= "Wenn sich mal eine null zu viel einschleicht hilft Ihnen der voreingestellte maximale Prozentsatz."%}
+<img src ="maximale_prozent.webp">
+{% endfigure %}
+
 ### Prozent Standardwert
+
+Dieser Wert ist die Norm, die beim Auswählen dieser Zuschlagsart für einen Mitarbeiter ausgewählt wird.
 
 ### Beitragsfrei bis zu
 
@@ -56,7 +64,7 @@ Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Genere
 
 ### Mindestdauer
 
-Sollten Zuschläge erst ab einer gewissen Schichtdauer angerechnet werden, können Sie dies hier auswählen. Geben Sie dazu einfach die Mindestdauer in das Feld ein (beim Überschreiten der Schichtlänge wird der Zuschlag für die ganze Schicht angerechnet). *Nutzen Sie diese Option bspw. um Überstunden besonders zu entlohnen*.
+Sollten Zuschläge erst ab einer gewissen Schichtdauer angerechnet werden, können Sie dies hier auswählen. Geben Sie dazu einfach die Mindestdauer in das Feld ein - beim Überschreiten der Schichtlänge wird der Zuschlag für die ganze Schicht angerechnet. 
 
 ### Schichtbeginn Vor
 
