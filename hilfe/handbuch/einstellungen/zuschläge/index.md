@@ -16,7 +16,7 @@ Geben Sie hier den Namen der Zuschlagsart ein.
 
 ### Gültig an
 
-Hier können Sie auswählen an welchen Daten der Zuschlag den zugeteilten Mitarbeitern automatisch angerechnet werden soll. 
+Hier können Sie auswählen, an welchen Tage der Zuschlag zu Wirkung kommen soll. 
 
 #### Täglich
 
