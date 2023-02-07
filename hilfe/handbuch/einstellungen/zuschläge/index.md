@@ -32,7 +32,7 @@ Der Zuschlag wird allen ausgewählten Mitarbeitern an den ausgewählten Tagen an
 
 #### Feiertage
 
-Sollten Sie einen speziellen Zuschlagssatz für bestimmte Feiertage gewähren wollen - hier können Sie dies. Wählen Sie einfach die gewünschten Feiertage aus der Liste aus. 
+Sollten Sie einen speziellen Zuschlagssatz für bestimmte Feiertage gewähren wollen, können Sie dies hier tun. Wählen Sie einfach die gewünschten Feiertage aus der Liste aus. 
 
 #### Datum 
 
