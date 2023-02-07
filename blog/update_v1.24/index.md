@@ -8,19 +8,23 @@ categories:
   - Produkt
 ---
 
-Wir alle kennen den Kampf mit der Buchhaltung - aber leider ist die Aufbereitung und Dokumentation von Lohnberichten und co. ein integraler Teil des Unternehmertums.
-Mit Pentacode V. 1.24 helfen wir Ihnen den Bürokratiedschungel zu navigieren und wertvolle Zeit bei der Vorbereitung von Lohndaten und co. zu sparen. Dabei haben wir **eine gänzlich überarbeitete Datenexportfunktion, viele neue Individualisierungsoptionen sowie viele weitere Verbesserungen & Neuheiten** in Petto, um Ihnen die Vorbereitung der Buchhaltung so einfach wie möglich zu machen.
+Auch wenn sich der Kampf mit der Buchhaltung manchmal wie eine Sysyphusarbeit anfühlt - die Aufbereitung und Dokumentation von Lohnberichten und co. ist ein integraler Teil des Unternehmertums, der (richtig unternommen) viele Früchte abwerfen kann. 
+Mit Pentacode V. 1.24 helfen wir Ihnen den Bürokratiedschungel besser zu navigieren und wertvolle Zeit bei der Vorbereitung von Lohndaten zu sparen. Dabei werden Ihnen **eine gänzlich überarbeitete Datenexportfunktion, viele neue Individualisierungsoptionen sowie viele weitere Verbesserungen & Neuheiten** helfen die Früchte einer guten Buchhaltung einfacher zu ernten. 
 
 ## Datenexport
 
-Der neue Datenexportreiter - das Herzstück des Updates. Statt wie zuvor Stammdatenblatt, Lohnberichte, Arbeitszeiten und co. verteilt über die verschiedenen Funktionen Pentacodes zu suchen, haben wir nun all diese Daten schön strukturiert an einem Platz versammelt - Sie müssen nur noch auf Download klicken. 
+Der neue Datenexportreiter - das Herzstück unseres neuen Updates. Statt wie zuvor Stammdatenblatt, Lohnberichte, Arbeitszeiten und co. verteilt über die verschiedenen Funktionen Pentacodes suchen zu müssen, finden Sie nun alle benötigten Daten gut strukturiert an einem Ort - Sie müssen nur noch auf Download klicken.
 
 {%figure caption="Die Lohndaten für eine ganze Abteilung für die Woche bereitstellen? Mit dem neuen Buchhaltungsfeature aus Update 1.24 kein Problem." %}
 <img src="lohnberichte.gif"/>
 {%endfigure%}
 
-Wählen Sie jeden gewünschten Zeitraum zum Export aus - statt bisher nur ganze Monate.
-Sie können die exportfertigen Daten auch direkt an eine Email-Adresse verschicken - oder im Dokumentenarchiv speichern. Und wenn Sie dabei sind - fordern Sie beim Exportieren von Arbeitszeiten eine Unterschrift des Mitarbeiters mit an, um das Dokument beidseitig zu verifizieren - das neue Datenexport Feature ist voll mit nützlichen Optionen, die Ihnen das Leben einfacher machen. 
+Neu mit dabei: 
+- Individualiserte Zeiträume, statt nur ganze Monate. 
+- Direktes Verschicken von Lohndaten, Arbeitszeiten und co. per Email
+- Speichern Sie Arbeitszeitnachweise direkt im Dokumentenarchiv des Mitarbeiters und lassen Sie diese sofort verifizieren
+- Ein Mitarbeiter in mehreren Arbeitsbereichen? Exportieren Sie seine Lohndaten nach Bereichen separiert oder gemeinsam mit der neuen Filteroption
+
 
 ## Individualisierte Buchhaltung
 
@@ -31,18 +35,28 @@ Auch können Sie nun Kostenstellen definieren, die mitarbeiterübergreifend funk
 <img src="buchhaltung.webp"/>
 {%endfigure%}
 
-## Zuschüsse und Sonderleistungen
+## Individualisierte Zuschüsse und Sonderleistungen
 
-Sie finden nun auch die Möglichkeit Zuschüsse zusätzlich zu individualisieren und neue Zuschussarten einzuführen. Auch können Sie nun Sonderleistungen definieren und Mitarbeitern zuordnen, um diese auch in der Lohnabrechnung automatisch aufzuführen. 
+Sie wollen für ungeliebte Schichten einen zusätzlichen Anreiz schaffen, besonders hart arbeitende Angestellte extra entlohnen oder ein dynamischeres Entlohnungmodel ausprobieren?
+Mit den neuen **individualisierten Zuschüssen** bekommen Sie dafür das Werkzeug in die Hand - während Pentacode sich automatisch um die Berechnung im Hintergrund kümmert. 
 
 {%figure caption="Sie haben nun die Option nach Zuschlagsarten weitreichend zu individualisieren - auch über die klassischen SFN-Zuschläge hinaus"%}
 <img src="zuschläge.webp"/>
 {%endfigure%}
 
+Auch Sonderleistungen - egal ob Benzingeld, Materialkosten oder Weihnachtsgeld - können mit dem neuen Update komplett individualisiert werden. Auch diese werden mit dem neuen Update automatisch in den Lohn integriert, wenn Sie das wünschen. 
+
+## Neue Buchhaltungsoptionen
+
+Sie können nun eigene Kostenstellen anlegen und Mitarbeitern zuordnen - und Lohnartensätze genauer definieren. 
+Gleichzeitig sind Provisionen, Essensgeld, Sonderzahlung und Zuschüsse nun auch in den Lohnabrechnungen integriert und erleichtern Ihnen den Export in ihr Lohnbuchhaltungsprogramm. 
+
+## Und vieles mehr!
+
 Es verstecken sich noch viele weitere kleine Verbesserungen in diesem Update - etwa ausgeklügeltere Filteroptionen, ein überarbeiteter Einstellungsbereich sowie neue informationsreichere Designs im Mitarbeitermenü. 
 
 Generell ziehlt alles in diesem Update darauf ab die Vorbereitung für ihre Buchhaltung so automatisiert wie möglich zu gestalten. Zwar kann das Einstellen der verschiedenen Lohnarten, Kostenstellen und co. am Anfang etwa mühsam wirken - auf lange Zeit sparen Sie sich durch eine korrekte Vorbereitung des Lohndatenexports Zeit, Geld und Nerven. Und das sollte ja schließlich das Ziel eines jeden Unternehmers sein. 
 
-Eine komplette Liste aller Neuigkeiten und Bugfixes finden Sie im [Änderungsprotokoll]().
+Eine komplette Liste aller Neuigkeiten und Bugfixes finden Sie im [Änderungsprotokoll](/hilfe/aenderungsprotokoll/#1.24.0).
 
 Ihr Pentacode Team
