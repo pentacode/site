@@ -80,7 +80,7 @@ Es passiert des öfteren, dass mehrere Zuschlagszeiträume aufeinander fallen. S
 
 ## Zuschlagsart bearbeiten
 
-Wenn Sie einen bestehenden Zuschlag bearbeiten wollen klicken Sie auf das **...-Symbol** neben diesem und wählen **Bearbeiten** aus. Sie gelangen anschließend in das gleiche Menü, wie unter [**Neue Zuschläge**](#neue-zuschläge) beschrieben. 
+Wenn Sie einen bestehenden Zuschlag bearbeiten wollen klicken Sie den {% button icon="ellipsis-h" %} neben diesem und wählen **Bearbeiten** aus. Sie gelangen anschließend in das gleiche Menü, wie unter [**Neue Zuschläge**](#neue-zuschlagsart-hinzufügen) beschrieben. 
 
 ## Zuschlagsart löschen
 
