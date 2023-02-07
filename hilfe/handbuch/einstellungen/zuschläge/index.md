@@ -8,7 +8,7 @@ Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Ta
 
 ## Neue Zuschlagsart hinzufügen
 
-Klicken sie auf {% button icon = "plus", label = "Neue Zuschlagsart"%}** um einen neuen Typen Zuschlagsklasse zu erstellen. Anschließend öffnet sich ein Dialogsfeld in welchem Sie die Eigenschaften des Zuschlags definieren können. 
+Klicken sie auf {% button icon = "plus", label = "Neue Zuschlagsart"%} um eine neuen Zuschlagsart zu erstellen. Anschließend öffnet sich ein Bearbeitungsdialog in welchem Sie die Eigenschaften des Zuschlags definieren können. 
 
 ### Name der Zuschlagsart
 
