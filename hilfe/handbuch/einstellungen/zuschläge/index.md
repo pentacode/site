@@ -6,6 +6,12 @@ icon: badge-percent
 
 Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Tagen und in bestimmten Zeiträumen extra zu entlohnen. Generell sollte man dabei zwischen den gesetzlich bestimmten SFN (Sonntag, Feiertag, Nachts) und weiteren frei definierten Zuschlägen (bspw. für Samstagsschichten) unterscheiden. Diese Unterscheidung ist besonders wichtig, da die gesetzlichen SFN Zuschläge beitragsfrei ausgezahlt werden können. 
 
+## Gesetzliche SFN-Zuschläge
+
+Da die SFN-Zuschläge gesetzlich verpflichtend sind, werden diese standardmäßig jedem Mitarbeiter zugeteilt. **Sie müssen also die neue Zuschlagsoption nicht nutzen, sollten Sie keine zusätzlichen Zuschläge gewähren wollen!**
+
+>**Achtung!** Verändern Sie die grundangelegten SFN-Zuschlagsarten nur, wenn Sie wissen, was Sie tuen - Veränderungen an diesen können schnell in Lohnverstößen enden!
+
 ## Neue Zuschlagsart hinzufügen
 
 Klicken sie auf {% button icon = "plus", label = "Neue Zuschlagsart"%} um eine neuen Zuschlagsart zu erstellen. Anschließend öffnet sich ein Bearbeitungsdialog in welchem Sie die Eigenschaften des Zuschlags definieren können. 
@@ -20,14 +26,14 @@ Hier können Sie auswählen, an welchen Tage der Zuschlag zu Wirkung kommen soll
 
 #### Täglich
 
-Der Zuschlag wird allen ausgewählten Mitarbeitern jeden Tag im ausgewählten Zeitraum angerechnet. *Nützlich bspw. für Nachtschichten.*
+Der Zuschlag wird allen ausgewählten Mitarbeitern jeden Tag im ausgewählten Zeitraum angerechnet. **Nützlich bspw. für Nachtschichten.**
 
 #### Bestimmte Wochentage
 
 Der Zuschlag wird allen ausgewählten Mitarbeitern an den ausgewählten Tagen angerechnet. Wählen Sie dazu einfach die gewünschten Wochentage aus. 
 
-{% figure caption= "Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des foglenden Tages angerechnet"%}
-<img src =  "samstagszuschlag.webp">
+{% figure caption= "Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des foglenden Tages angerechnet."%}
+<img src = "samstagnacht.webp">
 {% endfigure %}
 
 #### Feiertage
@@ -56,15 +62,21 @@ Dieser Wert ist die Norm, die beim Auswählen dieser Zuschlagsart für einen Mit
 
 ### Beitragsfrei bis zu
 
-Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur gesetzlich verpflichtete SFN-Zuschläge bis zu 25€/h beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln haben Sie normalerweise natürlich Interesse daran diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte in dieses Feld normalerweise mit 25€/h für gesetzlich verpflichtende und 0€/h für restliche Zuschläge ausgefüllt werden. 
+Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur gesetzlich verpflichtete SFN-Zuschläge bis zu 25€/h beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln haben Sie normalerweise natürlich Interesse daran diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte dieses Feld normalerweise mit 25€/h für gesetzlich verpflichtende und 0€/h für restliche Zuschläge ausgefüllt werden. 
 
 > **Achtung!** Zuschläge außerhalb der gesetzlich vorgeschriebenen SFN-Zuschläge können nicht beitragsfrei abgerechnet werden - dies würde einer Abgabenhinterziehung gleichkommen!
 
 ### Bei Ausfall (Urlaub / Krank)
 
+Was passiert wenn ein Mitarbeiter einer zuschlagsberechtigten Schicht zugeteilt ist, diese aber nicht antreten kann weil er erkrankt oder beurlaubt ist? Zwar dürfen diese nicht angetretenen Zuschlagsschichten nicht beitragsfrei abgerechnet werden - wenn Sie wollen können Sie ihren Mitarbeitern aber auch dann **den Zuschlag beitragspflicht gewähren**. 
+
 ### Mindestdauer
 
-Sollten Zuschläge erst ab einer gewissen Schichtdauer angerechnet werden, können Sie dies hier auswählen. Geben Sie dazu einfach die Mindestdauer in das Feld ein - beim Überschreiten der Schichtlänge wird der Zuschlag für die ganze Schicht angerechnet. 
+Sollten Zuschläge erst ab einer gewissen Mindestdauer im Zuschlagszeitraum angerechnet werden, können Sie dies hier auswählen. Geben Sie dazu einfach die Mindestdauer in das Feld ein. 
+
+{% figure caption= "Der Samstagszuschlag soll erst einer Schichtdauer von 4h gewährt werden? Geben Sie die Mindestdauer einfach mit an."%}
+<img src ="mindestdauer.webp">
+{% endfigure %}
 
 ### Schichtbeginn Vor
 
@@ -75,7 +87,7 @@ Wenn ein Zuschlag nur gewährt werden soll wenn die Schicht vor einem bestimmten
 Es passiert des öfteren, dass mehrere Zuschlagszeiträume aufeinander fallen. Stellen Sie sich etwa vor ein Mitarbeiter arbeitet an einem Sonntag, der zugleich Feiertag ist. Oder eine Nachtschicht ragt von Samstag in den Sonntag. Für diese Fälle muss es klar sein, welche Zuschlagsart berücksichtigt werden soll. Wählen Sie dazu hier die Zuschlagsarten aus, **die vom aktuell ausgewählten Zuschlag überschrieben werden sollen**. 
 
 {% figure caption= "Sie wollen sonntagnachts einen besonderen Anreiz für ihre Mitarbeiter schaffen? Dann sollten Sie diesen Zuschlag vor dem normalen Nachts- und Sonntagszuschlag priorisieren"%}
-<img src =  "samstagszuschlag.webp">
+<img src =  "vorrang.webp">
 {% endfigure %}
 
 ## Zuschlagsart bearbeiten
@@ -92,13 +104,5 @@ Sie möchten eine weitere Zuschlagsart hinzufügen und eine bestehende als Vorla
 
 ## Zuschlagsarten Mitarbeitern zuordnen
 
-Um die nun erstellten Zuschläge Mitarbeitern zuzuordnen, wählen Sie den Reiter **Mitarbeiter** aus und navigieren zu den **Verträgen**. Unter **Zuschläge** können Sie nun die Zuschläge auswählen, die dem Mitarbeiter angerechnet werden sollen. 
+Um die nun erstellten Zuschläge Mitarbeitern zuzuordnen, wählen Sie den Reiter **Mitarbeiter** aus und navigieren zu den **Verträgen**. Unter **Zuschläge** können Sie nun die Zuschläge auswählen, die dem Mitarbeiter angerechnet werden sollen. Weitere Informationen zur Zuteilung finden Sie unter [Vertrag](/site/hilfe/handbuch/mitarbeiter/vertrag)
 
-Prozent maximal vs Standard
-Bei Ausfall wegen Personalplanung
-
---> Standard SFN Zuschläge schon drinnen? Wenn nicht - button "SFN Zuschläge erstellen"
---> Mindestdauer ab dann oder dann ganze schicht? + Mindestdauer überschritten außerhalb des des Zeitintervalls?
---> Bei Ausfall 
-
--- Schließt sich automatisch wenn ein Vorrang ausgewählt wird
