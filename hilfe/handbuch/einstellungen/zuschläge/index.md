@@ -4,7 +4,7 @@ title: Zuschläge
 icon: badge-percent
 ---
 
-Zuschläge sind eine Möglichkeit ihre Mitarbeiter für bestimmmte Schichten extra zu entlohnen. Generell sollte man dabei zwischen den gesetzlich verpflichteten SFN (Sonntag, Feiertag, Nachts) und weiteren freiwilligen Zuschlägen (bspw. für Samstagsschichten) unterscheiden. Diese Unterscheidung ist besonders wichtig, da die gesetzlichen SFN Zuschläge beitragsfrei ausgezahlt werden können. 
+Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Tagen und in bestimmten Zeiträumen extra zu entlohnen. Generell sollte man dabei zwischen den gesetzlich bestimmten SFN (Sonntag, Feiertag, Nachts) und weiteren frei definierten Zuschlägen (bspw. für Samstagsschichten) unterscheiden. Diese Unterscheidung ist besonders wichtig, da die gesetzlichen SFN Zuschläge beitragsfrei ausgezahlt werden können. 
 
 ## Neue Zuschlagsart hinzufügen
 
