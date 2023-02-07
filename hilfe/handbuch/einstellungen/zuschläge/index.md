@@ -22,17 +22,17 @@ Geben Sie hier den Namen der Zuschlagsart ein.
 
 ### Gültig an
 
-Hier können Sie auswählen, an welchen Tage der Zuschlag zu Wirkung kommen soll. 
+Hier können Sie auswählen, an welchen Tagen der Zuschlag zu Wirkung kommen soll. 
 
 #### Täglich
 
-Der Zuschlag wird allen ausgewählten Mitarbeitern jeden Tag im ausgewählten Zeitraum angerechnet. **Nützlich bspw. für Nachtschichten.**
+Der Zuschlag wird allen ausgewählten Mitarbeitern jeden Tag im ausgewählten Zeitraum angerechnet. **Nützlich bspw. für Nachtzuschläge.**
 
 #### Bestimmte Wochentage
 
 Der Zuschlag wird allen ausgewählten Mitarbeitern an den ausgewählten Tagen angerechnet. Wählen Sie dazu einfach die gewünschten Wochentage aus. 
 
-{% figure caption= "Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des foglenden Tages angerechnet."%}
+{% figure caption= "Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des folgenden Tages angerechnet."%}
 <img src = "samstagnacht.webp">
 {% endfigure %}
 
@@ -46,7 +46,7 @@ Vielleicht ist der Tag den Sie auswählen wollen gar kein offizieller Feiertag b
 
 ### Zeiträume
 
-Hier können Sie die Stunden auswählen zu denen der Zuschlag gewährt werden soll. Klicken Sie auf {%icon "plus" %} und {% icon "minus" %} um zusätzliche Zeitspannen hinzuzufügen. Ziehen Sie anschließend die Leisten so mittels Drag&Drop, dass sie den gewünschten Zeitraum beinhalten. 
+Hier können Sie die Stunden auswählen zu denen der Zuschlag gewährt werden soll. Klicken Sie auf {%icon "plus" %} und {% icon "minus" %} um zusätzliche Zeitspannen hinzuzufügen. Ziehen Sie anschließend die Leisten mittels Drag & Drop so, dass sie den gewünschten Zeitraum beinhalten. 
 
 ### Prozent Maximal
 
@@ -62,13 +62,13 @@ Dieser Wert ist die Norm, die beim Auswählen dieser Zuschlagsart für einen Mit
 
 ### Beitragsfrei bis zu
 
-Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur gesetzlich verpflichtete SFN-Zuschläge bis zu 25€/h beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln haben Sie normalerweise natürlich Interesse daran diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte dieses Feld normalerweise mit 25€/h für gesetzlich verpflichtende und 0€/h für restliche Zuschläge ausgefüllt werden. 
+Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur gesetzlich vorgeschriebene SFN-Zuschläge bis zu 25€/h beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln, haben Sie normalerweise natürlich Interesse daran, diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte dieses Feld normalerweise mit 25€/h für gesetzlich vorgeschriebene und 0€/h für restliche Zuschläge ausgefüllt werden. 
 
 > **Achtung!** Zuschläge außerhalb der gesetzlich vorgeschriebenen SFN-Zuschläge können nicht beitragsfrei abgerechnet werden - dies würde einer Abgabenhinterziehung gleichkommen!
 
 ### Bei Ausfall (Urlaub / Krank)
 
-Was passiert wenn ein Mitarbeiter einer zuschlagsberechtigten Schicht zugeteilt ist, diese aber nicht antreten kann weil er erkrankt oder beurlaubt ist? Zwar dürfen diese nicht angetretenen Zuschlagsschichten nicht beitragsfrei abgerechnet werden - wenn Sie wollen können Sie ihren Mitarbeitern aber auch dann **den Zuschlag beitragspflicht gewähren**. 
+Was passiert wenn ein Mitarbeiter einer zuschlagsberechtigten Schicht zugeteilt ist, diese aber nicht antreten kann weil er erkrankt oder beurlaubt ist? Zwar dürfen die Zuschläge nicht angetretener Schichten nicht beitragsfrei abgerechnet werden - wenn Sie wollen können Sie ihren Mitarbeitern aber auch dann **den Zuschlag beitragspflichtig gewähren**. 
 
 ### Mindestdauer
 
@@ -80,11 +80,11 @@ Sollten Zuschläge erst ab einer gewissen Mindestdauer im Zuschlagszeitraum ange
 
 ### Schichtbeginn Vor
 
-Wenn ein Zuschlag nur gewährt werden soll wenn die Schicht vor einem bestimmten Zeitpukt angefangen hat können Sie diesen Zeitpunkt hier definieren. *Diese Option eignet sich bspw. für Nachtzuschläge wenn manche Arbeit schon früh morgens anfangen aber nicht mehr von diesen Nachtzuschlägen profitieren sollten*
+Wenn ein Zuschlag nur gewährt werden soll, wenn die Schicht vor einem bestimmten Zeitpukt angefangen hat, können Sie diesen Zeitpunkt hier definieren. **Diese Option eignet sich bspw. für Nachtzuschläge wenn manche Mitarbeiter schon früh morgens anfangen aber nicht mehr von den Nachtzuschlägen profitieren sollen**
 
 ### Hat Vorrang Vor...
 
-Es passiert des öfteren, dass mehrere Zuschlagszeiträume aufeinander fallen. Stellen Sie sich etwa vor ein Mitarbeiter arbeitet an einem Sonntag, der zugleich Feiertag ist. Oder eine Nachtschicht ragt von Samstag in den Sonntag. Für diese Fälle muss es klar sein, welche Zuschlagsart berücksichtigt werden soll. Wählen Sie dazu hier die Zuschlagsarten aus, **die vom aktuell ausgewählten Zuschlag überschrieben werden sollen**. 
+Es passiert des Öfteren, dass mehrere Zuschlagszeiträume aufeinander fallen. Stellen Sie sich etwa vor, ein Mitarbeiter arbeitet an einem Sonntag, der zugleich Feiertag ist. Oder eine Nachtschicht ragt von Samstag in den Sonntag. Für diese Fälle muss es klar sein, welche Zuschlagsart berücksichtigt werden soll. Wählen Sie dazu hier die Zuschlagsarten aus, **die vom aktuell ausgewählten Zuschlag überschrieben werden sollen**. 
 
 {% figure caption= "Sie wollen sonntagnachts einen besonderen Anreiz für ihre Mitarbeiter schaffen? Dann sollten Sie diesen Zuschlag vor dem normalen Nachts- und Sonntagszuschlag priorisieren"%}
 <img src =  "vorrang.webp">
@@ -92,17 +92,17 @@ Es passiert des öfteren, dass mehrere Zuschlagszeiträume aufeinander fallen. S
 
 ## Zuschlagsart bearbeiten
 
-Wenn Sie einen bestehenden Zuschlag bearbeiten wollen klicken Sie den {% button icon="ellipsis-h" %} neben diesem und wählen **Bearbeiten** aus. Sie gelangen anschließend in das gleiche Menü, wie unter [**Neue Zuschläge**](#neue-zuschlagsart-hinzufügen) beschrieben. 
+Wenn Sie einen bestehenden Zuschlag bearbeiten wollen, klicken Sie den {% button icon="ellipsis-h" %} neben diesem und wählen **Bearbeiten** aus. Sie gelangen anschließend in das gleiche Menü, wie unter [**Neue Zuschläge**](#neue-zuschlagsart-hinzufügen) beschrieben. 
 
 ## Zuschlagsart löschen
 
-Wenn Sie eine Zuschlagsart löschen möchten klicken Sie auf das **...-Symbol** neben dieser und wählen **Löschen** aus.
+Wenn Sie eine Zuschlagsart löschen möchten, klicken Sie auf das **...-Symbol** neben dieser und wählen **Löschen** aus.
 
 ## Zuschlagsart duplizieren
 
-Sie möchten eine weitere Zuschlagsart hinzufügen und eine bestehende als Vorlage nutzen? Klicken Sie auf das **...-Symbol** neben der Vorlage und wählen **Duplizieren** aus. 
+Sie möchten eine weitere Zuschlagsart hinzufügen und eine bestehende als Vorlage nutzen? Klicken Sie auf das **...-Symbol** neben der Vorlage und wählen **Duplizieren** aus. Die Zuschlagsart mit all ihren Einstellungen ist nun dupliziert. 
 
 ## Zuschlagsarten Mitarbeitern zuordnen
 
-Um die nun erstellten Zuschläge Mitarbeitern zuzuordnen, wählen Sie den Reiter **Mitarbeiter** aus und navigieren zu den **Verträgen**. Unter **Zuschläge** können Sie nun die Zuschläge auswählen, die dem Mitarbeiter angerechnet werden sollen. Weitere Informationen zur Zuteilung finden Sie unter [Vertrag](/site/hilfe/handbuch/mitarbeiter/vertrag)
+Um die nun erstellten Zuschläge Mitarbeitern zuzuordnen, wählen Sie den Reiter **Mitarbeiter** aus und navigieren zu den **Verträgen**. Unter **Zuschläge** können Sie nun die Zuschläge auswählen, die dem Mitarbeiter angerechnet werden sollen. Weitere Informationen zur Zuteilung finden Sie unter [Vertrag](/hilfe/handbuch/mitarbeiter/vertrag)
 
