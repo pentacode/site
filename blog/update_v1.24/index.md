@@ -9,7 +9,7 @@ categories:
 ---
 
 Auch wenn sich der Kampf mit der Buchhaltung manchmal wie eine Sysyphusarbeit anfühlt - die Aufbereitung und Dokumentation von Lohnberichten und co. ist ein integraler Teil des Unternehmertums, der (richtig unternommen) viele Früchte abwerfen kann. 
-Mit Pentacode V. 1.24 helfen wir Ihnen den Bürokratiedschungel besser zu navigieren und wertvolle Zeit bei der Vorbereitung von Lohndaten zu sparen. Dabei werden Ihnen **eine gänzlich überarbeitete Datenexportfunktion, viele neue Individualisierungsoptionen sowie viele weitere Verbesserungen & Neuheiten** helfen die Früchte einer guten Buchhaltung einfacher zu ernten. 
+Mit Pentacode v1.24 helfen wir Ihnen den Bürokratiedschungel besser zu navigieren und wertvolle Zeit bei der Vorbereitung von Lohndaten zu sparen. Dabei werden Ihnen **eine gänzlich überarbeitete Datenexportfunktion, viele neue Individualisierungsoptionen sowie viele weitere Verbesserungen & Neuheiten** helfen, die Früchte einer guten Buchhaltung noch einfacher zu ernten. 
 
 ## Datenexport
 
