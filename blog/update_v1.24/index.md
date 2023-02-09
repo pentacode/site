@@ -13,7 +13,8 @@ Mit Pentacode v1.24 helfen wir Ihnen den Bürokratiedschungel besser zu navigier
 
 ## Datenexport
 
-Der neue Datenexportreiter - das Herzstück unseres neuen Updates. Statt wie zuvor Stammdatenblatt, Lohnberichte, Arbeitszeiten und co. in verschiedenen Bereichen der Software suchen zu müssen, finden Sie nun alle benötigten Daten gut strukturiert an einem Ort - Sie müssen nur noch auf Download klicken.
+**Der neue Datenexportreiter - das Herzstück unseres neuen Updates.**
+Statt wie zuvor Stammdatenblatt, Lohnberichte, Arbeitszeiten und co. in verschiedenen Bereichen der Software suchen zu müssen, finden Sie nun alle benötigten Daten gut strukturiert an einem Ort - Sie müssen nur noch auf Download klicken.
 
 {%figure caption="Die Lohndaten für eine ganze Abteilung für die Woche bereitstellen? Mit dem neuen Buchhaltungsfeature aus Update 1.24 kein Problem." %}
 <img src="lohnberichte.gif" alt="Animierter Screenshot der Datenexport-funktion." />
@@ -37,7 +38,7 @@ Auch können Sie nun Kostenstellen definieren, die mitarbeiterübergreifend funk
 
 ## Individualisierte Zuschüsse und Sonderleistungen
 
-Sie wollen für ungeliebte Schichten einen zusätzlichen Anreiz schaffen, besonders hart arbeitende Angestellte extra entlohnen oder ein dynamischeres Entlohnungmodel ausprobieren?
+Sie wollen für ungeliebte Schichten einen zusätzlichen Anreiz schaffen, besonders hart arbeitende Angestellte extra entlohnen oder ein dynamischeres Entlohnungsmodel ausprobieren?
 Mit den neuen **individualisierten Zuschüssen** bekommen Sie dafür das Werkzeug in die Hand - während Pentacode sich automatisch um die Berechnung im Hintergrund kümmert. 
 
 {%figure caption="Sie haben nun die Option nach Zuschlagsarten weitreichend zu individualisieren - auch über die klassischen SFN-Zuschläge hinaus"%}
@@ -57,5 +58,7 @@ Es verstecken sich noch viele weitere kleine Verbesserungen in diesem Update - e
 Generell ziehlt alles in diesem Update darauf ab die Vorbereitung für ihre Buchhaltung so automatisiert wie möglich zu gestalten. Zwar kann das Einstellen der verschiedenen Lohnarten, Kostenstellen und co. am Anfang etwa mühsam wirken - auf lange Zeit sparen Sie sich durch eine korrekte Vorbereitung des Lohndatenexports Zeit, Geld und Nerven. Und das sollte ja schließlich das Ziel eines jeden Unternehmers sein. 
 
 Eine komplette Liste aller Neuigkeiten und Bugfixes finden Sie im [Änderungsprotokoll](/hilfe/aenderungsprotokoll/#1.24.0).
+
+Viel Spaß mit dem neuen Update!
 
 Ihr Pentacode Team
