@@ -66,7 +66,7 @@ Dieser Wert ist die Norm, die beim Auswählen dieser Zuschlagsart für einen Mit
 
 Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur gesetzlich vorgeschriebene SFN-Zuschläge bis zu 25€/h beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln, haben Sie normalerweise natürlich Interesse daran, diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte dieses Feld normalerweise mit 25€/h für gesetzlich vorgeschriebene und 0€/h für restliche Zuschläge ausgefüllt werden. 
 
-> **Achtung!** Zuschläge außerhalb der gesetzlich vorgeschriebenen SFN-Zuschläge können nicht beitragsfrei abgerechnet werden - dies würde einer Abgabenhinterziehung gleichkommen!
+> **Achtung!** Zuschläge außerhalb der [gesetzlich definierten SFN-Zuschläge](https://www.gesetze-im-internet.de/estg/__3b.html) können nicht beitragsfrei abgerechnet werden - dies würde einer Abgabenhinterziehung gleichkommen!
 
 ### Bei Ausfall (Urlaub / Krank)
 
