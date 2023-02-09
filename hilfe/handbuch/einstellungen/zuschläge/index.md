@@ -10,7 +10,9 @@ Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Ta
 
 Da die SFN-Zuschläge gesetzlich verpflichtend sind, werden diese standardmäßig jedem Mitarbeiter zugeteilt. **Sie müssen also die neue Zuschlagsoption nicht nutzen, sollten Sie keine zusätzlichen Zuschläge gewähren wollen!**
 
->**Achtung!** Verändern Sie die grundangelegten SFN-Zuschlagsarten nur, wenn Sie wissen, was Sie tuen - Veränderungen an diesen können schnell in Lohnverstößen enden!
+Die in [§ 3b des Einkommenssteuergesetzes (EStG)](https://www.gesetze-im-internet.de/estg/__3b.html) definierten SFN (Sonntags-, Feiertags- und Nachts-) Zuschläge werden für Sie automatisch angelegt. Solange für Ihr Unternehmen also keine gesonderten Regeln gelten, sollten Sie in diesem Bereich normalerweise keine Anpassungen machen müssen.
+
+**Sollten Sie dennoch Änderungen vornehmen wollen (z.B.: eine Anpassung der Zuschlagszeiträume), dann beachten Sie bitte, dass alle Zuschläge, die über den in § 3b EStG definierten Rahmen hinausgehen, beitragspflichtig sind!**
 
 ## Neue Zuschlagsart hinzufügen
 
