@@ -16,7 +16,7 @@ Mit Pentacode v1.24 helfen wir Ihnen den Bürokratiedschungel besser zu navigier
 Der neue Datenexportreiter - das Herzstück unseres neuen Updates. Statt wie zuvor Stammdatenblatt, Lohnberichte, Arbeitszeiten und co. verteilt über die verschiedenen Funktionen Pentacodes suchen zu müssen, finden Sie nun alle benötigten Daten gut strukturiert an einem Ort - Sie müssen nur noch auf Download klicken.
 
 {%figure caption="Die Lohndaten für eine ganze Abteilung für die Woche bereitstellen? Mit dem neuen Buchhaltungsfeature aus Update 1.24 kein Problem." %}
-<img src="lohnberichte.gif"/>
+<img src="lohnberichte.gif" alt="Animierter Screenshot der Datenexport-funktion." />
 {%endfigure%}
 
 Neu mit dabei: 
