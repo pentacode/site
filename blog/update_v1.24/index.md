@@ -1,8 +1,8 @@
 ---
-layout: layouts/news/single.njk
 title: "Pentacode v1.24: Noch mehr Power im Bereich Lohnvorbereitung und Datenexport"
 date: 2023-02-07
 cover: datenexport.webp
+coverAlt: Animierter Screenshot des Datenexport-Bereichs
 author: jseidel
 categories:
   - Produkt
