@@ -65,7 +65,7 @@ erhalten, oder um zu sehen, wer in einem Monat besonders viele Über- oder Minde
 Sie gelangen in die Monats-Kontenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Konten** wählen.
 
 {% figure caption="In der Monats-Kontenübersicht sehen Sie die Kontostände aller Mitarbeiter jeweils für einen einzelnen Monat." %}
-<img src="kontenuebersicht-monat.png" />
+<img src="kontenübersicht_monat.webp" />
 {% endfigure %}
 
 ## Jahresübersicht
@@ -77,7 +77,7 @@ verschiedenen Konten wechseln, indem sie die gewünschte Kontenart über das Men
 In die Jahresübersicht gelangen Sie, indem Sie zunächst zur [Monatsansicht](#monatsübersicht) navigieren und dort in der rechten oben Ecke von der Option "Monat" auf "Jahr" wechseln.
 
 {% figure caption="Die Konten-Jahresübersicht zeigt Ihnen wie der Name schon sagt die Konten all Ihrere Mitarbeiter jeweils für ein ganzes Jahr an." %}
-<img src="kontenuebersicht-jahr.png" />
+<img src="kontenübersicht_jahr.webp" />
 {% endfigure %}
 
 ## Kontenblatt
