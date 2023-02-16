@@ -32,7 +32,7 @@ Hier können Sie auswählen, an welchen Tagen der Zuschlag zu Wirkung kommen sol
 - *Datum -* Vielleicht ist der Tag den Sie auswählen wollen gar kein offizieller Feiertag bspw. Neujahr. Unter Datum können Sie **jeden Tag des Jahres** auswählen. 
 
 {% figure caption="Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des folgenden Tages angerechnet." %}
-<img src = "samstagnacht.webp">
+<img src="samstagnacht.webp">
 {% endfigure %}
 
 ### Zeiträume
