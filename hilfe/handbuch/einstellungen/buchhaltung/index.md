@@ -21,7 +21,7 @@ Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum Spannendsten
 
 ## Allgemein
 
-### Berater- Betriebs- und Mandantennummer
+### Berater-, Betriebs- und Mandantennummer
 
 Die Berater-, Betriebs- und Mandantennummer sind Angaben, die für den Datentransfer in verschiedene Lohnbuchhaltungsprogramme
 benötigt werden. Diese Informationen erhalten sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen.
