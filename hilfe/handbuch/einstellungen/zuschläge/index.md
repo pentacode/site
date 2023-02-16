@@ -37,14 +37,14 @@ Hier können Sie auswählen, an welchen Tagen der Zuschlag zu Wirkung kommen sol
 
 ### Zeiträume
 
-Hier können Sie die Stunden auswählen, zu denen der Zuschlag gewährt werden soll. Klicken Sie auf {%button icon "plus" %} und {%button icon "minus" %} um zusätzliche Zeitspannen hinzuzufügen. Ziehen Sie anschließend die Leisten mittels Drag & Drop so, dass sie den gewünschten Zeitraum beinhalten. 
+Hier können Sie die Stunden auswählen, zu denen der Zuschlag gewährt werden soll. Klicken Sie auf {%button icon="plus" %} und {%button icon="minus" %} um zusätzliche Zeitspannen hinzuzufügen. Ziehen Sie anschließend die Leisten mittels Drag & Drop so, dass sie den gewünschten Zeitraum beinhalten. 
 
 ### Prozent Maximal
 
 Der hier eingetragene Wert gilt als Obergrenze, wenn diese Zuschlagsart einem Mitarbeiter zugeteilt wird. Dies verhindert, dass Sie ausversehen einen zu hohen Betrag im Vertrag eines Mitarbeiters angeben. 
 
-{% figure caption= "Wenn sich mal eine null zu viel einschleicht hilft Ihnen der voreingestellte maximale Prozentsatz."%}
-<img src ="maximale_prozent.webp">
+{% figure caption="Wenn sich mal eine null zu viel einschleicht hilft Ihnen der voreingestellte maximale Prozentsatz." %}
+<img src="maximale_prozent.webp" />
 {% endfigure %}
 
 ### Prozent Standardwert
@@ -66,8 +66,8 @@ Nach den im [Entgeldfortzahlungsgesetz](https://www.gesetze-im-internet.de/entgf
 
 Sollten Zuschläge erst ab einer gewissen Mindestdauer im Zuschlagszeitraum angerechnet werden, können Sie dies hier auswählen. Geben Sie dazu einfach die Mindestdauer in das Feld ein. 
 
-{% figure caption= "Der Samstagszuschlag soll erst einer Schichtdauer von 4h gewährt werden? Geben Sie die Mindestdauer einfach mit an."%}
-<img src ="mindestdauer.webp">
+{% figure caption="Der Samstagszuschlag soll erst einer Schichtdauer von 4h gewährt werden? Geben Sie die Mindestdauer einfach mit an." %}
+<img src="mindestdauer.webp">
 {% endfigure %}
 
 ### Schichtbeginn Vor
@@ -78,8 +78,8 @@ Wenn ein Zuschlag nur gewährt werden soll, wenn die Schicht vor einem bestimmte
 
 Es passiert des Öfteren, dass mehrere Zuschlagszeiträume aufeinander fallen. Stellen Sie sich etwa vor, ein Mitarbeiter arbeitet an einem Sonntag, der zugleich Feiertag ist. Oder eine Nachtschicht ragt von Samstag in den Sonntag. Für diese Fälle muss es klar sein, welche Zuschlagsart berücksichtigt werden soll. Wählen Sie dazu hier die Zuschlagsarten aus, **die vom aktuell ausgewählten Zuschlag überschrieben werden sollen**. 
 
-{% figure caption= "Sie wollen sonntagnachts einen besonderen Anreiz für ihre Mitarbeiter schaffen? Dann sollten Sie diesen Zuschlag vor dem normalen Nacht- und Sonntagszuschlag priorisieren."%}
-<img src =  "vorrang.webp">
+{% figure caption="Sie wollen sonntagnachts einen besonderen Anreiz für ihre Mitarbeiter schaffen? Dann sollten Sie diesen Zuschlag vor dem normalen Nacht- und Sonntagszuschlag priorisieren."%}
+<img src="vorrang.webp">
 {% endfigure %}
 
 ## Zuschlagsart bearbeiten
