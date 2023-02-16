@@ -10,7 +10,7 @@ Sonderleistungen sind eine Möglichkeit einer Gruppe an Mitarbeitern gesondert v
 
 ## Neue Sonderleistungs erstellen
 
-Klicken Sie auf {%button icon "plus", label "Neue Sonderleistung erstellen"%} um im erscheinenden Bearbeitungsdialog die Eigenschaften der Zusatzzahlung zu bestimmen. Dabei können Sie folgende Einstellungen treffen (**Wenn der Slider neben einer Option blau erscheint ist sie angewählt):
+Klicken Sie auf {%button icon="plus", label="Neue Sonderleistung erstellen" %} um im erscheinenden Bearbeitungsdialog die Eigenschaften der Zusatzzahlung zu bestimmen. Dabei können Sie folgende Einstellungen treffen (**Wenn der Slider neben einer Option blau erscheint ist sie angewählt**):
 
 - *Name der Sonderleistung -* Geben Sie hier den Namen der Zusatzleistung ein.
 - * Beitragsfrei -* Soll die Zusatzleistungen beitragsfrei angerechnet werden wie etwa SFN-Zuschläge? Wenn ja wählen Sie diese Option an, dass der Slider blau erscheint.
