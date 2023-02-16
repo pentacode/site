@@ -30,9 +30,6 @@ benötigt werden. Diese Informationen erhalten sie von Ihrem Steuerberater oder 
 
 Mit dieser Angabe können Sie bestimmen in welcher Höhe Mitarbeiteressen bezuschusst werden sollen. Der angegebene Eurobetrag wird in der Lohnabrechnung mit der Anzahl der im Dienstplan vermerkten Mitarbeiteressen multipliziert.
 
--- Sinn maximale Höhe einzustellen, um 
--- Erhöhung auf 3,80 anfang 2023
-
 ## Kassenbuch
 
 ### Buchungskonto
@@ -77,8 +74,6 @@ Klicken Sie auf "**+ Neuer Lohnartensatz**". Es öffnet ein leeres Eingabeformul
 
 **Übertragen** Sie im zweiten Schritt die Nummern eins zu eins **in Pentacode** und speichern Sie. Geben Sie dem Lohnartensatz einen eindeutigen Namen, z.B. "Festangestellte" und wählen Sie die Mitarbeiter und Abteilungen / Vertragsarten aus, für die diese Lohnart zutreffend sein soll. Lassen Sie sich auch hierbei von Ihrer Lohnbuchhaltung anleiten.
 
--- Immer noch Nummern von Lohnbuchhaltung?
-
 {% figure caption="Übertragen Sie die Lohnarten entsprechend den Angaben durch Ihre Lohnbuchhaltung und wählen Sie die zutreffenden Beschäftigungsverhältnisse und Abteilungen aus." %}
 
 <img src = "lohnart.webp" />
@@ -86,8 +81,6 @@ Klicken Sie auf "**+ Neuer Lohnartensatz**". Es öffnet ein leeres Eingabeformul
 {% endfigure %}
 
 Das war's! Ab jetzt können Sie exportieren.
-
--- Gehalt, SFN-Pauschale etc. auch Lohnbuchnummer oder Höhe?
 
 **Hinweis**: Im Regelfall haben fast alle Mitarbeiter (unabhängig davon, ob Sie einen Stunden- oder einen Monatslohn erhalten oder Azubis sind) die gleichen Lohnarten. Sie benötigen für diese deshalb nur einen Lohnartensatz.
 
