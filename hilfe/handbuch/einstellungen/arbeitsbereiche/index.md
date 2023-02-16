@@ -33,7 +33,7 @@ gesetzlich geregelten Feiertage werden automatisch an- und abgewählt. Sie haben
 jedoch immer auch die Option [**manuell Feiertage ab- und anzuwählen**](#feiertage-bearbeiten).
 
 {% figure caption="So legen Sie einen neuen Standort an." %}
-<img src="neuer-standort.png"/>
+<img src="neuer_standort.webp"/>
 {% endfigure %}
 
 Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die 
@@ -45,13 +45,13 @@ Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mi
 
 Wenn Sie einen [neuen Standort anlegen](#neuer-standort) oder
 [bearbeiten](#standort-bearbeiten), werden die Feiertage vorerst standardmäßig
-für das ausgewählte Bundeland festgelegt. Sollten Sie die Feiertage jedoch
+für das ausgewählte Bundesland festgelegt. Sollten Sie die Feiertage jedoch
 ändern wollen, können Sie diese ganz einfach über das Dialogfenster beim
 Bearbeiten des Standorts tun. Klicken Sie dazu auf den Schieberegler, bis dieser bei nicht
-gewünschte Feiertagen weiß erscheint und bei gewünschten Feiertage blau. 
+gewünschten Feiertagen weiß erscheint und bei gewünschten Feiertage blau. 
 
-{% figure caption="Ein neuer Standort soll zwei zusätzliche Feiertage anerkennen." %}
-<img src = "standort_anlegen.gif"/>
+{% figure caption="Die Feiertage eines neuen Standorts sollen angepasst werden." %}
+<img src = "standort_feiertage.gif"/>
 {% endfigure %}
 
 ## Standort bearbeiten
@@ -61,19 +61,13 @@ Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort
 Bearbeiten"** wählen. Sie kommen so in das gleiche Menü welches
 [hier](#neuer-standort) beschrieben ist.
 
-{% figure caption="So können Sie einen bestehenden Standort bearbeiten" %}
-
-<img src = "standort_bearbeiten.png"/>
-
-{% endfigure %}
-
 ## Standort archivieren
 
 Wenn Sie einen Standort **nicht mehr benötigen** sollten und auch nicht wollen, dass dieser weiterhin in Ihrer Datenbank erscheint, können Sie ihn über das {% icon "archive" %}-Symbol **archivieren**. Der Standort ist dann nicht mehr sichtbar, alle Daten, also alle Angaben zu Mitarbeitern, Arbeitszeiten und Kassenbuch bleiben jedoch erhalten.
 
 {% figure caption="So können Sie einen bestehenden Standort archivieren" %}
 
-<img src = "standort_archivieren.png"/>
+<img src = "archivieren_standort.webp"/>
 
 {% endfigure %}
 
@@ -87,11 +81,9 @@ Jede Abteilung muss **mindestens eine Position** ausweisen. Sollten Sie innerhal
 
 {% figure caption="So legen Sie eine neue Abteilung an" %}
 
-<img src = "neue_abteilung.png"/>
+<img src = "neue_abteilung.webp"/>
 
 {% endfigure %}
-
-Sie können zusätzlich auswählen ob SFN Zuschläge für Mitarbeiter in dieser Abteilung beitragspflichtig sind. Standardmäßig gelten diese als beitragsbefreit. 
 
 ## Abteilung bearbeiten
 
@@ -105,7 +97,7 @@ Wenn Sie eine Abteilung **nicht mehr benötigen** sollten und auch nicht wollen,
 
 {% figure caption="So können Sie eine Abteilung archivieren" %}
 
-<img src = "abteilung_archivieren.png"/>
+<img src = "abteilung_archivieren.webp"/>
 
 {% endfigure %}
 
@@ -115,10 +107,4 @@ Sollten Sie eine archivierte Abteilung wiederherstellen wollen, wenden Sie sich 
 
 Die Abteilungen sind in der **Reihenfolge** gelistet, in der Sie die Abteilungen beim Einrichten Ihrer Datenbank angelegt haben. In dieser Reihenfolge erscheinen sie auch im **Dienstplan**.
 
-Sie können diese **Reihenfolge** jederzeit **ändern**, indem sie mit einem **Mouse -over** die Abteilung über die **Pfeile** am rechten Rand nach oben oder unten **verschieben**.
-
-{% figure caption="So ändern Sie die Reihenfolge der Abteilungen für den Dienstplan" %}
-
-<img src = "abteilungen_verschieben.png"/>
-
-{% endfigure %}
+Sie können diese **Reihenfolge** jederzeit **ändern**, indem Sie eine Abteilung einfach per **drag-and-drop** in eine neue Position verschieben. 
