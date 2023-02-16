@@ -25,7 +25,7 @@ Um die Sonderleistung zu bearbeiten klicken Sie auf {% button icon="ellipsis-h" 
 
 Um die Sonderleistungen Mitarbeitern zuzuteilen, wählen Sie unter dem Reiter **Mitarbeiter** den gewünschten Angestellten aus und navigieren dann zu den **Verträgen**. Wenn Sie einen neuen Vertrag erstellen oder einen bestehenden bearbeiten haben Sie nun die Option auch aus den erstellten Sonderleistungen die gewünschten auszuwählen und **die Höhe der Sonderleistung zu bestimmen**.
 
-{%figure caption = "Unter Vertrag können Sie die Sonderleistungen bestimmen, die der Mitarbeiter erhalten soll - bspw. Fahrkostenzuschüsse."%}
+{% figure caption="Unter Vertrag können Sie die Sonderleistungen bestimmen, die der Mitarbeiter erhalten soll - bspw. Fahrkostenzuschüsse." %}
 <img src = "hinzufügen.webp" />
 {% endfigure %}
 
