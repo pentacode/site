@@ -19,7 +19,7 @@ Klicken Sie auf {%button icon="plus", label="Neue Sonderleistung erstellen" %} u
 
 ## Sonderleistungen bearbeiten und löschen
 
-Um die Sonderleistung zu bearbeiten klicken Sie auf {%icon "ellipsis-h"%} neben der Sonderleistung. Wählen Sie **Bearbeiten** aus kommen Sie wieder in den gleichen Bearbeitungsdialog wie beim Erstellen einer neuen Sonderleistung. Wählen Sie **Löschen** aus um die Sonderleistung zu löschen.
+Um die Sonderleistung zu bearbeiten klicken Sie auf {% button icon="ellipsis-h" %} neben der Sonderleistung. Wählen Sie {% button label="Bearbeiten" icon="pencil" %}** aus kommen Sie wieder in den gleichen Bearbeitungsdialog wie beim Erstellen einer neuen Sonderleistung. Wählen Sie **Löschen** aus um die Sonderleistung zu löschen.
 
 ## Sonderleistungen Mitarbeitern zuordnen
 
