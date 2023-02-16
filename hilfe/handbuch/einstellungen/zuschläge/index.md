@@ -31,7 +31,7 @@ Hier können Sie auswählen, an welchen Tagen der Zuschlag zu Wirkung kommen sol
 - *Feiertage -*  Sollten Sie einen speziellen Zuschlagssatz für **bestimmte Feiertage** gewähren wollen, können Sie dies hier tun. Wählen Sie einfach die gewünschten Feiertage aus der Liste aus. 
 - *Datum -* Vielleicht ist der Tag den Sie auswählen wollen gar kein offizieller Feiertag bspw. Neujahr. Unter Datum können Sie **jeden Tag des Jahres** auswählen. 
 
-{% figure caption= "Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des folgenden Tages angerechnet."%}
+{% figure caption="Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des folgenden Tages angerechnet." %}
 <img src = "samstagnacht.webp">
 {% endfigure %}
 
