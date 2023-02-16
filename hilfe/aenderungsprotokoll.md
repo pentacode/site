@@ -7,6 +7,56 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
+## 1.24.4
+
+### Änderungen & Neuigkeiten
+
+-   Es ist nun wieder möglich, das Kassenbuch als PDF über einen beliebigen Zeitraum zu exportieren.
+
+### Behobene Fehler
+
+-   Bei manchen Nutzern kam es zu längeren Ladezeiten im Mitarbeiter-Arbeitszeitblatt
+-   Das Bearbeiten von Zuschlagsarten führte in manchen Fällen zu einer Fehlermeldung.
+-   Beim Kassenbuch-Export wurden irrtümlicherweise auch Kassenzählungen mit Exportiert.
+-   Beim Lohndatenexport nach DATEV Lodas wurden Urlaubs- und Kranktage doppelt exportiert (einmal als Tages-, einmal als Stundenwert).
+-   In den Bereichen "Positionen" und "Zugänge & Rechte" wurde die Ansicht beim Bearbeiten des Mitarbeiter-Filters nicht automatisch aktualisiert.
+-   Beim Bearbeiten des Zeiterfassungs-PINs wurde in manchen Fällen der Speichern Button nicht sofort angezeigt.
+-   Bei manchen Nutzern waren Lohnarten für Zuschläge, sowie die Zuordnung von Lohnartensätzen (Aushilfe, Festangestellt etc.) nicht richtig übernommen worden. Diese wurden wiederhergestellt.
+
+## 1.24.3
+
+### Änderungen & Neuigkeiten
+
+-   Das Kassenbuch kann nun ganz einfach über den Drucken-Button unter "Umsätze / Kassenbuch" ausgedruckt werden.
+-   Schicht-Bemerkungen werden im Arbeitszeitweis und "Lohnbericht (Detailliert)" nun wieder angezeigt.
+
+### Behobene Fehler
+
+-   Beim Löschen von Zuschlagsarten kam es in manchen Fällen zu einer Fehlermeldung.
+-   Im Lohnbericht wurde für Mitarbeiteressen der hinterlegte Geldwert nicht korrekt berücksichtigt.
+-   Manche Mitarbeiter konnten trotz ausreichender Berechtigungen nicht mehr auf den Bereich Mitarbeiter / Stammdaten zugreifen.
+
+## 1.24.2
+
+### Behobene Fehler
+
+-   Im Export "Lohnbericht (Übersicht)" war die letzte Spalte abgeschnitten.
+-   Im Kassenbuch-Export "DATEV Buchungsstapel" wurde ein fehlerhaftes Enddatum im Header eingefügt, was zu Problemen beim Import führen konnte.
+-   Beim Export des Datenblatts für mehrere Mitarbeiter kam es zu einer Fehlermeldung.
+-   Bei der Berechnung von Nachtzuschlägen wurde der Zeitraum 00:00 - 06:00 in manchen Fällen doppelt gezählt.
+-   Die Mindestdauer für Zuschläge wurde nicht berücksichtigt.
+
+## 1.24.1
+
+### Behobene Fehler
+
+-   Bei Mitarbeitern mit Sollstundenberechung "Monatsgenau ohne Feiertage" oder "Feste Wochentage ohne Feiertage" war die Sollstundenberechnung fehlerhaft. **Sollten Sie hiervon betroffen sein und nach dem Update noch immer falsche Werte angezeigt werden, können Sie unter "Einstellungen / Unternehmen / Sonstiges" über den Button "Zwischenspeicher Zurücksetzen" die Konten neu berechnen lassen.**
+-   Der Zugriff auf das Mitarbeiter-Arbeitsblatt war für manche Nutzer trotz ausreichender Berechtigungen nicht möglich.
+-   Der Kassenbuch-Datenexport war aufgrund eines Darstellungsfehlers nicht möglich.
+-   Bei der Navigation von der Kontenansicht eines Mitarbeiters in das Arbeitszeitblatt wurde der Zeitraum nicht korrekt übernommen.
+-   Im Bereich "Probleme" führte ein Klick auf den Button "Problem Beheben" in manchen Fällen nicht zum richtigen Zeitraum.
+-   Einige Datenexporte waren aufgrund eines Performanceproblems nicht oder nur eingeschrängt verfügbar. Wir haben hier einige Optimierungen vorgenommen, die das Problem hoffentlich beheben sollten. Wir beobachten das Problem jedoch weiter und werden falls nötige weitere Maßnahmen erfreifen.
+
 ### 1.24.0
 
 ## Änderungen & Neuigkeiten
