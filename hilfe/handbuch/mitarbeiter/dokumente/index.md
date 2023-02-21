@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Dokumente & Formulare
-icon: cabinet-filing
+icon: files
 weight: 6
 ---
 

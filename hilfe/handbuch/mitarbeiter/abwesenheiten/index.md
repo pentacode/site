@@ -19,12 +19,11 @@ auf einen Blick.
 
 Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Abwesenheiten** wählen.
 
-> {% icon "lightbulb" %} **Tipp:** Möchten Sie die nur die Abwesenheiten einer bestimmten Abteilung sehen? Über das
-> {% icon "filter" %}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer
-> bestimmter Abteilungen beschränken.
+> {% icon "lightbulb" %} **Tipp:** Möchten Sie die nur die Abwesenheiten einer bestimmten Abteilung oder Anstellungsarten sehen? Über das
+> {% icon "filter" %}-Symbol in der linken oberen Ecke können Sie die Anzeige auf Mitarbeiter aus einer oder mehrerer bestimmter Abteilungen oder Vertragsarten beschränken.
 
 {% figure caption="In der Abwesenheiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Abwesenheiten aller Ihrer Mitarbeiter auf einen Blick." %}
-<img src="uebersicht.png" />
+<img src="übersicht.webp" />
 {% endfigure %}
 
 ## Einzelansicht
@@ -34,7 +33,7 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Abwesenheiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
 
 {% figure caption="Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten." %}
-<img src="einzeln.png" />
+<img src="einzeln.webp" />
 {% endfigure %}
 
 ## Neue Abwesenheit Erfassen
