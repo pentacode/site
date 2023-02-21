@@ -52,6 +52,10 @@ Um einen neuen unbaren Vorschuss hinzuzufügen klicken Sie auf das {% icon "plus
 <img src="vorschuss_hinzufügen.png" />
 {% endfigure %}
 
+### Unbare Vorschüsse löschen
+
+Um einen Vorschuss zu löschen, navigieren Sie in die Einzelansicht des Mitarbeiters und klicken auf {% icon "trash" %} neben dem zu löschenden Vorschuss. Ein Klick auf {% button label="Bestätigen" %} löscht den Vorschuss entgültig. 
+
 ## Drucken
 
 Über das {% icon "print" %}-Symbol können Sie die Vorschussliste wenn gewünscht auch ausdrucken.
