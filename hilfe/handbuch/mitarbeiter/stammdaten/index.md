@@ -12,7 +12,7 @@ Stammdaten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** aus dem
 **Stammdaten**.
 
 {% figure caption="Die Stammdaten-Übersicht zeigt die Stammdaten aller Ihrer Mitarbeiter in tabellarischer Form." %}
-<img src="uebersicht.png" />
+<img src="übersicht.webp" />
 {% endfigure %}
 
 ### Spaltenwahl
@@ -32,8 +32,7 @@ Sie interessieren Sich nur für bestimmte Informationen? Über den {% button ico
 
 Um die Stammdaten eines Mitarbeiters zu bearbeiten, gehen Sie wie folgt vor:
 
-1. Navigieren Sie zur [Stammdaten-Übersicht](#stammdaten-übersicht) und wählen dort den gewünschten Mitarbeiter durch
-   einen Klick auf die entsprechende Zeile.
+1. Navigieren Sie zur [Stammdaten-Übersicht](#stammdaten-übersicht) und wählen dort den gewünschten Mitarbeiter durch einen Klick auf die entsprechende Zeile.
 2. Nehmen Sie die gewünschten Änderungen vor.
 3. Klicken Sie {% button label="Speichern" %} am Ihre Änderungen zu übernehmen.
 
@@ -62,7 +61,7 @@ Das Datenblatt eines Mitarbeiters enthält Informationen wie Name, Addresse und 
 Informationen zum Beschäftigungsverhältnis.
 
 Um das Datenblatt **aller Mitarbeiter** zu drucken, navigieren Sie zunächst zur
-[Stammdaten-Übersicht](stammdaten-übersicht) und klicken dann auf den {% button icon="address-card" %} Button in der rechten oberen Ecke des Mitarbeiter-Untermenüs.
+[Stammdaten-Übersicht](stammdaten-übersicht) und klicken dann auf den {% button icon="address-card" %} Button in der rechten oberen Ecke des Mitarbeiter-Untermenüs. Dieser verweist sie in den Reiter [Datenexport](/hilfe/handbuch/datenexport/index.md). 
 
 Um das Datenblatt **eines einzelnen Mitarbeiters** zu drucken, navigieren Sie zunächst zur
 [Stammdaten-Übersicht](stammdaten-übersicht) und wählen den gewünschten Mitarbeiter. Klicken dann auf den {% button icon="address-card" %} Button rechts über dem Profilbild (bzw. den Initialen falls kein Profilbild vorhanden).

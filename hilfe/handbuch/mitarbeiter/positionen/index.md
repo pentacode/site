@@ -23,8 +23,8 @@ können diese schnell und einfach bearbeiten.
 
 Sie gelangen in die Positionenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Positionen** wählen.
 
-{% figure caption="Über die Positionen-Übersicht verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrere Mitarbeiter und können diese schnell und einfach bearbeiten." %}
-<img src="positionen-uebersicht.png" />
+{% figure caption="Über die Positionen-Übersicht verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrer Mitarbeiter und können diese schnell und einfach bearbeiten." %}
+<img src="positionen-uebersicht.webp" />
 {% endfigure %}
 
 ## Positionen Einzelansicht
@@ -34,11 +34,9 @@ Positionen-Einzelansicht einer Person, indem Sie zunächst zur [Positionenübers
 navigieren und dort den gewünschten Mitarbeiter wählen.
 
 {% figure caption="In der Positionen-Einzelansicht können Sie die Positionen eines bestimmten Mitarbeiters einsehen oder bearbeiten." %}
-<img src="positionen-einzeln.png" />
+<img src="positionen-einzeln.webp" />
 {% endfigure %}
 
 ## Positionen Zuweisen
 
-Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken. In der
-[Positionenübersicht](#positionen-übersicht) werden Änderungen automatisch gespeichert. In der
-[Einzelansicht](#positionen-einzelansicht) müssen Sie jedoch nach dem Wählen der gewünschten Bereiche noch auf {% button label="Speichern" %} klicken, damit die Änderungen übernommen werden.
+Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken in der [Positionenübersicht](#positionen-übersicht). In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 
