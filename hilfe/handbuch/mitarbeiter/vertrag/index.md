@@ -155,7 +155,7 @@ und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 > vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende
 > Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
-## {% icon "euro-sign" Bezahlung %}
+## {% icon "euro-sign" %} Bezahlung
 
 ### Lohn/Gehalt (brutto)
 
@@ -189,7 +189,7 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 
 > **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
-## {% icon "island-tropical" Urlaub %}
+## {% icon "island-tropical" %} Urlaub
 
 ### Urlaubsanspruch
 
@@ -204,7 +204,7 @@ Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komp
 
 - *Nach Arbeitsstunden* Der Urlaubsanspruch wird während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet. 
 
-## {% icon "badge-percent" Zuschläge %}
+## {% icon "badge-percent" %} Zuschläge
 
 Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet werden. 
 
