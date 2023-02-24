@@ -108,7 +108,7 @@ In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Be
 Um in die Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** im Hauptmenü und dort den Unterpunkt **Zugänge & Rechte**.
 
 {% figure caption="In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat." %}
-<img src="uebersicht.png" />
+<img src="übersicht.webp" />
 {% endfigure %}
 
 ## Zugang Entziehen
