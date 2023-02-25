@@ -36,7 +36,7 @@ Wählen Sie dazu **Lohnbericht (Detailliert)** aus und geben wieder den gewünsc
 
 ### Export in Buchhaltungsprogramme
 
-Neben den oben genannten Ausdrucken können Sie lohnabrechnungsrelevante Bewegungsdaten auch in verschiedene Lohnbuchhaltungsprogramme exportieren. Wählen Sie dazu das gewünschte Format unter **Lohnbuchhaltung** aus und gehen Sie gleich vor, wie bei der normalen Lohnabrechnung.
+Neben den oben genannten Berichten in PDF-Form können Sie lohnabrechnungsrelevante Bewegungsdaten auch in verschiedene Lohnbuchhaltungsprogramme exportieren. Wählen Sie dazu das gewünschte Format unter **Lohnbuchhaltung** aus und gehen Sie genau so vor, wie bei der normalen Lohnabrechnung.
 Aktuell unterstützte Formate sind:
 
 - Agenda
