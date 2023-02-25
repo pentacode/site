@@ -79,7 +79,7 @@ Sollten Sie **den Nachweis direkt per Email verschicken** wollen - können Sie d
 
 > Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Davor müssen Sie jedoch dem Mitarbeiter Zugriff auf sein Dokumentenarchiv gewähren - [hier](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/#berechtigungen-übersicht) können Sie diese Einstellung treffen. 
 
-Klicken Sie nun auf {%button icon="download", lable ="Export starten"%} werden Ihnen die Arbeitszeitnachweise zum **herunterladen bereitgestellt**. Sollten Sie mehrere Mitarbeiter ausgewählt haben, finden Sie diese als einzelne Dokumente in einem Ordner. 
+Klicken Sie nun auf {% button icon="download", lable ="Export starten" %} werden Ihnen die Arbeitszeitnachweise zum **herunterladen bereitgestellt**. Sollten Sie mehrere Mitarbeiter ausgewählt haben, finden Sie diese als einzelne Dokumente in einem Ordner. 
 
 ## Stammdaten exportieren
 
