@@ -4,7 +4,7 @@ title: Datenexport
 icon: download
 ---
 
-Unter dem Menüpunkt {% button label="Datenexport" icon="download" %} sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiede Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr. Dabei geben Ihnen verschiedene Icons neben den Exportfunktionen Auskunft darüber in welchem Format der Export stattfindet:
+Unter dem Menüpunkt {% button label="Datenexport", icon="download" %} sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiede Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr. Dabei geben Ihnen verschiedene Icons neben den Exportfunktionen Auskunft darüber in welchem Format der Export stattfindet:
 
 - {% icon "file-pdf" %} Der Export findet in ein PDF-Format statt.
 - {% icon "file-text" %} Der Export findet als Textdatei statt, die extern eingelesen werden muss.
