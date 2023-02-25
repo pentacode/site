@@ -16,7 +16,7 @@ Hier finden Sie alle Exportoptionen, die der Lohnvorbereitung und -dokumentation
 
 In der Lohnbericht-Übersicht, sind die Arbeitsstunden und -tage, sowie Zuschlagsstunden, Mitarbeiteressen und das aktuelle Gehalt in einer tabellarischen Ansicht zusammengefasst. Dieser Ausdruck ist vor allem für die Übermittlung an Ihr Lohnbüro gut geeignet und dient als Alternative zum direkten Export/Import in Ihr Lohnbuchhaltungs-Programm.
 Wählen Sie dazu unter **Lohnbericht (Übersicht)** den gewünschten Zeitraum aus. Unter **Mitarbeiter** können Sie nun auswählen für wen Sie die Lohnberichtübersicht erstellen wollen - dabei können Sie ganze Abteilungen oder einzelne Mitarbeiter auswählen. Wählen Sie eine **Abteilung und einen Mitarbeiter, werden Ihnen nur die Lohndaten der Schichten des Mitarbeiters in dieser Abteilung angezeigt**.
-Geben Sie eine Email Adresse in das Feld über {%button label = "**Export starten**" %} ein, um die Lohnberichtsübersicht direkt zu verschicken. 
+Geben Sie eine Email Adresse in das Feld über {% button label="**Export Starten**" icon="download" %} ein, um die Lohnberichtsübersicht direkt zu verschicken. 
 
 {% figure caption="Hier Exportieren wir die Lohnberichte aller Manager - wie das **Symbol** zeigt ist davon nur ein Mitarbeiter betroffen" %}
 <img src="lohnbericht_übersicht.webp" />
