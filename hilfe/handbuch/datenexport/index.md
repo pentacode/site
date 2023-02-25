@@ -83,7 +83,7 @@ Klicken Sie nun auf {% button icon="download", lable ="Export starten" %} werden
 
 ## Stammdaten exportieren
 
-Im Datenexportmenü können Sie auch eine übersichtliche Kopie der Stammdaten ihrer Mitarbeiter anfordern. Klicken Sie dazu auf {%button label="Datenblatt"%} und wählen wieder die Abteilungen oder einzelnen Mitarbeiter deren Daten Sie exportieren möchten. Auch hier haben Sie wieder die Möglichkeit das **Datenblatt direkt an eine Email Adresse zu verschicken**. Geben Sie dazu die Empfängeradresse in das Textfeld unter **Versenden an** ein. Mit einem Klick auf {%button label="**Export starten**"%} stehen Ihnen die Daten dann wieder zum Download bereit. 
+Im Datenexportmenü können Sie auch eine übersichtliche Kopie der Stammdaten ihrer Mitarbeiter anfordern. Klicken Sie dazu auf {% button label="Datenblatt" %} und wählen wieder die Abteilungen oder einzelnen Mitarbeiter deren Daten Sie exportieren möchten. Auch hier haben Sie wieder die Möglichkeit das **Datenblatt direkt an eine Email Adresse zu verschicken**. Geben Sie dazu die Empfängeradresse in das Textfeld unter **Versenden an** ein. Mit einem Klick auf {% button label="**Export starten**" %} stehen Ihnen die Daten dann wieder zum Download bereit. 
 
 ## Kassenbuch
 
