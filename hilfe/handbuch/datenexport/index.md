@@ -4,7 +4,9 @@ title: Datenexport
 icon: download
 ---
 
-Unter Datenexport können Sie Daten von Pentacode zusammengefasst herunterladen und in andere Software übertragen. In den verschiedenen Gebieten von Pentacode finden Sie öfters das {%icon "download"%}**-Symbol**, dieses verweist Sie stets in den hier beschriebenen Reiter.
+Unter dem Menüpunkt {% button label="Datenexport" icon="download" %} sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiede Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr.
+
+> In den verschiedenen Bereichen von Pentacode finden Sie öfters das {%icon "download"%}**-Symbol**, dieses verweist Sie stets in den hier beschriebenen Reiter.
 
 ## Lohnbuchhaltung
 
