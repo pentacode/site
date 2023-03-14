@@ -11,7 +11,7 @@ exportieren können.
 
 ## Arbeitszeiten Übersicht
 
-Die Arbeitszeitenübersicht zeigt Ihnen die geleistete Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol** um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
+Die Arbeitszeitenübersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol** um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
 
 {% figure caption="Die Arbeitszeitenübersicht zeigt Ihnen Arbeits- Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick." %}
 <img src="übersicht.webp" />
@@ -123,14 +123,14 @@ Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung).
 
 ### Gestempelte Arbeitszeiten
 
-Unter dem {% icon "stopwatch" %} **Gestempelt** finden Sie die über die **digitale Stempeluhr erfassten** Arbeitszeiten des Mitarbeiters. Diese Option ist nicht bearbeitbar und nur ausgefüllt bei vergangenen Schichten, die über Pentacode gestempelt wurden!
+Unter {% icon "stopwatch" %} **Gestempelt** finden Sie die über die **digitale Stempeluhr erfassten** Arbeitszeiten des Mitarbeiters. Diese Option ist nicht bearbeitbar und nur ausgefüllt bei vergangenen Schichten, die über Pentacode gestempelt wurden!
 
 Bei der **Zeiterfassung per Digitaler Stempeluhr oder Mitarbeiter-App** werden diese Zeiten automatisch befüllt, sobald der
-Mitarbeiter sich in die entsprechende Schicht ein- oder ausstempelt, können aber im nachhinein jederzeit bearbeitet werden.
+Mitarbeiter sich in die entsprechende Schicht ein- oder ausstempelt, können aber im Nachhinein jederzeit bearbeitet werden.
 
 ### Erfasste Arbeitszeiten
 
-Unter dem Punkt {% icon "check" %} **Erfasst** können Sie die Schichtzeiten sehen und bearbeiten, welche in die Lohnberechnung einfließen. Sollten Sie die Stempeluhr verwenden werden dies die **gestempelten Zeiten** mit jeweilig [eingestellter Rundung](/hilfe/handbuch/einstellungen/zeiterfassung) sein. Sollten Sie die Stempeluhr nicht verwenden, werden dies die **geplanten Schichtzeiten** sein. Bei zurückliegenden Schichten können Sie manuell den erfassten Schichtbeginn und -ende anpassen. 
+Unter dem Punkt {% icon "check" %} **Erfasst** können Sie die Schichtzeiten sehen und bearbeiten, welche in die Lohnberechnung einfließen. Sollten Sie die Stempeluhr verwenden werden dies die **gestempelten Zeiten** mit jeweilig [eingestellter Rundung](/hilfe/handbuch/einstellungen/zeiterfassung#rundung-von-stempelzeiten) sein. Sollten Sie die Stempeluhr nicht verwenden, werden dies die **geplanten Schichtzeiten** sein. Bei zurückliegenden Schichten können Sie manuell den erfassten Schichtbeginn und -ende anpassen. 
 
 > {% icon "info-circle" %} **Hinweis:** Änderungen an den erfassten Arbeitszeiten fließen direkt in die für die Lohnabrechnung verwendeten Bewegungsdaten ein! **Verändern Sie die erfassten Zeiten nur mit Vorsicht!**
 
@@ -141,7 +141,8 @@ Unter dem Punkt {% icon "check" %} **Erfasst** können Sie die Schichtzeiten seh
 > {% icon "info-circle" %} **Hinweis:** Falls für die aktuelle Schicht der
 > [Pausenmodus](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung) **Automatisch** bzw. **Automatisch +
 > Manuell** gewählt ist, befüllt Pentacode dieses Feld automatisch basierend auf der Länge geleisteten Arbeitzeit.
-> **Dies passiert aber nur dann, wenn noch keine Pause eingetragen wurde!** Das heißt sollten Sie Schichtbeginn oder
+> **Dies passiert aber nur dann, wenn noch keine Pause eingetragen wurde!** 
+Das heißt: Sollten Sie Schichtbeginn oder
 > -ende im Nachhinein bearbeiten wird das Pausenfeld **nicht** automatisch mit der neuen Pausenzeit überschrieben. Sie
 > können eine Neuberechnung der automatischen Pause aber veranlassen, indem Sie den aktuellen Wert aus dem
 > Pausenfeld löschen und das Feld anschließend per Mausklick oder Tabulator-Taste verlassen.
@@ -187,7 +188,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    {% button label="Zurück", icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
 
-> {% icon "lightbulb" %}**Tipp:** Mit der Tastenkombination {% key "⇧" %} **+** {% button icon="delete-left" %} löschen Sie eine ausgewählte Arbeitszeit noch schneller.
+> {% icon "lightbulb" %} **Tipp:** Mit der Tastenkombination {% key "⇧" %} **+** <span class='fake-button'> {% icon "delete-left" %} </span> löschen Sie eine ausgewählte Arbeitszeit noch schneller.
 
 ## Freien Tag oder Guttag Erfassen
 

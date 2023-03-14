@@ -25,7 +25,7 @@ Bearbeiten / Konten Zurücksetzen](#übertrag-bearbeiten--konten-zurücksetzen).
 
 ## Urlaubskonto
 
-In diesem Konto werden die diesem Monat **erworbenen**
+In diesem Konto werden die diesen Monat **erworbenen**
 [Urlaubsansprüche](/hilfe/handbuch/mitarbeiter/vertrag/#urlaub-und-fehltage) den **genommenen** Urlaubstagen
 **gegenübergestellt** und Über- oder Unterschreitungen ausgewiesen.
 
@@ -59,7 +59,7 @@ Grund der **bis zum aktuellen Zeitpunkt erfassten Arbeitszeiten** errechnet werd
 ## Monatsübersicht
 
 In der Monats-Kontenübersicht sehen Sie die Kontostände aller Mitarbeiter jeweils für einen einzelnen Monat. Diese
-Ansicht ist zum Beispiel dafür hilfreich, einen schnellen Überblick über die aktuellen Kontostände Ihrer Mitarbeiter zu
+Ansicht ist dafür hilfreich, einen schnellen Überblick über die aktuellen Kontostände Ihrer Mitarbeiter zu
 erhalten, oder um zu sehen, wer in einem Monat besonders viele Über- oder Mindestunden angehäuft hat.
 
 Sie gelangen in die Monats-Kontenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Konten** wählen.
@@ -70,13 +70,13 @@ Sie gelangen in die Monats-Kontenübersicht, indem Sie im Hauptmenü den Punkt *
 
 ## Jahresübersicht
 
-Die Konten-Jahresübersicht zeigt Ihnen wie der Name schon sagt die Konten all Ihrer Mitarbeiter jeweils für ein ganzes
-Jahr an. Aus Platzgründen kann hier jeweils nur eine der Kontenarten angezeigt werden. Sie können zwischen den
-verschiedenen Konten wechseln, indem sie die gewünschte Kontenart über das Menü in der Kopfzeile wählen.
+Die Konten-Jahresübersicht zeigt Ihnen die Konten all Ihrer Mitarbeiter jeweils für ein ganzes
+Jahr. Aus Platzgründen kann hier jeweils nur eine der Kontenarten angezeigt werden. Sie können zwischen den
+verschiedenen Konten wechseln, indem Sie die gewünschte Kontenart über das Menü in der Kopfzeile wählen.
 
-In die Jahresübersicht gelangen Sie, indem Sie zunächst zur [Monatsansicht](#monatsübersicht) navigieren und dort in der rechten oben Ecke von der Option "Monat" auf "Jahr" wechseln.
+In die Jahresübersicht gelangen Sie, indem Sie zunächst zur [Monatsansicht](#monatsübersicht) navigieren und dort in der mittig oben von der Option "Monat" auf "Jahr" wechseln.
 
-{% figure caption="Die Konten-Jahresübersicht zeigt Ihnen wie der Name schon sagt die Konten all Ihrere Mitarbeiter jeweils für ein ganzes Jahr an." %}
+{% figure caption="Die Konten-Jahresübersicht zeigt Ihnen nur eine Kontenart, dafür aber die Monate und Mitarbeiter zum vergleichen neben einander." %}
 <img src="kontenübersicht_jahr.webp" />
 {% endfigure %}
 
@@ -85,7 +85,7 @@ In die Jahresübersicht gelangen Sie, indem Sie zunächst zur [Monatsansicht](#m
 Im Kontenblatt eines Mitarbeiters sehen Sie den gesamten Kontenverlauf vom Zeitpunkt des Beschäftigungsbeginns bis hin zum aktuellen Monat. Um zum Kontenblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Monatsübersicht](#monatsübersicht) oder [Jahresübersicht](#jahresübersicht) und wählen dort den gewünschten Mitarbeiter.
 
 {% figure caption="Im Kontenblatt eines Mitarbeiters sehen Sie den gesamten Kontenverlauf vom Zeitpunkt des Beschäftigungsbeginns bis hin zum aktuellen Monat." %}
-<img src="kontenblatt.png" />
+<img src="kontenblatt.webp" />
 {% endfigure %}
 
 ## Manuelle Buchungen
@@ -113,13 +113,13 @@ Pentacode bietet Ihnen hierfür die Möglichkeit, den Übertrag eines Monats fü
 Um einen abweichenden Kontenübertrag in einem Monat für einen bestimmten Mitarbeiter zu **erstellen**, verfahren Sie wie folgt:
 
 1. Navigieren Sie zunächst zum [Kontenblatt](#kontenblatt) des Mitarbeiters.
-2. Fahren Sie mit der Maus über den Monat, für den Sie einen Abweichenden Übertrag erfassen wollen. und klicken Sie auf
+2. Fahren Sie mit der Maus über den Monat, für den Sie einen abweichenden Übertrag erfassen wollen. und klicken Sie auf
    den {% button icon="undo" %} Button am linken Rand.
-3. Füllen Sie die Angezeigten Felder für die jeweiligen Konten mit dem gewünschten Betrag. Sie können Felder für
+3. Füllen Sie die angezeigten Felder für die jeweiligen Konten mit dem gewünschten Betrag. Sie können Felder für
    bestimmte Konten leer lassen, um für diese Konten den "normalen" Übertrag des Vormonats beizubehalten. Wenn Sie also
    zum Beispiel nur den Urlaubsübertrag zurücksetzen wollen, füllen Sie die Spalte "Urlaub" aus und lassen den Rest
    leer.
-4. Klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu übernehmen oder den {% button icon="times" %} Button um sie verwerfen.
+4. Klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu übernehmen oder den {% button icon="times" %} Button um sie zu verwerfen.
 
 Um den eingetragenen Übertrag im Nachhinein zu **bearbeiten**, fahren Sie mit der Maus über die entsprechende Zeile und
 klicken den {% button icon="pencil-alt" %} Button auf der linken Seite. Nehmen Sie dann die gewünschten Änderungen vor

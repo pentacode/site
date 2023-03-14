@@ -18,7 +18,7 @@ zuweisen.
 
 ## Positionen Übersicht
 
-Über die **Positionenübersicht** verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrere Mitarbeiter und
+Über die **Positionenübersicht** verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrer Mitarbeiter und
 können diese schnell und einfach bearbeiten.
 
 Sie gelangen in die Positionenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Positionen** wählen.
@@ -39,4 +39,4 @@ navigieren und dort den gewünschten Mitarbeiter wählen.
 
 ## Positionen Zuweisen
 
-Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken in der [Positionenübersicht](#positionen-übersicht). In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 
+Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken in der [Positionenübersicht](#positionen-übersicht). In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down Menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 

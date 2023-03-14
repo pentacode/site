@@ -55,7 +55,7 @@ Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverh
 
 ### Verfügbarkeit
 
-Wenn Sie den Button bei "**Inaktiv**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. "Inaktiv" **unterbricht** jedoch **nicht** die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
+Wenn Sie den Button bei "**Beschäftigungspause**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. Die Beschäftigungspause **unterbricht** jedoch **nicht** die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
 
 ## {% icon "hourglass-clock" %} Arbeitszeit & Fehltage
 
@@ -75,7 +75,7 @@ Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden 
 
 #### Monatsgenau
 
-Bei der Wahl "Monatsgenau" erscheint das Eingabefeld **Wochenstunden**.
+Bei der Wahl "**Monatsgenau**" erscheint das Eingabefeld **Wochenstunden**.
 
 Geben Sie hier die Anzahl der **Wochenstunden** ein, die ein Mitarbeiter laut Arbeitsvertrag zu leisten hat.
 
@@ -99,7 +99,7 @@ Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen ar
 
 Die **Soll-Arbeitszeit** des Mitarbeiters errechnet sich über die **Häufigkeit**, in der ein bestimmter Wochentag in einem Monat auftritt.
 
-Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein Mitarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
+Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krankheit und Urlaub. Wird z.B. ein Mitarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
 
 #### Feste Wochentage abzgl. Feiertage
 
@@ -220,7 +220,7 @@ Standardmäßig können Sonn- und Feiertagszuschläge mit den Nachtzuschlägen *
 
 ### Monatliche SFN-Pauschale
 
-Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im Eingabefeld, das in der Folge erscheint, die Höhe der monatlichen Pauschalvorauszahlung ein.
+Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im erscheinenden Eingabefeld, die Höhe der monatlichen Pauschalvorauszahlung ein.
 
 Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter-einzeln/konten/#sfn-zuschläge)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
@@ -294,7 +294,7 @@ Das Erstellen einer Vertragsunterbrechung funktioniert wie folgt:
 ## Änderungsprotokoll
 
 Gerade bei Unternehmen mit vielen Mitarbeitern kann es schnell sehr schwierig werden, einen Überblick über alle
-vorgenommenen Vertragsänderungen zu behalten. Vor allem aber ist es von essentieller Bedeutung, Vertragsänderungen
+vorgenommenen Vertragsänderungen zu behalten. Vor allem ist es aber von essentieller Bedeutung, Vertragsänderungen
 mit Ihrem Lohnbüro oder Steuerberater abzugleichen. Das **Vertragsänderungs-Protokoll** schafft hier Abhilfe! Dieses
 kommt in zwei Ausführungen:
 
