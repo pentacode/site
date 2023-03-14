@@ -123,7 +123,7 @@ Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung).
 
 ### Gestempelte Arbeitszeiten
 
-Unter {% icon "stopwatch" %} **Gestempelt** finden Sie die über die **digitale Stempeluhr erfassten** Arbeitszeiten des Mitarbeiters. Diese Option ist nicht bearbeitbar und nur ausgefüllt bei vergangenen Schichten, die über Pentacode gestempelt wurden!
+Unter dem Punkt {% icon "stopwatch" %} **Gestempelt** finden Sie die über die **digitale Stempeluhr erfassten** Arbeitszeiten des Mitarbeiters. Diese Option ist nicht bearbeitbar und nur ausgefüllt bei vergangenen Schichten, die über Pentacode gestempelt wurden!
 
 Bei der **Zeiterfassung per Digitaler Stempeluhr oder Mitarbeiter-App** werden diese Zeiten automatisch befüllt, sobald der
 Mitarbeiter sich in die entsprechende Schicht ein- oder ausstempelt, können aber im Nachhinein jederzeit bearbeitet werden.
@@ -234,8 +234,7 @@ eine bessere Nachvollziehbarkeit in der Dokumentation hilfreich sein.
 
 ### Betrag
 
-Hier können Sie den Betrag der Buchung in Industriestunden (also in Dezimaldarstellung) festlegen und ob der Betrag
-abgezogen oder hinzugebucht werden soll. Um den Betrag zum Abzug zu bringen wählen Sie **Abbuchung** aus dem Dropdown. Um Stunden hinzuzubuchen, wählen Sie **Gutschrift**.
+Hier können Sie den Betrag der Buchung in Echtminuten (also Stunden und Minuten) festlegen und ob der Betrag abgezogen oder hinzugebucht werden soll. Um den Betrag zum Abzug zu bringen wählen Sie **Abbuchung** aus dem Dropdown. Um Stunden hinzuzubuchen, wählen Sie **Gutschrift**.
 
 ### Kommentar
 
@@ -305,4 +304,4 @@ letzten 13 Wochen, multipliziert mit dem Betrag der abgebuchten Tage.
 
 ## Arbeitszeiten Exportieren
 
-Klicken Sie auf das {% icon "download" %} mittig-oben auf dem Arbeitszeitenblatt, um auf den Reiter {% button icon="download", label="Datenexport" %} verwießen zu werden. Dort können Sie die Bewegungsdaten des Mitarbeiters sowie weitere Lohndaten exportieren. [Hier](/hilfe/handbuch/einstellungen/datenexport) finden Sie weitere Informationen wie Sie die Arbeitszeiten ihrer Mitarbeiter Drucken und in ihr Lohnbuchhaltungsprogramm übertragen können.
+Klicken Sie auf das {% icon "download" %} mittig-oben auf dem Arbeitszeitenblatt, um auf den Reiter {% button icon="download", label="Datenexport" %} verwießen zu werden. Dort können Sie die Bewegungsdaten des Mitarbeiters sowie weitere Lohndaten exportieren. [Hier](/hilfe/handbuch/datenexport/) finden Sie weitere Informationen wie Sie die Arbeitszeiten ihrer Mitarbeiter Drucken und in ihr Lohnbuchhaltungsprogramm übertragen können.
