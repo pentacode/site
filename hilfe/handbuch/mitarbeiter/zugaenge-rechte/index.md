@@ -3,7 +3,7 @@ layout: layouts/hilfe/single.njk
 keywords: []
 title: Zugänge & Rechte
 weight: 9
-icon: user-shield
+icon: user-unlock
 ---
 
 Über Pentacodes einfaches und flexibles Zugangs- und Berechtigungsystem können Sie definieren, **welche Ihrer

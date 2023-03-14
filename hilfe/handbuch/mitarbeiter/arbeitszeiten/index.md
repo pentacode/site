@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Arbeitszeiten
-weight: 3
+weight: 2
 icon: hourglass-clock
 ---
 

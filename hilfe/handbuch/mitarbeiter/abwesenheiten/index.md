@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Abwesenheiten
-weight: 4
+weight: 3
 icon: portal-exit
 ---
 
