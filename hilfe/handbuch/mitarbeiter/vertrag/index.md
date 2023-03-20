@@ -167,10 +167,6 @@ Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **S
 
 Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#provision)".
 
---
-Wenn sich die Provision auf den Netto-Umsatz bezieht, ist dort der Netto-Umsatz des Mitarbeiters einzugeben. Bezieht sie sich auf den Brutto-Umsatz, entsprechend der Brutto-Umsatz.
---
-
 #### Lohnartensatz
 
 Über den Lohnartensatz wird der **Export** der Daten in die Lohnbuchhaltung organisiert.
