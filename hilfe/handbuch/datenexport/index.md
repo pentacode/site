@@ -86,7 +86,7 @@ Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versend
 **Einmal eingegeben wird die Email Adresse automatisch ausgefüllt und stets eine Kopie sämtlicher Exporte verschickt!**
 -- Option für mehrere Emails
 
-## Im Dokumentenarchiv ablegen
+### Im Dokumentenarchiv ablegen
 
 Für den Arbeitszeitennachweis sowie den detaillierten Lohnbericht bietet Pentacode Ihnen die Möglichkeit die exportierte Datei zusätzlich im Dokumentenarchiv des Mitarbeiters zu speichern. Wählen Sie dazu die Option {% button label="**Im Dokumentenarchiv ablegen**" %} an. 
 
