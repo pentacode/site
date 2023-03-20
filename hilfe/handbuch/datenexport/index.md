@@ -56,7 +56,7 @@ Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auc
 
 Nachdem Sie [das gewünschte Exportformat](#exportformat) ausgewählt haben, können Sie durch weitere Optionen den Export personalisieren. 
 
-## Zeitraum
+### Zeitraum
 
 Im vorgegebenen Kalender können Sie auf der linken Seite das Anfangsdatum und auf der rechten Seite das Enddatum des Zeitraums auswählen, für den die Dateien exportiert werden sollen. Sollten Sie einen Export für **einen ganzen Monat** erstellen wollen, können Sie diesen aus der Liste vergangener Monate unter dem Kalender auswählen. 
 
