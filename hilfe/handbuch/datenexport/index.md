@@ -90,7 +90,7 @@ Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versend
 
 Für den Arbeitszeitennachweis sowie den detaillierten Lohnbericht bietet Pentacode Ihnen die Möglichkeit die exportierte Datei zusätzlich im Dokumentenarchiv des Mitarbeiters zu speichern. Wählen Sie dazu die Option {% button label="**Im Dokumentenarchiv ablegen**" %} an. 
 
-### Kategorie auswählen
+#### Kategorie auswählen
 
 Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzlich die Option das Dokument mit einer Kategorie zu versehen. Diese hilft Ihnen die gewünschte Datei schneller ausfindig zu machen. Weitere Informationen zu den Dokumentenkategorien finden Sie [hier](/hilfe/handbuch/einstellungen/dokumente). 
 
