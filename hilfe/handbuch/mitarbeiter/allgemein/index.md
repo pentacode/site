@@ -22,7 +22,7 @@ Klicken Sie auf {% button label="Positionen", iconRight="arrow-right" %}, um zum
 
 Hier können Sie die Arbeitsbereiche definieren in denen der Mitarbeiter eingesetzt werden kann/soll. Mehr Informationen
 zum Thema Arbeitsbereiche finden Sie unter [Einstellungen/Arbeitsbereiche](../../einstellungen/arbeitsbereiche.md).
-Zugewiesene Positionen können später jederzeit unter [Mitarbeiter/Positionen](../positionen/) bearbeiten.
+Zugewiesene Positionen können Sie später jederzeit unter [Mitarbeiter/Positionen](../positionen/) bearbeiten.
 
 Klicken Sie auf {% button label="Vertrag", iconRight="arrow-right" %}, um zum Punkt [Vertrag](#3-vertrag) zu gelangen.
 
@@ -89,7 +89,7 @@ Um einen Probemitarbeiter in einen vollen Mitarbeiter umzuwandeln, gehen Sie wie
    
 ## Sofortmeldung 
 
-Da Sie jeder von Ihnen eingestellte Mitarbeiter ab dem ersten Arbeitstag bei der
+Da jeder von Ihnen eingestellte Mitarbeiter ab dem ersten Arbeitstag bei der
 Rentenversicherung meldepflichtig ist, fällt besonders bei häufig wechselndem
 Personal viel Arbeit an. Dank der Sofortmeldungsfunktion können Sie das Melden
 eines neuen Mitarbeiter nun **in wenigen Minuten direkt über Pentacode**
@@ -105,11 +105,11 @@ benötigen dazu nur einige Daten des Mitarbeiters, welche Sie einfach über die
 
 ### Sofortmeldung bei neuen Mitarbeitern 
 
-Sobald Sie einen neuen Mitarbeiter angelegt haben wird sich ein Dialogfeld öffnen, welches Sie fragt ob Sie diesen neuen Mitarbeiter direkt bei der Rentenversicherung melden wollen. Bestätigen Sie diese Anfrage öffnet sich ein weiteres Fenster, in dem Sie einige Daten für die Krankenkasse ausfüllen müssen. Diese Felder werden im Folgenden genauer beschrieben:
+Sobald Sie einen neuen Mitarbeiter angelegt haben, wird sich ein Dialogfeld öffnen, welches Sie fragt ob Sie den neuen Mitarbeiter direkt bei der Rentenversicherung melden wollen. Bestätigen Sie diese Anfrage öffnet sich ein weiteres Fenster, in dem Sie einige Daten für die Krankenkasse ausfüllen müssen. Diese Felder werden im Folgenden genauer beschrieben:
 
 {% figure caption="Erfragen Sie Sie möglichst früh die Sozialversicherungsnummer des Mitarbeiters, um die Sofortmeldung noch schneller zu gestalten" %}
 
-<img src="sofortmeldung.png" />
+<img src="sofortmeldung.webp" />
 
 {% endfigure %}
 
@@ -128,8 +128,8 @@ Die Rentenversicherung braucht desweiteren das Datum des **Beginns der Beschäft
 
 > {% icon "lightbulb" %} **Tipp:** Wenn Sie die Sozialversicherungsnummer des
 > Mitarbeiters nicht wissen, klicken Sie auf **Nicht bekannt** neben dem Feld.
-> Füllen Sie nun die weiteren Daten des Mitarbeiters aus um die Zuordnung zu
-> ermöglichen.  Anschließend müssen Sie die Sofortmeldung noch bestätigen, dann
+> Füllen Sie nun die weiteren Daten des Mitarbeiters aus, um die Zuordnung zu
+> ermöglichen. Anschließend müssen Sie die Sofortmeldung noch bestätigen, dann
 > wird diese an die Rentenversicherung weitergeleitet. 
 
 ### Mitarbeitern nachmelden
@@ -144,9 +144,9 @@ Mitarbeitern](#sofortmeldung-bei-neuen-mitarbeitern) beschrieben.
 ### Meldebescheinigung
 
 Nachdem Sie die Sofortmeldung eines Mitarbeiters erfolgreich abgeschlossen
-haben, fertigt Pentacode automatisch eine Meldebescheinigung an und speichter
+haben, fertigt Pentacode automatisch eine Meldebescheinigung an und speichert
 diese im **Dokumentenarchiv** des Mitarbeiters. Diese dient sowohl Ihnen als
-Nachweis der verpflichteten Meldung als auch Ihrem Mitarbeiter. Damit dieser
+Nachweis der verpflichteten Meldung, als auch Ihrem Mitarbeiter. Damit dieser
 jedoch Zugriff auf die Meldebescheinigung erhält, muss er ein Profil in der
 [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) besitzen und Sie müssen ihm
 den [Zugang zu seinem
@@ -159,7 +159,7 @@ Entlassen" Funktion aus dem Stamm der aktiven Mitarbeiter entfernen. Dies hat me
 
 - Der aktuelle [Vertrag](../vertrag/) wird zum Stichtag beendet.
 - Der Mitarbeiter erscheint nicht mehr im Dienstplan und den verschiedenen Mitarbeiter-Listen.
-- Dem Mitarbeiter werden automatisch alle Mitarbeiter- und Verwaltungszugange entzogen.
+- Dem Mitarbeiter werden automatisch alle Mitarbeiter- und Verwaltungszugänge entzogen.
 
 So entlassen Sie einen Mitarbeiter:
 
@@ -169,7 +169,7 @@ So entlassen Sie einen Mitarbeiter:
 2. Öffnen Sie das Aktions-Menü über den {% button icon="ellipsis-h" %}-Button und
    wählen Sie dort die Option {% button icon="person-to-door", label="Mitarbeiter Entlassen" %}.
 3. Geben Sie das Datum ein, ab dem der Mitarbeiter ausgeschieden sein soll. Dieses kann sowohl
-   in der Zukunft als auch in der Vergangenheit liegen. Wenn Sie ein Datum in der Zukunft wählen,
+   in der Zukunft, als auch in der Vergangenheit liegen. Wenn Sie ein Datum in der Zukunft wählen,
    wird das Ausscheiden des Mitarbeiters "vorgemerkt" und der Mitarbeiter bleibt bis zum entsprechenden
    Datum verfügbar.
 4. Bestätigen Sie die Aktion durch einen Klick auf den {% button label="Entlassen" %}-Button.
@@ -178,7 +178,8 @@ So entlassen Sie einen Mitarbeiter:
 
 Ausgeschiedene Mitarbeiter werden nicht komplett aus dem System entfernt,
 sondern sind weiterhin auffindbar und können sogar [wieder eingestellt](#mitarbeiter-wiedereinstellen) werden!
-So stellen ausgeschiedenen Mitarbeiter erneut ein:
+
+So stellen Sie ausgeschiedenen Mitarbeiter erneut ein:
 
 1. Wählen Sie den Punkt {% button icon="users", label="Mitarbeiter" %} im Hauptmenü
    und wählen dort den gewünschten Mitarbeiter über das Dropdown-Menu

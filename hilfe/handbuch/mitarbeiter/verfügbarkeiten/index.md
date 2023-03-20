@@ -1,13 +1,13 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Verfügbarkeiten
-weight: 5
+weight: 4
 icon: comment-check
 ---
 
 Das Planen von Arbeitszeiten kann eine enorm komplizierte Aufgabe sein, gerade in Betrieben mit volatilen Arbeitszeiten
 und vielen Aushilfs- und Teilzeitkräften. Es reicht meist nicht zu wissen, wann wie viele Arbeitskräfte benötigt werden ‒
-für eine effektive Dienstplanung is es außerdem hilfreich (oder gar zwingend notwendig!), die Verfügbarkeiten und
+für eine effektive Dienstplanung ist es außerdem hilfreich (oder gar zwingend notwendig!), die Verfügbarkeiten und
 Präferenzen Ihrer Mitarbeiter zu kennen.
 
 Mit Pentacode können Sie schnell und bequem erfassen, welche Tage und Uhrzeiten von Ihren Mitarbeitern bevorzugt werden,

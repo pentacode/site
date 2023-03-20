@@ -6,26 +6,25 @@ icon: file-contract
 ---
 
 Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und **lohnrelevanten Angaben** Ihrer Mitarbeiter. Achten Sie
-hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. Die Berechnung aller Konten eines Mitarbeiters, die
-gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.
+hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. **Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.**
 
 ## Verträge Übersicht
 
 In der Verträge-Übersicht sehen Sie in tabellarischer Form die wichtigsten aktuellen Vertragsdaten Ihrer Mitarbeiter auf
-einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {% icon "users" %} **Mitarbeiter** im Hauptmenü
-und dort im Untermenü **Verträge** wählen.
+einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {% button icon="people-group", label="Mitarbeiter" %} im Hauptmenü
+und dort im Untermenü {% button icon="file-contract", label="Verträge" %} wählen.
 
 Über den {% button icon="print" %}-Button können Sie diese Ansicht ausdrucken. Das {% button label="Filtern...", iconRight="filter" %} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
 nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {% button icon="list-timeline", label="Vertragsänderungen" %} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen einzelne
 Mitarbeiter bringt Sie in die [Verträge-Einzelansicht](#verträge-einzelansicht) des Mitarbeiters.
 
 {% figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick." %}
-<img src="vertraege_uebersicht.png" />
+<img src="vertraege_uebersicht.webp" />
 {% endfigure %}
 
 ## Verträge Einzelansicht
 
-In der Verträge-Einzelansicht können Sie alle Verträge eines Mitarbeiters einsehen und verwalten. In die diese Ansicht
+In der Verträge-Einzelansicht können Sie alle Verträge eines Mitarbeiters einsehen und verwalten. In diese Ansicht
 gelangen Sie, indem Sie in der [Verträge-Übersicht](#verträge-übersicht) auf den gewünschten Mitarbeiter klicken.
 
 Um einen bestimmten Vertrag zu öffnen, klicken Sie einfach auf den entsprechenden Eintrag auf der linken Seite. Über den
@@ -33,10 +32,16 @@ Um einen bestimmten Vertrag zu öffnen, klicken Sie einfach auf den entsprechend
 Mitarbeiters.
 
 {% figure caption="" %}
-<img src="vertraege_einzelansicht.png" />
+<img src="vertraege_einzelansicht.webp" />
 {% endfigure %}
 
-## Felder & Eigenschaften
+## {% icon "info-circle" %} Allgemein
+
+### Beschäftigungsverhältnis
+
+Wählen Sie die Art des Beschäftigungsverhältnisses durch Anklicken des betreffenden Feldes.
+
+Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export der Daten in die Lohnbuchhaltung beziehen sich auf das gewählte Beschäftigungsverhältnis.
 
 ### Vertragsbeginn und -ende
 
@@ -50,13 +55,9 @@ Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverh
 
 ### Verfügbarkeit
 
-Wenn Sie den Button bei "**Inaktiv**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. "Inaktiv" **unterbricht** jedoch **nicht** die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
+Wenn Sie den Button bei "**Beschäftigungspause**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. Die Beschäftigungspause **unterbricht** jedoch **nicht** die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
 
-### Beschäftigungsverhältnis
-
-Wählen Sie die Art des Beschäftigungsverhältnisses durch Anklicken des betreffenden Feldes.
-
-Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export der Daten in die Lohnbuchhaltung beziehen sich auf das gewählte Beschäftigungsverhältnis.
+## {% icon "hourglass-clock" %} Arbeitszeit & Fehltage
 
 ### Sollstundenberechnung
 
@@ -74,7 +75,7 @@ Die monatliche Soll-Arbeitszeit bei einem Festangestellten mit einer 40-Stunden 
 
 #### Monatsgenau
 
-Bei der Wahl "Monatsgenau" erscheint das Eingabefeld **Wochenstunden**.
+Bei der Wahl "**Monatsgenau**" erscheint das Eingabefeld **Wochenstunden**.
 
 Geben Sie hier die Anzahl der **Wochenstunden** ein, die ein Mitarbeiter laut Arbeitsvertrag zu leisten hat.
 
@@ -82,7 +83,7 @@ Bei dieser Auswahl errechnet sich die **Soll-Arbeitszeit** des Mitarbeiters anha
 
 Um einen Festangestellten mit einer 40-Stunden Woche als Beispiel zu nehmen: Dessen monatliche Soll-Arbeitszeit liegt in einem Monat mit 30 Tagen bei 171,43 Stunden, in einem Monat mit 31 Tagen bei 177,14 Stunden und im Februar (sofern kein Schaltjahr) bei 160 Stunden.
 
-#### Monatsgenau Ohne Feiertage
+#### Monatsgenau abzgl. Feiertage
 
 Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "**Monatsgenau**".
 
@@ -98,7 +99,7 @@ Geben Sie hier die Stunden ein, die ein Mitarbeiter an den betreffenden Tagen ar
 
 Die **Soll-Arbeitszeit** des Mitarbeiters errechnet sich über die **Häufigkeit**, in der ein bestimmter Wochentag in einem Monat auftritt.
 
-Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krank und Urlaub. Wird z.B. ein Mitarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
+Bei tagesabhängig unterschiedlichen Arbeitszeiten hat diese Art der Berechnung Wirkung bei Krankheit und Urlaub. Wird z.B. ein Mitarbeiter, der am Freitag nur 4 Stunden arbeitet, an einem Freitag krank oder nimmt an diesem Tag Urlaub, so werden für sein Arbeitszeitkonto wie auch für die Lohnabrechnung nur 4 Stunden berechnet.
 
 #### Feste Wochentage abzgl. Feiertage
 
@@ -107,6 +108,32 @@ Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "Feste Woche
 Bei diesem Modus wird jedoch ein **Feiertag**, der auf einen Arbeitstag des Mitarbeiters fällt, von seiner **Soll-Arbeitszeit** in **Abzug** gebracht. Hierbei wird **Tag-genau unterschieden**.
 
 Fällt ein Feiertag z.B. auf einen Freitag, an dem der Mitarbeiter nur 4 Stunden arbeitet, so werden auch nur 4 Stunden berechnet.
+
+### Fehlstundenberechnung
+
+Hier können Sie einstellen, wie die Fehlstunden für Urlaubs- und Krankheitstage berechnet werden, dabei haben Sie drei verschiedene Möglichkeiten:
+
+#### 13-Wochen Durchschnitt
+
+Bei dieser Einstellung errechnet Pentacode den **Wert eines Urlaub- oder Kranktages** an der Arbeitszeit, die der Mitarbeiter im **Durchschnitt der letzten 13 Wochen** gearbeitet hat.
+
+Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden sie auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
+
+Pentacode unterscheidet bei der Berechnung zwischen Wochen-, Sonn und Feiertagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
+
+#### Pauschale Stundenzahl
+
+Wenn Sie "**Pauschale Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das Sie die Anzahl der **Arbeitsstunden** eingeben, die der Mitarbeiter **täglich** leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
+
+Bei dieser Einstellung wird jeder Tag, an dem der Mitarbeiter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
+
+> {% icon "info-circle" %} **Hinweis:** Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monaten** mit der Einstellung "**Pauschale Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
+>
+> **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf** "**13-Wochenschnitt**" **verändern wollen**.
+
+#### Feste Wochentage (Sollstunden)
+
+Diese Einstellung eignet sich **nur, wenn Sie die Sollstunden anhand fester Wochentage bestimmen!** Es werden anschließend nur Fehlstunden berechnet, an den Tagen, für die eine Sollstundenzahl eingetragen ist, und dann immer die Anzahl der Stunden des jeweiligen Wochentags. 
 
 ### Jahresarbeitszeitkonto
 
@@ -128,33 +155,9 @@ und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 > vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende
 > Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
-### Fehlstundenberechnung
+## {% icon "euro-sign" %} Bezahlung
 
-Wenn Sie "**Feste Wochentage**" als Berechnungsmethode gewählte haben, werden die **Fehlstunden** für den **jeweiligen Tage** ermittelt.
-
-Für die Einstellungen "**Wochenfaktor**" und "**Monatsgenau**" stehen Ihnen für die Berechnung von Fehlzeiten bei Krank und Urlaub **zwei Möglichkeiten** zur Verfügung
-
-#### Feste Stundenzahl
-
-Wenn Sie "**Feste Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das Sie die Anzahl der **Arbeitsstunden** eingeben, die der Mitarbeiter **täglich** leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
-
-Bei dieser Einstellung wird jeder Tag, an dem der Mitarbeiter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
-
-#### 13-Wochen Durchschnitt
-
-Bei dieser Einstellung errechnet Pentacode den **Wert eines Urlaub- oder Kranktages** an der Arbeitszeit, die der Mitarbeiter im **Durchschnitt der letzten 13 Wochen** gearbeitet hat.
-
-Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden sie auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
-
-Pentacode unterscheidet bei der Berechnung zwischen Wochen-, Sonn und Feiertagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
-
-> {% icon "info-circle" %} **Hinweis:** Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monate**n mit der Einstellung "**Feste Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
->
-> **Eventuell merken Sie sich ein Datum vor, zu dem Sie diese Einstellung auf** "**13-Wochenschnitt**" **verändern wollen**.
-
-### Lohn und Gehalt
-
-#### Lohn/Gehalt (brutto)
+### Lohn/Gehalt (brutto)
 
 Geben Sie unter **"Alle Arbeitsbereiche"** das Standardgehalt des Mitarbeiters ein.
 
@@ -164,13 +167,11 @@ Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **S
 
 Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#provision)".
 
-Wenn sich die Provision auf den Netto-Umsatz bezieht, ist dort der Netto-Umsatz des Mitarbeiters einzugeben. Bezieht sie sich auf den Brutto-Umsatz, entsprechend der Brutto-Umsatz.
-
 #### Lohnartensatz
 
 Über den Lohnartensatz wird der **Export** der Daten in die Lohnbuchhaltung organisiert.
 
-Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "[**Buchhaltung**](/settings/accounting)" angelegt haben.
+Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "[**Buchhaltung**](/hilfe/handbuch/einstellungen/buchhaltung.md)" angelegt haben.
 
 > In der Standardeinstellung von Pentacode finden Sie den Lohnartensatz "\[Nichts Gewählt\]". Wir empfehlen Ihnen, diesen beizubehalten. Der **Lohnartensatz**, den Pentacode für den Export wählt, orientiert sich damit immer am **Beschäftigungsverhältnis** des Mitarbeiters.
 
@@ -184,56 +185,50 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 
 > **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
-### Zusatzleistungen
-
-Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
-
-Wenn Sie auf das "**+ Zusatzleistung hinzufügen**" klicken, öffnet ein Eingabefeld, in das Sie Art und Höhe der einzelnen Zusatzleistungen eingeben.
-
-Die Zusatzleistungen, die Sie hier vermerken, werden für den Lohnexport **nicht** berücksichtigt. Sie sind als feste Werte ohnehin im jeweiligen Buchhaltungssystem hinterlegt.
-
-Pentacode ermittelt jedoch die Lohnkosten, um Ihnen in Echtzeit und lange vor Fertigstellung der Lohnabrechnung einen Überblick zu geben. Die hier angelegten Zuschüsse werden in die Vorausberechnung der Lohnkosten integriert.
-
-Bitte beachten Sie bei der Eingabe, dass Sie bei sozialversicherungspflichtigen Zuschüsse auch den jeweiligen Sozialversicherungsbeitrag hinzufügen.
+## {% icon "island-tropical" %} Urlaub
 
 ### Urlaubsanspruch
 
-Geben Sie bei "**Urlaubsanspruch (pro Jahr)**" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter
-vereinbart sind.
+Geben Sie bei "**Urlaubsanspruch (pro Jahr)**" die vereinbarte Anzahl der Urlaubstage/Jahr ein, die mit dem Mitarbeiter vereinbart sind.
 
 ### Urlaubszuwachs
 
 Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die forlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
 
-#### Nach Arbeitsstunden
+- *Monatlich* Wählen Sie "**Monatlich**", steht dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
+   Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
 
-Wenn Sie bei Urlaubszuwachs "**Nach Arbeitsstunden**" wählen, wird der Urlaubsanspruch während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet.
+- *Nach Arbeitsstunden* Der Urlaubsanspruch wird während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet. 
 
-#### Monatlich
+## {% icon "badge-percent" %} Zuschläge
 
-Wählen Sie "**Monatlich**", steht dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
+Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet werden. 
 
-Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
+### Zuschlag hinzufügen
 
-### Zuschläge
+Klicken Sie auf {% button icon="plus", label="Zuschlag hinzufügen" %} um dem Mitarbeiter eine neue Zuschlagsart zuzuweisen. Wählen Sie den gewünschten Zuschlag aus und tragen Sie die **Positionen des Mitarbeiters ein, die vom Zuschlag betroffen sein sollen, sowie die Höhe des Zuschlags in Prozent des Grundlohns**. Standardmäßig werden **Alle Positionen** und der Standardsatz der Zuschlagsart ausgewählt. 
 
-Wenn Sie einem Mitarbeiter Zuschläge zahlen, können Sie die Höhe der Zuschläge für jeden Mitarbeiter individuell festlegen. In der Standardeinstellung von Pentacode sind die Zuschläge mit ihren gesetzlich erlaubten Höchstwerten ausgewiesen.
+[Hier](/hilfe/handbuch/einstellungen/buchhaltung.md) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
 
-Sie können die Zuschläge individuell nach unten anpassen.
+#### Kumulierte Zuschläge
 
-#### Zuschläge kumulieren
-
-In der **Standardeinstellung** von Pentacode werden Sonn- und Feiertagszuschläge mit den Nachtzuschlägen **kumuliert**. Dies heißt, dass der Mitarbeiter an Sonn- und Feiertagen auch Nachtzuschläge erhält.
-
-Sollte die Kumulierung **nicht** gewünscht sein, ist der Button zu **deaktivieren**. In diesem Fall werden dem Mitarbeiter an einem Sonn- oder Feiertag die **Sonn- und Feiertagszuschläge** hinzugerechnet, **nicht** jedoch die **Nachtzuschläge**.
+Standardmäßig können Sonn- und Feiertagszuschläge mit den Nachtzuschlägen **kumuliert** werden. Dies heißt, dass der Mitarbeiter an Sonn- und Feiertagen auch Nachtzuschläge erhält - statt nur eine der beiden Zuschlagszahlungen. Sollte die Kumulierung gewünscht sein **können Sie die Zuschlagsarten 'Sonntag Kum.' und 'Feiertag Kum.' hinzufügen**.
 
 ### Monatliche SFN-Pauschale
 
-Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im Eingabefeld, das in der Folge erscheint, die Höhe der monatlichen Pauschalvorauszahlung ein.
+Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im erscheinenden Eingabefeld, die Höhe der monatlichen Pauschalvorauszahlung ein.
 
 Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter-einzeln/konten/#sfn-zuschläge)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
 > Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
+
+## {% icon "hand-holding-box" %} Sonderleistungen
+
+Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
+
+Wenn Sie auf das Feld "**+ Sonderleistung hinzufügen**" klicken, öffnet sich die Liste an zuvor erstellten [Arten von Sonderleistungen](/hilfe/handbuch/einstellungen/sonderleistungen). Wählen Sie die gewünschte Art der Leistung aus und **tragen den monatlichen Geldbetrag der Leistung ein**. 
+
+Die Sonderleistungen werden der Lohnanbrechnung des Mitarbeiters nun monatlich und unter den unter [Einstellungen](/hilfe/handbuch/einstellungen/sonderleistungen) beschriebenen Voreinstellungen hinzugefügt.  
 
 ## Neuer Vertrag
 
@@ -243,12 +238,9 @@ in Pentacode ab, indem Sie einen neuen Vertrag anlegen:
 
 1. Navigieren Sie zur [Verträge-Ansicht](#verträge-einzelansicht) des Mitarbeiters.
 2. Klicken Sie auf {% button label="Neuer Vertrag", icon="plus" %}.
-3. Es öffnet sich das Vertragsformular, vorausgefüllt mit den Werten des vorherigen Vertrages. Nehmen Sie die
-   gewünschten Änderungen vor und klicken Sie dann auf {% button label="Speichern" %}. Durch einen Klick auf {% button label="Abbrechen" %} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren Auswirkungen
-   finden Sie unter [Felder & Eigenschaften](#felder--eigenschaften).
+3. Es öffnet sich das Vertragsformular, vorausgefüllt mit den Werten des vorherigen Vertrages. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf {% button label="Speichern" %}. Durch einen Klick auf {% button label="Abbrechen" %} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren Auswirkungen finden Sie [weiter oben in diesem Hilfsartikel](#icon-info-circle--allgemein). 
 
-> {% icon "info-circle" %} Das Enddatum des vorherigen Vertrages wird automatisch auf den Vertragsbeginn des neuen
-> Vertrages gesetzt.
+> {% icon "info-circle" %} Das Enddatum des vorherigen Vertrages wird automatisch auf den Vertragsbeginn des neuen Vertrages gesetzt.
 
 ## Vertrag Bearbeiten
 
@@ -298,7 +290,7 @@ Das Erstellen einer Vertragsunterbrechung funktioniert wie folgt:
 ## Änderungsprotokoll
 
 Gerade bei Unternehmen mit vielen Mitarbeitern kann es schnell sehr schwierig werden, einen Überblick über alle
-vorgenommenen Vertragsänderungen zu behalten. Vor allem aber ist es von essentieller Bedeutung, Vertragsänderungen
+vorgenommenen Vertragsänderungen zu behalten. Vor allem ist es aber von essentieller Bedeutung, Vertragsänderungen
 mit Ihrem Lohnbüro oder Steuerberater abzugleichen. Das **Vertragsänderungs-Protokoll** schafft hier Abhilfe! Dieses
 kommt in zwei Ausführungen:
 
