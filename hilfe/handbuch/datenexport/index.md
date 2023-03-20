@@ -17,7 +17,7 @@ Sie können über den {% button label="Datenexport", icon="download" %}-Reiter v
 - {% icon "file-text" %} Der Export findet als Textdatei statt, die extern eingelesen werden muss.
 - {% icon "file-csv" %} Der Export findet in ein CSV-Format statt. 
 
-## Lohnbuchhaltung
+### Lohnbuchhaltung
 
 Hier finden Sie alle Exportoptionen, die der Lohnvorbereitung und -dokumentation dienen. Die verschiedenen Optionen umfassen dabei: 
 
@@ -34,16 +34,16 @@ Aktuell unterstützte Formate sind:
     - Lexware
     - LohnAG
 
-## Arbeitszeitennachweis
+### Arbeitszeitennachweis
 
 Unter {% button label="**Arbeitszeiten-Nachweis**" %} werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern) um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
 
-## Stammdatenblatt
+### Stammdatenblatt
 
 Unter {% button label="**Datenblatt**" %} werden alle unter [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) aufgeführten Daten des Mitarbeiters auf einer übersichtlichen PDF-Seite aufgeführt. 
 Die kann nützlich sein um Mitarbeiterdaten zu übertragen - **achten Sie dabei aber immer darauf, dass es sich hierbei um sensible Daten handelt!**
 
-## Kassenbuch
+### Kassenbuch
 
 Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auch die Inhalte des Kassenbuchs übertragen. Dies dient dem einfachen Export des in Pentacodes geführten Kassenbuch in die Lohnbuchhaltungssoftware ihrer Wahl. Die verschiedenen Formate, die Ihnen zur Verfügung stehen umfassen neben einem einfachen Ausdruck als PDF:
 
@@ -56,7 +56,7 @@ Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auc
 
 Nachdem Sie [das gewünschte Exportformat](#exportformat) ausgewählt haben, können Sie durch weitere Optionen den Export personalisieren. 
 
-## Zeitraum
+### Zeitraum
 
 Im vorgegebenen Kalender können Sie auf der linken Seite das Anfangsdatum und auf der rechten Seite das Enddatum des Zeitraums auswählen, für den die Dateien exportiert werden sollen. Sollten Sie einen Export für **einen ganzen Monat** erstellen wollen, können Sie diesen aus der Liste vergangener Monate unter dem Kalender auswählen. 
 
@@ -80,22 +80,22 @@ Hierzu ein Beispiel: Wir wählen im Filter die Vertragsart 'Festangestellt' und 
 <img src="mitarbeiter_filter.webp" />
 {% endfigure %}
 
-## Per Email versenden
+### Per Email versenden
 
 Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versenden an...** eine Email-Adresse einzutragen, an die Sie eine Kopie des Exports verschicken wollen. Dies kann bspw. nützlich sein, um ihrer Buchhaltung vereinfacht Lohndaten zukommen zu lassen. 
 **Einmal eingegeben wird die Email Adresse automatisch ausgefüllt und stets eine Kopie sämtlicher Exporte verschickt!**
 
-## Im Dokumentenarchiv ablegen
+### Im Dokumentenarchiv ablegen
 
 Für den Arbeitszeitennachweis sowie den detaillierten Lohnbericht bietet Pentacode Ihnen die Möglichkeit die exportierte Datei zusätzlich im Dokumentenarchiv des Mitarbeiters zu speichern. Wählen Sie dazu die Option {% button label="**Im Dokumentenarchiv ablegen**" %} an. 
 
-### Kategorie auswählen
+#### Kategorie auswählen
 
 Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzlich die Option das Dokument mit einer Kategorie zu versehen. Diese hilft Ihnen die gewünschte Datei schneller ausfindig zu machen. Weitere Informationen zu den Dokumentenkategorien finden Sie [hier](/hilfe/handbuch/einstellungen/dokumente). 
 
 > Sie sollten die gleiche Art von Dokument am besten stets mit der gleichen Kategorie versehen - Also etwa alle Arbeitszeitnachweise mit **'Arbeitszeiten'**. 
 
-### Unterschrift anfordern
+#### Unterschrift anfordern
 
 Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) bekommen welche Ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
 
@@ -119,6 +119,6 @@ Da der korrekte Export in ihr Buchhaltungsprogramm auf einige Daten wie **Person
 
 Sobald Sie auf {% button icon="download", label="Export starten" %} klicken, bietet Ihnen Pentacode mehrere Optionen an:
 
-- {% icon "eye" %} *Öffnen* Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
+- {% button icon="eye" label="Öffnen" %} Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
 - {% icon "download" %} *Downloaden* Sie laden die Dateien zusammengefasst in einem Ordner herunter. Dabei wir für die Nachweise und Berichte jedes Mitarbeiters eine eigene Datei innerhalb des Ordners erstellt.
 - {% icon "print" %} *Drucken* Die Durckvorschau wird geöffnet, mit einem für den Druck optimierten Format der Datei. 
