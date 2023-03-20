@@ -17,7 +17,7 @@ Sie können über den {% button label="Datenexport", icon="download" %}-Reiter v
 - {% icon "file-text" %} Der Export findet als Textdatei statt, die extern eingelesen werden muss.
 - {% icon "file-csv" %} Der Export findet in ein CSV-Format statt. 
 
-## Lohnbuchhaltung
+### Lohnbuchhaltung
 
 Hier finden Sie alle Exportoptionen, die der Lohnvorbereitung und -dokumentation dienen. Die verschiedenen Optionen umfassen dabei: 
 
