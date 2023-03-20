@@ -34,7 +34,7 @@ Aktuell unterstützte Formate sind:
     - Lexware
     - LohnAG
 
-## Arbeitszeitennachweis
+### Arbeitszeitennachweis
 
 Unter {% button label="**Arbeitszeiten-Nachweis**" %} werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern) um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
 
