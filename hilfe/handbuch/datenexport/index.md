@@ -80,7 +80,7 @@ Hierzu ein Beispiel: Wir wählen im Filter die Vertragsart 'Festangestellt' und 
 <img src="mitarbeiter_filter.webp" />
 {% endfigure %}
 
-## Per Email versenden
+### Per Email versenden
 
 Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versenden an...** eine Email-Adresse einzutragen, an die Sie eine Kopie des Exports verschicken wollen. Dies kann bspw. nützlich sein, um ihrer Buchhaltung vereinfacht Lohndaten zukommen zu lassen. 
 **Einmal eingegeben wird die Email Adresse automatisch ausgefüllt und stets eine Kopie sämtlicher Exporte verschickt!**
