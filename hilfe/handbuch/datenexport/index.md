@@ -120,6 +120,6 @@ Da der korrekte Export in ihr Buchhaltungsprogramm auf einige Daten wie **Person
 
 Sobald Sie auf {% button icon="download", label="Export starten" %} klicken, bietet Ihnen Pentacode mehrere Optionen an:
 
-- {% icon "eye" %} *Öffnen* Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
+- {% button icon="eye" label="Öffnen" %} Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
 - {% icon "download" %} *Downloaden* Sie laden die Dateien zusammengefasst in einem Ordner herunter. Dabei wir für die Nachweise und Berichte jedes Mitarbeiters eine eigene Datei innerhalb des Ordners erstellt.
 - {% icon "print" %} *Drucken* Die Durckvorschau wird geöffnet, mit einem für den Druck optimierten Format der Datei. 
