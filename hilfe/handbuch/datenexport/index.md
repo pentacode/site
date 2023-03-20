@@ -38,7 +38,7 @@ Aktuell unterstützte Formate sind:
 
 Unter {% button label="**Arbeitszeiten-Nachweis**" %} werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern) um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
 
-## Stammdatenblatt
+### Stammdatenblatt
 
 Unter {% button label="**Datenblatt**" %} werden alle unter [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) aufgeführten Daten des Mitarbeiters auf einer übersichtlichen PDF-Seite aufgeführt. 
 Die kann nützlich sein um Mitarbeiterdaten zu übertragen - **achten Sie dabei aber immer darauf, dass es sich hierbei um sensible Daten handelt!**
