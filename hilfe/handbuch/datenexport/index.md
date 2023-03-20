@@ -64,7 +64,7 @@ Im vorgegebenen Kalender können Sie auf der linken Seite das Anfangsdatum und a
 <img src="zeitraum.gif" />
 {% endfigure %}
 
-## Mitarbeiterfilter
+### Mitarbeiterfilter
 
 Im Mitarbeiterfilter können wir auswählen für welche Mitarbeitergruppen wir einen Export erstellen wollen. Dazu können wir über die Filterleiste die gewünschten Mitarbeiter über Abteilungen oder einzeln auswählen. Dabei ist zu beachten, dass Filteroptionen sich **untereinander weiter beschränken.**
 
@@ -84,7 +84,6 @@ Hierzu ein Beispiel: Wir wählen im Filter die Vertragsart 'Festangestellt' und 
 
 Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versenden an...** eine Email-Adresse einzutragen, an die Sie eine Kopie des Exports verschicken wollen. Dies kann bspw. nützlich sein, um ihrer Buchhaltung vereinfacht Lohndaten zukommen zu lassen. 
 **Einmal eingegeben wird die Email Adresse automatisch ausgefüllt und stets eine Kopie sämtlicher Exporte verschickt!**
--- Option für mehrere Emails
 
 ## Im Dokumentenarchiv ablegen
 
@@ -98,7 +97,7 @@ Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzli
 
 ### Unterschrift anfordern
 
-Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/ bekommen welche Ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
+Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) bekommen welche Ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
 
 > Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen](/hilfe/handbuch/mitarbeiter/allgemein/)
 
