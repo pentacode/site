@@ -43,7 +43,7 @@ Unter {% button label="**Arbeitszeiten-Nachweis**" %} werden alle geleisteten Sc
 Unter {% button label="**Datenblatt**" %} werden alle unter [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) aufgeführten Daten des Mitarbeiters auf einer übersichtlichen PDF-Seite aufgeführt. 
 Die kann nützlich sein um Mitarbeiterdaten zu übertragen - **achten Sie dabei aber immer darauf, dass es sich hierbei um sensible Daten handelt!**
 
-## Kassenbuch
+### Kassenbuch
 
 Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auch die Inhalte des Kassenbuchs übertragen. Dies dient dem einfachen Export des in Pentacodes geführten Kassenbuch in die Lohnbuchhaltungssoftware ihrer Wahl. Die verschiedenen Formate, die Ihnen zur Verfügung stehen umfassen neben einem einfachen Ausdruck als PDF:
 
