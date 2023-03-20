@@ -64,7 +64,7 @@ Im vorgegebenen Kalender können Sie auf der linken Seite das Anfangsdatum und a
 <img src="zeitraum.gif" />
 {% endfigure %}
 
-## Mitarbeiterfilter
+### Mitarbeiterfilter
 
 Im Mitarbeiterfilter können wir auswählen für welche Mitarbeitergruppen wir einen Export erstellen wollen. Dazu können wir über die Filterleiste die gewünschten Mitarbeiter über Abteilungen oder einzeln auswählen. Dabei ist zu beachten, dass Filteroptionen sich **untereinander weiter beschränken.**
 
