@@ -106,9 +106,9 @@ Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeits
 
 Da der korrekte Export in ihr Buchhaltungsprogramm auf einige Daten wie **Personalnummern und Lohnarten** angewiesen ist, werden Sie eventuell darauf aufmerksam gemacht, sollten Daten unvollständig sein. Pentacode unterscheidet dabei drei verschiedene Meldungen:
 
-- {%icon "info-circle"%} Hier werden Ihnen Informationen bspw. zu fehlenden Lohnarten angegeben. Diese können in der Regel übersprungen werden, geben Ihnen aber Hinweise, für welche Mitarbeiter Personaldaten fehlen.
-- {%icon "exclamation-triangle"%} Sind **Warnungen**, die Sie darauf aufmerksam machen, dass der Lohnbericht so nicht von ihrer Lohnbuchhaltung zu verwenden ist. Diese Punkte sollten Sie möglichst beheben.
-- {%icon "hexagon-exclamation"%} Sind Fehlermeldungen, die den Export des Lohnberichts verhindern. Bis diese behoben sind, ist ein Export nicht möglich. 
+- {% icon "info-circle" %} Hier werden Ihnen Informationen bspw. zu fehlenden Lohnarten angegeben. Diese können in der Regel übersprungen werden, geben Ihnen aber Hinweise, für welche Mitarbeiter Personaldaten fehlen.
+- {% icon "exclamation-triangle" %} Sind **Warnungen**, die Sie darauf aufmerksam machen, dass der Lohnbericht so nicht von ihrer Lohnbuchhaltung zu verwenden ist. Diese Punkte sollten Sie möglichst beheben.
+- {% icon "hexagon-exclamation" %} Sind Fehlermeldungen, die den Export des Lohnberichts verhindern. Bis diese behoben sind, ist ein Export nicht möglich. 
 
 {% figure caption="Beim Export dieses Lohnberichts werden wir darauf aufmerksam gemacht, dass es Probleme geben kann, wenn für Mitarbeiter Personalnummern fehlen." %}
 <img src="fehlermeldung.webp" />
@@ -119,6 +119,6 @@ Da der korrekte Export in ihr Buchhaltungsprogramm auf einige Daten wie **Person
 
 Sobald Sie auf {% button icon="download", label="Export starten" %} klicken, bietet Ihnen Pentacode mehrere Optionen an:
 
-- {% button icon="eye" label="Öffnen" %} Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
+- {% button icon="eye", label="Öffnen" %} Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
 - {% icon "download" %} *Downloaden* Sie laden die Dateien zusammengefasst in einem Ordner herunter. Dabei wir für die Nachweise und Berichte jedes Mitarbeiters eine eigene Datei innerhalb des Ordners erstellt.
-- {% icon "print" %} *Drucken* Die Durckvorschau wird geöffnet, mit einem für den Druck optimierten Format der Datei. 
+- {% icon "print" %} *Drucken* Die Druckvorschau wird geöffnet, mit einem für den Druck optimierten Format der Datei. 
