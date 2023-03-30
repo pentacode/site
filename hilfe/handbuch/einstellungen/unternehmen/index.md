@@ -83,7 +83,7 @@ In diesem Modus werden die **Pausen nach** der **Arbeitszeit** berechnet. Dem Mi
 <img src="überblick.png"/>
 {% endfigure %}
 
-### Wochenfaktor
+## Wochenfaktor
 
 Der sogenannte "Wochenfaktor" stellt die durchschnittliche Anzahl der Wochen in
 einem Monat dar und wird überall da angewendet, wo wochenbasierte Werte in
