@@ -35,7 +35,7 @@ Mitarbeiters.
 <img src="vertraege_einzelansicht.webp" />
 {% endfigure %}
 
-## {% icon "info-circle" %} Allgemein
+## Allgemein
 
 ### Beschäftigungsverhältnis
 
@@ -57,7 +57,7 @@ Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverh
 
 Wenn Sie den Button bei "**Beschäftigungspause**" setzen, bleibt der Mitarbeiter **im Dienstplan sichtbar**, kann jedoch **nicht geplant** werden. Die Beschäftigungspause **unterbricht** jedoch **nicht** die Fortberechnung der verschiedenen Konten eines Mitarbeiters.
 
-## {% icon "hourglass-clock" %} Arbeitszeit & Fehltage
+## Arbeitszeit & Fehltage
 
 ### Sollstundenberechnung
 
@@ -155,7 +155,7 @@ und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 > vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende
 > Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
-## {% icon "euro-sign" %} Bezahlung
+## Bezahlung
 
 ### Lohn/Gehalt (brutto)
 
@@ -185,7 +185,7 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 
 > **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
-## {% icon "island-tropical" %} Urlaub
+## Urlaub
 
 ### Urlaubsanspruch
 
@@ -200,7 +200,7 @@ Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komp
 
 - *Nach Arbeitsstunden* Der Urlaubsanspruch wird während eines Monats **fortlaufend auf Basis der gearbeiteten Stunden** berechnet. 
 
-## {% icon "badge-percent" %} Zuschläge
+## Zuschläge
 
 Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet werden. 
 
@@ -222,7 +222,7 @@ Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter-einzeln/konten/#sfn-zusch
 
 > Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
 
-## {% icon "hand-holding-box" %} Sonderleistungen
+## Sonderleistungen
 
 Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
 
