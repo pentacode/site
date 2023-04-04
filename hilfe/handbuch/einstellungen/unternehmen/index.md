@@ -80,7 +80,19 @@ In diesem Modus werden die **Pausen nach** der **Arbeitszeit** berechnet. Dem Mi
 
 
 {% figure caption="Angaben zum Unternehmen und allgemeine Kontaktdaten" %}
-
 <img src="überblick.png"/>
-
 {% endfigure %}
+
+## Wochenfaktor
+
+Der sogenannte "Wochenfaktor" stellt die durchschnittliche Anzahl der Wochen in
+einem Monat dar und wird überall da angewendet, wo wochenbasierte Werte in
+monatsbasierte Werte umgerechnet werden müssen und umgekehrt, so wie Beispielsweise die
+Berechnung der Monats-Sollstunden anhand der Wochenstunden. In der Praxis kommen
+für gewöhnlich einer von zwei verschiedenen Wochenfaktoren zum Einsatz, der
+"alte" Wert von 4,33 und der neuere, etwas genauere Wert von 4,35, der auch
+Schaltjahre berücksichtigt.
+
+Standardmäßig verwendet Pentacode den Faktor **4,35**. Sollte in Ihrem
+Unternehmen ein anderer Wochenfaktor zur Anwendung kommen, zum Beispiel aufgrund
+eines Tarifvertrages, können Sie diesen hier anpassen.
