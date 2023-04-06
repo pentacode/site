@@ -1,6 +1,5 @@
 ---
 layout: layouts/hilfe/index.njk
-kind: home
 title: Planung
 weight: 6
 icon: calendar-alt
