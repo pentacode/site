@@ -7,6 +7,15 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
+## 1.24.11
+
+## Behobene Fehler
+
+-   Das Anwenden von Dienstplanvorlagen war seit v1.24.10 nicht mehr möglich.
+-   Das Leeren des Dienstplans war seit v1.24.10 nicht mehr möglich.
+-   Bei der Berechnung von Zuschlagskosten kam es in manchen Fällen immer noch zu Fehlberechnungen.
+-   Beim Veröffentlichen von Dienstplänen wurden aktive Filter bzw. eingeschränkte Berechtigungen im Fall von Freitagen nicht berücksichtigt, das heißt beim veröffentlichen von Teil-Dienstplänen wurden die Freitage aus allen Abteilungen veröffentlicht.
+
 ## 1.24.10
 
 ## Änderungen & Neuigkeiten
