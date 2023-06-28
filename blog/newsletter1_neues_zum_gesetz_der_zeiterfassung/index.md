@@ -49,7 +49,7 @@ Dies bedeutet, dass Ihre Mitarbeiter bereits jetzt die Einführung einer elektro
 ## Was sind nun die möglichen Folgen für Ihr Unternehmen?
 
 <figure class="float right">
-  <img src="ueberstundenkarte_ml.png" alt="Infografik: Durchschnittliche Anzahl der wöchenlichen Überstunden nach Bundesland" />
+  <img src="ueberstundenkarte_ml.webp" alt="Infografik: Durchschnittliche Anzahl der wöchenlichen Überstunden nach Bundesland" />
   <figcaption>Deutsche Angestellte machten im Jahr 2021 insgesamt 1,7 Milliarden Überstunden (Laut einer Statistik, des Instituts für Arbeitsmarkt- und Berufsforschung)</figcaption>
 </figure>
 
