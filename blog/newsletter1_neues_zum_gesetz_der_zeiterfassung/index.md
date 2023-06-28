@@ -1,5 +1,5 @@
 ---
-title: Neues zum Gesetz der Zeiterfassung
+title: Das Gesetz zur Zeiterfassung – und seine möglichen Folgen 
 date: 2023-05-05
 cover: Zeiterfassung_ML.webp
 coverAlt: "Mann mit Uhr als Kopf - das Gesetz zur Zeiterfassung betrifft jeden Arbeitgeber"
@@ -8,17 +8,15 @@ categories:
     - ratgeber
 ---
 
-# Das Gesetz zur Zeiterfassung – und seine möglichen Folgen 
-
 Die zukünftigen Regelungen für die Erfassung von Arbeitszeit durch Arbeitsminister Heil liegen nun vor. Auch wenn auf dem Weg vom Entwurf bis zum Gesetz noch Änderungen zu erwarten sind – die grundsätzliche Marschrichtung ist nun klar.
 
 ## Was bedeutet dies in der Praxis?
 
 Viele Unternehmen erfassen bereits die Arbeitszeiten, viele machen dies noch auf Papier oder über eine Stechuhr. Arbeitsminister Heil will nun Unternehmen dazu verpflichten, die Arbeitszeiten elektronisch zu erfassen.
 
-Dem Entwurf zufolge müssen Arbeitnehmer:innen Beginn, Ende und Dauer der Arbeit und damit auch Pausen und Unterbrechungen dokumentieren. Und zwar täglich und in elektronischer Form. Diese Form kann von einer einfachen Excel-Tabelle über eine Stechuhr bis zu einem Computerprogramm oder einer Handy-App reichen.
+Dem Entwurf zufolge müssen Arbeitnehmer Beginn, Ende und Dauer der Arbeit und damit auch Pausen und Unterbrechungen dokumentieren. Und zwar täglich und in elektronischer Form. Diese Form kann von einer einfachen Excel-Tabelle über eine Stechuhr bis zu einem Computerprogramm oder einer Handy-App reichen.
 
-<b>Die Erfassung kann auch durch einen Vorgesetzten erfolgen, doch wer immer dies auch macht – die Verantwortung trägt immer der Arbeitgeber!</b>
+**Die Erfassung kann auch durch einen Vorgesetzten erfolgen, doch wer immer dies auch macht – die Verantwortung trägt immer der Arbeitgeber!**
 
 
 ## Gibt es Ausnahmen bei der elektronischen Aufzeichnung?
@@ -32,7 +30,7 @@ In diesem Fall sind <u>keine Ausnahmen</u> vorgesehen. Nach aktuellem Stand verp
 
 ## Ist Vertrauensarbeitszeit auch in Zukunft möglich?
 
-Auch wenn Mitarbeiter:innen ihre Arbeit selbst organisieren, müssen die Zeiten aufgezeichnet werden. Dabei müssen Sie als Unternehmer sicherstellen, dass Fristen (Ruhe- und Höchstarbeitszeiten) nicht verletzt werden. Sie müssen auch sicherstellen, dass Sie bei Fristverstößen informiert werden.
+Auch wenn Mitarbeiter ihre Arbeit selbst organisieren, müssen die Zeiten aufgezeichnet werden. Dabei müssen Sie als Unternehmer sicherstellen, dass Fristen (Ruhe- und Höchstarbeitszeiten) nicht verletzt werden. Sie müssen auch sicherstellen, dass Sie bei Fristverstößen informiert werden.
 
 ## Gibt es bei der Einführung der Arbeitszeiterfassung Übergangsfristen?
 
@@ -43,17 +41,17 @@ Wenn Sie weniger als 50 Mitarbeiter beschäftigen, haben Sie für die Umsetzung 
 
 Arbeitgeberverbände, Gewerkschaften und auch die Parteien haben natürlich voneinander abweichende Vorstellungen. Es ist deshalb nicht unwahrscheinlich, dass auf dem Weg vom Entwurf bis zur Verabschiedung des Gesetzes noch Änderungen vorgenommen werden. Der Entwurf gibt jedenfalls die ungefähre „Marschrichtung“ vor und auf diese Richtung sollten Sie sich rechtzeitig einstellen.
 
-## {% icon "lightbulb" %} Wichtig zu wissen!
+> **{% icon "lightbulb" %} Wichtig zu wissen!** Unabhängig von der Gesetzeslage sind Sie grundsätzlich  bereits seit dem Urteil des BAGs vom September 2022 zur elektronischen Erfassung der Arbeitszeiten verpflichtet!
 
-> Unabhängig von der Gesetzeslage sind Sie grundsätzlich bereits seit dem Urteil des BAGs vom September 2022 zur elektronischen Erfassung der Arbeitszeiten verpflichtet!
 Dies bedeutet, dass Ihre Mitarbeiter bereits jetzt die Einführung einer elektronischen Zeiterfassung einfordern können. Anstatt auf die Gesetzgebung zu warten, könnten Sie als Unternehmer auch die Initiative ergreifen. Spätestens wenn es bei einer arbeitsrechtlichen Auseinandersetzung um Überstunden oder Urlaubsansprüche geht, werden Sie für Ihre Initiative belohnt werden. Daneben wird eine moderne Zeiterfassung Ihr Unternehmen wirtschaftlich stärker machen.
 
 
 ## Was sind nun die möglichen Folgen für Ihr Unternehmen?
 
-{% figure caption="Thüringer machen die meisten Überstunden", extraclass = "float middle", width = 200pcs %}
-<img src="Überstundenkarte_ML.png" />
-{% endfigure %}
+<figure class="float right">
+  <img src="ueberstundenkarte_ml.png" alt="Infografik: Durchschnittliche Anzahl der wöchenlichen Überstunden nach Bundesland" />
+  <figcaption>Deutsche Angestellte machten im Jahr 2021 insgesamt 1,7 Milliarden Überstunden (Laut einer Statistik, des Instituts für Arbeitsmarkt- und Berufsforschung)</figcaption>
+</figure>
 
 Bevor wir zu den guten Nachrichten kommen, zuerst einmal die schlechten.
 Die unmittelbare Wirkung aus der Pflicht zur Erfassung von Arbeitszeiten wird bei der Aufzeichnung von Überstunden spürbar sein. Dies betrifft im Besonderen dienstleistungsintensive Branchen mit ausgedehnten Betriebszeiten und Mehrschicht-Betrieb.
@@ -68,8 +66,3 @@ Das klingt nach viel und das ist viel, ABER – und das ist die gute Nachricht: 
 Mit den richtigen Mitteln und diesen richtig eingesetzt, ist es in vielen Fällen sogar möglich, die gesetzliche Verpflichtung in einen wirtschaftlichen Vorteil des Unternehmens umzumünzen.
 
 **Wie möglicherweise auch Sie dies herbeiführen können, erzählen wir Ihnen in den folgenden Newslettern.**
-
-
-
-*Mit herzlichen Grüßen*
-*Ihr Pentacode-Team*
