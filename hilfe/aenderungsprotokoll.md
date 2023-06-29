@@ -7,6 +7,103 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
+## 1.24.11
+
+## Behobene Fehler
+
+-   Das Anwenden von Dienstplanvorlagen war seit v1.24.10 nicht mehr möglich.
+-   Das Leeren des Dienstplans war seit v1.24.10 nicht mehr möglich.
+-   Bei der Berechnung von Zuschlagskosten kam es in manchen Fällen immer noch zu Fehlberechnungen.
+-   Beim Veröffentlichen von Dienstplänen wurden aktive Filter bzw. eingeschränkte Berechtigungen im Fall von Freitagen nicht berücksichtigt, das heißt beim veröffentlichen von Teil-Dienstplänen wurden die Freitage aus allen Abteilungen veröffentlicht.
+
+## 1.24.10
+
+## Änderungen & Neuigkeiten
+
+-   Überarbeitete UI für das Bearbeiten von Dienstplantabs.
+-   Frei- und Guttage müssen nun genauso wie andere Dienstplaneinträge explizit veröffentlicht werden bevor sie in der Mitarbeiter-App oder im öffentlichen Dienstplan erscheinen.
+
+## Behobene Fehler
+
+-   Bei Standorten mit einer oder mehreren archivierten Abteilungen kam es bei der Festlegung der Abteilungs-Reihenfolge zu Problemen.
+-   Die Berechnung von Zuschlagskosten unter Berichte/Personalkosten war bei machen Unternehmen fehlerhaft.
+-   Bei der Anzeige der festen Soll-Wochentage in der Vertragsliste eines Mitarbeiters kam es in manchen Fällen zu einer fehlerhaften Darstellung
+-   Bei der Auswahl des Zeitaums im Bereich "Export" wurde der aktuelle Monat manchmal doppelt angezeigt.
+-   Bei Mitarbeitern mit Sonderzeichen im Namen kam es in manchen Fällen zu einem Fehler beim Export von Lohnabrechungen und AZ-Nachweisen.
+
+## 1.24.9
+
+### Änderungen & Neuigkeiten
+
+-   Die Option "Bezahlt" (heißt nun "Im Lohnbericht berücksichtigen") ist nun auch für Zeitgutschriften verfügbar.
+-   Der Besitzer eines Unternehmens kann nun selbstständig über das Verwaltungsportal gewechselt werden (nur vom Besitzer selbst).
+-   Konsistente Rundung bei der Berechnung von Eurobeträgen auf Basis von Stundenwerten (Zeitlohn).
+-   Beim Export von Lohnberichten, Arbeitszeiten und Stammdaten kann nun die Sortierung der Mitarbeiter angepasst werden (z.B. nach Personalnummer)
+
+### Behobene Fehler
+
+-   Nach Abbruch beim Bearbeiten von Zeiterfassungs-Regelsätzen wurde das Formular in manchen Fällen nicht richtig zurückgesetzt (Anzeigefehler)
+-   Bei Durchführen von Änderungen im Arbeitszeitblatt wurde der Lohn-Schnellbericht nicht automatisch neu berechnet.
+-   Bei der Eingabe von Stundenlöhnen und Gehältern im Personalfragebogen war keine Eingabe von Centwerten möglich.
+
+## 1.24.8
+
+### Änderungen & Neuigkeiten
+
+-   Es ist nun möglich, einen benutzerdefinierten Wochenfaktor einzurichten. Mehr Informationen [hier](https://pentacode.app/hilfe/handbuch/einstellungen/unternehmen/#wochenfaktor).
+
+### Behobene Fehler
+
+-   Beim Erstellen von Vertragsunterbrechungen wurden Zuschläge und Sonderleistungen aus dem ursprünglichen Vertrag entfernt.
+-   Bei der Anzeige von Sollstunden im Vetragsänderungsprotokoll wurden in manchen Fällen irrtümlich feste Wochentage angezeigt.
+
+## 1.24.7
+
+### Änderungen & Neuigkeiten
+
+-   Bei Exporten mit der Option "Im Dokumentenarchiv ablegen" können nun auch Kategorien gewählt werden, die zu allen exportierten Dokumenten hinzugefügt werden sollen.
+
+### Behobene Fehler
+
+-   Die Export-Option "Unterschrift Anfordern" wurde nicht berücksichtigt.
+-   Wurde nach dem Anlegen eines Mitarbeiters die Option der Sofortmeldung gewählt, so konnte es in manchen Fällen vorkommen, dass das Sofortmeldefenster beim Seitenwechsel immer wieder angezeigt wurde, bis die Seite neu geladen wurde.
+-   In manchen Fällen konnten trotz vergebener Berechtigung keine unbaren Vorschüsse eingetragen werden.
+-   Beim Lohndaten-Export in das Programm Addison war die Formatierung fehlerhaft.
+-   Beim Lohndaten-Export in das Programm Addison wurden Urlaubs- und Kranktage nicht exportiert.
+
+## 1.24.6
+
+### Änderungen & Neuigkeiten
+
+-   Für alle Exporte im PDF-Format (z.B. Arbeitszeitnachweise, Lohnberichte etc.) gibt es nun einen Drucken-Button, über den Sie direkt in den Druckdialog Ihres Browsers gelangen. **Dies gilt auch für Exporte, bei denen mehrere PDF-Dateien in einer ZIP-Datei zusammengefasst sind. In diesem Fall werden alle PDF-Dateien gesammelt ausgedruckt.**
+-   Die Lohngrenze für Midi-Jobber wurde ab dem 01.01.2023 auf 2000 € erhöht.
+
+### Behobene Fehler
+
+-   Wurde beim Export von Arbeitszeitnachweisen die Option "Im Dokumentenarchiv ablegen" gewählt, wurden Unterschriften der Mitarbeiter angefordert, auch wenn die entsprechende Option nicht angewählt war.
+-   Exportdateien für das Programm Lohn-AG hatten eine fehlerhafte Formatierung.
+-   Bei der Eingabe von Zeitbuchungen war kein Wert größer als 24:00 möglich.
+-   Für Mitarbeiter, bei denen ein Gehalt oder Stundenlohn von 0 € hinterlegt war, wurden keine Zuschläge berechnet.
+
+## 1.24.5
+
+### Änderungen & Neuigkeiten
+
+-   Bei Zeitbuchungen werden Werte nun im Stunden:Minuten Format eingetragen.
+-   Zeitbuchungen werden nun wieder im Arbeitszeitennachweis aufgeführt.
+-   Arbeitszeiten-Nachweise enthalten nun eine detailliertere Auswertung der Soll- und Iststunden.
+-   Der Exportbutton im Bereich Mitarbeiter/Arbeitszeiten verlinkt nun auf den Arbeitszeiten-Nachweis.
+-   Bei der Navigation vom Bereich Mitarbeiter/Arbeitszeiten nach "Datenexport" durch Klick auf den Exportbutton werden die Exportfilter nun automatisch gesetzt.
+
+### Behobene Fehler
+
+-   Die Navigation im AZ-Blatt mit den Keyboard-Shortcuts "a" und "d" war fehlerhaft.
+-   Beim Duplizieren von Zuschlägen wurden Einträge unter "Hat Vorrang Vor..." im der originalen Zuschlagsart entfernt.
+-   Bedienungsprobleme beim Eingabefeld "Beitragsfrei Bis zu" im Zuschlagsart-Bearbeitungsdialog machten erschwerten das Bearbeiten des Wertes.
+-   Das Untermenü im Bereich "Datenexport" war nicht scrollbar, wodurch auf kleineren Bildschirmen nicht alle Optionen wählbar waren.
+-   Beim Export des Lohnberichts (Detailliert) für mehrere Mitarbeiter wurden Vorschüsse, die bei einem Mitarbeiter
+    eingetragen waren, bei allen Mitarbeitern angezeigt.
+
 ## 1.24.4
 
 ### Änderungen & Neuigkeiten
@@ -57,9 +154,9 @@ Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 -   Im Bereich "Probleme" führte ein Klick auf den Button "Problem Beheben" in manchen Fällen nicht zum richtigen Zeitraum.
 -   Einige Datenexporte waren aufgrund eines Performanceproblems nicht oder nur eingeschrängt verfügbar. Wir haben hier einige Optimierungen vorgenommen, die das Problem hoffentlich beheben sollten. Wir beobachten das Problem jedoch weiter und werden falls nötige weitere Maßnahmen erfreifen.
 
-### 1.24.0
+## 1.24.0
 
-## Änderungen & Neuigkeiten
+### Änderungen & Neuigkeiten
 
 -   Überarbeiteter Bereich "Alle Mitarbeiter / Arbeitszeiten"
 -   Zuschläge sind nun noch konfigurierbarer und es können nun vollständig benutzerdefinierte Zuschlagsarten angelegt werden (z.B. Samstagszuschläge).
