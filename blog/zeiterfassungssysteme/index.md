@@ -20,8 +20,8 @@ Sowohl das BAG wie auch der EuGH schreiben ein „System“ zur Erfassung von Ar
 In der kürzestmöglichen Form lässt sich der Begriff definieren als „Prinzip, nach dem etwas geordnet und gegliedert wird“. Auch handschriftliche Aufzeichnungen oder Excel entsprechen einem ordnenden und gliedernden Prinzip. Diese Aufzeichnungsformen entsprechen zwar nicht den Grundsätzen „objektiv“ und „zuverlässig“, wie es das EuGH-Urteil vorschreibt, sind laut Gesetzentwurf jedoch trotzdem zulässig. Zumindest dann, wenn bestimmte Voraussetzungen erfüllt sind.
 
 <figure>
+<img src="zeiterfassungssysteme.webp" alt="Darstellung der Verschiedenen Zeiterfassungssysteme" />
 <figcaption> Es gibt verschiedene Systeme zur Zeiterfassung mit eigenen Vor- und Nachteilen </figcaption>
-<img src = "zeiterfassungssysteme.webp" alt = "Darstellung der Verschiedenen Zeiterfassungssysteme" />
 </figure>
 
 Neben „Stift & Papier“ und „Excel“ entsprechen vor allem die Systeme „Stempeluhr“ und „moderne App-Lösung“ sowohl dem Gesetz wie auch der Rechtsprechung. Alle genannten Möglichkeiten bergen Vorteile wie auch Nachteile. Wie immer das System jedoch aussieht, das in einem Unternehmen im Einsatz ist oder zum Einsatz kommen soll – es sollte mehr erfüllen als nur die gesetzlichen Auflagen.
@@ -137,13 +137,11 @@ Kompetente Systeme dieser Art beinhalten daneben eine Urlaubs- und Abwesenheitsp
 
 - Je nach Anbieter zum Teil längerfristige Vertragsbindung
 
-*{% icon "lightbulb" %} Was gerne verschwiegen wird: Teilweise ist eine Umstellung der gewohnten Routinen in einem Unternehmen erforderlich. Neben der Qualität der gewählten Software ist hier die Qualität des Supports von Bedeutung.*
+> **{% icon "exclamation-triangle" %} Was gerne verschwiegen wird:** Teilweise ist eine Umstellung der gewohnten Routinen in einem Unternehmen erforderlich. Neben der Qualität der gewählten Software ist hier die Qualität des Supports von Bedeutung.
 
 ### Prüfungssicherheit
 
-Die Anwendung einer modernen App-Lösung kann als grundsätzlich rechtssicher gelten
-
-Rechtzeitige Warnung vor drohenden Rechtsverstößen senken Prüfungsrisiken noch weiter
+Die Anwendung einer modernen App-Lösung kann als grundsätzlich rechtssicher gelten. Rechtzeitige Warnung vor drohenden Rechtsverstößen senken Prüfungsrisiken noch weiter
 
 
 
@@ -151,10 +149,10 @@ Rechtzeitige Warnung vor drohenden Rechtsverstößen senken Prüfungsrisiken noc
 
 Im Regelfall hohe Anschaffungsgebühren bei Kauf-Software oder laufende Monatsgebühren bei SaaS-Produkten. Die Gebühren können zwischen einzelnen Anwendern erheblich schwanken
 
-## Resümee
+## Fazit
 
 Die Einführung eines neuen oder die Veränderung eines bestehenden Systems ist durch die Rechtsprechung und den Gesetzgeber erzwungen. Die Wahl ist jedoch von herausragender strategischer Bedeutung für ein Unternehmen. Das „richtige“ System garantiert nicht nur Rechtssicherheit. Es ist in der Lage, ein Vielfaches der Kosten, die es verursacht, wieder „hereinzuspielen“. Und zwar in jedem einzelnen Monat.
 
 Es ist sehr klar abzusehen, dass im Bereich des Personal-Managements SaaS-Produkte mit ihren vielfältigen Eigenschaften die führende Stellung einnehmen werden. Diese Produkte sind für das Unternehmen wirtschaftlich wirksam, dynamisch und allein schon wegen der Möglichkeit der Vertragskündigung auf stetige Weiterentwicklung getrimmt. Denn beim Wettbewerb zwischen den Anbietern gilt: Das Bessere ist der Feind des Guten.
 
-**Wie die wirtschaftliche Wirkung auf das Unternehmen aussehen kann und wie trotz steigender Kosten mehr Gewinn bei gleichem Umsatz möglich ist, zeigen wir Ihnen mit unseren nächsten Newslettern.**
+**Wie die wirtschaftliche Wirkung auf das Unternehmen aussehen kann und wie trotz steigender Kosten mehr Gewinn bei gleichem Umsatz möglich ist, zeigen wir Ihnen mit unseren kommenden Blogartikel.**
