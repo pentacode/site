@@ -8,40 +8,33 @@ categories:
     - ratgeber
 ---
 
-"Planen ist nichts anderes als
-schriftliches Denken mit Methode“
+<p style="text-align: center;"> *"Planen ist nichts anderes als schriftliches Denken mit Methode“* </p>
 
-(Manfred Helfrecht)
+<p style="text-align: center;"> *(Manfred Helfrecht)* </p>
 
 ## Wenn Planung auf Realität trifft
 
-Ein gängiges Sprichwort lautet, dass ein Plan beim ersten Kontakt mit der Realität seinen Wert verliert. Das mag für das Militär gelten, es trifft jedoch nicht für die Dienstplanung komplexerer Unternehmen zu. Denn ein Plan war nur dann wirklich gelungen, wenn er weitestgehend die spätere Wirklichkeit gespiegelt hat. Dazu aber muss er am Ergebnis überprüft werden.
-
-Planung ist im Wesentlichen die gezielte Vorwegnahme von Ereignissen, die in der Zukunft liegen. In Hommage an Bertolt Brecht lässt sich auch sagen: Planen heißt bestimmen, was in der Zukunft eventuell geschehen wird.
-
-Dienstplanung bedeutet im konkreten Fall häufig, dass ein Planer Mitarbeitern Einsatzzeiten zuweist und dann froh ist, wenn alle Kollegen pünktlich zur Arbeit erschienen sind. Spätestens wenn das der Fall war und die Planung somit Vergangenheit geworden ist, wandert der Plan ins Altpapier. Selbst wenn der Planer die Arbeitseinsätze nach Zielvorgaben geplant hat, ist es nicht selbstverständlich ersichtlich, in welchem Umfang sich Planung und Wirklichkeit decken.
-
-Hierzu ist der Blick in die Vergangenheit notwendig. Nur mit Hilfe dieser Rückschau kann kontrolliert werden, ob sich die Mitarbeiter an die Vorgaben halten. Werden Planzeiten mit dem Mitarbeiterverhalten verglichen, kann auch erkannt werden, ob eventuelle Stundenvorgaben des Planers zu großzügig oder zu knapp bemessen sind.
+Ein gängiges Sprichwort lautet, dass ein Plan beim ersten Kontakt mit der Realität seinen Wert verliert. Das mag für das Militär gelten, es trifft jedoch nicht für die Dienstplanung komplexerer Unternehmen zu. Denn ein Plan war nur dann wirklich gelungen, wenn er weitestgehend die spätere Wirklichkeit gespiegelt hat. Dazu aber muss er am Ergebnis überprüft werden. Planung ist im Wesentlichen die gezielte Vorwegnahme von Ereignissen, die in der Zukunft liegen. In Hommage an Bertolt Brecht lässt sich auch sagen: Planen heißt bestimmen, was in der Zukunft eventuell geschehen wird. Dienstplanung bedeutet im konkreten Fall häufig, dass ein Planer Mitarbeitern Einsatzzeiten zuweist und dann froh ist, wenn alle Kollegen pünktlich zur Arbeit erschienen sind. Spätestens wenn das der Fall war und die Planung somit Vergangenheit geworden ist, wandert der Plan ins Altpapier. Selbst wenn der Planer die Arbeitseinsätze nach Zielvorgaben geplant hat, ist es nicht selbstverständlich ersichtlich, in welchem Umfang sich Planung und Wirklichkeit decken. Hierzu ist der Blick in die Vergangenheit notwendig. Nur mit Hilfe dieser Rückschau kann kontrolliert werden, ob sich die Mitarbeiter an die Vorgaben halten. Werden Planzeiten mit dem Mitarbeiterverhalten verglichen, kann auch erkannt werden, ob eventuelle Stundenvorgaben des Planers zu großzügig oder zu knapp bemessen sind.
 
 > Bei den in der Folge gezeigten Beispielen verwenden wir die Abbildungen in unserer Software Pentacode. Aussagen von ähnlicher Kraft können Sie auch mithilfe von Excel erreichen, wenn auch nicht in grafischer Darstellung. In unserem nächsten Blogartikel werden Sie deshalb die Möglichkeit haben, die entsprechende Formatvorlage für einen Dienstplan in Excel herunterzuladen.
 
-In Pentacode wird der Soll-Ist-Vergleich nicht nur im Vergleich von geplanten und tatsächlich aufgewandten Stunden, sondern auch auf Grundlage der minutengenau ermittelten Lohnkosten durchgeführt.
+In Pentacode wird der Soll-Ist-Vergleich nicht nur im Vergleich von geplanten und tatsächlich aufgewandten Stunden, sondern auch auf Grundlage der minutengenau ermittelten Lohnkosten durchgeführt. Zum einen lässt sich dadurch bereits zum Zeitpunkt der Planung erkennen, wie hoch die Lohnkosten einer Abteilung oder auch des Gesamtunternehmens sein werden. An jedem abgeschlossenen Arbeitstag wird auch ersichtlich, wie nahe der Plan an der Realität lag. Wie in unserem vorangegangenem Newsletter beschrieben, sind die geplanten Einsatzzeiten eines Mitarbeiters zum Zeitpunkt der Planung eine Investition in einen zu erwartenden Umsatz. Zu Kosten werden diese Zeiten erst, wenn Sie durch Arbeit in Anspruch genommen worden sind. Deshalb ist eine Vergleichsmethode unter der Berücksichtigung unterschiedlicher Lohnniveaus auch aussagekräftiger als eine Darstellung lediglich auf Basis von Stunden. So werden in Pentacode die Abweichungen zwischen geplanten und tasächlich geleisteten Arbeitszeiten in Stunden und in Euro (Arbeitgeberkosten) täglich dargestellt.
 
-Zum einen lässt sich dadurch bereits zum Zeitpunkt der Planung erkennen, wie hoch die Lohnkosten einer Abteilung oder auch des Gesamtunternehmens sein werden. An jedem abgeschlossenen Arbeitstag wird auch ersichtlich, wie nahe der Plan an der Realität lag.
+<figure>
+<img src="arbeitszeit_vergleich.webp" alt="Darstellung der geleisteten Arbeitszeit in Stunden" />
+<figcaption> Darstellung der geleisteten Arbeitszeit in Stunden </figcaption>
+</figure>
 
-Wie in unserem vorangegangenem Newsletter beschrieben, sind die geplanten Einsatzzeiten eines Mitarbeiters zum Zeitpunkt der Planung eine Investition in einen zu erwartenden Umsatz. Zu Kosten werden diese Zeiten erst, wenn Sie durch Arbeit in Anspruch genommen worden sind.
 
-Deshalb ist eine Vergleichsmethode unter der Berücksichtigung unterschiedlicher Lohnniveaus auch aussagekräftiger als eine Darstellung lediglich auf Basis von Stunden.
+<figure>
+<img src="kosten_vergleich.webp" alt="Darstellung der geleisteten Arbeitszeit in Lohnsummen" />
+<figcaption> Darstellung der geleisteten Arbeitszeit in Lohnsummen </figcaption>
+</figure>
 
-So werden in Pentacode die Abweichungen zwischen geplanten und tasächlich geleisteten Arbeitszeiten in Stunden und in Euro (Arbeitgeberkosten) täglich dargestellt.
-
--- Darstellung der geleisteten Arbeitszeit in Stunden
-
--- Darstellung der geleisteten Arbeitszeit in Lohnsummen
 
 Diese Übersichten können Sie nach Abteilungen und nach einzelnen Mitarbeitern filtern. Damit ist es Ihnen möglich, „Ausreißer“ zu erkennen und in Zukunft gezielt und rechtzeitig eingreifen zu können.
 
-Durch die Kombination von gezielter Planung und smarter Zeiterfassung werden Sie mit erstaunlicher Einfachheit Ihre bisherigen Routinen „auf den Kopf“ stellen.
+**Durch die Kombination von gezielter Planung und smarter Zeiterfassung werden Sie mit erstaunlicher Einfachheit Ihre bisherigen Routinen „auf den Kopf“ stellen.**
 
 **Und die Wirkung wird Sie in Erstaunen versetzen.**
 
