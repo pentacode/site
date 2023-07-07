@@ -1,8 +1,8 @@
 ---
 title: Zeiterfassung & plötzlich mehr Überstunden – wie vermeiden?
 date: 2023-19-06
-cover: zeiterfassungssysteme_header.webp
-coverAlt: "Mensch und Maschine arbeiten zusammen - moderne Zeiterfassungssysteme als effektive Lösung"
+cover: zeiterfassung_ueberstunden.webp
+coverAlt: ""
 author: jseidel
 categories:
     - ratgeber
@@ -28,7 +28,10 @@ Wenn 15 Vollzeit-Mitarbeiter eines Unternehmens (oder einer Abteilung) pflichtbe
 
 Das können Sie ganz einfach vermeiden. Legen Sie in Pentacode eine Vorlage an und ziehen Sie diese per „drag & drop“ in den Dienstplan. Das kostet Sie 3 Sekunden Ihrer Zeit und Sie haben das Problem ungewollter und ungeplanter Überstunden für immer gelöst.
 
---
+<figure>
+<img src="planung_vorlage.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" />
+<figcaption> Wenige Sekunden und die Woche ist geplant </figcaption>
+</figure>
 
 Die Stempelzeiten Ihrer Mitarbeiter können nun mit dem Dienstplan abgeglichen werden und der Dienst beginnt wie von Ihnen geplant.
 
@@ -56,7 +59,10 @@ In dieser Grafik wird der exakte Wert an eingesparter Arbeitszeit gezeigt.
 Es handelt sich hier um ein Unternehmen mit Mehrschichtbetrieb,
 180 Mitarbeitern und Sitz in Bayern.
 
---  
+<figure>
+<img src="kostensparen.webp" alt="Pentacode zeigt Ihnen wie viel Lohnkosten Sie durch gute Planung sparen können" />
+<figcaption> Jedes Unternehmen kann durch Schichtplanung Lohnkosten sparen </figcaption>
+</figure>
 
 Dieses Unternehmen hat in 2022 Arbeitszeit im Wert von über 98.000 € eingespart. Ohne die Überprüfung der gestempelten Arbeitszeiten durch die geplanten Zeiten wären in diesem Unternehmen die Personalkosten durch aufgelaufene Überstunden oder erhöhte Auszahlungsbeträge um 2,7 % höher gelegen.
 
@@ -77,4 +83,4 @@ In diesem Fall sollte ein Dienstplan mehr sein als nur ein Info-Blatt für Mitar
 
 Die Arbeitszeit der Mitarbeiter ist meist das wertvollste - und damit auch teuerste - Wirtschaftsgut eines Unternehmens. Eine gelungene Dienstplanung sollte deshalb mehr bieten als den Überblick, ob ausreichend Mitarbeiter eingeteilt worden sind. Denn der Unternehmenserfolg beginnt gerade bei komplexeren Betrieben bei der gezielten Planung. Vor allem in Zeiten wie diesen.
 
-Wie Sie mit der Planung von Arbeitszeiten den wirtschaftlichen Erfolg Ihres Unternehmens maßgeblich beeinflussen können, zeigen wir Ihnen in unserem nächsten Newsletter „Planung nach Kennzahlen – oder: Malen nach Zahlen für den Dienstplaner“.
+*Wie Sie mit der Planung von Arbeitszeiten den wirtschaftlichen Erfolg Ihres Unternehmens maßgeblich beeinflussen können, zeigen wir Ihnen im nächsten Blogartikel „Planung nach Kennzahlen – oder: Malen nach Zahlen für den Dienstplaner“.*
