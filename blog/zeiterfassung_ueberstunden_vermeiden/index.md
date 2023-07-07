@@ -12,7 +12,7 @@ categories:
 
 Die Einführung einer rechtlich einwandfreien und prüfungssicheren Erfassung von Arbeitszeiten wird in vielen Unternehmen eine unmittelbare Folge haben: eventuelle Überstunden werden schonungslos offengelegt. Selbst wenn diese Überstunden durch bestehende Routinen im Betrieb völlig unbeabsichtigt und bisher unbemerkt entstanden sind - sie schlagen sich nun plötzlich als Mehrarbeit nieder.
 
-Dabei lassen sich derartige Überstunden ganz einfach vermeiden.
+**Dabei lassen sich derartige Überstunden ganz einfach vermeiden!**
 
 ## Dienstplanung bei „Nine-to-five-Jobs“?
 
@@ -20,7 +20,7 @@ Sie führen einen Betrieb mit regelmäßigen Arbeitszeiten, klassischem Wochenen
 
 In diesem Fall gab es bisher keine Notwendigkeit einen Dienstplan zu führen. Jeder wusste, wann er zu kommen hatte und wann Schluss mit Arbeit war. Theoretisch muss auch in Zukunft kein Dienstplan geführt werden, praktisch aber sollten Sie dies unbedingt tun.
 
-Warum?
+### Warum?
 
 Weil auch in diesem Fall die rechtliche Verpflichtung zur Arbeitszeiterfassung gilt und nun durch Ein- und Ausstempeln plötzlich Überstunden auflaufen können, wo vorher doch alles im Lot war.
 
@@ -32,13 +32,13 @@ Das können Sie ganz einfach vermeiden. Legen Sie in Pentacode eine Vorlage an u
 
 Die Stempelzeiten Ihrer Mitarbeiter können nun mit dem Dienstplan abgeglichen werden und der Dienst beginnt wie von Ihnen geplant.
 
-Ist das rechtlich so in Ordnung?
+### Ist das rechtlich so in Ordnung?
 
 Ja, ist es. Ein geplanter Arbeitsbeginn ist keine Empfehlung des Arbeitgebers, sondern eine Dienstanweisung. Sollte ein Mitarbeiter früher kommen wollen,
 um in aller Ruhe eine Tasse Kaffee zu trinken ehe er z.B. das erste Telefonat annimmt, kann er das natürlich tun. Sie können auch dafür bezahlen,
 müssen aber nicht.
 
-Dasselbe gilt für ein Zuspätkommen.
+**Dasselbe gilt für ein Zuspätkommen.**
 
 ## Dienstplanung bei Mehrschichtbetrieben
 
@@ -71,7 +71,7 @@ Aber kein Zugewinn wird in absehbarerer Zeit größere Bedeutung haben als kompe
 
 Die eben beschriebene Methode ist das „Einsteigermodell“ für eine wirtschaftlich wirksame Dienstplanung. Die einzige Voraussetzung ist, dass überhaupt ein Dienstplan geführt wird.
 
-Sie führen jedoch ein Unternehmen mit ausgedehnten Öffnungszeiten? Verschiedene Schichten beginnen zeitversetzt? Bei Betriebszeiten von eventuell 7 Tage pro Woche?
+**Sie führen jedoch ein Unternehmen mit ausgedehnten Öffnungszeiten? Verschiedene Schichten beginnen zeitversetzt? Bei Betriebszeiten von eventuell 7 Tage pro Woche?**
 
 In diesem Fall sollte ein Dienstplan mehr sein als nur ein Info-Blatt für Mitarbeiter zu deren Arbeitseinsätzen.
 
