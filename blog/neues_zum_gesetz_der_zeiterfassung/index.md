@@ -1,7 +1,7 @@
 ---
 title: Das Gesetz zur Zeiterfassung – und seine möglichen Folgen 
 date: 2023-05-05
-cover: Zeiterfassung_ML.webp
+cover: zeiterfassung_ml.webp
 coverAlt: "Mann mit Uhr als Kopf - das Gesetz zur Zeiterfassung betrifft jeden Arbeitgeber"
 author: jseidel
 categories:
@@ -65,4 +65,4 @@ Beachtet man dabei, dass etwa 52% der Überstunden unerkannt „unter den Tisch 
 Das klingt nach viel und das ist viel, ABER – und das ist die gute Nachricht: Dies lässt sich auch nach Einführung einer Arbeitszeiterfassung beherrschen.
 Mit den richtigen Mitteln und diesen richtig eingesetzt, ist es in vielen Fällen sogar möglich, die gesetzliche Verpflichtung in einen wirtschaftlichen Vorteil des Unternehmens umzumünzen.
 
-**Wie möglicherweise auch Sie dies herbeiführen können, erzählen wir Ihnen in den folgenden Newslettern.**
+**Wie möglicherweise auch Sie dies herbeiführen können, erfahren Sie in den kommenden Blogartikeln.**
