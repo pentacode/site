@@ -41,7 +41,7 @@ Wenn Sie weniger als 50 Mitarbeiter beschäftigen, haben Sie für die Umsetzung 
 
 Arbeitgeberverbände, Gewerkschaften und auch die Parteien haben natürlich voneinander abweichende Vorstellungen. Es ist deshalb nicht unwahrscheinlich, dass auf dem Weg vom Entwurf bis zur Verabschiedung des Gesetzes noch Änderungen vorgenommen werden. Der Entwurf gibt jedenfalls die ungefähre „Marschrichtung“ vor und auf diese Richtung sollten Sie sich rechtzeitig einstellen.
 
-> **{% icon "lightbulb" %} Wichtig zu wissen!** Unabhängig von der Gesetzeslage sind Sie grundsätzlich  bereits seit dem Urteil des BAGs vom September 2022 zur elektronischen Erfassung der Arbeitszeiten verpflichtet!
+> **{% icon "lightbulb" %} Wichtig zu wissen!** Unabhängig von der Gesetzeslage sind Sie grundsätzlich bereits [seit dem Urteil des BAGs vom September 2022](/blog/bag_urteil_zeiterfassung/) zur elektronischen Erfassung der Arbeitszeiten verpflichtet!
 
 Dies bedeutet, dass Ihre Mitarbeiter bereits jetzt die Einführung einer elektronischen Zeiterfassung einfordern können. Anstatt auf die Gesetzgebung zu warten, könnten Sie als Unternehmer auch die Initiative ergreifen. Spätestens wenn es bei einer arbeitsrechtlichen Auseinandersetzung um Überstunden oder Urlaubsansprüche geht, werden Sie für Ihre Initiative belohnt werden. Daneben wird eine moderne Zeiterfassung Ihr Unternehmen wirtschaftlich stärker machen.
 
