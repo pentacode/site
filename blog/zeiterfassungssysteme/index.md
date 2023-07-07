@@ -47,12 +47,10 @@ Die handschriftliche Aufzeichnung ist sicherlich die einfachste Form der Dokumen
 
 - Der Ausweis von Über- und Minderstunden erfordert eine eventuell aufwändige Nebenrechnung. Sollten sozialversicherungs- und lohnsteuerbefreite Sonn-, Feiertags- oder Nachtzuschläge Bestandteil der Lohnabrechnung sein, sind diese gesondert zu errechnen und zu dokumentieren
 
-
 ### Rechtssicherheit
 
 Sollten die Arbeitszeiten durch den Mitarbeiter selbst notiert werden, gelten die Aufzeichnungen durch den handschriftlichen Eintrag als bestätigt.
 Wenn die Arbeitszeiten durch Dritte notiert werden, sollten sie durch den Mitarbeiter durch Gegenzeichnung bestätigt werden
-
 
 ### Kosten
 
@@ -72,14 +70,11 @@ Bei dieser einfachen Lösung wird durch das Ein- und Ausstempeln die Länge eine
 
 Der einzige Vorteil der einfachen Stempeluhr liegt somit in der Erfüllung der rechtlichen Auflagen.
 
-
 ### Vorteile
 
 - Einfache Installation
 
 - Schnelle und einfache Umsetzung
-
-
 
 ### Nachteile
 
@@ -90,8 +85,6 @@ Der einzige Vorteil der einfachen Stempeluhr liegt somit in der Erfüllung der r
 - Hoher Zeitaufwand für das fortlaufende, manuelle „Glattziehen“ von ungeplanten oder nicht autorisierten, jedoch gestempelten Arbeitszeiten
 
 - Kaum spürbare Erleichterung in der Verwaltung, da sich die meisten Anwendungen dieser Art in der Aufzeichnung von Arbeitszeiten erschöpfen und zum Teil aufwändige Nebenrechnungen erfordern
-
-
 
 ### Rechtssicherheit
 
@@ -111,8 +104,6 @@ Darüber hinaus sollte eine moderne Anwendung eine weitgehende oder sogar vollst
 
 Kompetente Systeme dieser Art beinhalten daneben eine Urlaubs- und Abwesenheitsplanung, ein aussagekräftiges Berichtswesen, eine App für Mitarbeiter sowie weitere Features.
 
-
-
 ### Vorteile
 
 - Geringe bis keine Nacharbeit durch automatisierte Prozesse
@@ -129,8 +120,6 @@ Kompetente Systeme dieser Art beinhalten daneben eine Urlaubs- und Abwesenheitsp
 
 - Möglichkeit der Kündigung bei SaaS-Produkten im Falle der Unzufriedenheit
 
-
-
 ### Nachteile
 
 - Höherer Zeitaufwand bei der Einrichtung und Inbetriebnahme des Systems
@@ -142,8 +131,6 @@ Kompetente Systeme dieser Art beinhalten daneben eine Urlaubs- und Abwesenheitsp
 ### Prüfungssicherheit
 
 Die Anwendung einer modernen App-Lösung kann als grundsätzlich rechtssicher gelten. Rechtzeitige Warnung vor drohenden Rechtsverstößen senken Prüfungsrisiken noch weiter
-
-
 
 ### Kosten
 
