@@ -39,7 +39,7 @@ ob er sich innerhalb der Vorgaben befindet oder diese überschreitet.
 
 <figure>
 <img src="vergleich_tabelle2.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" />
-<figcaption> Der Fortschrittsbalken spiegelt das Stundenkontingent wieder. </figcaption>
+<figcaption> Der Fortschrittsbalken spiegelt das Stundenkontingent wider. </figcaption>
 </figure>
 
 *Der “Charme” dieser Art der Planung liegt darin, dass ein Dienstplaner Anhaltspunkte hat, an denen er sich orientieren kann.*
