@@ -29,7 +29,7 @@ Wenn 15 Vollzeit-Mitarbeiter eines Unternehmens (oder einer Abteilung) pflichtbe
 Das können Sie ganz einfach vermeiden. Legen Sie in Pentacode eine Vorlage an und ziehen Sie diese per „drag & drop“ in den Dienstplan. Das kostet Sie 3 Sekunden Ihrer Zeit und Sie haben das Problem ungewollter und ungeplanter Überstunden für immer gelöst.
 
 <figure class="full-width">
-<img src="planung_vorlage.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" />
+<img src="planung_vorlage.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" width=100% />
 <figcaption> Wenige Sekunden und die Woche ist geplant </figcaption>
 </figure>
 
@@ -83,4 +83,4 @@ In diesem Fall sollte ein Dienstplan mehr sein als nur ein Info-Blatt für Mitar
 
 Die Arbeitszeit der Mitarbeiter ist meist das wertvollste - und damit auch teuerste - Wirtschaftsgut eines Unternehmens. Eine gelungene Dienstplanung sollte deshalb mehr bieten als den Überblick, ob ausreichend Mitarbeiter eingeteilt worden sind. Denn der Unternehmenserfolg beginnt gerade bei komplexeren Betrieben bei der gezielten Planung. Vor allem in Zeiten wie diesen.
 
-*Wie Sie mit der Planung von Arbeitszeiten den wirtschaftlichen Erfolg Ihres Unternehmens maßgeblich beeinflussen können, zeigen wir Ihnen im nächsten Blogartikel „Planung nach Kennzahlen – oder: Malen nach Zahlen für den Dienstplaner“.*
+ Wie Sie mit der Planung von Arbeitszeiten **den wirtschaftlichen Erfolg Ihres Unternehmens maßgeblich beeinflussen** können, zeigen wir Ihnen im nächsten Blogartikel: **„Planung nach Kennzahlen – oder: Malen nach Zahlen für den Dienstplaner“.**
