@@ -5,7 +5,7 @@ cover: zeiterfassung_ml.webp
 coverAlt: "Mann mit Uhr als Kopf - das Gesetz zur Zeiterfassung betrifft jeden Arbeitgeber"
 author: jseidel
 categories:
-    - ratgeber
+    - aktuelles
 ---
 
 Die zukünftigen Regelungen für die Erfassung von Arbeitszeit durch Arbeitsminister Heil liegen nun vor. Auch wenn auf dem Weg vom Entwurf bis zum Gesetz noch Änderungen zu erwarten sind – die grundsätzliche Marschrichtung ist nun klar.
