@@ -28,7 +28,7 @@ Wenn 15 Vollzeit-Mitarbeiter eines Unternehmens (oder einer Abteilung) pflichtbe
 
 Das können Sie ganz einfach vermeiden. Legen Sie in Pentacode eine Vorlage an und ziehen Sie diese per „drag & drop“ in den Dienstplan. Das kostet Sie 3 Sekunden Ihrer Zeit und Sie haben das Problem ungewollter und ungeplanter Überstunden für immer gelöst.
 
-<figure>
+<figure class="full-width">
 <img src="planung_vorlage.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" />
 <figcaption> Wenige Sekunden und die Woche ist geplant </figcaption>
 </figure>
@@ -41,7 +41,7 @@ Ja, ist es. Ein geplanter Arbeitsbeginn ist keine Empfehlung des Arbeitgebers, s
 um in aller Ruhe eine Tasse Kaffee zu trinken ehe er z.B. das erste Telefonat annimmt, kann er das natürlich tun. Sie können auch dafür bezahlen,
 müssen aber nicht.
 
-**Dasselbe gilt für ein Zuspätkommen.**
+**Dasselbe gilt für ein Zuspätkommen** - wird eine Schichtplanung nicht eingehalten und der Mitarbeiter verspätet sich? Sie sind im Recht ausschließlich erarbeitete Stunden zu vergüten.
 
 ## Dienstplanung bei Mehrschichtbetrieben
 
