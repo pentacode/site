@@ -1,0 +1,58 @@
+<style>
+    .section-contact-us-anchor {
+        position: relative;
+        top: -6em;
+    }
+
+    section.section-contact-us h2 {
+        font-size: 2.3em;
+        line-height: 1.2em;
+        text-align: center;
+        width: auto;
+        margin: 0 auto 0.5em auto;
+        background: linear-gradient(
+            125deg,
+            var(--green) 0%,
+            var(--blue) 25%,
+            var(--purple) 50%,
+            var(--orange) 75%,
+            var(--red) 100%
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        display: inline-block;
+        font-weight: 400;
+    }
+
+    .section-contact-us-subtitle {
+        margin: 1em auto;
+        max-width: 30em;
+        text-align: center;
+    }
+
+    .section-contact-us-layout {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-contact-us-layout > * {
+        padding: 1em;
+        flex: 1;
+    }
+
+    .section-contact-us-layout > :first-child {
+        border-right: solid 1px var(--shade-2);
+    }
+
+    @media (max-width: 700px) {
+        .section-contact-us-layout {
+            flex-direction: column;
+        }
+
+        .section-contact-us-layout > :first-child {
+            border-bottom: solid 1px var(--shade-2);
+            border-right: none;
+        }
+    }
+</style>

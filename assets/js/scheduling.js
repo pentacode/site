@@ -26,9 +26,9 @@
         return loadCalendlyPromise;
     }
 
-    function openScheduler() {
+    function openScheduler(url = "https://calendly.com/pentacode/demo") {
         loadCalendly().then(() =>
-            Calendly.initPopupWidget({ url: "https://calendly.com/pentacode/demo?hide_gdpr_banner=1" })
+            Calendly.initPopupWidget({ url: `${url}?hide_gdpr_banner=1` })
         );
         return false;
     }
@@ -38,7 +38,7 @@
         for (const button of schedulingButtons) {
             button.addEventListener("click", (e) => {
                 e.preventDefault();
-                openScheduler();
+                openScheduler(button.getAttribute("href") || undefined);
             });
         }
 
