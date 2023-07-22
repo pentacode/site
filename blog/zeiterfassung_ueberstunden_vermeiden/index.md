@@ -2,7 +2,7 @@
 title: Zeiterfassung & plötzlich mehr Überstunden – wie vermeiden?
 date: 2023-06-19
 cover: zeiterfassung_ueberstunden.webp
-coverAlt: ""
+coverAlt: "Eine Zielscheibe - auch mit Zeiterfassung das Stundenpensum genau treffen"
 author: jseidel
 categories:
     - ratgeber
@@ -26,10 +26,10 @@ Weil auch in diesem Fall die rechtliche Verpflichtung zur Arbeitszeiterfassung g
 
 Wenn 15 Vollzeit-Mitarbeiter eines Unternehmens (oder einer Abteilung) pflichtbewusst und ohne Hintergedanken 10 Minuten zu früh zur Arbeit erscheinen, ergibt dies am Monatsende 3:40 Überstunden je Mitarbeiter. Am Ende des Jahres haben sich bei jedem Mitarbeiter über 40 Stunden angesammelt. Jeder einzelne der 15 Kollegen hat zusätzlich zu seinem Urlaub also mehr als eine Woche extra frei.
 
-Das können Sie ganz einfach vermeiden. Legen Sie in Pentacode eine Vorlage an und ziehen Sie diese per „drag & drop“ in den Dienstplan. Das kostet Sie 3 Sekunden Ihrer Zeit und Sie haben das Problem ungewollter und ungeplanter Überstunden für immer gelöst.
+Das können Sie ganz einfach vermeiden. Legen Sie in Pentacode eine Vorlage an und ziehen Sie diese per „drag & drop“ in den Dienstplan. **Das kostet Sie 3 Sekunden Ihrer Zeit und Sie haben das Problem ungewollter und ungeplanter Überstunden für immer gelöst.**
 
-<figure class="full-width">
-<img src="planung_vorlage.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" width=100% />
+<figure>
+<img src="vorlage.webp" alt="In Pentacode erstellen Sie in Sekundenschnelle Vorlagen für ihre Dienstplanung" width=100% />
 <figcaption> Wenige Sekunden und die Woche ist geplant </figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Sollte es sich nicht um Vertrauensarbeitszeit handeln, hätten Sie in diesem Fal
 
 ## Die wirtschaftliche Wirkung in Summe
 
-Der Mechanismus der automatischen Überprüfung greift für alle Unternehmen, völlig unabhängig von deren Größe und Komplexität. Er greift auch sofort und ohne einen einzigen Handschlag an zusätzlicher Arbeit. Es handelt sich also um Früchte, die so niedrig hängen, dass sie ohne Aufwand geerntet werden können.
+Der Mechanismus der automatischen Überprüfung greift für alle Unternehmen, völlig unabhängig von deren Größe und Komplexität. Er greift auch sofort und ohne einen einzigen Handschlag an zusätzlicher Arbeit. **Es handelt sich also um Früchte, die so niedrig hängen, dass sie ohne Aufwand geerntet werden können.**
 
 In dieser Grafik wird der exakte Wert an eingesparter Arbeitszeit gezeigt.
 Es handelt sich hier um ein Unternehmen mit Mehrschichtbetrieb,
@@ -71,7 +71,7 @@ Systemweit sparen Unternehmen mit Pentacode im Durchschnitt 2,6 % an ungewollter
 Verfügt das verwendete Zeiterfassungssystem also über die beschriebenen Eigenschaften, wird es Sie als Unternehmer selbständig und hoch wirksam dabei unterstützen, unbeabsichtigte Arbeitszeiten zu vermeiden und damit überflüssige Arbeitsstunden zu verringern.
 
 Eine leistungsfähige HR-Software bringt natürlich noch andere Zugewinne.
-Aber kein Zugewinn wird in absehbarerer Zeit größere Bedeutung haben als kompetentes Zeitmanagement.
+**Aber kein Zugewinn wird in absehbarerer Zeit größere Bedeutung haben als kompetentes Zeitmanagement.**
 
 ## Fazit
 
