@@ -1,12 +1,14 @@
 ---
-title: Zeiterfassung - Möglichkeiten, Risiken & Nebenwirkungen
-date: 2023-27-06
+title: Zeiterfassung & Dienstplanung - mehr Gewinn durch weniger Kosten
+date: 2023-06-27
 cover: zeiterfassung_dienstplanung.webp
 coverAlt: "Effiziente Lohnkostenkontrolle: Die Vorteile von Dienstplanung und Zeiterfassung"
 author: jseidel
 categories:
     - ratgeber
 ---
+
+In unserem [vorherigen Blogartikel](/blog/zeiterfassung_ueberstunden_vermeiden) haben Sie bereits erfahren, wie Sie durch vorrausschauende Dienstplanung Überstunden verhindern können, bevor sie überhaupt entstehen. Hier hört das Potenzial guter Dienstplanung aber noch lange nicht auf - in diesem Artikel erfahren Sie weitere Möglichkeiten betriebliche Abläufe zu optimieren und Personalkosten zu sparen.
 
 ## Die zwei mächtigen Werkzeuge für größeren Unternehmenserfolg
 
