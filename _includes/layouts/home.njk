@@ -9,6 +9,7 @@
 {% include "styles/features.html" %}<!-- -->
 {% include "styles/testimonials.html" %}<!-- -->
 {% include "styles/preise.html" %}<!-- -->
+{% include "styles/contact-us.html" %}<!-- -->
 
 {% endblock %}<!-- -->
 
@@ -34,7 +35,7 @@
                 </h3>
 
                 <div class="buttons">
-                    <a href="#preise" class="btn highlight get-started">
+                    <a href="/#contact-us" class="btn highlight get-started">
                         <span>Jetzt Kennenlernen</span>
                         <i class="icon fad fa-play-circle"></i>
                     </a>
@@ -72,6 +73,8 @@
     {% include "components/sections/testimonials.njk" %}
 
     {% include "components/sections/preise.njk" %}
+
+    {% include "components/sections/contact-us.njk" %}
 
     {% include "components/provenexpert-seal.html" %}
 {% endblock %}
