@@ -1,6 +1,6 @@
 ---
 title: Zeiterfassung - Möglichkeiten, Risiken & Nebenwirkungen
-date: 2023-12-06
+date: 2023-06-12
 cover: zeiterfassungssysteme_header.webp
 coverAlt: "Mensch und Maschine arbeiten zusammen - moderne Zeiterfassungssysteme als effektive Lösung"
 author: jseidel
