@@ -99,6 +99,7 @@ module.exports = (config) => {
     config.addPassthroughCopy("assets/**/*");
     config.addPassthroughCopy("admin/config.yml");
     config.addPassthroughCopy("admin/*.css");
+    config.addPassthroughCopy("downloads/**/*");
 
     // Old paths
     config.addPassthroughCopy({ "./assets": "/" });
