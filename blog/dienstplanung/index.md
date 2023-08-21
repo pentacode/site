@@ -1,6 +1,6 @@
 ---
 title: Dienstplanung - mit vergangenen Schichten auf die Zukunft schließen
-date: 2023-03-07
+date: 2023-07-03
 cover: dienstplanung.webp
 coverAlt: "Mit der richtigen Dienstplanung haben Sie immer den Durchblick"
 author: jseidel
