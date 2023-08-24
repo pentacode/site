@@ -1,5 +1,5 @@
 ---
-title: Ihr Dienstplan - Malen nach Zahlen, Teil 2
+title: Dienstplanung Teil 2 - Malen nach Zahlen
 date: 2023-08-10
 cover: dienstplanung_2.webp
 coverAlt: "Mit der richtigen Dienstplanung erhöhen Sie die Produktivität ihres Betriebes"
