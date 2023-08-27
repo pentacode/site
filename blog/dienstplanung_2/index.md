@@ -32,7 +32,7 @@ Für eine Planung, die sich an der Produktivität orientiert, ist es deshalb erf
 *In Pentacode können Sie dies einmalig, leichtverständlich und beinahe spielerisch* in wenigen Schritten umsetzen. Die gesamte weitere Verarbeitung erfolgt anschließend automatisch. Im ersten Schritt werden die Erlösarten eines Betriebs durch einfaches „drag & drop“ den Abteilungen zugeordnet, die am Zustandekommen des Umsatzes beteiligt sind.
 
 <figure>
-<img src="produktivität_tabelle_1.webp" alt="Verteilung des Umsatzes auf die Abteilungen in Pentacode" />
+<img src="produktivität_tabelle_1.webp" alt="Verteilung des Umsatzes auf die Abteilungen in Pentacode" width="800" />
 <figcaption> Die Aufteilung des Umsatzes können Sie den Abteilungen intuitiv zuordnen </figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ Im hier gezeigten Beispiel sind der Service mit 30%, die Bar mit 10% und die Kü
 Der zu erwartende Umsatz wird von Pentacode dann den einzelnen Wochentagen zugeordnet und nach Ihrem in Schritt 1 gewählten Verteilungsschlüssel den einzelnen Abteilungen zugewiesen.
 
 <figure>
-<img src="produktivität_tabelle_2.webp" alt="In Pentacode errechnete Umsätze für jede Abteilung und Wochentag" />
+<img src="produktivität_tabelle_2.webp" alt="In Pentacode errechnete Umsätze für jede Abteilung und Wochentag" width="800" />
 <figcaption> Sie können diese Werte nutzen um die Produktivität ihrer Abteilungen einzuschätzen </figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Indem Sie die vorgeschlagene Stundenanzahl bei gleichbleibendem Umsatz erhöhen 
 Die Stundenvorgabe wird automatisch im Dienstplan gespiegelt und dient dem Dienstplaner als Orientierung bei der Einteilung der Mitarbeiter.
 
 <figure>
-<img src="produktivität_tabelle_3.webp" alt="Bei der Dienstplanung werden die an der Produktivität geschätzen Stundenvorgaben angezeigt" />
+<img src="produktivität_tabelle_3.webp" alt="Bei der Dienstplanung werden die an der Produktivität geschätzen Stundenvorgaben angezeigt" width="800" />
 <figcaption> Die Stundenvorgaben dienen dem Planer als Anahaltspunkt </figcaption>
 </figure>
 
