@@ -32,7 +32,7 @@ Sie können mit dem Mitarbeiter vereinbaren, dass er, um beim Beispiel zu bleibe
 
 Sollte aus der Dokumentation am Jahresende hervorgehen, dass die Arbeitszeiten des Mitarbeiters keine Zuschläge von 1.200 € in Summe erreicht haben, gilt wie bereits beschrieben: Sie müssen die Differenz nachverbeitragen.
 
-## TIPP 4
+## Tipp #4: Vermeiden Sie Überbezahlung durch SFN-Pauschalen
 
 Wenn Sie mit Mitarbeitern die Pauschalvorauszahlung von Zuschlägen vereinbart haben, ist ein gutes „Monitoring“ dringend erforderlich.
 
