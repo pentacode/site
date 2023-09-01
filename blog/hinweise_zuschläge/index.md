@@ -24,9 +24,7 @@ Sofern Sie Zuschläge noch nicht oder nur teilweise bezahlen: Nutzen Sie die Mö
 
 Anstatt den Bruttolohn um insgesamt 200 € zu erhöhen, damit etwa die Hälfte beim Mitarbeiter ankommt, beginnen Sie besser mit Zuschlagszahlungen oder erhöhen bestehende Zuschläge, wenn hierzu noch „Luft“ ist. Damit entsteht Ihnen beim eben genannten Beispiel zwar ein Lohnaufwand von 100 Euro mehr, diese 100 Euro landen jedoch 1:1 beim Mitarbeiter.
 
-## TIPP 3
-
-Sie können Zuschlagszahlungen in der Höhe begrenzen.
+## Tipp #3: Sie können Zuschlagszahlungen in der Höhe begrenzen.
 
 Sie können mit dem Mitarbeiter vereinbaren, dass er, um beim Beispiel zu bleiben, Zuschläge bis zu einer Höhe von 100 € erhält. Auch diese können Sie ihm während des Jahres und unabhängig von seinen tatsächlichen Arbeitszeiten pauschal vorausbezahlen.
 
