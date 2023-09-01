@@ -21,16 +21,16 @@ Im Aritikel zu [„Zeiterfassung und Dienstplanung“](/blog/zeiterfassung_diens
 
 <figure class="float-right">
 <img src="bag_gebäude.webp" alt="Das Bundesarbeitsgericht von Außen"/>
-<figcaption> Vom Bundesarbeitsgericht wurde das Gesetz verabschiedet - mehr über die genauen Inhalte erfahren Sie [hier](/blog/bag_urteil_zeiterfassung/) </figcaption>
+<figcaption> Vom Bundesarbeitsgericht wurde das Gesetz zur Zeiterfassung verabschiedet - mehr über die genauen Inhalte erfahren Sie [hier](/blog/bag_urteil_zeiterfassung/) </figcaption>
 </figure>
 
 Arbeitsaufwand zu kontrollieren und dadurch die Lohnkosten im Griff zu halten, ist mit dem Urteil vom 13. September 2022 nicht mehr nur die Kür der Interessierten. Nicht nur wegen der wirtschaftlichen Folgen, sondern auch aus Gründen der Prüfungssicherheit wird es zur Pflicht für die meisten. Im Artikel [„Zeiterfassung und Überstunden“](/blog/zeiterfassung_ueberstunden_vermeiden/) ging es uns deshalb nicht allein darum, mögliche Wege aufzuzeigen, wie Arbeitsstunden gezielt verringert und damit Personalkosten gesenkt werden können. Es ging uns auch darum, die Auswirkung auf die Arbeitszeitkonten Ihrer Mitarbeiter möglicherweise zu mildern. Denn die Einführung einer elektronischen Arbeitszeiterfassung wird Auswirkungen haben.
 
 
 
-Bei den bisher vorgestellten Möglichkeiten handelt es sich nicht um Wundermittel, sondern um Tipps und um Praktiken, die in Großunternehmen und Konzernen absolut üblich sind. Von diesen Praktiken verstehen wir bei Pentacode eine Menge. Wir habe dies dabei auf **jene Möglichkeiten** eingeengt, die Sie **schnell, jederzeit und mit unmittelbarer Wirkung für Ihr Unternehmen einsetzen können** - unabhängig von der Größe Ihres Betriebs. Für die Durchführung einer zielgerichteten Planung benötigen Sie weder die Zustimmung noch die Mitwirkung Ihrer Mitarbeiter.
+Bei den bisher vorgestellten Möglichkeiten handelt es sich nicht um Wundermittel, sondern um Tipps und um Praktiken, die in Großunternehmen und Konzernen absolut üblich sind. Von diesen Praktiken verstehen wir bei Pentacode eine Menge. Wir haben diese dabei auf **jene Möglichkeiten** eingeengt, die Sie **schnell, jederzeit und mit unmittelbarer Wirkung für Ihr Unternehmen einsetzen können** - unabhängig von der Größe Ihres Betriebs. Für die Durchführung einer zielgerichteten Planung benötigen Sie weder die Zustimmung, noch die Mitwirkung Ihrer Mitarbeiter.
 
-Hier gilt Ihr Direktionsrecht. Sie müssen es lediglich ausüben.
+**Hier gilt Ihr Direktionsrecht. Sie müssen es lediglich ausüben.**
 
 Die Möglichkeiten, die wir Ihnen in den nächsten Artikeln vorstellen werden, sind ebenso einfach umzusetzen, allerdings unter einem Vorbehalt: Ihre Mitarbeiter müssen dabei mitspielen. Zumindest innerhalb gewisser Grenzen.
 
@@ -50,7 +50,7 @@ Auch bei den oft beklagten Lohnnebenkosten sind die Annahmen der meisten falsch.
 
 Ganz ähnlich sieht es bei der Betrachtung des Mindestlohns aus. Im Sinne der Armutsvermeidung gilt ein Mindestlohn erst dann als angemessen, wenn er 60% des Durchschnittslohns erreicht. Bis zum 1. Oktober 2022 lag der relative Wert des Mindestlohns in Deutschland jedoch nur bei 45,6%. Innerhalb Europas schnitten bisher nur Estland, Tschechien und Spanien noch schlechter ab (3).
 
-Um 60% des Durchschnittlohns zu erreichen, muss der Mindestlohn in Deutschland im Übrigen bei den derzeitigen 12 Euro liegen. Die Anhebung des Mindestlohns erfüllt damit nicht überzogene Vorstellungen, sondern wird nur dem Grundsatz der Armutsvermeidung trotz 40-Stundenwoche gerecht.
+Um 60% des Durchschnittlohns zu erreichen, muss der Mindestlohn in Deutschland im Übrigen bei den [derzeitigen 12 Euro liegen](/blog/mindestlohnerhöhung/). Die Anhebung des Mindestlohns erfüllt damit nicht überzogene Vorstellungen, sondern wird nur dem Grundsatz der Armutsvermeidung trotz 40-Stundenwoche gerecht.
 
 Soweit zur Einordnung der Lohnkosten in Deutschland im europäischen Vergleich und zur Bewertung des Mindestlohns.
 
@@ -58,7 +58,8 @@ Soweit zur Einordnung der Lohnkosten in Deutschland im europäischen Vergleich u
 Mit den nächsten Blogartikeln wollen wir Ihnen Hinweise geben, wie Sie das Beste aus den Möglichkeiten machen, die Ihnen der Gesetzgeber anbietet.
 Ohne Schaden für Ihre Mitarbeiter und zum Vorteil Ihres Unternehmens.
 
+<p style="font-size: 80%;">(1) Eurostat, 11. April 2019 </p>
 
-(1) Eurostat, 11. April 2019
-(2) Statistisches Bundesamt auf Basis von Eurostat, 23. April 2020
-(3) WSI-Mindestlohndatenbank 2020
+<p style="font-size: 80%;">(2) Statistisches Bundesamt auf Basis von Eurostat, 23. April 2020 </p>
+
+<p style="font-size: 80%;">(3) WSI-Mindestlohndatenbank 2020 </p>
