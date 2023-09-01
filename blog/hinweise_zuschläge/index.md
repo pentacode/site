@@ -10,7 +10,7 @@ categories:
 
 Wir sind weder Rechtsanwälte noch Steuerberater und dürfen deshalb keine rechtlichen oder steuerlichen Auskünfte geben. Das heißt jedoch nicht, dass wir vom strategischen Einsatz der SFN-Zuschläge nichts verstehen würden. Betrachten Sie die nun folgenden Tipps deshalb als Aufforderung, sich mit Ihrem Steuerberater zu besprechen, um von ihm eine verbindliche Auskunft zu erhalten.
 
-## TIPP 1
+## Tipp #1: Vorsicht bei Vertragsänderungen!
 
 **Verändern Sie keine bestehenden Arbeitsverträge,** indem Sie Zuschläge von jetzt auf gleich in die Lohnauszahlung hinein rechnen und damit das Bruttogehalt senken. **Dies wäre brandgefährlich!**
 
