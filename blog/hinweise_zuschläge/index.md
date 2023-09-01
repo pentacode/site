@@ -18,7 +18,7 @@ Es ist davon auszugehen, dass Ihnen bei der nächsten Sozialversicherungsprüfun
 
 Um eine Hineinrechnung gefahrlos durchführen zu können, muss ein Beschäftigungsverhältnis für **mindestens zwei**, vorsichtshalber und deshalb am besten **drei Monate** unterbrochen sein. 
 
-## TIPP 2
+## Tipp #2: Nutzen Sie Zuschläge in Gehaltsverhandlungen
 
 Sofern Sie Zuschläge noch nicht oder nur teilweise bezahlen: Nutzen Sie die Möglichkeiten, wenn die nächste Frage nach einer **Lohnerhöhung** gestellt wird.
 
