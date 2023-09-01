@@ -1,5 +1,5 @@
 ---
-title: SFN-Zuschläge strategisch nutzen
+title: SFN-Zuschläge strategisch nutzen - Teil 2
 date: 2023-08-28
 cover: "sfn_titel.webp"
 coverAlt: "Auch mit gleichem Gehalt lassen sich die Lohnkosten ihrer Mitarbeiter reduzieren"
@@ -45,7 +45,9 @@ Sie beschäftigen diese Verkäuferin als Aushilfe, die immer sonntags bei Ihnen 
 
 Wenn Sie mit dieser Mitarbeiterin einen Stundenlohn von 12 € zuzüglich Sonntagszuschläge in Höhe von 25% vereinbaren, erhält sie 12 € Lohn + 3 € Zuschläge, also wieder 15 €.
 
-Da die Zuschläge der Lohngrenze nicht hinzugerechnet werden, steht Ihnen diese Mitarbeiterin **nun über 43 Stunden / Monat zur Verfügung, ohne dass sich die Lohnnebenkosten**, in diesem Fall die Betragszahlung an die Bundesknappschaft, **erhöhen würden**. Der Mitarbeiter erhält im Gegenzug statt 520 € einen Aushilfslohn von 649 €.
+Da die Zuschläge der Lohngrenze nicht hinzugerechnet werden, steht Ihnen diese Mitarbeiterin **nun über 43 Stunden / Monat zur Verfügung, ohne dass sich die Lohnnebenkosten**, in diesem Fall die Betragszahlung an die Bundesknappschaft, **erhöhen würden**.
+ 
+Der Mitarbeiter erhält im Gegenzug statt 520 € einen Aushilfslohn von 649 €.
 
 ## Fazit
 
