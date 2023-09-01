@@ -12,7 +12,7 @@ categories:
 
 SFN-Zuschläge dürfen vom Grundsatz her lediglich für tatsächlich
 gearbeitete Zeiten gezahlt werden. Dabei werden die Zuschläge dem vereinbarten Grundgehalt hinzugerechnet und führen so zu einer Erhöhung
-desNetto-Auszahlungsbetrags an den Mitarbeiter.
+des Netto-Auszahlungsbetrags an den Mitarbeiter.
 
 Mit dem [vorausgegangenen Artikel](/blog/zuschläge_strategisch_nutzen) haben wir aufgezeigt, wie Zuschläge im Rahmen einer Lohnvereinbarung **hineingerechnet** werden können.
 Mithilfe dieser Methode kann es Ihnen gelingen, eventuellen Netto-Erwartungen eines Mitarbeiters gerecht zu werden und dabei gleichzeitig und auf legale Weise die Lohnnebenkosten zu senken.
