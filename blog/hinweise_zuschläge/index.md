@@ -10,7 +10,7 @@ categories:
 
 Wir sind weder Rechtsanwälte noch Steuerberater und dürfen deshalb keine rechtlichen oder steuerlichen Auskünfte geben. Das heißt jedoch nicht, dass wir vom strategischen Einsatz der SFN-Zuschläge nichts verstehen würden. Betrachten Sie die nun folgenden Tipps deshalb als Aufforderung, sich mit Ihrem Steuerberater zu besprechen, um von ihm eine verbindliche Auskunft zu erhalten.
 
-## TIPP 1
+## Tipp #1: Vorsicht bei Vertragsänderungen!
 
 **Verändern Sie keine bestehenden Arbeitsverträge,** indem Sie Zuschläge von jetzt auf gleich in die Lohnauszahlung hinein rechnen und damit das Bruttogehalt senken. **Dies wäre brandgefährlich!**
 
@@ -18,21 +18,19 @@ Es ist davon auszugehen, dass Ihnen bei der nächsten Sozialversicherungsprüfun
 
 Um eine Hineinrechnung gefahrlos durchführen zu können, muss ein Beschäftigungsverhältnis für **mindestens zwei**, vorsichtshalber und deshalb am besten **drei Monate** unterbrochen sein. 
 
-## TIPP 2
+## Tipp #2: Nutzen Sie Zuschläge in Gehaltsverhandlungen
 
 Sofern Sie Zuschläge noch nicht oder nur teilweise bezahlen: Nutzen Sie die Möglichkeiten, wenn die nächste Frage nach einer **Lohnerhöhung** gestellt wird.
 
 Anstatt den Bruttolohn um insgesamt 200 € zu erhöhen, damit etwa die Hälfte beim Mitarbeiter ankommt, beginnen Sie besser mit Zuschlagszahlungen oder erhöhen bestehende Zuschläge, wenn hierzu noch „Luft“ ist. Damit entsteht Ihnen beim eben genannten Beispiel zwar ein Lohnaufwand von 100 Euro mehr, diese 100 Euro landen jedoch 1:1 beim Mitarbeiter.
 
-## TIPP 3
-
-Sie können Zuschlagszahlungen in der Höhe begrenzen.
+## Tipp #3: Sie können Zuschlagszahlungen in der Höhe begrenzen.
 
 Sie können mit dem Mitarbeiter vereinbaren, dass er, um beim Beispiel zu bleiben, Zuschläge bis zu einer Höhe von 100 € erhält. Auch diese können Sie ihm während des Jahres und unabhängig von seinen tatsächlichen Arbeitszeiten pauschal vorausbezahlen.
 
 Sollte aus der Dokumentation am Jahresende hervorgehen, dass die Arbeitszeiten des Mitarbeiters keine Zuschläge von 1.200 € in Summe erreicht haben, gilt wie bereits beschrieben: Sie müssen die Differenz nachverbeitragen.
 
-## TIPP 4
+## Tipp #4: Vermeiden Sie Überbezahlung durch SFN-Pauschalen
 
 Wenn Sie mit Mitarbeitern die Pauschalvorauszahlung von Zuschlägen vereinbart haben, ist ein gutes „Monitoring“ dringend erforderlich.
 
