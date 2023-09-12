@@ -1,5 +1,5 @@
 ---
-title: Finale Tipps zu SFN-Zuschlägen
+title: 4 essentielle Tipps für das Arbeiten mit Zuschlägen
 date: 2023-09-04
 cover: hinweise.webp
 coverAlt: "Achtung - bei SFN-Zuschlägen ist einiges zu beachten"
