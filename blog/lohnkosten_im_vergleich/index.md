@@ -46,7 +46,7 @@ Das Argument bleibt in den allermeisten Aspekten trotzdem schlicht falsch. Denn 
 
 Gesamtwirtschaftlich liegen die Lohnkosten in Deutschland mit 27 € pro Stunde nur 5 € über dem Durchschnitt des Euroraumes. In diesen Euroraum-Durchschnitt fließt aber mehr als die Hälfte aller Staaten ein, bei denen die Lohnkosten pro Stunde zwischen 20 € (Slowenien) und 4 € (Bulgarien) liegen. Im Vergleich zu den europäischen „Kernstaaten“ liegt Deutschland im unteren Drittel. Nur Schweden, Frankreich, Österreich und Italien haben einen geringeren Lohndurchschnitt [^1].
 
-Auch bei den oft beklagten Lohnnebenkosten sind die Annahmen der meisten falsch. Im EU-Vergleich der Lohnnebenkosten (Arbeitgeber) führt Deutschland mit 27 € Lohnnebenkosten je 100 € Lohn nur die untere Hälfte an. Österreich wartet, nur zum Vergleich, mit 39 € auf, der Schnitt der EU-19 liegt bei 34 € (2).
+Auch bei den oft beklagten Lohnnebenkosten sind die Annahmen der meisten falsch. Im EU-Vergleich der Lohnnebenkosten (Arbeitgeber) führt Deutschland mit 27 € Lohnnebenkosten je 100 € Lohn nur die untere Hälfte an. Österreich wartet, nur zum Vergleich, mit 39 € auf, der Schnitt der EU-19 liegt bei 34 € [^2].
 
 Ganz ähnlich sieht es bei der Betrachtung des Mindestlohns aus. Im Sinne der Armutsvermeidung gilt ein Mindestlohn erst dann als angemessen, wenn er 60% des Durchschnittslohns erreicht. Bis zum 1. Oktober 2022 lag der relative Wert des Mindestlohns in Deutschland jedoch nur bei 45,6%. Innerhalb Europas schnitten bisher nur Estland, Tschechien und Spanien noch schlechter ab (3).
 
