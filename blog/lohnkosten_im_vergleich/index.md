@@ -62,4 +62,4 @@ Ohne Schaden für Ihre Mitarbeiter und zum Vorteil Ihres Unternehmens.
 
 <p style="font-size: 80%;">(2) Statistisches Bundesamt auf Basis von Eurostat, 23. April 2020 </p>
 
-<p style="font-size: 80%;">(3) WSI-Mindestlohndatenbank 2020 </p>
+[^3]: WSI-Mindestlohndatenbank 2020
