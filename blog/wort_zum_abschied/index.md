@@ -42,7 +42,7 @@ Mit den Artikeln dieser Reihe haben wir uns im Ergebnis nur mit Daten befasst. D
 
 **In unserer nächsten Artikelreihe beschäftigen wir uns mit jenem Faktor, der diese Daten generiert: Ihren Mitarbeitern!**
 
-Die Arbeits- und Motivationspsychologie hat umfassend erfosrscht, was Menschen zu guter Leistung motiviert, unter welchen Umständen das Versprechen von mehr Geld demotivierend ist, warum Mitarbeiter, die für die gleiche Tätigkeit weniger Geld erhalten als die Kollegen, oft trotzdem motivierter sind als die besser Bezahlten und vieles mehr.
+Die Arbeits- und Motivationspsychologie hat umfassend erforscht, was Menschen zu guter Leistung motiviert, unter welchen Umständen das Versprechen von mehr Geld demotivierend ist, warum Mitarbeiter, die für die gleiche Tätigkeit weniger Geld erhalten als die Kollegen, oft trotzdem motivierter sind als die besser Bezahlten und vieles mehr.
 
 **So manches wird Sie überraschen!**
 
