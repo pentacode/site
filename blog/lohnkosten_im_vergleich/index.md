@@ -48,7 +48,7 @@ Gesamtwirtschaftlich liegen die Lohnkosten in Deutschland mit 27 € pro Stunde 
 
 Auch bei den oft beklagten Lohnnebenkosten sind die Annahmen der meisten falsch. Im EU-Vergleich der Lohnnebenkosten (Arbeitgeber) führt Deutschland mit 27 € Lohnnebenkosten je 100 € Lohn nur die untere Hälfte an. Österreich wartet, nur zum Vergleich, mit 39 € auf, der Schnitt der EU-19 liegt bei 34 € [^2].
 
-Ganz ähnlich sieht es bei der Betrachtung des Mindestlohns aus. Im Sinne der Armutsvermeidung gilt ein Mindestlohn erst dann als angemessen, wenn er 60% des Durchschnittslohns erreicht. Bis zum 1. Oktober 2022 lag der relative Wert des Mindestlohns in Deutschland jedoch nur bei 45,6%. Innerhalb Europas schnitten bisher nur Estland, Tschechien und Spanien noch schlechter ab (3).
+Ganz ähnlich sieht es bei der Betrachtung des Mindestlohns aus. Im Sinne der Armutsvermeidung gilt ein Mindestlohn erst dann als angemessen, wenn er 60% des Durchschnittslohns erreicht. Bis zum 1. Oktober 2022 lag der relative Wert des Mindestlohns in Deutschland jedoch nur bei 45,6%. Innerhalb Europas schnitten bisher nur Estland, Tschechien und Spanien noch schlechter ab [^3].
 
 Um 60% des Durchschnittlohns zu erreichen, muss der Mindestlohn in Deutschland im Übrigen bei den [derzeitigen 12 Euro liegen](/blog/mindestlohnerhöhung/). Die Anhebung des Mindestlohns erfüllt damit nicht überzogene Vorstellungen, sondern wird nur dem Grundsatz der Armutsvermeidung trotz 40-Stundenwoche gerecht.
 
