@@ -1,5 +1,5 @@
 ---
-title: Ein Wort zum Abschied
+title: Personalkosten - die Stellschraube für Unternehmenserfolg
 date: 2023-09-04
 cover: wort_zum_abschied.webp
 coverAlt: "Was wir Ihnen zum Schluss noch mitgeben wollen"
@@ -36,9 +36,9 @@ Ihre Mitarbeiter werden es zu schätzen wissen, wenn sie kommen, „klotzen“ u
 
 ## Fazit
 
-Mit diesem Newsletter endet die Artikelreihe zu **„Personalkosten wirksam senken“**. Sollten Sie einzelne Newsletter verpasst haben, finden Sie alle Artikel zum Thema [hier](/blog/rubriken/ratgeber) zum Nachlesen.
+Mit diesem Artikel endet die Reihe zu **„Personalkosten wirksam senken“**. Sollten Sie sich nun fragen von welchen Methoden wir hier genau sprechen, finden Sie alle Artikel zum Thema [hier](/blog/rubriken/ratgeber) zum Nachlesen.
 
-Mit den Artikeln dieser Reihe haben wir uns im Ergebnis nur mit Daten befasst. Diese Daten entstehen mit der Planung und Erfassung von Arbeitszeiten. Wenn Sie unseren Anregungen zur Dienstplanung folgen, betreiben Sie deshalb im Wesentlichen datengestütztes und gesteuertes Personal-Management.
+Im Gesamten haben wir uns in dieser Reihe nur mit Daten befasst. Diese Daten entstehen mit der Planung und Erfassung von Arbeitszeiten. Wenn Sie unseren Anregungen zur Dienstplanung folgen, betreiben Sie deshalb im Wesentlichen datengestütztes und gesteuertes Personal-Management.
 
 **In unserer nächsten Artikelreihe beschäftigen wir uns mit jenem Faktor, der diese Daten generiert: Ihren Mitarbeitern!**
 
