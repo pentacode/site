@@ -58,7 +58,7 @@ Soweit zur Einordnung der Lohnkosten in Deutschland im europäischen Vergleich u
 Mit den nächsten Blogartikeln wollen wir Ihnen Hinweise geben, wie Sie das Beste aus den Möglichkeiten machen, die Ihnen der Gesetzgeber anbietet.
 Ohne Schaden für Ihre Mitarbeiter und zum Vorteil Ihres Unternehmens.
 
-<p style="font-size: 80%;">(1) Eurostat, 11. April 2019 </p>
+[^1]: Eurostat, 11. April 2019
 
 [^2]: Statistisches Bundesamt auf Basis von Eurostat, 23. April 2020
 
