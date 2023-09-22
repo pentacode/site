@@ -1,7 +1,8 @@
 ---
-title: Personalkosten - die Stellschraube für Unternehmenserfolg
+title: Personalkosten - die Stellschraube zum Unternehmenserfolg
 date: 2023-09-04
-cover: wort_zum_abschied.webp
+cover: ende_kampagne
+.webp
 coverAlt: "Was wir Ihnen zum Schluss noch mitgeben wollen"
 author: jseidel
 categories:
