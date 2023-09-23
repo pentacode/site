@@ -30,9 +30,7 @@
             {% include "components/breadcrumbs.njk" %}
 
             <article>
-                <i class="cover-icon fal fa-{{ icon or "scroll" }}"></i>
-
-                <h1>{{ title | markdownify | safe }}</h1>
+                <h1><i class="fal fa-{{ icon or "scroll" }}"></i> {{ title | markdownify | safe }}</h1>
 
                 <div>
                     {{ content | markdownify | safe }}

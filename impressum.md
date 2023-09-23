@@ -5,7 +5,7 @@ hide_menu: true
 ---
 ## Herausgeber
 
-**Sandstrøm Brand Management AG**  
+**Pentacode AG**  
 Lindwurmstraße 147  
 80337 München  
 Germany
@@ -42,5 +42,6 @@ Lorenz Strasser
 
 ## Haftungsausschluss
 
-Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Jedoch kann keine Haftung oder Garantie dafür übernommen werden, dass alle Angaben zu jeder Zeit vollständig, richtig und in letzter Aktualität dargestellt sind. Dies gilt insbesondere für alle Links zu anderen Websites, auf die direkt oder indirekt verwiesen wird. Alle Angaben können ohne vorherige Ankündigung geändert, entfernt oder ergänzt werden. Weder die Veröffentlichung noch ihr Inhalt dürfen ohne die vorherige ausdrückliche Genehmigung der Sandstrøm Brand Management AGauf irgendeine Art verändert oder an Dritte verteilt oder übermittelt werden.
-Stand: März 2014
+Die bereitgestellten Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Jedoch kann keine Haftung oder Garantie dafür übernommen werden, dass alle Angaben zu jeder Zeit vollständig, richtig und in letzter Aktualität dargestellt sind. Dies gilt insbesondere für alle Links zu anderen Websites, auf die direkt oder indirekt verwiesen wird. Alle Angaben können ohne vorherige Ankündigung geändert, entfernt oder ergänzt werden. Weder die Veröffentlichung noch ihr Inhalt dürfen ohne die vorherige ausdrückliche Genehmigung der Pentacode AG auf irgendeine Art verändert oder an Dritte verteilt oder übermittelt werden.
+
+Stand: September 2023

@@ -6,16 +6,19 @@
 
     .main-layout {
         display: grid;
-        grid-template-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr;
         padding: 0 1em;
         max-width: 60em;
         margin: 0 auto;
     }
 
+    .main-layout > * {
+        min-width: 0;
+    }
+
     h1 {
-        text-align: center;
-        margin: 0.5em 1em 0.5em 1em;
         color: var(--color-highlight);
+        margin: 0.35em;
     }
 
     h2 {

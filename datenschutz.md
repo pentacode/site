@@ -16,7 +16,7 @@ Verantwortlicher im Sinne der datenschutzrechtlichen Vorschriften für sämtlich
 Datenverarbeitungsprozesse ist:
 
 ```
-Sandstroem Brand Mangement AG
+Pentacode AG
 Lindwurmstr. 147, 80337 München
 +49 89 2154 820 0
 E-Mail: mail@pentacode.app
