@@ -224,9 +224,9 @@ Unter **Anmeldung Erlauben** definieren Sie, wie lange vor dem geplanten Schicht
 darf. Wählen Sie zum Beispiel "1 Stunde Zuvor", dann darf der Mitarbeiter sich bei einem Schichtbeginn von 10 Uhr
 frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
-### Anmeldung Ohne Dienstplan / Spontane Schicht
+### Spontane Schichten
 
-Ist die Option bei {% button label="Anmeldung Ohne Dienstplan" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
+Ist die Option bei {% button label="Spontane Schichten Erlauben" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
 ### Verspätete Abmeldung
 
