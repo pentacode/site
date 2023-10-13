@@ -7,7 +7,7 @@ icon: stopwatch
 
 Das Erfassen von Arbeitszeiten ist in vielen Betrieben nicht nur einer der wichtigsten, sondern auch eine der zeitraubensten und fehleranfälligsten Aufgaben im Bereich Personalmanagement. Aber keine Sorge - mit Pentacode wird diese Arbeit fast schon zum Selbstläufer! Es stehen Ihnen drei grundlegende Arten der Zeiterfassung zu Verfügung:
 
-- **Per Digitaler Stempeluhr:** Ihre Mitarbeiter erfassen ihre Zeiten selbstständig über eine [digitale Stempeluhr](/hilfe/stempeluhr/), die sie als Webapp auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann und am Arbeitsplatz zur Verfügung gestellt wird. Die Mitarbeiter können sich dann vor Ort per individueller Zeiterfassungs-PIN zur Arbeit ab- und anmelden, sowie Pausen und Mitarbeiter-Essen erfassen.
+- **Per Digitaler Stempeluhr:** Ihre Mitarbeiter erfassen ihre Zeiten selbstständig über eine [digitale Stempeluhr](/hilfe/stempeluhr/), die als Webapp auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann und am Arbeitsplatz zur Verfügung gestellt wird. Die Mitarbeiter können sich dann vor Ort per individueller Zeiterfassungs-PIN zur Arbeit ab- und anmelden, sowie Pausen und Mitarbeiter-Essen erfassen.
 - **Per Mitarbeiter-App:** Als Alternative zur Stempeluhr vor Ort können Mitarbeiter ihre Zeiten auch direkt über ihr eigenes Smartphone, Tablet oder Desktopcomputer erfassen. Dies ist vor allem für die Arbeit im Homeoffice oder bei ständig wechselndem Arbeitsort hiflreich! Mehr zum Thema [Zeiterfassung über die Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app/#zeiterfassung) können Sie im entsprechenden Hilfeartikel nachlesen.
 - **Manuelle Erfassung:** Zu guter letzt bleibt Ihnen selbstverständlich immer noch die manuelle Erfassung von Arbeitszeiten. Das manuelle Bearbeiten oder Nachtragen von Zeiten ist vor allem dann hilfreich, wenn ein Mitarbeiter vergessen hat, sich an- oder abzumelden. In manchen Betrieben kann aber auch eine vollständigt manuelle Zeiterfassung ausreichen (zum Beispiel bei Vertrauensarbeitzeit). Zeiten manuell bearbeiten können Sie direkt im [Zeiterfassungs-Dashboard](#zeiten-erfassen-und-bearbeiten) und im [Arbeitszeitblatt](/hilfe/handbuch/mitarbeiter/arbeitszeiten/) des Mitarbeiters.
 
@@ -23,11 +23,12 @@ Unter dem Hauptmenüpunkt {% button icon="stopwatch", label=" Zeiterfassung" %} 
 ## Stempeluhren Verwalten
 
 Die [digitale Stempeluhr](/hilfe/stempeluhr/) ist eine Webapp, die auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann. Das eingerichte Endgerät steht dann am Arbeitsplatz zur selbstständingen Erfassung von Arbeitszeiten, Pausen und Mahlzeiten zur Verfügung.
+
 Je nach Bedarf können Sie eine einzelne Stempeluhr für Ihren gesamten Betrieb oder mehrere Stempeluhren für Ihre verschiedenen Standorte oder Abteilungen verwenden.
 
 ### Stempeluhr Einrichten
 
-Die digitale Stempeluhr von Pentacode dient zur Erfassung von Arbeitszeiten am Arbeitsplatz und kann als Webapplikation auf allen handelsüblichen Tables, Smartphones und Dektop-Computern geladen werden. Bevor Sie die Stempeluhr auf einem Endgerät nutzen können muss diese aber erst eingerichtet werden. Dies ist mit einigen wenigen Schritten erledigt:
+Bevor Sie die Stempeluhr auf einem Endgerät nutzen können muss diese aber erst eingerichtet werden. Dies ist mit einigen wenigen Schritten erledigt:
 
 1. Klicken Sie den Button {% button icon="plus", label="Neue Stempeluhr" %} auf der linken Seite
 2. Es öffnet sich ein Eingabeformular, in dem Sie den Namen des Tablets, sowie Arbeitsbereiche und verschiede Anzeigeoptionen bestimmen können. Die Einzige Pflichtangabe ist das Namesfeld. Mehr Informationen zu den restlichen Feldern finden Sie unter [Stempeluhr Bearbeiten](#stempeluhr-bearbeiten). Klicken Sie abschließend auf {% button label="Speichern" %}

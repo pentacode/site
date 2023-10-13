@@ -13,7 +13,7 @@ wie Pausen erfasst werden und vieles mehr.
 > Die Zeiterfassungseinstellungen betreffen in Pentacode vor allem das Erfassen von Arbeitszeiten per Digitaler
 > Stempeluhr oder Mitarbeiter-App. Aber auch wenn Sie Zeiten ausschließlich manuell erfassen finden Sie hier einige
 > relevante Einstellungen, so wie die [automatische Pausenberechnung](#pausenberechnung) oder das
-> automatische Buchen von [Mitarbeiteressen](#buchung-von-mitarbeiteressen).
+> automatische Buchen von [Mitarbeiteressen](#mitarbeiteressen).
 
 ## Über Zeiterfassungs-Regelsätze
 
@@ -169,19 +169,51 @@ Dauer jedoch der Arbeitszeit zugerechnet.
 ### Pausenabzug
 
 > **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
-> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
-> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
+> Lohnabrechnungen auswirken. Mehr Informationen unter
+> [Neuberechnung von Konten & Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
 Unter dem Punkt **Pausen abziehen von** können Sie definieren, ob genommene Pausen am Anfang oder am Ende der Schicht zum Abzug kommen sollen. Dies hat vor allem Einfluss auf die Berechnung von SFN-Zuschlägen.
 
 > **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitinterval **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Interval **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
 
-## Buchung von Mitarbeiteressen
+## Mitarbeiteressen
 
-Über den Punkt **Mitarbeiteressen** können Sie bestimmen, wie viele **Mahlzeiten** einem Mitarbeiter pro Tag
-**automatisch hinzugebucht** werden. Es können bis zu drei Essen am Tag automatisch gebucht werden. Pentacode verbucht
-dann pro **Teilschicht** jeweils ein Essen, bis das angegebene Limit erreicht ist. Oder sie können das automatische
-Buchen von Mitarbeiteressen deaktivieren, indem Sie **Kein Essen Buchen** wählen.
+Im Bereich **{% icon "utensils" %} Mitarbeiter-Essen** können Sie bestimmen, wie mit der Buchung von Mitarbeiteressen umgegangen werden soll. 
+
+### Erfassungsmodus
+
+Der Erfassungsmodus bestimmt, wie Mitarbeiteressen erfasst werden. Folgende Varianten stehen zur Verfügung:
+
+> {% icon "info-circle" %} Das manuelle Erfassen und nachträgliche Bearbeiten von Mahlzeiten ist immer möglich, auch wenn Sie den Erfassungsmodus **Automatisch** oder **Durch Mitarbeiter** gewählt haben!
+
+#### Manuell
+
+Es werden keine Mitarbeiteressen automatisch gebucht, sondern müssen bei jeder Schicht manuell eingetragen werden.
+
+#### Automatisch
+
+Mahlzeiten werden am Ende der Schicht automatisch gebucht, und zwar basierend auf der Arbeitszeit und den definierten [Zeiträumen](#essensarten-%26-zeiträume).
+
+> **{% icon "person-chalkboard" %} Beispiel:** Ein Mitarbeiter arbeitet von 8:00 bis 16:00. In den Zeiterfassungseinstellungen haben wir Früstück (6:00 - 9:00), Mittagessen (11:00 - 13:00) und Abendessen (17:00 - 21:00) aktiviert. Die Schicht überlappt mit den Zeiträumen für Frühstück und Mittagessen, also werden diese beiden Mahlzeiten automatisch gebucht.
+
+#### Durch Mitarbeiter
+
+Der Mitarbeiter kann beim [Beenden der Schicht](/hilfe/stempeluhr#schicht-beenden) selbst angeben, welche Mahlzeiten er zu sich genommen hat. Dabei stehen nur die Mahlzeiten zur Verfügung, deren [Zeiträume](#essensarten-%26-zeiträume) mit der tatsächlichen Arbeitszeit überlappen.
+
+> **{% icon "exclamation-triangle" %} Achtung:** Die Essensbuchung durch den Mitarbeiter ist aktuell nur über die Stempeluhr 2.0 möglich!
+> Dieses Feature wird aber zeitnah auch bei der Zeiterfassung über die Mitarbeiterapp verfügbar sein.
+
+<figure>
+<img src="stempeluhr_schicht_beenden.png" />
+<figcaption>Falls in den Zeiterfassungs-Einstellungen vorgesehen, können Sie beim Beenden der Schicht angeben, ob Sie ein Mitarbeiteressen zu sich genommen haben.</figcaption>
+</figure>
+
+### Essensarten & Zeiträume
+
+Neben dem Erfassungsmodus können Sie außerdem bestimmen, welche Arten von Mahlzeiten in welchen Zeiträumen verfügbar sein sollen.
+Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und **bis** Eingabefelder (Zeiträume dürfen sich nicht überschneiden!). Um eine Mahlzeitart komplett zu deaktieren, enfernen Sie einfach den Haken in der entsprechenden Zeile.
+
+> {% icon "info-circle" %} Das Konfigurieren von Essensarten und Zeiträumen ist nur für die Erfassungsmodi **Automatisch** und **Durch Mitarbeiter** notwendig.
 
 ## Stempeluhr
 
@@ -265,6 +297,19 @@ seine aktuellen Überstunden und Resturlaub angezeigt.
 
 Ist diese Option aktiviert können Mitarbeiter über einen Button an der Stempeluhr jederzeit den aktuellen Dienstplan
 einsehen.
+
+> **{% icon "exclamation-triangle" %} Achtung:** Diese Einstellung gilt nur noch für die "alte" Stempeluhr. Für die 
+> Stempeluhr 2.0 finden sie die entsprechende Einstellung im [Zeiterfassungs-Dashboard](/hilfe/handbuch/zeiterfassung/#anzeige)
+
+## Beweisfotos
+
+Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an dem Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die Mitarbeiter dauerhaft zu stören.
+
+Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
+
+## Standort Festhalten
+
+Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird.
 
 ## Zuschläge
 

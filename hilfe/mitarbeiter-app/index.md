@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Mitarbeiter-App
-weight: 1
+weight: 3
 icon: mobile
 ---
 
