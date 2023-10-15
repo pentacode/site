@@ -5,7 +5,34 @@ weight: 5
 icon: "clipboard-list"
 ---
 
-Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
+Diese Datei enthält alle wesentlichen Änderungen i
+
+## 1.25.0
+
+## Änderungen & Neuigkeiten
+
+-   Bei Mitarbeiteressen wird nun zwischen **Frühstück**, **Mittagessen** und **Abendessen** unterschieden!
+-   Beim Export nach Datev, Addisson, Agenda und Co. können Mitarbeiteressen nun auch als Anzahl exportiert werden.
+-   Die komplett überarbeitete **Stempeluhr 2.0** ist nun verfügbar (Betaversion)!
+    -   Buchen/Bestätigen von Mitarbeiteressen durch Mitarbeiter bei Schichtende
+    -   Optionales **"Beweisfoto"** bei Schichtbeginn oder -ende.
+    -   Optionale **Erfassung des Standorts** bei Schichtbeginn oder -ende.
+    -   Optionale **Nachricht durch Mitarbeiter** beim Erfassen von Schichtbeginn, Schichtende und Pausen.
+    -   Die Spalten für geplante und aktive Schichten können nun ausgeblendet werden.
+-   Überarbeiteter Bereich **"Zeiterfassung"**
+    -   Einrichtung und Verwaltung von Stempeluhren über das Verwaltungsportal
+    -   Übersicht über alle eingerichteten Stempeluhren (sowohl 1.0 als auch 2.0) inklusive Verbindungsstatus (online/offline)
+    -   Detailliertes **Zeiterfassungs-Ereignisprotokoll**
+-   Überarbeitetes **Berechtigungssystem**: Zusätzlich zu Berechtigungen können nun auch **Zuständigkeitsbereiche** definiert werden. Diese Bestimmen, welche Standorte und Abteilungen ein Mitarbeiter einsehen und Verwalten darf. Diese Einschränkung wirkt sich auf sämtliche Berechtigungen, sowie die gesamte Anzeige im Verwaltungsportal aus (Mitarbeiterlisten, Exportfilter etc.).
+-   Die Reihenfolge von Standorten kann nun bearbeitet werden.
+-   Die Reihenfolge von Dienstplan-Tabs kann nun bearbeitet werden (via Drag & Drop)m Pentacode Projekt.
+
+## 1.24.12
+
+## Behobene Fehler
+
+-   In manchen Fällen wurde bestimmenten Zuschlägen die falsche Kostenstelle zugewiesen
+-   Die Einstellung "Schichtbeginn Vor" für Zuschläge griff in machen Fällen nicht.
 
 ## 1.24.11
 

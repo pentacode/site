@@ -89,6 +89,15 @@ entsprechende Berechtigung erteilt wurde.
 
 Der Besitzer eines Unternehmens hat grundsätzlich Zugriff auf alle Bereiche und Funktionen der Software. Für jedes Unternehmen gibt es immer genau einen Mitarbeiter mit der "Besitzer"-Rolle.
 
+## Zuständigkeitsbereiche Einschränken
+
+Die Zuständigkeitsbereiche eines Mitarbeiters bestimmen, auf welche Standorte und Abteilungen der Mitarbeiter Zugriff hat. Um die Zuständigkeit des Mitarbeiters auf bestimmte Arbeitsbereich einzuschränken, klicken Sie in das Feld "Filter Hinzufügen" und wählen Sie ein oder mehrere Standorte und/oder Abteilungen. Oder lassen Sie die Filter leer, um dem Mitarbeiter Zugriff auf das gesamte Unternehmen zu geben. 
+
+<figure>
+<img src="zustaendigkeitsbereiche.png" />
+<figcaption>Wählen Sie ein oder mehrere Standorte und/oder Abteilungen um den Zugriff des Mitarbeiters auf diese Arbeitsbereich einzuschränken.</figcaption>
+</figure>
+
 ## Berechtigungen Vergeben
 
 Die **Berechtiungen** eines Mitarbeiters bestimmt, auf welche Bereiche der Software der Mitarbeiter Zugang haben soll. Um die Berechtigungen eines Mitarbeiters zu bearbeiten, gehen Sie wie folgt vor:
@@ -107,9 +116,10 @@ In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Be
 
 Um in die Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** im Hauptmenü und dort den Unterpunkt **Zugänge & Rechte**.
 
-{% figure caption="In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat." %}
-<img src="übersicht.webp" />
-{% endfigure %}
+<figure>
+<img src="uebersicht.png" />
+<figcaption>In der Zugänge & Rechte Übersicht sehen Sie auf einen Blick, wer auf welche Bereiche der Software Zugiff hat.</figcaption>
+</figure>
 
 ## Zugang Entziehen
 

@@ -301,44 +301,15 @@ einsehen.
 > **{% icon "exclamation-triangle" %} Achtung:** Diese Einstellung gilt nur noch für die "alte" Stempeluhr. Für die 
 > Stempeluhr 2.0 finden sie die entsprechende Einstellung im [Zeiterfassungs-Dashboard](/hilfe/handbuch/zeiterfassung/#anzeige)
 
-## Beweisfotos
+### Beweisfotos
 
-Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an dem Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die Mitarbeiter dauerhaft zu stören.
+Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an dem Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
 
 Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
 
-## Standort Festhalten
+### Standort Festhalten
 
 Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird.
-
-## Zuschläge
-
-> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
-> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
-> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
-
-Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch
-nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
-
-Unter dem Punkt **Zuschläge** können Sie die Zeiträume, in denen Ihre Mitarbeiter SFN-Zuschläge erhalten sollen,
-einengen oder ausweiten.
-
-> **ACHTUNG:** Zwar erlaubt Pentacode Ihnen, die Zuschlagszeiträume über die vom Gesetzgeber vorgesehenen Zeiträume
-> hinaus auszuweiten, allerdings gilt es dabei zu beachten, **dass hierdurch zusätzlich entstandene Zuschläge
-> beitragspflichtig sind**! Pentacode kann die Unterscheidung zwischen beitragspflichtigen und beitragsfreien Zuschlägen in
-> diesem Fall **nicht** vornehmen und behandelt die Zuschläge in ihrer Gesamtheit als beitragsfrei. **Bitte sprechen
-> Sie mit Ihrem Lohnbüro oder Steuerberater bevor Sie Änderungen an diesen Zeiträumen vornehmem!**
-
-Folgende Zuschlagszeiträume sind vom Gesetzgeber vorgesehen:
-
-|Zuschlagsart|Zeitraum|Maximaler Zuschlag|
-|-|-|-|
-|Nacht 1|20:00 - 06:00|25%|
-|Nacht 2|00:00 - 04:00|40%|
-|Sonntage|Gesamter Tag + bis 4 Uhr des Folgetages|50%|
-|Feiertage|Gesamter Tag + bis 4 Uhr des Folgetages|125%|
-|Heilig Abend|Ab 14:00|150%|
-|Silvester|Ab 14:00|150%|
 
 ## Neuberechnung von Konten & Lohnabrechnungen
 

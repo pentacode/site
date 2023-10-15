@@ -11,8 +11,6 @@ keywords:
   - lohnartensatz
 ---
 
-"_Wer den Kern essen will, muss die Nuss knacken_". Leider.
-
 Pentacode ermöglicht Ihnen auf sehr einfache Weise den Export des Kassenbuchs, sowie der Arbeitszeiten, Zuschläge u.a.m. in das Buchhaltungssystem, mit dem Ihr Steuerbüro oder Ihre Buchhaltung arbeitet.
 
 Um den Export durchführen zu können, ist es leider notwendig, diesen einmalig vorzubereiten. Um die Richtigkeit der Angaben zu gewährleisten, lassen Sie bei der Eingabe am besten Ihre Buchhaltung mitwirken. Haben Sie die Einrichtung vorgenommen, führen Sie zur Überprüfung idealerweise einen Probe-Export durch.
@@ -25,10 +23,6 @@ Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum Spannendsten
 
 Die Berater-, Betriebs- und Mandantennummer sind Angaben, die für den Datentransfer in verschiedene Lohnbuchhaltungsprogramme
 benötigt werden. Diese Informationen erhalten sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen.
-
-### Geldwert Personalessen
-
-Mit dieser Angabe können Sie bestimmen in welcher Höhe Mitarbeiteressen bezuschusst werden sollen. Der angegebene Eurobetrag wird in der Lohnabrechnung mit der Anzahl der im Dienstplan vermerkten Mitarbeiteressen multipliziert.
 
 ## Kassenbuch
 
@@ -48,9 +42,9 @@ Um ihre Ausgaben besser im Blick zu haben können Sie Kostenstellen erstellen, d
 
 Mit einem Klick auf {% button icon="plus", label="Neue Kostenstelle" %} öffnet sich ein Bearbeitungsdialog, mit dem Sie eine neue Kostenstelle individualisieren können. Füllen Sie dabei folgende Felder aus:
 
-- *Name der Kostenstelle*
-- *Kostenstellennummer -* Unter dieser Nummer wird die Kostenstelle beim Export in ein Buchhaltungsprogramm übertragen.
-- *Arbeitsbereiche / Mitarbeiter -* Wählen Sie hier aus, welche Mitarbeiter unter der Kostenstelle berechnet werden sollen. Wählen Sie eine **Abteilung in Kombination mit einzelnen Mitarbeitern** aus, werden **nur die Schichten des Mitarbeiters in der ausgewählten Abteilung** dieser Kostenstelle angerechnet.
+- **Name der Kostenstelle**
+- **Kostenstellennummer:** Unter dieser Nummer wird die Kostenstelle beim Export in ein Buchhaltungsprogramm übertragen.
+- **Arbeitsbereiche / Mitarbeiter:** Wählen Sie hier aus, welche Mitarbeiter unter der Kostenstelle berechnet werden sollen. Wählen Sie eine **Abteilung in Kombination mit einzelnen Mitarbeitern** aus, werden **nur die Schichten des Mitarbeiters in der ausgewählten Abteilung** dieser Kostenstelle angerechnet.
 
 {% figure caption= "Nur die Schichten in der augewählten Abteilung 'AB Küche' und der ausgewählten Mitarbeiter werden der Kostenstelle zugerechnet." %}
 <img src= "kostenstelle.webp" />
