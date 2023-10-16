@@ -1,5 +1,5 @@
 ---
 layout: layouts/base.njk
 eleventyExcludeFromCollections: true
-redirect: /hilfe/handbuch/zeiterfassung
+redirect: /hilfe/mitarbeiter-app/
 ---

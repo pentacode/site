@@ -54,7 +54,7 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
    angezeigt. Wählen Sie die Position, für die Sie eine Arbeitszeit erfassen möchten.
 4. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie verschiedene andere Felder ausfüllen
    können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [Felder &
-   Eigenschaften](#felder--eigenschaften).
+   Eigenschaften](#felder-%26-eigenschaften).
 5. Ihre Eingaben werden automatisch gespeichert. Wenn Sie möchten können Sie den Eintrag nun schließen, indem sie den
    {% button label="Zurück", icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
@@ -72,7 +72,7 @@ So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
    Eintrag, den Sie bearbeiten möchten.
 2. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie verschiedene andere Felder bearbeiten
    können. Mehr zu den einzelnen Feldern und was sie genau bedeuten erfahren Sie unter [Felder &
-   Eigenschaften](#felder--eigenschaften).
+   Eigenschaften](#felder-%26-eigenschaften).
 3. Ihre Eingaben werden automatisch gespeichert. Wenn Sie möchten können Sie den Eintrag nun schließen, indem sie den
    {% button label="Zurück", icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
@@ -149,10 +149,12 @@ Das heißt: Sollten Sie Schichtbeginn oder
 
 ### Mitarbeiteressen
 
-Im Feld {% icon "utensils" %} **Essen** können Sie eingeben, wie viele Mitarbeiteressen für die aktuelle
-Schicht gebucht werden sollen. Falls in den geltenden Zeiterfassungsregeln das [automatische Buchen von
-Mitarbeiteressen](/hilfe/handbuch/einstellungen/zeiterfassung/#buchung-von-mitarbeiteressen) eingestellt ist, wird
-dieses Feld automatisch befüllt, kann aber nachträglich jederzeit bearbeitet werden.
+Im Feld {% icon "utensils" %} **Essen** können Sie eingeben, ob Mitarbeiteressen für die aktuelle
+Schicht gebucht werden sollen. Es wird unterschieden zwischen **{% icon "pancakes" %} Frühstück**, **{% icon "burger-fries" %} Mittagessen** und **{% icon "plate-utensils" %} Abendessen**.
+
+> {% icon "info-circle" %} Zusätzlich zu manuellen Buchen von Mitarbeiteressen können Sie auch einstellen, dass
+> Mahlzeiten selbstständigt durch den Mitarbeiter oder sogar vollautomatsich gebucht werden. Mehr dazu unter
+> [Einstellungen/Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung/#mitarbeiteressen)
 
 ### Umsatz
 

@@ -13,7 +13,7 @@ wie Pausen erfasst werden und vieles mehr.
 > Die Zeiterfassungseinstellungen betreffen in Pentacode vor allem das Erfassen von Arbeitszeiten per Digitaler
 > Stempeluhr oder Mitarbeiter-App. Aber auch wenn Sie Zeiten ausschließlich manuell erfassen finden Sie hier einige
 > relevante Einstellungen, so wie die [automatische Pausenberechnung](#pausenberechnung) oder das
-> automatische Buchen von [Mitarbeiteressen](#buchung-von-mitarbeiteressen).
+> automatische Buchen von [Mitarbeiteressen](#mitarbeiteressen).
 
 ## Über Zeiterfassungs-Regelsätze
 
@@ -169,19 +169,51 @@ Dauer jedoch der Arbeitszeit zugerechnet.
 ### Pausenabzug
 
 > **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
-> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
-> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
+> Lohnabrechnungen auswirken. Mehr Informationen unter
+> [Neuberechnung von Konten & Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
 Unter dem Punkt **Pausen abziehen von** können Sie definieren, ob genommene Pausen am Anfang oder am Ende der Schicht zum Abzug kommen sollen. Dies hat vor allem Einfluss auf die Berechnung von SFN-Zuschlägen.
 
 > **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitinterval **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Interval **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
 
-## Buchung von Mitarbeiteressen
+## Mitarbeiteressen
 
-Über den Punkt **Mitarbeiteressen** können Sie bestimmen, wie viele **Mahlzeiten** einem Mitarbeiter pro Tag
-**automatisch hinzugebucht** werden. Es können bis zu drei Essen am Tag automatisch gebucht werden. Pentacode verbucht
-dann pro **Teilschicht** jeweils ein Essen, bis das angegebene Limit erreicht ist. Oder sie können das automatische
-Buchen von Mitarbeiteressen deaktivieren, indem Sie **Kein Essen Buchen** wählen.
+Im Bereich **{% icon "utensils" %} Mitarbeiter-Essen** können Sie bestimmen, wie mit der Buchung von Mitarbeiteressen umgegangen werden soll. 
+
+### Erfassungsmodus
+
+Der Erfassungsmodus bestimmt, wie Mitarbeiteressen erfasst werden. Folgende Varianten stehen zur Verfügung:
+
+> {% icon "info-circle" %} Das manuelle Erfassen und nachträgliche Bearbeiten von Mahlzeiten ist immer möglich, auch wenn Sie den Erfassungsmodus **Automatisch** oder **Durch Mitarbeiter** gewählt haben!
+
+#### Manuell
+
+Es werden keine Mitarbeiteressen automatisch gebucht, sondern müssen bei jeder Schicht manuell eingetragen werden.
+
+#### Automatisch
+
+Mahlzeiten werden am Ende der Schicht automatisch gebucht, und zwar basierend auf der Arbeitszeit und den definierten [Zeiträumen](#essensarten-%26-zeiträume).
+
+> **{% icon "person-chalkboard" %} Beispiel:** Ein Mitarbeiter arbeitet von 8:00 bis 16:00. In den Zeiterfassungseinstellungen haben wir Früstück (6:00 - 9:00), Mittagessen (11:00 - 13:00) und Abendessen (17:00 - 21:00) aktiviert. Die Schicht überlappt mit den Zeiträumen für Frühstück und Mittagessen, also werden diese beiden Mahlzeiten automatisch gebucht.
+
+#### Durch Mitarbeiter
+
+Der Mitarbeiter kann beim [Beenden der Schicht](/hilfe/stempeluhr#schicht-beenden) selbst angeben, welche Mahlzeiten er zu sich genommen hat. Dabei stehen nur die Mahlzeiten zur Verfügung, deren [Zeiträume](#essensarten-%26-zeiträume) mit der tatsächlichen Arbeitszeit überlappen.
+
+> **{% icon "exclamation-triangle" %} Achtung:** Die Essensbuchung durch den Mitarbeiter ist aktuell nur über die Stempeluhr 2.0 möglich!
+> Dieses Feature wird aber zeitnah auch bei der Zeiterfassung über die Mitarbeiterapp verfügbar sein.
+
+<figure>
+<img src="stempeluhr_schicht_beenden.png" />
+<figcaption>Falls in den Zeiterfassungs-Einstellungen vorgesehen, können Sie beim Beenden der Schicht angeben, ob Sie ein Mitarbeiteressen zu sich genommen haben.</figcaption>
+</figure>
+
+### Essensarten & Zeiträume
+
+Neben dem Erfassungsmodus können Sie außerdem bestimmen, welche Arten von Mahlzeiten in welchen Zeiträumen verfügbar sein sollen.
+Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und **bis** Eingabefelder (Zeiträume dürfen sich nicht überschneiden!). Um eine Mahlzeitart komplett zu deaktieren, enfernen Sie einfach den Haken in der entsprechenden Zeile.
+
+> {% icon "info-circle" %} Das Konfigurieren von Essensarten und Zeiträumen ist nur für die Erfassungsmodi **Automatisch** und **Durch Mitarbeiter** notwendig.
 
 ## Stempeluhr
 
@@ -224,9 +256,9 @@ Unter **Anmeldung Erlauben** definieren Sie, wie lange vor dem geplanten Schicht
 darf. Wählen Sie zum Beispiel "1 Stunde Zuvor", dann darf der Mitarbeiter sich bei einem Schichtbeginn von 10 Uhr
 frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
-### Anmeldung Ohne Dienstplan / Spontane Schicht
+### Spontane Schichten
 
-Ist die Option bei {% button label="Anmeldung Ohne Dienstplan" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
+Ist die Option bei {% button label="Spontane Schichten Erlauben" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
 ### Verspätete Abmeldung
 
@@ -266,34 +298,18 @@ seine aktuellen Überstunden und Resturlaub angezeigt.
 Ist diese Option aktiviert können Mitarbeiter über einen Button an der Stempeluhr jederzeit den aktuellen Dienstplan
 einsehen.
 
-## Zuschläge
+> **{% icon "exclamation-triangle" %} Achtung:** Diese Einstellung gilt nur noch für die "alte" Stempeluhr. Für die 
+> Stempeluhr 2.0 finden sie die entsprechende Einstellung im [Zeiterfassungs-Dashboard](/hilfe/handbuch/zeiterfassung/#anzeige)
 
-> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
-> Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
-> Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
+### Beweisfotos
 
-Der Gesetzgeber bestimmt die maximalen Arbeitszeiträume, für die Zuschläge bezahlt werden dürfen. Dies heißt jedoch
-nicht, dass Sie für den gesamten Zeitraum Zuschläge geben müssen.
+Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an dem Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
 
-Unter dem Punkt **Zuschläge** können Sie die Zeiträume, in denen Ihre Mitarbeiter SFN-Zuschläge erhalten sollen,
-einengen oder ausweiten.
+Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
 
-> **ACHTUNG:** Zwar erlaubt Pentacode Ihnen, die Zuschlagszeiträume über die vom Gesetzgeber vorgesehenen Zeiträume
-> hinaus auszuweiten, allerdings gilt es dabei zu beachten, **dass hierdurch zusätzlich entstandene Zuschläge
-> beitragspflichtig sind**! Pentacode kann die Unterscheidung zwischen beitragspflichtigen und beitragsfreien Zuschlägen in
-> diesem Fall **nicht** vornehmen und behandelt die Zuschläge in ihrer Gesamtheit als beitragsfrei. **Bitte sprechen
-> Sie mit Ihrem Lohnbüro oder Steuerberater bevor Sie Änderungen an diesen Zeiträumen vornehmem!**
+### Standort Festhalten
 
-Folgende Zuschlagszeiträume sind vom Gesetzgeber vorgesehen:
-
-|Zuschlagsart|Zeitraum|Maximaler Zuschlag|
-|-|-|-|
-|Nacht 1|20:00 - 06:00|25%|
-|Nacht 2|00:00 - 04:00|40%|
-|Sonntage|Gesamter Tag + bis 4 Uhr des Folgetages|50%|
-|Feiertage|Gesamter Tag + bis 4 Uhr des Folgetages|125%|
-|Heilig Abend|Ab 14:00|150%|
-|Silvester|Ab 14:00|150%|
+Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird.
 
 ## Neuberechnung von Konten & Lohnabrechnungen
 

@@ -8,14 +8,20 @@ Sonderleistungen sind eine Möglichkeit einer Gruppe an Mitarbeitern gesondert v
 
 > {%icon "exclamation"%} **Die Einstellungen die Sie hier für die Sonderleistungen vornehmen bestimmen wie Pentacode Abgaben und Lohn berechnet! Sollten Sie sich nicht sicher sein welche Einstellungen für eine Sonderleistung eingestellt werden müssen treten Sie vorher mit ihrem Steuerberater in Kontakt!**
 
+## Mitarbeiteressen
+
+Hier können Sie den monetären Wert von Mitarbeiteressen definieren. Es wird zwischen Frühstück, Mittagessen und Abendessen unterschieden. Der hier angegebene Wert wird bei der Lohnabrechnung, sowie bei der Berechnung der Personalkosten berücksichtigt.
+
+> {% icon "info-circle" %} Sie können hier beliebe Werte eingeben, aber im Normalfall gelten die vom Gesetzgeber vorgegeben Sachbezugswerte: **2,00 € für Frühstück** und **3,80 € für Mittag- und Abendessen**.
+
 ## Neue Sonderleistungs erstellen
 
 Klicken Sie auf {%button icon="plus", label="Neue Sonderleistung erstellen" %} um im erscheinenden Bearbeitungsdialog die Eigenschaften der Zusatzzahlung zu bestimmen. Dabei können Sie folgende Einstellungen treffen (**Wenn der Slider neben einer Option blau erscheint ist sie angewählt**):
 
-- *Name der Sonderleistung -* Geben Sie hier den Namen der Zusatzleistung ein.
-- *Beitragsfrei -* Soll die Zusatzleistungen beitragsfrei angerechnet werden wie etwa SFN-Zuschläge? Wenn ja wählen Sie diese Option an, dass der Slider blau erscheint.
-- *Auf Mindestlohn Anrechenbar -* Kann die Zusatzleistung als Teil des Grundlohns berechnet werden und damit zum Mindestlohn zählen?
-- *Bei Zuschlagszahlungen Berücksichtigen -* Soll die Sonderleistung zum Grundsatz hinzugerechnet werden, auf dessen Höhe Zuschläge berechnet werden?
+- **Name der Sonderleistung:** Geben Sie hier den Namen der Zusatzleistung ein.
+- **Beitragsfrei:** Soll die Zusatzleistungen beitragsfrei angerechnet werden wie etwa SFN-Zuschläge? Wenn ja wählen Sie diese Option an, dass der Slider blau erscheint.
+- **Auf Mindestlohn Anrechenbar:** Kann die Zusatzleistung als Teil des Grundlohns berechnet werden und damit zum Mindestlohn zählen?
+- **Bei Zuschlagszahlungen Berücksichtigen:** Soll die Sonderleistung zum Grundsatz hinzugerechnet werden, auf dessen Höhe Zuschläge berechnet werden?
 
 ## Sonderleistungen bearbeiten und löschen
 
