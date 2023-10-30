@@ -208,6 +208,10 @@ Der Mitarbeiter kann beim [Beenden der Schicht](/hilfe/stempeluhr#schicht-beende
 <figcaption>Falls in den Zeiterfassungs-Einstellungen vorgesehen, können Sie beim Beenden der Schicht angeben, ob Sie ein Mitarbeiteressen zu sich genommen haben.</figcaption>
 </figure>
 
+### Mindestdauer
+
+Hier können Sie eine Mindestdauer definieren, nach der das Buchen von Essen erlaubt sein soll. Essen werden nur dann automatisch gebucht oder zur Buchung durch den Mitarbeiter angeboten, falls die gesamte Anwesenheitsdauer diesen Wert überschreitet. 
+
 ### Essensarten & Zeiträume
 
 Neben dem Erfassungsmodus können Sie außerdem bestimmen, welche Arten von Mahlzeiten in welchen Zeiträumen verfügbar sein sollen.
