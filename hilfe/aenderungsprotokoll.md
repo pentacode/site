@@ -5,7 +5,82 @@ weight: 5
 icon: "clipboard-list"
 ---
 
-Diese Datei enthält alle wesentlichen Änderungen i
+Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
+
+## 1.25.9
+
+### Verbesserungen & Neuigkeiten
+
+-   Das Einsehen des Zeiterfassungsprotokolls erfordert nun eine explizite Berechtigung.
+-   Das Zeiterfassungsprotokoll kann nun optional ausgeblendet werden.
+-   Die Liste der Stempeluhren im Zeiterfassungs-Dashboard wird nun nach Zuständigkeitsbereichen gefiltert.
+-   Für das automatische/autonome Buchen von Mitarbeiteressen kann nun eine [Mindest-Schichtlänge](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#mindestdauer) definiert werden.
+
+### Behobene Fehler
+
+-   Der Problembericht wurde nicht korrekt nach Zuständigkeitsbereichen gefiltert.
+-   Für Arbeitszeiten, die über die Mitarbeiter-App erfasst wurden, wurden keine Ereignisse im Zeiterfassungsprotokoll generiert.
+-   In den Bereichen Mitarbeiter/Abwesenheiten und Mitarbeiter/Verfügbarkeiten wurden Dienstplannotizen nicht korrekt nach Zuständigkeitsbereichen gefiltert.
+-   Beim Löschen von Schichten über das Zeiterfassungs-Dashboard wurde die Liste der Schichten nicht aktualisiert.
+-   Das Bearbeiten des Personalfragebogens im Verwaltungsportal war nicht möglich, wenn der Addressat die angemeldete Person war.
+
+## 1.25.8
+
+-   Beim Verschieben von Schichten im Dienstplan kam es zu in manchen Fällen zu irrtümlichen Fehlermeldungen.
+-   Beim Stempeln mit der neuen Stempeluhr 2.0 war das Erfassen einer spontanen Schicht direkt nach einer abgeschlossenen Schicht in manchen Fällen nicht möglich.
+-   Im Zeiterfassungs-Dashboard wurden manche Ereignisse im Zeiterfassungsprotokoll angezeigt, obwohl diese außerhalb des Zuständigkeitsbereiches des aktuellen Nutzers lagen.
+
+## 1.25.7
+
+-   Bei der Anzeige in der Liste der "alten" Stempeluhren im Zeiterfassungs-Dashboard wurde in manchen Fällen der falsche Standort angezeigt.
+-   In bestimmten Fällen wurden noch immer falsche Zeiterfassungs-Regelsätze für nicht zugewiesene Schichten herangezogen.
+-   Bei Nutzern mit mehreren Zugängen gab es bei Login in die Mitarbeiterapp in manchen Fällen eine Fehlermeldung.
+
+## 1.25.6
+
+### Behobene Fehler
+
+-   Beim Erstellen von Schichten wurde in manchen Fällen der falsche Zeiterfassungsregelsatz herangezogen.
+-   Durch eine Ungenauigkeit (im Millisekundenbereich) beim Runden von Arbeitszeiten durch Zeiterfassungsregeln wurde in manchen Fällen fälschlicherweise eine automatische Pause gebucht (zum Beispiel bei einer Schicht, die laut Rundung genau 6 Stunden sein sollte).
+-   Bei der Zeiterfassung mit der "alten" Stempeluhr wurden für das Ereignis "Ende Pause" falsche Zeiten angezeigt.
+
+## 1.25.5
+
+## Behobene Fehler
+
+-   Ereignisse im Zeiterfassungsprotokoll wurde nicht korrekt nach Zuständigkeitsbereichen gefiltert.
+-   Bei Vertragsänderungen wurden Konten nicht automatisch neu berechnet.
+-   Beim Buchen von Mittagessen durch den Mitarbeiter kam es in manchen Fällen zu einem Fehler.
+-   Der Bereich Zeiterfassung wurde in der Druckansicht nicht richtig angezeigt.
+-   Die Zeiterfassungs-Einstellung "Bei verfrühter Anmeldung: Übernehme Zeit laut Dienstplan." griff nicht bei Schichten mit offenem Ende.
+
+## 1.25.4
+
+## Behobene Fehler
+
+-   Beim Erfassen von spontanen Schichten über die Stempeluhr 2.0 wurde in manchen Fällen statt der gewählten Position die Standardposition des Mitarbeiters gewählt.
+-   Bei Urlaubsanträgen und Krankmeldungen kam es zu Fehlern beim Versand der Emailbenachrichtigung (Sender und Empfänger wurden vertauscht).
+-   Beim Duplizieren und Verschieben von Schichten im Dienstplan und im Arbeitszeitblatt kam es zu fehlern.
+-   Beim Erstellen von nicht zugewiesenen Schichten per Drag & Drop wurde in manchen Fällen die falsche Position übernommen.
+
+## 1.25.3
+
+## Behobene Fehler
+
+-   In manchen Fällen wurde an der Stempeluhr (alt) kein QR-Code angezeigt.
+
+## 1.25.2
+
+## Behobene Fehler
+
+-   Bei der Berechtigungen-Übersicht wurde aufgrund eines Darstellungsfehlers eine falsche Anzahl an freigegebenen Mitarbeitern angezeigt.
+-   In manchen Fällen wurde die Zuständigkeitsbereich-Einschränkunen im Zeiterfassungs-Dashboard nicht korrekt angewendet.
+
+## 1.25.1
+
+## Behobene Fehler
+
+-   Bei manchen Nutzern war der Zugriff auf den Bereich Umsätze nicht möglich.
 
 ## 1.25.0
 
