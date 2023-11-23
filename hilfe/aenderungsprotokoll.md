@@ -7,6 +7,34 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.25.12
+
+## Änderungen & Neuigkeiten
+
+-   Stempeluhr 2.0: Bei der Anzeige der Überstunden wird nun anstelle des tagesaktuellen Wertes der Stand zum Monatsbeginn angezeigt. Dies ist vor allem um Verwirrung zu vermeiden und Konsistenz mit der Darstellung in der Mitarbeiterapp zu schaffen.
+
+## Behobene Fehler
+
+-   Stempeluhr 2.0: Beim Beenden einer Teilschicht wurde in manchen Fällen bereits die nächste Teilschicht angezeigt, wodurch das Abmelden von der ersten Schicht verhindert wurde.
+-   Beim Einfügen einer großen Anzahl von nicht zugewiesenen Schichten im Dienstplan kam es zu Darstellungsproblemen.
+
+## 1.25.11
+
+## Behobene Fehler
+
+-   Bei der Buchung von Mitarbeiteressen durch den Mitarbeiter kam es zu einem Fehler, wenn die Schicht außerhalb des Essenszeitraums beendet wurde.
+-   Beim der Anzeige des Gesamt-Lohnbetrags im Arbeitszeitblatt wurden Mitarbeiteressen irrtümlicherweise doppelt gezählt.
+-   In seltenen Fällen wurden Nachtzuschläge an Samstagen nicht korrekt berechnet.
+
+## 1.25.10
+
+## Behobene Fehler
+
+-   In seltenen Fällen wurden beim Arbeiten an einem Feiertag keine Nachtzuschläge für den Folgetag berechnet.
+-   Bei der Anzeige der Gesamtzahl an Mitarbeiteressen im Zeiterfassungs-Dashboard wurden Frühstück und Abendessen nicht berücksichtigt.
+-   Bei mehreren geplanten Teilschichten wurde in manchen Fällen beim Erfassen über die Mitarbeiterapp die spätere Schicht angezeigt.
+-   Die Standorterfassung bei der Zeiterfassung über die Mitarbeiterapp war fehlerhaft.
+
 ## 1.25.9
 
 ### Verbesserungen & Neuigkeiten
