@@ -116,6 +116,13 @@ hierbei folgende Modi zu Verfügung.
 > **Keine Sorge**, egal welchen Pausenmodus Sie wählen, Sie haben immer das letzte Wort. D.h. Pausen können nach
 > Abschluss einer Schicht jederzeit nachbarbeitet und korrigiert werden.
 
+#### Manuell
+
+In diesem Modus werden Zeiten ausschließlich manuell über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr)
+oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst. Der Mitarbeiter erfasst dann immer Beginn und Ende jeder Pause -
+Pentacode berechnet dann automatisch die Länge der Pause und zählt am Ende alle Teilpausen zusammen um zur entgültigen
+gesamten Pausenlänge zu gelangen.
+
 #### Automatisch
 
 In diesem Modus ermittelt Pentacode automatisch die Dauer der Pause basierend auf der **entgültigen
@@ -126,18 +133,17 @@ von **9 Stunden**. Diese Werte können Sie natürlich jederzeit abändern bezieh
 entfernen. Zum Hinzufügen einer Stufe, klicken Sie den {% button label="Stufe Hinzufügen", icon="plus" %} button. Um
 eine Stufe zu entfernen, bewegen Sie die Maus darüber und klicken Sie den {% button icon="trash" %} button.
 
-#### Manuell
-
-In diesem Modus werden Zeiten ausschließlich manuell über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr)
-oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst. Der Mitarbeiter erfasst dann immer Beginn und Ende jeder Pause -
-Pentacode berechnet dann automatisch die Länge der Pause und zählt am Ende alle Teilpausen zusammen um zur entgültigen
-gesamten Pausenlänge zu gelangen.
-
 #### Automatisch + Manuell
 
 Dieser Pausenmodus kombiniert die Funktionalität der beiden vorgenannten Pausenmodi: Pentacode berechnet zunächst die
 automatische Pause anhand der von Ihnen definierten Stufen. Mitarbeiter können dann zusätzlich manuell Pausen
 erfassen, welche dann zu der automatischen Pause **hinzugerechnet** werden.
+
+#### Automatisch oder Manuell
+
+Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem automatisch berechneten Wert, so wird der erfasste Werte herangezogen und umgekehrt.
+
+> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Ab 6 Stunden ist eine automatische Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Werte von 35 Minuten herangezogen.
 
 #### Geplant
 
@@ -151,6 +157,12 @@ Planung angegeben wird. Die geplante Pause wird dann beim Abschluss der Schicht 
 Ähnlich wie der Pausenmodus "Automatisch + Manuell" vereint dieser Pausenmodus die Funktionalität der geplanten und
 manuell erfassten Pausen. Manuell erfasste Pausen werden dann beim Abschluss der Schicht zur geplante Pause
 **hinzuaddiert**.
+
+#### Geplant oder Manuell
+
+Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem geplanten Pausenwert, so wird der erfasste Werte herangezogen und umgekehrt.
+
+> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Es ist eine geplante Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Werte von 35 Minuten herangezogen.
 
 ### Bezahlte Pausen
 
