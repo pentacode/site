@@ -22,5 +22,11 @@
     "title": "Customer Success",
     "bio": "bla bla bla",
     "image": "/staff/jseidel.webp"
+  },
+  "pgut": {
+    "name": "Philip Gutbrodt",
+    "title": "Produktentwicklung",
+    "bio": "bla bla bla",
+    "image": "/staff/pgut.webp"
   }
 }
