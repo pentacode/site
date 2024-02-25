@@ -7,6 +7,36 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.26.0
+
+### Änderungen & Neuigkeiten
+
+#### Überarbeiteter Dienstplan
+
+-   Auswahl beliebiger Zeitraum (bis zu 5 Wochen)
+-   Neuer komprimierter Darstellungsmodus
+-   Abteilungsspezifische Schichtvorschläge
+-   Anzeige Überstunden vorher/nachher
+-   Liste aller Änderungen nun einsehbar
+-   Gezielte Veröffentlichung einzelner Änderungen
+-   Rückgängigmachung aller oder einzelner Änderungen
+-   Detaillierte Darstellung von Problemen
+-   Verbesserte Anwendung von Dienstplan-Vorlagen mit Vorschau und über beliebigen Zeitraum
+
+#### Neue Kontenansichten
+
+-   Bereich "Konten" wurde aufgesplittet in "Arbeitzeitkonto", "Urlaubskonto" und Zuschlagskonto
+-   Es können nun beliebige Zeiträume gewählt werden
+-   Bei einzelnen Mitarbeitern kann außerdem eine beliebige "Auflösung" gewählt werden (also zum Beispiel Saldierung nach Wochen statt monatlich)
+-   Konten können nun an einem beliebigen Datum zurückgesetzt werden
+-   Bessere/klarere Darstellung von Zurücksetzungen und Zeitbuchungen
+
+#### Neue Optionen für Zuschläge
+
+-   Die Mindestdauer kann nun auch in Prozent der Gesamtdauer angegeben werden.
+-   Neue Vergütungsarten "Fester Stundensatz" und "Fester Betrag"
+
+
 ## 1.25.12
 
 ## Änderungen & Neuigkeiten
