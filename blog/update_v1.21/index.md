@@ -57,7 +57,7 @@ an einem bereits abgeschlossenen Monat schnell zu Unstimmigkeiten mit bereits du
 Desweiteren können Änderungen an bestimmten Vertragsdaten oder Zeiterfassungs-Einstellungen ebenfalls zu einer
 ungewünschten, rückwirkenden Neuberechnung von Konten und Lohnabrechungen führen.
 
-**Deshalb bietet Ihnen Pentacode nun die Möglichkeit, [Arbeitszeiten, Konten und Lohnabrechnungen festzuschreiben](/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben)**. Dazu
+**Deshalb bietet Ihnen Pentacode nun die Möglichkeit, [Arbeitszeiten, Konten und Lohnabrechnungen festzuschreiben](/hilfe/handbuch/einstellungen/unternehmen/#arbeitszeiten-%26-konten-festschreiben)**. Dazu
 wählen Sie einfach aus, bis zu welchem Monat die Festschreibung gelten soll. Arbeitszeiten bis zu diesem Zeitpunkt sind
 dann durch niemanden mehr bearbeitbar und Konten und Lohnabrechnungen bleiben unverändert, selbst wenn Sie Änderungen an
 Mitarbeiterverträgen oder Zeiterfassungs-Regelsätzen vornehmen.
