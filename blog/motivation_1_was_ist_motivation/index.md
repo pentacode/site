@@ -1,19 +1,17 @@
 ---
 title: Mit der Motivationspsychologie ihren Mitbewerbern voraus!
 date: 2024-01-29
-cover: 
+cover: "was_ist_motivation.webp"
 coverAlt: "Motivation: Von Modellbau und tiefhängenden Früchten"
 author: jseidel
 categories:
     - ratgeber
 ---
 
-"Motivation ist die Kunst, Leute dazu zu bringen, das zu tun,
-was du willst, weil sie es wollen.”  
+<p style="text-align: center"> *"Motivation ist die Kunst, Leute dazu zu bringen, das zu tun,
+was du willst, weil sie es wollen.”*  </p>
 
-Dwight D. Eisenhower, 34. amerikanischer Präsident
-
-Liebe Leserinnen und Leser,
+<p style="text-align: center"> *Dwight D. Eisenhower, 34. amerikanischer Präsident* </p>
 
 Jeder Unternehmer steht an einem gewissen Punkt vor der Herausforderung, Verantwortung und Aufgaben an seine Mitarbeiter zu delegieren, um das Wachstum des Unternehmens sicherzustellen. Das Team ist dabei besonders in kundennahen Branchen wie der Gastronomie, der Hotellerie und im Einzelhandel der wirtschaftliche Motor. Immer wieder kommt es jedoch vor, dass das gewünschte Engagement ausbleibt und Mitarbeiter ihre Arbeit auf das Nötigste beschränken - sie sind nicht motiviert, mehr zu leisten. Doch glücklicherweise kann diese Situation gezielt verbessert werden!
 
