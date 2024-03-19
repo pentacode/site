@@ -5,7 +5,7 @@ icon: download
 weight: 10
 ---
 
-Unter dem Menüpunkt {% button label="Datenexport", icon="download" %} sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiede Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr.
+Unter dem Menüpunkt "Datenexport", sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiede Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr.
 
 > **In den verschiedenen Bereichen von Pentacode finden Sie öfters das {%icon "download"%}-Symbol, dieses verweist Sie stets in den hier beschriebenen Reiter.**
 
