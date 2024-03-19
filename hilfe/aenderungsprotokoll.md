@@ -7,6 +7,45 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+
+## 1.26.4
+
+### Änderungen & Neuigkeiten
+
+-   Die Anzeige der Monatsstunden im neuen Dienstplan (beim Wählen eines Tages) berücksichtigt nun auch geplanten Arbeitszeiten.
+-   Beim Zurücksetzen der Arbeitszeitkonten über die neue Kontenansicht ist nun auch wieder die Eingabe von negativen Werten möglich.
+-   Über die neuen Kontenansichten ist nun das Neuberechnen von Konten für bestimmte Mitarbeiter und Zeiträume möglich (... => Konten Neu Berechnen)
+
+### Behobene Fehler
+
+-   Beim Wechseln von Standorten im neuen Dienstplan wurden die Dienstplannotizen nicht aktualisiert.
+-   Beim Export von Arbeitszeiten direkt nach einer Bearbeitung kam es in manchen Fällen vorübergehend zu einem fehlerhaften Export (fehlende Daten).
+-   Bei der Anzeige der Überstunden Vorher/Nachher im neuen Dienstplan wurden im Vorzeitraum geplante Arbeitzeiten nicht berücksichtigt.
+-   Die Anzeige des Urlaubs-Jahresanspruchs im Arbeitszeitblatt und Dienstplan war in manchen Fällen inkorrekt.
+
+## 1.26.3
+
+### Behobene Fehler
+
+-   In der alten Dienstplanansicht war das Erstellen oder Bearbeiten von Verfügbarkeiten nicht mehr möglich.
+-   In manchen Fällen war das Öffnen von veröffentlichten Dienstplänen noch immer nicht möglich.
+-   Beim Exportieren des Mitarbeiter-Datenblattes kam es zu einer Fehlermeldung.
+-   Im neuen Dienstplan konnte die Druckfunktion des Browsers nicht genutzt werden.
+
+## 1.26.2
+
+### Behobene Fehler
+
+-   Das Öffnen von veröffentlichten Dienstplänen war in manchen Fällen nicht möglich.
+-   In der neuen Dienstplanansicht waren unter bestimmten Umständen die Spalten nicht richtig ausgerichtet.
+
+## 1.26.1
+
+### Behobene Fehler
+
+-   In manchen Fällen war die Navigation in den Bereich "Mitarbeiter" nicht möglich
+-   Beim Wechsel des Datums oder Untermenüpunktes im Bereich Umsätze sprang die Auswahl immer auf den ersten Standort zurück.
+
 ## 1.26.0
 
 ### Änderungen & Neuigkeiten
@@ -39,18 +78,18 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.12
 
-## Änderungen & Neuigkeiten
+### Änderungen & Neuigkeiten
 
 -   Stempeluhr 2.0: Bei der Anzeige der Überstunden wird nun anstelle des tagesaktuellen Wertes der Stand zum Monatsbeginn angezeigt. Dies ist vor allem um Verwirrung zu vermeiden und Konsistenz mit der Darstellung in der Mitarbeiterapp zu schaffen.
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Stempeluhr 2.0: Beim Beenden einer Teilschicht wurde in manchen Fällen bereits die nächste Teilschicht angezeigt, wodurch das Abmelden von der ersten Schicht verhindert wurde.
 -   Beim Einfügen einer großen Anzahl von nicht zugewiesenen Schichten im Dienstplan kam es zu Darstellungsproblemen.
 
 ## 1.25.11
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei der Buchung von Mitarbeiteressen durch den Mitarbeiter kam es zu einem Fehler, wenn die Schicht außerhalb des Essenszeitraums beendet wurde.
 -   Beim der Anzeige des Gesamt-Lohnbetrags im Arbeitszeitblatt wurden Mitarbeiteressen irrtümlicherweise doppelt gezählt.
@@ -58,7 +97,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.10
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   In seltenen Fällen wurden beim Arbeiten an einem Feiertag keine Nachtzuschläge für den Folgetag berechnet.
 -   Bei der Anzeige der Gesamtzahl an Mitarbeiteressen im Zeiterfassungs-Dashboard wurden Frühstück und Abendessen nicht berücksichtigt.
@@ -104,7 +143,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.5
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Ereignisse im Zeiterfassungsprotokoll wurde nicht korrekt nach Zuständigkeitsbereichen gefiltert.
 -   Bei Vertragsänderungen wurden Konten nicht automatisch neu berechnet.
@@ -114,7 +153,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.4
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Beim Erfassen von spontanen Schichten über die Stempeluhr 2.0 wurde in manchen Fällen statt der gewählten Position die Standardposition des Mitarbeiters gewählt.
 -   Bei Urlaubsanträgen und Krankmeldungen kam es zu Fehlern beim Versand der Emailbenachrichtigung (Sender und Empfänger wurden vertauscht).
@@ -123,26 +162,26 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.3
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   In manchen Fällen wurde an der Stempeluhr (alt) kein QR-Code angezeigt.
 
 ## 1.25.2
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei der Berechtigungen-Übersicht wurde aufgrund eines Darstellungsfehlers eine falsche Anzahl an freigegebenen Mitarbeitern angezeigt.
 -   In manchen Fällen wurde die Zuständigkeitsbereich-Einschränkunen im Zeiterfassungs-Dashboard nicht korrekt angewendet.
 
 ## 1.25.1
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei manchen Nutzern war der Zugriff auf den Bereich Umsätze nicht möglich.
 
 ## 1.25.0
 
-## Änderungen & Neuigkeiten
+### Änderungen & Neuigkeiten
 
 -   Bei Mitarbeiteressen wird nun zwischen **Frühstück**, **Mittagessen** und **Abendessen** unterschieden!
 -   Beim Export nach Datev, Addisson, Agenda und Co. können Mitarbeiteressen nun auch als Anzahl exportiert werden.
@@ -162,14 +201,14 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.24.12
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   In manchen Fällen wurde bestimmenten Zuschlägen die falsche Kostenstelle zugewiesen
 -   Die Einstellung "Schichtbeginn Vor" für Zuschläge griff in machen Fällen nicht.
 
 ## 1.24.11
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Das Anwenden von Dienstplanvorlagen war seit v1.24.10 nicht mehr möglich.
 -   Das Leeren des Dienstplans war seit v1.24.10 nicht mehr möglich.
@@ -178,12 +217,12 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.24.10
 
-## Änderungen & Neuigkeiten
+### Änderungen & Neuigkeiten
 
 -   Überarbeitete UI für das Bearbeiten von Dienstplantabs.
 -   Frei- und Guttage müssen nun genauso wie andere Dienstplaneinträge explizit veröffentlicht werden bevor sie in der Mitarbeiter-App oder im öffentlichen Dienstplan erscheinen.
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei Standorten mit einer oder mehreren archivierten Abteilungen kam es bei der Festlegung der Abteilungs-Reihenfolge zu Problemen.
 -   Die Berechnung von Zuschlagskosten unter Berichte/Personalkosten war bei machen Unternehmen fehlerhaft.
