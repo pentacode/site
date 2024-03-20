@@ -1,8 +1,8 @@
 ---
-title: Die Hygienefaktoren der Motivation
-date: 2023-07-03
-cover: 
-coverAlt: "Mit der richtigen Dienstplanung haben Sie immer den Durchblick"
+title: Hygienefaktoren und Motivation 
+date: 2024-02-19
+cover: "NL02_hygienefaktoren.webp"
+coverAlt: "Die Motivationshygiene bildet die Basis produktiver und zufriedener Mitarbeiter"
 author: jseidel
 categories:
     - ratgeber
