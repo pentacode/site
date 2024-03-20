@@ -1,17 +1,17 @@
 ---
 title: Mit der Motivationspsychologie ihren Mitbewerbern voraus!
 date: 2024-01-29
-cover: "was_ist_motivation.webp"
+cover: "NL01_motivation.webp"
 coverAlt: "Motivation: Von Modellbau und tiefhängenden Früchten"
 author: jseidel
 categories:
     - ratgeber
 ---
 
-<p style="text-align: center"> *"Motivation ist die Kunst, Leute dazu zu bringen, das zu tun,
+<p style="text-align: center; font-size: 22px;"> *"Motivation ist die Kunst, Leute dazu zu bringen, das zu tun,
 was du willst, weil sie es wollen.”*  </p>
 
-<p style="text-align: center"> *Dwight D. Eisenhower, 34. amerikanischer Präsident* </p>
+<p style="text-align: center;"> *Dwight D. Eisenhower, 34. amerikanischer Präsident* </p>
 
 Jeder Unternehmer steht an einem gewissen Punkt vor der Herausforderung, **Verantwortung und Aufgaben an seine Mitarbeiter zu delegieren**, um das Wachstum des Unternehmens sicherzustellen. Das Team ist dabei besonders in kundennahen Branchen wie der Gastronomie, der Hotellerie und im Einzelhandel der **wirtschaftliche Motor**. Immer wieder kommt es jedoch vor, dass das gewünschte Engagement ausbleibt und Mitarbeiter ihre Arbeit auf das Nötigste beschränken - sie sind nicht motiviert, mehr zu leisten. Doch glücklicherweise kann diese Situation gezielt verbessert werden!
 
@@ -27,22 +27,21 @@ Es liegt nahe, dass die Zahlen der mittelständischen Betriebe noch deutlich sch
 
 ## Das alte Bild des Homo Oeconomicus
 
-
 Wie wichtig denken Sie ist Ihren Mitarbeitern ihr Lohn? Würden sie eine unangenehme Position einnehmen wegen höherem Gehalt? Wären sie in ihrer neuen Position motivierter, jeden Tag gute Leistungen zu vollbringen? Das Bild des “Homo oeconomicus” hat auf diese Fragen eine ganz klare Antwort: Der Mensch möchte seinen (finanziellen) Gewinn optimieren - einzig das treibt ihn voran. Wenn Sie nun jedoch an ihre Mitarbeiter denken, fallen Ihnen sicherlich auf, dass einige Mitarbeiter zwar genau gleich entlohnt werden, ihre Motivation und Arbeitsengagement sich jedoch kräftig unterscheiden. Das Bild des Menschen als purer “Nutzoptimierer” kann also nicht ganz stimmen, **Motivation kann nicht ausschließlich vom Gehaltszettel abhängen**.
 
 ## Was uns wirklich motiviert
 
-
 Stellen Sie sich nun vor: Wir bieten Ihnen ein Jobangebot an, welches Sie kaum
-ausschlagen können. Eine Gehaltserhöhung, viel Urlaub und nie
-Überstunden - das Einzige, was Sie tagtäglich machen müssen, ist ruhig
-in einem leeren Raum sitzen, ohne Ablenkung - acht Stunden Stille. Wie
-würden Sie sich fühlen? Aus rein finanzieller Sicht des “Homo
-oeconumicus” wäre diese Stelle ein Schnapper, doch für die meisten von
-uns wäre dieser Alltag der pure Terror. Isoliert und sinnbefreit
-würden wir für unsere tägliche “Arbeit” sicher keine Motivation spüren.
-Was dieses Gedankenexperiment zeigt, ist uns allen bereits bewusst:
-**Bezahlung ist nicht der einzige Grund unserer täglichen Arbeit nachzugehen** und durch Geld allein ist es schwierig, einen echten Leistungswunsch in uns und unseren Mitmenschen zu erwecken.
+ausschlagen können. Eine Gehaltserhöhung, viel Urlaub und nie Überstunden - das
+Einzige, was Sie tagtäglich machen müssen, ist ruhig in einem leeren Raum
+sitzen, ohne Ablenkung - acht Stunden Stille. Wie würden Sie sich fühlen? Aus
+rein finanzieller Sicht des “Homo oeconumicus” wäre diese Stelle ein Schnapper,
+doch für die meisten von uns wäre dieser Alltag der pure Terror. Isoliert und
+sinnbefreit würden wir für unsere tägliche “Arbeit” sicher keine Motivation
+spüren. Was dieses Gedankenexperiment zeigt, ist uns allen bereits bewusst:
+**Bezahlung ist nicht der einzige Grund unserer täglichen Arbeit nachzugehen**
+und durch Geld allein ist es schwierig, einen echten Leistungswunsch in uns und
+unseren Mitmenschen zu erwecken.
 
 ## Vom Fischen und Modellbau - Leistung von Innen 
 
