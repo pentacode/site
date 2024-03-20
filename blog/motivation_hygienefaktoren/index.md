@@ -1,5 +1,5 @@
 ---
-title: Hygienefaktoren und Motivation 
+title: Motivationshygiene - Hygienefaktoren verstehen und nutzen
 date: 2024-02-19
 cover: "NL02_hygienefaktoren.webp"
 coverAlt: "Die Motivationshygiene bildet die Basis produktiver und zufriedener Mitarbeiter"
@@ -8,9 +8,9 @@ categories:
     - ratgeber
 ---
 
-<p style="text-align: center;"> *„Ich kann, was ich muss, weil ich will”*  </p>
+<p style="text-align: center; font-size: 24px;"> *„Ich kann, was ich muss, weil ich will”*  </p>
 
-<p style="text-align: center;"> *Immanuel Kant*  </p>
+<p style="text-align: center; font-size: 20px;"> *Immanuel Kant*  </p>
 
 
 Stellen Sie sich vor, Sie bekommen ein Stellenangebot in Ihrem Traumbetrieb: Ein freundliches Team, tolle Inhalte, ein guter Chef. Aber es gibt da ein Manko: Sie gefährden täglich Ihr Leben. Oder die Bezahlung ist unterirdisch. Oder Sie müssen zu unmenschlichen Zeiten arbeiten. Selbst wenn der Job an sich interessant ist, kann es Bedingungen geben, die für den Einzelnen absolute
@@ -24,20 +24,21 @@ Der Psychologe Frederick Herzberg forschte in den 60er Jahren zu Mitarbeitermoti
 
 ## Erst das Fundament legen
 
-Herzberg konnte in seinem Experiment nicht nur die Unterschiede zwischen Hygienefaktoren und Motivatoren erkennen, sondern auch, wie sich beide beeinflussen. Die Hygienefaktoren alleine motivieren die Mitarbeiter noch nicht, aber **sie bilden das Fundament**, auf dem weitere Maßnahmen aufgebaut werden können. Solange die Mitarbeiter angaben, dass die Hygienefaktoren nicht erfüllt seien und es Punkte an der Arbeit gäbe, die sie unzufrieden machen, bauen die Motivatoren auch kaum Zufriedenheit und Motivation auf.
+Herzberg konnte in seinem Experiment nicht nur die Unterschiede zwischen Hygienefaktoren und Motivatoren erkennen, sondern auch, wie sich beide beeinflussen. Die **Hygienefaktoren** alleine motivieren die Mitarbeiter noch nicht, aber sie **bilden das Fundament**, auf dem weitere Maßnahmen aufgebaut werden können. Solange die Mitarbeiter angaben, dass die Hygienefaktoren nicht erfüllt seien und es Punkte an der Arbeit gäbe, die sie unzufrieden machen, bauen die Motivatoren auch kaum Zufriedenheit und Motivation auf.
 
-> Es ist also wichtig zu unterscheiden zwischen den Faktoren, die einen Mitarbeiter davor schützen, unzufrieden mit seiner Arbeitsumgebung zu sein *(Hygienefaktoren)*, und den Faktoren, die ihn zufriedenstellen und zusätzlich motivieren *(Motivatoren)*. An den Motivatoren zu schrauben macht erst Sinn, wenn die Hygienefaktoren erfüllt sind.
+> **TAKE-HOME:** {% icon "lightbulb" %} Es ist also wichtig zu unterscheiden zwischen den Faktoren, die einen Mitarbeiter davor schützen, unzufrieden mit seiner Arbeitsumgebung zu sein (Hygienefaktoren), und den Faktoren, die ihn zufriedenstellen und zusätzlich motivieren (Motivatoren). An den Motivatoren zu schrauben macht erst Sinn, wenn die Hygienefaktoren erfüllt sind.
+
+
+<figure class = "float-right">
+<img src="hygienefaktoren_beispiele.webp" alt="Hygienefaktoren können vielfältig sein." />
+<figcaption>  </figcaption>
+</figure>
 
 ## Hygienefaktoren im Arbeitsalltag
 
-Im Folgenden sehen Sie Beispiele zu Hygienefaktoren. Allen Überlegungen zu Hygienefaktoren lässt sich eine einfache Frage voranstellen: Welche Bedingungen könnten bei Mitarbeitern ein Gefühl der Unsicherheit hervorrufen oder ihre **tägliche Arbeit schwerer machen, als es sein müsste?** Hierzu die wichtigsten Faktoren und zu diesen ein paar beispielhafte Beschreibungen:
+<p style="text-align:justify;">Im Arbeitsalltag gibt es viele offensichtliche und weniger klare Faktoren, die Motivation bremsen können. Allen Überlegungen voran lässt sich eine einfach Frage stellen, um ihre Hygienefaktoren aufzudecken: Welche Bedingungen könnten bei Mitarbeitern ein Gefühl der Unsicherheit hervorrufen oder ihre **tägliche Arbeit schwerer machen, als es sein müsste?** 
 
-<figure>
-<img src="planung_vergleich.webp" alt="Grafischer Vergleich geplanter und geleisteter Stunden" />
-<figcaption> Sie können auf einen Blick sehen ob sich der Arbeitsalltag auch nach der Planung richtet </figcaption>
-</figure>
-
-Natürlich gibt es weitere Faktoren, die Barrieren darstellen und behoben werden sollten, um ein gutes Fundament für Motivatoren zu schaffen. Dazu gehören das Team und das Betriebsklima, Feedback und der Führungsstil. Mit diese  Themen werden wir in zukünftigen Newslettern genauer befassen.
+Einige Klassiker haben wir Ihnen hier bereits aufgelistet, aber natürlich gibt es weitere Faktoren, die Barrieren darstellen und behoben werden sollten, um ein gutes Fundament für Motivatoren zu schaffen. Dazu gehören das Team und das Betriebsklima, Feedback und der Führungsstil. Mit diese  Themen werden wir in zukünftigen Newslettern genauer befassen. </p>
 
 ## Wie uns die "Motivationshygiene" hilft
 
