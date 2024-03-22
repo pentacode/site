@@ -1,8 +1,8 @@
 ---
-title: Motivationshygiene 2 - mit guten Löhnen Kosten sparen
+title: Mit guten Löhnen Kosten sparen
 date: 2024-03-11
 cover: "NL03_hygienefaktor_geld.webp"
-coverAlt: "Motivation und Lohn - wie die Bezahlung unsere "
+coverAlt: "Motivation und Lohn - wie die Bezahlung unsere Leistung verändert"
 author: jseidel
 categories:
     - ratgeber
@@ -18,7 +18,7 @@ Die meisten würden anworten: Überstunden, extra Engagement und einfach nochmal
 
 Zur fast schon philosophischen Frage, was ein “fairer” Lohn ist, kommen wir später. Zuerst geht es darum, welche Rolle die Bezahlung bei der Mitarbeitermotivation spielt und ob die Meinung „Wer gut verdient, wird gut arbeiten“ noch haltbar ist.
 
-Wie bereits im [vorherigen Artikel](/blog/) beschrieben, sollten wir zwischen Hygienefaktoren und Motivatoren unterscheiden. Hygienefaktoren alleine motivieren zwar nicht zu Höchstleistungen und Initiative, sie sorgen aber dafür, dass der Mitarbeiter sich wohl fühlen kann. Hygienefaktoren bilden das Fundament der Mitarbeitermotivation. Um das Ergebnis vorwegzunehmen: **Der Lohn ist ein Hygienefaktor und als solcher ein besonders wichtiger. Geld alleine ist in den meisten Fällen jedoch kein Motivator.**
+Wie bereits im [vorherigen Artikel](/blog/motivation_2_hygienefaktoren) beschrieben, sollten wir zwischen Hygienefaktoren und Motivatoren unterscheiden. Hygienefaktoren alleine motivieren zwar nicht zu Höchstleistungen und Initiative, sie sorgen aber dafür, dass der Mitarbeiter sich wohl fühlen kann. Hygienefaktoren bilden das Fundament der Mitarbeitermotivation. Um das Ergebnis vorwegzunehmen: **Der Lohn ist ein Hygienefaktor und als solcher ein besonders wichtiger. Geld alleine ist in den meisten Fällen jedoch kein Motivator.**
 
 ## All about the money - oder nicht?
 
@@ -58,7 +58,7 @@ Wenn jedoch das Geld in Form eines Bonus am Ende des Prozesses steht, bleibt der
 
 **Ziel** soll jedoch sein, **Mitarbeiter so zu motivieren**, dass sie zu Gunsten des **gesamten Unternehmens** arbeiten. Sie sollen sich mit dem Erfolg identifizieren und nicht einzig mit dem Gehaltscheck im Kopf Aufgabe nach Aufgabe abhaken.
 
-In unserem nächsten Newsletter beschäftigen wir uns mit der konstruktiven Kritik als nächsten Motivator - und wieviel gutes Feedback wert sein kann.
+Im [folgenden Artikel] beschäftigen wir uns mit der konstruktiven Kritik als nächsten Motivator - und wieviel gutes Feedback wert sein kann.
 
 <p style="text-align: center"> **Bis dahin wünschen wir Ihnen eine erfolgreiche Woche!** </p>
 
