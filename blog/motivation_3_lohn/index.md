@@ -56,9 +56,9 @@ Es geht vor allem darum, an welcher Stelle im Arbeitsalltag es sich um Geld dreh
 
 Wenn jedoch das Geld in Form eines Bonus am Ende des Prozesses steht, bleibt der Blick immer daran haften. Der Bonus ist das Ziel, die Arbeit nur das Mittel zum Zweck. 
 
-**Ziel** soll jedoch sein, **Mitarbeiter so zu motivieren**, dass sie zu Gunsten des **gesamten Unternehmens** arbeiten. Sie sollen sich mit dem Erfolg identifizieren und nicht einzig mit dem Gehaltscheck im Kopf Aufgabe nach Aufgabe abhaken.
+**Ziel** soll jedoch sein, **Mitarbeiter so zu motivieren**, dass sie zu Gunsten des **gesamten Unternehmens** arbeiten. Sie sollen sich mit dem Erfolg identifizieren und nicht einzig mit dem Gehaltscheck im Kopf Aufgabe nach Aufgabe abhaken. 
 
-Im [folgenden Artikel] beschäftigen wir uns mit der konstruktiven Kritik als nächsten Motivator - und wieviel gutes Feedback wert sein kann.
+Wie wir das erreichen, werden wir nun Schritt für Schritt im Rest dieser Artikelreihe angehen. Bevor man jedoch versucht an der Motivation zu schrauben, werden wir im folgenden Artikel sicherstellen, erst das Gespräch mit den Mitarbeitern zu suchen und unseren Fortschritt messbar zu machen. 
 
 <p style="text-align: center"> **Bis dahin wünschen wir Ihnen eine erfolgreiche Woche!** </p>
 
