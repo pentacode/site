@@ -1,0 +1,446 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Pentacode - Personalmanagement war noch nie so einfach",
+  "language": "de-de",
+  "home_page_url": "https://pentacode.app",
+  "feed_url": "https://pentacode.app/blog/feed.json",
+  "description": "Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling und Lohnvorbereitung - so einfach und intuitiv wie noch nie.",
+  "author": {
+    "name": "Pentacode",
+    "url": "contact@pentacode.app"
+  },
+  "items": [
+    {
+      "id": "https://pentacode.app/blog/motivation_3_lohn/",
+      "url": "https://pentacode.app/blog/motivation_3_lohn/",
+      "title": "Mit guten Löhnen Kosten sparen",
+      "content_html": " *„Ich zahle nicht gute Löhne, weil ich viel Geld habe, sondern ich habe viel Geld, weil ich gute Löhne bezahle.”* \n *Robert Bosch* \nWas würden Sie für mehr Geld tun?\nDie meisten würden anworten: Überstunden, extra Engagement und einfach nochmal mehr Leistung bringen. Aber stimmt es wirklich, dass Menschen durch...",
+      "date_published": "2024-03-11T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.26/",
+      "url": "https://pentacode.app/blog/update_v1.26/",
+      "title": "Pentacode v1.26: Der neue Dienstplan und neue Kontenansichten",
+      "content_html": "Die Dienstplanung ist das Herzstück von Pentacode. Sie erlaubt es Betrieben,\nEinsätze und Schichten ihrer Mitarbeitenden effizient zu planen. Das spart Zeit und Geld\nund erhöht, unter Beteiligung der Mitarbeitenden durch Angabe ihrer Verfügbarkeit,\nzudem deren Zufriedenheit.\nDer überarbeitete Dienstplan\nIm Dezember 2023 führten wir eine Umfrage durch, um unsere Kunden nach ihren Anforderungen, Wünschen\nund...",
+      "date_published": "2024-02-25T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/motivation_2_hygienefaktoren/",
+      "url": "https://pentacode.app/blog/motivation_2_hygienefaktoren/",
+      "title": "Hygienefaktoren verstehen und nutzen",
+      "content_html": " *„Ich kann, was ich muss, weil ich will”*  \n *Immanuel Kant*  \nStellen Sie sich vor, Sie bekommen ein Stellenangebot in Ihrem Traumbetrieb: Ein freundliches Team, tolle Inhalte, ein guter Chef. Aber es gibt da ein Manko: Sie gefährden täglich Ihr Leben. Oder die Bezahlung ist unterirdisch. Oder...",
+      "date_published": "2024-02-19T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/motivation_1_was_ist_motivation/",
+      "url": "https://pentacode.app/blog/motivation_1_was_ist_motivation/",
+      "title": "Mit der Motivationspsychologie ihren Mitbewerbern voraus!",
+      "content_html": " *\"Motivation ist die Kunst, Leute dazu zu bringen, das zu tun,\nwas du willst, weil sie es wollen.”*  \n *Dwight D. Eisenhower, 34. amerikanischer Präsident* \nJeder Unternehmer steht an einem gewissen Punkt vor der Herausforderung, Verantwortung und Aufgaben an seine Mitarbeiter zu delegieren, um das Wachstum des Unternehmens sicherzustellen....",
+      "date_published": "2024-01-29T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.25/",
+      "url": "https://pentacode.app/blog/update_v1.25/",
+      "title": "Pentacode v1.25: Stempeluhr 2.0 und erweitertes Berechtigungssystem",
+      "content_html": "In der Arbeitswelt rückt die Zeiterfassung immer mehr in den Fokus. Eine präzise\nund objektive Zeiterfassung gewährleistet nicht nur Transparenz und sorgt\nfür Fairness zwischen Arbeitgeber und Arbeitnehmer - Sie bietet außerdem die\nMöglichkeit Personalkosten in Echtzeit im Blick zu behalten und Arbeitszeiten\nbesser zu planen und zu optimieren.\nAuch der Gesetzesgeber ist ganz klar...",
+      "date_published": "2023-10-16T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/personalkosten_zum_unternehmenserfolg/",
+      "url": "https://pentacode.app/blog/personalkosten_zum_unternehmenserfolg/",
+      "title": "Personalkosten - die Stellschraube zum Unternehmenserfolg",
+      "content_html": "Mit der vorangegangenen Artikelreihe haben wir versucht, Ihnen verschiedene Wege aufzuzeigen, Personalkosten durch gezielte Planung und Monitoring wirksam zu senken.\nLöhne und Gehälter sind nicht nur in der Gastronomie und Hotellerie die größten Kostentreiber. Arbeitgeberbeiträge zur Sozialversicherung und Nebenkosten wie Beiträge zur Berufsgenossenschaft hineingerechnet ist es nicht ungewöhnlich, wenn über 40%...",
+      "date_published": "2023-09-11T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/4_tipps_zuschlaege/",
+      "url": "https://pentacode.app/blog/4_tipps_zuschlaege/",
+      "title": "4 essentielle Tipps für das Arbeiten mit Zuschlägen",
+      "content_html": "Wir sind weder Rechtsanwälte noch Steuerberater und dürfen deshalb keine rechtlichen oder steuerlichen Auskünfte geben. Das heißt jedoch nicht, dass wir vom strategischen Einsatz der SFN-Zuschläge nichts verstehen würden. Betrachten Sie die nun folgenden Tipps deshalb als Aufforderung, sich mit Ihrem Steuerberater zu besprechen, um von ihm eine verbindliche Auskunft...",
+      "date_published": "2023-09-04T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/pauschale_vorrauszahlungen/",
+      "url": "https://pentacode.app/blog/pauschale_vorrauszahlungen/",
+      "title": "SFN-Zuschläge strategisch nutzen - Teil 2",
+      "content_html": "Pauschale Vorauszahlungen von Zuschlägen\nSFN-Zuschläge dürfen vom Grundsatz her lediglich für tatsächlich\ngearbeitete Zeiten gezahlt werden. Dabei werden die Zuschläge dem vereinbarten Grundgehalt hinzugerechnet und führen so zu einer Erhöhung\ndes Netto-Auszahlungsbetrags an den Mitarbeiter.\nMit dem vorausgegangenen Artikel haben wir aufgezeigt, wie Zuschläge im Rahmen einer Lohnvereinbarung hineingerechnet werden können.\nMithilfe dieser Methode kann...",
+      "date_published": "2023-08-28T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/zuschl%C3%A4ge_strategisch_nutzen/",
+      "url": "https://pentacode.app/blog/zuschl%C3%A4ge_strategisch_nutzen/",
+      "title": "SFN-Zuschläge strategisch nutzen",
+      "content_html": "In den vorangegangenen Blogartikeln haben wir beschrieben, wie sich Stundenaufwand und damit Personalkosten senken lassen, indem Arbeitszeiten gezielt geplant und überwacht werden. Diesen Effekt können Sie möglicherweise noch weiter verstärken, indem Sie die Lohnkosten je Mitarbeiter senken. Dies können Sie „schmerzfrei“ für die Mitarbeiter erreichen, denn keiner wird auch nur...",
+      "date_published": "2023-08-21T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/lohnkosten_im_vergleich/",
+      "url": "https://pentacode.app/blog/lohnkosten_im_vergleich/",
+      "title": "Deutsche Lohnkosten im europäischen Vergleich",
+      "content_html": "Die Hebel, um Personalkosten zu senken\nGemäß einer fürchterlich banalen Weisheit erzielt ein Unternehmen Gewinn, wenn nach Abzug der Kosten vom Umsatz etwas übrig bleibt.\nUmsatz nach oben zu ziehen ist aufwändig und erfordert Zeit, Kosten zu senken aber erfordert nur das „Wissen wie“.\nGerade im Bereich des Kosten-Managements gibt es jedoch etablierte...",
+      "date_published": "2023-08-14T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/dienstplanung_2/",
+      "url": "https://pentacode.app/blog/dienstplanung_2/",
+      "title": "Dienstplanung Teil 2 - Malen nach Zahlen",
+      "content_html": "Im vergangenem Blogpost zur Dienstplanung haben wir Ihnen gezeigt, wie Sie Arbeitsstunden durch gezielte Planung bereits im Vorfeld verringern können.\nSie können Ihre Planung jedoch noch einen Schritt „weitertreiben“ und den\nZeit- und Lohnaufwand in ein Verhältnis zu einem geplanten/erwarteten\nUmsatz setzen.\nDas im Folgenden Beschriebene mag sich ein wenig trocken und kompliziert lesen....",
+      "date_published": "2023-08-10T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/dienstplanung/",
+      "url": "https://pentacode.app/blog/dienstplanung/",
+      "title": "Dienstplanung - mit vergangenen Schichten auf die Zukunft schließen",
+      "content_html": " *\"Planen ist nichts anderes als schriftliches Denken mit Methode“* \n *(Manfred Helfrecht)* \nWenn Planung auf Realität trifft\nEin gängiges Sprichwort lautet, dass ein Plan beim ersten Kontakt mit der Realität seinen Wert verliert. Das mag für das Militär gelten, es trifft jedoch nicht für die Dienstplanung komplexerer Unternehmen zu. Denn...",
+      "date_published": "2023-07-03T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/zeiterfassung_dienstplanung/",
+      "url": "https://pentacode.app/blog/zeiterfassung_dienstplanung/",
+      "title": "Zeiterfassung &amp; Dienstplanung - mehr Gewinn durch weniger Kosten",
+      "content_html": "In unserem vorherigen Blogartikel haben Sie bereits erfahren, wie Sie durch vorrausschauende Dienstplanung Überstunden verhindern können, bevor sie überhaupt entstehen. Hier hört das Potenzial guter Dienstplanung aber noch lange nicht auf - in diesem Artikel erfahren Sie weitere Möglichkeiten betriebliche Abläufe zu optimieren und Personalkosten zu sparen.\nDie zwei mächtigen Werkzeuge...",
+      "date_published": "2023-06-27T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/zeiterfassung_ueberstunden_vermeiden/",
+      "url": "https://pentacode.app/blog/zeiterfassung_ueberstunden_vermeiden/",
+      "title": "Zeiterfassung &amp; plötzlich mehr Überstunden – wie vermeiden?",
+      "content_html": "Mehr Überstunden durch Arbeitszeiterfassung?\nDie Einführung einer rechtlich einwandfreien und prüfungssicheren Erfassung von Arbeitszeiten wird in vielen Unternehmen eine unmittelbare Folge haben: eventuelle Überstunden werden schonungslos offengelegt. Selbst wenn diese Überstunden durch bestehende Routinen im Betrieb völlig unbeabsichtigt und bisher unbemerkt entstanden sind - sie schlagen sich nun plötzlich als Mehrarbeit...",
+      "date_published": "2023-06-19T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/zeiterfassungssysteme/",
+      "url": "https://pentacode.app/blog/zeiterfassungssysteme/",
+      "title": "Zeiterfassung - Möglichkeiten, Risiken &amp; Nebenwirkungen",
+      "content_html": "Nach dem Bundesarbeitsgericht wird nun auch der Gesetzgeber alle Unternehmen verpflichten, die Arbeitszeit von Mitarbeitern zu erfassen.\nWas aber bedeutet dies für Unternehmen konkret?\nWelche Art der Zeiterfassung ist rechtskonform, welches für Ihr Unternehmen geeignet und vor allem: Wie können Sie aus der Verpflichtung einen echten Vorteil für Ihr Unternehmen machen?\nWelche Möglichkeiten...",
+      "date_published": "2023-06-12T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/neues_zum_gesetz_der_zeiterfassung/",
+      "url": "https://pentacode.app/blog/neues_zum_gesetz_der_zeiterfassung/",
+      "title": "Das Gesetz zur Zeiterfassung – und seine möglichen Folgen",
+      "content_html": "Die zukünftigen Regelungen für die Erfassung von Arbeitszeit durch Arbeitsminister Heil liegen nun vor. Auch wenn auf dem Weg vom Entwurf bis zum Gesetz noch Änderungen zu erwarten sind – die grundsätzliche Marschrichtung ist nun klar.\nWas bedeutet dies in der Praxis?\nViele Unternehmen erfassen bereits die Arbeitszeiten, viele machen dies noch...",
+      "date_published": "2023-05-05T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.24/",
+      "url": "https://pentacode.app/blog/update_v1.24/",
+      "title": "Pentacode v1.24: Noch mehr Power im Bereich Lohnvorbereitung und Datenexport",
+      "content_html": "Auch wenn sich der Kampf mit der Buchhaltung manchmal wie eine Sysyphusarbeit anfühlt - die Aufbereitung und Dokumentation von Lohnberichten und co. ist ein integraler Teil des Unternehmertums, der (richtig unternommen) viele Früchte abwerfen kann.\nMit Pentacode v1.24 helfen wir Ihnen den Bürokratiedschungel besser zu navigieren und wertvolle Zeit bei der...",
+      "date_published": "2023-02-07T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/midijob/",
+      "url": "https://pentacode.app/blog/midijob/",
+      "title": "Midijobs - alles über die Gleitzone",
+      "content_html": "Der &quot;Minijob&quot; aka. die geringfügige Beschäftigung ist in aller Munde - doch\nhaben Sie schon einmal etwas von einem &quot;Midijob&quot; gehört? In diesem kurzen\nArtikel erfahren Sie alle relevanten Informationen zur Zwischenstufe zwischen\nMinijob und Vollzeitanstellung, seine Vorteile und warum dieses\nAnstellungsverhältnis Sie und ihre Mitarbeiter entlasten kann.\nUrsprung\nDer Midijob - oder das Beschäftigungsverhältnis im...",
+      "date_published": "2022-12-02T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/digitale-arbeitsunf%C3%A4higkeitbescheinigung/",
+      "url": "https://pentacode.app/blog/digitale-arbeitsunf%C3%A4higkeitbescheinigung/",
+      "title": "Ciau gelber Zettel - die eAU kommt.",
+      "content_html": "Ab Anfang nächsten Jahres wird in ganz Deutschland die elektronische\nArbeitsunfähigkeitsbescheinigung (eAU) eingeführt - einfach gesagt die digitale Version des gelben Zettels. Neben dieser einfachen Umstellung von Papierformat auf\ndigitale Bescheinigung erfolgt jedoch auch ein rechtlicher Wechsel zu Kosten des\nArbeitgebers. Dieser muss von nun an die eAU selbstständig bei der Krankenkasse einholen....",
+      "date_published": "2022-11-12T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/zeiterfassung_wird_zur_pflicht/",
+      "url": "https://pentacode.app/blog/zeiterfassung_wird_zur_pflicht/",
+      "title": "Zeiterfassung wird zur Pflicht - Was Sie wissen sollten",
+      "content_html": "Der 13. September 2022 wird für viele Unternehmen in Deutschland eine Zäsur\ndarstellen. Völlig überraschend und deshalb mit „Wumms“ hat das\nBundesarbeitsgericht entschieden, dass die Arbeitszeiten von Arbeitnehmern zu\nerfassen wären. Bisher war in vielen Unternehmen ein „Geben und Nehmen“ üblich,\nsoll heißen, ein Mitarbeiter macht mal Überstunden und erhält dafür Ausgleich\ndurch Privilegien und...",
+      "date_published": "2022-10-10T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/erfolgsgeschichte_baeckerei_alof/",
+      "url": "https://pentacode.app/blog/erfolgsgeschichte_baeckerei_alof/",
+      "title": "Back ma’s! - Vom Quereinsteiger zum Multigastronom mit smarter Personalplanung",
+      "content_html": "Als Fabian Stingl, heute Multigastronom, 2010 mit Geschäftspartner Stefan Alof\ndie kleine aber feine Bäckerei und Konditorei Alof in München eröffnet, ahnt er\nnicht, dass ihn neben der menschlichen Herausforderung der Personalführung bald\nschon die Planung von rund 100 Mitarbeitern aufzufressen droht. Der Druck steigt\nmit der Anzahl der Neueröffnungen. Dass die beiden Unternehmer...",
+      "date_published": "2022-10-07T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/mindestlohnerh%C3%B6hung/",
+      "url": "https://pentacode.app/blog/mindestlohnerh%C3%B6hung/",
+      "title": "Mindestlohn auf 12 € erhöht - was Sie wissen müssen.",
+      "content_html": "Im Zuge der weiter rekordverdächtig hohen Inflation und damit steigenden\nLebenskosten hat die Bundesregierung beschlossen den Mindestlohn deutlich zu\nerhöhen - die größte Steigerung seit seiner Einführung im Jahr 2015.\nDamit wird ab dem 1.Oktober 2022 jeder\nArbeitnehmer mindestens 12€ brutto die Stunde verdienen statt bisher nur 10,45€.\nIm Folgenden Artikel fassen wir knapp zusammmen,...",
+      "date_published": "2022-10-01T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/smarte_zeiterfassung/",
+      "url": "https://pentacode.app/blog/smarte_zeiterfassung/",
+      "title": "Die Stechuhr war gestern - Warum elektronische Zeiterfassung den Gewinn erhöht",
+      "content_html": "Das EuGH-Urteil von 2019 verpflichtet jedes Unternehmen\ninnerhalb der europäischen Union zur Einführung einer objektiven Erfassung von\nArbeitszeiten. „So weit so schlimm“, wie mancher denken mag. Allerdings muss\ndieses Gesetz erstens auf Länderebene noch umgesetzt werden und zweitens wird\ndas nicht morgen oder übermorgen geschehen. Der gesetzliche Zwang zum Handeln\nlässt jedem Unternehmer also noch...",
+      "date_published": "2022-09-22T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/erfolgsgeschichte_joe_penas/",
+      "url": "https://pentacode.app/blog/erfolgsgeschichte_joe_penas/",
+      "title": "„Dieses Tool lässt mich ruhig schlafen.“ – Wie smartes Personalmanagement Joe Peña&#39;s zum Liebling des Betriebsprüfers machte",
+      "content_html": "Es gibt eine Sache, die lässt jeden noch so erfahrenen Unternehmer nicht kalt.\nSie wissen, was wir meinen? Dann haben Sie vielleicht schon erlebt, was dem\nVollblutgastronom Uli Frankenhauser vor einigen Jahren passiert ist: Zehn\nZollbeamte betreten eine seiner Joe Peña's Standorte in Baden-Württemberg. Nicht\netwa, um die frische und authentische mexikanische Küche samt...",
+      "date_published": "2022-09-15T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/bag_urteil_zeiterfassung/",
+      "url": "https://pentacode.app/blog/bag_urteil_zeiterfassung/",
+      "title": "Urteil des Bundesarbeitsgerichts: Zeiterfassung wird zur Pflicht",
+      "content_html": "Mit dem\ngestrigen Urteil\nhat das Bundesarbeitsgericht entschieden, dass Arbeitgeber zur Einführung\neiner objektiven Zeiterfassung verpflichtet sind.\nDie Nutzung einer elektronischen Zeiterfassung ist bereits heute in vielen\nUnternehmen üblich. Die Entscheidung zur Einführung eines solchen Systems wurde\nallerdings bisher meist vom Arbeitgeber selbst getroffen, nicht selten gegen den\nWiderstand von Gewerkschaften, die hier die Gefahr von Kontrolle...",
+      "date_published": "2022-09-14T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.23/",
+      "url": "https://pentacode.app/blog/update_v1.23/",
+      "title": "Pentacode v1.23: Sofortmeldungen und Personalfragebogen",
+      "content_html": "In vielen Branchen ist das stetiges Kommen und Gehen vieler Mitarbeiter der\nNormalfall - das bedeutet aber nicht nur viel frische Luft im Team, sondern auch\neine ganze Menge Arbeit mit Meldebescheinigungen. Denn es gilt: Jeder\nAngestellte muss vor dem ersten Arbeitseinsatz gemeldet sein.  Für das Update\nv1.23 haben wir uns also entschieden:...",
+      "date_published": "2022-09-04T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/zielfuehrende_kommunikation/",
+      "url": "https://pentacode.app/blog/zielfuehrende_kommunikation/",
+      "title": "Zielführend kommunizieren im Arbeitsalltag - Was unsere Meetings, Mails und Kundengespräche besser macht",
+      "content_html": "Längst ist Kommunikation am Arbeitsplatz nicht mehr auf Telefon, Mail und\nMeeting beschränkt. Teamchats, Tools zum Projekt- und Aufgabenmanagement,\nVideocalls … Wer im digitalen wie analogen “Kommunikationsgewusel” den\nDurchblick behalten und in seiner Kommunikation zielführend vorankommen will,\nmuss sich ein System erarbeiten. Und da jeder anders arbeitet und kommuniziert,\nmuss das ein individuelles System sein....",
+      "date_published": "2022-09-02T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/tipps_mitarbeiter_onboarding/",
+      "url": "https://pentacode.app/blog/tipps_mitarbeiter_onboarding/",
+      "title": "In fünf Schritten zum gelungenen Mitarbeiter Onboarding",
+      "content_html": "„Es gibt keine zweite Chance für den ersten Eindruck.“ - Dieser\nbekannte und wahrlich richtige Satz gilt auch für die Beziehung zwischen einem\nUnternehmen und seinen Mitarbeitern. Und ganz bestimmt auch für die Beziehung\nvon Teammitgliedern untereinander. Kommt ein neuer Kollege oder eine neue\nKollegin ins Team, bringt das immer eine gewisse Spannung mit...",
+      "date_published": "2022-08-24T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/keine_kleinen_broetchen_mehr/",
+      "url": "https://pentacode.app/blog/keine_kleinen_broetchen_mehr/",
+      "title": "Keine kleinen Brötchen mehr backen - Wie Pentacode Personalmanagement spielend leicht macht",
+      "content_html": "Ein „echtes Erweckungserlebnis“ – Jeder, der ein Unternehmen führt, hat in\nseiner Laufbahn mindestens eines davon gehabt. Der Moment, in dem man begreift,\ndass sich grundlegend etwas ändern muss. Bei Lorenz Strasser kam dieses Erwachen\nvor rund zehn Jahren. Als der erfahrene Gastronom, Leiter von 17 Betrieben mit\ninsgesamt 500 Mitarbeitern, nach einer Sozialversicherungsprüfung...",
+      "date_published": "2022-08-16T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/stellenanzeigen_richtig_schreiben/",
+      "url": "https://pentacode.app/blog/stellenanzeigen_richtig_schreiben/",
+      "title": "Stellenanzeigen richtig angehen – In 9 Schritten zum Recruiting-Erfolg",
+      "content_html": "Stellenanzeigen sind noch immer einer der Schlüsselfaktoren für ein\nerfolgreiches Recruiting in Unternehmen und tragen dadurch maßgeblich zum\nUnternehmenserfolg bei. Dementsprechend ist es essentiell, der Erstellung von\nStellenanzeigen die nötige Aufmerksamkeit und Verantwortung im Recruiting\nbeizumessen. Dabei ist es hilfreich, Stellenanzeigen ähnlich wie Werbung zu\neinem Produkt zu betrachten. Zwar will man mit ihnen nicht...",
+      "date_published": "2022-08-03T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/interview_chefentwickler/",
+      "url": "https://pentacode.app/blog/interview_chefentwickler/",
+      "title": "Der Mensch im Fokus: Ein Schulterblick auf die Arbeit eines Chef-Entwicklers",
+      "content_html": "Wie arbeitet eigentlich ein App Entwickler? Welche Fragen und Herausforderungen\nstellt er oder sie sich im Arbeitsalltag? Wie geht man die stetige\nWeiterentwicklung und Optimierung eines technisch so herausfordernden Produktes\nan und wie schafft man es, den ständigen Wandel der Wirtschaft in seinem Produkt\naufzugreifen, um immer am Zahn der Zeit zu bleiben und...",
+      "date_published": "2022-07-19T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/erfolgsgeschichte_wenisch/",
+      "url": "https://pentacode.app/blog/erfolgsgeschichte_wenisch/",
+      "title": "Das Gute von gestern, die Neugier von heute, Visionen von morgen - Was das Genuss-Imperium Wenisch so erfolgreich macht",
+      "content_html": "Ein Hotel, vier Metzgereien mit eigener Produktion, zwei Gastronomien mit\nEventkonzept und ein Festzelt auf Bayerns zweitgrößtem Volksfest - Wer mit Anton\nWenisch am Tisch sitzt und sich über die Genuss-Vision seiner Familie unterhält,\nmerkt schnell: Dieser Mann weiß wo er hinwill. Und er weiß woher er kommt.\nDemütig sein, sein Handwerk von der...",
+      "date_published": "2022-06-20T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/intrinsische_motivation/",
+      "url": "https://pentacode.app/blog/intrinsische_motivation/",
+      "title": "Willkommen im Zeitalter der Dienstleistung! – Warum intrinsische Motivation für jeden Erfolgssuchenden ein Begriff sein sollte",
+      "content_html": "\nÄhnlich wie im Spiel sind wir auch am Arbeitsplatz auf der Suche nach\nsubjektiv empfundenem Fortschritt. Ähnlich wie im Spiel sind wir auch bei der\nArbeit auf der Jagd nach unserem besseren Ich.\n- Roman Rackwitz\n\nRoman Rackwitz, der führende Experte für\nGamification im deutschsprachigen Raum, weiß: Ein Unternehmen, das in Sachen\nMitarbeitermotivation ausschließlich auf hohe...",
+      "date_published": "2022-06-05T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.22/",
+      "url": "https://pentacode.app/blog/update_v1.22/",
+      "title": "Pentacode v1.22: Dokumentenarchiv, Stellenausschreibungen und mehr!",
+      "content_html": "Der Sommer zieht ins Land, uns es sieht so aus als könnten wir dieses Jahr zum\nersten mal seit langem die warme Jahreszeit größtenteils ohne Einschränkungen\ngenießen! Aber während es nun viele in die Biergärten, an die Seen und in die\nBerge zieht, sind unsere Entwickler weiterhin fleißig am Arbeiten 🤓. Und die\nArbeit...",
+      "date_published": "2022-06-05T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/5_fragen_betriebspruefung/",
+      "url": "https://pentacode.app/blog/5_fragen_betriebspruefung/",
+      "title": "Wenn das Finanzamt klingelt - Die 5 häufigsten Fragen zum Thema Betriebsprüfung",
+      "content_html": "Das Thema Betriebsprüfung ist ein leidiges - vor allem für die Unternehmen, die sich nicht gut darauf vorbereiten. Das\nsollten generell aber alle. Denn Betriebsprüfungen können in jedem Unternehmen durchgeführt werden. Also ist es nur eine\nFrage der Zeit, bis das Thema für den eigenen Betrieb relevant wird. Da es ein weites...",
+      "date_published": "2022-05-30T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/erfolg_durch_faktor_zeit/",
+      "url": "https://pentacode.app/blog/erfolg_durch_faktor_zeit/",
+      "title": "Erfolg durch Faktor Zeit",
+      "content_html": "\nWer Zeitfresser eliminiert, wird erfolgreicher sein.\n– Pentacode Gründer Lorenz Strasser über die Freisetzung versteckter Unternehmenspotentiale\n\nWas es braucht, um langfristig und nachhaltig erfolgreich zu sein? Für den erfahrenen Gastronom, Unternehmensberater und\nPentacode Gründer Lorenz Strasser ist das neben einem stimmigen Produkt und gutem Preis-Leistungs-Verhältnis vor allem\neins: das richtige Maß an Zeit. Jahrelang...",
+      "date_published": "2022-04-29T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/eugh_urteil/",
+      "url": "https://pentacode.app/blog/eugh_urteil/",
+      "title": "Und täglich grüßt die Stechuhr – Alles, was Unternehmen rund um das EuGH Urteil zur Zeiterfassung wissen müssen",
+      "content_html": "Im Mai 2019 fällte der Europäische Gerichtshof als Reaktion auf die Klage einer spanischen Gewerkschaft ein\nbeträchtliches Urteil zum Thema Arbeitszeiterfassung: Jeder EU-Mitgliedsstaat wird dazu verpflichtet, gesetzlich dafür\nzu sorgen, dass jeder Arbeitgeber ein Echtzeit-System zur Arbeitszeiterfassung der Angestellten einführt. Auch deutsche\nUnternehmer und Gastronomen sind zukünftig verpflichtet, ein solches System anzuwenden. Bevor...",
+      "date_published": "2022-04-15T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/arbeit_auf_abruf/",
+      "url": "https://pentacode.app/blog/arbeit_auf_abruf/",
+      "title": "Arbeit auf Abruf",
+      "content_html": "„Arbeit auf Abruf“ ist einfach definiert: Ein Mitarbeiter kommt zur Arbeit, wenn es etwas zu tun gibt. Dieses Modell\nermöglicht es einem Arbeitgeber, Mitarbeiter flexibel einzusetzen, um nicht zu planende Arbeitsspitzen abzudecken.\nDieses Modell kann bei Teilzeitbeschäftigten angewendet werden, in den meisten Fällen trifft es jedoch auf geringfügig\nBeschäftigte zu. Denn genau dafür...",
+      "date_published": "2022-04-08T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.21/",
+      "url": "https://pentacode.app/blog/update_v1.21/",
+      "title": "Pentacode v1.21: Verfügbarkeiten, Festschreibung von Arbeitszeiten",
+      "content_html": "Es ist uns immer wieder eine Freude, große und kleine Neuerungen und Verbesserungen an unserer Software vorzustellen!\nAuch version 1.21 bringt wieder mal einige tolle neue Features:\nVerfügbarkeiten\n{% figure caption=&quot;Über die App können Ihre Mitarbeiter Verfügbarkeiten selbst eintragen!&quot;, extraClass=&quot;float-right&quot; %}\n\n{% endfigure %}\nDas Planen von Arbeitszeiten kann eine enorm komplizierte Aufgabe sein, gerade...",
+      "date_published": "2022-02-16T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/steuerdaten_minijobber/",
+      "url": "https://pentacode.app/blog/steuerdaten_minijobber/",
+      "title": "DBST erforderlich - Minijobber müssen zukünftig auch mit Steuer-ID gemeldet werden",
+      "content_html": "Minijobber unter der 520€ Grenze sind zwar einkommenssteuerbefreit,\nein Arbeitgeberanteil der Lohnsteuerabgaben muss aber trotzdem entrichtet werden. Dieser wird gemeinsam mit\nSozialabgaben an die Minijobzentrale gezahlt. Nun hat der Gesetzgeber\nbeschlossen, dass der Minijobzentrale zukünftig auch die Steuernummer der\ngeringfügig Beschäftigen mitzuteilen ist, damit diese prüfen kann ob bei der\nAbgabe der Lohnsteuer alles mit...",
+      "date_published": "2021-12-16T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/lohnanspruch-lockdown/",
+      "url": "https://pentacode.app/blog/lohnanspruch-lockdown/",
+      "title": "Lockdown - Minijobber haben keinen Anspruch auf Entgeltfortzahlung",
+      "content_html": "Während der diversen Lockdowns über die vergangenen zwei Jahren waren viele\nBetriebe gezwungen zu schließen und ihre Mitarbeiter in\nKurzarbeit zu schicken. Für Teil- und Vollzeitangestellte gab es staatliche\nHilfspakete durch Kurzarbeit - Minijobber hingegen gingen leer aus und die Frage\nbestand, ob der Arbeitsgeber verpflichtet ist den entfallenen Lohn zu entrichten. In einem\nPräzedenzurteil...",
+      "date_published": "2021-10-15T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.19/",
+      "url": "https://pentacode.app/blog/update_v1.19/",
+      "title": "Pentacode v1.19: Dienstplannotizen, Schichtwahl, Schichttausch",
+      "content_html": "Pentacode Version 1.19.0 ist hier! Dieses Update bringt einige langerwartete Features und Verbesserungen.\nDienstplannotizen\nDas Erstellen von Dienstplänen ist meist eine routinemäßige Angelegenheit. Aber selbst im &quot;langweiligsten&quot; Betrieb gibt es immer wieder besondere Ereignisse oder Aktionen, die in der Dienstplanung berücksichtigt werden müssen. Hierfür gibt es in Pentacode nun die Dienstplannotizen! Dienstplannotizen...",
+      "date_published": "2021-07-24T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/update_v1.18/",
+      "url": "https://pentacode.app/blog/update_v1.18/",
+      "title": "Pentacode v1.18: Pausen Planen, Zeiterfassungs-Regelsätze und mehr",
+      "content_html": "Es ist wiedermal Zeit für ein größeres Update! Pentacode v1.18 bringt Verbesserungen im Bereich der Zeiterfassungseinstellungen, ein überarbeitetes Arbeitszeitkonto und eine neue Möglichkeit der Pausenerfassung!\nKomplexe Zeiterfassungsregeln Leicht Gemacht\nEgal wie sie Ihre Arbeitszeiten erfassen - ob manuell, über die digitale Stempeluhr oder per Mitarbeiter-App,\nPentacode bietet eines der mächtigsten und flexibelsten Zeiterfassungssysteme...",
+      "date_published": "2021-07-11T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/weshalb-sie-zuversichtlich-in-das-neue-jahr-gehen-sollten/",
+      "url": "https://pentacode.app/blog/weshalb-sie-zuversichtlich-in-das-neue-jahr-gehen-sollten/",
+      "title": "Weshalb Sie zuversichtlich in das Neue Jahr gehen sollten",
+      "content_html": "Im Anschluss an den ersten Weltkrieg wütete in Europa eine Pandemie ungeahnten Ausmaßes. In den Jahren 1918 bis 1920 kam die „Spanische Grippe“ in drei Wellen über die Menschheit. Je nach Schätzung forderte sie zwischen 20 und 100 Millionen Menschenleben. Sie brachte damit weit mehr Tote hervor als die vorangegangene...",
+      "date_published": "2020-12-23T11:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/soli_abschaffung/",
+      "url": "https://pentacode.app/blog/soli_abschaffung/",
+      "title": "Solidaritätszuschlag Adieu - Wer nicht mehr zahlen muss",
+      "content_html": "Ursprünglich im Zuge des Golfkriegs eingeführt und später für die Finanzierung\nder Deutschen Einheit genutzt - der Solidaritätszuschlag entfällt nach 30 Jahren\nfür einen Großteil der Steuerzahler. Was genau sich zum 1.1.2021 ändert und ob\nSie und ihre Mitarbeiter von der teilweisen Abschaffung profitieren, fassen wir\nim folgenden Artikel zusammen.\nBisherige Rechtslage\nDer Solidaritätszuschlag ist eine...",
+      "date_published": "2020-12-05T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/lockdown-im-november/",
+      "url": "https://pentacode.app/blog/lockdown-im-november/",
+      "title": "Lockdown im November – endlich ein deutliches Zeichen an die Gastronomen",
+      "content_html": "Die Politik hat anscheinend begriffen, dass für den November-Lockdown eine echte Unterstützung der Betriebe notwendig ist. Sie als Gastronomen und Hoteliers erhalten bis zu 75% des Umsatzes, den Sie im November 2019 erzielt haben.\nDiese Maßnahme bedeutet, dass Ihnen auch die Gewinne ausgezahlt werden, die sie im November letzten Jahres erzielt...",
+      "date_published": "2020-11-05T23:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/personalkosten-optimierung/",
+      "url": "https://pentacode.app/blog/personalkosten-optimierung/",
+      "title": "Personalkosten-Optimierung in der Gastronomie - es gibt mehr Möglichkeiten als Sie denken",
+      "content_html": "Im Verhältnis zu anderen Branchen schneidet die Gastronomie im Durchschnitt wirtschaftlich relativ schlecht ab. Dies wird häufig damit begründet, dass Lohnkosten und Abgabenlast zu hoch und damit die Profitabilität der Unternehmen zu gering seien. Dieser Eindruck entsteht leicht und ist verständlich, wenn ein Gastronom nach einer langen Reihe langer und...",
+      "date_published": "2020-09-24T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/hilfe-zur-selbsthilfe/",
+      "url": "https://pentacode.app/blog/hilfe-zur-selbsthilfe/",
+      "title": "Hilfe zur Selbsthilfe",
+      "content_html": "Wie Sie SFN-Zuschläge nutzen können, um Lohnkosten zu senken\nMit der Wiedereröffnung der Gastronomie werden die Auswirkungen der „Neuen Normalität“ in der ersten Instanz erfahrbar. Allein die vorgeschriebenen Tischzusammensetzungen und Abstandsregeln führen in vielen Fällen zu einer Halbierung der einstmals vorhandenen Sitzplätze und damit schon rechnerisch zu einer Halbierung der bisherigen...",
+      "date_published": "2020-06-29T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/kurzarbeit_wenn_der_pruefer_kommt/",
+      "url": "https://pentacode.app/blog/kurzarbeit_wenn_der_pruefer_kommt/",
+      "title": "Kurzarbeit – wenn der Prüfer kommt",
+      "content_html": "\n„Wir sind nicht naiv, und wir haben einen langen Atem“\n- Daniel Terzenbach, Vorstand der Bundesagentur für Arbeit [^1]\n\nKurzarbeit war für die allermeisten Gastronomen bis zur Corona-Epidemie ein\nFremdwort. Kurzarbeit betraf Mitarbeiter in der Schwerindustrie und in der\nAutomobilherstellung, aber doch nicht Hotels und Restaurants. Mit der\nbehördlichen Schließung aller gastronomischen Betriebe, ein bisher...",
+      "date_published": "2020-05-30T00:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/warum-sie-sich-heute-fur-die-zukunft-vorbereiten-sollten/",
+      "url": "https://pentacode.app/blog/warum-sie-sich-heute-fur-die-zukunft-vorbereiten-sollten/",
+      "title": "Warum Sie sich heute für die Zukunft vorbereiten sollten",
+      "content_html": "„Never let a good crisis go to waste. And what I mean by that it's an opportunity to do things you think you could not do before.”\n(Rahm Emanuel, ehemals “chief of staff” von Präsident Barack Obama)\nCorona bringt das Wirtschaftsleben in ganz Europa zu weiten Teilen zum Erliegen. Wenn Restaurants und...",
+      "date_published": "2020-04-07T22:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/interview-munich-one/",
+      "url": "https://pentacode.app/blog/interview-munich-one/",
+      "title": "Interview Munich One",
+      "content_html": "Unmittelbar nach Beginn des ersten Lockdowns im März 2020 wurde der Geschäftsführer von Pentacode zu seiner Einschätzung der Situation der Gastronomie interviewt. Die meisten Prognosen haben sich als richtig erwiesen. Aber sehen Sie vielleicht selbst.\n{% youtube &quot;IOGNwP6xw98&quot; %}\n...",
+      "date_published": "2020-03-29T22:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/lebensmittel-spenden/",
+      "url": "https://pentacode.app/blog/lebensmittel-spenden/",
+      "title": "Wo Sie Ihre Lebensmittel-Restbestände spenden können",
+      "content_html": "Heute, am 20.03. hat die bayerische Staatsregierung die Ausgangssperre ab 0:00 Uhr beschlossen. Es steht zu erwarten, dass weitere Länder folgen werden. Mit heute sind auch die bisher nur eingeschränkten Öffnungszeiten von Restaurants aufgehoben, es schließen nun alle Betriebe.\nDamit stellt sich für viele Restaurants vermutlich die Frage: Wo hin mit...",
+      "date_published": "2020-03-29T22:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/corona-krise-infos/",
+      "url": "https://pentacode.app/blog/corona-krise-infos/",
+      "title": "Wichtige Infos im Rahmen der Corona-Krise",
+      "content_html": "Die Epidemie des Covid-19 Virus versetzt gerade die Welt in einen Ausnahmezustand. Jeder ist von der Krise betroffen, viele sehen Ihre Existenz bedroht. Vor allem die Gastronomie trifft die Corona-Krise hart - eine Branche die uns sehr am Herzen liegt und von der auch unsere eigene wirtschaftliche Zukunft direkt abhängt....",
+      "date_published": "2020-03-19T23:00:00Z"
+    }
+    ,
+    {
+      "id": "https://pentacode.app/blog/covid-ratgeber-gastronomen/",
+      "url": "https://pentacode.app/blog/covid-ratgeber-gastronomen/",
+      "title": "Corona-Krisenratgeber für Gastronomen: So beantragen Sie Hilfsmittel",
+      "content_html": "Die Regierungen von Bund und Ländern haben angesichts der Corona-Krise ein außergewöhnliches Paket an Hilfsmaßnahmen zusammengestellt und eine unbürokratische Umsetzung zugesichert.\nDas Maßnahmenpaket ist tatsächlich beeindruckend. Um in dessen „Genuss“ zu kommen, ist es jedoch notwendig, die entsprechenden Anträge bei den jeweils zuständigen Behörden zu stellen.\nUm dies zu erleichtern, haben wir...",
+      "date_published": "2020-03-19T23:00:00Z"
+    }
+    
+  ]
+}
