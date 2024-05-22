@@ -4,9 +4,70 @@ title: Änderungsprotokoll
 weight: 5
 icon: "clipboard-list"
 ---
+# Änderungsprotokoll
 
-Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
+Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
+## 1.26.9
+
+### Behobene Fehler
+
+-   Im Export "DATEV Lodas" wurden tauchten nicht vergebene Mitarbeiteressen mit 0€ auf.
+-   In einigen Fällen wurden manuelle Überträge im Arbeitszeitkonto nicht gespeichert.
+-   In seltenen Fällen kam es beim Export von Lohnberichten zu einer Fehlermeldung
+-   Urlaubsbuchungen wurden fälschlicherweise bei der Abrechnung des Arbeitszeitkontos im Lohnbericht, AZ-Nachweis und AZ-Blatt des Mitarbeiters mit angezeigt.
+-   In einigen Fällen unterschieden sich die prognostizierten IST-Stunden der Mitarbeiter bei der Dienstplanung zwischen Mitarbeiteransicht und Tagesansicht.
+-   In einigen Fällen wurde die Prognose der IST-Stunden trotz Änderung im Dienstplan nicht aktualisiert.
+-   Beim erneuten Speichern von Zurücksetzungen kam es in manchen Fällen zu einem ungewollten Vorzeichenwechsel bei negativen Beträgen.
+
+## 1.26.8
+
+### Änderungen & Neuigkeiten
+
+-   Mitarbeiter lassen sich an allen relevanten Stellen nun auch nach Position filtern.
+-   Im Export des Arbeitszeitnachweises sind jetzt auch entsprechend gekennzeichnete Planzeiten enthalten.
+
+### Behobene Fehler
+
+-   In einigen Fällen wurden eingehende Bewerbungen nicht korrekt übermittelt.
+
+## 1.26.7
+
+### Behobene Fehler
+
+-   Neue Zuschlagsarten konnten nicht angelegt werden, wenn die Art der Vergütung "Fester Stundensatz" oder "Fester Betrag" ausgewählt war.
+-   Bei Export von Arbeitszeitnachweisen wurde beim Ablegen des Dokumentes bei jedem Mitarbeiter alle Schichten angezeigt.
+-   Im Planungsmodul konnte nur die aktuelle Woche eingesehen werden.
+
+## 1.26.6
+
+### Behobene Fehler
+
+-   In den Berichten "Umsätze" und "Arbeitszeit" konnte nur das aktuelle Jahr eingesehen werden.
+-   In seltenen Fällen glichen die Überstundenwerte am Ende einer Woche nicht den Werten am Anfang der Folgewoche.
+-   Der Export "Arbeitszeitnachweis" zeigte in einigen Fällen ein leeres Blatt.
+-   In einigen Fällen wurde der Übertrag trotz zurückgesetzter Konten angezeigt.
+-   In einigen Fällen wurden Mitarbeiter nicht im Lohnexport aufgeführt, da manchen Schichten keine Lohnarten zugeordnet werden konnten.
+
+## 1.26.5
+
+### Änderungen & Neuigkeiten
+
+-   Bei der Anzeige von Schichten in der Mitarbeiter-App werden nun (dort wo nötig) zusätzlich zu der Position auch Abteilung und Standort angezeigt, um zwischen Positionen/Abteilungen mit gleichen Namen unterscheiden zu können.
+
+### Behobene Fehler
+
+-   "Fehlerhaftes Datum" wurde bei einigen Zuschlägen angezeigt und durch eine neue Formatierung behoben.
+-   In der Dienstplanansicht der neuen Stempeluhr wurden auch nicht veröffentlichte Schichten angezeigt.
+-   Manuelle Zeitbuchungen wurden im Export "Lohnbericht (Übersicht)" nicht angezeigt.
+-   Die Mitarbeiter-App hat sich beim Öffnen des QR-Code Scanners aufgehängt, wenn kein Zugriff für die Kamera im Browser vergeben wurde.
+-   Nicht zugewiesene Schichten wurden nicht in der Vorschau-Ansicht einer Dienstplanvorlage gezeigt.
+-   Bei Zeiträumen, die mit einer Vertragsunterbrechung beginnen, kam es in manchen Fällen zu fehlerhaften Lohnberichten.
+-   Bei der Berechnung des Lohns für Zuschläge wurde bei Mitarbeitern mit positionsabhängigen Stundensätzen in manchen Fällen der falsche Stundenlohn herangezogen.
+-   Im Arbeitszeitblatt wurden fälschlicherweise nicht abgeschlossene Schichten aufgelistet.
+-   Beim Speichern von Stundenvorgaben kam es in manchen Fällen zu Fehlermeldungen.
+-   In seltenen Fällen wurden über die Mitarbeiter-App erfasste Zeiten nicht korrekt übernommen.
+-   Die Anzeige des jährlichen Urlaubsanspruchs im Arbeitszeitblatt und Dienstplan war in in seltenen Fällen noch immer inkorrekt.
 
 ## 1.26.4
 
@@ -44,7 +105,8 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 ### Behobene Fehler
 
 -   In manchen Fällen war die Navigation in den Bereich "Mitarbeiter" nicht möglich
--   Beim Wechsel des Datums oder Untermenüpunktes im Bereich Umsätze sprang die Auswahl immer auf den ersten Standort zurück.
+-   Beim Wechsel des Datums oder Untermenüpunktes im Bereich Umsätze sprang die Auswahl
+    immer auf den ersten Standort zurück.
 
 ## 1.26.0
 
@@ -75,6 +137,30 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   Die Mindestdauer kann nun auch in Prozent der Gesamtdauer angegeben werden.
 -   Neue Vergütungsarten "Fester Stundensatz" und "Fester Betrag"
 
+## 1.25.15
+
+### Behobene Fehler
+
+-   Stempeluhr 2.0: In manchen Fällen konnten bei fehlender Internetverbindung bereits geladene Schichten nicht begonnen werden, obwohl sie laut Zeiterfassungseinstellungen bereits verfügbar sein sollten.
+
+## 1.25.14
+
+### Behobene Fehler
+
+-   Beim Ändern der einer Position im Dienstplan wurde diese Änderung nicht unmittelbar als unveröffentlichte Änderung erkannt.
+-   Bei der Berechnung von "täglichen" Zuschlägen (z.B. Nacht 1) kam es in seltenen Fällen zu einer fehlerhaften Berechnung der Zuschlagszeiten.
+
+## 1.25.13
+
+### Änderungen & Neuigkeiten
+
+-   Neue Pausenmodi ["Automatisch oder Manuell"](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#automatisch-oder-manuell) und ["Geplant oder Manuell"](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#geplant-oder-manuell).
+
+### Behobene Fehler
+
+-   In seltenen Fällen konnten Debitorenrechnungen nicht als bezahlt markiert werden.
+-   Stempeluhr 2.0: Bei der Eingage der persönlichen PINs griffen in manchen Fällen die eingestellten Filter nicht (PIN wurde erkannt obwohl der Mitarbeiter nicht Teil der eingestellten Arbeitsbereiche war).
+-   Stempeluhr 2.0: Schichten konnten nicht beendet werden, wenn am Folgetag ein Urlaub eingetragen war.
 
 ## 1.25.12
 
@@ -143,7 +229,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.5
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   Ereignisse im Zeiterfassungsprotokoll wurde nicht korrekt nach Zuständigkeitsbereichen gefiltert.
 -   Bei Vertragsänderungen wurden Konten nicht automatisch neu berechnet.
@@ -153,7 +239,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.4
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   Beim Erfassen von spontanen Schichten über die Stempeluhr 2.0 wurde in manchen Fällen statt der gewählten Position die Standardposition des Mitarbeiters gewählt.
 -   Bei Urlaubsanträgen und Krankmeldungen kam es zu Fehlern beim Versand der Emailbenachrichtigung (Sender und Empfänger wurden vertauscht).
@@ -162,26 +248,26 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.25.3
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   In manchen Fällen wurde an der Stempeluhr (alt) kein QR-Code angezeigt.
 
 ## 1.25.2
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   Bei der Berechtigungen-Übersicht wurde aufgrund eines Darstellungsfehlers eine falsche Anzahl an freigegebenen Mitarbeitern angezeigt.
 -   In manchen Fällen wurde die Zuständigkeitsbereich-Einschränkunen im Zeiterfassungs-Dashboard nicht korrekt angewendet.
 
 ## 1.25.1
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   Bei manchen Nutzern war der Zugriff auf den Bereich Umsätze nicht möglich.
 
 ## 1.25.0
 
-### Änderungen & Neuigkeiten
+## Änderungen & Neuigkeiten
 
 -   Bei Mitarbeiteressen wird nun zwischen **Frühstück**, **Mittagessen** und **Abendessen** unterschieden!
 -   Beim Export nach Datev, Addisson, Agenda und Co. können Mitarbeiteressen nun auch als Anzahl exportiert werden.
@@ -197,18 +283,18 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
     -   Detailliertes **Zeiterfassungs-Ereignisprotokoll**
 -   Überarbeitetes **Berechtigungssystem**: Zusätzlich zu Berechtigungen können nun auch **Zuständigkeitsbereiche** definiert werden. Diese Bestimmen, welche Standorte und Abteilungen ein Mitarbeiter einsehen und Verwalten darf. Diese Einschränkung wirkt sich auf sämtliche Berechtigungen, sowie die gesamte Anzeige im Verwaltungsportal aus (Mitarbeiterlisten, Exportfilter etc.).
 -   Die Reihenfolge von Standorten kann nun bearbeitet werden.
--   Die Reihenfolge von Dienstplan-Tabs kann nun bearbeitet werden (via Drag & Drop)m Pentacode Projekt.
+-   Die Reihenfolge von Dienstplan-Tabs kann nun bearbeitet werden (via Drag & Drop)
 
 ## 1.24.12
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   In manchen Fällen wurde bestimmenten Zuschlägen die falsche Kostenstelle zugewiesen
 -   Die Einstellung "Schichtbeginn Vor" für Zuschläge griff in machen Fällen nicht.
 
 ## 1.24.11
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   Das Anwenden von Dienstplanvorlagen war seit v1.24.10 nicht mehr möglich.
 -   Das Leeren des Dienstplans war seit v1.24.10 nicht mehr möglich.
@@ -217,12 +303,12 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.24.10
 
-### Änderungen & Neuigkeiten
+## Änderungen & Neuigkeiten
 
 -   Überarbeitete UI für das Bearbeiten von Dienstplantabs.
 -   Frei- und Guttage müssen nun genauso wie andere Dienstplaneinträge explizit veröffentlicht werden bevor sie in der Mitarbeiter-App oder im öffentlichen Dienstplan erscheinen.
 
-### Behobene Fehler
+## Behobene Fehler
 
 -   Bei Standorten mit einer oder mehreren archivierten Abteilungen kam es bei der Festlegung der Abteilungs-Reihenfolge zu Problemen.
 -   Die Berechnung von Zuschlagskosten unter Berichte/Personalkosten war bei machen Unternehmen fehlerhaft.
@@ -506,7 +592,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 ### Änderungen & Neuigkeiten
 
 -   Neues Feature: [Verfügbarkeiten](https://pentacode.app/hilfe/handbuch/mitarbeiter/verfügbarkeiten/)
--   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/einstellungen/unternehmen/#arbeitszeiten-%26-konten-festschreiben)
+-   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben)
 -   Zusätzlich zu Nacht 1 und Nacht 2 können nun auch die Zuschlagszeiträume für Folgetage nach Sonn- und Feiertagen,
     sowie die "besonderen Feiertage" Heilig Abend und Silvester bearbeitet werden.
 -   In der Abwesenheits-Übersicht werden nun auch Vertragsunterbrechungen und generelle Zeiträume ohne aktiven Vertrag
