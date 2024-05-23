@@ -229,7 +229,7 @@ Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
 ## 1.25.5
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Ereignisse im Zeiterfassungsprotokoll wurde nicht korrekt nach Zuständigkeitsbereichen gefiltert.
 -   Bei Vertragsänderungen wurden Konten nicht automatisch neu berechnet.
@@ -239,7 +239,7 @@ Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
 ## 1.25.4
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Beim Erfassen von spontanen Schichten über die Stempeluhr 2.0 wurde in manchen Fällen statt der gewählten Position die Standardposition des Mitarbeiters gewählt.
 -   Bei Urlaubsanträgen und Krankmeldungen kam es zu Fehlern beim Versand der Emailbenachrichtigung (Sender und Empfänger wurden vertauscht).
@@ -248,26 +248,26 @@ Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
 ## 1.25.3
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   In manchen Fällen wurde an der Stempeluhr (alt) kein QR-Code angezeigt.
 
 ## 1.25.2
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei der Berechtigungen-Übersicht wurde aufgrund eines Darstellungsfehlers eine falsche Anzahl an freigegebenen Mitarbeitern angezeigt.
 -   In manchen Fällen wurde die Zuständigkeitsbereich-Einschränkunen im Zeiterfassungs-Dashboard nicht korrekt angewendet.
 
 ## 1.25.1
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei manchen Nutzern war der Zugriff auf den Bereich Umsätze nicht möglich.
 
 ## 1.25.0
 
-## Änderungen & Neuigkeiten
+### Änderungen & Neuigkeiten
 
 -   Bei Mitarbeiteressen wird nun zwischen **Frühstück**, **Mittagessen** und **Abendessen** unterschieden!
 -   Beim Export nach Datev, Addisson, Agenda und Co. können Mitarbeiteressen nun auch als Anzahl exportiert werden.
@@ -287,14 +287,14 @@ Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
 ## 1.24.12
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   In manchen Fällen wurde bestimmenten Zuschlägen die falsche Kostenstelle zugewiesen
 -   Die Einstellung "Schichtbeginn Vor" für Zuschläge griff in machen Fällen nicht.
 
 ## 1.24.11
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Das Anwenden von Dienstplanvorlagen war seit v1.24.10 nicht mehr möglich.
 -   Das Leeren des Dienstplans war seit v1.24.10 nicht mehr möglich.
@@ -303,12 +303,12 @@ Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
 
 ## 1.24.10
 
-## Änderungen & Neuigkeiten
+### Änderungen & Neuigkeiten
 
 -   Überarbeitete UI für das Bearbeiten von Dienstplantabs.
 -   Frei- und Guttage müssen nun genauso wie andere Dienstplaneinträge explizit veröffentlicht werden bevor sie in der Mitarbeiter-App oder im öffentlichen Dienstplan erscheinen.
 
-## Behobene Fehler
+### Behobene Fehler
 
 -   Bei Standorten mit einer oder mehreren archivierten Abteilungen kam es bei der Festlegung der Abteilungs-Reihenfolge zu Problemen.
 -   Die Berechnung von Zuschlagskosten unter Berichte/Personalkosten war bei machen Unternehmen fehlerhaft.
