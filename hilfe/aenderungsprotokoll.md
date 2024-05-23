@@ -6,7 +6,7 @@ icon: "clipboard-list"
 ---
 # Änderungsprotokoll
 
-Diese Datei enthält alle wesentlichen Änderungen im Pentacode Projekt.
+Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ## 1.26.9
 
