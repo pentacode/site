@@ -8,13 +8,31 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.27.0
+
+### Änderungen & Neuigkeiten
+
+-   Neues Exportformat: Der Dienstplan kann nun als Excel-Datei exportiert werden.
+-   Neues Exportformat: Mitarbeiterstammdaten können nun als CSV-Datei exportiert werden.
+-   Lohnarten können nun gesondert angelegt werden und lassen sich auch Zeitbuchungen zuordnen.
+-   Die Darstellung von Zurücksetzungen bei Arbeitszeit- und Urlaubskonto wurde verbessert und zeigt nun die Saldi der entstehenden Unterzeiträume an.
+-   Das Exportformat "DATEV Lodas" wurde auf die Lodas Version 12.72 aktualisiert.
+-   Die Vergütungsarten "fester Betrag" und "fester Stundensatz" können nun auch für die Berechnung von Zuschlägen verwendet werden.
+-   Es können nun Zeitbuchungen parallel für mehrere Mitarbeiter als Stapelbuchung angelegt werden.
+-   Es wurden Schlagwörter für Mitarbeiter eingeführt, die es erlauben diese individuell zu kategorisieren und zu filtern.
+
+### Behobene Fehler
+
+-   In seltenen Fällen wurden Saldi im Arbeitszeitkonto falsch angezeigt, wenn das Konto im Laufe eines Monats zurückgesetzt wurde.
+-   In einigen Fällen wurde der Urlaubsanspruch falsch angezeigt, wenn dieser im Verlauf des Jahres zurückgesetzt wurde.
+
 ## 1.26.9
 
 ### Behobene Fehler
 
--   Im Export "DATEV Lodas" wurden tauchten nicht vergebene Mitarbeiteressen mit 0€ auf.
+-   Im Export "DATEV Lodas" tauchten nicht vergebene Mitarbeiteressen mit 0€ auf.
 -   In einigen Fällen wurden manuelle Überträge im Arbeitszeitkonto nicht gespeichert.
--   In seltenen Fällen kam es beim Export von Lohnberichten zu einer Fehlermeldung
+-   In seltenen Fällen kam es beim Export von Lohnberichten zu einer Fehlermeldung.
 -   Urlaubsbuchungen wurden fälschlicherweise bei der Abrechnung des Arbeitszeitkontos im Lohnbericht, AZ-Nachweis und AZ-Blatt des Mitarbeiters mit angezeigt.
 -   In einigen Fällen unterschieden sich die prognostizierten IST-Stunden der Mitarbeiter bei der Dienstplanung zwischen Mitarbeiteransicht und Tagesansicht.
 -   In einigen Fällen wurde die Prognose der IST-Stunden trotz Änderung im Dienstplan nicht aktualisiert.
