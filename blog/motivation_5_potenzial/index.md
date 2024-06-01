@@ -31,24 +31,9 @@ Deshalb versuchen moderne Arbeitgeber zunehmend darauf zu setzen, dass Mitarbeit
 
 Doch wie schaffen wir es nun, dass unsere Mitarbeiter die **Ziele unseres Unternehmens** zu den ihren machen? Kundenattitüde, Leistungsstreben, Produktivität und Firmenloyalität also **internalisieren**? Ich nutze dabei gerne die Metapher eines Gärtners, der einen Baum durch **Wachstumsphasen** steuert:
 
-
 <figure>
-<img src="nl05_potenzial_hoch.webp" alt="Wie bei einer Pflanze müssen auch wir erst in das Wachstum des Mitarbeiters investieren bevor wir die Früchte seiner Arbeit ernten können." />
+<img src="nl05_potenzial_selbstbestimmung.webp" alt="Wie bei einer Pflanze müssen auch wir erst in das Wachstum des Mitarbeiters investieren, bevor wir die Früchte seiner Arbeit ernten können." />
 </figure>
-
-<div style="display: flex; justify-content: space-between;">
-     <div style="width: 30%; padding: 10px; box-sizing: border-box;">
-            <h3 style="margin-top: 0;">Der Samen</h3>
-            <p style="text-align: justify;">Wir glauben daran, dass jeder Mitarbeiter Potenzial und den Wunsch hat, dieses zu zeigen. Nur wenn wir Arbeit und Vertrauen investieren kann der Samen keimen – manche keimen nie, doch das kann man zuvor kaum wissen.</p>
-    </div>
-     <div style="width: 30%; padding: 10px; box-sizing: border-box; border-radius: 5px;">
-            <h3 style="margin-top: 0;">Der Setzling</h3>
-            <p style="text-align: justify;">Zu Beginn kennen viele Mitarbeiter noch nicht ihren Platz im Unternehmen. Sie brauchen sowohl eine Stütze, als auch genug Freiraum zum Wachsen. Wenn wir zu viel Kontrolle und Druck ausüben, geht der Setzling ein oder spürt keinen Drang zu wachsen.</p>
-     </div>
-    <div style="width: 30%; padding: 10px; box-sizing: border-box; border-radius: 5px;">
-            <p style="text-align: justify;">Wenn wir dem Mitarbeiter Potenzial und Raum zusprechen und Unterstützung zum Wachsen geben, wird unsere Arbeit Früchte tragen. Mit etwas Glück entsteht ein resistenter und eigenständiger Mitarbeiter, der das Unternehmen voranbringt.</p>
-     </div>
- </div>
 
 Grundvoraussetzung sind also das Vertrauen in den Mitarbeiter, die nötige Stütze und genug Freiraum. Am Ende des Tages haben die meisten von uns den Wunsch eine gute und sinnvolle Arbeit zu erledigen und unser Potenzial zu nutzen. Wir können dem Mitarbeiter dabei helfen, **diesen Wunsch auch auf seine Leistung in der Arbeit zu übertragen** und werden uns wundern wie viel Potenzial in ihm steckt.
 
