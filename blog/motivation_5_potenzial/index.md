@@ -15,7 +15,7 @@ sondern, der das Verlangen weckt, etwas zu tun.“* </p>
 
 Stellen Sie sich vor, was Ihr Team erreichen kann, wenn jeder den Unternehmenserfolg als persönliche Mission betrachtet. Wenn **Selbstmotivation** und **Eigenverantwortung** nicht nur große Worte, sondern gelebte Werte sind. Wenn Kontrolle und Druck zur Seltenheit werden und Sie mehr Zeit für Wichtiges haben.
 
-Hört sich utopisch an – ist aber möglich. Indem wir erst die [Barrieren der Motivation abgebaut](/blog/motivation_2_hygienefaktoren/) und durch [offene Kommunikation](/blog/motivation_4_kommunikation/) eine Brücke zwischen Mitarbeitern und den Zielen des Unternehmens geschaffen haben, ist das Fundament gelegt. Nun geht es darum den Mitarbeitern das nötige Vertrauen entgegen zu bringen und ihre Selbstbestimmtheit zu fördern. Ziel ist dabei, **eine Umgebung zu schaffen, in der Erfolg natürlich entsteht**. Wie wir das machen und was das Ganze mit dem Gärtnern zu tun hat, im Folgenden.
+Hört sich utopisch an – ist aber möglich. Indem wir erst die [Barrieren der Motivation abgebaut](/blog/motivation_2_hygienefaktoren/) und durch [offene Kommunikation](/blog/motivation_4_kommunikation/) eine Brücke zwischen Mitarbeitern und den Zielen des Unternehmens geschaffen haben, ist das Fundament gelegt. Nun geht es darum den Mitarbeitern das nötige Vertrauen entgegen zu bringen und ihre Selbstbestimmtheit zu fördern. Ziel ist dabei, **eine Umgebung zu schaffen, in der Erfolg natürlich entsteht**. Wie wir das machen und was das Ganze mit dem Gärtnern zu tun hat, beschreiben wir im Folgenden.
 
 ## Motivation geht nicht mehr nur von außen
 
@@ -47,6 +47,7 @@ Fragen Sie dazu doch mit einer der von uns [hier](/blog/motivation_4_kommunikati
 Den Mitarbeiter im „gegnerischen Team“ zu sehen und ausschließlich mit Druck und Geld zu motivieren, ist ein Relikt aus vergangenen Zeiten. Wir sind überzeugt, dass es **einen besseren Weg** gibt und glauben an das **Potenzial** unserer Mitarbeiter – wir müssen es nur noch **zum keimen bringen**.
 
 **Wie wir die Selbstbestimmtheit fördern ohne die Zügel zu schnell aus der Hand zu geben** oder unsere Mitarbeiter zu überfordern, betrachten wir in den kommenden Wochen. Dazu konzentrieren wir uns erst einmal auf die Eigenständigkeit und Autonomität im Arbeitsalltag.
+
 
 <p style="text-align: center"> **Wir wünschen Ihnen eine motivierte Woche!** </p>
 <p style="text-align: center"> **Ihr Pentacode Team** </p>
