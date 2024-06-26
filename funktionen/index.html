@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang=de-de>
+    <head>
+        <title>Funktionen | Pentacode</title>
+        <meta content="width=device-width,initial-scale=1,minimum-scale=1" name=viewport />
+        <meta content="text/html; charset=UTF-8" http-equiv=Content-Type />
+
+        
+        <link href=https://pentacode.app/funktionen/ rel=canonical />
+        
+
+        <link href=/assets/img/icon.png rel="shortcut icon" type=image/png />
+
+        <meta content="Funktionen | Pentacode" name=og:title />
+        <meta content="Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling und Lohnvorbereitung - so einfach und intuitiv wie noch nie." name=description />
+        <meta content="Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling und Lohnvorbereitung - so einfach und intuitiv wie noch nie." name=og:description />
+          
+
+
+        
+        <style>body{--color-black:#444;--color-white:#fff;--color-fg:var(--color-black);--color-bg:var(--color-white);--max-inner-width:1200px;--color-subtle:rgba(0, 0, 0, 0.3);--red:#db2828;--orange:#f2711c;--yellow:#fbbd08;--olive:#b5cc18;--green:#21ba45;--teal:#00b5ad;--blue:#2185d0;--violet:#6435c9;--purple:#a333c8;--pink:#e03997;--brown:#a5673f;--grey:#767676;--black:#1b1c1d;--aqua:#1cd0bf;--red-bg:#ffe8e6;--orange-bg:#ffedde;--yellow-bg:#fff8db;--olive-bg:#fbfdef;--green-bg:#e5f9e7;--teal-bg:#e1f7f7;--blue-bg:#dff0ff;--violet-bg:#eae7ff;--purple-bg:#f6e7ff;--pink-bg:#ffe3fb;--brown-bg:#f1e2d3;--aqua-bg:#c8fdf8;--grey-bg:#f1f1f1;--color-highlight:var(--blue);--color-highlight-bg:var(--teal);--shade-1:rgba(0, 0, 0, 0.05);--shade-2:rgba(0, 0, 0, 0.1);--shade-3:rgba(0, 0, 0, 0.15);--shade-4:rgba(0, 0, 0, 0.2);--shade-5:rgba(0, 0, 0, 0.25)}.red{--color-highlight:var(--red);--color-highlight-bg:var(--pink)}.orange{--color-highlight:var(--orange);--color-highlight-bg:var(--red)}.yellow{--color-highlight:var(--yellow);--color-highlight-bg:var(--yellow-bg)}.olive{--color-highlight:var(--olive);--color-highlight-bg:var(--olive-bg)}.green{--color-highlight:var(--teal);--color-highlight-bg:var(--green)}.teal{--color-highlight:var(--teal);--color-highlight-bg:var(--teal-bg)}.blue{--color-highlight:var(--blue);--color-highlight-bg:var(--teal)}.violet{--color-highlight:var(--violet);--color-highlight-bg:var(--purple)}.purple{--color-highlight:var(--purple);--color-highlight-bg:var(--violet)}.pink{--color-highlight:var(--pink);--color-highlight-bg:var(--pink-bg)}.brown{--color-highlight:var(--brown);--color-highlight-bg:var(--brown-bg)}.grey{--color-highlight:var(--grey);--color-highlight-bg:var(--grey-bg)}.black{--color-highlight:var(--black);--color-highlight-bg:var(--black-bg)}.aqua{--color-highlight:var(--aqua);--color-highlight-bg:var(--aqua-bg)}</style>
+
+        
+        <style>body,html{padding:0;margin:0;font-family:Nunito,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:18px;color:#333;-webkit-tap-highlight-color:transparent;height:initial!important}html{overflow-x:hidden!important}body,button,input{-webkit-font-smoothing:antialiased}button,input:not([type=radio]):not([type=checkbox]){-webkit-appearance:none;-moz-appearance:none;border-radius:.5em;font:inherit}input{background:#fff;border:solid 1px rgba(0,0,0,.1);padding:.5em .8em}input:focus{border-color:#23b4ff}button{cursor:pointer}:focus{outline:0}h1{font-size:250%;font-weight:300;line-height:1.2em}h2{font-size:150%;font-weight:400}h3{font-size:120%;font-weight:600}h4{font-size:110%;font-weight:700}h5{font-size:100%;font-weight:600}a{color:var(--color-highlight);text-decoration:none}a:not(.underline):hover{opacity:.8}a.underline{--bg-h:1px;background:linear-gradient(0deg,currentColor,currentColor) no-repeat right bottom/0 var(--bg-h);display:inline-block;padding-bottom:1px;margin-bottom:-1px;transition:background-size 350ms,transform 350ms}a.underline:where(:hover,:focus-visible){background-size:100% var(--bg-h);background-position-x:left;transform:translate(0,-2px)}.btn,button{background:var(--color-fg);color:var(--color-bg);display:inline-block;flex-direction:row;align-items:center;justify-content:center;padding:.5em .9em;position:relative;vertical-align:middle;border-radius:8px;font:inherit;font-weight:700;border:none;will-change:transform}.btn.highlight,button.highlight{background:var(--color-highlight)}.btn i{display:inline}footer{display:block;text-align:center;border-top:solid 1px rgba(0,0,0,.05);font-size:.8em}footer nav{padding:1em;text-align:center}footer nav ul{display:inline-flex;align-items:center;flex-wrap:wrap;justify-content:center}footer a{margin:0 5px}footer .copyright{margin:-.5em 0 .5em 0;opacity:.5;padding:.5em}th{text-align:left;vertical-align:top;width:150px}nav ul{list-style:none;margin:0;padding:0}footer nav ul li:not(:last-child){margin-right:1em}.subtle{color:var(--color-subtle)}figure{position:relative;text-align:center;margin:2em 0}figure figcaption{text-align:center;font-size:.7em;opacity:.8;padding:.5em;line-height:1.2em}figure img{border-radius:8px;box-shadow:rgba(0,0,0,.2) 0 0 .5em;overflow:hidden}figure img.no-shadow{box-shadow:none}figure.border img{border:solid 1px #ccc;box-sizing:border-box}figure img{max-width:100%}figure.float-right{float:right;width:50%;margin-left:1em;margin-right:-1em}figure.float-left{float:left;width:50%;margin-left:-1em;margin-right:1em}figure.centered{width:70%;margin:2em auto 0 auto}figure.float{width:50%}figure.narrow,figure.width-25pc{width:25%}figure.width-30pc{width:30%}figure.width-40pc{width:40%}figure.float img{max-height:none}figure.float.right{float:right;margin:10px 0 10px 30px}figure.float.left{float:left;margin:0 20px 0 0}.img-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15em,1fr));grid-gap:0.5em;margin-bottom:.5em}.img-grid p{margin:0}.img-grid img{margin:0 auto}cite{font-style:italic;color:var(--blue);opacity:.9}blockquote{margin:1em 0;padding:.5em 1em;border-left:solid 3px var(--blue);background:0 0;text-align:left;border-radius:0;color:var(--blue)}blockquote cite{font-style:italic;color:#888}blockquote p{margin:0}blockquote a{text-decoration:underline}.cover-icon{display:flex;align-items:center;justify-content:center}.golden-ratio{position:relative;overflow:hidden}.golden-ratio::before{content:"";display:block;padding-top:61.8%}.thumbnail-icon{min-width:1.2em;text-align:center}img.cover-parent{object-fit:cover;position:absolute;top:0;left:0;width:100%;height:100%}section{clear:both;box-sizing:border-box;margin:2em;position:relative;z-index:1;color:var(--color-fg)}section .inner{width:100%;box-sizing:border-box;margin:0 auto;position:relative;max-width:var(--max-inner-width)}section .inner .content{flex:1;position:relative;padding:50px 0}section .inner .content p{margin-top:0}section h1{margin:0 0 .5em 0}section h3{margin:0 0 1em 0}.note{background:rgba(89,198,255,.1);padding:1em;border:solid 1px #23b4ff;clear:both;margin:1em 0;border-radius:8px}.note p{text-align:left}.note p:first-child{margin-top:0}.note p:last-child{margin-bottom:0}.icon{display:inline-block;width:1em;height:1em;position:relative}.icon svg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;fill:currentColor}.nobreak{white-space:nowrap}.text-clip,em{display:inline-block;border-radius:.5em;background:linear-gradient(125deg,var(--color-highlight),var(--color-highlight-bg));-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text;color:var(--color-bg);font-style:normal}.text-clip:not(.btn) svg,em svg{color:var(--color-highlight)}.btn.text-clip{border:dashed 1px rgba(0,0,0,.1);transition:background .2s,color .2s}.btn.text-clip:hover{-webkit-text-fill-color:unset;-webkit-background-clip:unset;background-clip:unset;border-color:transparent}.btn.text-clip:not(:hover) svg{color:var(--color-highlight)}.key,kbd{display:inline-block;height:1.5em;line-height:1.5em;padding:0 .5em;text-align:center;border-radius:.4em;background:var(--shade-2);border:solid 1px var(--shade-3);border-bottom-width:.2em;font-weight:600;font-size:.9em;font-family:inherit}.fake-button{height:1.5em;line-height:1.5em;display:inline-block;background:var(--shade-2);padding:0 .5em;white-space:nowrap;border-radius:.4em;background:var(--shade-2);border:solid 1px var(--shade-3);border-bottom-width:.2em;font-weight:600;font-size:.9em}.fake-button .icon{font-size:.8em}.mono{font-family:monospace}.rainbow{background:linear-gradient(125deg,var(--green) 0,var(--blue) 25%,var(--purple) 50%,var(--orange) 75%,var(--red) 100%);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text}@media (max-width:55em){figure.float-left,figure.float-right{float:none;width:100%;margin:1em 0}}</style>
+
+        
+        <style>.fullbleed{position:absolute;top:0;left:0;right:0;bottom:0}.layout{display:flex}.horizontal.layout{flex-direction:row}.vertical.layout{flex-direction:column}.center-aligning.layout{align-items:center}.start-aligning.layout{align-items:flex-start}.end-aligning.layout{align-items:flex-end}.center-justifying.layout{justify-content:center}.start-justifying.layout{justify-content:flex-start}.end-justifying.layout{justify-content:flex-end}.center-positioning.layout{align-items:center;justify-content:center}.layout>.stretch{flex-grow:1}.layout>:not(.stretch){flex:none}.horizontal.layout>.collapse{width:0}.vertical.layout>.collapse{height:0}.layout.wrapping{flex-wrap:wrap}.display-contents{display:contents}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(var(--grid-column-width,10em),1fr));grid-gap:var(--grid-gap)}.grid-span-all-columns{grid-column:1/-1}.scaler{position:absolute;width:200%;height:200%;top:-50%;left:-50%;transform:scale(.5);transform-style:preserve-3d}</style>
+
+        
+        <link href=https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2 rel=preload type=font/woff2 as=font crossorigin/>
+<link href=https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaBTMnFcQ.woff2 rel=preload type=font/woff2 as=font crossorigin/>
+<style>@font-face{font-family:Nunito;font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUYevIWzgPDA.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Nunito;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Nunito;font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAjsOUYevIWzgPDA.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+
+        
+        
+<script async src=https://kit.fontawesome.com/b11eabbb32.js crossorigin=anonymous></script>
+
+        
+        <style>@keyframes reveal{from{transform:translate(0,30px);opacity:0}to{opacity:1}}@keyframes reveal2{from{transform:translate(0,30px)}}@keyframes drop{from{transform:translate(0,-200px);opacity:0}to{opacity:1}}body{--animation-base-duration:0.2s}.animation-pause *{animation-play-state:paused!important}.animation-reveal,.animation-reveal-children>*{animation:reveal calc(5 * .2s) backwards}.animation-fast{--animation-base-duration:0.05s}.animation-delay-1,.animation-reveal-children :nth-child(1){animation-delay:calc(1 * var(--animation-base-duration))}.animation-delay-2,.animation-reveal-children :nth-child(2){animation-delay:calc(2 * var(--animation-base-duration))}.animation-delay-3,.animation-reveal-children :nth-child(3){animation-delay:calc(3 * var(--animation-base-duration))}.animation-delay-4,.animation-reveal-children :nth-child(4){animation-delay:calc(4 * var(--animation-base-duration))}.animation-delay-5,.animation-reveal-children :nth-child(5){animation-delay:calc(5 * var(--animation-base-duration))}.animation-delay-6,.animation-reveal-children :nth-child(6){animation-delay:calc(6 * var(--animation-base-duration))}.animation-delay-7,.animation-reveal-children :nth-child(7){animation-delay:calc(7 * var(--animation-base-duration))}.animation-delay-8,.animation-reveal-children :nth-child(8){animation-delay:calc(8 * var(--animation-base-duration))}.animation-delay-9,.animation-reveal-children :nth-child(9){animation-delay:calc(9 * var(--animation-base-duration))}.animation-delay-10,.animation-reveal-children :nth-child(10){animation-delay:calc(10 * var(--animation-base-duration))}.animation-delay-11,.animation-reveal-children :nth-child(11){animation-delay:calc(11 * var(--animation-base-duration))}.animation-delay-12,.animation-reveal-children :nth-child(12){animation-delay:calc(12 * var(--animation-base-duration))}</style>
+
+        
+        <style>header{width:100%;font-size:110%;position:sticky;background:#fff;top:0;z-index:10;padding:0 1em;margin:1em 0;box-sizing:border-box;transition:box-shadow .5s;transform:translateZ(1000px)}header.floating{box-shadow:rgb(149 157 165 / 60%) 0 1px 20px -10px}header .header-inner{max-width:var(--max-inner-width);margin:0 auto;height:3em;box-sizing:border-box}header .btn{font-size:.9em}header nav.login-signup ul li:not(:last-child),header nav.sections ul li:not(:last-child){margin-right:1em}header nav ul li a{color:var(--color-fg);display:block}header nav ul li.active a{color:var(--color-highlight);font-weight:700}header .logo{display:block;height:2em;width:10em;position:relative}header .logo path{stroke:currentColor}header .menu-button{background:0 0;color:var(--color-fg);padding:.5em}header .menu-button i{margin:0!important}header .menu{position:relative}header .menu-inner{position:absolute;right:0;box-shadow:0 0 10px rgba(154,160,185,.05),0 0 40px rgba(166,173,201,.2);z-index:10;padding:.5em;border-radius:.5em;width:12em;--color-bg:var(--color-white);--color-fg:var(--color-black);background:var(--color-bg)}header .menu-sections ul{flex-direction:column;align-items:stretch}header .menu-sections ul li a{margin-top:.8em;padding:0 .5em;font-weight:600}header .menu-login-signup{padding-bottom:.5em;border-bottom:solid 1px rgba(0,0,0,.1)}header .menu-login-signup ul>*{flex:1;text-align:center}@media (min-width:700px){.menu{display:none}}@media (max-width:700px){header .login-signup,header .section-item{display:none}}</style>
+
+        
+        
+
+<style>section.hero h1{margin-bottom:.2em}section.hero h2{margin:.4em 0}section.hero h3{margin-bottom:.5em}section.hero .buttons{margin-top:1em}section.hero .btn{font-size:1.2em;background:linear-gradient(125deg,var(--color-highlight),var(--color-highlight-bg))}section.hero .images{height:450px;perspective:3000px;perspective-origin:0 center;width:600px}section.hero .images .image{position:absolute;top:0;height:100%;text-align:center;transform:translate3d(0,20px,200px) rotateY(-20deg) rotateX(10deg)}section.hero .images .image img{position:absolute;top:0;left:0;padding:1em;border-radius:2em;box-shadow:rgba(149,157,165,.4) 0 8px 40px;height:100%;box-sizing:border-box;background:rgba(255,255,255,.8)}section.hero .images .image img:nth-child(1){transform:translate(100px,0)}section.hero .images .image img:nth-child(2){transform:scale(.7) translate(-100px,250px)}section.hero .inner{display:flex;align-items:center;transform-style:preserve-3d}section.hero .inner .content{display:block;position:relative;z-index:1;min-width:500px;padding:0;margin:3em 1em}section.hero .divider{margin:3em 0 -3em 0}section.intro{margin-top:-50px}section.intro .inner{flex-direction:column}section.intro .inner .content{max-width:600px;padding:0}@media (max-width:1023px){section{margin:2em}section .inner{flex-direction:column!important}section .inner .content{background:rgba(255,255,255,.5);min-width:0;max-width:100%;box-sizing:border-box;padding:1em 1em 2em 1em}section .inner .content::after,section .inner .content::before{display:none}section.hero .images{transform:rotateX(10deg);perspective-origin:center center}section.hero .images .image{transform:translate3d(0,20px,200px) rotateY(0) rotateX(10deg)}section.hero .images .image img:nth-child(1){transform:translate(0,0)}section.hero .images .image img:nth-child(2){transform:scale(.7) translate(-220px,250px)}}@media (max-width:700px){section{margin:1em}section.hero h1{font-size:2em}section .inner .content{min-width:0!important;padding:0!important;margin:0!important}section.hero .inner .images{display:none!important}section.hero .divider{margin:1em 0 -1em 0}}</style>
+
+<style>.divider{width:100%;height:150px;margin:1em 0;position:relative;z-index:-1;opacity:.3}.divider .stop1{stop-color:var(--color-highlight)}.divider .stop2{stop-color:var(--color-highlight-bg)}@media (max-width:700px){.divider{height:75px}}</style>
+
+<style>.section-features-anchor{position:relative;top:-6em}section.section-features{margin:-1em 0 2em 0}section.section-features .inner{display:flex;justify-content:center}section.section-features .inner .content{width:100%}section.section-features h2{font-size:2.1em;line-height:1.2em;margin:0 0 .2em 0;font-weight:100;text-align:center;width:auto;margin:0 auto;background:linear-gradient(125deg,var(--green) 0,var(--blue) 25%,var(--purple) 50%,var(--orange) 75%,var(--red) 100%);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text;display:inline-block}section.section-features .content{margin:-2em 0;background:0 0}section.section-features .content::after,section.section-features .content::before{display:none}section.section-features .section-features-tabs{font-size:.8em;display:grid;grid-template-columns:repeat(auto-fill,minmax(14em,1fr));gap:.5em;list-style:none;padding:.5em;justify-content:center;position:sticky;top:4em;z-index:10;background:var(--color-bg);margin:0 0 1em 0;border-radius:0 0 .5em .5em}section.section-features .section-features-tab{display:block;color:var(--color-fg);border:dashed 1px var(--shade-2);border-radius:.5em;padding:.5em;text-align:center;will-change:transform;color:var(--color-highlight)}section.section-features .section-features-tab.active{opacity:1!important;background:linear-gradient(125deg,var(--color-highlight),var(--color-highlight-bg));color:var(--color-bg);border:none;box-shadow:#959da5 0 1px 20px -5px;color:var(--color-bg)}.section-features-subtitle{padding:.5em;max-width:31em;text-align:center;margin:1em auto}.section-features-list{position:relative;list-style:none;appearance:none;padding:0;margin-left:-1em}.section-features-list::before{content:"";display:block;height:100%;position:absolute;top:0;left:2em;z-index:-1;border-left:dashed 2px var(--shade-2)}.section-features-list li{padding:2em 0 6em 0;display:flex}.section-features-list-anchor{position:relative;top:-8em}.section-features-list-bullet{font-size:1.2em;width:1.2em;height:1.2em;display:flex;align-items:center;justify-content:center;border:solid 2px;border-radius:100%;padding:.5em;align-self:start;color:var(--color-highlight);background:linear-gradient(-45deg,var(--color-highlight) 0,var(--color-highlight-bg) 100%);color:var(--color-bg);margin:.5em;flex:none}.section-features-list-copy{width:25em;padding:1em 0}.section-features-list-copy h3{font-size:1.6em;margin:0}.section-features-list-copy h4{font-size:1.1em;margin:.5em 0}.section-features-list-screenshots{width:700px;height:400px;flex:1;position:relative;overflow:visible;transform-style:preserve-3d;perspective:2000px}.section-features-list-screenshots-inner{width:200%;transform-origin:0 0;transform-style:preserve-3d;transform:scale(.45);margin-left:2em}.section-features-list-screenshots-inner>div{position:absolute;top:0;left:0;width:auto;transform-origin:center center}.section-features-list-screenshots-inner>div>img{padding:.5em;box-shadow:rgb(0 0 0 / 30%) 0 0 2em -1em;border-radius:2em;background:rgba(255,255,255,.5)}.section-features .inner p em{font-weight:700}@media (max-width:800px){section.section-features{margin-top:0}section.section-features h2{font-size:1.8em}section.section-features .section-features-tabs{position:static}section.section-features .section-features-list-screenshots{display:none}section.section-features .section-features-list li{padding:1em 0}}</style>
+
+<style>.section-preise-anchor{position:relative;top:-6em}section.section-preise .inner{display:flex;justify-content:center}section.section-preise .inner .content{display:flex;flex-direction:column;align-items:center}section.section-preise h2{font-size:2.3em;line-height:1.2em;margin:0 0 .2em 0;font-weight:100;text-align:center;width:auto;margin:0 auto;background:linear-gradient(125deg,var(--green) 0,var(--blue) 25%,var(--purple) 50%,var(--orange) 75%,var(--red) 100%);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text;display:inline-block}section.section-preise .section-preise-tile:not(:hover) .price-amount,section.section-preise .section-preise-tile:not(:hover) .price-upon-request,section.section-preise .section-preise-tile:not(:hover) h3{background:linear-gradient(125deg,var(--color-highlight),var(--color-highlight-bg));-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text}section.section-preise .price-wrapper{display:flex;flex-direction:column;justify-content:center;height:6em}section.section-preise .price{display:flex;justify-content:center}section.section-preise .price-amount{font-size:3em}section.section-preise .price-upon-request{font-size:2em}section.section-preise .price-from{opacity:.7;width:0;position:relative;left:-1.5em;top:.8em}section.section-preise .all-features-plus{opacity:.7;margin-top:.5em}section.section-preise .price-unit{opacity:.7;margin-top:-.5em}section.section-preise .content{margin:-2em 0;background:0 0}section.section-preise .content::after,section.section-preise .content::before{display:none}section.section-preise .section-preise-grid{display:flex;gap:1em;list-style:none;padding:0;justify-content:center;margin-top:2em;flex-wrap:wrap}section.section-preise .section-preise-grid>li{max-width:24em;width:100%;position:relative}section.section-preise .section-preise-tile{display:flex;flex-direction:column;color:var(--color-fg);border:dashed 1px var(--shade-2);border-radius:1em;padding:1em;text-align:center;will-change:transform;min-height:100%;box-sizing:border-box}section.section-preise .section-preise-tile:hover{opacity:1!important;background:linear-gradient(125deg,var(--color-highlight),var(--color-highlight-bg));color:var(--color-bg);border:none;box-shadow:#959da5 0 1px 20px -5px}section.section-preise .section-preise-tile .section-preise-icon{font-size:3em;border-radius:0;color:var(--color-highlight)}section.section-preise .section-preise-tile h3{text-align:center;font-size:1.2em;color:var(--color-highlight);margin:0;color:#fff}section.section-preise .section-preise-tile .features{margin:.5em 0;padding:0;list-style:none;text-align:left;flex:1}section.section-preise .section-preise-tile .features li{display:flex;align-items:flex-start;margin:.5em 0}section.section-preise .section-preise-tile .features li .fa-check{margin:.15em .3em}section.section-preise .section-preise-tile .highlight{font-weight:700}section.section-preise .section-preise-tile:not(:hover) .highlight{color:var(--color-highlight)}section.section-preise .call-to-action{margin-top:.5em;padding:.5em;font-weight:700;color:#fff;border-radius:.5em;border:dashed 1px #fff}section.section-preise .section-preise-tile:not(:hover) .call-to-action{border-color:transparent;background:linear-gradient(125deg,var(--color-highlight),var(--color-highlight-bg))}@media (max-width:700px){section.section-preise{font-size:.8em;margin-top:0}section.section-preise h2{width:6.7em}}</style>
+
+
+
+        
+
+        
+    <script async src=/assets/js/anime.min.js></script>
+    <script async src=/assets/js/animation.js></script>
+
+
+        <script async src=/assets/js/scheduling.js></script>
+    </head>
+    <body>
+        
+
+    <div id=header_anchor></div>
+<header class=blue>
+    <div class="center-aligning layout header-inner horizonal">
+        <nav class=sections role=navigation>
+            <ul class="center-aligning layout horizontal">
+                <li>
+                    <a href=/ ><img alt="Pentacode Logo" src=/assets/img/logo.svg class=logo /></a>
+                </li>
+
+                <li class="section-item active">
+                    <a href=/#funktionen class=underline> Funktionen </a>
+                </li>
+
+                <li class=section-item>
+                    <a href=/#preise class=underline> Preise </a>
+                </li>
+
+                <li class=section-item>
+                    <a href=/hilfe class=underline> Hilfe </a>
+                </li>
+
+                <li class=section-item>
+                    <a href=/blog class=underline> Blog </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class=stretch></div>
+
+        <nav class=login-signup>
+            <ul class="center-aligning layout horizontal">
+                <li>
+                    <a href=/#contact-us class="text-clip btn get-started">
+                        <i class="fa-comment-smile far"></i>
+                        <span>Sprechen Sie Mit Uns</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class=menu>
+            <button aria-label=Menü class="btn menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class=menu-inner hidden>
+                <nav class=menu-login-signup role=navigation>
+                    <ul>
+                        <li>
+                            <a href=/#contact-us class="text-clip btn get-started">
+                                <i class="fa-comment-smile far"></i>
+                                <span>Sprechen Sie Mit Uns</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class=menu-sections>
+                    <ul>
+                        <li>
+                            <a href=/#funktionen> Funktionen </a>
+                        </li>
+
+                        <li>
+                            <a href=/#preise> Preise </a>
+                        </li>
+
+                        <li>
+                            <a href=/hilfe> Hilfe </a>
+                        </li>
+
+                        <li>
+                            <a href=/blog> Blog </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    (() => {
+        const header = document.querySelector("header");
+        const headerAnchor = document.querySelector("#header_anchor");
+        const menuButton = document.querySelector(".menu-button");
+        const menu = document.querySelector(".menu-inner");
+
+        new IntersectionObserver(([entry]) => header.classList.toggle("floating", !entry.isIntersecting), {
+            threshold: 0.5,
+        }).observe(headerAnchor);
+
+        menuButton.addEventListener("click", (e) => {
+            e.stopPropagation();
+            menu.removeAttribute("hidden");
+        });
+
+        document.addEventListener("click", () => {
+            menu.setAttribute("hidden", "");
+        });
+    })();
+</script>
+
+
+    <div class=section-features-anchor id=funktionen></div>
+
+<section class=section-features>
+    <div class=inner>
+        <div class=content>
+            <div class="animate center-aligning layout vertical">
+                <h2>Die <strong>Rundumlösung</strong><br/>für Ihr <strong>Personalmanagement</strong></h2>
+            </div>
+
+            <p class=section-features-subtitle>
+                Von der Bewerbung an begleitet Pentacode den gesamten Lebenszyklus jedes Mitarbeiters
+                in Ihrem Unternehmen.
+            </p>
+
+            <ul class=section-features-tabs>
+                <li>
+                    <a href=#funktionen/onboarding class="underline section-features-tab green">
+                        <i class="fal fa-people-pulling"></i>
+                        Recruiting & Onboarding
+                    </a>
+                </li>
+
+                <li>
+                    <a href=#funktionen/planung class="underline section-features-tab blue">
+                        <i class="fal fa-table"></i>
+                        Personalplanung
+                    </a>
+                </li>
+
+                <li>
+                    <a href=#funktionen/zeiterfassung class="underline section-features-tab purple">
+                        <i class="fal fa-stopwatch"></i>
+                        Zeiterfassung
+                    </a>
+                </li>
+
+                <li>
+                    <a href=#funktionen/verwaltung class="underline section-features-tab orange">
+                        <i class="fal fa-envelopes-bulk"></i>
+                        Personalverwaltung
+                    </a>
+                </li>
+
+                <li>
+                    <a href=#funktionen/mitarbeiter-app class="underline section-features-tab red">
+                        <i class="fal fa-mobile"></i>
+                        Mitarbeiter-App
+                    </a>
+                </li>
+            </ul>
+
+            <ul class=section-features-list>
+                <li class=green>
+                    <div class=section-features-list-anchor id=funktionen/onboarding></div>
+                    <div class=section-features-list-bullet>
+                        <i class="fal fa-people-pulling"></i>
+                    </div>
+                    <div class=section-features-list-copy>
+                        <h3 class=text-clip>Recruiting & Onboarding</h3>
+                        <h4>Brauchen Sie etwa Personal?</h4>
+                        <p>
+                            Von der
+                            <em>Stellenausschreibung</em> über die <em>Bewerbung</em> bis zum Ausscheiden des
+                            Mitarbeiters - ein einziger, automatisierter Workflow.
+                        </p>
+                        <p>
+                            Statt unterschiedlicher Aufgaben eine intelligente Verzahnung, statt verschiedener Routinen
+                            ein einziger Prozess.
+                        </p>
+                        <a href=/funktionen/recruiting class=underline>Mehr Erfahren <i class="fal fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class=section-features-list-screenshots>
+                        <div class=section-features-list-screenshots-inner>
+                            <div style=transform:translate3d(150px,0,-100px)>
+                                <img alt="Screenshot: Stellenauschreibung in Pentacode" src=/assets/img/screenshots/stellenausschreibung.webp width=1200 />
+                            </div>
+                            <div style=transform:translate3d(80px,400px,100px)>
+                                <img alt="Screenshot: Sofortmeldungen in Pentacode" src=/assets/img/screenshots/sofortmeldung.webp width=800 />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class=blue>
+                    <div class=section-features-list-anchor id=funktionen/planung></div>
+                    <div class=section-features-list-bullet>
+                        <i class="fal fa-calendar"></i>
+                    </div>
+                    <div class=section-features-list-copy>
+                        <h3 class=text-clip>Personalplanung</h3>
+                        <h4>Schnell, einfach, spielerisch und intelligent</h4>
+                        <p>
+                            Erfolg beginnt mit guter Planung. Erstellen Sie <em>Dienstpläne</em> , die für Ihr
+                            Unternehmen wirtschaftlich wirksam sind und Ihre Mitarbeiter glücklich machen.
+                            <em>Urlaube</em> und andere Abwesenheiten planen Sie direkt mit.
+                        </p>
+                        <a href=/funktionen/planung class=underline>Mehr Erfahren <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class=section-features-list-screenshots>
+                        <div class=section-features-list-screenshots-inner>
+                            <div style=transform:translate3d(150px,0,-100px)>
+                                <img alt="Screenshot: Abwesenheitsplanung in Pentacode" src=/assets/img/screenshots/abwesenheiten.webp width=1200 />
+                            </div>
+                            <div style=transform:translate3d(-50px,400px,0)>
+                                <img alt="Screenshot: Dienstplanung in Pentacode" src=/assets/img/screenshots/dienstplan.webp width=900 />
+                            </div>
+                            <div style=transform:translate3d(1000px,300px,100px)>
+                                <img alt="Screenshot: Abwesenheitsanträge in Pentacode" src=/assets/img/screenshots/urlaubsantrag_bearbeiten_2.webp width=400 />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class=purple>
+                    <div class=section-features-list-anchor id=funktionen/zeiterfassung></div>
+                    <div class=section-features-list-bullet>
+                        <i class="fal fa-stopwatch"></i>
+                    </div>
+                    <div class=section-features-list-copy>
+                        <h3 class=text-clip>Zeiterfassung</h3>
+                        <h4>Rechtssicher, Einfach & Kostensparend</h4>
+                        <p>
+                            Überlassen Sie die <em>Zeiterfassung</em> Ihren Mitarbeitern und die <em>Kontrolle</em> der
+                            Software.
+                        </p>
+                        <p>
+                            Sie erhalten <em>Rechtssicherheit</em> ohne Rechtskenntnis und senken spürbar Ihre
+                            Personalkosten. Von der ersten Minute an.
+                        </p>
+                        <a href=/funktionen/zeiterfassung class=underline>Mehr Erfahren <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class=section-features-list-screenshots>
+                        <div class=section-features-list-screenshots-inner>
+                            <div style=transform:translate3d(150px,0,-100px)>
+                                <img alt="Screenshot: Zeiterfassung in Pentacode" src=/assets/img/screenshots/zeiterfassung_uebersicht.webp width=1200 />
+                            </div>
+                            <div style=transform:translate3d(550px,350px,0)>
+                                <img alt="Screenshot: Zeiterfassung mit der Pentacode Stempeluhr" src=/assets/img/screenshots/stempeluhr.webp width=850 />
+                            </div>
+                            <div style=transform:translate3d(50px,300px,100px)>
+                                <img alt="Screenshot: Zeiterfassung mit der Pentacode Mitarbeiter-App" src=/assets/img/screenshots/mitarbeiter_app_stempeluhr_2.webp width=350 />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class=orange>
+                    <div class=section-features-list-anchor id=funktionen/verwaltung></div>
+                    <div class=section-features-list-bullet>
+                        <i class="fal fa-envelopes-bulk"></i>
+                    </div>
+                    <div class=section-features-list-copy>
+                        <h3 class=text-clip>Personalverwaltung</h3>
+                        <h4>Digital und automatisch</h4>
+                        <p>
+                            Was vorher mit Aufwand verbunden war entsteht nun in vollständig automatisierten
+                            Prozessen.
+                        </p>
+                        <p>
+                            <em>Arbeitszeitdokumentation</em>, <em>Urlaubskonten</em> und <em>SFN-Zuschläge</em>,
+                            <em>Lohnvorbereitung</em> und mehr - Pentacode erledigt selbstständig, was vorher Zeit und
+                            Mühe gekostet hat.
+                        </p>
+                        <a href=/funktionen/verwaltung class=underline>Mehr Erfahren <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class=section-features-list-screenshots>
+                        <div class=section-features-list-screenshots-inner>
+                            <div style=transform:translate3d(0,0,-100px)>
+                                <img alt="Screenshot: Arbeitszeit-Berichte in Pentacode" src=/assets/img/screenshots/berichte_arbeitszeit.webp width=1200 />
+                            </div>
+                            <div style=transform:translate3d(300px,250px,100px)>
+                                <img alt="Screenshot: Das Arbeitsblatt in Pentacode" src=/assets/img/screenshots/arbeitszeitblatt.webp width=1000 />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class=red>
+                    <div class=section-features-list-anchor id=funktionen/mitarbeiter-app></div>
+                    <div class=section-features-list-bullet>
+                        <i class="fal fa-mobile"></i>
+                    </div>
+                    <div class=section-features-list-copy>
+                        <h3 class=text-clip>Mitarbeiter-App</h3>
+                        <h4>Für eine leichtere Planung, zufriedenere Mitarbeiter und ein besseres Miteinander.</h4>
+                        <p>
+                            Der kürzeste Weg zwischen Arbeitgeber und Arbeitnehmer. Absolut intuitiv in der Bedienung
+                            und selbst ohne Sprachkenntnisse leicht verständlich.
+                        </p>
+                        <p>
+                            <em>Konteneinsicht</em>, <em>Dienstplan</em>, <em>Zeiterfassung</em>,
+                            <em>Urlaubsanträge</em> und mehr - das umfassende Werkzeug für eine reibungslose
+                            Organisation und eine wirkungsvolle Zusammenarbeit.
+                        </p>
+                        <a href=/funktionen/mitarbeiter-app class=underline>Mehr Erfahren <i class="fal fa-arrow-right"></i></a>
+                    </div>
+                    <div class=section-features-list-screenshots>
+                        <div class=section-features-list-screenshots-inner>
+                            <div style=transform:translate3d(300px,0,-100px)>
+                                <img alt="Screenshot: Die Pentacode Mitarbeiter-App" src=/assets/img/screenshots/mitarbeiter_app.webp width=600 />
+                            </div>
+                            <div style=transform:translate3d(700px,450px,350px)>
+                                <img alt="Screenshot: Verfügbarkeiten in der Pentacode Mitarbeiter-App" src=/assets/img/screenshots/mitarbeiter_app_verfuegbarkeiten_2.webp width=400 />
+                            </div>
+                            <div style=transform:translate3d(300px,300px,400px)>
+                                <img alt="Screenshot: Urlaubsanträge über die Pentacode Mitarbeiter-App" src=/assets/img/screenshots/mitarbeiter_app_stunden.webp width=200 />
+                            </div>
+                            <div style=transform:translate3d(100px,600px,200px)>
+                                <img alt="Screenshot: Stundenanzeige in der Pentacode Mitarbeiter-App" src=/assets/img/screenshots/urlaubsantrag.webp width=400 />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+
+<svg class=divider overflow=visible preserveAspectRatio=none viewBox="10 -10 80 110">
+    <defs>
+        <linearGradient class=svg-gradient id=-gradient>
+            <stop class=stop1 offset=0% />
+            <stop class=stop2 offset=100% />
+        </linearGradient>
+    </defs>
+
+    
+    <mask id=-wave>
+        <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke=white stroke-width=3 style=transform:translate(80px,80px) />
+        <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke=white stroke-width=6 style=transform:translate(110px,110px) opacity=0.5 />
+        <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke=white stroke-width=9 style=transform:translate(140px,140px) opacity=0.25 />
+    </mask>
+
+    <rect fill=url(#-gradient) height=140 mask=url(#-wave) width=140 x=-20 y=-20 />
+</svg>
+
+</section>
+
+<script>
+    (() => {
+        const screenshotContainers = document.querySelectorAll(".section-features-list-screenshots");
+        const tabs = document.querySelectorAll(".section-features-tab");
+        window.addEventListener("scroll", () => {
+            let currIndex = undefined;
+            let minOffset = Infinity;
+            for (const [i, container] of screenshotContainers.entries()) {
+                const { y, height } = container.getBoundingClientRect();
+                const offset = y + height / 2 - window.innerHeight / 2;
+                const offsetRatio = offset / window.innerHeight;
+                container.style.perspectiveOrigin = `center ${Math.max(
+                    -height,
+                    Math.min(height / 2 + offset, 2 * height)
+                )}px`;
+                if (Math.abs(offset) < minOffset) {
+                    currIndex = i;
+                    minOffset = Math.abs(offset);
+                }
+            }
+            for (const [i, tab] of tabs.entries()) {
+                tab.classList.toggle("active", i === currIndex);
+            }
+        });
+    })();
+</script>
+
+
+    <div class=section-features-anchor id=preise></div>
+
+<section class="purple left section-preise">
+    <div class=inner>
+        <div class=content>
+            <div class="animate center-aligning layout vertical">
+                <h2>Die <strong>passende Lösung</strong> für <strong>jeden Bedarf</strong>.</h2>
+            </div>
+
+            <ul class=section-preise-grid>
+                <li class=animate>
+                    <a href=/#contact-us class="blue bouncy section-preise-tile">
+                        <h3>Standard</h3>
+                        <div class=price-wrapper>
+                            <div class=price>
+                                <div class=price-from>Ab</div>
+                                <div class=price-amount>3€</div>
+                            </div>
+                            <div class=price-unit>pro Mitarbeiter / Monat</div>
+                            <div style=font-size:.8em>
+                                <span style=opacity:.7>oder als</span>
+                                <strong class=highlight>Lifetime-Lizenz <sup><i class="fas fa-infinity" style=font-size:.8em></i></sup></strong>
+                            </div>
+                        </div>
+                        <ul class=features>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Dienstplanung</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Urlaubsplanung</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Arbeitszeit-, Urlaubs- und SFN-Konto</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Vollständige Lohnvorbereitung</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Schnittstellen zu allen gängigen Buchhaltungsprogrammen</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Managementinformationen in Echtzeit</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Dokumentenarchiv</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Stellenausschreibungen & Bewerbungsmanagement</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Sofortmeldung</div>
+                            </li>
+                            <li class=highlight>
+                                <i class="fal fa-check"></i>
+                                <div>Digitale Stempeluhr (+1€)</div>
+                            </li>
+                            <li class=highlight>
+                                <i class="fal fa-check"></i>
+                                <div>Mitarbeiter-App (+1€)</div>
+                            </li>
+                        </ul>
+
+                        <div class=call-to-action>Jetzt Termin Vereinbaren</div>
+                    </a>
+                </li>
+                <li class=animate>
+                    <a href=/#contact-us class="red bouncy section-preise-tile">
+                        <h3>Enterprise</h3>
+                        <div class=price-wrapper>
+                            <div class=price>
+                                <div class=price-upon-request>Preis auf Anfrage</div>
+                            </div>
+                            <div class=all-features-plus>Alle Standard-Features, plus:</div>
+                        </div>
+                        <ul class=features>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Dedizierte Datenbank & Server</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>SLA mit 99,9% Up-Time Garantie</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Gehosted, On-Premise oder White-Label</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Admin-Portal</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Multi-Factor-Authentifizierung</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Eigenes Branding und Design</div>
+                            </li>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <div>Maßgeschneiderte Features und Schnittstellen</div>
+                            </li>
+                        </ul>
+
+                        <div class=call-to-action>Jetzt Kontakt Aufnehmen</div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class=animate style=max-width:40em;font-size:.9em;padding:.5em>
+                <p>
+                    <i class="fas fa-infinity"></i> Monatliche Zahlungen sind Ihnen zuwider? Kein Problem! Auf Anfrage
+                    können Sie auch gerne eine <strong>Dauerlizenz gegen eine Einmalzahlung erwerben</strong>. Diese
+                    ist je nach Bundesland sogar <strong>bis zu 50% förderfähig</strong>! Sprechen Sie uns bei Interesse
+                    einfach darauf an.
+                </p>
+                <p>
+                    <i class="fas fa-hand-holding-heart"></i> Wir unterstützen soziales Engagement von Herzen gerne!
+                    Sollte es sich bei Ihrem Unternehmen um eine
+                    <strong>gemeinnützige oder karitative</strong> Einrichtung handeln, dann sprechen Sie uns gerne auf
+                    unsere <strong>speziellen Konditionen für Non-Profit-Organisationen an</strong>!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<svg class=divider overflow=visible preserveAspectRatio=none viewBox="10 -10 80 110">
+    <defs>
+        <linearGradient class=svg-gradient id=-gradient>
+            <stop class=stop1 offset=0% />
+            <stop class=stop2 offset=100% />
+        </linearGradient>
+    </defs>
+
+    
+    <mask id=-wave>
+        <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke=white stroke-width=3 style=transform:translate(80px,80px) />
+        <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke=white stroke-width=6 style=transform:translate(110px,110px) opacity=0.5 />
+        <path d="M -200 -200 Q -175 -200, -150 -150 T -100 -100 T -50 -50 T 0 0 T 50 50 T 100 100 T 150 150 T 200 200 T 250 250" stroke=white stroke-width=9 style=transform:translate(140px,140px) opacity=0.25 />
+    </mask>
+
+    <rect fill=url(#-gradient) height=140 mask=url(#-wave) width=140 x=-20 y=-20 />
+</svg>
+
+</section>
+
+  <footer>
+    <nav>
+        <ul>
+            <li class=section-item>
+                <a href=/blog/ > Blog </a>
+            </li>
+
+            <li class=section-item>
+                <a href=/#funktionen> Funktionen </a>
+            </li>
+
+            <li class=section-item>
+                <a href=/hilfe/ > Hilfe </a>
+            </li>
+
+            <li class=section-item>
+                <a href=# data-open-helpscout> Kontakt </a>
+            </li>
+
+            <li class=section-item>
+                <a href=/impressum/ > Impressum </a>
+            </li>
+
+            <li class=section-item>
+                <a href=/agb/ > AGB </a>
+            </li>
+
+            <li class=section-item>
+                <a href=/datenschutz/ > Datenschutz </a>
+            </li>
+
+            <li class=section-item>
+                <a href=https://www.linkedin.com/company/pentacode-app title=LinkedIn><i class="fab fa-linkedin"></i></a>
+            </li>
+
+            <li class=section-item>
+                <a href=https://www.instagram.com/pentacode.app/ title=Instagram><i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li class=section-item>
+                <a href=https://www.facebook.com/pentacodeapp title=Facebook><i class="fab fa-facebook"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div class=copyright>© 2023 Pentacode AG, Lindwurmstr. 147, 80337 München</div>
+</footer>
+  <script>
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            function inIframe() {
+                try {
+                    return window.self !== window.top;
+                } catch (e) {
+                    return true;
+                }
+            }
+
+            if (inIframe()) {
+                return;
+            }
+            !(function (e, t, n) {
+                function a() {
+                    var e = t.getElementsByTagName("script")[0],
+                        n = t.createElement("script");
+                    (n.type = "text/javascript"),
+                        (n.async = !0),
+                        (n.src = "https://beacon-v2.helpscout.net"),
+                        e.parentNode.insertBefore(n, e);
+                }
+                if (
+                    ((e.Beacon = n = function (t, n, a) {
+                        e.Beacon.readyQueue.push({ method: t, options: n, data: a });
+                    }),
+                    (n.readyQueue = []),
+                    "complete" === t.readyState)
+                )
+                    return a();
+                e.attachEvent ? e.attachEvent("onload", a) : e.addEventListener("load", a, !1);
+            })(window, document, window.Beacon || function () {});
+
+            window.Beacon("init", "634a30dc-2e09-4b93-b79e-f530d0b3b877");
+        }, 4000);
+
+        document.querySelectorAll("[data-open-helpscout]").forEach((el) =>
+            el.addEventListener("click", (e) => {
+                e.preventDefault();
+                Beacon("open");
+            })
+        );
+    });
+</script>
+
+    </body>
+</html>
