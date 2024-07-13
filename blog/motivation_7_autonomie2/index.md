@@ -1,5 +1,5 @@
 ---
-title: Autonomie 2
+title: Die Autonomie unserer Mitarbeiter fördern
 date: 2024-06-03
 cover: "nl07_autonomie_2_cover.webp"
 coverAlt: "Jede Art von Aufgabe kann so gestaltet werden, dass sich Mitarbeiter in der Ausführung autonomer fühlen - sogar der Tellerwäscher."
@@ -37,7 +37,7 @@ Auch die Konstellation der Teams und deren interne Aufgabenverteilung können wi
 
 ### Wann arbeite ich?
 
-Zuletzt können wir unseren Mitarbeitern auch freier zur Wahl stellen, wann sie arbeiten. Natürlich müssen Stunden gedeckt und Schichten gefüllt werden, aber besonders nach Absprache im Team kann dieser Punkt Mitarbeiter entlasten und eine bessere Work-Life-Balance schaffen. Wir empfehlen hierbei **ein System, in dem Mitarbeiter Präferenzen, Urlaub und Verfügbarkeiten direkt mit dem Schichtplaner absprechen können**. Wie wir das bereits mit Pentacode lösen, können Sie [hier](/#funktionen/zeiterfassung/) genauer sehen. 
+Zuletzt können wir unseren Mitarbeitern auch freier zur Wahl stellen, wann sie arbeiten. Natürlich müssen Stunden gedeckt und Schichten gefüllt werden, aber besonders nach Absprache im Team kann dieser Punkt Mitarbeiter entlasten und eine bessere Work-Life-Balance schaffen. Wir empfehlen hierbei **ein System, in dem Mitarbeiter Präferenzen, Urlaub und Verfügbarkeiten direkt mit dem Schichtplaner absprechen können**. Wie wir das bereits mit Pentacode lösen, können Sie [hier](/funktionen/zeiterfassung/) genauer sehen. 
 
 ## Autonomie ist ein Prozess
 
@@ -50,7 +50,7 @@ Zu Beginn sollte man sich deshalb auf einzelne kleine Verantwortungen konzentrie
 Selbst wenn wir alle genannten Methoden beachten und unser Bestes tun unseren Mitarbeitern Autonomie über alle Dimensionen zu gewähren – es wird immer Momente geben, an denen man doch zu Kontrolle und strikten Abläufen greifen muss. Doch auch in diesen können wir **anerkennen**, sollte eine Aufgabe monoton sein und **klarstellen**, warum sie **trotzdem wichtig ist**.
 Das ist ein weiteres Zeichen, welches wir setzen können, um dem Mitarbeiter zu zeigen: „Ich sehe dich, dein Bedürfnis nach Autonomie und deine Rolle im Unternehmen“. Anerkennende Worte oder ein kleines Lob können dabei zu wahren Sprüngen in der Motivation führen.
 
-Das liegt daran, dass gutes Feedback uns die Sicherheit gibt, dass wir unsere Arbeit gut erledigen. Wie wir dieses **Kompetenzgefühl** noch anders fördern und was das Ganze mit „Flow“ zu tun hat – dazu mehr im nächsten Newsletter!
+Das liegt daran, dass gutes Feedback uns die Sicherheit gibt, dass wir unsere Arbeit gut erledigen. Wie wir dieses **Kompetenzgefühl** noch anders fördern und was das Ganze mit „Flow“ zu tun hat – dazu mehr im nächsten Artikel!
 
 <p style="text-align: center"> **Bis dahin wünschen wir Ihnen eine erfolgreiche Woche!** </p>
 
