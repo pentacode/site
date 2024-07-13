@@ -50,7 +50,7 @@ Welche dieser Methoden sich besonders anbietet um Unterforderung zu bekämpfen, 
 
 Überforderung kann genauso schädlich sein wie Unterforderung und aus vielen Quellen stammen. Zum Beispiel könnten die Fähigkeiten des Mitarbeiters nicht ausreichen, um neue Arbeitsaufgaben zu stemmen. Wie wir gezielt die Fähigkeiten unserer Mitarbeiter entwickeln oder die Arbeitsinhalte anpassen, ist dabei ein Thema für eine weitere Ausgabe, denn zwei der häufigsten Gründe für Überforderung sind rein organisatorisch und **einfacher zu lösen**:
 
-### Ineffiziente Kommunikationsstrukturen und unklare Rollenaufteilungen.
+   **Ineffiziente Kommunikationsstrukturen und unklare Rollenaufteilungen.**
 
 Es geht viel Energie des Mitarbeiters im Hinterfragen des eigenen Kompetenzbereichs verloren und Aufgaben können komplexer wirken, als sie sein müssen. Dabei können schon ein kurzes Morgen-Briefing oder frei einsehbare Aushänge mit Aufgabenbereichen und Verantwortungen Abhilfe schaffen.
 
