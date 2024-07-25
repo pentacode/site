@@ -8,6 +8,74 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.28.0
+
+### Änderungen & Neuigkeiten
+
+-   Der Personalfragebogen erfragt nun weitere Informationen, bspw. Familienstatus und Anzahl Kinder.
+-   Rechnungen werden nun auch automatisch als PDF-Anhang per Email versandt.
+
+### Behobene Fehler
+
+-   Lohnartensätze wurden in einigen Fällen nicht korrekt gelöscht.
+
+## 1.27.5
+
+### Änderungen & Neuigkeiten
+
+-   Einstellungen zur Dienstplanansicht bleiben nun auch beim Ausloggen erhalten.
+-   Für Standorte kann ab jetzt eine eindeutige Standortnummer angegeben werden.
+-   Lohnartensätze können nun auch nach Schlagwörtern gefiltert werden.
+-   Beim Ansehen von Mitarbeiterdaten kann jetzt direkt zum vorherigen oder nächsten Mitarbeiter gewechselt werden.
+
+### Behobene Fehler
+
+-   In einigen Fällen konnten gültige Einladungen zur Mitarbeiter-App nicht angenommen werden.
+
+## 1.27.4
+
+### Änderungen & Neuigkeiten
+
+-   Für österreichische Firmen greifen nun die österreichischen Lohngrenzen bei geringfügig Beschäftigten.
+
+### Behobene Fehler
+
+-   In einigen Fällen wurden Kommentare zur Verfügbarkeit auch in der Folgewoche angezeigt.
+-   Beim Zurücknehmen von Änderungen im Dienstplan wurden die gesetzten Abteilungsfilter nicht berücksichtigt.
+-   In seltenen Fällen löste das Löschen eines Zeiterfassungs-Regelsatzes eine Fehlermeldung aus.
+
+## 1.27.3
+
+### Änderungen & Neuigkeiten
+
+-   Mitarbeiterstammdaten wurden um das Feld 'Titel' erweitert.
+-   Bei Schichten, bei denen eine archivierte Position geplant ist, wird die Position entsprechend markiert.
+-   Die Liste der Verträge eines Mitarbeiters (unter Mitarbeiter/Verträge) kann nun chronologisch absteigend und aufsteigend geordnet werden.
+-   Im Bereich "Arbeitszeiten" können nun Zeiträume von bis zu 70 Tagen ausgewählt werden.
+-   Im Bereich "Zeiterfassung" wirken sich die gewählten Filter nun auch auf das Zeiterfassungsprotokoll aus.
+-   Eingetragene Verfügbarkeiten, die einen Kommentar enthalten, werden entsprechend markiert.
+
+### Behobene Fehler
+
+-   In seltenen Fällen wurden beim Export von Lohndaten Einträge nicht korrekt aufsummiert.
+-   In einigen Fällen konnte keine Pause geplant werden, obwohl der gewählt Pausenmodus geplante Pausen beinhaltete.
+
+## 1.27.2
+
+### Behobene Fehler
+
+-   In seltenen Fällen konnte die Beraternummer in den Unternehmenseinstellungen nicht gespeichert werden.
+-   In seltenen Fällen wurde der steuerfreie Stundenlohn bei der Berechnung von steuerpflichtigen Zuschlägen herangezogen.
+
+## 1.27.1
+
+### Behobene Fehler
+
+-   In seltenen Fällen wurde eine Zeitbuchung auf eine falsche Position beim Mitarbeiter gebucht.
+-   In manchen Fällen wurde die Standardposition beim Anlegen eines neuen Mitarbeiters nicht korrekt gespeichert.
+-   In seltenen Fällen konnte für steuerfreie Zuschläge keine Lohnart hinterlegt werden.
+
+
 ## 1.27.0
 
 ### Änderungen & Neuigkeiten
