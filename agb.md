@@ -77,6 +77,8 @@ Die Nutzung der Dienstleistung durch den Kunden erfolgt ausschließlich nach Ma�
 **7.3** Ist eine Regelung dieser Allgemeinen Geschäftsbedingungen unwirksam oder nicht durchsetzbar, so bleiben die die Wirksamkeit des Vertrages insgesamt und die Geltung der restlichen Regelungen hiervon unberührt.
 
 
+**Stand: Mai 2022**
+
 
 
  
