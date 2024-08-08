@@ -13,7 +13,7 @@ Sofern ein Administrator Zugang zum "Benutzerkonto" hat, kann er in diesem Menü
 
 {% figure caption="Benutzerdaten & Passwort ändern" %}
 
-<img src="überblick.png"/>
+<img src="benutzer.webp"/>
 
 {% endfigure %}
 

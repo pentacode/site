@@ -82,7 +82,9 @@ funktioniert wie folgt:
 
 ### Regelsatz global verwenden
 
-Sie können einen individuell erstellten Regelsatz ebenfalls als neuen globalen Regelsatz festlegen. Wählen Sie dabei bei der [Zuordnung von Regelsätzen](#zuordnung-von-regelsätzen) **{% icon "globe" %} Als globale Einstellung verwenden** aus. Der ausgewählte Regelsatz wird nun nach erneuter Bestätigung für alle Mitarbeiter und Abteilungen verwendet, denen kein eigener Regelsatz zugeordnet ist. 
+Wählen Sie bei der [Zuordnung von Regelsätzen](#zuordnung-von-regelsätzen) keine Filter aus, zeigt der Regelsatz {% button label="Alle Mitarbeiter", icon="people-group" %} an. Der Regelsatz wird nun nach erneuter Bestätigung für alle Mitarbeiter und Abteilungen verwendet, denen kein eigener Regelsatz zugeordnet ist. 
+
+> {% icon "exclamation-triangle" %} Achten Sie darauf, dass immer nur ein Regelsatz für alle Mitarbeiter gültig ist!
 
 ## Anwendung von Regelsätzen
 
@@ -237,23 +239,6 @@ Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über d
 
 > Alle weiteren Optionen betreffen ausschließlich die Zeiterfassung per Stempeluhr und werden ausgeblendet, falls diese Option deaktiviert ist.
 
-### Stempeln via MA-App erlauben
-
-Hier können Sie einstellen, ob Mitarbeiter zusätzlich zur digitalen Stempeluhr auch über die Mitarbeiter-App Zeiten erfassen dürfen. Hierfür aktivieren oder deaktivieren Sie einfach den Button {% button label="Stempeln Via MA-App Erlauben" %}.
-
-### Stempeln Erfordert QR-Code
-
-Über den Button {% button label="Stempeln Erfordert QR-Code" %} können Sie einstellen, ob der Mitarbeiter vor dem Ein-
-oder Ausstempeln über die Mitarbeiter-App zunächst den QR-Code an der digitalen Stempeluhr scannen muss oder nicht.
-Durch das Scannen des QR-Codes kann Pentacode verifizieren, dass sich der Mitarbeiter zum Zeitpunkt des Stempelns am
-Arbeitsplatz befindet. Deaktivieren Sie diese Option, falls der Mitarbeiter auch an jenen Arbeitsorten Zeiten erfassen
-soll, an denen kein Tablet mit Stempeluhr vorhanden ist (z.B. im Homeoffice).
-
-> Der QR-Code an der digitalen Stempeluhr wechselt alle 30 Minuten und ist jeweils eine Stunde lang gültig. Das heißt
-> nach jedem Scannen des QR-Codes muss der Mitarbeiter nach spätestens einer Stunden den Code erneut scannen, bevor er/sie
-> erneut ein- oder ausstempeln kann. Auch das erfassen von Pausen erfordert eine verifizierung per QR-Code (falls diese
-> Option aktiviert ist).
-
 ### Verfrühte Anmeldung
 
 Unter dem Punkt **Bei Verfrühter Anmeldung** können Sie bestimmen, wie Pentacode verfahren soll, wenn ein Mitarbeiter
@@ -304,6 +289,16 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sich
 
 > **Übrigens**: die Rundungen bei Anmeldung und Abmeldung auf nur volle 5 Minuten entsprechen bei einem durchschnittlichen 8-Stunden-Tag etwas mehr als 1% der Arbeitszeit in Ihrem Unternehmen.
 
+### Standort Festhalten
+
+Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird.
+
+### Beweisfotos
+
+Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an dem Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
+
+Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
+
 ### Mitarbeiter Kurzinfo Anzeigen
 
 Ist diese Option aktiviert, dann wird dem Mitarbeiter bei jedem ein- und ausstempeln (oder einfach durch Eingabe der PIN)
@@ -317,15 +312,23 @@ einsehen.
 > **{% icon "exclamation-triangle" %} Achtung:** Diese Einstellung gilt nur noch für die "alte" Stempeluhr. Für die 
 > Stempeluhr 2.0 finden sie die entsprechende Einstellung im [Zeiterfassungs-Dashboard](/hilfe/handbuch/zeiterfassung/#anzeige)
 
-### Beweisfotos
+### Stempeln via MA-App erlauben
 
-Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an dem Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
+Hier können Sie einstellen, ob Mitarbeiter zusätzlich zur digitalen Stempeluhr auch über die Mitarbeiter-App Zeiten erfassen dürfen. Hierfür aktivieren oder deaktivieren Sie einfach den Button {% button label="Stempeln Via MA-App Erlauben" %}.
 
-Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
+### Stempeln Erfordert QR-Code
 
-### Standort Festhalten
+Über den Button {% button label="Stempeln Erfordert QR-Code" %} können Sie einstellen, ob der Mitarbeiter vor dem Ein-
+oder Ausstempeln über die Mitarbeiter-App zunächst den QR-Code an der digitalen Stempeluhr scannen muss oder nicht.
+Durch das Scannen des QR-Codes kann Pentacode verifizieren, dass sich der Mitarbeiter zum Zeitpunkt des Stempelns am
+Arbeitsplatz befindet. Deaktivieren Sie diese Option, falls der Mitarbeiter auch an jenen Arbeitsorten Zeiten erfassen
+soll, an denen kein Tablet mit Stempeluhr vorhanden ist (z.B. im Homeoffice).
 
-Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird.
+> Der QR-Code an der digitalen Stempeluhr wechselt alle 30 Minuten und ist jeweils eine Stunde lang gültig. Das heißt
+> nach jedem Scannen des QR-Codes muss der Mitarbeiter nach spätestens einer Stunden den Code erneut scannen, bevor er/sie
+> erneut ein- oder ausstempeln kann. Auch das erfassen von Pausen erfordert eine verifizierung per QR-Code (falls diese
+> Option aktiviert ist).
+
 
 ## Neuberechnung von Konten & Lohnabrechnungen
 

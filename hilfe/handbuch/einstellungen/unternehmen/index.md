@@ -5,7 +5,7 @@ weight: 2
 icon: building
 
 ---
-Unter dem Reiter **Unternehmen** können Sie verschiedene Unternehmendaten hinterlegen und gleichzeitig allgemeine Einstellungen für alle ihre Mitarbeiter treffen. Die Adressdaten dienen dabei lediglich der Information und haben keinen weiteren Einfluss. 
+Unter dem Reiter **Unternehmen** können Sie verschiedene Unternehmendaten hinterlegen und gleichzeitig allgemeine Einstellungen für alle ihre Mitarbeiter treffen. **Die Adressdaten dienen dabei lediglich der Information und haben keinen weiteren Einfluss!**
 
 ## Beginn der Kontoführung
 
@@ -17,11 +17,11 @@ Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig be
 
 Für die Saldierung von [SFN-Konten](/hilfe/handbuch/mitarbeiter/konten#sfn-konto) bietet Ihnen Pentacode zwei Optionen:
 
-### Exklusive Beitragspflichtige Zuschläge
+### Exklusive Steuerpflichtige Zuschläge
 
 Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur beitragsfreie Zuschläge berücksichtigt. Dies ist die Standardvariante.
 
-### Inklusive Beitragspflichtige Zuschläge
+### Inklusive Steuerpflichtige Zuschläge
 
 Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige
 Zuschläge berücksichtigt.
@@ -47,7 +47,7 @@ Dies tun sie wie folgt:
 4. Klicken sie auf **Bestätigen**.
 
 {% figure caption="Unter dem Punkt Einstellungen > Sonstiges können Sie ein Festschreibungsdatum für Arbeitszeiten und Konten festlegen." %}
-<img src="zeiten_festschreiben.png" />
+<img src="konten_festschreiben.webp" />
 {% endfigure %}
 
 ## Berechnung Gesetzliche Pause
@@ -78,10 +78,6 @@ In diesem Modus werden die **Pausen nach** der **Arbeitszeit** berechnet. Dem Mi
 | 6:01 - 9:30 | 30 min       |
 | > 9:30      | 45 min       |
 
-
-{% figure caption="Angaben zum Unternehmen und allgemeine Kontaktdaten" %}
-<img src="überblick.png"/>
-{% endfigure %}
 
 ## Wochenfaktor
 
