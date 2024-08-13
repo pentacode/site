@@ -14,7 +14,7 @@ exportieren können.
 Die Arbeitszeitenübersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol** um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
 
 {% figure caption="Die Arbeitszeitenübersicht zeigt Ihnen Arbeits- Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick." %}
-<img src="übersicht.webp" />
+<img src="arbeitszeiten_überblick.webp" />
 {% endfigure %}
 
 Über das Feld {% button icon="filter", label="Filter Hinzufügen..." %} können Sie nach einzelnen Abteilungen und Vertragsarten suchen. Beachten Sie, dass wenn Sie eine Abteilung aussuchen **Ihnen nur Arbeitszeiten aus der betroffenen Abteilung angezeigt werden** und diese nicht die ganze Arbeitszeit einzelner Mitarbeiter darstellt. In der rechten oberen Leiste können Sie zusätzlich auswählen, nach welchem Kriterium die Mitarbeiter in der Liste aufgeführt werden sollen. 
@@ -27,13 +27,20 @@ Um zur Arbeitszeiten-Übersicht zu gelangen, wählen Sie den Punkt {% button ico
 
 ## Das Arbeitszeitblatt
 
-Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten
-monatlichen Arbeitszeiten eines Mitarbeiters in einer
-übersichtlichen Listenansicht. Hier können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden
-vergleichen und vieles mehr. Um zum Arbeitszeitblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht) und wählen dort den gewünschten Mitarbeiter.
+Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten Arbeitszeiten eines Mitarbeiters in einer übersichtlichen Listenansicht. Hier können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr. Um zum Arbeitszeitblatt eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht) und wählen dort den gewünschten Mitarbeiter. Standardmäßig sehen Sie dann eine Auflistung aller Arbeitszeiten nach Monaten aufgegliedert. 
+
+### Zeitraum auswählen
+
+Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Zeitraum genauer betrachten. Klicken Sie auf das {% icon "calendar" %} **Symbol** um den Zeitraum auszuwählen, welcher angezeigt werden soll. Mit der Einstellung **Auflösung:** daneben können Sie einstellen, ob der Zeitraum nach **Wochen, Monaten oder Jahren** gegliedert werden soll. 
+
+{% figure caption="Im Arbeitszeitblatt können Sie einstellen welcher Zeitraum Ihnen genauer gezeigt wird." %}
+<img src=".webp" />
+{% endfigure %}
+
+Wählen Sie anschließend aus der Liste einen Zeitraum aus, öffnet sich eine Ansicht in der **alle Tage einzeln aufgelistet werden**. Hier können Sie Arbeitszeiten [erfassen](#neue-arbeitszeit-erfassen) und [bearbeiten](#arbeitszeit-bearbeiten) und bekommen einen guten Überblick über den ausgewählten Zeitraum. 
 
 {% figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
-<img src="arbeitszeitblatt.webp" />
+<img src=".webp" />
 {% endfigure %}
 
 > {% icon "lightbulb" %} **Tipp:** Verwenden Sie Ihre Tastatur, um noch schneller zwischen Monaten, Tagen und
@@ -179,6 +186,10 @@ können (sofern Sie die nötigen Berechtigungen haben).
 > {% icon "lightbulb" %} **Tipp:** Sie wissen nicht, was die angezeigten Symbole bedeuten? Indem Sie mit der Maus über
 > ein Symbol fahren, erscheint nach kurzer Zeit ein Hinweis zu diesem Symbol.
 
+### Veröffentlicht und bearbeitet
+
+An jeder geplanten und erfassten Schicht steht, wann die Schicht zuletzt geloggt oder verändert wurde. Ein **veröffentlicht vor...** gibt an wann die Schicht im Dienstplan eingetragen wurde. Ein **bearbeitet vor...** zeigt, wann die Schicht zuletzt händisch verändert wurde. So können Sie Änderungen leichter Nachvollziehen. 
+
 ## Arbeitszeit Löschen
 
 Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
@@ -246,19 +257,16 @@ Nachvollziehbarkeit dienen und erscheint neben dem Arbeitzeitblatt auch in der
 [Lohnabrechnung](#lohnabrechnung-individuell) und [Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht). Wenn kein
 Kommentar hinterlegt ist, erscheint der Eintrag lediglich als "Zeitbuchung".
 
-### Arbeitszeit-Abbuchung Bezahlen
+### Zeitbuchung Ausbezahlen
 
-Ist unter **Betrag** die Option **"Abbuchung"** gewählt, kann unter dem Punkt **Bezahlt** festgelegt werden, ob die
-abgebuchten Stunden bezahlt werden sollen. Ist diese Option gewählt, erscheint die Buchung in der
-[Lohnabrechnung](#lohnabrechnung-individuell) und [Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht) mit dem
-angegebenen Betrag.
+Wenn Sie die Zeitbuchung ausbezahlen und **im Lohnbericht Berücksichtigen** wollen, wählen Sie die Box an. Dadurch wird die Zeitbuchung an die Lohnbuchhaltung übetragen und normal mit dem Lohn ausgezahlt.
+Dazu müssen Sie auch auswählen mit welcher [Lohnart](/hilfe/handbuch/einstellungen/buchhaltung/#lohnarten) die Zeitbuchung ausgezahlt werden soll. Sollten Sie sich unsicher sein, fragen Sie dazu ihre Buchhaltung. 
 
-> {% icon "info-circle" %} **Beispiel:** Ein Mitarbeiter hat eine wesentliche Menge an Überstunden angesammelt. Um das
-> Arbeitszeitkonto auszugleichen und die geleisteten Überstunden auszubezahlen, wählen Sie die Option **Abbuchung**, geben
-> den auszubezahlenden Stundenbetrag ein und wählen Sie die Option **bezahlt**.
+> {% icon "person-chalkboard" %} **Beispiel:** Ein Mitarbeiter hat eine wesentliche Menge an Überstunden angesammelt. Um das
+> Arbeitszeitkonto auszugleichen und die geleisteten Überstunden auszubezahlen, wählen Sie die Option **Abbuchung**, geben den auszubezahlenden Stundenbetrag ein und wählen Sie die Option **im Lohnbericht Berücksichtigen** und die passende Lohnart.
 
 {% figure caption="So ziehen Sie ausbezahlte Überstunden vom Arbeitszeitkonto ab." %}
-<img src="überstunden_auszahlung.gif" />
+<img src="überstunden_ausbezahlen.gif" />
 {% endfigure %}
 
 ## Urlaubsbuchungen
@@ -293,16 +301,14 @@ kein Kommentar hinterlegt ist, erscheint der Eintrag lediglich als "Urlaubsbuchu
 
 ### Urlaub Ausbezahlen
 
-Ist unter **Betrag** die Option **"Abbuchung"** gewählt, kann unter dem Punkt **Bezahlt** festgelegt werden, ob die
+Ist unter **Betrag** die Option **"Abbuchung"** gewählt, kann unter dem Punkt **Im Lohnbericht Berücksichtigen** festgelegt werden, ob die
 abgebuchten Urlaubstage bezahlt werden sollen. Ist diese Option gewählt, erscheint die Buchung in der
-[Lohnabrechnung](#lohnabrechnung-individuell) und [Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht) mit dem equivalenten
-**Fehlstundenbetrag**. Der berechnete Fehlstundenbetrag ist der Betrag der durchschnittlichen Tages-Arbeitsstunden der
+Lohnabrechnung und Lohnabrechnung-Übersicht mit der ausgewählten **Lohnart**. Der **Fehlstundenbetrag** ist der Betrag der durchschnittlichen Tages-Arbeitsstunden der
 letzten 13 Wochen, multipliziert mit dem Betrag der abgebuchten Tage.
 
-> {% icon "info-circle" %} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub der aus Zeitgründen
+> {% icon "person-chalkboard" %} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub der aus Zeitgründen
 > nicht vollständig in Anspruch genommen werden kann. Um das
-> Urlaubskonto auszugleichen und den nicht genommenen Urlaub auszubezahlen, wählen Sie die Option **Abbuchung**, geben
-> die Menge von abzubuchenden Urlaubstagen ein und wählen Sie die Option **bezahlt**.
+> Urlaubskonto auszugleichen und den nicht genommenen Urlaub auszubezahlen, wählen Sie die Option **Abbuchung**, geben die Menge von abzubuchenden Urlaubstagen ein und wählen Sie die Option **Im Lohnbericht Berücksichtigen** mit der richtigen Lohnart.
 
 ## Arbeitszeiten Exportieren
 
