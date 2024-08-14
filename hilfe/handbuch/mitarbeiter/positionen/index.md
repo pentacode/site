@@ -35,9 +35,9 @@ Positionen-Einzelansicht einer Person, indem Sie zunächst zur [Positionenübers
 navigieren und dort den gewünschten Mitarbeiter wählen.
 
 {% figure caption="In der Positionen-Einzelansicht können Sie die Positionen eines bestimmten Mitarbeiters einsehen oder bearbeiten." %}
-<img src="positionen-einzeln.webp" />
+<img src="positionen_einzel.webp" />
 {% endfigure %}
 
 ## Positionen Zuweisen
 
-Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken in der [Positionenübersicht](#positionen-übersicht). In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down Menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 
+In der [Übersicht](#positionen-übersicht) erfolgt das Zuweisen von Positionen ganz einfach über das An- oder Abwählen der entsprechenden Haken. In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down Menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 
