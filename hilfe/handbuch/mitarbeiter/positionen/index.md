@@ -2,15 +2,16 @@
 layout: layouts/hilfe/single.njk
 title: Positionen
 weight: 8
-icon: user-tag
+icon: arrows-down-to-people
 ---
 
 Über die **Positionen** eines Mitarbeiters können Sie festlegen, in welchen
 [Arbeitsbereichen](/hilfe/handbuch/einstellungen/arbeitsbereiche/) die Person eingesetzt werden kann. Bevor Sie
 [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten) für einen Mitarbeiter erfassen oder [Dienste
-planen](/hilfe/handbuch/dienstplan/) können, muss der Person zunächst mindestens eine Position zugewiesen werden. Sie
-können jedem Mitarbeiter beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen Standorten
-zuweisen.
+planen](/hilfe/handbuch/dienstplan/) können, muss der Mitarbeiter zunächst
+mindestens eine Position zugewiesen werden. Sie können jedem Mitarbeiter
+beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen
+Standorten zuweisen.
 
 > {% icon "info-circle" %} **Hinweis:** Bevor Sie mit dem zuweisen von Positionen beginnen, müssen Sie zunächst die
 > entsprechenden Arbeitsbereiche definieren. Mehr dazu erfahren Sie im Handbuch unter [Einstellungen /
