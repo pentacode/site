@@ -5,8 +5,9 @@ weight: 10
 icon: file-contract
 ---
 
-Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und **lohnrelevanten Angaben** Ihrer Mitarbeiter. Achten Sie
-hier bitte auf die Richtigkeit und Vollständigkeit der Angaben. **Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.**
+Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und **lohnrelevanten Angaben** Ihrer Mitarbeiter. **Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben.**
+
+> {% icon "exclamation-triangle" %} **Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.**
 
 ## Verträge Übersicht
 
@@ -31,7 +32,8 @@ Um einen bestimmten Vertrag zu öffnen, klicken Sie einfach auf den entsprechend
 {% button icon="list-timeline", label="Vertragsänderungen" %} kommen Sie in die [Vertragsänderungen-Ansicht](#vertragsänderungen-einzelansicht) des
 Mitarbeiters.
 
-{% figure caption="" %}
+{% figure caption="In der Einzelansicht sehen Sie den aktuellen als auch die
+vergangenen Verträge des Mitarbeiters." %}
 <img src="vertraege_einzelansicht.webp" />
 {% endfigure %}
 
@@ -141,19 +143,20 @@ Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehen
 könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der
 Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
-In diesem Fall erhalten Sie in Pentacode eine _Problem Meldung_.
+In diesem Fall erhalten Sie in Pentacode eine [Problem Meldung](/hilfe/handbuch/probleme/).
 
-Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung eines **Jahresarbeitszeitkontos**
-vereinbaren.
+Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung
+eines **Jahresarbeitszeitkontos** vereinbaren.
 
 Setzen Sie in diesem Fall den Button bei "**Jahresarbeitszeitkonto Vereinbart**".
 
 Über- und Minderstunden werden in Pentacode grundsätzlich und für alle Mitarbeiter (also selbst bei Aushilfen) saldiert
 und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 
-> **Rechtswirksam wird ein Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter schriftlich
-> vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein, so senden wir Ihnen gerne eine entsprechende
-> Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
+> {% icon "exclamation-triangle" %} **Rechtswirksam wird ein
+> Jahresarbeitszeitkonto jedoch erst, wenn dessen Führung mit dem Mitarbeiter
+> schriftlich vereinbart ist.** Sollte dies bei Ihnen noch nicht der Fall sein,
+> so senden wir Ihnen gerne eine entsprechende Vereinbarung als Ergänzung zum bestehenden Arbeitsvertrag zu. Wenden Sie sich hierzu einfach an unseren Support.
 
 ## Bezahlung
 
@@ -161,21 +164,12 @@ und in den einzelnen Jahresarbeitszeitkonten in die Zukunft vorgetragen.
 
 Geben Sie unter **"Alle Arbeitsbereiche"** das Standardgehalt des Mitarbeiters ein.
 
-Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **Stunden**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monat**.
+Wird ein Mitarbeiter **nach Stunden** bezahlt, wählen Sie im Dropdown-Menü **Pro
+Stunde**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monatlich**.
 
 #### Provision
 
 Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#provision)".
-
-#### Lohnartensatz
-
-Über den Lohnartensatz wird der **Export** der Daten in die Lohnbuchhaltung organisiert.
-
-Mit dem Drop-down-Pfeil können Sie unter den Lohnarten wählen, die sie unter "Einstellungen" und dort "[**Buchhaltung**](/hilfe/handbuch/einstellungen/buchhaltung.md)" angelegt haben.
-
-> In der Standardeinstellung von Pentacode finden Sie den Lohnartensatz "\[Nichts Gewählt\]". Wir empfehlen Ihnen, diesen beizubehalten. Der **Lohnartensatz**, den Pentacode für den Export wählt, orientiert sich damit immer am **Beschäftigungsverhältnis** des Mitarbeiters.
-
-Dies bedeutet: Wechselt ein Mitarbeiter z.B. von "Aushilfe/Mini-Jobber" auf "Vollzeit/Teilzeit", wechselt Pentacode auch automatisch den Lohnartensatz. Wenn sie einen bestimmten Lohnartensatz gewählt haben, muss für den Export der Lohnartensatz manuell entsprechend korrigiert werden.
 
 #### Ein Mitarbeiter - mehrere Löhne
 
@@ -183,7 +177,7 @@ Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen bei unterschiedlich
 
 Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zu. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
 
-> **ACHTUNG!** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
+> {% icon "exclamation-triangle" %} **Achtung:** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
 
 ## Urlaub
 
@@ -208,7 +202,7 @@ Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet 
 
 Klicken Sie auf {% button icon="plus", label="Zuschlag hinzufügen" %} um dem Mitarbeiter eine neue Zuschlagsart zuzuweisen. Wählen Sie den gewünschten Zuschlag aus und tragen Sie die **Positionen des Mitarbeiters ein, die vom Zuschlag betroffen sein sollen, sowie die Höhe des Zuschlags in Prozent des Grundlohns**. Standardmäßig werden **Alle Positionen** und der Standardsatz der Zuschlagsart ausgewählt. 
 
-[Hier](/hilfe/handbuch/einstellungen/buchhaltung.md) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
+[Hier](/hilfe/handbuch/einstellungen/buchhaltung/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
 
 #### Kumulierte Zuschläge
 
@@ -246,11 +240,11 @@ in Pentacode ab, indem Sie einen neuen Vertrag anlegen:
 
 Als alternative zum Erstellen eines neuen Vertrages können Sie außerdem einen bestehenden Vertrag bearbeiten.
 
-> {% icon "exclamation-triangle" %} **ACHTUNG:** Änderungen an bestehenden Verträgen wirken sich rückwirkend
-> auf alle **arbeitszeit- und lohnrelevanten Werte** innerhalb Vertragszeitraums aus, welche in der Folge
+> {% icon "exclamation-triangle" %} **Achtung:** Änderungen an bestehenden Verträgen wirken sich rückwirkend
+> auf alle **arbeitszeit- und lohnrelevanten Werte** innerhalb des Vertragszeitraums aus, welche in der Folge
 > neu berechnet werden. Änderungen an bestehenden Verträgen sollten deshalb nur in Ausnahmefällen vorgenommen werden.
 > **Bei regulären Vertragsänderungen, also Änderungen die erst ab einem bestimmten Zeitpunkt (gewöhnlich in der Gegenwart
-> oder Zukunft) greifen sollen ohne die Konditionen für die vorherigen Zeiträume zu ändern, empfehlen wir, einen [Neuen
+> oder Zukunft) greifen sollen, ohne die Konditionen für die vorherigen Zeiträume zu ändern, empfehlen wir, einen [Neuen
 > Vertrag](#neuer-vertrag) anzulegen**.
 
 So nehmen Sie Änderungen an einem bestehenden Vertrag vor:
