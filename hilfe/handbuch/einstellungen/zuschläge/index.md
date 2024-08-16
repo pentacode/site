@@ -12,19 +12,16 @@ Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Ta
 Die in [§ 3b des Einkommenssteuergesetzes (EStG)](https://www.gesetze-im-internet.de/estg/__3b.html) definierten SFN (Sonntags-, Feiertags- und Nachts-) Zuschläge werden für Sie automatisch angelegt. Solange für Ihr Unternehmen also keine gesonderten Regeln gelten, sollten Sie **in diesem Bereich normalerweise keine Anpassungen machen müssen.**
 Folgende Zuschläge sind vorangelegt und nach Gesetz beitragsfrei:
 
-- *Nacht 1:*Zuschlag von 25% wenn Arbeitszeit zwischen 20:00 und 6:00 Uhr fällt.
-- *Nacht 2:* Zuschlag von 40% wenn eine Schicht vor 0:00 begonnen wird, auf die Arbeitszeit zwischen 0:00 und 4:00.
-- *Sonntag:* Zuschlag von 50% an Sonntagen.
-- **:** 
-- *Feiertag:* Zuschlag von 125% an gesetzlichen Feiertagen
-- **:** 
-- *Besonderer Feiertag:* Zuschlag von 150% am 1. Mai, 25. Dezember und 26. Dezember.
-- *Heilig Abend:* Zuschlag von 150% ab 14:00 am 24. Dezember
-- *Silvester:* Zuschlag von 150% ab 14:00 am 31. Dezember
+- *Nacht 1 -* Zuschlag von 25% wenn Arbeitszeit zwischen 20:00 und 6:00 Uhr fällt.
+- *Nacht 2 -* Zuschlag von 40% wenn eine Schicht vor 0:00 begonnen wird und auf die Arbeitszeit zwischen 0:00 und 4:00.
+- *Sonntag -* Zuschlag von 50% an Sonntagen.
+- *Feiertag -* Zuschlag von 125% an gesetzlichen Feiertagen
+- *Besonderer Feiertag -* Zuschlag von 150% am 1. Mai, 25. Dezember und 26. Dezember.
+- *Heilig Abend -* Zuschlag von 150% ab 14:00 am 24. Dezember
+- *Silvester -* Zuschlag von 150% ab 14:00 am 31. Dezember
 
 
-
->{% icon "exclamation-triangle" %} **Sollten Sie an diesen Zuschlägen Änderungen vornehmen wollen (z.B. eine Anpassung der Zuschlagszeiträume), dann beachten Sie bitte, dass alle Zuschläge, die über den in § 3b EStG definierten Rahmen hinausgehen, beitragspflichtig sind! Das Angeben weiterer Zuschläge außerhalb dieses Rahmens als beitragsfrei würde somit einer Abgabenhinterziehung gleichkommen!**
+>{% icon "exclamation-triangle" %} **Sollten Sie an diesen Zuschlägen Änderungen vornehmen wollen (z.B. eine Anpassung der Zuschlagszeiträume), dann beachten Sie bitte, dass alle Zuschläge, die über den in § 3b EStG definierten Rahmen hinausgehen, beitragspflichtig sind! Das Angeben weiterer Zuschläge außerhalb dieses Rahmens als beitragsfrei würde somit einer Abgabenhinterziehung gleichkommen! Beziehen Sie bei Unklarheiten immer Ihre Lohnbuchhaltung mit ein!**
 
 Wenn Sie erfahren wollen, wie Sie durch den **gezielten Einsatz von SFN-Zuschlägen bis zu 10% Mitarbeiterkosten sparen können**, haben wir in [diesem Artikel](/blog/zuschläge_strategisch_nutzen/) alle Informationen für Sie gesammelt!
 

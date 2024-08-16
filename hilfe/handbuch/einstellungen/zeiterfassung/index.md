@@ -82,9 +82,7 @@ funktioniert wie folgt:
 
 ### Regelsatz global verwenden
 
-Wählen Sie bei der [Zuordnung von Regelsätzen](#zuordnung-von-regelsätzen) keine Filter aus, zeigt der Regelsatz {% button label="Alle Mitarbeiter", icon="people-group" %} an. Der Regelsatz wird nun nach erneuter Bestätigung für alle Mitarbeiter und Abteilungen verwendet, denen kein eigener Regelsatz zugeordnet ist. 
-
-> {% icon "exclamation-triangle" %} Achten Sie darauf, dass immer nur ein Regelsatz für alle Mitarbeiter gültig ist!
+Wählen Sie bei der [Zuordnung von Regelsätzen](#zuordnung-von-regelsätzen) keine Filter aus, zeigt der Regelsatz {% button label="Alle Mitarbeiter", icon="people-group" %} an. Wenn mehrere Regelsätze für 'Alle Mitarbeiter' gültig sind, wird der Oberste verwendet!
 
 ## Anwendung von Regelsätzen
 

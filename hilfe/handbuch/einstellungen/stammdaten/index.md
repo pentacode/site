@@ -15,7 +15,7 @@ Je nach Betrieb könnte es viele Gründe geben zusätzliche Schlagwörter zu ers
 
 ### Schlagwörter erstellen
 
-Um ein neues Schlagwort zu erstellen klicken Sie auf {% button icon="plus", label="Neues Schlagwort" %}. Geben Sie anschließend den Namen des Schlagwortes ein und klicken anschließend auf **Speichern**. 
+Um ein neues Schlagwort zu erstellen klicken Sie auf {% button icon="plus", label="Neues Schlagwort" %}. Geben Sie anschließend den Namen des Schlagwortes ein und klicken auf **Speichern**. 
 
 {% figure caption="Ein neues Schlagwort für die Stammdaten ist schnell erstellt." %}
 
