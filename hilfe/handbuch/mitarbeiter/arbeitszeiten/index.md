@@ -34,13 +34,13 @@ Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten Arbeitszeiten
 Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Zeitraum genauer betrachten. Klicken Sie auf das {% icon "calendar" %} **Symbol** um den Zeitraum auszuwählen, welcher angezeigt werden soll. Mit der Einstellung **Auflösung:** daneben können Sie einstellen, ob der Zeitraum nach **Wochen, Monaten oder Jahren** gegliedert werden soll. 
 
 {% figure caption="Im Arbeitszeitblatt können Sie einstellen welcher Zeitraum Ihnen genauer gezeigt wird." %}
-<img src=".webp" />
+<img src="arbeitszeit_zeitraum.webp" />
 {% endfigure %}
 
 Wählen Sie anschließend aus der Liste einen Zeitraum aus, öffnet sich eine Ansicht in der **alle Tage einzeln aufgelistet werden**. Hier können Sie Arbeitszeiten [erfassen](#neue-arbeitszeit-erfassen) und [bearbeiten](#arbeitszeit-bearbeiten) und bekommen einen guten Überblick über den ausgewählten Zeitraum. 
 
-{% figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
-<img src=".webp" />
+{% figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten taggenau erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
+<img src="arbeitszeit_monat.webp" />
 {% endfigure %}
 
 > {% icon "lightbulb" %} **Tipp:** Verwenden Sie Ihre Tastatur, um noch schneller zwischen Monaten, Tagen und
@@ -188,7 +188,7 @@ können (sofern Sie die nötigen Berechtigungen haben).
 
 ### Veröffentlicht und bearbeitet
 
-An jeder geplanten und erfassten Schicht steht, wann die Schicht zuletzt geloggt oder verändert wurde. Ein **veröffentlicht vor...** gibt an wann die Schicht im Dienstplan eingetragen wurde. Ein **bearbeitet vor...** zeigt, wann die Schicht zuletzt händisch verändert wurde. So können Sie Änderungen leichter Nachvollziehen. 
+An jeder geplanten und erfassten Schicht steht, wann die Schicht zuletzt geloggt oder verändert wurde. Ein **veröffentlicht vor...** gibt an wann die Schicht im Dienstplan eingetragen wurde. Ein **bearbeitet vor...** zeigt, wann die Schicht zuletzt verändert wurde. So können Sie Änderungen leichter Nachvollziehen. 
 
 ## Arbeitszeit Löschen
 
