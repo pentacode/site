@@ -12,7 +12,7 @@ categories:
 
 <p style="text-align: center"> *Ken Blanchard*  </p>
 
-„Nicht geschimpft ist genug gelobt“ ist immer noch die vorherrschende Meinung in vielen Führungspositionen. Dabei haben wir besonders im deutschen Kulturkreis fast schon eine Aversion dagegen, gute Leistung gebührend zu loben. Feedback besteht oft vor allem aus dem Kritisieren dessen, was falsch gelaufen ist, Anerkennung ist rar gesät. Dabei ist Lob eine der **einfachsten und effizientesten Methoden, die Motivation und das Arbeits-engagement unserer Mitarbeiter zu fördern**. Und das ohne große Veränderungen oder Investitionen.
+„Nicht geschimpft ist genug gelobt“ ist immer noch die vorherrschende Meinung in vielen Führungspositionen. Dabei haben wir besonders im deutschen Kulturkreis fast schon eine Aversion dagegen, gute Leistung gebührend zu loben. Feedback besteht oft vor allem aus dem Kritisieren dessen, was falsch gelaufen ist, Anerkennung ist rar gesät. Dabei ist Lob eine der **einfachsten und effizientesten Methoden, die Motivation und das Arbeitsengagement unserer Mitarbeiter zu fördern**. Und das ohne große Veränderungen oder Investitionen.
 
 ## Wertschätzung ist essenziell
 
