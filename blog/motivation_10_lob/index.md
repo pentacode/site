@@ -55,7 +55,7 @@ Aus der Verhaltenspsychologie wissen wir, dass es uns deutlich einfacher fällt 
 
 Lob ist eine der einfachsten und wirksamsten Methoden, um Mitarbeiter zu motivieren, sie in ihren Fähigkeiten zu bestärken und sie an das Unternehmen zu binden. Kaum etwas anderes ist so unmittelbar wirksam wie ein ehrliches „Du hast … sehr gut gemacht – du bist eine Bereicherung für unseren Betrieb“. Gleichzeitig sollten wir immer darauf achten ein Gleichgewicht zu halten und **spendabel aber nicht verschwenderisch** mit unserer Anerkennung umzugehen. So stellen wir sicher, dass das Lob auch seinen Wert behält.
 
-Falls Sie normalerweise eher eine Person weniger Wörter sind, laden wir Sie dazu ein, es einmal einige Tage zu versuchen und die Reaktion ihrer Mitarbeiter zu beobachten. Solange Sie keine leeren Worte und „Wertschätzung aus der Dose“ von sich geben, sind wir sicher, dass ihre Mitarbeiter die guten Worte mit viel Bereitschaft annehmen.
+Falls Sie normalerweise eher eine Person weniger Worte sind, laden wir Sie dazu ein, es einmal einige Tage zu versuchen und die Reaktion ihrer Mitarbeiter zu beobachten. Solange Sie keine leeren Worte und „Wertschätzung aus der Dose“ von sich geben, sind wir sicher, dass ihre Mitarbeiter die guten Worte mit viel Bereitschaft annehmen.
 
 Ein netter Nebeneffekt: Anerkennung kann bewirken, dass Angestellte ihren Schutzschild etwas fallenlassen und auch **Kritik zukünftig besser annehmen**. Denn natürlich braucht auch Jeder konstruktives Feedback, wenn was nicht so gut gelaufen ist. Wie wir ein Verfehlen gut kommunizieren und dabei verhindern, dass unsere Angestellten die „Ohren versperren“ – dazu mehr im folgenden Artikel!
 
