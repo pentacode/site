@@ -22,7 +22,7 @@ Aufs erste wirken Lob und Wertschätzung wie ein Extra. Klar - Mitarbeiter freue
 
 ## Warum Lob so wichtig ist
 
-Als soziale Spezies achten wir Menschen stetig auf die Reaktionen unseres Gegenübers und unserer Gruppe. Bekommen wir kein klares Feedback dazu, wie wir unsere Arbeit erfüllen, tappen wir im Dunkeln. Da unser Überleben früher maßgeblich von unserer sozialen Position und der Gunst anderer abhing, führt **das Ausbleiben von Feedback** bei Vielen **zu Unsicherheit** – unser Gehirn kann nicht feststellen, ob wir uns „richtig“ verhalten und uns somit sicher fühlen. Diese Unsicherheit zeigt sich dann in negativen Konsequenzen für Arbeitnehmer und Arbeitgeber:
+Als soziale Spezies achten wir Menschen stetig auf die Reaktionen unseres Gegenübers und unserer Gruppe. Bekommen wir kein klares Feedback dazu, wie wir unsere Arbeit erfüllen, tappen wir im Dunkeln. Da unser Überleben früher maßgeblich von unserer sozialen Position und der Gunst anderer abhing, führt **das Ausbleiben von Feedback** bei Vielen **zu Unsicherheit** – unser Gehirn kann nicht feststellen, ob wir uns „richtig“ verhalten und sicher fühlen können. Diese Unsicherheit zeigt sich dann in negativen Konsequenzen für Arbeitnehmer und Arbeitgeber:
 
 <figure>
   <img src="nl10_lob.webp"/>
