@@ -12,13 +12,13 @@ categories:
 
 <p style="text-align: center"> *Ken Blanchard*  </p>
 
-„Nicht geschimpft ist genug gelobt“ ist immer noch die vorherrschende Meinung in vielen Führungspositionen. Dabei haben wir besonders im deutschen Kulturkreis fast schon eine Aversion dagegen, gute Leistung gebührend zu loben. Feedback besteht oft vor allem aus dem Kritisieren dessen, was falsch gelaufen ist, Anerkennung ist rar gesät. Dabei ist Lob eine der **einfachsten und effizientesten Methoden, die Motivation und das Arbeits-engagement unserer Mitarbeiter zu fördern**. Und das ohne große Veränderungen oder Investitionen.
+„Nicht geschimpft ist genug gelobt“ ist immer noch die vorherrschende Meinung in vielen Führungspositionen. Dabei haben wir besonders im deutschen Kulturkreis fast schon eine Aversion dagegen, gute Leistung gebührend zu loben. Feedback besteht oft vor allem aus dem Kritisieren dessen, was falsch gelaufen ist, Anerkennung ist rar gesät. Dabei ist Lob eine der **einfachsten und effizientesten Methoden, die Motivation und das Arbeitsengagement unserer Mitarbeiter zu fördern**. Und das ohne große Veränderungen oder Investitionen.
 
 ## Wertschätzung ist essenziell
 
 Aufs erste wirken Lob und Wertschätzung wie ein Extra. Klar - Mitarbeiter freuen sich, wenn sie etwas Gutes hören, aber wirklich nötig ist es nicht. Doch mit dieser Annahme täuschen sich gefährlich viele Arbeitgeber und riskieren dabei besonders in Zeiten des Fachkräftemangels essenzielle Mitarbeiter.
 
-**Denn fehlende Anerkennung und Wertschätzung werden regelmäßig von Mitarbeitern als der häufigste Kündigungsgrund angegeben!** Dadurch über-trifft zu geringe Wertschätzung sogar noch Stress in der Arbeit und ein zu niedriges Gehalt regelmäßig in Umfragen. Doch wie kann es sein, dass das Fehlen von wenigen positiven Worte eine so gravierende Auswirkung hat?
+**Denn fehlende Anerkennung und Wertschätzung werden regelmäßig von Mitarbeitern als der häufigste Kündigungsgrund angegeben!** Dadurch über-trifft zu geringe Wertschätzung sogar noch Stress in der Arbeit und ein zu niedriges Gehalt regelmäßig in Umfragen. Doch wie kann es sein, dass das Fehlen von wenigen positiven Worten eine so gravierende Auswirkung hat?
 
 ## Warum Lob so wichtig ist
 
@@ -53,9 +53,9 @@ Aus der Verhaltenspsychologie wissen wir, dass es uns deutlich einfacher fällt 
 ## Fazit
 
 
-Lob ist eine der einfachsten und wirksamsten Methoden, um Mitarbeiter zu motivieren, sie in ihren Fähigkeiten zu bestärken und sie an das Unternehmen zu binden. Kaum etwas anderes ist so unmittelbar wirksam wie ein ehrliches „Du hast … sehr gut gemacht – du bist eine Bereicherung für unseren Betrieb“. Gleichzeitig sollten wir immer darauf achten ein Gleichgewicht zu halten und **spendabel aber nicht verschwenderisch** mit unserer Anerkennung umzu-gehen. So stellen wir sicher, dass das Lob auch seinen Wert behält.
+Lob ist eine der einfachsten und wirksamsten Methoden, um Mitarbeiter zu motivieren, sie in ihren Fähigkeiten zu bestärken und sie an das Unternehmen zu binden. Kaum etwas anderes ist so unmittelbar wirksam wie ein ehrliches „Du hast … sehr gut gemacht – du bist eine Bereicherung für unseren Betrieb“. Gleichzeitig sollten wir immer darauf achten ein Gleichgewicht zu halten und **spendabel aber nicht verschwenderisch** mit unserer Anerkennung umzugehen. So stellen wir sicher, dass das Lob auch seinen Wert behält.
 
-Falls Sie normalerweise eher eine Person weniger Wörter sind, laden wir Sie dazu ein, es einmal einige Tage zu versuchen und die Reaktion ihrer Mitarbeiter zu beobachten. Solange Sie keine leeren Worte und „Wertschätzung aus der Dose“ von sich geben, sind wir sicher, dass ihre Mitarbeiter die guten Worte mit viel Bereitschaft annehmen.
+Falls Sie normalerweise eher eine Person weniger Worte sind, laden wir Sie dazu ein, es einmal einige Tage zu versuchen und die Reaktion ihrer Mitarbeiter zu beobachten. Solange Sie keine leeren Worte und „Wertschätzung aus der Dose“ von sich geben, sind wir sicher, dass ihre Mitarbeiter die guten Worte mit viel Bereitschaft annehmen.
 
 Ein netter Nebeneffekt: Anerkennung kann bewirken, dass Angestellte ihren Schutzschild etwas fallenlassen und auch **Kritik zukünftig besser annehmen**. Denn natürlich braucht auch Jeder konstruktives Feedback, wenn was nicht so gut gelaufen ist. Wie wir ein Verfehlen gut kommunizieren und dabei verhindern, dass unsere Angestellten die „Ohren versperren“ – dazu mehr im folgenden Artikel!
 
