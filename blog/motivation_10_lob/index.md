@@ -18,7 +18,7 @@ categories:
 
 Aufs erste wirken Lob und Wertschätzung wie ein Extra. Klar - Mitarbeiter freuen sich, wenn sie etwas Gutes hören, aber wirklich nötig ist es nicht. Doch mit dieser Annahme täuschen sich gefährlich viele Arbeitgeber und riskieren dabei besonders in Zeiten des Fachkräftemangels essenzielle Mitarbeiter.
 
-**Denn fehlende Anerkennung und Wertschätzung werden regelmäßig von Mitarbeitern als der häufigste Kündigungsgrund angegeben!** Dadurch über-trifft zu geringe Wertschätzung sogar noch Stress in der Arbeit und ein zu niedriges Gehalt regelmäßig in Umfragen. Doch wie kann es sein, dass das Fehlen von wenigen positiven Worte eine so gravierende Auswirkung hat?
+**Denn fehlende Anerkennung und Wertschätzung werden regelmäßig von Mitarbeitern als der häufigste Kündigungsgrund angegeben!** Dadurch über-trifft zu geringe Wertschätzung sogar noch Stress in der Arbeit und ein zu niedriges Gehalt regelmäßig in Umfragen. Doch wie kann es sein, dass das Fehlen von wenigen positiven Worten eine so gravierende Auswirkung hat?
 
 ## Warum Lob so wichtig ist
 
