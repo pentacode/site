@@ -11,7 +11,7 @@ Die Gegenüberstellung erfolgt nur auf Basis der zum aktuellen Zeitpunkt erfasst
 
 Unter [Konten (Übersicht)](/hilfe/handbuch/mitarbeiter/konten/) wird das Arbeitszeitkonto gemeinsam mit dem Zuschlagskonto und Urlaubskonto in einer gemeinsamen Übersicht zusammengefasst. 
 
-Sofern nicht anders erfasst, werden die Über- oder Minderstunden am Ende eines Jahres immer automatisch in das Folgejahr übertragen. Wie Sie diese Überträge bearbeiten können, erfahren Sie unter dem Punkt Übertrag Bearbeiten / Konten Zurücksetzen.
+Sofern nicht anders erfasst, werden die Über- oder Minderstunden am Ende eines Jahres immer automatisch in das Folgejahr übertragen. Wie Sie diese Überträge bearbeiten können, erfahren Sie unter dem Punkt Konten Zurücksetzen.
 
 ## Übersicht
 
@@ -25,7 +25,9 @@ In der Übersicht können Sie die Arbeitszeiten all ihrer Mitarbeiter über eine
 
 *Differenz -* sind die Ist-Stunden abzüglich der Soll-Stunden - dieser Wert gibt an ob Planung und Durchführung von Arbeitszeiten sich decken. 
 
-*Saldo -* sind die im Übertrag angesammelten Stunden verrechnet mit der Differenz des Zeitraums.
+*Saldo -* sind die insgesamt angesammelten Über- und Minderstunden.
+
+> {% icon "lightbulb" %} Positive Werte sind stets Überstunden - negative Werte stets Minderstunden.
 
 ### Zeitraum wählen
 
