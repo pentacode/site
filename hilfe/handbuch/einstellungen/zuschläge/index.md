@@ -54,12 +54,21 @@ Wenn ein Zuschlag nur gewährt werden soll, wenn die Schicht vor einem bestimmte
 
 ### Mindestdauer
 
-Sollten Zuschläge erst ab einer gewissen Mindestdauer im Zuschlagszeitraum angerechnet werden, können Sie dies hier auswählen. Dabei haben 
---- Was bedeutet Prozentualer Satz?
+Sollten Zuschläge erst ab einer gewissen Mindestdauer im Zuschlagszeitraum angerechnet werden, können Sie dies hier auswählen.
+
+#### In Stunden 
+
+Der Zuschlag wird erst gewährt, wenn mindestens der angegebene Zeitraum einer Schicht im Zuschlagszeitraum liegt. 
 
 {% figure caption="Der Samstagszuschlag soll erst einer Schichtdauer von 4h gewährt werden? Geben Sie die Mindestdauer einfach mit an." %}
 <img src="mindestdauer.webp">
 {% endfigure %}
+
+#### In Prozent
+
+Geben Sie hier an wieviel Prozent der Arbeitszeit einer Schicht mindestens im Zuschlagszeitraum liegen müssen, damit der Zuschlag angewandt wird.
+
+> {% icon "person-chalkboard" %} **Beispiel:** Wenn 25% als Mindestdauer angegeben werden, wir bei einer 8 Stunden Schicht erst der Zuschlag angewandt, wenn 2 Stunden der Schicht innerhalb des Zuschlagszeitraums liegen. 
 
 
 ### Zeiträume
