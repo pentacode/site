@@ -177,7 +177,17 @@ Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen bei unterschiedlich
 
 Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zu. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
 
-> {% icon "exclamation-triangle" %} **Achtung:** Für die Ermittlung des Lohns im Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
+> {% icon "exclamation-triangle" %} **Achtung:** Für die Ermittlung des Lohns im
+> Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn
+> herangezogen, den sie unter **"Alle Arbeitsbereiche"** angelegt haben.
+
+### Lohnarten
+
+Lohnarten werden dem Mitarbeiter normalerweise über sein
+[Beschäftigungsverhältnis](#beschäftigungsverhältnis) zugeordnet. Sie können
+diese in den Einstellungen unter
+[Buchhaltung](/hilfe/handbuch/einstellungen/buchhaltung/index.md/#lohnarten)
+bearbeiten. 
 
 ## Urlaub
 
@@ -202,7 +212,7 @@ Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet 
 
 Klicken Sie auf {% button icon="plus", label="Zuschlag hinzufügen" %} um dem Mitarbeiter eine neue Zuschlagsart zuzuweisen. Wählen Sie den gewünschten Zuschlag aus und tragen Sie die **Positionen des Mitarbeiters ein, die vom Zuschlag betroffen sein sollen, sowie die Höhe des Zuschlags in Prozent des Grundlohns**. Standardmäßig werden **Alle Positionen** und der Standardsatz der Zuschlagsart ausgewählt. 
 
-[Hier](/hilfe/handbuch/einstellungen/buchhaltung/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
+[Hier](/hilfe/handbuch/einstellungen/zuschläge/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
 
 #### Kumulierte Zuschläge
 
@@ -212,7 +222,7 @@ Standardmäßig können Sonn- und Feiertagszuschläge mit den Nachtzuschlägen *
 
 Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im erscheinenden Eingabefeld, die Höhe der monatlichen Pauschalvorauszahlung ein.
 
-Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter-einzeln/konten/#sfn-zuschläge)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
+Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter/konten/)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
 > Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
 
