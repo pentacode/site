@@ -52,15 +52,15 @@ Bereits angelegte Stempeluhren können selbstverständlich auch im Nachhinein no
 
 **Hier können Sie einschränken, in welche Arbeitsbereiche die Stempeluhr eingesetzt werden soll.** Wenn hier nichts gewählt ist, kann die Stempeluhr für das gesamte Unternehmen genutzt werden. Wählen Sie ein oder mehrere Abteilungen oder Standorte um die Erfassung von Arbeitszeiten nur in den ausgewählen Arbeitsbereichen zuzulassen.
 
-#### Anzeige
+#### Funktionen
 
-Hier können Sie verschiedene Einstellungen vornehmen, um die Anzeige der Stempeluhr am Endgerät anzupassen.
+Hier können Sie verschiedene Einstellungen vornehmen, um durch verschiedene Funktionen die Anzeige der Stempeluhr am Endgerät anzupassen.
 
-- **Dienstplan Anzeigen:** Wählen Sie diese Option, um die Anzeige des Dienstplans zu erlauben. Es erscheint dann ein Button, mit dem der Dienstplan aufgerufen werden kann. Die Anzeigen des Dienstplans ist selbstverständlich auf die gewählten [Arbeitsbereiche](#arbeitsbereiche) eingeschränkt.
+- **Dienstplan:** Wählen Sie diese Option, um die Anzeige des Dienstplans zu erlauben. Es erscheint dann ein Button, mit dem der Dienstplan aufgerufen werden kann. Die Anzeigen des Dienstplans ist selbstverständlich auf die gewählten [Arbeitsbereiche](#arbeitsbereiche) eingeschränkt.
 
-- **Ausstehene Schichten Anzeigen:** Die Option **ausstehene Schichten Anzeigen** bestimmt ob geplante Schichten auf der Stempeluhr angezeigt werden sollen. Deaktivieren Sie diese Funktion falls Sie diese Anzeige deaktivieren möchten.
+- **Ausstehene Schichten:** Die Option **ausstehene Schichten** bestimmt ob geplante Schichten auf der Stempeluhr angezeigt werden sollen. Deaktivieren Sie diese Funktion falls Sie diese Anzeige deaktivieren möchten.
 
-- **Aktive Schichten Anzeigen:** Die Option **aktive Schichten Anzeigen** bestimmt ob aktive Schichten auf der Stempeluhr angezeigt werden sollen. Deaktivieren Sie diese Funktion falls Sie diese Anzeige deaktivieren möchten.
+- **Aktive Schichten:** Die Option **aktive Schichten** bestimmt ob aktive Schichten auf der Stempeluhr angezeigt werden sollen. Deaktivieren Sie diese Funktion falls Sie diese Anzeige deaktivieren möchten.
 
 ### Stempeluhr Löschen
 
