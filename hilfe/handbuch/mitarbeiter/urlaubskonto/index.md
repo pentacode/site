@@ -1,6 +1,6 @@
 ---
 layout: layouts/hilfe/single.njk
-title: Arbeitszeitkonto
+title: Urlaubskonto
 weight: 3
 icon: island-tropical
 ---
@@ -21,7 +21,7 @@ In der Übersicht können Sie die Urlaubstage all ihrer Mitarbeiter über einen 
 
 *Genommen -* sind die im Zeitraum vom Mitarbeiter bereits genommenen **oder geplanten Urlaubstage**.
 
-*Differenz -* sind ist der Urlaubsanspruch abzüglich genommenen Urlaubstage im Zeitraum. 
+*Differenz -* ist der Urlaubsanspruch abzüglich genommenen Urlaubstage im Zeitraum. 
 
 *Saldo -* sind die insgesamt übrigen Urlaubstage.
 
@@ -48,18 +48,18 @@ Wie in anderen Übersichten können Sie auch im Urlaubskonto nach **Positionen, 
 
 Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager') werden additiv verwendet - es werden also Mitarbeiter der Abteilung 'Küche' und der Abteilung Manager 'angezeigt'. Werden Filter aus verschiedenen Klassen verwendet (z.B das Arbeitsverhältnis 'Vollzeit/Teilzeit' und die Abteilung 'Küche') werden sie exclusiv verwendet - es werden nur Mitarbeiter aus der Abteilung Küche mit dem Arbeitsverhältnis 'Vollzeit/Teilzeit' aufgelistet.
 
-{% figure caption="Hier werden ausschließlich Mitarbeiter aus der Abteilunng Küche mit dem ausgewählten Arbeitsverhältnis angezeigt." %}
+{% figure caption="Hier werden ausschließlich Mitarbeiter aus der Abteilung Küche mit dem ausgewählten Arbeitsverhältnis angezeigt." %}
 
-<img src="filter_urlaubskonto.png"/>
+<img src="filter_urlaubskonto.gif"/>
 
 {% endfigure %}
 
 
 ## Einzelansicht
 
-Klicken Sie auf einen Mitarbeiter in der Übersicht erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen für den Urlaubsanspruch- und Tage angezeigt werden. 
+Klicken Sie auf einen Mitarbeiter in der Übersicht, erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen für den Urlaubsanspruch- und Tage angezeigt werden. 
 
-Mit der Einstellung **'Auflösung'** neben dem Kalendar können Sie einstellen ob der gewählt Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
+Mit der Einstellung **'Auflösung'** neben dem Kalendar können Sie einstellen ob der gewählte Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
 
 {% figure caption="In der Einzelansicht erhalten Sie die Stunden eines Mitarbeiters individuell aufgelistet." %}
 
