@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 keywords: []
 title: Zugänge & Rechte
-weight: 9
+weight: 12
 icon: user-unlock
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Verfügbarkeiten
-weight: 4
+weight: 6
 icon: comment-check
 ---
 

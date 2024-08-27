@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Dokumente & Formulare
 icon: files
-weight: 5
+weight: 7
 ---
 
 Das **Dokumentenarchiv** bietet Ihnen die Möglichkeit die **Dokumente ihrer

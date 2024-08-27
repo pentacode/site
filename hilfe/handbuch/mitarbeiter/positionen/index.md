@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Positionen
-weight: 8
+weight: 11
 icon: arrows-down-to-people
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Verträge
-weight: 10
+weight: 13
 icon: file-contract
 ---
 
