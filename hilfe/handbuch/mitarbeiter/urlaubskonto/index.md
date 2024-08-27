@@ -44,9 +44,9 @@ Dort können Sie auch zwischen ganzen Wochen, Monaten und Jahren auswählen. Dur
 
 ### Nach Mitarbeitern filtern
 
-Wie in anderen Übersichten können Sie auch im Urlaubskonto nach **Positionen, Bestäftigungsverhältnis und einzelnen Mitarbeitern** filtern. Klicken Sie dazu einfach auf die Leiste mit dem {% icon "filter" %} Symbol und wählen aus der Liste die gewünschten Kategorien aus. 
+Wie in anderen Übersichten können Sie auch im Urlaubskonto nach **Positionen, Beschäftigungsverhältnis und einzelnen Mitarbeitern** filtern. Klicken Sie dazu einfach auf die Leiste mit dem {% icon "filter" %} Symbol und wählen aus der Liste die gewünschten Kategorien aus. 
 
-Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager') werden additiv verwendet - es werden also Mitarbeiter der Abteilung 'Küche' und der Abteilung Manager 'angezeigt'. Werden Filter aus verschiedenen Klassen verwendet (z.B das Arbeitsverhältnis 'Vollzeit/Teilzeit' und die Abteilung 'Küche') werden sie exclusiv verwendet - es werden nur Mitarbeiter aus der Abteilung Küche mit dem Arbeitsverhältnis 'Vollzeit/Teilzeit' aufgelistet.
+Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager') werden additiv verwendet - es werden also Mitarbeiter der Abteilung 'Küche' und der Abteilung Manager 'angezeigt'. Werden Filter aus verschiedenen Klassen verwendet (z.B das Arbeitsverhältnis 'Vollzeit/Teilzeit' und die Abteilung 'Küche') werden sie exklusiv verwendet - es werden nur Mitarbeiter aus der Abteilung Küche mit dem Arbeitsverhältnis 'Vollzeit/Teilzeit' aufgelistet.
 
 {% figure caption="Hier werden ausschließlich Mitarbeiter aus der Abteilung Küche mit dem ausgewählten Arbeitsverhältnis angezeigt." %}
 
@@ -59,7 +59,7 @@ Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager')
 
 Klicken Sie auf einen Mitarbeiter in der Übersicht, erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen für den Urlaubsanspruch- und Tage angezeigt werden. 
 
-Mit der Einstellung **'Auflösung'** neben dem Kalendar können Sie einstellen ob der gewählte Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
+Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen ob der gewählte Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
 
 {% figure caption="In der Einzelansicht erhalten Sie die Stunden eines Mitarbeiters individuell aufgelistet." %}
 
