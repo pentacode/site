@@ -68,7 +68,7 @@ Der Zuschlag wird erst gewährt, wenn mindestens der angegebene Zeitraum einer S
 
 Geben Sie hier an wieviel Prozent der Arbeitszeit einer Schicht mindestens im Zuschlagszeitraum liegen müssen, damit der Zuschlag angewandt wird.
 
-> {% icon "person-chalkboard" %} **Beispiel:** Wenn 25% als Mindestdauer angegeben werden, wir bei einer 8 Stunden Schicht erst der Zuschlag angewandt, wenn 2 Stunden der Schicht innerhalb des Zuschlagszeitraums liegen. 
+> {% icon "person-chalkboard" %} **Beispiel:** Wenn 25% als Mindestdauer angegeben werden, wird bei einer 8 Stunden Schicht erst der Zuschlag angewandt, wenn 2 Stunden der Schicht innerhalb des Zuschlagszeitraums liegen. 
 
 
 ### Zeiträume
