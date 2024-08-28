@@ -7,7 +7,7 @@ icon: hand-holding-box
 
 Sonderleistungen sind eine Möglichkeit einer Gruppe an Mitarbeitern gesondert vom normalen Lohn zusätzliche Zahlungen zukommen zu lassen. Unter {% button label="Einstellungen", icon="cog" %} / {% button label="Sonderleistungen", icon="hand-holding-box" %} können Sie Kategorien anlegen um die lohn - und steuerrechtlichen Eigenschaften der Zusatzzahlungen zu definieren. 
 
-> {% icon "exclamation-triangle" %} **Achtung: Die Einstellungen die Sie hier für die Sonderleistungen vornehmen bestimmen wie Pentacode Abgaben und Lohn berechnet! Sollten Sie sich nicht sicher sein welche Einstellungen für eine Sonderleistung eingestellt werden müssen treten Sie vorher mit ihrem Steuerberater in Kontakt!**
+> {% icon "exclamation-triangle" %} **Achtung: Die Einstellungen die Sie hier für die Sonderleistungen vornehmen bestimmen wie Pentacode Abgaben und Lohn berechnet! Sollten Sie sich nicht sicher sein welche Einstellungen für eine Sonderleistung eingestellt werden müssen, treten Sie vorher mit Ihrem Steuerberater in Kontakt!**
 
 ## Mitarbeiteressen
 
