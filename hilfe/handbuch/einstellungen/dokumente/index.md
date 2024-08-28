@@ -32,7 +32,7 @@ So legen Sie ein neues Schlagwort an:
 ### Schlagwörter bearbeiten
 
 Um den **Namen** zu ändern, klicken Sie auf den aktuellen Namen
-und geben ihn neue ein. Zum ändern der **Farbe** klicken Sie auf die
+und geben ihn neu ein. Zum Ändern der **Farbe** klicken Sie auf die
 farbliche Kachel neben dem Namen und wählen eine neue Farbe aus. Wollen Sie
 ein Schlagwort löschen fahren Sie mit dem Cursor über die Kachel der Kategorie
 und drücken auf den {% icon "trash" %}-**Button**. Mit einem Klick auf
