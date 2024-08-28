@@ -52,7 +52,7 @@ Mit einem Klick auf {% button icon="plus", label="Neue Kostenstelle" %} öffnet 
 
 ## Lohnarten
 
-"Bewegungsdaten" ist das Amtsdeutsch für Arbeits- Fehl-, Zuschlagszeiten u.a.m., was Ihre Lohnbuchhaltung für die Abrechnung der Löhne benötigt. Wenn Sie diese Bewegungsdaten an die Buchhaltung exportieren wollen, müssen Sie die "Lohnarten" festlegen. Als Lohnarten werden jene Konten genannt, in denen die verschiedenen Datensätze gesammelt werden.
+"Bewegungsdaten" ist das Amtsdeutsch für Arbeits- Fehl-, Zuschlagszeiten u.a.m., was Ihre Lohnbuchhaltung für die Abrechnung der Löhne benötigt. Wenn Sie diese Bewegungsdaten an die Buchhaltung exportieren wollen, müssen Sie die "Lohnarten" festlegen. Als Lohnarten werden jene Konten bezeichnet, in denen die verschiedenen Datensätze gesammelt werden.
 
 Wenn Sie es sich so einfach wie möglich machen wollen, empfehlen wir Ihnen im ersten Schritt in **Absprache mit ihrer Buchhaltung** alle von Ihnen verwendeten Lohnarten in Pentacode anzulegen.
 
