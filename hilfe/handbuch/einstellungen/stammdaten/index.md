@@ -25,4 +25,4 @@ Um ein neues Schlagwort zu erstellen klicken Sie auf {% button icon="plus", labe
 
 ### Schlagwort bearbeiten
 
-Wenn Sie den Namen oder die Farbe eines Schlagwortes verändern wollen klicken Sie dazu einfach auf den Namen des Schlagwortes und auf die farbige Box daneben. Vergessen Sie nicht nach jeder Änderung auf **Speichern** zu klicken. 
+Wenn Sie den Namen oder die Farbe eines Schlagwortes verändern wollen, klicken Sie dazu einfach auf den Namen des Schlagwortes und auf die farbige Box daneben. Vergessen Sie nicht nach jeder Änderung auf **Speichern** zu klicken. 
