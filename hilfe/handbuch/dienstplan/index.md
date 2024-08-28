@@ -12,7 +12,7 @@ Sie feststellen, dass sich Ihnen alles, was hier als Text beschrieben ist, sehr
 intuitiv erschließen wird. Lesen Sie bitte trotzdem diesen Artikel und fangen
 Sie dann einfach mit dem Schreiben an!
 
-Die Dienstplanansicht in Pentacode zeigt Ihnen immer eine Woche von Montag bis
+Die Dienstplanansicht in Pentacode zeigt Ihnen standardmäßig eine Woche von Montag bis
 Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der
 Reihenfolge dargestellt, die Sie unter [Einstellungen /
 Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern)
@@ -20,7 +20,7 @@ definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle
 Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
 {% figure caption="" %}
-<img src = "übersicht.png" />
+<img src = "dienstplan_uebersicht.webp" />
 {% endfigure %}
 
 ## Mitarbeiter Sortieren
@@ -32,10 +32,17 @@ klicken Sie den {% icon "caret-down" %} oder {% icon "caret-up" %} Pfeil.
 
 ## Zeitraum Wechseln
 
-Den Zeitraum wechseln Sie, indem Sie in der Kalenderansicht in der rechten
-oberen Ecke die gewünschte Woche anklicken. Alternativ können Sie über die
-Tastenkombinationen {% key "⇧" %} + {% key "a", "mono" %} und
-{% key "⇧" %} + {% key "d", "mono" %} in die vorherige bzw. nächste Woche wechseln.
+Den Zeitraum wechseln Sie in der Kalenderansicht (mittig oben). Dort können Sie
+mit den Pfeiltasten zwischen Wochen wechseln oder mit einem Klick auf den Kalender
+einen beliebigen Zeitraum auswählen. 
+
+Größere Zeiträume können nützlich sein, wenn Sie den Dienstplan für mehrere
+Wochen oder einen ganzen Monat im Vorraus erstellen. 
+
+{% figure caption= "Den Dienstplan für die nächsten 3 Wochen auf einen Blick?
+Kein Problem!"%}
+<img src= "dienstplan_zeitraum.gif" />
+{% endfigure %}
 
 ## Dienstplannotizen hinzufügen
 
@@ -53,6 +60,11 @@ Dienstplanübersicht erstellen.
 6. Mit {% button label="Speichern" %} wird die Notiz ihren Mitarbeitern
    angezeigt.
 
+{% figure caption= "Ihre Mitarbeiter sollen mit einer Lieferung rechnen? Mit
+einer Dienstplannotiz sind sie schnell erinnert."%}
+<img src= "dienstplannotiz.gif" />
+{% endfigure %}
+
 ### Dienstplannotiz löschen
 
 Um die Notiz eines oder mehrerer Tage zu löschen klicken Sie einfach über die
@@ -62,34 +74,31 @@ Sie die Notiz aber auch komplett löschen.
 
 ## Dienstplan-Tabs
 
-Mithilfe der Dienstplan-Tabs am oberen Rand des Dienstplans können Sie schnell
+Mithilfe der Dienstplan-Tabs in der oberen linken Ecke des Dienstplans, können Sie schnell
 zwischen verschiedenen Standorten und [Filtern](#filtern--suchen) wechseln.
-
-> **Beachten Sie:** Die Tableiste verschwindet automatisch, sobald Sie ein Stück
-> nach unten scrollen. Um sie wieder sichtbar zu machen, scrollen Sie einfach
-> wieder ganz nach oben.
 
 ### Tab Bearbeiten
 
-Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie mit der Maus
-über den entsprechenden Tab fahren und den {% icon "pencil-alt" %}-**Button**
-klicken. Es öffnet sich ein Bearbeitungsfenster, in dem Sie den Namen und die
-Filter für diesen Tab wählen können (mehr über Dienstplan-Filter erfahren Sie
-unter [Filtern & Suchen](#filtern--suchen)). Um den Bearbeitungsvorgang zu
-beenden, klicken Sie einfach irgendwo außerhalb des Popovers.
+Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie den Tab
+auswählen und auf das {% icon "Filter" %} **Symbol** klicken. Es öffnet sich ein
+Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen
+können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern &
+Suchen](#filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie
+einfach irgendwo außerhalb des Popovers.
 
 ### Neuen Tab Erstellen
 
-Einen neuen Tab erstellen Sie, indem Sie auf den {% icon "plus" %} **-Button**
-am rechten Rand der Tab-Leiste klicken. Es wird automatisch ein neuer Tab
+Einen neuen Tab erstellen Sie, indem Sie auf den {% button icon =
+"rectangle-history" %} **Button** mit dem aktuellen Tab und anschließend auf {%
+icon "plus" %} klicken. Es wird automatisch ein neuer Tab
 hinzugefügt und es öffnet sich das Bearbeitungs-Fenster.
 
 ### Tab Löschen
 
-Um einen Tab zu löschen, öffnen Sie das Bearbeitungsfenster und klicken auf den
+Um einen Tab zu löschen, öffnen Sie das [Bearbeitungsfenster](#tab-bearbeiten) und klicken auf den
 {% icon "trash" %}-**Button** in der rechten oberen Ecke.
 
-> Da immer mindestens ein Tab existieren muss, ist der Löschen-Button
+> {% icon "lightbulb" %} Da immer mindestens ein Tab existieren muss, ist der Löschen-Button
 > deaktiviert falls Sie nur ein Tab haben.
 
 ## Filtern & Suchen
@@ -99,18 +108,21 @@ Dienstplan-Schreiben schnell zu einer unübersichtlichen Angelegenheit werden.
 Pentacodes Dienstplan-Filter erlauben Ihnen, die Anzeige auf bestimmte
 Abteilungen, Eintragsarten und sogar Zeiträume zu beschränken. So behalten Sie
 den Überblick und können ohne Ablenkung arbeiten.
+**Der Filter ändert dabei jedoch nichts an den Einträgen im Dienstplan!** Sehen
+Sie jeden Tab als eine spezielle Brille mit eigenen Filtern, um nur das aktuell
+Relevante im Dienstplan zu sehen.
 
-Um die Filter-Einstellungen eines Tabs zu bearbeiten, öffnen Sie einfach das
-Bearbeitungs-Fenster indem Sie auf den {% icon "pencil-alt" %}-**Icon** (Siehe
-auch [Tab Bearbeiten](#tab-bearbeiten)).
+Um die Filter-Einstellungen eines Tabs zu bearbeiten, klicken Sie auf das {%
+icon "filter" %} **Symbol** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 
-> **Tipp:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem
+{% figure caption= "Mit Abteilungs- und Zeitfiltern können Sie sich nur die gewünschten
+Spätschichten anzeigen lassen." %}
+<img src= "dienstplan_filter.gif" />
+{% endfigure %}
+
+> {% icon "lightbulb" %} **Tipp:** Wechseln Sie häufig zwischen mehreren Filter-Einstellungen? Indem
 > Sie sich mehrere Dienstplan-Tabs mit verschiedenen Filtern anlegen, können Sie
 > schnell zwischen unterschiedlichen Ansichten wechseln!
-
-{% figure caption= "Dienstplan-Filter helfen Ihnen, den Überblick zu bewahren und fokussierter zu Arbeiten." %}
-<img src= "tab.png" />
-{% endfigure %}
 
 ### Mitarbeiter Suchen
 
@@ -123,36 +135,30 @@ Dienstplans ein!
 Der Klick auf einen vorhanden Dienstplaneintrag oder ein leeres Feld öffnet die
 **Tagesansicht** für den entsprechenden Mitarbeiter und Tag. Hier finden Sie
 Mitarbeiter-spezifische Informationen sowie verschiedene Optionen zur
-Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen (mehr dazu in den
+**Erstellung, Bearbeitung und Löschung von Dienstplaneinträgen** (mehr dazu in den
 folgenden Kapiteln).
 
 Um zu einem anderen Mitarbeiter oder Tag zu wechseln, klicken Sie einfach in das
-entsprechende Feld oder wählen Sie einen Wochentag in der rechten oberen Ecke
-der Tagesansicht.
+entsprechende Feld.
 
-Der {% icon "arrow-left" %} **Zurück** Button am oberen Rand schließt das
-Tagesmenü.
-
-> **Tipp**: Mit den Tasten {% key "w", "mono" %} **(auf)**, {% key "s", "mono" %} > **(ab)**, {% key "a", "mono" %} **(links)** und {% key "d", "mono" %} > **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen.
+> **Tipp**: Mit den Tasten {% key "w", "mono" %} **(auf)**, {% key "s", "mono" %} **(ab)**, {% key "a", "mono" %} **(links)** und {% key "d", "mono" %} **(rechts)** wechseln Sie schnell zwischen Mitarbeitern, Einträgen und Tagen.
 > Diese Tasten sind auf Ihrer Tastatur ähnlich angeordnet wie die Pfeiltasten.
 > So können Sie einfach Ihre linke Hand auf den Tasten ruhen lassen und "blind"
 > zwischen Einträgen, Mitarbeitern und Tagen springen. Über die {% key "Esc", "mono" %} -**Taste** schließen sie die Tagesansicht. Probieren Sie es aus!
 
 {% figure caption="In der Tagesansicht können Sie Einträge bearbeiten und Informationen zum gewählten Mitarbeiter einsehen." %}
 
-<img src = "tagesansicht.png" />
+<img src = "tagesansicht.webp" />
 
 {% endfigure %}
 
 ## Dienstzeiten Eintragen
 
-Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst das
-[Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter und Tag und
+Um manuell einen neue Dienstzeit zu planen, öffnen Sie zunächst die
+[Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter, Tag und
 Abteilung (z.B. durch Klicken in das entsprechende Feld). Sollte der
 entsprechende Tag noch leer sein, öffnet sich automatisch das Menü zur
-Erstellung eines neuen Eintrags. Andernfalls können Sie das Menü öffnen indem
-Sie auf den Button **Neuer Eintrag** klicken oder die
-{% key "n", "mono" %}-**Taste** auf Ihrer Tastatur drücken. Wählen Sie hier **Neue Schicht**
+Erstellung eines neuen Eintrags. Andernfalls wählen Sie hier **Neue Schicht**
 (Falls ein Mitarbeiter mehrere Positionen in dieser Abteilung einnehmen kann,
 können Sie die gewünschte Position aus einer Liste wählen). Es öffnet sich ein
 Formular in dem Sie nun die gewünschte Beginn- und Endzeit eintragen können.
@@ -170,23 +176,26 @@ Schichtvorschlägen:
 ### Globale Schichtvorschläge
 
 Auf der rechten Seite des Dienstplans finden Sie die **globalen
-Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten. Um
+Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten.
+Damit Ihnen diese angezeigt werden, müssen Sie sie vorher in den
+[Anzeigeoptionen] **'Vorschläge & Favoriten'** anwählen. Um
 einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese
 einfach per **Drag & Drop** in das entsprechende Feld.
 
 {% figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eigetragen." %}
 
-<img src = "globaleschichtvorschläge.gif"/>
+<img src = "globale_schichtvorschlaege.gif"/>
 
 {% endfigure %}
 
 #### Schichtvorschläge favorisieren
 
 **Klicken Sie auf den Stern** neben einem globalen Schichtvorschlag, wird dieser
-favorisiert. Er wird künftig immer **ganz oben** in der Liste der
-Schichtvorschläge angezeigt. So können Sie besonders häufig verwendete Schichten
+favorisiert. Wenn Sie auf den Stern neben {% button icon="lightbulb-on",
+label="Vorschläge & Favoriten" %} klicken, werden Ihnen **nur die favorisierten
+Schichtvorschläge** angezeigt. So können Sie besonders häufig verwendete Schichten
 ohne Scrollen mehrfach in den Dienstplan einfügen. Ein erneutes Klicken auf den
-Stern wird diesen ausgrauen und der Schichtvorschlag ist **entfavorisiert**.
+Stern neben dem Schichtvorschlag, **entfavorisiert** diesen.
 
 ### Tages- und MA-spezifische Vorschläge
 
@@ -201,8 +210,8 @@ selbstverständlich noch die Möglichkeit, Änderungen vorzunehmen.
 > **Tipp:** Am rechten Rand jedes Schichtvorschlags sehen Sie eine Ziffer (z.B.:
 > {% key "1",  "mono" %}). Diese deutet an, dass Sie den Vorschlag über die
 > entsprechende Ziffer auf Ihrer Tastatur wählen können. In Kombination mit den
-> Tasten Mit den Tasten {% key "w" %} {% key "s", "mono" %} {% key "a", "mono" %} {% key "d", "mono" %} (siehe [Tagesansicht](#tagesansicht)) können Sie
-> nun rasend schnell Arbeiten, ohne die Hände von der Tastatur zu nehmen!
+> Tasten {% key "w" %} {% key "s", "mono" %} {% key "a", "mono" %} {% key "d", "mono" %} (siehe [Tagesansicht](#tagesansicht)) können Sie
+> nun rasend schnell arbeiten, ohne die Hände von der Tastatur zu nehmen!
 
 ## Nicht zugewiesene Schichten
 
@@ -210,18 +219,17 @@ Wenn Sie Schichten besetzen müssen, diese aber keinen konkreten Mitarbeiter
 zuordnen wollen, können Sie auch "nicht zugewiesene Schichten ausschreiben".
 Diese werden allen Mitarbeitern als verfügbar angezeigt, die in der gleichen
 Abteilung tätig sind. Die Mitarbeiter können sich anschließend **freiwillig für
-die Schicht eintragen** und diese somit "vom Markt nehmen". Klicken Sie auf den
-{% icon "user-slash" %}-**Button** unter der Kalenderansicht im oberen rechten
-Eck, um sich die nicht zugewiesenen Schichten anzeigen zu lassen.
+die Schicht eintragen** und diese somit "vom Markt nehmen".
 
-Um eine nicht zugewiesene Schicht auszuschreiben, aktivieren Sie erst die
-Anzeige wie oben beschrieben und gehen anschließend wie bei normalen
+Aktivieren Sie Nicht Zugewiesene Schichten zuerst in den [Anzeigeoptionen] mit
+einem Klick auf das Feld {% button icon="user-slash", label="Nicht Zugewiesen"
+%}. Gehen Sie anschließend wie bei normalen
 [Dienstzeiten](#dienstzeiten-eintragen) vor. Sie müssen lediglich statt eines
 Mitarbeiter die Zeile "**Nicht zugewiesen**" auswählen.
 
 {% figure caption="So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen" %}
 
-<img src="nicht_zugewiesen.png" />
+<img src="nicht_zugewiesen.webp" />
 
 {% endfigure %}
 
@@ -232,7 +240,8 @@ eingetragen werden.
 
 ### Mit Drag & Drop
 
-Im Menü auf der rechten Seite finden Sie eine Liste der im Dienstplan
+Wenn Sie in den [Anzeigeoptionen] **'Vorschläge & Favoriten'** angewählt haben
+finden Sie auf der rechten Seite eine Liste der im Dienstplan
 verfügbaren Fehltage **Urlaub**, **Krank**, **Guttag** und **Frei**. Diese
 können Sie einfach per **Drag & Drop** in die gewünschten Felder ziehen.
 
@@ -240,9 +249,9 @@ können Sie einfach per **Drag & Drop** in die gewünschten Felder ziehen.
 
 Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffnen
 Sie zunächst die [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter
-und Tag, und klicken die gewünschte Art von Fehltag.
+und Tag, und klicken auf die gewünschte Art von Fehltag.
 
-> **Tipp:** Fehltage können auch über die Tastaturkürzel {% key "u", "mono" %} **(Urlaub)**, {% key "k", "mono" %} **(Krank)**, {% key "g", "mono" %} **(Guttag)** und {% key "f", "mono" %} **(Frei)** gewählt werden!
+> {% icon "lightbulb" %} **Tipp:** Fehltage können auch über die Tastaturkürzel {% key "u", "mono" %} **(Urlaub)**, {% key "k", "mono" %} **(Krank)**, {% key "g", "mono" %} **(Guttag)** und {% key "f", "mono" %} **(Frei)** gewählt werden!
 
 ## Einträge Verschieben
 
@@ -269,7 +278,8 @@ Um einen Eintrag zu löschen, klicken sie einfach auf das {% icon "times" %} in
 der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der
 Tabellenansicht als auch in der [Tagesansicht](#tagesansicht).
 
-> **Tip:** Selektierte Einträge können außerdem über das Tastenkürzel {% key "⇧" %} + {% key "⌫" %} gelöscht werden!
+> {% icon "lightbulb" %} **Tipp:** Selektierte Einträge können außerdem über das
+> Tastenkürzel {% key "⇧" %} + {% key "⌫" %} gelöscht werden!
 
 ## Veröffentlichen & Teilen
 
@@ -278,50 +288,54 @@ automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihr
 Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 
 > **Achtung:** Für das Veröffentlichen von Dienstplänen wird eine explizite
-> [Berechtigung](/hilfe/handbuch/mitarbeiter-einzeln/berechtigungen/) benötigt.
+> [Berechtigung](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) benötigt.
 
 ### Änderungen Veröffentlichen
 
-Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen ein orangener Button an,
-wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden. Um diese
-Änderungen zu veröffentlichen, klicken Sie einfach auf diesen Button. Es öffnet
-sich ein Bestätigungs-Dialog, in dem Sie sehen, wie viele betroffene Mitarbeiter
-von den Änderungen benachrichtigt werden. Klicken Sie hier auf
-**Veröffentlichen** um den Vorgang abzuschließen. Die Änderungen sind nun in der
-Mitarbeiter-App und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen)
-einsehbar. **Von Änderungen betroffene Mitarbeiter werden automatisch per Email
-benachrichtigt** und erhalten einen Link zu ihrem persönlichen Dienstplan.
+Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen der orangener Button mit
+dem {% icon "pencil" %}Symbol an, wie viele Änderungen seit der letzten
+Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken
+Sie auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem alle
+Änderungen erneut aufgelistet sind. Klicken Sie hier auf {% button icon =
+"lightbulb", label = "Veröffentlichen" %} zeigt Pentacode an, welche betroffenen
+Mitarbeiter kontaktiert werden. Die Änderungen sind nun in der Mitarbeiter-App
+und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von
+Änderungen betroffene Mitarbeiter werden automatisch per Email benachrichtigt**
+und erhalten einen Link zu ihrem persönlichen Dienstplan.
 
-> **Tipp:** Um Mitarbeiter von Änderungen an ihrem persönlichen Dienstplan
-> benachrichtigen zu können, wird eine Emailadresse benötigt. Diese können Sie
-> in den [Stammdaten](/hilfe/handbuch/mitarbeiter-einzeln/stammdaten/) der
-> einzelnen Mitarbeiter hinterlegen.
+> {% icon "lightbulb" %} **Tipp:** Um Mitarbeiter von Änderungen an ihrem
+> persönlichen Dienstplan benachrichtigen zu können, wird eine Emailadresse
+> benötigt. Diese können Sie in den
+> [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) der einzelnen
+> Mitarbeiter hinterlegen.
 
-{% figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." %}
+{% figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der
+letzten Veröffentlichung gemacht wurden." %}
 
-<img src = "änderungen.png" /> <img src = "veröffentlichen.png"/>
+<img src = "veröffentlichen.gif" />
 
 {% endfigure %}
 
 ## Dienstplan Teilen
 
 Sie können ihren Dienstplan auch mit Personen teilen, die keinen Zugang zur
-Mitarbeiterapp haben. Klicken Sie dazu auf den {% icon "share" %}-**Button**
-unter dem Kalenderfenster im rechten oberen Eck. Nun zeigt Ihnen Pentacode einen
-**Link** an, über den Externe den Dienstplan einsehen aber **nicht verändern**
-können.
+Mitarbeiterapp haben. Klicken Sie dazu auf den {% icon "share" %}-**Button** im
+rechten oberen Eck. Nun zeigt Ihnen Pentacode einen **Link** an, über den
+Externe den Dienstplan einsehen aber **nicht verändern** können.
 
 - Klicken Sie auf {% button icon="clipboard", label="Kopieren" %} um den Link an
   anderer Stelle mit {% key "strg" %} **+** {% key "V" %} einzusetzen.
 - Klicken Sie auf {% button icon="envelope", label="Versenden" %} um ihrer
   Belegschaft eine Email mit dem Link zum Dienstplan zu schicken.
+- Klicken Sie auf {% button icon="print", label="Drucken" %} um den Dienstplan
+  auszudrucken. 
 
 **Wichtig!** Sie teilen immer nur den Teil des Dienstplans, der Ihnen im Filter
 des aktuellen Tabs angezeigt wird und bereits
 [veröffentlicht](#änderungen-veröffentlichen) ist (mehr info siehe
 [Teil-Dienstpläne](#teil-dienstpläne-veröffentlichen)).
 
-> **Beispiel:** In unserem Tab "Frühschicht" werden Spät- und
+> {% icon "person-chalkboard" %} **Beispiel:** In unserem Tab "Frühschicht" werden Spät- und
 > Managementschichten nicht angezeigt, deshalb sind diese auch nicht Teil des
 > geteilten Dienstplans. Zusätzlich haben wir einige Änderungen geplant, welche
 > wir noch nicht veröffentlicht haben - auch diese werden im geteilten Diensplan
@@ -329,7 +343,7 @@ des aktuellen Tabs angezeigt wird und bereits
 
 {% figure caption="Im geteilten Diensplan werden nur Schichten angezeigt, die veröffentlicht und Teil des geteilten [Dienstplantabs](#dienstplan-tabs) sind." %}
 
-<img src= "teilen.png" /> <img src= "geteilter_dienstplan.png" />
+<img src= "dienstplan_teilen.gif" />
 
 {% endfigure %}
 
@@ -353,12 +367,6 @@ erst auf den {% icon "share" %}-**Button** und anschließend auf {% button
 icon="print", label="Drucken" %}.
 
 > **Beachten Sie:** Sie drucken stets nur den veröffentlichten Dienstplan.
-
-{% figure caption="Die Druckoption versteckt sich hinter dem 'Veröffentlicht' Button auf der rechten Seite." %}
-
-<img src="dienstplan_drucken.png" />
-
-{% endfigure %}
 
 ### Teil-Dienstpläne Veröffentlichen
 
