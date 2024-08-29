@@ -9,7 +9,7 @@ Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Ta
 
 ## Gesetzliche SFN-Zuschläge
 
-Die in [§ 3b des Einkommenssteuergesetzes (EStG)](https://www.gesetze-im-internet.de/estg/__3b.html) definierten SFN (Sonntags-, Feiertags- und Nachts-) Zuschläge werden für Sie automatisch angelegt. Solange für Ihr Unternehmen also keine gesonderten Regeln gelten, sollten Sie **in diesem Bereich normalerweise keine Anpassungen machen müssen.**
+Die in [§3b des Einkommenssteuergesetzes (EStG)](https://www.gesetze-im-internet.de/estg/__3b.html) definierten SFN (Sonntags-, Feiertags- und Nachts-) Zuschläge werden für Sie automatisch angelegt. Solange für Ihr Unternehmen also keine gesonderten Regeln gelten, sollten Sie **in diesem Bereich normalerweise keine Anpassungen machen müssen.**
 Folgende Zuschläge sind vorangelegt und nach Gesetz beitragsfrei:
 
 - *Nacht 1 -* Zuschlag von 25% wenn Arbeitszeit zwischen 20:00 und 6:00 Uhr fällt.
