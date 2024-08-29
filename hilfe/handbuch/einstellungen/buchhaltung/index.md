@@ -67,7 +67,7 @@ Klicken Sie hierzu auf "**+ Neue Lohnart**" und füllen folgende Felder aus:
 
 Jeder Mitarbeiter wird seinen Lohn mit mehreren Lohnarten erhalten. Diese können unterschiedlich für Grundlohn, Zuschlagszahlungen und sonstige Leistungen sein. Lohnartsätze speichern ab **Was mit welcher Lohnart berechnet wird**.
 
-Klicken Sie auf **+ Neuer Lohnartensatz** öffnet sich ein Formular, in dem Sie einen Lohnartensatz erstellen können. Die erste Zeile dient dabei den **Lohnartensatz zu benennen**, darunter können Sie zuordnen für welche Abteilungen, Anstellungsverhältniss oder Mitarbeiter dieser Lohnartensatz **standardmäßig verwendet** werden soll. 
+Klicken Sie auf **+ Neuer Lohnartensatz** öffnet sich ein Formular, in dem Sie einen Lohnartensatz erstellen können. Die erste Zeile dient dabei dazu den **Lohnartensatz zu benennen**, darunter können Sie zuordnen für welche Abteilungen, Anstellungsverhältnisse oder Mitarbeiter dieser Lohnartensatz **standardmäßig verwendet** werden soll. 
 
 > {% icon "lightbulb" %} Für den Rest des Formulars empfehlen wir Ihnen, Ihrer **Buchhaltung einen Screenshot des Formulars zuzusenden**. Diese sollte Ihnen erklären können, welche der im ersten Schritt erstellten Lohnarten wo einzutragen sind. **Normalerweise müssen auch nicht alle Felder ausgefüllt werden!**
 
