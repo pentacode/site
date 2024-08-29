@@ -30,7 +30,7 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten.
 
 Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Abwesenheiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
-Normalerweise werden hier geplante zukünftige Abwesenheiten des Mitarbeiters angezeigt, wollen Sie jedoch vergangene Abwesenheiten einsehen, klicken Sie auf {% button "Vergangene Abwesenheiten Anzeigen"%}. 
+Normalerweise werden hier geplante zukünftige Abwesenheiten des Mitarbeiters angezeigt, wollen Sie jedoch vergangene Abwesenheiten einsehen, klicken Sie auf {% button label = "Vergangene Abwesenheiten Anzeigen"%}. 
 
 {% figure caption="Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten." %}
 <img src="abwesenheiten_einzeln.webp" />
