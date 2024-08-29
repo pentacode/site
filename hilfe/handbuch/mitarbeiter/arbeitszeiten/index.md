@@ -306,7 +306,7 @@ abgebuchten Urlaubstage bezahlt werden sollen. Ist diese Option gewählt, ersche
 Lohnabrechnung und Lohnabrechnung-Übersicht mit der ausgewählten **Lohnart**. Der **Fehlstundenbetrag** ist der Betrag der durchschnittlichen Tages-Arbeitsstunden der
 letzten 13 Wochen, multipliziert mit dem Betrag der abgebuchten Tage.
 
-> {% icon "person-chalkboard" %} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub der aus Zeitgründen
+> {% icon "person-chalkboard" %} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub, der aus Zeitgründen
 > nicht vollständig in Anspruch genommen werden kann. Um das
 > Urlaubskonto auszugleichen und den nicht genommenen Urlaub auszubezahlen, wählen Sie die Option **Abbuchung**, geben die Menge von abzubuchenden Urlaubstagen ein und wählen Sie die Option **Im Lohnbericht Berücksichtigen** mit der richtigen Lohnart.
 
