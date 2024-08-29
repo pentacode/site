@@ -5,46 +5,61 @@ weight: 2
 icon: building
 
 ---
-Unter dem Reiter **Unternehmen** können Sie verschiedene Unternehmendaten hinterlegen und gleichzeitig allgemeine Einstellungen für alle ihre Mitarbeiter treffen. **Die Adressdaten dienen dabei lediglich der Information und haben keinen weiteren Einfluss!**
+Unter dem Reiter **Unternehmen** können Sie verschiedene Unternehmendaten
+hinterlegen und gleichzeitig allgemeine Einstellungen für alle ihre Mitarbeiter
+treffen. **Die Adressdaten dienen dabei lediglich der Information und haben
+keinen weiteren Einfluss!**
 
 ## Beginn der Kontoführung
 
-Unter "**Kontoführung ab**" legen Sie fest, ab welchem **Zeitpunkt** die **Arbeitszeitkonten** Ihrer Mitarbeiter in Pentacode geführt werden.
+Unter "**Kontoführung ab**" legen Sie fest, ab welchem **Zeitpunkt** die
+**Arbeitszeitkonten** Ihrer Mitarbeiter in Pentacode geführt werden.
 
-Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig berechnet**. Für die Einheitlichkeit der Buchhaltung und eine später bessere Nachvollziehbarkeit ist es jedoch **empfehlenswert**, den **ersten eines Monats** zu wählen.
+Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig
+berechnet**. Für die Einheitlichkeit der Buchhaltung und eine später bessere
+Nachvollziehbarkeit ist es jedoch **empfehlenswert**, den **ersten eines
+Monats** zu wählen.
 
 ## Saldierung SFN-Konten
 
-Für die Saldierung von [SFN-Konten](/hilfe/handbuch/mitarbeiter/konten#sfn-konto) bietet Ihnen Pentacode zwei Optionen:
+Für die Saldierung von
+[SFN-Konten](/hilfe/handbuch/mitarbeiter/konten#sfn-konto) bietet Ihnen
+Pentacode zwei Optionen:
 
-### Exklusive Steuerpflichtige Zuschläge
+### Exklusive Beitragspflichtige Zuschläge
 
-Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur beitragsfreie Zuschläge berücksichtigt. Dies ist die Standardvariante.
+Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos nur
+beitragsfreie Zuschläge berücksichtigt. Dies ist die Standardvariante.
 
-### Inklusive Steuerpflichtige Zuschläge
+### Inklusive Beitragspflichtige Zuschläge
 
-Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben beitragsfreien Zuschläge auch beitragpflichtige
-Zuschläge berücksichtigt.
+Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben
+beitragsfreien Zuschläge auch beitragpflichtige Zuschläge berücksichtigt.
 
 ## Arbeitszeiten & Konten Festschreiben
 
-Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der Umstand, dass Sie jederzeit "in die
-Vergangenheit reisen" und Korrekturen an bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei
-automatisch alle betroffenen Lohnabrechnungen und Konten neu und liefert damit jederzeit eine **in sich stimmige,
-wiederspruchsfreie Dokumentation**.
+Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der
+Umstand, dass Sie jederzeit "in die Vergangenheit reisen" und Korrekturen an
+bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei
+automatisch alle betroffenen Lohnabrechnungen und Konten neu und liefert damit
+jederzeit eine **in sich stimmige, wiederspruchsfreie Dokumentation**.
 
-Diese Flexibilität bringt allerdings auch Gefahren mit sich. So kann zum Beispiel die Änderung an einer Arbeitszeit in
-an einem bereits abgeschlossenen Monat schnell zu Unstimmigkeiten mit bereits durchgeführten Lohnabrechnungen führen.
-Desweiteren können Änderungen an bestimmten Vertragsdaten oder Zeiterfassungs-Einstellungen ebenfalls zu einer
-ungewünschten, rückwirkenden Neuberechnung von Konten und Lohnabrechungen führen.
+Diese Flexibilität bringt allerdings auch Gefahren mit sich. So kann zum
+Beispiel die Änderung an einer Arbeitszeit in an einem bereits abgeschlossenen
+Monat schnell zu Unstimmigkeiten mit bereits durchgeführten Lohnabrechnungen
+führen. Desweiteren können Änderungen an bestimmten Vertragsdaten oder
+Zeiterfassungs-Einstellungen ebenfalls zu einer ungewünschten, rückwirkenden
+Neuberechnung von Konten und Lohnabrechungen führen.
 
-Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in regelmäßigen Abständen festzuschreiben.
-Dies tun sie wie folgt:
+Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in
+regelmäßigen Abständen festzuschreiben. Dies tun sie wie folgt:
 
 1. Navigieren Sie zum Punkt **Einstellungen > Unternehmen**.
 2. Unter dem Punk **Arbeitszeiten & Konten festschreiben**, klicken sie auf den Button {% icon "pencil-alt" %} **Bearbeiten**.
 3. Klicken Sie auf **Zeitraum wählen...** und wählen Sie den Monat, bis zu welchem Arbeitszeiten und Konten festgeschrieben werden sollen.
 4. Klicken sie auf **Bestätigen**.
+
+> {% icon "exclamation-triangle" %} **Achtung:** Das Festschreiben von Konten kann **nicht rückgängig gemacht werden!**
 
 {% figure caption="Unter dem Punkt Einstellungen > Sonstiges können Sie ein Festschreibungsdatum für Arbeitszeiten und Konten festlegen." %}
 <img src="konten_festschreiben.webp" />
