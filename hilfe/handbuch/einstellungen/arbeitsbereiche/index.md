@@ -83,7 +83,7 @@ Jede Abteilung muss **mindestens eine Position** ausweisen. Sollten Sie innerhal
 {% endfigure %}
 
 
-> {% icon "lightbulb" %} Positionen ordnen Sie ihren händisch Mitarbeitern zu. Nach ihnen richtet sich mitunter das Gehalt im Arbeitsvertrag. Die Abteilung wird dem Mitarbeiter hingegen automatisch zugeteilt, sobal diesem eine Position zugeordnet wird. Nach Abteilungen ordnet sich etwa der Dienstplan.
+> {% icon "lightbulb" %} Positionen ordnen Sie ihren händisch Mitarbeitern zu. Die Abteilung wird dem Mitarbeiter hingegen automatisch zugeteilt, sobald diesem eine Position zugeordnet wird. Nach den Abteilungen ordnet der Dienstplan.
 
 ## Abteilung bearbeiten
 
