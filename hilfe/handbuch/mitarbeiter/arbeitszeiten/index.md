@@ -39,7 +39,7 @@ Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Z
 
 Wählen Sie anschließend aus der Liste einen Zeitraum aus, öffnet sich eine Ansicht in der **alle Tage einzeln aufgelistet werden**. Hier können Sie Arbeitszeiten [erfassen](#neue-arbeitszeit-erfassen) und [bearbeiten](#arbeitszeit-bearbeiten) und bekommen einen guten Überblick über den ausgewählten Zeitraum. 
 
-{% figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten taggenau erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
+{% figure caption="Im Arbeitszeitblatt eines Mitarbeiters können Sie Arbeitszeiten taggenau erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
 <img src="arbeitszeit_monat.webp" />
 {% endfigure %}
 
