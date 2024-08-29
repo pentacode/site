@@ -93,7 +93,7 @@ Dieser Wert ist die Norm, die beim Auswählen dieser Zuschlagsart für einen Mit
 
 ### Beitragsfrei & Beitragsfrei bis zu
 
-Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur gesetzlich [gesetzlich definierte SFN-Zuschläge](https://www.gesetze-im-internet.de/estg/__3b.html) bis zu 25€ / Std. beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln, haben Sie normalerweise natürlich Interesse daran diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte das Feld **"Beitragsfrei bis zu"** normalerweise mit 25 € / Std. für SFN-Zuschläge ausgefüllt werden. Für restliche Zuschläge muss die Box **Beitragsfrei** abgewählt werden!. 
+Hier wird bestimmt ob der Zuschlag betragsfrei abgerechnet werden kann. **Generell gilt, dass nur [gesetzlich definierte SFN-Zuschläge](https://www.gesetze-im-internet.de/estg/__3b.html) bis zu 25€ / Std. beitragsfrei sind.** Sollte es sich um einen SFN-Zuschlag handeln, haben Sie normalerweise natürlich Interesse daran diesen so lange wie möglich beitragsfrei abzurechnen. Deshalb sollte das Feld **"Beitragsfrei bis zu"** normalerweise mit 25 € / Std. für SFN-Zuschläge ausgefüllt werden. Für restliche Zuschläge muss die Box **Beitragsfrei** abgewählt werden!. 
 
 > {% icon "exclamation-triangle" %} **Achtung!** Zuschläge außerhalb der [gesetzlich definierten SFN-Zuschläge](https://www.gesetze-im-internet.de/estg/__3b.html) können nicht beitragsfrei abgerechnet werden - dies würde einer Abgabenhinterziehung gleichkommen!
 
