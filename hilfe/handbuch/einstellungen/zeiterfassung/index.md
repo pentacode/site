@@ -289,7 +289,9 @@ Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sich
 
 ### Standort Festhalten
 
-Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird.
+Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird. 
+
+> {% icon "info-circle" %} **Info:** Um den Standort festzuhalten, muss Pentacode der Zugriff auf die Standorterfassung des Gerätes gestattet sein. Auf der Stempeluhr können Sie das selbst bestimmen. Der Mitarbeiter muss diesen Zugriff jedoch auch gewähren, wenn dieser über die Mitarbeiter-App stempelt! 
 
 ### Beweisfotos
 
