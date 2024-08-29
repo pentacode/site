@@ -39,7 +39,7 @@ Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Z
 
 Wählen Sie anschließend aus der Liste einen Zeitraum aus, öffnet sich eine Ansicht in der **alle Tage einzeln aufgelistet werden**. Hier können Sie Arbeitszeiten [erfassen](#neue-arbeitszeit-erfassen) und [bearbeiten](#arbeitszeit-bearbeiten) und bekommen einen guten Überblick über den ausgewählten Zeitraum. 
 
-{% figure caption="Im Arbeitszeitblatt eines Mitarbeiteres können Sie Arbeitszeiten taggenau erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
+{% figure caption="Im Arbeitszeitblatt eines Mitarbeiters können Sie Arbeitszeiten taggenau erfassen, Abwesenheiten bearbeiten, Soll- und Ist-Stunden vergleichen und vieles mehr" %}
 <img src="arbeitszeit_monat.webp" />
 {% endfigure %}
 
@@ -306,7 +306,7 @@ abgebuchten Urlaubstage bezahlt werden sollen. Ist diese Option gewählt, ersche
 Lohnabrechnung und Lohnabrechnung-Übersicht mit der ausgewählten **Lohnart**. Der **Fehlstundenbetrag** ist der Betrag der durchschnittlichen Tages-Arbeitsstunden der
 letzten 13 Wochen, multipliziert mit dem Betrag der abgebuchten Tage.
 
-> {% icon "person-chalkboard" %} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub der aus Zeitgründen
+> {% icon "person-chalkboard" %} **Beispiel:** Ein Mitarbeiter hat eine größere Menge an Resturlaub, der aus Zeitgründen
 > nicht vollständig in Anspruch genommen werden kann. Um das
 > Urlaubskonto auszugleichen und den nicht genommenen Urlaub auszubezahlen, wählen Sie die Option **Abbuchung**, geben die Menge von abzubuchenden Urlaubstagen ein und wählen Sie die Option **Im Lohnbericht Berücksichtigen** mit der richtigen Lohnart.
 
