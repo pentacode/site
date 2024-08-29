@@ -9,7 +9,7 @@ keywords:
 - passwort
 
 ---
-Sofern ein Administrator Zugang zum "Benutzerkonto" hat, kann er in diesem Menüpunkt seine Email-Adresse wie auch sein Passwort ändern.
+Im Benutzerkonto wird der Zugang zu Pentacode verwaltet. Sofern ein Administrator Zugang zum "Benutzerkonto" hat, kann er in diesem Menüpunkt seine Email-Adresse wie auch sein Passwort ändern.
 
 {% figure caption="Benutzerdaten & Passwort ändern" %}
 
