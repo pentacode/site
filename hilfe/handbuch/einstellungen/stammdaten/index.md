@@ -5,7 +5,7 @@ weight: 5
 icon: contact-card
 ---
 
-Unter "Stammdaten" können Sie individuelle Kategorien erstellen, welche Sie Mitarbeitern zuordnen können. So können Sie Pentacode individualisieren und Mitarbeiter nach gewissen Eigenschaften und Schlagwörtern sortieren. 
+Unter "Stammdaten" können Sie individuelle Kategorien erstellen, welche Sie Mitarbeitern zuordnen können. So können Sie Pentacode individualisieren und Mitarbeiter nach gewissen Eigenschaften und Schlagwörtern sortieren und filtern. 
 
 ## Schlagwörter
 
