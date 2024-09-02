@@ -74,4 +74,4 @@ Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen o
 
 {% endfigure %}
 
-Wenn Sie Arbeitszeiten händisch eintragen oder kontrollieren möchten tun Sie dies unter [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten/)!
+Wenn Sie Arbeitszeiten händisch eintragen oder kontrollieren möchten, tun Sie dies unter [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten/)!
