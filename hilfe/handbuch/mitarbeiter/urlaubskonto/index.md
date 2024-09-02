@@ -9,7 +9,7 @@ Das Urlaubskonto stellt Urlaubsanspruch und genommene Urlaubstage ihrer Mitarbei
 
 Unter [Konten (Übersicht)](/hilfe/handbuch/mitarbeiter/konten/) wird das Urlaubskonto gemeinsam mit dem Zuschlagskonto und Arbeitszeitkonto in einer gemeinsamen Übersicht zusammengefasst. 
 
-Sofern nicht anders erfasst, wird die Urlaubsdifferenz am Ende eines Jahres immer automatisch in das Folgejahr übertragen. Wie Sie diese Überträge bearbeiten können, erfahren Sie unter dem Punkt Konten Zurücksetzen.
+Sofern nicht anders erfasst, wird die Urlaubsdifferenz am Ende eines Jahres immer automatisch in das Folgejahr übertragen. Wie Sie diese Überträge bearbeiten können, erfahren Sie unter dem Punkt 'Konten Zurücksetzen'.
 
 ## Übersicht
 
