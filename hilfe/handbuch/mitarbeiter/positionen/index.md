@@ -8,7 +8,7 @@ icon: arrows-down-to-people
 Über die **Positionen** eines Mitarbeiters können Sie festlegen, in welchen
 [Arbeitsbereichen](/hilfe/handbuch/einstellungen/arbeitsbereiche/) die Person eingesetzt werden kann. Bevor Sie
 [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten) für einen Mitarbeiter erfassen oder [Dienste
-planen](/hilfe/handbuch/dienstplan/) können, muss der Mitarbeiter zunächst
+planen](/hilfe/handbuch/dienstplan/) können, muss dem Mitarbeiter zunächst
 mindestens eine Position zugewiesen werden. Sie können jedem Mitarbeiter
 beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen
 Standorten zuweisen.
