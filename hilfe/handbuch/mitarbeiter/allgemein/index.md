@@ -5,6 +5,8 @@ weight: 1
 icon: toolbox
 ---
 
+Im Folgenden erklären wir Ihnen, wie Sie neue Mitarbeiter anlegen, verwalten und kündigen können - sowie einige Extrafunktionen, die Pentacode für Sie bereit hält. 
+
 ## Neuen Mitarbeiter Anlegen
 
 Um einen neuen Mitarbeiter anzulegen, wählen Sie zunächst den Punkt {% button icon="users", label="Mitarbeiter" %} im

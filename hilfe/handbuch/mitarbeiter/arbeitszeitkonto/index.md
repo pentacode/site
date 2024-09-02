@@ -75,3 +75,52 @@ Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen o
 {% endfigure %}
 
 Wenn Sie Arbeitszeiten händisch eintragen oder kontrollieren möchten, tun Sie dies unter [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten/)!
+
+
+## Übertrag Bearbeiten / Konten Zurücksetzen
+
+Solange Sie der Software keine abweichenden Anweisungen geben, führt Pentacode
+die Konten eines Mitarbeiters über den gesamten Zeitraum des
+Beschäftigungsverhältnis saldierend fort. Das Arbeitszeitkonto eines Jahres wird
+immer automatisch in das Folgejahr übertragen.
+
+In vielen Fällen ist es allerdings notwendig, korrigierend in die Saldierung von
+Konten einzugreifen, zum Beispiel wenn der Resturlaub eines Mitarbeiters am Ende
+des Jahres verfallen soll oder die Konten eines Mitarbeiters nach langer
+Abwesenheit zurückgesetzt werden sollen.
+
+Pentacode bietet Ihnen hierfür die Möglichkeit, den Übertrag eines Monats für
+eines oder alle Konten eines Mitarbeiters zu bearbeiten.
+
+### Kontenübertrag Eines Einzelnen Mitarbeiters Bearbeiten
+
+Um einen abweichenden Kontenübertrag in einem Monat für einen bestimmten Mitarbeiter zu **erstellen**, verfahren Sie wie folgt:
+
+1. Navigieren Sie zunächst zur [Einzelansicht](#einzelansicht) des Arbeitszeitkontos.
+2. Klicken Sie auf das {% icon "ellipsis-h" %} Symbol in der rechten oberen Ecke
+   und auf 'Konten zurücksetzen'.
+3. Wählen Sie unter 'Datum' den Zeitpunkt aus, an dem das Konto bearbeitet werden soll.
+4. Füllen Sie die angezeigten Felder für die jeweiligen Konten mit dem
+   **gewünschten Betrag für das Saldokonto** aus. Sie können Felder für bestimmte Konten leer lassen,
+   um für diese Konten den "normalen" Übertrag beizubehalten. Wenn Sie also zum
+   Beispiel nur den Urlaubsübertrag zurücksetzen wollen, füllen Sie die Spalte
+   "Urlaub" aus und lassen den Rest leer.
+5. Klicken Sie auf {% button label="Übernehmen" %} um die Änderungen zu speichern
+
+Um den eingetragenen Übertrag im Nachhinein zu **bearbeiten**, fahren Sie mit
+der Maus über die entsprechende Zeile und klicken den Eintrag an. Nun können Sie
+die entsprechenden Änderungen wie bei einem neuen Kontenübertrag bearbeiten.
+
+Um den eingetragenen Übertrag zu **entfernen**, bearbeiten Sie den Übertrag und löschen Ihre ursprünglichen Änderungen.
+
+{% figure caption="Sie können auch bestehende Überträge ändern und entfernen." %}
+<img src="uebertrag_einzel.gif" />
+{% endfigure %}
+
+### Kontenüberträge Mehrerer Mitarbeiter Bearbeiten
+
+Um die Kontenüberträge für mehrere (oder alle) Mitarbeiter "in einem Schwung" zu ändern oder zurückzusetzen, gehen Sie genau wie [oben](#kontenübertrag-eines-einzelnen-mitarbeiters-bearbeiten) beschrieben vor, starten nur im ersten Schritt bei der [Übersicht](#übersicht).
+
+{% figure caption="Verwenden Sie Filter um den Übertrag ganzer Abteilungen auf einmal zu bearbeiten." %}
+<img src="uebertrag_mehrfach.gif" />
+{% endfigure %}

@@ -5,7 +5,10 @@ weight: 13
 icon: file-contract
 ---
 
-Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und **lohnrelevanten Angaben** Ihrer Mitarbeiter. **Achten Sie hier bitte auf die Richtigkeit und Vollständigkeit der Angaben.**
+Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und
+**lohnrelevanten Angaben** Ihrer Mitarbeiter. **Achten Sie hier bitte auf die
+Richtigkeit und Vollständigkeit der Angaben.** Auf Basis dieser Angaben
+berechnet Pentacode Lohn- und Urlaubsansprüche.
 
 > {% icon "exclamation-triangle" %} **Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.**
 

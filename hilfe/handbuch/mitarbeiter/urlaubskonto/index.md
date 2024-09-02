@@ -66,3 +66,14 @@ Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen o
 <img src="einzelansicht_urlaubskonto.png"/>
 
 {% endfigure %}
+
+## Übertrag Bearbeiten / Konten Zurücksetzen
+
+Solange Sie der Software keine abweichenden Anweisungen geben, führt Pentacode
+die Konten eines Mitarbeiters über den gesamten Zeitraum des
+Beschäftigungsverhältnis saldierend fort. Das Urlaubskonto eines Jahres wird
+immer automatisch in das Folgejahr übertragen.
+
+In vielen Fällen ist es allerdings notwendig, korrigierend in die Saldierung von
+Konten einzugreifen, zum Beispiel wenn der Resturlaub eines Mitarbeiters am Ende
+des Jahres verfallen soll. Wie der Übertrag der Konten zu bearbeiten ist sehen Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen).
