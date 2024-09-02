@@ -272,7 +272,7 @@ Besonders relevant ist das Feld **Schlagwörter**, hier können dem Dokument ein
 oder mehrere Begriffe zugeordnet werden, welche es später einfacher machen
 nach diesem Dokument zu [filtern](#schlagwortfilter) und es schnell zu finden.
 Tippen Sie dazu einfach die gewünschten Schlagwörter in das Textfeld, bis
-diese auftaucht. Um ein neues Schlagwort zu erstellen, geben Sie es ein und drücken Sie {% key "Enter" %}. Es wir nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
+dieses auftaucht. Um ein neues Schlagwort zu erstellen, geben Sie es ein und drücken Sie {% key "Enter" %}. Es wir nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
 Darstellungsfarbe der Kategorie im Nachhinein bearbeiten wollen, können
 Sie dies unter
 [Einstellungen/Dokumente](../../einstellungen/dokumente/)
