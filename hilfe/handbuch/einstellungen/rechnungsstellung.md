@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Rechnungsstellung
-weight: 7
+weight: 10
 icon: file-invoice-dollar
 keywords:
 - rechnungsanschrift
