@@ -178,7 +178,7 @@ Schichtvorschlägen:
 Auf der rechten Seite des Dienstplans finden Sie die **globalen
 Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten.
 Damit Ihnen diese angezeigt werden, müssen Sie sie vorher in den
-[Anzeigeoptionen] **'Vorschläge & Favoriten'** anwählen. Um
+[Planungshilfen](#planungshilfen)(das {% icon "tv-retro" %}-Icon) **'Vorschläge & Favoriten'** anwählen. Um
 einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese
 einfach per **Drag & Drop** in das entsprechende Feld.
 
@@ -221,11 +221,12 @@ Diese werden allen Mitarbeitern als verfügbar angezeigt, die in der gleichen
 Abteilung tätig sind. Die Mitarbeiter können sich anschließend **freiwillig für
 die Schicht eintragen** und diese somit "vom Markt nehmen".
 
-Aktivieren Sie Nicht Zugewiesene Schichten zuerst in den [Anzeigeoptionen] mit
-einem Klick auf das Feld {% button icon="user-slash", label="Nicht Zugewiesen"
-%}. Gehen Sie anschließend wie bei normalen
-[Dienstzeiten](#dienstzeiten-eintragen) vor. Sie müssen lediglich statt eines
-Mitarbeiter die Zeile "**Nicht zugewiesen**" auswählen.
+Aktivieren Sie Nicht Zugewiesene Schichten zuerst in den
+[Planungshilfen](#planungshilfen)(das {% icon "tv-retro" %}-Icon) mit einem
+Klick auf das Feld {% button icon="user-slash", label="Nicht Zugewiesen" %}.
+Gehen Sie anschließend wie bei normalen [Dienstzeiten](#dienstzeiten-eintragen)
+vor. Sie müssen lediglich statt eines Mitarbeiter die Zeile "**Nicht
+zugewiesen**" auswählen.
 
 {% figure caption="So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen" %}
 
@@ -240,10 +241,11 @@ eingetragen werden.
 
 ### Mit Drag & Drop
 
-Wenn Sie in den [Anzeigeoptionen] **'Vorschläge & Favoriten'** angewählt haben
-finden Sie auf der rechten Seite eine Liste der im Dienstplan
-verfügbaren Fehltage **Urlaub**, **Krank**, **Guttag** und **Frei**. Diese
-können Sie einfach per **Drag & Drop** in die gewünschten Felder ziehen.
+Wenn Sie in den [Planungshilfen](#planungshilfen) (das {% icon "tv-retro"
+%}-Icon) **'Vorschläge & Favoriten'** angewählt haben finden Sie auf der rechten
+Seite eine Liste der im Dienstplan verfügbaren Fehltage **Urlaub**, **Krank**,
+**Guttag** und **Frei**. Diese können Sie einfach per **Drag & Drop** in die
+gewünschten Felder ziehen.
 
 ### Über die Tagesansicht
 
