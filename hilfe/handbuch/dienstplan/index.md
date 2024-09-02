@@ -39,8 +39,7 @@ einen beliebigen Zeitraum auswählen.
 Größere Zeiträume können nützlich sein, wenn Sie den Dienstplan für mehrere
 Wochen oder einen ganzen Monat im Voraus erstellen. 
 
-{% figure caption= "Den Dienstplan für die nächsten 3 Wochen auf einen Blick?
-Kein Problem!"%}
+{% figure caption= "Den Dienstplan für die nächsten 3 Wochen auf einen Blick? Kein Problem!"%}
 <img src= "dienstplan_zeitraum.gif" />
 {% endfigure %}
 
@@ -60,8 +59,7 @@ Dienstplanübersicht erstellen.
 6. Mit {% button label="Speichern" %} wird die Notiz ihren Mitarbeitern
    angezeigt.
 
-{% figure caption= "Ihre Mitarbeiter sollen mit einer Lieferung rechnen? Mit 
-einer Dienstplannotiz sind sie schnell erinnert."%}
+{% figure caption= "Ihre Mitarbeiter sollen mit einer Lieferung rechnen? Mit einer Dienstplannotiz sind sie schnell erinnert."%}
 <img src= "dienstplannotiz.gif" />
 {% endfigure %}
 
@@ -115,8 +113,7 @@ Relevante im Dienstplan zu sehen.
 Um die Filter-Einstellungen eines Tabs zu bearbeiten, klicken Sie auf das {%
 icon "filter" %} **Symbol** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 
-{% figure caption= "Mit Abteilungs- und Zeitfiltern können Sie sich nur die
-gewünschten Spätschichten anzeigen lassen." %}
+{% figure caption= "Mit Abteilungs- und Zeitfiltern können Sie sich nur die gewünschten Spätschichten anzeigen lassen." %}
 <img src= "dienstplan_filter.gif" />
 {% endfigure %}
 
@@ -456,8 +453,7 @@ Problem zu beheben.
 Zusätzlich können Sie eine Auflistung aller Problemberichte unter dem Reiter
 [Probleme](hilfe/handbuch/probleme) einsehen.
 
-{% figure caption="Pentacode hilft Ihnen Probleme bei der Dienstplanung zu
-erkennen und zu beheben." %}
+{% figure caption="Pentacode hilft Ihnen Probleme bei der Dienstplanung zu erkennen und zu beheben." %}
 
 <img src="problem.gif" />
 
@@ -545,8 +541,7 @@ Dienstplan noch minimaler darstellen lassen. Nun werden auch die Dauer der
 Schichten ausgeblendet und Sie können besonders einfach sehen, welcher
 Mitarbeiter in welcher Abteilung wann eingeteilt ist. 
 
-{% figure caption="Lassen Sie sich mit kompakter und minimaler Darstellung nur
-die Informationen anzeigen, die Sie brauchen." %}
+{% figure caption="Lassen Sie sich mit kompakter und minimaler Darstellung nur die Informationen anzeigen, die Sie brauchen." %}
 
 <img src="kompakte_darstellung.gif" />
 
