@@ -17,7 +17,7 @@ einholen.
 ## Dokumentenübersicht
 
 In die Dokumentenübersicht gelangen Sie über den Reiter **Mitarbeiter** im
-Hauptmenü und den Unterpunkt **Dokumente & Formulare**. Die Dokumentenübersicht zeigt ihnen
+Hauptmenü und den Unterpunkt **Dokumente & Formulare**. Die Dokumentenübersicht zeigt Ihnen
 eine sortierte Liste ihrer gespeicherten Dokumente. Unter jedem Mitarbeiter
 erscheinen dabei die ihm zugeteilten Dateien mit Namen, Datum und
 Schlagwörtern. Von hier aus können Sie Dateien einsehen, indem Sie auf das
