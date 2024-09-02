@@ -198,7 +198,7 @@ nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 > aufgelistet.
 
 {% figure caption="Hier wurden die Mitarbeiter nach der Abteilung 'Küche' und die
-Dokumente nach dem Schlagwort ´Hygieneschulung´ gefiltert" %}
+Dokumente nach dem Schlagwort 'Hygieneschulung' gefiltert" %}
 <img src ="dokumente_filter.webp" />
 {% endfigure %}
 
