@@ -129,7 +129,7 @@ Der Mitarbeiter wird nun informiert und kann den Personalfragebogen unter
 
 Nachdem der Mitarbeiter seine Daten eingetragen und deren Vollständigkeit durch
 eine Unterschrift bestätigt hat, wird der Personalfragebogen mit dem Vermerk 
-*Ausgefüllt'* markiert. Nun können Sie den Fragebogen noch einmal final
+*'Ausgefüllt'* markiert. Nun können Sie den Fragebogen noch einmal final
 überprüfen und fertigstellen. Klicken Sie dazu auf den Fragebogen und
 kontrollieren die Daten in den Feldern ein letztes Mal. Wenn der Bogen
 fehlerfrei ausgefüllt ist, müssen Sie ihn nur noch unterschreiben. Klicken Sie
