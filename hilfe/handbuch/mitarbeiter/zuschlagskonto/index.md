@@ -9,7 +9,7 @@ Das Zuschlagskonto stellt die monatlich gezahlte SFN-Pauschale dem tatsächliche
 
 Unter [Konten (Übersicht)](/hilfe/handbuch/mitarbeiter/konten/) wird das Zuschlagsskonto gemeinsam mit dem Arbeitszeitkonto und Urlaubskonto in einer gemeinsamen Übersicht zusammengefasst. 
 
-Warum und Wie wir Zuschläge nutzen, um unsere Personkosten effektiv zu reduzieren, erklären wir [hier](/blog/zuschläge_strategisch_nutzen/). Wie monatliche Pauschalzahlungen diesen Prozess noch einfacher machen, behandeln wir in [diesem Artikel](/blog/pauschale_vorrauszahlungen/)
+Warum und Wie wir Zuschläge nutzen, um unsere Personalkosten effektiv zu reduzieren, erklären wir [hier](/blog/zuschläge_strategisch_nutzen/). Wie monatliche Pauschalzahlungen diesen Prozess noch einfacher machen, behandeln wir in [diesem Artikel](/blog/pauschale_vorrauszahlungen/).
 
 ## Übersicht
 
