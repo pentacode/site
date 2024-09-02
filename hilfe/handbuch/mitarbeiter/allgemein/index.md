@@ -5,6 +5,8 @@ weight: 1
 icon: toolbox
 ---
 
+Im Folgenden erklären wir Ihnen, wie Sie neue Mitarbeiter anlegen, verwalten und kündigen können - sowie einige Extrafunktionen, die Pentacode für Sie bereit hält. 
+
 ## Neuen Mitarbeiter Anlegen
 
 Um einen neuen Mitarbeiter anzulegen, wählen Sie zunächst den Punkt {% button icon="users", label="Mitarbeiter" %} im
@@ -21,7 +23,7 @@ Klicken Sie auf {% button label="Positionen", iconRight="arrow-right" %}, um zum
 ### 2. Positionen
 
 Hier können Sie die Arbeitsbereiche definieren in denen der Mitarbeiter eingesetzt werden kann/soll. Mehr Informationen
-zum Thema Arbeitsbereiche finden Sie unter [Einstellungen/Arbeitsbereiche](../../einstellungen/arbeitsbereiche.md).
+zum Thema Arbeitsbereiche finden Sie unter [Einstellungen/Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/).
 Zugewiesene Positionen können Sie später jederzeit unter [Mitarbeiter/Positionen](../positionen/) bearbeiten.
 
 Klicken Sie auf {% button label="Vertrag", iconRight="arrow-right" %}, um zum Punkt [Vertrag](#3-vertrag) zu gelangen.
@@ -87,70 +89,6 @@ Um einen Probemitarbeiter in einen vollen Mitarbeiter umzuwandeln, gehen Sie wie
    Geben Sie hier die gewünschten Vertragsdaten ein und klicken Sie auf {%
    button label="Speichern" %}.
    
-## Sofortmeldung 
-
-Da jeder von Ihnen eingestellte Mitarbeiter ab dem ersten Arbeitstag bei der
-Rentenversicherung meldepflichtig ist, fällt besonders bei häufig wechselndem
-Personal viel Arbeit an. Dank der Sofortmeldungsfunktion können Sie das Melden
-eines neuen Mitarbeiter nun **in wenigen Minuten direkt über Pentacode**
-erledigen und gehen sicher, **stets rechtlich korrekt** zu arbeiten. Sie
-benötigen dazu nur einige Daten des Mitarbeiters, welche Sie einfach über die
-[Personalfragebogenfunktion](/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen) anfragen können. 
-
-> Für jede Sofortmeldung fällt eine **Bearbeitungsgebühr von 8€** an, welche mit
-> ihrer nächsten regulären Monatsrechnung anfällt. Ihre Zeitersparnis und die
-> Sicherheit bei Betriebskontrollen nichts zu befürchten zu haben, ist aber
-> unbezahlbar.
-
-
-### Sofortmeldung bei neuen Mitarbeitern 
-
-Sobald Sie einen neuen Mitarbeiter angelegt haben, wird sich ein Dialogfeld öffnen, welches Sie fragt ob Sie den neuen Mitarbeiter direkt bei der Rentenversicherung melden wollen. Bestätigen Sie diese Anfrage öffnet sich ein weiteres Fenster, in dem Sie einige Daten für die Krankenkasse ausfüllen müssen. Diese Felder werden im Folgenden genauer beschrieben:
-
-{% figure caption="Erfragen Sie Sie möglichst früh die Sozialversicherungsnummer des Mitarbeiters, um die Sofortmeldung noch schneller zu gestalten" %}
-
-<img src="sofortmeldung.webp" />
-
-{% endfigure %}
-
-> {% icon "exclamation-triangle" %} **Wichtig:** Auch Mitarbeiter auf Probe sind meldepflichtig obwohl sie noch nicht fest angestellt sind - Sie sollten also für jeden neuen Mitarbeiter gleich eine Sofortmeldung ausfüllen.
-#### Unternehmen
-
-Hier tragen Sie die Daten ihres Unternehmens ein. Wenn Sie unter [**Einstellungen**](/hilfe/handbuch/einstellungen/unternehmen) ihre Unternehmensdaten bereits angegeben haben, werden diese automatisch in die Sofortmeldung übertragen. 
-
-#### Mitarbeiter
-
-Hier sind die Meldedaten des Mitarbeiters anzugeben. Wenn Sie während der Anmeldung des Mitarbeiters das Stammdatenblatt schon ausgefüllt haben, werden auch diese Daten automatisch übernommen. 
-
-#### Meldung
-
-Die Rentenversicherung braucht desweiteren das Datum des **Beginns der Beschäftigung** sowie die **Versicherungsgruppe** des Mitarbeiters und die **Sozialversicherungsnummer**.
-
-> {% icon "lightbulb" %} **Tipp:** Wenn Sie die Sozialversicherungsnummer des
-> Mitarbeiters nicht wissen, klicken Sie auf **Nicht bekannt** neben dem Feld.
-> Füllen Sie nun die weiteren Daten des Mitarbeiters aus, um die Zuordnung zu
-> ermöglichen. Anschließend müssen Sie die Sofortmeldung noch bestätigen, dann
-> wird diese an die Rentenversicherung weitergeleitet. 
-
-### Mitarbeitern nachmelden
-
-Sollten Sie noch Mitarbeiter haben, welche noch nicht bei der Rentenversicherung
-gemeldet sind, können Sie auch diese noch nachmelden. Wählen Sie dazu den
-Mitarbeiter aus und klicken auf das {% icon "ellipsis" %} **Symbol** über dem
-Profilbild. Wählen Sie nun {% icon "person-circle-check" %} **Sofortmeldung**
-und verfahren wie unter [Sofortmeldung bei neuen
-Mitarbeitern](#sofortmeldung-bei-neuen-mitarbeitern) beschrieben. 
-
-### Meldebescheinigung
-
-Nachdem Sie die Sofortmeldung eines Mitarbeiters erfolgreich abgeschlossen
-haben, fertigt Pentacode automatisch eine Meldebescheinigung an und speichert
-diese im **Dokumentenarchiv** des Mitarbeiters. Diese dient sowohl Ihnen als
-Nachweis der verpflichteten Meldung, als auch Ihrem Mitarbeiter. Damit dieser
-jedoch Zugriff auf die Meldebescheinigung erhält, muss er ein Profil in der
-[Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) besitzen und Sie müssen ihm
-den [Zugang zu seinem
-Dokumentenarchiv](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) gewähren. 
 
 ## Mitarbeiter Entlassen
 

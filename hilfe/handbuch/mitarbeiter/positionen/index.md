@@ -1,16 +1,17 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Positionen
-weight: 8
-icon: user-tag
+weight: 11
+icon: arrows-down-to-people
 ---
 
 Über die **Positionen** eines Mitarbeiters können Sie festlegen, in welchen
 [Arbeitsbereichen](/hilfe/handbuch/einstellungen/arbeitsbereiche/) die Person eingesetzt werden kann. Bevor Sie
 [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten) für einen Mitarbeiter erfassen oder [Dienste
-planen](/hilfe/handbuch/dienstplan/) können, muss der Person zunächst mindestens eine Position zugewiesen werden. Sie
-können jedem Mitarbeiter beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen Standorten
-zuweisen.
+planen](/hilfe/handbuch/dienstplan/) können, muss dem Mitarbeiter zunächst
+mindestens eine Position zugewiesen werden. Sie können jedem Mitarbeiter
+beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen
+Standorten zuweisen.
 
 > {% icon "info-circle" %} **Hinweis:** Bevor Sie mit dem zuweisen von Positionen beginnen, müssen Sie zunächst die
 > entsprechenden Arbeitsbereiche definieren. Mehr dazu erfahren Sie im Handbuch unter [Einstellungen /
@@ -34,9 +35,9 @@ Positionen-Einzelansicht einer Person, indem Sie zunächst zur [Positionenübers
 navigieren und dort den gewünschten Mitarbeiter wählen.
 
 {% figure caption="In der Positionen-Einzelansicht können Sie die Positionen eines bestimmten Mitarbeiters einsehen oder bearbeiten." %}
-<img src="positionen-einzeln.webp" />
+<img src="positionen_einzel.webp" />
 {% endfigure %}
 
 ## Positionen Zuweisen
 
-Das Zuweisen von Positionen erfolgt ganz einfach über das An- oder Abwählen der entsprechenden Haken in der [Positionenübersicht](#positionen-übersicht). In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down Menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 
+In der [Übersicht](#positionen-übersicht) erfolgt das Zuweisen von Positionen ganz einfach über das An- oder Abwählen der entsprechenden Haken. In der Einzelansicht klicken Sie auf {% button icon="plus", label="Position Hinzufügen" %} und wählen aus dem Drop-down Menü die neue Position aus. Klicken Sie auf {% button label="Speichern" %} um die Änderung festzuschreiben. 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Stammdaten
-weight: 7
+weight: 10
 icon: address-card
 ---
 
@@ -37,7 +37,7 @@ Um die Stammdaten eines Mitarbeiters zu bearbeiten, gehen Sie wie folgt vor:
 3. Klicken Sie {% button label="Speichern" %} am Ihre Änderungen zu übernehmen.
 
 {% figure caption="Das Datenblatt fasst die grundlegenden Informationen eines Mitarbeiters auf einer DIN-A4 Seite zusammen.", extraClass="float-right" %}
-<img src="datenblatt.png" />
+<img src="datenblatt.webp" />
 {% endfigure %}
 
 ## Datenblatt Drucken

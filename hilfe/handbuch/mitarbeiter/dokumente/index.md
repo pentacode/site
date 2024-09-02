@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Dokumente & Formulare
 icon: files
-weight: 5
+weight: 7
 ---
 
 Das **Dokumentenarchiv** bietet Ihnen die Möglichkeit die **Dokumente ihrer
@@ -17,16 +17,16 @@ einholen.
 ## Dokumentenübersicht
 
 In die Dokumentenübersicht gelangen Sie über den Reiter **Mitarbeiter** im
-Hauptmenü und den Unterpunkt **Dokumente**. Die Dokumentenübersicht zeigt ihnen
+Hauptmenü und den Unterpunkt **Dokumente & Formulare**. Die Dokumentenübersicht zeigt Ihnen
 eine sortierte Liste ihrer gespeicherten Dokumente. Unter jedem Mitarbeiter
 erscheinen dabei die ihm zugeteilten Dateien mit Namen, Datum und
-Dokumentenkategorie. Von hier aus können Sie Dateien einsehen, indem Sie auf das
+Schlagwörtern. Von hier aus können Sie Dateien einsehen, indem Sie auf das
 gewünschte Dokument klicken, worauf sich diese in ihrem Browserfenster öffnet.
 Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern oder
-Dokumentenkategorien filtern.
+Dokumentenschlagwörtern filtern.
 
-{% figure caption="Hier können Sie die gespeicherten Datein all ihrer Mitarbeiter einsehen." %}
-<img src="dokumentenübersicht.png" />
+{% figure caption="Hier können Sie die gespeicherten Dateien all ihrer Mitarbeiter einsehen." %}
+<img src="dokumente_überblick.webp" />
 {% endfigure %}
 
 ## Einzelansicht
@@ -36,12 +36,12 @@ den Namen in der [Dokumentenübersicht](#dokumentenübersicht) anklicken. Hier h
 Möglichkeit, die Dokumente eines bestimmten Mitarbeiters einzusehen,
 Einträge gezielt zu suchen oder auch neue Dateien hinzufügen. Von hier aus
 können Sie die Dateien des ausgewählten Mitarbeiters auch auf ihrem PC sichern,
-bearbeiten oder löschen ohne die Datei zuvor öffnen zu müssen. Bewegen Sie dazu
+bearbeiten oder löschen, ohne die Datei zuvor öffnen zu müssen. Bewegen Sie dazu
 ihren Cursor über eines der Dokumente und folgen den Anweisungen
 [hier](#dokument-bearbeiten).
 
 {% figure caption="Die Einzelansicht zeigt Ihnen nur die Dokumente eines Mitarbeiters" %}
-<img src = "einzelansicht.png" >
+<img src = "dokumente_einzel.webp" >
 {% endfigure %}
 
 ## Datei hochladen
@@ -69,14 +69,14 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 öffnet sich auch das Fenster für weitere
 [Dokumenteneigenschaften](#dokumenteneigenschaften)
 
-> **Tipp:** {% icon "lightbulb" %} Haben Sie eine Datei gerade erst von ihrem
+> {% icon "lightbulb" %} **Tipp:** Haben Sie eine Datei gerade erst von ihrem
 > Mitarbeiter erhalten bspw. über den Anhang einer E-Mail, wird diese im
 > Verzeichnis **Dieser PC/Downloads** gespeichert und kann von hier in Pentacode
 > importiert werden.
 
 ## Personalfragebogen
 
-Pentacode erlaubt Ihnen, auch vorgefertigte Dokumente vom Mitarbeiter von
+Pentacode erlaubt Ihnen, auch vorgefertigte Dokumente von
 Mitarbeitern ausfüllen zu lassen. Dies ist besonders hilfreich um schnell
 Daten und Informationen einzuholen und direkt in Pentacode zu speichern. Zur
 Zeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgt
@@ -86,18 +86,18 @@ anlegen können:
 2. Klicken Sie auf das {% button icon="file-circle-plus"%} in der oberen
    rechten Ecke.
 3. Wählen Sie {% icon "pen-field" %} **Personalfragebogen**. 
-4. Fügen Sie einen Kommentar und eine Kategorie hinzu, falls gewünscht und
+4. Fügen Sie einen Kommentar und ein Schlagwort hinzu, falls gewünscht und
    klicken Sie auf **Speichern**
 
 Der vorläufige Personalfragebogen ist nun im Dokumentenarchiv des Mitarbeiters
 gespeichert und noch mit dem Zusatz 'Entwurf' versehen. Sie müssen ihn erst
 [zum Ausfüllen freigeben](#ausfüllen-und-freigeben) bevor der
-Mitarbeiter an der Reihe ist.
+Mitarbeiter an der Reihe ist. Das nötige Dialogfeld öffnet sich automatisch, Sie können dieses aber auch erst später ausfüllen.
 
 
-> {%icon "lightbulb"%} **Tipp**:  Versehen Sie den Personalfragebogen mit einer
-> Kategorie, die Sie am besten auch 'Personalfragebogen' nennen. So finden Sie
-> auch unter vielen Dokumenten immer schnell das richtige. 
+> {%icon "lightbulb"%} **Tipp**:  Versehen Sie den Personalfragebogen mit einem
+> Schlagwort, welches Sie am besten auch 'Personalfragebogen' nennen. So finden Sie
+> auch unter vielen Dokumenten immer schnell das Richtige. 
 
 ### Doch warum ein Personalfragebogen?
 
@@ -108,11 +108,6 @@ Formular zuschicken, in welchem sie ihre Daten angeben können und diese direkt
 und sicher in ihrem Pentacode Dokumentenarchiv gespeichert werden. So sparen Sie
 sich Zeit die Lohndaten einzufordern und müssen sie auch nicht mehr händisch
 übertragen, was Fehler vermeidet.
-Wenn Sie nun noch die
-[Sofortmeldungsfunktion](/hilfe/handbuch/mitarbeiter/allgemein/#sofortmeldung) nutzen,
-werden die Daten automatisch an die Rentenversicherung weitergeleitet ohne, 
-dass Sie auch nur einmal Sozialversicherungsnummer und co. händisch eintragen
-müssen. 
 
 ### Zum ausfüllen freigeben
 
@@ -127,14 +122,14 @@ Der Mitarbeiter wird nun informiert und kann den Personalfragebogen unter
 > {% icon "info-circle" %} **Info:** Der Mitarbeiter kann die von Ihnen ausgefüllten Daten nur einsehen und nicht bearbeiten - die Angaben zum Vertragsverhältnis liegen also einzig bei Ihnen.
 
 {% figure caption="Der Status 'In Bearbeitung' bedeutet, dass der Mitarbeiter kontaktiert wurde, den Fragebogen jedoch noch nicht ausgefüllt und zurückgeschickt hat." %}
-<img src = "in_bearbeitung.png"/>
+<img src = "in_bearbeitung.webp"/>
 {% endfigure %}
 
 ### Überprüfen und fertigstellen
 
 Nachdem der Mitarbeiter seine Daten eingetragen und deren Vollständigkeit durch
 eine Unterschrift bestätigt hat, wird der Personalfragebogen mit dem Vermerk 
-<span style=color:#8310C9> 'Ausgefüllt' </span> markiert. Nun können Sie den Fragebogen noch einmal final
+*'Ausgefüllt'* markiert. Nun können Sie den Fragebogen noch einmal final
 überprüfen und fertigstellen. Klicken Sie dazu auf den Fragebogen und
 kontrollieren die Daten in den Feldern ein letztes Mal. Wenn der Bogen
 fehlerfrei ausgefüllt ist, müssen Sie ihn nur noch unterschreiben. Klicken Sie
@@ -163,47 +158,48 @@ Browserfenster öffnen.
 ## Dokumente filtern
 
 Ein großer Vorteil eines digitalisierten Archivs ist die Geschwindigkeit, in der
-Sie das gesuchte Dokument selbst unter einer Vielzahl anderer Dokumente finden
+Sie das gesuchte Dokument selbst in einem reich gefüllten Archiv schnell finden
 können.
-Pentacode bietet Ihnen dabei zwei mögliche **Filteroptionen**:
-Nach Mitarbeiterkriterien und nach Dokumentenkategorien
+Pentacode bietet Ihnen dabei **zwei mögliche Filteroptionen**:
+Nach Mitarbeiterkriterien und nach Dokumentenschlagwörtern.
 
 ### Mitarbeiterfilter
 
 So filtern Sie ihre Mitarbeiter nach ihren Positionen und
 Beschäftigungsverhältnissen:
 
-1. Gehen Sie in die Dokumentenübersicht und wählen **Filtern...** neben dem
-   {% icon "filter" %} -**Button** im rechten oberen Eck aus.
+1. Gehen Sie in die Dokumentenübersicht und wählen **Filter Hinzufügen...** neben dem
+   {% icon "filter" %} -**Button** im linken oberen Eck aus.
 2. Nun können Sie durch Ab- und Anwählen verschiedener
-   **Beschäftigungsverhältnisse** und **Arbeitsbereiche** nur die Gruppe an
-   Mitarbeitern auswählen, deren Dokumente Sie einsehen möchten.
+   **Beschäftigungsverhältnisse, Positionen und einzelner Mitarbeiter** nur die
+   Personen auswählen, deren Dokumente Sie einsehen möchten.
 3. Sobald Sie wieder die Dokumente aller Mitarbeiter sehen wollen, scrollen Sie
    im Filtern-Dialogfenster ganz nach unten und drücken Sie auf **Filter
    zurücksetzen**.
 
-### Kategorienfilter
+### Schlagwortfilter
 
 Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die
-[Kategorien](#kategorien) nützlich, die sie beim Erstellen eines Datei
-zugeordnet haben. Wählen Sie dazu die mit den {% icon "tag" %} markierten
-Kategorien am oberen Rand der Dokumentenübersicht aus. Durch Anklicken einer
-der Kategorien sehen Sie nur noch die Dateien, welche dieser Kategorie
+[Schlagwörter](#schlagwort) nützlich, die sie beim Erstellen eines Datei
+zugeordnet haben. Wählen Sie dazu das mit dem {% icon "tag" %} markierten
+Schlagwort am oberen Rand der Dokumentenübersicht aus. Durch Anklicken eines
+Schlagwortes sehen Sie nur noch die Dateien, welche diesem
 zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren drücken Sie auf
 den {% button icon="tags", label="Alle" %}-Button.
 
 ### Filter kombinieren
 
-Die Mitarbeiter- und Kategorienfilter können auch kombiniert werden, wenn Sie
+Die Mitarbeiter- und Dokumentenfilter können auch kombiniert werden, wenn Sie
 nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 
 > **Beispiel:** Sollte eine Behörde alle Hygieneschulungen ihrer Köche einsehen
-> wollen, stellen Sie den **Filter** auf **Küche** und die Kategorie auf
+> wollen, stellen Sie den **Filter** auf **Küche** und das Schlagwort auf
 > **Hygieneschulung** und schon haben Sie alle relevanten Bescheinigungen
 > aufgelistet.
 
-{% figure caption="Hier wurden die Mitarbeiter nach der Abteilung Küche und die Dokumentenkategorie nach ´Hygieneschulung´ gefiltert" %}
-<img src ="beispielfilter.png" />
+{% figure caption="Hier wurden die Mitarbeiter nach der Abteilung 'Küche' und die
+Dokumente nach dem Schlagwort 'Hygieneschulung' gefiltert" %}
+<img src ="dokumente_filter.webp" />
 {% endfigure %}
 
 ## Dokument bearbeiten
@@ -213,7 +209,7 @@ So **bearbeiten** Sie eine Datei:
 1. [Öffnen](#dokument-öffnen) Sie das Dokument
 2. Drücken Sie nun auf den {% button icon="pencil-alt" %}-**Button** im
    rechten oberen Eck, um wieder in das [Dialogfeld](#dokumenteneigenschaften) zu
-   gelangen, in dem Sie Namen, Kategorien und Kommentar des Dokuments bearbeiten
+   gelangen, in dem Sie Namen, Schlagwörter und Kommentar des Dokuments bearbeiten
    können.
 3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf {% button label="Speichern" %}
 
@@ -235,10 +231,6 @@ und klicken Sie auf den {% button icon="trash" %}-**Button** im rechten oberen E
 Sicherheit werden Sie jedoch noch einmal gefragt, ob Sie die Datei wirklich
 löschen wollen. Sobald Sie nun auf **Löschen** klicken, ist das Dokument
 unwiderruflich gelöscht.
-
-{% figure caption="Bewegen Sie in der Einzelansicht ihren Cursor über ein Dokument, erscheinen die Buttons zum Bearbeiten auch ohne das Dokument zu öffnen" %}
-<img src = "bearbeiten.png"/>
-{% endfigure %}
 
 ## Dokumenteneigenschaften
 
@@ -274,22 +266,20 @@ Datei widerspiegeln.
 Im Textfeld **Kommentar** kann, wie der Name schon sagt, dem Dokument ein
 Kommentar mit zusätzlichen Informationen hinzugefügt werden.
 
-### Kategorien
+### Schlagwörter
 
-Besonders relevant ist das Feld **Kategorien**, hier können dem Dokument eine
-oder mehrere Kategorien zugeordnet werden, welche es später einfacher machen
-nach diesem Dokument zu [filtern](#kategorienfilter) und es schnell zu finden.
-Tippen Sie dazu einfach den Namen der gewünschten Kategorie in das Textfeld, bis
-diese auftaucht. Um eine neue Kategorie zu erstellen, geben Sie den Namen der
-neuen Kategorie ein und drücken Sie {% key "Enter" %}. Die neue Kategorie
-wird dann automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
+Besonders relevant ist das Feld **Schlagwörter**, hier können dem Dokument ein
+oder mehrere Begriffe zugeordnet werden, welche es später einfacher machen
+nach diesem Dokument zu [filtern](#schlagwortfilter) und es schnell zu finden.
+Tippen Sie dazu einfach die gewünschten Schlagwörter in das Textfeld, bis
+dieses auftaucht. Um ein neues Schlagwort zu erstellen, geben Sie es ein und drücken Sie {% key "Enter" %}. Es wir nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
 Darstellungsfarbe der Kategorie im Nachhinein bearbeiten wollen, können
 Sie dies unter
-[Einstellungen/Dokumente](../../einstellungen/dokumente/#kategorien-bearbeiten)
+[Einstellungen/Dokumente](../../einstellungen/dokumente/)
 tun.
 
 {% figure caption="Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen." %}
-<img src = "eingabefenster.png" />
+<img src = "eingabefenster.webp" />
 {% endfigure %}
 
 ## Berechtigungen erteilen
@@ -298,7 +288,7 @@ Im Menüpunkt **Zugänge und Rechte** können Sie ihren Mitarbeitern in
 verschiedenen Stufen Zugriff auf das Dokumentenarchiv gewähren. Sollen die
 Mitarbeiter nur Zugriff auf ihre eigenen Dokumente haben, reicht ein
 **Mitarbeiterzugriff**. Soll jedoch das Dokumentenarchiv mit bearbeitet werden,
-ist auch das möglich mit einem **Managerzugriff**.
+ist auch das möglich, mit einem **Managerzugriff**.
 
 ### Mitarbeiterzugriff
 
@@ -310,7 +300,7 @@ aber die Dokumente anderer Mitarbeiter. Gehen Sie dazu unter **Mitarbeiter** auf
 Mitarbeiterapp die für sie gespeicherten Dokumente einsehen aber keine weiteren
 hinzufügen oder bestehende löschen.
 
-> **Tipp:** {% icon "lightbulb" %} Über das Dokumentenarchiv können Sie
+> {% icon "lightbulb" %} **Tipp:** Über das Dokumentenarchiv können Sie
 > mitarbeiterspezifisch auch To-Do Listen, Meetingmitschriften oder selbst
 > ausgestellte Arbeitszeugnisse zur Verfügung stellen - ihrer Fantasie sind keine
 > Grenzen gesetzt
@@ -318,25 +308,25 @@ hinzufügen oder bestehende löschen.
 ### Managerzugriff
 
 Sollten Sie einem Manager Zugriff auf die Verwaltung der Dokumente gewähren
-wollen, geht das auch ganz einfach über **Zugänge und Rechte**. Setzen Sie dazu
-einen Haken bei **Mitarbeiter** unter **Verwaltung** - somit wird der Zugriff
+wollen, geht das auch ganz einfach über **Zugänge und Rechte**. Gehen Sie dazu
+in die **Managerzugänge** und wählen die Option **Mitarbeiter** an - somit wird der Zugriff
 auf Dokumente in Kombination mit vielen weiteren Verwaltungsfunktionen gewährt.
 Sie können den Zugang auch nur für die Dokumentenverwaltung spezifizieren, indem
 Sie den Reiter **Mitarbeiter** ausklappen und alle Haken bis auf **Dokumente**
 entfernen. Von nun an kann dieser Manager die Dokumente aller Mitarbeiter
 einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 
-> **Achtung** {% icon "exclamation" %} Ein Manager mit Berechtigung auf das
-> Dokumentenarchiv hat Zugriff auf eventuell private Daten der Mitarbeiter - eine
-> Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen.
+> {% icon "exclamation-triangle" %} **Achtung:** Ein Manager mit Berechtigung auf das
+> Dokumentenarchiv hat Zugriff auf **private Daten der Mitarbeiter** - eine
+> Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen!
 
 {% figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch das Dokumentenarchiv bearbeiten" %}
-<img src="dokumentenberechtigung.png" />
+<img src="dokumente_zugang.gif" />
 {% endfigure %}
 
-## Kategorien bearbeiten
+## Schlagwörter bearbeiten
 
-Wenn Sie ihre Dokumentenkategorien verwalten und die Farbgebung der Kategorien
+Wenn Sie ihre Dokumentenarten verwalten und die Farbgebung der Schlagwörter
 verändern wollen, drücken Sie in der **Dokumentenübersicht** auf {% button label="Kategorien bearbeiten" %} oben rechts im Fenster. Dieser leitet Sie zu
 den **Einstellungen** weiter. Klicken Sie
 [hier](/hilfe/handbuch/einstellungen/dokumente) für mehr Informationen.

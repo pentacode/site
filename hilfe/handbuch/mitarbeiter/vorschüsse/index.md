@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Vorschüsse
-weight: 6
+weight: 8
 icon: hand-holding-dollar
 keywords:
   - vorschüsse
@@ -9,7 +9,7 @@ keywords:
   - barvorschuss
 ---
 
-Unter dem Überpunkt {% button icon="hand-holding-dollar", label="Vorschüsse" %} finden Sie eine Auflistung aller Vorschüsse, sowie die Möglichkeit Vorschüsse an Mitarbeiter zu vermerken. Dabei unterscheidet sich das Vorgehen je nachdem, ob es sich um **bare oder unbare Vorschüsse handelt**. 
+Unter diesem Überpunkt finden Sie eine Auflistung aller Vorschüsse, sowie die Möglichkeit Vorschüsse an Mitarbeiter zu vermerken. Dabei unterscheidet sich das Vorgehen je nachdem, ob es sich um **bare oder unbare Vorschüsse handelt**. 
 
 > Die automatische Erfassung und Listung von Bar-Vorschüssen setzt voraus, dass Sie entweder eine **Tagesabrechnung** in Pentacode durchführen oder aber das **Kassenbuch** führen. Ist dies der Fall, entsteht selbständig eine **Liste der ausgezahlten Vorschüsse**. **Unbare Vorschüsse** können auch ohne Kassenbuchführung über Pentacode verbucht werden. 
 

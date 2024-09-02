@@ -1,13 +1,12 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Abwesenheiten
-weight: 3
+weight: 5
 icon: portal-exit
 ---
 
-Neben der Arbeitszeitdokumentation und Dienstplanung ist das Verwalten von Abwesenheiten wie Urlaub und
-Krankheit eine der wichtigsten Aufgaben der Personalverwaltung. Mit Pentacode können Sie nicht nur erfassen und planen,
-wer wann krank oder im Urlaub war, ist oder sein wird - die Software errechnet automatisch für Sie, wann und wie viele
+Neben der Arbeitszeitdokumentation und Dienstplanung ist das **Verwalten von Abwesenheiten** wie Urlaub und Krankheit eine der wichtigsten Aufgaben der Personalverwaltung. Mit Pentacode können Sie nicht nur **erfassen und planen**,
+wer wann krank oder im Urlaub war, ist oder sein wird - die Software **errechnet automatisch** für Sie, wann und wie viele
 Fehltage für einen Abwesenheitszeitraum gebucht werden müssen und wie viele Fehlstunden und Zuschläge anfallen. Und diese Informationen fließen dann wiederum vollautomatisch in die Lohnbuchhaltung und Mitarbeiterkonten ein!
 
 Alles was Sie tun müssen, ist einen Mitarbeiter, Abwesenheitstyp und Zeitraum zu wählen und Pentacode erledigt den Rest für Sie. Und wenn Sie unsere [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) nutzen, können Ihre Mitarbeiter selbstständig Urlaubsanträge und Krankmeldungen erfassen, die Sie dann nur noch genehmigen müssen!
@@ -31,9 +30,10 @@ Sie gelangen in die Abwesenheiten-Übersicht, indem Sie im Hauptmenü den Punkt 
 Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten.
 
 Um in die Abwesenheiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Abwesenheiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
+Normalerweise werden hier geplante zukünftige Abwesenheiten des Mitarbeiters angezeigt, wollen Sie jedoch vergangene Abwesenheiten einsehen, klicken Sie auf {% button label = "Vergangene Abwesenheiten Anzeigen"%}. 
 
 {% figure caption="Über die Abwesenheiten-Einzelansicht können Sie die Abwesenheiten eines einzelnen Mitarbeiters einsehen und bearbeiten." %}
-<img src="einzeln.webp" />
+<img src="abwesenheiten_einzeln.webp" />
 {% endfigure %}
 
 ## Neue Abwesenheit Erfassen

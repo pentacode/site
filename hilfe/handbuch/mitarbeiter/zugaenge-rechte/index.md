@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 keywords: []
 title: Zugänge & Rechte
-weight: 9
+weight: 12
 icon: user-unlock
 ---
 
@@ -31,17 +31,20 @@ Der erste Schritt zur Einrichtung eines Mitarbeiterzugangs ist die Versendung ei
 5. (Optional) Geben Sie eine Nachricht ein, welche in der Einladungsemail angezeigt werden soll.
 6. Weisen Sie dem Mitarbeiter die gewünschte [Rolle](#rollen-zuweisen) und [Berechtigungen](#berechtigungen-vergeben) zu.
 
-Der Mitarbeiter erhält nun eine Email mit einem Aktivierungslink, über den er die Einladung akzeptieren und ein Passwort wählen kann. Zusammen mit der
-Email des Mitarbeiters kann dieses Passwort nun zum Login in die [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app)
-(https://perso.pentacode.app) oder (falls die entsprechenden Berechtiungen vorliegen) in den Verwaltungszugang
+Der Mitarbeiter erhält nun eine Email mit einem Aktivierungslink, über den er
+die Einladung akzeptieren und ein Passwort wählen kann. Zusammen mit der Email
+des Mitarbeiters kann dieses Passwort nun zum Login in die
+[Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) (https://perso.pentacode.app)
+oder (falls die entsprechende Berechtigung vorliegt) in den Verwaltungszugang
 (https://manage.pentacode.app) verwendet werden.
 
 > {% icon "lightbulb" %} **Tipp:** Das Eingeben einer Nachricht mit dem Versand der Einladung ist optional -
-> allerdings empfehlen wir, eine kurze Erklärung beizufügen, um zu vermeiden, dass die Einladung fälschlicherweise für
-> einer Spam oder Phishing-Email verwechselt wird.
+> allerdings empfehlen wir eine kurze Erklärung beizufügen, um zu vermeiden,
+> dass die Einladung fälschlicherweise für eine Spam oder Phishing-Email
+> verwechselt wird.
 
 {% figure caption="Der erste Schritt zur Einrichtung eines Mitarbeiterzugangs ist die Versendung einer Einladung" %}
-<img src="zugang-einrichten.gif" />
+<img src="zugang_einrichten.gif" />
 {% endfigure %}
 
 ### Mehrere Mitarbeiter Einladen
@@ -91,7 +94,14 @@ Der Besitzer eines Unternehmens hat grundsätzlich Zugriff auf alle Bereiche und
 
 ## Zuständigkeitsbereiche Einschränken
 
-Die Zuständigkeitsbereiche eines Mitarbeiters bestimmen, auf welche Standorte und Abteilungen der Mitarbeiter Zugriff hat. Um die Zuständigkeit des Mitarbeiters auf bestimmte Arbeitsbereich einzuschränken, klicken Sie in das Feld "Filter Hinzufügen" und wählen Sie ein oder mehrere Standorte und/oder Abteilungen. Oder lassen Sie die Filter leer, um dem Mitarbeiter Zugriff auf das gesamte Unternehmen zu geben. 
+Die Zuständigkeitsbereiche eines Managers bestimmen, auf welche Standorte
+und Abteilungen der Manager Zugriff hat. Um die Zuständigkeit auf **bestimmte Arbeitsbereich einzuschränken**, klicken Sie in das
+Feld "Filter Hinzufügen" und wählen Sie ein oder mehrere Standorte und/oder
+Abteilungen. Oder lassen Sie die Filter leer, um dem Mitarbeiter Zugriff auf das
+gesamte Unternehmen zu geben. 
+
+> {% icon "lightbulb" %} Die Zahl neben dem {% icon "people-group" %}
+Symbol gibt an, wie viele Mitarbeiter der Zuständigkeitsbereich eines Managers beeinhaltet.
 
 <figure>
 <img src="zustaendigkeitsbereiche.png" />

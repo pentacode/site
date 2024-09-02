@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
-title: Konten
-weight: 1
+title: Konten (Übersicht)
+weight: 9
 icon: balance-scale-right
 ---
 
@@ -90,62 +90,25 @@ Im Kontenblatt eines Mitarbeiters sehen Sie den gesamten Kontenverlauf vom Zeitp
 
 ## Manuelle Buchungen
 
-Wie bereits erwähnt führt Pentacode die Konten Ihrer Mitarbeiter anhand der Vertragsdaten
-und den erfassten Bewegungsdaten vollkommen automatisch und selbstständig. Natürlich kommt es aber in
-jedem Betrieb regelmäßig zu Sonderfällen, die nicht durch "einfaches" Erfassen von Arbeitszeiten und
-Abwesenheiten abgebildet werden können und ein manuelles Eingreifen erfordern, z.B. das Ausbezahlen von Überstunden,
-Minderung des Urlaubsanspruches als Folge von Kurzarbeit usw. Hierfür bietet Ihnen Pentacode die Möglichkeit der
-manuellen [Urlaubsbuchung](/hilfe/handbuch/mitarbeiter/arbeitszeiten#urlaubsbuchungen) und
-[Zeitbuchung](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen). Mehr hierzu erfahren Sie im Hilfeartikel [Mitarbeiter / Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen).
+Wie bereits erwähnt führt Pentacode die Konten Ihrer Mitarbeiter anhand der
+Vertragsdaten und den erfassten Bewegungsdaten vollkommen automatisch und
+selbstständig. Natürlich kommt es aber in jedem Betrieb regelmäßig zu
+Sonderfällen, die nicht durch "einfaches" Erfassen von Arbeitszeiten und
+Abwesenheiten abgebildet werden können und ein manuelles Eingreifen erfordern,
+z.B. das Ausbezahlen von Überstunden, Minderung des Urlaubsanspruches als Folge
+von Kurzarbeit usw. Hierfür bietet Ihnen Pentacode die Möglichkeit der manuellen
+[Urlaubsbuchung](/hilfe/handbuch/mitarbeiter/arbeitszeiten#urlaubsbuchungen) und
+[Zeitbuchung](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen). Mehr
+hierzu erfahren Sie im Hilfeartikel [Mitarbeiter /
+Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen).
 
 ## Übertrag Bearbeiten / Konten Zurücksetzen
 
-Solange Sie der Software keine abweichenden Anweisungen geben, führt Pentacode die Konten eines Mitarbeiters über den
-gesamten Zeitraum des Beschäftigungsverhältnis saldierend fort. Mit Außnahme des SFN-Kontos werden dabei die Kontensaldi
-eines Jahres immer automatisch in das Folgejahr übertragen.
-
-In vielen Fällen ist es allerdings notwendig, korrigierend in die Saldierung von Konten einzugreifen, zum Beispiel wenn der Resturlaub eines Mitarbeiters am Ende des Jahres verfallen soll oder die Konten eines Mitarbeiters nach langer Abwesenheit zurückgesetzt werden sollen.
-
-Pentacode bietet Ihnen hierfür die Möglichkeit, den Übertrag eines Monats für eines oder alle Konten eines Mitarbeiters zu bearbeiten.
-
-### Kontenübertrag Eines Einzelnen Mitarbeiters Bearbeiten
-
-Um einen abweichenden Kontenübertrag in einem Monat für einen bestimmten Mitarbeiter zu **erstellen**, verfahren Sie wie folgt:
-
-1. Navigieren Sie zunächst zum [Kontenblatt](#kontenblatt) des Mitarbeiters.
-2. Fahren Sie mit der Maus über den Monat, für den Sie einen abweichenden Übertrag erfassen wollen. und klicken Sie auf
-   den {% button icon="undo" %} Button am linken Rand.
-3. Füllen Sie die angezeigten Felder für die jeweiligen Konten mit dem gewünschten Betrag. Sie können Felder für
-   bestimmte Konten leer lassen, um für diese Konten den "normalen" Übertrag des Vormonats beizubehalten. Wenn Sie also
-   zum Beispiel nur den Urlaubsübertrag zurücksetzen wollen, füllen Sie die Spalte "Urlaub" aus und lassen den Rest
-   leer.
-4. Klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu übernehmen oder den {% button icon="times" %} Button um sie zu verwerfen.
-
-Um den eingetragenen Übertrag im Nachhinein zu **bearbeiten**, fahren Sie mit der Maus über die entsprechende Zeile und
-klicken den {% button icon="pencil-alt" %} Button auf der linken Seite. Nehmen Sie dann die gewünschten Änderungen vor
-und klicken Sie auf den {% button icon="save" %} Button um die Änderungen zu übernehmen oder den {% button icon="times" %} Button um sie verwerfen.
-
-Um den eingetragenen Übertrag zu **entfernen**, fahren Sie mit der Maus über die entsprechende Zeile und
-klicken den {% button icon="trash" %} Button auf der linken Seite. Es wird dann wieder der "normale" Saldo des Vormonats übernommen.
-
-{% figure caption="Das Bearbeiten von einzelnen Mitarbeiterkonten können Sie im Kontenblatt vornehmen." %}
-<img src="uebertrag-bearbeiten-einzeln.gif" />
-{% endfigure %}
-
-### Kontenüberträge Mehrerer Mitarbeiter Bearbeiten
-
-Um die Kontenüberträge eines Monats für mehrere (oder alle) Mitarbeiter "in einem Schwung" zu ändern oder zurückzusetzen, gehen Sie wie folgt vor:
-
-1. Navigieren Sie zunächst zur [Jahresübersicht](#jahresübersicht).
-2. Klicken Sie den {% button icon="ellipsis-h" %} Button in der rechten oberen Ecke.
-3. Es öffnet sich ein Dialog mit der Überschrift "Konten Zurücksetzen". Wählen Sie hier zuächst den gewünschten Monat
-   aus.
-4. Füllen Sie die Spalten "Stunden", "Urlaub" und "SFN" mit den gewünschten Werten. Lassen Sie jene Mitarbeiter/Spalten,
-   für die "normalen" Übertrag des Vormonats beibehalten möchten, einfach leer.
-
-{% figure caption="Das Bearbeiten von mehreren Mitarbeiterkonten können Sie in der Jahresübersicht vornehmen." %}
-<img src="uebertrag-bearbeiten-alle.gif" />
-{% endfigure %}
+Solange Sie der Software keine abweichenden Anweisungen geben, führt Pentacode
+die Konten eines Mitarbeiters über den gesamten Zeitraum des
+Beschäftigungsverhältnis saldierend fort. Mit Außnahme des SFN-Kontos werden
+dabei die Kontensaldi eines Jahres immer automatisch in das Folgejahr
+übertragen. Wie Sie die Konten händisch zurücksetzen und bearbeiten können erfahren Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen)
 
 ## Konten Drucken
 

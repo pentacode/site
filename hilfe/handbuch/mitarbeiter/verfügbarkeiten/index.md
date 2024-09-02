@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Verfügbarkeiten
-weight: 4
+weight: 6
 icon: comment-check
 ---
 
@@ -41,7 +41,7 @@ Sie gelangen in die Verfügbarkeiten-Übersicht, indem Sie im Hauptmenü den Pun
 > bestimmter Abteilungen beschränken.
 
 {% figure caption="In der Verfügbarkeiten-Übersicht sehen Sie die erfassten, geplanten, beantragten Verfügbarkeiten aller Ihrer Mitarbeiter auf einen Blick." %}
-<img src="uebersicht.png" />
+<img src="verfügbarkeiten_übersicht.webp" />
 {% endfigure %}
 
 ## Einzelansicht
@@ -51,7 +51,7 @@ Sie gelangen in die Verfügbarkeiten-Übersicht, indem Sie im Hauptmenü den Pun
 Um in die Verfügbarkeiten-Einzelansicht eines Mitarbeiters zu gelangen, navigieren Sie zunächst zur [Verfügbarkeiten-Übersicht](#übersicht) und wählen dort den gewünschten Mitarbeiter.
 
 {% figure caption="Über die Verfügbarkeiten-Einzelansicht können Sie die Verfügbarkeiten eines einzelnen Mitarbeiters einsehen und bearbeiten." %}
-<img src="einzeln.png" />
+<img src="verfügbarkeiten_einzeln.webp" />
 {% endfigure %}
 
 ## Verfügbarkeit Erfassen
@@ -71,7 +71,7 @@ So funktioniert das **Erfassen einer neuen Verfügbarkeit**:
    {% button label="Abbrechen" %} um sie zu **verwerfen**.
 
 {% figure caption="Indem Sie die Maustaste gedrückt halten können Sie direkt den kompletten Zeitraum der Verfügbarkeit selektieren." %}
-<img src="neue-verfuegbarkeit.gif" />
+<img src="verfügbarkeit_erfassen.gif" />
 {% endfigure %}
 
 ## Verfügbarkeit Bearbeiten
