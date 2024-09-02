@@ -25,7 +25,7 @@ gewünschte Dokument klicken, worauf sich diese in ihrem Browserfenster öffnet.
 Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern oder
 Dokumentenschlagwörtern filtern.
 
-{% figure caption="Hier können Sie die gespeicherten Datein all ihrer Mitarbeiter einsehen." %}
+{% figure caption="Hier können Sie die gespeicherten Dateien all ihrer Mitarbeiter einsehen." %}
 <img src="dokumente_überblick.webp" />
 {% endfigure %}
 
