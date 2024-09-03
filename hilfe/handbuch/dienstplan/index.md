@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 keywords: []
 title: Dienstplan
-weight: 1
+weight: 2
 icon: table
 ---
 
