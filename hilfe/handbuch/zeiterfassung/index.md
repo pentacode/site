@@ -58,7 +58,7 @@ Hier können Sie verschiedene Einstellungen vornehmen, um Funktionen und Anzeige
 
 - **Dienstplan:** Wählen Sie diese Option, um **das Anzeigen des Dienstplans** zu erlauben. Es erscheint dann ein {% icon "table" %} Button, mit dem der Dienstplan aufgerufen werden kann. Die Anzeige des Dienstplans ist auf die in den Einstellungen der Stempeluhr gewählten [Arbeitsbereiche](#arbeitsbereiche) eingeschränkt.
 
-- **Ausstehene Schichten:** Die Option ausstehene Schichten bestimmt, ob **geplante Schichten auf der Stempeluhr angezeigt** werden sollen. Deaktivieren Sie diese Funktion, falls Sie nicht wollen, dass man das geplante Personal des Tages und Verspätungen sehen kann.
+- **Ausstehende Schichten:** Die Option ausstehende Schichten bestimmt, ob **geplante Schichten auf der Stempeluhr angezeigt** werden sollen. Deaktivieren Sie diese Funktion, falls Sie nicht wollen, dass man das geplante Personal des Tages und Verspätungen sehen kann.
 
 - **Aktive Schichten:** Die Option aktive Schichten bestimmt, ob **aktive Schichten auf der Stempeluhr angezeigt** werden sollen. Deaktivieren Sie diese Funktion, falls Sie nicht wollen, dass man einsehen kann, wer seine Schicht bereits angetreten hat. 
 
