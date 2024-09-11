@@ -30,7 +30,7 @@ Je nach Bedarf können Sie eine einzelne Stempeluhr für Ihren gesamten Betrieb 
 
 Bevor Sie die Stempeluhr auf einem Endgerät nutzen können, muss diese erst eingerichtet werden. Das ist mit einigen wenigen Schritten erledigt:
 
-1. Klicken Sie den Button {% button icon="plus", label="Neue Stempeluhr" %} auf der linken Seite
+1. Klicken Sie den Button {% button icon="plus", label="Neue Stempeluhr" %} auf der linken Seite.
 2. Es öffnet sich ein Eingabeformular, in dem Sie den Namen des Tablets, sowie Arbeitsbereiche und verschiede Funktionen bestimmen können. Die einzige Pflichtangabe ist das Namensfeld. Mehr Informationen zu den restlichen Feldern finden Sie unter [Stempeluhr Bearbeiten](#stempeluhr-bearbeiten). Klicken Sie abschließend auf {% button label="Speichern" %}.
 3. Die neu angelegte Stempeluhr sollte nun in der Liste auf der linken Seite angezeigt werden. Auf der rechten Seite sehen Sie die Anweisungen, um die Einrichtung der Stempeluhr abzuschließen.
 
