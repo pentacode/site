@@ -5,7 +5,7 @@ weight: 1
 icon: stopwatch
 ---
 
-Das Erfassen von Arbeitszeiten ist in vielen Betrieben nicht nur einer der wichtigsten, sondern auch eine der zeitraubensten und fehleranfälligsten Aufgaben im Bereich Personalmanagement. Aber keine Sorge - mit Pentacode wird diese Arbeit fast schon zum Selbstläufer! Es stehen Ihnen drei grundlegende Arten der Zeiterfassung zu Verfügung:
+Das Erfassen von Arbeitszeiten ist in vielen Betrieben nicht nur eine der wichtigsten, sondern auch eine der zeitraubendsten und fehleranfälligsten Aufgaben im Bereich Personalmanagement. Aber keine Sorge - mit Pentacode wird diese Arbeit fast schon zum Selbstläufer! Es stehen Ihnen drei grundlegende Arten der Zeiterfassung zu Verfügung:
 
 - **Per Digitaler Stempeluhr:** Ihre Mitarbeiter erfassen ihre Zeiten selbstständig über eine [digitale Stempeluhr](/hilfe/stempeluhr/), die als Webapp auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann und am Arbeitsplatz zur Verfügung gestellt wird. Die Mitarbeiter können sich dann vor Ort per individueller Zeiterfassungs-PIN zur Arbeit ab- und anmelden, sowie Pausen und Mitarbeiter-Essen erfassen.
 - **Per Mitarbeiter-App:** Als Alternative zur Stempeluhr vor Ort können Mitarbeiter ihre Zeiten auch direkt über ihr eigenes Smartphone, Tablet oder Desktopcomputer erfassen. Dies ist vor allem für die Arbeit im Homeoffice oder bei ständig wechselnden Arbeitsorten hilfreich! Mehr zum Thema [Zeiterfassung über die Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app/#zeiterfassung) können Sie im entsprechenden Hilfeartikel nachlesen.
