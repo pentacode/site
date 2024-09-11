@@ -22,7 +22,7 @@ Unter dem Hauptmenüpunkt {% button icon="stopwatch", label=" Zeiterfassung" %} 
 
 ## Stempeluhren Verwalten
 
-Die [digitale Stempeluhr](/hilfe/stempeluhr/) ist eine Webapp, die auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann. Das eingerichtete Endgerät steht dann am Arbeitsplatz zur selbstständingen Erfassung von Arbeitszeiten, Pausen und Mahlzeiten zur Verfügung.
+Die [digitale Stempeluhr](/hilfe/stempeluhr/) ist eine Webapp, die auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann. Das eingerichtete Endgerät steht dann am Arbeitsplatz zur selbstständigen Erfassung von Arbeitszeiten, Pausen und Mahlzeiten zur Verfügung.
 
 Je nach Bedarf können Sie eine einzelne Stempeluhr für Ihren gesamten Betrieb oder mehrere Stempeluhren für Ihre verschiedenen Standorte oder Abteilungen verwenden.
 
