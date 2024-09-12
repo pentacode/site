@@ -1,5 +1,5 @@
 ---
-title: 
+title: Flexible Führung und ihre Vorteile
 date: 2024-09-16
 cover: "nl12_fuehrung_cover.webp"
 coverAlt: ""
@@ -32,8 +32,7 @@ Jeder von uns hat einen gewissen Führungsstil, zu dem wir am meisten tendieren.
 
 ## Flexible Führung siegt
 
-<p style="text-align: center"> **Generell gilt: Nicht ein Führungsstil ist richtig –
-es kommt auf die aktuelle Situation an.** </p> 
+**Generell gilt: Nicht ein Führungsstil ist richtig – es kommt auf die aktuelle Situation an.**
 
 *Im gängigen Arbeitsalltag* ist die kooperative Führung wohl am sinnvollsten. Die Mitarbeiter wissen stets, was zu tun ist und das Miteinbeziehen ihrer Meinung [fördert das Kompetenzgefühl](/blog/motivation_8_unterforderung/), sowie die Motivation. **Regelmäßiger Austausch trägt zu gutem Arbeitsklima bei**, man kann sich längere Diskussionen im Team leisten und gemeinsam Lösungen finden. 
 
