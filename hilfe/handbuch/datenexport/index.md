@@ -5,38 +5,49 @@ icon: download
 weight: 10
 ---
 
-Unter dem Menüpunkt "Datenexport", sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiede Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr.
+Unter dem Menüpunkt "Datenexport", sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiedene Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr.
 
-> **In den verschiedenen Bereichen von Pentacode finden Sie öfters das {%icon "download"%}-Symbol, dieses verweist Sie stets in den hier beschriebenen Reiter.**
+>  {% icon "info-circle" %} **In den verschiedenen Bereichen von Pentacode finden Sie öfters das {%icon "download"%}-Symbol, dieses verweist Sie stets in den hier beschriebenen Reiter.**
 
 ## Exportformat
 
-Sie können über den {% button label="Datenexport", icon="download" %}-Reiter verschiedene Dateien mit unterschiedlichen Inhalten exportieren. Je nach Inhalt und Zweck werden die Dateien dabei in unterschiedlichem Dateienformat exportiert, die verschiedenen Icons neben der Exportfunktion geben dabei Auskunft über das Format:
+Sie können über den {% button label="Datenexport", icon="download" %}-Reiter verschiedene Dateien mit unterschiedlichen Inhalten exportieren. Je nach Inhalt und Zweck werden die Dateien dabei in unterschiedlichem Dateiformat exportiert, die verschiedenen Icons neben der Exportfunktion geben dabei Auskunft über das Format:
 
 - {% icon "file-pdf" %} Der Export findet in ein PDF-Format statt.
 - {% icon "file-text" %} Der Export findet als Textdatei statt, die extern eingelesen werden muss.
 - {% icon "file-csv" %} Der Export findet in ein CSV-Format statt. 
+- {% icon "file-excel" %} Der Export findet im standard Excel-Format statt. 
 
 ### Lohnbuchhaltung
 
 Hier finden Sie alle Exportoptionen, die der Lohnvorbereitung und -dokumentation dienen. Die verschiedenen Optionen umfassen dabei: 
 
-- *Lohnbericht (Übersicht):* In der Lohnbericht-Übersicht sind die Arbeitsstunden und -tage, sowie Zuschlagsstunden, Mitarbeiteressen und das aktuelle Gehalt in einer tabellarischen Ansicht zusammengefasst. Dieser Ausdruck ist vor allem für die Übermittlung an Ihr Lohnbüro gut geeignet und dient als Alternative zum direkten Export/Import in Ihr Lohnbuchhaltungs-Programm.
+- **Lohnbericht (Detailliert):** Die detaillierte Lohnübersicht fasst die Inhalte des Lohnberichts mit allen Arbeits- und Abwesenheitszeiten, sowie Änderungen am Vertrag sowie dem Arbeitszeitkonto zusammen. **So haben Sie in einem Dokument alle relevanten Lohn- und Bewegungsdaten zusammengefasst!**
 
-- *Lohnabrechnung (Detailliert):* Die detaillierte Lohnübersicht fasst die Inhalte des Lohnberichts mit allen Arbeits- und Abwesenheitszeiten, sowie Änderungen am Vertrag sowie dem Arbeitszeitkonto zusammen. **So haben Sie in einem Dokument alle relevanten Lohn- und Bewegungsdaten zusammengefasst!**
+- **Lohnbericht (Übersicht):** In der Lohnbericht-Übersicht sind die Arbeitsstunden und -tage, sowie Zuschlagsstunden, Mitarbeiteressen und das aktuelle Gehalt in einer tabellarischen Ansicht zusammengefasst. Dieser Ausdruck ist vor allem für die Übermittlung an Ihr Lohnbüro gut geeignet und dient als Alternative zum direkten Export/Import in Ihr Lohnbuchhaltungs-Programm.
 
-- *Export in Buchhaltungsprogramme:* Neben den Berichten in PDF-Form können Sie lohnabrechnungsrelevante Bewegungsdaten auch in verschiedene Lohnbuchhaltungsprogramme exportieren. 
+- **Export in Buchhaltungsprogramme:** Neben den Berichten in PDF-Form können Sie lohnabrechnungsrelevante Bewegungsdaten auch in verschiedene Lohnbuchhaltungsprogramme exportieren. 
 Aktuell unterstützte Formate sind:
-    - Agenda
-    - Datev Lodas
     - Datev Lohn & Gehalt
-    - Addison
+    - Datev Lodas
+    - Agenda
     - Lexware
+    - Addison
     - LohnAG
 
-### Arbeitszeitennachweis
+### Arbeitszeiten
 
-Unter {% button label="**Arbeitszeiten-Nachweis**" %} werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern) um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
+Im **Arbeitszeit-Nachweis** werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern) um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
+
+### Dienstplan 
+
+Hier können Sie den Dienstplan für einzelne Mitarbeiter, Abteilungen oder die ganze Belegschaft eines Standortes exportieren. Der Export findet im Excel-Format statt. 
+
+### Konten
+
+Hier können Sie die verschiedenen Kontenstände und Bewegungen ihrer Mitarbeiter exportieren. Durch die Option **Auflösung** können Sie bestimmen ob die Konten im Export jeweils im Wochen- Monats- oder Jahresrhythmus saldiert werden sollen.  
+
+Die Inhalte der Exporte des Arbeitszeit-, Urlaubs- und Zuschlagskontos gleichen den unter dem Reiter [Mitarbeiter](/hilfe/handbuch/mitarbeiter/) dargestellten Konten.
 
 ### Stammdatenblatt
 
@@ -50,7 +61,7 @@ Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auc
 - DATEV Buchungsstapel
 - DATEV online
 - Lexware
-- Generisch (Alle Kasssenbucheinträge als standardmäßige CSV-Datei für den Import in verschiedene Programme)
+- Generisch (Alle Kassenbucheinträge als standardmäßige CSV-Datei für den Import in verschiedene Programme)
 
 ## Exportoptionen
 
@@ -58,25 +69,25 @@ Nachdem Sie [das gewünschte Exportformat](#exportformat) ausgewählt haben, kö
 
 ### Zeitraum
 
-Im vorgegebenen Kalender können Sie auf der linken Seite das Anfangsdatum und auf der rechten Seite das Enddatum des Zeitraums auswählen, für den die Dateien exportiert werden sollen. Sollten Sie einen Export für **einen ganzen Monat** erstellen wollen, können Sie diesen aus der Liste vergangener Monate unter dem Kalender auswählen. 
+Mit den Pfeiltasten können Sie zwischen den Monaten des Jahres wechseln und auswählen welchen Zeitraum Sie für den Datenexport wünschen. Durch einen Klick auf den Kalender können Sie einen **individuellen Zeitraum** wählen. Dazu bestimmen Sie im linken Kalender den Anfangs- und im rechten Kalender den Endzeitpunkt ihres Exports. 
 
-{% figure caption="Wollen Sie den Lohnbericht für den ganzen Februar erstellen oder doch nur für eine Woche? Wählen Sie den gewünschten Zeitraum einfach aus." %}
+{% figure caption="Wollen Sie den Lohnbericht nur für August erstellen oder doch für die gesamte Sommersaison? Wählen Sie den gewünschten Zeitraum einfach aus." %}
 <img src="zeitraum.gif" />
 {% endfigure %}
 
 ### Mitarbeiterfilter
 
-Im Mitarbeiterfilter können wir auswählen für welche Mitarbeitergruppen wir einen Export erstellen wollen. Dazu können wir über die Filterleiste die gewünschten Mitarbeiter über Abteilungen oder einzeln auswählen. Dabei ist zu beachten, dass Filteroptionen sich **untereinander weiter beschränken.**
+Im Mitarbeiterfilter können wir auswählen für welche Mitarbeitergruppen wir einen Export erstellen wollen. Dazu können wir über die Filterleiste die gewünschten Mitarbeiter über Abteilungen, Anstellungsverhältnisse oder einzeln auswählen. Dabei ist zu beachten, dass Filteroptionen sich **untereinander weiter beschränken.**
 
-Hierzu ein Beispiel: Wir wählen im Filter die Vertragsart 'Festangestellt' und die Abteilung 'Küche' aus. Nun werden nur die Mitarbeiter ausgewählt, die **sowohl festangestellt, als auch in der Küche tätig sind.** Wählen wir nun zusätzlich die Abteilung 'Service', werden alle Festangestellten angezeigt, welche in **Küche, Service oder in beiden Abteilungen tätig sind.**
+> {% icon "person-chalkboard" %}**Beispiel**: Wir wählen im Filter die Vertragsart 'Festangestellt' und die Abteilung 'Küche' aus. Nun werden nur die Mitarbeiter ausgewählt, die **sowohl festangestellt, als auch in der Küche tätig sind.** Wählen wir nun zusätzlich die Abteilung 'Service', werden alle Festangestellten angezeigt, welche in **Küche, Service oder in beiden Abteilungen tätig sind.**
 
-{% figure caption="Hier etwa exportieren wir die Lohnberichte aller aktiven Servicekräfte - die Nummer neben den Abteilung zeigt Ihnen die Anzahl der erfassten Mitarbeiter." %}
+{% figure caption="Hier etwa exportieren wir die Lohnberichte aller Manager." %}
 <img src="lohnbericht_übersicht.webp" />
 {% endfigure %}
 
 > **Tipp:** Durch die Auswahl einer Abteilung und eines spezifischen Mitarbeiters werden nur die Arbeitszeiten und Lohndaten exportiert, die dieser Mitarbeiter **innerhalb der gewählten Abteilung** besitzt.
 
-{% figure caption="Wir werden im Arbeitszeitnachweis nur die Schichten dieses Mitarbeiters in der Abteilung **Küche** sehen." %}
+{% figure caption="Wir werden im Lohnbericht nur die Daten dieses Mitarbeiters in der Abteilung **Manager** sehen." %}
 <img src="mitarbeiter_filter.webp" />
 {% endfigure %}
 
@@ -89,17 +100,17 @@ Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versend
 
 Für den Arbeitszeitennachweis sowie den detaillierten Lohnbericht bietet Pentacode Ihnen die Möglichkeit die exportierte Datei zusätzlich im Dokumentenarchiv des Mitarbeiters zu speichern. Wählen Sie dazu die Option {% button label="**Im Dokumentenarchiv ablegen**" %} an. 
 
-#### Kategorie auswählen
+#### Schlagwörter auswählen
 
-Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzlich die Option das Dokument mit einer Kategorie zu versehen. Diese hilft Ihnen die gewünschte Datei schneller ausfindig zu machen. Weitere Informationen zu den Dokumentenkategorien finden Sie [hier](/hilfe/handbuch/einstellungen/dokumente). 
+Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzlich die Option das Dokument mit einem Schlagwort zu versehen. Dieses hilft Ihnen die gewünschte Datei schneller ausfindig zu machen. Weitere Informationen zu den Schlagwörtern finden Sie [hier](/hilfe/handbuch/einstellungen/dokumente). 
 
-> Sie sollten die gleiche Art von Dokument am besten stets mit der gleichen Kategorie versehen - Also etwa alle Arbeitszeitnachweise mit **'Arbeitszeiten'**. 
+> {% icon "lightbulb" %} **Tipp:** Sie sollten die gleiche Art von Dokument am besten stets mit dem gleichen Schlagwort versehen - Also etwa alle Arbeitszeitnachweise mit **'Arbeitszeiten'**. 
 
 #### Unterschrift anfordern
 
 Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) bekommen welche Ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
 
-> Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen](/hilfe/handbuch/mitarbeiter/allgemein/)
+> {% icon "lightbulb" %} **Tipp:** Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen](/hilfe/handbuch/mitarbeiter/allgemein/)
 
 
 ## Fehlermeldungen
