@@ -78,8 +78,7 @@ in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 
 Pentacode erlaubt Ihnen, auch vorgefertigte Dokumente von
 Mitarbeitern ausfüllen zu lassen. Dies ist besonders hilfreich um schnell
-Daten und Informationen einzuholen und direkt in Pentacode zu speichern. Zur
-Zeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgt
+Daten und Informationen einzuholen und direkt in Pentacode zu speichern. Zurzeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgt
 anlegen können:
 
 1. Wählen Sie den gewünschten Mitarbeiter aus und gehen zu **Dokumente & Formulare**.
@@ -109,14 +108,14 @@ und sicher in ihrem Pentacode Dokumentenarchiv gespeichert werden. So sparen Sie
 sich Zeit die Lohndaten einzufordern und müssen sie auch nicht mehr händisch
 übertragen, was Fehler vermeidet.
 
-### Zum ausfüllen freigeben
+### Zum Ausfüllen freigeben
 
 Sobald Sie nun auf den gerade erstellten Personalfragebogen klicken, der unter
 den Dokumenten des Mitarbeiters gespeichert ist, öffnet sich dieser und steht
 Ihnen zum Ausfüllen bereit. Tragen Sie nun die nötigen Informationen zu ihrem
 Betrieb, dem Vertragsverhältnis mit dem Mitarbeiter, sowie Vergütung und
 Arbeitszeit ein und klicken Sie auf {% button icon="paper-plane", label="Zum Ausfüllen Freigeben", extraClass="primary" %}.
-Der Mitarbeiter wird nun informiert und kann den Personalfragebogen unter
+Der Mitarbeiter wird informiert und kann den Personalfragebogen unter
 **Dokumente** in der **Mitarbeiterapp** mit seinen Daten ausfüllen. 
 
 > {% icon "info-circle" %} **Info:** Der Mitarbeiter kann die von Ihnen ausgefüllten Daten nur einsehen und nicht bearbeiten - die Angaben zum Vertragsverhältnis liegen also einzig bei Ihnen.
@@ -134,7 +133,7 @@ eine Unterschrift bestätigt hat, wird der Personalfragebogen mit dem Vermerk
 kontrollieren die Daten in den Feldern ein letztes Mal. Wenn der Bogen
 fehlerfrei ausgefüllt ist, müssen Sie ihn nur noch unterschreiben. Klicken Sie
 dazu auf das Feld in der unteren linken Ecke über **Unterschrift Arbeitgeber**.
-Um den Fragebogen zu speichern klicken Sie auf {% button icon=
+Um den Fragebogen zu speichern, klicken Sie auf {% button icon=
 "memo-circle-check", label="Fertigstellen" %}
 
 Nachdem Sie den Personalfragebogen fertiggestellt haben, wird eine nicht mehr
@@ -180,11 +179,11 @@ Beschäftigungsverhältnissen:
 ### Schlagwortfilter
 
 Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die
-[Schlagwörter](#schlagwort) nützlich, die sie beim Erstellen eines Datei
+[Schlagwörter](#schlagwort) nützlich, die sie einer Datei beim Erstellen
 zugeordnet haben. Wählen Sie dazu das mit dem {% icon "tag" %} markierten
 Schlagwort am oberen Rand der Dokumentenübersicht aus. Durch Anklicken eines
 Schlagwortes sehen Sie nur noch die Dateien, welche diesem
-zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren drücken Sie auf
+zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren, drücken Sie auf
 den {% button icon="tags", label="Alle" %}-Button.
 
 ### Filter kombinieren
