@@ -7,7 +7,7 @@ icon: stopwatch
 
 Egal wie Sie Arbeitszeiten in Pentacode verwalten - über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr/), unsere
 [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app/) oder manuell - Pentacode bietet Ihnen eine Vielzahl von
-Einstellungsmöglichkeiten mit denen Sie definieren können, wie und wann sich Mitarbeiter ein- und ausstempeln dürfen,
+Einstellungsmöglichkeiten, mit denen Sie definieren können, wie und wann sich Mitarbeiter ein- und ausstempeln dürfen,
 wie Pausen erfasst werden und vieles mehr.
 
 > Die Zeiterfassungseinstellungen betreffen in Pentacode vor allem das Erfassen von Arbeitszeiten per Digitaler
@@ -32,19 +32,18 @@ unten).
 ### Neuen Regelsatz Erstellen
 
 Um einen neuen Regelsatz zu erstellen, klicken Sie einfach auf den Button {% button label="Neuer Regelsatz", icon="plus" %}.
-Es öffnet sich ein Dialogfeld über welches Sie nun die Einstellungen für diesen Regelsatz bearbeiten können. Um den Regelsatz
+Es öffnet sich ein Dialogfeld, über welches Sie nun die Einstellungen für diesen Regelsatz bearbeiten können. Um den Regelsatz
 hinzuzufügen, klicken Sie auf {% button label="Speichern" %}. Vergessen Sie nicht, dem Regelsatz einen Namen zu geben!
 
 ### Regelsatz Bearbeiten
 
 Einen existierenden Regelsatz bearbeiten Sie, indem Sie einfach den gewünschten Eintrag mit einem Klick aus der Liste
 wählen. Es öffnet sich ein Dialogfeld, in welchem Sie die gewünschten Änderungen vornehmen können. Klicken Sie auf {% button
-label="Speichern" %} um die Änderungen zu übernehmen oder {% button label="Abbrechen" %} um die Änderungen zu
-verwerfen.
+label="Speichern" %}, um die Änderungen zu übernehmen oder {% button label="Abbrechen" %} um die Änderungen zu verwerfen.
 
 ### Regelsatz Entfernen
 
-Sie können einen Regelsatz entfernen, indem Sie auf den {% icon "ellipsis-h" %} icon in der rechten oberen Ecke des
+Sie können einen Regelsatz entfernen, indem Sie auf das {% icon "ellipsis-h" %} Icon in der rechten oberen Ecke des
 Listeneintrags klicken und im angezeigten Menü die Option {% icon "trash-alt" %} **Löschen** wählen.
 
 > **Hinweis:** Der "globale" Regelsatz kann nicht gelöscht werden.
@@ -54,7 +53,7 @@ Listeneintrags klicken und im angezeigten Menü die Option {% icon "trash-alt" %
 Beim Erstellen eines neuen Regelsatzes kann es oft nützlich sein, die Einstellungen eines anderen Regelsatzes zu
 kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option {% icon "clone" %}
 **Duplizieren** im {% icon "ellipsis-h" %}-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
-Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können bevor Sie durch einen Klick auf den {% button label="Speichern" %} button den Regelsatz hinzufügen.
+Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können, bevor Sie durch einen Klick auf den {% button label="Speichern" %} Button den Regelsatz hinzufügen.
 
 ## Zuordnung von Regelsätzen
 
@@ -72,8 +71,7 @@ funktioniert wie folgt:
    Abteilung oder Mitarbeiter zuzuordnen. **Tipp:** Sie können die Liste filtern, indem Sie einen Suchbegriff in das {% button label="hinzufügen", icon="plus" %}-Feld eingeben.
 4. Die/der Standort, Abteilung oder Mitarbeiter erscheinen dann in der Liste unter dem Namensfeld. Um die Zuordnung
    aufzuheben, klicken Sie einfach auf den entsprechenden Eintrag in dieser Liste.
-5. Klicken Sie auf {% button label="Speichern" %} um den Vorgang abzuschließen oder {% button label="Abbrechen" %}
-   um die Änderungen zu verwerfen.
+5. Klicken Sie auf {% button label="Speichern" %}, um den Vorgang abzuschließen oder {% button label="Abbrechen" %} um die Änderungen zu verwerfen.
 
 > **Hinweis:** Jeder/jedem Standort, Abteilung und Mitarbeiter kann jeweils höchstens ein Regelsatz zugeordnet werden.
 > Sollten Sie bei der Zuordnung eine/n Standort, Abteilung oder Mitarbeiter wählen, der/dem bereits ein Regelsatz
@@ -86,9 +84,9 @@ Wählen Sie bei der [Zuordnung von Regelsätzen](#zuordnung-von-regelsätzen) ke
 
 ## Anwendung von Regelsätzen
 
-Welcher Regelsatz für eine bestimmte Schicht angewandt wird hängt von dem Arbeitsbereich und zugewiesenen Mitarbeiter
+Welcher Regelsatz für eine bestimmte Schicht angewandt wird, hängt von dem Arbeitsbereich und zugewiesenen Mitarbeiter
 sowie der jeweiligen Zuordnung von Regelsätzen ab. Hierbei werden grundsätzlich spezifische Zuordnungen (z.B. direkte
-Zuordnung zu einem Mitarbeiter) höher priorisisert als weniger spezifische (z.B. Zuordnung zu einem Standort). Die
+Zuordnung zu einem Mitarbeiter) höher priorisiert als weniger spezifische (z.B. Zuordnung zu einem Standort). Die
 Anwendungslogik ist wie folgt:
 
 1. Ist dem **Mitarbeiter** ein Regelsatz zugeordnet? {% icon "arrow-right" %} **Ja**: Regelsatz anwenden; **Nein**:
@@ -102,9 +100,8 @@ Anwendungslogik ist wie folgt:
 ### Anzeige im Dienstplan & Arbeitszeitblatt
 
 Bei großen Betrieben mit mehreren Regelsätzen und komplexen Zuordnungen kann es oft schwierig sein nachzuvollziehen,
-welcher Regelsatz bei einer bestimmten Schicht zur Anwendung kommt. Pentacode schafft Ihnen hier Abhilfe indem es bei
-der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Selektieren Sie hierfür
-einfach die gewüschte Schicht - der Regelsatz erscheint dann unter dem Punkt {% icon "sliders-h" %} **Regeln**.
+welcher Regelsatz bei einer bestimmten Schicht zur Anwendung kommt. Pentacode schafft Ihnen hier Abhilfe, indem es bei
+der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Wählen Sie hierfür einfach die gewünschte Schicht aus - der Regelsatz erscheint dann unter dem Punkt {% icon "sliders-h" %} **Regeln**.
 
 ## Pausen
 
@@ -113,24 +110,23 @@ einfach die gewüschte Schicht - der Regelsatz erscheint dann unter dem Punkt {%
 Unter dem Punkt "Pausenmodus" können Sie definieren, wie Pausenzeiten in Pentacode erfasst werden sollen. Es stehen Ihnen
 hierbei folgende Modi zu Verfügung.
 
-> **Keine Sorge**, egal welchen Pausenmodus Sie wählen, Sie haben immer das letzte Wort. D.h. Pausen können nach
-> Abschluss einer Schicht jederzeit nachbarbeitet und korrigiert werden.
+> **Keine Sorge**, egal welchen Pausenmodus Sie wählen, Sie haben immer das letzte Wort. D.h. Pausen können nach Abschluss einer Schicht jederzeit nachbearbeitet und korrigiert werden.
 
 #### Manuell
 
 In diesem Modus werden Zeiten ausschließlich manuell über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr)
 oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst. Der Mitarbeiter erfasst dann immer Beginn und Ende jeder Pause -
-Pentacode berechnet dann automatisch die Länge der Pause und zählt am Ende alle Teilpausen zusammen um zur entgültigen
+Pentacode berechnet dann automatisch die Länge der Pause und zählt am Ende alle Teilpausen zusammen um zur 
 gesamten Pausenlänge zu gelangen.
 
 #### Automatisch
 
-In diesem Modus ermittelt Pentacode automatisch die Dauer der Pause basierend auf der **entgültigen
+In diesem Modus ermittelt Pentacode automatisch die Dauer der Pause basierend auf der **tatsächlichen
 Arbeitsdauer** (nicht anhand der geplanten Dauer). Dabei können Sie genau definieren ab welcher Dauer wie viel Pause
 berechnet werden soll. Die Standardeinstellungen für die automatische Pause entsprechen den gesetzlichen
 Pausenvorschriften - d.h. **30 Minuten** ab einer Arbeitszeit von **6 Stunden** und **45 Minuten** ab einer Arbeitszeit
 von **9 Stunden**. Diese Werte können Sie natürlich jederzeit abändern beziehungsweise Stufen hinzufügen oder
-entfernen. Zum Hinzufügen einer Stufe, klicken Sie den {% button label="Stufe Hinzufügen", icon="plus" %} button. Um
+entfernen. Zum Hinzufügen einer Stufe, klicken Sie den {% button label="Stufe Hinzufügen", icon="plus" %} Button. Um
 eine Stufe zu entfernen, bewegen Sie die Maus darüber und klicken Sie den {% button icon="trash" %} button.
 
 #### Automatisch + Manuell
@@ -141,32 +137,30 @@ erfassen, welche dann zu der automatischen Pause **hinzugerechnet** werden.
 
 #### Automatisch oder Manuell
 
-Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem automatisch berechneten Wert, so wird der erfasste Werte herangezogen und umgekehrt.
+Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem automatisch berechneten Wert, so wird der erfasste Wert herangezogen und umgekehrt.
 
-> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Ab 6 Stunden ist eine automatische Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Werte von 35 Minuten herangezogen.
+> {% icon "person-chalkboard" %} **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Ab 6 Stunden ist eine automatische Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Wert von 35 Minuten herangezogen.
 
 #### Geplant
 
-Dieser Pausenmodus funktioniert ähnlich wie der Modus [Automatisch](#automatisch), mit dem Unterschied dass die Länge
+Dieser Pausenmodus funktioniert ähnlich wie der Modus [Automatisch](#automatisch), mit dem Unterschied, dass die Länge
 der Pause nicht anhand Arbeitszeitdauer und vordefinierten Stufen berechnet, sondern bei jeder Schicht explizit bei der
-Planung angegeben wird. Die geplante Pause wird dann beim Abschluss der Schicht automatisch als entdgültige Pause
-übernommen.
+Planung angegeben wird. Die geplante Pause wird dann beim Abschluss der Schicht automatisch als entgültige Pause übernommen.
 
 #### Geplant + Manuell
 
 Ähnlich wie der Pausenmodus "Automatisch + Manuell" vereint dieser Pausenmodus die Funktionalität der geplanten und
-manuell erfassten Pausen. Manuell erfasste Pausen werden dann beim Abschluss der Schicht zur geplante Pause
-**hinzuaddiert**.
+manuell erfassten Pausen. Manuell erfasste Pausen werden dann beim Abschluss der Schicht zur geplanten Pause **hinzuaddiert**.
 
 #### Geplant oder Manuell
 
-Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem geplanten Pausenwert, so wird der erfasste Werte herangezogen und umgekehrt.
+Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem geplanten Pausenwert, so wird der erfasste Wert herangezogen und umgekehrt.
 
-> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Es ist eine geplante Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Werte von 35 Minuten herangezogen.
+> {% icon "person-chalkboard" %} **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Es ist eine geplante Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Wert von 35 Minuten herangezogen.
 
 ### Bezahlte Pausen
 
-> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> {% icon "exclamation-triangle" %} **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
 > Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
 > Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
@@ -176,17 +170,17 @@ Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie die
 Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewiesen, bei der Lohnabrechnung in ihrer
 Dauer jedoch der Arbeitszeit zugerechnet.
 
-> **Beispiel:** Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
+> {% icon "lightbulb" %} **Tipp:** Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
 
 ### Pausenabzug
 
-> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> {% icon "exclamation-triangle" %} **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
 > Lohnabrechnungen auswirken. Mehr Informationen unter
 > [Neuberechnung von Konten & Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
 Unter dem Punkt **Pausen abziehen von** können Sie definieren, ob genommene Pausen am Anfang oder am Ende der Schicht zum Abzug kommen sollen. Dies hat vor allem Einfluss auf die Berechnung von SFN-Zuschlägen.
 
-> **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitinterval **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Interval **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
+> {% icon "person-chalkboard" %} **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitintervall **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Intervall **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
 
 ## Mitarbeiteressen
 
@@ -206,7 +200,7 @@ Es werden keine Mitarbeiteressen automatisch gebucht, sondern müssen bei jeder 
 
 Mahlzeiten werden am Ende der Schicht automatisch gebucht, und zwar basierend auf der Arbeitszeit und den definierten [Zeiträumen](#essensarten-%26-zeiträume).
 
-> **{% icon "person-chalkboard" %} Beispiel:** Ein Mitarbeiter arbeitet von 8:00 bis 16:00. In den Zeiterfassungseinstellungen haben wir Früstück (6:00 - 9:00), Mittagessen (11:00 - 13:00) und Abendessen (17:00 - 21:00) aktiviert. Die Schicht überlappt mit den Zeiträumen für Frühstück und Mittagessen, also werden diese beiden Mahlzeiten automatisch gebucht.
+> **{% icon "person-chalkboard" %} Beispiel:** Ein Mitarbeiter arbeitet von 8:00 bis 16:00. In den Zeiterfassungseinstellungen haben wir Frühstück (6:00 - 9:00), Mittagessen (11:00 - 13:00) und Abendessen (17:00 - 21:00) aktiviert. Die Schicht überlappt mit den Zeiträumen für Frühstück und Mittagessen, also werden diese beiden Mahlzeiten automatisch gebucht.
 
 #### Durch Mitarbeiter
 
@@ -227,7 +221,7 @@ Hier können Sie eine Mindestdauer definieren, nach der das Buchen von Essen erl
 ### Essensarten & Zeiträume
 
 Neben dem Erfassungsmodus können Sie außerdem bestimmen, welche Arten von Mahlzeiten in welchen Zeiträumen verfügbar sein sollen.
-Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und **bis** Eingabefelder (Zeiträume dürfen sich nicht überschneiden!). Um eine Mahlzeitart komplett zu deaktieren, enfernen Sie einfach den Haken in der entsprechenden Zeile.
+Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und **bis** Eingabefelder (Zeiträume dürfen sich nicht überschneiden!). Um eine Mahlzeitart komplett zu deaktivieren, entfernen Sie einfach den Haken in der entsprechenden Zeile.
 
 > {% icon "info-circle" %} Das Konfigurieren von Essensarten und Zeiträumen ist nur für die Erfassungsmodi **Automatisch** und **Durch Mitarbeiter** notwendig.
 
@@ -257,12 +251,12 @@ frühestens um 9 Uhr einstempeln. Frühere Versuche werden abgelehnt.
 
 ### Spontane Schichten
 
-Ist die Option bei {% button label="Spontane Schichten Erlauben" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
+Ist die Option bei {% button label="Spontane Schichten Erlauben" %} aktiviert, können zusätzlich zu geplanten Schichten auch **"spontane" Arbeitseinsätze** über die Stempeluhr oder Mitarbeiter-App erfasst werden. Deaktivieren Sie diese Option, falls Ihre Mitarbeiter ausschließlich nach Dienstplan arbeiten sollen.
 
 ### Verspätete Abmeldung
 
 Unter dem Punkt **Bei Verspäteter Anmeldung** können Sie bestimmen, wie Pentacode verfahren soll, wenn ein Mitarbeiter
-sich über die Stempeluhr oder Mitarbeiter-App **nach dem geplanten Schichtend** ausstempelt.
+sich über die Stempeluhr oder Mitarbeiter-App **nach dem geplanten Schichtende** ausstempelt.
 
 Bei der Option **Übernehme Zeit laut Dienstplan** wird immer das **geplante Schichtende** als Ende der Arbeitszeit
 übernommen, auch wenn sich der Mitarbeiter erst später ausstempelt. Die Zeit nach dem geplanten Schichtende wird
@@ -273,7 +267,7 @@ Wählen Sie die Option **Übernehme aktuelle Zeit**, so wird der **Zeitpunkt des
 
 ### Automatische Abmeldung
 
-Unter dem Punkt **Automatische Abmeldung** legen Sie fest, wie lange der Mitarbeiter sich **nach Beginnen einer Schicht** aus der selbigen ausstempeln kann. Ist dieser Zeitraum verstrichen, wird der Mitarbeiter as der Schicht automatisch "abgemeldet", das heißt er kann sich nicht mehr aktiv aus der Schicht ausstempeln. Dies ist wichtig für den Fall, dass ein Mitarbeiter vergisst, sich aus einer Schicht auszustempeln.
+Unter dem Punkt **Automatische Abmeldung** legen Sie fest, wie lange der Mitarbeiter sich **nach Beginnen einer Schicht** aus der selbigen ausstempeln kann. Ist dieser Zeitraum verstrichen, wird der Mitarbeiter von der Schicht automatisch "abgemeldet", das heißt er kann sich nicht mehr aktiv aus der Schicht ausstempeln. Dies ist wichtig für den Fall, dass ein Mitarbeiter vergisst, sich aus einer Schicht auszustempeln.
 
 > **WICHTIG:** "Automatische Abmeldung" bedeutet **nicht**, dass automatisch ein Schichtende erfasst wird. Stattdessen vermerkt Pentacode die Schicht als "nicht abgeschlossen" und wird Sie daran erinnern, die Endzeit manuell nachzutragen.
 
@@ -283,7 +277,7 @@ Unter dem Punkt **"Rundung"** können Sie Regeln zur Auf- oder Abrundung von Ste
 
 Beispiel für Anmeldung **"auf 5 Minuten Aufrunden"**: Ein Mitarbeiter meldet sich um **17:08** Uhr an, im System ist **17:10** Uhr registriert.
 
-Bespiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sich um **22:22** Uhr ab, im System ist **22:20** Uhr registriert.
+Beispiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sich um **22:22** Uhr ab, im System ist **22:20** Uhr registriert.
 
 > **Übrigens**: die Rundungen bei Anmeldung und Abmeldung auf nur volle 5 Minuten entsprechen bei einem durchschnittlichen 8-Stunden-Tag etwas mehr als 1% der Arbeitszeit in Ihrem Unternehmen.
 
@@ -295,7 +289,7 @@ Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion
 
 ### Beweisfotos
 
-Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potentiellen Betrug durch Mitarbeiter. Schnell ist der PIN an den Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll, während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
+Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potenziellen Betrug durch Mitarbeiter. Schnell ist der PIN an den Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll, während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
 
 Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
 
@@ -324,9 +318,9 @@ Durch das Scannen des QR-Codes kann Pentacode verifizieren, dass sich der Mitarb
 Arbeitsplatz befindet. Deaktivieren Sie diese Option, falls der Mitarbeiter auch an jenen Arbeitsorten Zeiten erfassen
 soll, an denen kein Tablet mit Stempeluhr vorhanden ist (z.B. im Homeoffice).
 
-> Der QR-Code an der digitalen Stempeluhr wechselt alle 30 Minuten und ist jeweils eine Stunde lang gültig. Das heißt
-> nach jedem Scannen des QR-Codes muss der Mitarbeiter nach spätestens einer Stunden den Code erneut scannen, bevor er/sie
-> erneut ein- oder ausstempeln kann. Auch das erfassen von Pausen erfordert eine verifizierung per QR-Code (falls diese
+> {% icon "info-circle" %} Der QR-Code an der digitalen Stempeluhr wechselt alle 30 Minuten und ist jeweils eine Stunde lang gültig. Das heißt
+> nach jedem Scannen des QR-Codes muss der Mitarbeiter nach spätestens einer Stunde den Code erneut scannen, bevor er/sie
+> erneut ein- oder ausstempeln kann. Auch das Erfassen von Pausen erfordert eine Verifizierung per QR-Code (falls diese
 > Option aktiviert ist).
 
 
