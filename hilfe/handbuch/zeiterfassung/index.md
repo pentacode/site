@@ -31,7 +31,7 @@ Je nach Bedarf können Sie eine einzelne Stempeluhr für Ihren gesamten Betrieb 
 Bevor Sie die Stempeluhr auf einem Endgerät nutzen können, muss diese erst eingerichtet werden. Das ist mit einigen wenigen Schritten erledigt:
 
 1. Klicken Sie den Button {% button icon="plus", label="Neue Stempeluhr" %} auf der linken Seite.
-2. Es öffnet sich ein Eingabeformular, in dem Sie den Namen des Tablets, sowie Arbeitsbereiche und verschiede Funktionen bestimmen können. Die einzige Pflichtangabe ist das Namensfeld. Mehr Informationen zu den restlichen Feldern finden Sie unter [Stempeluhr Bearbeiten](#stempeluhr-bearbeiten). Klicken Sie abschließend auf {% button label="Speichern" %}.
+2. Es öffnet sich ein Eingabeformular, in dem Sie den Namen des Tablets, sowie Arbeitsbereiche und verschiedene Funktionen bestimmen können. Die einzige Pflichtangabe ist das Namensfeld. Mehr Informationen zu den restlichen Feldern finden Sie unter [Stempeluhr Bearbeiten](#stempeluhr-bearbeiten). Klicken Sie abschließend auf {% button label="Speichern" %}.
 3. Die neu angelegte Stempeluhr sollte nun in der Liste auf der linken Seite angezeigt werden. Auf der rechten Seite sehen Sie die Anweisungen, um die Einrichtung der Stempeluhr abzuschließen.
 
 <figure>
@@ -50,7 +50,7 @@ Bereits angelegte Stempeluhren können selbstverständlich auch im Nachhinein no
 
 #### Arbeitsbereiche
 
-**Hier können Sie einschränken, in welchen Arbeitsbereichen die Stempeluhr eingesetzt werden soll.** Wenn hier nichts gewählt wird, kann die Stempeluhr für das gesamte Unternehmen genutzt werden. Wählen Sie eine oder mehrere Abteilungen oder Standorte, um die Erfassung von Arbeitszeiten nur in den ausgewählen Arbeitsbereichen zuzulassen.
+**Hier können Sie einschränken, in welchen Arbeitsbereichen die Stempeluhr eingesetzt werden soll.** Wenn hier nichts gewählt wird, kann die Stempeluhr für das gesamte Unternehmen genutzt werden. Wählen Sie eine oder mehrere Abteilungen oder Standorte, um die Erfassung von Arbeitszeiten nur in den ausgewählten Arbeitsbereichen zuzulassen.
 
 #### Funktionen
 
@@ -83,4 +83,4 @@ Selbst wenn Ihre Mitarbeiter Arbeitszeiten in der Regel selbstständig über die
 
 ## Das Zeiterfassungsprotokoll
 
-Beim öffnen des Dashboards sehen Sie auf der rechten Seite das Zeiterfassungsprotokoll. Hier können Sie genau nachvollziehen, wer wann Zeiten gestempelt oder Pausen erfasst hat. Darüber hinaus können Sie sich weiter Informationen anzeigen lassen, wie etwa vom Mitarbeiter hinterlassene Nachrichten, das "Beweisfoto" (falls eingestellt) und den Standort zu Zeitpunkt des Ereignisses.
+Beim Öffnen des Dashboards sehen Sie auf der rechten Seite das Zeiterfassungsprotokoll. Hier können Sie genau nachvollziehen, wer wann Zeiten gestempelt oder Pausen erfasst hat. Darüber hinaus können Sie sich weiter Informationen anzeigen lassen, wie etwa vom Mitarbeiter hinterlassene Nachrichten, das "Beweisfoto" (falls eingestellt) und den Standort zu Zeitpunkt des Ereignisses.
