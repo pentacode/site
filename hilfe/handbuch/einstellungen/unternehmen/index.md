@@ -5,7 +5,7 @@ weight: 2
 icon: building
 
 ---
-Unter dem Reiter **Unternehmen** können Sie verschiedene Unternehmendaten
+Unter dem Reiter **Unternehmen** können Sie verschiedene Unternehmensdaten
 hinterlegen und gleichzeitig allgemeine Einstellungen für alle ihre Mitarbeiter
 treffen. **Die Adressdaten dienen dabei lediglich der Information und haben
 keinen weiteren Einfluss!**
@@ -45,7 +45,7 @@ bzw. Arbeitszeit abhängt. Für die Berechnung der gesetzlichen Pause sind zwei 
 ### Standard
 
 In diesem Modus werden die Pausen nach der **Anwesenheitszeit** berechnet. Nach **mehr als 6 Stunden** Anwesenheitszeit
-wird eine minimale Pauselänge von **30 Minuten Pause** erwartet, nach insgesamt **mehr als 9 Stunden** kommen weitere
+wird eine minimale Pausenlänge von **30 Minuten Pause** erwartet, nach insgesamt **mehr als 9 Stunden** kommen weitere
 **15 Minuten** hinzu, also insgesamt 45 Minuten. Konkret sieht die Staffelung wie folgt aus:
 
 | Dauer       | Mindestpause |
