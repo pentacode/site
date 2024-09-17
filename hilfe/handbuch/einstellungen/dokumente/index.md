@@ -27,7 +27,7 @@ So legen Sie ein neues Schlagwort an:
 
 > **Tipp** {% icon "lightbulb" %} Mit den vorgefertigten Farben nicht zufrieden?
 > Drücken Sie bei der Farbauswahl auf **Mehr...**
-> erscheint ein Fenster in dem Sie ihre eigene Farbe kreieren können. 
+> erscheint ein Fenster, in dem Sie ihre eigene Farbe kreieren können. 
 
 ### Schlagwörter bearbeiten
 
@@ -35,6 +35,6 @@ Um den **Namen** zu ändern, klicken Sie auf den aktuellen Namen
 und geben ihn neu ein. Zum Ändern der **Farbe** klicken Sie auf die
 farbliche Kachel neben dem Namen und wählen eine neue Farbe aus. Wollen Sie
 ein Schlagwort löschen fahren Sie mit dem Cursor über die Kachel der Kategorie
-und drücken auf den {% icon "trash" %}-**Button**. Mit einem Klick auf
+und drücken auf den {% icon "trash" %} **Button**. Mit einem Klick auf
 {% button label="Speichern" %} können Sie die Änderungen speichern. 
 Wählen Sie {% button label="Abbrechen" %} werden die Änderungen verworfen. 
