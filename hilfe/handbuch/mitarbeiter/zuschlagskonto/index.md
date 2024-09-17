@@ -5,7 +5,7 @@ weight: 4
 icon: badge-percent
 ---
 
-Das Zuschlagskonto stellt die monatlich gezahlte SFN-Pauschale dem tatsächlichen Zuschlagsanspruch entgegen. Sie können auf einen Blick erkennen ob die Pauschalen angepasst werden müssen. 
+Das Zuschlagskonto stellt die monatlich gezahlte SFN-Pauschale dem tatsächlichen Zuschlagsanspruch entgegen. Sie können auf einen Blick erkennen, ob die Pauschalen angepasst werden müssen. 
 
 Unter [Konten (Übersicht)](/hilfe/handbuch/mitarbeiter/konten/) wird das Zuschlagsskonto gemeinsam mit dem Arbeitszeitkonto und Urlaubskonto in einer gemeinsamen Übersicht zusammengefasst. 
 
@@ -33,7 +33,7 @@ Klicken Sie dazu auf den {% button icon = "calendar" %} Button in der **linken o
 
 Dort können Sie auch zwischen ganzen Wochen, Monaten und Jahren auswählen. Durch den linken Kalender kann man zudem einen beliebigen Startzeitpunkt und im Rechten einen beliebigen Endzeitpunkt wählen. Dann wird der Zeitraum dazwischen angezeigt. 
 
-{% figure caption="Vergleichen Sie die Pauschalzahlungen mit dem bisherigen Zuschlägen für ein ganzes Jahr." %}
+{% figure caption="Vergleichen Sie die Pauschalzahlungen mit den bisherigen Zuschlägen für ein ganzes Jahr." %}
 
 <img src="zuschläge_zeitraum.gif"/>
 
@@ -57,6 +57,6 @@ Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager')
 
 ## Einzelansicht
 
-Klicken Sie auf einen Mitarbeiter in der Übersicht erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen für den Zuschläge angezeigt werden. 
+Klicken Sie auf einen Mitarbeiter in der Übersicht erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen, für den Zuschläge angezeigt werden. 
 
-Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen ob der gewählt Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
+Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen ob der gewählte Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
