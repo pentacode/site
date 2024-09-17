@@ -72,7 +72,7 @@ Sie die Notiz aber auch komplett löschen.
 
 ## Dienstplan-Tabs
 
-Mithilfe der Dienstplan-Tabs in der oberen linken Ecke des Dienstplans, können Sie schnell
+Mithilfe der Dienstplan-Tabs in der oberen linken Ecke des Dienstplan können Sie schnell
 zwischen verschiedenen Standorten und [Filtern](#filtern--suchen) wechseln.
 
 ### Tab Bearbeiten
@@ -118,7 +118,7 @@ icon "filter" %} **Symbol** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 {% endfigure %}
 
 > {% icon "lightbulb" %} **Tipp:** Wechseln Sie häufig zwischen mehreren
-> Filter-Einstellungen? Durch mehrere Dienstplan-Tabs mit verschiedenen Filtern, können Sie
+> Filter-Einstellungen? Durch mehrere Dienstplan-Tabs mit verschiedenen Filtern können Sie
 > schnell zwischen unterschiedlichen Ansichten wechseln!
 
 ### Mitarbeiter Suchen
@@ -179,7 +179,7 @@ Damit Ihnen diese angezeigt werden, müssen Sie sie vorher in den
 einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese
 einfach per **Drag & Drop** in das entsprechende Feld.
 
-{% figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eigetragen." %}
+{% figure caption="Globale Schichtvorschläge sind per Drag&Drop im Handumdrehen eingetragen." %}
 
 <img src = "globale_schichtvorschlaege.gif"/>
 
@@ -222,7 +222,7 @@ Aktivieren Sie Nicht Zugewiesene Schichten zuerst in den
 [Planungshilfen](#planungshilfen)(das {% icon "tv-retro" %}-Icon) mit einem
 Klick auf das Feld {% button icon="user-slash", label="Nicht Zugewiesen" %}.
 Gehen Sie anschließend wie bei normalen [Dienstzeiten](#dienstzeiten-eintragen)
-vor. Sie müssen lediglich statt eines Mitarbeiter die Zeile "**Nicht
+vor. Sie müssen lediglich statt eines Mitarbeiters die Zeile "**Nicht
 zugewiesen**" auswählen.
 
 {% figure caption="So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen" %}
@@ -257,7 +257,7 @@ und Tag, und klicken auf die gewünschte Art von Fehltag.
 Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen
 Tag verschieben? Dies funktioniert ganz einfach über **Drag & Drop**. Packen Sie
 einfach den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt halten)
-und ziehen sie ihn an den gewünschten Ort (linke Maustaste loslassen um den
+und ziehen sie ihn an den gewünschten Ort (linke Maustaste loslassen, um den
 Vorgang abzuschließen). Pentacode hebt automatisch nur die Mitarbeiter hervor,
 denen die entsprechende Position zugewiesen ist.
 
@@ -267,8 +267,8 @@ Das Duplizieren von Einträgen funktioniert fast identisch wie das Verschieben.
 Sie packen den gewünschten Eintrag mit der Maus (linke Maustaste gedrückt
 halten) und ziehen sie ihn an den gewünschten Ort. Wenn Sie nun zusätzlich die
 {% key "alt", "mono" %}-**Taste** gedrückt halten wird der Eintrag nicht
-verschoben sondern dupliziert, dies heißt, es wird an dem neuen Ort ein Eintrag
-mit der gleichen Position und Anfangs- und Endzeit erstellt (oder im Fall von
+verschoben, sondern dupliziert. Es wird an dem neuen Ort ein weiterer Eintrag
+mit der gleichen Position, Anfangs- und Endzeit erstellt (oder im Fall von
 Fehltagen mit der gleichen Fehltags-Art).
 
 ## Einträge Löschen
@@ -353,7 +353,7 @@ des aktuellen Tabs angezeigt wird und bereits
 > wir noch nicht veröffentlicht haben - auch diese werden im geteilten Dienstplan
 > nicht angezeigt.
 
-{% figure caption="Im geteilten Diensplan werden nur Schichten angezeigt, die veröffentlicht und Teil des geteilten [Dienstplantabs](#dienstplan-tabs) sind." %}
+{% figure caption="Im geteilten Dienstplan werden nur Schichten angezeigt, die veröffentlicht und Teil des geteilten [Dienstplantabs](#dienstplan-tabs) sind." %}
 
 <img src= "dienstplan_teilen.gif" />
 
@@ -366,7 +366,7 @@ Druckfunktion. Es wird hier zwischen zwei Varianten unterschieden.
 
 ### Aktueller Bearbeitungsstatus
 
-Den aktuellen Bearbeitungstatus **inklusive nicht veröffentlicher Änderungen**
+Den aktuellen Bearbeitungsstatus **inklusive nicht veröffentlichter Änderungen**
 können Sie über das Tastenkürzel {% key "strg", "mono" %} {% key "P", "mono" %}
 (bzw. {% key "cmd", "mono" %} {% key "P", "mono" %} auf MacOS) oder über das
 Browser-Menü Drucken.
@@ -494,7 +494,7 @@ Verfügbarkeiten ihrer Mitarbeiter farblich hinterlegt. Die Verfügbarkeiten sin
 dabei lediglich zur Orientierung gedacht, **sie beeinflussen ihre Schichtplanung
 nicht**.
 
-{% figure caption="Klicken Sie auf das icon um sich die Verfügbarkeiten der Mitarbeiter farblich hinterlegen zu lassen." %}
+{% figure caption="Klicken Sie auf das icon, um sich die Verfügbarkeiten der Mitarbeiter farblich hinterlegen zu lassen." %}
 
 <img src="verfügbarkeiten.webp" />
 
