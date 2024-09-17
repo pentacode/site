@@ -19,7 +19,7 @@ die wichtigsten Informationen angezeigt werden. Klicken Sie auf eine der
 Ausschreibungen, öffnet sich diese im mittigen Fenster und Sie können den Text,
 sowie alle Details der Ausschreibung einsehen.
 
-{% figure caption="Klicken Sie auf eine ihrer Stellenanzeigen um diese zu öffnen" %}
+{% figure caption="Klicken Sie auf eine ihrer Stellenanzeigen, um diese zu öffnen" %}
 <img src="übersicht.png" />
 {% endfigure %}
 
@@ -44,7 +44,7 @@ eventuell korrigieren oder abändern. Dies tun Sie wie folgt:
 
 1. Wählen Sie in der
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
-   Ausschreibung indem Sie auf den entsprechenden Eintrag in der Liste auf linken
+   Ausschreibung, indem Sie auf den entsprechenden Eintrag in der Liste auf linken
    Seite klicken.
 2. Klicken Sie den {% button icon="pencil" %}-**Button** in der rechten oberen Ecke.
 3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf {% button label="Speichern" %}.
@@ -56,19 +56,19 @@ Bewerber gefunden haben, lassen sich diese auch leicht wieder löschen:
 
 1. Wählen Sie in der
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
-   Ausschreibung indem Sie auf den entsprechenden Eintrag in der Liste auf linken
+   Ausschreibung, indem Sie auf den entsprechenden Eintrag in der Liste auf linken
    Seite klicken.
 2. Klicken Sie den {% button icon="trash" %}-**Button** im der rechten oberen Ecke.
 3. Bestätigen Sie die Aktion durch einen Klick auf {% button label="Löschen" %}.
 
 ## Ausschreibung Felder & Eigenschaften
 
-Eine Stellenausschreibung besteht im wesentlichen aus einem
+Eine Stellenausschreibung besteht im Wesentlichen aus einem
 [Ausschreibungs-Titel](#titel) und einer frei formatierbaren
 [Beschreibung](#beschreibung). Darüber hinaus können Sie verschiedene Details
 wie [Arbeitsbeginn und -ende](#beginn-und-ende), [Wochenstunden](#wochenstunden)
 und [Bezahlung](#bezahlung) angeben. Diese Angaben sind optional, können aber
-potentiellen Bewerbern einen bessere Vorstellung von den Arbeitsbedingungen
+potenziellen Bewerbern eine bessere Vorstellung von den Arbeitsbedingungen
 geben. Darüber hinaus werden die hier getroffenen Angaben beim
 [Einstellen](#bewerber-einstellen) eines Bewerbers direkt übernommen. Es lohnt
 sich also, diese Angaben so vollständig wie möglich auszufüllen!
@@ -89,8 +89,8 @@ verschiedene [Formatierungsoptionen](#formatierungsoptionen) geboten, mit denen
 Sie die Anzeige nach Ihren eigenen Wünschen gestalten können.
 
 Nehmen Sie sich die Zeit, eine möglichst ansprechende und informative
-Beschreibung zu erfassen, die nicht nur auf die Details der Stelle eingeht,
-sondern auch vermittelt, was Sie sich von Ihren Bewerbern erwarten und was Ihr
+Beschreibung zu erfassen. Sie sollte nicht nur auf die Details der Stelle eingehen,
+sondern auch vermitteln, was Sie sich von Ihren Bewerbern erwarten und was Ihr
 Unternehmen zu einem attraktiven Arbeitsplatz macht!
 
 > {% icon "lightbulb" %} **Tipp:** Erwarten Sie bestimmte Angaben von Ihren
@@ -100,17 +100,16 @@ Unternehmen zu einem attraktiven Arbeitsplatz macht!
 
 #### Formatierungsoptionen
 
-Überhalb des Textfeldes für die Beschreibung der Stelle finden Sie mehrere
-Buttons um den Text zu formatieren und ansprechender zu gestalten. Sind sie
-**blau** dargestellt sind sie **aktiviert**, bei weiß hingegen deaktiviert.
+Oberhalb des Textfeldes für die Beschreibung der Stelle finden Sie mehrere
+Buttons, um den Text zu formatieren und ansprechender zu gestalten. **Blau** dargestellt sind sie **aktiviert**, weiß hingegen deaktiviert.
 
 - Mit dem **H-Button** können Sie **Unterüberschriften** in die Beschreibung
-  einbauen - besonders nützlich um Teile der Beschreibung von einander
+  einbauen - besonders nützlich um Teile der Beschreibung voneinander
   abzugrenzen.
 - Mit dem **T-Button** wechseln Sie wieder auf normalen **Fließtext**, nachdem
   Sie eine Unterüberschrift eingefügt haben.
 - Mit dem **B-Button** schreiben Sie Text **fett** um bestimmte Wörter oder
-  Paragraphen besonders hervorzuheben.
+  Paragrafen besonders hervorzuheben.
 - Mit dem **_I_-Button** schreiben Sie Text **_kursiv_**, damit der Leser ein
   besonderes Augenmerk auf diese Teile wirft.
 
@@ -122,7 +121,7 @@ kleinen Pfeil und wählen Sie den gewünschten Standort aus.
 
 ### Beschäftigungsverhältnis
 
-Hier können Sie die Vertragsart auswählen die Sie mit dem gesuchten Mitarbeiter
+Hier können Sie die Vertragsart auswählen, die Sie mit dem gesuchten Mitarbeiter
 abschließen wollen. Wenn Sie auf den kleinen Pfeil drücken, können Sie zwischen
 Festangestellter, Aushilfe, Auszubildender, freier Mitarbeiter und
 Saisonarbeiter wählen.
@@ -153,10 +152,10 @@ wöchentlich arbeiten wird.
 Unter **St. / Woche** können Sie die geplanten Wochenstunden für diese Stelle
 angeben. Während Sie unter **Bezahlung** den veranschlagten Lohn angeben. Geben
 Sie dazu in das Textfeld, welches standardmäßig mit dem Mindestlohn gefüllt ist,
-die gewünschte Entlohnung ein. Rechts davon können Sie nun entscheiden ob dieser
+die gewünschte Entlohnung ein. Rechts davon können Sie nun entscheiden, ob dieser
 Betrag **pro Stunde** oder **monatlich** ausgezahlt wird.
 
-> **Keine Panik** {% icon "exclamation" %} Alle in der Ausschreibung
+> {% icon "info-circle" %} **Keine Panik:** Alle in der Ausschreibung
 > spezifizierten Details können **nachträglich** noch bearbeitet werden. Sie
 > dienen lediglich der ersten Information der Bewerber und dem schnellen
 > Einstellen in Pentacode.
@@ -165,15 +164,15 @@ Betrag **pro Stunde** oder **monatlich** ausgezahlt wird.
 
 Bilder sagen mehr als tausende Worte! Visuelle Eindrücke können Sie ihre
 Ausschreibung noch attraktiver gestalten und Bewerbern ein besseres Gefühl für
-für Ihr künftiges Arbeitsumfeld geben. Sie können bis zu 4 Bilder hochladen,
-wobei das erste Bild als Titelbild für das veröffentlichte
+Ihr künftiges Arbeitsumfeld geben. Sie können bis zu 4 Bilder hochladen, wobei
+das erste Bild als Titelbild für das veröffentlichte
 [Bewerbungsformular](#das-bewerbungsformular) dient. Das Anhängen von Bildern
 ist optional, aber wir empfehlen mindestens ein Bild zu Ausschreibung
 hinzuzufügen, da dies die Anzeige visuell deutlich ansprechender macht.
 
 So fügen Sie Ihrer Ausschreibung ein Bild hinzu:
 
-1. Klicken Sie auf den {% button icon="rectangle-history-circle-plus" %}-**Button** unter **Bilder**.
+1. Klicken Sie auf den {% button icon="rectangle-history-circle-plus" %} **Button** unter **Bilder**.
 2. Wählen Sie die gewünschte Bilddatei von Ihrer Festplatte durch einen Doppelklick.
 
 > **Achtung** {% icon "exclamation" %} Achten Sie darauf während des Erstellens
@@ -184,7 +183,7 @@ So fügen Sie Ihrer Ausschreibung ein Bild hinzu:
 
 Nachdem Sie eine Ausschreibung [erstellt](#ausschreibung-erstellen) haben, geht
 es nun darum die Stelle zu veröffentlichen und die Bewerber zu verwalten. Dazu
-bietet ihnen Pentacode praktische Link zum publizieren der Ausschreibung, ein
+bietet ihnen Pentacode praktische Link zum Publizieren der Ausschreibung, ein
 eigenes Bewerbungsformular und eine Funktion zum Einstellen auf Probe.
 
 ### Bewerbungslink teilen
@@ -222,12 +221,12 @@ Pentacode Verwaltungszugang.
 ### Bewerber einsehen
 
 Nachdem Sie den [Bewerbungslink](#bewerbungslink-teilen) publiziert haben,
-sollten Sie schnell die ersten Bewerbungen erhalten. Diese finden Sich in
+sollten Sie schnell die ersten Bewerbungen erhalten. Diese finden Sie in
 der entsprechenden Ausschreibung unterhalb der Beschreibung, wo Sie
 Namen, Profilbild und Alter (falls angegeben) und die Verfügbarkeit des
 Mitarbeiters sehen. Klicken Sie auf einen Bewerber, um dessen Detailansicht zu öffnen.
 
-{% figure caption="Klicken Sie auf einen Bewerber um die Detailansicht zu öffnen." %}
+{% figure caption="Klicken Sie auf einen Bewerber, um die Detailansicht zu öffnen." %}
 <img src="personaleransicht.png" />
 {% endfigure %}
 
@@ -258,6 +257,6 @@ und klicken Sie auf {% button icon="handshake-slash", label="Ablehnen" %}.
 Der Kandidat wird dann von der List der Bewerber entfernt.
 
 > {% icon "exclamation-triangle" %} **Achtung:** Abgelehnte Bewerber werden
-> unwiderruflich aus den System entfernt und können nicht wiederhergestellt werden!
+> unwiderruflich aus dem System entfernt und können nicht wiederhergestellt werden!
 > In künftigen Versionen wird es aber die Möglichkeit geben, Bewerber zu
 > archivieren ohne Sie komplett zu entfernen.
