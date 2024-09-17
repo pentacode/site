@@ -85,8 +85,7 @@ Beschäftigungsverhältnis saldierend fort. Das Arbeitszeitkonto eines Jahres wi
 immer automatisch in das Folgejahr übertragen.
 
 In vielen Fällen ist es allerdings notwendig, korrigierend in die Saldierung von
-Konten einzugreifen, zum Beispiel wenn der Resturlaub eines Mitarbeiters am Ende
-des Jahres verfallen soll oder die Konten eines Mitarbeiters nach langer
+Konten einzugreifen, zum Beispiel wenn die Konten eines Mitarbeiters nach langer
 Abwesenheit zurückgesetzt werden sollen.
 
 Pentacode bietet Ihnen hierfür die Möglichkeit, den Übertrag eines Monats für

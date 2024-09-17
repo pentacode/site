@@ -172,7 +172,7 @@ Stunde**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monatlic
 
 #### Provision
 
-Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#provision)".
+Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt [Umsätze](/hilfe/handbuch/umsaetze/).
 
 #### Ein Mitarbeiter - mehrere Löhne
 

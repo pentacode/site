@@ -6,14 +6,14 @@ icon: hourglass-clock
 ---
 
 Das Planen, Erfassen und Dokumentieren von Arbeitszeiten gehört zu den Kernaufgaben von Pentacode. In diesem Artikel
-erfahren Sie unter anderem, wie Sie die Arbeitzeiten Ihrer Mitarbeiter einsehen, manuell erfassen, bearbeiten und
+erfahren Sie unter anderem, wie Sie die Arbeitszeiten Ihrer Mitarbeiter einsehen, manuell erfassen, bearbeiten und
 exportieren können.
 
 ## Arbeitszeiten Übersicht
 
-Die Arbeitszeitenübersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol** um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
+Die Arbeitszeiten-Übersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol** um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
 
-{% figure caption="Die Arbeitszeitenübersicht zeigt Ihnen Arbeits- Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick." %}
+{% figure caption="Die Arbeitszeiten-Übersicht zeigt Ihnen Arbeits- Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick." %}
 <img src="arbeitszeiten_überblick.webp" />
 {% endfigure %}
 
@@ -60,7 +60,7 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
    Arbeitsbereichen zugewiesen ist, wird Ihnen für jeden mögliche Position ein
    separater Button angezeigt. Wählen Sie die Position, für die Sie eine
    Arbeitszeit erfassen möchten.
-4. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie
+4. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn und Ende, sowie
    verschiedene andere Felder ausfüllen können. Mehr zu den einzelnen Feldern
    und was sie genau bedeuten erfahren Sie unter [Felder &
    Eigenschaften](#felder-%26-eigenschaften).
@@ -82,7 +82,7 @@ So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten
    Mitarbeiters und klicken Sie dort auf den Eintrag, den Sie bearbeiten
    möchten.
-2. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn- und Ende, sowie
+2. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn und Ende, sowie
    verschiedene andere Felder bearbeiten können. Mehr zu den einzelnen Feldern
    und was sie genau bedeuten erfahren Sie unter [Felder &
    Eigenschaften](#felder-%26-eigenschaften).
@@ -169,7 +169,7 @@ bearbeitet werden.
 
 Unter dem Punkt {% icon "check" %} **Erfasst** können Sie die Schichtzeiten
 sehen und bearbeiten, welche in die Lohnberechnung einfließen. Sollten Sie die
-Stempeluhr verwenden werden dies die **gestempelten Zeiten** mit jeweilig
+Stempeluhr verwenden werden dies die **gestempelten Zeiten** mit jeweils
 [eingestellter
 Rundung](/hilfe/handbuch/einstellungen/zeiterfassung#rundung-von-stempelzeiten)
 sein. Sollten Sie die Stempeluhr nicht verwenden, werden dies die **geplanten
@@ -190,7 +190,7 @@ jederzeit bearbeitet werden.
 > {% icon "info-circle" %} **Hinweis:** Falls für die aktuelle Schicht der
 > [Pausenmodus](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung)
 > **Automatisch** bzw. **Automatisch + Manuell** gewählt ist, befüllt Pentacode
-> dieses Feld automatisch basierend auf der Länge geleisteten Arbeitzeit. **Dies
+> dieses Feld automatisch basierend auf der Länge der geleisteten Arbeitszeit. **Dies
 passiert aber nur dann, wenn noch keine Pause eingetragen wurde!** Das heißt:
 > Sollten Sie Schichtbeginn oder -ende im Nachhinein bearbeiten wird das
 > Pausenfeld **nicht** automatisch mit der neuen Pausenzeit überschrieben. Sie
@@ -206,8 +206,8 @@ für die aktuelle Schicht gebucht werden sollen. Es wird unterschieden zwischen
 und **{% icon "plate-utensils" %} Abendessen**.
 
 > {% icon "info-circle" %} Zusätzlich zu manuellen Buchen von Mitarbeiteressen
-> können Sie auch einstellen, dass Mahlzeiten selbstständigt durch den
-> Mitarbeiter oder sogar vollautomatsich gebucht werden. Mehr dazu unter
+> können Sie auch einstellen, dass Mahlzeiten selbstständig durch den
+> Mitarbeiter oder sogar vollautomatisch gebucht werden. Mehr dazu unter
 > [Einstellungen/Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung/#mitarbeiteressen)
 
 ### Umsatz
@@ -311,7 +311,7 @@ sogannte **Zeitbuchung**. Um eine Zeitbuchnung vorzunehmen, klicken Sie auf den
 "Zeitbuchung".
 
 Zeitbuchungen dienen vornehmlich dazu, Korrekturen am
-[Arbeitskonto](/hilfe/handbuch/mitarbeiter/konten) eines Mitarbeiters
+[Arbeitszeitkonto](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/) eines Mitarbeiters
 vorzunehmen, die nicht über das Erfassen von Arbeitszeiten oder Fehltagen
 abgebildet werden können. Beim Abbuchen von Stunden, können Sie außerdem
 angeben, ob die abgezogenen Stunden bezahlt werden, also ob sie in der
@@ -335,7 +335,7 @@ Stunden hinzuzubuchen, wählen Sie **Gutschrift**.
 
 Optional können Sie einen Kommentar für die Buchung hinterlegen. Dieser kann der
 besseren Dokumentation und Nachvollziehbarkeit dienen und erscheint neben dem
-Arbeitzeitblatt auch in der [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht),
+Arbeitszeitblatt auch in der [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht),
 im [Arbeitszeitnachweis](#arbeitszeit-nachweis) und in der
 [Lohnabrechnung](#lohnabrechnung-individuell) und
 [Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht). Wenn kein Kommentar
@@ -381,7 +381,7 @@ aber für eine bessere Nachvollziehbarkeit in der Dokumentation hilfreich sein.
 Hier können Sie den Betrag der Buchung in Tagen festlegen und ob der Betrag
 abgezogen oder hinzugebucht werden soll. Um den Betrag zum Abzug zu bringen
 wählen Sie **Abbuchung** aus dem Dropdown. Um Stunden hinzuzubuchen, wählen Sie
-**Gutschrift**. Abbuchungen **veringern** der Urlaubsanspruch des Mitarbeiters,
+**Gutschrift**. Abbuchungen **verringern** der Urlaubsanspruch des Mitarbeiters,
 während eine Gutschrift den Urlaubsanspruch des Mitarbeiters **erhöht**.
 
 > {% icon "lightbulb" %} **Tipp:** Sie können neben ganzen Urlaubstagen auch
@@ -391,7 +391,7 @@ während eine Gutschrift den Urlaubsanspruch des Mitarbeiters **erhöht**.
 
 Optional können Sie einen Kommentar für die Buchung hinterlegen. Dieser kann der
 besseren Dokumentation und Nachvollziehbarkeit dienen und erscheint neben dem
-Arbeitzeitblatt auch in der [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht)
+Arbeitszeitblatt auch in der [Arbeitszeiten-Übersicht](#arbeitszeiten-übersicht)
 und in der [Lohnabrechnung](#lohnabrechnung-individuell) und
 [Lohnabrechnung-Übersicht](#lohnabrechnung-übersicht) (sofern die Option
 [bezahlt](#urlaub-ausbezahlen) ausgewählt wurde). Wenn kein Kommentar hinterlegt
