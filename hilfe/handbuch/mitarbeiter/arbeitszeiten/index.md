@@ -254,7 +254,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 2. Bewegen Sie die Maus über die farbige Box direkt über dem
    Bearbeitungsformular und klicken Sie das {% button icon="times" %} Symbol im
    rechten oberen Eck.
-3. Der Eintrag ist nun gelöscht. Wenn Sie möchten können Sie die Tagesansicht
+3. Der Eintrag ist nun gelöscht. Wenn Sie möchten, können Sie die Tagesansicht
    nun schließen, indem sie den {% button label="Zurück", icon="chevron-left" %}
    button klicken oder {% key "Esc" %} auf Ihrer Tastatur drücken.
 
@@ -271,7 +271,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    button label="Frei" %} oder {% button label="Guttag" %} button oder drücken
    Sie die {% key "f" %} Taste auf Ihrer Tastatur für "Frei" oder die {% key "g"
    %} Taste für "Guttag".
-3. Der Eintrag wird automatisch gespeichert. Wenn Sie möchten können Sie die
+3. Der Eintrag wird automatisch gespeichert. Wenn Sie möchten, können Sie die
    Tagesansicht nun schließen, indem sie den {% button label="Zurück",
    icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
@@ -280,7 +280,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 > Platzhalter/Planhilfe und haben keinen Einfluss auf das Arbeitszeitkonto oder
 > die Zeiterfassung.
 
-## Urlaub oder Krankeit Erfassen
+## Urlaub oder Krankheit Erfassen
 
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten
    Mitarbeiters und klicken Sie dort auf den Tag des Urlaubs- oder eine
@@ -305,7 +305,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 
 Abgesehen vom Erfassen von Arbeitszeiten können Sie die Arbeitsstunden für einen
 Mitarbeiter auch direkt hinzubuchen oder abziehen. Dies erfolgt über eine
-sogannte **Zeitbuchung**. Um eine Zeitbuchnung vorzunehmen, klicken Sie auf den
+sogenannte **Zeitbuchung**. Um eine Zeitbuchung vorzunehmen, klicken Sie auf den
 {% button icon="plus" %}-Button mittig-oben, neben den Soll- und Ist-Stunden im
 [Arbeitszeitblatt](#das-arbeitszeitblatt) des Mitarbeiters und wählen die Option
 "Zeitbuchung".
@@ -321,14 +321,14 @@ Lohnabrechnung des entsprechenden Monats aufgeführt werden sollen oder nicht.
 
 Über das Datumsfeld können Sie festlegen, an welchem Tag die Zeitbuchung
 eingetragen werden soll. Der genaue Tag der Buchung ist in der Regel nicht
-enscheidend (wichtig ist nur, welchem Monat die Buchung zugeordnet wird), kann
+entscheidend (wichtig ist nur, welchem Monat die Buchung zugeordnet wird), kann
 aber für eine bessere Nachvollziehbarkeit in der Dokumentation hilfreich sein.
 
 ### Betrag
 
 Hier können Sie den Betrag der Buchung in Echtminuten (also Stunden und Minuten)
 festlegen und ob der Betrag abgezogen oder hinzugebucht werden soll. Um den
-Betrag zum Abzug zu bringen wählen Sie **Abbuchung** aus dem Dropdown. Um
+Betrag zum Abzug zu bringen, wählen Sie **Abbuchung** aus dem Dropdown. Um
 Stunden hinzuzubuchen, wählen Sie **Gutschrift**.
 
 ### Kommentar
@@ -345,7 +345,7 @@ hinterlegt ist, erscheint der Eintrag lediglich als "Zeitbuchung".
 
 Wenn Sie die Zeitbuchung ausbezahlen und **im Lohnbericht Berücksichtigen**
 wollen, wählen Sie die Box an. Dadurch wird die Zeitbuchung an die
-Lohnbuchhaltung übetragen und normal mit dem Lohn ausgezahlt. Dazu müssen Sie
+Lohnbuchhaltung übertragen und normal mit dem Lohn ausgezahlt. Dazu müssen Sie
 auch auswählen mit welcher
 [Lohnart](/hilfe/handbuch/einstellungen/buchhaltung/#lohnarten) die Zeitbuchung
 ausgezahlt werden soll. Sollten Sie sich unsicher sein, fragen Sie dazu ihre
@@ -373,7 +373,7 @@ Option "Urlaubsbuchung".
 
 Über das Datumsfeld können Sie festlegen, an welchem Tag die Urlaubsbuchung
 eingetragen werden soll. Der genaue Tag der Buchung ist in der Regel nicht
-enscheidend (wichtig ist nur, welchem Monat die Buchung zugeordnet wird), kann
+entscheidend (wichtig ist nur, welchem Monat die Buchung zugeordnet wird), kann
 aber für eine bessere Nachvollziehbarkeit in der Dokumentation hilfreich sein.
 
 ### Betrag
@@ -417,8 +417,8 @@ abgebuchten Tage.
 ## Arbeitszeiten Exportieren
 
 Klicken Sie auf das {% icon "download" %} mittig-oben auf dem
-Arbeitszeitenblatt, um auf den Reiter {% button icon="download",
-label="Datenexport" %} verwießen zu werden. Dort können Sie die Bewegungsdaten
+Arbeitszeitblatt, um auf den Reiter {% button icon="download",
+label="Datenexport" %} verwiesen zu werden. Dort können Sie die Bewegungsdaten
 des Mitarbeiters sowie weitere Lohndaten exportieren.
 [Hier](/hilfe/handbuch/datenexport/) finden Sie weitere Informationen wie Sie
 die Arbeitszeiten ihrer Mitarbeiter Drucken und in ihr Lohnbuchhaltungsprogramm
