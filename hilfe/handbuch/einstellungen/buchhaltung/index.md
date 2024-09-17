@@ -58,10 +58,10 @@ Wenn Sie es sich so einfach wie möglich machen wollen, empfehlen wir Ihnen im e
 
 Klicken Sie hierzu auf "**+ Neue Lohnart**" und füllen folgende Felder aus:
 
-- *Name der Lohnart:* Dieses Feld dient einzig der Darstellung in Pentacode, falls unsicher verwenden Sie als Namen am besten die **Lohnartnummer**.
-- *Lohnartnummer:* Dieses Feld dient später ihrer Buchhaltung aus Pentacode exportierte Lohndaten richtig zuzuordnen - **füllen Sie dieses Feld mit den Informationen ihrer Buchhaltung aus!**
-- *Einheit:* Nicht jede Lohnart wird in Euro abgerechnet - Kilometergeld etwa. Hier können Sie auswählen in welchem Format die Lohnart an ihre Buchhaltung übertragen wird.
-- *Beschreibung:* Sollten Sie weitere Vermerke für die Lohnart haben, tragen Sie diese hier ein. 
+- **Name der Lohnart:** Dieses Feld dient einzig der Darstellung in Pentacode, falls unsicher verwenden Sie als Namen am besten die **Lohnartnummer**.
+- **Lohnartnummer:** Dieses Feld dient später ihrer Buchhaltung aus Pentacode exportierte Lohndaten richtig zuzuordnen - **füllen Sie dieses Feld mit den Informationen ihrer Buchhaltung aus!**
+- **Einheit:** Nicht jede Lohnart wird in Euro abgerechnet - Kilometergeld etwa. Hier können Sie auswählen in welchem Format die Lohnart an ihre Buchhaltung übertragen wird.
+- **Beschreibung:** Sollten Sie weitere Vermerke für die Lohnart haben, tragen Sie diese hier ein. 
 
 ## Lohnartensätze
 
@@ -78,7 +78,7 @@ Klicken Sie auf **+ Neuer Lohnartensatz** öffnet sich ein Formular, in dem Sie 
 
 {% endfigure %}
 
-Nach getaner Arbeit klicken Sie auf **Speichern** und das Eingabefeld klappt wieder zu. Sie sehen in der Unterzeile die Vertragsarten und Abteilungen, welche durch den Lohnartensatz erfasst werden. Das {%icon "people-group"%}**-Symbol** daneben zeigt Ihnen, wie viele Mitarbeiter insgesamt von der Lohnart erfasst werden.
+Nach getaner Arbeit klicken Sie auf **Speichern** und das Eingabefeld schließt sich wieder. Sie sehen in der Unterzeile die Vertragsarten und Abteilungen, welche durch den Lohnartensatz erfasst werden. Das {%icon "people-group"%}**-Symbol** daneben zeigt Ihnen, wie viele Mitarbeiter insgesamt von der Lohnart erfasst werden.
 
 Das war's! Ab jetzt können Sie exportieren.
 
