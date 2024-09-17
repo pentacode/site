@@ -25,7 +25,7 @@ Sie können weitere Standorte anlegen, indem Sie auf {% button icon="plus", labe
 Es öffnet sich anschließend ein Dialogfenster, in dem Sie einige Daten des
 Standorts festlegen können.
 
-**Standortname** und **Adresse** dienen dabei einzig ihrer eigenen Organisation. Die **Standortnummer** können Sie verwenden um jeden Standort klar differenzierbar zu machen, etwa wenn mehrere Standorten den gleichen Namen besitzen.
+**Standortname** und **Adresse** dienen dabei einzig ihrer eigenen Organisation. Die **Standortnummer** können Sie verwenden um jeden Standort klar differenzierbar zu machen, etwa wenn mehrere Standorte den gleichen Namen besitzen.
 
 Das **Bundesland** ist zusätzlich relevant um die verschiedenen Feiertage zu
 bestimmen, welche mitunter für die SFN-Zuschläge relevant sind. Wählen Sie dazu
@@ -59,7 +59,7 @@ gewünschten Feiertagen weiß erscheint und bei gewünschten Feiertage blau.
 
 Durch Anklicken des {% icon "ellipsis-h" %}-Symbols am rechten oberen Eck können
 Sie Angaben zu einem Standort ändern oder ergänzen, indem Sie **"Standort
-Bearbeiten"** wählen. Sie kommen so in das gleiche Menü welches
+Bearbeiten"** wählen. Sie kommen so in das gleiche Menü, welches
 [hier](#neuer-standort) beschrieben ist.
 
 {% figure caption="So können Sie einen bestehenden Standort bearbeiten, archivieren und umziehen." %}
