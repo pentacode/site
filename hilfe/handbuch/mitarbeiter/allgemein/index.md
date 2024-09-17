@@ -5,7 +5,7 @@ weight: 1
 icon: toolbox
 ---
 
-Im Folgenden erklären wir Ihnen, wie Sie neue Mitarbeiter anlegen, verwalten und kündigen können - sowie einige Extrafunktionen, die Pentacode für Sie bereit hält. 
+Im Folgenden erklären wir Ihnen, wie Sie neue Mitarbeiter anlegen, verwalten und kündigen können - sowie einige Extrafunktionen, die Pentacode für Sie bereithält. 
 
 ## Neuen Mitarbeiter Anlegen
 
@@ -22,7 +22,7 @@ Klicken Sie auf {% button label="Positionen", iconRight="arrow-right" %}, um zum
 
 ### 2. Positionen
 
-Hier können Sie die Arbeitsbereiche definieren in denen der Mitarbeiter eingesetzt werden kann/soll. Mehr Informationen
+Hier können Sie die Arbeitsbereiche definieren, in denen der Mitarbeiter eingesetzt werden kann/soll. Mehr Informationen
 zum Thema Arbeitsbereiche finden Sie unter [Einstellungen/Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/).
 Zugewiesene Positionen können Sie später jederzeit unter [Mitarbeiter/Positionen](../positionen/) bearbeiten.
 
@@ -49,7 +49,7 @@ dies nicht bereits unter [1. Stammdaten](#1-stammdaten) getan haben. Optional k�
 die in der Einladungs-Email an den Mitarbeiter angezeigt werden soll. Klicken Sie nun auf {% button label="Berechtigungen", iconRight="arrow-right" %}
 um festzulegen, welche [Berechtigungen](#5-berechtigungen) der Mitarbeiter erhalten soll.
 
-Falls Sie dem Mitarbeiter keinen Zugriff auf Pentacode geben möchten, deaktivieren Sie einfach den {% button label="Mitarbeiterzugang Einrichten", iconRight="toggle-off" %} Button. Sie können nun den Vorgang abschließen, indem Sie auf den
+Falls Sie dem Mitarbeiter keinen Zugriff auf Pentacode geben möchten, deaktivieren Sie einfach den {% button label="Mitarbeiterzugang Einrichten", iconRight="toggle-off" %} Button. Sie können jetzt den Vorgang abschließen, indem Sie auf den
 Button {% button label="Mitarbeiter Erstellen" %} klicken.
 
 ### 5. Berechtigungen
@@ -75,7 +75,7 @@ Mitarbeiter mit dem Status "Auf Probe", können bereits für [Dienste eingeplant
 über die [Digitale Stempeluhr](../../stempeluhr/) Zeiten erfassen. Sonstige Features wie das Arbeitszeitkonto,
 Abwesenheiten oder das Dokumentenarchiv sind für Probemitarbeiter nicht verfügbar.
 
-### Probemitarbeiter Voll Einstellen
+### Probemitarbeiter voll Einstellen
 
 Um einen Probemitarbeiter in einen vollen Mitarbeiter umzuwandeln, gehen Sie wie folgt vor:
 
