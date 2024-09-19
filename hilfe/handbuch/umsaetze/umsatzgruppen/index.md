@@ -11,7 +11,7 @@ keywords:
 - kassenbucheinträge
 
 ---
-Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammen zu fassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlicht.
+Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammenzufassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlicht.
 
 Darüber hinaus können diese Gruppen als **dauerhafte Einträge** in der
 "[**Tagesabrechnung**](/hilfe/handbuch/umsaetze/tagesabrechnung/)" erscheinen.
@@ -21,7 +21,7 @@ Darüber hinaus können diese Gruppen als **dauerhafte Einträge** in der
 Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten
 Buchungstext, UST-Satz und evtl. die Kostenstelle an. 
 > Generell ist zu raten die Umsätze **nach Erlösart (Speisen, Getränke, Eintritt etc.)** und nicht
-nach MwSt zu gruppieren um die Funktionen des
+nach MwSt. zu gruppieren um die Funktionen des
 [Berichtswesens](/hilfe/handbuch/berichte/umsaetze) vollständig nutzen zu können.
 
 {% figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" %}

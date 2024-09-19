@@ -204,7 +204,7 @@ Wenn Sie in Pentacode die Bargeldzählung mithilfe des Zählprotokolls durchfüh
 
 Der Ausdruck weist das Zählprotokoll aus.
 
-Ein Zählprotokoll ist der schriftliches Nachweis der "Sturzfähigkeit" der Kasse, so das Amtsdeutsch. In Klarsprache übersetzt bedeutet dies, dass Sie schriftlich nachweisen, dass der gezählte Geldbetrag tatsächlich vorhanden ist.
+Ein Zählprotokoll ist der schriftliche Nachweis der "Sturzfähigkeit" der Kasse, so das Amtsdeutsch. In Klarsprache übersetzt bedeutet dies, dass Sie schriftlich nachweisen, dass der gezählte Geldbetrag tatsächlich vorhanden ist.
 
 ## Zwischenspeichern
 
