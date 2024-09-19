@@ -38,9 +38,13 @@
         {% endblock %}
         <!-- -->
 
+        <script defer data-domain="pentacode.app" src="https://plausible.io/js/script.hash.outbound-links.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
         {% block js %} {% endblock %}
 
         <script src="/assets/js/scheduling.js" async></script>
+
     </head>
     <body>
         {% block body %} {% endblock %} {% block footer %} {% include "components/footer.html" %} {% endblock %} {%
