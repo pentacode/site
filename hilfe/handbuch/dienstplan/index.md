@@ -289,13 +289,25 @@ Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 > **Achtung:** Für das Veröffentlichen von Dienstplänen wird eine explizite
 > [Berechtigung](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) benötigt.
 
+### Änderungen einsehen und auswählen
+
+Wenn Sie die vorgenommenen Änderungen vor dem veröffentlichen noch einmal
+einzeln aufgelistet sehen wollen, klicken Sie auf das {% icon "pencil"%} Symbol
+am rechten oberen Rand. Es wird Ihnen eine Liste der Änderungen mit dem
+betroffenen Mitarbeiter und dem Zeitpunkt der Änderung angezeigt. 
+
+Sollten Sie nur einen Teil der vorgenommenen Änderungen veröffentlichen wollen,
+wählen Sie bei einzelnen Änderungen den grünen Haken ab. Abgewählte Änderungen
+werden nicht veröffentlicht aber weiterhin gespeichert. 
+
+
 ### Änderungen Veröffentlichen
 
 Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen der orangene Button mit
-dem {% icon "pencil" %}Symbol an, wie viele Änderungen seit der letzten
+dem {% icon "pencil" %} Symbol an, wie viele Änderungen seit der letzten
 Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken
 Sie auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem alle
-Änderungen erneut aufgelistet sind. Klicken Sie hier auf {% button icon =
+Änderungen erneut aufgelistet sind. Hier können Sie [auswählen](#änderungen-einsehen-und-auswählen), welche Änderungen Sie veröffentlichen wollen. Klicken Sie auf {% button icon =
 "lightbulb", label = "Veröffentlichen" %} zeigt Pentacode an, welche betroffenen
 Mitarbeiter kontaktiert werden. Die Änderungen sind nun in der Mitarbeiter-App
 und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Von
@@ -313,6 +325,10 @@ und erhalten einen Link zu ihrem persönlichen Dienstplan.
 <img src = "veröffentlichen.gif" />
 
 {% endfigure %}
+
+### Änderungen zurücksetzen
+
+Im gleichen Menü zum [Veröffentlichen von Änderungen](#änderungen-veröffentlichen) können Sie die vorgenommenen Änderungen auch zurücksetzen. Klicken Sie dazu auf {% button icon="rotate-left", label="Rückgängig machen" %} und bestätigen Sie den Vorgang. Es werden auch hier nur die [ausgewählten Änderungen](#änderungen-einsehen-und-auswählen) zurückgesetzt. 
 
 ## Dienstplan Teilen
 

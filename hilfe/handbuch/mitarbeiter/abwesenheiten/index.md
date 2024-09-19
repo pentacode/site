@@ -9,7 +9,7 @@ Neben der Arbeitszeitdokumentation und Dienstplanung ist das **Verwalten von Abw
 wer wann krank oder im Urlaub war, ist oder sein wird - die Software **errechnet automatisch** für Sie, wann und wie viele
 Fehltage für einen Abwesenheitszeitraum gebucht werden müssen und wie viele Fehlstunden und Zuschläge anfallen. Und diese Informationen fließen dann wiederum vollautomatisch in die Lohnbuchhaltung und Mitarbeiterkonten ein!
 
-Alles was Sie tun müssen, ist einen Mitarbeiter, Abwesenheitstyp und Zeitraum zu wählen und Pentacode erledigt den Rest für Sie. Und wenn Sie unsere [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) nutzen, können Ihre Mitarbeiter selbstständig Urlaubsanträge und Krankmeldungen erfassen, die Sie dann nur noch genehmigen müssen!
+Alles, was Sie tun müssen, ist einen Mitarbeiter, Abwesenheitstyp und Zeitraum zu wählen und Pentacode erledigt den Rest für Sie. Und wenn Sie unsere [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) nutzen, können Ihre Mitarbeiter selbstständig Urlaubsanträge und Krankmeldungen erfassen, die Sie dann nur noch genehmigen müssen!
 
 ## Übersicht
 

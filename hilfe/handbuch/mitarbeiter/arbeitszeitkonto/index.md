@@ -66,7 +66,7 @@ Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager')
 
 Klicken Sie auf einen Mitarbeiter in der Übersicht erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen für den Soll- und Ist-Stunden angezeigt werden. 
 
-Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen ob der gewählt Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
+Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen ob der gewählte Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
 
 {% figure caption="In der Einzelansicht erhalten Sie die Stunden eines Mitarbeiters individuell aufgelistet." %}
 
@@ -85,14 +85,13 @@ Beschäftigungsverhältnis saldierend fort. Das Arbeitszeitkonto eines Jahres wi
 immer automatisch in das Folgejahr übertragen.
 
 In vielen Fällen ist es allerdings notwendig, korrigierend in die Saldierung von
-Konten einzugreifen, zum Beispiel wenn der Resturlaub eines Mitarbeiters am Ende
-des Jahres verfallen soll oder die Konten eines Mitarbeiters nach langer
+Konten einzugreifen, zum Beispiel wenn die Konten eines Mitarbeiters nach langer
 Abwesenheit zurückgesetzt werden sollen.
 
 Pentacode bietet Ihnen hierfür die Möglichkeit, den Übertrag eines Monats für
 eines oder alle Konten eines Mitarbeiters zu bearbeiten.
 
-### Kontenübertrag Eines Einzelnen Mitarbeiters Bearbeiten
+### Kontenübertrag eines einzelnen Mitarbeiters Bearbeiten
 
 Um einen abweichenden Kontenübertrag in einem Monat für einen bestimmten Mitarbeiter zu **erstellen**, verfahren Sie wie folgt:
 
@@ -117,7 +116,7 @@ Um den eingetragenen Übertrag zu **entfernen**, bearbeiten Sie den Übertrag un
 <img src="uebertrag_einzel.gif" />
 {% endfigure %}
 
-### Kontenüberträge Mehrerer Mitarbeiter Bearbeiten
+### Kontenüberträge mehrerer Mitarbeiter Bearbeiten
 
 Um die Kontenüberträge für mehrere (oder alle) Mitarbeiter "in einem Schwung" zu ändern oder zurückzusetzen, gehen Sie genau wie [oben](#kontenübertrag-eines-einzelnen-mitarbeiters-bearbeiten) beschrieben vor, starten nur im ersten Schritt bei der [Übersicht](#übersicht).
 

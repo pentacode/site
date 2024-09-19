@@ -19,7 +19,7 @@ einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {% bu
 und dort im Untermenü {% button icon="file-contract", label="Verträge" %} wählen.
 
 Über den {% button icon="print" %}-Button können Sie diese Ansicht ausdrucken. Das {% button label="Filtern...", iconRight="filter" %} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
-nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {% button icon="list-timeline", label="Vertragsänderungen" %} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen einzelne
+nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {% button icon="list-timeline", label="Vertragsänderungen" %} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen
 Mitarbeiter bringt Sie in die [Verträge-Einzelansicht](#verträge-einzelansicht) des Mitarbeiters.
 
 {% figure caption="In der Verträge-Übersicht sehen Sie die wichtigsten Vertragsdaten Ihrer Mitarbeiter auf einen Blick." %}
@@ -52,7 +52,7 @@ Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export
 
 Geben Sie bei **Vertragsbeginn** das Datum ein, zu dem das Beschäftigungsverhältnis des Mitarbeiters in Ihrem Unternehmen begonnen hat.
 
-Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverhältnis endet. Lassen Sie diese Feld leer, um einen unbefristeten Vertrag zu erfassen.
+Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverhältnis endet. Lassen Sie dieses Feld leer, um einen unbefristeten Vertrag zu erfassen.
 
 ### Bemerkungen
 
@@ -124,13 +124,13 @@ Bei dieser Einstellung errechnet Pentacode den **Wert eines Urlaub- oder Krankta
 
 Sollte der Mitarbeiter sozialversicherungsfreie Zuschläge erhalten, werden auch die Zuschläge errechnet, die er im Durchschnitt der letzten 13 Wochen erhalten hat. Da diese Zuschläge im Lohnfortzahlungsfall beitragspflichtig abzurechnen sind, werden sie auch getrennt als beitragspflichtige Zuschläge ausgewiesen.
 
-Pentacode unterscheidet bei der Berechnung zwischen Wochen-, Sonn und Feiertagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
+Pentacode unterscheidet bei der Berechnung zwischen Wochen-, Sonn- und Feiertagen. Dies hat zur Folge, dass bei einem Krank- oder Urlaubstag, der auf einen Wochentag fällt, keine Sonn- oder Feiertagszuschläge hinzugerechnet werden. Diese wären ansonsten beitragspflichtig abzurechnen.
 
 #### Pauschale Stundenzahl
 
 Wenn Sie "**Pauschale Stundenzahl**" wählen erscheint ein **Eingabefeld**, in das Sie die Anzahl der **Arbeitsstunden** eingeben, die der Mitarbeiter **täglich** leisten soll. Bei einem Mitarbeiter mit 40-Stunden-Woche und 5 Arbeitstagen wären das z.B. 8 Stunden.
 
-Bei dieser Einstellung wird jeder Tag, an dem der Mitarbeiter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto wie auch für die Lohnfortzahlung in der Buchhaltung.
+Bei dieser Einstellung wird jeder Tag, an dem der Mitarbeiter als Krank oder in Urlaub im Dienstplan eingetragen ist, mit 8 Stunden bewertet. Dies gilt sowohl für die Berechnung im Arbeitszeitkonto als auch für die Lohnfortzahlung in der Buchhaltung.
 
 > {% icon "info-circle" %} **Hinweis:** Wenn Sie mit Pentacode beginnen, ist es empfehlenswert, in den **ersten drei Monaten** mit der Einstellung "**Pauschale Stundenzahl**" zu beginnen. Die Einstellung "13-Wochenschnitt" ist zu Beginn ungeeignet, da in den ersten Wochen der Zeitraum, auf den Pentacode zurückgreifen kann, zu kurz ist, um einen verlässlichen Durchschnitt zu errechnen.
 >
@@ -172,13 +172,13 @@ Stunde**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monatlic
 
 #### Provision
 
-Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt "[**Zeiterfassung**](/hilfe/handbuch/zeiterfassung/tagesuebersicht/#provision)".
+Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt [Umsätze](/hilfe/handbuch/umsaetze/).
 
 #### Ein Mitarbeiter - mehrere Löhne
 
 Wenn Sie Mitarbeiter haben, die in verschiedenen Abteilungen bei unterschiedlichen Löhnen arbeiten, kann dies in Pentacode automatisch berücksichtigt werden.
 
-Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilungen hinzu und weisen Sie dieser den jeweiligen Lohn zu. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
+Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzufügen"** die entsprechende Abteilung aus und weisen Sie dieser den jeweiligen Lohn zu. Die jeweils gearbeiteten Stunden werden getrennt ausgewiesen und unterscheidbar exportiert.
 
 > {% icon "exclamation-triangle" %} **Achtung:** Für die Ermittlung des Lohns im
 > Falle der **Lohnfortzahlung** bei Krank und Urlaub wird grundsätzlich der Lohn
@@ -200,7 +200,7 @@ Geben Sie bei "**Urlaubsanspruch (pro Jahr)**" die vereinbarte Anzahl der Urlaub
 
 ### Urlaubszuwachs
 
-Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die forlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
+Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die fortlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
 
 - *Monatlich* Wählen Sie "**Monatlich**", steht dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
    Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
@@ -235,7 +235,7 @@ Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukomme
 
 Wenn Sie auf das Feld "**+ Sonderleistung hinzufügen**" klicken, öffnet sich die Liste an zuvor erstellten [Arten von Sonderleistungen](/hilfe/handbuch/einstellungen/sonderleistungen). Wählen Sie die gewünschte Art der Leistung aus und **tragen den monatlichen Geldbetrag der Leistung ein**. 
 
-Die Sonderleistungen werden der Lohnanbrechnung des Mitarbeiters nun monatlich und unter den unter [Einstellungen](/hilfe/handbuch/einstellungen/sonderleistungen) beschriebenen Voreinstellungen hinzugefügt.  
+Die Sonderleistungen werden der Lohnabrechnung des Mitarbeiters nun monatlich und unter den unter [Einstellungen](/hilfe/handbuch/einstellungen/sonderleistungen) beschriebenen Voreinstellungen hinzugefügt.  
 
 ## Neuer Vertrag
 
@@ -251,7 +251,7 @@ in Pentacode ab, indem Sie einen neuen Vertrag anlegen:
 
 ## Vertrag Bearbeiten
 
-Als alternative zum Erstellen eines neuen Vertrages können Sie außerdem einen bestehenden Vertrag bearbeiten.
+Als Alternative zum Erstellen eines neuen Vertrages können Sie außerdem einen bestehenden Vertrag bearbeiten.
 
 > {% icon "exclamation-triangle" %} **Achtung:** Änderungen an bestehenden Verträgen wirken sich rückwirkend
 > auf alle **arbeitszeit- und lohnrelevanten Werte** innerhalb des Vertragszeitraums aus, welche in der Folge
@@ -266,7 +266,7 @@ So nehmen Sie Änderungen an einem bestehenden Vertrag vor:
 2. Wählen Sie den gewünschten Vertrag aus der Liste der existierenden Verträge.
 3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {% button icon="pencil-alt" %}-Button in der rechten
    oberen Ecke.
-4. Wählen Sie den Punkt {% button label="Vertrag Bearbeiten", icon="edit" %} und bestätigen Sie die Aktion indem
+4. Wählen Sie den Punkt {% button label="Vertrag Bearbeiten", icon="edit" %} und bestätigen Sie die Aktion, indem
    Sie auf {% button label="Fortfahren" %} klicken.
 5. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf {% button label="Speichern" %}. Durch einen Klick
    auf {% button label="Abbrechen" %} werden die Änderungen verworfen. Eine Erklärung der einzelnen Felder sowie deren
@@ -285,7 +285,7 @@ Das Erstellen einer Vertragsunterbrechung funktioniert wie folgt:
 2. Wählen Sie den gewünschten Vertrag aus der Liste der existierenden Verträge.
 3. Öffnen Sie das Bearbeitungs-Menü durch einen Klick auf den {% button icon="pencil-alt" %}-Button in der rechten
    oberen Ecke.
-4. Wählen Sie den Punkt {% button label="Vertragunterbrechnung", icon="pause-circle" %} und bestätigen Sie die Aktion indem
+4. Wählen Sie den Punkt {% button label="Vertragunterbrechnung", icon="pause-circle" %} und bestätigen Sie die Aktion, indem
    Sie auf {% button label="Fortfahren" %} klicken.
 5. Es öffnet sich ein Dialog, in dem Sie folgenden Angaben tätigen müssen:
    - Der **Zeitraum** der Unterbrechung. Dieser muss innerhalb des Vertragszeitraums des gewählten Vertrages liegen.
@@ -297,7 +297,7 @@ Das Erstellen einer Vertragsunterbrechung funktioniert wie folgt:
 ## Änderungsprotokoll
 
 Gerade bei Unternehmen mit vielen Mitarbeitern kann es schnell sehr schwierig werden, einen Überblick über alle
-vorgenommenen Vertragsänderungen zu behalten. Vor allem ist es aber von essentieller Bedeutung, Vertragsänderungen
+vorgenommenen Vertragsänderungen zu behalten. Vor allem ist es aber von essenzieller Bedeutung, Vertragsänderungen
 mit Ihrem Lohnbüro oder Steuerberater abzugleichen. Das **Vertragsänderungs-Protokoll** schafft hier Abhilfe! Dieses
 kommt in zwei Ausführungen:
 
@@ -305,7 +305,7 @@ kommt in zwei Ausführungen:
 
 In der Vertragsänderungen-Übersicht sehen Sie die Vertragsänderungen aller Ihrer Mitarbeiter, die in einem bestimmten
 Monat vorgenommen wurden. Um in die Vertragsänderungen-Übersicht zu gelangen, navigieren Sie zunächst zur [Verträge-Übersicht](#verträge-übersicht)
-und klicken Sie dort den {% button label="Vertrangsänderungen", icon="list-timeline" %}-Button in der linken oberen Ecke.
+und klicken Sie dort den {% button label="Vertragsänderungen", icon="list-timeline" %}-Button in der linken oberen Ecke.
 
 Über den {% button icon="print" %}-Button können Sie diese Ansicht ausdrucken. Das {% button label="Filtern...", iconRight="filter" %} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
 nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {% button icon="chevron-left", label="Verträge" %} Button gelangen Sie zurück zur [Verträge-Übersicht](#verträge-übersicht). Ein Klick auf einen einzelnen
@@ -320,7 +320,7 @@ Außerdem können Sie über die Pfeiltasten und das Monats-Dropdown in der Kopfl
 
 Die Vertragsänderungen-Einzelansicht zeigt Ihnen alle Vertragsänderungen eines bestimmten Mitarbeiters auf einen Blick.
 Um in diese Ansicht zu gelangen, navigieren Sie zunächst zur [Verträge-Einzelansicht](#verträge-einzelansicht) des
-Mitarbeiters und klicken Sie dort den {% button label="Vertrangsänderungen", icon="list-timeline" %}-Button in der
+Mitarbeiters und klicken Sie dort den {% button label="Vertragsänderungen", icon="list-timeline" %}-Button in der
 linken unteren Ecke.
 
 Über den {% button icon="print" %}-Button können Sie diese Ansicht ausdrucken. Über den {% button icon="chevron-left", label="Verträge" %} Button gelangen Sie zurück zur [Verträge-Einzelansicht](#verträge-einzelansicht).

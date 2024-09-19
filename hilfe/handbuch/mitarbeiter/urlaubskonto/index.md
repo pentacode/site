@@ -57,7 +57,7 @@ Filter aus der gleichen Klasse (z.B zwei Abteilungen wie 'Küche' und 'Manager')
 
 ## Einzelansicht
 
-Klicken Sie auf einen Mitarbeiter in der Übersicht, erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen für den Urlaubsanspruch- und Tage angezeigt werden. 
+Klicken Sie auf einen Mitarbeiter in der Übersicht, erreichen Sie dessen Einzelansicht. Sie können auf [gleiche Weise wie in der Übersicht](#zeitraum-wählen) auch hier den Zeitraum wählen, für den Urlaubsanspruch und Tage angezeigt werden. 
 
 Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen ob der gewählte Zeitraum in Wochen, Monats oder Jahresblöcke geteilt wird. 
 

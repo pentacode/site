@@ -44,7 +44,7 @@ Vorauszahlung**](/hilfe/handbuch/mitarbeiter/vertrag#monatliche-sfn-pauschale) e
 und als fortlaufender **Saldo** gezeigt.
 
 Für die Saldierung werden standardmäßig ausschließlich die **betragsfreien** Zuschläge berücksichtigt. Wenn Sie bei der
-Saldierung auch die beitragsplichtigen Zuschläge mit einberechnen wollen, können Sie dies unter [Einstellungen /
+Saldierung auch die beitragspflichtigen Zuschläge mit einberechnen wollen, können Sie dies unter [Einstellungen /
 Sonstiges](/hilfe/handbuch/einstellungen/sonstiges#saldierung-sfn-konten) einstellen.
 
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die Zuschläge ausweist, die auf
@@ -60,7 +60,7 @@ Grund der **bis zum aktuellen Zeitpunkt erfassten Arbeitszeiten** errechnet werd
 
 In der Monats-Kontenübersicht sehen Sie die Kontostände aller Mitarbeiter jeweils für einen einzelnen Monat. Diese
 Ansicht ist dafür hilfreich, einen schnellen Überblick über die aktuellen Kontostände Ihrer Mitarbeiter zu
-erhalten, oder um zu sehen, wer in einem Monat besonders viele Über- oder Mindestunden angehäuft hat.
+erhalten, oder um zu sehen, wer in einem Monat besonders viele Über- oder Minderstunden angehäuft hat.
 
 Sie gelangen in die Monats-Kontenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Konten** wählen.
 
@@ -76,7 +76,7 @@ verschiedenen Konten wechseln, indem Sie die gewünschte Kontenart über das Men
 
 In die Jahresübersicht gelangen Sie, indem Sie zunächst zur [Monatsansicht](#monatsübersicht) navigieren und dort in der mittig oben von der Option "Monat" auf "Jahr" wechseln.
 
-{% figure caption="Die Konten-Jahresübersicht zeigt Ihnen nur eine Kontenart, dafür aber die Monate und Mitarbeiter zum vergleichen neben einander." %}
+{% figure caption="Die Konten-Jahresübersicht zeigt Ihnen nur eine Kontenart, dafür aber die Monate und Mitarbeiter zum Vergleichen nebeneinander." %}
 <img src="kontenübersicht_jahr.webp" />
 {% endfigure %}
 
@@ -106,7 +106,7 @@ Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen).
 
 Solange Sie der Software keine abweichenden Anweisungen geben, führt Pentacode
 die Konten eines Mitarbeiters über den gesamten Zeitraum des
-Beschäftigungsverhältnis saldierend fort. Mit Außnahme des SFN-Kontos werden
+Beschäftigungsverhältnis saldierend fort. Mit Ausnahme des SFN-Kontos werden
 dabei die Kontensaldi eines Jahres immer automatisch in das Folgejahr
 übertragen. Wie Sie die Konten händisch zurücksetzen und bearbeiten können erfahren Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen)
 

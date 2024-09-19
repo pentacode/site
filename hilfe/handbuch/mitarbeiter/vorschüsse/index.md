@@ -16,7 +16,7 @@ Unter diesem Überpunkt finden Sie eine Auflistung aller Vorschüsse, sowie die 
 ## Vorschussliste
 
 Mitarbeiter, die **Vorschüsse** erhalten haben, sind alphabetisch nach Nachnamen gelistet.
-Bei Mitarbeitern, die mehrere Vorschüsse erhalten haben, sind sowohl die Einzelzahlungen mit Datumsangabe, wie auch die Gesamtsumme ausgewiesen.
+Bei Mitarbeitern, die mehrere Vorschüsse erhalten haben, sind sowohl die Einzelzahlungen mit Datumsangabe, als auch die Gesamtsumme ausgewiesen.
 
 ### Vorschussliste filtern
 
@@ -26,7 +26,7 @@ Durch die Filteroptionen im oberen Bereich der Übersicht können Sie die Übers
 <img src="vorschussliste.webp" />
 {% endfigure %}
 
-> Sie müssen nicht durch die Filteroptionen scrollen wenn Sie wissen, was Sie suchen! Geben Sie den Namen einer Abteilung in die Filterleiste ein, um diese schneller zu finden. 
+> Sie müssen nicht durch die Filteroptionen scrollen, wenn Sie wissen, was Sie suchen! Geben Sie den Namen einer Abteilung in die Filterleiste ein, um diese schneller zu finden. 
 
 ## Barvorschüsse
 
@@ -54,11 +54,11 @@ Um einen neuen unbaren Vorschuss hinzuzufügen klicken Sie auf das {% icon "plus
 
 ### Unbare Vorschüsse löschen
 
-Um einen Vorschuss zu löschen, navigieren Sie in die Einzelansicht des Mitarbeiters und klicken auf {% icon "trash" %} neben dem zu löschenden Vorschuss. Ein Klick auf {% button label="Bestätigen" %} löscht den Vorschuss entgültig. 
+Um einen Vorschuss zu löschen, navigieren Sie in die Einzelansicht des Mitarbeiters und klicken auf {% icon "trash" %} neben dem zu löschenden Vorschuss. Ein Klick auf {% button label="Bestätigen" %} löscht den Vorschuss endgültig. 
 
 ## Drucken
 
-Über das {% icon "print" %}-Symbol können Sie die Vorschussliste wenn gewünscht auch ausdrucken.
+Über das {% icon "print" %}-Symbol können Sie die Vorschussliste, wenn gewünscht auch ausdrucken.
 
 {% figure caption="Über das Druckersymbol können Sie die Vorschussliste ausdrucken" %}
 <img src="vorschuss_durcken.webp" />

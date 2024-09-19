@@ -13,7 +13,7 @@ mindestens eine Position zugewiesen werden. Sie können jedem Mitarbeiter
 beliebig viele Positionen in beliebig vielen Abteilungen und sogar verschiedenen
 Standorten zuweisen.
 
-> {% icon "info-circle" %} **Hinweis:** Bevor Sie mit dem zuweisen von Positionen beginnen, müssen Sie zunächst die
+> {% icon "info-circle" %} **Hinweis:** Bevor Sie mit dem Zuweisen von Positionen beginnen, müssen Sie zunächst die
 > entsprechenden Arbeitsbereiche definieren. Mehr dazu erfahren Sie im Handbuch unter [Einstellungen /
 > Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/).
 
@@ -24,7 +24,7 @@ können diese schnell und einfach bearbeiten.
 
 Sie gelangen in die Positionenübersicht, indem Sie im Hauptmenü den Punkt **Mitarbeiter** und dort den Unterpunkt **Positionen** wählen.
 
-{% figure caption="Über die Positionen-Übersicht verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrer Mitarbeiter und können diese schnell und einfach bearbeiten." %}
+{% figure caption="Über die Positionenübersicht verschaffen Sie sich einen Überblick über die Einsatzgebiete Ihrer Mitarbeiter und können diese schnell und einfach bearbeiten." %}
 <img src="positionen-uebersicht.webp" />
 {% endfigure %}
 
