@@ -4,9 +4,80 @@ title: Änderungsprotokoll
 weight: 5
 icon: "clipboard-list"
 ---
-# Änderungsprotokoll
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
+
+## 1.28.8
+
+### Änderungen & Neuigkeiten
+
+-   Schicht Detailinformationen (Gestempelte Zeit, Arbeits- und Pausenzeit) lassen sich nun in den Einstellungen unter **Zeiterfassung > Stempeluhr** ein- und ausschalten.
+-   Performance-Verbesserung beim Laden des Dienstplans.
+
+## 1.28.7
+
+### Änderungen & Neuigkeiten
+
+-   Bei Anpassungen einzelner Lohnarten werden die Änderungen nun auch direkt in bestehende Lohnartensätze übernommen.
+
+### Behobene Fehler
+
+-   Beim Wechsel zwischen Unternehmen kam es teilweise zu langen Ladezeiten.
+-   Beim Filtern nach Vertragsverhältnissen wurde der neueste Vertrag und nicht der aktuell gültige Vertrag herangezogen.
+-   In den Detailinformationen zu einer abgeschlossen Schicht wurde die automatische Pause nicht korrekt miteinberechnet.
+
+## 1.28.6
+
+### Änderungen & Neuigkeiten
+
+-   Die Anstellungsart "Festangestellt" heißt nun "Vollzeit/Teilzeit".
+-   Neues Exportformat: BMD Nichtleistungszeiten können nun als CSV-Datei exportiert werden (gilt nur für Österreich).
+-   Die Stempeluhr 2.0 zeigt nun zusätzliche Informationen über die abgeschlossene Schicht an: Stempelzeit, Arbeitszeit und Pausenzeit
+
+## 1.28.5
+
+### Änderungen & Neuigkeiten
+
+-   Es gab einige technische Modernisierungen im Hintergrund.
+
+## 1.28.4
+
+### Behobene Fehler
+
+-   In einigen Fällen wurde die ausgewählte Rechnung nicht korrekt angezeigt.
+-   In seltenen Fällen wurden die Ist-Stunden im Dienstplan nach einer Urlaubsbuchung nicht korrekt aktualisiert.
+-   In einigen Fällen wurden neue Rechnungen nicht im Zahlungsverlauf angezeigt.
+
+## 1.28.3
+
+### Änderungen & Neuigkeiten
+
+-   Die neue Stempeluhr ist nun nicht mehr in der Beta-Phase.
+
+### Behobene Fehler
+
+-   Die Reihenfolge der Monate und Jahre in "Konten (alt)" war umgedreht.
+
+## 1.28.2
+
+### Änderungen & Neuigkeiten
+
+-   Der neue Dienstplan ist nun der Standard Dienstplan bei Neuanmeldung.
+
+### Behobene Fehler
+
+-   In seltenen Fällen gab es Abweichungen in den Nachkommastellen zwischen der neuen Kontenansicht und der alten Kontenansicht.
+-   In einigen Fällen kam es beim Ausfüllen des Personalfragebogens zu Fehlern.
+
+## 1.28.1
+
+### Änderungen & Neuigkeiten
+
+-   Neues Exportformat: BMD Lohndaten können nun als CSV-Datei exportiert werden (gilt nur für Österreich).
+
+### Behobene Fehler
+
+-   Bei einigen Kunden kam es bei Öffnen des Rechnungsverlaufs zu einer Fehlermeldung.
 
 ## 1.28.0
 
@@ -74,7 +145,6 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   In seltenen Fällen wurde eine Zeitbuchung auf eine falsche Position beim Mitarbeiter gebucht.
 -   In manchen Fällen wurde die Standardposition beim Anlegen eines neuen Mitarbeiters nicht korrekt gespeichert.
 -   In seltenen Fällen konnte für steuerfreie Zuschläge keine Lohnart hinterlegt werden.
-
 
 ## 1.27.0
 
