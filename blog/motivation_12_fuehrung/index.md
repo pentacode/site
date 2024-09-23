@@ -1,6 +1,6 @@
 ---
 title: Flexible Führung und ihre Vorteile
-date: 2024-09-16
+date: 2024-09-23
 cover: "nl12_fuehrung_cover.webp"
 coverAlt: ""
 author: jseidel
