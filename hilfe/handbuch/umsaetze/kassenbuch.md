@@ -55,9 +55,9 @@ Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, ist das **K
 
 ## Gehaltsvorschuss
 
-Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen , da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/#vorschussliste)zugeführt.
+Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen, da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/#vorschussliste)zugeführt.
 
-Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Namen im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
+Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Name im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
 
 {% figure caption="So erfassen Sie Gehaltsvorschüsse im Kassenbuch, wenn diese nicht Bestandteil der Tagesabrechnung sind" %}
 
@@ -161,7 +161,7 @@ Mit "**Speichern**" wird die Splittbuchung ins Kassenbuch geschrieben. Um sie zu
 
 ## Suchfunktion
 
-Über die **Suchfunktion** können Sie nach **Buchungstext** und **Zahlen** **filtern**. Mit jeder Eingabe wird der Kreis der Möglichkeiten weiter eingeschränkt
+Über die **Suchfunktion** können Sie nach **Buchungstext** und **Zahlen** **filtern**. Mit jeder Eingabe wird der Kreis der Möglichkeiten weiter eingeschränkt.
 
 {% figure caption="So können Sie im Kassenbuch suchen" %}
 

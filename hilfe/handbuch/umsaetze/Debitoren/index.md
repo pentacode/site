@@ -35,7 +35,7 @@ Sie können die Liste der Debitoren auf verschiedene Weise filtern:
    spezifizieren nach welchem Monat oder Jahr Sie suchen, indem Sie links im
    Kalender einen Monat aussuchen. Wenn Sie zuvor "Jahr" ausgewählt haben,
    werden alle Debitoren des kompletten Jahres angezeigt.
--  **bezahlt und unbezahlt** - Normalerweise werden Ihnen nur unbeglichene
+-  **bezahlt und unbezahlt** - normalerweise werden Ihnen nur unbeglichene
    Rechnungen angezeigt, wollen Sie jedoch auch die bezahlten mit
    einsehen, klicken Sie auf den Regler {% button icon="toggle-on", label="bezahlt" %} in der oberen rechten Ecke
    neben dem Suchen... Dialogfeld

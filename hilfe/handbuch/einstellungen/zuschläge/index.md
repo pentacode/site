@@ -12,13 +12,13 @@ Zuschläge sind eine Möglichkeit, Ihre Mitarbeiter für Arbeit an bestimmten Ta
 Die in [§3b des Einkommenssteuergesetzes (EStG)](https://www.gesetze-im-internet.de/estg/__3b.html) definierten SFN (Sonntags-, Feiertags- und Nachts-) Zuschläge werden für Sie automatisch angelegt. Solange für Ihr Unternehmen also keine gesonderten Regeln gelten, sollten Sie **in diesem Bereich normalerweise keine Anpassungen machen müssen.**
 Folgende Zuschläge sind vorangelegt und nach Gesetz beitragsfrei:
 
-- *Nacht 1 -* Zuschlag von 25% wenn Arbeitszeit zwischen 20:00 und 6:00 Uhr fällt.
-- *Nacht 2 -* Zuschlag von 40% wenn eine Schicht vor 0:00 begonnen wird und auf die Arbeitszeit zwischen 0:00 und 4:00.
-- *Sonntag -* Zuschlag von 50% an Sonntagen.
-- *Feiertag -* Zuschlag von 125% an gesetzlichen Feiertagen
-- *Besonderer Feiertag -* Zuschlag von 150% am 1. Mai, 25. Dezember und 26. Dezember.
-- *Heilig Abend -* Zuschlag von 150% ab 14:00 am 24. Dezember
-- *Silvester -* Zuschlag von 150% ab 14:00 am 31. Dezember
+- **Nacht 1 -** Zuschlag von 25% wenn Arbeitszeit zwischen 20:00 und 6:00 Uhr fällt.
+- **Nacht 2 -** Zuschlag von 40% wenn eine Schicht vor 0:00 begonnen wird und auf die Arbeitszeit zwischen 0:00 und 4:00.
+- **Sonntag -** Zuschlag von 50% an Sonntagen.
+- **Feiertag -** Zuschlag von 125% an gesetzlichen Feiertagen
+- **Besonderer Feiertag -** Zuschlag von 150% am 1. Mai, 25. Dezember und 26. Dezember.
+- **Heilig Abend -** Zuschlag von 150% ab 14:00 am 24. Dezember
+- **Silvester -** Zuschlag von 150% ab 14:00 am 31. Dezember
 
 
 >{% icon "exclamation-triangle" %} **Sollten Sie an diesen Zuschlägen Änderungen vornehmen wollen (z.B. eine Anpassung der Zuschlagszeiträume), dann beachten Sie bitte, dass alle Zuschläge, die über den in § 3b EStG definierten Rahmen hinausgehen, beitragspflichtig sind! Das Angeben weiterer Zuschläge außerhalb dieses Rahmens als beitragsfrei würde somit einer Abgabenhinterziehung gleichkommen! Beziehen Sie bei Unklarheiten immer Ihre Lohnbuchhaltung mit ein!**
@@ -29,7 +29,7 @@ Wenn Sie erfahren wollen, wie Sie durch den **gezielten Einsatz von SFN-Zuschlä
 
 Wenn Sie weitere Zuschläge außerhalb der SFN-Zeiträume erstellen wollen, gehen sie folgend vor:
 
-Klicken sie auf {% button icon = "plus", label = "Neue Zuschlagsart"%} um eine neuen Zuschlagsart zu erstellen. Anschließend öffnet sich ein Bearbeitungsdialog in welchem Sie die Eigenschaften des Zuschlags definieren können. 
+Klicken sie auf {% button icon = "plus", label = "Neue Zuschlagsart"%}, um eine neue Zuschlagsart zu erstellen. Anschließend öffnet sich ein Bearbeitungsdialog, in dem Sie die Eigenschaften des Zuschlags definieren können. 
 
 ### Name der Zuschlagsart
 
@@ -39,10 +39,10 @@ Geben Sie hier den Namen der Zuschlagsart ein.
 
 Hier können Sie auswählen, an welchen Tagen der Zuschlag zu Wirkung kommen soll. Sie haben dabei folgende Optionen zur Verfügung:
 
-- *Täglich -* Der Zuschlag wird allen ausgewählten Mitarbeitern jeden Tag im ausgewählten Zeitraum angerechnet. **Nützlich bspw. für Nachtzuschläge.**
-- *Bestimmte Wochentage -* Der Zuschlag wird allen ausgewählten Mitarbeitern an den ausgewählten Tagen angerechnet. Wählen Sie dazu einfach die gewünschten Wochentage aus.
-- *Feiertage -*  Sollten Sie einen speziellen Zuschlagssatz für **bestimmte Feiertage** gewähren wollen, können Sie dies hier tun. Wählen Sie einfach die gewünschten Feiertage aus der Liste aus. 
-- *Datum -* Vielleicht ist der Tag den Sie auswählen wollen gar kein offizieller Feiertag bspw. Neujahr. Unter Datum können Sie **jeden Tag des Jahres** auswählen. 
+- **Täglich -** Der Zuschlag wird allen ausgewählten Mitarbeitern jeden Tag im ausgewählten Zeitraum angerechnet. **Nützlich bspw. für Nachtzuschläge.**
+- **Bestimmte Wochentage -** Der Zuschlag wird allen ausgewählten Mitarbeitern an den ausgewählten Tagen angerechnet. Wählen Sie dazu einfach die gewünschten Wochentage aus.
+- **Feiertage -**  Sollten Sie einen speziellen Zuschlagssatz für **bestimmte Feiertage** gewähren wollen, können Sie dies hier tun. Wählen Sie einfach die gewünschten Feiertage aus der Liste aus. 
+- **Datum -** Vielleicht ist der Tag, den Sie auswählen wollen gar kein offizieller Feiertag bspw. Neujahr. Unter Datum können Sie **jeden Tag des Jahres** auswählen. 
 
 {% figure caption="Dieser Zuschlag wird den Mitarbeitern nur Samstags von 20 Uhr bis 4 Uhr des folgenden Tages angerechnet." %}
 <img src="samstagnacht.webp">
@@ -66,9 +66,9 @@ Der Zuschlag wird erst gewährt, wenn mindestens der angegebene Zeitraum einer S
 
 #### In Prozent
 
-Geben Sie hier an wieviel Prozent der Arbeitszeit einer Schicht mindestens im Zuschlagszeitraum liegen müssen, damit der Zuschlag angewandt wird.
+Geben Sie hier an wie viel Prozent der Arbeitszeit einer Schicht mindestens im Zuschlagszeitraum liegen müssen, damit der Zuschlag angewandt wird.
 
-> {% icon "person-chalkboard" %} **Beispiel:** Wenn 25% als Mindestdauer angegeben werden, wird bei einer 8 Stunden Schicht erst der Zuschlag angewandt, wenn 2 Stunden der Schicht innerhalb des Zuschlagszeitraums liegen. 
+> {% icon "person-chalkboard" %} **Beispiel:** Wenn 25% als Mindestdauer angegeben werden, wird bei einer 8-Stunden-Schicht erst der Zuschlag angewandt, wenn 2 Stunden der Schicht innerhalb des Zuschlagszeitraums liegen. 
 
 
 ### Zeiträume
@@ -77,13 +77,13 @@ Hier können Sie die Stunden auswählen, zu denen der Zuschlag gewährt werden s
 
 ### Art der Vergütung
 
-Hier können Sie auswählen, ob der Zuschlag **Prozentual vom Basislohn**, als zum Basislohn zusätzlicher **fester Stundensatz** oder als **fester Betrag** abgerechnet werden soll. 
+Hier können Sie auswählen, ob der Zuschlag **prozentual vom Basislohn**, als zum Basislohn zusätzlicher **fester Stundensatz** oder als **fester Betrag** abgerechnet werden soll. 
 
 ### Prozent Maximal
 
-Der hier eingetragene Wert gilt als Obergrenze, wenn diese Zuschlagsart einem Mitarbeiter zugeteilt wird. Dies verhindert, dass Sie ausversehen einen zu hohen Betrag im Vertrag eines Mitarbeiters angeben. 
+Der hier eingetragene Wert gilt als Obergrenze, wenn diese Zuschlagsart einem Mitarbeiter zugeteilt wird. Dies verhindert, dass Sie aus Versehen einen zu hohen Betrag im Vertrag eines Mitarbeiters angeben. 
 
-{% figure caption="Wenn sich mal eine null zu viel einschleicht hilft Ihnen der voreingestellte maximale Prozentsatz." %}
+{% figure caption="Wenn sich mal eine null zu viel einschleicht, hilft Ihnen der voreingestellte maximale Prozentsatz." %}
 <img src="maximale_prozent.webp" />
 {% endfigure %}
 
