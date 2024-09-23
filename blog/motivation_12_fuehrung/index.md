@@ -23,7 +23,6 @@ Warum Flexibilität im Führungsstil wichtig ist und wie man sie übt, darum sol
 
 Jeder von uns hat einen gewissen Führungsstil, zu dem wir am meisten tendieren. Trotzdem kann sich dieser auch von Situation zu Situation unterscheiden – warum das so auch gut ist, dazu weiter unten mehr. Wir unterscheiden klassisch zwischen **mehr und weniger kontrollierenden Führungsstilen**:
 
-
 {% figure caption="" %}
 
 <img src="nl12_fuehrung.webp"/>
