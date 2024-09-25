@@ -45,5 +45,5 @@ In dieser Grafik werden die verschiedenen Lohnarten in ihrem **Jahresverlauf** m
 
 In der Standardeinstellung werden immer die Lohnkosten für **alle** Mitarbeiter gezeigt.
 
-Unter dem Grafen wird Ihnen eine Liste aller Mitarbeiter und ihrer individuellen Lohnkosten angezeigt. Durch Anklicken eines einzelnen Mitarbeiters, erhalten Sie nur die Darstellung seiner Lohnkosten als Grafen. Wenn Sie einen bestimmten Mitarbeiter suchen, können Sie zudem dessen Namen in die Suchleiste über der Mitarbeiterliste eingeben. 
+Unter dem Graphen wird Ihnen eine Liste aller Mitarbeiter und ihrer individuellen Lohnkosten angezeigt. Durch Anklicken eines einzelnen Mitarbeiters erhalten Sie nur die Darstellung seiner Lohnkosten als Graphen. Wenn Sie einen bestimmten Mitarbeiter suchen, können Sie zudem dessen Namen in die Suchleiste über der Mitarbeiterliste eingeben. 
 

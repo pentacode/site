@@ -14,7 +14,7 @@ In die Zusammenfassung fließen ausschließlich **abgeschlossene** Arbeitstage e
 
 ## Stundenangabe
 
-Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitszeiten in **Stundenangabe**. In einem Balkendiagramm werden die geplanten Arbeitszeiten in blau den tatsächlich geleisteten Arbeitszeiten in orange gegenübergestellt. 
+Wenn Sie den Bericht öffnen, sehen Sie in der Standardeinstellung die Arbeitszeiten in **Stundenangabe**. In einem Balkendiagramm werden die geplanten Arbeitszeiten in Blau den tatsächlich geleisteten Arbeitszeiten in Orange gegenübergestellt. 
 
 Zusätzlich werden neben dem Balkendiagramm in zwei Kolonnen geplante und geleistete Arbeitszeiten **für das gesamte Jahr** getrennt nach Abteilung und in Zahlen dargestellt.
 
@@ -36,7 +36,7 @@ Durch Anklicken einer **Abteilung** wird die Grafik neu berechnet und stellt die
 
 {% endfigure %}
 
-> {% icon "lightbulb" %} **Tipp:** Mit der Betrachtung einzelner Abteilungen können Sie sehen, ob es große Differenzen zwischen geplanter und durchgeführter Arbeitszeit gibt. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**Plan-Ist-Vergleich**](/hilfe/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen
+> {% icon "lightbulb" %} **Tipp:** Mit der Betrachtung einzelner Abteilungen können Sie sehen, ob es große Differenzen zwischen geplanter und durchgeführter Arbeitszeit gibt. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**Plan-Ist-Vergleich**](/hilfe/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen.
 
 ## Lohnangabe
 
