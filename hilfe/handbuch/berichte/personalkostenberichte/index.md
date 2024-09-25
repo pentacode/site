@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Personalkosten
 weight: 
-icon: chart-area
+icon: hand-holding-dollar
 keywords:
 - personalkosten
 

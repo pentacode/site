@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Übersicht
 weight: 
-icon: highlighter
+icon: chart-line
 keywords:
 - übersicht
 - einnahmen

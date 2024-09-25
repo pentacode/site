@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Arbeitszeit
 weight: 
-icon: chart-bar
+icon: hourglass-clock
 keywords:
 - stundenaufwand
 - personalkosten
@@ -40,7 +40,7 @@ Durch Anklicken einer **Abteilung** wird die Grafik neu berechnet und stellt die
 
 ## Lohnangabe
 
-Indem Sie auf das **€-Symbol** in der Kopfzeile klicken, werden die Arbeitsstunden mitarbeitergenau in **Geldwert** umgerechnet. Wie in allen anderen Bereichen handelt es sich auch bei diesen Angaben um Gesamtlohn-Angaben, welche die Arbeitgeberanteile beinhalten.
+Indem Sie auf das **€-Symbol** in der Kopfzeile klicken, werden die Arbeitsstunden Mitarbeiter-genau in **Geldwert** umgerechnet. Wie in allen anderen Bereichen handelt es sich auch bei diesen Angaben um Gesamtlohn-Angaben, welche die Arbeitgeberanteile beinhalten.
 
 {% figure caption="Indem Sie auf das €-Symbol klicken, werden die Arbeitszeiten in deren Geldwert umgerechnet " %}
 
