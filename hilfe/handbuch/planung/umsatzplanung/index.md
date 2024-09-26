@@ -61,7 +61,7 @@ Wenn Sie auf einen Umsatz klicken, erscheint ein Menü, das Ihnen zeigt, in welc
 
 {% figure caption="Durch Anklicken des Umsatzes sehen Sie dessen Verteilung in % und in €." %}
 
-<img src="umsatzplanung_aufteilung.png"/>
+<img src="umsatzplanung_aufteilung.webp"/>
 
 {% endfigure %}
 

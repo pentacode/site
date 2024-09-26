@@ -68,7 +68,7 @@ Durch einen Mouse-over über die einzelnen Planungstage wird Ihnen der Rechenweg
 
 {% figure caption="Durch einen Mouse-over wird Ihnen der Rechenweg gezeigt, der zur Feststellung der Produktivität führt." %}
 
-<img src="mouse_over.png"/>
+<img src="mouse_over.webp"/>
 
 {% endfigure %}
 
