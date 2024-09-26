@@ -36,6 +36,35 @@ beitragsfreie Zuschläge berücksichtigt. Dies ist die Standardvariante.
 Ist diese Option gewählt, werden bei der Saldierung des SFN-Kontos neben
 beitragsfreien Zuschläge auch beitragpflichtige Zuschläge berücksichtigt.
 
+## Arbeitszeiten & Konten Festschreiben
+
+Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der
+Umstand, dass Sie jederzeit "in die Vergangenheit reisen" und Korrekturen an
+bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei
+automatisch alle betroffenen Lohnabrechnungen und Konten neu und liefert damit
+jederzeit eine **in sich stimmige, wiederspruchsfreie Dokumentation**.
+
+Diese Flexibilität birgt allerdings auch Gefahren. So kann zum
+Beispiel die Änderung an einer Arbeitszeit in an einem bereits abgeschlossenen
+Monat schnell zu Unstimmigkeiten mit bereits durchgeführten Lohnabrechnungen
+führen. Desweiteren können Änderungen an bestimmten Vertragsdaten oder
+Zeiterfassungs-Einstellungen ebenfalls zu einer ungewünschten, rückwirkenden
+Neuberechnung von Konten und Lohnabrechungen führen.
+
+Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in
+regelmäßigen Abständen festzuschreiben. Dies tun sie wie folgt:
+
+1. Navigieren Sie zum Punkt **Einstellungen > Unternehmen**.
+2. Klicken Sie bei "Arbeitszeiten & Konten festgeschrieben..." auf **Bearbeiten**.
+3. Klicken Sie auf **Zeitpunkt wählen...** und wählen Sie den Monat, bis zu welchem Arbeitszeiten und Konten festgeschrieben werden sollen.
+4. Klicken sie auf **Bestätigen**.
+
+> {% icon "exclamation-triangle" %} **Achtung:** Das Festschreiben von Konten kann **nicht rückgängig gemacht werden!**
+
+{% figure caption="Das Festschreiben der Konten sorgt dafür, dass diese rückwirkend nicht mehr verändert werden können." %}
+<img src="konten_festschreiben_unternehmen.webp" />
+{% endfigure %}
+
 ## Berechnung Gesetzliche Pause
 
 Als Teil der Arbeitszeitdokumentation überwacht Pentacode automatisch alle erfassten Arbeitszeiten auf bestimmte
