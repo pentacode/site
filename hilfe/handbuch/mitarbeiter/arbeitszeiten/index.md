@@ -11,9 +11,9 @@ exportieren können.
 
 ## Arbeitszeiten Übersicht
 
-Die Arbeitszeiten-Übersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol** um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
+Die Arbeitszeiten-Übersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das {% icon "calendar" %} **Symbol**, um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
 
-{% figure caption="Die Arbeitszeiten-Übersicht zeigt Ihnen Arbeits- Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick." %}
+{% figure caption="Die Arbeitszeiten-Übersicht zeigt Ihnen Arbeits-, Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick." %}
 <img src="arbeitszeiten_überblick.webp" />
 {% endfigure %}
 
@@ -31,7 +31,7 @@ Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten Arbeitszeiten
 
 ### Zeitraum auswählen
 
-Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Zeitraum genauer betrachten. Klicken Sie auf das {% icon "calendar" %} **Symbol** um den Zeitraum auszuwählen, welcher angezeigt werden soll. Dabei kann maximal ein Zeitraum von 70 Tagen gewählt werden. 
+Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Zeitraum genauer betrachten. Klicken Sie auf das {% icon "calendar" %} **Symbol**, um den Zeitraum auszuwählen, welcher angezeigt werden soll. Dabei kann maximal ein Zeitraum von 70 Tagen gewählt werden. 
 
 {% figure caption="Im Arbeitszeitblatt können Sie einstellen welcher Zeitraum Ihnen genauer gezeigt wird." %}
 <img src="arbeitszeit_zeitraum.webp" />
@@ -64,9 +64,9 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
    verschiedene andere Felder ausfüllen können. Mehr zu den einzelnen Feldern
    und was sie genau bedeuten erfahren Sie unter [Felder &
    Eigenschaften](#felder-%26-eigenschaften).
-5. Ihre Eingaben werden automatisch gespeichert. Wenn Sie möchten können Sie den
+5. Ihre Eingaben werden automatisch gespeichert. Wenn Sie möchten, können Sie den
    Eintrag nun schließen, indem sie den {% button label="Zurück",
-   icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
+   icon="chevron-left" %} Button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
 
 > {% icon "lightbulb" %} **Tipp:** Falls Sie bereits Arbeitszeiten für diesen
@@ -82,13 +82,13 @@ So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten
    Mitarbeiters und klicken Sie dort auf den Eintrag, den Sie bearbeiten
    möchten.
-2. Es öffnet Sich ein Formular, in dem Sie nun Schichtbeginn und Ende, sowie
+2. Es öffnet sich ein Formular, in dem Sie Schichtbeginn und Ende, sowie
    verschiedene andere Felder bearbeiten können. Mehr zu den einzelnen Feldern
    und was sie genau bedeuten erfahren Sie unter [Felder &
    Eigenschaften](#felder-%26-eigenschaften).
-3. Ihre Eingaben werden automatisch gespeichert. Wenn Sie möchten können Sie den
+3. Ihre Eingaben werden automatisch gespeichert. Wenn Sie möchten, können Sie den
    Eintrag nun schließen, indem sie den {% button label="Zurück",
-   icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
+   icon="chevron-left" %} Button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
 
 > {% icon "lightbulb" %} **Tipp:** Um beim Selektieren eines Eintrags direkt in
@@ -100,7 +100,7 @@ So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
 ## Felder & Eigenschaften
 
 Wenn Sie eine Arbeitszeit zur Bearbeitung wählen oder eine neue Arbeitszeit
-erfassen, wird Ihnen ein Bearbeitungsformular präsentiert, wo Sie Sie Plan- und
+erfassen, wird Ihnen ein Bearbeitungsformular präsentiert, wo Sie Plan- und
 Ist-Zeiten einer Schicht sowie Pausen, Mitarbeiteressen und einiges mehr
 bearbeiten können. Im Folgenden möchten wir kurz auf die enthaltenen Felder und
 deren Bedeutung eingehen.
@@ -128,7 +128,7 @@ Schichtbeginn, das geplante Schichtende sowie die geplante Pause bearbeiten.
 
 #### Schichtbeginn und -ende
 
-Über die ersten beiden Felder können Sie den geplanten Schichbeginn sowie das
+Über die ersten beiden Felder können Sie den geplanten Schichtbeginn sowie das
 geplante Schichtende eintragen. Diese Zeiten, zusammen mit den
 [Zeiterfassungs-Regeln](/hilfe/handbuch/einstellungen/zeiterfassung) für diese
 Schicht, bestimmen, wann sich der Mitarbeiter per Stempeluhr oder
@@ -149,7 +149,7 @@ Soll-Ist-Vergleich](/hilfe/handbuch/dienstplan#soll-ist-vergleich)).
 können Sie die geplante Pause für eine Schicht eintragen. Dieses Feld ist nur
 bearbeitbar, falls der Pausenmodus **Geplant** oder **Geplant + Manuell** für
 diese Schicht gewählt ist. Mehr über diese Pausenmodi und wie geplante Pausen
-zur Anwendungen kommen, erfahren Sie in dem Hilfeartikel [{% icon "cog" %}
+zur Anwendung kommen, erfahren Sie in dem Hilfeartikel [{% icon "cog" %}
 Einstellungen / {% icon "stopwatch" %}
 Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung).
 
@@ -184,7 +184,7 @@ erfassten Schichtbeginn und -ende anpassen.
 
 Über das rechte Eingabefeld (erkennbar durch das {% icon "coffee" %} Symbol)
 können Sie die genommene Pause für eine Schicht bearbeiten. Dieses Feld wird
-automatisch befüllt, sobald die Schicht beendet wurde, kann aber im nachhinein
+automatisch befüllt, sobald die Schicht beendet wurde, kann aber im Nachhinein
 jederzeit bearbeitet werden.
 
 > {% icon "info-circle" %} **Hinweis:** Falls für die aktuelle Schicht der
@@ -241,7 +241,7 @@ haben).
 ### Veröffentlicht und bearbeitet
 
 An jeder geplanten und erfassten Schicht steht, wann die Schicht zuletzt geloggt
-oder verändert wurde. Ein **veröffentlicht vor...** gibt an wann die Schicht im
+oder verändert wurde. Ein **veröffentlicht vor...** gibt an, wann die Schicht im
 Dienstplan eingetragen wurde. Ein **bearbeitet vor...** zeigt, wann die Schicht
 zuletzt verändert wurde. So können Sie Änderungen leichter Nachvollziehen. 
 
@@ -256,7 +256,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    rechten oberen Eck.
 3. Der Eintrag ist nun gelöscht. Wenn Sie möchten, können Sie die Tagesansicht
    nun schließen, indem sie den {% button label="Zurück", icon="chevron-left" %}
-   button klicken oder {% key "Esc" %} auf Ihrer Tastatur drücken.
+   Button klicken oder {% key "Esc" %} auf Ihrer Tastatur drücken.
 
 > {% icon "lightbulb" %} **Tipp:** Mit der Tastenkombination {% key "⇧" %} **+**
 > <span class='fake-button'> {% icon "delete-left" %} </span> löschen Sie eine
@@ -268,12 +268,12 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    Mitarbeiters und klicken Sie dort auf einen leeren Tag, den Sie als freien
    Tag oder Guttag erfassen möchten.
 2. Es öffnet sich ein Menü auf der rechten Seite. Klicken Sie hier auf den {%
-   button label="Frei" %} oder {% button label="Guttag" %} button oder drücken
+   button label="Frei" %} oder {% button label="Guttag" %} Button oder drücken
    Sie die {% key "f" %} Taste auf Ihrer Tastatur für "Frei" oder die {% key "g"
    %} Taste für "Guttag".
 3. Der Eintrag wird automatisch gespeichert. Wenn Sie möchten, können Sie die
    Tagesansicht nun schließen, indem sie den {% button label="Zurück",
-   icon="chevron-left" %} button klicken oder {% key "Esc" %} auf Ihrer Tastatur
+   icon="chevron-left" %} Button klicken oder {% key "Esc" %} auf Ihrer Tastatur
    drücken.
 
 > {% icon "info-circle" %} **Hinweis:** Freie Tage dienen nur als
@@ -283,10 +283,9 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 ## Urlaub oder Krankheit Erfassen
 
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten
-   Mitarbeiters und klicken Sie dort auf den Tag des Urlaubs- oder eine
-   Krankheitsbeginns.
+   Mitarbeiters und klicken Sie dort auf den Tag des Urlaubs- oder Krankheitsbeginns.
 2. Es öffnet sich ein Menü auf der rechten Seite. Klicken Sie hier auf den {%
-   button label="Urlaub" %} oder {% button label="Krank" %} button oder drücken
+   button label="Urlaub" %} oder {% button label="Krank" %} Button oder drücken
    Sie die {% key "u" %} Taste auf Ihrer Tastatur für "Urlaub" oder die {% key
    "k" %} Taste für "Krank".
 3. Es öffnet sich ein Dialog, in dem Sie den Abweisenheits-Zeitraum und die zu
@@ -379,7 +378,7 @@ aber für eine bessere Nachvollziehbarkeit in der Dokumentation hilfreich sein.
 ### Betrag
 
 Hier können Sie den Betrag der Buchung in Tagen festlegen und ob der Betrag
-abgezogen oder hinzugebucht werden soll. Um den Betrag zum Abzug zu bringen
+abgezogen oder hinzugebucht werden soll. Um den Betrag zum Abzug zu bringen,
 wählen Sie **Abbuchung** aus dem Dropdown. Um Stunden hinzuzubuchen, wählen Sie
 **Gutschrift**. Abbuchungen **verringern** der Urlaubsanspruch des Mitarbeiters,
 während eine Gutschrift den Urlaubsanspruch des Mitarbeiters **erhöht**.
@@ -430,14 +429,14 @@ Einer der großen Vorteile der Arbeitszeitdokumentation in Pentacode ist der
 Umstand, dass Sie jederzeit "in die Vergangenheit reisen" und Korrekturen an
 bereits erfassten Arbeitszeiten vornehmen können. Pentacode berechnet dabei
 automatisch alle betroffenen Lohnabrechnungen und Konten neu und liefert damit
-jederzeit eine **in sich stimmige, wiederspruchsfreie Dokumentation**.
+jederzeit eine **in sich stimmige, widerspruchsfreie Dokumentation**.
 
 Diese Flexibilität birgt allerdings auch Gefahren. So kann zum
 Beispiel die Änderung an einer Arbeitszeit in an einem bereits abgeschlossenen
 Monat schnell zu Unstimmigkeiten mit bereits durchgeführten Lohnabrechnungen
 führen. Desweiteren können Änderungen an bestimmten Vertragsdaten oder
 Zeiterfassungs-Einstellungen ebenfalls zu einer ungewünschten, rückwirkenden
-Neuberechnung von Konten und Lohnabrechungen führen.
+Neuberechnung von Konten und Lohnabrechnungen führen.
 
 Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in
 regelmäßigen Abständen festzuschreiben. Dies tun sie wie folgt:
