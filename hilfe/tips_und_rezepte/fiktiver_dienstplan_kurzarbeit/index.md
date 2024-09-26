@@ -5,7 +5,7 @@ weight:
 icon: table
 
 ---
-Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgelds gesondert und mit großer Aufmerksamkeit überprüft werden wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten Ihre besondere Aufmerksamkeit schenken.
+Wenn Sie Mitarbeiter in Kurzarbeit haben, sollten Sie davon ausgehen, dass die Rechtmäßigkeit des Kurzarbeitsgeldes gesondert und mit großer Aufmerksamkeit überprüft wird. Deshalb sollten auch Sie der sauberen Dokumentation von Arbeits- und Kurzarbeitszeiten besondere Aufmerksamkeit schenken.
 
 Die "sauberste" Weise einer Dokumentation entsteht durch das Führen eines "fiktiven" Dienstplans.
 
