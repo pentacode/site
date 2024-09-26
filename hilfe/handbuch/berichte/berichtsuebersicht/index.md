@@ -12,13 +12,13 @@ keywords:
 
 ---
 Im Menüpunkt "Übersicht" werden wesentliche Kennzahlen in ihrer Entwicklung einander gegenüber gestellt.
-Die Graphen können Sie schnell auf Veränderungen im Geschäftsbetrieb und der Wirtschaftlichkeit des Unternehmens hinweisen
+Die Graphen können Sie schnell auf Veränderungen im Geschäftsbetrieb und der Wirtschaftlichkeit des Unternehmens hinweisen.
 
 ## Vergleichszeitraum wählen
 
 In der Kopfzeile können Sie den Zeitraum wählen, über welchen die Kennzahlen verglichen werden.
 
-Die **gestrichelte Linie** zeigt den **historischen Zeitraum** an, die durchgehende **blaue Linie** den Zeitraum, der mit dem jeweils **gestrigen Tag** geendet hat. Die €-Angabe in blau zeigt entsprechend den aktuellen Zeitraum, in schwarz den historischen Vergleichszeitraum.
+Die **gestrichelte Linie** zeigt den **historischen Zeitraum** an, die durchgehende **blaue Linie** den Zeitraum, der mit dem jeweils **gestrigen Tag** geendet hat. Die €-Angabe in Blau zeigt entsprechend den aktuellen Zeitraum, in Schwarz den historischen Vergleichszeitraum.
 
 {% figure caption="So können Sie die Vergleichszeiträume wählen" %}
 
@@ -28,7 +28,7 @@ Die **gestrichelte Linie** zeigt den **historischen Zeitraum** an, die durchgehe
 
 Im vorliegenden Beispiel wurde als Zeitraum 12 Wochen gewählt. Dies entspricht **zwei Quartals-Zeiträumen**.
 
-Durch ein "Mouse over" über eine der Grafiken können Sie **einzelne Tage** einander **gegenüberstellen**.  **Tag und Datum** erscheinen dabei in der **Fußzeile** der Grafik. Der gewählte Vergleich erscheint dabei **parallel** auch auf allen weiteren Grafiken
+Durch ein "Mouse over" über eine der Grafiken können Sie **einzelne Tage** einander **gegenüberstellen**.  **Tag und Datum** erscheinen dabei in der **Fußzeile** der Grafik. Der gewählte Vergleich erscheint dabei **parallel** auch auf allen weiteren Grafiken.
 
 {% figure caption="Durch einen 'Mouse over' können Sie einzelne Tage einander gegenüberstellen" %}
 
