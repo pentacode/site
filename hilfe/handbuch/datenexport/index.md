@@ -16,7 +16,7 @@ Sie können über den {% button label="Datenexport", icon="download" %}-Reiter v
 - {% icon "file-pdf" %} Der Export findet in ein PDF-Format statt.
 - {% icon "file-text" %} Der Export findet als Textdatei statt, die extern eingelesen werden muss.
 - {% icon "file-csv" %} Der Export findet in ein CSV-Format statt. 
-- {% icon "file-excel" %} Der Export findet im standard Excel-Format statt. 
+- {% icon "file-excel" %} Der Export findet im Standard Excel-Format statt. 
 
 ### Lohnbuchhaltung
 
@@ -37,7 +37,7 @@ Aktuell unterstützte Formate sind:
 
 ### Arbeitszeiten
 
-Im **Arbeitszeit-Nachweis** werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern) um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
+Im **Arbeitszeit-Nachweis** werden alle geleisteten Schichten für die [ausgewählten Mitarbeiter](#mitarbeiterfilter) im [ausgewählten Zeitraum](#zeitraum) mit Pausen und Gesamtdauer, sowie der Stand des Arbeitszeitkontos aufgeführt. Der Arbeitszeitennachweis ist besonders dafür sinnvoll, die Arbeitszeiten durch den Mitarbeiter [gegenzeichnen zu lassen](#unterschrift-anfordern), um Dokumentationsfehler frühzeitig aufzudecken und im Falle einer Prüfung die Bewegungsdaten der Mitarbeiter vorlegen zu können. 
 
 ### Dienstplan 
 
@@ -45,18 +45,18 @@ Hier können Sie den Dienstplan für einzelne Mitarbeiter, Abteilungen oder die 
 
 ### Konten
 
-Hier können Sie die verschiedenen Kontenstände und Bewegungen ihrer Mitarbeiter exportieren. Durch die Option **Auflösung** können Sie bestimmen ob die Konten im Export jeweils im Wochen- Monats- oder Jahresrhythmus saldiert werden sollen.  
+Hier können Sie die verschiedenen Kontenstände und Bewegungen ihrer Mitarbeiter exportieren. Durch die Option **Auflösung** können Sie bestimmen, ob die Konten im Export jeweils im Wochen-, Monats- oder Jahresrhythmus saldiert werden sollen.  
 
 Die Inhalte der Exporte des Arbeitszeit-, Urlaubs- und Zuschlagskontos gleichen den unter dem Reiter [Mitarbeiter](/hilfe/handbuch/mitarbeiter/) dargestellten Konten.
 
 ### Stammdatenblatt
 
 Unter {% button label="**Datenblatt**" %} werden alle unter [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) aufgeführten Daten des Mitarbeiters auf einer übersichtlichen PDF-Seite aufgeführt. 
-Die kann nützlich sein um Mitarbeiterdaten zu übertragen - **achten Sie dabei aber immer darauf, dass es sich hierbei um sensible Daten handelt!**
+Die kann nützlich sein, um Mitarbeiterdaten zu übertragen - **achten Sie dabei aber immer darauf, dass es sich hierbei um sensible Daten handelt!**
 
 ### Kassenbuch
 
-Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auch die Inhalte des Kassenbuchs übertragen. Dies dient dem einfachen Export des in Pentacodes geführten Kassenbuch in die Lohnbuchhaltungssoftware ihrer Wahl. Die verschiedenen Formate, die Ihnen zur Verfügung stehen umfassen neben einem einfachen Ausdruck als PDF:
+Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auch die Inhalte des Kassenbuchs übertragen. Dies dient dem einfachen Export des in Pentacodes geführten Kassenbuch in die Lohnbuchhaltungssoftware ihrer Wahl. Die verschiedenen Formate, die Ihnen zur Verfügung stehen, umfassen neben einem einfachen Ausdruck als PDF:
 
 - DATEV Buchungsstapel
 - DATEV online
@@ -79,7 +79,7 @@ Mit den Pfeiltasten können Sie zwischen den Monaten des Jahres wechseln und aus
 
 Im Mitarbeiterfilter können wir auswählen für welche Mitarbeitergruppen wir einen Export erstellen wollen. Dazu können wir über die Filterleiste die gewünschten Mitarbeiter über Abteilungen, Anstellungsverhältnisse oder einzeln auswählen. Dabei ist zu beachten, dass Filteroptionen sich **untereinander weiter beschränken.**
 
-> {% icon "person-chalkboard" %}**Beispiel**: Wir wählen im Filter die Vertragsart 'Festangestellt' und die Abteilung 'Küche' aus. Nun werden nur die Mitarbeiter ausgewählt, die **sowohl festangestellt, als auch in der Küche tätig sind.** Wählen wir nun zusätzlich die Abteilung 'Service', werden alle Festangestellten angezeigt, welche in **Küche, Service oder in beiden Abteilungen tätig sind.**
+> {% icon "person-chalkboard" %}**Beispiel**: Wir wählen im Filter die Vertragsart 'Festangestellt' und die Abteilung 'Küche' aus. Nun werden nur die Mitarbeiter ausgewählt, die **sowohl festangestellt als auch in der Küche tätig sind.** Wählen wir zusätzlich die Abteilung 'Service', werden alle Festangestellten angezeigt, welche in **Küche, Service oder in beiden Abteilungen tätig sind.**
 
 {% figure caption="Hier etwa exportieren wir die Lohnberichte aller Manager." %}
 <img src="lohnbericht_übersicht.webp" />
@@ -93,7 +93,7 @@ Im Mitarbeiterfilter können wir auswählen für welche Mitarbeitergruppen wir e
 
 ### Per Email versenden
 
-Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versenden an...** eine Email-Adresse einzutragen, an die Sie eine Kopie des Exports verschicken wollen. Dies kann bspw. nützlich sein, um ihrer Buchhaltung vereinfacht Lohndaten zukommen zu lassen. 
+Bei sämtlichen Exporten steht Ihnen die Option zur Verfügung im Feld **Versenden an...** eine Email Adresse einzutragen, an die Sie eine Kopie des Exports verschicken wollen. Dies kann bspw. nützlich sein, um ihrer Buchhaltung vereinfacht Lohndaten zukommen zu lassen. 
 **Einmal eingegeben wird die Email Adresse automatisch ausgefüllt und stets eine Kopie sämtlicher Exporte verschickt!**
 
 ### Im Dokumentenarchiv ablegen
@@ -108,9 +108,9 @@ Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzli
 
 #### Unterschrift anfordern
 
-Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) bekommen welche Ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
+Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) bekommen welche ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
 
-> {% icon "lightbulb" %} **Tipp:** Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen](/hilfe/handbuch/mitarbeiter/allgemein/)
+> {% icon "lightbulb" %} **Tipp:** Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen](/hilfe/handbuch/mitarbeiter/allgemein/).
 
 
 ## Fehlermeldungen
@@ -131,5 +131,5 @@ Da der korrekte Export in ihr Buchhaltungsprogramm auf einige Daten wie **Person
 Sobald Sie auf {% button icon="download", label="Export starten" %} klicken, bietet Ihnen Pentacode mehrere Optionen an:
 
 - {% button icon="eye", label="Öffnen" %} Hier wird eine Vorschau der Datei in ihrem Browser oder in Excel geöffnet.
-- {% icon "download" %} *Downloaden* Sie laden die Dateien zusammengefasst in einem Ordner herunter. Dabei wir für die Nachweise und Berichte jedes Mitarbeiters eine eigene Datei innerhalb des Ordners erstellt.
+- {% icon "download" %} *Downloaden* Sie laden die Dateien zusammengefasst in einem Ordner herunter. Dabei wird für die Nachweise und Berichte jedes Mitarbeiters eine eigene Datei innerhalb des Ordners erstellt.
 - {% icon "print" %} *Drucken* Die Druckvorschau wird geöffnet, mit einem für den Druck optimierten Format der Datei. 

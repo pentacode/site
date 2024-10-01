@@ -7,7 +7,7 @@ icon: stopwatch
 
 Das Erfassen von Arbeitszeiten ist in vielen Betrieben nicht nur eine der wichtigsten, sondern auch eine der zeitraubendsten und fehleranfälligsten Aufgaben im Bereich Personalmanagement. Aber keine Sorge - mit Pentacode wird diese Arbeit fast schon zum Selbstläufer! Es stehen Ihnen drei grundlegende Arten der Zeiterfassung zu Verfügung:
 
-- **Digitale Stempeluhr:** Ihre Mitarbeiter erfassen ihre Zeiten selbstständig über eine [digitale Stempeluhr](/hilfe/stempeluhr/), die als Webapp auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann und am Arbeitsplatz zur Verfügung gestellt wird. Die Mitarbeiter können sich dann vor Ort per individueller Zeiterfassungs-PIN zur Arbeit an- und abmelden, sowie Pausen und Mitarbeiter-Essen erfassen.
+- **Digitale Stempeluhr:** Ihre Mitarbeiter erfassen ihre Zeiten selbstständig über eine [digitale Stempeluhr](/hilfe/stempeluhr/), die als Webapp auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann und am Arbeitsplatz zur Verfügung gestellt wird. Die Mitarbeiter können sich dann vor Ort per individueller Zeiterfassungs-PIN zur Arbeit an- und abmelden, sowie Pausen und Mitarbeiteressen erfassen.
 - **Mitarbeiter-App:** Als Alternative zur Stempeluhr vor Ort können Mitarbeiter ihre Zeiten auch direkt über ihr eigenes Smartphone, Tablet oder Desktopcomputer erfassen. Dies ist vor allem für die Arbeit im Homeoffice oder bei ständig wechselnden Arbeitsorten hilfreich! Mehr zum Thema [Zeiterfassung über die Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app/#zeiterfassung) können Sie im entsprechenden Hilfeartikel nachlesen.
 - **Manuelle Erfassung:** Zu guter Letzt bleibt Ihnen selbstverständlich immer noch die manuelle Erfassung von Arbeitszeiten. Das manuelle Bearbeiten oder Nachtragen von Zeiten ist vor allem dann hilfreich, wenn ein Mitarbeiter vergessen hat, sich an- oder abzumelden. In manchen Betrieben kann aber auch eine vollständig manuelle Zeiterfassung ausreichen (zum Beispiel bei Vertrauensarbeitszeit). Zeiten manuell bearbeiten, können Sie direkt im [Zeiterfassungs-Dashboard](#zeiten-erfassen-und-bearbeiten) und im [Arbeitszeitblatt](/hilfe/handbuch/mitarbeiter/arbeitszeiten/) des Mitarbeiters.
 
@@ -46,7 +46,7 @@ Bereits angelegte Stempeluhren können selbstverständlich auch im Nachhinein no
 1. Navigieren Sie zum [Zeiterfassungs-Dashboard](#das-zeiterfassungs-dashboard)
 2. Wählen Sie die Stempeluhr durch einen Klick aus der Liste aus.
 3. Klicken Sie den {% button icon="ellipsis-h" %} Button in der rechten oberen Ecke und wählen Sie {% button icon="pencil", label="Bearbeiten" %}.
-4. Nehmen Sie die gewünschten Änderungen an Namen, [Arbeitsbereichen](#arbeitsbereiche) und [Funktionen](#funktionen) vor. Um die Änderungen zu übernehmen, klicken Sie den {% button label="Speichern" %} button.
+4. Nehmen Sie die gewünschten Änderungen an Namen, [Arbeitsbereichen](#arbeitsbereiche) und [Funktionen](#funktionen) vor. Um die Änderungen zu übernehmen, klicken Sie den {% button label="Speichern" %} Button.
 
 #### Arbeitsbereiche
 
@@ -68,7 +68,7 @@ Das Löschen von Stempeluhren ist genauso einfach, wie das Erstellen:
 
 1. Navigieren Sie zum [Zeiterfassungs-Dashboard](#das-zeiterfassungs-dashboard)
 2. Wählen Sie die Stempeluhr durch einen Klick aus der Liste auf der linken Seite.
-3. Klicken Sie den {% button icon="ellipsis-h" %} button in der rechten oberen Ecke und wählen Sie {% button icon="trash", label="Löschen" %}.
+3. Klicken Sie den {% button icon="ellipsis-h" %} Button in der rechten oberen Ecke und wählen Sie {% button icon="trash", label="Löschen" %}.
 
 > **{% icon "info-circle" %} Achtung:** Durch das Löschen der Stempeluhr im Zeiterfassungs-Dashboard wird das verbundene Endgerät automatisch getrennt und es sind keine Arbeitszeiten mehr darüber erfassbar! Aber keine Sorge: Es werden weder Arbeitszeiten noch Zeiterfassungsereignisse gelöscht.
 
