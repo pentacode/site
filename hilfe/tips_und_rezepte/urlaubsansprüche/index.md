@@ -7,11 +7,10 @@ keywords: []
 
 ---
 
-Sollten Sie sich dazu entschieden haben zu Pentacode zu wechseln, um ihre gesamte
-Personalplanung unter einem Dach zu haben, kommt früher oder später der Punkt an
+Sollten Sie sich dazu entschieden haben zu Pentacode zu wechseln, um ihre **gesamte Personalplanung unter einem Dach** zu haben, kommt früher oder später der Punkt an
 dem Sie die Urlaubs- und Arbeitskonten ihrer Mitarbeiter - also Resturlaub und
 Über- oder Minderstunden übertragen müssen. Zum Glück ist
-das in wenigen Klicks getan - im Folgenden erkläre ich Ihnen das ganze anhand
+das in wenigen Klicks getan - im Folgenden erklären wir Ihnen das ganze anhand
 eines Beispieles.
 
 ## Warum Konten übertragen?
@@ -27,61 +26,36 @@ nicht einfach entfallen. Um die Mitarbeiterkonten zu Beginn der Nutzung
 von Pentacode zu "eichen", müssen Sie also die Konten einmal auf den aktuellen Stand
 bringen. 
 
-## Urlaubsansprüche Übertragen
+## Konten mehrerer Mitarbeiter in Pentacode übertragen
 
-Um das Urlaubskonto ihres Mitarbeiters auf den richtigen Stand zu bringen
-verwenden Sie den
-[Kontenübertrag](/hilfe/handbuch/mitarbeiter/konten/übertrag-bearbeiten-konten-zurücksetzen).
+Um die Urlaubs-, Arbeitszeit- und SFN-Konten ihrer Mitarbeiter zu übertragen bietet Pentacode die Funktion **Konten Zurücksetzen**. So kommen Sie in das Bearbeitungsmenü:
 
-1. Navigieren Sie dazu zunächst zum Kontenblatt des Mitarbeiters.
-2. Fahren Sie mit der Maus über den ersten Monat des Mitarbeiters und
-   klicken Sie auf den {% button icon="undo" %} Button am linken Rand.
-3. Tragen Sie im erschienen Feld unter **Urlaub** die Anzahl an Resturlaubstagen
-   ein, um diese dem Mitarbeiter gutzuschreiben. 
-4. Klicken Sie auf den {% button icon="save" %}, um die Änderung zu speichern.
+1. Navigieren Sie dazu zum Reiter **Mitarbeiter** und wählen **Arbeitszeitkonto, Urlaubskonto oder Zuschlagskonto**. Die Funktion zum Übertragen ist in allen Konten exakt die selbe. 
+2. Klicken Sie auf das {% icon "ellipsis-h" %} Symbol in der oberen rechten Ecke der Kontenübersicht.
+3. Wählen Sie {% button icon="undo", label="Konten Zurücksetzen" %} aus.
+
+> {% icon "lightbulb" %} **Tipp:** Wenn Sie erst einen einzelnen Mitarbeiter auswählen und in dessen Kontenmenü die Funktion **"Konten Zurücksetzen"** nutzen, öffnet sich das Übertragsmenü **nur für diesen Mitarbeiter**!
+
+### Das Übertragsmenü
+
+Im Übertragsmenü können Sie bestimmen, auf welche Werte die Urlaubs-, Arbeitszeit- und SFN-Konten Ihrer Mitarbeiter gesetzt werden sollen. 
+
+1. Setzen Sie den **Zeitpunkt des Übertrags auf den Beginn Ihrer Arbeit mit Pentacode**. Ab dem Vertragsbeginn ihrer Mitarbeiter führt Pentacode automatisch die Konten stets weiter. Unsere Beispielfirma hat am 2. April 2024 mit der Arbeit mit Pentacode begonnen. 
+2. Tragen Sie für jeden Mitarbeiter die gewünschte Zahl an Arbeitszeit ein, mit der die Führung des Arbeitszeitkontos gestartet werden soll. Positive Zahlen sind dabei Überstunden, negative Zahlen Minderstunden.
+3. Tragen Sie für jeden Mitarbeiter die gewünschte Menge an Urlaubstagen ein, mit der die Führung des Urlaubskontos gestartet werden soll. 
+4. Klicken Sie auf **Übernehmen** um den Übertrag in Pentacode zu speichern und die Konten zu aktualisieren.
 
 Sollten Sie die Menge an bestehendem **Resturlaub nicht wissen**, weil Sie
 bisher keine Personalsoftware verwendet haben - keine Sorge.
 [Hier](#übertrag-händisch-berechnen) beschreiben wir, wie Sie den Resturlaub
 berechnen.
 
-## Über- und Minderstunden Übertragen
+{% figure caption="Bestehende Urlaubsansprüche und angelaufene Über- oder Minderstunden können wir schnell in Pentacode übertragen." %}
 
-Bei Über- und Minderstunden verfahren Sie fast identisch wie beim Übertrag von
-Urlaubsansprüchen. 
+<img src="uebertrag.gif"/>
 
-1. Navigieren Sie dazu zunächst zum Kontenblatt des Mitarbeiters.
-2. Fahren Sie mit der Maus über den erste Monat des Mitarbeiters und
-   klicken Sie auf den {% button icon="undo" %} Button am linken Rand.
-3. Tragen Sie im erschienen Feld unter **Stunden** die Anzahl an Überstunden
-   ein. Falls Sie Minderstunden übertragen wollen, geben Sie vor der Anzahl ein
-   **-** ein.
-4. Klicken Sie auf den {%button icon="save"%} um die Änderung zu speichern.
+{% endfigure %}
 
-{%figure caption="Wenn Sie Resturlaub und Überstunden des Mitarbeiters bereits
-kennen, ist das Übertragen in Sekunden erledigt"%}
-<img src="urlaubsübertrag.gif"/>
-{%endfigure%}
-
-### Kontenübertrag für mehrere Mitarbeiter 
-
-Da Sie bei einem Wechsel zu Pentacode meist nicht nur die Stunden und
-Urlaubstage eines Mitarbeiters übertragen müssen, bietet Pentacode Ihnen auch die
-Funktion mehrere Konten "In einem Schwung" zu übertragen. 
-
-1. Navigieren Sie zunächst unter Mitarbeiter auf Konten und in die Jahresübersicht.
-2. Klicken Sie den {% icon "ellipsis"%} **-Button** in der rechten oberen Ecke.
-3. Es öffnet sich ein Dialog mit der Überschrift "Konten Zurücksetzen". Wählen
-   Sie ihren Startmonat in Pentacode aus.
-4. Füllen Sie die Spalten **"Urlaub"** mit den Resturlaubstagen und
-   **"Stunden"** mit den Über- oder Minderstunden des Mitarbeiters.
-5. Sollte für manche Mitarbeiter nichts zu übertragen sein, lassen Sie die
-   Felder einfach unbeschriftet
-
-{%figure caption="So aktualisieren sie schnell die Urlaubs- und Arbeitskonten
-mehrere Mitarbeiter auf einmal"%}
-<img src="übertrag-mehrere.gif"/>
-{%endfigure%}
 
 ## Urlaubsanspruch händisch berechnen
 
