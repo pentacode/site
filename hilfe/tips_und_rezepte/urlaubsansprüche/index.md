@@ -30,9 +30,11 @@ bringen.
 
 Um die Urlaubs-, Arbeitszeit- und SFN-Konten ihrer Mitarbeiter zu übertragen bietet Pentacode die Funktion **Konten Zurücksetzen**. So kommen Sie in das Bearbeitungsmenü:
 
-1. Navigieren Sie dazu zum Reiter **Mitarbeiter** und wählen **Arbeitszeitkonto, Urlaubskonto oder Zuschlagskonto**. Die Funktion zum Übertragen ist in allen Konten exakt die selbe. 
+1. Navigieren Sie dazu zum Reiter **Mitarbeiter** und wählen **Arbeitszeitkonto, Urlaubskonto oder Zuschlagskonto**. Die Funktion zum Übertragen ist in allen Konten exakt dieselbe. 
 2. Klicken Sie auf das {% icon "ellipsis-h" %} Symbol in der oberen rechten Ecke der Kontenübersicht.
 3. Wählen Sie {% button icon="undo", label="Konten Zurücksetzen" %} aus.
+
+Mehr zur Funktionsweise des Übertrags erfahren Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten--konten-zurücksetzen).
 
 > {% icon "lightbulb" %} **Tipp:** Wenn Sie erst einen einzelnen Mitarbeiter auswählen und in dessen Kontenmenü die Funktion **"Konten Zurücksetzen"** nutzen, öffnet sich das Übertragsmenü **nur für diesen Mitarbeiter**!
 
@@ -43,7 +45,7 @@ Im Übertragsmenü können Sie bestimmen, auf welche Werte die Urlaubs-, Arbeits
 1. Setzen Sie den **Zeitpunkt des Übertrags auf den Beginn Ihrer Arbeit mit Pentacode**. Ab dem Vertragsbeginn ihrer Mitarbeiter führt Pentacode automatisch die Konten stets weiter. Unsere Beispielfirma hat am 2. April 2024 mit der Arbeit mit Pentacode begonnen. 
 2. Tragen Sie für jeden Mitarbeiter die gewünschte Zahl an Arbeitszeit ein, mit der die Führung des Arbeitszeitkontos gestartet werden soll. Positive Zahlen sind dabei Überstunden, negative Zahlen Minderstunden.
 3. Tragen Sie für jeden Mitarbeiter die gewünschte Menge an Urlaubstagen ein, mit der die Führung des Urlaubskontos gestartet werden soll. 
-4. Klicken Sie auf **Übernehmen** um den Übertrag in Pentacode zu speichern und die Konten zu aktualisieren.
+4. Klicken Sie auf **Übernehmen**, um den Übertrag in Pentacode zu speichern und die Konten zu aktualisieren.
 
 Sollten Sie die Menge an bestehendem **Resturlaub nicht wissen**, weil Sie
 bisher keine Personalsoftware verwendet haben - keine Sorge.
@@ -81,6 +83,6 @@ Pentacode speichern.
 
 **Hier noch einmal die Schritte um den Urlaubsanspruch zu berechnen:**
 1. **Monatsanspruch berechnen**
-2. **Zeitspanne berechnen in welcher der Mitarbeiter gearbeitet hat aber nicht über Pentacode geführt wurde**
+2. **Zeitspanne berechnen, in welcher der Mitarbeiter gearbeitet hat aber nicht über Pentacode geführt wurde**
 3. **Monatsanspruch mit Zeitspanne multiplizieren.**
 4. **(Falls vorhanden) Genommene Urlaubstage abziehen und Resturlaub aus dem letzten Jahr aufaddieren.**
