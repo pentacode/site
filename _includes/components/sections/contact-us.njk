@@ -14,10 +14,17 @@
                     weiter.
                 </p>
 
+                <div class="vertical center-aligning layout">
+                    <select id="countryDropdown" class="dropdown" onchange="handleDropdownChange()">
+                        <option value="DE" selected>🇩🇪 Deutschland</option>
+                        <option value="AT">🇦🇹 Österreich</option>
+                    </select>
+                </div>
+
                 <div class="section-contact-us-layout" style="max-width: 45em; margin: 0 auto">
                     <div>
                         <div>
-                            <a href="tel:+4989215482020" style="font-size: 1.2em; line-height: 2em"
+                            <a id="sales-phone-number" href="tel:+4989215482020" style="font-size: 1.2em; line-height: 2em"
                                 ><i class="fal fa-phone"></i> +49 89 2154 820 20 (Sales)</a
                             >
                         </div>
@@ -31,6 +38,7 @@
                         <div class="vertical layout" style="display: inline-block;">
                             <div style="margin-bottom: 0.5em;">
                                 <a
+                                    id="sales-phone-appointment"
                                     href="https://calendly.com/pentacode/telefontermin"
                                     data-open-scheduler="true"
                                     class="btn contact-us text-clip"
@@ -42,6 +50,7 @@
                             </div>
                             <div>
                                 <a
+                                    id="sales-demo-appointment"
                                     href="https://calendly.com/pentacode/demo"
                                     data-open-scheduler="true"
                                     class="btn contact-us text-clip"
@@ -101,3 +110,33 @@
 
     {% include "components/divider.njk" %}
 </section>
+
+<script>
+function handleDropdownChange() {
+      const dropdown = document.getElementById('countryDropdown');
+      const salesPhoneNumber = document.getElementById('sales-phone-number');
+      const salesDemoAppointment = document.getElementById('sales-demo-appointment');
+      const salesPhoneAppointment = document.getElementById('sales-phone-appointment');
+
+      const localizedData = {
+        AT: {
+            salesPhoneNumberText: "<i class=\"fal fa-phone\"></i> +49 89 2154 820 50 (Sales)",
+            salesPhoneNumberHref: "tel:+4989215482050",
+            salesDemoAppointment: "https://calendly.com/pentacode/produkt-demo-oesterreich",
+            salesPhoneAppointment: "https://calendly.com/pentacode/telefontermin-oesterreich",
+        },
+        DE: {
+            salesPhoneNumberText: "<i class=\"fal fa-phone\"></i> +49 89 2154 820 20 (Sales)",
+            salesPhoneNumberHref: "tel:+4989215482020",
+            salesDemoAppointment: "https://calendly.com/pentacode/demo",
+            salesPhoneAppointment: "https://calendly.com/pentacode/telefontermin",
+        }
+      }
+
+
+      salesPhoneNumber.innerHTML = localizedData[dropdown.value].salesPhoneNumberText;
+      salesPhoneNumber.href = localizedData[dropdown.value].salesPhoneNumberHref;
+      salesDemoAppointment.href = localizedData[dropdown.value].salesDemoAppointment;
+      salesPhoneAppointment.href = localizedData[dropdown.value].salesPhoneAppointment;
+    }
+</script>
