@@ -14,11 +14,38 @@ keinen weiteren Einfluss!**
 
 Unter "**Kontoführung ab**" legen Sie fest, ab welchem **Zeitpunkt** die
 **Arbeitszeitkonten** Ihrer Mitarbeiter in Pentacode geführt werden.
-
-Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auch **bruchteilig
-berechnet**. Für die Einheitlichkeit der Buchhaltung und eine später bessere
-Nachvollziehbarkeit ist es jedoch **empfehlenswert**, den **ersten eines
+Für die Einheitlichkeit der Buchhaltung und eine später bessere
+Nachvollziehbarkeit ist es **empfehlenswert**, den **ersten eines
 Monats** zu wählen.
+
+## Beginn des Abrechnungszeitraums
+
+Unter "**Beginn des Abrechnungszeitraums**" legen Sie fest, wann Ihr interner Monat beginnt. 
+Empfohlen wird hier der **1.** eines Monats, da Pentacode dann Monatsgehälter, Sonderleistungen 
+und SFN-Pauschalen vom ersten bis zum letzten eines Monats berechnet. 
+
+> {% icon "exclamation-triangle" %} **Achtung:** Diese Einstellung hat **Einfluss auf die Daten in Ihrem Lohnexport**
+und sollte zu Ihrem exportierten Zeitraum passen! 
+
+Urlaube, SFN-Zuschläge und Lohnkosten werden in Pentacode auf Basis dieser Auswahl **anteilig
+berechnet**. Sofern eine Vertragsänderung innerhalb der Abrechnungsperiode stattfindet, ändert
+sich also der Anspruch des Mitarbeiters entsprechend.
+
+
+
+Pentacode verwendet eine taggenaue Berechnung der anteiligen Ansprüche basierend auf den Kalendertagen.
+
+> {% icon "person-chalkboard" %} **1. Beispiel:** Sie wählen den 1. des Monats als 
+**Beginn des Abrechnungszeitraums**. Verlässt ein Mitarbeiter nun zum 16.09. das Unternehmen,
+werden ihm die Hälfte des Monatsgehaltes und der Sonderleistungen angerechnet (15 von 30 Tagen im Arbeitsverhältnis im September).
+
+> {% icon "person-chalkboard" %} **2. Beispiel:** Sie wählen den 10. des Monats als 
+**Beginn des Abrechnungszeitraums**. Das heißt das den Mitarbeitenden eines volles Gehalt bzw. volle 
+Sonderleistungen für die Arbeit vom 10. bis zum 09. des Folgemonats zustehen.
+Verlässt ein Mitarbeiter nun zum 31.01. das Unternehmen, werden ihm die 70,96% des Monatsgehaltes und der Sonderleistungen angerechnet (22 von 31 Tagen im Arbeitsverhältnis im Oktober).
+
+
+
 
 ## Saldierung SFN-Konten
 
