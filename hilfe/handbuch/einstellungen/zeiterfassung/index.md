@@ -206,8 +206,6 @@ Mahlzeiten werden am Ende der Schicht automatisch gebucht, und zwar basierend au
 
 Der Mitarbeiter kann beim [Beenden der Schicht](/hilfe/stempeluhr#schicht-beenden) selbst angeben, welche Mahlzeiten er zu sich genommen hat. Dabei stehen nur die Mahlzeiten zur Verfügung, deren [Zeiträume](#essensarten-%26-zeiträume) mit der tatsächlichen Arbeitszeit überlappen.
 
-> **{% icon "exclamation-triangle" %} Achtung:** Die Essensbuchung durch den Mitarbeiter ist aktuell nur über die Stempeluhr 2.0 möglich!
-> Dieses Feature wird aber zeitnah auch bei der Zeiterfassung über die Mitarbeiterapp verfügbar sein.
 
 <figure>
 <img src="stempeluhr_schicht_beenden.png" />
@@ -297,14 +295,6 @@ Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten 
 
 Ist diese Option aktiviert, dann wird dem Mitarbeiter bei jedem ein- und ausstempeln (oder einfach durch Eingabe der PIN)
 seine aktuellen Überstunden und Resturlaub angezeigt.
-
-### Aktuellen Dienstplan Anzeigen
-
-Ist diese Option aktiviert können Mitarbeiter über einen Button an der Stempeluhr jederzeit den aktuellen Dienstplan
-einsehen.
-
-> **{% icon "exclamation-triangle" %} Achtung:** Diese Einstellung gilt nur noch für die "alte" Stempeluhr. Für die 
-> Stempeluhr 2.0 finden sie die entsprechende Einstellung im [Zeiterfassungs-Dashboard](/hilfe/handbuch/zeiterfassung/#anzeige)
 
 ### Stempeln via MA-App erlauben
 
