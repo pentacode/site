@@ -7,6 +7,113 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.29.11
+
+### Behobene Fehler
+
+-   Maßnahmen zur Verbesserung des Datenschutzes
+
+## 1.29.10
+
+### Änderungen & Neuigkeiten
+
+-   "Schlagwörter" heißen jetzt "Kategorien" bei Dokumenten und "Fähigkeiten & Merkmale" bei Stammdaten.
+-   Performance-Verbesserungen beim Laden von Arbeitszeiten und Arbeitszeitberichten.
+
+### Behobene Fehler
+
+-   Bei der Erstellung eines neuen Mitarbeiters wurde das Vertragsdatum falsch angezeigt.
+-   In der Stempeluhr wurden beim Anzeigen der Schichtdetailinformationen in einigen Fällen falscher Werte angezeigt.
+-   Bei der Sortierung von Mitarbeitern nach Nachnamen kam es in seltenen Fällen zu Fehlern.
+
+## 1.29.9
+
+### Änderungen & Neuigkeiten
+
+-   Es wurden einige Performanceoptimierungen bei der Generierung von PDF-Dateien durchgeführt.
+
+## 1.29.8
+
+### Behobene Fehler
+
+-   Bei der Anzeige der Tagesabrechnung im Kassenbuch fehlten die Eingabefelder.
+
+## 1.29.7
+
+### Änderungen & Neuigkeiten
+
+-   Österreichische Postleitzahlen werden nun unterstützt.
+-   Beim Exportieren von Mitarbeiterdaten wird nun die Anzahl der betroffenen Mitarbeiter angezeigt.
+-   Die neue Lohngrenze für Aushilfen von 556,00 € ab dem 01.01.2025 wird nun unterstützt.
+-   In der Ansicht aller Mitarbeiterverträge wird nun das Datum des Vertragsendes oder "unbefristet" angezeigt.
+-   In der Ansicht aller Mitarbeiterverträge wird nun die Betriebszugehörigkeitsdauer angezeigt.
+-   Beantragter Urlaub wird nun mit einem neuen Icon angezeigt.
+
+### Behobene Fehler
+
+-   Beim Ausstempeln wurden Mitarbeitern nicht die richtigen Stempel- und Pausenzeiten angezeigt.
+-   Das Sortieren nach Geburtstagen funktionierte nicht, wenn bei einigen Mitarbeitern kein Geburtsdatum hinterlegt war.
+-   Beim Navigieren zu Umsatzgruppen ging der ausgewählte Standort verloren.
+
+## 1.29.6
+
+### Änderungen & Neuigkeiten
+
+-   Technische Modernisierungen im Hintergrund
+
+## 1.29.5
+
+### Behobene Fehler
+
+-   In Unternehmen ohne angelegte Schlagwörter kam es in manchen Fällen beim Erstellen von Mitarbeitern zu einem Fehler.
+-   Beim Löschen von Dienstplan-Tabs kam es in seltenen Fällen zu einem Fehler.
+-   Beim Editieren von Schichten mit archivierten Positionen kam es zu einem Fehler.
+
+## 1.29.4
+
+### Änderungen & Neuigkeiten
+
+-   Rechnungen werden jetzt in Pentacode automatisch aktualisiert, wenn eine Gutschrift oder Rückerstattung erfolgt ist.
+
+## 1.29.3
+
+### Behobene Fehler
+
+-   In einigen Fällen konnte die Pentacode Mitarbeiter-App und das Pentacode Verwaltungsportal nicht geladen werden, wenn ältere Safari-Versionen verwendet wurden.
+-   Beim Anzeigen von Umsatzgruppen im Kassenbuch kam es teilweise zu langen Ladezeiten.
+
+## 1.29.2
+
+### Behobene Fehler
+
+-   Achtung: **Fehler bei der Berechnung anteiliger Monatsgehälter**
+    Die Berechnung anteiliger Gehälter war zwischen 20.09 und 27.09. fehlerhaft, sofern nicht die Standard-Abrechnungsperiode (Gesamter Kalendermonat) verwendet wurde.
+    Bitte überprüfen Sie ihre Abrechnung, und führen Sie sie ggf. erneut durch.
+    Wir bitten die Unannehmlichkeiten zu entschuldigen.
+
+## 1.29.1
+
+### Änderungen & Neuigkeiten
+
+-   Im Bereich "Export" kann nun auch nach Kostenstellen gefiltert werden.
+
+### Behobene Fehler
+
+-   In einigen Fällen konnte der Dienstplan auf der Stempeluhr 2.0 nicht angezeigt werden.
+
+## 1.29.0
+
+### Änderungen & Neuigkeiten
+
+-   Es werden nun anteilige Gehälter, Sonderleistungen und SFN-Pauschalen unterstützt.
+-   In bestimmten Bereichen kann nun auch nach Kostenstellen gefiltert werden.
+-   Verbesserungen der Benutzerfreundlichkeit bei der Auswahl von Filtern.
+-   Beim Wechsel zwischen Mitarbeitern im gleichen Kontext bleibt nun der ausgewählte Zeitraum erhalten.
+
+### Behobene Fehler
+
+-   Bei Mitarbeitern mit Zugang zu mehreren Unternehmen kam es in manchen fällen zu Problemen beim Login und Laden der Mitarbeiter-App.
+
 ## 1.28.8
 
 ### Änderungen & Neuigkeiten
