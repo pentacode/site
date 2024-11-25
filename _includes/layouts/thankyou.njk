@@ -1,0 +1,98 @@
+{% extends "./base.njk" %}<!-- -->
+
+{% block styles %}
+
+{{ super() }}
+
+{% include "styles/divider.html" %}<!-- -->
+<style>
+@media (max-width: 700px) {
+    section {
+        margin: 0;
+}
+
+    section.section-thankyou .content {
+        padding: 0 1em;
+    }
+
+    section.section-thankyou .inner {
+        min-height: 68vh;
+    }
+}
+
+.section-thankyou .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.section-thankyou .inner em {
+    font-weight: bold;
+}
+
+.section-thankyou .header {
+    display: inline-block;
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: var(--color-bg);
+    font-style: normal;
+}
+
+.section-thankyou .subheader {
+    color: var(--orange);
+    margin-top: 0;
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+}
+
+.section-thankyou h3 {
+    font-weight: 500;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.section-thankyou .back-to-home {
+    margin-top: 2em;
+}
+</style>
+{% endblock %}<!-- -->
+
+{% block js %}
+<script src="/assets/js/anime.min.js" async></script>
+<script src="/assets/js/animation.js" async></script>
+{% endblock %} {% block body %} {% include "components/header.njk" %}
+
+<section class="section-thankyou">
+    <div class="inner">
+        <div class="content">
+            <div class="flex items-center justify-center min-h-screen">
+                <div class="bg-white shadow-md rounded-xl p-8 max-w-lg text-center">
+
+                    <h1 class="header" style="margin-bottom: 0.5em !important;">
+                        <strong>Vielen Dank!</strong>
+                    </h1>
+
+                    <h2 class="subheader">Ihre Terminbuchung war erfolgreich.</h2>
+
+                    <h3>
+                        Sie finden alle <em>relevanten Informationen in der Bestätigungsmail.</em>
+                    </h3>
+
+                    <h3>
+                        Wir freuen uns, Sie bald kennen zu lernen.
+                    </h3>
+
+                    <!-- CTA Button -->
+                    <a href="/" class="call-to-action text-clip btn back-to-home">
+                        Zurück zur Startseite
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
