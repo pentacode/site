@@ -8,45 +8,71 @@ categories:
   - Produkt
 ---
 
-Als Teil des v1.30.0 Updates haben wir unter anderem wesentliche Anpassungen am Bereich Berichte/Personalkosten vorgenommen. Wie sich der neue Kostenbericht vom bisherigen unterscheidet und worauf Sie bei der Auswertung und Interpretation des neuen Berichtes achten müssen erfahren Sie in diesem Artikel.
+Mit dem Update auf Version 1.30.0 haben wir den Bereich **Berichte/Personalkosten** überarbeitet. In diesem Artikel erklären wir, was sich geändert hat und worauf Sie bei der Nutzung und Auswertung der neuen Berichte achten sollten.
 
-## Deutlich Verbesserte Performance
+## Warum gab es Änderungen?
 
-Eine der Motivationen für die Überarbeitung der Kostenberichte war eine Optimierung der Performance. Vor allem bei größeren Betrieben mit hohen Datenmengen kam es in der Vergangenheit beim Laden der Kostenberichte zu sehr langen Ladezeiten. Dieses Problem haben wir als Teil der Überarbeitung der Kostenberichte addressiert. Beim Laden der Kostenberichte sollte Ihnen also eine **signifikante Verbesserung der Ladezeiten** auffallen.
+Ein wichtiger Grund für die Überarbeitung war, dass die Berichte oft sehr lange Ladezeiten hatten, besonders in Betrieben mit vielen Daten. Wir haben die **Ladezeiten deutlich verbessert**, sodass die Berichte jetzt schneller geladen werden.
 
-## Überarbeitete Grafiken und UI
+## Was ist neu?
 
-Eine der Änderungen, die Ihnen sofort ins Auge springen werden, ist das überarbeitete User Interface und etwas abgeänderte Grafiken. Zunächst haben wir die Art der Grafik von einem "gestapelten" Flächendiagramm auf ein normales Liniendiagramm geändert. Dies erhöht vor allem bei Unternehmen mit vielen Arbeitsbereichen die Übersichtlichkeit und Lesbarkeit deutlich.
+### 1. Verbesserte Darstellung
+Die Berichte sehen jetzt anders aus. Statt des alten Flächendiagramms gibt es ein **Liniendiagramm**, das übersichtlicher ist. Das ist besonders hilfreich für Unternehmen mit vielen Arbeitsbereichen.
 
-Desweiteren werden Sie feststellen, dass sich die Segementierungsoptionen geändert haben. Zusätzlich zu der Segmentierung nach Arbeitsbereichen, Status (Arbeit, Urlaub, Krank etc.) und Beschäftigungsverhältnis können Sie Kosten nun auch segmentiert nach deren Bestandteilen bzw. Komponenten anzeigen lassen. Diese Umfassen Basislohn, Pausen, Provision, Zuschläge und Mitarbeiteressen. Dies bedeutet auch, dass Zuschläge nun nicht mehr als Segment im Bereich "Status", sondern unter "Komponenten" angezeigt werden.
+### 2. Neue Segmentierungsoptionen
+Bisher konnten Sie die Personalkosten nach Arbeitsbereichen, Status (z. B. Arbeit, Urlaub, Krankheit) und Beschäftigungsverhältnis aufteilen. Jetzt gibt es zusätzlich die Möglichkeit, die Kosten nach **Komponenten** anzuzeigen, wie:
 
-Eine weitere Verbesserung, die wir als Teil diese Updates vorgenommen haben, betrifft die Auswahl der angezeigten Daten. Einzelne Segmente können nun beliebig ein- und ausgeblendet werden. Darüber hinaus können Sie in der Darstellung nach Arbeitsbereichen nicht nur einzelne Abteilungen, sonderen auch gesamte Standorte anzeigen lassen. Dies ermöglicht Ihnen, sich auf bestimmte Teilbereiche zu fokusieren und diese übersichtlicher darzustellen. Sie können zudem den Vergleich mit den Gesamt-Personalkosten ein- oder ausblenden um die Lesbarkeit der Grafik weiter zu verbessern.
+- Basislohn
+- Pausen
+- Zuschläge
+- Provisionen
+- Mitarbeiteressen  
 
-Zu guter letzt haben Sie nun auch die Möglichkeit, Arbeitgeber-Nebenkosten ein- und auszublenden.
+Zuschläge werden also nicht mehr bei „Status“ angezeigt, sondern unter „Komponenten“.
 
-## Umstellung von "tatsächlichen" auf "effektive" Personalkosten
+### 3. Bessere Auswahl der Daten
+- Sie können einzelne Segmente der Berichte **ein- und ausblenden**.
+- Es ist möglich, neben einzelnen Abteilungen auch ganze Standorte darzustellen.
+- Der Vergleich mit den **Gesamt-Personalkosten** kann ein- oder ausgeblendet werden.
 
-Die vermutlich signifikanteste Änderung betrifft die Art der dargestellten Daten. In der Vergangenheit hatten wir versucht, die "tatsächlichen" Personalkosten so genau wie möglich abzubilden. Als "tatsächliche" Personalkosten bezeichen wir den Brutto-Betrag, der am Ende eines Abrechnungszeitraums dem Mitarbeiter gutgeschrieben wird. Im Falle eines Gehaltsempfängers wird der Basislohn in diesem Fall als fester monatlicher Betrag angerechnet (das Gehalt des Mitarbeiters), auf den dann variable Kosten wie Zuschläge oder Provisionen aufgeschlagen werden. Die Segmentierung nach Status (Arbeit/Urlaub/Krank) und Arbeitsbereichen erfolgte dann anteilig basierend auf den im entsprechenden Segment angefallenen Stunden.
+### 4. Arbeitgeber-Nebenkosten
+Neu ist, dass Sie auch die **Arbeitgeber-Nebenkosten** im Bericht ein- oder ausblenden können.
 
-Leider mussten wir feststellen, dass diese Art der Berechnung nicht nur sehr fehleranfällig, sondern auch schwer nachvollziehbar ist und einen Abgleich mit Kostenberichten in anderen Bereichen (z.b. die Dienstplan-Kostenanalyse) deutlich erschwert. **Deshalb haben wir uns entschieden, die Auswertung von den oben beschriebenen "tatsächlichen" Personalkosten auf "effektive" Personalkosten umzustellen.**
+## Was hat sich bei den Berechnungen geändert?
 
-Der Unterschied zwischen "effektiven" und "tatsächlichen" Personalkosten erklärt sich wie folgt: Statt dem tatsächlich ausgezahlten Basislohn wird nun der monetäre Gegenwert der tatsächlich geleisteten Arbeitszeit berechnet, welcher auch bei Gehaltsempfängern abhängig von den geleisten Stunden im Abrechnungszeitraum monatlich variieren kann. In anderen Worten: Während die "tatsächlichen" Personalkosten den im Abrechnungzeitraum zu leistenden Lohn entsprechen, beschreiben die "effektiven" Personalkosten die Verbindlichkeiten an den Mitarbeiter, die auch den monetären Wert von angefallenen Über- und Minderstunden berücksichtigen. Bei Stundenlöhnern ist dieser Betrag identisch, bei Gehaltsempfängern ändert sich die Berechnungsmethode wie folgt:
+Bisher haben wir die **„tatsächlichen“ Personalkosten** angezeigt. Das sind die Beträge, die den Mitarbeitenden nach einem Abrechnungszeitraum wirklich ausgezahlt werden. Dabei gab es aber zwei Probleme:
 
-> **[Basislohn] = [Geleistete Stunden] * [Effektiver Stundenlohn]**
+- Die Berechnungen waren oft schwer nachvollziehbar.
+- Ein Vergleich mit anderen Berichten, wie der Dienstplan-Kostenanalyse, war kompliziert.
 
-Der effektive Stundenlohn eines Gehaltsempfängers ergibt sich wie folgt:
+**Deshalb zeigen die Berichte jetzt die „effektiven“ Personalkosten an.**
 
-> **[Effektiver Stundenlohn] = ([Monatliches Gehalt] + [Monatliche Sonderleistungen]) / ([Wochen-Sollstunden] * [Wochenfaktor])**
+### Unterschied: „tatsächliche“ vs. „effektive“ Personalkosten
 
-Wobei der sogenannte "Wochenfaktor" im Regelfall **4,35** beträgt. Dieser kann allerdings in den Grundeinstellungen unter [Einstellungen/Unternehmen](/hilfe/handbuch/einstellungen/unternehmen/#wochenfaktor) bei Bedarf angepasst werden.
+- **„Tatsächliche“ Personalkosten:** Das, was am Ende des Monats ausgezahlt wird.
+- **„Effektive“ Personalkosten:** Der Wert der tatsächlich geleisteten Arbeitszeit, inklusive Über- und Minderstunden.  
 
-Die Auswertung nach "effektiven" Personalkosten hat zusätzlich zu den oben genannten Faktoren folgende Vorteile:
+Bei Stundenlöhnern bleibt die Berechnung gleich. Bei Gehaltsempfängern wird der Basislohn jetzt wie folgt berechnet:
 
-- Deutlich einfacher nachvollziehbar, das direkt Abhängig von den geleisteten Stunden.
-- Anders als die "tatsächlichen" Personalkosten stellen die "effektiven" Personalkosten eine **wesentlich deutlichere Representation des Personalaufwands** dar, der für die Betrachtung des wirtschaftlichen Erfolgs des Unternehmens notwendig ist. So können zum Beispiel die effektiven Personalkosten mit den im gleichen Zeitraum gewonnenen Erträgen verglichen werden, um einen Messwert für die wirtschaftliche Produktivät des gesamten Unternehmens sowie einzelner Arbeitsbereiche zu erhalten. 
-- Während die tatsächlichen Personalkosten immer nur für gesamte, abgeschlossen Abrechnungszeiträume berechnet und segmentiert werden können, ermöglichen die effektiven Personalkosten eine fortlaufende Auswertung über beliebige Zeiträume. So werden in Zukunft Berichte über benutzerdefinierte Zeiträume erstellt werden können, die auch partielle und nicht abgeschlossene Abrechnungszeiträume umfassen können.
-- Kostenbeträge sollten nun konsistent mit anderen Bereichen der App sein, wie z.B. die Kostenanalyse im Dienstplan.
+> **Basislohn = [Geleistete Stunden] * [Effektiver Stundenlohn]**
 
-Wir sind überzeugt, dass die überarbeitete Berechnungsmethode, sowie die Verbesserung der User-Experience und Performance einen deutlichen Mehrwert für unsere Kunden darstellen. Sollten Sie dennoch Fragen oder Bedenken zur Umstellung haben, dann zögern Sie bitte nicht, sich an unseren Support zu wenden.
+Der **effektive Stundenlohn** wird so berechnet:
+
+> **Effektiver Stundenlohn = ([Monatliches Gehalt] + [Monatliche Sonderleistungen]) / ([Wochen-Sollstunden] * [Wochenfaktor])**
+
+Der Wochenfaktor beträgt in der Regel **4,35**, kann aber in den [Einstellungen](/hilfe/handbuch/einstellungen/unternehmen/#wochenfaktor) angepasst werden.
+
+
+## Vorteile der neuen Berechnungsmethode
+
+1. **Einfacher nachzuvollziehen**, weil sie von den geleisteten Stunden abhängt.
+2. **Bessere Darstellung des tatsächlichen Personalaufwands**, da die Kosten direkt mit den Einnahmen verglichen werden können.
+3. Berichte können jetzt für beliebige Zeiträume erstellt werden, auch für noch nicht abgeschlossene Abrechnungszeiträume.
+4. Die Kosten sind jetzt konsistent mit anderen Berichten in der App, wie der Dienstplan-Kostenanalyse.
+
+## Unser Fazit
+
+Mit dem Update sind die Berichte übersichtlicher, schneller und einfacher zu verstehen. Wir hoffen, dass Sie davon profitieren. Bei Fragen oder Problemen können Sie sich jederzeit an unseren Support wenden.
+
 
 
