@@ -1,6 +1,6 @@
 ---
 title: "Überarbeitung der Kostenberichte"
-date: 2024-11-21
+date: 2024-11-27
 cover: kostenberichte_neu.png
 coverAlt: Der neue Kostenbericht
 author: mklein
