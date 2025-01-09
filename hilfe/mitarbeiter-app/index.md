@@ -70,8 +70,41 @@ So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
 5. Wenn Sie möchten können Sie nun noch einen benutzerdefinierten Anzeigenamen
    wählen. Tippen Sie auf **"Hinzufügen"** um den Vorgang abzuschließen.
 
-{% figure extraClass="centered" %} <img src="installieren-ios-1.jpeg" /> <img
-src="installieren-ios-2.jpeg" /> {% endfigure %}
+{% figure extraClass="centered" %} <img src="installieren-ios-1.webp" /> <img src="installieren-ios-2.webp" /> {% endfigure %}
+
+## Kamerazugriff gewähren
+
+Um die Funktion 'QR-Code scannen' beim [Einstempeln](#einstempeln) zu verwenden, müssen Sie der Pentacode App Zugriff auf ihre Kamera gewähren. Einmal durchgeführt wird diese Einstellung gespeichert. 
+
+> {% icon "info-circle" %} Die Pentacode App wird **nie** die Kamera ihres Handys für andere Zwecke verwenden!
+
+### Android 
+
+Mit einem Androidhandy gehen Sie so vor:
+
+1. Einstellungen öffnen: Tippen Sie auf das Zahnrad-Symbol in Ihrem App-Menü oder ziehen Sie die Schnellleiste von oben nach unten und tippen Sie auf das Zahnrad.
+
+2. Apps auswählen: Scrollen Sie nach unten und wählen Sie "Apps" oder "Anwendungsmanager".
+
+3. Pentacode App finden: Suchen Sie in der Liste der installierten Apps nach der Pentacode App und tippen Sie darauf.
+
+4. Berechtigungen verwalten: Tippen Sie auf "Berechtigungen".
+
+5. Kamera aktivieren: Schalten Sie den Schalter neben "Kamera" auf "Ein", um der App den Zugriff zu erlauben.
+
+### IOS 
+
+Mit einem iPhone gehen Sie so vor: 
+
+1. Einstellungen öffnen: Tippen Sie auf das Zahnrad-Symbol auf Ihrem Startbildschirm.
+
+2. Datenschutz & Sicherheit auswählen: Scrollen Sie nach unten und tippen Sie auf "Datenschutz & Sicherheit".
+
+3. Kamera auswählen: Tippen Sie auf "Kamera".
+
+4. Pentacode App finden: Suchen Sie in der Liste nach der Pentacode App.
+
+5. Zugriff erlauben: Schalten Sie den Schalter neben der App auf "Ein", um den Kamerazugriff zu gestatten.
 
 ## Einloggen
 
@@ -116,6 +149,8 @@ ist auch das Anmelden über unsere **digitale Stempeluhr vor Ort** (siehe
 Je nach Vereinbarung mit ihrem Personaler benötigen sie entweder einen vor Ort
 angebrachten QR Code, um ihre Schicht zu beginnen oder Sie können auf diesen
 verzichten.
+
+> {% icon "info-circle" %} Um den QR Code zu scannen, müssen Sie der Pentacode App [den Zugriff zu Ihrer Kamera](#kamerazugriff-gewähren) gewährt haben. 
 
 1. Klicken Sie auf den Reiter **Zeiterfassung**
 2. Nun sehen Sie ihre bevorstehende Schicht. Klicken Sie auf {% button label="Schicht beginnen", icon="play-circle" %}.
