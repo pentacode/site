@@ -2,16 +2,16 @@
 title: Flexible Führung und ihre Vorteile
 date: 2024-09-23
 cover: "nl12_fuehrung_cover.webp"
-coverAlt: ""
+coverAlt: "Der Führungsstil bestimmt die Effizienz des Teams"
 author: jseidel
-categories:
+categories: 
     - ratgeber
 ---
 
 <p style="text-align: center; font-size: 22px;"> *„Wie man in den Wald hineinruft,
 so schallt es heraus!“* </p>
 
-<p style="text-align: center"> *Redensart*  </p>
+<p style="text-align: center"> *Sprichwort*  </p>
 
 
 Die Stimmung und Effizienz eines Teams werden maßgeblich von einer Person bestimmt – der Führungskraft. Die Art und Weise, wie ein Betrieb geführt wird, ist äußerst individuell. Dennoch hat die Psychologie einige **Führungsstile** identifiziert, in denen sich fast jede Führungskraft wiederfinden kann.
