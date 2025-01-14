@@ -1,5 +1,5 @@
 ---
-title: 
+title: Der individuelle Mitarbeiter
 date: 2025-01-20
 cover: "nl14_individuell_cover.webp"
 coverAlt: ""
@@ -18,13 +18,21 @@ Aber – und das ist entscheidend – **jeder Mensch ist individuell**. Was für
 
 <p style="text-align: center"> **Hier sind drei praktische Tipps, um das Beste aus der Vielfalt Ihres Teams herauszuholen!** </p>
 
-##
+{% figure caption="" %}
+
+<img src="nl14_1.webp" width="800"/>
+
+{% endfigure %}
 
 Alle Mitarbeiter haben im Kern die gleichen Grundbedürfnisse – **(finanzielle) Sicherheit, Wertschätzung, Autonomie** und den Drang, einen sinnvollen Beitrag zu leisten. Aber wie stark diese Bedürfnisse ausgeprägt sind, unterscheidet sich von Person zu Person. Manche Mitarbeiter schätzen klare Strukturen, während andere mehr Freiraum brauchen und Verantwortung übernehmen möchten.
 
 Um die individuellen Unterschiede und Motivatoren Ihrer Mitarbeiter zu erkennen, ist die **offene Kommunikation weiterhin das Mittel der Wahl**. Fragen Sie Ihre Mitarbeiter regelmäßig nach Wünschen, Verbesserungsvorschlägen und Erkenntnissen. Wie Sie ohne großen Aufwand eine offene und konstruktive Kommunikation fördern, haben wir bereits in [diesem Artikel](/blog/motivation_4_kommunikation/) behandelt.
 
-##
+{% figure caption="" %}
+
+<img src="nl14_2.webp" width="800"/>
+
+{% endfigure %}
 
 Es ist viel einfacher, **von Anfang an die richtigen Mitarbeiter einzustellen**, als später nachzujustieren. Dabei geht es nicht nur um die fachlichen Qualifikationen – auch die Persönlichkeit und die langfristige Passung zum Unternehmen sollten wir beachten. Das ist natürlich leichter gesagt als getan, gerade in Branchen mit Fachkräftemangel und hohem Turnover. Trotzdem wird sich das Investment in die Auswahl der richtigen Mitarbeiter langfristig lohnen und Nerven sparen.
 
@@ -34,11 +42,15 @@ Fragen wie: **"Was hat Sie in der Vergangenheit dazu gebracht, einen Job zu kün
 
 <p style="text-align: center"> **Denken Sie daran: Es fällt uns oft schwer, zu sagen, was wir wollen – aber wir wissen meist sehr genau, was wir nicht wollen!** </p>
 
-##
+{% figure caption="" %}
+
+<img src="nl14_3.webp" width="800"/>
+
+{% endfigure %}
 
 Jeder Mitarbeiter hat Stärken und Schwächen. Doch anstatt sich auf Schwächen zu konzentrieren, sollten sie den **Fokus auf Stärken** legen. Finden Sie heraus, wo die Stärken Ihrer Mitarbeiter liegen, und helfen Sie ihnen, ihre **Nische im Unternehmen** zu finden. Geben Sie Ihren Mitarbeitern die Möglichkeit, Verantwortung in den Bereichen zu übernehmen, in denen sie besonders gut sind.
 
-Achten Sie darauf, dass Teams dann am besten funktionieren, wenn sie **komplementäre Stärken** vereinen. Das erlaubt nicht nur Schwächen auszugleichen, sondern die Stärken der Anderen können dazu anregen, voneinander zu lernen und sich gegenseitig zu unterstützen. Das gegenseitige Lernen können wir zudem mit Mentorprogrammen oder Austauschrunden stärken.
+Achten Sie darauf, dass Teams dann am besten funktionieren, wenn sie **komplementäre Stärken** vereinen. Das erlaubt nicht nur Schwächen auszugleichen, sondern die Stärken der Anderen können dazu anregen, voneinander zu lernen und einander zu unterstützen. Das gegenseitige Lernen können wir zudem mit Mentorprogrammen oder Austauschrunden stärken.
 
 ## Fazit
 
