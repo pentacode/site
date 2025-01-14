@@ -20,10 +20,10 @@ Das wollen wir heute ändern! Wir möchten gemeinsam mit Ihnen die Normen in Ihr
 
 Wie mächtig soziale Normen sind, kann man gut daran erkennen wie unterschiedlich sich Menschen in verschiedenen Umfeldern verhalten. Anwälte, Köche und Monteure haben innerhalb ihres Arbeitslebens komplett unterschiedliche Rollen und verhalten sich nach den Erwartungen ihrer Branche. Doch sobald sie einen Fahrstuhl betreten, werden all diese Unterschiede neutralisiert. **Die soziale Norm ist ganz klar:** Wir drücken unser Stockwerk, drehen uns zur Tür und bauen kaum Blickkontakt mit unseren Mitmenschen auf. Es steht nirgendwo geschrieben, dass wir uns zur Fahrstuhltür drehen müssen. Einmal beobachtet, werden Sie diese markante soziale Norm jedoch nicht mehr ignorieren können.
 
-Auch wenn das Beispiel banal wirkt: Es zeigt wie soziale Normen sich 
-1. **Von Situation zu Situation unterscheiden**
-2. **Oft nicht bewusst wahrgenommen werden** 
-3. **Unser Verhalten beeinflussen.**
+Auch wenn das Beispiel banal wirkt, es zeigt wie soziale Normen sich:
+**1. Von Situation zu Situation unterscheiden**
+**2. Oft nicht bewusst wahrgenommen werden** 
+**3. Unser Verhalten beeinflussen.**
 
 ## Normen im Team beobachten
 
