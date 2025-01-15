@@ -70,7 +70,15 @@ So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
 5. Wenn Sie möchten können Sie nun noch einen benutzerdefinierten Anzeigenamen
    wählen. Tippen Sie auf **"Hinzufügen"** um den Vorgang abzuschließen.
 
-{% figure extraClass="centered" %} <img src="installieren-ios-1.webp" /> <img src="installieren-ios-2.webp" /> {% endfigure %}
+<div style="display:flex;flex-direction:row;">
+   {% figure caption="Klicken Sie auf das \"Teilen\"-Symbol in der Menüleiste", extraClass="centered width-40pc" %}
+   <img src="installieren-ios-1.webp" />
+   {% endfigure %}
+
+   {% figure caption="Wählen Sie die Option 'Zum Home-Bildschirm' aus dem Menü", extraClass="centered width-40pc" %}
+   <img src="installieren-ios-2.webp" />
+   {% endfigure %}
+</div>
 
 ## Kamerazugriff gewähren
 
@@ -105,6 +113,7 @@ Mit einem iPhone gehen Sie so vor:
 4. Pentacode App finden: Suchen Sie in der Liste nach der Pentacode App.
 
 5. Zugriff erlauben: Schalten Sie den Schalter neben der App auf "Ein", um den Kamerazugriff zu gestatten.
+
 
 ## Einloggen
 
