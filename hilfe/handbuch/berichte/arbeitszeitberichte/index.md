@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Arbeitszeit
-weight: 
+weight: 4
 icon: hourglass-clock
 keywords:
 - stundenaufwand

@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Umsätze
-weight: 
+weight: 5
 icon: sack-dollar
 keywords:
 - umsatzgruppen

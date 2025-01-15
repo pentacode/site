@@ -1,7 +1,7 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Übersicht
-weight: 
+weight: 1
 icon: chart-line
 keywords:
 - übersicht

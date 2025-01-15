@@ -1,43 +1,63 @@
 ---
 layout: layouts/hilfe/single.njk
 title: Personalkosten
-weight: 
+weight: 3
 icon: hand-holding-dollar
 keywords:
 - personalkosten
 
 ---
-Der Menüpunkt "**Personalkosten**" zeigt Ihnen grafisch Ihrer Aufwendungen für Lohn und Gehalt in **Summe** und in der **Zusammensetzung**. Die Lohnkosten beinhalten die **Arbeitgeberbeiträge** zur Sozialversicherung, nicht jedoch die Umlagen U1 und U2 und die Beiträge zur Berufsgenossenschaft.
+Der Menüpunkt "**Personalkosten**" zeigt Ihnen grafisch Ihrer Aufwendungen für Lohn und Gehalt in **Summe** und in der **Zusammensetzung**. Ob die Lohnkosten die **Arbeitgeberbeiträge** zur Sozialversicherung beeinhalten, können Sie unter [Nebenkosten](#inkl-nebenkosten) bestimmen.
+
+> {% icon "info-circle" %} **Wichtig:** Die Personalkosten werden anhand der durch die Mitarbeiter geleisteten Arbeit (inklusive Überstunden) ermittelt - nicht Anhand der tatsächlich ausgezahlten Löhne.
 
 ## Ansicht
 
-Sie können als Ansicht zwischen "**Status**", "**Anstellung**" und "**Abteilung**" wählen.
+Sie können als Ansicht zwischen "**Arbeitsbereiche**", "**Status**", "**Komponenten**" und "**Anstellung**" wählen. Zusätzlich können Sie noch die Zusatzeinstellungen "**Nebenkosten**" und "**Gesamtkosten**" ein- oder ausblenden. **In der oberen rechten Ecke wählen Sie das Jahr für den Personalkostenbericht aus.**
 
-"Status" zeigt die Lohnkosten in ihrer Zusammensetzung, "Anstellung" die Verteilung der Lohnkosten nach [Beschäftigungsverhältnis](/hilfe/handbuch/mitarbeiter/vertrag/) und "Abteilung" die Verteilung der Lohnkosten auf die Abteilungen in Ihrem Unternehmen.
-
-{% figure caption="Hier wählen Sie die Ansicht." %}
+{% figure caption="Hier wählen Sie die Aufteilung des Personalkostenberichts." %}
 
 <img src="personalkosten_ansicht.webp"/>
 
 {% endfigure %}
 
-## Jahres-Summe
+### Arbeitsbereiche
+Arbeitsbereiche zeigen die Aufteilung der Lohnkosten auf die verschiedenen [Abteilungen und Standorte](/hilfe/handbuch/einstellungen/arbeitsbereiche/) des Unternehmens. In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen auf welche Arbeitsbereiche die Berichte aufgeteilt werden sollen. 
 
-Die "Tortengrafik" zeigt die während des Jahres fortlaufend **auflaufende Jahreslohn-Summe**. Ein "Mouse over" über die farbig abgesetzten Tortenstücke zeigt Ihnen die Summe der einzelnen [**Lohnarten**](/hilfe/handbuch/einstellungen/buchhaltung/), die Sie in Pentacode angelegt haben.
+### Status
+Die Statusansicht zeigt die Zusammensetzung der Personalkosten anhand des Arbeitsstatus des Mitarbeiters - also reguläre Arbeitstage, Urlaubstage, Krankheitstage und zusätzliche Optionen. In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen auf Mitarbeiterstati die Berichte aufgeteilt werden sollen. 
 
-{% figure caption="Mit einem 'Mouse over' werden die einzelnen Beitragsleistungen gezeigt." %}
+### Komponenten 
+Die Komponentenansicht zeigt die Personalkosten aufgeteilt auf die verschiedenen Teile der Bezahlung. Darunter zählen etwa Basislohn, Zuschläge und bezahlte Pausen. In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen auf welche Komponenten der Bezahlung die Berichte aufgeteilt werden sollen. 
 
-<img src="personalkosten.gif"/>
+{% figure caption="Mit dem Filter können Sie einstellen, welche Komponenten in den Bericht einfließen." %}
+
+<img src="komponenten_filter.gif"/>
 
 {% endfigure %}
 
-## Monats-Summen
+### Anstellung
+Die Anstellungsansicht zeigt die Personalkosten aufgeteilt auf die [Beschäftigungsverhältnis](/hilfe/handbuch/mitarbeiter/vertrag/). In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen welche Beschäftigungsverhältnisse in die Berichte einfließen sollen. 
 
-In dieser Grafik werden die verschiedenen Lohnarten in ihrem **Jahresverlauf** mit eigenen Werten für jeden Monat gezeigt. Durch "Mouse over" erfahren Sie die Zusammensetzung in €-Beträgen.
+### Inkl. Nebenkosten
+Standardmäßig sind die Arbeitsgebernebenkosten für Sozialversicherung in den Personalkostenbericht mit einberechnet. Sie können diese jedoch deaktivieren, indem Sie den Haken bei "**Inkl. Nebenkosten**" in der oberen rechten Ecke abwählen. Sie werden sehen, dass sich einzelne Positionen, sowie die Gesamtkosten um die Nebenkosten reduzieren. 
 
-{% figure caption="Fahren Sie über einen Monat des angezeigten Jahres können Sie die genauen Beträge der Personalkosten sehen." %}
+> {% icon "exclamation-triangle" %} **Achtung** Die Umlagen U1 und U2, sowie die Beiträge zur Berufsgenossenschaft werden nicht als Nebenkosten mitberechnet.
 
-<img src="personalkosten_monat.webp"/>
+### Gesamtkosten
+Die normalerweiße in schwarz dargestellte Gesamtkostenlinie können Sie mit einem Klick auf  {% icon "chart-line" %} "**Gesamt**" deaktivieren. 
+
+## Tortendiagramm Jahres-Summe
+
+Die "Tortengrafik" zeigt die während des Jahres fortlaufend **auflaufende Jahreslohn-Summe**. Ein "Mouse over" über die farbig abgesetzten Tortenstücke zeigt Ihnen die einzelnen unter [Ansicht](#ansicht) bestimmten Komponenten der Personalkosten.
+
+## Liniendiagramm Monats-Summen
+
+Die "Liniengrafik" zeigt die Aufteilung der monatlichen Personalkosten über das ausgewählte Jahr. Ein "Mouse over" zeigt die genaue Aufteilung mit Summen für jede unter [Ansicht](#ansicht) bestimmte Komponente der Personalkosten.
+
+{% figure caption="Mit einem 'Mouse over' werden die einzelnen Komponenten der Personalkosten angezeigt." %}
+
+<img src="personalkosten.gif"/>
 
 {% endfigure %}
 
