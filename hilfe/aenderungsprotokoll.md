@@ -7,6 +7,94 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.31.0
+
+### Änderungen & Neuigkeiten
+
+-   Mitarbeiter können Urlaubsanträge jetzt bis zu 15 Monate im Voraus stellen.
+-   Die Sektion **Berichte > Ersparnis** wurde überarbeitet.
+-   Der neue **Individuelle Excel-Tabelle Export** ermöglicht es, eine Excel-Tabelle mit benutzerdefinierten Filtern und Spalten zu erstellen.
+
+### Behobene Fehler
+
+-   Links zu Dokumenten, die per E-Mail verschickt werden, sind jetzt 14 Tage gültig.
+
+## 1.30.6
+
+### Behobene Fehler
+
+-   In seltenen Fällen wurden Heiligabend und Silvester als Feiertage dargestellt.
+-   In einigen Fällen konnte die Exportliste für Mitarbeiterstammdaten nicht erstellt werden.
+-   In seltenen Fällen wurde die Summe beitragsfreier Zuschläge nicht im Lohnbericht angezeigt.
+
+## 1.30.5
+
+### Behobene Fehler
+
+-   In einigen Fällen wurden inaktive Mitarbeiter im Dienstplan angezeigt.
+-   Es war gelegentlich nicht möglich, neue Schichtvorlagen zu erstellen.
+
+## 1.30.4
+
+### Änderungen & Neuigkeiten
+
+-   Alle Personalkosten sind nun unter **Berichte > Personalkosten** einsehbar.
+
+### Behobene Fehler
+
+-   In seltenen Fällen kam es zu fehlerhaften Zuschlagsberechnungen, wenn die Stempelzeit nach dem "Schichtbeginn vor"-Zeitpunkt gerundet wurde.
+-   Unveränderte Zuschläge wurden in manchen Fällen fälschlicherweise als Vertragsänderungen angezeigt.
+
+## 1.30.3
+
+### Behobene Fehler
+
+-   In der Abwesenheiten-Übersicht wurden die Urlaubsansprüche für 2025 nicht korrekt angezeigt.
+
+## 1.30.2
+
+### Behobene Fehler
+
+-   In einigen Fällen wurde die Zeit-PIN als vergeben angezeigt, obwohl sie unbenutzt war.
+-   Bei beantworteten Urlaubs- und Krankheitsanträgen wurde "Unbekannt" statt des Genehmigenden angezeigt.
+-   In seltenen Fällen konnte keine spontane Schicht gestartet werden.
+-   In einigen Fällen wurde das Datum für den Bereich "Umsätze" nicht übernommen.
+-   Die Stundenwerte für Überstunden wurden nicht überall im gleichen Format angezeigt.
+
+## 1.30.1
+
+### Behobene Fehler
+
+-   In einigen Fällen musste man das Abbrechen der Bearbeitung der Einstellungen in der Mitarbeiter-App mehrfach bestätigen.
+
+## 1.30.0
+
+### Änderungen & Neuigkeiten
+
+-   Die alte Stempeluhr wurde abgeschaltet. [Hier](/hilfe/handbuch/zeiterfassung/#stempeluhr-einrichten) erfahren Sie, wie Sie eine neue Stempeluhr anlegen.
+-       Der alte Dienstplan wurde abgeschaltet. Falls Sie den neuen Dienstplan noch nicht genutzt haben, können Sie sich [hier](/hilfe/handbuch/dienstplan/) über die neuen Funktionen informieren.
+-   Der Personalkostenbericht wurde grundlegend überarbeitet. Weitere Informationen erhalten Sie auf [unserem Blog](/blog/ueberarbeitung_kostenberichte/).
+-   Performance-Verbesserungen beim Laden von der Übersicht der Berichte.
+-   Es gibt eine neue Ansicht unter **Umsätze > Alle Umsätze**, die alle erfassten Umsätze anzeigt.
+-   Im Bereich **Umsätze** wurden die Umsatz- und Vorsteuersätze aus der Zeit der Corona-Pandemie aus der Benennung der Umsatz- und Vorsteuergruppen entfernt.
+-   Es kann nun der **Beginn des Abrechnungszeitraums** eingegeben werden, so dass anteilige Gehälter entsprechend Ihres Lohnlaufs berechnet werden können!
+
+### Behobene Fehler
+
+-   In einigen Fällen wurden Standorte in der falschen Sortierung geladen.
+
+## 1.29.13
+
+### Behobene Fehler
+
+-   Bei Mitarbeitern mit Verwaltungszugang aber ohne zugewiesene Positionen wurden Berechtigungen nicht richtig erkannt.
+
+## 1.29.12
+
+### Behobene Fehler
+
+-   In einigen Fällen war es nicht möglich zwischen Unternehmen zu wechseln.
+
 ## 1.29.11
 
 ### Behobene Fehler
