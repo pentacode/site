@@ -40,15 +40,15 @@
                 showReviews: true,
                 hideDate: false,
                 hideName: false,
-                bottom: "140px",
+                bottom: "180px",
                 googleStars: false,
                 zIndex: "1000",
             });
 
             const seal = document.querySelector(".pe-pro-seal")
             new IntersectionObserver(
-                ([entry]) => seal.classList.toggle("showing", entry && entry.isIntersecting)
-            ).observe(document.querySelector("#preise"));
+                ([entry]) => seal.classList.toggle("showing", entry && !entry.isIntersecting)
+            ).observe(document.querySelector(".hero"));
         }
 
         if (window.innerWidth > 600) {
