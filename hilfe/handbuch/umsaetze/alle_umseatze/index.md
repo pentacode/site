@@ -9,7 +9,7 @@ Unter der Ansicht "Alle Umsätze" sehen Sie sämtliche Einnahmen und Ausgaben ih
 
 ## Umsatzarten
 
-Unter der Spalte "**Art**" können Sie die jeweilige Form des Umsatzes unterscheiden. Fahren sie mit dem Cursor über das jeweilige Symbol, für eine genauere Erklärung. 
+Unter der Spalte "**Art**" können Sie die jeweilige Form des Umsatzes unterscheiden. Fahren Sie mit dem Cursor über das jeweilige Symbol, für eine genauere Erklärung. 
 
 ### Umsatzarten filtern
 
