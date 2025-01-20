@@ -63,6 +63,12 @@ Auf die gleiche Art und Weise wie die Lohn- und Mitarbeiterdaten können Sie auc
 - Lexware
 - Generisch (Alle Kassenbucheinträge als standardmäßige CSV-Datei für den Import in verschiedene Programme)
 
+### Individuelle Exporte
+
+Individuelle Exporte können Sie verwenden um, eine individuelle Zusammenstellung von Informationen in einer Excel Tabelle zusammenzufassen. Dabei sind ihrer Kreativität in der Anwendung kaum Grenzen gesetzt. Klicken Sie auf das {%icon "toggle-on"%} **Symbol** um die Liste möglicher Spalten aufzuführen. 
+
+Mit {%icon "toggle-off"%} **Keine** und {%icon "toggle-on"%} **Alle** könne Sie alle Spalten an- oder abwählen. Wählen Sie sonst die gewünschten Spalten für ihre Exporttabelle aus und verfahren Sie mit [Zeitraum](#zeitraum) und [Mitarbeiterfilter](#mitarbeiterfilter) genau wie in den anderen Exportformaten. 
+
 ## Exportoptionen
 
 Nachdem Sie [das gewünschte Exportformat](#exportformat) ausgewählt haben, können Sie durch weitere Optionen den Export personalisieren. 
