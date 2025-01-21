@@ -34,15 +34,8 @@
                     {{ hero_text | markdownify | safe }}
                 </h3>
 
-                <div class="buttons">
-                    <a 
-                        href="https://calendly.com/pentacode/demo"
-                        data-open-scheduler="true"
-                        class="btn highlight get-started"
-                    >
-                        <span>Jetzt Online-Demo Buchen</span>
-                        <i class="icon fad fa-play-circle"></i>
-                    </a>
+                <div>
+                    {% include "components/demo-button.html" %}
                 </div>
             </div>
 
