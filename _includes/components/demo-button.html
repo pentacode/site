@@ -1,0 +1,77 @@
+<div class="demo-button">
+    <button 
+        class="btn highlight get-started"
+        popovertarget="demoPopover"
+    >
+        <span>Jetzt Online-Demo Buchen</span>
+        <i class="icon fad fa-play-circle"></i>
+    </button>
+    <div class="demo-popover" id="demoPopover" hidden popover>
+        <a 
+            href="https://calendly.com/pentacode/demo"
+            data-open-scheduler="true"
+            class="btn text-clip"
+        >
+            🇩🇪 Deutschland
+        </a>
+        <a 
+            href="https://calendly.com/pentacode/demo"
+            data-open-scheduler="true"
+            class="btn text-clip"
+        >
+            🇦🇹 Österreich
+        </a>
+    </div>
+</div>
+
+<style>
+    .demo-button {
+        position: relative;
+        display: inline-block;
+    }
+
+    .demo-button .demo-popover {
+        border: 0;
+        box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 40px;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        z-index: 10;
+        width: 15em;
+        will-change: opacity, transform;
+        transition: all 0.3s;
+        inset: unset;
+    }
+    
+    .demo-button .demo-popover[hidden] {
+        opacity: 0;
+        transform: translateY(0.5em);
+        pointer-events: none;
+    }
+
+    @media (max-width: 55em) {
+        .demo-button {
+            margin-bottom: 3em;
+        }
+    }
+</style>
+
+<script>
+window.addEventListener("load", () => {
+    const demoButton = document.querySelector(".demo-button");
+    const demoPopover = document.querySelector(".demo-popover");
+
+    demoButton.addEventListener("click", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        demoPopover.hidden = !demoPopover.hidden;
+    });
+
+    document.addEventListener("click", () => {
+        demoPopover.hidden = true;
+    });
+})
+</script>
