@@ -7,6 +7,22 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.31.1
+
+### Änderungen & Neuigkeiten
+
+- Beim Einstempeln in der Stempeluhr sind Positionen nun eindeutig gekennzeichnet und mit ihrer entsprechenden Farbe hervorgehoben.
+
+### Behobene Fehler
+
+- In seltenen Fällen wurden die Zugänge & Rechte bei mehrfacher Anlage von Mitarbeitern auf die folgenden Mitarbeiter übertragen.
+- In einigen Fällen wurden Bemerkungen nicht im Arbeitszeitnachweis abgebildet.
+- In seltenen Fällen wurden Schichten nicht zur Bewerbung freigegeben, obwohl diese im Bereich "Nicht zugewiesen" waren.
+- Ein Beschreibungstext wies noch nicht die neue Lohngrenze bei Aushilfen von 556€ aus.
+- In einigen Fällen konnte der Export "Individuelle Excel-Tabelle" nicht ausgeführt werden.
+- In seltenen Fällen wurden Endzeiten bei Stempelungen abgelehnt, weil die passende Schicht nicht gefunden wurde.
+- In seltenen Fällen wurden ehemals zuständige Manager weiterhin über Urlaubs- und Krankenanträge informiert, obwohl sie nicht mehr zuständig sind.
+
 ## 1.31.0
 
 ### Änderungen & Neuigkeiten
