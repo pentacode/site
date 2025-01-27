@@ -4,8 +4,7 @@ date: 2022-04-22
 cover: "bild5.jpg"
 author: lstrasser
 categories:
-  - Das gesunde Team
-  - Der zufriedene Kunde
+  - Ratgeber
 aliases:
   - trinkgeld_tips_1
 ---
