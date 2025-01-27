@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Tagesabrechnung
 weight: 2
-icon: hand-holding-usd
+icon: cash-register
 keywords:
 - Tagesabrechnung
 - umsatzerfassung

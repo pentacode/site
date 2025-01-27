@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Umsatzgruppen
 weight: 1
-icon: layer-group
+icon: filter-circle-dollar
 keywords:
 - umsatzgruppen
 - anlegen

@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Erlöszuordnung
 weight: 4
-icon: thumbtack
+icon: arrows-turn-to-dots
 keywords:
 - erlöszuordnung
 - umsatzgruppen

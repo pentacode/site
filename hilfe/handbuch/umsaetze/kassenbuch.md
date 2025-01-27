@@ -2,7 +2,7 @@
 layout: layouts/hilfe/single.njk
 title: Kassenbuch
 weight: 3
-icon: book-open
+icon: book
 keywords:
 - kassenbuch
 - einnahmen
