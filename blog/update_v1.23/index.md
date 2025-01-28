@@ -26,7 +26,7 @@ Bei jedem neuen Mitarbeiter heißt auch wieder: Eine neue Sozialversicherungnumm
 Lohn- und Adressdaten. Doch die Zeiten, in denen Sie diesen hinterher rennen und
 aufwändig händisch in das Archiv übertragen mussten, sind vorbei. Nun erstellen
 Sie einfach über Pentacodes
-[Dokumentenarchiv](/hilfe/handbuch/mitarbeiter/dokumentenarchiv)
+[Dokumentenarchiv](/hilfe/handbuch/mitarbeiter/dokumente)
 einen neuen Personalfragebogen, lassen diesen automatisch mit den in Pentacode
 gespeicherten Firmendaten ausfüllen und schicken ihn ihrem neuen Mitarbeiter.
 Dieser füllt ihn aus und Pentacode speichert die Daten nach einer
@@ -52,7 +52,7 @@ Schritt, denn mit der neuen **Sofortmeldungfunktion** werden die **durch den Per
 Rentenversicherung müssen wir zwar eine geringe Gebühr für jede Meldung
 verlangen - Doch auch hier gilt: **Sie sparen sich wervolle Zeit und haben die klare Sicherheit, dass Ihnen im Meldeprozess kein Fehler unterlaufen ist.** Wie
 Sie genau Mitarbeiter melden können, können Sie
-[hier](/hilfe/mitarbeiter/allgemein) nachlesen. 
+[hier](/hilfe/handbuch/mitarbeiter/allgemein) nachlesen. 
 
 {% figure caption="Meldung bei der Rentenversicherung in nur 10 Sekunden?
 Pentacode v1.23 macht es möglich!" %}

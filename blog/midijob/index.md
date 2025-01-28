@@ -32,8 +32,7 @@ Als Midijob gilt ein Beschäftigungsverhältnis dann, wenn:
 
 Im Gegensatz zum Minijob unter 520 € ist der **Midijob sowohl steuer - als auch
 sozialversicherungspflichtig**. Das bedeutet, dass er bei den
-Versicherungsträgern angemeldet werden muss, mehr dazu
-[hier](site/blog/midijob/#zu-beachten). Dafür ist der Arbeitnehmer aber auch
+Versicherungsträgern angemeldet werden muss. Dafür ist der Arbeitnehmer aber auch
 vollständig versichert und hat Anrecht auf alle Sozialansprüche, welche der
 typische Minijobber misst. 
 

@@ -521,7 +521,7 @@ Sie möchten mehr Kontrolle darüber, wie viele Stunden von jeder Abteilung
 täglich aufgewendet werden? Über die Stundenvorgabe können Sie genau
 definieren, wie viele Stunden von jeder Abteilung an einem bestimmten Tag
 insgesamt in Anspruch genommen werden sollen. Diese
-[Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) werden Ihnen dann
+**Stundenvorgaben** werden Ihnen dann
 direkt im Dienstplan in Form von "Fortschrittsbalken" angezeigt. Diese
 Stundenvorgaben-Leisten können Sie in den [Planungshilfen](#planungshilfen)
 unter **'Stundenvorgaben'** an- und abwählen. 
