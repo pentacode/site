@@ -144,7 +144,7 @@ Sie können einen Mitarbeiter **mit Cursor** oder durch **Buchstabeneingabe** au
 
 Es können in der Abrechnung **ausschließlich Bar-Vorschüsse** erfasst werden!
 
-Eine Liste der [Vorschüsse ](/hilfe/handbuch/mitarbeiter-alle/vorschuesse/)entsteht in der Folge automatisch.
+Eine Liste der [Vorschüsse ](/hilfe/handbuch/mitarbeiter/vorschuesse/)entsteht in der Folge automatisch.
 
 ## Bargeld Saldo
 

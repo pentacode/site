@@ -45,7 +45,7 @@ und als fortlaufender **Saldo** gezeigt.
 
 Für die Saldierung werden standardmäßig ausschließlich die **betragsfreien** Zuschläge berücksichtigt. Wenn Sie bei der
 Saldierung auch die beitragspflichtigen Zuschläge mit einberechnen wollen, können Sie dies unter [Einstellungen /
-Sonstiges](/hilfe/handbuch/einstellungen/sonstiges#saldierung-sfn-konten) einstellen.
+Unternehmen](/hilfe/handbuch/einstellungen/unternehmen#saldierung-sfn-konten) einstellen.
 
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die Zuschläge ausweist, die auf
 Grund der **bis zum aktuellen Zeitpunkt erfassten Arbeitszeiten** errechnet werden. **Geplante Arbeitszeiten** werden **nicht** berücksichtigt.

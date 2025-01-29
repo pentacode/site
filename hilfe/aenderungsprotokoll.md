@@ -959,7 +959,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 ### Änderungen & Neuigkeiten
 
 -   Neues Feature: [Verfügbarkeiten](https://pentacode.app/hilfe/handbuch/mitarbeiter/verfuegbarkeiten/)
--   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben)
+-   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/mitarbeiter/arbeitszeiten/)
 -   Zusätzlich zu Nacht 1 und Nacht 2 können nun auch die Zuschlagszeiträume für Folgetage nach Sonn- und Feiertagen,
     sowie die "besonderen Feiertage" Heilig Abend und Silvester bearbeitet werden.
 -   In der Abwesenheits-Übersicht werden nun auch Vertragsunterbrechungen und generelle Zeiträume ohne aktiven Vertrag
@@ -1143,7 +1143,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   Beim Drucken von veröffentlichen Dienstplänen kam es bei Abteilungen mit sehr vielen Mitarbeitern manchmal zu Darstellungsproblemen.
 -   In den Pausenmodi "Automatisch" und "Automatisch + Manuell" war es nicht möglich eine abweichende Pause von 0 einzugeben.
 -   Bei der Eingabe von
-    [Nachtzuschlags-Zeiträumen](https://pentacode.app/hilfe/handbuch/einstellungen/sonstiges/#nachtzuschläge) wurden
+    [Nachtzuschlags-Zeiträumen](https://pentacode.app/hilfe/handbuch/einstellungen/zuschlaege/) wurden
     bestimmte valide Nacht1-Zeiträume nicht akzeptiert (z.B. 20:00 - 22:00).
 -   Bei manchen Mitarbeitern wurde in der Kontenansicht ein Wert für die SFN-Pauschale angezeigt obwohl diese im Vertrag deaktiviert war.
 -   Im Ausdruck "Lohnabrechnung Individuell" kam es in manchen Fällen zu einer überlappenden Darstellung der Umsatz- und Provisionswerte.
@@ -1254,8 +1254,8 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   Überarbeitetes Design für die Mitarbeiter-App
 -   Anzeige von Arbeitszeitkonten und Resturlaub in der Mitarbeiter-App
 -   Automatische Benachrichtigungen bei Dienstplanänderungen können nun über den Bereich **Mitarbeiter / Benachrichtigungen** aktiviert oder deaktiviert werden.
--   Alternative Druckfunktion im Dienstplan: Über das Tastenkürzel **STRG + P** (bzw. **CMD + P** auf Mac) kann der **aktuelle Bearbeitungsstatus** gedruckt werden. Mehr Infos [hier](https://pentacode.app/hilfe/handbuch/dienstplan/schreiben/#dienstplan-drucken).
--   Beim Erstellen und Anwenden von Dienstplanvorlagen werden nun automatisch die Filterkriterien des aktiven Tabs angewendet. Mehr Infos dazu [hier](https://pentacode.app/hilfe/handbuch/dienstplan/schreiben/#dienstplan-vorlagen).
+-   Alternative Druckfunktion im Dienstplan: Über das Tastenkürzel **STRG + P** (bzw. **CMD + P** auf Mac) kann der **aktuelle Bearbeitungsstatus** gedruckt werden. Mehr Infos [hier](https://pentacode.app/hilfe/handbuch/dienstplan/#dienstplan-drucken).
+-   Beim Erstellen und Anwenden von Dienstplanvorlagen werden nun automatisch die Filterkriterien des aktiven Tabs angewendet. Mehr Infos dazu [hier](https://pentacode.app/hilfe/handbuch/dienstplan/#dienstplan-vorlagen).
 -   Beim Leeren des Dienstplans werden nur Schichten gelöscht, die den Filterkriterien des aktuellen Tabs entsprechen.
 -   Im Arbeitszeitkonto werden nun wieder auch geplante Schichten angezeigt, sind dort allerdings nicht bearbeitbar.
 -   Die Urlaubsanzeige im Dienstplan zeigt nun den Urlaubsanspruch und Resturlaub für das gesamte Jahr an.
