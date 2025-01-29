@@ -24,8 +24,6 @@ Wenn Sie Hilfe benötigen, machen Sie sich jetzt an die Arbeit! Für das Ausfül
 
 Das Formular für die Beantragung der Soforthilfe Corona auf der Website des Staatsministeriums für Wirtschaft online. Bei der Soforthilfe handelt es sich um einen Zuschuss, kein Darlehen. Hier kann ein Zuschuss für wirtschaftliche Schäden, entstanden durch die Corona Krise, beantragt werden.
 
-[https://www.stmwi.bayern.de/soforthilfe-corona/](https://www.stmwi.bayern.de/soforthilfe-corona/ "https://www.stmwi.bayern.de/soforthilfe-corona/")
-
 Beim Antrag auf Soforthilfe wird unter Punkt 4 nach der Anzahl der Mitarbeiter gefragt. Teilzeitbeschäftigte und Aushilfen müssen anhand eines Faktors auf Vollzeit umgerechnet werden. Es ist die Gesamtzahl der auf Vollzeit umgerechneten Mitarbeiter anzugeben. Der Umrechnungsfaktor ist folgender:
 
 Bei der Anrechnung von teilzeitbeschäftigten Arbeitnehmern kommt es auf die regelmäßige wöchentliche Arbeitszeit an:
