@@ -77,7 +77,7 @@ Arbeitszeit, Urlaub und SFN-Zuschläge.
 > {% icon "info-circle" %} Die alte Kontenansicht bleibt vorerst weiterhin erhalten und ist unter dem Menüpunkt "Konten (alt)" zu finden!
 
 ## Neue Optionen für Zuschläge
-Als Vorraussetzung damit ein [Zuschlag](/hilfe/handbuch/einstellungen/zuschläge/) greift, konnte bisher eine Mindestdauer (hh:mm) im Zuschlagszeitraum angegeben werden. Jetzt ist auch eine prozentuale Angabe möglich.
+Als Vorraussetzung damit ein [Zuschlag](/hilfe/handbuch/einstellungen/zuschlaege/) greift, konnte bisher eine Mindestdauer (hh:mm) im Zuschlagszeitraum angegeben werden. Jetzt ist auch eine prozentuale Angabe möglich.
 Der Prozentwert bezieht sich hier auf die Gesamtarbeitszeit in der Schicht. Die beiden Optionen können auch kombiniert werden, so dass beide Vorraussetzungen erfüllt sein müssen, damit ein Zuschlag greift.
 Weiterhin kann nun ebenfalls die Art der Vergütung des Zuschlags gewählt werden. Die bereits existierende Option "Prozent des Basislohns" wurde jetzt um Optionen für feste Stundensätze in der Zuschlagszeit und 
 einen festen Betrag, der vergütet wird, erweitert.

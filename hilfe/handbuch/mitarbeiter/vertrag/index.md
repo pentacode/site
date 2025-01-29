@@ -215,7 +215,7 @@ Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet 
 
 Klicken Sie auf {% button icon="plus", label="Zuschlag hinzufügen" %} um dem Mitarbeiter eine neue Zuschlagsart zuzuweisen. Wählen Sie den gewünschten Zuschlag aus und tragen Sie die **Positionen des Mitarbeiters ein, die vom Zuschlag betroffen sein sollen, sowie die Höhe des Zuschlags in Prozent des Grundlohns**. Standardmäßig werden **Alle Positionen** und der Standardsatz der Zuschlagsart ausgewählt. 
 
-[Hier](/hilfe/handbuch/einstellungen/zuschläge/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
+[Hier](/hilfe/handbuch/einstellungen/zuschlaege/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
 
 #### Kumulierte Zuschläge
 
