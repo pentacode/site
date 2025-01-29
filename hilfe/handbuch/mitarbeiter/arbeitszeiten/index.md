@@ -114,7 +114,7 @@ einer Schicht sowie Pausen, Mitarbeiteressen und einiges mehr bearbeiten." %}
 Unter dem Punkt {% icon "user" %} **Position** können Sie über ein Dropdown-Menü
 den Arbeitsbereich festlegen, in dem die Schicht stattfinden soll. Die
 verfügbaren Optionen beschränken sich selbstverständlich auf die dem Mitarbeiter
-zugewiesenen [Arbeitsbereiche](/hilfe/handbuch/arbeitsbereiche).
+zugewiesenen [Arbeitsbereiche](/hilfe/handbuch/mitarbeiter/positionen/).
 
 ### Geplant
 
@@ -133,9 +133,7 @@ geplante Schichtende eintragen. Diese Zeiten, zusammen mit den
 [Zeiterfassungs-Regeln](/hilfe/handbuch/einstellungen/zeiterfassung) für diese
 Schicht, bestimmen, wann sich der Mitarbeiter per Stempeluhr oder
 Mitarbeiter-App, ein- bzw. ausstempeln darf und können später als Vergleich zu
-den tatsächlich gearbeiteten Zeiten herangezogen werden (siehe [Berichte /
-Arbeitszeit](/hilfe/handbuch/berichte/arbeitszeit) und [Dienstplan /
-Soll-Ist-Vergleich](/hilfe/handbuch/dienstplan#soll-ist-vergleich)).
+den tatsächlich gearbeiteten Zeiten herangezogen werden siehe [Berichte / Arbeitszeit](/hilfe/handbuch/berichte/arbeitszeitberichte/) und [Dienstplan / Soll-Ist-Vergleich](/hilfe/handbuch/dienstplan#soll-ist-vergleich).
 
 > {% icon "lightbulb" %} **Tipp:** Lassen Sie eines oder beide dieser Felder
 > leer, um eine Schicht mit offenem Beginn bzw. Ende zu planen. Dies ist zum

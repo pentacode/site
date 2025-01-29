@@ -189,7 +189,7 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 Lohnarten werden dem Mitarbeiter normalerweise über sein
 [Beschäftigungsverhältnis](#beschäftigungsverhältnis) zugeordnet. Sie können
 diese in den Einstellungen unter
-[Buchhaltung](/hilfe/handbuch/einstellungen/buchhaltung/index.md/#lohnarten)
+[Buchhaltung](/hilfe/handbuch/einstellungen/buchhaltung/#lohnarten)
 bearbeiten. 
 
 ## Urlaub

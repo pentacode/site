@@ -22,7 +22,7 @@ Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten
 Buchungstext, UST-Satz und evtl. die Kostenstelle an. 
 > Generell ist zu raten die Umsätze **nach Erlösart (Speisen, Getränke, Eintritt etc.)** und nicht
 nach MwSt. zu gruppieren um die Funktionen des
-[Berichtswesens](/hilfe/handbuch/berichte/umsaetze) vollständig nutzen zu können.
+[Berichtswesens](/hilfe/handbuch/berichte/umsatzberichte) vollständig nutzen zu können.
 
 {% figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" %}
 

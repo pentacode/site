@@ -47,9 +47,7 @@ KuG sollte mittlerweile von jedem beantragt worden oder in Bearbeitung sein. Fal
 
 [**Mitarbeiter Einverständniserklärung**](https://pentaco.de/downloads/KuG_MA_Einverstaendnis.pdf)
 
-Die Abwicklung erfolgt über die Lohnabrechnung. Ihre Lohnbuchhaltung sollte hierzu die Aufstellung der vereinbarten Sollstunden im Abgleich mit den Ist Stunden der Mitarbeiter bereits angefordert haben. Wie Sie die Einführung von Kurzarbeit in Pentacode abbilden erfahren Sie hier:
-
-[**Kurzarbeit**](https://support.pentaco.de/article/49-kurzarbeit)
+Die Abwicklung erfolgt über die Lohnabrechnung. Ihre Lohnbuchhaltung sollte hierzu die Aufstellung der vereinbarten Sollstunden im Abgleich mit den Ist Stunden der Mitarbeiter bereits angefordert haben.
 
 Wenn Sie bei der Bundesagentur für Arbeit Kurzarbeit beantragt haben sollten, können Sie dies in Pentacode wie folgt korrekt abbilden: Wählen Sie den Mitarbeite
 
