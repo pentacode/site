@@ -958,7 +958,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Neues Feature: [Verfügbarkeiten](https://pentacode.app/hilfe/handbuch/mitarbeiter/verfügbarkeiten/)
+-   Neues Feature: [Verfügbarkeiten](https://pentacode.app/hilfe/handbuch/mitarbeiter/verfuegbarkeiten/)
 -   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/einstellungen/sonstiges/#arbeitszeiten--konten-festschreiben)
 -   Zusätzlich zu Nacht 1 und Nacht 2 können nun auch die Zuschlagszeiträume für Folgetage nach Sonn- und Feiertagen,
     sowie die "besonderen Feiertage" Heilig Abend und Silvester bearbeitet werden.
