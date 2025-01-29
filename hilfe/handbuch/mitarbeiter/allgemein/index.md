@@ -16,7 +16,7 @@ Dialogfenster, das Sie Schritt für Schritt durch den Prozess führt:
 ### 1. Stammdaten
 
 Hier können Sie allgemeine Informationen zum Mitarbeiter erfassen. Mehr Informationen zum Thema Mitarbeiter-Stammdaten
-finden Sie unter [Mitarbeiter/Stammdaten](../stammdaten/).
+finden Sie unter [Mitarbeiter/Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/).
 
 Klicken Sie auf {% button label="Positionen", iconRight="arrow-right" %}, um zum Punkt [Positionen](#2-positionen) zu gelangen.
 

@@ -1465,7 +1465,7 @@ aber wir bemühen uns diese innerhalb der nächsten Updates zu beheben!
 
 ### Änderungen & Neuigkeiten
 
--   Neues Feature: [Umsatzgruppen](https://support.pentaco.de/article/63-umsatzgruppen)
+-   Neues Feature: [Umsatzgruppen](/hilfe/handbuch/umsaetze/umsatzgruppen/)
 -   Neuer Bereich **Berichte / Umsätze**
 -   Verbesserte Tools für die Planung von Umsätzen und Stundenvorgaben (beta)
 -   SFN-Pauschalen in Teilmonaten werden nun partiell berechnet, d.h. falls ein
@@ -1513,7 +1513,7 @@ aber wir bemühen uns diese innerhalb der nächsten Updates zu beheben!
 
 ### Änderungen & Neuigkeiten
 
--   **Neues Feature**: [Zielorientierte Dienstplanung](https://support.pentaco.de/article/59-planungsziele-definieren)
+-   **Neues Feature**: [Zielorientierte Dienstplanung](/hilfe/handbuch/dienstplan/plan-ist-vergleich.md)
 -   Neuer Bericht: Arbeitszeit
 -   Beim Festschreiben des Kassenbuches kann nun ein bestimmtes Datum gewählt
     werden, bis zu dem festgeschrieben werden soll.

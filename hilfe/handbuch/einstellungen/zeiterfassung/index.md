@@ -225,7 +225,7 @@ Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und *
 
 ## Stempeluhr
 
-Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr) und oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst werden sollen oder ob Sie Zeiten ausschließlich manuell über den [Dienstplan](/hilfe/handbuch/dienstplan) oder das [Arbeitszeitblatt](/hilfe/handbuch/arbeitszeitblatt) erfassen möchten. Aktivieren oder deaktivieren Sie hierzu einfach den Button {% button label="Erfassung per Stempeluhr" %}.
+Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr) und oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst werden sollen oder ob Sie Zeiten ausschließlich manuell über den [Dienstplan](/hilfe/handbuch/dienstplan) oder das [Arbeitszeitblatt](/hilfe/handbuch/mitarbeiter/arbeitszeiten/) erfassen möchten. Aktivieren oder deaktivieren Sie hierzu einfach den Button {% button label="Erfassung per Stempeluhr" %}.
 
 > Alle weiteren Optionen betreffen ausschließlich die Zeiterfassung per Stempeluhr und werden ausgeblendet, falls diese Option deaktiviert ist.
 
