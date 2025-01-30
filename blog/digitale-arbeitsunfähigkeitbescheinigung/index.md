@@ -37,7 +37,7 @@ einholen.**
 Um die AU Bescheinigung einer ihrer Mitarbeiter einzuholen müssen Sie direkt mit
 der Krankenkasse in Kontakt treten. Wie der Name eAU schon verrät erfolgt das
 vollständig digital. In Kontakt treten Sie dabei entweder direkt über ihre Entgeldabrechnungssoftware
-oder über die supplementäre Software (**sv.net**)[https://www.itsg.de/produkte/sv-net/], welche speziell für diesen Zweck eingerichtet wurde. 
+oder über die supplementäre Software [**sv.net**](https://www.itsg.de/produkte/sv-net/), welche speziell für diesen Zweck eingerichtet wurde. 
 
 ## Krankenkassendaten nun auch für Minijobber einholen
 
@@ -46,7 +46,7 @@ müssen deren **Krankenversicherungsdaten nun auch bekannt sein**. Diese Daten w
 bisher für den Arbeitgeber irrelevant, da er ausschließlich mit der
 Minijobzentrale in Kontakt getreten ist. Von nun an müssen diese direkt beim
 Angestellten eingefordert werden - am besten direkt im Einstellungsprozess.
-Wenn Sie bereits den [Personalfragebogen](hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen) von Pentacode nutzen **ändert
+Wenn Sie bereits den [Personalfragebogen](/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen) von Pentacode nutzen **ändert
 sich nichts für Sie** - die Krankenkassendaten werden automatisch Teil des
 Dokuments und der Mitarbeiter füllt diese aus und Pentacode speichert sie ab.
 Wenn nicht könnte das ein weiterer Grund sein sich dieses Feature genauer
