@@ -34,6 +34,7 @@ Aktuell unterstützte Formate sind:
     - Lexware
     - Addison
     - LohnAG
+    - Sage
 
 ### Arbeitszeiten
 
