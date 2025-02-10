@@ -24,7 +24,9 @@ Unter dem Hauptmenüpunkt {% button icon="stopwatch", label=" Zeiterfassung" %} 
 
 Die [digitale Stempeluhr](/hilfe/stempeluhr/) ist eine Webapp, die auf jedes beliebige Tablet, Smartphone oder Desktopgerät geladen werden kann. Das eingerichtete Endgerät steht dann am Arbeitsplatz zur selbstständigen Erfassung von Arbeitszeiten, Pausen und Mahlzeiten zur Verfügung.
 
-Je nach Bedarf können Sie eine einzelne Stempeluhr für Ihren gesamten Betrieb oder mehrere Stempeluhren für Ihre verschiedenen Standorte oder Abteilungen verwenden.
+Je nach Bedarf können Sie eine einzelne Stempeluhr für Ihren gesamten Betrieb oder mehrere Stempeluhren für Ihre verschiedenen Standorte oder Abteilungen verwenden. 
+
+> {% icon "info-circle" %} **Info:** Der Verbindungscode der Stempeluhr **ändert sich mit jedem erfolgreich eingeloggten Gerät** - wollen Sie ein weiteres Gerät als Stempeluhr verbinden, müssen Sie den aktualisierten Verbindungscode unter **Stempeluhr Bearbeiten** einsehen!
 
 ### Stempeluhr Einrichten
 
@@ -47,6 +49,8 @@ Bereits angelegte Stempeluhren können selbstverständlich auch im Nachhinein no
 2. Wählen Sie die Stempeluhr durch einen Klick aus der Liste aus.
 3. Klicken Sie den {% button icon="ellipsis-h" %} Button in der rechten oberen Ecke und wählen Sie {% button icon="pencil", label="Bearbeiten" %}.
 4. Nehmen Sie die gewünschten Änderungen an Namen, [Arbeitsbereichen](#arbeitsbereiche) und [Funktionen](#funktionen) vor. Um die Änderungen zu übernehmen, klicken Sie den {% button label="Speichern" %} Button.
+
+> {% icon "info-circle" %} **Info:** Unter **Stempeluhr Bearbeiten** können Sie auch den **Verbindungscode** erneut einsehen - dieser wird automatisch erstellt.
 
 #### Arbeitsbereiche
 
