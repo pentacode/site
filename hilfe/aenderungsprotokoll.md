@@ -7,6 +7,42 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.32.0
+
+### Änderungen & Neuigkeiten
+
+- Technische Überarbeitung des Problemberichts. Probleme sollten nun deutlich schneller Laden und in Echtzeit aktualisiert werden.
+- Aus technischen Gründen wurde die Anzeige der Problemanzahl im Hauptmenü entfernt. Wir bemühen uns, in Zukunft eine Alternativlösung zu finden.
+
+### Behobene Fehler
+
+- Bei dem Laden der Problemmeldungen kam es bei manchen Unternehmen zu sehr langen Ladezeiten.
+- Einige Probleme wurden im Bereich Problemmeldungen zu spät oder gar nicht angezeigt.
+- Beim Bearbeiten von Arbeitszeiten im Arbeitszeitblatt wurde die Anzeige von Ist-Stunden und Lohn-Kurzbericht nicht direkt aktualisiert.
+
+## 1.31.3
+
+### Änderungen & Neuigkeiten
+
+- Zusätzliche Gehälter können nun nur noch für die Positionen des Mitarbeiters hinzugefügt werden.
+
+### Behobene Fehler
+
+- Der Januar war in der Monatsauswahl nicht auswählbar.
+
+## 1.31.2
+
+### Änderungen & Neuigkeiten
+
+- Export von Lohndaten für das "Sage" Lohnabrechnungsprogramm ist jetzt verfügbar.
+- Der Verbindungscode von Stempeluhren kann nun unter **Zeiterfassung > Bearbeiten** eingesehen werden.
+
+### Behobene Fehler
+
+- Neu entstandene Probleme wurden in einigen Fällen nicht korrekt angezeigt.
+- Mitarbeiter mit der Rolle "Manager" konnten ihre eigenen Rechte bearbeiten.
+- Nach dem Festschreiben der Arbeitszeiten kam es in seltenen Fällen zu Anzeigefehlern bei den Kosten von Mahlzeiten.
+
 ## 1.31.1
 
 ### Änderungen & Neuigkeiten
