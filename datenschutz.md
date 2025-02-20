@@ -156,3 +156,5 @@ Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet de
 ## Änderungen dieser Datenschutzerklärung
 
 Wir behalten uns vor, diese Datenschutzerklärung aus gegebenem Anlass und ohne vorherige Ankündigung zu ändern.
+
+**Stand: September 2023**
