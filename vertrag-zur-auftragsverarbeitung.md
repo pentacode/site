@@ -36,25 +36,21 @@ Dieser Vertrag regelt die Verarbeitung personenbezogener Daten im Auftrag eines 
 
 - Die Auftraggeberin hat das Recht, jährlich und anlassbezogen prüfen zu lassen, ob die Auftragnehmerin die Datenschutzvorschriften einhält.
 
-## § 7 Meldung von Datenschutzverletzungen
-
-- Die Auftragnehmerin meldet Datenschutzverstöße unverzüglich, spätestens innerhalb von 24 Stunden.
-
-## § 8 Beendigung des Auftrags
+## § 7 Beendigung des Auftrags
 
 - Nach Beendigung der Auftragsverarbeitung löscht oder gibt die Auftragnehmerin alle Daten zurück.
 
-## § 9 Haftung
+## § 8 Haftung
 
 - Die Haftungshöchstgrenze beträgt pro Schadensfall das dreifache Jahresvolumen des Vertrags.
 
-## § 10 Schlussbestimmungen
+## § 9 Schlussbestimmungen
 
 - Vertragsänderungen bedürfen der Schriftform.
 
 - Sollten einzelne Bestimmungen unwirksam sein, bleibt der Vertrag im Übrigen wirksam.
 
-## Anhang 2 – Liste der Unterauftragnehmer
+## Anhang 1 – Liste der Unterauftragnehmer
 
 <table style="border-collapse: collapse; width: 100%; margin: 20px 0;">
   <thead>
@@ -113,8 +109,7 @@ Dieser Vertrag regelt die Verarbeitung personenbezogener Daten im Auftrag eines 
   </tbody>
 </table>
 
-
-## Anhang 3 – Technische und organisatorische Maßnahmen (TOMs)
+## Anhang 2 – Technische und organisatorische Maßnahmen (TOMs)
 
 Zur Gewährleistung der Sicherheit personenbezogener Daten setzt die Auftragnehmerin die folgenden Maßnahmen um:
 
@@ -124,3 +119,5 @@ Zur Gewährleistung der Sicherheit personenbezogener Daten setzt die Auftragnehm
 - **Sicherheitsüberprüfungen:** Regelmäßige Durchführung von Penetrationstests und Schwachstellenanalysen.
 - **Datenschutzrichtlinien für Mitarbeiter:** Vertraulichkeitsverpflichtungen und regelmäßige Schulungen.
 - **Monitoring und Protokollierung:** Überwachung der Systemaktivitäten zur frühzeitigen Erkennung von Sicherheitsvorfällen.
+
+**Stand: Februar 2025**
