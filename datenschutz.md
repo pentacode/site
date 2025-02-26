@@ -1,6 +1,6 @@
 ---
 layout: layouts/_default/single.njk
-title: Datenschutz
+title: Datenschutzerklärung
 hide_menu: true
 ---
 
