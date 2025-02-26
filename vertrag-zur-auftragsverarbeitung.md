@@ -116,7 +116,7 @@ Zur Gewährleistung der Sicherheit personenbezogener Daten setzt die Auftragnehm
 - **Zugriffskontrollen:** Beschränkung des Zugangs zu personenbezogenen Daten durch passwortgeschützte Systeme.
 - **Datenverschlüsselung:** Speicherung und Übertragung von Daten nur in verschlüsselter Form (z. B. AES-256, TLS 1.2+).
 - **Backup- und Wiederherstellungskonzepte:** Regelmäßige Sicherung der Daten mit einer maximalen Wiederherstellungszeit von 24 Stunden.
-- **Sicherheitsüberprüfungen:** Regelmäßige Durchführung von Penetrationstests und Schwachstellenanalysen.
+- **Sicherheitsüberprüfungen:** Regelmäßige Durchführung von Schwachstellenanalysen.
 - **Datenschutzrichtlinien für Mitarbeiter:** Vertraulichkeitsverpflichtungen und regelmäßige Schulungen.
 - **Monitoring und Protokollierung:** Überwachung der Systemaktivitäten zur frühzeitigen Erkennung von Sicherheitsvorfällen.
 
