@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon.ico" rel="shortcut icon" type="image/ico">
     <title>Pentacode Ersparnisrechner</title>
     <style>
         :root {
@@ -155,6 +156,7 @@
 
         .days-group {
             display: flex;
+            justify-content: space-between;
             flex-wrap: wrap;
             gap: 0.5rem;
             margin-top: 0.5rem;
@@ -168,7 +170,7 @@
             display: flex;
             align-items: center;
             background: white;
-            padding: 0.5rem 0.75rem;
+            padding: 0.5rem 0.5rem;
             border-radius: 6px;
             border: 1px solid var(--border-color);
         }
@@ -191,6 +193,35 @@
             color: var(--text-dark);
             margin-top: 0.5rem;
         }
+
+
+        .meaning {
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-top: 0.5rem;
+        }
+
+        .meaning-not-full {
+            display: none; 
+            color: var(--text-muted);
+        }
+
+        .meaning-full {
+            display: none;
+            color: var(--text-muted);
+        }
+
+        .perso-sorgen {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+          
+        .percentage {
+            font-weight: 600;
+            color: var(--pentacode-primary);
+        }
+
 
         .price-label {
             color: var(--text-muted);
@@ -266,18 +297,55 @@
                 padding: 1rem;
             }
         }
+
+  
+        
+        
+
+         input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 8px;
+            border-radius: 5px;
+            background: #e2e8f0;
+            outline: none;
+            margin: 10px 0;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #3b82f6;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #3b82f6;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="range"]:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        #hourly-wage-display {
+            font-weight: 600;
+            font-size: 1.25rem;
+            color: #3b82f6;
+        }
     </style>
 </head>
 <body>
     <div class="logo-container">
-        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40">
-            <g fill="#1EADC4">
-                <path d="M20.5,5c-0.8,0-1.5,0.3-2.1,0.9c-0.6,0.6-0.9,1.3-0.9,2.1v24c0,0.8,0.3,1.5,0.9,2.1c0.6,0.6,1.3,0.9,2.1,0.9h24c0.8,0,1.5-0.3,2.1-0.9c0.6-0.6,0.9-1.3,0.9-2.1V8c0-0.8-0.3-1.5-0.9-2.1C46,5.3,45.3,5,44.5,5H20.5z M32.5,29c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S36.9,29,32.5,29z"/>
-                <path d="M32.5,15c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6S35.8,15,32.5,15z M32.5,25c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S34.7,25,32.5,25z"/>
-                <path d="M20.5,5c-0.8,0-1.5,0.3-2.1,0.9c-0.6,0.6-0.9,1.3-0.9,2.1v24c0,0.8,0.3,1.5,0.9,2.1c0.6,0.6,1.3,0.9,2.1,0.9h24c0.8,0,1.5-0.3,2.1-0.9c0.6-0.6,0.9-1.3,0.9-2.1V8c0-0.8-0.3-1.5-0.9-2.1C46,5.3,45.3,5,44.5,5H20.5z M32.5,29c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S36.9,29,32.5,29z"/>
-            </g>
-            <text x="55" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1EADC4">PENTACODE</text>
-        </svg>
+        <img class="logo" src="/assets/img/logo.svg" alt="Pentacode Logo" />
     </div>
 
     <div class="calculator">
@@ -293,15 +361,11 @@
             </div>
 
             <div class="input-group">
-                <label for="employees">Anzahl Mitarbeiter</label>
+                <label for="employees">Mitarbeiter</label>
                 <input type="number" id="employees" min="0" placeholder="Anzahl eingeben...">
             </div>
 
-            <div class="input-group">
-                <label for="hourly-wage">Stundenlohn der Mitarbeiter</label>
-                <input type="number" id="hourly-wage" min="0" step="0.01" placeholder="Stundenlohn eingeben...">
-            </div>
-
+      
             <div class="checkbox-wrapper">
                 <input type="checkbox" id="timeClock">
                 <label for="timeClock">Stempeluhr</label>
@@ -346,7 +410,6 @@
                 <div class="dropdown-item">
                     <label for="checkin-rounding">Rundung bei Anmeldung</label>
                     <select id="checkin-rounding">
-                        <option value="0">keine</option>
                         <option value="5">5 Minuten</option>
                         <option value="10">10 Minuten</option>
                         <option value="15">15 Minuten</option>
@@ -356,7 +419,7 @@
                     <label for="checkout-rounding">Rundung bei Abmeldung</label>
                     <select id="checkout-rounding">
                         <option value="0">keine</option>
-                        <option value="5">5 Minuten</option>
+                        <option value="5" selected>5 Minuten</option>
                         <option value="10">10 Minuten</option>
                         <option value="15">15 Minuten</option>
                     </select>
@@ -402,14 +465,17 @@
                 <select id="vacation">
                     <option value="0">keine</option>
                     <option value="1">1 Woche</option>
-                    <option value="2">2 Wochen</option>
+                    <option value="2" selected>2 Wochen</option>
                     <option value="3">3 Wochen</option>
                     <option value="4">4 Wochen</option>
                     <option value="5">5 Wochen</option>
                     <option value="6">6 Wochen</option>
                 </select>
             </div>
-        </div>
+         <div class="input-group">
+                <label for="hourly-wage">Stundenlohn der Mitarbeiter: <span id="hourly-wage-display">13€</span></label>
+                <input type="range" id="hourly-wage" min="13" max="25" step="1" value="13">
+            </div>
 
         <div class="section savings-section">
             <div class="section-header">
@@ -418,9 +484,26 @@
                 </svg>
                 Ersparnis pro Jahr
             </div>
-            <div class="savings-amount price">0€</div>
+            <div id="savings-time" class="savings-amount price">0 min</div>
+            <div id="savings-meaning" class="savings-amount meaning">
+                <div class="meaning-not-full">
+                    <p>Das sind <span class="perso-sorgen">100% Ihrer Personalmanagement-Sorgen</span> und 
+                        <br/> <span id="percentage-pentacode-not-full" class="percentage"></span>
+                    </p>
+                </div>
+
+                <div class="meaning-full">
+                    <p>Das sind <span class="percentage">100% der Kosten für 🦋 Pentacode</span> und <br/>
+                        <span id="extra-savings" class="percentage"></span>
+                        <span id="extra-item"></span>
+                    </p>
+                </div>
+            </div>
+            
         </div>
-    </div>
+
+
+  
 
     <script>
         const employeesInput = document.getElementById('employees');
@@ -428,28 +511,51 @@
         const timeClockCheckbox = document.getElementById('timeClock');
         const employeeAppCheckbox = document.getElementById('employeeApp');
         const discountCheckbox = document.getElementById('discount');
+        const meaningNotFull = document.querySelector('.meaning-not-full');
+        const meaningFull = document.querySelector('.meaning-full');
+        const percentagePentacodeNotFull = document.getElementById('percentage-pentacode-not-full');
+        const extraSavings = document.getElementById('extra-savings');
+        const extraItem = document.getElementById('extra-item');
         const originalPriceDisplay = document.querySelector('.price-original');
         const discountedPriceDisplay = document.querySelector('.price-discounted');
         const checkinRoundingSelect = document.getElementById('checkin-rounding');
         const checkoutRoundingSelect = document.getElementById('checkout-rounding');
         const vacationSelect = document.getElementById('vacation');
-        const savingsDisplay = document.querySelector('.savings-amount');
+        const savingsTimeDisplay = document.getElementById('savings-time');
         const dayCheckboxes = document.querySelectorAll('.day-checkbox input[type="checkbox"]');
 
-        function calculatePrice() {
+        function calculate() {
+            // ----- Constants -----
+            // % of exmployee that experience rounding
+            const EMPLOYEE_SHARE_ROUNDING = 0.4;
+
+            // % of minutes that are rounded on average
+            const ROUNDING_SHARE_APPLIED = 0.3;
+
+            // % of added value for employer
+            const EMPLOYER_EXTRA_VALUE = 0.2;
+
+            //  extra item
+            const EXTRA_ITEM_PRICE = 5;
+            const EXTRA_ITEM_NAME = 'Bier';
+            const EXTRA_ITEM_EMOJI = '🍻';
+
+
             const employees = parseInt(employeesInput.value) || 0;
             
+            // ----- Calculate Pentacode Price -----
             let basePrice = 3;
             if (timeClockCheckbox.checked) basePrice += 1;
             if (employeeAppCheckbox.checked) basePrice += 1;
             
-            const monthlyPrice = basePrice * employees;
+            let monthlyPrice = basePrice * employees;
             const discountedMonthlyPrice = monthlyPrice * 0.8;
             
             originalPriceDisplay.textContent = `${monthlyPrice}€`;
-            discountedPriceDisplay.textContent = `${Math.round(discountedMonthlyPrice)}€`;
             
             if (discountCheckbox.checked) {
+                monthlyPrice = discountedMonthlyPrice;
+                discountedPriceDisplay.textContent = `${Math.round(discountedMonthlyPrice)}€`;
                 originalPriceDisplay.classList.add('discounted');
                 discountedPriceDisplay.style.display = 'block';
             } else {
@@ -457,10 +563,9 @@
                 discountedPriceDisplay.style.display = 'none';
             }
 
-            calculateSavings();
-        }
 
-        function calculateSavings() {
+            // ----- Calculate Savings -----
+          
             const hourlyWage = parseFloat(hourlyWageInput.value) || 0;
             const checkinRounding = parseInt(checkinRoundingSelect.value) || 0;
             const checkoutRounding = parseInt(checkoutRoundingSelect.value) || 0;
@@ -471,28 +576,55 @@
                 if (checkbox.checked) openDaysCount++;
             });
             
+            
             const totalRoundingMinutes = checkinRounding + checkoutRounding;
             const minutesPerHour = 60;
-            const savingsPercentage = 0.3;
-            
-            const savingsPerDay = (totalRoundingMinutes / minutesPerHour) * hourlyWage * savingsPercentage;
-            const weeksPerYear = 52 - vacationWeeks;
-            const annualSavings = savingsPerDay * openDaysCount * weeksPerYear;
-            
-            savingsDisplay.textContent = `${Math.round(annualSavings)}€`;
+
+
+            const employeesWithRounding = employees * EMPLOYEE_SHARE_ROUNDING;
+            const roundedMinutesPerEmployee = totalRoundingMinutes * ROUNDING_SHARE_APPLIED;
+
+
+            const minutesSavedPerDay = employeesWithRounding * roundedMinutesPerEmployee;
+
+            const minutesSavedPerYear = minutesSavedPerDay * openDaysCount * (52 - vacationWeeks);
+            const hoursSavedPerYear = minutesSavedPerYear / 60;
+            const moneySavedPerYear = hoursSavedPerYear * hourlyWage * (1+EMPLOYER_EXTRA_VALUE);
+            console.log('Money saved per year:', moneySavedPerYear);
+
+            savingsTimeDisplay.textContent = `${Math.round(minutesSavedPerYear).toLocaleString('de-DE')} min = ${Math.round(hoursSavedPerYear).toLocaleString('de-DE')} h = ${Math.round(moneySavedPerYear).toLocaleString('de-DE')} €`;
+            const yearlyPentacodeCost = monthlyPrice * 12;
+            const percentageOfPentacodeSaved = moneySavedPerYear / yearlyPentacodeCost;
+
+            if(percentageOfPentacodeSaved > 1) {
+                const leftOverSavings = moneySavedPerYear - yearlyPentacodeCost;
+                const itemCount = Math.floor(leftOverSavings / EXTRA_ITEM_PRICE);
+                extraSavings.textContent = `${Math.round(leftOverSavings).toLocaleString('de-DE')} € für Sie!`;
+                extraItem.textContent = `(Das entspricht ca. ${itemCount} ${EXTRA_ITEM_NAME} - Prost ${EXTRA_ITEM_EMOJI}!)`;
+                meaningFull.style.display = 'block';
+                meaningNotFull.style.display = 'none';
+            } else {
+                percentagePentacodeNotFull.textContent = `${Math.round(percentageOfPentacodeSaved * 100).toLocaleString('de-DE')}% der Kosten für 🦋 Pentacode!`;
+                meaningNotFull.style.display = 'block';
+                meaningFull.style.display = 'none';
+            }
         }
 
-        employeesInput.addEventListener('input', calculatePrice);
-        hourlyWageInput.addEventListener('input', calculatePrice);
-        timeClockCheckbox.addEventListener('change', calculatePrice);
-        employeeAppCheckbox.addEventListener('change', calculatePrice);
-        discountCheckbox.addEventListener('change', calculatePrice);
-        checkinRoundingSelect.addEventListener('change', calculateSavings);
-        checkoutRoundingSelect.addEventListener('change', calculateSavings);
-        vacationSelect.addEventListener('change', calculateSavings);
+        employeesInput.addEventListener('input', calculate);
+        hourlyWageInput.addEventListener('input', function() {
+            console.log('Hourly wage input:', this.value);
+            document.getElementById('hourly-wage-display').textContent = this.value + '€';
+            calculate();
+        });
+        timeClockCheckbox.addEventListener('change', calculate);
+        employeeAppCheckbox.addEventListener('change', calculate);
+        discountCheckbox.addEventListener('change', calculate);
+        checkinRoundingSelect.addEventListener('change', calculate);
+        checkoutRoundingSelect.addEventListener('change', calculate);
+        vacationSelect.addEventListener('change', calculate);
         
         dayCheckboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', calculateSavings);
+            checkbox.addEventListener('change', calculate);
         });
     </script>
 </body>
