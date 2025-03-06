@@ -7,6 +7,42 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+
+## 1.32.3
+
+### Änderungen & Neuigkeiten
+
+- Neue Verträge können jetzt bis zu 5 Jahre im Voraus angelegt werden.
+
+### Behobene Fehler
+
+- In einigen Fällen war es nicht möglich, Zahlungsmittel hinzuzufügen.
+- In seltenen Fällen wurden Zuschläge für Wochentage bei Urlaub und Krankheit nicht korrekt berechnet.
+
+## 1.32.2
+
+### Änderungen & Neuigkeiten
+
+- Kategorien für Dokumente können jetzt als unsichtbar für Mitarbeiter markiert werden, sodass diese Dokumente in der Mitarbeiter-App nicht sichtbar sind.
+- Mitarbeiter können ihre Urlaubsanträge und Krankmeldungen bearbeiten, solange diese noch nicht genehmigt oder abgelehnt wurden.
+- Die Sektion Dokumente & Formulare wurde in Digitale Personalakte umbenannt.
+
+## 1.32.1
+
+### Änderungen & Neuigkeiten
+
+- Arbeitszeiten sind nun in der Mitarbeiter-App einsehbar, sofern die entsprechende Berechtigung erteilt ist.
+- Geplante Schichten können jetzt als "nicht zugewiesen" markiert werden, wenn sie von einer Abwesenheit überschrieben werden.
+- Das Exportformat Überstunden wurde um Mehrstunden erweitert (gilt nur für Österreich).
+
+### Behobene Fehler
+
+- In einigen Fällen wurden geplante Schichten ohne definierte Startzeit nicht im Dienstplan in der Mitarbeiter-App angezeigt.
+- Die Farbdarstellung im Bereich Berichte > Übersicht wurde korrigiert, so dass positive Veränderungen nun in grün und negative Veränderungen in rot dargestellt werden.
+- In seltenen Fällen konnte ein inkorrektes Datum bei einer Bewerbung angegeben werden.
+- In einigen Fällen konnten sich Mitarbeiter, die vorher Manager waren, nicht in die Mitarbeiter-App einloggen.
+- In seltenen Fällen wurden im individuellen Datenexport keine Daten angezeigt.
+
 ## 1.32.0
 
 ### Änderungen & Neuigkeiten
