@@ -13,6 +13,7 @@
             --pentacode-light: #F0FBFF;
             --text-dark: #2D3748;
             --text-muted: #64748B;
+            --text-light: #94A3B8;
             --border-color: #E2E8F0;
             --bg-light: #F8FAFC;
         }
@@ -340,6 +341,13 @@
             font-weight: 600;
             font-size: 1.25rem;
             color: #3b82f6;
+            margin-left: 0.5rem;
+        }
+
+        #hourly-wage-display-employer {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-left: 0.5rem;
         }
     </style>
 </head>
@@ -473,7 +481,7 @@
                 </select>
             </div>
          <div class="input-group">
-                <label for="hourly-wage">Stundenlohn der Mitarbeiter: <span id="hourly-wage-display">13€</span></label>
+                <label for="hourly-wage">Stundenlohn der Mitarbeiter: <span id="hourly-wage-display">13€</span> <span id="hourly-wage-display-employer">(Arbeitgeberkosten ca. 15,60€)</span></label>
                 <input type="range" id="hourly-wage" min="13" max="25" step="1" value="13">
             </div>
 
@@ -506,6 +514,21 @@
   
 
     <script>
+
+        // ----- Constants -----
+        // % of exmployee that experience rounding
+        const EMPLOYEE_SHARE_ROUNDING = 0.5;
+
+        // % of minutes that are rounded on average
+        const ROUNDING_SHARE_APPLIED = 0.3;
+
+        // % of added value for employer
+        const EMPLOYER_EXTRA_VALUE = 0.2;
+
+        //  extra item
+        const EXTRA_ITEM_PRICE = 5;
+        const EXTRA_ITEM_NAME = 'Bier';
+        const EXTRA_ITEM_EMOJI = '🍻';
         const employeesInput = document.getElementById('employees');
         const hourlyWageInput = document.getElementById('hourly-wage');
         const timeClockCheckbox = document.getElementById('timeClock');
@@ -525,23 +548,14 @@
         const dayCheckboxes = document.querySelectorAll('.day-checkbox input[type="checkbox"]');
 
         function calculate() {
-            // ----- Constants -----
-            // % of exmployee that experience rounding
-            const EMPLOYEE_SHARE_ROUNDING = 0.4;
-
-            // % of minutes that are rounded on average
-            const ROUNDING_SHARE_APPLIED = 0.3;
-
-            // % of added value for employer
-            const EMPLOYER_EXTRA_VALUE = 0.2;
-
-            //  extra item
-            const EXTRA_ITEM_PRICE = 5;
-            const EXTRA_ITEM_NAME = 'Bier';
-            const EXTRA_ITEM_EMOJI = '🍻';
+         
 
 
             const employees = parseInt(employeesInput.value) || 0;
+
+            if(employees === 0) {
+                return;
+            }
             
             // ----- Calculate Pentacode Price -----
             let basePrice = 3;
@@ -589,7 +603,8 @@
 
             const minutesSavedPerYear = minutesSavedPerDay * openDaysCount * (52 - vacationWeeks);
             const hoursSavedPerYear = minutesSavedPerYear / 60;
-            const moneySavedPerYear = hoursSavedPerYear * hourlyWage * (1+EMPLOYER_EXTRA_VALUE);
+            const employerWage = hourlyWage * (1+EMPLOYER_EXTRA_VALUE);
+            const moneySavedPerYear = hoursSavedPerYear * employerWage;
             console.log('Money saved per year:', moneySavedPerYear);
 
             savingsTimeDisplay.textContent = `${Math.round(minutesSavedPerYear).toLocaleString('de-DE')} min = ${Math.round(hoursSavedPerYear).toLocaleString('de-DE')} h = ${Math.round(moneySavedPerYear).toLocaleString('de-DE')} €`;
@@ -612,8 +627,9 @@
 
         employeesInput.addEventListener('input', calculate);
         hourlyWageInput.addEventListener('input', function() {
-            console.log('Hourly wage input:', this.value);
-            document.getElementById('hourly-wage-display').textContent = this.value + '€';
+            document.getElementById('hourly-wage-display').textContent = this.value + ' €';
+            document.getElementById('hourly-wage-display-employer').textContent = `(Arbeitgeberkosten ca. ${(this.value * (1 + EMPLOYER_EXTRA_VALUE))
+  .toLocaleString('de-DE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} €)`;
             calculate();
         });
         timeClockCheckbox.addEventListener('change', calculate);
