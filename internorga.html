@@ -529,6 +529,8 @@
         const EXTRA_ITEM_PRICE = 5;
         const EXTRA_ITEM_NAME = 'Bier';
         const EXTRA_ITEM_EMOJI = '🍻';
+
+        // ----- DOM Elements -----
         const employeesInput = document.getElementById('employees');
         const hourlyWageInput = document.getElementById('hourly-wage');
         const timeClockCheckbox = document.getElementById('timeClock');
@@ -549,8 +551,6 @@
 
         function calculate() {
          
-
-
             const employees = parseInt(employeesInput.value) || 0;
 
             if(employees === 0) {
@@ -565,11 +565,11 @@
             let monthlyPrice = basePrice * employees;
             const discountedMonthlyPrice = monthlyPrice * 0.8;
             
-            originalPriceDisplay.textContent = `${monthlyPrice}€`;
+            originalPriceDisplay.textContent = `${monthlyPrice.toLocaleString('de-DE')} €`;
             
             if (discountCheckbox.checked) {
                 monthlyPrice = discountedMonthlyPrice;
-                discountedPriceDisplay.textContent = `${Math.round(discountedMonthlyPrice)}€`;
+                discountedPriceDisplay.textContent = `${Math.round(discountedMonthlyPrice).toLocaleString('de-DE')} €`;
                 originalPriceDisplay.classList.add('discounted');
                 discountedPriceDisplay.style.display = 'block';
             } else {
@@ -615,7 +615,7 @@
                 const leftOverSavings = moneySavedPerYear - yearlyPentacodeCost;
                 const itemCount = Math.floor(leftOverSavings / EXTRA_ITEM_PRICE);
                 extraSavings.textContent = `${Math.round(leftOverSavings).toLocaleString('de-DE')} € für Sie!`;
-                extraItem.textContent = `(Das entspricht ca. ${itemCount} ${EXTRA_ITEM_NAME} - Prost ${EXTRA_ITEM_EMOJI}!)`;
+                extraItem.innerHTML = `(Das entspricht <strong>ca. ${itemCount.toLocaleString('de-DE')}</strong> ${EXTRA_ITEM_NAME} - Prost ${EXTRA_ITEM_EMOJI}!)`;
                 meaningFull.style.display = 'block';
                 meaningNotFull.style.display = 'none';
             } else {
