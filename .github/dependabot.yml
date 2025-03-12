@@ -1,0 +1,13 @@
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+version: 2
+updates:
+  - package-ecosystem: "npm"     # Change this if you're using another ecosystem
+    directory: "/"             # Location of your package.json and package-lock.json
+    schedule:
+      interval: "weekly"       # Options: daily, weekly, or monthly
+      time: "04:00"            # Time in UTC when updates run
+      day: "monday"            # Day of the week for weekly updates
+    open-pull-requests-limit: 5 # Limit on simultaneous update PRs
+    commit-message:
+      prefix: "chore"          # Prefix for commit messages
