@@ -10,7 +10,7 @@ Im Menüpunkt **"Verträge"** verwalten Sie die **arbeitszeit**- und
 Richtigkeit und Vollständigkeit der Angaben.** Auf Basis dieser Angaben
 berechnet Pentacode Lohn- und Urlaubsansprüche.
 
-> {% icon "exclamation-triangle" %} **Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten.**
+> {% icon "exclamation-triangle" %} **Die Berechnung aller Konten eines Mitarbeiters, die gesamte Lohnvorbereitung und der Export der Daten beziehen sich auf die hier hinterlegten Daten!**
 
 ## Verträge Übersicht
 
@@ -53,6 +53,8 @@ Die Überwachung von Lohngrenzen, die Meldung bestimmter Probleme und der Export
 Geben Sie bei **Vertragsbeginn** das Datum ein, zu dem das Beschäftigungsverhältnis des Mitarbeiters in Ihrem Unternehmen begonnen hat.
 
 Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverhältnis endet. Lassen Sie dieses Feld leer, um einen unbefristeten Vertrag zu erfassen.
+
+> {% icon "lightbulb" %} Sie können **Verträge im Vorraus planen!** Legen Sie dazu den Vertragsbeginn eines neuen Vertrags in die Zukunft, dieser wird automatisch den alten Vertrag an diesem Datum ablösen.
 
 ### Bemerkungen
 
