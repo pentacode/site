@@ -58,6 +58,10 @@ So fügen Sie ein neues Dokument hinzu:
    [Dokumenteneigenschaften](#dokumenteneigenschaften) bestimmen können.
 5. Klicken Sie auf {% button label="Speichern" %} um den Vorgang abzuschließen.
 
+{% figure caption="Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen." %}
+<img src = "eingabefenster.webp" />
+{% endfigure %}
+
 ### Drag and Drop
 
 Um ein Dokument hinzuzufügen können Sie auch den Ordner mit den gewünschten
@@ -267,15 +271,11 @@ Besonders relevant ist das Feld **Kategorien**, hier können dem Dokument ein
 oder mehrere Begriffe zugeordnet werden, welche es später einfacher machen
 nach diesem Dokument zu [filtern](#kategorienfilter) und es schnell zu finden.
 Tippen Sie dazu einfach die gewünschten Kategorien in das Textfeld, bis
-dieses auftaucht. Um eine neue Kategorie zu erstellen, geben Sie es ein und drücken Sie {% key "Enter" %}. Es wir nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
+diese auftaucht. Um eine neue Kategorie zu erstellen, geben Sie diese ein und drücken Sie {% key "Enter" %}. Sie wird nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
 Darstellungsfarbe der Kategorie im Nachhinein bearbeiten wollen, können
-Sie dies unter
-[Einstellungen/Dokumente](../../einstellungen/dokumente/)
-tun.
+Sie das unter [Einstellungen](../../einstellungen/dokumente/) tun.
 
-{% figure caption="Der Name der Datei sowie das aktuelle Datum werden automatisch übernommen." %}
-<img src = "eingabefenster.webp" />
-{% endfigure %}
+Sie können bestimmen, dass alle Dokumente einer Kategorie den Mitarbeitern nicht angezeigt werden, selbst wenn ihnen der [Zugriff auf die digitale Personalakte](#mitarbeiterzugriff) gewährt ist. Das kann nützlich sein, wenn manche Dokumente **nur den Managern zu Verfügung** stehen sollen. Wenn Sie eine [Kategorie bearbeiten](#kategorien-bearbeiten) können Sie diese Funktion aktivieren. **Alle "versteckten" Dokumente sind mit dem {% icon "eye-slash" %} Symbol markiert!**
 
 ## Berechtigungen erteilen
 
@@ -319,7 +319,6 @@ einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 
 ## Kategorien bearbeiten
 
-Wenn Sie ihre digitale Personalakte verwalten und die Farbgebung der Kategorien
-verändern wollen, drücken Sie in der **Dokumentenübersicht** auf {% button label="Kategorien bearbeiten" %} oben rechts im Fenster. Dieser leitet Sie zu
-den **Einstellungen** weiter. Klicken Sie
+Wenn Sie ihre digitale Personalakte verwalten und die Einstellungen der Kategorien
+verändern wollen, drücken Sie in der **Dokumentenübersicht** auf {% button label="Kategorien bearbeiten" %} oben rechts im Fenster. Dieser leitet Sie zu den **Einstellungen** weiter. Klicken Sie
 [hier](/hilfe/handbuch/einstellungen/dokumente) für mehr Informationen.
