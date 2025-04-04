@@ -275,7 +275,7 @@ diese auftaucht. Um eine neue Kategorie zu erstellen, geben Sie diese ein und dr
 Darstellungsfarbe der Kategorie im Nachhinein bearbeiten wollen, können
 Sie das unter [Einstellungen](../../einstellungen/dokumente/) tun.
 
-Sie können bestimmen, dass alle Dokumente einer Kategorie den Mitarbeitern nicht angezeigt werden, selbst wenn ihnen der [Zugriff auf die digitale Personalakte](#mitarbeiterzugriff) gewährt ist. Das kann nützlich sein, wenn manche Dokumente **nur den Managern zu Verfügung** stehen sollen. Wenn Sie eine [Kategorie bearbeiten](#kategorien-bearbeiten) können Sie diese Funktion aktivieren. **Alle "versteckten" Dokumente sind mit dem {% icon "eye-slash" %} Symbol markiert!**
+Sie können bestimmen, dass alle Dokumente einer Kategorie den Mitarbeitern nicht angezeigt werden, selbst wenn ihnen der [Zugriff auf die digitale Personalakte](#mitarbeiterzugriff) gewährt ist. Das kann nützlich sein, wenn manche Dokumente **nur den Managern zur Verfügung** stehen sollen. Wenn Sie eine [Kategorie bearbeiten](#kategorien-bearbeiten) können Sie diese Funktion aktivieren. **Alle "versteckten" Dokumente sind mit dem {% icon "eye-slash" %} Symbol markiert!**
 
 ## Berechtigungen erteilen
 
