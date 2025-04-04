@@ -7,7 +7,6 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
-
 ## 1.32.3
 
 ### Änderungen & Neuigkeiten
