@@ -1,11 +1,11 @@
 ---
 layout: layouts/hilfe/single.njk
-title: Dokumente & Formulare
+title: Digitale Personalakte
 icon: files
 weight: 7
 ---
 
-Das **Dokumentenarchiv** bietet Ihnen die Möglichkeit die **Dokumente ihrer
+Die **Digitale Personalakte** bietet Ihnen die Möglichkeit die **Dokumente ihrer
 Mitarbeiter direkt in Pentacode zu speichern und von überall verfügbar zu
 haben**. So bietet es sich an, Lebensläufe, Arbeitszeugnisse, Bescheinigungen
 oder ähnliche Dateien hier abzuspeichern um auf ein ausgedrucktes Archiv
@@ -17,13 +17,12 @@ einholen.
 ## Dokumentenübersicht
 
 In die Dokumentenübersicht gelangen Sie über den Reiter **Mitarbeiter** im
-Hauptmenü und den Unterpunkt **Dokumente & Formulare**. Die Dokumentenübersicht zeigt Ihnen
+Hauptmenü und den Unterpunkt **Digitale Personalakte**. Die Dokumentenübersicht zeigt Ihnen
 eine sortierte Liste ihrer gespeicherten Dokumente. Unter jedem Mitarbeiter
 erscheinen dabei die ihm zugeteilten Dateien mit Namen, Datum und
-Schlagwörtern. Von hier aus können Sie Dateien einsehen, indem Sie auf das
+Kategorien. Von hier aus können Sie Dateien einsehen, indem Sie auf das
 gewünschte Dokument klicken, worauf sich diese in ihrem Browserfenster öffnet.
-Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern oder
-Dokumentenschlagwörtern filtern.
+Sie können zudem neue Dateien hinzufügen oder nach bestimmten Mitarbeitern und Kategorien filtern.
 
 {% figure caption="Hier können Sie die gespeicherten Dateien all ihrer Mitarbeiter einsehen." %}
 <img src="dokumente_überblick.webp" />
@@ -62,8 +61,7 @@ So fügen Sie ein neues Dokument hinzu:
 ### Drag and Drop
 
 Um ein Dokument hinzuzufügen können Sie auch den Ordner mit den gewünschten
-Dateien auf ihrem PC öffnen und das Dokument per Drag and Drop in das
-Dokumentenarchiv ziehen. Drücken Sie dazu auf die Datei und
+Dateien auf ihrem PC öffnen und das Dokument per Drag and Drop in die digitale Personalakte ziehen. Drücken Sie dazu auf die Datei und
 **halten die linke Maustaste gedrückt**. Nun **ziehen** Sie die Datei
 in die Dokumentenübersicht zum gewünschten Mitarbeiter. Anschließend
 öffnet sich auch das Fenster für weitere
@@ -81,21 +79,20 @@ Mitarbeitern ausfüllen zu lassen. Dies ist besonders hilfreich um schnell
 Daten und Informationen einzuholen und direkt in Pentacode zu speichern. Zurzeit bietet Pentacode ihnen den **Personalfragebogen**, welchen Sie wie folgt
 anlegen können:
 
-1. Wählen Sie den gewünschten Mitarbeiter aus und gehen zu **Dokumente & Formulare**.
+1. Wählen Sie den gewünschten Mitarbeiter aus und gehen zu **Digitale Personalakte**.
 2. Klicken Sie auf das {% button icon="file-circle-plus"%} in der oberen
    rechten Ecke.
 3. Wählen Sie {% icon "pen-field" %} **Personalfragebogen**. 
-4. Fügen Sie einen Kommentar und ein Schlagwort hinzu, falls gewünscht und
+4. Fügen Sie einen Kommentar und eine Kategorie hinzu, falls gewünscht und
    klicken Sie auf **Speichern**
 
-Der vorläufige Personalfragebogen ist nun im Dokumentenarchiv des Mitarbeiters
+Der vorläufige Personalfragebogen ist nun in der digitalen Personalakte des Mitarbeiters
 gespeichert und noch mit dem Zusatz 'Entwurf' versehen. Sie müssen ihn erst
 [zum Ausfüllen freigeben](#ausfüllen-und-freigeben) bevor der
 Mitarbeiter an der Reihe ist. Das nötige Dialogfeld öffnet sich automatisch, Sie können dieses aber auch erst später ausfüllen.
 
 
-> {%icon "lightbulb"%} **Tipp**:  Versehen Sie den Personalfragebogen mit einem
-> Schlagwort, welches Sie am besten auch 'Personalfragebogen' nennen. So finden Sie
+> {%icon "lightbulb"%} **Tipp**:  Versehen Sie den Personalfragebogen mit einer Kategorie, welches Sie am besten auch 'Personalfragebogen' nennen. So finden Sie
 > auch unter vielen Dokumenten immer schnell das Richtige. 
 
 ### Doch warum ein Personalfragebogen?
@@ -104,7 +101,7 @@ Das Übertragen der **Sozialversicherungs- und Lohndaten** neuer Mitarbeiter
 nimmt besonders in Betrieben mit häufig wechselnder Belegschaft viel Zeit in
 Anspruch. Mit Hilfe von **Personalfragebögen** können Sie neuen Mitarbeitern ein
 Formular zuschicken, in welchem sie ihre Daten angeben können und diese direkt
-und sicher in ihrem Pentacode Dokumentenarchiv gespeichert werden. So sparen Sie
+und sicher in ihrer digitale Personalakte gespeichert werden. So sparen Sie
 sich Zeit die Lohndaten einzufordern und müssen sie auch nicht mehr händisch
 übertragen, was Fehler vermeidet.
 
@@ -160,7 +157,7 @@ Ein großer Vorteil eines digitalisierten Archivs ist die Geschwindigkeit, in de
 Sie das gesuchte Dokument selbst in einem reich gefüllten Archiv schnell finden
 können.
 Pentacode bietet Ihnen dabei **zwei mögliche Filteroptionen**:
-Nach Mitarbeiterkriterien und nach Dokumentenschlagwörtern.
+Nach Mitarbeiterkriterien und nach Dokumentenkategorien.
 
 ### Mitarbeiterfilter
 
@@ -176,13 +173,12 @@ Beschäftigungsverhältnissen:
    im Filtern-Dialogfenster ganz nach unten und drücken Sie auf **Filter
    zurücksetzen**.
 
-### Schlagwortfilter
+### Kategorienfilter
 
 Beim Suchen bestimmter Dokumententypen werden Ihnen zudem die
-[Schlagwörter](#schlagwort) nützlich, die sie einer Datei beim Erstellen
+[Kategorien](#kategorien) nützlich, die sie einer Datei beim Erstellen
 zugeordnet haben. Wählen Sie dazu das mit dem {% icon "tag" %} markierten
-Schlagwort am oberen Rand der Dokumentenübersicht aus. Durch Anklicken eines
-Schlagwortes sehen Sie nur noch die Dateien, welche diesem
+Kategorie am oberen Rand der Dokumentenübersicht aus. Durch Anklicken einer Kategorie sehen Sie nur noch die Dateien, welche diesem
 zugeordnet sind. Um wieder zu allen Dokumenten zurückzukehren, drücken Sie auf
 den {% button icon="tags", label="Alle" %}-Button.
 
@@ -192,12 +188,12 @@ Die Mitarbeiter- und Dokumentenfilter können auch kombiniert werden, wenn Sie
 nach einer Art von Dokument in einer Gruppe ihrer Belegschaft suchen.
 
 > **Beispiel:** Sollte eine Behörde alle Hygieneschulungen ihrer Köche einsehen
-> wollen, stellen Sie den **Filter** auf **Küche** und das Schlagwort auf
+> wollen, stellen Sie den **Filter** auf **Küche** und die Kategorien auf
 > **Hygieneschulung** und schon haben Sie alle relevanten Bescheinigungen
 > aufgelistet.
 
 {% figure caption="Hier wurden die Mitarbeiter nach der Abteilung 'Küche' und die
-Dokumente nach dem Schlagwort 'Hygieneschulung' gefiltert" %}
+Dokumente nach der Kategorie 'Hygieneschulung' gefiltert" %}
 <img src ="dokumente_filter.webp" />
 {% endfigure %}
 
@@ -208,7 +204,7 @@ So **bearbeiten** Sie eine Datei:
 1. [Öffnen](#dokument-öffnen) Sie das Dokument
 2. Drücken Sie nun auf den {% button icon="pencil-alt" %}-**Button** im
    rechten oberen Eck, um wieder in das [Dialogfeld](#dokumenteneigenschaften) zu
-   gelangen, in dem Sie Namen, Schlagwörter und Kommentar des Dokuments bearbeiten
+   gelangen, in dem Sie Namen, Kategorien und Kommentar des Dokuments bearbeiten
    können.
 3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf {% button label="Speichern" %}
 
@@ -265,13 +261,13 @@ Datei widerspiegeln.
 Im Textfeld **Kommentar** kann, wie der Name schon sagt, dem Dokument ein
 Kommentar mit zusätzlichen Informationen hinzugefügt werden.
 
-### Schlagwörter
+### Kategorien
 
-Besonders relevant ist das Feld **Schlagwörter**, hier können dem Dokument ein
+Besonders relevant ist das Feld **Kategorien**, hier können dem Dokument ein
 oder mehrere Begriffe zugeordnet werden, welche es später einfacher machen
-nach diesem Dokument zu [filtern](#schlagwortfilter) und es schnell zu finden.
-Tippen Sie dazu einfach die gewünschten Schlagwörter in das Textfeld, bis
-dieses auftaucht. Um ein neues Schlagwort zu erstellen, geben Sie es ein und drücken Sie {% key "Enter" %}. Es wir nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
+nach diesem Dokument zu [filtern](#kategorienfilter) und es schnell zu finden.
+Tippen Sie dazu einfach die gewünschten Kategorien in das Textfeld, bis
+dieses auftaucht. Um eine neue Kategorie zu erstellen, geben Sie es ein und drücken Sie {% key "Enter" %}. Es wir nun automatisch dem Dokument zugeordnet. Wenn Sie den Namen oder die
 Darstellungsfarbe der Kategorie im Nachhinein bearbeiten wollen, können
 Sie dies unter
 [Einstellungen/Dokumente](../../einstellungen/dokumente/)
@@ -284,10 +280,9 @@ tun.
 ## Berechtigungen erteilen
 
 Im Menüpunkt **Zugänge und Rechte** können Sie ihren Mitarbeitern in
-verschiedenen Stufen Zugriff auf das Dokumentenarchiv gewähren. Sollen die
+verschiedenen Stufen Zugriff auf die digitale Personalakte gewähren. Sollen die
 Mitarbeiter nur Zugriff auf ihre eigenen Dokumente haben, reicht ein
-**Mitarbeiterzugriff**. Soll jedoch das Dokumentenarchiv mit bearbeitet werden,
-ist auch das möglich, mit einem **Managerzugriff**.
+**Mitarbeiterzugriff**. Soll jedoch auch auf die digitale Personalakte anderer Mitarbeiter zugegriffen werden, erteilen Sie einen **Managerzugriff**.
 
 ### Mitarbeiterzugriff
 
@@ -299,7 +294,7 @@ aber die Dokumente anderer Mitarbeiter. Gehen Sie dazu unter **Mitarbeiter** auf
 Mitarbeiterapp die für sie gespeicherten Dokumente einsehen aber keine weiteren
 hinzufügen oder bestehende löschen.
 
-> {% icon "lightbulb" %} **Tipp:** Über das Dokumentenarchiv können Sie
+> {% icon "lightbulb" %} **Tipp:** Über die digitale Personalakte können Sie
 > mitarbeiterspezifisch auch To-Do Listen, Meetingmitschriften oder selbst
 > ausgestellte Arbeitszeugnisse zur Verfügung stellen - ihrer Fantasie sind keine
 > Grenzen gesetzt
@@ -315,17 +310,16 @@ Sie den Reiter **Mitarbeiter** ausklappen und alle Haken bis auf **Dokumente**
 entfernen. Von nun an kann dieser Manager die Dokumente aller Mitarbeiter
 einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 
-> {% icon "exclamation-triangle" %} **Achtung:** Ein Manager mit Berechtigung auf das
-> Dokumentenarchiv hat Zugriff auf **private Daten der Mitarbeiter** - eine
+> {% icon "exclamation-triangle" %} **Achtung:** Ein Manager mit Berechtigung auf die digitale Personalakte hat Zugriff auf **private Daten der Mitarbeiter** - eine
 > Aufklärung zum Umgang mit vertraulichen Daten ist also vorauszusetzen!
 
-{% figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch das Dokumentenarchiv bearbeiten" %}
+{% figure caption="Erteilen Sie einem Manager die Berechtigung **Mitarbeiter** kann er automatisch auch die digitale Personalakte bearbeiten" %}
 <img src="dokumente_zugang.gif" />
 {% endfigure %}
 
-## Schlagwörter bearbeiten
+## Kategorien bearbeiten
 
-Wenn Sie ihre Dokumentenarten verwalten und die Farbgebung der Schlagwörter
+Wenn Sie ihre digitale Personalakte verwalten und die Farbgebung der Kategorien
 verändern wollen, drücken Sie in der **Dokumentenübersicht** auf {% button label="Kategorien bearbeiten" %} oben rechts im Fenster. Dieser leitet Sie zu
 den **Einstellungen** weiter. Klicken Sie
 [hier](/hilfe/handbuch/einstellungen/dokumente) für mehr Informationen.
