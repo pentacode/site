@@ -17,7 +17,7 @@ mail@pentacode.app
 
 ## Erhebung und Verarbeitung personenbezogener Daten
 
-Wir erheben und verarbeiten personenbezogene Daten, wenn Sie unsere Webseite besuchen, unsere Dienste nutzen oder mit uns in Kontakt treten. Dazu können gehören:
+Wir erheben und verarbeiten personenbezogene Daten, wenn Sie unsere Webseite besuchen, unsere Dienste nutzen oder mit uns in Kontakt treten.  Dazu können gehören:
 
 - Name, Vorname
 - E-Mail-Adresse
