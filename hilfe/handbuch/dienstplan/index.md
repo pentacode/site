@@ -59,7 +59,7 @@ Dienstplanübersicht erstellen.
 8. Mit {% button label="Speichern" %} wird der Kalendereintrag gespeichert. 
 
 {% figure caption= "Ihre Mitarbeiter sollen mit einer Lieferung rechnen? Mit einer Dienstplannotiz sind sie schnell erinnert."%}
-<img src= "dienstplannotiz.gif" />
+<img src= "kalendereintrag.gif" />
 {% endfigure %}
 
 ### Kalendereintrag löschen
