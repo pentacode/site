@@ -43,11 +43,9 @@ Wochen oder einen ganzen Monat im Voraus erstellen.
 <img src= "dienstplan_zeitraum.gif" />
 {% endfigure %}
 
-## Dienstplannotizen hinzufügen
+## Kalendereintrag hinzufügen
 
-Wollen Sie ihrer Belegschaft weitere Informationen zum Tagesgeschäft, wichtige
-Neuerungen oder eine einfache Erinnerung zukommen lassen? All das können Sie
-über die Tagesnotizen erledigen. Diese können Sie einfach in der
+Wollen Sie ihren Dienstplaner auf wichtige Daten aufmerksam machen oder ihrer Belegschaft weitere Informationen zum Tagesgeschäft, wichtige Neuerungen oder eine einfache Erinnerung zukommen lassen? All das können Sie über Kalendereinträge erledigen. Diese können Sie einfach in der
 Dienstplanübersicht erstellen.
 
 1. Fahren Sie mit dem Cursor über einen Tag der ausgewählten Woche.
@@ -56,19 +54,27 @@ Dienstplanübersicht erstellen.
 4. Wählen Sie den **Zeitraum** aus, in der die Notiz angezeigt werden soll -
    standardmäßig ist das nur der ausgewählte Tag.
 5. Wählen Sie die **Abteilungen** aus, welche die Notiz sehen sollen.
-6. Mit {% button label="Speichern" %} wird die Notiz ihren Mitarbeitern
-   angezeigt.
+6. Wählen Sie, ob die Notiz den Mitarbeitern **in der Mitarbeiter-App angezeigt werden soll**, indem Sie  'Als Dienstplannotiz Anzeigen' an- oder abwählen. 
+7. Wählen Sie ob Sie dem Kalendereintrag eine Urlaubssperre zuteilen wollen, mehr dazu [weiter unten](#urlaubssperre-einrichten)
+8. Mit {% button label="Speichern" %} wird der Kalendereintrag gespeichert. 
 
 {% figure caption= "Ihre Mitarbeiter sollen mit einer Lieferung rechnen? Mit einer Dienstplannotiz sind sie schnell erinnert."%}
 <img src= "dienstplannotiz.gif" />
 {% endfigure %}
 
-### Dienstplannotiz löschen
+### Kalendereintrag löschen
 
 Um die Notiz eines oder mehrerer Tage zu löschen klicken Sie einfach über die
 Notiz in der Dienstplanübersicht. Nun können Sie zum einen die **Notiz
 bearbeiten**, durch einen Klick auf den {% icon "trash-alt" %}-**Button** können
 Sie die Notiz aber auch komplett löschen.
+
+## Urlaubssperre einrichten
+
+Über die Kalendereinträge können Sie auch Urlaubssperren erteilen. Erstellen Sie dazu einen Kalendereintrag, wählen den gewünschten Zeitraum und unter 'Urlaubssperre' eine der folgenden Optionen aus:
+- **Keine Urlaubssperre:** Mitarbeiter können Urlaubsanträge stellen und Manager können Anträge gewähren oder Urlaub erteilen.
+- **Urlaube Komplett sperren:** Mitarbeiter können keine Urlaubsanträge stellen und Manager können in dieser Zeit keinen Urlaub erteilen.
+- **Nur Urlaubsanträge sperren:** Mitarbeiter können keine Urlaubsanträge stellen, Manager können jedoch Mitarbeitern in diesem Zeitraum weiterhin Urlaub erteilen. 
 
 ## Dienstplan-Tabs
 
