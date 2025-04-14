@@ -37,7 +37,7 @@ Bevor Sie die Stempeluhr auf einem Endgerät nutzen können, muss diese erst ein
 3. Die neu angelegte Stempeluhr sollte nun in der Liste auf der linken Seite angezeigt werden. Auf der rechten Seite sehen Sie die Anweisungen, um die Einrichtung der Stempeluhr abzuschließen.
 
 <figure>
-<img src="stempeluhr_einrichten_2.png" />
+<img src="stempeluhr_einrichten_2.webp" />
 <figcaption>Die digitale Stempeluhr ist in wenigen Schritten eingerichtet und innerhalb von Sekunden einsetzbar.</figcaption>
 </figure>
 
