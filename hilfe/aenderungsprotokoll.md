@@ -7,92 +7,159 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.34.2
+
+### Änderungen & Neuigkeiten
+
+-   Stempeluhren nutzen ab sofort ein überarbeitetes Format für Verbindungscodes.
+
+### Behobene Fehler
+
+-   Es war in seltenen Fällen nicht möglich, Einladungen an "Alle" Mitarbeiter zu versenden.
+-   Die Vergabe von Positionen in der Mitarbeiterübersicht funktionierte vorübergehend nicht.
+-   Unter _Umsätze > Tagesabrechnung_ wurden Vorschläge teilweise abgeschnitten dargestellt.
+-   Beim Veröffentlichen von Änderungen im Dienstplan werden nun alle Schichten korrekt vorausgewählt.
+-   Gelöschte Schichten wurden in seltenen Fällen nicht korrekt als Änderung markiert.
+-   Beim erstmaligen Anlegen von Dienstplan-Tabs wurden die Standard-Dienstplan-Tabs fälschlicherweise gelöscht.
+
+## 1.34.1
+
+### Behobene Fehler
+
+-   Es war wegen des neuen Updates nicht möglich Urlaube und Krankheiten in der Vergangenheit nachzupflegen. Wir bitten die Unannehmlichkeiten zu entschuldigen.
+
+## 1.34.0
+
+### Änderungen & Neuigkeiten
+
+-   "Dienstplannotizen" heißen jetzt "Kalendereinträge".
+-   **Urlaubssperren:** Mit Hilfe von Kalendereinträgen können Urlaubssperren eingetragen werden.
+-   **Benachrichtigungseinstellungen:** Jeder Nutzer kann nun unter _Einstellungen > Benutzer_ seine persönlichen Benachrichtigungen einstellen und erhaltene Urlaubsanträge und Krankmeldungen auf einzelne Bereiche weiter einschränken.
+-   Zuschläge und Sonderleistungen werden nun in der Tabelle der Vertragsdaten unter _Mitarbeiter > Verträge_ angezeigt.
+
+### Behobene Fehler
+
+-   Die Sortierung von Fähigkeiten & Merkmalen wurde nicht gespeichert.
+-   In seltenen Fällen wurden die Konten nicht automatisch neu berechnet, wenn eine ältere Schicht bearbeitet wurde.
+-   In einigen Fällen konnten Dokumente wegen zu großer Dateien nicht in die _Digitale Personalakte_ hochgeladen werden. Das Limit für die Dateigröße beträgt nun 10 MB.
+-   In seltenen Fällen konnten keine Urlaubsanträge eingereicht werden, wenn bereits eine abgelehnte Abwesenheit vorlag.
+
+## 1.33.0
+
+### Änderungen & Neuigkeiten
+
+-   Der Zeitraum für Lohnbuch-Exporte wird nun automatisch korrekt eingestellt, wenn der Abrechnungszeitraum Ihres Unternehmens vom Monatsanfang abweicht.
+
+### Behobene Fehler
+
+-   Der Druckknopf für Mitarbeiter-Stammdaten funktionierte nicht.
+-   Bilder in der Digitalen Personalakte wurden in einigen Fällen nicht korrekt angezeigt.
+-   Nach der Übernahme einer Schicht in der Mitarbeiter-App wurden andere offene Schichten am selben Tag nicht korrekt ausgeblendet.
+-   Nahe beieinander liegende Urlaube oder Krankschreibungen wurden in der Mitarbeiter-App nicht korrekt auf dem Zeitstrahl dargestellt.
+-   Manager wurden in seltenen Fällen nach dem Archivieren von Standorten aus dem Dienstplan ausgesperrt.
+-   In einigen Fällen wurden Arbeitszeiten bei Vertragsanpassungen nicht neu berechnet.
+-   Beim Erstellen neuer Job-Ausschreibungen wurde die Datumseingabe nicht korrekt dargestellt.
+
+## 1.32.5
+
+### Behobene Fehler
+
+-   In einigen Fällen wurde der Bereich **Zugänge & Rechte** nicht korrekt dargestellt, nachdem eine Einladung an einen Mitarbeiter versendet wurde.
+
+## 1.32.4
+
+### Behobene Fehler
+
+-   In einigen Fällen wurden die Schichtvorschläge in schwarz angezeigt, statt die korrekte Farbe der Position anzuzeigen.
+-   In seltenen Fällen funktionierte die Datumsauswahl nicht korrekt.
+-   In einigen Fällen wurde die Kostenanalyse im Dienstplan nicht sofort aktualisiert.
+
 ## 1.32.3
 
 ### Änderungen & Neuigkeiten
 
-- Neue Verträge können jetzt bis zu 5 Jahre im Voraus angelegt werden.
+-   Neue Verträge können jetzt bis zu 5 Jahre im Voraus angelegt werden.
 
 ### Behobene Fehler
 
-- In einigen Fällen war es nicht möglich, Zahlungsmittel hinzuzufügen.
-- In seltenen Fällen wurden Zuschläge für Wochentage bei Urlaub und Krankheit nicht korrekt berechnet.
+-   In einigen Fällen war es nicht möglich, Zahlungsmittel hinzuzufügen.
+-   In seltenen Fällen wurden Zuschläge für Wochentage bei Urlaub und Krankheit nicht korrekt berechnet.
 
 ## 1.32.2
 
 ### Änderungen & Neuigkeiten
 
-- Kategorien für Dokumente können jetzt als unsichtbar für Mitarbeiter markiert werden, sodass diese Dokumente in der Mitarbeiter-App nicht sichtbar sind.
-- Mitarbeiter können ihre Urlaubsanträge und Krankmeldungen bearbeiten, solange diese noch nicht genehmigt oder abgelehnt wurden.
-- Die Sektion Dokumente & Formulare wurde in Digitale Personalakte umbenannt.
+-   Kategorien für Dokumente können jetzt als unsichtbar für Mitarbeiter markiert werden, sodass diese Dokumente in der Mitarbeiter-App nicht sichtbar sind.
+-   Mitarbeiter können ihre Urlaubsanträge und Krankmeldungen bearbeiten, solange diese noch nicht genehmigt oder abgelehnt wurden.
+-   Die Sektion **Dokumente & Formulare** wurde in **Digitale Personalakte** umbenannt.
 
 ## 1.32.1
 
 ### Änderungen & Neuigkeiten
 
-- Arbeitszeiten sind nun in der Mitarbeiter-App einsehbar, sofern die entsprechende Berechtigung erteilt ist.
-- Geplante Schichten können jetzt als "nicht zugewiesen" markiert werden, wenn sie von einer Abwesenheit überschrieben werden.
-- Das Exportformat Überstunden wurde um Mehrstunden erweitert (gilt nur für Österreich).
+-   Arbeitszeiten sind nun in der Mitarbeiter-App einsehbar, sofern die entsprechende Berechtigung erteilt ist.
+-   Geplante Schichten können jetzt als "nicht zugewiesen" markiert werden, wenn sie von einer Abwesenheit überschrieben werden.
+-   Das Exportformat **Überstunden** wurde um Mehrstunden erweitert (gilt nur für Österreich).
 
 ### Behobene Fehler
 
-- In einigen Fällen wurden geplante Schichten ohne definierte Startzeit nicht im Dienstplan in der Mitarbeiter-App angezeigt.
-- Die Farbdarstellung im Bereich Berichte > Übersicht wurde korrigiert, so dass positive Veränderungen nun in grün und negative Veränderungen in rot dargestellt werden.
-- In seltenen Fällen konnte ein inkorrektes Datum bei einer Bewerbung angegeben werden.
-- In einigen Fällen konnten sich Mitarbeiter, die vorher Manager waren, nicht in die Mitarbeiter-App einloggen.
-- In seltenen Fällen wurden im individuellen Datenexport keine Daten angezeigt.
+-   In einigen Fällen wurden geplante Schichten ohne definierte Startzeit nicht im Dienstplan in der Mitarbeiter-App angezeigt.
+-   Die Farbdarstellung im Bereich **Berichte > Übersicht** wurde korrigiert, so dass positive Veränderungen nun in grün und negative Veränderungen in rot dargestellt werden.
+-   In seltenen Fällen konnte ein inkorrektes Datum bei einer Bewerbung angegeben werden.
+-   In einigen Fällen konnten sich Mitarbeiter, die vorher Manager waren, nicht in die Mitarbeiter-App einloggen.
+-   In seltenen Fällen wurden im individuellen Datenexport keine Daten angezeigt.
 
 ## 1.32.0
 
 ### Änderungen & Neuigkeiten
 
-- Technische Überarbeitung des Problemberichts. Probleme sollten nun deutlich schneller Laden und in Echtzeit aktualisiert werden.
-- Aus technischen Gründen wurde die Anzeige der Problemanzahl im Hauptmenü entfernt. Wir bemühen uns, in Zukunft eine Alternativlösung zu finden.
+-   Technische Überarbeitung des Problemberichts. Probleme sollten nun deutlich schneller Laden und in Echtzeit aktualisiert werden.
+-   Aus technischen Gründen wurde die Anzeige der Problemanzahl im Hauptmenü entfernt. Wir bemühen uns, in Zukunft eine Alternativlösung zu finden.
 
 ### Behobene Fehler
 
-- Bei dem Laden der Problemmeldungen kam es bei manchen Unternehmen zu sehr langen Ladezeiten.
-- Einige Probleme wurden im Bereich Problemmeldungen zu spät oder gar nicht angezeigt.
-- Beim Bearbeiten von Arbeitszeiten im Arbeitszeitblatt wurde die Anzeige von Ist-Stunden und Lohn-Kurzbericht nicht direkt aktualisiert.
+-   Bei dem Laden der Problemmeldungen kam es bei manchen Unternehmen zu sehr langen Ladezeiten.
+-   Einige Probleme wurden im Bereich Problemmeldungen zu spät oder gar nicht angezeigt.
+-   Beim Bearbeiten von Arbeitszeiten im Arbeitszeitblatt wurde die Anzeige von Iststunden und Lohn-Kurzbericht nicht direkt aktualisiert.
 
 ## 1.31.3
 
 ### Änderungen & Neuigkeiten
 
-- Zusätzliche Gehälter können nun nur noch für die Positionen des Mitarbeiters hinzugefügt werden.
+-   Zusätzliche Gehälter können nun nur noch für die Positionen des Mitarbeiters hinzugefügt werden.
 
 ### Behobene Fehler
 
-- Der Januar war in der Monatsauswahl nicht auswählbar.
+-   Der Januar war in der Monatsauswahl nicht auswählbar.
 
 ## 1.31.2
 
 ### Änderungen & Neuigkeiten
 
-- Export von Lohndaten für das "Sage" Lohnabrechnungsprogramm ist jetzt verfügbar.
-- Der Verbindungscode von Stempeluhren kann nun unter **Zeiterfassung > Bearbeiten** eingesehen werden.
+-   Export von Lohndaten für das "Sage" Lohnabrechnungsprogramm ist jetzt verfügbar.
+-   Der Verbindungscode von Stempeluhren kann nun unter **Zeiterfassung > Bearbeiten** eingesehen werden.
 
 ### Behobene Fehler
 
-- Neu entstandene Probleme wurden in einigen Fällen nicht korrekt angezeigt.
-- Mitarbeiter mit der Rolle "Manager" konnten ihre eigenen Rechte bearbeiten.
-- Nach dem Festschreiben der Arbeitszeiten kam es in seltenen Fällen zu Anzeigefehlern bei den Kosten von Mahlzeiten.
+-   Neu entstandene Probleme wurden in einigen Fällen nicht korrekt angezeigt.
+-   Mitarbeiter mit der Rolle "Manager" konnten ihre eigenen Rechte bearbeiten.
+-   Nach dem Festschreiben der Arbeitszeiten kam es in seltenen Fällen zu Anzeigefehlern bei den Kosten von Mahlzeiten.
 
 ## 1.31.1
 
 ### Änderungen & Neuigkeiten
 
-- Beim Einstempeln in der Stempeluhr sind Positionen nun eindeutig gekennzeichnet und mit ihrer entsprechenden Farbe hervorgehoben.
+-   Beim Einstempeln in der Stempeluhr sind Positionen nun eindeutig gekennzeichnet und mit ihrer entsprechenden Farbe hervorgehoben.
 
 ### Behobene Fehler
 
-- In seltenen Fällen wurden die Zugänge & Rechte bei mehrfacher Anlage von Mitarbeitern auf die folgenden Mitarbeiter übertragen.
-- In einigen Fällen wurden Bemerkungen nicht im Arbeitszeitnachweis abgebildet.
-- In seltenen Fällen wurden Schichten nicht zur Bewerbung freigegeben, obwohl diese im Bereich "Nicht zugewiesen" waren.
-- Ein Beschreibungstext wies noch nicht die neue Lohngrenze bei Aushilfen von 556€ aus.
-- In einigen Fällen konnte der Export "Individuelle Excel-Tabelle" nicht ausgeführt werden.
-- In seltenen Fällen wurden Endzeiten bei Stempelungen abgelehnt, weil die passende Schicht nicht gefunden wurde.
-- In seltenen Fällen wurden ehemals zuständige Manager weiterhin über Urlaubs- und Krankenanträge informiert, obwohl sie nicht mehr zuständig sind.
+-   In seltenen Fällen wurden die Zugänge & Rechte bei mehrfacher Anlage von Mitarbeitern auf die folgenden Mitarbeiter übertragen.
+-   In einigen Fällen wurden Bemerkungen nicht im Arbeitszeitnachweis abgebildet.
+-   In seltenen Fällen wurden Schichten nicht zur Bewerbung freigegeben, obwohl diese im Bereich "Nicht zugewiesen" waren.
+-   Ein Beschreibungstext wies noch nicht die neue Lohngrenze bei Aushilfen von 556€ aus.
+-   In einigen Fällen konnte der Export "Individuelle Excel-Tabelle" nicht ausgeführt werden.
+-   In seltenen Fällen wurden Endzeiten bei Stempelungen abgelehnt, weil die passende Schicht nicht gefunden wurde.
+-   In seltenen Fällen wurden ehemals zuständige Manager weiterhin über Urlaubs- und Krankenanträge informiert, obwohl sie nicht mehr zuständig sind.
 
 ## 1.31.0
 
