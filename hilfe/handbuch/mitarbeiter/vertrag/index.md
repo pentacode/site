@@ -18,7 +18,7 @@ In der Verträge-Übersicht sehen Sie in tabellarischer Form die wichtigsten akt
 einen Blick. Sie gelangen in die Verträge-Übersicht, indem Sie den Punkt {% button icon="people-group", label="Mitarbeiter" %} im Hauptmenü
 und dort im Untermenü {% button icon="file-contract", label="Verträge" %} wählen.
 
-Über den {% button icon="print" %}-Button können Sie diese Ansicht ausdrucken. Das {% button label="Filtern...", iconRight="filter" %} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
+Über den {% button icon="print" %}-Button in der rechten oberen Ecke können Sie diese Ansicht ausdrucken. Über den {% button icon="file-excel" %}-Button daneben können Sie ihre Vertragsdaten als Excel exportieren. Das {% button label="Filtern...", iconRight="filter" %} Eingabefeld in der rechten oberen Ecke gibt Ihnen die Möglichkeit, die Liste
 nach Namen, Beschäftigungsverhältnis, Abteilungen etc. zu filtern. Über den {% button icon="list-timeline", label="Vertragsänderungen" %} Button gelangen Sie zur [Vertragsänderungen-Übersicht](#vertragsänderungen-übersicht). Ein Klick auf einen
 Mitarbeiter bringt Sie in die [Verträge-Einzelansicht](#verträge-einzelansicht) des Mitarbeiters.
 
