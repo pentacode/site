@@ -80,6 +80,78 @@ So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
    {% endfigure %}
 </div>
 
+## Push Notifications anschalten 
+
+> {% icon "info-circle" %} Push Notifications sind aktuell ein Feature, das nur für Beta nutzer zur Verfügung steht!
+
+Mit Push Notifications bleiben Sie automatisch über alles was in ihrem Betrieb passiert informiert – ganz ohne aktiv in die App schauen zu müssen.
+
+## Welche Push Notifications gibt es?
+
+Zum Start werden Mitarbeitende über folgende Ereignisse benachrichtigt:
+
+- Neue Dienstpläne
+- Änderungen an bestehenden Dienstplänen
+
+## Voraussetzungen
+
+Damit Push Notifications auf Ihrem Endgerät funktionieren, sind mehrere Schritte notwendig:
+
+1. **Zweifache Zustimmung in der App**  
+   Beim ersten Start der App nach einem Update werden Sie zweimal gefragt, ob Sie Push Notifications aktivieren möchten.
+
+2. **Erlaubnis auf Betriebssystemebene**  
+   Sie müssen der App erlauben, Benachrichtigungen anzuzeigen. Diese Abfrage erfolgt durch das Betriebssystem (iOS oder Android) und muss separat bestätigt werden.
+
+> {% icon "exclamation-triangle" %} Wird die Erlaubnis an dieser Stelle verweigert, kann die App keine Push Notifications senden. Eine erneute Abfrage ist nur über die Geräteeinstellungen möglich.
+
+
+<div style="display:flex;flex-direction:row;">
+   {% figure caption="Klicken Sie auf \"Erlauben\" damit Push Notifications initialisiert werden", extraClass="centered width-40pc" %}
+   <img src="push-notifications-1.webp" />
+   {% endfigure %}
+
+   {% figure caption="Klicken Sie auf \"Anmelden\", um sich für Push Notifications anzumelden", extraClass="centered width-40pc" %}
+   <img src="push-notifications-2.webp" />
+   {% endfigure %}
+</div>
+
+3. **iOS: App auf dem Home-Bildschirm installieren**  
+   Auf Apple-Geräten funktionieren Push Notifications **nur**, wenn die Mitarbeiter-App über Safari auf dem [**Home-Bildschirm installiert**](#app-installieren) wurde.
+
+{% figure caption="Sie erhalten fortan Push-Notifications! 🎉", extraClass="float-right narrow" %}
+   <img src="push-notifications-3.webp" />
+{% endfigure %}
+
+## Hinweise zur Nutzung
+
+- Push Notifications werden nur an Geräte gesendet, auf denen die App korrekt eingerichtet wurde.
+- Wenn Mitarbeitende keine Benachrichtigungen erhalten, prüfen Sie bitte gemeinsam:
+  - Ob die Zustimmung in der App erteilt wurde.
+  - Ob die Benachrichtigungsberechtigung auf Systemebene aktiv ist.
+  - Ob bei iOS die App auf dem Home-Bildschirm installiert wurde.
+
+> {% icon "info-circle" %} Eine Nutzung der App ohne Push Notifications ist weiterhin problemlos möglich. In diesem Fall erhalten Mitarbeitende neue Dienstpläne wie gewohnt per Email
+oder können diese aktiv in der App prüfen.
+
+## Zustimmung neu gewähren oder entziehen
+
+Sollten Sie Ihre Entscheidung ändern wollen, finden Sie unter **Einstellungen** eine entsprechende Möglichkeit, um eine **erteilte Sperre aufzuheben** oder eine **Sperre zu erteilen**, damit 
+Sie keine weiteren Benachrichtigungen erhalten. Natürlich können Sie die Benachrichtigungen auch über das Betriebssystem ihres Endgeräts blockieren.
+
+<div style="display:flex;flex-direction:row;">
+   {% figure caption="Klicken Sie auf \"Sperre aufheben\" damit Push Notifications erneut initialisiert werden", extraClass="centered width-40pc" %}
+   <img src="push-notifications-4.webp" />
+   {% endfigure %}
+
+   {% figure caption="Klicken Sie auf \"Sperren\", um Ihre Zustimmung zu Push Notifications zu entziehen und diese zu sperren", extraClass="centered width-40pc" %}
+   <img src="push-notifications-5.webp" />
+   {% endfigure %}
+</div>
+
+Nachdem Sie eine Sperre aufgehoben haben, werden Sie, sobald Sie in den Hauptbildschirm navigieren, erneut nach der Zustimmung zu Push Notifications gefragt. 
+
+
 ## Kamerazugriff gewähren
 
 Um die Funktion 'QR-Code scannen' beim [Einstempeln](#einstempeln) zu verwenden, müssen Sie der Pentacode App Zugriff auf ihre Kamera gewähren. Einmal durchgeführt wird diese Einstellung gespeichert. 
