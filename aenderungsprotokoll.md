@@ -659,7 +659,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Neue Pausenmodi ["Automatisch oder Manuell"](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#automatisch-oder-manuell) und ["Geplant oder Manuell"](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#geplant-oder-manuell).
+-   Neue Pausenmodi ["Automatisch oder Manuell"](https://hilfe.pentacode.app/handbuch/einstellungen/zeiterfassung/#automatisch-oder-manuell) und ["Geplant oder Manuell"](https://hilfe.pentacode.app/handbuch/einstellungen/zeiterfassung/#geplant-oder-manuell).
 
 ### Behobene Fehler
 
@@ -702,7 +702,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   Das Einsehen des Zeiterfassungsprotokolls erfordert nun eine explizite Berechtigung.
 -   Das Zeiterfassungsprotokoll kann nun optional ausgeblendet werden.
 -   Die Liste der Stempeluhren im Zeiterfassungs-Dashboard wird nun nach Zuständigkeitsbereichen gefiltert.
--   Für das automatische/autonome Buchen von Mitarbeiteressen kann nun eine [Mindest-Schichtlänge](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#mindestdauer) definiert werden.
+-   Für das automatische/autonome Buchen von Mitarbeiteressen kann nun eine [Mindest-Schichtlänge](https://hilfe.pentacode.app/handbuch/einstellungen/zeiterfassung/#mindestdauer) definiert werden.
 
 ### Behobene Fehler
 
@@ -840,7 +840,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Es ist nun möglich, einen benutzerdefinierten Wochenfaktor einzurichten. Mehr Informationen [hier](https://pentacode.app/hilfe/handbuch/einstellungen/unternehmen/#wochenfaktor).
+-   Es ist nun möglich, einen benutzerdefinierten Wochenfaktor einzurichten. Mehr Informationen [hier](https://hilfe.pentacode.app/handbuch/einstellungen/unternehmen/#wochenfaktor).
 
 ### Behobene Fehler
 
@@ -1018,8 +1018,8 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Neues Feature: [Sofortmeldung](https://pentacode.app/hilfe/handbuch/mitarbeiter/allgemein/#sofortmeldung)
--   Neues Feature: [Personalfragebogen](https://pentacode.app/hilfe/handbuch/mitarbeiter/dokumente/#personalfragebogen)
+-   Neues Feature: [Sofortmeldung](https://hilfe.pentacode.app/handbuch/mitarbeiter/allgemein/#sofortmeldung)
+-   Neues Feature: [Personalfragebogen](https://hilfe.pentacode.app/handbuch/mitarbeiter/dokumente/#personalfragebogen)
 -   Überarbeitete Mitarbeiter-Filterfunktion
 -   Das Mitarbeiter-Stammdatenblatt wurde erweitert.
 -   Mitarbeiter-Listen können nun nach verschiedenen Kriterien wie Personalnummer, Geburtstag etc. sortiert werden.
@@ -1054,14 +1054,14 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Neues Feature: [Dokumentenarchiv](https://pentacode.app/hilfe/handbuch/mitarbeiter/dokumente/)
--   Neues Feature: [Stellenausschreibungen und Bewerbungsmanagement (beta)](https://pentacode.app/hilfe/handbuch/recruiting/)
+-   Neues Feature: [Dokumentenarchiv](https://hilfe.pentacode.app/handbuch/mitarbeiter/dokumente/)
+-   Neues Feature: [Stellenausschreibungen und Bewerbungsmanagement (beta)](https://hilfe.pentacode.app/handbuch/recruiting/)
 -   Neue Funktionen zur Verwaltung von Mitarbeitern:
-    -   [Auf Probe einstellen](https://pentacode.app/hilfe/handbuch/mitarbeiter/allgemein/#mitarbeiter-auf-probe)
-    -   [Mitarbeiter Entlassen](https://pentacode.app/hilfe/handbuch/mitarbeiter/allgemein/#mitarbeiter-entlassen)
-    -   [Mitarbeiter wiedereinstellen](https://pentacode.app/hilfe/handbuch/mitarbeiter/allgemein/#mitarbeiter-wiedereinstellen)
+    -   [Auf Probe einstellen](https://hilfe.pentacode.app/handbuch/mitarbeiter/allgemein/#mitarbeiter-auf-probe)
+    -   [Mitarbeiter Entlassen](https://hilfe.pentacode.app/handbuch/mitarbeiter/allgemein/#mitarbeiter-entlassen)
+    -   [Mitarbeiter wiedereinstellen](https://hilfe.pentacode.app/handbuch/mitarbeiter/allgemein/#mitarbeiter-wiedereinstellen)
 -   Neue Übersichts- und überarbeitete Einzelansicht unter Mitarbeiter/Verträge
--   Neues Feature: [Vetragsänderungsprotokoll](https://pentacode.app/hilfe/handbuch/mitarbeiter/vertrag/#änderungsprotokoll)
+-   Neues Feature: [Vetragsänderungsprotokoll](https://hilfe.pentacode.app/handbuch/mitarbeiter/vertrag/#änderungsprotokoll)
 -   Ausgeschiedenen Mitarbeitern wird nun automatisch der Zugriff auf den Verwaltungs- und Mitarbeiterzugang entzogen.
 
 ### Behobene Fehler
@@ -1096,8 +1096,8 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Neues Feature: [Verfügbarkeiten](https://pentacode.app/hilfe/handbuch/mitarbeiter/verfuegbarkeiten/)
--   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://pentacode.app/hilfe/handbuch/mitarbeiter/arbeitszeiten/)
+-   Neues Feature: [Verfügbarkeiten](https://hilfe.pentacode.app/handbuch/mitarbeiter/verfuegbarkeiten/)
+-   Neues Feature: [Festschreibung von Arbeitszeiten & Konten](https://hilfe.pentacode.app/handbuch/mitarbeiter/arbeitszeiten/)
 -   Zusätzlich zu Nacht 1 und Nacht 2 können nun auch die Zuschlagszeiträume für Folgetage nach Sonn- und Feiertagen,
     sowie die "besonderen Feiertage" Heilig Abend und Silvester bearbeitet werden.
 -   In der Abwesenheits-Übersicht werden nun auch Vertragsunterbrechungen und generelle Zeiträume ohne aktiven Vertrag
@@ -1267,21 +1267,21 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Neue Pausenmodi [Geplant](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#geplant) und [Geplant + Manuell](https://pentacode.app//hilfe/handbuch/einstellungen/zeiterfassung/#geplant--manuell).
--   Verbesserte Verwaltung von Zeiterfassungseinstellungen über [Zeiterfassungs-Regelsätze](https://pentacode.app/hilfe/handbuch/einstellungen/zeiterfassung/#über-zeiterfassungs-regelsätze).
--   Überarbeitetes [Arbeitszeitblatt](https://pentacode.app/hilfe/handbuch/mitarbeiter/arbeitszeiten/#das-arbeitszeitblatt)
--   In der [Arbeitszeiten-Übersicht](https://pentacode.app/hilfe/handbuch/mitarbeiter/arbeitszeiten/#arbeitszeiten-übersicht) werden zusätzlich zu Stunden auch Arbeits-, Urlaubs- und Krankmache angezeigt.
+-   Neue Pausenmodi [Geplant](https://hilfe.pentacode.app/handbuch/einstellungen/zeiterfassung/#geplant) und [Geplant + Manuell](https://pentacode.app//hilfe/handbuch/einstellungen/zeiterfassung/#geplant--manuell).
+-   Verbesserte Verwaltung von Zeiterfassungseinstellungen über [Zeiterfassungs-Regelsätze](https://hilfe.pentacode.app/handbuch/einstellungen/zeiterfassung/#über-zeiterfassungs-regelsätze).
+-   Überarbeitetes [Arbeitszeitblatt](https://hilfe.pentacode.app/handbuch/mitarbeiter/arbeitszeiten/#das-arbeitszeitblatt)
+-   In der [Arbeitszeiten-Übersicht](https://hilfe.pentacode.app/handbuch/mitarbeiter/arbeitszeiten/#arbeitszeiten-übersicht) werden zusätzlich zu Stunden auch Arbeits-, Urlaubs- und Krankmache angezeigt.
 -   Der Lohndaten-Export unterstützt nun auch den Export von Arbeits- und Fehltagen.
--   Mitarbeiterzugängen können nun auch wieder [entzogen](https://pentacode.app/hilfe/handbuch/mitarbeiter/zugaenge-rechte/#zugang-entziehen) werden.
+-   Mitarbeiterzugängen können nun auch wieder [entzogen](https://hilfe.pentacode.app/handbuch/mitarbeiter/zugaenge-rechte/#zugang-entziehen) werden.
 -   In den Ausdrucken "Arbeitszeitnachweis" und "Lohnabrechnung Individuell" werden nun Feiertage hervorgehoben.
--   Für den Export des Kassenbuchs in das Format "Datev Buchungsstapel" kann nun eine benutzerdefinierte [Sachkontenlänge](https://pentacode.app/hilfe/handbuch/einstellungen/buchhaltung/#sachkontenlänge) angegeben werden.
+-   Für den Export des Kassenbuchs in das Format "Datev Buchungsstapel" kann nun eine benutzerdefinierte [Sachkontenlänge](https://hilfe.pentacode.app/handbuch/einstellungen/buchhaltung/#sachkontenlänge) angegeben werden.
 
 ### Behobene Fehler
 
 -   Beim Drucken von veröffentlichen Dienstplänen kam es bei Abteilungen mit sehr vielen Mitarbeitern manchmal zu Darstellungsproblemen.
 -   In den Pausenmodi "Automatisch" und "Automatisch + Manuell" war es nicht möglich eine abweichende Pause von 0 einzugeben.
 -   Bei der Eingabe von
-    [Nachtzuschlags-Zeiträumen](https://pentacode.app/hilfe/handbuch/einstellungen/zuschlaege/) wurden
+    [Nachtzuschlags-Zeiträumen](https://hilfe.pentacode.app/handbuch/einstellungen/zuschlaege/) wurden
     bestimmte valide Nacht1-Zeiträume nicht akzeptiert (z.B. 20:00 - 22:00).
 -   Bei manchen Mitarbeitern wurde in der Kontenansicht ein Wert für die SFN-Pauschale angezeigt obwohl diese im Vertrag deaktiviert war.
 -   Im Ausdruck "Lohnabrechnung Individuell" kam es in manchen Fällen zu einer überlappenden Darstellung der Umsatz- und Provisionswerte.
@@ -1392,8 +1392,8 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   Überarbeitetes Design für die Mitarbeiter-App
 -   Anzeige von Arbeitszeitkonten und Resturlaub in der Mitarbeiter-App
 -   Automatische Benachrichtigungen bei Dienstplanänderungen können nun über den Bereich **Mitarbeiter / Benachrichtigungen** aktiviert oder deaktiviert werden.
--   Alternative Druckfunktion im Dienstplan: Über das Tastenkürzel **STRG + P** (bzw. **CMD + P** auf Mac) kann der **aktuelle Bearbeitungsstatus** gedruckt werden. Mehr Infos [hier](https://pentacode.app/hilfe/handbuch/dienstplan/#dienstplan-drucken).
--   Beim Erstellen und Anwenden von Dienstplanvorlagen werden nun automatisch die Filterkriterien des aktiven Tabs angewendet. Mehr Infos dazu [hier](https://pentacode.app/hilfe/handbuch/dienstplan/#dienstplan-vorlagen).
+-   Alternative Druckfunktion im Dienstplan: Über das Tastenkürzel **STRG + P** (bzw. **CMD + P** auf Mac) kann der **aktuelle Bearbeitungsstatus** gedruckt werden. Mehr Infos [hier](https://hilfe.pentacode.app/handbuch/dienstplan/#dienstplan-drucken).
+-   Beim Erstellen und Anwenden von Dienstplanvorlagen werden nun automatisch die Filterkriterien des aktiven Tabs angewendet. Mehr Infos dazu [hier](https://hilfe.pentacode.app/handbuch/dienstplan/#dienstplan-vorlagen).
 -   Beim Leeren des Dienstplans werden nur Schichten gelöscht, die den Filterkriterien des aktuellen Tabs entsprechen.
 -   Im Arbeitszeitkonto werden nun wieder auch geplante Schichten angezeigt, sind dort allerdings nicht bearbeitbar.
 -   Die Urlaubsanzeige im Dienstplan zeigt nun den Urlaubsanspruch und Resturlaub für das gesamte Jahr an.
@@ -1419,7 +1419,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   **Komplett überarbeiteter Dienstplan mit verbesserten Schichtvorschlägen, einer erweiterten Filterfunktion und mehr!** Details finden Sie im neuen [Hilfeartikel](https://pentacode.app/hilfe/handbuch/dienstplan/).
+-   **Komplett überarbeiteter Dienstplan mit verbesserten Schichtvorschlägen, einer erweiterten Filterfunktion und mehr!** Details finden Sie im neuen [Hilfeartikel](https://hilfe.pentacode.app/handbuch/dienstplan/).
 -   Erweiterte Farbauswahl für Abteilungen
 -   Einzelnen Positionen können nun eigene Farben zugewiesen werden.
 -   Einige kleinere Verbesserungen im Kassenbuch.

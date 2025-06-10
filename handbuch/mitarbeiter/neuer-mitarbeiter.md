@@ -1,5 +1,5 @@
 ---
 layout: layouts/base.njk
 eleventyExcludeFromCollections: true
-redirect: https://pentacode.app/hilfe/handbuch/mitarbeiter-app/
+redirect: https://hilfe.pentacode.app/handbuch/mitarbeiter-app/
 ---
