@@ -190,7 +190,7 @@ Mit einem iPhone gehen Sie so vor:
 ## Einloggen
 
 Nachdem ihr Arbeitergeber Sie wie unter [Zugänge
-& Rechte](/hilfe/handbuch/mitarbeiter/zugaenge-rechte) beschrieben per Email
+& Rechte]\(/handbuch/mitarbeiter/zugaenge-rechte) beschrieben per Email
 eingeladen hat und Sie sich registriert haben, können Sie sich in die
 Mitarbeiterapp einloggen. Hierzu rufen Sie die Mitarbeiterapp unter
 https://perso.pentacode.app auf und geben ihre Email Adresse, sowie das
@@ -223,7 +223,7 @@ Personaler verwaltet. Klären Sie deshalb im Vorfeld ab **welche Form der
 Zeiterfassung** Sie in ihrem Betrieb nutzen und wie mit Pausen und spontanen
 Schichten umzugehen ist. Alternativ zur Zeiterfassung über die Mitarbeiterapp
 ist auch das Anmelden über unsere **digitale Stempeluhr vor Ort** (siehe
-[hier](/hilfe/handbuch/stempeluhr)) oder das Führen manueller Einträge möglich.
+[hier]\(/handbuch/stempeluhr)) oder das Führen manueller Einträge möglich.
 
 ### Einstempeln
 
