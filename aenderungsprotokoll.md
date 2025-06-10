@@ -225,8 +225,8 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
--   Die alte Stempeluhr wurde abgeschaltet. [Hier](/hilfe/handbuch/zeiterfassung/#stempeluhr-einrichten) erfahren Sie, wie Sie eine neue Stempeluhr anlegen.
--       Der alte Dienstplan wurde abgeschaltet. Falls Sie den neuen Dienstplan noch nicht genutzt haben, können Sie sich [hier](/hilfe/handbuch/dienstplan/) über die neuen Funktionen informieren.
+-   Die alte Stempeluhr wurde abgeschaltet. [Hier]\(/handbuch/zeiterfassung/#stempeluhr-einrichten) erfahren Sie, wie Sie eine neue Stempeluhr anlegen.
+-       Der alte Dienstplan wurde abgeschaltet. Falls Sie den neuen Dienstplan noch nicht genutzt haben, können Sie sich [hier]\(/handbuch/dienstplan/) über die neuen Funktionen informieren.
 -   Der Personalkostenbericht wurde grundlegend überarbeitet. Weitere Informationen erhalten Sie auf [unserem Blog](/blog/ueberarbeitung_kostenberichte/).
 -   Performance-Verbesserungen beim Laden von der Übersicht der Berichte.
 -   Es gibt eine neue Ansicht unter **Umsätze > Alle Umsätze**, die alle erfassten Umsätze anzeigt.
@@ -1603,7 +1603,7 @@ aber wir bemühen uns diese innerhalb der nächsten Updates zu beheben!
 
 ### Änderungen & Neuigkeiten
 
--   Neues Feature: [Umsatzgruppen](/hilfe/handbuch/umsaetze/umsatzgruppen/)
+-   Neues Feature: [Umsatzgruppen]\(/handbuch/umsaetze/umsatzgruppen/)
 -   Neuer Bereich **Berichte / Umsätze**
 -   Verbesserte Tools für die Planung von Umsätzen und Stundenvorgaben (beta)
 -   SFN-Pauschalen in Teilmonaten werden nun partiell berechnet, d.h. falls ein
@@ -1651,7 +1651,7 @@ aber wir bemühen uns diese innerhalb der nächsten Updates zu beheben!
 
 ### Änderungen & Neuigkeiten
 
--   **Neues Feature**: [Zielorientierte Dienstplanung](/hilfe/handbuch/dienstplan/plan-ist-vergleich.md)
+-   **Neues Feature**: [Zielorientierte Dienstplanung]\(/handbuch/dienstplan/plan-ist-vergleich.md)
 -   Neuer Bericht: Arbeitszeit
 -   Beim Festschreiben des Kassenbuches kann nun ein bestimmtes Datum gewählt
     werden, bis zu dem festgeschrieben werden soll.

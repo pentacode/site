@@ -16,9 +16,9 @@ eines Beispieles.
 ## Warum Konten übertragen?
 
 Mit Hilfe von Pentacode können Sie nicht nur sehen, ob ihre Mitarbeiter
- [**Über- oder Minderstunden aufbauen**](/hilfe/handbuch/mitarbeiter/konten/#stundenkonto),
+ [**Über- oder Minderstunden aufbauen**]\(/handbuch/mitarbeiter/konten/#stundenkonto),
 Sie können auch [**Fehl- und Urlaubstage
-planen**](/hilfe/handbuch/mitarbeiter/abwesenheiten) und Überstunden auszahlen,
+planen**]\(/handbuch/mitarbeiter/abwesenheiten) und Überstunden auszahlen,
 sowie vieles mehr. Als dies wird durch die automatisch geführten
 Mitarbeiterkonten ermöglicht. Natürlich sind bei einem Umstieg auf Pentacode
 aber nicht alle Uhren auf null gestellt und Resturlaub sowie Überstunden können
@@ -34,7 +34,7 @@ Um die Urlaubs-, Arbeitszeit- und SFN-Konten ihrer Mitarbeiter zu übertragen bi
 2. Klicken Sie auf das {% icon "ellipsis-h" %} Symbol in der oberen rechten Ecke der Kontenübersicht.
 3. Wählen Sie {% button icon="undo", label="Konten Zurücksetzen" %} aus.
 
-Mehr zur Funktionsweise des Übertrags erfahren Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten--konten-zurücksetzen).
+Mehr zur Funktionsweise des Übertrags erfahren Sie [hier]\(/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten--konten-zurücksetzen).
 
 > {% icon "lightbulb" %} **Tipp:** Wenn Sie erst einen einzelnen Mitarbeiter auswählen und in dessen Kontenmenü die Funktion **"Konten Zurücksetzen"** nutzen, öffnet sich das Übertragsmenü **nur für diesen Mitarbeiter**!
 
