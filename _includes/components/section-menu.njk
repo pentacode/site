@@ -1,4 +1,4 @@
-{% set allPages = collections.all | eleventyNavigation("/" + eleventyNavigation.section) | excludeDrafts | sortByWeight %}
+{% set allPages = collections.all | eleventyNavigation("/") | excludeDrafts | sortByWeight %}
 
 {% macro menu(pages) %}
     {% for page in pages %}
@@ -22,7 +22,7 @@
             {% endif %}
 
             {# Special case of pages/URLs with the same starting slug #}
-            {% if (not hideChildren) and (page.key === "/hilfe/handbuch/mitarbeiter-app" or page.key === "/hilfe/handbuch/mitarbeiter") and (eleventyNavigation.key === "/hilfe/handbuch/mitarbeiter-app" or eleventyNavigation.key === "/hilfe/handbuch/mitarbeiter") and (page.key !== eleventyNavigation.key) %}
+            {% if (not hideChildren) and (page.key === "/handbuch/mitarbeiter-app" or page.key === "/handbuch/mitarbeiter") and (eleventyNavigation.key === "/handbuch/mitarbeiter-app" or eleventyNavigation.key === "/handbuch/mitarbeiter") and (page.key !== eleventyNavigation.key) %}
                 {% set hideChildren = true %}
             {% endif %}
 
