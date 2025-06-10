@@ -1,11 +1,9 @@
 ---
-layout: layouts/home.njk
-title: Pentacode - Personalmanagement war noch nie so einfach
-description: Von Dienstplanung und Zeiterfassung bis hin zu Kostenanalyse, Controlling
-  und Lohnvorbereitung - so einfach und intuitiv wie noch nie.
-hero_title: "**Personalmanagement**<br>war noch nie so einfach."
-hero_subtitle: <i class="fal fa-lightbulb-on"></i> intuitiv <i class="fal fa-robot"></i>
-  automatisiert <i class="fal fa-shield-check"></i> sicher
-hero_text: Von **Dienstplanung** und **Zeiterfassung** bis hin zu **Kostenanalyse**,
-  **Controlling** und **Lohnvorbereitung** - so einfach und intuitiv wie noch nie.
+layout: layouts/hilfe/index.njk
+kind: home
+title: Wissensportal
+weight:
+icon: "map-marker-question"
 ---
+
+Willkommen im <strong>Pentacode Wissensportal</strong>! Hier finden Sie alles, was Sie über Pentacode und seine vielfältigen Funktionen wissen müssen! Möchten Sie mehr über die Bedienung von Pentacode im Allgemeinen erfahren? Dann werfen Sie einen Blick in unser <a href="/hilfe/handbuch"><i class="fal fa-book"></i> Handbuch</a>! Im Bereich <a href="/hilfe/tips_und_rezepte"><i class="fal fa-cauldron"></i> Tipps & Rezepte</a> steigen wir etwas tiefer in bestimmte Themenbereiche ein und erklären Ihnen, wie Sie das meiste aus Ihrer neuen Verwaltungssoftware herausholen!
