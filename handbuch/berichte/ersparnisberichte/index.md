@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Ersparnis
 weight: 2
 icon: piggy-bank

@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Vorschüsse
 weight: 8
 icon: hand-holding-dollar

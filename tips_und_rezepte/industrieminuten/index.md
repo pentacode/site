@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Industriezeit - Was ist das?
 weight: 3
 icon: clock

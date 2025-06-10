@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Kassenbuch
 weight: 3
 icon: book

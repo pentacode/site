@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Wie richtige Dienstplanung den Gewinn erhöht
 weight: 
 icon: ''

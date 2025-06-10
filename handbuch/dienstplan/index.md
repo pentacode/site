@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 keywords: []
 title: Dienstplan
 weight: 2

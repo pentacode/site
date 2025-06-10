@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Urlaubsansprüche und Überstunden übertragen
 weight: 
 icon: "calendar"

@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Planung nach Stundenvorgaben
 weight: 2
 icon: hourglass-half

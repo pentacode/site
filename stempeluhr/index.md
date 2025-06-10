@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Digitale Stempeluhr
 weight: 2
 icon: chess-clock

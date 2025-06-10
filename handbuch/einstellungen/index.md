@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/index.njk
+layout: layouts/index.njk
 title: Einstellungen
 weight: 8
 icon: cog

@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Zuschlagskonto
 weight: 4
 icon: badge-percent

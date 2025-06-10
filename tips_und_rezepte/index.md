@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/index.njk
+layout: layouts/index.njk
 title: Tipps & Rezepte
 weight: 4
 icon: cauldron
