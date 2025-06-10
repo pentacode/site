@@ -1,0 +1,21 @@
+---
+permalink: index.json
+---
+{% macro listing(pages) %}{% set index = 0 %}{% for page in pages %}{% set index = index + 1 %}{
+    "title": {{ page.title | jsonify | safe }},
+    "summary": {{ (page.excerpt + '...') | jsonify | safe }},
+    "url": {{ page.url | url | jsonify | safe }},
+    "relUrl": {{ page.url | jsonify | safe }},
+    "section": {{ (page.parent or page.section) | jsonify | safe }},
+    "keywords": {{ (page.keywords or []) | jsonify | safe }},
+    "anchors": {{ (page.htmlContent | toc) | jsonify | safe }},
+    "icon": {{ (page.icon or "scroll") | jsonify | safe }},
+    "isDescendant": true,
+    "content": {{ page.content | jsonify | safe }}
+  }{% set subpages = collections.all | eleventyNavigation(page.key) | orderByDate | excludeDrafts %}{% if subpages.length > 0 %}, {% endif %}{{ listing(subpages) }}{% if index < pages.length %}, {% endif %}{% endfor %}{% endmacro %}{
+  "section": "{{ eleventyNavigation.section }}",
+  "pages": [
+    {% set allPages = collections.all | eleventyNavigation(eleventyNavigation.key) | orderByDate | excludeDrafts %}
+    {{ listing(allPages) }}
+  ]
+}
