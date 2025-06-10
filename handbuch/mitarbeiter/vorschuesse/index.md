@@ -30,7 +30,7 @@ Durch die Filteroptionen im oberen Bereich der Übersicht können Sie die Übers
 
 ## Barvorschüsse
 
-Barvorschüsse werden in der Vorschussliste aufgeführt - können aber nicht direkt hier bearbeitet werden. Da Barvorschüsse aus der Tageskasse gezahlt werden, **können diese nur in der [Tagesabrechnung](/hilfe/handbuch/umsaetze/tagesabrechnung/) unter {% button icon="euro-sign", label="Umsätze" %} erstellt und bearbeitet werden!**
+Barvorschüsse werden in der Vorschussliste aufgeführt - können aber nicht direkt hier bearbeitet werden. Da Barvorschüsse aus der Tageskasse gezahlt werden, **können diese nur in der [Tagesabrechnung]\(/handbuch/umsaetze/tagesabrechnung/) unter {% button icon="euro-sign", label="Umsätze" %} erstellt und bearbeitet werden!**
 
 {% figure caption="Versuchen Sie einen Barvorschuss zu löschen, werden Sie auf das Kassenbuch verwiesen." %}
 <img src="barvorschuss.webp" />

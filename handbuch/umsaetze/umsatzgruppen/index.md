@@ -14,7 +14,7 @@ keywords:
 Im Menüpunkt "**Umsatzgruppen**" haben Sie die Möglichkeit, **Umsatz-, Zahlungs- und Kostenarten in Gruppen** zusammenzufassen. Durch die Zusammenfassung werden möglicherweise fehlerhafte oder unvollständige Eingaben in der Tagesabrechnung buchhalterisch vereinheitlicht.
 
 Darüber hinaus können diese Gruppen als **dauerhafte Einträge** in der
-"[**Tagesabrechnung**](/hilfe/handbuch/umsaetze/tagesabrechnung/)" erscheinen.
+"[**Tagesabrechnung**]\(/handbuch/umsaetze/tagesabrechnung/)" erscheinen.
 
 ## Anlegen von Umsatzgruppen
 
@@ -22,7 +22,7 @@ Klicken Sie auf **+ Neue Umsatzgruppe**" und geben Sie den gewünschten
 Buchungstext, UST-Satz und evtl. die Kostenstelle an. 
 > Generell ist zu raten die Umsätze **nach Erlösart (Speisen, Getränke, Eintritt etc.)** und nicht
 nach MwSt. zu gruppieren um die Funktionen des
-[Berichtswesens](/hilfe/handbuch/berichte/umsatzberichte) vollständig nutzen zu können.
+[Berichtswesens]\(/handbuch/berichte/umsatzberichte) vollständig nutzen zu können.
 
 {% figure caption="Durch Entfernen des Buttons 'Kassenbuch' wird die Umsatzart lediglich statistisch erfasst" %}
 
@@ -32,7 +32,7 @@ nach MwSt. zu gruppieren um die Funktionen des
 
 Wenn "**Im Kassenbuch führen**" ausgewählt ist, wird die Umsatzgruppe  durch
 "**Abschließen und Buchen**" in der Tagesabrechnung **automatisch in das**
-[**Kassenbuch**](/hilfe/handbuch/umsaetze/kassenbuch/) **geschrieben**. Wenn Sie
+[**Kassenbuch**]\(/handbuch/umsaetze/kassenbuch/) **geschrieben**. Wenn Sie
 das **Kassenbuch nicht** in Pentacode führen wollen, wählen Sie den Button ab.
 Der **Umsatz** fließt dann nur in das **Berichtswesen** und Ihre **Planung**
 ein.

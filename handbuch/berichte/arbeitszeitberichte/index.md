@@ -36,7 +36,7 @@ Durch Anklicken einer **Abteilung** wird die Grafik neu berechnet und stellt die
 
 {% endfigure %}
 
-> {% icon "lightbulb" %} **Tipp:** Mit der Betrachtung einzelner Abteilungen können Sie sehen, ob es große Differenzen zwischen geplanter und durchgeführter Arbeitszeit gibt. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**Plan-Ist-Vergleich**](/hilfe/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen.
+> {% icon "lightbulb" %} **Tipp:** Mit der Betrachtung einzelner Abteilungen können Sie sehen, ob es große Differenzen zwischen geplanter und durchgeführter Arbeitszeit gibt. Ob "Ausreißer" an einzelnen Tagen oder eher durchgängig stattfanden, lässt sich durch einen Blick auf die [**Plan-Ist-Vergleich**]\(/handbuch/dienstplan/plan-ist-vergleich/) im Dienstplan des entsprechenden Zeitraums erkennen.
 
 ## Lohnangabe
 

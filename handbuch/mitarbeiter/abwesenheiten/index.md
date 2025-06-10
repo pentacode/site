@@ -9,7 +9,7 @@ Neben der Arbeitszeitdokumentation und Dienstplanung ist das **Verwalten von Abw
 wer wann krank oder im Urlaub war, ist oder sein wird - die Software **errechnet automatisch** für Sie, wann und wie viele
 Fehltage für einen Abwesenheitszeitraum gebucht werden müssen und wie viele Fehlstunden und Zuschläge anfallen. Und diese Informationen fließen dann wiederum vollautomatisch in die Lohnbuchhaltung und Mitarbeiterkonten ein!
 
-Alles, was Sie tun müssen, ist einen Mitarbeiter, Abwesenheitstyp und Zeitraum zu wählen und Pentacode erledigt den Rest für Sie. Und wenn Sie unsere [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) nutzen, können Ihre Mitarbeiter selbstständig Urlaubsanträge und Krankmeldungen erfassen, die Sie dann nur noch genehmigen müssen!
+Alles, was Sie tun müssen, ist einen Mitarbeiter, Abwesenheitstyp und Zeitraum zu wählen und Pentacode erledigt den Rest für Sie. Und wenn Sie unsere [Mitarbeiter-App]\(/handbuch/mitarbeiter-app) nutzen, können Ihre Mitarbeiter selbstständig Urlaubsanträge und Krankmeldungen erfassen, die Sie dann nur noch genehmigen müssen!
 
 ## Übersicht
 
@@ -50,7 +50,7 @@ So funktioniert das **Erfassen einer neuen Abwesenheit**:
 3. Geben Sie **Abwesenheitsbeginn** und **-ende** ein.
 4. Wählen Sie aus, welche Tage innerhalb des Abwesenheitszeitraums als **Fehltage** erfasst werden sollen. Pentacode
    trifft hier automatisch eine Vorauswahl anhand der üblichen Arbeitstage des Mitarbeiters (ermittelt basierend auf den
-   [Vertragsdaten](/hilfe/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
+   [Vertragsdaten]\(/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
 5. Klicken Sie auf {% button label="Speichern" %} um die Abwesenheit zu **übernehmen** oder
    {% button label="Abbrechen" %} um sie zu **verwerfen**.
 6. Falls es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten gibt wird Pentacode Sie
@@ -81,7 +81,7 @@ So **löschen** Sie eine Abwesenheit:
 
 ## Urlaubsanträge & Krankmeldungen
 
-Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) können Ihre Mitarbeiter Urlaubsanträge und Krankmeldungen in Form von **Abwesenheitsanträgen** erfassen, welche Sie dann genehmigen oder ablehnen können.
+Über die Pentacode [Mitarbeiter-App]\(/handbuch/mitarbeiter-app) können Ihre Mitarbeiter Urlaubsanträge und Krankmeldungen in Form von **Abwesenheitsanträgen** erfassen, welche Sie dann genehmigen oder ablehnen können.
 
 ### Abwesenheitsantrag Genehmigen
 
@@ -91,7 +91,7 @@ So **genehmigen** Sie einen Abwesenheitsantrag:
    [Einzelansicht](#einzelansicht) oder indem Sie dem Link in der Benachrichtungs-Email folgen.
 2. Wählen Sie aus, welche Tage innerhalb des Abwesenheitszeitraums als **Fehltage** erfasst werden sollen. Pentacode
    trifft hier automatisch eine Vorauswahl anhand der üblichen Arbeitstage des Mitarbeiters (ermittelt basierend auf den
-   [Vertragsdaten](/hilfe/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
+   [Vertragsdaten]\(/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
 3. Klicken Sie auf {% button icon="thumbs-up", label="Genehmigen" %}.
 4. Sie können nun noch eine optionale Antwortnachricht eingeben. Klicken Sie auf {% button label="Absenden" %} um den
    Vorgang abzuschließen.

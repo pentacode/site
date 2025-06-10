@@ -27,7 +27,7 @@ Aus Gründen der Übersichtlichkeit werden bei der grafischen Darstellung alle k
 
 Indem Sie auf "Abteilung" klicken, sehen Sie, in welchem Umfang die **einzelnen Abteilungen** zum Gesamtumsatz beigetragen haben.
 
-**Voraussetzung** hierfür ist die entsprechende Zuweisung unter [**Erlöszuordnung**](/hilfe/handbuch/umsaetze/erloeszuordnung/).
+**Voraussetzung** hierfür ist die entsprechende Zuweisung unter [**Erlöszuordnung**]\(/handbuch/umsaetze/erloeszuordnung/).
 
 {% figure caption="Durch Anklicken von 'Abteilung' sehen Sie den Beitrag der Abteilungen zum Gesamtumsatz." %}
 
@@ -45,5 +45,5 @@ Bei einem Mouse-over erscheinen auch hier die hinter der Grafik liegenden €-Be
 
 {% endfigure %}
 
-> {% icon "info-circle" %} **Grafiken dienen der Veranschaulichung!** Im hier gezeigten Beispiel macht die Darstellung auf einen Blick erkennbar, dass die Beiträge der Abteilungen sehr monatsabhängig sind und Schwankungen unterliegen. Ein Abgleich mit dem [Personalkostenbericht](/hilfe/handbuch/berichte/personalkostenberichte/) kann Abklärung bringen, woran diese Schwankung liegen könnte. Jedenfalls sind Sie mit einem einzigen Blick auf den Graphen dem Ursprung ein Stück näher. 
+> {% icon "info-circle" %} **Grafiken dienen der Veranschaulichung!** Im hier gezeigten Beispiel macht die Darstellung auf einen Blick erkennbar, dass die Beiträge der Abteilungen sehr monatsabhängig sind und Schwankungen unterliegen. Ein Abgleich mit dem [Personalkostenbericht]\(/handbuch/berichte/personalkostenberichte/) kann Abklärung bringen, woran diese Schwankung liegen könnte. Jedenfalls sind Sie mit einem einzigen Blick auf den Graphen dem Ursprung ein Stück näher. 
 

@@ -9,7 +9,7 @@ Im Arbeitszeitkonto werden die vertraglich vereinbarten, den tatsächlich geleis
 
 Die Gegenüberstellung erfolgt nur auf Basis der zum aktuellen Zeitpunkt erfassten Arbeitszeiten. **Geplante Arbeitszeiten werden im Arbeitszeitkonto nicht berücksichtigt**.
 
-Unter [Konten (Übersicht)](/hilfe/handbuch/mitarbeiter/konten/) wird das Arbeitszeitkonto gemeinsam mit dem Zuschlagskonto und Urlaubskonto in einer gemeinsamen Übersicht zusammengefasst. 
+Unter [Konten (Übersicht)]\(/handbuch/mitarbeiter/konten/) wird das Arbeitszeitkonto gemeinsam mit dem Zuschlagskonto und Urlaubskonto in einer gemeinsamen Übersicht zusammengefasst. 
 
 Sofern nicht anders erfasst, werden die Über- oder Minderstunden am Ende eines Jahres immer automatisch in das Folgejahr übertragen. Wie Sie diese Überträge bearbeiten können, erfahren Sie [weiter unten](#übertrag-bearbeiten--konten-zurücksetzen)
 
@@ -19,7 +19,7 @@ In der Übersicht können Sie die Arbeitszeiten all ihrer Mitarbeiter über eine
 
 *Übertrag -* sind die Über- oder Minderstunden, welche zu Beginn des ausgewählten Zeitraums vom Mitarbeiter angesammelt sind. 
 
-*Soll -* sind die über die [Vertragsbedingungen](/hilfe/handbuch/mitarbeiter/vertrag/) kalkulierten Soll-Stunden des Mitarbeiters für den Zeitraum. 
+*Soll -* sind die über die [Vertragsbedingungen]\(/handbuch/mitarbeiter/vertrag/) kalkulierten Soll-Stunden des Mitarbeiters für den Zeitraum. 
 
 *Ist -* sind die tatsächlich erarbeiteten Stunden des Mitarbeiters.
 
@@ -74,7 +74,7 @@ Mit der Einstellung **'Auflösung'** neben dem Kalender können Sie einstellen o
 
 {% endfigure %}
 
-Wenn Sie Arbeitszeiten händisch eintragen oder kontrollieren möchten, tun Sie dies unter [Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten/)!
+Wenn Sie Arbeitszeiten händisch eintragen oder kontrollieren möchten, tun Sie dies unter [Arbeitszeiten]\(/handbuch/mitarbeiter/arbeitszeiten/)!
 
 
 ## Übertrag Bearbeiten / Konten Zurücksetzen

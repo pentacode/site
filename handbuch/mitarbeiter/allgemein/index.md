@@ -16,14 +16,14 @@ Dialogfenster, das Sie Schritt für Schritt durch den Prozess führt:
 ### 1. Stammdaten
 
 Hier können Sie allgemeine Informationen zum Mitarbeiter erfassen. Mehr Informationen zum Thema Mitarbeiter-Stammdaten
-finden Sie unter [Mitarbeiter/Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/).
+finden Sie unter [Mitarbeiter/Stammdaten]\(/handbuch/mitarbeiter/stammdaten/).
 
 Klicken Sie auf {% button label="Positionen", iconRight="arrow-right" %}, um zum Punkt [Positionen](#2-positionen) zu gelangen.
 
 ### 2. Positionen
 
 Hier können Sie die Arbeitsbereiche definieren, in denen der Mitarbeiter eingesetzt werden kann/soll. Mehr Informationen
-zum Thema Arbeitsbereiche finden Sie unter [Einstellungen/Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/).
+zum Thema Arbeitsbereiche finden Sie unter [Einstellungen/Arbeitsbereiche]\(/handbuch/einstellungen/arbeitsbereiche/).
 Zugewiesene Positionen können Sie später jederzeit unter [Mitarbeiter/Positionen](../positionen/) bearbeiten.
 
 Klicken Sie auf {% button label="Vertrag", iconRight="arrow-right" %}, um zum Punkt [Vertrag](#3-vertrag) zu gelangen.

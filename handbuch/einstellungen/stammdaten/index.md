@@ -9,7 +9,7 @@ Unter "Stammdaten" können Sie individuelle Kategorien erstellen, welche Sie Mit
 
 ## Schlagwörter
 
-Schlagwörter stellen Eigenschaften und Gruppenzugehörigkeiten von Mitarbeitern dar und können diesen unter [Mitarbeiter>Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) zugeordnet werden. Später können wir dann im Dienstplan und der Mitarbeiterübersicht nach diesen Schlagwörtern filtern und sortieren. 
+Schlagwörter stellen Eigenschaften und Gruppenzugehörigkeiten von Mitarbeitern dar und können diesen unter [Mitarbeiter>Stammdaten]\(/handbuch/mitarbeiter/stammdaten/) zugeordnet werden. Später können wir dann im Dienstplan und der Mitarbeiterübersicht nach diesen Schlagwörtern filtern und sortieren. 
 
 Je nach Betrieb könnte es viele Gründe geben zusätzliche Schlagwörter zu erstellen. Eine klassische Anwendung wäre **Mitarbeiter mit einem Führerschein oder Dienstwagen mit einen Schlagwort zu markieren**. Der Anwendung sind aber natürlich keine Grenzen gesetzt.
 

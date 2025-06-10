@@ -48,11 +48,11 @@ Hier können Sie den Dienstplan für einzelne Mitarbeiter, Abteilungen oder die 
 
 Hier können Sie die verschiedenen Kontenstände und Bewegungen ihrer Mitarbeiter exportieren. Durch die Option **Auflösung** können Sie bestimmen, ob die Konten im Export jeweils im Wochen-, Monats- oder Jahresrhythmus saldiert werden sollen.  
 
-Die Inhalte der Exporte des Arbeitszeit-, Urlaubs- und Zuschlagskontos gleichen den unter dem Reiter [Mitarbeiter](/hilfe/handbuch/mitarbeiter/) dargestellten Konten.
+Die Inhalte der Exporte des Arbeitszeit-, Urlaubs- und Zuschlagskontos gleichen den unter dem Reiter [Mitarbeiter]\(/handbuch/mitarbeiter/) dargestellten Konten.
 
 ### Stammdatenblatt
 
-Unter {% button label="**Datenblatt**" %} werden alle unter [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) aufgeführten Daten des Mitarbeiters auf einer übersichtlichen PDF-Seite aufgeführt. 
+Unter {% button label="**Datenblatt**" %} werden alle unter [Stammdaten]\(/handbuch/mitarbeiter/stammdaten/) aufgeführten Daten des Mitarbeiters auf einer übersichtlichen PDF-Seite aufgeführt. 
 Die kann nützlich sein, um Mitarbeiterdaten zu übertragen - **achten Sie dabei aber immer darauf, dass es sich hierbei um sensible Daten handelt!**
 
 ### Kassenbuch
@@ -117,15 +117,15 @@ Für den Arbeitszeitennachweis sowie den detaillierten Lohnbericht bietet Pentac
 
 #### Schlagwörter auswählen
 
-Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzlich die Option das Dokument mit einem Schlagwort zu versehen. Dieses hilft Ihnen die gewünschte Datei schneller ausfindig zu machen. Weitere Informationen zu den Schlagwörtern finden Sie [hier](/hilfe/handbuch/einstellungen/dokumente). 
+Sobald Sie **Im Dokumentenarchiv ablegen** angewählt haben, erscheint zusätzlich die Option das Dokument mit einem Schlagwort zu versehen. Dieses hilft Ihnen die gewünschte Datei schneller ausfindig zu machen. Weitere Informationen zu den Schlagwörtern finden Sie [hier]\(/handbuch/einstellungen/dokumente). 
 
 > {% icon "lightbulb" %} **Tipp:** Sie sollten die gleiche Art von Dokument am besten stets mit dem gleichen Schlagwort versehen - Also etwa alle Arbeitszeitnachweise mit **'Arbeitszeiten'**. 
 
 #### Unterschrift anfordern
 
-Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp](/hilfe/handbuch/mitarbeiter-app/) bekommen welche ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
+Wenn Sie **Im Dokumentenarchiv ablegen** angewählt haben erscheint für Arbeitszeitnachweise zusätzlich die Möglichkeit ihren Mitarbeiter aufzufordern diese gegenzuzeichnen und zu bestätigen. Dieser wird anschließend eine Nachricht in seiner [Mitarbeiterapp]\(/handbuch/mitarbeiter-app/) bekommen welche ihn auf die Anfrage aufmerksam macht. Einmal unterzeichnet wird das Dokument anschließend so im Dokumentenarchiv des Mitarbeiters hinterlegt. 
 
-> {% icon "lightbulb" %} **Tipp:** Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen](/hilfe/handbuch/mitarbeiter/allgemein/).
+> {% icon "lightbulb" %} **Tipp:** Wir empfehlen Ihnen ihre Mitarbeiter stets dazu aufzufordern den Arbeitszeitennachweis mit einer Unterschrift zu bestätigen - dies gibt Ihnen Sicherheit im Falle einer Prüfung und deckt Missverständnisse frühzeitig auf. Nutzen Sie dazu wie oben beschrieben die Funktion **Unterschrift anfordern**. Dazu muss der Mitarbeiter jedoch einen [Zugang besitzen]\(/handbuch/mitarbeiter/allgemein/).
 
 
 ## Fehlermeldungen

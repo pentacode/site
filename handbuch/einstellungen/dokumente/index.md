@@ -15,7 +15,7 @@ einfacher.
 
 ## Kategorien
 
-Hier können Sie Arten von Dokumenten mit Kategorien zusammenfassen. Damit machen Sie sich das Heraussuchen von Dokumenten deutlich einfacher. Dazu ordnen Sie jedem Dokument eine oder mehrere Kategorien zu und können später unter [Mitarbeiter > Dokumente](/hilfe/handbuch/mitarbeiter/dokumente/) nach diesen sortieren. 
+Hier können Sie Arten von Dokumenten mit Kategorien zusammenfassen. Damit machen Sie sich das Heraussuchen von Dokumenten deutlich einfacher. Dazu ordnen Sie jedem Dokument eine oder mehrere Kategorien zu und können später unter [Mitarbeiter > Dokumente]\(/handbuch/mitarbeiter/dokumente/) nach diesen sortieren. 
 
 ### Kategorie hinzufügen
 

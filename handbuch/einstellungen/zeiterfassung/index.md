@@ -5,8 +5,8 @@ weight: 4
 icon: stopwatch
 ---
 
-Egal wie Sie Arbeitszeiten in Pentacode verwalten - über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr/), unsere
-[Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app/) oder manuell - Pentacode bietet Ihnen eine Vielzahl von
+Egal wie Sie Arbeitszeiten in Pentacode verwalten - über die [Digitale Stempeluhr]\(/handbuch/stempeluhr/), unsere
+[Mitarbeiter-App]\(/handbuch/mitarbeiter-app/) oder manuell - Pentacode bietet Ihnen eine Vielzahl von
 Einstellungsmöglichkeiten, mit denen Sie definieren können, wie und wann sich Mitarbeiter ein- und ausstempeln dürfen,
 wie Pausen erfasst werden und vieles mehr.
 
@@ -114,8 +114,8 @@ hierbei folgende Modi zu Verfügung.
 
 #### Manuell
 
-In diesem Modus werden Zeiten ausschließlich manuell über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr)
-oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst. Der Mitarbeiter erfasst dann immer Beginn und Ende jeder Pause -
+In diesem Modus werden Zeiten ausschließlich manuell über die [Digitale Stempeluhr]\(/handbuch/stempeluhr)
+oder [Mitarbeiter-App]\(/handbuch/mitarbeiter-app) erfasst. Der Mitarbeiter erfasst dann immer Beginn und Ende jeder Pause -
 Pentacode berechnet dann automatisch die Länge der Pause und zählt am Ende alle Teilpausen zusammen um zur 
 gesamten Pausenlänge zu gelangen.
 
@@ -225,7 +225,7 @@ Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und *
 
 ## Stempeluhr
 
-Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über die [Digitale Stempeluhr](/hilfe/handbuch/stempeluhr) und oder [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) erfasst werden sollen oder ob Sie Zeiten ausschließlich manuell über den [Dienstplan](/hilfe/handbuch/dienstplan) oder das [Arbeitszeitblatt](/hilfe/handbuch/mitarbeiter/arbeitszeiten/) erfassen möchten. Aktivieren oder deaktivieren Sie hierzu einfach den Button {% button label="Erfassung per Stempeluhr" %}.
+Unter dem Punkt **"Stempeluhr"** können Sie bestimmen, ob Arbeitszeiten über die [Digitale Stempeluhr]\(/handbuch/stempeluhr) und oder [Mitarbeiter-App]\(/handbuch/mitarbeiter-app) erfasst werden sollen oder ob Sie Zeiten ausschließlich manuell über den [Dienstplan]\(/handbuch/dienstplan) oder das [Arbeitszeitblatt]\(/handbuch/mitarbeiter/arbeitszeiten/) erfassen möchten. Aktivieren oder deaktivieren Sie hierzu einfach den Button {% button label="Erfassung per Stempeluhr" %}.
 
 > Alle weiteren Optionen betreffen ausschließlich die Zeiterfassung per Stempeluhr und werden ausgeblendet, falls diese Option deaktiviert ist.
 
@@ -281,7 +281,7 @@ Beispiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sic
 
 ### Standort Festhalten
 
-Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird. 
+Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll]\(/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird. 
 
 > {% icon "info-circle" %} **Info:** Um den Standort festzuhalten, muss Pentacode der Zugriff auf die Standorterfassung des Gerätes gestattet sein. Auf der Stempeluhr können Sie das selbst bestimmen. Der Mitarbeiter muss diesen Zugriff jedoch auch gewähren, wenn dieser über die Mitarbeiter-App stempelt! 
 
@@ -289,7 +289,7 @@ Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion
 
 Das Erfassen von Arbeitszeiten mit einer simplen, vierstelligen PIN ist zwar in der Praxis meist die einfachste und praktikabelste Variante, bietet aber leider wenig Schutz gegen potenziellen Betrug durch Mitarbeiter. Schnell ist der PIN an den Kollegen weitergegeben, welcher dann "mal schnell für mich stempeln" soll, während der Mitarbeiter in der Realität noch lange nicht am Arbeitsplatz ist. Natürlich möchte niemand seinen Mitarbeitern so ein Vorgehen unterstellen, aber in der Realität kommt diese Art von Arbeitszeitbetrug leider immer wieder vor und meist reicht ein einzelner Vorfall schon, um das Vertrauen in die eigenen Mitarbeiter dauerhaft zu stören.
 
-Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll](/hilfe/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
+Haben Sie Verdacht, dass nicht alles mit richtigen Dingen zugeht, oder möchten einfach nur auf der sicheren Seite sein? Dann könnte das "Beweisfoto" die richtige Lösung für Sie sein. Je nach Einstellung kann beim Schichtbeginn, -ende und sogar bei der Erfassung von Pausen automatisch ein Beweisfoto ausgelöst werden, welches Sie dann später im [Zeiterfassungsprotokoll]\(/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) prüfen können.
 
 ### Mitarbeiter Kurzinfo Anzeigen
 
@@ -322,7 +322,7 @@ Zeiterfassungs-Regelsätze anders als z.B. Mitarbeiterverträge nicht auf einen 
 Änderungen an diesen Einstellungen in der Regel eine Neuberechnung (auch rückwirkend!) aller betroffenen Konten &
 Lohnabrechnungen aus**. Um dies zu vermeiden, empfehlen wir Ihnen, vor der Änderung einer solchen Einstellung
 [Arbeitszeiten und Konten
-festzuschreiben](/hilfe/handbuch/einstellungen/unternehmen/#arbeitszeiten-%26-konten-festschreiben).
+festzuschreiben]\(/handbuch/einstellungen/unternehmen/#arbeitszeiten-%26-konten-festschreiben).
 
 Folgende Zeiterfassungs-Einstellungen wirken sich auf die Berechnung von Zuschlägen, Konten & Lohnabrechnungen aus:
 

@@ -50,7 +50,7 @@ Verlässt ein Mitarbeiter nun zum 31.01. das Unternehmen, werden ihm die 70,96% 
 ## Saldierung SFN-Konten
 
 Für die Saldierung von
-[SFN-Konten](/hilfe/handbuch/mitarbeiter/konten#sfn-konto) bietet Ihnen
+[SFN-Konten]\(/handbuch/mitarbeiter/konten#sfn-konto) bietet Ihnen
 Pentacode zwei Optionen:
 
 ### Exklusive Beitragspflichtige Zuschläge

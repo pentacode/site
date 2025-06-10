@@ -23,7 +23,7 @@ keywords:
 - festschreibung
 
 ---
-Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der [Tagesabrechnung](/hilfe/handbuch/umsaetze/tagesabrechnungen).
+Das **Kassenbuch** in Pentacode entsteht **selbständig** durch **"Abschließen & Buchen"** in der [Tagesabrechnung]\(/handbuch/umsaetze/tagesabrechnungen).
 
 > **Manuell in das Kassenbuch werden ausschließlich jene Einnahmen oder Ausgaben eingetragen, für die Sie im Wortsinn "an den Tresor" gehen, in anderen Worten: Wenn Sie auf Gelder zugreifen, die aus zurückliegenden, bereits abgerechneten Tagen stammen.**
 
@@ -55,7 +55,7 @@ Wenn Sie die **Kassenbuchführung eines Tages abgeschlossen** haben, ist das **K
 
 ## Gehaltsvorschuss
 
-Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen, da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste](/hilfe/handbuch/mitarbeiter/vorschuesse/#vorschussliste) zugeführt.
+Wenn Sie einen Gehaltsvorschuss **im Kassenbuch** erfassen, da die Vorschusszahlung **nicht Teil der Tagesabrechnung** ist, wählen Sie über das "**+**"Zeichen "**Gehaltsvorschuss**". Auch Gehaltsvorschüsse über das Kassenbuch werden automatisch der [Vorschussliste]\(/handbuch/mitarbeiter/vorschuesse/#vorschussliste) zugeführt.
 
 Die Liste der Mitarbeiter ist **alphabetisch** nach Nachnamen gegliedert, es erscheint immer der **erste** Name im Alphabet. Indem Sie auf den Namen klicken, erscheint im Dropdown-Menü die Liste der aktuell beschäftigten Mitarbeiter.
 

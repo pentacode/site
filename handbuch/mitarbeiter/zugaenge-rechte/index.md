@@ -34,7 +34,7 @@ Der erste Schritt zur Einrichtung eines Mitarbeiterzugangs ist die Versendung ei
 Der Mitarbeiter erhält nun eine Email mit einem Aktivierungslink, über den er
 die Einladung akzeptieren und ein Passwort wählen kann. Zusammen mit der Email
 des Mitarbeiters kann dieses Passwort zum Login in die
-[Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) (https://perso.pentacode.app)
+[Mitarbeiter-App]\(/handbuch/mitarbeiter-app) (https://perso.pentacode.app)
 oder (falls die entsprechende Berechtigung vorliegt) in den Verwaltungszugang
 (https://manage.pentacode.app) verwendet werden.
 
@@ -80,7 +80,7 @@ Pentacode unterscheidet zwischen drei verschiedenen Zugangsebenen:
 
 ### Mitarbeiter
 
-Die "Mitarbeiter"-Rolle ist die "niedrigste" Berechtigungsstufe und erteilt dem Mitarbeiter ausschließlich Zugang zur [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app).
+Die "Mitarbeiter"-Rolle ist die "niedrigste" Berechtigungsstufe und erteilt dem Mitarbeiter ausschließlich Zugang zur [Mitarbeiter-App]\(/handbuch/mitarbeiter-app).
 
 ### Manager
 

@@ -15,7 +15,7 @@ Sie dann einfach mit dem Schreiben an!
 Die Dienstplanansicht in Pentacode zeigt Ihnen standardmäßig eine Woche von Montag bis
 Sonntag in tabellarischer Ansicht. Abteilungen werden untereinander in der
 Reihenfolge dargestellt, die Sie unter [Einstellungen /
-Arbeitsbereiche](/hilfe/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern)
+Arbeitsbereiche]\(/handbuch/einstellungen/arbeitsbereiche/#reihenfolge-der-abteilungen-ändern)
 definiert haben. In den jeweiligen Abteilungen erscheinen jeweils alle
 Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 
@@ -293,7 +293,7 @@ automatisch gespeichert. Aber die Kontrolle, wann Sie diese Änderungen für Ihr
 Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 
 > **Achtung:** Für das Veröffentlichen von Dienstplänen wird eine explizite
-> [Berechtigung](/hilfe/handbuch/mitarbeiter/zugaenge-rechte/) benötigt.
+> [Berechtigung]\(/handbuch/mitarbeiter/zugaenge-rechte/) benötigt.
 
 ### Änderungen einsehen und auswählen
 
@@ -323,7 +323,7 @@ und erhalten einen Link zu ihrem persönlichen Dienstplan.
 > {% icon "lightbulb" %} **Tipp:** Um Mitarbeiter von Änderungen an ihrem
 > persönlichen Dienstplan benachrichtigen zu können, wird eine Emailadresse
 > benötigt. Diese können Sie in den
-> [Stammdaten](/hilfe/handbuch/mitarbeiter/stammdaten/) der einzelnen
+> [Stammdaten]\(/handbuch/mitarbeiter/stammdaten/) der einzelnen
 > Mitarbeiter hinterlegen.
 
 {% figure caption="Im Dienstplan-Menü sehen Sie, wie viele Änderungen seit der letzten Veröffentlichung gemacht wurden." %}
@@ -533,7 +533,7 @@ Stundenvorgaben-Leisten können Sie in den [Planungshilfen](#planungshilfen)
 unter **'Stundenvorgaben'** an- und abwählen. 
 
 Mehr Informationen über das Planen nach Stundenvorgaben erfahren Sie
-[hier](/hilfe/handbuch/planung/stundenvorgaben/).
+[hier]\(/handbuch/planung/stundenvorgaben/).
 
 ## Überstunden Vorher/Nachher
 
@@ -613,8 +613,8 @@ die Arbeitszeiterfassung durch die Stempeluhr voraus.
 **Hinweis**: Wenn an einem Tag Arbeiten zu leisten sind, die nicht mit dem
 aktuellen Tagesgeschäft in Zusammenhang stehen (z.B. vorbereitende Arbeiten in
 der Küche für eine Veranstaltung, die erst in zwei Tagen stattfindet), setzen Sie
-in [**Planung nach Stundenvorgaben**](/hilfe/handbuch/planung/stundenvorgaben/)
+in [**Planung nach Stundenvorgaben**]\(/handbuch/planung/stundenvorgaben/)
 idealerweise das Stundenkontingent für diesen Tag entsprechend nach oben.
 
-Im Menüpunkt "[**Berichte**](/hilfe/handbuch/berichte/)" erhalten Sie u.a. auch
+Im Menüpunkt "[**Berichte**]\(/handbuch/berichte/)" erhalten Sie u.a. auch
 hierzu Informationen in Form einer monatlichen Zusammenfassung.

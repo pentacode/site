@@ -7,7 +7,7 @@ icon: island-tropical
 
 Das Urlaubskonto stellt Urlaubsanspruch und genommene Urlaubstage ihrer Mitarbeiter gegenüber.
 
-Unter [Konten (Übersicht)](/hilfe/handbuch/mitarbeiter/konten/) wird das Urlaubskonto gemeinsam mit dem Zuschlagskonto und Arbeitszeitkonto in einer gemeinsamen Übersicht zusammengefasst. 
+Unter [Konten (Übersicht)]\(/handbuch/mitarbeiter/konten/) wird das Urlaubskonto gemeinsam mit dem Zuschlagskonto und Arbeitszeitkonto in einer gemeinsamen Übersicht zusammengefasst. 
 
 Sofern nicht anders erfasst, wird die Urlaubsdifferenz am Ende eines Jahres immer automatisch in das Folgejahr übertragen. Wie Sie diese Überträge bearbeiten können, erfahren Sie unter dem Punkt 'Konten Zurücksetzen'.
 
@@ -17,7 +17,7 @@ In der Übersicht können Sie die Urlaubstage all ihrer Mitarbeiter über einen 
 
 *Übertrag -* sind die Urlaubstage, welche zu Beginn des ausgewählten Zeitraums vom Mitarbeiter angesammelt sind. 
 
-*Zuwachs -* ist der über die [Vertragsbedingungen](/hilfe/handbuch/mitarbeiter/vertrag/) kalkulierten Zuwachs an Urlaubstagen für den Zeitraum. 
+*Zuwachs -* ist der über die [Vertragsbedingungen]\(/handbuch/mitarbeiter/vertrag/) kalkulierten Zuwachs an Urlaubstagen für den Zeitraum. 
 
 *Genommen -* sind die im Zeitraum vom Mitarbeiter bereits genommenen **oder geplanten Urlaubstage**.
 
@@ -76,4 +76,4 @@ immer automatisch in das Folgejahr übertragen.
 
 In vielen Fällen ist es allerdings notwendig, korrigierend in die Saldierung von
 Konten einzugreifen, zum Beispiel wenn der Resturlaub eines Mitarbeiters am Ende
-des Jahres verfallen soll. Wie der Übertrag der Konten zu bearbeiten ist sehen Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen).
+des Jahres verfallen soll. Wie der Übertrag der Konten zu bearbeiten ist sehen Sie [hier]\(/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen).

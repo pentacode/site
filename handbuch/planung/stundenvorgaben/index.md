@@ -10,7 +10,7 @@ Um die Wirksamkeit der Dienstplanung zu erhöhen (und dadurch die Personalkosten
 
 ## Stundenvorgaben im Dienstplan
 
-Wenn Sie im Dienstplan [die Stundenvorgaben](/hilfe/handbuch/dienstplan/#planungshilfen) aktiviert haben, wird Ihnen zu jeder Abteilung ein **Fortschrittsbalken** angezeigt. Dieser vergleicht Stundenvorgaben und tatsächlich eingeteilte Schichten. **Überschreiten** die im Dienstplan eingeteilten Schichten das Planungsziel, wird das Feld am jeweiligen Tag in **Rot** gekennzeichnet.
+Wenn Sie im Dienstplan [die Stundenvorgaben]\(/handbuch/dienstplan/#planungshilfen) aktiviert haben, wird Ihnen zu jeder Abteilung ein **Fortschrittsbalken** angezeigt. Dieser vergleicht Stundenvorgaben und tatsächlich eingeteilte Schichten. **Überschreiten** die im Dienstplan eingeteilten Schichten das Planungsziel, wird das Feld am jeweiligen Tag in **Rot** gekennzeichnet.
 
 Mit einem Klick auf {% button icon="pencil", label="Stundenvorgaben" %} werden Sie in den Planungsreiter verwiesen. Von dort können Sie ihr Planungsziel anpassen. 
 
@@ -60,7 +60,7 @@ Die Stundenangaben beziehen sich immer auf die Woche, in der Sie sich im Moment 
 
 ## Stundenvorgaben nach Umsatz-Zielen
 
-Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvorgaben an Ihren [**Umsatzerwartungen**](/hilfe/handbuch/planung/umsatzplanung/) orientieren. Voraussetzung ist dabei, dass Sie bereits eine Umsatzplanung aufgestellt haben.
+Sie können Ihre **Ziele** noch **genauer definieren**, indem Sie die Stundenvorgaben an Ihren [**Umsatzerwartungen**]\(/handbuch/planung/umsatzplanung/) orientieren. Voraussetzung ist dabei, dass Sie bereits eine Umsatzplanung aufgestellt haben.
 
 Durch das Anklicken des **€**-Symbols in der Fußleiste werden Ihren Stundenvorgaben die Planumsätze hinzugefügt und die daraus resultierende **Produktivität** ermittelt. Produktivität ist hier definiert als **Umsatz pro Arbeitsstunde** und wird für jede Abteilung und Tag einzeln berechnet. 
 
