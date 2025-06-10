@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/index.njk
+layout: layouts/index.njk
 title: Umsätze
 weight: 5
 icon: euro-sign

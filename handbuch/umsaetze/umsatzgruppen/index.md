@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Umsatzgruppen
 weight: 1
 icon: filter-circle-dollar

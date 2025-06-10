@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Personalkosten
 weight: 3
 icon: hand-holding-dollar

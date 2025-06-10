@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Recruiting
 weight: 6
 icon: image-polaroid-user

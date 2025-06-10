@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Alle Umsätze
 weight: 0
 icon: chart-line

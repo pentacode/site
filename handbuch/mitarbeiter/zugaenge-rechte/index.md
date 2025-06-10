@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 keywords: []
 title: Zugänge & Rechte
 weight: 12

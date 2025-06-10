@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Arbeitsbereiche
 weight: 3
 icon: cubes

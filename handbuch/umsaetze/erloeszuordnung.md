@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Erlöszuordnung
 weight: 4
 icon: arrows-turn-to-dots

@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/index.njk
+layout: layouts/index.njk
 title: Berichte
 weight: 7
 icon: chart-pie

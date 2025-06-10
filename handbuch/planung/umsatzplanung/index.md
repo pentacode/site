@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Umsatzplanung
 weight: 1
 icon: paper-plane

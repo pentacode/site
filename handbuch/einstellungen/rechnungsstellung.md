@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Rechnungsstellung
 weight: 10
 icon: file-invoice-dollar

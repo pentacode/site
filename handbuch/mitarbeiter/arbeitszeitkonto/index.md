@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Arbeitszeitkonto
 weight: 2
 icon: scale-unbalanced

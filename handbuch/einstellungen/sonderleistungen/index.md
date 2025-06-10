@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Sonderleistungen
 weight: 8
 icon: hand-holding-box  

@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Probleme
 weight: 6
 icon: exclamation-triangle

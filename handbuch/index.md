@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/index.njk
+layout: layouts/index.njk
 title: Verwaltung
 weight: 1
 icon: user-tie-hair

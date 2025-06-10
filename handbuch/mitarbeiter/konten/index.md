@@ -1,5 +1,5 @@
 ---
-layout: layouts/hilfe/single.njk
+layout: layouts/single.njk
 title: Konten (Übersicht)
 weight: 9
 icon: balance-scale-right
