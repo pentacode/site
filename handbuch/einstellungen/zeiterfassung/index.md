@@ -204,7 +204,7 @@ Mahlzeiten werden am Ende der Schicht automatisch gebucht, und zwar basierend au
 
 #### Durch Mitarbeiter
 
-Der Mitarbeiter kann beim [Beenden der Schicht](/hilfe/stempeluhr#schicht-beenden) selbst angeben, welche Mahlzeiten er zu sich genommen hat. Dabei stehen nur die Mahlzeiten zur Verfügung, deren [Zeiträume](#essensarten-%26-zeiträume) mit der tatsächlichen Arbeitszeit überlappen.
+Der Mitarbeiter kann beim [Beenden der Schicht](/stempeluhr#schicht-beenden) selbst angeben, welche Mahlzeiten er zu sich genommen hat. Dabei stehen nur die Mahlzeiten zur Verfügung, deren [Zeiträume](#essensarten-%26-zeiträume) mit der tatsächlichen Arbeitszeit überlappen.
 
 
 <figure>
