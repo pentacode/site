@@ -148,7 +148,7 @@ Pentacode überwacht die Einhaltung des gesetzlichen Mindestlohns. Eine versehen
 könnte eintreten, wenn z.B. ein Mitarbeiter mit Festlohn Überstunden leistet. Sein Festlohn geteilt durch die Anzahl der
 Arbeitsstunden im betreffenden Monat kann einen Stundenlohn ergeben, der unter dem gesetzlichen Mindestlohn liegt.
 
-In diesem Fall erhalten Sie in Pentacode eine [Problem Meldung](/hilfe/handbuch/probleme/).
+In diesem Fall erhalten Sie in Pentacode eine [Problem Meldung]\(/handbuch/probleme/).
 
 Dieses Problem können Sie vermeiden, indem Sie mit dem Mitarbeiter die Führung
 eines **Jahresarbeitszeitkontos** vereinbaren.
@@ -174,7 +174,7 @@ Stunde**, handelt es sich um einen **festen Monatslohn**, wählen Sie **Monatlic
 
 #### Provision
 
-Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt [Umsätze](/hilfe/handbuch/umsaetze/).
+Wenn ein Mitarbeiter **Umsatzprovision** erhält, geben Sie unter Provision den Prozentsatz ein. **Voraussetzung** für die Berechnung der Provision ist die **Erfassung** des individuellen **Umsatzes** im Hauptmenüpunkt [Umsätze]\(/handbuch/umsaetze/).
 
 #### Ein Mitarbeiter - mehrere Löhne
 
@@ -191,7 +191,7 @@ Wählen Sie in diesem Fall beim betreffenden Mitarbeiter unter **"+ Gehalt hinzu
 Lohnarten werden dem Mitarbeiter normalerweise über sein
 [Beschäftigungsverhältnis](#beschäftigungsverhältnis) zugeordnet. Sie können
 diese in den Einstellungen unter
-[Buchhaltung](/hilfe/handbuch/einstellungen/buchhaltung/#lohnarten)
+[Buchhaltung]\(/handbuch/einstellungen/buchhaltung/#lohnarten)
 bearbeiten. 
 
 ## Urlaub
@@ -202,7 +202,7 @@ Geben Sie bei "**Urlaubsanspruch (pro Jahr)**" die vereinbarte Anzahl der Urlaub
 
 ### Urlaubszuwachs
 
-Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die fortlaufende Saldierung des [Urlaubskontos](/hilfe/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
+Der Urlaubsanspruch definiert den Gesamtanspruch eines Mitarbeiters auf ein komplettes Jahr. Für die fortlaufende Saldierung des [Urlaubskontos]\(/handbuch/mitarbeiter/konten#urlaubskonto) muss allerdings noch definiert werden, wie sich der monatliche Urlaubszuwachs aus dem Gesamtanspruch ergibt. Pentacode bietet Ihnen hier zwei Möglichkeiten.
 
 - *Monatlich* Wählen Sie "**Monatlich**", steht dem Mitarbeiter sein monatlicher Urlaubsanspruch zu **Beginn** eines Monats zu.
    Scheidet der Mitarbeiter während eines Monats aus, wird der Urlaubsanspruch, der im Monat des Ausscheidens entstanden ist, in Abhängigkeit von seinen Arbeitsstunden prozentual errechnet.
@@ -217,7 +217,7 @@ Hier werden Ihnen die Zuschlagsarten angezeigt, die dem Mitarbeiter angerechnet 
 
 Klicken Sie auf {% button icon="plus", label="Zuschlag hinzufügen" %} um dem Mitarbeiter eine neue Zuschlagsart zuzuweisen. Wählen Sie den gewünschten Zuschlag aus und tragen Sie die **Positionen des Mitarbeiters ein, die vom Zuschlag betroffen sein sollen, sowie die Höhe des Zuschlags in Prozent des Grundlohns**. Standardmäßig werden **Alle Positionen** und der Standardsatz der Zuschlagsart ausgewählt. 
 
-[Hier](/hilfe/handbuch/einstellungen/zuschlaege/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
+[Hier]\(/handbuch/einstellungen/zuschlaege/) erfahren Sie, wie Sie Zuschlagsarten erstellen und modifizieren. 
 
 #### Kumulierte Zuschläge
 
@@ -227,7 +227,7 @@ Standardmäßig können Sonn- und Feiertagszuschläge mit den Nachtzuschlägen *
 
 Sollten Sie **Zuschläge pauschal im Voraus** bezahlen, so aktivieren Sie den Button bei "**... bezahlen**" und geben Sie im erscheinenden Eingabefeld, die Höhe der monatlichen Pauschalvorauszahlung ein.
 
-Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter/zuschlagskonto/)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
+Im Konto "[SFN-Zuschläge]\(/handbuch/mitarbeiter/zuschlagskonto/)" werden die Vorauszahlungen mit den Zuschlägen in €, die laut Arbeitszeiterfassung entstanden sind, monatlich abgeglichen und fortlaufend saldiert.
 
 > Eine unterjährige Überzahlung ist sozialversicherungs- und lohnsteuerrechtlich nicht von Bedeutung. Für die korrekte Behandlung der am Jahresende saldierten Über- oder Unterzahlung von Zuschlägen setzen Sie sich bitte mit Ihrem Steuerberater oder Ihrer Lohnbuchhaltung in Verbindung.
 
@@ -235,9 +235,9 @@ Im Konto "[SFN-Zuschläge](/hilfe/handbuch/mitarbeiter/zuschlagskonto/)" werden 
 
 Wenn Sie einem Mitarbeiter über das Gehalt hinaus noch Zusatzleistungen zukommen lassen, z.B. Kindergartenzuschuss, Fahrtgeld, Messergeld u.a.m., können Sie diese hier vermerken.
 
-Wenn Sie auf das Feld "**+ Sonderleistung hinzufügen**" klicken, öffnet sich die Liste an zuvor erstellten [Arten von Sonderleistungen](/hilfe/handbuch/einstellungen/sonderleistungen). Wählen Sie die gewünschte Art der Leistung aus und **tragen den monatlichen Geldbetrag der Leistung ein**. 
+Wenn Sie auf das Feld "**+ Sonderleistung hinzufügen**" klicken, öffnet sich die Liste an zuvor erstellten [Arten von Sonderleistungen]\(/handbuch/einstellungen/sonderleistungen). Wählen Sie die gewünschte Art der Leistung aus und **tragen den monatlichen Geldbetrag der Leistung ein**. 
 
-Die Sonderleistungen werden der Lohnabrechnung des Mitarbeiters nun monatlich und unter den unter [Einstellungen](/hilfe/handbuch/einstellungen/sonderleistungen) beschriebenen Voreinstellungen hinzugefügt.  
+Die Sonderleistungen werden der Lohnabrechnung des Mitarbeiters nun monatlich und unter den unter [Einstellungen]\(/handbuch/einstellungen/sonderleistungen) beschriebenen Voreinstellungen hinzugefügt.  
 
 ## Neuer Vertrag
 

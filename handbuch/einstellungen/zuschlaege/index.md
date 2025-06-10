@@ -124,5 +124,5 @@ Sie möchten eine weitere Zuschlagsart hinzufügen und eine bestehende als Vorla
 
 ## Zuschlagsarten Mitarbeitern zuordnen
 
-Um die nun erstellten Zuschläge Mitarbeitern zuzuordnen, wählen Sie den Reiter **Mitarbeiter** aus und navigieren Sie zu den **Verträgen**. Unter **Zuschläge** können Sie nun die Zuschläge auswählen, die dem Mitarbeiter angerechnet werden sollen. Weitere Informationen zur Zuteilung finden Sie unter [Vertrag](/hilfe/handbuch/mitarbeiter/vertrag).
+Um die nun erstellten Zuschläge Mitarbeitern zuzuordnen, wählen Sie den Reiter **Mitarbeiter** aus und navigieren Sie zu den **Verträgen**. Unter **Zuschläge** können Sie nun die Zuschläge auswählen, die dem Mitarbeiter angerechnet werden sollen. Weitere Informationen zur Zuteilung finden Sie unter [Vertrag]\(/handbuch/mitarbeiter/vertrag).
 

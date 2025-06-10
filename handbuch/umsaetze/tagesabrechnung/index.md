@@ -36,7 +36,7 @@ Der kaufmännische Kern des Geschäftsalltags ist die tägliche Erfassung von Um
 
 ## Umsatzerfassung MIT Umsatzgruppen
 
-Wenn Sie bereits [**Umsatzgruppen** ](/hilfe/handbuch/umsaetze/umsatzgruppen/)angelegt haben, finden Sie diese in der von Ihnen gewählten Reihenfolge und **dauerhaft** in der Tagesabrechnung vor. Dies gilt auf für **unbare Zahlarten** oder **Ausgabepositionen**, die Sie eventuell zu Gruppen zusammengefasst haben.
+Wenn Sie bereits [**Umsatzgruppen** ]\(/handbuch/umsaetze/umsatzgruppen/)angelegt haben, finden Sie diese in der von Ihnen gewählten Reihenfolge und **dauerhaft** in der Tagesabrechnung vor. Dies gilt auf für **unbare Zahlarten** oder **Ausgabepositionen**, die Sie eventuell zu Gruppen zusammengefasst haben.
 
 Geben Sie hier lediglich die **Bruttobeträge** ein, wie diese aus Ihrem Kassen- und/oder EC-System hervorgehen.
 
@@ -82,10 +82,10 @@ Selbst wenn Sie das Kassenbuch von Pentacode nicht nutzen sollten, empfehlen wir
 
 **Verwenden Sie für die Umsatzeingabe am besten Umsatzgruppen!**
 
-[**Hier**](/hilfe/handbuch/umsaetze/umsatzgruppen/#anlegen-von-umsatzgruppen)
+[**Hier**]\(/handbuch/umsaetze/umsatzgruppen/#anlegen-von-umsatzgruppen)
 können Sie nachschlagen, wie Sie diese erstellen und ordnen. 
 
-**Empfehlung:** Sollten Sie in Zukunft das Berichtswesen von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen [zugeordnet](/hilfe/handbuch/umsaetze/erloeszuordnung/) und in den [Berichten ](/hilfe/handbuch/berichte/)z.B. nach Produktivität und weiteren Faktoren analysiert werden.
+**Empfehlung:** Sollten Sie in Zukunft das Berichtswesen von Pentacode nutzen wollen, so ist es empfehlenswert, die Umsätze nach Erlösarten (Speisen, Getränke, usw.) zu erfassen, nicht nach MwSt-Sätzen. In der Folge können die Erlösarten den Kostenstellen [zugeordnet]\(/handbuch/umsaetze/erloeszuordnung/) und in den [Berichten ]\(/handbuch/berichte/)z.B. nach Produktivität und weiteren Faktoren analysiert werden.
 
 ## Unbare Zahlungen
 
@@ -114,7 +114,7 @@ Wenn das Gerät zur Erfassung von Kartenzahlungen direkt an Ihr Kassensystem ang
 {% endfigure %}
 
 Alle Debitoren können Sie übersichtlich unter
-[**Debitoren**](/hilfe/handbuch/umsaetze/debitoren) aufgelistet sehen. 
+[**Debitoren**]\(/handbuch/umsaetze/debitoren) aufgelistet sehen. 
 
 ## Ausgaben
 
@@ -128,7 +128,7 @@ Alle Debitoren können Sie übersichtlich unter
 
 > **Bitte beachten Sie unbedingt!**: In der **Tagesabrechnung** werden ausschließlich **jene Ausgaben** erfasst, die **Teil des Geschäftstages** waren (und somit aus der "Restaurantkasse" (oder vom Kellner) bezahlt wurden).
 
-**Alle anderen Ausgaben** sind im **Kassenbuch** zu erfassen. Sehen Sie hierzu bitte den Artikel **"**[**Kassenbuch**](/hilfe/handbuch/umsaetze/kassenbuch/)**"**.
+**Alle anderen Ausgaben** sind im **Kassenbuch** zu erfassen. Sehen Sie hierzu bitte den Artikel **"**[**Kassenbuch**]\(/handbuch/umsaetze/kassenbuch/)**"**.
 
 ## Gehaltsvorschüsse
 
@@ -144,7 +144,7 @@ Sie können einen Mitarbeiter **mit Cursor** oder durch **Buchstabeneingabe** au
 
 Es können in der Abrechnung **ausschließlich Bar-Vorschüsse** erfasst werden!
 
-Eine Liste der [Vorschüsse](/hilfe/handbuch/mitarbeiter/vorschuesse/)entsteht in der Folge automatisch.
+Eine Liste der [Vorschüsse]\(/handbuch/mitarbeiter/vorschuesse/)entsteht in der Folge automatisch.
 
 ## Bargeld Saldo
 
@@ -190,7 +190,7 @@ Wenn Sie unbare Trinkgelder an die Mitarbeiter auszahlen, führen Sie eine entsp
 
 ## Abrechnung mit Zählprotokoll
 
-Sie können die Abrechnung des Geschäftstages auch in Verbindung mit einem [**Zählprotokoll**](/hilfe/handbuch/umsaetze/kassenbuch/#zählprotokoll) durchführen.
+Sie können die Abrechnung des Geschäftstages auch in Verbindung mit einem [**Zählprotokoll**]\(/handbuch/umsaetze/kassenbuch/#zählprotokoll) durchführen.
 
 Wenn Sie in Pentacode die Bargeldzählung mithilfe des Zählprotokolls durchführen, ergibt sich der gezählte Betrag durch die Eingabe der jeweiligen Stückelungen.
 

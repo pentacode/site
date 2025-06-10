@@ -321,4 +321,4 @@ einsehen, bearbeiten und löschen sowie Neue hinzufügen.
 
 Wenn Sie ihre digitale Personalakte verwalten und die Einstellungen der Kategorien
 verändern wollen, drücken Sie in der **Dokumentenübersicht** auf {% button label="Kategorien bearbeiten" %} oben rechts im Fenster. Dieser leitet Sie zu den **Einstellungen** weiter. Klicken Sie
-[hier](/hilfe/handbuch/einstellungen/dokumente) für mehr Informationen.
+[hier]\(/handbuch/einstellungen/dokumente) für mehr Informationen.

@@ -22,7 +22,7 @@ Sie können als Ansicht zwischen "**Arbeitsbereiche**", "**Status**", "**Kompone
 {% endfigure %}
 
 ### Arbeitsbereiche
-Arbeitsbereiche zeigen die Aufteilung der Lohnkosten auf die verschiedenen [Abteilungen und Standorte](/hilfe/handbuch/einstellungen/arbeitsbereiche/) des Unternehmens. In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen auf welche Arbeitsbereiche die Berichte aufgeteilt werden sollen. 
+Arbeitsbereiche zeigen die Aufteilung der Lohnkosten auf die verschiedenen [Abteilungen und Standorte]\(/handbuch/einstellungen/arbeitsbereiche/) des Unternehmens. In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen auf welche Arbeitsbereiche die Berichte aufgeteilt werden sollen. 
 
 ### Status
 Die Statusansicht zeigt die Zusammensetzung der Personalkosten anhand des Arbeitsstatus des Mitarbeiters - also reguläre Arbeitstage, Urlaubstage, Krankheitstage und zusätzliche Optionen. In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen auf Mitarbeiterstati die Berichte aufgeteilt werden sollen. 
@@ -37,7 +37,7 @@ Die Komponentenansicht zeigt die Personalkosten aufgeteilt auf die verschiedenen
 {% endfigure %}
 
 ### Anstellung
-Die Anstellungsansicht zeigt die Personalkosten aufgeteilt auf die [Beschäftigungsverhältnis](/hilfe/handbuch/mitarbeiter/vertrag/). In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen welche Beschäftigungsverhältnisse in die Berichte einfließen sollen. 
+Die Anstellungsansicht zeigt die Personalkosten aufgeteilt auf die [Beschäftigungsverhältnis]\(/handbuch/mitarbeiter/vertrag/). In der Filterleiste unter der Kreis- und Liniengrafik können Sie einstellen welche Beschäftigungsverhältnisse in die Berichte einfließen sollen. 
 
 ### Inkl. Nebenkosten
 Standardmäßig sind die Arbeitsgebernebenkosten für Sozialversicherung in den Personalkostenbericht mit einberechnet. Sie können diese jedoch deaktivieren, indem Sie den Haken bei "**Inkl. Nebenkosten**" in der oberen rechten Ecke abwählen. Sie werden sehen, dass sich einzelne Positionen, sowie die Gesamtkosten um die Nebenkosten reduzieren. 

@@ -40,7 +40,7 @@ Um die Stammdaten eines Mitarbeiters zu bearbeiten, gehen Sie wie folgt vor:
 
 ## Schlagwörter
 
-Ähnlich wie Dokumenten, können Sie auch ihren Mitarbeitern Schlagwörter zuordnen. Das hilft Ihnen dabei Mitarbeiter mit gewissen Kenntnissen oder Eigenschaften (bspw. einem Führerschein) schnell herauszufiltern. Um Schlagwörter zu erstellen, navigieren Sie in die [Einstellungen / Stammdaten](/hilfe/handbuch/einstellungen/stammdaten/). 
+Ähnlich wie Dokumenten, können Sie auch ihren Mitarbeitern Schlagwörter zuordnen. Das hilft Ihnen dabei Mitarbeiter mit gewissen Kenntnissen oder Eigenschaften (bspw. einem Führerschein) schnell herauszufiltern. Um Schlagwörter zu erstellen, navigieren Sie in die [Einstellungen / Stammdaten]\(/handbuch/einstellungen/stammdaten/). 
 
 {% figure caption="Das Datenblatt fasst die grundlegenden Informationen eines Mitarbeiters auf einer DIN-A4 Seite zusammen.", extraClass="float-right" %}
 <img src="datenblatt.webp" />
@@ -55,12 +55,12 @@ Um das Datenblatt **aller Mitarbeiter** zu drucken, navigieren Sie zunächst zur
 [Stammdaten-Übersicht](stammdaten-übersicht) und klicken dann auf den {% button
 icon="address-card" %} Button in der linken oberen Ecke des
 Mitarbeitermenüs. Dieser verweist sie in den Reiter
-[Datenexport](/hilfe/handbuch/datenexport/). 
+[Datenexport]\(/handbuch/datenexport/). 
 
 Um das Datenblatt **eines einzelnen Mitarbeiters** zu drucken, navigieren Sie
 zunächst zur [Stammdaten-Übersicht](stammdaten-übersicht) und wählen den
 gewünschten Mitarbeiter aus. Klicken Sie auf den {% button icon="ellipsis" %} Button
 rechts über dem Profilbild (bzw. den Initialen, falls kein Profilbild vorhanden)
 und anschließend auf {% button icon="address-card", label="Datenblatt Drucken"
-%}. Sie werden wieder in den Reiter [Datenexport](/hilfe/handbuch/datenexport/)
+%}. Sie werden wieder in den Reiter [Datenexport]\(/handbuch/datenexport/)
 verwiesen. 

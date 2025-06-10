@@ -12,9 +12,9 @@ keywords:
 
 Klicken Sie unter dem Reiter **Planung** auf **Umsätze**, landen Sie in der Umsatzplanung. Diese zeigt Ihnen die **Umsätze**, die Ihr Unternehmen **an den verschiedenen Wochentagen durchschnittlich** erzielt hat und erlaubt Ihnen die Planung zukünftiger Umsätze anhand dieser. Zusätzlich wird durch die Erlöszuordnung gezeigt, welcher Abteilungen, welcher Anteil des Umsatzes zugeschrieben wird. 
 
-{% icon "exclamation-triangle" %} **Voraussetzung** für die Umsatzplanung ist, dass Sie Umsatzgruppen angelegt und diese den Abteilungen zugeordnet haben. Erfahren Sie hierzu mehr unter [**Umsatzgruppen** ](/hilfe/handbuch/umsaetze/umsatzgruppen/)und [**Erlöszuordnung**](/hilfe/handbuch/umsaetze/erloeszuordnung/).
+{% icon "exclamation-triangle" %} **Voraussetzung** für die Umsatzplanung ist, dass Sie Umsatzgruppen angelegt und diese den Abteilungen zugeordnet haben. Erfahren Sie hierzu mehr unter [**Umsatzgruppen** ]\(/handbuch/umsaetze/umsatzgruppen/)und [**Erlöszuordnung**]\(/handbuch/umsaetze/erloeszuordnung/).
 
-> {% icon "info-circle" %} Die Umsatzplanung ist nötig, damit Sie bei der [Planung der Stundenvorgaben](/hilfe/handbuch/planung/stundenvorgaben/) die Produktivität ihrer Mitarbeiter als weitere Kenngröße nutzen können!
+> {% icon "info-circle" %} Die Umsatzplanung ist nötig, damit Sie bei der [Planung der Stundenvorgaben]\(/handbuch/planung/stundenvorgaben/) die Produktivität ihrer Mitarbeiter als weitere Kenngröße nutzen können!
 
 ## Umsätze nach Durchschnitt planen
 
@@ -57,7 +57,7 @@ Sollten Sie nur mit einem veränderten Umsatz in einzelnen Einnahmequellen rechn
 
 ## Umsatz nach Abteilungen
 
-Wenn Sie auf einen Umsatz klicken, erscheint ein Menü, das Ihnen zeigt, in welchem Verhältnis dieser Umsatz auf die Abteilungen verteilt wird. Die Aufteilung wird von Ihnen durch die [**Erlöszuordnung**](/hilfe/handbuch/umsaetze/erloeszuordnung/) bestimmt. 
+Wenn Sie auf einen Umsatz klicken, erscheint ein Menü, das Ihnen zeigt, in welchem Verhältnis dieser Umsatz auf die Abteilungen verteilt wird. Die Aufteilung wird von Ihnen durch die [**Erlöszuordnung**]\(/handbuch/umsaetze/erloeszuordnung/) bestimmt. 
 
 {% figure caption="Durch Anklicken des Umsatzes sehen Sie dessen Verteilung in % und in €." %}
 

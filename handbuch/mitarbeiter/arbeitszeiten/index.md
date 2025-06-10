@@ -73,7 +73,7 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
 > Mitarbeiter erfasst haben, erstellt Pentacode automatisch
 > **Schichtvorschläge** anhand von üblichen Arbeitszeiten und Arbeitsbereichen.
 > Mehr zu Schichtvorschlägen erfahren Sie im [{% icon "table" %}
-> Dienstplan](/hilfe/handbuch/dienstplan#schichtvorschläge) Hilfeartikel.
+> Dienstplan]\(/handbuch/dienstplan#schichtvorschläge) Hilfeartikel.
 
 ## Arbeitszeit Bearbeiten
 
@@ -114,7 +114,7 @@ einer Schicht sowie Pausen, Mitarbeiteressen und einiges mehr bearbeiten." %}
 Unter dem Punkt {% icon "user" %} **Position** können Sie über ein Dropdown-Menü
 den Arbeitsbereich festlegen, in dem die Schicht stattfinden soll. Die
 verfügbaren Optionen beschränken sich selbstverständlich auf die dem Mitarbeiter
-zugewiesenen [Arbeitsbereiche](/hilfe/handbuch/mitarbeiter/positionen/).
+zugewiesenen [Arbeitsbereiche]\(/handbuch/mitarbeiter/positionen/).
 
 ### Geplant
 
@@ -130,10 +130,10 @@ Schichtbeginn, das geplante Schichtende sowie die geplante Pause bearbeiten.
 
 Über die ersten beiden Felder können Sie den geplanten Schichtbeginn sowie das
 geplante Schichtende eintragen. Diese Zeiten, zusammen mit den
-[Zeiterfassungs-Regeln](/hilfe/handbuch/einstellungen/zeiterfassung) für diese
+[Zeiterfassungs-Regeln]\(/handbuch/einstellungen/zeiterfassung) für diese
 Schicht, bestimmen, wann sich der Mitarbeiter per Stempeluhr oder
 Mitarbeiter-App, ein- bzw. ausstempeln darf und können später als Vergleich zu
-den tatsächlich gearbeiteten Zeiten herangezogen werden siehe [Berichte / Arbeitszeit](/hilfe/handbuch/berichte/arbeitszeitberichte/) und [Dienstplan / Soll-Ist-Vergleich](/hilfe/handbuch/dienstplan#soll-ist-vergleich).
+den tatsächlich gearbeiteten Zeiten herangezogen werden siehe [Berichte / Arbeitszeit]\(/handbuch/berichte/arbeitszeitberichte/) und [Dienstplan / Soll-Ist-Vergleich]\(/handbuch/dienstplan#soll-ist-vergleich).
 
 > {% icon "lightbulb" %} **Tipp:** Lassen Sie eines oder beide dieser Felder
 > leer, um eine Schicht mit offenem Beginn bzw. Ende zu planen. Dies ist zum
@@ -149,7 +149,7 @@ bearbeitbar, falls der Pausenmodus **Geplant** oder **Geplant + Manuell** für
 diese Schicht gewählt ist. Mehr über diese Pausenmodi und wie geplante Pausen
 zur Anwendung kommen, erfahren Sie in dem Hilfeartikel [{% icon "cog" %}
 Einstellungen / {% icon "stopwatch" %}
-Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung).
+Zeiterfassung]\(/handbuch/einstellungen/zeiterfassung#pausenberechnung).
 
 ### Gestempelte Arbeitszeiten
 
@@ -169,7 +169,7 @@ Unter dem Punkt {% icon "check" %} **Erfasst** können Sie die Schichtzeiten
 sehen und bearbeiten, welche in die Lohnberechnung einfließen. Sollten Sie die
 Stempeluhr verwenden werden dies die **gestempelten Zeiten** mit jeweils
 [eingestellter
-Rundung](/hilfe/handbuch/einstellungen/zeiterfassung#rundung-von-stempelzeiten)
+Rundung]\(/handbuch/einstellungen/zeiterfassung#rundung-von-stempelzeiten)
 sein. Sollten Sie die Stempeluhr nicht verwenden, werden dies die **geplanten
 Schichtzeiten** sein. Bei zurückliegenden Schichten können Sie manuell den
 erfassten Schichtbeginn und -ende anpassen. 
@@ -186,7 +186,7 @@ automatisch befüllt, sobald die Schicht beendet wurde, kann aber im Nachhinein
 jederzeit bearbeitet werden.
 
 > {% icon "info-circle" %} **Hinweis:** Falls für die aktuelle Schicht der
-> [Pausenmodus](/hilfe/handbuch/einstellungen/zeiterfassung#pausenberechnung)
+> [Pausenmodus]\(/handbuch/einstellungen/zeiterfassung#pausenberechnung)
 > **Automatisch** bzw. **Automatisch + Manuell** gewählt ist, befüllt Pentacode
 > dieses Feld automatisch basierend auf der Länge der geleisteten Arbeitszeit. **Dies
 passiert aber nur dann, wenn noch keine Pause eingetragen wurde!** Das heißt:
@@ -206,7 +206,7 @@ und **{% icon "plate-utensils" %} Abendessen**.
 > {% icon "info-circle" %} Zusätzlich zu manuellen Buchen von Mitarbeiteressen
 > können Sie auch einstellen, dass Mahlzeiten selbstständig durch den
 > Mitarbeiter oder sogar vollautomatisch gebucht werden. Mehr dazu unter
-> [Einstellungen/Zeiterfassung](/hilfe/handbuch/einstellungen/zeiterfassung/#mitarbeiteressen)
+> [Einstellungen/Zeiterfassung]\(/handbuch/einstellungen/zeiterfassung/#mitarbeiteressen)
 
 ### Umsatz
 
@@ -225,7 +225,7 @@ die Berechnung der Provision herangezogen.
 
 Unter dem Punkt {% icon "sliders-h" %} **Regeln** sehen Sie den für diese
 Schicht geltenden
-[Zeiterfassungs-Regelsatz](/hilfe/handbuch/einstellungen/zeiterfassung) mit
+[Zeiterfassungs-Regelsatz]\(/handbuch/einstellungen/zeiterfassung) mit
 einer Zusammenfassung der enthaltenen Einstellungen in Form von Symbolen. Durch
 einen Klick auf den Regelsatz-Namen (auf der rechten Seite) gelangen Sie direkt
 zur Bearbeitungsansicht des Regelsatzes, wo Sie die genauen Einstellungen
@@ -290,7 +290,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    buchenden Fehltage eintragen können. Details zu diesem Dialog und generelle
    Informationen zur Erfassung von Abwesenheiten finden Sie im [{% icon
    "umbrella-beach" %}
-   Abwesenheiten](/hilfe/handbuch/mitarbeiter/abwesenheiten#neue-abwesenheit-erfassen)
+   Abwesenheiten]\(/handbuch/mitarbeiter/abwesenheiten#neue-abwesenheit-erfassen)
    Hilfeartikel.
 
 > {% icon "info-circle" %} **Hinweis:** aus Gründen der Übersichtlichkeit haben
@@ -308,7 +308,7 @@ sogenannte **Zeitbuchung**. Um eine Zeitbuchung vorzunehmen, klicken Sie auf den
 "Zeitbuchung".
 
 Zeitbuchungen dienen vornehmlich dazu, Korrekturen am
-[Arbeitszeitkonto](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/) eines Mitarbeiters
+[Arbeitszeitkonto]\(/handbuch/mitarbeiter/arbeitszeitkonto/) eines Mitarbeiters
 vorzunehmen, die nicht über das Erfassen von Arbeitszeiten oder Fehltagen
 abgebildet werden können. Beim Abbuchen von Stunden, können Sie außerdem
 angeben, ob die abgezogenen Stunden bezahlt werden, also ob sie in der
@@ -344,7 +344,7 @@ Wenn Sie die Zeitbuchung ausbezahlen und **im Lohnbericht Berücksichtigen**
 wollen, wählen Sie die Box an. Dadurch wird die Zeitbuchung an die
 Lohnbuchhaltung übertragen und normal mit dem Lohn ausgezahlt. Dazu müssen Sie
 auch auswählen mit welcher
-[Lohnart](/hilfe/handbuch/einstellungen/buchhaltung/#lohnarten) die Zeitbuchung
+[Lohnart]\(/handbuch/einstellungen/buchhaltung/#lohnarten) die Zeitbuchung
 ausgezahlt werden soll. Sollten Sie sich unsicher sein, fragen Sie dazu ihre
 Buchhaltung. 
 
@@ -360,7 +360,7 @@ ab." %} <img src="überstunden_ausbezahlen.gif" /> {% endfigure %}
 ## Urlaubsbuchungen
 
 Ähnlich wie [Zeitbuchungen](#zeitbuchungen) können Urlaubsbuchungen verwendet
-werden, um Korrekturen am [Urlaubskonto](/hilfe/handbuch/mitarbeiter/konten)
+werden, um Korrekturen am [Urlaubskonto]\(/handbuch/mitarbeiter/konten)
 eines Mitarbeiters vorzunehmen. Um eine Urlaubsbuchung zu erfassen, klicken Sie
 auf den {% button icon="plus" %}-Button in der Rechten unteren Ecke des
 [Arbeitszeitblatts](#das-arbeitszeitblatt) des Mitarbeiters und wählen die
@@ -417,7 +417,7 @@ Klicken Sie auf das {% icon "download" %} mittig-oben auf dem
 Arbeitszeitblatt, um auf den Reiter {% button icon="download",
 label="Datenexport" %} verwiesen zu werden. Dort können Sie die Bewegungsdaten
 des Mitarbeiters sowie weitere Lohndaten exportieren.
-[Hier](/hilfe/handbuch/datenexport/) finden Sie weitere Informationen wie Sie
+[Hier]\(/handbuch/datenexport/) finden Sie weitere Informationen wie Sie
 die Arbeitszeiten ihrer Mitarbeiter Drucken und in ihr Lohnbuchhaltungsprogramm
 übertragen können.
 

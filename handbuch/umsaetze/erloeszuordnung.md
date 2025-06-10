@@ -8,7 +8,7 @@ keywords:
 - umsatzgruppen
 
 ---
-In Pentacode können Sie Ihren **Dienstplan** nach **Zielen** führen, die von Ihnen gesetzt werden. **Voraussetzung** hierfür ist, dass Sie im Vorfeld "[**Umsatzgruppen**](/hilfe/handbuch/umsaetze/umsatzgruppen/#anlegen-von-umsatzgruppen)" erstellt haben.
+In Pentacode können Sie Ihren **Dienstplan** nach **Zielen** führen, die von Ihnen gesetzt werden. **Voraussetzung** hierfür ist, dass Sie im Vorfeld "[**Umsatzgruppen**]\(/handbuch/umsaetze/umsatzgruppen/#anlegen-von-umsatzgruppen)" erstellt haben.
 
 Unter "**Umsätze**" können Sie im Menüpunkt "**Erlöszuordnung**" den Umsatzgruppen jene **Abteilungen** zuweisen, die an der Realisierung des jeweiligen Umsatzes **beteiligt** sind.
 

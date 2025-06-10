@@ -9,7 +9,7 @@ Basierend auf den hinterlegten Vertragsdaten, erfassten Arbeitszeiten und Urlaub
 
 ## Stundenkonto
 
-In diesem Konto werden die [**Soll-Zeiten**](/hilfe/handbuch/mitarbeiter/vertrag/#arbeitszeit), die ein Mitarbeiter
+In diesem Konto werden die [**Soll-Zeiten**]\(/handbuch/mitarbeiter/vertrag/#arbeitszeit), die ein Mitarbeiter
 arbeiten soll, den tatsächlich **geleisteten Arbeitszeiten** gegenübergestellt und **Über- oder Minderstunden**
 ausgewiesen.
 
@@ -26,7 +26,7 @@ Bearbeiten / Konten Zurücksetzen](#übertrag-bearbeiten--konten-zurücksetzen).
 ## Urlaubskonto
 
 In diesem Konto werden die diesen Monat **erworbenen**
-[Urlaubsansprüche](/hilfe/handbuch/mitarbeiter/vertrag/#urlaub-und-fehltage) den **genommenen** Urlaubstagen
+[Urlaubsansprüche]\(/handbuch/mitarbeiter/vertrag/#urlaub-und-fehltage) den **genommenen** Urlaubstagen
 **gegenübergestellt** und Über- oder Unterschreitungen ausgewiesen.
 
 Sofern nicht anders erfasst, wird der **Resturlaub** am Ende eines Jahres immer automatisch in das Folgejahr übertragen.
@@ -39,13 +39,13 @@ Das Konto **SFN-Zuschläge** weist die Summe der monatlichen Zuschläge für Nac
 In der Spalte "**B.Frei**" werden die **beitragsfreien** Zuschläge erfasst, in der Spalte "**(B.pfl.)**" jene Zuschläge, die durch Krankheit oder Urlaub **beitragspflichtig** abgerechnet werden müssen.
 
 Sollte der Mitarbeiter **Zuschläge** unterjährig als [**pauschale
-Vorauszahlung**](/hilfe/handbuch/mitarbeiter/vertrag#monatliche-sfn-pauschale) erhalten, werden diese unter
+Vorauszahlung**]\(/handbuch/mitarbeiter/vertrag#monatliche-sfn-pauschale) erhalten, werden diese unter
 **"Pausch."** gelistet. In diesem Fall werden die monatlichen **Über- oder Unterzahlungen** unter **"Diff"** ausgewiesen
 und als fortlaufender **Saldo** gezeigt.
 
 Für die Saldierung werden standardmäßig ausschließlich die **betragsfreien** Zuschläge berücksichtigt. Wenn Sie bei der
 Saldierung auch die beitragspflichtigen Zuschläge mit einberechnen wollen, können Sie dies unter [Einstellungen /
-Unternehmen](/hilfe/handbuch/einstellungen/unternehmen#saldierung-sfn-konten) einstellen.
+Unternehmen]\(/handbuch/einstellungen/unternehmen#saldierung-sfn-konten) einstellen.
 
 Die Gegenüberstellung erfolgt auf **Monatsbasis**, wobei der **laufende Monat** nur die Zuschläge ausweist, die auf
 Grund der **bis zum aktuellen Zeitpunkt erfassten Arbeitszeiten** errechnet werden. **Geplante Arbeitszeiten** werden **nicht** berücksichtigt.
@@ -97,10 +97,10 @@ Sonderfällen, die nicht durch "einfaches" Erfassen von Arbeitszeiten und
 Abwesenheiten abgebildet werden können und ein manuelles Eingreifen erfordern,
 z.B. das Ausbezahlen von Überstunden, Minderung des Urlaubsanspruches als Folge
 von Kurzarbeit usw. Hierfür bietet Ihnen Pentacode die Möglichkeit der manuellen
-[Urlaubsbuchung](/hilfe/handbuch/mitarbeiter/arbeitszeiten#urlaubsbuchungen) und
-[Zeitbuchung](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen). Mehr
+[Urlaubsbuchung]\(/handbuch/mitarbeiter/arbeitszeiten#urlaubsbuchungen) und
+[Zeitbuchung]\(/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen). Mehr
 hierzu erfahren Sie im Hilfeartikel [Mitarbeiter /
-Arbeitszeiten](/hilfe/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen).
+Arbeitszeiten]\(/handbuch/mitarbeiter/arbeitszeiten#zeitbuchungen).
 
 ## Übertrag Bearbeiten / Konten Zurücksetzen
 
@@ -108,7 +108,7 @@ Solange Sie der Software keine abweichenden Anweisungen geben, führt Pentacode
 die Konten eines Mitarbeiters über den gesamten Zeitraum des
 Beschäftigungsverhältnis saldierend fort. Mit Ausnahme des SFN-Kontos werden
 dabei die Kontensaldi eines Jahres immer automatisch in das Folgejahr
-übertragen. Wie Sie die Konten händisch zurücksetzen und bearbeiten können erfahren Sie [hier](/hilfe/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen)
+übertragen. Wie Sie die Konten händisch zurücksetzen und bearbeiten können erfahren Sie [hier]\(/handbuch/mitarbeiter/arbeitszeitkonto/#übertrag-bearbeiten-%2F-konten-zurücksetzen)
 
 ## Konten Drucken
 

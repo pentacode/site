@@ -15,7 +15,7 @@ welche Mitarbeiter an bestimmten Tagen nicht arbeiten können, wer eventuell an 
 mehr! Die gespeicherten Informationen werden dann automatisch im Dienstplan angezeigt und dienen Ihnen dort als intuitive
 und leicht zugängliche Planungshilfe.
 
-> {% icon "lightbulb" %} **Tipp:** Über die Pentacode [Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app)
+> {% icon "lightbulb" %} **Tipp:** Über die Pentacode [Mitarbeiter-App]\(/handbuch/mitarbeiter-app)
 > können Mitarbeiter Ihre Verfügbarkeiten selbst erfassen!
 
 Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügung:
@@ -27,7 +27,7 @@ Pentacode stellt Ihnen vier verschiedene Arten von Verfügbarkeiten zur Verfügu
 
 Verfügbarkeiten dienen lediglich als Hinweis für die Dienstplanung und können jederzeit ausgeblendet oder ignoriert
 werden. Ob sie Verfügbarkeiten selbst erfassen oder Ihre Mitarbeiter diese über die Pentacode
-[Mitarbeiter-App](/hilfe/handbuch/mitarbeiter-app) eingeben, sie behalten immer das letzte Wort.
+[Mitarbeiter-App]\(/handbuch/mitarbeiter-app) eingeben, sie behalten immer das letzte Wort.
 
 ## Übersicht
 

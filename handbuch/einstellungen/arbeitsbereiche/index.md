@@ -40,7 +40,7 @@ jedoch immer auch die Option [**manuell Feiertage ab- und anzuwählen**](#feiert
 Wenn Sie den Standort angelegt haben, legen Sie für diesen Standort die 
 [entsprechenden Abteilungen](#neue-abteilung) an.
 
-Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter "[**Positionen**](/hilfe/handbuch/mitarbeiter/positionen)". Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden.
+Der neue Standort und seine Abteilungen erscheinen unter dem Menüpunkt "Alle Mitarbeiter" unter "[**Positionen**]\(/handbuch/mitarbeiter/positionen)". Dort legen Sie fest, welche Mitarbeiter in welchen Standorten und deren Abteilungen eingesetzt werden.
 
 ### Feiertage bearbeiten
 
