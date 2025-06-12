@@ -15,7 +15,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 -   Bei mehreren Kalendereinträgen an einem Tag konnten verfügbare Schichten in der Stempeluhr nicht erreicht werden.
 -   Die App wurde in älteren Browsern teilweise nicht korrekt geladen.
 
-### Nur für Beta-Kunden
+### <span style="color: purple">Nur für Beta-Kunden</span>
 
 -   Die automatische Schichtzuweisung ist jetzt im Dienstplan verfügbar. Ein Erklärvideo finden Sie [hier.](https://www.loom.com/share/3a3f858a70b64abe8614778776053a9c?t=109&sid=ec3bfbcd-73aa-4f99-8dbb-4f2f444fb66d)
 -   Push Notifications sind jetzt in der Mitarbeiter-App verfügbar. Die Einrichtung wird [im Handbuch](https://hilfe.pentacode.app/mitarbeiter-app/#push-notifications-anschalten) erklärt.
