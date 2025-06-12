@@ -7,6 +7,124 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+
+## 1.38.0
+
+### Behobene Fehler
+
+-   Bei mehreren Kalendereinträgen an einem Tag konnten verfügbare Schichten in der Stempeluhr nicht erreicht werden.
+-   Die App wurde in älteren Browsern teilweise nicht korrekt geladen.
+
+### Nur für Beta-Kunden
+
+-   Die automatische Schichtzuweisung ist jetzt im Dienstplan verfügbar. Ein Erklärvideo finden Sie [hier.](https://www.loom.com/share/3a3f858a70b64abe8614778776053a9c?t=109&sid=ec3bfbcd-73aa-4f99-8dbb-4f2f444fb66d)
+-   Push Notifications sind jetzt in der Mitarbeiter-App verfügbar. Die Einrichtung wird [im Handbuch](https://hilfe.pentacode.app/mitarbeiter-app/#push-notifications-anschalten) erklärt.
+-   Über das Feature-Voting (unter dem Menüpunkt **Feedback**) können Sie die Weiterentwicklung von Pentacode aktiv mitgestalten. Ein Erklärvideo finden Sie [hier.](https://www.loom.com/share/2c0c5602c8fa4d76aef5152fb69dbf21?sid=27808782-2fe5-412d-98b1-f1054b065315)
+
+## 1.37.3
+
+### Behobene Fehler
+
+-   Zeitabbuchungen wurden immer mit einer Dauer von "0:00" angezeigt.
+-   Das Hauptmenü und andere Elemente sind jetzt auch bei geringer Bildschirmhöhe durch Scrollen erreichbar.
+
+## 1.37.2
+
+### Behobene Fehler
+
+-   Urlaube, Abwesenheiten und Guttage wurden immer mit einer Dauer von "0:00" angezeigt.
+
+## 1.37.1
+
+### Änderungen & Neuigkeiten
+
+-   Bei Verfügbarkeiten kann nun das Bearbeitungsdatum eingesehen werden.
+
+### Behobene Fehler
+
+-   In seltenen Fällen wurden Schichten ohne Dauer mit "-0:00" angezeigt.
+-   Dokument-Kategorien konnten nach einer Farbänderung nicht gespeichert werden.
+-   Im Verfügbarkeitskalender war die Bearbeitung von Verfügbarkeiten nicht möglich.
+-   Auf der eigenen **Zugänge & Rechte** Seite von Managern wurde die Rolle "Manager" nicht in der korrekten Farbe dargestellt.
+-   Im Bewerbungsprozess wurde der "Jetzt Bewerben" Button angezeigt, nachdem der Interessent bereits zum Bewerbungsformular weitergeleitet wurde.
+
+## 1.37.0
+
+### Änderungen & Neuigkeiten
+
+-   Pentacode ist nun auch im Darkmode verfügbar. Die App passt sich automatisch an die Systemeinstellungen Ihres Geräts an, kann aber auch manuell umgeschaltet werden.
+-   Im Individuellen Datenexport können jetzt auch "Zuschläge" und "Sonderleistungen" ausgewählt werden.
+
+### Behobene Fehler
+
+-   Die Anzeige der Urlaubsansprüche für 2026 wurde korrigiert.
+-   Probleme bei der Passwortänderung in der Mitarbeiter-App wurden behoben.
+-   Die Hilfeseite im Bereich **Berichte** wird nun wieder korrekt angezeigt.
+
+## 1.36.1
+
+### Behobene Fehler
+
+-   Archivierte Positionen werden nun mit ihrem korrekten Namen anstatt mit dem Platzhalter "Arbeit" angezeigt.
+-   In einigen Fällen wurden gespiegelte Schichten im gedruckten Dienstplan nicht korrekt angezeigt.
+-   In seltenen Fällen wurde die detailierte Wetteransicht nicht korrekt angezeigt.
+
+## 1.36.0
+
+### Änderungen & Neuigkeiten
+
+-   Im Dienstplan wird nun das **Wetter** angezeigt.
+-   Im Abwesenheitskalender wird nun optisch zwischen gemeldeten und erfassten Krankheitstagen unterschieden.
+
+### Behobene Fehler
+
+-   Es war in einigen Fällen nicht möglich, vergangene Abwesenheiten anzuzeigen.
+-   Die Stempeluhr zeigt die Pausen nun genauer an.
+-   Es können nun keine Verfügbarkeiten mehr in der Vergangenheit angelegt werden.
+
+## 1.35.1
+
+### Behobene Fehler
+
+-   Die doppelte Anzeige von Abwesenheiten wurde korrigiert.
+-   Filter wurden bei der Navigation im Bereich **Berichte** nicht übernommen.
+-   Der Beginn des Abrechnungszeitraums wurde in **Einstellungen > Unternehmen** nicht korrekt angezeigt.
+-   Neu angelegte Positionen wurden in seltenen Fällen fälschlicherweise als "Standard"-Position gekennzeichnet.
+-   Guttage im Dienstplan wurden auf Windows-Geräten fehlerhaft dargestellt.
+-   Zeit- und Urlaubsbuchungen blieben in manchen Fällen nach dem Löschen fälschlicherweise sichtbar.
+-   Kalendereinträge wurden gelegentlich an falscher Position dargestellt.
+-   Die Sortierung von Stellenanzeigen wurde korrigiert.
+-   Im Ersparnisbericht wurde der Break-Even-Punkt mit falschem Datum angezeigt.
+-   Nach dem Löschen eines Kalendereintrags wurden verbleibende Einträge teilweise nicht mehr korrekt dargestellt.
+-   Beim Bearbeiten von Dienstplan-Tabs wurden unbeabsichtigt Filter hinzugefügt.
+-   Arbeitszeiten im Zeiterfassungsprotokoll wurden gelegentlich in falscher Formatierung angezeigt.
+-   Das Anzeigefeld für das Vertragsende unter **Mitarbeiter > Verträge** war in einigen Fällen fälschlicherweise bearbeitbar.
+-   Schichten, die als "Offen - Offen" markiert waren, konnten nicht gestempelt werden.
+-   Beim Drucken des Dienstplans wird nun der eingeschränkte Zuständigkeitsbereich des Mitarbeiters korrekt berücksichtigt.
+
+## 1.35.0
+
+### Änderungen & Neuigkeiten
+
+-   **Schulferien** werden jetzt im Dienstplan als Teil der Kalendereinträge angezeigt.
+-   Im Abwesenheitsdialog kann man nun **Guttage an Feiertagen** vergeben indem man ein zweites Mal auf den Tag klickt.
+-   Das Kalender-Element im Bereich _Mitarbeiter > Verfügbarkeiten_ wurde überarbeitet und übersichtlicher gestaltet.
+-   Abwesenheiten von Mitarbeitern sind jetzt besser sortiert, so dass die jüngsten Abwesenheiten sofort ersichtlich sind.
+
+### Behobene Fehler
+
+-   In seltenen Fällen wurde der Standort bei der Navigation im Bereich _Umsätze_ nicht übernommen.
+-   In einigen Fällen konnten neue Dienstplan-Tabs nicht mehr gelöscht werden.
+-   In seltenen Fällen konnten **Zugänge & Rechte** nicht für alle Mitarbeiter vergeben werden.
+-   In seltenen Fällen konnte der Bearbeitsungsvertrag von Besitzern mit mehreren Unternehmen nicht akzeptiert werden.
+-   In seltenen Fällen konnten Manager Stempeluhren im Bereich _Zeiterfassung_ sehen, auf die sie keinen Zugriff hatten.
+
+## 1.34.3
+
+### Änderungen & Neuigkeiten
+
+-   Technische Modernisierungen im Hintergrund.
+
 ## 1.34.2
 
 ### Änderungen & Neuigkeiten
