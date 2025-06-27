@@ -1,3 +1,0 @@
----
-title: Rubriken | Blog
----
