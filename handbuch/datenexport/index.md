@@ -2,7 +2,7 @@
 layout: layouts/single.njk
 title: Datenexport
 icon: download
-weight: 10
+weight: 110
 ---
 
 Unter dem Menüpunkt "Datenexport", sind alle in Pentacode verfügbaren Datenexporte an einem Ort zusammengefasst. Hier finden Sie verschiedene Optionen zum Export von Arbeitszeiten, Lohnberichten und mehr.

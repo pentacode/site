@@ -1,7 +1,7 @@
 ---
 layout: layouts/single.njk
 title: Zeiterfassung
-weight: 1
+weight: 20
 icon: stopwatch
 ---
 

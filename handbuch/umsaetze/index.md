@@ -1,7 +1,7 @@
 ---
 layout: layouts/index.njk
 title: Umsätze
-weight: 5
+weight: 60
 icon: euro-sign
 ---
 

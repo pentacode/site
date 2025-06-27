@@ -1,7 +1,7 @@
 ---
 layout: layouts/index.njk
 title: Berichte
-weight: 7
+weight: 80
 icon: chart-pie
 
 ---

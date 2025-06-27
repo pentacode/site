@@ -1,7 +1,7 @@
 ---
 layout: layouts/index.njk
 title: Einstellungen
-weight: 8
+weight: 90
 icon: cog
 keywords:
 - einstellungen
