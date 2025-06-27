@@ -1,7 +1,7 @@
 ---
 layout: layouts/index.njk
 title: Planung
-weight: 6
+weight: 70
 icon: calendar-alt
 
 ---

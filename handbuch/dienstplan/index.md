@@ -2,7 +2,7 @@
 layout: layouts/single.njk
 keywords: []
 title: Dienstplan
-weight: 2
+weight: 30
 icon: table
 ---
 

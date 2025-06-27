@@ -1,7 +1,7 @@
 ---
 layout: layouts/index.njk
 title: Mitarbeiter
-weight: 4
+weight: 40
 icon: users
 ---
 
