@@ -1,7 +1,7 @@
 ---
 layout: layouts/single.njk
 title: Recruiting
-weight: 6
+weight: 50
 icon: image-polaroid-user
 ---
 
