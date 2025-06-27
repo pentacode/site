@@ -27,7 +27,6 @@ Mit unserem neuen Feature-Voting haben Sie folgende Möglichkeiten:
 <figure>
 <img src="/assets/img/screenshots/feedback.webp" />
 <figcaption>Mithilfe vom Feature-Voting können Sie Ihre Wünsche an uns weitergeben.</figcaption>
-</figcaption>
 </figure>
 
 ### Warum Feature-Voting?
