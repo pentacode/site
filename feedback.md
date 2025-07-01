@@ -5,7 +5,7 @@ weight: 6
 icon: "comment-pen"
 ---
 
-Pentacode bietet Ihnen durch das Feature-Voting die Möglichkeit aktiv an der Weiterentwicklung mitzuwirken.
+Pentacode bietet Ihnen durch das Feature-Voting die Möglichkeit aktiv an der Weiterentwicklung mitzuwirken. (main)
 
 Ein Erklärvideo zur Nutzung des Feature-Votings finden Sie [hier.](https://www.loom.com/share/2c0c5602c8fa4d76aef5152fb69dbf21?sid=27808782-2fe5-412d-98b1-f1054b065315)
 
