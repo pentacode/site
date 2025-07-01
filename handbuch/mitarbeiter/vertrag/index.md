@@ -96,7 +96,14 @@ Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "**Monatsgen
 
 Bei dieser Auswahl errechnet sich die Soll-Arbeitszeit des Mitarbeiters anhand der Länge eines Monats. Sie schwankt somit von Monat zu Monat.
 
-Pentacode kennt die **gesetzlichen Feiertage** des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende Filiale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher **Feiertag** auf einen **Wochentag**, so wird die monatliche **Soll-Arbeitszeit** um den Feiertag **gekürzt**.
+Pentacode kennt die **gesetzlichen Feiertage** des Bundeslands, in dem sich Ihr Unternehmen oder die betreffende Filiale Ihres Unternehmens befindet. Fällt in einem Monat ein gesetzlicher **Feiertag** auf einen **Wochentag**, so wird die monatliche **Soll-Arbeitszeit** um den Feiertag **gekürzt**. Hierbei wird der Feiertag mit der Anzahl Stunden bewertet, die in dem jewiligen Monat durchschnittlich pro Tag anfallen.
+
+#### Monatsgenau abzgl. Feiertage (Fehlstunden)
+
+Eingabe und Berechnung der monatlichen Soll-Arbeitszeit entsprechen "**Monatsgenau abzgl. Feiertage**".
+
+Hierbei wird für den Feiertag jedoch die Soll-Arbeitszeit des jeweiligen Mitarbeiterts herangezogen und von der Gesamt-Soll-Arbeitszeit abgezogen.
+Dabei handelt es sich entweder um den 13-Wochen-Durchschnitt oder um die Pauschale Fehlstundenzahl, dies ist abhängig von der Einstellung in der [Fehlstundenberechnung](#fehlstundenberechnung).
 
 #### Feste Wochentage
 
