@@ -7,6 +7,31 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.39.0
+
+### Änderungen & Neuigkeiten
+
+-   Das Feature-Voting (unter dem Menüpunkt **Feedback**) ist nun für alle Manager verfügbar! Dort können Sie die Weiterentwicklung von Pentacode aktiv mitgestalten. Ein Erklärvideo finden Sie [hier.](https://www.loom.com/share/2c0c5602c8fa4d76aef5152fb69dbf21?sid=27808782-2fe5-412d-98b1-f1054b065315)
+
+### Behobene Fehler
+
+-   Bei der Bearbeitung von Dienstplannotizen kam es in seltenen Fällen zu Fehlern.
+-   Die Wetteransicht enthielt für einige Standorte keine Daten.
+-   In einigen Fällen wurden die Überstunden in den Mitarbeiterinformationen auf der Stempeluhr nicht angezeigt.
+-   Bei negativen Urlaubskonten kam es zu Darstellungsfehlern.
+-   In seltenen Fällen kam es in der Anzeige der Lohnübersicht zu Abweichungen im Cent-Bereich. Lohnexporte waren hiervon **nicht** betroffen.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+-   Das neue Dashboard bietet eine Übersicht über aufkommende Geburtstage, offene Abwesenheitsanträge und ablaufende Verträge. Ein Erklärvideo finden Sie [hier](https://www.loom.com/share/08a58cd55a80415eaad753de2498aeb8?sid=690ac934-0a46-43dc-a7ae-84959e6b015b).
+-   Neue Push-Notifications: Mitarbeiter werden nach der Bearbeitung von Urlaubsanträgen und Krankmeldungen nun ebenfalls durch Push-Notifications benachrichtigt.
+
+## 1.38.1
+
+### Behobene Fehler
+
+-   Unter **Dienstplan** wurden die Dienstplan-Tabs nicht korrekt angezeigt.
+-   In einigen Fällen wurden Popovers in Safari nicht korrekt angezeigt.
 
 ## 1.38.0
 
