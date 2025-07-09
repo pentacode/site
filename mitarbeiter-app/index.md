@@ -92,6 +92,11 @@ Zum Start werden Mitarbeitende über folgende Ereignisse benachrichtigt:
 
 - Neue Dienstpläne
 - Änderungen an bestehenden Dienstplänen
+- Urlaubsantrag bearbeitet
+- Krankmeldung bearbeitet
+- Zum Tausch angebotene Schicht wurde übernommen
+- Dokument liegt zum Ausfüllen bereit
+
 
 ## Voraussetzungen
 
