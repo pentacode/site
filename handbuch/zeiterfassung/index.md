@@ -66,6 +66,15 @@ Hier können Sie verschiedene Einstellungen vornehmen, um Funktionen und Anzeige
 
 - **Aktive Schichten:** Die Option aktive Schichten bestimmt, ob **aktive Schichten auf der Stempeluhr angezeigt** werden sollen. Deaktivieren Sie diese Funktion, falls Sie nicht wollen, dass man einsehen kann, wer seine Schicht bereits angetreten hat. 
 
+#### Farbschema
+
+Unter dem Punkt Farbschema können Sie bestimmen wie die Stempeluhr Ihren Mitarbeitern angezeigt wird:
+
+**Auto:** Die Stempeluhr passt sich dem Farbschema des Browsers oder Geräts automatisch an. Das ist die Standardeinstellung
+**Hell:** Schwarze Schrift auf hellem Hintergrund. Perfekt bei Tagesschichten.
+**Dunkel:** Weiße Schrift auf dunklem Hintergrund. Schonend für die Augen und perfekt für Früh- und Nachtschichten
+
+
 ### Stempeluhr Löschen
 
 Das Löschen von Stempeluhren ist genauso einfach, wie das Erstellen:
