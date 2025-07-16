@@ -80,7 +80,7 @@ Sie die Notiz aber auch komplett löschen.
 
 Um bei ihrer Dienstplanung auch das aktuelle Wetter berücksichtigen zu können, zeigt Ihnen Pentacode die aktuelle Vorhersage für die nächsten 16 Tage an. Dabei werden die [Daten des Standorts](/handbuch/einstellungen/arbeitsbereiche/) verwendet, wodurch sich **die Vorhersage an den ausgewählten Standort anpasst.**
 
-Um die Wetteranzeige an- und auszuschalten, klicken Sie auf das ({% icon "tv-retro" %}-Icon) und setzen bei **Wetter** einen grünen Haken, oder wählen Sie ihn ab.
+Um die Wetteranzeige an- und auszuschalten, klicken Sie auf das ({% icon "tv-retro" %}-Icon) und setzen bei **Wetter** einen grünen Haken.
 
 Pentacode zeigt Ihnen anschließend eine Übersicht mit Temperatur und Regenwahrscheinlichkeit für jeden Tag. Für genauere Vorhersagen fahren Sie mit dem Cursor über den jeweiligen Tag.
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/single.njk
 title: Farbschema
-icon: fa-eclipse
+icon: eclipse
 weight: 120
 ---
 
@@ -21,5 +21,5 @@ Schonend für die Augen - weiße Schrift auf dunklem Hintergrund. Perfekt für A
 
 ## Farbschema der Stempeluhr
 
-Wenn Sie das Farbschema der Stempeluhr anpassen wollen, können Sie das unter dem Reiter [**Zeiterfassung**](/handbuch/zeiterfassung/index.md) beim einrichten einer neuen Stempeluhr.
+Wenn Sie das Farbschema der Stempeluhr anpassen wollen, können Sie das unter dem Reiter [**Zeiterfassung**](/handbuch/zeiterfassung) beim einrichten einer neuen Stempeluhr.
  
