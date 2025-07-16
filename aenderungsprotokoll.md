@@ -7,20 +7,39 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.40.1
+
+### Änderungen & Neuigkeiten
+
+- Mitarbeiter werden nun auch über an sie geschickte Nachrichten per Push-Notification benachrichtigt.
+- Die maximal eintragbaren Sollstunden wurden in Österreich auf 12 Stunden angehoben.
+
+### Behobene Fehler
+
+- Der SFN-Zuschlagssaldo wurde für den letzten Beschäftigungsmonat nicht korrekt berechnet.
+- Im Dashboard wurden in einigen Fällen Geburtstage am Tag des Geburtstags nicht angezeigt.
+- Im Dashboard werden jetzt Geburtstage über die Jahresgrenze hinweg angezeigt.
+- Im Dashboard kam es zu Anzeigefehlern, wenn bei neuen Mitarbeitern keine typischen Arbeitstage vorlagen.
+
 ## 1.40.0
 
 ### Änderungen & Neuigkeiten
 
-- Push-Benachrichtigungen sind jetzt in der Mitarbeiter-App verfügbar! Mitarbeiter werden informiert über:
+- **Push-Benachrichtigungen** sind jetzt in der Mitarbeiter-App verfügbar! Mitarbeiter werden informiert über:
     - Neu veröffentlichte Dienstpläne
     - Übernommene Schichten (bei Schichttausch)
     - Entscheidungen zu Urlaubsanträgen und Krankmeldungen
     - Aufforderungen zum Ausfüllen von Formularen
-    - Die Einrichtung wird im Handbuch erklärt.
+    Die Einrichtung wird [im Handbuch](/mitarbeiter-app/index.md#push-notifications-anschalten) erklärt.
 
-Dark Mode ist nun auch in der Stempeluhr verfügbar! Die Einstellung kann pro Stempeluhr unter Zeiterfassung angepasst werden.
+- **Dark Mode** ist nun auch in der Stempeluhr verfügbar! Die Einstellung kann pro Stempeluhr unter Zeiterfassung angepasst werden.
 
-Neuer Sollstunden-Berechnungsmodus: "Monatsgenau abzgl. Feiertage (Fehlstunden)" ist jetzt verfügbar. Details dazu finden Sie im Handbuch.
+- Neuer Sollstunden-Berechnungsmodus: "**Monatsgenau abzgl. Feiertage (Fehlstunden)**" ist jetzt verfügbar. Details dazu [finden Sie im Handbuch](/handbuch/mitarbeiter/vertrag/index.md#monatsgenau-abzgl-feiertage-fehlstunden).
+
+### Behobene Fehler
+
+- Nutzer ohne Unternehmenszuordnung können sich nun wieder abmelden.
+- Die Auswahlliste der Dokument-Kategorien wird jetzt auch bei umfangreichen Listen vollständig angezeigt.
 
 ## 1.39.1
 
