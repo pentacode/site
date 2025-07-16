@@ -70,9 +70,11 @@ Hier können Sie verschiedene Einstellungen vornehmen, um Funktionen und Anzeige
 
 Unter dem Punkt Farbschema können Sie bestimmen wie die Stempeluhr Ihren Mitarbeitern angezeigt wird:
 
-**Auto:** Die Stempeluhr passt sich dem Farbschema des Browsers oder Geräts automatisch an. Das ist die Standardeinstellung
-**Hell:** Schwarze Schrift auf hellem Hintergrund. Perfekt bei Tagesschichten.
-**Dunkel:** Weiße Schrift auf dunklem Hintergrund. Schonend für die Augen und perfekt für Früh- und Nachtschichten
+- **Auto:** Die Stempeluhr passt sich dem Farbschema des Browsers oder Geräts automatisch an. Das ist die Standardeinstellung.
+
+- **Hell:** Schwarze Schrift auf hellem Hintergrund. Perfekt bei Tagesschichten.
+
+- **Dunkel:** Weiße Schrift auf dunklem Hintergrund. Schonend für die Augen und perfekt für Früh- und Nachtschichten.
 
 
 ### Stempeluhr Löschen

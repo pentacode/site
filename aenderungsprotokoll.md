@@ -29,12 +29,12 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
     - Neu veröffentlichte Dienstpläne
     - Übernommene Schichten (bei Schichttausch)
     - Entscheidungen zu Urlaubsanträgen und Krankmeldungen
-    - Aufforderungen zum Ausfüllen von Formularen
-    Die Einrichtung wird [im Handbuch](/mitarbeiter-app/index.md#push-notifications-anschalten) erklärt.
+    - Aufforderungen zum Ausfüllen von Formularen <br>
+    Die Einrichtung wird [im Handbuch](/mitarbeiter-app/#push-notifications-anschalten) erklärt.
 
 - **Dark Mode** ist nun auch in der Stempeluhr verfügbar! Die Einstellung kann pro Stempeluhr unter Zeiterfassung angepasst werden.
 
-- Neuer Sollstunden-Berechnungsmodus: "**Monatsgenau abzgl. Feiertage (Fehlstunden)**" ist jetzt verfügbar. Details dazu [finden Sie im Handbuch](/handbuch/mitarbeiter/vertrag/index.md#monatsgenau-abzgl-feiertage-fehlstunden).
+- Neuer Sollstunden-Berechnungsmodus: "**Monatsgenau abzgl. Feiertage (Fehlstunden)**" ist jetzt verfügbar. Details dazu [finden Sie im Handbuch](/handbuch/mitarbeiter/vertrag/#monatsgenau-abzgl-feiertage-fehlstunden).
 
 ### Behobene Fehler
 
