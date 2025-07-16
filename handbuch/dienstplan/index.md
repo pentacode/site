@@ -76,6 +76,18 @@ Sie die Notiz aber auch komplett löschen.
 - **Urlaube Komplett sperren:** Mitarbeiter können keine Urlaubsanträge stellen und Manager können in dieser Zeit keinen Urlaub erteilen.
 - **Nur Urlaubsanträge sperren:** Mitarbeiter können keine Urlaubsanträge stellen, Manager können jedoch Mitarbeitern in diesem Zeitraum weiterhin Urlaub erteilen. 
 
+## Wetteranzeige
+
+Um bei ihrer Dienstplanung auch das aktuelle Wetter berücksichtigen zu können, zeigt Ihnen Pentacode die aktuelle Vorhersage für die nächsten 16 Tage an. Dabei werden die [Daten des Standorts](/handbuch/einstellungen/arbeitsbereiche/) verwendet, wodurch sich **die Vorhersage an den ausgewählten Standort anpasst.**
+
+Um die Wetteranzeige an- und auszuschalten, klicken Sie auf das ({% icon "tv-retro" %}-Icon) und setzen bei **Wetter** einen grünen Haken, oder wählen Sie ihn ab.
+
+Pentacode zeigt Ihnen anschließend eine Übersicht mit Temperatur und Regenwahrscheinlichkeit für jeden Tag. Für genauere Vorhersagen fahren Sie mit dem Cursor über den jeweiligen Tag.
+
+{% figure caption= "Mit einem Mouse-over sehen Sie die genauen Details der Wettervorhersage." %}
+<img src= "wettervorhersage.gif" />
+{% endfigure %}
+
 ## Dienstplan-Tabs
 
 Mithilfe der Dienstplan-Tabs in der oberen linken Ecke des Dienstplan können Sie schnell

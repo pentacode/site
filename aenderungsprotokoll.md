@@ -7,6 +7,35 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.40.0
+
+### Änderungen & Neuigkeiten
+
+- Push-Benachrichtigungen sind jetzt in der Mitarbeiter-App verfügbar! Mitarbeiter werden informiert über:
+    - Neu veröffentlichte Dienstpläne
+    - Übernommene Schichten (bei Schichttausch)
+    - Entscheidungen zu Urlaubsanträgen und Krankmeldungen
+    - Aufforderungen zum Ausfüllen von Formularen
+    - Die Einrichtung wird im Handbuch erklärt.
+
+Dark Mode ist nun auch in der Stempeluhr verfügbar! Die Einstellung kann pro Stempeluhr unter Zeiterfassung angepasst werden.
+
+Neuer Sollstunden-Berechnungsmodus: "Monatsgenau abzgl. Feiertage (Fehlstunden)" ist jetzt verfügbar. Details dazu finden Sie im Handbuch.
+
+## 1.39.1
+
+### Änderungen & Neuigkeiten
+
+- Guttage werden jetzt auch in der Arbeitszeiten-Ansicht der Mitarbeiter-App angezeigt.
+- Mit der neuen Berechtigung Alle Umsätze können Manager diesen Bereich nun ebenfalls einsehen.
+- Manager können nur Berechtigungen bearbeiten, die sie selbst besitzen.
+- Lohnarten werden beim Löschen automatisch aus den zugehörigen Lohnartensätzen entfernt.
+
+### Behobene Fehler
+
+- Das Handbuch unter Hilfe zeigte in seltenen Fällen nicht den korrekten Artikel an.
+
+
 ## 1.39.0
 
 ### Änderungen & Neuigkeiten
