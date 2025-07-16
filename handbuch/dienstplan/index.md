@@ -62,6 +62,8 @@ Dienstplanübersicht erstellen.
 <img src= "kalendereintrag.gif" />
 {% endfigure %}
 
+> {% icon "lightbulb" %} **Tipp:** Sie können durch einen Klick auf das {% icon "tv-retro" %} **Icon** im rechten oberen Eck durch an- und abwählen des grünen Hakens bei Kalendereinträge Notizen an und Abwählen.
+
 ### Kalendereintrag löschen
 
 Um die Notiz eines oder mehrerer Tage zu löschen klicken Sie einfach über die
@@ -75,6 +77,10 @@ Sie die Notiz aber auch komplett löschen.
 - **Keine Urlaubssperre:** Mitarbeiter können Urlaubsanträge stellen und Manager können Anträge gewähren oder Urlaub erteilen.
 - **Urlaube Komplett sperren:** Mitarbeiter können keine Urlaubsanträge stellen und Manager können in dieser Zeit keinen Urlaub erteilen.
 - **Nur Urlaubsanträge sperren:** Mitarbeiter können keine Urlaubsanträge stellen, Manager können jedoch Mitarbeitern in diesem Zeitraum weiterhin Urlaub erteilen. 
+
+## Schulferien anzeigen lassen
+
+Wenn Sie die Kalendereinträge im Ansichtsmenü {% icon "tv-retro" %} angewählt haben, werden Ihnen automatisch die Schulferien des Bundeslandes angezeigt, dass in ihrem Standort hinterlegt ist. Damit diese Funktion verfügbar ist, müssen Sie die [Standorteinstellungen](/handbuch/einstellungen/arbeitsbereiche/) ausfüllen.
 
 ## Wetteranzeige
 
