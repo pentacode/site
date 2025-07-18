@@ -9,7 +9,7 @@ Unter dem Punkt Farbschema können Sie bestimmen wie Pentacode Ihnen angezeigt w
 
 ## Auto
 
-Pentacode passt sich dem Farbschema ihres Browsers oder Geräts automatisch an. Das ist die Standardeinstellung.
+Pentacode passt sich dem Farbschema Ihres Browsers oder Geräts automatisch an. Das ist die Standardeinstellung.
 
 ## Hell
 
