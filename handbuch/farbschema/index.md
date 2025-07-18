@@ -5,7 +5,7 @@ icon: eclipse
 weight: 120
 ---
 
-Unter dem Punkt Farbschema können Sie bestimmen wie Pentacode Ihnen angezeigt wird. Dabei können Sie zwischen drei Möglichkeiten wälen:
+Unter dem Punkt Farbschema können Sie bestimmen wie Pentacode Ihnen angezeigt wird. Dabei können Sie zwischen drei Möglichkeiten wählen:
 
 ## Auto
 
