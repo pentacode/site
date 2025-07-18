@@ -21,5 +21,5 @@ Schonend für die Augen - weiße Schrift auf dunklem Hintergrund. Perfekt für A
 
 ## Farbschema der Stempeluhr
 
-Wenn Sie das Farbschema der Stempeluhr anpassen wollen, können Sie das unter dem Reiter [**Zeiterfassung**](/handbuch/zeiterfassung) beim einrichten einer neuen Stempeluhr.
+Wenn Sie das Farbschema der Stempeluhr anpassen wollen, können Sie das unter dem Reiter [**Zeiterfassung**](/handbuch/zeiterfassung) beim Einrichten einer neuen Stempeluhr.
  
