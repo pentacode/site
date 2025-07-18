@@ -80,7 +80,7 @@ Sie die Notiz aber auch komplett löschen.
 
 ## Schulferien anzeigen lassen
 
-Wenn Sie die Kalendereinträge im Ansichtsmenü {% icon "tv-retro" %} angewählt haben, werden Ihnen automatisch die Schulferien des Bundeslandes angezeigt, dass in ihrem Standort hinterlegt ist. Damit diese Funktion verfügbar ist, müssen Sie die [Standorteinstellungen](/handbuch/einstellungen/arbeitsbereiche/) ausfüllen.
+Wenn Sie die Kalendereinträge im Ansichtsmenü {% icon "tv-retro" %} angewählt haben, werden Ihnen automatisch die Schulferien des Bundeslandes angezeigt, das in ihrem Standort hinterlegt ist. Damit diese Funktion verfügbar ist, müssen Sie die [Standorteinstellungen](/handbuch/einstellungen/arbeitsbereiche/) ausfüllen.
 
 ## Wetteranzeige
 
