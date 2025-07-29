@@ -6,7 +6,7 @@ icon: rectangles-mixed
 
 ---
 
-> {% icon "exclamation-triangle" %} **Das Dashboard ist ein Beta-Feature!** Es wird kontinuierlich weiterentwickelt und bald jedem Pentacode-Nutzer zur Verfügung gestellt – bis dahin bleibt es aber auf unsere Beta-Tester limitiert. Sie sind interessiert? [Hier können Sie sich für einen Beta-Zugang anmelden.]
+> {% icon "exclamation-triangle" %} **Das Dashboard ist ein Beta-Feature!** Es wird kontinuierlich weiterentwickelt und bald jedem Pentacode-Nutzer zur Verfügung gestellt – bis dahin bleibt es aber auf unsere Beta-Tester limitiert. Sie sind interessiert?
 
 Das Dashboard in Pentacode dient als Ihr zentrales "Cockpit" für **Ihren** Betrieb und verschafft Ihnen einen schnellen Überblick über die wichtigsten Vorgänge in Ihrem Personalmanagement. Hier finden Sie **relevante** Informationen auf einen Blick und können direkt agieren.
 
