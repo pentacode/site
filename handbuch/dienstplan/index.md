@@ -249,9 +249,55 @@ Gehen Sie anschließend wie bei normalen [Dienstzeiten](#dienstzeiten-eintragen)
 vor. Sie müssen lediglich statt eines Mitarbeiters die Zeile "**Nicht
 zugewiesen**" auswählen.
 
+> {% icon "lightbulb" %} **Tipp:** Mit der [automatischen Schichtzuweisung](#automatische-schichtzuweisung) können Sie nicht zugewiesene Schichten schnell auf ihre Belegschaft verteilen!
+
 {% figure caption="So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen" %}
 
 <img src="nicht_zugewiesen.webp" />
+
+{% endfigure %}
+
+### Schichtzuweisungen aufheben
+
+Sie können alle Zuweisungen der geplanten Schichten im Dienstplan auf einmal aufheben. Klicken Sie dazu auf das {% icon "wrench" %}-Icon und auf {% icon "user-slash" %} **Schichtzuweisung aufheben**. Alle Schichten werden nun nach "nicht zugewiesen" verschoben. 
+
+> {% icon "lightbulb" %} **Tipp:** Wenn Sie die Anzahl und Länge der Schichten aus einer [Vorlage](#vorlage-anwenden) in der Planung verwenden wollen, aber nicht die genaue Zuweisung an die Mitarbeiter: Wenden Sie erst eine Vorlage an und heben Sie dann die Schichtzuweisungen auf. Anschließend können Sie die Schichten wie gewünscht an die Mitarbeiter aufteilen oder [automatisch zuweisen lassen](#automatische-schichtzuweisung).
+
+## Automatische Schichtzuweisung
+
+Der automatische Dienstplan ist ein mächtiges Feature, das Ihnen die Erstellung kompletter Dienstpläne maßgeblich erleichtert. Anstatt Schichten manuell zuzuweisen, übernimmt Pentacode die Verteilung für Sie. Das System berücksichtigt dabei die Sollstunden Ihrer Mitarbeiter, den Abbau von Über-/Minderstunden sowie deren Verfügbarkeiten, Urlaube und Kranktage, um eine optimale und regelkonforme Zuweisung vorzunehmen.
+
+> Wir haben für den Automatischen Dienstplan auch [eine Videoanleitung - dazu einfach hier klicken!](https://www.loom.com/share/3a3f858a70b64abe8614778776053a9c?sid=75cc167c-cdd1-4096-aba5-f7792808c115) 
+
+**So nutzen Sie den automatischen Dienstplan:**
+
+1. **Dienstplan vorbereiten:**
+  - Wählen Sie den gewünschten Standort oder die Abteilung aus.
+
+  - Aktivieren Sie über das {% icon "tv-retro" %}-Icon die [Nicht zugewiesenen Schichten](#nicht-zugewiesene-schichten). Es erscheint nun unter jeder Abteilung der Bereich "Nicht zugewiesen".
+
+  - Legen Sie die gewünschten Schichten ab: Sie können beliebig viele Schichten hinzufügen. 
+    - Nutzen Sie hierfür die bereits vorhandenen [Schichtvorschläge](#schichtvorschläge) per Drag & Drop. Sie können Schichten auch stapeln, um mehrere gleiche Schichten abzulegen. 
+    - Oder Sie erstellen neue Schichten direkt im Bereich "Nicht zugewiesen".
+
+  - Oder nutzen Sie Dienstplanvorlagen: Wenn Sie bereits Dienstplanvorlagen verwenden, können Sie diese mit wenigen Klicks zu nicht zugewiesenen Schichten hinzufügen. Gehen Sie dabei wie unter [Schichtzuweisung aufheben](#schichtzuweisungen-aufheben) beschrieben vor. 
+
+2. **Schichten automatisch zuweisen:**
+  - Klicken Sie auf das {% icon "wrench" %}-Icon im Dienstplan-Menü.
+
+  - Wählen Sie den {% button icon="robot", label="Schichten automatisch zuweisen" %}-Button aus.
+
+  - Im folgenden Dialog können Sie noch Einstellungen vornehmen, ob beispielsweise Sollstunden primär erfüllt oder Über-/Minderstunden abgebaut werden sollen, und die Berücksichtigung von Verfügbarkeiten bestätigen. **Urlaube und Kranktage werden automatisch berücksichtigt!**
+
+  - Bestätigen Sie mit {% button label="Anwenden" %}.
+
+3. **Überprüfen und Veröffentlichen:**
+
+  - Pentacode verteilt die offenen Schichten optimal auf Ihre Mitarbeiter. Sie können die zugewiesenen Schichten wie gewohnt in der Bearbeitungsphase überprüfen, bearbeiten, verschieben und verändern.
+
+{% figure caption="Neuer Dienstplan in 30 Sekunden? Mit der automatischen Schichtzuweisung möglich." %}
+
+<img src="automatische_schichten.gif" />
 
 {% endfigure %}
 
