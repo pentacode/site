@@ -82,8 +82,6 @@ So installieren Sie die Mitarbeiter-App auf Ihrem iOS-Gerät:
 
 ## Push Notifications anschalten 
 
-> {% icon "info-circle" %} Push Notifications sind aktuell ein Feature, das nur für Beta nutzer zur Verfügung steht!
-
 Mit Push Notifications bleiben Sie automatisch über alles was in ihrem Betrieb passiert informiert – ganz ohne aktiv in die App schauen zu müssen.
 
 ## Welche Push Notifications gibt es?
