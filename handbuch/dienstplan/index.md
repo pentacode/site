@@ -278,7 +278,7 @@ und Tag, und klicken auf die gewünschte Art von Fehltag.
 
 ## Freie Tage und Guttage eintragen
 
-Um Freie Tage oder Guttage zu planen, gehen Sie wie unter [Fehltage eintragen](#fehltage-eintragen) beschrieben vor. **Freie Tage dienen dabei nur als Platzhalter** und werden in keinerlei Berechnung mit einbezogen. **Guttage werden genutzt, um Mitarbeitern zusätzliche Arbeitstage einzutragen.**
+Um Freie Tage oder Guttage zu planen, gehen Sie wie unter [Fehltage eintragen](#fehltage-eintragen) beschrieben vor. **Freie Tage dienen dabei nur als Platzhalter** und werden in keinerlei Berechnung mit einbezogen. **Guttage werden genutzt, um Mitarbeitern zusätzliche Arbeitszeit in höhe eines Arbeitstages einzutragen.**
 
 > {% icon "person-chalkboard" %} **Beispiel:** Ihr Betrieb ist auch Feiertags geöffnet und ihre Mitarbeiter haben deshalb eine [monatsgenaue Sollstundenberechnung oder nach Wochenfaktor.](/handbuch/mitarbeiter/vertrag/#arbeitszeit-%26-fehltage) Um nun zu verhindern, dass Mitarbeiter bei Feiertagen keine Minderstunden anhäufen (da diese nicht automatisch aus den Soll-Stunden herausgerechnet werden) können Sie am Feiertag einen Guttag eintragen.
 
