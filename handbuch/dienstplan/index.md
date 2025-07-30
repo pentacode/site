@@ -259,7 +259,7 @@ zugewiesen**" auswählen.
 
 ### Schichtzuweisungen aufheben
 
-> {% icon "info-circle" %} **Beta Feature!** Schichtzuweisungen aufheben ist bisher nur für Beta Kunden freigeschalten - in den kommenden Wochen wird er fester Teil von Pentacode werden!
+<span style="color: purple;"> {% icon "info-circle" %} **Beta Feature! Schichtzuweisungen aufheben ist bisher nur für Beta Kunden freigeschalten!** </span>
 
 Sie können alle Zuweisungen der geplanten Schichten im Dienstplan auf einmal aufheben. Klicken Sie dazu auf das {% icon "wrench" %}-Icon und auf {% icon "user-slash" %} **Schichtzuweisung aufheben**. Alle Schichten werden nun nach "nicht zugewiesen" verschoben. 
 
@@ -267,7 +267,7 @@ Sie können alle Zuweisungen der geplanten Schichten im Dienstplan auf einmal au
 
 ## Automatische Schichtzuweisung
 
-> {% icon "info-circle" %} **Beta Feature!** Der Automatische Dienstplan ist bisher nur für Beta Kunden freigeschalten - in den kommenden Wochen wird er fester Teil von Pentacode werden!
+<span style="color: purple;"> {% icon "info-circle" %} **Beta Feature! Schichtzuweisungen aufheben ist bisher nur für Beta Kunden freigeschalten!** </span>
 
 Der automatische Dienstplan ist ein mächtiges Feature, das Ihnen die Erstellung kompletter Dienstpläne maßgeblich erleichtert. Anstatt Schichten manuell zuzuweisen, übernimmt Pentacode die Verteilung für Sie. Das System berücksichtigt dabei die Sollstunden Ihrer Mitarbeiter, den Abbau von Über-/Minderstunden sowie deren Verfügbarkeiten, Urlaube und Kranktage, um eine optimale und regelkonforme Zuweisung vorzunehmen.
 
