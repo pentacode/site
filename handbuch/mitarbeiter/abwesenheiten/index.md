@@ -51,9 +51,10 @@ So funktioniert das **Erfassen einer neuen Abwesenheit**:
 4. Wählen Sie aus, welche Tage innerhalb des Abwesenheitszeitraums als **Fehltage** erfasst werden sollen. Pentacode
    trifft hier automatisch eine Vorauswahl anhand der üblichen Arbeitstage des Mitarbeiters (ermittelt basierend auf den
    [Vertragsdaten]\(/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
-5. Klicken Sie auf {% button label="Speichern" %} um die Abwesenheit zu **übernehmen** oder
+5. Wenn ein Feiertag in den Abwesenheitszeitraum fällt: Klicken Sie diesen doppelt an, um [einen Guttag](/handbuch/dienstplan/#freie-tage-und-guttage-eintragen) für den Mitarbeiter einzutragen.
+6. Klicken Sie auf {% button label="Speichern" %} um die Abwesenheit zu **übernehmen** oder
    {% button label="Abbrechen" %} um sie zu **verwerfen**.
-6. Falls es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten gibt wird Pentacode Sie
+7. Falls es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten gibt wird Pentacode Sie
    fragen, ob Sie diese löschen möchten. Bestätigen Sie, dass Sie den Vorgang abschließen möchten.
 
 {% figure caption="Indem Sie die Maustaste gedrückt halten, können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren." %}

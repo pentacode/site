@@ -278,6 +278,11 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
 > Platzhalter/Planhilfe und haben keinen Einfluss auf das Arbeitszeitkonto oder
 > die Zeiterfassung.
 
+### Guttage zum Feiertagsausgleich nutzen
+
+Wenn Sie die [Sollstundenberechnung](/handbuch/mitarbeiter/vertrag/) Ihrer Mitarbeiter **monatsgenau oder nach festen Wochentagen** durchführen, reduzieren sich die Sollstunden nicht, trotz Feiertag. Um zu verhindern, dass für diese Mitarbeiter Minderstunden anfallen, wenn sie keinen Einsatz am Feiertag haben, können Sie durch einen Guttag die Ist-Stunden ausgleichen.
+
+
 ## Urlaub oder Krankheit Erfassen
 
 1. Gehen Sie in das [Arbeitszeitblatt](#das-arbeitszeitblatt) des gewünschten
