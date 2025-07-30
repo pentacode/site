@@ -276,6 +276,12 @@ und Tag, und klicken auf die gewünschte Art von Fehltag.
 
 > {% icon "lightbulb" %} **Tipp:** Fehltage können auch über die Tastaturkürzel {% key "u", "mono" %} **(Urlaub)**, {% key "k", "mono" %} **(Krank)**, {% key "g", "mono" %} **(Guttag)** und {% key "f", "mono" %} **(Frei)** gewählt werden!
 
+## Freie Tage und Guttage eintragen
+
+Um Freie Tage oder Guttage zu planen, gehen Sie wie unter [Fehltage eintragen](#fehltage-eintragen) beschrieben vor. **Freie Tage dienen dabei nur als Platzhalter** und werden in keinerlei Berechnung mit einbezogen. **Guttage werden genutzt, um Mitarbeitern zusätzliche Arbeitstage einzutragen.**
+
+> {% icon "person-chalkboard" %} **Beispiel:** Ihr Betrieb ist auch Feiertags geöffnet und ihre Mitarbeiter haben deshalb eine [monatsgenaue Sollstundenberechnung oder nach Wochenfaktor.](/handbuch/mitarbeiter/vertrag/#arbeitszeit-%26-fehltage) Um nun zu verhindern, dass Mitarbeiter bei Feiertagen keine Minderstunden anhäufen (da diese nicht automatisch aus den Soll-Stunden herausgerechnet werden) können Sie am Feiertag einen Guttag eintragen.
+
 ## Einträge Verschieben
 
 Möchten Sie eine Schicht einem neuen Mitarbeiter zuweisen oder in einen anderen
