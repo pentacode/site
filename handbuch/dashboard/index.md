@@ -37,7 +37,22 @@ Klicken Sie auf den **Mitarbeiternamen**, um sofort in dessen Profil zum Bereich
 
 ## Notizen
 
-Die Notizen bieten Platz für Ihre privaten Gedanken, Checklisten oder To-Do's. Diese werden automatisch gespeichert und stehen jedem Manager individuell bereit – es haben also nur Sie Einblick in Ihre Notizen!
+Die Notizen bieten Platz für Ihre privaten Gedanken, Checklisten oder To-Do's.
+Diese werden automatisch gespeichert und stehen jedem Manager individuell bereit
+– es haben also nur Sie Einblick in Ihre Notizen!
+
+## Schichten des Tages
+
+## Schichten des Tages
+
+Die Tagesschichten zeigen Ihnen alle im heutigen Dienstplan veröffentlichten
+Schichten. Scrollen Sie von links nach rechts um alle Schichten über den Verlauf
+des Tages zu sehen. Mit einem Klick auf Standorte und Abteilungen **können Sie
+diese ein- und ausklappen.**
+
+Ein Klick auf eine Schicht bringt Sie direkt in die
+[Dienstplanansicht](/site/handbuch/dienstplan/) und hebt die ausgewählte Schicht hervor - halten Sie dabei {% button icon="up", label="Shift" %} gedrückt und Sie landen im Arbeitszeitblatt des Mitarbeiters.
+
 
 ## Schichten des Tages
 Die Kachel für **Schichten des Tages** zeigen alle geplanten Schichten des heutigen Tages sortiert nach ihrer Startzeit. So haben Sie einen schnellen Überblick über Lücken oder zu starke Überlappungen im Dienstplan. 
@@ -45,8 +60,16 @@ Klicken Sie auf einen Mitarbeiter und Sie landen im Dienstplan bei diesem Mitarb
 
 ## Dashboard anpassen
 
-Über das {% icon "toggle-on" %}-**Icon** können Sie selbst festlegen, welche Kacheln angezeigt werden sollen. Wählen Sie dazu einfach die Häkchen neben den Kachelnamen an- und ab. So behalten Sie stets den Fokus auf die für Sie relevantesten Informationen.
+Über das {% icon "toggle-on" %}-**Icon** können Sie selbst festlegen, welche
+Kacheln angezeigt werden sollen. Wählen Sie dazu einfach die Häkchen neben den
+Kachelnamen an- und ab. So behalten Sie stets den Fokus auf die für Sie
+relevantesten Informationen.
 Sie können ebenfalls die Anordnung der Kacheln ändern, indem Sie das {% icon "grip-vertical" %}-**Icon** mit der Maus festhalten und den jeweiligen Eintrag in eine neue Position ziehen. 
+
+Zusätzlich können Sie Einstellungen an den einzelnen Kacheln vornehmen. Fahren
+Sie dazu mit dem Cursor über das Icon in der rechten oberen Ecke jeder Kachel.
+Wenn sich das Icon zu einem {% icon "gear" %} wandelt, können Sie mit einem Klick darauf
+die Einstellungen der Kachel anpassen. 
 
 > {% icon "lightbulb" %} **Wichtig:** Die angezeigten Kacheln unterliegen stets den Ihnen als Manager zugewiesenen Zuständigkeitsbereichen und Berechtigungen.
 
