@@ -61,7 +61,14 @@ Klicken Sie hierzu auf "**+ Neue Lohnart**" und füllen folgende Felder aus:
 - **Name der Lohnart:** Dieses Feld dient einzig der Darstellung in Pentacode, falls unsicher verwenden Sie als Namen am besten die **Lohnartnummer**.
 - **Lohnartnummer:** Dieses Feld dient später ihrer Buchhaltung aus Pentacode exportierte Lohndaten richtig zuzuordnen - **füllen Sie dieses Feld mit den Informationen ihrer Buchhaltung aus!**
 - **Einheit:** Nicht jede Lohnart wird in Euro abgerechnet - Kilometergeld etwa. Hier können Sie auswählen in welchem Format die Lohnart an ihre Buchhaltung übertragen wird.
-- **Beschreibung:** Sollten Sie weitere Vermerke für die Lohnart haben, tragen Sie diese hier ein. 
+- **Beschreibung:** Sollten Sie weitere Vermerke für die Lohnart haben, tragen
+  Sie diese hier ein. 
+
+> {% icon "lightbulb" %} **Agenda Nutzer aufgepasst!** Sollten Sie Agenda für
+> ihre Buchhaltung nutzen, müssen Sie die Lohnarten nicht einmal selbst
+> erstellen. Klicken Sie auf {% icon "ellipsis" %}-**Icon** neben der
+> Überschrift der Lohnarten und dann auf "**Agenda Lohndaten generieren**" -
+> alle nötigen Lohnarten sind sofort erstellt!
 
 ## Lohnartensätze
 
