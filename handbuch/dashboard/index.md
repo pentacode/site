@@ -1,12 +1,11 @@
 ---
 layout: layouts/single.njk
-title: Dashboard (BETA)
-weight: 120
+title: Dashboard
+weight: 10
 icon: rectangles-mixed
 
 ---
 
-<span style="color: purple;"> {% icon "exclamation-triangle" %} **Das Dashboard ist ein Beta-Feature! Es wird kontinuierlich weiterentwickelt und bald jedem Pentacode-Nutzer zur Verfügung gestellt – bis dahin bleibt es aber auf unsere Beta-Tester limitiert.**</span>
 
 Das Dashboard in Pentacode dient als Ihr zentrales "Cockpit" für **Ihren** Betrieb und verschafft Ihnen einen schnellen Überblick über die wichtigsten Vorgänge in Ihrem Personalmanagement. Hier finden Sie **relevante** Informationen auf einen Blick und können direkt agieren.
 
@@ -40,12 +39,19 @@ Klicken Sie auf den **Mitarbeiternamen**, um sofort in dessen Profil zum Bereich
 
 Die Notizen bieten Platz für Ihre privaten Gedanken, Checklisten oder To-Do's. Diese werden automatisch gespeichert und stehen jedem Manager individuell bereit – es haben also nur Sie Einblick in Ihre Notizen!
 
-## Dashboard anpassen:
+## Schichten des Tages
+Die Kachel für **Schichten des Tages** zeigen alle geplanten Schichten des heutigen Tages sortiert nach ihrer Startzeit. So haben Sie einen schnellen Überblick über Lücken oder zu starke Überlappungen im Dienstplan. 
+Klicken Sie auf einen Mitarbeiter und Sie landen im Dienstplan bei diesem Mitarbeiter - halten Sie dabei {% button icon="up", label="Shift" %} gedrückt und Sie landen im Arbeitszeitblatt des Mitarbeiters.
+
+## Dashboard anpassen
 
 Über das {% icon "toggle-on" %}-**Icon** können Sie selbst festlegen, welche Kacheln angezeigt werden sollen. Wählen Sie dazu einfach die Häkchen neben den Kachelnamen an- und ab. So behalten Sie stets den Fokus auf die für Sie relevantesten Informationen.
+Sie können ebenfalls die Anordnung der Kacheln ändern, indem Sie das {% icon "grip-vertical" %}-**Icon** mit der Maus festhalten und den jeweiligen Eintrag in eine neue Position ziehen. 
 
 > {% icon "lightbulb" %} **Wichtig:** Die angezeigten Kacheln unterliegen stets den Ihnen als Manager zugewiesenen Zuständigkeitsbereichen und Berechtigungen.
 
 ## Das Dashboard wächst mit!
 
 Das Dashboard wird kontinuierlich weiterentwickelt und um zusätzliche Funktionen und Kacheln erweitert, um Ihnen zukünftig noch mehr Kontrolle und Übersicht zu bieten!
+
+Sie haben Ideen für eine hilfreiche Kachel? Reichen Sie ihre Idee gerne in unserem [Feedback-Tool](/feedback) ein!
