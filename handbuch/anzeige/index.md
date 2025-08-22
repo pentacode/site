@@ -10,8 +10,6 @@ Pentacode aussieht.
 
 ## Ansicht zentrieren
 
-<span style="color: purple;"> {% icon "info-circle" %} **Beta Feature! Ansicht zentrieren ist bisher nur für Beta Kunden freigeschaltet!** </span>
-
 Mit dem "Vollbild" Button können Sie bestimmen, ob Pentacode die komplette
 Breite Ihres Bildschirms nutzt oder nur zentriert angezeigt wird. Je nach Größe des
 verwendeten Bildschirms unterscheiden sich "zentriert" und "Vollbild" gar nicht
@@ -36,5 +34,5 @@ Schonend für die Augen - weiße Schrift auf dunklem Hintergrund. Perfekt für A
 
 ## Farbschema der Stempeluhr
 
-Wenn Sie das Farbschema der Stempeluhr anpassen wollen, können Sie das unter dem Reiter [**Zeiterfassung**](/handbuch/zeiterfassung) beim Einrichten einer neuen Stempeluhr.
+Wenn Sie das Farbschema der Stempeluhr anpassen wollen, können Sie das unter dem Reiter [**Zeiterfassung**](/handbuch/zeiterfassung) beim Einrichten oder Bearbeiten einer Stempeluhr.
  

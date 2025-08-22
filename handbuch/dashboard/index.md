@@ -43,8 +43,6 @@ Diese werden automatisch gespeichert und stehen jedem Manager individuell bereit
 
 ## Schichten des Tages
 
-## Schichten des Tages
-
 Die Tagesschichten zeigen Ihnen alle im heutigen Dienstplan veröffentlichten
 Schichten. Scrollen Sie von links nach rechts um alle Schichten über den Verlauf
 des Tages zu sehen. Mit einem Klick auf Standorte und Abteilungen **können Sie
@@ -53,10 +51,6 @@ diese ein- und ausklappen.**
 Ein Klick auf eine Schicht bringt Sie direkt in die
 [Dienstplanansicht](/site/handbuch/dienstplan/) und hebt die ausgewählte Schicht hervor - halten Sie dabei {% button icon="up", label="Shift" %} gedrückt und Sie landen im Arbeitszeitblatt des Mitarbeiters.
 
-
-## Schichten des Tages
-Die Kachel für **Schichten des Tages** zeigen alle geplanten Schichten des heutigen Tages sortiert nach ihrer Startzeit. So haben Sie einen schnellen Überblick über Lücken oder zu starke Überlappungen im Dienstplan. 
-Klicken Sie auf einen Mitarbeiter und Sie landen im Dienstplan bei diesem Mitarbeiter - halten Sie dabei {% button icon="up", label="Shift" %} gedrückt und Sie landen im Arbeitszeitblatt des Mitarbeiters.
 
 ## Dashboard anpassen
 
