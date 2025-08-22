@@ -68,7 +68,7 @@ Klicken Sie hierzu auf "**+ Neue Lohnart**" und füllen folgende Felder aus:
 > ihre Buchhaltung nutzen, müssen Sie die Lohnarten nicht einmal selbst
 > erstellen. Klicken Sie auf {% icon "ellipsis" %}-**Icon** neben der
 > Überschrift der Lohnarten und dann auf "**Agenda Lohndaten generieren**" -
-> alle nötigen Lohnarten sind sofort erstellt!
+> alle üblichen Lohnarten sind sofort erstellt!
 
 ## Lohnartensätze
 
