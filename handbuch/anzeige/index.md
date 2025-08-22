@@ -12,7 +12,7 @@ Pentacode aussieht.
 
 <span style="color: purple;"> {% icon "info-circle" %} **Beta Feature! Ansicht zentrieren ist bisher nur für Beta Kunden freigeschaltet!** </span>
 
-Mit dem "Zentriert" Button können Sie bestimmen, ob Pentacode die komplette
+Mit dem "Vollbild" Button können Sie bestimmen, ob Pentacode die komplette
 Breite Ihres Bildschirms nutzt oder nur zentriert angezeigt wird. Je nach Größe des
 verwendeten Bildschirms unterscheiden sich "zentriert" und "Vollbild" gar nicht
 oder deutlich - probieren Sie es aus!
