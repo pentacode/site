@@ -18,7 +18,7 @@ Um den Export durchführen zu können, ist es leider notwendig, diesen einmalig 
 Die Vorbereitungsarbeiten für den Export gehören sicher nicht zum Spannendsten, was der Arbeitsalltag zu bieten hat. Der einmalige Aufwand wird sich durch die Zeitersparnis in Zukunft jedoch in jedem einzelnen Monat zig-fach ausbezahlen.
 
 ## Allgemein
-<a href="/settings/accounting#section-general" hidden>Link</a>
+<a href="/settings/accounting#section-general" hidden>abrufbar auf /settings/accounting#section-general</a>
 
 ### Berater-, Betriebs- und Mandantennummer
 
@@ -26,7 +26,7 @@ Die Berater-, Betriebs- und Mandantennummer sind Angaben, die für den Datentran
 benötigt werden. Diese Informationen erhalten sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen.
 
 ## Kassenbuch
-<a href="/settings/accounting#section-cashbook" hidden>Link</a>
+<a href="/settings/accounting#section-cashbook" hidden>abrufbar auf /settings/accounting#section-cashbook</a>
 
 ### Buchungskonto
 
@@ -37,7 +37,7 @@ Geben Sie hier die Kontennummer ein, unter der in Ihrer Buchhaltung das Kassenbu
 Geben Sie hier die in Ihrer Buchhaltung verwendete Sachkontenlänge ein. Diese Information erhalten Sie von Ihrem Steuerberater oder Buchhaltungsverantwortlichen. Die Standardeinstellung ist "4".
 
 ## Kostenstellen 
-<a href="/settings/accounting#section-cost-centers" hidden>Link</a>
+<a href="/settings/accounting#section-cost-centers" hidden>abrufbar auf /settings/accounting#section-cost-centers</a>
 
 Um ihre Ausgaben besser im Blick zu haben können Sie Kostenstellen erstellen, denen Sie einzelne Mitarbeiter oder ganze Abteilungen zuordnen können. Sie helfen Ihnen ihre Kassenbuchführung strukturierter anzugehen und die Buchhaltung automatisierter zu gestalten.
 
@@ -54,7 +54,7 @@ Mit einem Klick auf {% button icon="plus", label="Neue Kostenstelle" %} öffnet 
 {% endfigure %}
 
 ## Lohnarten
-<a href="/settings/accounting#section-wage-types" hidden>Link</a>
+<a href="/settings/accounting#section-wage-types" hidden>abrufbar auf /settings/accounting#section-wage-types</a>
 
 "Bewegungsdaten" ist das Amtsdeutsch für Arbeits-, Fehl-, Zuschlagszeiten u.a.m., was Ihre Lohnbuchhaltung für die Abrechnung der Löhne benötigt. Wenn Sie diese Bewegungsdaten an die Buchhaltung exportieren wollen, müssen Sie die "Lohnarten" festlegen. Als Lohnarten werden jene Konten bezeichnet, in denen die verschiedenen Datensätze gesammelt werden.
 
@@ -75,7 +75,7 @@ Klicken Sie hierzu auf "**+ Neue Lohnart**" und füllen folgende Felder aus:
 > alle üblichen Lohnarten sind sofort erstellt!
 
 ## Lohnartensätze
-<a href="/settings/accounting#section-accounting-salary-configs" hidden>Link</a>
+<a href="/settings/accounting#section-accounting-salary-configs" hidden>abrufbar auf /settings/accounting#section-accounting-salary-configs</a>
 
 Jeder Mitarbeiter wird seinen Lohn mit mehreren Lohnarten erhalten. Diese können unterschiedlich für Grundlohn, Zuschlagszahlungen und sonstige Leistungen sein. Lohnartsätze speichern ab **Was mit welcher Lohnart berechnet wird**.
 
