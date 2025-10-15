@@ -76,7 +76,7 @@ Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
 ### Änderungen & Neuigkeiten
 
-- **Das Dashboard ist nun für alle verfügbar!** Weitere Informationen finden Sie im Handbuch. Ein Erklärvideo finden Sie hier.
+- **Das Dashboard ist nun für alle verfügbar!** Weitere Informationen finden Sie [im Handbuch](/site/handbuch/dashboard/). Ein Erklärvideo finden Sie [hier](https://www.loom.com/share/08a58cd55a80415eaad753de2498aeb8?sid=690ac934-0a46-43dc-a7ae-84959e6b015b).
 - Sie können nun unter Anzeige zwischen "Zentriert" und "Vollbild" umgeschalten und Pentacode somit für größere Bildschirme optimieren.
 - Der Personalfragebogen unterscheidet jetzt nach Beschäftigungsverhältnis und wurde um diverse Felder erweitert.
 
