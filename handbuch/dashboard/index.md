@@ -7,7 +7,9 @@ icon: rectangles-mixed
 ---
 
 
-Das Dashboard in Pentacode dient als Ihr zentrales "Cockpit" für **Ihren** Betrieb und verschafft Ihnen einen schnellen Überblick über die wichtigsten Vorgänge in Ihrem Personalmanagement. Hier finden Sie **relevante** Informationen auf einen Blick und können direkt agieren.
+Das Dashboard in Pentacode dient als Ihr zentrales "Cockpit" für **Ihren Betrieb** und verschafft Ihnen einen **schnellen und personalisierbaren Überblick** über die wichtigsten
+Vorgänge in Ihrem Personalmanagement. Hier finden Sie relevante
+Informationen auf einen Blick und können direkt agieren.
 
 {% figure caption="Das neue Dashboard: Ihr zentrales Cockpit für alle wichtigen Personalvorgänge." %}
 <img src="dashboard.webp" />
@@ -17,11 +19,11 @@ Das Dashboard präsentiert Ihnen verschiedene Informationskacheln und macht Sie 
 
 ## Geburtstage
 
-Hier werden Ihnen die nächsten Geburtstage Ihrer Mitarbeiter angezeigt – so können Sie sicher sein, keinen mehr zu vergessen!
+Hier werden Ihnen die letzen und nächsten Geburtstage Ihrer Mitarbeiter angezeigt – so können Sie sicher sein, keinen mehr zu vergessen!
 
-## Krankenmeldungen
+## Krankmeldungen
 
-Auf der Kachel für **Krankenmeldungen** sehen Sie alle vorliegenden Krankenmeldungen Ihrer Mitarbeiter.
+Auf der Kachel für **Krankmeldungen** sehen Sie alle vorliegenden Krankenmeldungen Ihrer Mitarbeiter.
 Klicken Sie auf den Zeitraum einer Krankenmeldung in der Kachel, um diese **direkt im Cockpit zu öffnen**. Sie können die Meldung sofort genehmigen, ablehnen oder bearbeiten und wie gewohnt mit einem Kommentar versehen.
 
 ## Urlaubsanträge
@@ -39,18 +41,28 @@ Klicken Sie auf den **Mitarbeiternamen**, um sofort in dessen Profil zum Bereich
 
 Die Notizen bieten Platz für Ihre privaten Gedanken, Checklisten oder To-Do's.
 Diese werden automatisch gespeichert und stehen jedem Manager individuell bereit
-– es haben also nur Sie Einblick in Ihre Notizen!
+– **es haben also nur Sie Einblick in Ihre Notizen!**
 
 ## Schichten des Tages
 
 Die Tagesschichten zeigen Ihnen alle im heutigen Dienstplan veröffentlichten
-Schichten. Scrollen Sie von links nach rechts um alle Schichten über den Verlauf
+Schichten. Scrollen Sie von links nach rechts, um alle Schichten über den Verlauf
 des Tages zu sehen. Mit einem Klick auf Standorte und Abteilungen **können Sie
 diese ein- und ausklappen.**
 
 Ein Klick auf eine Schicht bringt Sie direkt in die
 [Dienstplanansicht](/site/handbuch/dienstplan/) und hebt die ausgewählte Schicht hervor - halten Sie dabei {% button icon="up", label="Shift" %} gedrückt und Sie landen im Arbeitszeitblatt des Mitarbeiters.
 
+## Aufgaben
+
+In der Aufgabenkachel können Sie ihr Aufgaben und To-Do's planen, ordnen und
+abhaken. Eingetragene Aufgaben werden automatisch gespeichert und stehen jedem Manager individuell bereit
+– **es haben also nur Sie Einblick in Ihre Aufgaben!**
+
+## Ersparnisbericht
+
+Der Ersparnisbericht zeigt Ihnen auf einen Blick wieviel Sie diesen Monat durch
+die Verwendung von Pentacode gespart haben.
 
 ## Dashboard anpassen
 
@@ -58,6 +70,7 @@ Ein Klick auf eine Schicht bringt Sie direkt in die
 Kacheln angezeigt werden sollen. Wählen Sie dazu einfach die Häkchen neben den
 Kachelnamen an- und ab. So behalten Sie stets den Fokus auf die für Sie
 relevantesten Informationen.
+
 Sie können ebenfalls die Anordnung der Kacheln ändern, indem Sie das {% icon "grip-vertical" %}-**Icon** mit der Maus festhalten und den jeweiligen Eintrag in eine neue Position ziehen. 
 
 Zusätzlich können Sie Einstellungen an den einzelnen Kacheln vornehmen. Fahren

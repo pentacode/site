@@ -92,8 +92,10 @@ Zum Start werden Mitarbeitende über folgende Ereignisse benachrichtigt:
 - Änderungen an bestehenden Dienstplänen
 - Urlaubsantrag bearbeitet
 - Krankmeldung bearbeitet
+- Relevante Schicht wurde zum Tausch angeboten
 - Zum Tausch angebotene Schicht wurde übernommen
 - Dokument liegt zum Ausfüllen bereit
+- Neues Dokument wurde bereitgestellt
 
 
 ## Voraussetzungen
@@ -385,8 +387,8 @@ So melden Sie sich krank:
 4. **Optional** Fügen Sie eine Bemerkung für ihren Personaler hinzu.
 5. Mit **Abschicken** schicken Sie ihre Anfrage direkt an die Personalabteilung.
 
-> Sie können keine Krankmeldungen für vergangene Tage stellen - schicken Sie
-> deshalb stets eine Krankmeldung über Pentacode am gleichen Tag, selbst wenn
+> Krankmeldungen können nur bis zu 3 Tage rückwirkend gestellt werden - schicken Sie
+> deshalb stets frühzeitig eine Krankmeldung über Pentacode, selbst wenn
 > Sie ihren Personaler auf anderem Wege kontaktiert haben.
 
 ## Verfügbarkeiten
