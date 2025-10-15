@@ -7,6 +7,144 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.43.5
+
+### Änderungen & Neuigkeiten
+
+- In der Management-App können Abwesenheiten jetzt bis zu 18 Monate in die Zukunft erstellt werden.
+
+## 1.43.4
+
+### Behobene Fehler
+
+- Beim direkten Beenden von pausierten Schichten wurden Pausenzeiten in einigen Fällen nicht korrekt erfasst.
+- Der Faktor von Umsatzbeteiligungen wurde fälschlicherweise unter "€ / Einh." dargestellt.
+
+## 1.43.3
+
+### Änderungen & Neuigkeiten
+
+- Krankmeldungen können nun bis zu 3 Tage rückwirkend von Mitarbeitern eingetragen werden.
+
+### Behobene Fehler
+
+- In seltenen Fällen haben viele Kalendereinträge die Anzeige der Abwesenheits- und Verfügbarkeits-Übersichten blockiert.
+- Beim rückwirkenden Bearbeiten von Verträgen fehlte in einigen Fällen ein entsprechender Warnhinweis.
+
+## 1.43.2
+
+### Behobene Fehler
+
+- In seltenen Fällen kam es zu einer Fehlermeldung das "Company Settings" nicht gefunden werden konnten.
+
+## 1.43.1
+
+### Änderungen & Neuigkeiten
+
+- Einige Dashboard-Kacheln können nun in ihrer Größe verändert werden.
+- Mitarbeiter werden nun benachrichtigt, wenn relevante Schichten von anderen Mitarbeitern zum Tausch freigegeben werden.
+- Mitarbeiter werden jetzt benachrichtigt, wenn neue Dokumente in ihrer digitalen Personalakte bereitgestellt werden.
+
+### Behobene Fehler
+
+- Die Sortierung von "Fähigkeiten & Merkmalen" und "Kategorien" wurde in den Einstellungen nicht richtig abgespeichert.
+
+## 1.43.0
+
+### Änderungen & Neuigkeiten
+
+- Es gibt eine **neue Dashboard-Kachel für Aufgaben**. Hier kann jeder Manager eigene Aufgaben und Unteraufgaben definieren.
+- Bei Eingang von Bewerbungen werden nun die zuständigen Manager automatisch per E-Mail benachrichtigt.
+
+### Behobene Fehler
+
+- Beim Finalisieren von Personalfragebögen kam es zu Fehlern.
+- In manchen Fällen hat der Bereich Mitarbeiter > Abwesenheiten sehr lange geladen.
+
+## 1.42.1
+
+### Änderungen & Neuigkeiten
+
+- Es gibt eine neue Dashboard-Kachel, die die erzielte Ersparnis durch die Nutzung von Pentacode anzeigt.
+- Die Spaltenanordnung der Stammdaten-Tabelle kann nun geändert werden und wird für den Benutzer auch beim Ausloggen gespeichert.
+
+### Behobene Fehler
+
+- In einigen Fällen wurden Fortschrittsbalken bei Wochenstunden und Jahresurlaub in Safari nicht angezeigt.
+
+## 1.42.0
+
+### Änderungen & Neuigkeiten
+
+- **Das Dashboard ist nun für alle verfügbar!** Weitere Informationen finden Sie im Handbuch. Ein Erklärvideo finden Sie hier.
+- Sie können nun unter Anzeige zwischen "Zentriert" und "Vollbild" umgeschalten und Pentacode somit für größere Bildschirme optimieren.
+- Der Personalfragebogen unterscheidet jetzt nach Beschäftigungsverhältnis und wurde um diverse Felder erweitert.
+
+### Behobene Fehler
+
+- In einigen Fällen wurden die Schichten in der Kachel Schichten des Tages nicht richtig nach Arbeitsbeginn sortiert.
+- In seltenen Fällen wurde der QR-Code auf der Stempeluhr nicht aktualisiert und im Zoom-Fenster ein veralteter Code angezeigt.
+
+## 1.41.1
+
+### Änderungen & Neuigkeiten
+
+- Performance-Verbesserungen in diversen Bereichen
+
+### Behobene Fehler
+
+- In einigen Fällen hat die Stempeluhr die Verbindung verloren und musste neu eingerichtet werden.
+- In seltenen Fällen sind einige Lohnarten beim Duplizieren eines Lohnartensatzes verloren gegangen.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+- Die Dashboard-Kacheln haben nun eigene Einstellungen. Sie erreichen diese indem Sie mit der Maus auf das Symbol der jeweiligen Kachel fahren.
+- Die Dashboard-Einstellungen wurden um die Sortierung der Kacheln erweitert.
+
+## 1.41.0
+
+### Änderungen & Neuigkeiten
+
+- Zuschlagszahlungen an Krank- oder Urlaubstagen werden nun mit separaten Lohnarten exportiert. Unter Einstellungen > Buchhaltung > Lohnartensätze wurden neue Felder hinzugefügt, um diese Lohnarten zu definieren.
+- Unter Einstellungen > Buchhaltung können nun per Knopfdruck alle typischen Lohnarten für Agenda automatisch angelegt werden.
+
+### Behobene Fehler
+
+- In einigen Fällen war es nicht möglich, Fähigkeiten & Kenntnisse beim Erstellen eines Mitarbeiters anzugeben.
+- Der Datev Lodas Export exportiert nun die Auszahlung von Überstunden und Vorschüsse mit dem korrekten Vorzeichen "-".
+- In seltenen Fällen konnten Schichten mit "offen - offen" bereits am Vortag gestartet werden.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+- Die aktuelle Tagesansicht des Dienstplans ist nun im Dashboard verfügbar.
+- Das App Layout kann nun unter Anzeige zwischen "Zentriert" und "Vollbild" umgeschaltet werden.
+
+## 1.40.4
+
+### Behobene Fehler
+
+- In seltenen Fällen kam es zu einem Darstellungsfehler in der Einzelansicht von Konten (Übersicht).
+
+## 1.40.3
+
+### Behobene Fehler
+
+- In einigen Fällen wurden Kontextmenüs irgendwo auf dem Bildschirm angezeigt.
+- Im Darkmode wurde der schwarze Hintergrund ebenfalls im Druck-Dialog an den Drucker gegeben.
+- In seltenen Fällen war es nicht möglich, die Fähigkeiten & Merkmale von Mitarbeitern zu ändern.
+
+## 1.40.2
+
+### Behobene Fehler
+
+- In einigen Fällen sind Dialog-Inhalte in Safari abgeschnitten worden.
+- In seltenen Fällen konnten sich Mitarbeiter nicht aus der Mitarbeiter-App
+  ausloggen.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+- Jeder Manager hat jetzt Zugriff auf eine persönliche Notiz-Kachel - diese ist auf dem Dashboard zu finden. Die Kachel ist standardmäßig ausgeblendet und Sie können diese über die Dashboard-Einstellungen einblenden!
+
 ## 1.40.1
 
 ### Änderungen & Neuigkeiten
