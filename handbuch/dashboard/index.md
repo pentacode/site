@@ -61,7 +61,7 @@ abhaken. Eingetragene Aufgaben werden automatisch gespeichert und stehen jedem M
 
 ## Ersparnisbericht
 
-Der Ersparnisbericht zeigt Ihnen auf einen Blick wieviel Sie diesen Monat durch
+Der Ersparnisbericht zeigt Ihnen auf einen Blick wie viel Sie diesen Monat durch
 die Verwendung von Pentacode gespart haben.
 
 ## Dashboard anpassen
