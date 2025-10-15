@@ -17,7 +17,11 @@ Stammdaten-Übersicht zu gelangen, wählen Sie den Punkt **Mitarbeiter** aus dem
 
 ### Spaltenwahl
 
-Sie interessieren sich nur für bestimmte Informationen? Über den {% button icon="toggle-on" %} Button können Sie einzelne Spalten zur Anzeige an- oder abwählen.
+Sie interessieren sich nur für bestimmte Informationen? Über den {% button
+icon="toggle-on" %} Button können Sie einzelne Spalten zur Anzeige an- oder
+abwählen. Indem Sie das {% icon "grip-vertical" %}-**Icon** mit der Maus
+festhalten und den jeweiligen Eintrag in eine neue Position ziehen, können Sie
+auch die angezeigte Reihenfolge anpassen.  
 
 ### Stammdaten-Liste Drucken
 
