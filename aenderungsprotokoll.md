@@ -7,6 +7,80 @@ icon: "clipboard-list"
 
 Diese Datei enthält alle wesentlichen Änderungen in Pentacode.
 
+## 1.44.0
+
+### Änderungen & Neuigkeiten
+
+- Im Dienstplan können nun Schichten auch parallel zu Abwesenheiten (bspw. Urlaub oder Krank) eingetragen werden (z. B. bei Nachtschichten, die am selben Tag beginnen). Ein Erklärvideo finden Sie [hier](https://www.loom.com/share/bb4aa6369a9847a499eab0cac7eda33d).
+- Die Kachel "Auslaufende Verträge" heißt jetzt "Vertragsfristen" und zeigt zusätzlich das Ende von Probezeiten an.
+- Konflikte beim Eintragen von Abwesenheiten können jetzt manuell gelöst werden.
+- Verbesserte Bedienung beim Hinzufügen von Schichten im Dienstplan.
+- Mindestlohn und Lohngrenzen für 2026 sind jetzt in Pentacode hinterlegt.
+
+### Behobene Fehler
+
+- In seltenen Fällen wurde keine Benachrichtigung versendet, wenn Systempartner Dokumente per Schnittstelle in der digitalen Personalakte hinterlegt haben.
+- In einigen Fällen kam es beim Speichern von Standorten in den Arbeitsbereichseinstellungen zu Fehlern, wenn der Dialog nicht vollständig ausgefüllt war.
+- In sehr seltenen Fällen kam es beim Anlegen mehrerer Mitarbeiter hintereinander zu Fehlern.
+
+## 1.43.10
+
+### Änderungen & Neuigkeiten
+
+- Wird eine spontane Schicht nicht ordnungsgemäß beendet, erscheint nun eine entsprechende Problemmeldung.
+- Die Zeiterfassungsansicht in der Mitarbeiter-App wurde leicht überarbeitet.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+- In manchen Fällen wurden Vertragsdaten von Yna nicht korrekt geladen.
+
+## 1.43.9
+
+### Änderungen & Neuigkeiten
+
+- In der neuen Dashboard-Kachel werden alle Schichtkommentare der letzten Zeit angezeigt. Mit einem Klick kommt man direkt in die Arbeitszeitenübersicht zur jeweiligen Schicht.
+- Probezeiten werden nun in der Vertragstabelle sowie im individuellen Excel-Export berücksichtigt.
+
+### Behobene Fehler
+
+- In seltenen Fällen konnten Schichten, die an der Stempeluhr begonnen wurden, ohne die erforderlichen Berechtigungen in der Mitarbeiter-App beendet werden.
+- Im Export "Individuelle Excel-Tabelle" war es in seltenen Fällen nicht möglich, Spalten auszuwählen.
+
+## 1.43.8
+
+### Änderungen & Neuigkeiten
+
+- Probezeiten können nun in Verträgen hinterlegt werden. Demnächst auch in der Vertragstabelle und im Dashboard zu sehen!
+- Nachrichten, die mit Hilfe von Pentacode versendet werden, sind jetzt besser gekennzeichnet und beinhalten den Unternehmensnamen und führen den Absender im E-Mail Text nochmal auf.
+
+### Behobene Fehler
+
+- In einigen Fällen ist im Bereich der Zugänge & Rechte der "Speichern"-Knopf auch nach dem Speichern nicht verschwunden.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+- Man kann unsere KI "Yna" nun auch per Knopfdruck unterbrechen.
+
+## 1.43.7
+
+### Änderungen & Neuigkeiten
+
+- Im Dashboard werden jetzt alle Urlaubsanträge geladen - nicht nur 12 Monate in die Zukunft.
+
+### Behobene Fehler
+
+- In einigen Fällen wurde das Farbschema "Dunkel" ignoriert und trotzdem "Hell" angezeigt.
+
+## 1.43.6
+
+### Behobene Fehler
+
+- In einigen Fällen führte das Ändern der Mitarbeiterreihenfolge im Dienstplan zu Fehlern.
+
+### <span style="color: purple">Nur für Beta-Kunden</span>
+
+- Unsere KI "Yna" ist nun für die ersten Beta-Kunden verfügbar und wird in mehreren Schritten für weitere Beta-Kunden freigeschaltet. [Hier finden Sie einen Blogbeitrag zu Yna](https://pentacode.app/blog/yna_die-neue-sprache-der-arbeit/) und [hier das Erklärungsvideo](https://www.loom.com/share/8a86275b37ec4766a941513ce8ec45c2?sid=e8f42eaa-44c5-425f-b4ff-e969c12f4444) zu den bisher bestehenden Funktionen.
+
 ## 1.43.5
 
 ### Änderungen & Neuigkeiten
