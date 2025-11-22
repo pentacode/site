@@ -31,10 +31,10 @@ Klicken Sie auf den Zeitraum einer Krankenmeldung in der Kachel, um diese **dire
 Die Kachel für **Urlaubsanträge** zeigt Ihnen auf einen Blick alle offenen Urlaubsanträge Ihrer Mitarbeiter.
 Klicken Sie auf den Zeitraum eines **Antrags**, öffnen Sie diesen direkt im Cockpit. Hier haben Sie die Möglichkeit, den Antrag umgehend zu genehmigen, abzulehnen oder zu bearbeiten und einen Kommentar hinzuzufügen.
 
-## Auslaufende Verträge
+## Vertragsfristen
 
-Die Kachel "Auslaufende Verträge" hilft Ihnen, den Überblick über die anstehenden Vertragsenden zu behalten.
-Sie sehen den Namen des Mitarbeiters und die verbleibende Restlaufzeit des Vertrages. Fahren Sie mit der Maus über den Eintrag, um das genaue Ablaufdatum zu sehen.
+Die Kachel "Vertragsfristen" hilft Ihnen, den Überblick über auslaufende Verträge, Probezeiten und Vertragasänderungen zu behalten.
+Sie sehen den Namen des Mitarbeiters und die verbleibende Restlaufzeit des aktuellen Vertrags oder Probezeit. Fahren Sie mit der Maus über den Eintrag, um das genaue Ablaufdatum zu sehen.
 Klicken Sie auf den **Mitarbeiternamen**, um sofort in dessen Profil zum Bereich Verträge zu gelangen. Dort können Sie einen neuen Vertrag hinterlegen, den aktuellen Vertrag verlängern oder den Vertrag auslaufen lassen.
 
 ## Notizen
@@ -63,6 +63,10 @@ abhaken. Eingetragene Aufgaben werden automatisch gespeichert und stehen jedem M
 
 Der Ersparnisbericht zeigt Ihnen auf einen Blick wie viel Sie diesen Monat durch
 die Verwendung von Pentacode gespart haben.
+
+## Schichtkommentare
+
+Hier können Sie eine Auflistung der Schichtkommentare der letzten Tage einsehen.
 
 ## Dashboard anpassen
 

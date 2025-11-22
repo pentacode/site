@@ -56,6 +56,10 @@ Unter **Vertragsende** ist das Datum einzusetzen, zu dem das Beschäftigungsverh
 
 > {% icon "lightbulb" %} Sie können **Verträge im Vorraus planen!** Legen Sie dazu den Vertragsbeginn eines neuen Vertrags in die Zukunft, dieser wird automatisch den alten Vertrag an diesem Datum ablösen.
 
+### Probezeit
+
+Wenn Sie mit Ihrem Mitarbeiter eine Probezeit ausgemacht haben, können Sie auch die im Vertrag vermerken. Klicken Sie auf **Probezeit vereinbart**, öffnet sich das Feld um das vereinbarte Ende der Probezeit einzutragen. 
+
 ### Bemerkungen
 
 **Bemerkungen** bezeichnet einen Textbereich, in den Sie **Notizen** zum Mitarbeiter hinzufügen können.
