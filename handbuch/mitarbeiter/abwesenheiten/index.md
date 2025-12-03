@@ -51,15 +51,33 @@ So funktioniert das **Erfassen einer neuen Abwesenheit**:
 4. Wählen Sie aus, welche Tage innerhalb des Abwesenheitszeitraums als **Fehltage** erfasst werden sollen. Pentacode
    trifft hier automatisch eine Vorauswahl anhand der üblichen Arbeitstage des Mitarbeiters (ermittelt basierend auf den
    [Vertragsdaten]\(/handbuch/mitarbeiter/vertrag#feste-wochentage) und bisher erfasster Arbeitszeiten).
-5. Wenn ein Feiertag in den Abwesenheitszeitraum fällt: Klicken Sie diesen doppelt an, um [einen Guttag](/handbuch/dienstplan/#freie-tage-und-guttage-eintragen) für den Mitarbeiter einzutragen.
-6. Klicken Sie auf {% button label="Speichern" %} um die Abwesenheit zu **übernehmen** oder
+5. Um einen **Halben Urlaubstag** zu erfassen, klicken Sie doppelt auf den entsprechenden Tag.
+6. Wenn ein Feiertag in den Abwesenheitszeitraum fällt: Klicken Sie diesen dreimal an, um [einen Guttag](/handbuch/dienstplan/#freie-tage-und-guttage-eintragen) für den Mitarbeiter einzutragen.
+7. Klicken Sie auf {% button label="Speichern" %} um die Abwesenheit zu **übernehmen** oder
    {% button label="Abbrechen" %} um sie zu **verwerfen**.
-7. Falls es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten gibt wird Pentacode Sie
-   fragen, ob Sie diese löschen möchten. Bestätigen Sie, dass Sie den Vorgang abschließen möchten.
+8. Gibt es in dem gewählten Zeitraum bereits erfasste Arbeitszeiten oder geplante Schichten wird Pentacode Sie
+   fragen, ob Sie diese löschen oder beibehalten möchte, falls ein halber Urlaubstag neben einer Schicht im Dienstplan eingetragen werden soll. 
+   Bestätigen Sie, dass Sie den Vorgang abschließen möchten.
 
 {% figure caption="Indem Sie die Maustaste gedrückt halten, können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren." %}
 <img src="abwesenheit-erfassen.gif" />
 {% endfigure %}
+
+### Reihenfolge von Abwesenheiten im Abwesenheitsdialog
+
+Durch einen Klick auf einen Abwesenheitstag springen Sie zur nächsten Abwesenheitsart und können so zwischen ihnen auswählen.
+Die Abwesenheitsarten durchlaufen folgende Reihenfolge:
+
+1. Normaler Urlaubstag
+1. Halber Urlaubstag
+1. Guttag (nur bei Feiertagen)
+1. Leer (Ursprungszustand)
+
+
+{% figure caption="Durch einen Klick auf den Abwesenheitstag wechseln Sie zwischen Abwesenheitsarten.", extraClass="float-right" %}
+<img src="abwesenheiten_zyklus.gif" />
+{% endfigure %}
+
 
 ## Abwesenheit Bearbeiten
 
