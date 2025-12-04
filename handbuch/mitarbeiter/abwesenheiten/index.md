@@ -59,6 +59,11 @@ So funktioniert das **Erfassen einer neuen Abwesenheit**:
    fragen, ob Sie diese löschen oder beibehalten möchte, falls ein halber Urlaubstag neben einer Schicht im Dienstplan eingetragen werden soll. 
    Bestätigen Sie, dass Sie den Vorgang abschließen möchten.
 
+> {% icon "exclamation-triangle" %} **Achtung - halbe Urlaubstage an Heiligabend und Silvester:** Wenn Sie einen halben Urlaubstag buchen und vermeiden wollen, 
+> dass der Mitarbeiter Minusstunden aufbaut, weil die andere Tageshälfte geschenkt ist - wie bspw. an Heiligabend und Silvester - 
+> dann legen Sie noch zusätzlich eine [Zeitbuchung](/handbuch/mitarbeiter/arbeitszeiten/#zeitbuchungen) für diesen Tag an und schreiben dem Mitarbeiter die Hälfte seiner üblichen Arbeitszeit gut.
+
+
 {% figure caption="Indem Sie die Maustaste gedrückt halten, können Sie direkt den kompletten Zeitraum der Abwesenheit selektieren." %}
 <img src="abwesenheit-erfassen.gif" />
 {% endfigure %}
