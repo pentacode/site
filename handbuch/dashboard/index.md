@@ -15,13 +15,13 @@ Informationen auf einen Blick und können direkt agieren.
 <img src="dashboard.webp" />
 {% endfigure %}
 
-Bla bla bla
+Bla bla
 
 Das Dashboard präsentiert Ihnen verschiedene Informationskacheln und macht Sie auf wichtige Deadlines aufmerksam:
 
 ## Geburtstage
 
-Hier werden Ihnen die letzen und nächsten Geburtstage Ihrer Mitarbeiter angezeigt – so können Sie sicher sein, keinen mehr zu vergessen!
+Hier werden Ihnen die letzen und näc‚hsten Geburtstage Ihrer Mitarbeiter angezeigt – so können Sie sicher sein, keinen mehr zu vergessen!
 
 ## Krankmeldungen
 
