@@ -25,7 +25,7 @@ Hier werden Ihnen die letzen und nächsten Geburtstage Ihrer Mitarbeiter angezei
 
 ## Krankmeldungen
 
-Mach das nicht
+Mach das nicht, bitte
 
 Auf der Kachel für **Krankmeldungen** sehen Sie alle vorliegenden Krankenmeldungen Ihrer Mitarbeiter.
 Klicken Sie auf den Zeitraum einer Krankenmeldung in der Kachel, um diese **direkt im Cockpit zu öffnen**. Sie können die Meldung sofort genehmigen, ablehnen oder bearbeiten und wie gewohnt mit einem Kommentar versehen.
