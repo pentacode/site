@@ -11,6 +11,12 @@ Das Dashboard in Pentacode dient als Ihr zentrales "Cockpit" für **Ihren Betrie
 Vorgänge in Ihrem Personalmanagement. Hier finden Sie relevante
 Informationen auf einen Blick und können direkt agieren.
 
+Hallo von Johannes. Er ist verwirrt.
+
+{% figure caption="Wird sich zeigen wie nice das wird." %}
+<img src="berndy.png" />
+{% endfigure %}
+
 {% figure caption="Das neue Dashboard: Ihr zentrales Cockpit für alle wichtigen Personalvorgänge." %}
 <img src="dashboard.webp" />
 {% endfigure %}
