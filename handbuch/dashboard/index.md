@@ -15,6 +15,8 @@ Informationen auf einen Blick und können direkt agieren.
 <img src="dashboard.webp" />
 {% endfigure %}
 
+Bla bla bla
+
 Das Dashboard präsentiert Ihnen verschiedene Informationskacheln und macht Sie auf wichtige Deadlines aufmerksam:
 
 ## Geburtstage
@@ -22,6 +24,8 @@ Das Dashboard präsentiert Ihnen verschiedene Informationskacheln und macht Sie 
 Hier werden Ihnen die letzen und nächsten Geburtstage Ihrer Mitarbeiter angezeigt – so können Sie sicher sein, keinen mehr zu vergessen!
 
 ## Krankmeldungen
+
+Mach das nicht
 
 Auf der Kachel für **Krankmeldungen** sehen Sie alle vorliegenden Krankenmeldungen Ihrer Mitarbeiter.
 Klicken Sie auf den Zeitraum einer Krankenmeldung in der Kachel, um diese **direkt im Cockpit zu öffnen**. Sie können die Meldung sofort genehmigen, ablehnen oder bearbeiten und wie gewohnt mit einem Kommentar versehen.
