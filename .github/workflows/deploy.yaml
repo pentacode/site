@@ -1,42 +1,42 @@
 name: Build Site
 
 on:
-  push:
-    branches:
-      - master
-  
-  workflow_dispatch:
+    push:
+        branches:
+            - master
+
+    workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3 
+        steps:
+            - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version-file: ".nvmrc"
+            - uses: actions/setup-node@v4
+              with:
+                  node-version-file: ".nvmrc"
 
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.npm
-            ~/.nvm
-            node_modules
-          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+            - uses: actions/cache@v4
+              with:
+                  path: |
+                      ~/.npm
+                      ~/.nvm
+                      node_modules
+                  key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
-      - name: Install dependencies & build
-        env:
-          NODE_ENV: production
-        run: |
-          npm ci
-          npm run build
-      
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./_site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          cname: pentacode.app
-          force_orphan: true
+            - name: Install dependencies & build
+              env:
+                  NODE_ENV: production
+              run: |
+                  npm ci
+                  npm run build
+
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  publish_dir: ./_site
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  cname: pentacode.app
+                  force_orphan: true
