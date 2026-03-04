@@ -348,10 +348,18 @@ walkDir(HANDBUCH_DIR, (inputPath, relPath) => {
   }
 
   // Determine output path
-  let outputRelPath = relPath.replace(/\.md$/, ".mdx");
+  const parts = relPath.split("/");
+
+  // Flatten leaf subdirectory indexes: chapter/subdir/index.md → chapter/subdir.mdx
+  // This avoids autogenerate creating extra nested groups for single-page subdirs.
+  let outputRelPath;
+  if (parts.length === 3 && parts[2] === "index.md") {
+    outputRelPath = `${parts[0]}/${parts[1]}.mdx`;
+  } else {
+    outputRelPath = relPath.replace(/\.md$/, ".mdx");
+  }
 
   // Determine if this is a chapter-level page
-  const parts = relPath.split("/");
   const isChapterLevel =
     (parts.length === 2 && parts[1] === "index.md" && CHAPTER_DIRS.has(parts[0])) ||
     (parts.length === 1 && parts[0] === "index.md");

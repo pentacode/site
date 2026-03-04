@@ -15,35 +15,40 @@ export default defineConfig({
         },
       },
       sidebar: [
-        { slug: "dashboard" },
-        { slug: "zeiterfassung" },
         { slug: "stempeluhr" },
         { slug: "mitarbeiter-app" },
-        { slug: "dienstplan" },
         {
-          label: "Mitarbeiter",
-          autogenerate: { directory: "mitarbeiter" },
+          label: "Verwaltung",
+          items: [
+            { slug: "dashboard" },
+            { slug: "zeiterfassung" },
+            { slug: "dienstplan" },
+            {
+              label: "Mitarbeiter",
+              autogenerate: { directory: "mitarbeiter" },
+            },
+            { slug: "recruiting" },
+            {
+              label: "Umsätze",
+              autogenerate: { directory: "umsaetze" },
+            },
+            {
+              label: "Planung",
+              autogenerate: { directory: "planung" },
+            },
+            {
+              label: "Berichte",
+              autogenerate: { directory: "berichte" },
+            },
+            {
+              label: "Einstellungen",
+              autogenerate: { directory: "einstellungen" },
+            },
+            { slug: "probleme" },
+            { slug: "datenexport" },
+            { slug: "anzeige" },
+          ],
         },
-        { slug: "recruiting" },
-        {
-          label: "Umsätze",
-          autogenerate: { directory: "umsaetze" },
-        },
-        {
-          label: "Planung",
-          autogenerate: { directory: "planung" },
-        },
-        {
-          label: "Berichte",
-          autogenerate: { directory: "berichte" },
-        },
-        {
-          label: "Einstellungen",
-          autogenerate: { directory: "einstellungen" },
-        },
-        { slug: "probleme" },
-        { slug: "datenexport" },
-        { slug: "anzeige" },
       ],
       head: [
         {
