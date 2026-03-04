@@ -15,6 +15,17 @@ for (const doc of docs) {
 		iconMap[`/${doc.id}/`] = icon;
 	}
 }
+
+// Group label → icon map (for collapsible section headers)
+// Sections with index pages are derived from iconMap; "Verwaltung" is a pure group.
+const groupIconMap: Record<string, string> = {
+	"Verwaltung":   "building",
+	"Mitarbeiter":  iconMap["/mitarbeiter/"]  ?? "users",
+	"Umsätze":      iconMap["/umsaetze/"]     ?? "euro-sign",
+	"Planung":      iconMap["/planung/"]       ?? "calendar-alt",
+	"Berichte":     iconMap["/berichte/"]      ?? "chart-pie",
+	"Einstellungen": iconMap["/einstellungen/"] ?? "cog",
+};
 ---
 
 <SidebarPersister>
@@ -25,24 +36,37 @@ for (const doc of docs) {
 	<MobileMenuFooter />
 </div>
 
-<script define:vars={{ iconMap }}>
-  // Inject FA icons into sidebar links after render
-  const nav = document.querySelector('nav.sidebar sl-sidebar-restore')?.closest('details, div')
-    ?? document.querySelector('nav.sidebar');
-  if (nav) {
-    for (const [href, icon] of Object.entries(iconMap)) {
-      const a = nav.querySelector(`a[href="${href}"]`);
-      if (a && !a.querySelector('i.fas')) {
-        const i = document.createElement('i');
-        i.className = `fas fa-${icon}`;
-        a.prepend(i);
-      }
+<script define:vars={{ iconMap, groupIconMap }}>
+  const nav = document.querySelector('nav.sidebar');
+  if (!nav) return;
+
+  // Inject icons into page links
+  for (const [href, icon] of Object.entries(iconMap)) {
+    const a = nav.querySelector(`a[href="${href}"]`);
+    if (a && !a.querySelector('i.fas')) {
+      const i = document.createElement('i');
+      i.className = `fas fa-${icon}`;
+      a.prepend(i);
+    }
+  }
+
+  // Inject icons into group summary labels
+  for (const summary of nav.querySelectorAll('summary')) {
+    const labelSpan = summary.querySelector('.group-label > span.large');
+    if (!labelSpan || labelSpan.querySelector('i.fas')) continue;
+    const label = labelSpan.textContent?.trim();
+    const icon = label && groupIconMap[label];
+    if (icon) {
+      const i = document.createElement('i');
+      i.className = `fas fa-${icon}`;
+      labelSpan.prepend(i);
     }
   }
 </script>
 
 <style>
-  nav.sidebar a i.fas {
+  nav.sidebar a i.fas,
+  nav.sidebar .group-label i.fas {
     width: 1.2em;
     text-align: center;
     margin-inline-end: 0.4em;
