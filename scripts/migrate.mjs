@@ -125,7 +125,7 @@ function convertShortcodes(body) {
   let result = body;
 
   // Track which components are used
-  const used = { Figure: false, FAIcon: false, Button: false, Key: false };
+  const used = { Figure: false, Button: false, Key: false, Icon: false };
 
   // Step 1: Normalize multi-line shortcodes into single lines.
   // This handles cases like {% button icon =\n"rectangle-history" %}
@@ -154,8 +154,8 @@ function convertShortcodes(body) {
 
   // Step 3: Convert {% icon "name" %} and {%icon "name"%} variants
   result = result.replace(/\{%\s*icon\s+["']([^"']+)["']\s*%\}/g, (match, name) => {
-    used.FAIcon = true;
-    return `<FAIcon name="${name}" />`;
+    used.Icon = true;
+    return `<Icon name="${name}" />`;
   });
 
   // Step 4: Convert {% button ... %} and {%button ...%} variants
@@ -203,6 +203,9 @@ function convertShortcodes(body) {
   // Step 10: Escape literal curly braces that MDX would interpret as JSX expressions
   result = escapeJsxBraces(result);
 
+  // Step 11: Detect <Icon ...> usage (Starlight built-in icons used directly in content)
+  if (/<Icon\s/.test(result)) used.Icon = true;
+
   return { body: result, used };
 }
 
@@ -213,8 +216,8 @@ function escapeJsxBraces(content) {
   for (const line of lines) {
     // Skip lines that are component tags or imports - don't escape those
     if (
-      line.match(/^\s*<(Figure|FAIcon|Button|Key|img|br)\b/) ||
-      line.match(/^\s*<\/(Figure|FAIcon|Button|Key)>/) ||
+      line.match(/^\s*<(Figure|Icon|Button|Key|img|br)\b/) ||
+      line.match(/^\s*<\/(Figure|Icon|Button|Key)>/) ||
       line.match(/^\s*import\s/)
     ) {
       result.push(line);
@@ -284,7 +287,7 @@ function processFile(inputPath, outputPath, relPath, isChapterLevel, publicRelDi
   const importPath = getImportPath(outputPath);
   const imports = [];
   if (used.Figure) imports.push(`import Figure from "${importPath}/Figure.astro";`);
-  if (used.FAIcon) imports.push(`import FAIcon from "${importPath}/FAIcon.astro";`);
+  if (used.Icon) imports.push(`import Icon from "${importPath}/Icon.astro";`);
   if (used.Button) imports.push(`import Button from "${importPath}/Button.astro";`);
   if (used.Key) imports.push(`import Key from "${importPath}/Key.astro";`);
 

@@ -5,7 +5,7 @@ sidebar:
 icon: hourglass-clock
 ---
 import Figure from "../../../components/Figure.astro";
-import FAIcon from "../../../components/FAIcon.astro";
+import Icon from "../../../components/Icon.astro";
 import Button from "../../../components/Button.astro";
 import Key from "../../../components/Key.astro";
 
@@ -15,7 +15,7 @@ exportieren können.
 
 ## Arbeitszeiten Übersicht
 
-Die Arbeitszeiten-Übersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das <FAIcon name="calendar" /> **Symbol**, um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
+Die Arbeitszeiten-Übersicht zeigt Ihnen die geleisteten Arbeitstage und -stunden, Urlaubs- sowie Krankheitszeiten all ihrer Mitarbeiter auf einen Blick. Klicken Sie auf das <Icon name="calendar" /> **Symbol**, um die gewünschte Zeitspanne einzustellen, für die Ihnen die Arbeitszeiten angezeigt werden sollen. Klicken Sie auf die über dem Kalender erscheinenden Monate, um diese direkt ganz auszuwählen.
 
 <Figure caption="Die Arbeitszeiten-Übersicht zeigt Ihnen Arbeits-, Urlaubs- und Krankheitszeiten aller ausgewählten Mitarbeiter auf einen Blick.">
 <img src="/mitarbeiter/arbeitszeiten/arbeitszeiten_überblick.webp" />
@@ -35,13 +35,13 @@ Das **Arbeitszeitblatt** zeigt Ihnen die geplanten und geleisteten Arbeitszeiten
 
 ### Zeitraum auswählen
 
-Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Zeitraum genauer betrachten. Klicken Sie auf das <FAIcon name="calendar" /> **Symbol**, um den Zeitraum auszuwählen, welcher angezeigt werden soll. Dabei kann maximal ein Zeitraum von 70 Tagen gewählt werden. 
+Im Arbeitszeitblatt können Sie genau wie in der Übersicht jeden gewünschten Zeitraum genauer betrachten. Klicken Sie auf das <Icon name="calendar" /> **Symbol**, um den Zeitraum auszuwählen, welcher angezeigt werden soll. Dabei kann maximal ein Zeitraum von 70 Tagen gewählt werden. 
 
 <Figure caption="Im Arbeitszeitblatt können Sie einstellen welcher Zeitraum Ihnen genauer gezeigt wird.">
 <img src="/mitarbeiter/arbeitszeiten/arbeitszeit_zeitraum.webp" />
 </Figure>
 
-> <FAIcon name="lightbulb" /> **Tipp:** Verwenden Sie Ihre Tastatur, um noch
+> <Icon name="lightbulb" /> **Tipp:** Verwenden Sie Ihre Tastatur, um noch
 schneller zwischen Monaten, Tagen und Einträgen zu wechseln! Mit der <Key>a</Key> Taste springen Sie in den vorherigen Monat, die <Key>d</Key> Taste
 bringt Sie in den nächsten Monat. Mit der <Key>s</Key> Taste springen Sie in
 die nächste Zeile, mit der <Key>w</Key> Taste selektieren Sie die vorherige
@@ -69,10 +69,10 @@ So erfassen Sie eine neue Arbeitszeit für einen Mitarbeiter:
    Eintrag nun schließen, indem sie den <Button label="Zurück" icon="chevron-left" /> Button klicken oder <Key>Esc</Key> auf Ihrer Tastatur
    drücken.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Falls Sie bereits Arbeitszeiten für diesen
+> <Icon name="lightbulb" /> **Tipp:** Falls Sie bereits Arbeitszeiten für diesen
 > Mitarbeiter erfasst haben, erstellt Pentacode automatisch
 > **Schichtvorschläge** anhand von üblichen Arbeitszeiten und Arbeitsbereichen.
-> Mehr zu Schichtvorschlägen erfahren Sie im [<FAIcon name="table" />
+> Mehr zu Schichtvorschlägen erfahren Sie im [<Icon name="table" />
 > Dienstplan]\(/handbuch/dienstplan#schichtvorschläge) Hilfeartikel.
 
 ## Arbeitszeit Bearbeiten
@@ -90,7 +90,7 @@ So bearbeiten Sie einen existierenden Arbeitszeiteintrag:
    Eintrag nun schließen, indem sie den <Button label="Zurück" icon="chevron-left" /> Button klicken oder <Key>Esc</Key> auf Ihrer Tastatur
    drücken.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Um beim Selektieren eines Eintrags direkt in
+> <Icon name="lightbulb" /> **Tipp:** Um beim Selektieren eines Eintrags direkt in
 > ein bestimmtes Feld zu springen, klicken Sie einfach auf den entsprechenden
 > Wert in der Listenansicht. Also wenn Sie z.B. die Pausenzeit bearbeiten
 > wollen, klicken Sie einfach auf den Pausenwert und Sie landen direkt im
@@ -110,17 +110,17 @@ deren Bedeutung eingehen.
 
 ### Position
 
-Unter dem Punkt <FAIcon name="user" /> **Position** können Sie über ein Dropdown-Menü
+Unter dem Punkt <Icon name="user" /> **Position** können Sie über ein Dropdown-Menü
 den Arbeitsbereich festlegen, in dem die Schicht stattfinden soll. Die
 verfügbaren Optionen beschränken sich selbstverständlich auf die dem Mitarbeiter
 zugewiesenen [Arbeitsbereiche]\(/handbuch/mitarbeiter/positionen/).
 
 ### Geplant
 
-Unter dem Punkt <FAIcon name="calendar" /> **Geplant** können Sie den geplanten
+Unter dem Punkt <Icon name="calendar" /> **Geplant** können Sie den geplanten
 Schichtbeginn, das geplante Schichtende sowie die geplante Pause bearbeiten.
 
-> <FAIcon name="info-circle" /> **Hinweis:** Dieser Bereich ist nur bearbeitbar,
+> <Icon name="info-circle" /> **Hinweis:** Dieser Bereich ist nur bearbeitbar,
 > falls der Eintrag in der Zukunft liegt und für den zugewiesenen Mitarbeiter
 > und Arbeitsbereich die Zeiterfassung per Stempeluhr oder Mitarbeiter-App
 > aktiviert ist.
@@ -134,7 +134,7 @@ Schicht, bestimmen, wann sich der Mitarbeiter per Stempeluhr oder
 Mitarbeiter-App, ein- bzw. ausstempeln darf und können später als Vergleich zu
 den tatsächlich gearbeiteten Zeiten herangezogen werden siehe [Berichte / Arbeitszeit]\(/handbuch/berichte/arbeitszeitberichte/) und [Dienstplan / Soll-Ist-Vergleich]\(/handbuch/dienstplan#soll-ist-vergleich).
 
-> <FAIcon name="lightbulb" /> **Tipp:** Lassen Sie eines oder beide dieser Felder
+> <Icon name="lightbulb" /> **Tipp:** Lassen Sie eines oder beide dieser Felder
 > leer, um eine Schicht mit offenem Beginn bzw. Ende zu planen. Dies ist zum
 > Beispiel dann nützlich, wenn ein Mitarbeiter zu einer bestimmten Zeit zur
 > Schicht erscheinen soll, das Schichtende aber vom Tagesgeschäft abhängt und
@@ -142,17 +142,17 @@ den tatsächlich gearbeiteten Zeiten herangezogen werden siehe [Berichte / Arbei
 
 #### Pause
 
-Über das rechte Eingabefeld (erkennbar durch das <FAIcon name="coffee" /> Symbol)
+Über das rechte Eingabefeld (erkennbar durch das <Icon name="coffee" /> Symbol)
 können Sie die geplante Pause für eine Schicht eintragen. Dieses Feld ist nur
 bearbeitbar, falls der Pausenmodus **Geplant** oder **Geplant + Manuell** für
 diese Schicht gewählt ist. Mehr über diese Pausenmodi und wie geplante Pausen
-zur Anwendung kommen, erfahren Sie in dem Hilfeartikel [<FAIcon name="cog" />
-Einstellungen / <FAIcon name="stopwatch" />
+zur Anwendung kommen, erfahren Sie in dem Hilfeartikel [<Icon name="cog" />
+Einstellungen / <Icon name="stopwatch" />
 Zeiterfassung]\(/handbuch/einstellungen/zeiterfassung#pausenberechnung).
 
 ### Gestempelte Arbeitszeiten
 
-Unter dem Punkt <FAIcon name="stopwatch" /> **Gestempelt** finden Sie die über die
+Unter dem Punkt <Icon name="stopwatch" /> **Gestempelt** finden Sie die über die
 **digitale Stempeluhr erfassten** Arbeitszeiten des Mitarbeiters. Diese Option
 ist nicht bearbeitbar und nur ausgefüllt bei vergangenen Schichten, die über
 Pentacode gestempelt wurden!
@@ -164,7 +164,7 @@ bearbeitet werden.
 
 ### Erfasste Arbeitszeiten
 
-Unter dem Punkt <FAIcon name="check" /> **Erfasst** können Sie die Schichtzeiten
+Unter dem Punkt <Icon name="check" /> **Erfasst** können Sie die Schichtzeiten
 sehen und bearbeiten, welche in die Lohnberechnung einfließen. Sollten Sie die
 Stempeluhr verwenden werden dies die **gestempelten Zeiten** mit jeweils
 [eingestellter
@@ -173,18 +173,18 @@ sein. Sollten Sie die Stempeluhr nicht verwenden, werden dies die **geplanten
 Schichtzeiten** sein. Bei zurückliegenden Schichten können Sie manuell den
 erfassten Schichtbeginn und -ende anpassen. 
 
-> <FAIcon name="info-circle" /> **Hinweis:** Änderungen an den erfassten
+> <Icon name="info-circle" /> **Hinweis:** Änderungen an den erfassten
 > Arbeitszeiten fließen direkt in die für die Lohnabrechnung verwendeten
 > Bewegungsdaten ein! **Verändern Sie die erfassten Zeiten nur mit Vorsicht!**
 
 #### Erfasste Pause
 
-Über das rechte Eingabefeld (erkennbar durch das <FAIcon name="coffee" /> Symbol)
+Über das rechte Eingabefeld (erkennbar durch das <Icon name="coffee" /> Symbol)
 können Sie die genommene Pause für eine Schicht bearbeiten. Dieses Feld wird
 automatisch befüllt, sobald die Schicht beendet wurde, kann aber im Nachhinein
 jederzeit bearbeitet werden.
 
-> <FAIcon name="info-circle" /> **Hinweis:** Falls für die aktuelle Schicht der
+> <Icon name="info-circle" /> **Hinweis:** Falls für die aktuelle Schicht der
 > [Pausenmodus]\(/handbuch/einstellungen/zeiterfassung#pausenberechnung)
 > **Automatisch** bzw. **Automatisch + Manuell** gewählt ist, befüllt Pentacode
 > dieses Feld automatisch basierend auf der Länge der geleisteten Arbeitszeit. **Dies
@@ -197,32 +197,32 @@ passiert aber nur dann, wenn noch keine Pause eingetragen wurde!** Das heißt:
 
 ### Mitarbeiteressen
 
-Im Feld <FAIcon name="utensils" /> **Essen** können Sie eingeben, ob Mitarbeiteressen
+Im Feld <Icon name="utensils" /> **Essen** können Sie eingeben, ob Mitarbeiteressen
 für die aktuelle Schicht gebucht werden sollen. Es wird unterschieden zwischen
-**<FAIcon name="pancakes" /> Frühstück**, **<FAIcon name="burger-fries" /> Mittagessen**
-und **<FAIcon name="plate-utensils" /> Abendessen**.
+**<Icon name="pancakes" /> Frühstück**, **<Icon name="burger-fries" /> Mittagessen**
+und **<Icon name="plate-utensils" /> Abendessen**.
 
-> <FAIcon name="info-circle" /> Zusätzlich zu manuellen Buchen von Mitarbeiteressen
+> <Icon name="info-circle" /> Zusätzlich zu manuellen Buchen von Mitarbeiteressen
 > können Sie auch einstellen, dass Mahlzeiten selbstständig durch den
 > Mitarbeiter oder sogar vollautomatisch gebucht werden. Mehr dazu unter
 > [Einstellungen/Zeiterfassung]\(/handbuch/einstellungen/zeiterfassung/#mitarbeiteressen)
 
 ### Umsatz
 
-Über das Feld <FAIcon name="euro-sign" /> **Umsatz** können Sie erfassen, wie viel
+Über das Feld <Icon name="euro-sign" /> **Umsatz** können Sie erfassen, wie viel
 Umsatz der Mitarbeiter während der Schicht eingenommen hat. Dieser Wert wird für
 die Berechnung der Provision herangezogen.
 
-> <FAIcon name="info-circle" /> **Hinweis:** Dieses Feld ist nur dann bearbeitbar,
+> <Icon name="info-circle" /> **Hinweis:** Dieses Feld ist nur dann bearbeitbar,
 > wenn im Vertrag des Mitarbeiters eine Provision hinterlegt ist.
 
 ### Bemerkungen
 
-Über das <FAIcon name="comment" /> **Bemerkungen**-Feld können Sie einen Kommentar für die Schicht hinterlegen.
+Über das <Icon name="comment" /> **Bemerkungen**-Feld können Sie einen Kommentar für die Schicht hinterlegen.
 
 ### Zeiterfassungs-Regeln
 
-Unter dem Punkt <FAIcon name="sliders-h" /> **Regeln** sehen Sie den für diese
+Unter dem Punkt <Icon name="sliders-h" /> **Regeln** sehen Sie den für diese
 Schicht geltenden
 [Zeiterfassungs-Regelsatz]\(/handbuch/einstellungen/zeiterfassung) mit
 einer Zusammenfassung der enthaltenen Einstellungen in Form von Symbolen. Durch
@@ -231,7 +231,7 @@ zur Bearbeitungsansicht des Regelsatzes, wo Sie die genauen Einstellungen
 einsehen und Änderungen vornehmen können (sofern Sie die nötigen Berechtigungen
 haben).
 
-> <FAIcon name="lightbulb" /> **Tipp:** Sie wissen nicht, was die angezeigten Symbole
+> <Icon name="lightbulb" /> **Tipp:** Sie wissen nicht, was die angezeigten Symbole
 > bedeuten? Indem Sie mit der Maus über ein Symbol fahren, erscheint nach kurzer
 > Zeit ein Hinweis zu diesem Symbol.
 
@@ -255,8 +255,8 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    nun schließen, indem sie den <Button label="Zurück" icon="chevron-left" />
    Button klicken oder <Key>Esc</Key> auf Ihrer Tastatur drücken.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Mit der Tastenkombination <Key>⇧</Key> **+**
-> <span class='fake-button'> <FAIcon name="delete-left" /> </span> löschen Sie eine
+> <Icon name="lightbulb" /> **Tipp:** Mit der Tastenkombination <Key>⇧</Key> **+**
+> <span class='fake-button'> <Icon name="delete-left" /> </span> löschen Sie eine
 > ausgewählte Arbeitszeit noch schneller.
 
 ## Freien Tag oder Guttag Erfassen
@@ -270,7 +270,7 @@ Zum Löschen eines Arbeitszeiteintrags gehen Sie wie folgt vor:
    Tagesansicht nun schließen, indem sie den <Button label="Zurück" icon="chevron-left" /> Button klicken oder <Key>Esc</Key> auf Ihrer Tastatur
    drücken.
 
-> <FAIcon name="info-circle" /> **Hinweis:** Freie Tage dienen nur als
+> <Icon name="info-circle" /> **Hinweis:** Freie Tage dienen nur als
 > Platzhalter/Planhilfe und haben keinen Einfluss auf das Arbeitszeitkonto oder
 > die Zeiterfassung.
 
@@ -287,11 +287,11 @@ Wenn Sie die [Sollstundenberechnung](/mitarbeiter/vertrag/) Ihrer Mitarbeiter **
    Sie die <Key>u</Key> Taste auf Ihrer Tastatur für "Urlaub" oder die <Key>k</Key> Taste für "Krank".
 3. Es öffnet sich ein Dialog, in dem Sie den Abweisenheits-Zeitraum und die zu
    buchenden Fehltage eintragen können. Details zu diesem Dialog und generelle
-   Informationen zur Erfassung von Abwesenheiten finden Sie im [<FAIcon name="umbrella-beach" />
+   Informationen zur Erfassung von Abwesenheiten finden Sie im [<Icon name="umbrella-beach" />
    Abwesenheiten]\(/handbuch/mitarbeiter/abwesenheiten#neue-abwesenheit-erfassen)
    Hilfeartikel.
 
-> <FAIcon name="info-circle" /> **Hinweis:** aus Gründen der Übersichtlichkeit haben
+> <Icon name="info-circle" /> **Hinweis:** aus Gründen der Übersichtlichkeit haben
 > wir die Abwesenheitsarten **Kind Krank** und **Krank in KuG** an dieser Stelle
 > weggelassen. Sie können diese im Bereich [Mitarbeiter /
 > Abwesenheiten](https://manage.pentacode.app/employees/all/absences/) erfassen.
@@ -346,7 +346,7 @@ auch auswählen mit welcher
 ausgezahlt werden soll. Sollten Sie sich unsicher sein, fragen Sie dazu ihre
 Buchhaltung. 
 
-> <FAIcon name="person-chalkboard" /> **Beispiel:** Ein Mitarbeiter hat eine
+> <Icon name="person-chalkboard" /> **Beispiel:** Ein Mitarbeiter hat eine
 > wesentliche Menge an Überstunden angesammelt. Um das Arbeitszeitkonto
 > auszugleichen und die geleisteten Überstunden auszubezahlen, wählen Sie die
 > Option **Abbuchung**, geben den auszubezahlenden Stundenbetrag ein und wählen
@@ -380,7 +380,7 @@ wählen Sie **Abbuchung** aus dem Dropdown. Um Stunden hinzuzubuchen, wählen Si
 **Gutschrift**. Abbuchungen **verringern** der Urlaubsanspruch des Mitarbeiters,
 während eine Gutschrift den Urlaubsanspruch des Mitarbeiters **erhöht**.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Sie können neben ganzen Urlaubstagen auch
+> <Icon name="lightbulb" /> **Tipp:** Sie können neben ganzen Urlaubstagen auch
 > beliebige Brüche mit bis zu zwei Nachkommastellen eingeben.
 
 ### Kommentar
@@ -403,7 +403,7 @@ Buchung in der Lohnabrechnung und Lohnabrechnung-Übersicht mit der ausgewählte
 Tages-Arbeitsstunden der letzten 13 Wochen, multipliziert mit dem Betrag der
 abgebuchten Tage.
 
-> <FAIcon name="person-chalkboard" /> **Beispiel:** Ein Mitarbeiter hat eine größere
+> <Icon name="person-chalkboard" /> **Beispiel:** Ein Mitarbeiter hat eine größere
 > Menge an Resturlaub, der aus Zeitgründen nicht vollständig in Anspruch
 > genommen werden kann. Um das Urlaubskonto auszugleichen und den nicht
 > genommenen Urlaub auszubezahlen, wählen Sie die Option **Abbuchung**, geben
@@ -412,7 +412,7 @@ abgebuchten Tage.
 
 ## Arbeitszeiten Exportieren
 
-Klicken Sie auf das <FAIcon name="download" /> mittig-oben auf dem
+Klicken Sie auf das <Icon name="download" /> mittig-oben auf dem
 Arbeitszeitblatt, um auf den Reiter <Button label="Datenexport" icon="download" /> verwiesen zu werden. Dort können Sie die Bewegungsdaten
 des Mitarbeiters sowie weitere Lohndaten exportieren.
 [Hier]\(/handbuch/datenexport/) finden Sie weitere Informationen wie Sie
@@ -438,11 +438,11 @@ Es ist deshalb ratsam, Arbeitszeiten, Mitarbeiterkonten und Lohnabrechnungen in
 regelmäßigen Abständen festzuschreiben. Dies tun sie wie folgt:
 
 1. Navigieren Sie zum Punkt **Mitarbeiter > Arbeitszeiten**.
-2. Klicken Sie auf das <FAIcon name="file-lock" /> Symbol in der rechten oberen Ecke.
+2. Klicken Sie auf das <Icon name="file-lock" /> Symbol in der rechten oberen Ecke.
 3. Klicken Sie auf **Zeitpunkt wählen...** und wählen Sie den Monat, bis zu welchem Arbeitszeiten und Konten festgeschrieben werden sollen.
 4. Klicken sie auf **Bestätigen**.
 
-> <FAIcon name="exclamation-triangle" /> **Achtung:** Das Festschreiben von Konten kann **nicht rückgängig gemacht werden!**
+> <Icon name="exclamation-triangle" /> **Achtung:** Das Festschreiben von Konten kann **nicht rückgängig gemacht werden!**
 
 <Figure caption="Das Festschreiben der Konten sorgt dafür, dass diese rückwirkend nicht mehr verändert werden können.">
 <img src="/mitarbeiter/arbeitszeiten/konten_festschreiben.webp" />

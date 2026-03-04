@@ -5,7 +5,7 @@ sidebar:
 icon: stopwatch
 ---
 import Figure from "../../../components/Figure.astro";
-import FAIcon from "../../../components/FAIcon.astro";
+import Icon from "../../../components/Icon.astro";
 import Button from "../../../components/Button.astro";
 
 Egal wie Sie Arbeitszeiten in Pentacode verwalten - über die [Digitale Stempeluhr]\(/handbuch/stempeluhr/), unsere
@@ -45,16 +45,16 @@ wählen. Es öffnet sich ein Dialogfeld, in welchem Sie die gewünschten Änderu
 
 ### Regelsatz Entfernen
 
-Sie können einen Regelsatz entfernen, indem Sie auf das <FAIcon name="ellipsis-h" /> Icon in der rechten oberen Ecke des
-Listeneintrags klicken und im angezeigten Menü die Option <FAIcon name="trash-alt" /> **Löschen** wählen.
+Sie können einen Regelsatz entfernen, indem Sie auf das <Icon name="ellipsis-h" /> Icon in der rechten oberen Ecke des
+Listeneintrags klicken und im angezeigten Menü die Option <Icon name="trash-alt" /> **Löschen** wählen.
 
 > **Hinweis:** Der "globale" Regelsatz kann nicht gelöscht werden.
 
 ### Regelsatz Duplizieren
 
 Beim Erstellen eines neuen Regelsatzes kann es oft nützlich sein, die Einstellungen eines anderen Regelsatzes zu
-kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option <FAIcon name="clone" />
-**Duplizieren** im <FAIcon name="ellipsis-h" />-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
+kopieren und einzelne Einstellungen anzupassen. Dies können Sie bequem über die Option <Icon name="clone" />
+**Duplizieren** im <Icon name="ellipsis-h" />-Menü des zu duplizierenden Eintrags wählen. Es öffnet sich dann ein
 Bearbeitungsdialog, in dem Sie den duplizierten Eintrag noch bearbeiten können, bevor Sie durch einen Klick auf den <Button label="Speichern" /> Button den Regelsatz hinzufügen.
 
 ## Zuordnung von Regelsätzen
@@ -91,19 +91,19 @@ sowie der jeweiligen Zuordnung von Regelsätzen ab. Hierbei werden grundsätzlic
 Zuordnung zu einem Mitarbeiter) höher priorisiert als weniger spezifische (z.B. Zuordnung zu einem Standort). Die
 Anwendungslogik ist wie folgt:
 
-1. Ist dem **Mitarbeiter** ein Regelsatz zugeordnet? <FAIcon name="arrow-right" /> **Ja**: Regelsatz anwenden; **Nein**:
-   <FAIcon name="arrow-down" />
-2. Ist der **Abteilung** ein Regelsatz zugeordnet? <FAIcon name="arrow-right" /> **Ja:** Regelsatz anwenden ; **Nein**:
-   <FAIcon name="arrow-down" />
-3. Ist dem **Standort** ein Regelsatz zugeordnet? <FAIcon name="arrow-right" /> **Ja:** Regelsatz anwenden ; **Nein**:
-   <FAIcon name="arrow-down" />
+1. Ist dem **Mitarbeiter** ein Regelsatz zugeordnet? <Icon name="arrow-right" /> **Ja**: Regelsatz anwenden; **Nein**:
+   <Icon name="arrow-down" />
+2. Ist der **Abteilung** ein Regelsatz zugeordnet? <Icon name="arrow-right" /> **Ja:** Regelsatz anwenden ; **Nein**:
+   <Icon name="arrow-down" />
+3. Ist dem **Standort** ein Regelsatz zugeordnet? <Icon name="arrow-right" /> **Ja:** Regelsatz anwenden ; **Nein**:
+   <Icon name="arrow-down" />
 4. Verwende den globalen Regelsatz
 
 ### Anzeige im Dienstplan & Arbeitszeitblatt
 
 Bei großen Betrieben mit mehreren Regelsätzen und komplexen Zuordnungen kann es oft schwierig sein nachzuvollziehen,
 welcher Regelsatz bei einer bestimmten Schicht zur Anwendung kommt. Pentacode schafft Ihnen hier Abhilfe, indem es bei
-der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Wählen Sie hierfür einfach die gewünschte Schicht aus - der Regelsatz erscheint dann unter dem Punkt <FAIcon name="sliders-h" /> **Regeln**.
+der Dienstplanung und Bearbeitung von Arbeitszeiten den angewandten Regelsatz direkt anzeigt. Wählen Sie hierfür einfach die gewünschte Schicht aus - der Regelsatz erscheint dann unter dem Punkt <Icon name="sliders-h" /> **Regeln**.
 
 ## Pausen
 
@@ -141,7 +141,7 @@ erfassen, welche dann zu der automatischen Pause **hinzugerechnet** werden.
 
 Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem automatisch berechneten Wert, so wird der erfasste Wert herangezogen und umgekehrt.
 
-> <FAIcon name="person-chalkboard" /> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Ab 6 Stunden ist eine automatische Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Wert von 35 Minuten herangezogen.
+> <Icon name="person-chalkboard" /> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Ab 6 Stunden ist eine automatische Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Wert von 35 Minuten herangezogen.
 
 #### Geplant
 
@@ -158,11 +158,11 @@ manuell erfassten Pausen. Manuell erfasste Pausen werden dann beim Abschluss der
 
 Bei diesem Pausenmodus werden Pausenzeiten zunächst manuell erfasst. Liegt der erfasste Wert über dem geplanten Pausenwert, so wird der erfasste Wert herangezogen und umgekehrt.
 
-> <FAIcon name="person-chalkboard" /> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Es ist eine geplante Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Wert von 35 Minuten herangezogen.
+> <Icon name="person-chalkboard" /> **Beispiel:** Der Mitarbeiter arbeitet 6 Stunden 30 Minuten. Es ist eine geplante Pause von 30 Minuten hinterlegt. Der Mitarbeiter hat insgesamt 25 Minuten Pause manuell erfasst. Es wird dann der höhere Wert von 30 Minuten herangezogen. Hätte der Mitarbeiter z.B. 35 Minuten an Pausen erfasst, so würde der höhere Wert von 35 Minuten herangezogen.
 
 ### Bezahlte Pausen
 
-> <FAIcon name="exclamation-triangle" /> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> <Icon name="exclamation-triangle" /> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
 > Lohnabrechnungen auswirken. Mehr Informationen unter [Neuberechnung von Konten &
 > Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
@@ -172,27 +172,27 @@ Sollten Sie die **Pausenzeiten** Ihrer Mitarbeiter **bezahlen**, können Sie die
 Bezahlte Pausen werden im Arbeitszeitkonto des Mitarbeiters als Pausen ausgewiesen, bei der Lohnabrechnung in ihrer
 Dauer jedoch der Arbeitszeit zugerechnet.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
+> <Icon name="lightbulb" /> **Tipp:** Wenn Sie die **gesetzlichen Pausen bezahlen** wollen, **nicht** aber die Raucherpausen/zusätzlichen Pausen, so setzen Sie den Button bei "**Automatische Pausen Werden Bezahlt**". In diesem Fall werden nur die gesetzlichen Pausen der bezahlten Arbeitszeit zugerechnet, nicht jedoch die Raucherpausen.
 
 ### Pausenabzug
 
-> <FAIcon name="exclamation-triangle" /> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
+> <Icon name="exclamation-triangle" /> **Achtung:** Diese Einstellung kann sich (auch rückwirkend!) auf die Berechnung von Zuschlägen, Konten und
 > Lohnabrechnungen auswirken. Mehr Informationen unter
 > [Neuberechnung von Konten & Lohnabrechnungen](#neuberechnung-von-konten--lohnabrechnungen).
 
 Unter dem Punkt **Pausen abziehen von** können Sie definieren, ob genommene Pausen am Anfang oder am Ende der Schicht zum Abzug kommen sollen. Dies hat vor allem Einfluss auf die Berechnung von SFN-Zuschlägen.
 
-> <FAIcon name="person-chalkboard" /> **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitintervall **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Intervall **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
+> <Icon name="person-chalkboard" /> **Beispiel**: Ein Mitarbeiter arbeitet an einem Wochentag von **18:00 Uhr bis 02:00 Uhr**, inklusive einer **Pause von 30 Minuten**. Wenn die Option "Pausen abziehen von Schichtbeginn" gewählt ist, dann verwendet Pentacode zur Berechnung der Zuschläge das Zeitintervall **18:30 - 02:00**. Es fallen **6 Stunden** an Nachtzuschlägen an. Ist jedoch die Option "Pausen abziehen von Schichtende" gewählt, gilt als effektive Arbeitszeit das Intervall **18:00 - 01:30** und es fallen nur **5,5 Stunden** an Nachtzuschlägen an. 
 
 ## Mitarbeiteressen
 
-Im Bereich **<FAIcon name="utensils" /> Mitarbeiter-Essen** können Sie bestimmen, wie mit der Buchung von Mitarbeiteressen umgegangen werden soll. 
+Im Bereich **<Icon name="utensils" /> Mitarbeiter-Essen** können Sie bestimmen, wie mit der Buchung von Mitarbeiteressen umgegangen werden soll. 
 
 ### Erfassungsmodus
 
 Der Erfassungsmodus bestimmt, wie Mitarbeiteressen erfasst werden. Folgende Varianten stehen zur Verfügung:
 
-> <FAIcon name="info-circle" /> Das manuelle Erfassen und nachträgliche Bearbeiten von Mahlzeiten ist immer möglich, auch wenn Sie den Erfassungsmodus **Automatisch** oder **Durch Mitarbeiter** gewählt haben!
+> <Icon name="info-circle" /> Das manuelle Erfassen und nachträgliche Bearbeiten von Mahlzeiten ist immer möglich, auch wenn Sie den Erfassungsmodus **Automatisch** oder **Durch Mitarbeiter** gewählt haben!
 
 #### Manuell
 
@@ -202,7 +202,7 @@ Es werden keine Mitarbeiteressen automatisch gebucht, sondern müssen bei jeder 
 
 Mahlzeiten werden am Ende der Schicht automatisch gebucht, und zwar basierend auf der Arbeitszeit und den definierten [Zeiträumen](#essensarten-%26-zeiträume).
 
-> **<FAIcon name="person-chalkboard" /> Beispiel:** Ein Mitarbeiter arbeitet von 8:00 bis 16:00. In den Zeiterfassungseinstellungen haben wir Frühstück (6:00 - 9:00), Mittagessen (11:00 - 13:00) und Abendessen (17:00 - 21:00) aktiviert. Die Schicht überlappt mit den Zeiträumen für Frühstück und Mittagessen, also werden diese beiden Mahlzeiten automatisch gebucht.
+> **<Icon name="person-chalkboard" /> Beispiel:** Ein Mitarbeiter arbeitet von 8:00 bis 16:00. In den Zeiterfassungseinstellungen haben wir Frühstück (6:00 - 9:00), Mittagessen (11:00 - 13:00) und Abendessen (17:00 - 21:00) aktiviert. Die Schicht überlappt mit den Zeiträumen für Frühstück und Mittagessen, also werden diese beiden Mahlzeiten automatisch gebucht.
 
 #### Durch Mitarbeiter
 
@@ -223,7 +223,7 @@ Hier können Sie eine Mindestdauer definieren, nach der das Buchen von Essen erl
 Neben dem Erfassungsmodus können Sie außerdem bestimmen, welche Arten von Mahlzeiten in welchen Zeiträumen verfügbar sein sollen.
 Geben Sie einfach die gewünschten Zeiträume über die jeweiligen **von** und **bis** Eingabefelder (Zeiträume dürfen sich nicht überschneiden!). Um eine Mahlzeitart komplett zu deaktivieren, entfernen Sie einfach den Haken in der entsprechenden Zeile.
 
-> <FAIcon name="info-circle" /> Das Konfigurieren von Essensarten und Zeiträumen ist nur für die Erfassungsmodi **Automatisch** und **Durch Mitarbeiter** notwendig.
+> <Icon name="info-circle" /> Das Konfigurieren von Essensarten und Zeiträumen ist nur für die Erfassungsmodi **Automatisch** und **Durch Mitarbeiter** notwendig.
 
 ## Stempeluhr
 
@@ -285,7 +285,7 @@ Beispiel für Abmeldung **"Auf 5 Minuten Abrunden"**: Ein Mitarbeiter meldet sic
 
 Optional können Sie bei der Zeiterfassung über die Stempeluhr bei jeder Aktion auch den geografischen Standort festhalten, welcher dann im [Zeiterfassungsprotokoll]\(/handbuch/zeiterfassung/#das-zeiterfassungsprotokoll) angezeigt wird. 
 
-> <FAIcon name="info-circle" /> **Info:** Um den Standort festzuhalten, muss Pentacode der Zugriff auf die Standorterfassung des Gerätes gestattet sein. Auf der Stempeluhr können Sie das selbst bestimmen. Der Mitarbeiter muss diesen Zugriff jedoch auch gewähren, wenn dieser über die Mitarbeiter-App stempelt! 
+> <Icon name="info-circle" /> **Info:** Um den Standort festzuhalten, muss Pentacode der Zugriff auf die Standorterfassung des Gerätes gestattet sein. Auf der Stempeluhr können Sie das selbst bestimmen. Der Mitarbeiter muss diesen Zugriff jedoch auch gewähren, wenn dieser über die Mitarbeiter-App stempelt! 
 
 ### Beweisfotos
 
@@ -310,7 +310,7 @@ Durch das Scannen des QR-Codes kann Pentacode verifizieren, dass sich der Mitarb
 Arbeitsplatz befindet. Deaktivieren Sie diese Option, falls der Mitarbeiter auch an jenen Arbeitsorten Zeiten erfassen
 soll, an denen kein Tablet mit Stempeluhr vorhanden ist (z.B. im Homeoffice).
 
-> <FAIcon name="info-circle" /> Der QR-Code an der digitalen Stempeluhr wechselt alle 30 Minuten und ist jeweils eine Stunde lang gültig. Das heißt
+> <Icon name="info-circle" /> Der QR-Code an der digitalen Stempeluhr wechselt alle 30 Minuten und ist jeweils eine Stunde lang gültig. Das heißt
 > nach jedem Scannen des QR-Codes muss der Mitarbeiter nach spätestens einer Stunde den Code erneut scannen, bevor er/sie
 > erneut ein- oder ausstempeln kann. Auch das Erfassen von Pausen erfordert eine Verifizierung per QR-Code (falls diese
 > Option aktiviert ist).

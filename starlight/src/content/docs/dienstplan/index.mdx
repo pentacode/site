@@ -3,7 +3,7 @@ title: "Dienstplan"
 icon: table
 ---
 import Figure from "../../../components/Figure.astro";
-import FAIcon from "../../../components/FAIcon.astro";
+import Icon from "../../../components/Icon.astro";
 import Button from "../../../components/Button.astro";
 import Key from "../../../components/Key.astro";
 
@@ -29,7 +29,7 @@ Mitarbeiter, denen mindestens eine Position in dieser Abteilung zugewiesen ist.
 Standardmäßig erscheinen Mitarbeiter in der Reihenfolge, in der sie in Pentacode
 angelegt wurden. Um die Position eines Mitarbeiters nach oben oder unten zu
 verschieben, fahren Sie mit der Maus über Bild/Namen des Mitarbeiters und
-klicken Sie den <FAIcon name="caret-down" /> oder <FAIcon name="caret-up" /> Pfeil.
+klicken Sie den <Icon name="caret-down" /> oder <Icon name="caret-up" /> Pfeil.
 
 ## Zeitraum Wechseln
 
@@ -63,13 +63,13 @@ Dienstplanübersicht erstellen.
 <img src="/dienstplan/kalendereintrag.gif" />
 </Figure>
 
-> <FAIcon name="lightbulb" /> **Tipp:** Sie können durch einen Klick auf das <FAIcon name="tv-retro" /> **Icon** im rechten oberen Eck durch an- und abwählen des grünen Hakens bei Kalendereinträge Notizen an und Abwählen.
+> <Icon name="lightbulb" /> **Tipp:** Sie können durch einen Klick auf das <Icon name="tv-retro" /> **Icon** im rechten oberen Eck durch an- und abwählen des grünen Hakens bei Kalendereinträge Notizen an und Abwählen.
 
 ### Kalendereintrag löschen
 
 Um die Notiz eines oder mehrerer Tage zu löschen klicken Sie einfach über die
 Notiz in der Dienstplanübersicht. Nun können Sie zum einen die **Notiz
-bearbeiten**, durch einen Klick auf den <FAIcon name="trash-alt" />-**Button** können
+bearbeiten**, durch einen Klick auf den <Icon name="trash-alt" />-**Button** können
 Sie die Notiz aber auch komplett löschen.
 
 ## Urlaubssperre einrichten
@@ -81,13 +81,13 @@ Sie die Notiz aber auch komplett löschen.
 
 ## Schulferien anzeigen lassen
 
-Wenn Sie die Kalendereinträge im Ansichtsmenü <FAIcon name="tv-retro" /> angewählt haben, werden Ihnen automatisch die Schulferien des Bundeslandes angezeigt, das in ihrem Standort hinterlegt ist. Damit diese Funktion verfügbar ist, müssen Sie die [Standorteinstellungen](/einstellungen/arbeitsbereiche/) ausfüllen.
+Wenn Sie die Kalendereinträge im Ansichtsmenü <Icon name="tv-retro" /> angewählt haben, werden Ihnen automatisch die Schulferien des Bundeslandes angezeigt, das in ihrem Standort hinterlegt ist. Damit diese Funktion verfügbar ist, müssen Sie die [Standorteinstellungen](/einstellungen/arbeitsbereiche/) ausfüllen.
 
 ## Wetteranzeige
 
 Um bei ihrer Dienstplanung auch das aktuelle Wetter berücksichtigen zu können, zeigt Ihnen Pentacode die aktuelle Vorhersage für die nächsten 16 Tage an. Dabei werden die [Daten des Standorts](/einstellungen/arbeitsbereiche/) verwendet, wodurch sich **die Vorhersage an den ausgewählten Standort anpasst.**
 
-Um die Wetteranzeige an- und auszuschalten, klicken Sie auf das (<FAIcon name="tv-retro" />-Icon) und setzen bei **Wetter** einen grünen Haken.
+Um die Wetteranzeige an- und auszuschalten, klicken Sie auf das (<Icon name="tv-retro" />-Icon) und setzen bei **Wetter** einen grünen Haken.
 
 Pentacode zeigt Ihnen anschließend eine Übersicht mit Temperatur und Regenwahrscheinlichkeit für jeden Tag. Für genauere Vorhersagen fahren Sie mit dem Cursor über den jeweiligen Tag.
 
@@ -103,7 +103,7 @@ zwischen verschiedenen Standorten und [Filtern](#filtern--suchen) wechseln.
 ### Tab Bearbeiten
 
 Sie können Ihre vorhandenen Dienstplan-Tabs bearbeiten, indem Sie den Tab
-auswählen und auf das <FAIcon name="filter" /> **Symbol** klicken. Es öffnet sich ein
+auswählen und auf das <Icon name="filter" /> **Symbol** klicken. Es öffnet sich ein
 Bearbeitungsfenster, in dem Sie den Namen und die Filter für diesen Tab wählen
 können (mehr über Dienstplan-Filter erfahren Sie unter [Filtern &
 Suchen](#filtern--suchen)). Um den Bearbeitungsvorgang zu beenden, klicken Sie
@@ -111,15 +111,15 @@ einfach irgendwo außerhalb des Popovers.
 
 ### Neuen Tab Erstellen
 
-Einen neuen Tab erstellen Sie, indem Sie auf den <Button icon="rectangle-history" /> **Button** mit dem aktuellen Tab und anschließend auf <FAIcon name="plus" /> klicken. Es wird automatisch ein neuer Tab
+Einen neuen Tab erstellen Sie, indem Sie auf den <Button icon="rectangle-history" /> **Button** mit dem aktuellen Tab und anschließend auf <Icon name="plus" /> klicken. Es wird automatisch ein neuer Tab
 hinzugefügt und es öffnet sich das Bearbeitungsfenster.
 
 ### Tab Löschen
 
 Um einen Tab zu löschen, öffnen Sie das [Bearbeitungsfenster](#tab-bearbeiten) und klicken auf den
-<FAIcon name="trash" />-**Button** in der rechten oberen Ecke.
+<Icon name="trash" />-**Button** in der rechten oberen Ecke.
 
-> <FAIcon name="lightbulb" /> Da immer mindestens ein Tab existieren muss, ist der Löschen-Button
+> <Icon name="lightbulb" /> Da immer mindestens ein Tab existieren muss, ist der Löschen-Button
 > deaktiviert, falls Sie nur ein Tab haben.
 
 ## Filtern & Suchen
@@ -133,13 +133,13 @@ den Überblick und können ohne Ablenkung arbeiten.
 Sie jeden Tab als eine spezielle Brille mit eigenen Filtern, um nur das aktuell
 Relevante im Dienstplan zu sehen.
 
-Um die Filter-Einstellungen eines Tabs zu bearbeiten, klicken Sie auf das <FAIcon name="filter" /> **Symbol** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
+Um die Filter-Einstellungen eines Tabs zu bearbeiten, klicken Sie auf das <Icon name="filter" /> **Symbol** (Siehe auch [Tab Bearbeiten](#tab-bearbeiten)).
 
 <Figure caption="Mit Abteilungs- und Zeitfiltern können Sie sich nur die gewünschten Spätschichten anzeigen lassen.">
 <img src="/dienstplan/dienstplan_filter.gif" />
 </Figure>
 
-> <FAIcon name="lightbulb" /> **Tipp:** Wechseln Sie häufig zwischen mehreren
+> <Icon name="lightbulb" /> **Tipp:** Wechseln Sie häufig zwischen mehreren
 > Filter-Einstellungen? Durch mehrere Dienstplan-Tabs mit verschiedenen Filtern können Sie
 > schnell zwischen unterschiedlichen Ansichten wechseln!
 
@@ -195,7 +195,7 @@ Schichtvorschlägen:
 Auf der rechten Seite des Dienstplans finden Sie die **globalen
 Schichtvorschläge**, eine einfache Liste von häufig verwendeten Planzeiten.
 Damit Ihnen diese angezeigt werden, müssen Sie sie vorher in den
-[Planungshilfen](#planungshilfen)(das <FAIcon name="tv-retro" />-Icon) **'Vorschläge & Favoriten'** anwählen. Um
+[Planungshilfen](#planungshilfen)(das <Icon name="tv-retro" />-Icon) **'Vorschläge & Favoriten'** anwählen. Um
 einen Eintrag aus einer globalen Schichtvorlage zu erstellen, ziehen Sie diese
 einfach per **Drag & Drop** in das entsprechende Feld.
 
@@ -214,7 +214,7 @@ Stern neben dem Schichtvorschlag, **entfavorisiert** diesen.
 ### Tages- und MA-spezifische Vorschläge
 
 Die intelligentere Variante von Schichtvorschlägen finden Sie in der
-[Tagesansicht](#tagesansicht) im Menü <FAIcon name="plus" /> **Neuer Eintrag**.
+[Tagesansicht](#tagesansicht) im Menü <Icon name="plus" /> **Neuer Eintrag**.
 Hier werden bis zu 5 Vorschläge angezeigt, basierend auf dem Wochentag, die für
 den Mitarbeiter verfügbaren Positionen und den zuvor in dieser Abteilungen
 geplanten Dienstzeiten. Klicken Sie auf einen gewünschten Vorschlag, um eine neue
@@ -236,13 +236,13 @@ Abteilung tätig sind. Die Mitarbeiter können sich anschließend **freiwillig f
 die Schicht eintragen** und diese somit "vom Markt nehmen".
 
 Aktivieren Sie Nicht Zugewiesene Schichten zuerst in den
-[Planungshilfen](#planungshilfen)(das <FAIcon name="tv-retro" />-Icon) mit einem
+[Planungshilfen](#planungshilfen)(das <Icon name="tv-retro" />-Icon) mit einem
 Klick auf das Feld <Button label="Nicht Zugewiesen" icon="user-slash" />.
 Gehen Sie anschließend wie bei normalen [Dienstzeiten](#dienstzeiten-eintragen)
 vor. Sie müssen lediglich statt eines Mitarbeiters die Zeile "**Nicht
 zugewiesen**" auswählen.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Mit der [automatischen Schichtzuweisung](#automatische-schichtzuweisung) können Sie nicht zugewiesene Schichten schnell auf ihre Belegschaft verteilen!
+> <Icon name="lightbulb" /> **Tipp:** Mit der [automatischen Schichtzuweisung](#automatische-schichtzuweisung) können Sie nicht zugewiesene Schichten schnell auf ihre Belegschaft verteilen!
 
 <Figure caption="So erstellen Sie Schichten, die allen verfügbaren Mitarbeitern der Abteilung zur Auswahl stehen">
 <img src="/dienstplan/nicht_zugewiesen.webp" />
@@ -250,15 +250,15 @@ zugewiesen**" auswählen.
 
 ### Schichtzuweisungen aufheben
 
-<span style="color: purple;"> <FAIcon name="info-circle" /> **Beta Feature! Schichtzuweisungen aufheben ist bisher nur für Beta Kunden freigeschaltet!** </span>
+<span style="color: purple;"> <Icon name="info-circle" /> **Beta Feature! Schichtzuweisungen aufheben ist bisher nur für Beta Kunden freigeschaltet!** </span>
 
-Sie können alle Zuweisungen der geplanten Schichten im Dienstplan auf einmal aufheben. Klicken Sie dazu auf das <FAIcon name="wrench" />-Icon und auf <FAIcon name="user-slash" /> **Schichtzuweisung aufheben**. Alle Schichten werden nun nach "nicht zugewiesen" verschoben. 
+Sie können alle Zuweisungen der geplanten Schichten im Dienstplan auf einmal aufheben. Klicken Sie dazu auf das <Icon name="wrench" />-Icon und auf <Icon name="user-slash" /> **Schichtzuweisung aufheben**. Alle Schichten werden nun nach "nicht zugewiesen" verschoben. 
 
-> <FAIcon name="lightbulb" /> **Tipp:** Wenn Sie die Anzahl und Länge der Schichten aus einer [Vorlage](#vorlage-anwenden) in der Planung verwenden wollen, aber nicht die genaue Zuweisung an die Mitarbeiter: Wenden Sie erst eine Vorlage an und heben Sie dann die Schichtzuweisungen auf. Anschließend können Sie die Schichten wie gewünscht an die Mitarbeiter aufteilen oder [automatisch zuweisen lassen](#automatische-schichtzuweisung).
+> <Icon name="lightbulb" /> **Tipp:** Wenn Sie die Anzahl und Länge der Schichten aus einer [Vorlage](#vorlage-anwenden) in der Planung verwenden wollen, aber nicht die genaue Zuweisung an die Mitarbeiter: Wenden Sie erst eine Vorlage an und heben Sie dann die Schichtzuweisungen auf. Anschließend können Sie die Schichten wie gewünscht an die Mitarbeiter aufteilen oder [automatisch zuweisen lassen](#automatische-schichtzuweisung).
 
 ## Automatische Schichtzuweisung
 
-<span style="color: purple;"> <FAIcon name="info-circle" /> **Beta Feature! Automatische Schichtzuweisungen ist bisher nur für Beta Kunden freigeschalten!** </span>
+<span style="color: purple;"> <Icon name="info-circle" /> **Beta Feature! Automatische Schichtzuweisungen ist bisher nur für Beta Kunden freigeschalten!** </span>
 
 Der automatische Dienstplan ist ein mächtiges Feature, das Ihnen die Erstellung kompletter Dienstpläne maßgeblich erleichtert. Anstatt Schichten manuell zuzuweisen, übernimmt Pentacode die Verteilung für Sie. Das System berücksichtigt dabei die Sollstunden Ihrer Mitarbeiter, den Abbau von Über-/Minderstunden sowie deren Verfügbarkeiten, Urlaube und Kranktage, um eine optimale und regelkonforme Zuweisung vorzunehmen.
 
@@ -269,7 +269,7 @@ Der automatische Dienstplan ist ein mächtiges Feature, das Ihnen die Erstellung
 1. **Dienstplan vorbereiten:**
   - Wählen Sie den gewünschten Standort oder die Abteilung aus.
 
-  - Aktivieren Sie über das <FAIcon name="tv-retro" />-Icon die [Nicht zugewiesenen Schichten](#nicht-zugewiesene-schichten). Es erscheint nun unter jeder Abteilung der Bereich "Nicht zugewiesen".
+  - Aktivieren Sie über das <Icon name="tv-retro" />-Icon die [Nicht zugewiesenen Schichten](#nicht-zugewiesene-schichten). Es erscheint nun unter jeder Abteilung der Bereich "Nicht zugewiesen".
 
   - Legen Sie die gewünschten Schichten ab: Sie können beliebig viele Schichten hinzufügen. 
     - Nutzen Sie hierfür die bereits vorhandenen [Schichtvorschläge](#schichtvorschläge) per Drag & Drop. Sie können Schichten auch stapeln, um mehrere gleiche Schichten abzulegen. 
@@ -278,7 +278,7 @@ Der automatische Dienstplan ist ein mächtiges Feature, das Ihnen die Erstellung
   - Oder nutzen Sie Dienstplanvorlagen: Wenn Sie bereits Dienstplanvorlagen verwenden, können Sie diese mit wenigen Klicks zu nicht zugewiesenen Schichten hinzufügen. Gehen Sie dabei wie unter [Schichtzuweisung aufheben](#schichtzuweisungen-aufheben) beschrieben vor. 
 
 2. **Schichten automatisch zuweisen:**
-  - Klicken Sie auf das <FAIcon name="wrench" />-Icon im Dienstplan-Menü.
+  - Klicken Sie auf das <Icon name="wrench" />-Icon im Dienstplan-Menü.
 
   - Wählen Sie den <Button label="Schichten automatisch zuweisen" icon="robot" />-Button aus.
 
@@ -301,7 +301,7 @@ eingetragen werden.
 
 ### Mit Drag & Drop
 
-Wenn Sie in den [Planungshilfen](#planungshilfen) (das <FAIcon name="tv-retro" />-Icon) **'Vorschläge & Favoriten'** angewählt haben finden Sie auf der rechten
+Wenn Sie in den [Planungshilfen](#planungshilfen) (das <Icon name="tv-retro" />-Icon) **'Vorschläge & Favoriten'** angewählt haben finden Sie auf der rechten
 Seite eine Liste der im Dienstplan verfügbaren Fehltage **Urlaub**, **Krank**,
 **Guttag** und **Frei**. Diese können Sie einfach per **Drag & Drop** in die
 gewünschten Felder ziehen.
@@ -312,13 +312,13 @@ Fehltage können außerdem über das Tagesmenü eingetragen werden. Hierzu öffn
 Sie zunächst die [Tagesansicht](#tagesansicht) für den gewünschten Mitarbeiter
 und Tag, und klicken auf die gewünschte Art von Fehltag.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Fehltage können auch über die Tastaturkürzel <Key class="mono">u</Key> **(Urlaub)**, <Key class="mono">k</Key> **(Krank)**, <Key class="mono">g</Key> **(Guttag)** und <Key class="mono">f</Key> **(Frei)** gewählt werden!
+> <Icon name="lightbulb" /> **Tipp:** Fehltage können auch über die Tastaturkürzel <Key class="mono">u</Key> **(Urlaub)**, <Key class="mono">k</Key> **(Krank)**, <Key class="mono">g</Key> **(Guttag)** und <Key class="mono">f</Key> **(Frei)** gewählt werden!
 
 ## Freie Tage und Guttage eintragen
 
 Um Freie Tage oder Guttage zu planen, gehen Sie wie unter [Fehltage eintragen](#fehltage-eintragen) beschrieben vor. **Freie Tage dienen dabei nur als Platzhalter** und werden in keinerlei Berechnung mit einbezogen. **Guttage werden genutzt, um Mitarbeitern zusätzliche Arbeitszeit in höhe eines Arbeitstages einzutragen.**
 
-> <FAIcon name="person-chalkboard" /> **Beispiel:** Ihr Betrieb ist auch Feiertags geöffnet und ihre Mitarbeiter haben deshalb eine [monatsgenaue Sollstundenberechnung oder nach Wochenfaktor.](/mitarbeiter/vertrag/#arbeitszeit-%26-fehltage) Um nun zu verhindern, dass Mitarbeiter bei Feiertagen keine Minderstunden anhäufen (da diese nicht automatisch aus den Soll-Stunden herausgerechnet werden) können Sie am Feiertag einen Guttag eintragen.
+> <Icon name="person-chalkboard" /> **Beispiel:** Ihr Betrieb ist auch Feiertags geöffnet und ihre Mitarbeiter haben deshalb eine [monatsgenaue Sollstundenberechnung oder nach Wochenfaktor.](/mitarbeiter/vertrag/#arbeitszeit-%26-fehltage) Um nun zu verhindern, dass Mitarbeiter bei Feiertagen keine Minderstunden anhäufen (da diese nicht automatisch aus den Soll-Stunden herausgerechnet werden) können Sie am Feiertag einen Guttag eintragen.
 
 ## Einträge Verschieben
 
@@ -341,11 +341,11 @@ Fehltagen mit der gleichen Fehltags-Art).
 
 ## Einträge Löschen
 
-Um einen Eintrag zu löschen, klicken sie einfach auf das <FAIcon name="times" /> in
+Um einen Eintrag zu löschen, klicken sie einfach auf das <Icon name="times" /> in
 der rechten oberen Ecke des Eintrags. Dies funktioniert sowohl in der
 Tabellenansicht als auch in der [Tagesansicht](#tagesansicht).
 
-> <FAIcon name="lightbulb" /> **Tipp:** Selektierte Einträge können außerdem über das
+> <Icon name="lightbulb" /> **Tipp:** Selektierte Einträge können außerdem über das
 > Tastenkürzel <Key>⇧</Key> + <Key>⌫</Key> gelöscht werden!
 
 ## Veröffentlichen & Teilen
@@ -360,7 +360,7 @@ Mitarbeiter öffentlich machen, bleibt bei Ihnen.
 ### Änderungen einsehen und auswählen
 
 Wenn Sie die vorgenommenen Änderungen vor dem veröffentlichen noch einmal
-einzeln aufgelistet sehen wollen, klicken Sie auf das <FAIcon name="pencil" /> Symbol
+einzeln aufgelistet sehen wollen, klicken Sie auf das <Icon name="pencil" /> Symbol
 am rechten oberen Rand. Es wird Ihnen eine Liste der Änderungen mit dem
 betroffenen Mitarbeiter und dem Zeitpunkt der Änderung angezeigt. 
 
@@ -372,7 +372,7 @@ werden nicht veröffentlicht aber weiterhin gespeichert.
 ### Änderungen Veröffentlichen
 
 Im Dienstplan-Menü auf der rechten Seite zeigt Ihnen der orangene Button mit
-dem <FAIcon name="pencil" /> Symbol an, wie viele Änderungen seit der letzten
+dem <Icon name="pencil" /> Symbol an, wie viele Änderungen seit der letzten
 Veröffentlichung gemacht wurden. Um diese Änderungen zu veröffentlichen, klicken
 Sie auf diesen Button. Es öffnet sich ein Bestätigungs-Dialog, in dem alle
 Änderungen erneut aufgelistet sind. Hier können Sie [auswählen](#änderungen-einsehen-und-auswählen), welche Änderungen Sie veröffentlichen wollen. Klicken Sie auf <Button label="Veröffentlichen" icon="lightbulb" /> zeigt Pentacode an, welche betroffenen
@@ -381,7 +381,7 @@ und auf der öffentlichen [Dienstplan-Seite](#dienstplan-teilen) einsehbar. **Vo
 Änderungen betroffene Mitarbeiter werden automatisch per E-Mail benachrichtigt**
 und erhalten einen Link zu ihrem persönlichen Dienstplan.
 
-> <FAIcon name="lightbulb" /> **Tipp:** Um Mitarbeiter von Änderungen an ihrem
+> <Icon name="lightbulb" /> **Tipp:** Um Mitarbeiter von Änderungen an ihrem
 > persönlichen Dienstplan benachrichtigen zu können, wird eine Emailadresse
 > benötigt. Diese können Sie in den
 > [Stammdaten]\(/handbuch/mitarbeiter/stammdaten/) der einzelnen
@@ -398,7 +398,7 @@ Im gleichen Menü zum [Veröffentlichen von Änderungen](#änderungen-veröffent
 ## Dienstplan Teilen
 
 Sie können ihren Dienstplan auch mit Personen teilen, die keinen Zugang zur
-Mitarbeiterapp haben. Klicken Sie dazu auf den <FAIcon name="share" />-**Button** im
+Mitarbeiterapp haben. Klicken Sie dazu auf den <Icon name="share" />-**Button** im
 rechten oberen Eck. Nun zeigt Ihnen Pentacode einen **Link** an, über den
 Externe den Dienstplan einsehen aber **nicht verändern** können.
 
@@ -412,7 +412,7 @@ des aktuellen Tabs angezeigt wird und bereits
 [veröffentlicht](#änderungen-veröffentlichen) ist (mehr Info siehe
 [Teil-Dienstpläne](#teil-dienstpläne-veröffentlichen)).
 
-> <FAIcon name="person-chalkboard" /> **Beispiel:** In unserem Tab "Frühschicht" werden Spät- und
+> <Icon name="person-chalkboard" /> **Beispiel:** In unserem Tab "Frühschicht" werden Spät- und
 > Managementschichten nicht angezeigt, deshalb sind diese auch nicht Teil des
 > geteilten Dienstplans. Zusätzlich haben wir einige Änderungen geplant, welche
 > wir noch nicht veröffentlicht haben - auch diese werden im geteilten Dienstplan
@@ -438,7 +438,7 @@ Browser-Menü Drucken.
 
 Die Druckoption für den "fertigen" bzw. veröffentlichten Dienstplan finden Sie
 im gleichen Menü wie [Dienstplan teilen](#dienstplan-teilen). Klicken Sie dazu
-erst auf den <FAIcon name="share" />-**Button** und anschließend auf <Button label="Drucken" icon="print" />.
+erst auf den <Icon name="share" />-**Button** und anschließend auf <Button label="Drucken" icon="print" />.
 
 > **Beachten Sie:** Sie drucken stets nur den veröffentlichten Dienstplan.
 
@@ -466,8 +466,8 @@ tragen die gewünschten Dienstzeiten ein. Falls Sie nur eine bestimmte Abteilung
 oder einen bestimmten Zeitraum in Ihrer Vorlage speichern möchten, können Sie
 die zu speichernden Schichten einschränken, indem sie die
 [Filterkriterien](#filtern--suchen) des aktiven Tabs bearbeiten. Öffnen Sie nun
-die Vorlagen-Liste mit einem Klick auf den Button <FAIcon name="floppy-disc-circle-arrow-right" />
-**Vorlagen** und klicken auf den Button <FAIcon name="plus" /> **Neue Vorlage**.
+die Vorlagen-Liste mit einem Klick auf den Button <Icon name="floppy-disc-circle-arrow-right" />
+**Vorlagen** und klicken auf den Button <Icon name="plus" /> **Neue Vorlage**.
 
 Im darauffolgenden Dialog müssen Sie der Vorlage nur noch einen Namen geben -
 können aber auch wählen, Schichten welcher Abteilungen in der Vorlage
@@ -493,13 +493,13 @@ abzuschließen.
 ### Vorlage Löschen
 
 Um eine Vorlage zu löschen, öffnen Sie zunächst die Vorlagen-Liste. Fahren Sie
-dann mit der Maus über die gewünschte Vorlage und klicken Sie den <FAIcon name="trash" />-**Icon**. Klicken Sie **Entfernen** im darauffolgenden
+dann mit der Maus über die gewünschte Vorlage und klicken Sie den <Icon name="trash" />-**Icon**. Klicken Sie **Entfernen** im darauffolgenden
 Bestätigungsdialog, um den Vorgang abzuschließen.
 
 ## Dienstplan Leeren
 
 Um den gesamten Dienstplan zu leeren, klicken Sie das
-<FAIcon name="wrench" />-**Icon** in der oberen rechten Ecke des Dienstplanmenüs. Sie
+<Icon name="wrench" />-**Icon** in der oberen rechten Ecke des Dienstplanmenüs. Sie
 können nun das Feld <Button label="Dienstplan Leeren" icon="trash" />
 auswählen. Sie können entscheiden entweder ausschließlich geplante oder auch
 abgeschlossene Schichten zu löschen. **Mit einem Klick auf 'Dienstplan Leeren'
@@ -516,14 +516,14 @@ Mitarbeiter im Auge behalten, auch die gesetzlichen Vorlagen in Ihrer
 fürchterlichen Vielfalt dürfen nicht verletzt werden. **Pentacode steht Ihnen
 deshalb mit einer Vielzahl von intelligenten Planungshilfen zur Seite!**
 
-> <FAIcon name="lightbulb" /> **Wichtig:** Die Planungshilfen können Sie mit einem Klick
-> auf das <FAIcon name="tv-retro" />  **Icon** im rechten oberen Eck aktivieren und deaktivieren.
+> <Icon name="lightbulb" /> **Wichtig:** Die Planungshilfen können Sie mit einem Klick
+> auf das <Icon name="tv-retro" />  **Icon** im rechten oberen Eck aktivieren und deaktivieren.
 
 ### Problemberichte
 
 Pentacode prüft jede Ihrer Eingaben automatisch auf Fristverletzungen,
 Schichtüberlappungen oder andere Probleme. Diese werden Ihnen unmittelbar im
-Dienstplan-Menü bei dem roten <FAIcon name="exclamation-triangle" /> Symbol
+Dienstplan-Menü bei dem roten <Icon name="exclamation-triangle" /> Symbol
 angezeigt. Ein Klick auf das Icon öffnet eine Liste aller Probleme im aktuellen
 Dienstplan. Dort können Sie direkt den betroffenen Eintrag auswählen, um das
 Problem zu beheben.
@@ -540,7 +540,7 @@ Bei Mitarbeitern, die in mehreren Abteilungen eingesetzt werden, kann es
 hilfreich sein, in einer Abteilung Einträge von anderen Abteilungen zu
 "spiegeln". So sehen Sie immer, wenn ein Mitarbeiter **bereits in einer anderen
 Abteilung eingeteilt ist** und können dies in Ihrer Planung berücksichtigen. Die
-"Schichten Spiegeln"-Funktion kann über das <FAIcon name="tv-retro" /> **Icon**
+"Schichten Spiegeln"-Funktion kann über das <Icon name="tv-retro" /> **Icon**
 aktiviert und deaktiviert werden.
 
 ### Verfügbarkeiten anzeigen
@@ -601,14 +601,14 @@ wird.
 
 ### Kompakte Darstellung
 
-Über das <FAIcon name="grid-3" /> **Symbol** in den [Planungshilfen](#planungshilfen) können Sie den Dienstplan
+Über das <Icon name="grid-3" /> **Symbol** in den [Planungshilfen](#planungshilfen) können Sie den Dienstplan
 von der regulären in eine kompaktere Darstellungsform bringen. Die kompakte Form
 erlaubt es Ihnen auf einen Blick noch mehr Schichten einzusehen, indem einige
 Informationen, wie die Wochenstunden, ausgeblendet werden. Besonders für
 routinierte Anwender und die **erste Grobarbeit an neuen Plänen** eignet sich
 die kompakte Darstellung.
 
-Mit einem Klick auf das <FAIcon name="grid-4" /> **Symbol** können Sie sich den
+Mit einem Klick auf das <Icon name="grid-4" /> **Symbol** können Sie sich den
 Dienstplan noch minimaler darstellen lassen. Nun werden auch die Dauer der
 Schichten ausgeblendet und Sie können besonders einfach sehen, welcher
 Mitarbeiter in welcher Abteilung wann eingeteilt ist. 
@@ -620,7 +620,7 @@ Mitarbeiter in welcher Abteilung wann eingeteilt ist.
 ### Personalkostenanalyse
 
 Für eine effiziente Personalplanung ist es essenziell, immer einen Überblick
-über die entstehenden Personalkosten zu haben. Über den <FAIcon name="chart-line" />-**Button** in den [Planungshilfen](#planungshilfen) erhalten Sie nicht nur eine direkte
+über die entstehenden Personalkosten zu haben. Über den <Icon name="chart-line" />-**Button** in den [Planungshilfen](#planungshilfen) erhalten Sie nicht nur eine direkte
 Auskunft darüber, wie hoch der Kostenaufwand für einen bestimmten Tag ist, Sie
 können bei vergangenen Tagen sogar die geplanten Kosten mit den tatsächlich
 entstandenen vergleichen!
@@ -633,7 +633,7 @@ ein Plan erst dann seinen wahren Wert erkennbar, wenn er an der Wirklichkeit
 Frage beantworten: Haben die Mitarbeiter die durch den Plan gesetzten Vorgaben
 eingehalten?
 
-Durch das Anklicken des <FAIcon name="chart-line" />-**Symbols** erscheinen am Fuß
+Durch das Anklicken des <Icon name="chart-line" />-**Symbols** erscheinen am Fuß
 des Dienstplans **zwei Linien** über welche die **Personalkosten** aus der
 **Planung** den Kosten durch die tatsächlich aufgewendeten **Arbeitszeiten**
 gegenübergestellt sind. Die Kosten beinhalten die **Arbeitgeberanteile** zur
@@ -642,14 +642,14 @@ Sozialversicherung.
 **Die Kosten werden immer nur für die im [Filter des Tabs](#filtern--suchen)
 ausgewählten Abteilungen angezeigt!**
 
-> <FAIcon name="lightbulb" /> **Tipp:** Sollten sich die **Felder** mit Angabe der
+> <Icon name="lightbulb" /> **Tipp:** Sollten sich die **Felder** mit Angabe der
 > €-Beträge **überlappen**, werden die jeweiligen Beträge durch "**Mouse-over**" sichtbar.
 
 <Figure caption="Der Plan-Ist-Vergleich hilft zu überprüfen, ob die Dienstplanung auch eingehalten wird.">
 <img src="/dienstplan/plan_vergleich.gif" />
 </Figure>
 
-Durch **erneutes Anklicken** des <FAIcon name="chart-line" />-**Symbols** wird die
+Durch **erneutes Anklicken** des <Icon name="chart-line" />-**Symbols** wird die
 Plan-Ist-Anzeige wieder **ausgeblendet**.
 
 Die Unterscheidung zwischen geplanten und tatsächlich entstandenen Kosten setzt
