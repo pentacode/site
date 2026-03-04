@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Pentacode Wissensportal",
+      customCss: ["./src/styles/custom.css"],
       components: {
         Sidebar: "./src/components/Sidebar.astro",
       },
