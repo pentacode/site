@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+
+const { sidebar } = Astro.locals.starlightRoute;
+
+// Build href → icon map from content collection frontmatter
+const docs = await getCollection('docs');
+const iconMap: Record<string, string> = {};
+for (const doc of docs) {
+	const icon = (doc.data as any).icon as string | undefined;
+	if (icon) {
+		iconMap[`/${doc.id}/`] = icon;
+	}
+}
+---
+
+<SidebarPersister>
+	<SidebarSublist sublist={sidebar} />
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+	<MobileMenuFooter />
+</div>
+
+<script define:vars={{ iconMap }}>
+  // Inject FA icons into sidebar links after render
+  const nav = document.querySelector('nav.sidebar sl-sidebar-restore')?.closest('details, div')
+    ?? document.querySelector('nav.sidebar');
+  if (nav) {
+    for (const [href, icon] of Object.entries(iconMap)) {
+      const a = nav.querySelector(`a[href="${href}"]`);
+      if (a && !a.querySelector('i.fas')) {
+        const i = document.createElement('i');
+        i.className = `fas fa-${icon}`;
+        a.prepend(i);
+      }
+    }
+  }
+</script>
+
+<style>
+  nav.sidebar a i.fas {
+    width: 1.2em;
+    text-align: center;
+    margin-inline-end: 0.4em;
+    font-size: 0.85em;
+    opacity: 0.8;
+    flex-shrink: 0;
+  }
+</style>

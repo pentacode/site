@@ -103,7 +103,7 @@ function buildFrontmatter(fm, isChapterLevel) {
   }
 
   if (fm.icon) {
-    lines.push(`# icon: ${fm.icon}`);
+    lines.push(`icon: ${fm.icon}`);
   }
 
   if (fm.keywords && Array.isArray(fm.keywords) && fm.keywords.length > 0) {
