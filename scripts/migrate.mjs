@@ -256,7 +256,7 @@ function getImportPath(outputFile) {
   return rel.startsWith(".") ? rel : `./${rel}`;
 }
 
-function processFile(inputPath, outputPath, relPath, isChapterLevel) {
+function processFile(inputPath, outputPath, relPath, isChapterLevel, publicRelDir) {
   const content = readFileSync(inputPath, "utf-8");
   const { frontmatter, body } = parseFrontmatter(content);
 
@@ -273,7 +273,12 @@ function processFile(inputPath, outputPath, relPath, isChapterLevel) {
   }
 
   const newFrontmatter = buildFrontmatter(frontmatter, isChapterLevel);
-  const { body: convertedBody, used } = convertShortcodes(body);
+  let { body: convertedBody, used } = convertShortcodes(body);
+
+  // Rewrite relative image src to absolute public/ path
+  if (publicRelDir) {
+    convertedBody = absolutifyImageSrcs(convertedBody, publicRelDir);
+  }
 
   // Build imports
   const importPath = getImportPath(outputPath);
@@ -292,9 +297,12 @@ function processFile(inputPath, outputPath, relPath, isChapterLevel) {
   console.log(`  OK: ${relPath} -> ${relative(OUTPUT_DIR, outputPath)}`);
 }
 
-function copyImages(srcDir, destDir) {
+// Copy co-located images to public/ (not alongside MDX — Astro doesn't serve them from src/content)
+// publicRelDir: the URL path segment, e.g. "dienstplan" → images go to public/dienstplan/
+function copyImages(srcDir, publicRelDir) {
   if (!existsSync(srcDir)) return;
   const imageExts = new Set([".webp", ".png", ".jpg", ".jpeg", ".gif", ".svg"]);
+  const destDir = join(PUBLIC_DIR, publicRelDir);
 
   for (const entry of readdirSync(srcDir)) {
     const srcPath = join(srcDir, entry);
@@ -304,6 +312,15 @@ function copyImages(srcDir, destDir) {
       cpSync(srcPath, join(destDir, entry));
     }
   }
+}
+
+// Rewrite relative img src="filename.webp" to absolute src="/publicRelDir/filename.webp"
+function absolutifyImageSrcs(body, publicRelDir) {
+  return body.replace(/src\s*=\s*["']([^/"'][^"']*)["']/g, (match, src) => {
+    // Skip if already absolute or a URL
+    if (src.startsWith("/") || src.startsWith("http")) return match;
+    return `src="/${publicRelDir}/${src}"`;
+  });
 }
 
 function walkDir(dir, callback, basePath = dir) {
@@ -341,12 +358,16 @@ walkDir(HANDBUCH_DIR, (inputPath, relPath) => {
 
   const outputPath = join(OUTPUT_DIR, outputRelPath);
   const inputDir = dirname(inputPath);
-  const outputDir = dirname(outputPath);
+  // publicRelDir: URL path where images live, e.g. "dienstplan" or "mitarbeiter/vertrag"
+  // dirname("dienstplan/index.md") = "dienstplan"
+  // dirname("index.md") = "." — for the root index, use empty string
+  const dirPart = dirname(relPath);
+  const publicRelDir = dirPart === "." ? "" : dirPart;
 
-  // Copy co-located images
-  copyImages(inputDir, outputDir);
+  // Copy co-located images to public/<publicRelDir>/
+  copyImages(inputDir, publicRelDir);
 
-  processFile(inputPath, outputPath, relFromRoot, isChapterLevel);
+  processFile(inputPath, outputPath, relFromRoot, isChapterLevel, publicRelDir);
 });
 
 // Migrate top-level stempeluhr
@@ -357,9 +378,9 @@ if (existsSync(STEMPELUHR_DIR)) {
 
   const stempeluhrIndex = join(STEMPELUHR_DIR, "index.md");
   if (existsSync(stempeluhrIndex)) {
-    processFile(stempeluhrIndex, join(stempeluhrOut, "index.mdx"), "stempeluhr/index.md", true);
+    processFile(stempeluhrIndex, join(stempeluhrOut, "index.mdx"), "stempeluhr/index.md", true, "stempeluhr");
   }
-  copyImages(STEMPELUHR_DIR, stempeluhrOut);
+  copyImages(STEMPELUHR_DIR, "stempeluhr");
 }
 
 // Migrate top-level mitarbeiter-app
@@ -370,9 +391,9 @@ if (existsSync(MA_APP_DIR)) {
 
   const maAppIndex = join(MA_APP_DIR, "index.md");
   if (existsSync(maAppIndex)) {
-    processFile(maAppIndex, join(maAppOut, "index.mdx"), "mitarbeiter-app/index.md", true);
+    processFile(maAppIndex, join(maAppOut, "index.mdx"), "mitarbeiter-app/index.md", true, "mitarbeiter-app");
   }
-  copyImages(MA_APP_DIR, maAppOut);
+  copyImages(MA_APP_DIR, "mitarbeiter-app");
 }
 
 // Copy uploads to public
