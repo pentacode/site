@@ -1,0 +1,8 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: extraClass = "" } = Astro.props;
+---
+
+<kbd class={`key ${extraClass}`.trim()}><slot /></kbd>
