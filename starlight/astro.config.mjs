@@ -11,6 +11,7 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css"],
       components: {
         Sidebar: "./src/components/Sidebar.astro",
+        PageTitle: "./src/components/PageTitle.astro",
       },
       locales: {
         root: {

@@ -1,0 +1,214 @@
+/* Article content styles — migrated from _includes/styles/base.html + hilfe.html */
+
+/* ── Headings ──────────────────────────────────────────────── */
+
+.sl-markdown-content h1,
+h1.page-title {
+    color: var(--color-highlight);
+}
+
+h1.page-title {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+
+h1.page-title i.fas {
+    font-size: 0.75em;
+    opacity: 0.85;
+    flex-shrink: 0;
+}
+
+/* ── Inline emphasis (gradient text clip) ────────────────── */
+
+.sl-markdown-content em {
+    display: inline-block;
+    border-radius: 0.5em;
+    background: linear-gradient(125deg, var(--color-highlight), var(--color-highlight-bg));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-style: normal;
+}
+
+/* ── Links ─────────────────────────────────────────────────── */
+
+.sl-markdown-content a {
+    --bg-h: 1px;
+    color: var(--color-highlight);
+    font-weight: 600;
+    background: linear-gradient(0deg, currentColor, currentColor) no-repeat right bottom / 0 var(--bg-h);
+    display: inline;
+    padding-bottom: 1px;
+    transition: background-size 350ms, transform 350ms;
+}
+
+.sl-markdown-content a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+}
+
+/* ── Blockquote ─────────────────────────────────────────────── */
+
+.sl-markdown-content blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: solid 3px var(--blue);
+    background: none;
+    text-align: left;
+    border-radius: 0;
+    color: var(--blue);
+}
+
+.sl-markdown-content blockquote p {
+    margin: 0;
+}
+
+.sl-markdown-content blockquote cite {
+    font-style: italic;
+    color: #888;
+}
+
+/* ── Tables ─────────────────────────────────────────────────── */
+
+.sl-markdown-content table {
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+.sl-markdown-content table th,
+.sl-markdown-content table td {
+    padding: 0.3em 0.6em;
+    vertical-align: top;
+    border: dashed 1px var(--shade-3);
+}
+
+.sl-markdown-content table th {
+    text-align: left;
+}
+
+/* ── Figures ────────────────────────────────────────────────── */
+
+.sl-markdown-content figure {
+    position: relative;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.sl-markdown-content figure figcaption {
+    text-align: center;
+    font-size: 0.7em;
+    opacity: 0.8;
+    padding: 0.5em;
+    line-height: 1.2em;
+}
+
+.sl-markdown-content figure img {
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.sl-markdown-content figure img.no-shadow {
+    box-shadow: none;
+}
+
+.sl-markdown-content figure.border img {
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+}
+
+.sl-markdown-content figure.float-right {
+    float: right;
+    width: 50%;
+    margin-left: 1em;
+    margin-right: -1em;
+}
+
+.sl-markdown-content figure.float-left {
+    float: left;
+    width: 50%;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.sl-markdown-content figure.centered {
+    width: 70%;
+    margin: 2em auto 0 auto;
+}
+
+.sl-markdown-content figure.float {
+    width: 50%;
+}
+
+.sl-markdown-content figure.float.right {
+    float: right;
+    margin: 10px 0 10px 30px;
+}
+
+.sl-markdown-content figure.float.left {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.sl-markdown-content figure.width-25pc,
+.sl-markdown-content figure.narrow {
+    width: 25%;
+}
+
+.sl-markdown-content figure.width-30pc { width: 30%; }
+.sl-markdown-content figure.width-40pc { width: 40%; }
+
+@media (max-width: 55em) {
+    .sl-markdown-content figure.float-right,
+    .sl-markdown-content figure.float-left,
+    .sl-markdown-content figure.float {
+        float: none;
+        width: 100%;
+        margin: 1em 0;
+    }
+}
+
+/* ── Keyboard keys ──────────────────────────────────────────── */
+
+.sl-markdown-content .key,
+.sl-markdown-content kbd {
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0 0.5em;
+    text-align: center;
+    border-radius: 0.4em;
+    background: var(--shade-2);
+    border: solid 1px var(--shade-3);
+    border-bottom-width: 0.2em;
+    font-weight: 600;
+    font-size: 0.9em;
+    font-family: inherit;
+}
+
+/* ── Note / info box ────────────────────────────────────────── */
+
+.sl-markdown-content .note {
+    background: rgba(89, 198, 255, 0.1);
+    padding: 1em;
+    border: solid 1px #23b4ff;
+    clear: both;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+
+.sl-markdown-content .note p:first-child { margin-top: 0; }
+.sl-markdown-content .note p:last-child  { margin-bottom: 0; }
+
+/* ── Utility ────────────────────────────────────────────────── */
+
+.sl-markdown-content .img-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.sl-markdown-content .img-grid p { margin: 0; }

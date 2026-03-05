@@ -1,4 +1,6 @@
 @import "@fontsource-variable/nunito";
+@import "./vars.css";
+@import "./content.css";
 
 :root {
   --sl-font: "Nunito Variable", sans-serif;

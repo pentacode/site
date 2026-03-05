@@ -1,0 +1,9 @@
+---
+const { entry } = Astro.locals.starlightRoute;
+const icon = (entry.data as any).icon as string | undefined;
+---
+
+<h1 id="_top" class="page-title">
+    {icon && <i class={`fas fa-${icon}`} />}
+    {entry.data.title}
+</h1>
