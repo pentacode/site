@@ -55,15 +55,6 @@ export default defineConfig({
           ],
         },
       ],
-      head: [
-        {
-          tag: "link",
-          attrs: {
-            rel: "stylesheet",
-            href: "/fontawesome/css/all.min.css",
-          },
-        },
-      ],
     }),
   ],
   redirects: {
