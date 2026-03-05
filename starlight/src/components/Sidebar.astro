@@ -1,77 +1,81 @@
 ---
-import { getCollection } from 'astro:content';
-import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
-import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
-import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+import { getCollection } from "astro:content";
+import MobileMenuFooter from "virtual:starlight/components/MobileMenuFooter";
+import SidebarPersister from "@astrojs/starlight/components/SidebarPersister.astro";
+import SidebarSublist from "@astrojs/starlight/components/SidebarSublist.astro";
+import solidIcons from "../assets/iconNames";
+import brandIcons from "../assets/iconNames.brands";
+
+type IconName = (typeof solidIcons)[number] | (typeof brandIcons)[number];
 
 const { sidebar } = Astro.locals.starlightRoute;
 
 // Build href → icon map from content collection frontmatter
-const docs = await getCollection('docs');
-const iconMap: Record<string, string> = {};
+const docs = await getCollection("docs");
+const iconMap: Record<string, IconName> = {};
 for (const doc of docs) {
-	const icon = (doc.data as any).icon as string | undefined;
-	if (icon) {
-		iconMap[`/${doc.id}/`] = icon;
-	}
+    const icon = (doc.data as any).icon as IconName | undefined;
+    if (icon) {
+        iconMap[`/${doc.id}/`] = icon;
+    }
 }
 
 // Group label → icon map (for collapsible section headers)
 // Sections with index pages are derived from iconMap; "Verwaltung" is a pure group.
-const groupIconMap: Record<string, string> = {
-	"Verwaltung":   "building",
-	"Mitarbeiter":  iconMap["/mitarbeiter/"]  ?? "users",
-	"Umsätze":      iconMap["/umsaetze/"]     ?? "euro-sign",
-	"Planung":      iconMap["/planung/"]       ?? "calendar-alt",
-	"Berichte":     iconMap["/berichte/"]      ?? "chart-pie",
-	"Einstellungen": iconMap["/einstellungen/"] ?? "cog",
+const groupIconMap: Record<string, IconName> = {
+    Verwaltung: "building",
+    Mitarbeiter: iconMap["/mitarbeiter/"] ?? ("users" satisfies IconName),
+    Umsätze: iconMap["/umsaetze/"] ?? ("euro-sign" satisfies IconName),
+    Planung: iconMap["/planung/"] ?? ("calendar-alt" satisfies IconName),
+    Berichte: iconMap["/berichte/"] ?? ("chart-pie" satisfies IconName),
+    Einstellungen: iconMap["/einstellungen/"] ?? ("cog" satisfies IconName),
 };
 ---
 
 <SidebarPersister>
-	<SidebarSublist sublist={sidebar} />
+    <SidebarSublist sublist={sidebar} />
 </SidebarPersister>
 
 <div class="md:sl-hidden">
-	<MobileMenuFooter />
+    <MobileMenuFooter />
 </div>
 
 <script define:vars={{ iconMap, groupIconMap }}>
-  const nav = document.querySelector('nav.sidebar');
-  if (!nav) return;
+    const nav = document.querySelector("nav.sidebar");
+    if (!nav) return;
 
-  // Inject icons into page links
-  for (const [href, icon] of Object.entries(iconMap)) {
-    const a = nav.querySelector(`a[href="${href}"]`);
-    if (a && !a.querySelector('i.fas')) {
-      const i = document.createElement('i');
-      i.className = `fas fa-${icon}`;
-      a.prepend(i);
+    // Inject icons into page links
+    for (const [href, icon] of Object.entries(iconMap)) {
+        const a = nav.querySelector(`a[href="${href}"]`);
+        if (a && !a.querySelector("i.fas")) {
+            const i = document.createElement("i");
+            i.className = `fas fa-${icon}`;
+            a.prepend(i);
+        }
     }
-  }
 
-  // Inject icons into group summary labels
-  for (const summary of nav.querySelectorAll('summary')) {
-    const labelSpan = summary.querySelector('.group-label > span.large');
-    if (!labelSpan || labelSpan.querySelector('i.fas')) continue;
-    const label = labelSpan.textContent?.trim();
-    const icon = label && groupIconMap[label];
-    if (icon) {
-      const i = document.createElement('i');
-      i.className = `fas fa-${icon}`;
-      labelSpan.prepend(i);
+    // Inject icons into group summary labels
+    for (const summary of nav.querySelectorAll("summary")) {
+        const labelSpan = summary.querySelector(".group-label > span.large");
+        if (!labelSpan || labelSpan.querySelector("i.fas")) continue;
+        const label = labelSpan.textContent?.trim();
+        const icon = label && groupIconMap[label];
+        if (icon) {
+            const i = document.createElement("i");
+            i.className = `fas fa-${icon}`;
+            labelSpan.prepend(i);
+        }
     }
-  }
 </script>
 
 <style>
-  nav.sidebar a i.fas,
-  nav.sidebar .group-label i.fas {
-    width: 1.2em;
-    text-align: center;
-    margin-inline-end: 0.4em;
-    font-size: 0.85em;
-    opacity: 0.8;
-    flex-shrink: 0;
-  }
+    nav.sidebar a i.fas,
+    nav.sidebar .group-label i.fas {
+        width: 1.2em;
+        text-align: center;
+        margin-inline-end: 0.4em;
+        font-size: 0.85em;
+        opacity: 0.8;
+        flex-shrink: 0;
+    }
 </style>

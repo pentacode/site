@@ -1,6 +1,11 @@
 ---
+import solidIcons from '../assets/iconNames';
+import brandIcons from '../assets/iconNames.brands';
+
+type IconName = typeof solidIcons[number] | typeof brandIcons[number];
+
 interface Props {
-  name: string;
+  name: IconName;
 }
 const { name } = Astro.props;
 ---
