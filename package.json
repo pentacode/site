@@ -1,28 +1,32 @@
 {
-  "name": "pentacode-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --port=9090",
-    "predev": "rm -rf _site",
-    "dev": "npx @11ty/eleventy --serve --port=9090"
-  },
-  "engines": {
-    "node": "16.16.x",
-    "npm": "8.11.x"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-navigation": "1.0.4",
-    "@11ty/eleventy-plugin-rss": "1.2.0",
-    "html-minifier-terser": "7.2.0",
-    "markdown-it": "14.1.0",
-    "markdown-it-anchor": "9.2.0",
-    "markdown-it-footnote": "4.0.0",
-    "markdown-it-front-matter": "0.2.4"
-  }
+    "name": "pentacode-site",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "build": "eleventy",
+        "start": "eleventy --serve --port=9090",
+        "predev": "rm -rf _site",
+        "dev": "eleventy --serve --port=9090"
+    },
+    "engines": {
+        "node": "22.18.0",
+        "npm": "10.9.3"
+    },
+    "volta": {
+        "node": "22.18.0",
+        "npm": "10.9.3"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@11ty/eleventy": "3.1.2",
+        "@11ty/eleventy-navigation": "^1.0.5",
+        "@11ty/eleventy-plugin-rss": "3.0.0-alpha.3",
+        "html-minifier-terser": "7.2.0",
+        "markdown-it": "14.1.1",
+        "markdown-it-anchor": "9.2.0",
+        "markdown-it-footnote": "4.0.0",
+        "markdown-it-front-matter": "0.2.4"
+    }
 }

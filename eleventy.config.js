@@ -1,11 +1,10 @@
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItFootnote = require("markdown-it-footnote");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const EleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const { minify: cleanHtml } = require("html-minifier-terser");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const { getTOC } = require("./_lib/toc");
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItFootnote from "markdown-it-footnote";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
+import { minify as cleanHtml } from "html-minifier-terser";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import { getTOC } from "./_lib/toc.js";
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -36,7 +35,7 @@ async function minifyHtml(source, output_path) {
         source.length,
         `→`,
         result.length,
-        `(${((1 - result.length / source.length) * 100).toFixed(2)}% reduction)`
+        `(${((1 - result.length / source.length) * 100).toFixed(2)}% reduction)`,
     );
 
     return result;
@@ -50,7 +49,7 @@ function excludeDrafts(collection) {
     return collection.filter((item) => !item.draft);
 }
 
-module.exports = (config) => {
+export default async function (config) {
     function outdent(str) {
         const lines = str.split("\n");
         const minLeadingWhitespace = lines.reduce((min, line) => Math.min(min, Math.max(0, line.search(/[^\s]/))), 0);
@@ -64,7 +63,7 @@ module.exports = (config) => {
             linkify: true,
         })
             .use(markdownItAnchor)
-            .use(markdownItFootnote)
+            .use(markdownItFootnote),
     );
 
     const md = markdownIt({ html: true, linkify: true });
@@ -88,6 +87,7 @@ module.exports = (config) => {
         return text;
     });
 
+    const { default: EleventyNavigationPlugin } = await import("@11ty/eleventy-navigation");
     config.addPlugin(EleventyNavigationPlugin);
 
     config.addPlugin(EleventyRenderPlugin);
@@ -108,17 +108,15 @@ module.exports = (config) => {
 
     config.addNunjucksShortcode(
         "img",
-        ({ src, title = "", alt = "" }) => html` <img src="${src}" title="${title}" alt="${alt}" /> `
+        ({ src, title = "", alt = "" }) => html` <img src="${src}" title="${title}" alt="${alt}" /> `,
     );
 
-    config.addPairedNunjucksShortcode(
-        "figure",
-        (content, { caption = "", extraClass = "" } = {}) =>
-            outdent(html`
-                <figure class="${extraClass}">
-                    ${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}
-                </figure>
-            `).replace(/\s{2,}/g, "")
+    config.addPairedNunjucksShortcode("figure", (content, { caption = "", extraClass = "" } = {}) =>
+        outdent(html`
+            <figure class="${extraClass}">
+                ${content} ${caption ? html`<figcaption>${caption}</figcaption>` : ""}
+            </figure>
+        `).replace(/\s{2,}/g, ""),
     );
 
     config.addNunjucksShortcode("relref", (ref) => ref);
@@ -130,7 +128,7 @@ module.exports = (config) => {
             html`<span class="fake-button ${extraClass}"
                 >${icon ? html`<i class="fas fa-${icon}"></i>` : ""} ${label ? label : ""}
                 ${iconRight ? html`<i class="fas fa-${iconRight}"></i>` : ""}</span
-            >`
+            >`,
     );
     config.addNunjucksShortcode("param", (param) => html`<strong>[REPLACE_ME ${param}]</strong>`);
     config.addNunjucksShortcode("br", () => html`<br />`);
@@ -146,7 +144,7 @@ module.exports = (config) => {
                 mozallowfullscreen="true"
                 allowfullscreen
             ></iframe>
-        `
+        `,
     );
     config.addNunjucksShortcode(
         "youtube",
@@ -157,7 +155,7 @@ module.exports = (config) => {
                 allowfullscreen
                 title="YouTube Video"
             ></iframe>
-        `
+        `,
     );
     config.addPairedNunjucksShortcode("note", (content) => content);
     config.addPairedNunjucksShortcode("blockquote", (content) => html`<blockquote>${content}</blockquote>`);
@@ -180,25 +178,20 @@ module.exports = (config) => {
                   month: "long",
                   day: "numeric",
               })
-            : ""
+            : "",
     );
     config.addFilter("orderByDate", orderByDate);
     config.addFilter("sortByWeight", (collection) => collection.sort((a, b) => b.weight - a.weight));
     config.addFilter("excludeDrafts", excludeDrafts);
     config.addFilter(
         "getNewestCollectionItemDate",
-        (collection) =>
-            new Date(
-                Math.max(
-                    ...collection.map((item) =>  item.date)
-                )
-            )
+        (collection) => new Date(Math.max(...collection.map((item) => item.date))),
     );
     config.addFilter("getRelatedByCategories", (collection, categories, itemKey) => {
         orderByDate(collection);
 
         const related = excludeDrafts(collection).filter(
-            (item) => item.categories?.some((category) => categories?.includes(category)) && item.key !== itemKey
+            (item) => item.categories?.some((category) => categories?.includes(category)) && item.key !== itemKey,
         );
 
         return related.slice(0, 3);
@@ -208,7 +201,7 @@ module.exports = (config) => {
         orderByDate(collection);
 
         const filtered = excludeDrafts(collection).filter(
-            (item) => !category || item.categories?.some(cat => cat.toLowerCase() === category)
+            (item) => !category || item.categories?.some((cat) => cat.toLowerCase() === category),
         );
 
         return filtered;
@@ -219,4 +212,4 @@ module.exports = (config) => {
     return {
         markdownTemplateEngine: "njk",
     };
-};
+}

@@ -1,34 +1,37 @@
-const fs = require("fs");
-const path = require("path");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItFrontMatter = require("markdown-it-front-matter");
+import fs from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItFrontMatter from "markdown-it-front-matter";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 const md = markdownIt({ html: true, linkify: true })
     .use(markdownItAnchor)
     .use(markdownItFrontMatter, () => {});
 
 function getExpandedCategories(data) {
-    return (
-        data.categories ? data.categories.map(
-            (cat) =>
-                data.all_categories.find((c) => c.name === cat.toLowerCase()) || {
-                    name: cat.toLowerCase(),
-                    title: cat,
-                    icon: "scroll",
-                    color: "blue",
-                }
-        ) : [
-            {
-                name: "sonstiges",
-                title: "Sonstiges",
-                icon: "scroll",
-                color: "blue",
-            },
-        ]
-    );
+    return data.categories
+        ? data.categories.map(
+              (cat) =>
+                  data.all_categories.find((c) => c.name === cat.toLowerCase()) || {
+                      name: cat.toLowerCase(),
+                      title: cat,
+                      icon: "scroll",
+                      color: "blue",
+                  },
+          )
+        : [
+              {
+                  name: "sonstiges",
+                  title: "Sonstiges",
+                  icon: "scroll",
+                  color: "blue",
+              },
+          ];
 }
 
-module.exports = {
+export default {
     eleventyNavigation: {
         key: (data) => {
             const urlParts = data.page.url.split("/");
@@ -62,8 +65,8 @@ module.exports = {
             !data.cover
                 ? undefined
                 : data.cover.startsWith("http") || data.cover.startsWith("/")
-                ? data.cover
-                : `${data.page.url}/${data.cover}`,
+                  ? data.cover
+                  : `${data.page.url}/${data.cover}`,
         coverAlt: (data) => data.coverAlt,
         date: (data) => data.date || data.page.date || new Date(),
         hero_title: (data) => data.hero_title || data.page.hero_title,
@@ -75,12 +78,12 @@ module.exports = {
         expanded_categories: getExpandedCategories,
         author: (data) => data.author || data.page.author,
         content: (data) => {
-            const fileContents = fs.readFileSync(path.join(__dirname, "..", data.page.inputPath), "utf-8");
+            const fileContents = fs.readFileSync(join(__dirname, "..", data.page.inputPath), "utf-8");
             const text = md.render(fileContents).replace(/(<([^>]+)>)/gi, "");
             return text;
         },
         htmlContent: (data) => {
-            const fileContents = fs.readFileSync(path.join(__dirname, "..", data.page.inputPath), "utf-8");
+            const fileContents = fs.readFileSync(join(__dirname, "..", data.page.inputPath), "utf-8");
             const text = md.render(fileContents);
             return text;
         },
