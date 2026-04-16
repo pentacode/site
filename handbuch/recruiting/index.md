@@ -21,6 +21,8 @@ die wichtigsten Informationen angezeigt werden. Klicken Sie auf eine der
 Ausschreibungen, öffnet sich diese im mittigen Fenster und Sie können den Text,
 sowie alle Details der Ausschreibung einsehen.
 
+Das auch löschen
+
 {% figure caption="Klicken Sie auf eine ihrer Stellenanzeigen, um diese zu öffnen" %}
 <img src="übersicht.png" />
 {% endfigure %}
