@@ -10,6 +10,8 @@ verwalten und diese auch gleich einzustellen. Durch die direkte Integration in
 Pentacode wird dabei der Bewerbungsprozess für Sie, als auch für den Bewerber
 deutlich vereinfacht.
 
+Hallo, das muss gelöscht werden, sieht einfach komisch aus...
+
 ## Ausschreibungen Verwaltungsansicht
 
 In die Ausschreibungsübersicht gelangen Sie über den Punkt {% button icon="image-polaroid-user", label="Recruiting" %} im Hauptmenü. Hier können Sie
