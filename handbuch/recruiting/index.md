@@ -5,6 +5,13 @@ weight: 50
 icon: image-polaroid-user
 ---
 
+# Groß
+## Zusammenfassung für Video
+
+{% figure caption="Plz kill diesen -_-" %}
+<img src="test-and-kill.png" />
+{% endfigure %}
+
 Die Recruiting Funktion hilft Ihnen dabei, Stellen auszuschreiben, Bewerber zu
 verwalten und diese auch gleich einzustellen. Durch die direkte Integration in
 Pentacode wird dabei der Bewerbungsprozess für Sie, als auch für den Bewerber
