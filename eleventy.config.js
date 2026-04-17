@@ -104,7 +104,7 @@ export default async function (config) {
     // Old paths
     config.addPassthroughCopy({ "./assets": "/" });
 
-    config.setTemplateFormats(["html", "md", "njk", "png", "jpg", "gif", "webp"]);
+    config.setTemplateFormats(["html", "md", "njk", "png", "jpg", "gif", "webp", "mp4"]);
 
     config.addNunjucksShortcode(
         "img",
