@@ -1,15 +1,15 @@
 ---
 interface Props {
-  label?: string;
-  icon?: string;
-  iconRight?: string;
-  class?: string;
+    label?: string;
+    icon?: string;
+    iconRight?: string;
+    class?: string;
 }
 const { label = "", icon = "", iconRight = "", class: extraClass = "" } = Astro.props;
 ---
 
 <span class={`fake-button ${extraClass}`.trim()}>
-  {icon && <i class={`fas fa-${icon}`}></i>}
-  {label ? ` ${label}` : ""}
-  {iconRight && <i class={`fas fa-${iconRight}`}></i>}
+    {icon && <i class={`fa fa-${icon}`} />}
+    {label ? ` ${label}` : ""}
+    {iconRight && <i class={`fa fa-${iconRight}`} />}
 </span>

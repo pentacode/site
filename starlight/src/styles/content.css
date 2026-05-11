@@ -13,7 +13,7 @@ h1.page-title {
     gap: 0.4em;
 }
 
-h1.page-title i.fas {
+h1.page-title i.fa {
     font-size: 0.75em;
     opacity: 0.85;
     flex-shrink: 0;
@@ -40,7 +40,9 @@ h1.page-title i.fas {
     background: linear-gradient(0deg, currentColor, currentColor) no-repeat right bottom / 0 var(--bg-h);
     display: inline;
     padding-bottom: 1px;
-    transition: background-size 350ms, transform 350ms;
+    transition:
+        background-size 350ms,
+        transform 350ms;
 }
 
 .sl-markdown-content a:where(:hover, :focus-visible) {
@@ -157,8 +159,12 @@ h1.page-title i.fas {
     width: 25%;
 }
 
-.sl-markdown-content figure.width-30pc { width: 30%; }
-.sl-markdown-content figure.width-40pc { width: 40%; }
+.sl-markdown-content figure.width-30pc {
+    width: 30%;
+}
+.sl-markdown-content figure.width-40pc {
+    width: 40%;
+}
 
 @media (max-width: 55em) {
     .sl-markdown-content figure.float-right,
@@ -199,8 +205,12 @@ h1.page-title i.fas {
     border-radius: 8px;
 }
 
-.sl-markdown-content .note p:first-child { margin-top: 0; }
-.sl-markdown-content .note p:last-child  { margin-bottom: 0; }
+.sl-markdown-content .note p:first-child {
+    margin-top: 0;
+}
+.sl-markdown-content .note p:last-child {
+    margin-bottom: 0;
+}
 
 /* ── Utility ────────────────────────────────────────────────── */
 
@@ -211,4 +221,6 @@ h1.page-title i.fas {
     margin-bottom: 0.5em;
 }
 
-.sl-markdown-content .img-grid p { margin: 0; }
+.sl-markdown-content .img-grid p {
+    margin: 0;
+}

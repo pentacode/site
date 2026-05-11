@@ -49,7 +49,7 @@ const groupIconMap: Record<string, IconName> = {
         const a = nav.querySelector(`a[href="${href}"]`);
         if (a && !a.querySelector("i.fas")) {
             const i = document.createElement("i");
-            i.className = `fas fa-${icon}`;
+            i.className = `fa fa-${icon}`;
             a.prepend(i);
         }
     }
@@ -62,15 +62,15 @@ const groupIconMap: Record<string, IconName> = {
         const icon = label && groupIconMap[label];
         if (icon) {
             const i = document.createElement("i");
-            i.className = `fas fa-${icon}`;
+            i.className = `fa fa-${icon}`;
             labelSpan.prepend(i);
         }
     }
 </script>
 
 <style>
-    nav.sidebar a i.fas,
-    nav.sidebar .group-label i.fas {
+    nav.sidebar a i.fa,
+    nav.sidebar .group-label i.fa {
         width: 1.2em;
         text-align: center;
         margin-inline-end: 0.4em;

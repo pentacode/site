@@ -1,9 +1,9 @@
 @import "@fontsource-variable/nunito";
 @import "../assets/icon-fonts.css";
-@import "../assets/fontawesome.min.css";
+@import "../assets/icons.css";
 @import "./vars.css";
 @import "./content.css";
 
 :root {
-  --sl-font: "Nunito Variable", sans-serif;
+    --sl-font: "Nunito Variable", sans-serif;
 }

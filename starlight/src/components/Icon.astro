@@ -1,13 +1,13 @@
 ---
-import solidIcons from '../assets/iconNames';
-import brandIcons from '../assets/iconNames.brands';
+import solidIcons from "../assets/iconNames";
+import brandIcons from "../assets/iconNames.brands";
 
-type IconName = typeof solidIcons[number] | typeof brandIcons[number];
+type IconName = (typeof solidIcons)[number] | (typeof brandIcons)[number];
 
 interface Props {
-  name: IconName;
+    name: IconName;
 }
 const { name } = Astro.props;
 ---
 
-<i class={`fas fa-${name}`}></i>
+<i class={`fa  fa-${name}`}></i>

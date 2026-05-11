@@ -1,185 +1,177 @@
 ---
-import { getCollection } from 'astro:content';
-import Icon from '@astrojs/starlight/components/Icon.astro';
-import Badge from '@astrojs/starlight/components/Badge.astro';
-import SidebarRestorePoint from '@astrojs/starlight/components/SidebarRestorePoint.astro';
+import { getCollection } from "astro:content";
+import Icon from "@astrojs/starlight/components/Icon.astro";
+import Badge from "@astrojs/starlight/components/Badge.astro";
+import SidebarRestorePoint from "@astrojs/starlight/components/SidebarRestorePoint.astro";
 
-type SidebarLink = { type: 'link'; label: string; href: string; isCurrent: boolean; badge: any; attrs: any };
-type SidebarGroup = { type: 'group'; label: string; entries: SidebarEntry[]; collapsed: boolean; badge: any };
+type SidebarLink = { type: "link"; label: string; href: string; isCurrent: boolean; badge: any; attrs: any };
+type SidebarGroup = { type: "group"; label: string; entries: SidebarEntry[]; collapsed: boolean; badge: any };
 type SidebarEntry = SidebarLink | SidebarGroup;
 
 function flattenSidebar(entries: SidebarEntry[]): SidebarLink[] {
-	return entries.flatMap((e) => e.type === 'group' ? flattenSidebar(e.entries) : e);
+    return entries.flatMap((e) => (e.type === "group" ? flattenSidebar(e.entries) : e));
 }
 
 interface Props {
-	sublist: SidebarEntry[];
-	nested?: boolean;
+    sublist: SidebarEntry[];
+    nested?: boolean;
 }
 
 const { sublist, nested } = Astro.props;
 
 // Build href → icon map from content collection
-const docs = await getCollection('docs');
+const docs = await getCollection("docs");
 const iconMap = new Map<string, string>();
 for (const doc of docs) {
-	const icon = (doc.data as any).icon;
-	if (icon) {
-		// doc.id is the slug (e.g. "mitarbeiter/allgemein"), href is "/{id}/"
-		iconMap.set(`/${doc.id}/`, icon);
-		// Also handle root index
-		if (doc.id === 'index') iconMap.set('/', icon);
-	}
+    const icon = (doc.data as any).icon;
+    if (icon) {
+        // doc.id is the slug (e.g. "mitarbeiter/allgemein"), href is "/{id}/"
+        iconMap.set(`/${doc.id}/`, icon);
+        // Also handle root index
+        if (doc.id === "index") iconMap.set("/", icon);
+    }
 }
 ---
 
-<ul class:list={{ 'top-level': !nested }}>
-	{
-		sublist.map((entry) => (
-			<li>
-				{entry.type === 'link' ? (
-					<a
-						href={entry.href}
-						aria-current={entry.isCurrent ? 'page' : undefined}
-						class:list={[{ large: !nested }, entry.attrs.class]}
-						{...entry.attrs}
-					>
-						{iconMap.has(entry.href) && (
-							<i class={`fas fa-${iconMap.get(entry.href)}`} />
-						)}
-						<span>{entry.label}</span>
-						{entry.badge && (
-							<Badge
-								variant={entry.badge.variant}
-								class={entry.badge.class}
-								text={entry.badge.text}
-							/>
-						)}
-					</a>
-				) : (
-					<details
-						open={flattenSidebar(entry.entries).some((i) => i.isCurrent) || !entry.collapsed}
-					>
-						<summary>
-							<span class="group-label">
-								<span class="large">{entry.label}</span>
-								{entry.badge && (
-									<Badge
-										variant={entry.badge.variant}
-										class={entry.badge.class}
-										text={entry.badge.text}
-									/>
-								)}
-							</span>
-							<Icon name="right-caret" class="caret" size="1.25rem" />
-						</summary>
-						<SidebarRestorePoint />
-						<Astro.self sublist={entry.entries} nested />
-					</details>
-				)}
-			</li>
-		))
-	}
+<ul class:list={{ "top-level": !nested }}>
+    {
+        sublist.map((entry) => (
+            <li>
+                {entry.type === "link" ? (
+                    <a
+                        href={entry.href}
+                        aria-current={entry.isCurrent ? "page" : undefined}
+                        class:list={[{ large: !nested }, entry.attrs.class]}
+                        {...entry.attrs}
+                    >
+                        {iconMap.has(entry.href) && <i class={`fa fa-${iconMap.get(entry.href)}`} />}
+                        <span>{entry.label}</span>
+                        {entry.badge && (
+                            <Badge variant={entry.badge.variant} class={entry.badge.class} text={entry.badge.text} />
+                        )}
+                    </a>
+                ) : (
+                    <details open={flattenSidebar(entry.entries).some((i) => i.isCurrent) || !entry.collapsed}>
+                        <summary>
+                            <span class="group-label">
+                                <span class="large">{entry.label}</span>
+                                {entry.badge && (
+                                    <Badge
+                                        variant={entry.badge.variant}
+                                        class={entry.badge.class}
+                                        text={entry.badge.text}
+                                    />
+                                )}
+                            </span>
+                            <Icon name="right-caret" class="caret" size="1.25rem" />
+                        </summary>
+                        <SidebarRestorePoint />
+                        <Astro.self sublist={entry.entries} nested />
+                    </details>
+                )}
+            </li>
+        ))
+    }
 </ul>
 
 <style>
-	@layer starlight.core {
-		ul {
-			--sl-sidebar-item-padding-inline: 0.5rem;
-			list-style: none;
-			padding: 0;
-		}
+    @layer starlight.core {
+        ul {
+            --sl-sidebar-item-padding-inline: 0.5rem;
+            list-style: none;
+            padding: 0;
+        }
 
-		li {
-			overflow-wrap: anywhere;
-		}
+        li {
+            overflow-wrap: anywhere;
+        }
 
-		ul ul li {
-			margin-inline-start: var(--sl-sidebar-item-padding-inline);
-			border-inline-start: 1px solid var(--sl-color-hairline-light);
-			padding-inline-start: var(--sl-sidebar-item-padding-inline);
-		}
+        ul ul li {
+            margin-inline-start: var(--sl-sidebar-item-padding-inline);
+            border-inline-start: 1px solid var(--sl-color-hairline-light);
+            padding-inline-start: var(--sl-sidebar-item-padding-inline);
+        }
 
-		.large {
-			font-size: var(--sl-text-lg);
-			font-weight: 600;
-			color: var(--sl-color-white);
-		}
+        .large {
+            font-size: var(--sl-text-lg);
+            font-weight: 600;
+            color: var(--sl-color-white);
+        }
 
-		.top-level > li + li {
-			margin-top: 0.75rem;
-		}
+        .top-level > li + li {
+            margin-top: 0.75rem;
+        }
 
-		summary {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			padding: 0.2em var(--sl-sidebar-item-padding-inline);
-			line-height: 1.4;
-			cursor: pointer;
-			user-select: none;
-		}
-		summary::marker,
-		summary::-webkit-details-marker {
-			display: none;
-		}
+        summary {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.2em var(--sl-sidebar-item-padding-inline);
+            line-height: 1.4;
+            cursor: pointer;
+            user-select: none;
+        }
+        summary::marker,
+        summary::-webkit-details-marker {
+            display: none;
+        }
 
-		.caret {
-			transition: transform 0.2s ease-in-out;
-			flex-shrink: 0;
-		}
-		:global([dir='rtl']) .caret {
-			transform: rotateZ(180deg);
-		}
-		[open] > summary .caret {
-			transform: rotateZ(90deg);
-		}
+        .caret {
+            transition: transform 0.2s ease-in-out;
+            flex-shrink: 0;
+        }
+        :global([dir="rtl"]) .caret {
+            transform: rotateZ(180deg);
+        }
+        [open] > summary .caret {
+            transform: rotateZ(90deg);
+        }
 
-		a {
-			display: block;
-			border-radius: 0.25rem;
-			text-decoration: none;
-			color: var(--sl-color-gray-2);
-			padding: 0.3em var(--sl-sidebar-item-padding-inline);
-			line-height: 1.4;
-		}
+        a {
+            display: block;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            color: var(--sl-color-gray-2);
+            padding: 0.3em var(--sl-sidebar-item-padding-inline);
+            line-height: 1.4;
+        }
 
-		a:hover,
-		a:focus {
-			color: var(--sl-color-white);
-		}
+        a:hover,
+        a:focus {
+            color: var(--sl-color-white);
+        }
 
-		[aria-current='page'],
-		[aria-current='page']:hover,
-		[aria-current='page']:focus {
-			font-weight: 600;
-			color: var(--sl-color-text-invert);
-			background-color: var(--sl-color-text-accent);
-		}
+        [aria-current="page"],
+        [aria-current="page"]:hover,
+        [aria-current="page"]:focus {
+            font-weight: 600;
+            color: var(--sl-color-text-invert);
+            background-color: var(--sl-color-text-accent);
+        }
 
-		a > *:not(:last-child),
-		.group-label > *:not(:last-child) {
-			margin-inline-end: 0.25em;
-		}
+        a > *:not(:last-child),
+        .group-label > *:not(:last-child) {
+            margin-inline-end: 0.25em;
+        }
 
-		a i.fas {
-			width: 1.2em;
-			text-align: center;
-			margin-inline-end: 0.4em;
-			font-size: 0.85em;
-			opacity: 0.8;
-		}
+        a i.fa {
+            width: 1.2em;
+            text-align: center;
+            margin-inline-end: 0.4em;
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
 
-		@media (min-width: 50rem) {
-			.top-level > li + li {
-				margin-top: 0.5rem;
-			}
-			.large {
-				font-size: var(--sl-text-base);
-			}
-			a {
-				font-size: var(--sl-text-sm);
-			}
-		}
-	}
+        @media (min-width: 50rem) {
+            .top-level > li + li {
+                margin-top: 0.5rem;
+            }
+            .large {
+                font-size: var(--sl-text-base);
+            }
+            a {
+                font-size: var(--sl-text-sm);
+            }
+        }
+    }
 </style>
