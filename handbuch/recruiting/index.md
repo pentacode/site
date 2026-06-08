@@ -276,7 +276,7 @@ und der Mitarbeiter ist im Handumdrehen angelegt!
 
 Nicht jeder Bewerber ist für die ausgeschriebene Stelle geeignet. Um ungeeignete
 Kandidaten auszusortieren, öffnen Sie einfach deren [Detailansicht](#bewerber-einsehen)
-und klicken Sie auf {% button icon="envelope", button icon="handshake-slash", label="Mit Email Ablehnen" %} um die hinterlegte automatische Absagemail zu versenden oder auf {% button icon="handshake-slash", label="Ohne Email Ablehnen" %} um die Bewerbung ohne Antwort abzulehnen.
+und klicken Sie auf {% button icon="envelope", label="Mit Email Ablehnen" %} um die hinterlegte automatische Absagemail zu versenden oder auf {% button icon="handshake-slash", label="Ohne Email Ablehnen" %} um die Bewerbung ohne Antwort abzulehnen.
 Die Bewerbung wird dann unter **Abgelehnte Bewerbungen** angezeigt.
 
 > {% icon "lightbulb" %} **Tipp:** Abgelehnte Bewerber können Sie unter **Abgelehnte Bewerbungen** der aktiven Stellenanzeige oder im [Stellenarchiv] weiterhin einsehen.
