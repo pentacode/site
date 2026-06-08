@@ -6,36 +6,37 @@ icon: image-polaroid-user
 ---
 
 Die Recruiting Funktion hilft Ihnen dabei, Stellen auszuschreiben, Bewerber zu
-verwalten und diese auch gleich einzustellen. Durch die direkte Integration in
+verwalten und diese auch gleich einzustellen oder abzulehnen. Durch die direkte Integration in
 Pentacode wird dabei der Bewerbungsprozess für Sie, als auch für den Bewerber
 deutlich vereinfacht.
 
 ## Ausschreibungen Verwaltungsansicht
 
 In die Ausschreibungsübersicht gelangen Sie über den Punkt {% button icon="image-polaroid-user", label="Recruiting" %} im Hauptmenü. Hier können Sie
-nun auf einen Blick all ihre **Stellenausschreibungen** einsehen und verwalten.
-Links sehen Sie eine Liste mit allen Stellenausschreibungen, wobei nur Titel und
+nun auf einen Blick all ihre aktiven **Stellenausschreibungen** einsehen und verwalten.
+Links sehen Sie eine Liste mit allen aktiven Stellenausschreibungen, wobei nur der Titel und
 die wichtigsten Informationen angezeigt werden. Klicken Sie auf eine der
 Ausschreibungen, öffnet sich diese im mittigen Fenster und Sie können den Text,
 sowie alle Details der Ausschreibung einsehen.
 
 {% figure caption="Klicken Sie auf eine ihrer Stellenanzeigen, um diese zu öffnen" %}
-<img src="übersicht.png" />
+<img src="uebersicht_neu.png" />
 {% endfigure %}
 
 ## Ausschreibung erstellen
 
 So erstellen Sie eine neue Ausschreibung:
 
-1. Klicken Sie auf {% button icon="plus", label="Neue Ausschreibung" %} unter der
+1. Klicken Sie auf {% button icon="plus", label="Neue Ausschreibung" %} über der
    Ausschreibungs-Liste.
 2. Es öffnet sich das Formular zum Erstellen einer neuen Ausschreibung, wo Sie
-   den Ausschreibungstitel, Beschreibung und verschiedene Details zur Stelle
-   angeben können. Geben Sie die gewünschten Angaben ein und klicken Sie auf
+   den Ausschreibungstitel, Beschreibung und verschiedene Konditionen zur Stelle
+   angeben können. Zusätzlich können Sie pro Ausschreibung eine individuelle automatische Eingangsbestätigung oder vorbereitete Absage, sowie Bilder hinterlegen.
+   Geben Sie die gewünschten Angaben ein und klicken Sie auf
    {% button label="Speichern" %}.
 
 Eine Liste der verfügbaren Felder und deren Beschreibung finden Sie unter
-[Felder & Eigenschaften](#ausschreibung-felder--eigenschaften).
+[Felder & Eigenschaften](#felder-%26-eigenschaften).
 
 ## Ausschreibung bearbeiten
 
@@ -44,24 +45,30 @@ eventuell korrigieren oder abändern. Dies tun Sie wie folgt:
 
 1. Wählen Sie in der
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
-   Ausschreibung, indem Sie auf den entsprechenden Eintrag in der Liste auf linken
+   Ausschreibung, indem Sie auf den entsprechenden Eintrag in der Liste auf der linken
    Seite klicken.
 2. Klicken Sie den {% button icon="pencil" %}-**Button** in der rechten oberen Ecke.
 3. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf {% button label="Speichern" %}.
 
-## Ausschreibung löschen
+## Ausschreibung archivieren
 
 Wenn Sie eine Ausschreibung nicht mehr benötigen, etwa weil Sie einen geeigneten
-Bewerber gefunden haben, lassen sich diese auch leicht wieder löschen:
+Bewerber gefunden haben, lassen sich diese einfach archivieren. So behalten Sie den Überblick über abgelehnte Bewerbungen:
+
+{% figure caption="Klicken Sie auf eine archivierte Stellenanzeigen, um abgelehnte Bewerbungen erneut einzusehen" %}
+<img src="stellenarchiv_neu.png" />
+{% endfigure %}
 
 1. Wählen Sie in der
    [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht) eine
-   Ausschreibung, indem Sie auf den entsprechenden Eintrag in der Liste auf linken
+   Ausschreibung, indem Sie auf den entsprechenden Eintrag in der Liste auf der linken
    Seite klicken.
-2. Klicken Sie den {% button icon="trash" %}-**Button** im der rechten oberen Ecke.
-3. Bestätigen Sie die Aktion durch einen Klick auf {% button label="Löschen" %}.
+2. Klicken Sie den {% button icon="box-archive" %}-**Button** im der rechten oberen Ecke.
+3. Bestätigen Sie die Aktion durch einen Klick auf {% button label="Archivieren" %}.
+4. Archivierte Ausschreibungen finden Sie im {% button icon="box-archive" %}-**Stellenarchiv** auf der linken Seite unter der [Ausschreibungsübersicht](#ausschreibungen-verwaltungsansicht).
+5. Im {% button icon="box-archive" %}-**Stellenarchiv** können Sie über einen Klick auf eine archivierte Ausschreibung abgelehnte Bewerbungen erneut einsehen und kontaktieren.
 
-## Ausschreibung Felder & Eigenschaften
+## Felder & Eigenschaften
 
 Eine Stellenausschreibung besteht im Wesentlichen aus einem
 [Ausschreibungs-Titel](#titel) und einer frei formatierbaren
@@ -179,6 +186,22 @@ So fügen Sie Ihrer Ausschreibung ein Bild hinzu:
 > einer Ausschreibung nicht das **Recruiting** Fenster zu verlassen, da sonst
 > die nicht gespeicherte Stelle gelöscht wird.
 
+### Eingangsbestätigung
+
+Passend zu Ihrer Stellenausschreibung können Sie eine Eingangsbestätigung hinterlegen. So werden Bewerber automatisch mit einer zur Ausschreibung passenden und von Ihnen definierten Mail über den Bewerbungseingang informiert. Zudem können Sie eine gesonderte Mailadresse hinterlegen, an die sich Bewerber bei Fragen wenden können.
+
+1. Klicken Sie auf den {% button icon="rectangle-history-circle-plus" %} **Button** unter **Eingangsbestätigung**.
+2. Hinterlegen Sie einen Titel und passenden Text für die automatische Eingangsbestätigung.
+3. Klicken Sie auf {% button label="Speichern" %}.
+
+### Automatische Absage
+
+Nicht jede Bewerbung erfüllt Ihre Erwartungen oder Anforderungen. Damit Sie nicht jedesmal einen neue Absagemail formulieren müssen, können Sie eine auf die Ausschreibung angepasste Absage vorformulieren und bei Absage einer Bewerbung direkt an den Bewerber senden.
+
+1. Klicken Sie auf den {% button icon="rectangle-history-circle-plus" %} **Button** unter **Automatische Absage**.
+2. Hinterlegen Sie einen Titel und passenden Text für die Absage.
+3. Klicken Sie auf {% button label="Speichern" %}.
+
 ## Bewerbungsprozess
 
 Nachdem Sie eine Ausschreibung [erstellt](#ausschreibung-erstellen) haben, geht
@@ -210,12 +233,12 @@ Bewerberansicht. Hier sieht er zum einen Titel, Inhalt und Details der Stelle,
 zum anderen kann er sich über ein Formular direkt bewerben. In diesem Formular
 wird er gebeten seine Daten anzugeben - darunter zählen Vor- und Nachnamen,
 Geburtsdatum, Email Adresse, Telefonnummer, Verfügbarkeit und Wohnadresse. Zudem
-kann er ein Bild von sich hochladen, um es der Bewerbung beizufügen. Mit einem
+kann er einen kurzen Text und weitere Bewerbungsunterlagen wie z.B. einen Lebenslauf oder Arbeitszeugnisse hochladen, um diese der Bewerbung beizufügen. Mit einem
 Klick auf {% button label="Absenden" %} landet die Bewerbung nun direkt in ihrem
 Pentacode Verwaltungszugang.
 
 {% figure caption="Das Bewerberformular bietet einen Überblick über die wichtigsten Daten und ist schnell ausgefüllt" %}
-<img src="bewerberansicht.png"/>
+<img src="bewerberansicht_neu.png"/>
 {% endfigure %}
 
 ### Bewerber einsehen
@@ -223,11 +246,11 @@ Pentacode Verwaltungszugang.
 Nachdem Sie den [Bewerbungslink](#bewerbungslink-teilen) publiziert haben,
 sollten Sie schnell die ersten Bewerbungen erhalten. Diese finden Sie in
 der entsprechenden Ausschreibung unterhalb der Beschreibung, wo Sie
-Namen, Profilbild und Alter (falls angegeben) und die Verfügbarkeit des
+Namen, Alter, die Verfügbarkeit Anschreiben und Bewerbungsunterlagen des
 Mitarbeiters sehen. Klicken Sie auf einen Bewerber, um dessen Detailansicht zu öffnen.
 
 {% figure caption="Klicken Sie auf einen Bewerber, um die Detailansicht zu öffnen." %}
-<img src="personaleransicht.png" />
+<img src="personalansicht_neu.png" />
 {% endfigure %}
 
 ### Bewerber einstellen
@@ -241,7 +264,7 @@ Es öffnet sich nun der Dialog zum [Erstellen eines neuen
 Mitarbeiters](../mitarbeiter/allgemein/#neuen-mitarbeiter-anlegen), wo alle
 verfügbaren Daten des Bewerbers (Namen und Adresse, Email, Telefon etc.) so wie
 die Beschäftigungsdetails aus der Ausschreibung (Positionen, Wochenstunden etc.)
-bereits ausgefüllt sind. Sie müssen also nur noch die fehlenden Daten nachtragen
+bereits ausgefüllt sind. In der Bewerbung enthaltene Dokumente werden direkt in die [Digitale Personalakte](../mitarbeiter/dokumente/index.md#dokumentenübersicht) übernommen Sie müssen also nur noch die fehlenden Daten nachtragen
 und der Mitarbeiter ist im Handumdrehen angelegt!
 
 > {% icon "lightbulb" %} **Tipp:** In vielen Fällen möchten Sie den Kandidaten
@@ -251,12 +274,9 @@ und der Mitarbeiter ist im Handumdrehen angelegt!
 
 ### Bewerber ablehnen
 
-Nicht jeder Bewerber ist auf für ausgeschriebene Stelle geeignet. Um ungeeignete
+Nicht jeder Bewerber ist für die ausgeschriebene Stelle geeignet. Um ungeeignete
 Kandidaten auszusortieren, öffnen Sie einfach deren [Detailansicht](#bewerber-einsehen)
-und klicken Sie auf {% button icon="handshake-slash", label="Ablehnen" %}.
-Der Kandidat wird dann von der List der Bewerber entfernt.
+und klicken Sie auf {% button icon="envelope", label="Mit Email Ablehnen" %} um die hinterlegte automatische Absagemail zu versenden oder auf {% button icon="handshake-slash", label="Ohne Email Ablehnen" %} um die Bewerbung ohne Antwort abzulehnen.
+Die Bewerbung wird dann unter **Abgelehnte Bewerbungen** angezeigt.
 
-> {% icon "exclamation-triangle" %} **Achtung:** Abgelehnte Bewerber werden
-> unwiderruflich aus dem System entfernt und können nicht wiederhergestellt werden!
-> In künftigen Versionen wird es aber die Möglichkeit geben, Bewerber zu
-> archivieren ohne Sie komplett zu entfernen.
+> {% icon "lightbulb" %} **Tipp:** Abgelehnte Bewerber können Sie unter **Abgelehnte Bewerbungen** der aktiven Stellenanzeige oder im [Stellenarchiv] weiterhin einsehen.
