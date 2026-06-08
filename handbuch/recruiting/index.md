@@ -36,7 +36,7 @@ So erstellen Sie eine neue Ausschreibung:
    {% button label="Speichern" %}.
 
 Eine Liste der verfügbaren Felder und deren Beschreibung finden Sie unter
-[Felder & Eigenschaften](#ausschreibung-felder--eigenschaften).
+[Felder & Eigenschaften](#felder-%26-eigenschaften).
 
 ## Ausschreibung bearbeiten
 
@@ -250,7 +250,7 @@ Namen, Alter, die Verfügbarkeit Anschreiben und Bewerbungsunterlagen des
 Mitarbeiters sehen. Klicken Sie auf einen Bewerber, um dessen Detailansicht zu öffnen.
 
 {% figure caption="Klicken Sie auf einen Bewerber, um die Detailansicht zu öffnen." %}
-<img src="personaleransicht_neu.png" />
+<img src="personalansicht_neu.png" />
 {% endfigure %}
 
 ### Bewerber einstellen
